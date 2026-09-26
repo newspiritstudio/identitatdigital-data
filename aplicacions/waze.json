@@ -1,0 +1,553 @@
+{
+  "slug": "waze",
+  "name": "Waze Navegación y Tráfico",
+  "company": "waze-mobile",
+  "categories": [
+    "mapes-i-navegacio",
+    "mobilitat-i-transport"
+  ],
+  "tagline": "Navegació gratuïta que registra amb detall els teus desplaçaments i hi personalitza anuncis lligats al compte de Google",
+  "summary": "Waze és de Google però conserva Waze Mobile Ltd., d’Israel, com a responsable del tractament. Registra la ubicació i els trajectes amb detall, també quan l’aplicació no està en ús si ho has permès, i hi suma les adreces desades de casa i de la feina, les cerques, les gravacions de veu i, si ho autoritzes, els esdeveniments del calendari. Els anuncis dels comerços del mapa es personalitzen amb aquestes dades i amb l’activitat del compte de Google. Té mode invisible, descàrrega de dades i eliminació del compte des de la mateixa aplicació.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "advertising",
+  "jurisdiction": "Israel (decisió d’adequació), dins del grup Google",
+  "userBase": "Més de 140 milions de persones usuàries actives mensuals, segons Waze.",
+  "links": {
+    "website": "https://www.waze.com/",
+    "privacyPolicy": "https://support.google.com/waze/answer/12075406",
+    "privacyCenter": "https://myadcenter.google.com/",
+    "appStore": "https://apps.apple.com/es/app/id323229106"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "waze-privacy-policy"
+    ],
+    "detail": "Es pot navegar sense compte, però cal registrar-se per desar adreces, sincronitzar dispositius i fer servir les funcions socials.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "waze-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "L’historial de trajectes de Waze mostra on viu una persona, on treballa, a quina hora surt, on va els caps de setmana i amb quina freqüència. Hi ha la ubicació precisa contínua, les adreces desades, les cerques i, si s’activa, el calendari, tot vinculat a la identitat i utilitzable per a publicitat.",
+  "dataCollection": [
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "waze-privacy-policy",
+        "waze-app-store"
+      ],
+      "note": "La política admet que es recull també quan l’aplicació no està en ús, si s’hi ha donat permís. L’etiqueta la declara per a publicitat de tercers i del desenvolupador."
+    },
+    {
+      "type": "adreca-postal",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "waze-privacy-policy"
+      ],
+      "note": "Adreces desades de casa i de la feina, que la política cita expressament com a base dels anuncis personalitzats."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "waze-privacy-policy",
+        "waze-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compartir-dins-del-grup"
+      ],
+      "sources": [
+        "waze-app-store",
+        "waze-privacy-policy"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "waze-privacy-policy",
+        "waze-app-store"
+      ]
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "waze-app-store",
+        "waze-privacy-policy"
+      ]
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "waze-privacy-policy",
+        "waze-app-store"
+      ],
+      "note": "Gravacions de veu per a les ordres parlades i per gravar indicacions personalitzades."
+    },
+    {
+      "type": "metadades-de-comunicacio",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "waze-privacy-policy"
+      ],
+      "note": "Esdeveniments del calendari, si s’activa la sincronització; la política diu que s’esborren després de l’esdeveniment."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "waze-privacy-policy"
+      ],
+      "note": "Xats amb altres persones usuàries i informes d’incidències."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "waze-app-store",
+        "waze-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "waze-app-store",
+        "waze-privacy-policy"
+      ]
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "waze-app-store"
+      ]
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "waze-privacy-policy"
+      ],
+      "note": "Inclou la llista d’aplicacions de tercers instal·lades que es poden integrar amb Waze, com Spotify."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "waze-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada utilitzada per rastrejar-te, tot i que la publicitat es personalitza amb dades del compte de Google.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "waze-app-store",
+        "waze-privacy-policy"
+      ],
+      "detail": "L’etiqueta declara dades de publicitat vinculades a la identitat; la personalització es fa amb el compte de Google més que amb l’identificador del dispositiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "waze-privacy-policy"
+      ],
+      "detail": "La política parla d’encarregats i d’integracions amb aplicacions de tercers com Spotify, i comparteix informació desidentificada amb altres productes de mapes de Google.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "waze-privacy-policy",
+        "waze-app-store"
+      ],
+      "detail": "Els anuncis es personalitzen amb les adreces desades, l’historial de cerques i l’activitat del compte de Google. Si es desactiva, es continuen veient anuncis no personalitzats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "waze-privacy-policy"
+      ],
+      "detail": "La personalització d’anuncis i de rutes implica perfilar els desplaçaments habituals.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu l’ús de les dades per entrenar models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "waze-privacy-policy"
+      ],
+      "detail": "Encarregats, socis publicitaris i autoritats amb requeriment legal; la política diu que no es venen dades personals.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "waze-privacy-policy",
+        "google-privacy-policy"
+      ],
+      "detail": "Waze comparteix informació desidentificada amb altres productes de mapes de Google i la publicitat es lliga a l’activitat del compte de Google.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "waze-privacy-policy"
+      ],
+      "detail": "La política afirma que Waze no ven dades personals.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "waze-privacy-policy"
+      ],
+      "detail": "El responsable és una societat israeliana i les dades es tracten també als Estats Units dins del grup Google. Israel té decisió d’adequació de la Comissió Europea.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "adequacy"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-transparency-report"
+      ],
+      "detail": "Waze forma part de Google, que publica un informe periòdic de peticions d’autoritats.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "waze-privacy-policy"
+      ],
+      "detail": "Les dades del compte es conserven fins que s’elimina; els esdeveniments del calendari s’esborren després de l’esdeveniment i les dades de pagament es guarden per obligacions fiscals.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "waze-privacy-policy"
+      ],
+      "detail": "L’esborrat complet triga unes dues setmanes i pot arribar fins a dos mesos, i algunes dades queden un temps a les còpies de seguretat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "metadades-de-comunicacio",
+        "period": "Els esdeveniments del calendari s’esborren un cop passat l’esdeveniment",
+        "sources": [
+          "waze-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "identificador-de-compte",
+        "period": "Fins a dos mesos per completar l’eliminació del compte",
+        "sources": [
+          "waze-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "waze-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "waze-privacy-policy"
+      ],
+      "detail": "Des de la configuració de privadesa de l’aplicació o des del web de Waze.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://support.google.com/waze/answer/12075406",
+    "difficulty": "easy",
+    "requiresSupportContact": false,
+    "steps": [
+      "Si vols conservar els teus trajectes, descarrega abans les dades des del tauler de Waze.",
+      "Obre l’aplicació i entra a la configuració, a l’apartat de privadesa.",
+      "Tria l’opció d’eliminar el compte (també es pot fer des del web de Waze).",
+      "Confirma-ho: el procés d’esborrat pot trigar unes dues setmanes i completar-se fins a dos mesos després."
+    ],
+    "dataRetained": "Segons la política, part de la informació pot romandre un temps a les còpies de seguretat i es conserven les dades exigides per obligacions fiscals.",
+    "sources": [
+      "waze-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "waze-privacy-policy"
+      ],
+      "detail": "Es poden descarregar les dades del compte des del tauler de Waze.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "waze-privacy-policy",
+        "google-privacy-policy"
+      ],
+      "detail": "A privacy@waze.com i pels canals de drets de Google.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "waze-privacy-policy",
+        "google-ad-center"
+      ],
+      "detail": "Es pot desactivar la publicitat personalitzada a la configuració de privadesa de l’aplicació o al centre d’anuncis de Google; els anuncis no personalitzats no es poden treure.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "waze-privacy-policy"
+      ],
+      "detail": "El mode invisible evita compartir la posició amb la comunitat, però no atura la recollida de dades de navegació per part de Waze.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "waze-privacy-policy"
+      ],
+      "detail": "La configuració de privadesa permet triar el mode invisible, la sincronització del calendari, la visibilitat del perfil i la publicitat personalitzada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem revisat les pantalles de permisos de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "no",
+      "level": "editorial",
+      "sources": [
+        "waze-privacy-policy"
+      ],
+      "detail": "Els xats i la ubicació es tracten als servidors de Waze; la política no esmenta cap xifratge d’extrem a extrem.",
+      "verifiedAt": "2026-09-22",
+      "scope": "none"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-privacy-policy"
+      ],
+      "detail": "Si s’hi entra amb el compte de Google, s’hereten les seves opcions de verificació en dos passos.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Google té un programa de recompenses, però no hem verificat que cobreixi Waze."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "alternatives": [
+    {
+      "app": "google-maps",
+      "comparability": "partial",
+      "rationale": "Ofereix la mateixa navegació amb trànsit en temps real sense les funcions socials ni els avisos de la comunitat de Waze.",
+      "tradeOffs": "És del mateix grup i la publicitat i l’historial d’ubicacions queden lligats igualment al compte de Google."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "La política de Waze és la del 8 de juliol del 2026, allotjada al centre d’ajuda de Google, i conviu amb la política general de Google. L’etiqueta de l’App Store no declara cap dada per rastrejar malgrat la publicitat personalitzada. No hem pogut fer la cerca d’incidents perquè la sessió havia exhaurit el pressupost de cerques.",
+    "openQuestions": [
+      "Quant de temps es conserva l’historial de trajectes si no s’elimina el compte?",
+      "El programa de recompenses de Google cobreix Waze?"
+    ]
+  },
+  "appStoreBundleId": "com.waze.iphone"
+}

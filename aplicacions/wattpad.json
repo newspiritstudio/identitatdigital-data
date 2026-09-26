@@ -1,0 +1,611 @@
+{
+  "slug": "wattpad",
+  "name": "Wattpad",
+  "company": "wattpad-corp",
+  "categories": [
+    "llibres-i-lectura",
+    "comunitats-i-forums"
+  ],
+  "tagline": "Comunitat d’escriptura amb públic adolescent, publicitat de Google i una filtració de 268 milions de comptes",
+  "summary": "Wattpad és una plataforma de lectura i escriptura social amb una base d’usuàries molt jove. El que s’hi llegeix i s’hi escriu alimenta la personalització i la publicitat, servida amb Google AdSense for Platforms, a qui la política reconeix que es cedeix l’adreça electrònica. El 2020 va patir una de les filtracions més grans documentades: 268 milions de comptes amb noms, adreces, gènere, dates de naixement i contrasenyes xifrades amb bcrypt.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "advertising",
+  "jurisdiction": "Canadà, amb representant a la Unió Europea a Dublín",
+  "userBase": "Comunitat global de milions de persones lectores i escriptores",
+  "links": {
+    "website": "https://www.wattpad.com",
+    "privacyPolicy": "https://policies.wattpad.com/privacy",
+    "terms": "https://policies.wattpad.com/terms",
+    "appStore": "https://apps.apple.com/es/app/id306310789"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "wattpad-privacy-policy"
+    ],
+    "detail": "Es pot llegir sense compte, però desar lectures, comentar o publicar en demana un amb data de naixement.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "wattpad-terms"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "L’historial de lectura d’una plataforma de ficció revela gèneres, temes i identitat i, en una comunitat adolescent, etapes de formació personal. Wattpad hi suma la data de naixement, el gènere declarat i la ubicació aproximada, i ho fa servir per personalitzar i per anunciar.",
+  "dataCollection": [
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "wattpad-privacy-policy",
+        "wattpad-play-data-safety"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "wattpad-privacy-policy"
+      ],
+      "note": "La política reconeix que es comparteix amb Google AdSense for Platforms."
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "wattpad-privacy-policy"
+      ],
+      "note": "Serveix per oferir contingut adequat a l’edat; el servei no admet menors de 13 anys."
+    },
+    {
+      "type": "contrasenya",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "wattpad-privacy-policy"
+      ]
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "wattpad-privacy-policy",
+        "wattpad-play-data-safety"
+      ]
+    },
+    {
+      "type": "genere",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "wattpad-privacy-policy"
+      ]
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "wattpad-terms",
+        "wattpad-play-data-safety"
+      ],
+      "note": "Les obres i els comentaris són públics i queden sota una llicència no exclusiva de publicació."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "wattpad-play-data-safety"
+      ],
+      "note": "La fitxa de Google Play declara «altres missatges dins de l’aplicació» amb finalitat de personalització."
+    },
+    {
+      "type": "historial-de-visualitzacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "wattpad-privacy-policy"
+      ],
+      "note": "Les pàgines visitades i les històries llegides."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "wattpad-play-data-safety"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "personalitzacio-de-continguts",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "wattpad-privacy-policy",
+        "wattpad-play-data-safety"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "wattpad-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "wattpad-play-data-safety"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "wattpad-privacy-policy"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "wattpad-privacy-policy",
+        "wattpad-play-data-safety"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "wattpad-play-data-safety"
+      ],
+      "note": "Monedes i capítols de pagament."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "wattpad-play-data-safety"
+      ],
+      "note": "Imatges de perfil i portades de les obres."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wattpad-privacy-policy"
+      ],
+      "detail": "La publicitat es serveix amb Google AdSense for Platforms, a qui es cedeix l’adreça electrònica.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wattpad-play-data-safety"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wattpad-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wattpad-privacy-policy"
+      ],
+      "detail": "Publicitat segmentada servida per Google, amb consentiment per als correus comercials quan la llei ho exigeix.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wattpad-privacy-policy"
+      ],
+      "detail": "Personalitza el descobriment d’històries a partir del comportament de lectura.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu si les obres publicades serveixen per entrenar models, una qüestió especialment rellevant en una plataforma de ficció original."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wattpad-privacy-policy"
+      ],
+      "detail": "Empreses afiliades, proveïdors de correu i allotjament, Google AdSense for Platforms i autoritats quan la llei ho exigeix.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wattpad-privacy-policy"
+      ],
+      "detail": "La política preveu la compartició amb les empreses afiliades del grup, sense enumerar-les.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "wattpad-terms"
+      ],
+      "detail": "Les condicions declaren que mai no es vendrà el contingut de les persones usuàries a tercers sense permís exprés.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wattpad-privacy-policy"
+      ],
+      "detail": "Les dades es tracten al Canadà i als Estats Units; per al Canadà hi ha decisió d’adequació de la Comissió Europea.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "adequacy"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap informe de transparència sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wattpad-privacy-policy"
+      ],
+      "detail": "Els comptes desactivats es poden recuperar durant sis mesos i després s’esborren definitivament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wattpad-privacy-policy",
+        "wattpad-terms"
+      ],
+      "detail": "Els comentaris i les aportacions a la comunitat no s’esborren: s’anonimitzen i es queden a la plataforma.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "period": "6 mesos de desactivació abans de l’esborrat definitiu",
+        "sources": [
+          "wattpad-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wattpad-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "wattpad-privacy-policy"
+      ],
+      "detail": "La política remet a la configuració del perfil per gestionar el compte i a l’adreça de privadesa per a la sol·licitud formal de supressió; no hem pogut verificar el botó de baixa perquè el centre d’ajuda bloqueja l’accés automatitzat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "waitingPeriodDays": 180,
+    "steps": [
+      "Entra al teu perfil de Wattpad i revisa la configuració del compte.",
+      "Sol·licita la supressió escrivint a privacy@wattpad.com, invocant l’article 17 del RGPD.",
+      "Tingues present que el compte queda desactivat sis mesos abans de l’esborrat definitiu.",
+      "Descarrega abans les teves obres: les condicions no garanteixen que es recuperin després."
+    ],
+    "obstacles": "Els comentaris i les aportacions a la comunitat es queden a la plataforma, anonimitzats, i no es poden esborrar.",
+    "dataRetained": "Comentaris i missatges als taulers, anonimitzats però conservats.",
+    "sources": [
+      "wattpad-privacy-policy",
+      "wattpad-terms"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "wattpad-privacy-policy"
+      ],
+      "detail": "Es pot demanar una còpia en format llegible per màquina escrivint a l’adreça de privadesa; no hi ha eina d’autoservei.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacy@wattpad.com"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wattpad-privacy-policy"
+      ],
+      "detail": "Hi ha representant a la Unió Europea designat a l’article 27 (DataRep, Dublín) i una adreça de privadesa.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:wattpad@datarep.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap control per desactivar la publicitat personalitzada dins de l’aplicació."
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap manera de desactivar l’analítica d’ús."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "wattpad-privacy-policy"
+      ],
+      "detail": "Hi ha preferències de correu i de visibilitat del perfil, però no un panell de privadesa per finalitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [
+        "wattpad-privacy-policy"
+      ],
+      "detail": "Els sis mesos de desactivació abans de l’esborrat funcionen com una finestra de retenció: el compte continua existint mig any després de demanar-ne la baixa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "hidden-exit",
+        "severity": "medium",
+        "description": "La supressió definitiva no és immediata: el compte queda desactivat sis mesos i els comentaris s’anonimitzen en lloc d’esborrar-se.",
+        "sources": [
+          "wattpad-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "La plataforma és de publicació pública; els missatges privats no es presenten com a xifrats d’extrem a extrem.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wattpad-play-data-safety"
+      ],
+      "detail": "El desenvolupador declara a Google Play que les dades es xifren en trànsit.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "partial",
+      "level": "independent",
+      "sources": [
+        "wattpad-hibp-breach"
+      ],
+      "detail": "Les contrasenyes exposades a la filtració del 2020 estaven xifrades amb bcrypt, un algorisme adequat; la resta de camps eren en clar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta la verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories independents publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses públic; el domini no serveix cap fitxer security.txt accessible."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap canal específic de comunicació de vulnerabilitats."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "storytel",
+      "comparability": "partial",
+      "rationale": "Per llegir ficció amb un model de subscripció que no depèn de la publicitat segmentada.",
+      "tradeOffs": "No té comunitat d’escriptura ni obres originals publicades per persones usuàries, que és el nucli de Wattpad."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La filtració del 2020 continua sent el fet més rellevant de la fitxa i té valor pràctic: qui hi tingués compte abans del juliol d’aquell any hauria de canviar la contrasenya a tot arreu on la reutilitzés. La cessió de l’adreça electrònica a la plataforma publicitària de Google, en un servei amb públic adolescent, és l’altre punt rellevant.",
+    "openQuestions": [
+      "L’etiqueta de privadesa de l’App Store no s’ha pogut consultar: Apple va respondre amb un error 429 durant tota la revisió.",
+      "Les obres publicades a Wattpad s’utilitzen per entrenar models de llenguatge?",
+      "Hi ha un botó d’eliminació del compte a la configuració? El centre d’ajuda bloqueja l’accés automatitzat."
+    ]
+  },
+  "appStoreBundleId": "com.fivemobile.wattpad"
+}

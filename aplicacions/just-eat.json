@@ -1,0 +1,675 @@
+{
+  "slug": "just-eat",
+  "name": "Just Eat",
+  "company": "just-eat-takeaway",
+  "categories": [
+    "repartiment-a-domicili"
+  ],
+  "tagline": "L’etiqueta de l’App Store declara compres, informació financera i ubicació entre les dades utilitzades per rastrejar",
+  "summary": "Just Eat declara a l’App Store que fa servir l’historial de compres, la informació financera, la ubicació i l’historial de cerca per rastrejar entre aplicacions i webs d’altres empreses. La política diu que els anuncis personalitzats fora de la plataforma depenen del consentiment, però que segmenta la clientela i crea audiències per interès legítim, i enumera socis de mitjans com Meta, TikTok o Pinterest. El compte s’elimina des de la configuració de l’aplicació i, des del 2025, l’empresa és de Prosus.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Països Baixos (Takeaway.com Group B.V. és el responsable del tractament)",
+  "links": {
+    "website": "https://www.just-eat.es/",
+    "privacyPolicy": "https://www.just-eat.es/privacy-policy",
+    "appStore": "https://apps.apple.com/es/app/id566347057"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "just-eat-privacy-policy"
+    ],
+    "detail": "La política preveu comptes de client i esmenta comptes de convidat creats en el passat; no queda clar si encara es pot demanar sense registrar-se.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "just-eat-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Les comandes de menjar revelen horaris, hàbits alimentaris, al·lèrgies i restriccions religioses; les de farmàcia, tractaments i condicions de salut, com reconeix la mateixa política. L’adreça de lliurament i la ubicació hi afegeixen on viu i on es mou la persona, i l’etiqueta declara que bona part d’aquestes dades serveixen per rastrejar.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "just-eat-privacy-policy",
+        "just-eat-app-store"
+      ],
+      "note": "Es comparteix amb el restaurant o establiment i amb la persona repartidora."
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "just-eat-privacy-policy",
+        "just-eat-app-store"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "just-eat-privacy-policy",
+        "just-eat-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "just-eat-privacy-policy",
+        "just-eat-app-store"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "just-eat-privacy-policy",
+        "just-eat-app-store"
+      ],
+      "note": "Amb consentiment. L’etiqueta declara la ubicació entre les dades utilitzades per rastrejar."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "just-eat-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "just-eat-privacy-policy",
+        "just-eat-app-store"
+      ],
+      "note": "Es comparteixen amb processadors de pagament com Adyen. L’etiqueta inclou la informació financera entre les dades utilitzades per rastrejar."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "just-eat-privacy-policy",
+        "just-eat-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "personalitzacio-de-continguts",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "just-eat-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "just-eat-privacy-policy"
+      ],
+      "note": "La política reconeix que les comandes de farmàcia, les al·lèrgies o les preferències dietètiques poden revelar dades de salut, i diu que tracta les de medicaments amb consentiment."
+    },
+    {
+      "type": "conviccions-i-opinions",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "just-eat-privacy-policy"
+      ],
+      "note": "La política admet que les restriccions dietètiques religioses es poden revelar a través de les comandes."
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal"
+      ],
+      "sources": [
+        "just-eat-privacy-policy"
+      ],
+      "note": "Verificació d’edat i identitat per a alcohol o tabac, per part de la persona repartidora o escanejant el document."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "just-eat-privacy-policy",
+        "just-eat-app-store"
+      ],
+      "note": "Xats amb atenció al client i amb les persones repartidores."
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "just-eat-privacy-policy"
+      ],
+      "note": "Enregistrament de trucades amb atenció al client."
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "just-eat-privacy-policy"
+      ],
+      "note": "Les ressenyes es poden publicar amb el nom de pila."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "just-eat-privacy-policy"
+      ],
+      "note": "Segments de clientela per crear i emparellar audiències, basats en l’interès legítim."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "just-eat-privacy-policy",
+        "just-eat-app-store"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "just-eat-privacy-policy"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "just-eat-privacy-policy"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "just-eat-app-store",
+        "just-eat-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "just-eat-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "just-eat-app-store"
+      ],
+      "detail": "L’etiqueta declara compres, informació financera, ubicació, historial de cerca, identificadors, dades d’ús i altres dades utilitzats per rastrejar entre aplicacions i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "just-eat-privacy-policy",
+        "just-eat-app-store"
+      ],
+      "detail": "La política inclou l’identificador del dispositiu entre les dades per a màrqueting.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "just-eat-privacy-policy"
+      ],
+      "detail": "Col·labora amb empreses que rastregen les interaccions amb el web, l’aplicació i els anuncis, i enumera DV360, Meta, Reddit, TikTok, Snapchat i Pinterest com a socis de mitjans.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "just-eat-privacy-policy"
+      ],
+      "detail": "Anuncis personalitzats dins i fora de la plataforma a partir de la ubicació i l’historial de comandes. Diu que el seguiment basat en galetes requereix consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "just-eat-privacy-policy"
+      ],
+      "detail": "Presa de decisions automatitzada i perfilat amb finalitats de màrqueting i per personalitzar continguts i recomanacions; la segmentació d’audiències es basa en l’interès legítim i s’hi pot oposar amb un formulari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política diu que pot fer servir IA per identificar tendències i millorar productes, però no aclareix si les dades de clientela entrenen models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "just-eat-privacy-policy"
+      ],
+      "detail": "Establiments, empreses de repartiment, processadors de pagament com Adyen, prevenció del frau, proveïdors de màrqueting i publicitat, empreses d’estudis de mercat i socis de fidelització.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "just-eat-privacy-policy",
+        "just-eat-takeaway-prosus-offer"
+      ],
+      "detail": "Compartició amb les filials de JET i, quan és estrictament necessari, amb el grup Naspers/Prosus, accionista majoritari des del 2025.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta la venda de dades a intermediaris."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "just-eat-privacy-policy"
+      ],
+      "detail": "Transferències fora de l’Espai Econòmic Europeu, entre d’altres als Estats Units, amb clàusules contractuals tipus i el Marc de Privadesa de Dades UE-EUA.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "just-eat-privacy-policy"
+      ],
+      "detail": "La política dona criteris generals i només un termini concret: les dades de l’última activitat, com l’última adreça o el permís d’ubicació, es conserven un any.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "just-eat-privacy-policy"
+      ],
+      "detail": "Es conserven les dades necessàries per a obligacions legals, fiscals i comptables, per a reclamacions i per prevenir el frau; si una dada cau en diverses categories, preval el termini més llarg.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "period": "Un any des de l’última activitat per a l’última adreça utilitzada i el permís d’ubicació desat",
+        "sources": [
+          "just-eat-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "just-eat-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "just-eat-delete-account"
+      ],
+      "detail": "Des de la pestanya de configuració de l’aplicació o des de «Tu cuenta» al web.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://www.just-eat.es/help/article/21077412435345/deseas-eliminar-tu-cuenta",
+    "difficulty": "easy",
+    "steps": [
+      "A l’aplicació, inicia sessió amb el compte que vols eliminar.",
+      "Obre la pestanya Configuració i tria «Eliminar cuenta».",
+      "Segueix les instruccions per confirmar-ho.",
+      "Al web, inicia sessió, obre «Tu cuenta» des del nom d’usuari i, al final de la pàgina, tria «Eliminar mi cuenta»."
+    ],
+    "obstacles": "L’eliminació és definitiva i es perden les adreces desades i els avantatges acumulats.",
+    "dataRetained": "Dades de facturació i les necessàries per a obligacions legals, reclamacions i prevenció del frau.",
+    "sources": [
+      "just-eat-delete-account",
+      "just-eat-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "just-eat-privacy-policy"
+      ],
+      "detail": "Reconeix el dret de portabilitat en format llegible per màquina, però cal demanar-ho amb el formulari de privadesa; no hi ha una eina de descàrrega d’autoservei documentada.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://privacyportal-de.onetrust.com/webform/5fffb107-8d8a-49e5-bdda-be5d78615bc7/5e662c3e-31ca-49fe-a8b1-bfef7431a149"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "just-eat-privacy-policy"
+      ],
+      "detail": "Formulari de privadesa en línia i contacte amb el delegat de protecció de dades a Amsterdam.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://privacyportal-de.onetrust.com/webform/5fffb107-8d8a-49e5-bdda-be5d78615bc7/5e662c3e-31ca-49fe-a8b1-bfef7431a149"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "just-eat-privacy-policy"
+      ],
+      "detail": "Els anuncis personalitzats depenen del consentiment, que es pot retirar a la configuració del compte o a les preferències de galetes. L’oposició a la segmentació per interès legítim es fa amb un formulari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "just-eat-privacy-policy"
+      ],
+      "detail": "Les galetes analítiques depenen de les preferències de consentiment; la política no descriu cap opció per desactivar l’analítica dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "just-eat-privacy-policy"
+      ],
+      "detail": "Preferències de màrqueting al compte i consentiments de galetes per finalitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi dels fluxos de consentiment de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no transporta comunicacions privades més enllà del xat puntual amb atenció al client o amb la persona repartidora.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "just-eat-privacy-policy"
+      ],
+      "detail": "La política esmenta el xifratge de les dades en trànsit.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "just-eat-privacy-policy"
+      ],
+      "detail": "Entre les mesures per a les transferències internacionals esmenta la protecció de les dades en trànsit i en repòs, sense detallar-ne el xifratge.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació oficial sobre verificació en dos passos per als comptes de clientela."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat auditories o certificacions de seguretat publicades per a aquest servei."
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "independent",
+      "sources": [
+        "just-eat-bugcrowd"
+      ],
+      "detail": "Programa públic de recompenses a Bugcrowd des de l’abril del 2019.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://bugcrowd.com/engagements/justeattakeaway"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "independent",
+      "sources": [
+        "just-eat-bugcrowd"
+      ],
+      "detail": "El peu de pàgina del web enllaça un apartat «Denunciar vulnerabilidad» i el programa de Bugcrowd accepta informes de seguretat.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "La política diu que la publicitat personalitzada fora de la plataforma requereix consentiment, però l’etiqueta de l’App Store declara compres, informació financera i ubicació utilitzades per rastrejar. Són declaracions compatibles si el rastreig només s’activa amb el consentiment de l’App Tracking Transparency, i per això en deixem constància. Només hem trobat a l’AEPD una tutela de drets del 2018 contra Just Eat Spain per una cancel·lació no atesa, que no hem registrat com a incident.",
+    "openQuestions": [
+      "Encara es pot fer una comanda com a convidat, sense crear compte?",
+      "Just Eat ofereix verificació en dos passos als comptes de clientela?",
+      "La integració a Prosus ha canviat el que es comparteix amb altres empreses del grup?"
+    ]
+  },
+  "appStoreBundleId": "com.justeat.JUSTEAT"
+}

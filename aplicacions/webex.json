@@ -1,0 +1,497 @@
+{
+  "slug": "webex",
+  "name": "Webex",
+  "company": "cisco",
+  "categories": [
+    "videoconferencia-i-feina",
+    "missatgeria"
+  ],
+  "tagline": "Xifratge extrem a extrem disponible però desactivat per defecte, i incompatible amb la gravació, les transcripcions i els assistents d’IA",
+  "summary": "Webex ofereix xifratge extrem a extrem amb verificació d’identitat, però ve desactivat per defecte i l’ha d’habilitar l’administració; quan s’activa, es perden la gravació al núvol, les transcripcions, els subtítols, les trucades telefòniques i els assistents d’intel·ligència artificial. L’etiqueta de l’App Store és sòbria i no declara cap dada utilitzada per rastrejar. Cisco publica informes de transparència sobre peticions d’autoritats i té una política de vulnerabilitats amb un equip PSIRT propi. El 2024 va reconèixer que uns errors van permetre l’accés no autoritzat a informació i metadades de reunions al centre de dades de Frankfurt.",
+  "platforms": [
+    "ios",
+    "android",
+    "web",
+    "windows",
+    "macos",
+    "linux"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Estats Units (Cisco Systems, Inc.), amb normes corporatives vinculants per a la Unió Europea",
+  "links": {
+    "website": "https://www.webex.com/",
+    "privacyPolicy": "https://www.cisco.com/c/en/us/about/legal/privacy-full.html",
+    "privacyCenter": "https://www.cisco.com/c/en/us/about/trust-center/transparency.html",
+    "appStore": "https://apps.apple.com/es/app/id833967564",
+    "playStore": "https://play.google.com/store/apps/details?id=com.cisco.wx2.android"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "webex-app-store",
+      "cisco-privacy-statement"
+    ],
+    "detail": "Cal un compte per organitzar reunions i per a la missatgeria; s’hi pot entrar com a convidat amb un enllaç de reunió.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "webex-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Qui es reuneix amb qui, quan i durant quant de temps, a més del contingut de les reunions i dels xats quan no hi ha xifratge extrem a extrem. En un entorn de feina, aquestes metadades permeten deduir l’organigrama real i les relacions entre persones. La premsa va relacionar l’incident de Frankfurt del 2024 amb reunions del govern alemany.",
+  "dataCollection": [
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "webex-app-store",
+        "cisco-privacy-statement"
+      ]
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "cisco-privacy-statement"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "cisco-privacy-statement"
+      ],
+      "note": "Cisco preveu compartir dades amb socis comercials perquè informin dels seus productes, amb possibilitat d’oposar-s’hi."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "webex-app-store",
+        "webex-e2ee-help"
+      ],
+      "note": "L’etiqueta declara contingut de l’usuari vinculat a la identitat. El xifratge extrem a extrem és opcional."
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "webex-app-store",
+        "webex-e2ee-help"
+      ],
+      "note": "Àudio de les reunions i, si s’activa, gravacions i transcripcions, que són incompatibles amb el xifratge extrem a extrem."
+    },
+    {
+      "type": "fitxers-i-documents",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "webex-app-store"
+      ]
+    },
+    {
+      "type": "metadades-de-comunicacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "webex-frankfurt-advisory"
+      ],
+      "note": "L’avís de seguretat del 2024 confirma que Cisco desa informació i metadades de les reunions, com el tema i els participants."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "webex-app-store"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "cisco-privacy-statement"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "webex-app-store"
+      ],
+      "note": "L’etiqueta en declara tant de vinculades com de no vinculades amb la identitat."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "webex-app-store"
+      ],
+      "note": "L’etiqueta no declara cap identificador publicitari ni cap dada utilitzada per rastrejar."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "webex-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada utilitzada per rastrejar la persona en aplicacions o webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "webex-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap identificador publicitari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política general de Cisco parla de galetes i de socis de màrqueting al web, però no hem trobat documentació sobre SDK de tercers dins de l’aplicació."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "cisco-privacy-statement"
+      ],
+      "detail": "Cisco fa màrqueting propi i pot compartir dades amb socis comercials perquè ofereixin els seus productes; no hi ha publicitat de tercers dins del producte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La declaració de privadesa no descriu cap perfilat ni decisions automatitzades sobre les persones usuàries de Webex."
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Les funcions d’assistent d’intel·ligència artificial són incompatibles amb el xifratge extrem a extrem, però no hem trobat documentació que digui si el contingut dels clients entrena models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cisco-privacy-statement"
+      ],
+      "detail": "Proveïdors, socis comercials per a comunicacions de màrqueting i autoritats quan hi ha un procés legal.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cisco-privacy-statement"
+      ],
+      "detail": "Compartició dins del grup Cisco emparada en normes corporatives vinculants.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "cisco-privacy-statement"
+      ],
+      "detail": "La declaració de privadesa afirma que Cisco no ven dades personals.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cisco-privacy-statement"
+      ],
+      "detail": "Cisco combina normes corporatives vinculants aprovades per a la Unió Europea i el Regne Unit, el marc de privadesa de dades UE-EUA i clàusules contractuals tipus.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "bcrs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cisco-transparency-report"
+      ],
+      "detail": "Cisco publica informes periòdics sobre les peticions de dades de clients rebudes de les autoritats i afirma que no hi ha portes del darrere ni accés directe.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "cisco-privacy-statement"
+      ],
+      "detail": "La declaració parla de conservar les dades el temps necessari per a les finalitats i per complir la llei; els terminis concrets depenen de la configuració de retenció que tria cada organització client.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut consultar la fitxa de privadesa específica de Webex, que és on es detalla què queda després d’una supressió."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cisco-privacy-statement"
+      ],
+      "detail": "Cisco permet accedir, corregir i suprimir les dades personals a través de l’eina de gestió del perfil o del formulari de sol·licitud de privadesa, amb resposta en trenta dies.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "cisco-privacy-statement"
+      ],
+      "detail": "Hi ha una eina d’autoservei per al perfil, però la supressió completa es tramita per formulari. En un compte corporatiu, qui el pot eliminar és l’administració de l’organització.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "waitingPeriodDays": 30,
+    "requiresSupportContact": true,
+    "steps": [
+      "Si és un compte gratuït, entra a l’eina de gestió del perfil de Cisco i revisa o elimina les dades del perfil.",
+      "Per a la supressió completa, envia una sol·licitud pel formulari de privadesa de Cisco; la resposta arriba en un termini de trenta dies.",
+      "Si el compte el gestiona l’empresa o el centre educatiu, la supressió l’ha de fer l’administració des de Control Hub."
+    ],
+    "obstacles": "En els desplegaments corporatius, la persona usuària no controla ni la conservació ni la supressió: les decideix l’organització que contracta el servei.",
+    "sources": [
+      "cisco-privacy-statement"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "cisco-privacy-statement"
+      ],
+      "detail": "Cisco reconeix els drets d’accés i portabilitat a través del formulari de privadesa, sense cap exportació automàtica documentada per a l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cisco-privacy-statement"
+      ],
+      "detail": "Eina de gestió del perfil i formulari de sol·licitud de privadesa, amb resposta compromesa en trenta dies.",
+      "verifiedAt": "2026-09-22",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cisco-privacy-statement"
+      ],
+      "detail": "La declaració preveu oposar-se a la compartició amb socis comercials i a les comunicacions de màrqueting.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació sobre si es pot desactivar l’enviament de dades de diagnòstic de l’aplicació."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "webex-e2ee-help"
+      ],
+      "detail": "Els controls de seguretat i xifratge són a Control Hub i els gestiona l’administració de l’organització, no la persona usuària.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem analitzat les pantalles de configuració de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "webex-e2ee-help"
+      ],
+      "detail": "Hi ha xifratge extrem a extrem amb verificació d’identitat per a reunions programades i sales personals, però ve desactivat per defecte i l’activa l’administració. No és compatible amb el navegador, amb els dispositius antics de les sèries SX, DX i MX, amb la gravació al núvol, les transcripcions, els subtítols, les trucades telefòniques ni els assistents d’IA.",
+      "verifiedAt": "2026-09-22",
+      "scope": "partial-optin"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "webex-e2ee-help"
+      ],
+      "detail": "Sense xifratge extrem a extrem, Webex aplica TLS per a les dades en trànsit i SRTP per als fluxos de veu i vídeo.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut consultar la fitxa de privadesa de Webex al portal de confiança de Cisco, que és on es detalla el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació oficial consultable sobre la verificació en dos passos dels comptes gratuïts de Webex."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Cisco fa referència a certificacions al seu portal de confiança, però no hem pogut verificar-ne l’abast concret per a Webex."
+    },
+    "bugBounty": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "cisco-vulnerability-policy"
+      ],
+      "detail": "La política de vulnerabilitats de Cisco esmenta programes de recompenses, però no hem pogut confirmar que Webex hi estigui inclòs.",
+      "verifiedAt": "2026-09-22"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cisco-vulnerability-policy"
+      ],
+      "detail": "L’equip PSIRT de Cisco rep, investiga i publica les vulnerabilitats seguint la norma ISO/IEC 29147:2018.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "signal",
+      "comparability": "partial",
+      "rationale": "Per a trucades i videotrucades de grup petites, Signal xifra d’extrem a extrem per defecte i sense perdre funcions.",
+      "tradeOffs": "No té reunions amb centenars de participants, ni gestió corporativa, ni gravació al núvol."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Les fitxes de privadesa de Webex al portal de confiança de Cisco són PDF que no hem pogut llegir de manera fiable; la fitxa es basa en la declaració de privadesa general de Cisco, en la documentació d’ajuda sobre xifratge i en l’avís de seguretat del 2024. Queden com a desconeguts el xifratge en repòs, la conservació concreta i la verificació en dos passos. El xifratge extrem a extrem és opcional i incompatible amb les funcions que la majoria d’organitzacions volen.",
+    "openQuestions": [
+      "Quin percentatge d’organitzacions activa el xifratge extrem a extrem, si desactiva la gravació i les transcripcions?",
+      "El contingut de les reunions s’utilitza per entrenar els assistents d’intel·ligència artificial de Webex?",
+      "Webex està cobert pel programa de recompenses de Cisco?"
+    ]
+  },
+  "appStoreBundleId": "com.cisco.squared"
+}

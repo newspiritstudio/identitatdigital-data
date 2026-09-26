@@ -1,0 +1,527 @@
+{
+  "slug": "microsoft-word",
+  "name": "Microsoft Word",
+  "company": "microsoft",
+  "categories": [
+    "ofimatica-i-productivitat"
+  ],
+  "tagline": "Sense seguiment declarat, amb telemetria que no es pot desactivar del tot",
+  "summary": "L’etiqueta de l’App Store de Word no declara cap dada utilitzada per rastrejar-te ni cap finalitat publicitària. Sí que hi ha telemetria que no es pot desactivar: encara que es triï el nivell «cap» de dades de diagnòstic, Microsoft documenta que les dades de servei necessàries s’envien igualment des del dispositiu, i les experiències connectades que analitzen el contingut processen el text del document al núvol.",
+  "platforms": [
+    "ios",
+    "android",
+    "web",
+    "windows",
+    "macos"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Irlanda",
+  "userBase": "Centenars de milions de persones usuàries de Microsoft 365",
+  "links": {
+    "website": "https://www.microsoft.com/microsoft-365/word",
+    "privacyPolicy": "https://www.microsoft.com/en-us/privacy/privacystatement",
+    "privacyCenter": "https://account.microsoft.com/privacy/",
+    "appStore": "https://apps.apple.com/es/app/id586447913"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "microsoft-privacy-statement"
+    ],
+    "detail": "Cal iniciar la sessió amb un compte de Microsoft per editar documents a l’aplicació mòbil.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "microsoft-privacy-statement"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Els documents poden incloure cartes de comiat, informes mèdics, contractes i currículums. L’aplicació no declara publicitat. Les experiències connectades que analitzen el contingut, com el traductor o l’editor, envien el text seleccionat al núvol per poder funcionar.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "microsoft-word-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "microsoft-word-app-store"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "microsoft-word-app-store"
+      ]
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "microsoft-word-app-store"
+      ],
+      "note": "Per compartir documents i convidar-hi persones."
+    },
+    {
+      "type": "fitxers-i-documents",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "microsoft-word-app-store",
+        "microsoft-365-privacy-controls"
+      ],
+      "note": "Les experiències connectades que analitzen el contingut, com el traductor, envien el text seleccionat al servei."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "microsoft-word-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "microsoft-word-app-store"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "microsoft-word-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "microsoft-word-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "microsoft-word-app-store",
+        "microsoft-365-privacy-controls"
+      ],
+      "note": "Les dades de servei necessàries s’envien encara que es triï el nivell «cap» de diagnòstic."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "microsoft-word-app-store"
+      ],
+      "note": "L’etiqueta no declara cap dada per a seguiment ni cap finalitat publicitària."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "microsoft-word-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap dada utilitzada per rastrejar-te en aplicacions i llocs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "microsoft-word-app-store"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Microsoft no publica la llista de components de tercers de l’aplicació mòbil."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "microsoft-word-app-store",
+        "microsoft-trust-center-data-management"
+      ],
+      "detail": "Cap finalitat publicitària declarada, i compromís explícit de no explotar les dades de client per a màrqueting.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "microsoft-365-privacy-controls"
+      ],
+      "detail": "Les dades de diagnòstic opcionals es poden fer servir agregades per entrenar funcions d’aprenentatge automàtic com les accions recomanades o les prediccions de text.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "microsoft-365-privacy-controls",
+        "microsoft-copilot-privacy"
+      ],
+      "detail": "El diagnòstic opcional alimenta funcions basades en aprenentatge automàtic; el contingut dels documents no entrena els models de base quan s’hi aplica la protecció de dades empresarials.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-privacy-statement"
+      ],
+      "detail": "Proveïdors i agents que actuen per compte de Microsoft.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-privacy-statement"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "microsoft-trust-center-data-management"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "microsoft-eu-data-boundary",
+        "microsoft-privacy-statement"
+      ],
+      "detail": "Les organitzacions europees queden cobertes pel perímetre de dades de la UE, amb excepcions documentades; per a la resta regeixen les clàusules contractuals tipus.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-law-enforcement-report"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "microsoft-trust-center-data-management"
+      ],
+      "detail": "Terminis concrets per a la baixa de la subscripció empresarial; criteris generals per a la resta.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "microsoft-trust-center-data-management"
+      ],
+      "detail": "90 dies per extreure les dades i 90 dies més fins a l’esborrat definitiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "period": "90 dies per recuperar les dades després de la baixa i 90 dies més fins a l’esborrat definitiu.",
+        "sources": [
+          "microsoft-trust-center-data-management"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "microsoft-close-account"
+      ],
+      "detail": "Es tanca el compte de Microsoft, no l’aplicació per separat; amb un compte corporatiu depèn de l’organització.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "microsoft-close-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://account.microsoft.com/closeaccount",
+    "difficulty": "medium",
+    "waitingPeriodDays": 60,
+    "steps": [
+      "Descarrega els documents que tinguis a OneDrive abans de començar: en tancar el compte els perds.",
+      "Cancel·la la subscripció de Microsoft 365 si en tens una d’activa.",
+      "Inicia la sessió i obre la pàgina de tancament del compte de Microsoft.",
+      "Verifica la identitat, marca les caselles de comprovació i tria la finestra de reobertura de 30 o de 60 dies.",
+      "Selecciona un motiu i prem «Marcar el compte per tancar-lo»."
+    ],
+    "obstacles": "No hi ha manera d’eliminar només les dades de Word: el compte de Microsoft és únic per a tots els serveis del grup.",
+    "dataRetained": "Les dades de facturació de la subscripció, pels terminis fiscals obligatoris.",
+    "sources": [
+      "microsoft-close-account",
+      "microsoft-trust-center-data-management"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-privacy-dashboard"
+      ],
+      "detail": "Descàrrega de les dades del compte des del panell de privadesa; els documents s’exporten en formats oberts OOXML.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://account.microsoft.com/privacy/"
+    },
+    "exportFormatQuality": "open",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-privacy-statement"
+      ],
+      "verifiedAt": "2026-09-22",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no mostra publicitat personalitzada ni declara finalitats publicitàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "microsoft-365-privacy-controls"
+      ],
+      "detail": "Es pot triar entre diagnòstic obligatori, opcional o cap, però Microsoft documenta expressament que les dades de servei necessàries s’envien igualment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-365-privacy-controls"
+      ],
+      "detail": "Hi ha controls separats per al nivell de diagnòstic, per a les experiències connectades que analitzen contingut, per a les que descarreguen contingut i per a les opcionals.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [
+        "microsoft-365-privacy-controls"
+      ],
+      "detail": "El nivell de diagnòstic ve preseleccionat a «opcional» si l’administrador no el canvia, i l’opció «cap» no impedeix del tot l’enviament de dades des del dispositiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "preselected",
+        "severity": "low",
+        "description": "Les dades de diagnòstic opcionals s’envien per defecte llevat que es canviï la configuració, i triar «cap» no atura les dades de servei necessàries.",
+        "sources": [
+          "microsoft-365-privacy-controls"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Un editor de documents col·laboratiu no transporta comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-trust-center-data-management"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-trust-center-data-management"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-authenticator-method"
+      ],
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "passkey",
+        "app-push",
+        "totp",
+        "hardware-key",
+        "sms",
+        "email"
+      ]
+    },
+    "independentAudits": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-iso-27001"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-msrc-bounty"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-msrc-cvd"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "google-docs",
+      "comparability": "equivalent",
+      "rationale": "Editor de text col·laboratiu amb les mateixes funcions bàsiques i aplicació mòbil.",
+      "tradeOffs": "El tractament passa a un grup amb un negoci publicitari més central i el format natiu no és OOXML."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La documentació de Microsoft indica que, encara que es triï el nivell «cap» de dades de diagnòstic, les dades de servei necessàries continuen sortint del dispositiu. És un límit del producte que afecta totes les persones usuàries.",
+    "openQuestions": [
+      "Quines dades de servei necessàries envia exactament l’aplicació d’iOS quan el diagnòstic està desactivat?"
+    ]
+  },
+  "appStoreBundleId": "com.microsoft.Office.Word"
+}

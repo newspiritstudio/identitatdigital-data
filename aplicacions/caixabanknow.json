@@ -1,0 +1,611 @@
+{
+  "slug": "caixabanknow",
+  "name": "CaixaBankNow",
+  "company": "caixabank",
+  "categories": [
+    "banca-i-finances"
+  ],
+  "tagline": "Declara informació financera com a dada de rastreig",
+  "summary": "L’etiqueta de l’App Store de CaixaBankNow declara com a dades utilitzades per rastrejar-te, entre altres, la informació financera i la ubicació. L’entitat va rebre l’any 2021 la sanció més alta que havia imposat mai l’AEPD, per la confusió de les bases jurídiques de la seva política de privadesa.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Espanya",
+  "userBase": "Banc líder a Espanya per quota de mercat, amb uns 20 milions de clients",
+  "links": {
+    "website": "https://www.caixabank.es/",
+    "privacyPolicy": "https://www.caixabank.es/particular/general/privacy-policy.html",
+    "appStore": "https://apps.apple.com/es/app/id318806094"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "caixabank-privacy-policy"
+    ],
+    "detail": "L’accés exigeix les credencials d’un contracte bancari vigent.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "caixabanknow-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "CaixaBank combina els moviments del compte amb dades socioeconòmiques i professionals, consultes als fitxers de solvència ASNEF, BADEXCUG i CIRBE, i models matemàtics que infereixen preferències. La corresponsabilitat amb VidaCaixa, CaixaBank Payments & Consumer i la resta del grup fa que aquestes dades circulin per assegurances, crèdit al consum i gestió d’actius.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "caixabank-privacy-policy",
+        "caixabanknow-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "caixabanknow-app-store"
+      ],
+      "note": "L’etiqueta inclou les dades de contacte entre les utilitzades per rastrejar-te."
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "compliment-legal"
+      ],
+      "sources": [
+        "caixabank-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "caixabanknow-app-store"
+      ],
+      "note": "L’etiqueta declara «información financiera» tant per a la personalització del producte com entre les dades de rastreig."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "caixabank-privacy-policy"
+      ]
+    },
+    {
+      "type": "nivell-d-ingressos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "compliment-legal"
+      ],
+      "sources": [
+        "caixabank-privacy-policy"
+      ],
+      "note": "La política parla de dades socioeconòmiques i de consultes a ASNEF, BADEXCUG i CIRBE."
+    },
+    {
+      "type": "ocupacio-i-carrec",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "compliment-legal"
+      ],
+      "sources": [
+        "caixabank-privacy-policy"
+      ],
+      "note": "La política esmenta expressament dades professionals."
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "caixabank-privacy-policy"
+      ],
+      "note": "La política esmenta dades biomètriques «quan s’autoritzi»."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "caixabanknow-app-store"
+      ],
+      "note": "L’etiqueta declara ubicació exacta i aproximada vinculades a la identitat i també entre les dades de rastreig."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "caixabanknow-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "caixabanknow-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "caixabanknow-app-store"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "caixabanknow-app-store"
+      ],
+      "note": "L’etiqueta declara «datos de publicidad» sota la finalitat de màrqueting del desenvolupador."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "caixabanknow-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "caixabanknow-app-store"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "caixabank-privacy-policy"
+      ],
+      "note": "La política inclou les dades de navegació obtingudes amb galetes entre les categories tractades."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "caixabank-privacy-policy"
+      ],
+      "note": "El perfil comercial es construeix amb fórmules matemàtiques aplicades al comportament de la clientela."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "caixabanknow-app-store"
+      ],
+      "detail": "L’etiqueta declara informació financera, ubicació, dades de contacte, identificadors, dades d’ús i diagnòstics com a dades que poden servir per rastrejar-te en aplicacions i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "caixabanknow-app-store"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "caixabanknow-app-store"
+      ],
+      "detail": "La declaració de rastreig entre aplicacions implica la presència de tecnologia de tercers.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "caixabank-privacy-policy",
+        "caixabanknow-app-store"
+      ],
+      "detail": "Comunicacions comercials del grup CaixaBank pels canals triats, amb consentiment, i dades de publicitat declarades a l’etiqueta.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "caixabank-privacy-policy"
+      ],
+      "detail": "Perfil comercial amb consentiment; l’entitat afirma que mai no el fa servir per denegar un producte ni per fixar límits de crèdit. L’anàlisi de solvència es fa per separat, sobre la base de la relació contractual.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política parla de models matemàtics per a la solvència i el frau, però no de l’entrenament de models d’intel·ligència artificial generativa."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "caixabank-privacy-policy"
+      ],
+      "detail": "Fitxers de solvència ASNEF i BADEXCUG, la CIRBE del Banc d’Espanya, els serveis antifrau PAYGUARD d’Iberpay i FRAUDFENSE, i empreses col·laboradores amb consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "caixabank-privacy-policy"
+      ],
+      "detail": "Corresponsabilitat declarada amb CaixaBank Payments & Consumer, VidaCaixa, Nuevo Micro Bank, CaixaBank Asset Management, Banco BPI i altres societats del grup.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "caixabank-privacy-policy"
+      ],
+      "detail": "No hi ha venda de dades, però sí comunicació als fitxers comuns de solvència, que funcionen com a intermediaris de dades creditícies.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política només esmenta la consulta de llistes internacionals de sancions (OFAC i OFSI) i no descriu transferències internacionals ordinàries ni els seus mecanismes."
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem localitzat cap informe de transparència sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "caixabank-privacy-policy"
+      ],
+      "detail": "Hi ha terminis concrets per als serveis antifrau (30 dies per a operacions sospitoses i 12 mesos per al frau confirmat), però la resta remet a cada apartat sense taula general.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "caixabank-privacy-policy"
+      ],
+      "detail": "Les obligacions de prevenció del blanqueig i les fiscals imposen la conservació de l’expedient contractual més enllà de la baixa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "historial-de-compres",
+        "period": "30 dies per a les operacions sospitoses i 12 mesos per al frau confirmat als serveis PAYGUARD i FRAUDFENSE",
+        "sources": [
+          "caixabank-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "caixabank-privacy-policy"
+      ],
+      "detail": "El dret de supressió es reconeix, però la relació bancària obliga a cancel·lar els productes i deixa conservacions legals obligatòries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "caixabank-privacy-policy"
+      ],
+      "detail": "Els drets s’exerceixen des de la banca digital, des d’una oficina o pel formulari de www.caixabank.com/ejerciciodederechos, però no hi ha cap botó d’eliminació directa.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.caixabank.com/ejerciciodederechos"
+    },
+    "difficulty": "medium",
+    "steps": [
+      "Cancel·la els productes contractats a l’oficina o des de la banca digital.",
+      "Retira els consentiments comercials des de la banca digital; si es cancel·len tots els productes sense retirar-los, CaixaBank diu que els cancel·la automàticament.",
+      "Exerceix el dret de supressió pel formulari de www.caixabank.com/ejerciciodederechos o per correu postal a l’apartat de correus 209 de València.",
+      "Si no obtens resposta dins de termini, reclama davant de l’AEPD."
+    ],
+    "obstacles": "La corresponsabilitat amb una dotzena de societats del grup fa difícil saber a quantes entitats arriba realment una sol·licitud de supressió.",
+    "dataRetained": "Expedient contractual i operacions durant els terminis fiscals i de prevenció del blanqueig de capitals.",
+    "sources": [
+      "caixabank-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "caixabank-privacy-policy"
+      ],
+      "detail": "El dret de portabilitat consta entre els drets exercibles pels canals declarats.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.caixabank.com/ejerciciodederechos"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "caixabank-privacy-policy"
+      ],
+      "detail": "Quatre canals: oficina, banca digital, formulari web i correu postal, amb delegat de protecció de dades propi.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.caixabank.com/ejerciciodederechos",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "caixabank-privacy-policy"
+      ],
+      "detail": "El perfil comercial es basa en consentiment i es pot retirar en qualsevol moment des de la banca digital, una oficina o el formulari de drets.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap control per desactivar l’analítica d’ús de l’aplicació."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "caixabank-privacy-policy"
+      ],
+      "detail": "Els consentiments són separables per finalitat i canal, però la gestió és dispersa entre la banca digital i el formulari de drets.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "regulator",
+      "sources": [
+        "caixabank-aepd-fine-2021"
+      ],
+      "detail": "L’AEPD va declarar que la política de CaixaBank feia servir terminologia imprecisa i barrejava interès legítim i consentiment per a tractaments similars, cosa que impedia entendre a què s’estava consentint.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "confusing-language",
+        "severity": "high",
+        "description": "La resolució de l’AEPD de 2021 va sancionar la imprecisió en la descripció de les finalitats i la confusió de bases jurídiques entre tractaments equivalents.",
+        "sources": [
+          "caixabank-aepd-fine-2021"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no transporta comunicacions privades entre persones usuàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’entitat no publica documentació tècnica sobre el xifratge del canal."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública."
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "caixabank-privacy-policy"
+      ],
+      "detail": "L’autenticació reforçada és obligatòria per normativa de pagaments i l’aplicació admet biometria.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "app-push",
+        "sms"
+      ]
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories de seguretat independents publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses ni cap fitxer security.txt a caixabank.es."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem localitzat cap política pública de divulgació de vulnerabilitats."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "bankinter",
+      "comparability": "equivalent",
+      "rationale": "Banca mòbil espanyola equivalent en funcions."
+    },
+    {
+      "app": "banco-sabadell",
+      "comparability": "equivalent",
+      "rationale": "Alternativa amb oficines i banca mòbil completa."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La fitxa destaca la declaració d’«información financiera» com a dada de rastreig a l’etiqueta de l’App Store. Que una entitat bancària ho declari no vol dir que enviï els teus moviments a una xarxa publicitària, però sí que reconeix que la informació financera pot acabar vinculada a identificadors de rastreig.",
+    "openQuestions": [
+      "Què inclou exactament la «información financiera» declarada com a dada de rastreig?",
+      "Quins tercers reben les dades de publicitat de l’aplicació?"
+    ]
+  },
+  "appStoreBundleId": "com.thenetfirm.mobile.wapicon.WapIcon"
+}

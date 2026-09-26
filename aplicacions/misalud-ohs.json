@@ -1,0 +1,371 @@
+{
+  "slug": "misalud-ohs",
+  "name": "MiSalud OHS",
+  "company": "quiron-prevencion",
+  "categories": [
+    "salut-i-assistencia-sanitaria",
+    "benestar-i-activitat-fisica"
+  ],
+  "tagline": "Els resultats del reconeixement mèdic laboral, amb una política que només parla del web",
+  "summary": "MiSalud OHS és l’aplicació amb què Quirónprevención ensenya a les persones treballadores el resultat del seu reconeixement mèdic laboral i el seu històric de paràmetres de salut, i que llegeix i escriu a l’Apple Health. La política enllaçada des de la fitxa de l’App Store, però, descriu només els formularis del lloc web corporatiu: no hi ha cap document públic que expliqui què passa amb les dades de salut que hi ha dins de l’aplicació.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Espanya",
+  "userBase": "Persones treballadores d’empreses que tenen contractada la vigilància de la salut amb Quirónprevención",
+  "links": {
+    "website": "https://www.quironprevencion.com/",
+    "privacyPolicy": "https://www.quironprevencion.com/es/politica-privacidad",
+    "appStore": "https://apps.apple.com/es/app/id1084430965"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "misalud-ohs-app-store"
+    ],
+    "detail": "L’aplicació mostra el resultat dels reconeixements d’una persona concreta, de manera que cal identificar-s’hi.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "editorial",
+    "sources": [],
+    "detail": "No consta cap publicació del codi font; és programari privatiu.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "En la vigilància de la salut laboral, l’examen mèdic l’encarrega un tercer: l’empresa ocupadora. El resultat, l’històric de paràmetres i les dades d’Apple Health acaben en una aplicació de l’empresa proveïdora, i no consta enlloc qui hi té accés.",
+  "dataCollection": [
+    {
+      "type": "dades-de-salut",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "misalud-ohs-app-store"
+      ],
+      "note": "La descripció oficial parla de visualitzar els resultats dels reconeixements mèdics i l’històric de paràmetres de salut, i de sincronitzar activitat cardíaca i entrenaments amb l’Apple Health."
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "misalud-ohs-app-store"
+      ]
+    },
+    {
+      "type": "fitxers-i-documents",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "misalud-ohs-app-store"
+      ],
+      "note": "L’aplicació permet emmagatzemar informes mèdics i proves d’imatge."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "misalud-ohs-app-store"
+      ],
+      "note": "Per buscar el centre més proper on demanar cita."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "misalud-ohs-app-store"
+      ],
+      "note": "És l’única categoria que l’etiqueta declara com a utilitzada per rastrejar."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "misalud-ohs-app-store"
+      ]
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "misalud-ohs-app-store"
+      ],
+      "note": "Face ID i Touch ID s’integren per desbloquejar l’aplicació; la comprovació la fa el sistema operatiu, no l’aplicació."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "misalud-ohs-app-store"
+      ],
+      "detail": "L’etiqueta declara les dades d’ús com a utilitzades per rastrejar entre aplicacions i llocs web d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’etiqueta no declara cap identificador publicitari, però tampoc explica amb quina tècnica es fa el seguiment."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap llista de components de tercers."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta si les dades d’ús declarades com a rastreig alimenten publicitat."
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política publicada no descriu cap perfilat, però tampoc cobreix l’aplicació."
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política publicada no enumera els destinataris de les dades de l’aplicació. Tampoc no hi ha resposta pública sobre què en pot veure l’empresa ocupadora."
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta si les dades es comparteixen amb la resta del grup Quirónsalud."
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta."
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política publicada no tracta les transferències internacionals."
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "quironprevencion-privacy-policy"
+      ],
+      "detail": "La política només dona terminis genèrics («el tiempo mínimo necesario») per als formularis del web, i cap per a les dades de salut de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta què es conserva si es deixa de fer servir l’aplicació."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap document que descrigui com donar de baixa el compte de l’aplicació."
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta."
+    },
+    "difficulty": "unknown",
+    "steps": [
+      "Escriu al delegat de protecció de dades a dpo@quironprevencion.com invocant el dret de supressió de l’article 17 del RGPD."
+    ],
+    "obstacles": "La vigilància de la salut laboral té terminis de conservació imposats per la normativa de prevenció de riscos, de manera que la supressió del compte de l’aplicació no equival a esborrar l’historial mèdic laboral.",
+    "sources": [
+      "quironprevencion-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap eina d’exportació."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "quironprevencion-privacy-policy"
+      ],
+      "detail": "Hi ha un delegat de protecció de dades amb adreça pròpia.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dpo@quironprevencion.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta."
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap control per desactivar les dades d’ús que l’etiqueta declara com a rastreig."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap panell de privadesa."
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut revisar els fluxos de consentiment dins de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei ha de poder llegir els resultats del reconeixement per mostrar-los.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "editorial",
+      "sources": [],
+      "detail": "Els serveis del grup es publiquen sobre HTTPS, comprovat en consultar-ne les pàgines.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta."
+    },
+    "mfa": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "misalud-ohs-app-store"
+      ],
+      "detail": "La descripció oficial esmenta la integració amb Face ID i Touch ID, que bloqueja l’aplicació però no és un segon factor del compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories independents publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política de seguretat del grup Quirónsalud no cobreix explícitament aquest domini."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap canal de divulgació de vulnerabilitats propi de quironprevencion.com."
+    }
+  },
+  "review": {
+    "researchStatus": "initial",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "Molts camps d’aquesta fitxa consten com a desconeguts perquè una aplicació que ensenya resultats de reconeixements mèdics i llegeix l’Apple Health enllaça com a política de privadesa un document que només parla dels formularis del web corporatiu.",
+    "openQuestions": [
+      "Quin document regeix el tractament de les dades de salut dins de l’aplicació MiSalud OHS?",
+      "Què pot veure l’empresa ocupadora del contingut que hi ha a l’aplicació?",
+      "Per què l’etiqueta de l’App Store declara dades d’ús utilitzades per rastrejar en un servei de vigilància de la salut?",
+      "Queda pendent la cerca sistemàtica d’incidents i sancions: les eines de cerca no eren disponibles durant aquesta revisió."
+    ]
+  },
+  "appStoreBundleId": "com.fraternidad-prevencion.MiSalud"
+}

@@ -1,0 +1,607 @@
+{
+  "slug": "dia",
+  "name": "Dia Supermercado online y Club",
+  "company": "dia-retail-espana",
+  "categories": [
+    "alimentacio-i-restauracio",
+    "comerc-electronic"
+  ],
+  "tagline": "Perfil comercial amb les compres del club, basat en el contracte, i, amb consentiment, cessió de l’historial de compres a empreses d’altres sectors",
+  "summary": "L’aplicació del CLUB Dia demana el document d’identitat per registrar-se i converteix cada compra en dades per a un perfil comercial per segments, que DIA basa en l’execució del contracte i no en el consentiment. Amb un consentiment separat, DIA pot cedir el nom, el correu, el telèfon i l’historial de compres a empreses col·laboradores de sectors com el financer, l’assegurador o les telecomunicacions perquè en facin ús propi. L’etiqueta de l’App Store declara identificadors i dades d’ús utilitzats per rastrejar.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://www.dia.es/",
+    "privacyPolicy": "https://www.dia.es/l/clubdia",
+    "terms": "https://www.dia.es/l/bases-legales-clubdia",
+    "appStore": "https://apps.apple.com/es/app/id660175630",
+    "playStore": "https://play.google.com/store/apps/details?id=es.dia"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "dia-privacy-policy",
+      "dia-club-rules"
+    ],
+    "detail": "Per fer servir el CLUB Dia, els cupons i la compra en línia cal registrar-se amb nom, document d’identitat i un correu o un telèfon.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "dia-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "El tiquet d’un supermercat revela la dieta, la mida i la composició de la llar, la presència d’infants o de mascotes i, indirectament, la salut i el nivell d’ingressos. DIA hi afegeix el document d’identitat, la data de naixement, el sexe, el nombre de membres de la llar i, amb permís, la ubicació, i en dedueix segments per edat, zona i consum.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "cessio-a-tercers"
+      ],
+      "sources": [
+        "dia-privacy-policy",
+        "dia-app-store"
+      ],
+      "note": "Es cedeix a empreses col·laboradores només amb consentiment."
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "dia-privacy-policy"
+      ],
+      "note": "La política el demana per registrar-se com a client; no és habitual en un programa de fidelització."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada",
+        "cessio-a-tercers"
+      ],
+      "sources": [
+        "dia-privacy-policy",
+        "dia-app-store"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada",
+        "cessio-a-tercers"
+      ],
+      "sources": [
+        "dia-privacy-policy",
+        "dia-app-store"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "dia-privacy-policy",
+        "dia-app-store"
+      ],
+      "note": "Necessària per a la compra en línia; es comparteix amb els proveïdors de lliurament."
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "dia-privacy-policy"
+      ]
+    },
+    {
+      "type": "genere",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "dia-privacy-policy"
+      ]
+    },
+    {
+      "type": "situacio-familiar",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "dia-privacy-policy"
+      ],
+      "note": "Nombre de membres de la llar, que es pot afegir a l’àrea privada."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada",
+        "cessio-a-tercers"
+      ],
+      "sources": [
+        "dia-privacy-policy"
+      ],
+      "note": "Historial i freqüència de compres amb la targeta del club. Amb consentiment es cedeix, de vegades seudonimitzat, a empreses col·laboradores per a estudis de mercat i perfils de consum propis."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "dia-privacy-policy"
+      ],
+      "note": "Només si s’autoritza; serveix per mostrar les botigues properes i, amb consentiment, per adaptar la publicitat."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "dia-privacy-policy"
+      ],
+      "note": "Segments per edat, zona geogràfica i consum. La política diu que no infereix dades de salut, religió ni orientació sexual."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "dia-app-store",
+        "dia-privacy-policy"
+      ],
+      "note": "L’etiqueta el declara per a publicitat de tercers i entre les dades utilitzades per rastrejar."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-publicitaria",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "dia-privacy-policy",
+        "dia-app-store"
+      ],
+      "note": "La política diu que comunica l’identificador de publicitat del dispositiu a col·laboradors per mesurar i segmentar anuncis."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "dia-privacy-policy"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "dia-app-store",
+        "dia-privacy-policy"
+      ],
+      "note": "Hàbits de comportament al web i a l’aplicació, segons la política només si s’accepten les galetes."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "dia-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "dia-privacy-policy"
+      ],
+      "note": "La política diu que no les infereix, però el tiquet de compra pot revelar dietes i condicions de salut."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dia-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store declara identificadors i dades d’ús utilitzats per rastrejar entre aplicacions i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dia-privacy-policy",
+        "dia-app-store"
+      ],
+      "detail": "La política preveu comunicar l’identificador de publicitat a col·laboradors per mesurar i segmentar anuncis.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dia-privacy-policy"
+      ],
+      "detail": "Esmenta galetes, píxels i SDK de tercers per a la mesura publicitària.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dia-privacy-policy"
+      ],
+      "detail": "Amb consentiment, publicitat adaptada per qualsevol mitjà, també en webs de tercers, xarxes socials, televisió connectada i pòdcasts. DIA pot facilitar informació a xarxes socials perquè mostrin anuncis a la persona o a usuaris semblants.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dia-privacy-policy"
+      ],
+      "detail": "Elabora un perfil comercial per segments (edat, zona, productes i patrons de compra) i el basa en l’execució del contracte del CLUB Dia, de manera que no es pot rebutjar sense deixar el club.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta l’ús de dades per entrenar models d’intel·ligència artificial."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dia-privacy-policy"
+      ],
+      "detail": "Proveïdors de màrqueting, publicitat, atenció telefònica i lliurament; amb consentiment, cessió de dades identificatives i de l’historial de compres a empreses col·laboradores de sectors com l’alimentació, les finances, les assegurances, les telecomunicacions o l’energia, i a Clarel.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dia-privacy-policy"
+      ],
+      "detail": "Comunicació a empreses del grup DIA i a franquiciats per a les finalitats basades en l’interès legítim.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "dia-privacy-policy",
+        "dia-play-data-safety"
+      ],
+      "detail": "La política no parla de venda, però amb consentiment cedeix nom, correu, telèfon i historial de compres a empreses col·laboradores perquè elaborin estudis de mercat i perfils de consum propis. En canvi, la fitxa de Google Play declara que no es comparteixen dades amb tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dia-privacy-policy"
+      ],
+      "detail": "Transferències a proveïdors de fora de l’Espai Econòmic Europeu, també a països sense un nivell de protecció equivalent. La política no concreta el mecanisme i remet al DPD.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "dia-privacy-policy",
+        "dia-club-rules",
+        "dia-customer-service-privacy"
+      ],
+      "detail": "Les dades es tracten fins a la baixa del club, que es produeix per petició, per frau o per set anys d’inactivitat. Les consultes d’atenció al client es conserven set anys.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "dia-privacy-policy"
+      ],
+      "detail": "Després de la baixa, les dades es conserven durant els terminis legals de responsabilitat pels serveis prestats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "historial-de-compres",
+        "period": "Fins a la baixa del CLUB Dia o set anys d’inactivitat, i després els terminis legals",
+        "sources": [
+          "dia-privacy-policy",
+          "dia-club-rules"
+        ]
+      },
+      {
+        "period": "Set anys des de l’última interacció amb atenció al client",
+        "sources": [
+          "dia-customer-service-privacy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dia-club-rules",
+        "dia-privacy-policy"
+      ],
+      "detail": "La baixa del club es fa a petició de la persona pels canals oficials, i la política reconeix el dret de supressió.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació oficial d’una opció per eliminar el compte des de l’aplicació o el web; els canals que indica la política són el telèfon i WhatsApp."
+    },
+    "difficulty": "unknown",
+    "requiresSupportContact": true,
+    "steps": [
+      "Truca al Servei de Protecció de Dades al 91 217 04 53 o escriu al canal de WhatsApp 686 20 20 90 i demana la baixa del CLUB Dia i la supressió de les dades.",
+      "Per a dubtes o reclamacions sobre el tractament, escriu al delegat de protecció de dades a dpo.es@diagroup.com.",
+      "Si no respon en un mes, reclama davant de l’Agencia Española de Protección de Datos."
+    ],
+    "obstacles": "La política només indica canals telefònics per exercir els drets, sense formulari ni opció documentada a l’aplicació.",
+    "dataRetained": "Les dades necessàries durant els terminis legals de responsabilitat, i les consultes d’atenció al client durant set anys.",
+    "sources": [
+      "dia-privacy-policy",
+      "dia-club-rules",
+      "dia-customer-service-privacy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "dia-privacy-policy"
+      ],
+      "detail": "La política reconeix el dret de portabilitat en format interoperable, però no hi ha cap eina d’autoservei: s’ha de demanar per telèfon o WhatsApp.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dia-privacy-policy"
+      ],
+      "detail": "Servei de Protecció de Dades al 91 217 04 53 o per WhatsApp al 686 20 20 90, amb resposta en un mes prorrogable dos mesos més.",
+      "verifiedAt": "2026-09-22",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "dia-privacy-policy"
+      ],
+      "detail": "La publicitat personalitzada i la cessió a col·laboradors depenen del consentiment, que es pot retirar a l’àrea privada o als missatges. El perfil comercial, en canvi, va lligat a ser del club.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "dia-privacy-policy"
+      ],
+      "detail": "Les dades de navegació i comportament a l’aplicació, segons la política, només es recullen si s’accepten les galetes i tecnologies similars.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "dia-privacy-policy"
+      ],
+      "detail": "Preferències de comunicacions comercials a l’àrea privada i consentiments separats per a publicitat i cessions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi dels formularis de consentiment actuals de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És una aplicació de compra i fidelització sense comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dia-play-data-safety"
+      ],
+      "detail": "La fitxa de Google Play declara que les dades es xifren en trànsit.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública sobre el xifratge de les dades en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política només parla de contrasenyes; no hem trobat cap opció de verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat auditories o certificacions de seguretat publicades per a aquest servei."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa públic de recompenses per vulnerabilitats."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut consultar el security.txt de dia.es, que bloqueja les peticions automatitzades, i no hem trobat cap canal públic per notificar vulnerabilitats."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "El web de DIA bloqueja les lectures automatitzades i la política general només s’obre com una finestra des del peu de pàgina; l’hem llegida en un navegador. El més rellevant és que el perfil comercial es basa en el contracte del club i que, amb consentiment, l’historial de compres es pot cedir a empreses d’altres sectors. La fitxa de Google Play declara que no es comparteixen dades amb tercers, cosa que contradiu la política.",
+    "openQuestions": [
+      "L’aplicació té una opció per eliminar el compte dins de la configuració? No l’hem pogut verificar sense crear-ne un.",
+      "Qui són les empreses col·laboradores que reben l’historial de compres quan s’hi dona el consentiment?",
+      "Com es presenta a l’aplicació el consentiment per cedir dades a tercers: casella separada o agrupat amb la publicitat?"
+    ]
+  },
+  "appStoreBundleId": "es.mobile.dia"
+}

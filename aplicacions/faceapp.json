@@ -1,0 +1,472 @@
+{
+  "slug": "faceapp",
+  "name": "FaceApp",
+  "company": "faceapp-technology",
+  "categories": [
+    "edicio-de-foto-i-video"
+  ],
+  "tagline": "Les cares pugen al núvol i hi queden entre 24 i 48 hores, amb un botó per esborrar-les abans",
+  "summary": "FaceApp processa els retrats als seus servidors: la fotografia que es vol transformar es puja a Google Cloud o AWS. La política ho reconeix i hi posa un límit (entre 24 i 48 hores de memòria cau) i un botó a la configuració per demanar-ne l’esborrat immediat. La resta de dades es fan servir per a publicitat i analítica, i el servei funciona sense compte.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Xipre",
+  "userBase": "Més de 500 milions de descàrregues, segons la fitxa de l’App Store",
+  "links": {
+    "website": "https://www.faceapp.com",
+    "privacyPolicy": "https://www.faceapp.com/privacy",
+    "appStore": "https://apps.apple.com/es/app/id1180884341"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "faceapp-privacy-policy"
+    ],
+    "detail": "L’edició funciona sense registre; la política descriu un ús basat en identificadors de dispositiu.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "faceapp-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Una cara, a diferència d’una contrasenya, no es pot canviar. FaceApp en tracta la imatge al núvol durant un termini curt, però el que persisteix són les dades publicitàries: identificadors de dispositiu, ubicació aproximada i interaccions compartides amb finalitats de màrqueting.",
+  "dataCollection": [
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "faceapp-privacy-policy",
+        "faceapp-play-data-safety"
+      ],
+      "note": "Només les que se seleccionen per editar. La política afirma que no accedeix a l’àlbum sencer encara que se li hagi donat permís."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "faceapp-play-data-safety"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "faceapp-play-data-safety"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "faceapp-privacy-policy"
+      ]
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "faceapp-privacy-policy"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "faceapp-play-data-safety"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "faceapp-play-data-safety"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "faceapp-play-data-safety"
+      ],
+      "note": "Confirmació de la compra dins de l’aplicació."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "faceapp-privacy-policy"
+      ],
+      "note": "Només si s’escriu a l’assistència."
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "unknown",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "note": "La política no descriu cap extracció ni conservació de plantilles facials, tot i que el servei transforma cares al núvol."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "faceapp-play-data-safety"
+      ],
+      "detail": "Els identificadors de dispositiu es comparteixen amb finalitats de publicitat o màrqueting.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "faceapp-play-data-safety"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "faceapp-privacy-policy"
+      ],
+      "detail": "La política admet que hi ha SDK que permeten a tercers recollir informació directament des de l’aplicació, però no en diu els noms.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "faceapp-play-data-safety"
+      ],
+      "detail": "Identificadors, ubicació aproximada i interaccions es comparteixen per a publicitat o màrqueting.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu l’elaboració de perfils."
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu si les fotografies serveixen per entrenar els models de transformació facial."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "faceapp-privacy-policy"
+      ],
+      "detail": "Empreses afiliades, proveïdors de servei, plataformes socials i assessors professionals. La política assegura que les fotografies i els vídeos no es comparteixen amb tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "faceapp-privacy-policy"
+      ],
+      "detail": "La política preveu la compartició amb empreses afiliades, sense enumerar-les.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "faceapp-privacy-policy"
+      ],
+      "detail": "La política declara que no ven informació personal.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "faceapp-privacy-policy"
+      ],
+      "detail": "Reconeix transferències internacionals protegides amb clàusules contractuals tipus, xifratge i pseudonimització.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "faceapp-privacy-policy"
+      ],
+      "detail": "Hi ha un termini concret per a les fotografies, però la resta es conserva «el temps necessari».",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no detalla què queda després de demanar l’esborrat."
+    },
+    "periods": [
+      {
+        "dataType": "fotografies-i-videos",
+        "period": "entre 24 i 48 hores a la memòria cau del núvol des de l’última edició",
+        "sources": [
+          "faceapp-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "faceapp-privacy-policy"
+      ],
+      "detail": "No hi ha compte pròpiament dit, però la configuració inclou un botó per demanar l’eliminació de les dades al núvol.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "faceapp-privacy-policy",
+        "faceapp-play-data-safety"
+      ],
+      "detail": "El botó «Request cloud data removal» és a la configuració de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "easy",
+    "steps": [
+      "Obre la configuració de FaceApp.",
+      "Prem «Request cloud data removal» per demanar l’esborrat immediat de les fotografies pujades.",
+      "Per a la resta de dades, escriu a privacy@faceapp.com o al delegat de protecció de dades, dpo@faceapp.com."
+    ],
+    "dataRetained": "La política no concreta quines dades es conserven després de la sol·licitud.",
+    "sources": [
+      "faceapp-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "faceapp-privacy-policy"
+      ],
+      "detail": "Els drets d’accés i portabilitat s’exerceixen per correu electrònic; no hi ha eina d’exportació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "faceapp-privacy-policy"
+      ],
+      "detail": "Delegat de protecció de dades amb adreça pròpia i responsable establerta a Xipre, dins de la Unió Europea.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dpo@faceapp.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap control de publicitat dins de l’aplicació."
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap manera de desactivar l’analítica."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "faceapp-privacy-policy"
+      ],
+      "detail": "El control destacable és el botó d’esborrat de les dades al núvol; no n’hi ha per finalitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [
+        "faceapp-privacy-policy"
+      ],
+      "detail": "La política no anomena cap dels SDK de tercers que admet que recullen dades directament des de l’aplicació, cosa que impedeix saber amb qui es comparteixen les dades publicitàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "confusing-language",
+        "severity": "medium",
+        "description": "La política reconeix la presència d’SDK de tercers que recullen dades pel seu compte, però no en publica la llista.",
+        "sources": [
+          "faceapp-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "La transformació de la imatge es fa al servidor, de manera que el proveïdor hi ha de tenir accés en clar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "faceapp-play-data-safety"
+      ],
+      "detail": "El desenvolupador declara a Google Play que les dades es xifren en trànsit.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "faceapp-privacy-policy"
+      ],
+      "detail": "La política esmenta el xifratge i la pseudonimització com a garanties de les transferències internacionals, sense concretar l’abast.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no té comptes amb contrasenya.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories independents publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses; el domini no serveix cap fitxer security.txt."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap canal específic de comunicació de vulnerabilitats."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La reputació de FaceApp es va formar el 2019 més per la nacionalitat del seu equip fundador que per troballes tècniques. La fitxa s’ha fet amb la política vigent i amb la declaració del desenvolupador: la responsable és una societat xipriota, dins de la Unió Europea, i el tractament de les fotografies està acotat en el temps. No hem trobat cap sanció ferma de cap autoritat de protecció de dades.",
+    "openQuestions": [
+      "L’etiqueta de privadesa de l’App Store no s’ha pogut consultar: Apple va respondre amb un error 429 durant tota la revisió.",
+      "Quins són els SDK de tercers presents a l’aplicació, que la política reconeix però no enumera?"
+    ]
+  },
+  "appStoreBundleId": "io.faceapp.ios"
+}

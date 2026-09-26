@@ -1,0 +1,595 @@
+{
+  "slug": "edreams",
+  "name": "eDreams",
+  "company": "vacaciones-edreams",
+  "categories": [
+    "viatges-i-allotjament"
+  ],
+  "tagline": "Terminis de conservació concrets, una política sense revisar des del 2023 i una sanció de nou milions per patrons foscos",
+  "summary": "La política d’eDreams és precisa en terminis de conservació i en la llista de tractaments als quals et pots oposar, però no s’ha revisat des del juny del 2023, es carrega per JavaScript des d’un fitxer JSON i basa les transferències als sistemes globals de distribució en l’excepció contractual de l’article 49 en lloc de clàusules tipus. El febrer del 2026 l’autoritat italiana de la competència va multar el grup amb nou milions d’euros per patrons foscos a la subscripció Prime.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Espanya",
+  "userBase": "Més de set milions de persones subscrites a Prime el febrer del 2025",
+  "links": {
+    "website": "https://www.edreams.es/",
+    "privacyPolicy": "https://www.edreams.es/politica-de-privacidad/",
+    "terms": "https://www.edreams.es/prime/condiciones-generales-de-venta/",
+    "appStore": "https://apps.apple.com/es/app/id551367321"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "edreams-privacy-policy"
+    ],
+    "detail": "Es pot comprar sense compte, però la subscripció Prime i la gestió de les reserves el requereixen.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "editorial",
+    "sources": [],
+    "detail": "Aplicació privativa: no consta cap publicació del codi font.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Un cercador de vols acumula també les rutes que has mirat i no has comprat. eDreams hi suma el document de viatge, el mitjà de pagament guardat per defecte si ets Prime i un historial de cerques que declara a Apple com a dada de seguiment.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "edreams-privacy-policy",
+        "edreams-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "edreams-privacy-policy",
+        "edreams-app-store"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "edreams-app-store"
+      ]
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "edreams-privacy-policy"
+      ],
+      "note": "Les dades del passatger es transmeten a l’aerolínia i als sistemes globals de distribució."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "edreams-privacy-policy"
+      ],
+      "note": "La política diu que si ets Prime les dades de pagament es desen automàticament per execució del contracte, i que si no ho ets cal consentiment."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "brokers",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "edreams-app-store"
+      ],
+      "note": "Declarat sota «Datos usados para rastrearte» i també sota publicitat de tercers."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "edreams-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "brokers",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "edreams-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "edreams-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "edreams-app-store"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "edreams-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "edreams-app-store"
+      ]
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "edreams-privacy-policy"
+      ],
+      "note": "La política parla de contingut basat en interessos i de publicitat dirigida al web, al correu, als dispositius connectats i a l’aplicació."
+    },
+    {
+      "type": "contrasenya",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "edreams-privacy-policy"
+      ],
+      "note": "La política afirma que les contrasenyes no s’emmagatzemen mai en un format no xifrat."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "edreams-app-store"
+      ],
+      "detail": "Cinc categories sota «Datos usados para rastrearte»: compres, historial de cerca, identificadors, dades d’ús i diagnòstics.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "edreams-app-store"
+      ],
+      "detail": "L’identificador de dispositiu es declara sota publicitat de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "edreams-privacy-policy"
+      ],
+      "detail": "La política descriu solucions de màrqueting i de gestió de clients que mostren anuncis personalitzats a internet.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "edreams-privacy-policy"
+      ],
+      "detail": "Publicitat dirigida al web, al correu electrònic, als dispositius connectats i dins de l’aplicació.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://edreamsodigeo-privacy.my.onetrust.com/webform/6c5da0dc-05a2-4059-a58b-a144b7de6001/43ec5229-ef14-4187-b376-8a103db962b4"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "edreams-privacy-policy"
+      ],
+      "detail": "S’hi pot oposar expressament: la política llista el perfilat i les ofertes categoritzades i personalitzades entre els tractaments objectables.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta l’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "edreams-privacy-policy"
+      ],
+      "detail": "Aerolínies, hotels i lloguer de cotxes com a responsables independents, asseguradores de viatge, sistemes globals de distribució i de reserva, metacercadors, passarel·les, plataformes socials i agències de cobrament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "edreams-privacy-policy"
+      ],
+      "detail": "Compartició dins del grup eDreams ODIGEO, amb un delegat de protecció de dades comú.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "edreams-privacy-policy"
+      ],
+      "detail": "La política declara que no es venen ni es comparteixen dades en el sentit de la normativa californiana.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "edreams-privacy-policy"
+      ],
+      "detail": "Els servidors són a la Unió Europea, però per als sistemes globals de distribució, els agregadors, les aerolínies, els hotels i el lloguer de vehicles fora de la Unió la política invoca expressament l’excepció contractual de l’article 49, no les clàusules contractuals tipus. El Comitè Europeu de Protecció de Dades considera que aquesta excepció ha de ser ocasional i no sistemàtica.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "derogation"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "edreams-privacy-policy"
+      ],
+      "detail": "La política fixa un termini concret, amb una xifra, per a cada tipus de tractament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "edreams-privacy-policy"
+      ],
+      "detail": "La política adverteix que pot no ser possible esborrar-ho tot per raons contractuals, antifrau i legals, i que les còpies residuals de seguretat romanen fins a una setmana.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "period": "Màxim 5 anys des del final de l’últim viatge o de l’última acció al compte.",
+        "sources": [
+          "edreams-privacy-policy"
+        ]
+      },
+      {
+        "period": "1 any per a les reserves no completades, per seguretat i antifrau.",
+        "sources": [
+          "edreams-privacy-policy"
+        ]
+      },
+      {
+        "period": "10 anys per a les finalitats fiscals i comptables.",
+        "sources": [
+          "edreams-privacy-policy"
+        ]
+      },
+      {
+        "period": "3 anys per a les interaccions de protecció de dades.",
+        "sources": [
+          "edreams-privacy-policy"
+        ]
+      },
+      {
+        "period": "7 dies per al correu de recuperació d’una reserva abandonada.",
+        "sources": [
+          "edreams-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "edreams-privacy-policy"
+      ],
+      "detail": "El dret de supressió s’exerceix pel formulari de privadesa del grup.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "edreams-privacy-policy"
+      ],
+      "detail": "No hem trobat cap opció d’eliminació dins del compte ni cap article d’ajuda que l’expliqui: el camí és el formulari OneTrust.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://edreamsodigeo-privacy.my.onetrust.com/webform/6c5da0dc-05a2-4059-a58b-a144b7de6001/43ec5229-ef14-4187-b376-8a103db962b4",
+    "difficulty": "hard",
+    "requiresSupportContact": true,
+    "steps": [
+      "Obre el formulari de privadesa d’eDreams ODIGEO allotjat a OneTrust.",
+      "Tria la sol·licitud de supressió i identifica’t.",
+      "Si tens una subscripció Prime activa, cancel·la-la abans per evitar renovacions posteriors."
+    ],
+    "obstacles": "La política no publica cap adreça del delegat de protecció de dades, tot i dir que n’hi ha un de comú per al grup: l’única via és el formulari.",
+    "dataRetained": "Dades fiscals i comptables durant deu anys i còpies residuals de seguretat fins a una setmana.",
+    "sources": [
+      "edreams-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "edreams-privacy-policy"
+      ],
+      "detail": "La portabilitat es reconeix en format estructurat i d’ús comú «cuando sea técnicamente factible», però només pel formulari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "edreams-privacy-policy"
+      ],
+      "detail": "Hi ha un formulari de drets complet, però cap adreça de correu del delegat de protecció de dades.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://edreamsodigeo-privacy.my.onetrust.com/webform/6c5da0dc-05a2-4059-a58b-a144b7de6001/43ec5229-ef14-4187-b376-8a103db962b4",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "edreams-privacy-policy"
+      ],
+      "detail": "La política llista de manera molt granular els tractaments als quals et pots oposar i els consentiments que pots retirar, inclosos el perfilat i les ofertes personalitzades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "edreams-privacy-policy"
+      ],
+      "detail": "Les galetes analítiques i publicitàries es configuren des del banner; no consta cap control per a la telemetria de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "edreams-privacy-policy"
+      ],
+      "detail": "Configuració del compte, baixa a cada comunicació comercial i formulari amb oposicions detallades per tractament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "yes",
+      "level": "regulator",
+      "sources": [
+        "edreams-agcm-2026"
+      ],
+      "detail": "L’autoritat italiana de la competència va declarar acreditat l’ús de patrons foscos i de tècniques de pressió temporal i d’escassetat artificial per induir la subscripció a Prime, i l’obstaculització del dret de desistiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "nagging",
+        "severity": "high",
+        "description": "Estratègies manipulatives i de pressió temporal per induir la subscripció a Prime, amb informació ambigua sobre què inclou, segons la resolució de l’autoritat italiana.",
+        "sources": [
+          "edreams-agcm-2026"
+        ]
+      },
+      {
+        "type": "hidden-exit",
+        "severity": "high",
+        "description": "Obstaculització del dret de desistiment mitjançant estratègies de retenció, sancionada amb tres milions d’euros addicionals.",
+        "sources": [
+          "edreams-agcm-2026"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no transporta comunicacions privades entre persones usuàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap declaració pública sobre el xifratge en trànsit."
+    },
+    "atRestEncryption": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "edreams-privacy-policy"
+      ],
+      "detail": "L’única afirmació és que les contrasenyes no s’emmagatzemen mai en un format no xifrat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació sobre la verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut verificar en cap pàgina oficial viva les certificacions PCI DSS i ISO 27001 que s’atribueixen al grup."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses ni cap política de divulgació responsable."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "edreams-privacy-policy"
+      ],
+      "detail": "El domini edreams.es no publica cap fitxer security.txt i la política no dona cap canal de seguretat: la secció «Proteja sus datos» són consells a la persona usuària.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "vueling",
+      "comparability": "partial",
+      "rationale": "Comprar directament a la companyia aèria evita l’intermediari, els seus perfils de màrqueting i la subscripció Prime.",
+      "tradeOffs": "Vueling no publica cap política de privadesa completa i només cobreix la seva pròpia xarxa."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La política dona terminis de conservació concrets i llista bé a què et pots oposar. En canvi, el text no s’ha revisat des del juny del 2023 i el web el serveix com un fitxer JSON per JavaScript, de manera que amb l’script desactivat la pàgina de la política queda pràcticament buida.",
+    "openQuestions": [
+      "Per què les transferències als sistemes globals de distribució es basen en l’excepció de l’article 49 i no en clàusules contractuals tipus?",
+      "Quina entitat és la responsable: la política diu Vacaciones eDreams S.L.U. i la fitxa de comerciant de l’App Store diu eDreams International Network, S.L.",
+      "Hi ha cap expedient d’una autoritat de protecció de dades espanyola sobre la subscripció Prime?"
+    ]
+  },
+  "appStoreBundleId": "com.edreams.flights"
+}

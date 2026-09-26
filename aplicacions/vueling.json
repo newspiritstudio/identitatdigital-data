@@ -1,0 +1,445 @@
+{
+  "slug": "vueling",
+  "name": "Vueling",
+  "company": "vueling-airlines",
+  "categories": [
+    "viatges-i-allotjament",
+    "mobilitat-i-transport"
+  ],
+  "tagline": "La política de privadesa completa que la companyia diu tenir no és accessible a cap URL pública",
+  "summary": "Vueling publica una pàgina de compromís amb la privadesa que remet a «nuestra Política de Privacidad» completa, però l’enllaç no porta enlloc: al web només hi ha aquesta pàgina d’una pantalla, amb el responsable i l’adreça postal del delegat de protecció de dades. L’etiqueta de l’App Store, en canvi, declara que les compres i les dades de contacte es fan servir per rastrejar, i és pràcticament l’única font verificable del tractament.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Espanya",
+  "userBase": "Desenes de milions de passatgers anuals, sobretot a Espanya i Europa",
+  "links": {
+    "website": "https://www.vueling.com/",
+    "privacyPolicy": "https://www.vueling.com/es/legal/politica-de-privacidad",
+    "terms": "https://www.vueling.com/es/atencion-al-cliente/condiciones-de-uso-del-sitio-web",
+    "appStore": "https://apps.apple.com/es/app/id445818820"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "vueling-app-store"
+    ],
+    "detail": "Es pot comprar sense compte, però l’etiqueta declara identificador d’usuari i el programa Vueling Club requereix registre.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "editorial",
+    "sources": [],
+    "detail": "Aplicació privativa: no consta cap publicació del codi font.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Una reserva de vol conté el nom legal, el document d’identitat, la data del viatge, els acompanyants i sovint dades d’assistència especial. Vueling no publica la política completa que n’hauria d’explicar el tractament.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "vueling-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "vueling-app-store"
+      ],
+      "note": "Declarada sota publicitat o màrqueting de l’editora i, com a dada de contacte, també sota seguiment."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "vueling-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "vueling-app-store"
+      ],
+      "note": "Les compres són una de les dues categories declarades sota «Datos utilizados para rastrearte»."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "vueling-app-store"
+      ]
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "vueling-app-store"
+      ],
+      "note": "L’etiqueta declara «Contactos» com a dada vinculada per al funcionament de l’aplicació, sense explicar-ne el motiu."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "vueling-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "vueling-app-store"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "vueling-app-store"
+      ],
+      "note": "Declarada com a dada no vinculada amb la identitat."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "vueling-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "vueling-app-store"
+      ]
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "vueling-website-terms"
+      ],
+      "note": "El servei de facturació exigeix la documentació de viatge; l’etiqueta no la desglossa."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "vueling-app-store"
+      ],
+      "detail": "L’etiqueta declara compres i dades de contacte sota «Datos utilizados para rastrearte».",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "vueling-app-store"
+      ],
+      "detail": "Es declaren identificadors d’usuari i de dispositiu, però el seguiment s’atribueix a les compres i al contacte, no a l’identificador publicitari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Sense una política llegible no es pot confirmar quins tercers hi ha a l’aplicació."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "vueling-app-store"
+      ],
+      "detail": "Hi ha una finalitat declarada de publicitat o màrqueting de l’editora amb correu i telèfon.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "vueling-app-store"
+      ],
+      "detail": "Hi ha una finalitat de personalització del producte, sense cap descripció documental del perfilat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap document públic que en parli."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Sense política llegible no podem documentar les cessions, ni tan sols les obligatòries de dades de passatgers a les autoritats frontereres."
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap document que descrigui la compartició amb la resta del grup International Airlines Group ni amb el programa Avios."
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha informació pública sobre la venda de dades."
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap document públic que indiqui el mecanisme de transferència."
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Cap document públic de la companyia fixa terminis de conservació."
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha documentació sobre què es conserva després de la baixa."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap document que expliqui com es dona de baixa un compte de Vueling Club."
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut verificar si hi ha una opció de baixa a l’àrea de client."
+    },
+    "difficulty": "unknown",
+    "obstacles": "La pàgina de privadesa remet a una política completa que no hem localitzat a cap URL del web, i el centre d’ajuda no publica cap article sobre l’eliminació del compte."
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap eina ni cap procediment documentat de portabilitat."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "vueling-privacy-policy"
+      ],
+      "detail": "L’únic canal publicat és una adreça postal al delegat de protecció de dades a Viladecans; no hi ha formulari ni correu electrònic.",
+      "verifiedAt": "2026-09-22",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap control documentat sobre la personalització publicitària."
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap control sobre l’analítica."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut revisar el panell de preferències del compte."
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [],
+      "detail": "Remetre a una política de privadesa completa que no és accessible a cap adreça pública deixa la persona usuària sense la informació que l’article 13 del RGPD exigeix facilitar. Ho anotem com a indici; no l’hem verificat com a patró de disseny.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no transporta comunicacions privades entre persones usuàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap declaració pública sobre el xifratge en trànsit; l’aplicació no és a Google Play amb un identificador localitzable."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública sobre el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació sobre la verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories independents publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses públic."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El domini vueling.com no publica cap fitxer /.well-known/security.txt."
+    }
+  },
+  "review": {
+    "researchStatus": "initial",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Una companyia aèria amb desenes de milions de passatgers anuals no publica, en cap idioma del seu web, la política de privadesa que ella mateixa diu tenir. Tot el que hem pogut afirmar surt de l’etiqueta de l’App Store.",
+    "openQuestions": [
+      "On és publicada la «Política de Privacidad» completa a què remet la pàgina de compromís?",
+      "Per què l’etiqueta de l’App Store declara l’accés als contactes del telèfon com a dada vinculada?",
+      "Quin tractament rep la informació de passatgers compartida amb la resta del grup International Airlines Group i amb el programa Avios?"
+    ]
+  },
+  "appStoreBundleId": "com.vueling.Vueling"
+}

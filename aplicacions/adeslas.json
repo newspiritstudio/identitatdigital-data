@@ -1,0 +1,603 @@
+{
+  "slug": "adeslas",
+  "name": "Adeslas",
+  "company": "segurcaixa-adeslas",
+  "categories": [
+    "salut-i-assistencia-sanitaria"
+  ],
+  "tagline": "Declara historial de navegació per rastrejar-te, i cap dada vinculada amb la identitat",
+  "summary": "L’aplicació de l’asseguradora gestiona pòlisses, autoritzacions, reembossaments i orientació mèdica a distància, i demana accés a la càmera, al micròfon i als sensors corporals del telèfon. L’etiqueta de l’App Store, en canvi, no declara cap dada vinculada amb la identitat, tot i que el servei s’identifica amb la pòlissa, i sí que declara historial de navegació utilitzat per rastrejar-te. La política corporativa és extensa i reconeix el tractament de dades de salut i biomètriques, el perfilat actuarial per fixar la prima i la cessió a sistemes sectorials del sector assegurador.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "subscription",
+  "jurisdiction": "Espanya; autoritat de control: Agencia Española de Protección de Datos",
+  "userBase": "Milions de persones assegurades a Espanya",
+  "links": {
+    "website": "https://www.segurcaixaadeslas.es/",
+    "privacyPolicy": "https://www.segurcaixaadeslas.es/proteccion-de-datos",
+    "terms": "https://www.segurcaixaadeslas.es/aviso-legal",
+    "appStore": "https://apps.apple.com/es/app/id1218328989"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "adeslas-aviso-legal"
+    ],
+    "detail": "Per accedir a l’àrea privada cal ser client de SegurCaixa Adeslas i registrar-se prèviament amb el formulari corresponent.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "editorial",
+    "sources": [],
+    "detail": "No hem trobat cap repositori públic; l’aplicació la desenvolupa un proveïdor per a l’asseguradora.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Una pòlissa de salut genera el registre mèdic d’una persona: quines proves demana, a quins especialistes va, quines autoritzacions li aproven i quines li deneguen. La política hi afegeix dades biomètriques, models estadístics que fixen la prima i la comunicació d’aquestes dades a altres asseguradores quan hi ha un sinistre.",
+  "dataCollection": [
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "adeslas-proteccion-de-datos"
+      ]
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "adeslas-proteccion-de-datos"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "adeslas-proteccion-de-datos"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "adeslas-proteccion-de-datos"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "adeslas-proteccion-de-datos"
+      ]
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "adeslas-proteccion-de-datos"
+      ]
+    },
+    {
+      "type": "genere",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "adeslas-proteccion-de-datos"
+      ]
+    },
+    {
+      "type": "origen-etnic-o-nacionalitat",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "adeslas-proteccion-de-datos"
+      ],
+      "note": "La política enumera la nacionalitat entre les dades identificatives i de contacte."
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau",
+        "investigacio-i-estadistica"
+      ],
+      "sources": [
+        "adeslas-proteccion-de-datos"
+      ],
+      "note": "Es comuniquen a centres i professionals sanitaris, a entitats reasseguradores i, en cas de sinistre de danys personals, a les altres asseguradores implicades."
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "adeslas-proteccion-de-datos"
+      ],
+      "note": "La política inclou dades biomètriques entre les categories tractades per a la gestió de les relacions contractuals."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "adeslas-proteccion-de-datos"
+      ]
+    },
+    {
+      "type": "nivell-d-ingressos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "adeslas-proteccion-de-datos"
+      ],
+      "note": "Dades laborals, professionals i socioeconòmiques, utilitzades també per als models estadístics que fixen la prima."
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "adeslas-proteccion-de-datos"
+      ],
+      "note": "L’aplicació demana accés al micròfon per al servei d’orientació mèdica a distància."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "adeslas-proteccion-de-datos"
+      ],
+      "note": "Accés a la càmera per a la videoconsulta i per enviar imatges al professional."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "adeslas-proteccion-de-datos"
+      ],
+      "note": "La política descriu l’elaboració d’un perfil comercial per ajustar les comunicacions, emparat en l’interès legítim i amb dret d’oposició."
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "adeslas-app-store"
+      ],
+      "note": "És l’única categoria que l’etiqueta de l’App Store declara com a utilitzada per rastrejar-te."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "adeslas-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "adeslas-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store declara l’historial de navegació sota «Datos usados para rastrearte», és a dir, per seguir-te a través d’aplicacions i llocs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’etiqueta no declara identificadors publicitaris i la política no els esmenta."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "adeslas-proteccion-de-datos",
+        "adeslas-app-store"
+      ],
+      "detail": "La política inclou «datos de navegación» entre les categories tractades per a diverses finalitats, inclosa la prospecció comercial.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "adeslas-proteccion-de-datos"
+      ],
+      "detail": "La política empara en l’interès legítim les accions comercials sobre clients, amb segmentació i elaboració d’un perfil comercial per ajustar les comunicacions; s’hi pot oposar de manera gratuïta.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "adeslas-proteccion-de-datos"
+      ],
+      "detail": "N’hi ha de dos tipus: el perfilat actuarial per determinar la prima en la subscripció del contracte i el perfilat comercial per segmentar les campanyes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [
+        "adeslas-proteccion-de-datos"
+      ],
+      "detail": "La política parla de models estadístics i de fórmules algorítmiques, però no diu res sobre l’entrenament de models d’intel·ligència artificial."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "adeslas-proteccion-de-datos"
+      ],
+      "detail": "Administracions i tribunals, el Consorcio de Compensación de Seguros, entitats asseguradores i reasseguradores, centres i professionals sanitaris, pèrits i entitats financeres; en les pòlisses d’automòbil, els sistemes sectorials gestionats per TIREA.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "adeslas-proteccion-de-datos"
+      ],
+      "detail": "La política preveu comunicar a la matriu del grup la informació mínima imprescindible per complir les obligacions mercantils i d’assegurances, i la cessió a Mutua Madrileña Automovilista.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "adeslas-proteccion-de-datos"
+      ],
+      "detail": "La política diu que no es fan cessions a tercers fora dels supòsits que enumera, tots amb base de legitimació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "adeslas-proteccion-de-datos"
+      ],
+      "detail": "Quan hi ha proveïdors fora de l’Espai Econòmic Europeu o en països sense decisió d’adequació, la política diu que se’ls exigeixen les garanties adequades del RGPD, sense concretar quin mecanisme.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "adeslas-proteccion-de-datos"
+      ],
+      "detail": "Hi ha criteris i algun termini concret (divuit mesos per a les comunicacions comercials a clients potencials), però la regla general és el bloqueig fins que prescriguin les responsabilitats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "adeslas-proteccion-de-datos"
+      ],
+      "detail": "Donar de baixa els serveis digitals suprimeix les dades que hi consten, però les de la pòlissa passen a bloqueig i queden a disposició d’administracions i tribunals.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "adreca-electronica",
+        "period": "18 mesos (comunicacions comercials a clients potencials amb consentiment)",
+        "sources": [
+          "adeslas-proteccion-de-datos"
+        ]
+      },
+      {
+        "period": "Dades dels serveis digitals: mentre duri la relació contractual o fins que en demanis la baixa",
+        "sources": [
+          "adeslas-proteccion-de-datos"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "adeslas-proteccion-de-datos"
+      ],
+      "detail": "Es pot demanar la baixa dels serveis digitals, i llavors es tanca l’accés i se’n suprimeixen les dades; les de la pòlissa no s’esborren, es bloquegen pels terminis de prescripció.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [
+        "adeslas-proteccion-de-datos"
+      ],
+      "detail": "La política no descriu si la baixa dels serveis digitals es pot fer des de l’aplicació o si cal demanar-la per un altre canal."
+    },
+    "difficulty": "hard",
+    "requiresSupportContact": true,
+    "steps": [
+      "Revoca els consentiments que hagis donat per als serveis de prevenció i foment de la salut: la política diu que llavors se’n suprimeixen les dades.",
+      "Demana la baixa dels serveis digitals; en desaparèixer la condició que hi dona accés, s’impedeix l’accés i se suprimeixen les dades que hi consten.",
+      "Per a qualsevol altre dret, escriu al delegat de protecció de dades a dpd@segurcaixaadeslas.es o per correu postal a la seu social amb la referència «Delegado de Protección de Datos».",
+      "Recorda que cancel·lar la pòlissa no esborra l’expedient: les dades passen a bloqueig pels terminis de prescripció."
+    ],
+    "obstacles": "Com a asseguradora, conserva bona part de les dades per obligació legal i sectorial, i les que s’han comunicat a sistemes com els de TIREA s’han de reclamar directament a aquestes entitats.",
+    "dataRetained": "Les dades de la pòlissa i dels sinistres, bloquejades a disposició d’administracions, jutges i tribunals durant el termini de prescripció.",
+    "sources": [
+      "adeslas-proteccion-de-datos"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "adeslas-proteccion-de-datos"
+      ],
+      "detail": "Els drets d’accés i portabilitat es reconeixen i s’exerceixen davant del delegat de protecció de dades; no hi ha cap eina d’autoservei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "adeslas-proteccion-de-datos"
+      ],
+      "detail": "Hi ha un delegat de protecció de dades amb adreça electrònica i postal, i la política ofereix consultar l’anàlisi de ponderació de l’interès legítim de cada tractament.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dpd@segurcaixaadeslas.es",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "adeslas-proteccion-de-datos"
+      ],
+      "detail": "La política diu que l’oposició als tractaments basats en l’interès legítim, inclosa la prospecció comercial, es pot fer de manera senzilla i gratuïta.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap control per desactivar l’analítica de l’aplicació."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "adeslas-proteccion-de-datos"
+      ],
+      "detail": "Els permisos del telèfon (memòria, càmera, micròfon i sensors corporals) es poden denegar un per un, però només hi ha oposició per finalitat, no un panell de privadesa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [
+        "adeslas-app-store",
+        "adeslas-proteccion-de-datos"
+      ],
+      "detail": "Declarar a l’App Store que no hi ha cap dada vinculada amb la identitat en una aplicació on entres amb la pòlissa i consultes autoritzacions mèdiques fa que l’etiqueta no serveixi per entendre quines dades es tracten.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "confusing-language",
+        "severity": "medium",
+        "description": "L’etiqueta de l’App Store no declara cap dada vinculada amb la identitat, mentre la política corporativa reconeix el tractament de dades de salut, biomètriques i financeres de la persona assegurada.",
+        "sources": [
+          "adeslas-app-store",
+          "adeslas-proteccion-de-datos"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no ofereix xifratge d’extrem a extrem; la videoconsulta passa pels sistemes de l’asseguradora i dels seus proveïdors.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no detalla les mesures tècniques de xifratge en trànsit."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública sobre el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap documentació sobre verificació en dos passos a l’Àrea Cliente."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories de seguretat independents publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut comprovar si hi ha un fitxer security.txt: el domini està darrere d’un tallafoc que respon amb un error a qualsevol petició automatitzada."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "asisa",
+      "comparability": "partial",
+      "rationale": "És una altra asseguradora de salut espanyola amb una aplicació equivalent; el tractament de fons és comparable perquè el marca la normativa d’assegurances.",
+      "tradeOffs": "En triar asseguradora pesen més la cobertura i el quadre mèdic que la política de privadesa."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Els dominis de SegurCaixa Adeslas estan protegits per un tallafoc que bloqueja qualsevol lectura automatitzada; la política s’ha llegit a través de l’arxiu d’internet, i la fitxa ho fa constar a cada font. El punt principal és el contrast entre una política corporativa llarga i completa i una etiqueta d’App Store que gairebé no declara res.",
+    "openQuestions": [
+      "Quin és l’historial de navegació que l’etiqueta de l’App Store declara com a utilitzat per rastrejar, i a quina empresa arriba?",
+      "Per a què es tracten les dades biomètriques que enumera la política?",
+      "Hi ha alguna sanció de l’AEPD contra SegurCaixa Adeslas relacionada amb aquesta aplicació?"
+    ]
+  },
+  "appStoreBundleId": "com.qaracter.asybapp"
+}

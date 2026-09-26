@@ -1,0 +1,578 @@
+{
+  "slug": "too-good-to-go",
+  "name": "Too Good To Go",
+  "company": "too-good-to-go",
+  "categories": [
+    "alimentacio-i-restauracio"
+  ],
+  "tagline": "Excedents d’aliments amb certificació SOC 2 i esborrat des de l’aplicació, però amb l’historial de compres declarat per rastrejar",
+  "summary": "Too Good To Go, empresa danesa, connecta botigues amb excedents i persones que els compren. L’etiqueta declara l’historial de compres i els identificadors com a dades per rastrejar, i la política preveu publicitat dirigida a partir de l’ús i interessos legítims per al màrqueting. D’altra banda, l’aplicació permet descarregar les dades i eliminar el compte sense passar per atenció al client, i publica un centre de confiança amb auditories SOC 2 i PCI DSS.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Dinamarca",
+  "links": {
+    "website": "https://www.toogoodtogo.com/es",
+    "privacyPolicy": "https://www.toogoodtogo.com/es/legal/privacy",
+    "privacyCenter": "https://trust.toogoodtogo.com/",
+    "appStore": "https://apps.apple.com/es/app/id1060683933"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "too-good-to-go-privacy-policy"
+    ],
+    "detail": "Cal un compte per reservar un pack.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "too-good-to-go-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Les botigues on es recull i les hores de recollida revelen rutines i barris. Les preferències alimentàries opcionals i les consultes sobre al·lèrgies poden revelar dades de salut.",
+  "dataCollection": [
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "too-good-to-go-privacy-policy"
+      ],
+      "note": "Només si es dona permís; si no, la ubicació s’indica a mà."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "too-good-to-go-app-store",
+        "too-good-to-go-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "too-good-to-go-app-store"
+      ]
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "too-good-to-go-app-store",
+        "too-good-to-go-privacy-policy"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "too-good-to-go-app-store",
+        "too-good-to-go-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "too-good-to-go-privacy-policy"
+      ],
+      "note": "Només per a compres amb lliurament; es valida amb Google."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada",
+        "personalitzacio-de-continguts",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "too-good-to-go-app-store",
+        "too-good-to-go-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "too-good-to-go-privacy-policy"
+      ],
+      "note": "No guarda les dades de la targeta, només la resposta del proveïdor de pagament."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "too-good-to-go-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "too-good-to-go-app-store"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "too-good-to-go-privacy-policy"
+      ],
+      "note": "La política esmenta l’IDFA i l’IDFV."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "too-good-to-go-app-store",
+        "too-good-to-go-privacy-policy"
+      ]
+    },
+    {
+      "type": "genere",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "too-good-to-go-privacy-policy"
+      ]
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "too-good-to-go-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "too-good-to-go-privacy-policy"
+      ],
+      "note": "Només si es comparteixen al·lèrgies o altres dades amb atenció al client."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "too-good-to-go-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "too-good-to-go-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "too-good-to-go-app-store"
+      ],
+      "detail": "L’etiqueta declara l’historial de compres i els identificadors d’usuari i de dispositiu com a dades per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "too-good-to-go-privacy-policy"
+      ],
+      "detail": "La política cita l’IDFA entre els identificadors que recull.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "too-good-to-go-privacy-policy"
+      ],
+      "detail": "Plataformes publicitàries de tercers si s’accepten les galetes de màrqueting, i proveïdors de mesura publicitària.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "too-good-to-go-privacy-policy"
+      ],
+      "detail": "Publicitat dirigida dins la plataforma i en altres llocs web, basada en l’interès legítim o en el consentiment segons el cas.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "too-good-to-go-privacy-policy"
+      ],
+      "detail": "Personalització a partir de les interaccions, l’historial de cerques i compres i les preferències; decisions automatitzades per detectar el frau.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no parla de l’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "too-good-to-go-privacy-policy"
+      ],
+      "detail": "Proveïdors de pagament, allotjament, analítica i publicitat; Google per a la geolocalització; agències de premsa amb consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "too-good-to-go-privacy-policy"
+      ],
+      "detail": "Compartició dins de la família d’empreses Too Good To Go.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no ho diu per a la Unió Europea; l’apartat de Califòrnia declara «vendes» o «comparticions» per a publicitat."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "too-good-to-go-privacy-policy"
+      ],
+      "detail": "Decisions d’adequació, clàusules contractuals tipus o normes corporatives vinculants.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "too-good-to-go-privacy-policy"
+      ],
+      "detail": "Només criteris: la relació amb la persona, les obligacions legals i els terminis de prescripció.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "too-good-to-go-privacy-policy"
+      ],
+      "detail": "Es conserven els registres de transaccions que exigeix la llei.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "too-good-to-go-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "too-good-to-go-privacy-policy"
+      ],
+      "detail": "L’aplicació permet eliminar les dades des de la configuració del compte, i també hi ha un formulari web.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://space.toogoodtogo.com/privacy",
+    "difficulty": "easy",
+    "requiresSupportContact": false,
+    "steps": [
+      "A l’aplicació, obre el perfil i ves a la configuració del compte.",
+      "Tria l’opció d’eliminar el compte i confirma.",
+      "Com a alternativa, introdueix la teva adreça a space.toogoodtogo.com/privacy per demanar-ne l’eliminació.",
+      "Per a qualsevol altre dret, escriu a privacy@toogoodtogo.com."
+    ],
+    "dataRetained": "Registres de transaccions durant els terminis legals.",
+    "sources": [
+      "too-good-to-go-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "too-good-to-go-privacy-policy"
+      ],
+      "detail": "Còpia de les dades des de l’aplicació o pel formulari web.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://space.toogoodtogo.com/privacy"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "too-good-to-go-privacy-policy"
+      ],
+      "detail": "Adreça de privadesa, resposta en un mes i reclamació davant l’autoritat danesa.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacy@toogoodtogo.com",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "too-good-to-go-privacy-policy"
+      ],
+      "detail": "Galetes de màrqueting amb consentiment i baixa dels butlletins; per a l’aplicació remet a la configuració de rastreig del sistema.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap control per desactivar l’analítica a l’aplicació."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "too-good-to-go-privacy-policy"
+      ],
+      "detail": "Descàrrega i eliminació de dades a l’aplicació, i preferències de comunicacions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi de patrons foscos."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Servei de compra; no hi ha comunicació privada entre persones usuàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "too-good-to-go-trust-center"
+      ],
+      "detail": "El centre de confiança parla de bones pràctiques de xifratge sense concretar-les.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "too-good-to-go-trust-center"
+      ],
+      "detail": "Sense detalls publicats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació sobre la verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "too-good-to-go-trust-center"
+      ],
+      "detail": "Informe SOC 2 Type 2, certificació PCI DSS 4.0.1 i proves de penetració, disponibles a petició.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://trust.toogoodtogo.com/"
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses públic."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "too-good-to-go-security-txt"
+      ],
+      "detail": "Fitxer security.txt amb l’adreça security@toogoodtogo.com.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "openQuestions": [
+      "Un lloc de demandes col·lectives parla d’una bretxa a Too Good To Go Inc. (febrer del 2026) notificada a Indiana. No hem trobat cap comunicat oficial ni cap font fiable, i per això no la registrem com a incident. Va afectar persones usuàries europees?",
+      "Quins són els passos exactes a l’aplicació per eliminar el compte?"
+    ]
+  },
+  "appStoreBundleId": "com.moonsted.TGTG"
+}

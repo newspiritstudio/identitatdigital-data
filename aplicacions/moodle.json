@@ -1,0 +1,476 @@
+{
+  "slug": "moodle",
+  "name": "Moodle",
+  "company": "moodle-pty",
+  "categories": [
+    "educacio"
+  ],
+  "tagline": "L’aplicació no recull dades i qui en decideix l’ús és el teu centre educatiu",
+  "summary": "Moodle és un client mòbil que es connecta al servidor Moodle del teu institut, universitat o empresa. Per això l’etiqueta de l’App Store diu que la desenvolupadora no recull cap dada: tot el que hi escrius, lliures o consultes queda al servidor del centre, que és el responsable del tractament i qui fixa els terminis i els drets. El programari és lliure i el codi de l’aplicació és públic, cosa que permet auditar què envia i cap on.",
+  "platforms": [
+    "ios",
+    "android",
+    "web",
+    "windows",
+    "macos",
+    "linux"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "La del centre educatiu que opera el servidor; Moodle Pty Ltd és australiana",
+  "userBase": "Present a centenars de milers de llocs registrats arreu del món",
+  "links": {
+    "website": "https://moodle.com/",
+    "privacyPolicy": "https://moodle.com/privacy-notice/",
+    "appStore": "https://apps.apple.com/es/app/id633359593"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "moodle-org-privacy"
+    ],
+    "detail": "Cal un compte al lloc Moodle de la institució: l’aplicació no té servei propi al qual registrar-se.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "moodle-app-repository"
+    ],
+    "detail": "El codi de l’aplicació mòbil és públic amb llicència Apache 2.0 i el de Moodle LMS, amb GPL.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Apache-2.0",
+    "url": "https://github.com/moodlehq/moodleapp"
+  },
+  "dataSummary": "Un Moodle de centre registra quan es connecta cada persona, quant triga a lliurar, què escriu als fòrums, quines notes treu i quines converses manté amb el professorat. Aquestes dades no surten del centre cap a una empresa de publicitat.",
+  "dataCollection": [
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "moodle-org-privacy"
+      ],
+      "note": "El compte el gestiona la institució que opera el servidor."
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "moodle-org-privacy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "moodle-org-privacy"
+      ]
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "moodle-org-privacy"
+      ],
+      "note": "Les aportacions a fòrums i activitats queden associades al compte."
+    },
+    {
+      "type": "fitxers-i-documents",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "moodle-org-privacy"
+      ],
+      "note": "Els lliuraments de tasques es guarden al servidor del centre."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "moodle-org-privacy"
+      ],
+      "note": "La missatgeria interna amb professorat i companyes és opcional però habitual."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "moodle-org-privacy"
+      ],
+      "note": "El registre d’activitat de Moodle desa cada accés a cada recurs."
+    },
+    {
+      "type": "nivell-formatiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "moodle-org-privacy"
+      ],
+      "note": "Qualificacions i progrés acadèmic són el nucli de la plataforma."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "moodle-app-store-privacy"
+      ],
+      "note": "L’etiqueta de l’App Store declara que la desenvolupadora no recull cap dada."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "moodle-app-store-privacy"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "moodle-app-store-privacy"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "moodle-app-store-privacy"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada utilitzada per rastrejar la persona.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "moodle-app-store-privacy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "moodle-app-store-privacy"
+      ],
+      "detail": "La desenvolupadora declara que no recull cap dada des de l’aplicació. Cada centre hi pot afegir connectors amb tractaments propis.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "moodle-app-store-privacy",
+        "moodle-privacy-notice"
+      ],
+      "detail": "No hi ha publicitat ni al producte ni al model de negoci, basat en serveis i certificacions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "moodle-app-store-privacy"
+      ],
+      "detail": "L’aplicació no elabora perfils comercials; l’analítica d’aprenentatge que faci el centre depèn del centre.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’avís corporatiu no diu res sobre l’ús de dades de les instàncies per entrenar models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "moodle-privacy-notice"
+      ],
+      "detail": "Moodle Pty Ltd declara que només comparteix dades amb proveïdors vinculats per contracte d’encarregat. En una instal·lació pròpia, la compartició la decideix el centre.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap estructura de grup amb la qual es comparteixin dades."
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "moodle-privacy-notice"
+      ],
+      "detail": "L’avís no preveu cap cessió comercial de dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "moodle-privacy-notice"
+      ],
+      "detail": "Moodle Pty Ltd és australiana i empara les transferències fora de l’EEE en clàusules contractuals tipus. Si el servidor és del centre, les dades poden no sortir de la UE.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "moodle-org-privacy",
+        "moodle-privacy-notice"
+      ],
+      "detail": "Per als comptes de moodle.org, les dades es conserven mentre el compte és actiu. A les instal·lacions de centre, els terminis els fixa la política de retenció que configura la institució.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Depèn de la configuració de cada instal·lació; no hi ha una regla única publicada."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "moodle-privacy-notice"
+      ],
+      "detail": "Si les dades les tracta el centre, cal adreçar-s’hi directament; per a les dades que tracta Moodle Pty Ltd, la petició va al delegat de protecció de dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Moodle LMS inclou una eina de sol·licitud de supressió, però activar-la i acceptar la petició depèn de cada administració del lloc."
+    },
+    "difficulty": "medium",
+    "requiresSupportContact": true,
+    "steps": [
+      "Identifica qui és el responsable: si el Moodle és del teu centre, la petició va al centre, no a Moodle Pty Ltd.",
+      "Al lloc Moodle, comprova si l’administració ha activat l’eina de privadesa, que permet demanar l’exportació o la supressió des del mateix perfil.",
+      "Si no hi és, adreça la sol·licitud de supressió al delegat de protecció de dades del centre educatiu.",
+      "Per a les dades que tracta Moodle Pty Ltd (moodle.org, MoodleCloud, formació), escriu a dpo@moodle.com."
+    ],
+    "obstacles": "Com que la responsabilitat està repartida, cal saber a quina de les dues organitzacions et toca reclamar, i la política del centre no sempre és fàcil de trobar.",
+    "sources": [
+      "moodle-privacy-notice",
+      "moodle-org-privacy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "moodle-privacy-notice"
+      ],
+      "detail": "El dret de portabilitat es reconeix i Moodle LMS inclou una eina d’exportació de dades personals, però l’ha d’habilitar l’administració del lloc.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "moodle-privacy-notice"
+      ],
+      "detail": "Delegat de protecció de dades designat, amb compromís de resposta en trenta dies.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dpo@moodle.com",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha publicitat dins del servei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta si l’aplicació envia telemetria pròpia ni si es pot desactivar."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "moodle-privacy-notice"
+      ],
+      "detail": "Moodle LMS ofereix eines de privadesa i de consentiment de polítiques, però qui les configura és el centre.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "protective",
+    "darkPatterns": {
+      "status": "no",
+      "level": "editorial",
+      "sources": [],
+      "detail": "No hem detectat patrons enganyosos: l’aplicació no té captació publicitària ni embut de subscripció, perquè el client no és qui paga.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "La plataforma ha de poder llegir els continguts per mostrar-los al professorat i avaluar-los.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Depèn de la configuració del servidor del centre; no hi ha una declaració pública aplicable a totes les instal·lacions."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Depèn de qui allotja la instància."
+    },
+    "mfa": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "moodle-app-repository"
+      ],
+      "detail": "Moodle LMS admet factors d’autenticació addicionals i inici de sessió delegat, però activar-los és decisió del centre.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories independents publicades del nucli."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa públic de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "moodle-security"
+      ],
+      "detail": "Procés públic d’avisos de seguretat amb identificador, gravetat i versions corregides, i formulari de comunicació de vulnerabilitats.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://moodle.org/security/"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "canvas-lms",
+      "comparability": "equivalent",
+      "rationale": "Canvas cobreix la mateixa necessitat d’aula virtual i també deixa el control de les dades al centre.",
+      "tradeOffs": "Canvas és un servei allotjat per una empresa nord-americana, amb una intrusió greu documentada el 2026; Moodle es pot autoallotjar."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Les dades es tracten al servidor del centre. Qui vulgui saber què se’n fa ha de demanar la política de privadesa del seu centre, i no la de Moodle Pty Ltd.",
+    "openQuestions": [
+      "Quantes instal·lacions de Moodle als centres espanyols tenen activada l’eina de privadesa que permet demanar exportació i supressió des del perfil?",
+      "L’aplicació envia alguna telemetria pròpia al fabricant, més enllà del trànsit amb el servidor del centre?"
+    ]
+  },
+  "appStoreBundleId": "com.moodle.moodlemobile"
+}

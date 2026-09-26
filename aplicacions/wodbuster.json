@@ -1,0 +1,501 @@
+{
+  "slug": "wodbuster",
+  "name": "WodBuster",
+  "company": "wodbuster",
+  "categories": [
+    "benestar-i-activitat-fisica"
+  ],
+  "tagline": "L’avís legal encara invoca la LOPD del 1999 i el reglament del 2007, derogats el 2018",
+  "summary": "WodBuster és el programari amb què centenars de boxes de CrossFit gestionen reserves de classes, marques personals i rànquings. La política de privadesa publicada només parla del web: el formulari de contacte, la sol·licitud de demostració i les galetes. De les dades que l’etiqueta de l’App Store declara (salut i forma física, adreça postal, telèfon, fotografies i historial de compres) no en diu res, i l’apartat de protecció de dades de l’avís legal encara cita la Llei Orgànica 15/1999 i el Reial decret 1720/2007, derogats quan va entrar en vigor el RGPD.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "subscription",
+  "jurisdiction": "Espanya; autoritat de control: Agencia Española de Protección de Datos",
+  "links": {
+    "website": "https://wodbuster.com",
+    "privacyPolicy": "https://wodbuster.com/politicadeprivacidad.aspx",
+    "terms": "https://wodbuster.com/avisolegal-politicaprivacidad.aspx",
+    "appStore": "https://apps.apple.com/es/app/id1195360759"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "wodbuster-app-store"
+    ],
+    "detail": "L’aplicació és per a persones sòcies d’un box: el compte el dona d’alta el centre i serveix per reservar classes i registrar marques.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "wodbuster-aviso-legal"
+    ],
+    "detail": "L’avís legal reserva tots els drets de propietat intel·lectual del programari.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Les reserves de classe diuen a quina hora entrenes cada dia de la setmana, i les marques personals (pes aixecat, temps, repeticions) són un historial de rendiment físic que sovint es publica en rànquings visibles per la resta del box.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "wodbuster-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "wodbuster-app-store",
+        "wodbuster-politica-privacidad"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "wodbuster-app-store",
+        "wodbuster-politica-privacidad"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "wodbuster-app-store"
+      ],
+      "note": "L’etiqueta de l’App Store declara l’adreça física vinculada amb la identitat; cap document públic no n’explica la finalitat."
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "wodbuster-app-store"
+      ],
+      "note": "Salut i forma física: marques personals, resultats dels entrenaments i progressió."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "wodbuster-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "wodbuster-app-store"
+      ],
+      "note": "Bons de classes i quotes contractades a través del box."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "wodbuster-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "wodbuster-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "wodbuster-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "wodbuster-app-store"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "wodbuster-politica-privacidad"
+      ],
+      "note": "L’únic tractament que la política descriu amb detall, juntament amb el formulari de contacte."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "wodbuster-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada utilitzada per rastrejar-te.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "wodbuster-app-store"
+      ],
+      "detail": "L’etiqueta no declara dades de publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política remet a una política de galetes per als detalls, però no anomena cap proveïdor."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "wodbuster-politica-privacidad"
+      ],
+      "detail": "La política preveu accions de màrqueting i missatges promocionals segons les preferències de comunicació, amb consentiment o interès legítim; no descriu publicitat segmentada amb dades de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "wodbuster-politica-privacidad"
+      ],
+      "detail": "La política reconeix el dret a no ser objecte de decisions automatitzades, inclosa l’elaboració de perfils, i no en descriu cap.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [
+        "wodbuster-politica-privacidad"
+      ],
+      "detail": "Cap document públic no diu res sobre l’ús de les dades per entrenar models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "wodbuster-politica-privacidad"
+      ],
+      "detail": "La política diu que no se cedeixen dades a tercers tret d’obligació legal, però autoritza expressament la subcontractació de serveis amb acords d’encàrrec del tractament, sense anomenar cap proveïdor.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "WODBUSTER, S.L.U. és una societat unipersonal, sense grup empresarial conegut.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "wodbuster-politica-privacidad"
+      ],
+      "detail": "La política nega qualsevol cessió a tercers fora del compliment d’obligacions legals.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "wodbuster-politica-privacidad"
+      ],
+      "detail": "La política afirma textualment que no es fan transferències internacionals de dades a tercers països.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "none"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "wodbuster-politica-privacidad"
+      ],
+      "detail": "La política només diu que les dades es conserven el temps necessari per a les finalitats i mentre no demanis la supressió, sense cap termini.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [
+        "wodbuster-politica-privacidad"
+      ],
+      "detail": "Cap document no descriu què es conserva després d’una baixa, ni què passa amb les dades que el box té al sistema."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "wodbuster-politica-privacidad"
+      ],
+      "detail": "El dret de supressió es reconeix i s’exerceix per correu electrònic amb còpia del document d’identitat, amb un mes de termini màxim; no hi ha cap procediment específic per al compte de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [
+        "wodbuster-politica-privacidad"
+      ],
+      "detail": "Cap document públic no diu si el compte es pot eliminar des de l’aplicació ni si cal que ho faci el box."
+    },
+    "difficulty": "hard",
+    "requiresSupportContact": true,
+    "waitingPeriodDays": 30,
+    "steps": [
+      "Pregunta primer al teu box: és ell qui gestiona l’alta i les dades de la persona sòcia dins del sistema.",
+      "Escriu al correu de contacte de WODBUSTER, S.L.U. exercint el dret de supressió i adjuntant-hi còpia del document d’identitat, com demana la política.",
+      "El termini màxim per resoldre és d’un mes des de la recepció de la sol·licitud.",
+      "Si no t’atenen, reclama davant de l’Agència Espanyola de Protecció de Dades."
+    ],
+    "obstacles": "Exigir una còpia del document d’identitat per a qualsevol petició és una mesura desproporcionada quan l’adreça electrònica del compte ja identifica la persona. A més, la política no aclareix qui és responsable de les dades esportives: el box o WodBuster.",
+    "sources": [
+      "wodbuster-politica-privacidad"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "wodbuster-politica-privacidad"
+      ],
+      "detail": "El dret de portabilitat es reconeix i s’exerceix per correu, sense cap eina d’autoservei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "wodbuster-politica-privacidad"
+      ],
+      "detail": "Hi ha una adreça de contacte i un termini d’un mes, però no hi ha delegat de protecció de dades i cal adjuntar còpia del document d’identitat.",
+      "verifiedAt": "2026-09-22",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "wodbuster-politica-privacidad"
+      ],
+      "detail": "La política permet revocar el consentiment de les comunicacions comercials, però no descriu cap control dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap control per desactivar l’analítica."
+    },
+    "granularControls": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "wodbuster-politica-privacidad"
+      ],
+      "detail": "No hi ha cap panell de privadesa documentat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [
+        "wodbuster-aviso-legal",
+        "wodbuster-politica-privacidad"
+      ],
+      "detail": "No hi ha patrons de retenció, però la documentació no descriu el servei: l’avís legal encara cita la LOPD del 1999 i el seu reglament del 2007, i la política de privadesa parla del web mentre l’aplicació tracta dades de salut i l’adreça postal.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "confusing-language",
+        "severity": "medium",
+        "description": "La política de privadesa publicada cobreix el formulari de contacte i les galetes del web, no les dades de la persona sòcia que l’aplicació declara a l’App Store.",
+        "sources": [
+          "wodbuster-politica-privacidad",
+          "wodbuster-app-store"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no transporta comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política parla de mesures tècniques i organitzatives adequades, sense detallar-les."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública sobre el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap documentació sobre verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories ni certificacions publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "wodbuster-politica-privacidad"
+      ],
+      "detail": "No hi ha fitxer security.txt, però la política demana que, si detectes una incidència o tens indicis que la teva informació està en risc, els avisis per poder investigar-ho.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "El domini de WodBuster bloqueja la lectura automatitzada; tots dos documents legals s’han llegit a través de l’arxiu d’internet i les fonts en donen la còpia arxivada. El punt principal és la distància entre el que declara l’etiqueta de l’App Store i el que cobreix la política publicada.",
+    "openQuestions": [
+      "Qui és el responsable del tractament de les dades esportives: el box on entrenes o WODBUSTER, S.L.U. com a encarregat?",
+      "Per què l’etiqueta de l’App Store declara l’adreça postal entre les dades vinculades amb la identitat?"
+    ]
+  },
+  "appStoreBundleId": "WodBuster.WodBuster"
+}

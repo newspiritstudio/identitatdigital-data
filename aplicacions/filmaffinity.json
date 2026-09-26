@@ -1,0 +1,476 @@
+{
+  "slug": "filmaffinity",
+  "name": "FilmAffinity",
+  "company": "filmaffinity",
+  "categories": [
+    "comunitats-i-forums",
+    "video-i-streaming"
+  ],
+  "tagline": "Un diari de pel·lícules que es compromet a no cedir dades, amb una política de privadesa que no s’ha posat al dia",
+  "summary": "FilmAffinity recomana pel·lícules i sèries a partir de les votacions de les «ànimes bessones», les persones amb gustos més semblants. Afirma que les dades no surten mai dels seus servidors ni es cedeixen, i l’etiqueta de l’App Store no declara rastreig. El web, en canvi, fa servir galetes publicitàries, Google Analytics i Comscore. La política encara cita la llei espanyola del 1999 i no concreta bases jurídiques, terminis ni transferències. La baixa és autoservei i esborra el compte en unes dues setmanes.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "advertising",
+  "jurisdiction": "Espanya (UE)",
+  "userBase": "Més d’1,14 milions de persones registrades, segons el mateix servei.",
+  "links": {
+    "website": "https://www.filmaffinity.com/",
+    "privacyPolicy": "https://www.filmaffinity.com/es/private.php",
+    "appStore": "https://apps.apple.com/es/app/id6759088601"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "filmaffinity-privacy-policy"
+    ],
+    "detail": "La base de dades es pot consultar sense compte; cal registrar-se per votar, fer llistes i rebre recomanacions.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "filmaffinity-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Les votacions acumulades durant anys formen un historial detallat del que ha vist una persona i dels seus gustos, que pot deixar entreveure opinions polítiques o religioses. Les ànimes bessones veuen el nom, la ciutat, el país i les puntuacions, i les crítiques són sempre públiques.",
+  "dataCollection": [
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "filmaffinity-app-store",
+        "filmaffinity-privacy-policy"
+      ],
+      "note": "La política diu que el correu i l’edat no es mostren a ningú."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "filmaffinity-app-store"
+      ]
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "filmaffinity-privacy-policy"
+      ],
+      "note": "Només l’any de naixement."
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "filmaffinity-privacy-policy"
+      ],
+      "note": "El nom és visible per a les ànimes bessones; les crítiques es poden signar amb un sobrenom."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "filmaffinity-privacy-policy"
+      ],
+      "note": "Ciutat i país declarats per la persona usuària, visibles per a les ànimes bessones. No es tracta de geolocalització del dispositiu."
+    },
+    {
+      "type": "historial-de-visualitzacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "filmaffinity-privacy-policy",
+        "filmaffinity-faq"
+      ],
+      "note": "Les votacions de pel·lícules i sèries; les veuen les ànimes bessones i els amics."
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "filmaffinity-app-store",
+        "filmaffinity-faq"
+      ],
+      "note": "Crítiques i llistes. Les crítiques són permanents i públiques."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "filmaffinity-app-store"
+      ],
+      "note": "Missatges interns entre persones usuàries, segons la descripció de l’app. L’etiqueta ho declara com a «altre contingut de l’usuari»."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "filmaffinity-faq"
+      ],
+      "note": "L’afinitat amb la resta de persones registrades es calcula comparant totes les puntuacions."
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "filmaffinity-cookies-policy"
+      ],
+      "note": "Al web: galetes d’una agència de publicitat, Google Analytics, Comscore i connectors socials. L’etiqueta de l’app no declara rastreig."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "filmaffinity-app-store"
+      ],
+      "detail": "L’etiqueta de l’app no declara dades per rastrejar. Al web, en canvi, hi ha galetes publicitàries de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’etiqueta no declara l’identificador del dispositiu; no hem pogut comprovar si l’app el llegeix."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "filmaffinity-cookies-policy"
+      ],
+      "detail": "Al web hi ha Google Analytics, Comscore, una agència de publicitat i connectors socials. No sabem quins SDK inclou l’app.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "filmaffinity-cookies-policy",
+        "filmaffinity-app-store"
+      ],
+      "detail": "La política de galetes del web descriu galetes publicitàries que adapten els anuncis; l’etiqueta de l’app no declara dades per a publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "filmaffinity-faq",
+        "filmaffinity-privacy-policy"
+      ],
+      "detail": "Les recomanacions surten de comparar les puntuacions amb les de totes les persones registrades. També hi ha processos automatitzats que detecten comptes clònics i votacions anòmales.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no en parla. L’avís del novembre del 2025 només diu que es fan servir eines per detectar crítiques escrites amb IA."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "filmaffinity-privacy-policy",
+        "filmaffinity-cookies-policy"
+      ],
+      "detail": "Diu que no cedeix ni ven dades personals, però al web hi ha galetes de tercers d’analítica, mesura d’audiències i publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Filmaffinity S.L. és una empresa independent sense grup empresarial.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "filmaffinity-privacy-policy"
+      ],
+      "detail": "La política afirma que no ven ni cedeix dades personals sense autorització expressa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no parla de transferències internacionals, tot i que el web fa servir serveis nord-americans com Google Analytics."
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "no",
+      "level": "editorial",
+      "sources": [
+        "filmaffinity-privacy-policy"
+      ],
+      "detail": "No hem trobat cap informe de transparència ni cap referència a peticions d’autoritats.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "filmaffinity-faq"
+      ],
+      "detail": "Només es concreta que el compte s’esborra unes dues setmanes després de la baixa. No hi ha terminis per a la resta de dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "filmaffinity-faq"
+      ],
+      "detail": "Segons les preguntes freqüents, no es conserva cap dada dels comptes donats de baixa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "identificador-de-compte",
+        "period": "Esborrat complet unes dues setmanes després de la baixa",
+        "sources": [
+          "filmaffinity-faq"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "filmaffinity-faq",
+        "filmaffinity-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "filmaffinity-faq"
+      ],
+      "detail": "Des del perfil, a «Datos personales». No hem pogut comprovar si l’app té la mateixa opció.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://www.filmaffinity.com/es/faq.php",
+    "difficulty": "easy",
+    "waitingPeriodDays": 14,
+    "requiresSupportContact": false,
+    "steps": [
+      "Si vols conservar les teves votacions, crítiques i llistes, descarrega-les abans des del perfil.",
+      "Inicia sessió al web de FilmAffinity i obre el perfil.",
+      "Ves a «Datos personales» i tria l’opció de donar-te de baixa.",
+      "L’esborrat és irreversible i es completa unes dues setmanes després de la sol·licitud."
+    ],
+    "dataRetained": "Segons FilmAffinity, cap: s’esborra tota la informació del compte.",
+    "sources": [
+      "filmaffinity-faq",
+      "filmaffinity-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "filmaffinity-privacy-policy"
+      ],
+      "detail": "Des del perfil es poden descarregar les votacions, les crítiques i les llistes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "filmaffinity-privacy-policy"
+      ],
+      "detail": "La política reconeix els drets, amb la terminologia de la LOPD del 1999, però no indica cap adreça ni cap canal específic; només hi ha el formulari de contacte general.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.filmaffinity.com/es/contact_us.php"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El web enllaça una «Configuración de privacidad», però no n’hem pogut veure el contingut."
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "filmaffinity-faq"
+      ],
+      "detail": "Les llistes poden ser privades o només per als amics, i es pot triar si es vol ser trobat pel correu. Les votacions sempre són visibles per a les ànimes bessones i les crítiques sempre són públiques.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La versió del 2024 de la política de galetes deia que navegar equivalia a acceptar-les; no sabem si el web actual ho manté."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’app permet enviar missatges interns, però no consta si van xifrats d’extrem a extrem."
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat security.txt; el web bloqueja les peticions automatitzades."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "letterboxd",
+      "comparability": "partial",
+      "rationale": "També serveix per portar un diari de pel·lícules, puntuar-les i seguir les crítiques d’altres persones.",
+      "tradeOffs": "No té el sistema d’ànimes bessones ni la base de dades en castellà, i l’empresa és fora de la UE."
+    }
+  ],
+  "review": {
+    "researchStatus": "initial",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "No hi ha cap categoria de crítica o catàleg audiovisual: fem servir comunitats i vídeo, tot i que FilmAffinity no reprodueix contingut. L’app per a iOS es va publicar el setembre del 2026 i pesa només 3 MB; no sabem si és un embolcall del web. El web bloqueja les peticions automatitzades amb Cloudflare i hem llegit la política, la política de galetes i les preguntes freqüents a l’Internet Archive. No hem trobat cap resolució de l’AEPD ni cap filtració registrada a Have I Been Pwned.",
+    "openQuestions": [
+      "Quins SDK de tercers inclou l’app i si hi mostra publicitat?",
+      "L’app permet eliminar el compte o cal anar al web?",
+      "Què inclou la «Configuración de privacidad» actual del web i quina és la política de galetes vigent el 2026?"
+    ]
+  },
+  "appStoreBundleId": "com.filmaffinity"
+}

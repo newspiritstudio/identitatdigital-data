@@ -1,0 +1,22 @@
+{
+  "slug": "mytuner-xmode-location-broker",
+  "title": "myTuner Radio va documentar la cessió d’ubicació precisa a X-Mode Social, corredor de dades sancionat després per l’FTC",
+  "type": "misuse",
+  "severity": "high",
+  "apps": [
+    "mytuner-radio"
+  ],
+  "company": "appgeneration-software",
+  "occurredAt": "2020-06-23",
+  "disclosedAt": "2024-01-09",
+  "description": "La pàgina «Third Party Data Recipients» de myTuner Radio, amb data del 23 de juny del 2020, detalla que l’aplicació comparteix amb X-Mode Social la ubicació precisa per GPS, els senyals relatius de wifi i Bluetooth, l’identificador publicitari i les característiques del dispositiu, també quan l’aplicació funciona en segon pla. El 9 de gener del 2024 la Federal Trade Commission va aprovar una ordre que prohibeix a X-Mode Social i a la seva successora Outlogic vendre o compartir dades sensibles d’ubicació, recollides en bona part mitjançant SDK incrustats en aplicacions de tercers, perquè permetien rastrejar visites a clíniques, llocs de culte i centres d’acollida sense consentiment informat. La política vigent de myTuner continua citant Outlogic entre els seus socis d’anàlisi d’ubicació.",
+  "regulatory": {
+    "authority": "Federal Trade Commission",
+    "status": "final"
+  },
+  "sources": [
+    "mytuner-third-party-recipients",
+    "mytuner-ftc-xmode-order",
+    "mytuner-privacy-policy"
+  ]
+}

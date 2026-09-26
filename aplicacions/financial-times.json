@@ -1,0 +1,554 @@
+{
+  "slug": "financial-times",
+  "name": "Financial Times",
+  "company": "financial-times",
+  "categories": [
+    "noticies-i-mitjans"
+  ],
+  "tagline": "Diari econòmic que dedueix el gènere i l’edat i creua subscriptors amb xarxes socials",
+  "summary": "El Financial Times dedueix el gènere i la franja d’edat a partir del nom i el tractament, i grava a la web els moviments, els clics i el text que s’escriu. També comparteix subscriptors amb xarxes socials i serveis de creuament de dades per fer publicitat i audiències similars. D’altra banda, la política té una taula de terminis de conservació més concreta que la de molts diaris.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "subscription",
+  "jurisdiction": "Regne Unit",
+  "links": {
+    "website": "https://www.ft.com/",
+    "privacyPolicy": "https://help.ft.com/help/legal-privacy/privacy/",
+    "appStore": "https://apps.apple.com/es/app/id1200842933"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "editorial",
+    "sources": [],
+    "detail": "Mur de pagament estricte: sense compte i subscripció només es veuen titulars i poca cosa més.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "financial-times-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Càrrec, empresa, cartera d’inversions i hàbits de lectura revelen el perfil professional i econòmic de qui llegeix, que interessa especialment a la publicitat financera.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "financial-times-app-store",
+        "financial-times-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "financial-times-app-store",
+        "financial-times-privacy-policy"
+      ],
+      "note": "El correu, codificat, es fa servir a les «sales rooms» per creuar audiències amb anunciants."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "financial-times-app-store"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "financial-times-app-store",
+        "financial-times-privacy-policy"
+      ],
+      "note": "Es comparteix amb distribuïdors per lliurar el diari en paper."
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "financial-times-privacy-policy"
+      ]
+    },
+    {
+      "type": "genere",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "financial-times-privacy-policy"
+      ],
+      "note": "Es dedueix del tractament i el nom si no es dona; es pot demanar que no es faci escrivint a privacy.officer@ft.com."
+    },
+    {
+      "type": "ocupacio-i-carrec",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "financial-times-privacy-policy"
+      ]
+    },
+    {
+      "type": "origen-etnic-o-nacionalitat",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "investigacio-i-estadistica"
+      ],
+      "sources": [
+        "financial-times-privacy-policy"
+      ],
+      "note": "Només si es respon voluntàriament a enquestes de diversitat."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "financial-times-app-store",
+        "financial-times-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "financial-times-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "financial-times-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "financial-times-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "financial-times-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "financial-times-app-store",
+        "financial-times-privacy-policy"
+      ],
+      "note": "Al web es graven el desplaçament, els clics i el text introduït, excepte les dades de pagament."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "financial-times-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "financial-times-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "financial-times-app-store",
+        "financial-times-privacy-policy"
+      ],
+      "detail": "L’etiqueta no declara rastreig, però la política descriu creuaments amb correus codificats i audiències compartides amb xarxes socials.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "financial-times-privacy-policy"
+      ],
+      "detail": "Galetes de socis publicitaris i eines d’anàlisi.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "financial-times-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "financial-times-privacy-policy"
+      ],
+      "detail": "Dedueix gènere, edat i interessos a partir de les dades del compte i de l’ús.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política descriu l’ús d’IA per a recomanacions, publicitat i cerca, i la compartició amb proveïdors d’IA, però no si s’entrenen models amb les dades."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "financial-times-privacy-policy"
+      ],
+      "detail": "Proveïdors, anunciants, xarxes socials, clients institucionals i socis corporatius.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "financial-times-privacy-policy"
+      ],
+      "detail": "Amb la matriu Nikkei per a ofertes conjuntes i amb altres societats del grup.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "financial-times-privacy-policy"
+      ],
+      "detail": "Les dades es poden tractar fora del Regne Unit i de l’EEE; la política només cita l’acord britànic de transferències com a exemple de garantia.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "financial-times-privacy-policy"
+      ],
+      "detail": "Taula amb terminis per categoria.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "financial-times-privacy-policy"
+      ],
+      "detail": "Facturació, consultes, comunicacions i registres d’ús indegut es guarden 7 anys.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "dades-de-pagament",
+        "period": "7 anys",
+        "sources": [
+          "financial-times-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "interaccions-i-us",
+        "period": "36 mesos, després agregades",
+        "sources": [
+          "financial-times-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "publicacions-i-comentaris",
+        "period": "Mentre l’article sigui publicat",
+        "sources": [
+          "financial-times-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "financial-times-privacy-policy"
+      ],
+      "detail": "La política reconeix el dret de supressió.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política remet al compte o a l’atenció al client; no hem pogut verificar si hi ha un botó d’eliminació."
+    },
+    "difficulty": "unknown",
+    "steps": [
+      "Entra al compte de ft.com o contacta amb Customer Care i demana la supressió de les dades.",
+      "Si no respon, escriu al delegat de protecció de dades a privacy.officer@ft.com."
+    ],
+    "dataRetained": "Facturació, historial d’atenció al client i comunicacions durant 7 anys.",
+    "sources": [
+      "financial-times-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "financial-times-privacy-policy"
+      ],
+      "detail": "El dret d’accés es reconeix, sense eina d’exportació descrita.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "financial-times-privacy-policy"
+      ],
+      "detail": "Delegat de protecció de dades i representant a la UE a Dublín.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacy.officer@ft.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "financial-times-privacy-policy"
+      ],
+      "detail": "Des de «Manage Cookies» al peu de la web; també es pot demanar per correu no ser inclòs a les audiències de xarxes socials.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "financial-times-privacy-policy"
+      ],
+      "detail": "Galetes, preferències de màrqueting i personalització al compte; algunes oposicions només per correu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És una aplicació de lectura de notícies.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses públic."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "financial-times-security-txt"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.ft.com/vulnerability-report"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "No hem trobat sancions ni filtracions documentades. La discrepància principal és entre l’etiqueta, que no declara rastreig, i la compartició d’audiències amb xarxes socials que descriu la política.",
+    "openQuestions": [
+      "L’app permet eliminar el compte directament, com exigeix Apple, o cal passar per l’atenció al client?",
+      "Quin mecanisme de transferència fa servir per a les dades de persones de l’EEE?"
+    ]
+  },
+  "appStoreBundleId": "com.ft.ft-app-ios"
+}

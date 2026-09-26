@@ -1,0 +1,607 @@
+{
+  "slug": "omio",
+  "name": "Omio",
+  "company": "omio-corp",
+  "categories": [
+    "viatges-i-allotjament",
+    "mobilitat-i-transport"
+  ],
+  "tagline": "Empresa de Delaware amb seu operativa a Berlín que declara terminis concrets i deixa desactivar l’analítica de l’aplicació",
+  "summary": "Omio compara i ven bitllets de tren, autobús i avió a Europa. L’autoritat de control és la de Berlín. Els registres del web s’esborren automàticament als dos anys i les dades associades a identificadors publicitaris, als catorze mesos. L’aplicació fa perfils d’ús pseudònims entre dispositius, però es poden desactivar des de les preferències. La ubicació GPS, diu la política, només omple el formulari de cerca i no es desa. Les dades de reserva, en canvi, van al transportista i, en alguns països, a Amadeus, que les tracta com a responsable independent.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Alemanya: Omio Corp. és una societat de Delaware amb seu operativa a Berlín i l’autoritat de control és la de Berlín",
+  "links": {
+    "website": "https://www.omio.es/",
+    "privacyPolicy": "https://www.omio.es/politica-de-privacidad",
+    "appStore": "https://apps.apple.com/es/app/id885372509"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "omio-privacy-policy"
+    ],
+    "detail": "La política diu expressament que es poden fer servir els serveis sense crear cap compte; el perfil serveix per desar dades per a reserves futures.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "editorial",
+    "sources": [],
+    "detail": "Aplicació privativa; no hi ha cap repositori públic del client.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Les dades d’Omio mostren els desplaçaments quotidians i els viatges: d’on surts, on vas, amb qui i quan. Bona part d’aquestes dades tenen un termini publicat, però la reserva acaba en mans del transportista i, en alguns casos, d’Amadeus, que ja no depenen d’Omio.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "omio-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "omio-privacy-policy"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "omio-privacy-policy"
+      ]
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "omio-privacy-policy"
+      ],
+      "note": "Números d’identificació emesos per l’administració, quan el transportista els exigeix."
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "omio-privacy-policy"
+      ],
+      "note": "Adreça de facturació."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "omio-privacy-policy"
+      ],
+      "note": "Les dades de targeta van directament al processador de pagaments; Omio només en desa la versió truncada per a informes i anàlisi de frau."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "omio-privacy-policy"
+      ]
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "omio-privacy-policy"
+      ],
+      "note": "Gravació de les trucades amb atenció al client, amb possibilitat d’oposar-s’hi durant la conversa."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "omio-privacy-policy"
+      ],
+      "note": "Els registres automàtics del web es conserven dos anys i s’esborren tot seguit."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "omio-privacy-policy",
+        "omio-app-store"
+      ],
+      "note": "Amb permís, el GPS omple el formulari de cerca; la política diu que aquestes dades no es desen d’altra manera."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "omio-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "omio-app-store",
+        "omio-privacy-policy"
+      ],
+      "note": "L’aplicació pot llegir el nom, el fabricant, el model, l’IMEI i els identificadors publicitaris d’Android i d’iOS."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "omio-privacy-policy"
+      ],
+      "note": "Les dades personals associades a identificadors publicitaris s’esborren automàticament al cap de 14 mesos."
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "omio-privacy-policy"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "omio-app-store",
+        "omio-privacy-policy"
+      ],
+      "note": "Amb Google Analytics, Firebase i Amplitude; la política reconeix perfils d’ús pseudònims entre dispositius."
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "omio-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "omio-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "omio-app-store"
+      ],
+      "detail": "L’etiqueta declara identificadors i dades d’ús utilitzats per rastrejar la persona entre aplicacions i llocs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "omio-privacy-policy"
+      ],
+      "detail": "La política cita l’identificador publicitari d’Android i el d’Apple entre les dades que l’aplicació pot llegir.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "omio-privacy-policy"
+      ],
+      "detail": "Google Analytics, Firebase Analytics, Amplitude i proveïdors de seguiment de conversions i de publicitat de retorn.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "omio-privacy-policy"
+      ],
+      "detail": "Galetes de màrqueting i seguiment de conversions, amb enviament d’identificadors a plataformes de socis publicitaris i possibilitat d’exclusió.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "omio-privacy-policy"
+      ],
+      "detail": "Perfils d’ús pseudònims entre dispositius i personalització de les ofertes per interès legítim; es pot desactivar l’analítica des de les preferències de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap declaració sobre l’ús de les dades per entrenar models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "omio-privacy-policy"
+      ],
+      "detail": "Amb els transportistes de la reserva, amb Amadeus IT Group per a les reserves d’alguns països (responsable independent), amb processadors de pagament i amb proveïdors tècnics i d’atenció al client.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "omio-privacy-policy"
+      ],
+      "detail": "Les reserves amb SNCF, Ouigo i Oui España les pot gestionar la filial francesa Omio Voyages SASU per compte d’Omio.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu expressament si ven o no dades personals; sí que diu que pot compartir informació agregada o anònima amb anunciants i inversors."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "omio-privacy-policy"
+      ],
+      "detail": "Transferències fora de la Unió Europea amb contractes model de la Comissió i, per a les dades de la reserva enviades a transportistes de tercers països, empara en els articles 49.1.b i 49.1.c del RGPD.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència de peticions governamentals de dades."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "omio-privacy-policy"
+      ],
+      "detail": "Hi ha terminis concrets per als registres del web (dos anys) i per a les dades associades a identificadors publicitaris (catorze mesos); la resta es guarda «mentre hi hagi una necessitat comercial legítima».",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "omio-privacy-policy"
+      ],
+      "detail": "Un cop desapareguda la finalitat o l’obligació legal, Omio diu que esborra o anonimitza les dades, sense fixar-ne el termini.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "adreca-ip",
+        "period": "2 anys per als registres automàtics del web, amb esborrat automàtic posterior",
+        "sources": [
+          "omio-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "identificador-publicitari",
+        "period": "14 mesos per a les dades personals associades a galetes i identificadors publicitaris",
+        "sources": [
+          "omio-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "omio-privacy-policy"
+      ],
+      "detail": "La política reconeix el dret de supressió de l’article 17 del RGPD i el dret a l’oblit, exercibles davant de l’equip de protecció de dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap documentació d’una opció d’eliminar el compte des de l’aplicació o del web."
+    },
+    "difficulty": "medium",
+    "requiresSupportContact": true,
+    "steps": [
+      "Escriu a l’equip de protecció de dades d’Omio des de l’adreça de contacte que hi ha a la política de privadesa.",
+      "Demana-hi la supressió de les dades i del perfil d’usuari, tot citant l’article 17 del RGPD.",
+      "Si només vols deixar de rebre correus, fes servir l’enllaç de baixa de qualsevol butlletí.",
+      "Per aturar el seguiment publicitari, fes servir l’exclusió de l’aplicació i la de les galetes del web."
+    ],
+    "obstacles": "Les dades de la reserva ja transmeses al transportista o a Amadeus les tracten aquestes empreses com a responsables independents i no depenen d’Omio. Les galetes d’exclusió s’han de tornar a configurar en cada navegador i dispositiu.",
+    "dataRetained": "El que calgui per a obligacions fiscals, comptables i d’investigació del frau.",
+    "sources": [
+      "omio-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "omio-privacy-policy"
+      ],
+      "detail": "Dret de portabilitat de l’article 20 del RGPD, exercible davant de l’equip de protecció de dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "omio-privacy-policy"
+      ],
+      "detail": "Per correu a l’equip de protecció de dades; l’autoritat de control competent és la de Berlín.",
+      "verifiedAt": "2026-09-22",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "omio-privacy-policy"
+      ],
+      "detail": "Exclusió del seguiment publicitari amb una galeta d’exclusió, gestor de preferències de Your Online Choices i funció d’exclusió dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "omio-privacy-policy"
+      ],
+      "detail": "La política diu que l’analítica es pot desactivar en qualsevol moment des de les preferències de l’aplicació, i que Google Analytics es pot desactivar al web.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "omio-privacy-policy"
+      ],
+      "detail": "Categories de galetes separades, exclusió publicitària, baixa del butlletí, oposició a la gravació de trucades i desactivació de l’analítica de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [],
+      "detail": "Interpretació pròpia a partir de la política: l’exclusió publicitària es desa en una galeta, de manera que s’esborra en netejar el navegador i s’ha de repetir en cada dispositiu, navegador i domini d’Omio.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "nagging",
+        "severity": "low",
+        "description": "L’exclusió del seguiment publicitari es desa com a galeta persistent i cal tornar-la a activar cada vegada que s’esborren les galetes o es canvia de navegador, de dispositiu o de domini nacional d’Omio.",
+        "sources": [
+          "omio-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És una aplicació de reserves: no hi ha comunicacions privades entre persones que es puguin xifrar d’extrem a extrem.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "omio-privacy-policy"
+      ],
+      "detail": "La política diu que les dades de localització es transmeten per una connexió encriptada i que les dades de targeta es xifren, normalment amb SSL, abans d’enviar-les al processador de pagaments.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu el xifratge en repòs de les dades desades."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap documentació sobre verificació en dos passos del compte."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap auditoria ni certificació de seguretat publicada."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa públic de recompenses per vulnerabilitats."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "no",
+      "level": "editorial",
+      "sources": [],
+      "detail": "Comprovació pròpia: omio.com i omio.es no publiquen cap fitxer /.well-known/security.txt accessible.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "renfe",
+      "comparability": "partial",
+      "rationale": "Comprar el bitllet directament a l’operador ferroviari estalvia l’intermediari: les dades de la reserva no passen per una tercera empresa amb model publicitari.",
+      "tradeOffs": "Es perd la comparació entre tren, autobús i avió i entre operadors de països diferents."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "El lloc d’Omio bloqueja la lectura automatitzada; hem consultat la versió en castellà arxivada a la Wayback Machine (gener de 2026) del document actualitzat el 27 de maig de 2024. La política fixa terminis concrets i ofereix desactivar l’analítica de l’aplicació.",
+    "openQuestions": [
+      "Omio permet eliminar el compte des de l’aplicació, o només per correu a l’equip de protecció de dades?",
+      "Quin és el règim de protecció de dades aplicable a Omio Corp. com a societat de Delaware amb seu operativa a Berlín?"
+    ]
+  },
+  "appStoreBundleId": "com.goeuro.ios.ronald"
+}

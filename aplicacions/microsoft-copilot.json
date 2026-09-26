@@ -1,0 +1,582 @@
+{
+  "slug": "microsoft-copilot",
+  "name": "Microsoft Copilot",
+  "company": "microsoft",
+  "categories": [
+    "assistents-d-ia",
+    "ofimatica-i-productivitat"
+  ],
+  "tagline": "L’antiga aplicació d’Office convertida en assistent d’IA, amb identificadors declarats per a seguiment",
+  "summary": "Aquesta fitxa correspon a l’aplicació amb identificador de paquet com.microsoft.officemobile, que era la de Microsoft Office i ara es publica com a Microsoft Copilot. Declara identificadors utilitzats per rastrejar-te en aplicacions i llocs de tercers i publicitat de tercers amb la interacció amb el producte, cosa que Word i Teams no declaren. Quan s’hi entra amb un compte empresarial, Microsoft es compromet a no fer servir les indicacions ni les respostes per entrenar els models de base.",
+  "platforms": [
+    "ios",
+    "android",
+    "web",
+    "windows"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Irlanda",
+  "userBase": "Desenes de milions de descàrregues, heretades de l’aplicació de Microsoft Office",
+  "links": {
+    "website": "https://copilot.microsoft.com/",
+    "privacyPolicy": "https://www.microsoft.com/en-us/privacy/privacystatement",
+    "privacyCenter": "https://account.microsoft.com/privacy/",
+    "appStore": "https://apps.apple.com/es/app/id541164041"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "microsoft-privacy-statement"
+    ],
+    "detail": "Cal un compte de Microsoft personal o un compte d’empresa o de centre educatiu per accedir a les funcions d’IA i als documents.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "microsoft-privacy-statement"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Les converses amb un assistent poden incloure dubtes de salut, conflictes laborals o esborranys de cartes. L’etiqueta declara identificadors per a seguiment i publicitat de tercers, i el compte que guarda les converses és el mateix que fa servir la personalització publicitària del grup.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "microsoft-copilot-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "microsoft-copilot-app-store"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "microsoft-copilot-app-store"
+      ]
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "microsoft-copilot-app-store"
+      ]
+    },
+    {
+      "type": "fitxers-i-documents",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "microsoft-copilot-app-store",
+        "microsoft-copilot-privacy"
+      ],
+      "note": "Els fitxers que s’hi pengen es desen a OneDrive dins del perímetre de protecció de dades empresarials."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "microsoft-copilot-privacy"
+      ],
+      "note": "Copilot genera consultes de poques paraules cap a Bing per fonamentar les respostes; no inclouen identificadors de persona ni d’organització, però queden fora del perímetre de dades de la UE."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "microsoft-copilot-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "microsoft-copilot-app-store"
+      ],
+      "note": "L’identificador del dispositiu apareix també com a dada no vinculada, per a publicitat de tercers i per al màrqueting del desenvolupador."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "microsoft-copilot-app-store"
+      ],
+      "note": "Els identificadors són la categoria que l’etiqueta declara com a utilitzada per rastrejar-te."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "microsoft-copilot-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "microsoft-copilot-app-store"
+      ],
+      "note": "La interacció amb el producte figura sota la finalitat «Publicidad de terceros»."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "microsoft-copilot-app-store",
+        "microsoft-365-privacy-controls"
+      ]
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "microsoft-copilot-privacy"
+      ],
+      "note": "Les indicacions i les respostes es registren a Exchange per a auditoria i descoberta electrònica als comptes empresarials."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-copilot-app-store"
+      ],
+      "detail": "L’etiqueta declara identificadors utilitzats per rastrejar-te en aplicacions i llocs web d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-copilot-app-store"
+      ],
+      "detail": "Identificador del dispositiu emprat per a publicitat de tercers i per al màrqueting del mateix desenvolupador.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "microsoft-copilot-app-store",
+        "microsoft-privacy-statement"
+      ],
+      "detail": "L’etiqueta declara publicitat de tercers; la declaració de Microsoft cita Xandr, Facebook, Media.net i Outbrain com a socis publicitaris del grup.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-copilot-app-store",
+        "microsoft-ad-settings"
+      ],
+      "detail": "La finalitat «Publicidad de terceros» consta a l’etiqueta; la personalització es desactiva des del panell de publicitat del compte.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://account.microsoft.com/privacy/ad-settings"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-ad-settings"
+      ],
+      "detail": "Microsoft manté un perfil d’interessos editable des del panell de publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "microsoft-copilot-privacy",
+        "microsoft-privacy-statement"
+      ],
+      "detail": "Amb protecció de dades empresarials, les indicacions i respostes no entrenen els models de base. La declaració general de Microsoft sí que preveu l’ús de dades personals per desenvolupar i entrenar models d’IA en els serveis de consum.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-privacy-statement",
+        "microsoft-copilot-privacy"
+      ],
+      "detail": "Proveïdors que actuen per compte de Microsoft, socis publicitaris i el servei de cerca de Bing, que actua com a responsable independent per a les consultes generades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-privacy-statement"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "microsoft-trust-center-data-management"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "microsoft-copilot-privacy",
+        "microsoft-eu-data-boundary"
+      ],
+      "detail": "El trànsit dels comptes europeus es manté dins del perímetre de dades de la UE, però les consultes generades cap a Bing en queden expressament fora.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-law-enforcement-report"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "microsoft-copilot-privacy",
+        "microsoft-trust-center-data-management"
+      ],
+      "detail": "Les indicacions i respostes segueixen les polítiques de retenció que fixa cada organització; per als comptes personals només hi ha criteris generals.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "microsoft-close-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "period": "Les citacions de les consultes web generades es poden consultar dins de la conversa durant 24 hores.",
+        "sources": [
+          "microsoft-copilot-privacy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "microsoft-close-account"
+      ],
+      "detail": "El compte personal es pot tancar; amb un compte corporatiu, la supressió depèn de l’organització.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "microsoft-close-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://account.microsoft.com/closeaccount",
+    "difficulty": "medium",
+    "waitingPeriodDays": 60,
+    "steps": [
+      "Esborra l’historial d’activitat de Copilot des del panell de privadesa del compte de Microsoft.",
+      "Si també vols tancar el compte, inicia la sessió i obre la pàgina de tancament del compte.",
+      "Verifica la identitat i comprova que el compte que apareix és el correcte.",
+      "Marca les caselles de la llista de comprovació i tria la finestra de reobertura de 30 o de 60 dies.",
+      "Selecciona un motiu i prem «Marcar el compte per tancar-lo»."
+    ],
+    "obstacles": "Als comptes d’empresa o de centre educatiu, les indicacions i les respostes queden registrades a Exchange per a auditoria i la persona no les pot eliminar del registre.",
+    "dataRetained": "Els registres d’auditoria de l’organització, segons les seves polítiques de retenció.",
+    "sources": [
+      "microsoft-close-account",
+      "microsoft-copilot-privacy",
+      "microsoft-privacy-dashboard"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-privacy-dashboard"
+      ],
+      "detail": "El panell de privadesa mostra i permet descarregar l’activitat de Copilot associada al compte.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://account.microsoft.com/privacy/"
+    },
+    "exportFormatQuality": "mixed",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-privacy-statement"
+      ],
+      "verifiedAt": "2026-09-22",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-ad-settings"
+      ],
+      "detail": "Desactivació de la publicitat personalitzada i de la compartició amb tercers des del panell de publicitat del compte.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://account.microsoft.com/privacy/ad-settings"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "microsoft-365-privacy-controls"
+      ],
+      "detail": "Es pot triar el nivell de dades de diagnòstic, però les dades de servei necessàries s’envien igualment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "microsoft-privacy-dashboard",
+        "microsoft-copilot-privacy"
+      ],
+      "detail": "L’historial d’activitat de Copilot es pot consultar i esborrar; l’accés a contingut de l’organització el configura l’administrador.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [
+        "microsoft-copilot-app-store"
+      ],
+      "detail": "L’aplicació hereta la base instal·lada de l’antiga aplicació d’Office i ha passat a ser un assistent d’IA amb seguiment per identificadors, sense que el canvi de naturalesa del producte es tradueixi en una nova decisió informada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "other",
+        "severity": "medium",
+        "description": "El mateix paquet que la gent va instal·lar com a aplicació de Microsoft Office es publica ara com a assistent d’IA amb identificadors declarats per a seguiment i publicitat de tercers.",
+        "sources": [
+          "microsoft-copilot-app-store"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "microsoft-copilot-privacy"
+      ],
+      "detail": "Les indicacions i les respostes es processen i es registren als servidors del servei; no hi ha xifratge d’extrem a extrem.",
+      "verifiedAt": "2026-09-22",
+      "scope": "none"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-trust-center-data-management"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-trust-center-data-management"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-authenticator-method"
+      ],
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "passkey",
+        "app-push",
+        "totp",
+        "hardware-key",
+        "sms",
+        "email"
+      ]
+    },
+    "independentAudits": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-iso-27001"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-msrc-bounty"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-msrc-cvd"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "claude",
+      "comparability": "equivalent",
+      "rationale": "Assistent conversacional comparable, sense negoci publicitari associat al compte.",
+      "tradeOffs": "No s’integra amb els documents ni amb el correu corporatiu de Microsoft 365."
+    },
+    {
+      "app": "chatgpt",
+      "comparability": "equivalent",
+      "rationale": "Cobreix les mateixes funcions d’assistent generalista amb aplicació mòbil.",
+      "tradeOffs": "Cal revisar-hi la configuració d’ús de les converses per a l’entrenament de models."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "L’identificador de paquet d’aquesta fitxa, com.microsoft.officemobile, és el de l’antiga aplicació de Microsoft Office; la fitxa documenta el producte tal com es publica avui, Microsoft Copilot. La documentació pública de Copilot està molt orientada al client empresarial i costa trobar-ne l’equivalent per al compte personal.",
+    "openQuestions": [
+      "Les converses de Copilot amb un compte personal de Microsoft s’utilitzen per entrenar models, i hi ha cap control per evitar-ho?",
+      "Quins socis publicitaris reben exactament els identificadors declarats a l’etiqueta d’aquesta aplicació?"
+    ]
+  },
+  "appStoreBundleId": "com.microsoft.officemobile"
+}

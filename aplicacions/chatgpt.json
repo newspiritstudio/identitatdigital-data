@@ -1,0 +1,680 @@
+{
+  "slug": "chatgpt",
+  "name": "ChatGPT",
+  "company": "openai-ireland",
+  "categories": [
+    "assistents-d-ia"
+  ],
+  "tagline": "Assistent d’IA que entrena amb les converses i ara les fa servir per triar anuncis",
+  "summary": "Per defecte, ChatGPT pot entrenar models amb les converses, llevat que la persona s’hi oposi a la configuració. Als plans gratuït i Go hi ha anuncis: amb consentiment es trien a partir de converses anteriors, i sense consentiment, a partir del context de la conversa, la ubicació i l’hora. Els controls de privadesa són amplis i l’eliminació del compte és autoservei. OpenAI publica informes de peticions governamentals des del 2025.",
+  "platforms": [
+    "ios",
+    "android",
+    "web",
+    "windows",
+    "macos"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Irlanda (EEE) i Estats Units",
+  "links": {
+    "website": "https://chatgpt.com/",
+    "privacyPolicy": "https://openai.com/policies/eu-privacy-policy/",
+    "privacyCenter": "https://privacy.openai.com/",
+    "appStore": "https://apps.apple.com/es/app/id6448311069"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "chatgpt-delete-account"
+    ],
+    "detail": "Es pot fer servir sense iniciar sessió, amb una sola conversa alhora; per desar-les cal compte.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "chatgpt-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Les converses amb un assistent sovint tracten de salut, feina, relacions o dubtes legals. Amb la memòria activa, ChatGPT en guarda detalls entre converses, i als plans amb anuncis aquest context pot servir per triar publicitat.",
+  "dataCollection": [
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "entrenament-de-models-dia",
+        "publicitat-personalitzada",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "chatgpt-privacy-policy"
+      ],
+      "note": "Les instruccions i els fitxers pujats. S’usen per entrenar models si no s’hi oposa la persona, i per triar anuncis si s’hi dona el consentiment."
+    },
+    {
+      "type": "fitxers-i-documents",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "entrenament-de-models-dia"
+      ],
+      "sources": [
+        "chatgpt-privacy-policy"
+      ]
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "entrenament-de-models-dia"
+      ],
+      "sources": [
+        "chatgpt-privacy-policy"
+      ]
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "chatgpt-app-store",
+        "chatgpt-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "chatgpt-app-store"
+      ],
+      "note": "L’etiqueta declara dades de salut i forma física per a anàlisi i personalització."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "chatgpt-app-store",
+        "chatgpt-privacy-policy"
+      ]
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "chatgpt-app-store"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "chatgpt-app-store",
+        "chatgpt-delete-account"
+      ]
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "compliment-legal"
+      ],
+      "sources": [
+        "chatgpt-privacy-policy"
+      ],
+      "note": "Forma part de la informació del compte i serveix per estimar l’edat."
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal"
+      ],
+      "sources": [
+        "chatgpt-privacy-policy"
+      ],
+      "note": "Si es verifica l’edat o la identitat amb un proveïdor extern."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "chatgpt-app-store",
+        "chatgpt-privacy-policy"
+      ],
+      "note": "Deduïda de la IP. També serveix per als anuncis genèrics."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "chatgpt-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "chatgpt-app-store",
+        "chatgpt-privacy-policy"
+      ],
+      "note": "Les cerques es poden compartir amb socis de cerca i de compres."
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "chatgpt-privacy-policy"
+      ],
+      "note": "Només si es fa servir el navegador integrat."
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "chatgpt-privacy-policy"
+      ],
+      "note": "Si es connecta l’agenda, es puja per veure qui més fa servir el servei."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "chatgpt-privacy-policy"
+      ]
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "chatgpt-privacy-policy"
+      ],
+      "note": "Historial i interessos publicitaris dels plans gratuït i Go."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "chatgpt-app-store",
+        "chatgpt-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "chatgpt-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "chatgpt-app-store",
+        "chatgpt-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "chatgpt-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "chatgpt-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "chatgpt-app-store"
+      ],
+      "detail": "L’etiqueta no declara rastreig entre apps, tot i que declara dades per a publicitat de tercers dins del servei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta l’identificador publicitari del sistema."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "chatgpt-privacy-policy"
+      ],
+      "detail": "Als plans gratuït i Go. Amb consentiment, els anuncis es personalitzen amb converses anteriors i dades dels anunciants; sense consentiment, s’hi mostren anuncis genèrics per interès legítim.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://chatgpt.com/#settings"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "chatgpt-privacy-policy"
+      ],
+      "detail": "Memòria entre converses i interessos publicitaris.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "chatgpt-privacy-policy"
+      ],
+      "detail": "El contingut es pot fer servir per entrenar els models llevat que la persona s’hi oposi als controls de dades. Els xats temporals no s’hi fan servir.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://chatgpt.com/#settings/DataControls"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "chatgpt-privacy-policy"
+      ],
+      "detail": "Proveïdors, socis de cerca i compres, i informes agregats per als anunciants.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "chatgpt-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no parla de venda de dades."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "chatgpt-privacy-policy"
+      ],
+      "detail": "Tractament als Estats Units amb decisions d’adequació o clàusules contractuals tipus.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "openai-government-requests-2025h2"
+      ],
+      "detail": "Informes semestrals des del 2025.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://cdn.openai.com/trust-and-transparency/report-2025h2-government-requests-for-user-data.pdf"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "chatgpt-privacy-policy"
+      ],
+      "detail": "Esborrat en 30 dies de les dades eliminades i dels xats temporals, però sense terminis per a la resta.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "chatgpt-privacy-policy",
+        "chatgpt-preservation-order-2025"
+      ],
+      "detail": "Les dades ja desidentificades per entrenar no s’esborren, i es conserven les de pagament, el registre de la sol·licitud i les retingudes per obligació legal. Entre maig i setembre del 2025 una ordre judicial va obligar a conservar converses esborrades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "contingut-de-missatges",
+        "period": "30 dies després d’esborrar-les o en xats temporals",
+        "sources": [
+          "chatgpt-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "chatgpt-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "chatgpt-delete-account"
+      ],
+      "detail": "Des de la configuració de l’app o el web, o des del portal de privadesa si no es pot iniciar sessió.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://privacy.openai.com/",
+    "difficulty": "easy",
+    "requiresSupportContact": false,
+    "steps": [
+      "Si pagues la subscripció a l’App Store, cancel·la-la primer: eliminar el compte no la cancel·la.",
+      "Obre Configuració > Compte.",
+      "Al costat de «Delete account», tria «Delete».",
+      "Escriu el correu o el telèfon del compte i «DELETE», i confirma «Permanently delete my account»."
+    ],
+    "obstacles": "L’eliminació és definitiva i no permet reactivar el compte. El mateix correu no es pot reutilitzar fins al cap de 30 dies.",
+    "dataRetained": "Dades eliminades en 30 dies, llevat de les desidentificades per entrenar i de les que calgui conservar per seguretat o obligació legal.",
+    "sources": [
+      "chatgpt-delete-account",
+      "chatgpt-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "chatgpt-privacy-policy"
+      ],
+      "detail": "Exportació de l’historial des dels controls de dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "chatgpt-privacy-policy"
+      ],
+      "detail": "Portal de privadesa i dsar@openai.com; també es poden demanar correccions de dades inexactes generades pel model.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://privacy.openai.com/"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "chatgpt-privacy-policy"
+      ],
+      "detail": "Controls de publicitat a la configuració; la personalització requereix consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "chatgpt-privacy-policy"
+      ],
+      "detail": "Entrenament, memòria, xats temporals, publicitat i galetes per separat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’assistent ha de processar el contingut al servidor per respondre; el xifratge d’extrem a extrem no és aplicable en aquest model.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Les garanties de xifratge publicades es refereixen als plans d’empresa."
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "chatgpt-mfa"
+      ],
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "totp",
+        "app-push",
+        "sms",
+        "passkey"
+      ]
+    },
+    "independentAudits": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "openai-trust-portal"
+      ],
+      "detail": "SOC 2 Type 2 i ISO 27001 per a l’API i els plans d’empresa, no per al ChatGPT de consum.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "openai-bug-bounty"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://bugcrowd.com/engagements/openai"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "openai-security-txt"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "claude",
+      "comparability": "equivalent",
+      "rationale": "Assistent d’IA general amb funcions similars que no mostra publicitat i no declara dades per a publicitat de tercers a l’etiqueta de l’App Store.",
+      "tradeOffs": "També entrena amb les converses per defecte i, si no t’hi oposes, les conserva fins a cinc anys."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La política europea s’ha llegit en una còpia de l’arxiu d’Internet del 2026, perquè el web d’OpenAI bloqueja la lectura automàtica. La sanció italiana es va anul·lar per un motiu de competència, no de fons, i així consta a l’incident.",
+    "openQuestions": [
+      "Quin format té l’exportació de dades de ChatGPT?",
+      "El ChatGPT de consum té alguna auditoria de seguretat independent pròpia?"
+    ]
+  },
+  "appStoreBundleId": "com.openai.chat"
+}

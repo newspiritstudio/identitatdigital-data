@@ -1,0 +1,535 @@
+{
+  "slug": "coinsnap",
+  "name": "CoinSnap",
+  "company": "next-vision",
+  "categories": [
+    "traduccio-i-referencia"
+  ],
+  "tagline": "Identificador de monedes que promet no compartir mai les dades mentre declara rastreig publicitari",
+  "summary": "CoinSnap identifica monedes amb una foto i n’estima el valor. La pàgina d’ajuda diu que no compartirà «mai» la informació amb ningú, però l’etiqueta de l’App Store declara compres, identificadors i dades d’ús per rastrejar entre aplicacions, i la política permet l’SDK de Facebook, Adjust, Google Analytics i xarxes publicitàries. L’aplicació s’allotja als Estats Units i l’empresa té seu a Hong Kong.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Hong Kong; sense representant a la UE identificat",
+  "links": {
+    "website": "https://coinidentifierai.com/",
+    "privacyPolicy": "https://app-service.coinidentifierai.com/static/EuropeanUnion/privacy_policy.html",
+    "terms": "https://app-service.coinidentifierai.com/static/user_agreement.html",
+    "appStore": "https://apps.apple.com/es/app/id1634551626"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "coinsnap-privacy-policy"
+    ],
+    "detail": "Crear un perfil és opcional.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "coinsnap-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Una col·lecció de monedes amb el valor estimat de cada peça és informació patrimonial. Unida a identificadors publicitaris que es comparteixen amb xarxes de publicitat, permet perfilar la persona com a compradora amb poder adquisitiu.",
+  "dataCollection": [
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "coinsnap-app-store",
+        "coinsnap-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-publicitaria",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "coinsnap-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "coinsnap-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "coinsnap-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-publicitaria",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "coinsnap-app-store",
+        "coinsnap-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "coinsnap-privacy-policy"
+      ],
+      "note": "L’IDFA, amb el permís del sistema."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "coinsnap-app-store",
+        "coinsnap-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "coinsnap-privacy-policy"
+      ],
+      "note": "Recollida per Google Analytics."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "coinsnap-app-store",
+        "coinsnap-privacy-policy"
+      ]
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "coinsnap-app-store"
+      ],
+      "note": "Consultes a atenció al client."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "coinsnap-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "coinsnap-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store declara compres, identificadors i dades d’ús «utilitzats per rastrejar-te» entre aplicacions i llocs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "coinsnap-privacy-policy"
+      ],
+      "detail": "La política diu que, amb permís, fa servir l’IDFA d’iOS i l’identificador publicitari d’Android.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "coinsnap-privacy-policy"
+      ],
+      "detail": "Google Analytics, l’SDK de Facebook i l’SDK d’Adjust.",
+      "verifiedAt": "2026-09-22",
+      "trackers": [
+        {
+          "name": "Google Analytics",
+          "purpose": "Analítica d’ús",
+          "sources": [
+            "coinsnap-privacy-policy"
+          ]
+        },
+        {
+          "name": "Facebook SDK",
+          "purpose": "Publicitat",
+          "sources": [
+            "coinsnap-privacy-policy"
+          ]
+        },
+        {
+          "name": "Adjust",
+          "purpose": "Atribució de campanyes",
+          "sources": [
+            "coinsnap-privacy-policy"
+          ]
+        }
+      ]
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "coinsnap-privacy-policy"
+      ],
+      "detail": "Permet que xarxes publicitàries recullin dades per mostrar anuncis personalitzats a l’aplicació i fora; la versió consultada ho empara en l’interès legítim.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "coinsnap-privacy-policy"
+      ],
+      "detail": "Anuncis adaptats als interessos, preferències i característiques de la persona.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu si les fotos serveixen per entrenar el model de reconeixement."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "coinsnap-privacy-policy"
+      ],
+      "detail": "Amazon Web Services, Google, Facebook, Adjust i xarxes publicitàries; també possibles compradors de l’empresa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "coinsnap-privacy-policy"
+      ],
+      "detail": "Amb empreses vinculades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "coinsnap-privacy-policy"
+      ],
+      "detail": "Declara que no ven informació personal a tercers per als seus propis usos comercials.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "coinsnap-privacy-policy"
+      ],
+      "detail": "L’aplicació s’allotja als Estats Units; la versió consultada ho empara en l’interès legítim i admet que la protecció pot ser menor.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "coinsnap-privacy-policy"
+      ],
+      "detail": "Només diu que avisarà d’una petició d’autoritats si la llei ho permet.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "coinsnap-privacy-policy"
+      ],
+      "detail": "Les dades es conserven mentre siguin «necessàries i rellevants per al negoci».",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "coinsnap-faq",
+        "coinsnap-privacy-policy"
+      ],
+      "detail": "L’ajuda diu que en eliminar el compte s’esborren totes les dades; la política admet que en pot conservar per obligacions legals o litigis.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "coinsnap-faq"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "coinsnap-faq"
+      ],
+      "detail": "Hi ha una opció «Delete Account» dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "steps": [
+      "Obre la configuració de l’aplicació i toca «Privacy Policy».",
+      "Toca la icona de la part superior dreta per obrir «Data Management».",
+      "Tria «Delete Account» i confirma-ho.",
+      "Cancel·la la subscripció des de la configuració de l’Apple ID: eliminar el compte no l’atura."
+    ],
+    "obstacles": "L’opció és dins de la pantalla de la política de privadesa, darrere d’una icona sense text.",
+    "dataRetained": "El que calgui per obligacions legals o litigis, segons la política.",
+    "sources": [
+      "coinsnap-faq",
+      "coinsnap-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "coinsnap-privacy-policy"
+      ],
+      "detail": "La política reconeix el dret de portabilitat, però només per correu electrònic; no hi ha cap eina d’exportació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "coinsnap-privacy-policy"
+      ],
+      "detail": "Els drets s’exerceixen per correu a l’adreça de suport; l’empresa pot demanar un document d’identitat i respon en un mes, prorrogable dos mesos més. No hi ha delegat de protecció de dades ni representant a la UE identificats.",
+      "verifiedAt": "2026-09-22",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "coinsnap-privacy-policy"
+      ],
+      "detail": "Remet a l’eina de galetes de l’aplicació i als controls del navegador i del mòbil.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut comprovar si l’analítica es pot desactivar dins de l’aplicació."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut veure l’eina de gestió de galetes que esmenta la política."
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "yes",
+      "level": "editorial",
+      "sources": [
+        "coinsnap-faq",
+        "coinsnap-privacy-policy"
+      ],
+      "detail": "Valoració editorial: la pàgina d’ajuda assegura que no es compartirà mai la informació amb ningú, cosa que contradiu la política i l’etiqueta. A més, la baixa és dins de la pantalla de la política.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "confusing-language",
+        "severity": "medium",
+        "description": "L’ajuda diu «we will NEVER share your information with anyone», mentre que la política permet compartir dades amb xarxes publicitàries i l’etiqueta declara rastreig.",
+        "sources": [
+          "coinsnap-faq",
+          "coinsnap-privacy-policy"
+        ]
+      },
+      {
+        "type": "hidden-exit",
+        "severity": "low",
+        "description": "L’opció d’eliminar el compte és a «Data Management», dins de la pantalla de la política de privadesa i darrere d’una icona.",
+        "sources": [
+          "coinsnap-faq"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No és un servei de comunicació entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "coinsnap-privacy-policy"
+      ],
+      "detail": "La política parla genèricament de xifratge, tallafocs i autenticació de servidors, però adverteix que no pot garantir que les dades no s’interceptin en trànsit.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política esmenta el xifratge de manera genèrica, sense dir si s’aplica a les dades emmagatzemades."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap opció de verificació en dos passos; el compte opcional es lliga a l’identificador d’Apple o de Google."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap auditoria ni certificació publicada."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap canal de notificació de vulnerabilitats ni fitxer security.txt."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "La política per a la UE que enllaça l’App Store és darrere d’una verificació de Cloudflare i no l’hem poguda llegir. Fem servir la versió general del 10 de setembre de 2025, arxivada al juny de 2026, que no fa referència al RGPD. Les versions per a la UE de FoilSnap i AntiqSnap, de la mateixa empresa, afegeixen el consentiment i la transferència a Hangzhou; probablement la de CoinSnap també, però no ho hem pogut comprovar.",
+    "openQuestions": [
+      "La cerca d’incidents no s’ha pogut completar: s’havia esgotat el pressupost de cerques web de la sessió.",
+      "Què diu la versió vigent per a la UE de la política de CoinSnap?"
+    ]
+  },
+  "appStoreBundleId": "com.coinidentifier.identifycoins"
+}

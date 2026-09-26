@@ -1,0 +1,626 @@
+{
+  "slug": "threads",
+  "name": "Threads",
+  "company": "meta-platforms-ireland",
+  "categories": [
+    "xarxes-socials"
+  ],
+  "tagline": "Xarxa de text d’Instagram que comparteix perfil, política i publicitat amb la resta de Meta",
+  "summary": "Threads és la xarxa de missatges curts de Meta i funciona amb la política de privadesa comuna del grup, més una política complementària. El nom, la foto i la presentació són sempre públics, fins i tot amb el perfil privat. La interoperabilitat amb el fedivers que preveu la política encara no està activa a Europa. Eliminar el perfil triga 30 dies i el procés pot allargar-se fins a 90 dies, amb còpies de seguretat conservades més temps.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "advertising",
+  "jurisdiction": "Irlanda, per a persones usuàries de l’Espai Econòmic Europeu",
+  "links": {
+    "website": "https://www.threads.com/",
+    "privacyPolicy": "https://help.instagram.com/515230437301944",
+    "privacyCenter": "https://accountscenter.instagram.com/",
+    "appStore": "https://apps.apple.com/es/app/id6446901002"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "threads-supplemental-privacy",
+      "threads-delete-account"
+    ],
+    "detail": "Cal un perfil de Threads, que es crea a partir del compte d’Instagram.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "meta-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Threads recull el que es publica, què es mira i durant quant de temps, a qui se segueix i quins hashtags es fan servir, i ho pot unir amb l’activitat d’Instagram i Facebook al Centre de comptes. En una xarxa de conversa, les publicacions sovint expressen opinions sobre política, religió o salut.",
+  "dataCollection": [
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "threads-supplemental-privacy"
+      ]
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "threads-supplemental-privacy"
+      ],
+      "note": "El nom i el nom d’usuari són públics fins i tot amb el perfil privat."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "threads-supplemental-privacy"
+      ]
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "entrenament-de-models-dia",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "threads-supplemental-privacy",
+        "dpc-meta-ai-2025"
+      ]
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "threads-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "recomanacions-algoritmiques",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "threads-supplemental-privacy",
+        "threads-app-store"
+      ],
+      "note": "Inclou quins continguts es miren, com s’hi interactua i la durada de l’activitat."
+    },
+    {
+      "type": "xarxa-de-contactes",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "threads-supplemental-privacy"
+      ]
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "meta-privacy-policy"
+      ]
+    },
+    {
+      "type": "conviccions-i-opinions",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "editorial",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "threads-supplemental-privacy"
+      ],
+      "note": "No es demanen, però les publicacions en una xarxa de conversa les revelen sovint."
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "threads-app-store"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "threads-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "threads-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "threads-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "threads-app-store"
+      ],
+      "note": "L’etiqueta declara salut i forma física i «dades sensibles», comunes a totes les aplicacions de Meta."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "threads-app-store"
+      ]
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "threads-supplemental-privacy"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "threads-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "threads-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada «utilitzada per rastrejar-te», però sí dades vinculades a la identitat que es fan servir per a publicitat de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "threads-app-store"
+      ],
+      "detail": "L’etiqueta declara identificadors i dades de publicitat per a publicitat de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "threads-supplemental-privacy",
+        "meta-privacy-policy"
+      ],
+      "detail": "La política preveu personalitzar els anuncis «si te los mostramos», amb la infraestructura publicitària comuna de Meta.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "threads-supplemental-privacy",
+        "meta-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "yes",
+      "level": "regulator",
+      "sources": [
+        "dpc-meta-ai-2025"
+      ],
+      "detail": "El contingut públic dels adults europeus als productes de Meta es fa servir per entrenar models des del maig de 2025, amb dret d’oposició.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://www.facebook.com/privacy/genai"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "threads-supplemental-privacy",
+        "meta-privacy-policy"
+      ],
+      "detail": "A més de la compartició comuna de Meta, la política preveu enviar publicacions i perfils a servidors del fedivers; a Europa aquesta interoperabilitat encara no està activa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "threads-supplemental-privacy"
+      ],
+      "detail": "Threads es pot afegir al Centre de comptes i el contingut públic pot aparèixer a Facebook.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "meta-privacy-policy"
+      ],
+      "detail": "Meta diu que no ven dades personals, però en rep de socis comercials i les incorpora al perfil.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "regulator",
+      "sources": [
+        "meta-privacy-policy",
+        "dpc-meta-transfers-2023"
+      ],
+      "detail": "Transferències als Estats Units, sancionades el 2023 abans del marc d’adequació actual.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "adequacy"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-transparency-center"
+      ],
+      "detail": "Informe conjunt del grup Meta sobre peticions governamentals i aplicació de normes.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://transparency.meta.com/"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "threads-supplemental-privacy",
+        "threads-delete-account"
+      ],
+      "detail": "Criteri general «el temps necessari», amb terminis concrets només per a l’eliminació del perfil.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "threads-delete-account"
+      ],
+      "detail": "L’eliminació es fa efectiva al cap de 30 dies i pot trigar fins a 90; Meta pot guardar còpies de seguretat més temps i conservar informació per qüestions legals.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "period": "30 dies abans que l’eliminació sigui definitiva",
+        "sources": [
+          "threads-delete-account"
+        ]
+      },
+      {
+        "period": "Fins a 90 dies per completar l’eliminació, amb còpies de seguretat conservades més temps",
+        "sources": [
+          "threads-delete-account"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "threads-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "threads-delete-account"
+      ],
+      "detail": "Es fa des de l’aplicació i no elimina el compte d’Instagram ni el de Facebook.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://help.instagram.com/313703828012423",
+    "difficulty": "medium",
+    "waitingPeriodDays": 30,
+    "requiresSupportContact": false,
+    "steps": [
+      "Obre Threads i toca el perfil a la part inferior dreta.",
+      "Toca el menú de la part superior dreta i entra al Centre de comptes.",
+      "Ves a Dades personals, Propietat i control del compte i Desactivació o eliminació.",
+      "Tria el compte, toca «Eliminar compte», indica el motiu i continua."
+    ],
+    "obstacles": "La desactivació temporal s’ofereix com a alternativa i tornar a iniciar sessió dins dels 30 dies anul·la l’eliminació. Després cal esperar 90 dies per tornar a registrar-se amb el mateix compte d’Instagram.",
+    "dataRetained": "Còpies de seguretat i informació conservada per qüestions legals o de prevenció de danys.",
+    "sources": [
+      "threads-delete-account"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fb-download-info"
+      ],
+      "detail": "Exportació des del Centre de comptes de Meta.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://accountscenter.meta.com/info_and_permissions/dyi/"
+    },
+    "exportFormatQuality": "mixed",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-privacy-center"
+      ],
+      "detail": "Formulari de drets del grup Meta i contacte amb el delegat de protecció de dades de Meta Platforms Ireland.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.facebook.com/help/contact/540977946302970",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "regulator",
+      "sources": [
+        "meta-privacy-center",
+        "dpc-meta-ads-2023"
+      ],
+      "detail": "Es poden limitar algunes categories, però la personalització només es desactiva del tot amb la subscripció sense anuncis.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "meta-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "threads-supplemental-privacy"
+      ],
+      "detail": "Perfil públic o privat i bloqueig de comptes; el nom, la foto i la presentació són sempre públics.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "threads-delete-account"
+      ],
+      "detail": "La desactivació temporal es presenta com a alternativa a l’eliminació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "hidden-exit",
+        "severity": "medium",
+        "description": "L’eliminació està quatre nivells per sota dins del Centre de comptes i tornar a entrar dins dels 30 dies l’anul·la.",
+        "sources": [
+          "threads-delete-account"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-privacy-center"
+      ],
+      "detail": "Verificació en dos passos del Centre de comptes amb aplicació d’autenticació, SMS, claus de seguretat i claus d’accés.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "totp",
+        "sms",
+        "hardware-key",
+        "passkey"
+      ]
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat auditories de seguretat independents publicades sobre aquesta aplicació."
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-transparency-center"
+      ],
+      "detail": "Coberta pel programa de recompenses de Meta.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.facebook.com/whitehat"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-transparency-center"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "e2ee": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "meta-privacy-policy"
+      ],
+      "detail": "No hem trobat que els missatges de Threads tinguin xifratge d’extrem a extrem.",
+      "verifiedAt": "2026-09-22",
+      "scope": "none"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La política complementària descriu la interoperabilitat amb el fedivers, però alhora diu que encara no s’aplica a Europa. No hem trobat sancions pròpies de Threads; els incidents del grup Meta són a les fitxes d’Instagram i Facebook.",
+    "openQuestions": [
+      "Els missatges directes de Threads tenen o tindran xifratge d’extrem a extrem?"
+    ]
+  },
+  "appStoreBundleId": "com.burbn.barcelona"
+}

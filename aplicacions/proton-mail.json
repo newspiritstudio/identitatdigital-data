@@ -1,0 +1,499 @@
+{
+  "slug": "proton-mail",
+  "name": "Proton Mail",
+  "company": "proton",
+  "categories": [
+    "correu-electronic"
+  ],
+  "tagline": "Correu xifrat de coneixement zero amb seu a Suïssa",
+  "summary": "Proton Mail xifra els missatges de manera que la mateixa empresa no els pot llegir. Es pot comprovar perquè el codi dels clients és obert i hi ha auditories publicades. Té dues limitacions: els correus intercanviats amb proveïdors no xifrats no queden protegits d’extrem a extrem, i les metadades de qui escriu a qui són visibles per necessitat del protocol.",
+  "platforms": [
+    "web",
+    "ios",
+    "android",
+    "windows",
+    "macos",
+    "linux"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Suïssa",
+  "userBase": "Més de 100 milions de comptes",
+  "links": {
+    "website": "https://proton.me/mail",
+    "privacyPolicy": "https://proton.me/legal/privacy",
+    "terms": "https://proton.me/legal/terms",
+    "privacyCenter": "https://proton.me/legal/transparency"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "proton-privacy-policy"
+    ],
+    "detail": "Cal un compte, però es pot crear sense donar cap dada personal ni número de telèfon en la majoria de casos.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "proton-privacy-policy"
+    ],
+    "detail": "Tots els clients són de codi obert i auditats de manera independent. La infraestructura del servidor no ho és, però com que el xifratge es fa al client, el servidor no pot llegir el contingut.",
+    "verifiedAt": "2026-09-22",
+    "repositoryUrl": "https://github.com/ProtonMail",
+    "licence": "GPL-3.0"
+  },
+  "dataSummary": "Proton desa els correus xifrats amb claus derivades de la contrasenya, de manera que no els pot desxifrar. El que sí que veu són les metadades: adreces de remitent i destinatari, assumpte en alguns casos i marques de temps.",
+  "dataCollection": [
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "proton-privacy-policy"
+      ]
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "proton-mail-privacy"
+      ],
+      "note": "Xifrat de coneixement zero: Proton no pot desxifrar-lo ni lliurar-lo desxifrat."
+    },
+    {
+      "type": "metadades-de-comunicacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "proton-privacy-policy"
+      ],
+      "note": "Remitent, destinatari i marques de temps són inevitables per encaminar el correu."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "proton-privacy-policy"
+      ],
+      "note": "Per defecte no es registra. Es pot activar voluntàriament o pot ser ordenat per una autoritat suïssa en casos concrets."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "proton-privacy-policy"
+      ],
+      "note": "Només com a mètode de verificació alternatiu en la creació del compte."
+    },
+    {
+      "type": "fitxers-i-documents",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "proton-mail-privacy"
+      ],
+      "note": "Els adjunts es xifren igual que el cos del missatge."
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "proton-mail-privacy"
+      ],
+      "note": "Els contactes es desen xifrats."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "proton-privacy-policy"
+      ],
+      "note": "Els plans de pagament admeten efectiu i criptomoneda per no vincular la identitat bancària."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "proton-privacy-policy"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "proton-privacy-policy"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "proton-privacy-policy"
+      ],
+      "note": "Només galetes tècniques de sessió."
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "proton-privacy-policy"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "proton-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "proton-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "proton-privacy-policy"
+      ],
+      "detail": "Proton bloqueja per defecte els píxels de seguiment dels correus rebuts, cosa que protegeix contra el rastreig de qui envia.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Proton no té publicitat: es finança amb subscripcions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "proton-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "proton-privacy-policy"
+      ],
+      "detail": "El contingut és inaccessible per a l’empresa. L’assistent de redacció es pot executar localment al dispositiu.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "proton-privacy-policy"
+      ],
+      "detail": "Només processadors de pagament per als plans de subscripció.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Proton no comparteix dades amb altres empreses; els seus serveis són tots propis i del mateix compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "proton-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "proton-privacy-policy"
+      ],
+      "detail": "Els servidors són a Suïssa i Alemanya, dins d’un marc de protecció equivalent.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "none"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "proton-transparency"
+      ],
+      "detail": "Proton publica el nombre i el tipus de requeriments rebuts i què hi va poder lliurar.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://proton.me/legal/transparency"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "proton-privacy-policy"
+      ],
+      "detail": "La política fixa terminis concrets i curts per a les poques dades que es conserven.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "proton-delete-account"
+      ],
+      "detail": "L’eliminació del compte esborra totes les dades dels sistemes de manera permanent, sense període de gràcia.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "proton-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "proton-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://proton.me/support/delete-account",
+    "difficulty": "easy",
+    "waitingPeriodDays": 0,
+    "requiresSupportContact": false,
+    "steps": [
+      "Entra al compte des del web i obre la configuració.",
+      "Ves a Compte i contrasenya i tria «Suprimeix el compte».",
+      "Indica el motiu, confirma amb la contrasenya i valida."
+    ],
+    "obstacles": "L’eliminació és immediata i irreversible. Cal exportar abans els correus que es vulguin conservar i alliberar l’adreça de qualsevol servei que en depengui.",
+    "dataRetained": "Els correus enviats resten a les bústies de les persones destinatàries.",
+    "sources": [
+      "proton-delete-account"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "proton-privacy-policy"
+      ],
+      "detail": "Eina d’exportació d’Easy Switch i possibilitat de descarregar les bústies en format estàndard.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://proton.me/support/export-emails-import-export-app"
+    },
+    "exportFormatQuality": "open",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "proton-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacy@proton.me",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "proton-privacy-policy"
+      ],
+      "detail": "La telemetria és mínima i es pot desactivar completament a la configuració.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "proton-privacy-policy"
+      ],
+      "detail": "Bloqueig de píxels, adreces d’un sol ús amb Hide My Email, xifratge de contactes i registre d’autenticació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "protective",
+    "darkPatterns": {
+      "status": "no",
+      "level": "editorial",
+      "sources": [
+        "proton-delete-account"
+      ],
+      "detail": "El camí de sortida és accessible i està documentat, sense pantalles d’intercepció.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "proton-mail-privacy"
+      ],
+      "detail": "Xifratge de coneixement zero per als correus emmagatzemats i xifratge d’extrem a extrem entre comptes de Proton o amb persones que facin servir OpenPGP. Amb altres proveïdors, la protecció es limita al transport.",
+      "verifiedAt": "2026-09-22",
+      "scope": "metadata-excluded",
+      "protocol": "OpenPGP"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "proton-mail-privacy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "proton-mail-privacy"
+      ],
+      "detail": "Xifratge amb claus derivades de la contrasenya de la persona usuària, que Proton no coneix.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "proton-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "totp",
+        "hardware-key",
+        "passkey"
+      ]
+    },
+    "independentAudits": {
+      "status": "yes",
+      "level": "independent",
+      "sources": [
+        "proton-privacy-policy"
+      ],
+      "detail": "Auditories de seguretat publicades per empreses externes per a totes les aplicacions.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://proton.me/blog/security-audit"
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "proton-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://proton.me/security/bug-bounty"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "proton-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "review": {
+    "researchStatus": "in-depth",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Proton no protegeix les metadades ni els correus intercanviats amb proveïdors no xifrats, i la fitxa ho recull."
+  },
+  "appStoreBundleId": "ch.protonmail.protonmail"
+}

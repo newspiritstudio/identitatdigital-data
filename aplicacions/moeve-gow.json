@@ -1,0 +1,482 @@
+{
+  "slug": "moeve-gow",
+  "name": "Moeve Gow",
+  "company": "moeve-comercial",
+  "categories": [
+    "mobilitat-i-transport",
+    "comerc-electronic"
+  ],
+  "tagline": "Paga el carburant i acumula punts, però l’etiqueta no declara cap dada vinculada amb tu",
+  "summary": "Moeve Gow permet pagar a les estacions de servei de la marca i acumular descomptes. L’etiqueta de l’App Store no declara cap dada vinculada amb la identitat, tot i que el servei exigeix un compte i un mitjà de pagament: la informació financera, la ubicació i els identificadors hi consten com a dades no vinculades. La política, en canvi, descriu perfilat comercial per interès legítim i perfilat amb tercers amb consentiment.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Espanya",
+  "userBase": "Aplicació de pagament i fidelització de la xarxa d’estacions de servei de Moeve, abans Cepsa",
+  "links": {
+    "website": "https://www.moeve.es/",
+    "privacyPolicy": "https://www.moeve.es/xmartplace/politica_privacidad.html",
+    "appStore": "https://apps.apple.com/es/app/id1570649924"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "moeve-gow-privacy-policy"
+    ],
+    "detail": "La política descriu el registre d’usuaris com a tractament necessari per a l’execució contractual i les mesures precontractuals.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "moeve-gow-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Les dades d’una aplicació de benzinera mostren on ets i quan, cada quant omples el dipòsit i quant gastes. Moeve les creua amb el mitjà de pagament i amb els patrons de consum per «optimitzar l’oferta comercial», i demana consentiment a part per a l’elaboració de perfils amb dades de tercers.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "moeve-gow-privacy-policy",
+        "moeve-gow-app-store"
+      ],
+      "note": "L’etiqueta declara les dades de contacte com a no vinculades amb la identitat, cosa difícil de conciliar amb un compte de fidelització."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "moeve-gow-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "moeve-gow-privacy-policy",
+        "moeve-gow-app-store"
+      ],
+      "note": "La política identifica Ingenico com a proveïdor de pagaments, amb contacte propi de protecció de dades."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "moeve-gow-privacy-policy"
+      ],
+      "note": "La política declara un perfilat comercial a partir dels patrons de consum."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "moeve-gow-privacy-policy",
+        "moeve-gow-app-store"
+      ],
+      "note": "La política distingeix la geolocalització per prestar el servei, emparada en la relació contractual, de la geolocalització amb finalitat comercial, que exigeix consentiment."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "moeve-gow-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "moeve-gow-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "moeve-gow-app-store"
+      ],
+      "note": "Única categoria declarada com a utilitzada per rastrejar-te en aplicacions i webs d’altres empreses."
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "moeve-gow-privacy-policy"
+      ],
+      "note": "La política esmenta les dades de navegació i l’ús de Google Analytics, amb transferència als Estats Units subjecta a consentiment exprés."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "moeve-gow-privacy-policy"
+      ],
+      "note": "Tècniques de segmentació sobre els patrons de consum, emparades en l’interès legítim per al perfilat intern."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "moeve-gow-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "moeve-gow-app-store"
+      ],
+      "detail": "L’etiqueta declara dades d’ús utilitzades per rastrejar-te en aplicacions i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "moeve-gow-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap identificador publicitari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "moeve-gow-privacy-policy"
+      ],
+      "detail": "La política declara Google Analytics amb consentiment exprés per a la transferència als Estats Units.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "moeve-gow-privacy-policy"
+      ],
+      "detail": "Comunicacions comercials de productes similars per interès legítim, i de productes no similars o de tercers amb consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "moeve-gow-privacy-policy"
+      ],
+      "detail": "Perfilat intern per interès legítim a partir dels patrons de consum, i perfilat amb dades externes amb consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta l’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "moeve-gow-privacy-policy"
+      ],
+      "detail": "Proveïdors com a encarregats del tractament, el grup Ingenico per als pagaments i autoritats judicials quan escau.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "moeve-gow-privacy-policy"
+      ],
+      "detail": "Comunicacions a les societats del grup Cepsa per a la gestió administrativa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no declara cap venda de dades a intermediaris."
+    },
+    "internationalTransfers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "moeve-gow-privacy-policy"
+      ],
+      "detail": "La política diu que en general no es preveuen transferències internacionals, però admet que poden produir-se amb clàusules contractuals tipus, i les de Google Analytics als Estats Units exigeixen consentiment exprés.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem localitzat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "moeve-gow-privacy-policy"
+      ],
+      "detail": "La política lliga la conservació a la vigència del registre i a la finalitat de cada tractament, sense terminis per categoria.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "moeve-gow-privacy-policy"
+      ],
+      "detail": "Un cop acabat el tractament, les dades es conserven degudament bloquejades durant els terminis de prescripció.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "moeve-gow-privacy-policy"
+      ],
+      "detail": "La política reconeix el dret de supressió, però no documenta cap procediment de baixa dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap pàgina d’ajuda que descrigui la baixa autoservei del compte."
+    },
+    "difficulty": "unknown",
+    "steps": [
+      "Escriu a derechos.arco@cepsa.com demanant la supressió del compte i de les dades associades.",
+      "Si el que vols és només deixar de rebre comunicacions comercials, la política ofereix la mateixa adreça per oposar-t’hi.",
+      "Si no obtens resposta dins de termini, reclama davant de l’AEPD."
+    ],
+    "dataRetained": "Dades bloquejades durant els terminis de prescripció legal.",
+    "sources": [
+      "moeve-gow-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "moeve-gow-privacy-policy"
+      ],
+      "detail": "Els drets del RGPD s’exerceixen per correu electrònic; la política no descriu cap exportació autoservei.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:derechos.arco@cepsa.com"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "moeve-gow-privacy-policy"
+      ],
+      "detail": "Canal de drets a derechos.arco@cepsa.com i delegat de protecció de dades a dpo@cepsa.com.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:derechos.arco@cepsa.com",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "moeve-gow-privacy-policy"
+      ],
+      "detail": "Es pot oposar a les comunicacions comercials i retirar el consentiment del perfilat extern, però per correu electrònic.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "moeve-gow-privacy-policy"
+      ],
+      "detail": "La transferència de dades a Google Analytics depèn del consentiment exprés, que es pot no donar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "moeve-gow-privacy-policy"
+      ],
+      "detail": "Hi ha consentiments separables per finalitat (geolocalització comercial, comunicacions, perfilat extern), però no un panell únic documentat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem revisat els fluxos de consentiment de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no transporta comunicacions privades entre persones usuàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem localitzat documentació tècnica sobre el xifratge del canal."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu el sistema d’autenticació de l’aplicació."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories independents publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses ni cap fitxer security.txt."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem localitzat cap canal públic de divulgació de vulnerabilitats."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "waylet",
+      "comparability": "equivalent",
+      "rationale": "L’aplicació equivalent de Repsol, amb la mateixa funció de pagament i fidelització a les estacions de servei.",
+      "tradeOffs": "Waylet declara l’historial de navegació com a dada utilitzada per rastrejar-te, cosa que Moeve Gow no fa."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Una aplicació que exigeix registre i mitjà de pagament declara a Apple que cap de les dades que recull està vinculada amb la identitat. O l’etiqueta és incompleta, o el compte de fidelització funciona d’una manera que la política no explica.",
+    "openQuestions": [
+      "Com es concilia una etiqueta sense dades vinculades amb un programa de fidelització nominatiu?",
+      "Hi ha una manera de donar-se de baixa del compte des de la mateixa aplicació?"
+    ]
+  },
+  "appStoreBundleId": "com.cepsa.xmartplace"
+}

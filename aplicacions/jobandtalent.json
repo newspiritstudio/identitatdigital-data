@@ -1,0 +1,581 @@
+{
+  "slug": "jobandtalent",
+  "name": "Job&Talent",
+  "company": "jobs-and-talent",
+  "categories": [
+    "feina-i-ocupacio"
+  ],
+  "tagline": "Fitxatges amb geolocalització, entrevistes en vídeo i dades bancàries, perquè a més de portal d’ofertes és l’empresa que et contracta",
+  "summary": "A més de portal d’ofertes, Job&Talent és una empresa de treball temporal que contracta directament, i la seva política ho reflecteix. Recull document d’identitat, entrevistes en vídeo, compte bancari, nòmines, torns i la geolocalització dels fitxatges d’entrada i de sortida, a més de dades de salut rellevants per al lloc. Fa servir un algorisme que ordena les candidatures segons els requisits de l’oferta. L’etiqueta de l’App Store declara l’identificador del dispositiu per a publicitat de tercers, i l’aplicació pot fer servir la ubicació en segon pla.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "unknown",
+  "jurisdiction": "Espanya (Jobs and Talent, S.L., Madrid)",
+  "links": {
+    "website": "https://www.jobandtalent.com/",
+    "privacyPolicy": "https://www.jobandtalent.com/legal/privacy-notice",
+    "terms": "https://www.jobandtalent.com/legal/terms-of-use-candidates",
+    "appStore": "https://apps.apple.com/es/app/id665060895",
+    "playStore": "https://play.google.com/store/apps/details?id=com.jobandtalent.android"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "jobandtalent-privacy-notice",
+      "jobandtalent-terms-candidates"
+    ],
+    "detail": "Cal crear un compte amb dades d’identitat per inscriure’s a les ofertes i per treballar-hi.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "jobandtalent-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "A més del currículum, l’aplicació recull el document d’identitat, el compte bancari, les nòmines, els torns, les hores treballades i el lloc des d’on es fitxa, és a dir, les dades d’una relació laboral completa. La geolocalització dels fitxatges permet saber on és la persona cada dia a l’hora d’entrar i de sortir.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "cessio-a-tercers"
+      ],
+      "sources": [
+        "jobandtalent-privacy-notice",
+        "jobandtalent-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "jobandtalent-privacy-notice",
+        "jobandtalent-app-store"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "jobandtalent-privacy-notice",
+        "jobandtalent-app-store"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "jobandtalent-app-store"
+      ],
+      "note": "L’etiqueta la declara també per a la personalització del producte."
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "jobandtalent-privacy-notice",
+        "jobandtalent-terms-candidates"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "jobandtalent-privacy-notice"
+      ],
+      "note": "Compte bancari i dades de nòmina, necessaris per pagar la feina."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "jobandtalent-privacy-notice"
+      ],
+      "note": "Entrevistes en vídeo dins del procés de selecció."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "jobandtalent-privacy-notice",
+        "jobandtalent-app-store"
+      ],
+      "note": "Geolocalització dels fitxatges d’entrada i de sortida. La fitxa de l’App Store avisa que l’aplicació pot fer servir la ubicació encara que no estigui oberta."
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "jobandtalent-privacy-notice"
+      ],
+      "note": "La política reconeix que tracta dades de salut rellevants per a l’assignació de llocs de treball."
+    },
+    {
+      "type": "ocupacio-i-carrec",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "jobandtalent-privacy-notice"
+      ],
+      "note": "Historial laboral, torns assignats i registre d’assistència."
+    },
+    {
+      "type": "nivell-formatiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "jobandtalent-privacy-notice"
+      ]
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "jobandtalent-privacy-notice"
+      ],
+      "note": "Rànquing algorísmic de candidatures segons els requisits de l’oferta."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "jobandtalent-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "jobandtalent-app-store"
+      ],
+      "note": "L’etiqueta el declara per a publicitat de tercers i per a publicitat o màrqueting del desenvolupador."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "jobandtalent-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "jobandtalent-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "jobandtalent-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada utilitzada per rastrejar, tot i que sí que declara l’identificador del dispositiu per a publicitat de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "jobandtalent-app-store"
+      ],
+      "detail": "L’etiqueta declara l’identificador del dispositiu vinculat a la identitat per a publicitat de tercers i per a publicitat del desenvolupador.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "jobandtalent-app-store"
+      ],
+      "detail": "La categoria «Publicidad de terceros» de l’etiqueta implica la presència de components publicitaris de tercers.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "jobandtalent-app-store",
+        "jobandtalent-privacy-notice"
+      ],
+      "detail": "L’etiqueta declara publicitat de tercers i publicitat del desenvolupador; la política basa els continguts promocionals no relacionats amb la selecció en el consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "jobandtalent-privacy-notice"
+      ],
+      "detail": "Un algorisme ordena les candidatures segons els requisits del lloc; la política afirma que la decisió final de contractar la pren l’empresa client de manera independent.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu si les candidatures o les entrevistes en vídeo serveixen per entrenar els models que fan l’emparellament."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "jobandtalent-privacy-notice"
+      ],
+      "detail": "Empreses clientes, proveïdors tecnològics i de recursos humans, agència tributària i Seguretat Social.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "jobandtalent-privacy-notice"
+      ],
+      "detail": "Filials del grup en diversos països.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta la venda de dades a intermediaris."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "jobandtalent-privacy-notice"
+      ],
+      "detail": "Transferències fora de l’Espai Econòmic Europeu emparades en clàusules contractuals tipus de la Unió Europea.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "jobandtalent-privacy-notice"
+      ],
+      "detail": "La política diu que conserva les dades entre tres i trenta anys segons la normativa aplicable, però no assigna cada termini a un tipus de dada concret.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "jobandtalent-privacy-notice"
+      ],
+      "detail": "Les obligacions fiscals i laborals obliguen a conservar la documentació de la relació laboral després de la baixa del compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "period": "Entre tres i trenta anys segons la normativa aplicable a cada tipus de dada",
+        "sources": [
+          "jobandtalent-privacy-notice"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "jobandtalent-terms-candidates",
+        "jobandtalent-privacy-notice"
+      ],
+      "detail": "Les condicions d’ús preveuen expressament eliminar el compte de l’aplicació mòbil, i la política reconeix el dret de supressió.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "jobandtalent-terms-candidates",
+        "jobandtalent-privacy-notice"
+      ],
+      "detail": "Les condicions diuen que el compte es pot eliminar des de l’aplicació i la política remet als ajustos de la plataforma, però cap dels dos documents en detalla els passos.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "steps": [
+      "Obre els ajustos del compte a l’aplicació i busca l’opció d’eliminació que preveu la clàusula 12.2 de les condicions d’ús.",
+      "Si no la trobes, escriu al delegat de protecció de dades a dpo@jobandtalent.com demanant la supressió.",
+      "Si no hi ha resposta en un mes, reclama davant de l’Agencia Española de Protección de Datos."
+    ],
+    "obstacles": "Qui hi ha treballat no pot fer esborrar la documentació laboral: la normativa fiscal i de Seguretat Social obliga a conservar-la durant anys.",
+    "dataRetained": "Contractes, nòmines i registres de jornada durant els terminis legals, que la política situa entre tres i trenta anys.",
+    "sources": [
+      "jobandtalent-privacy-notice",
+      "jobandtalent-terms-candidates"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "jobandtalent-privacy-notice"
+      ],
+      "detail": "La política reconeix el dret de portabilitat i remet als ajustos de la plataforma o al delegat de protecció de dades, sense descriure cap eina d’exportació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "jobandtalent-privacy-notice"
+      ],
+      "detail": "Des dels ajustos de la plataforma o per correu a dpo@jobandtalent.com.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "jobandtalent-privacy-notice"
+      ],
+      "detail": "Els continguts promocionals no relacionats amb la selecció es basen en el consentiment i es poden retirar; la política no descriu cap control sobre la publicitat de tercers que declara l’etiqueta.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap opció documentada per desactivar l’analítica dins de l’aplicació."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "jobandtalent-privacy-notice"
+      ],
+      "detail": "La política remet als ajustos de la plataforma per exercir els drets, però no en descriu el detall.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem analitzat els formularis de registre ni els permisos d’ubicació de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És una aplicació de gestió laboral, sense comunicacions privades xifrades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació oficial sobre el xifratge en trànsit."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública sobre el xifratge de les dades en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Les condicions d’ús parlen de credencials i d’avisar en cas d’accés no autoritzat, però no esmenten cap verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat auditories ni certificacions de seguretat publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa públic de recompenses per vulnerabilitats."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap canal públic per notificar vulnerabilitats, més enllà del correu del delegat de protecció de dades."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "infojobs",
+      "comparability": "partial",
+      "rationale": "Per buscar feina sense entrar en una relació laboral amb la plataforma, un portal d’ofertes demana moltes menys dades.",
+      "tradeOffs": "No gestiona contractes, nòmines ni fitxatges, que és el nucli del servei de Job&Talent."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Job&Talent actua també com a ocupador, i per això tracta dades laborals, bancàries i de geolocalització que un portal d’ofertes no necessita. La política és força completa, però no assigna terminis per tipus de dada, i l’etiqueta declara publicitat de tercers. No hem trobat cap sanció ni cap filtració documentada.",
+    "openQuestions": [
+      "Quina xarxa publicitària rep l’identificador del dispositiu que l’etiqueta declara per a publicitat de tercers?",
+      "Amb quina freqüència es recull la ubicació en segon pla i què se’n conserva?",
+      "Com es pot demanar la revisió humana del rànquing algorísmic de candidatures?"
+    ]
+  },
+  "appStoreBundleId": "com.jobandtalent.jobandtalent"
+}

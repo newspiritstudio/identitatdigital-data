@@ -1,0 +1,538 @@
+{
+  "slug": "action",
+  "name": "Action",
+  "company": "action",
+  "categories": [
+    "comerc-electronic"
+  ],
+  "tagline": "Catàleg i targeta de client que vincula les compres a botiga amb el compte, amb publicitat per correu xifrat a les xarxes només amb consentiment",
+  "summary": "L’aplicació d’Action es pot fer servir sense compte per consultar ofertes i botigues, però la targeta digital de Mi Action lliga cada compra a botiga amb una persona identificada. La declaració de privadesa és detallada i fixa terminis concrets per a gairebé cada tractament. L’etiqueta de l’App Store declara identificadors utilitzats per rastrejar, i la política preveu compartir el correu xifrat amb Meta, Google, TikTok i Pinterest si s’hi dona consentiment.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Països Baixos",
+  "links": {
+    "website": "https://www.action.com/es-es/",
+    "privacyPolicy": "https://www.action.com/es-es/declaracion-de-privacidad/",
+    "appStore": "https://apps.apple.com/es/app/id1531860284"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "action-privacy-statement"
+    ],
+    "detail": "L’aplicació es pot fer servir amb o sense compte Mi Action; el compte només cal per a la targeta de client, els favorits i els tiquets digitals.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "action-privacy-statement"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Amb la targeta de client escanejada a caixa, l’historial de compres a botiga queda lligat al nom, la data de naixement i el correu. Sumat a la ubicació per trobar la botiga més propera i al que es mira i es desa a l’aplicació, descriu els hàbits de consum domèstic d’una llar.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "action-privacy-statement",
+        "action-app-store"
+      ],
+      "note": "Només amb compte Mi Action o en comandes grans i de la botiga en línia."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "action-privacy-statement",
+        "action-app-store"
+      ],
+      "note": "Amb consentiment, se’n comparteix una versió xifrada (hash) amb Facebook, Instagram, TikTok, Pinterest i Google per mostrar anuncis."
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "action-privacy-statement"
+      ],
+      "note": "Obligatòria per obrir un compte Mi Action (verificació d’edat) i usada per a promocions d’aniversari."
+    },
+    {
+      "type": "contrasenya",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "action-privacy-statement"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts",
+        "investigacio-i-estadistica"
+      ],
+      "sources": [
+        "action-privacy-statement"
+      ],
+      "note": "Les compres a botiga es vinculen al compte quan s’escaneja la targeta de client."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "action-privacy-statement"
+      ],
+      "note": "Amb permís del dispositiu, per al localitzador de botigues."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "action-app-store",
+        "action-privacy-statement"
+      ],
+      "note": "L’etiqueta la declara per a analítica; la política esmenta la ubicació d’inici de sessió deduïda de l’adreça IP."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "action-app-store",
+        "action-privacy-statement"
+      ],
+      "note": "L’analítica, la personalització i el màrqueting depenen del consentiment a la configuració de l’aplicació."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "action-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "action-app-store",
+        "action-privacy-statement"
+      ],
+      "note": "L’etiqueta declara «identificadors» utilitzats per rastrejar."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "action-privacy-statement"
+      ],
+      "note": "Les tracta el proveïdor de pagaments Adyen en les compres de la botiga en línia."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "action-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "action-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store declara identificadors utilitzats per rastrejar entre aplicacions i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "action-privacy-statement",
+        "action-app-store"
+      ],
+      "detail": "La política descriu l’ús d’identificadors per part de socis publicitaris i dels productes publicitaris de Google, amb consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "action-privacy-statement"
+      ],
+      "detail": "Eines de Google i tecnologies de mesura de conversions amb Meta i Google, subjectes al consentiment.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "action-privacy-statement"
+      ],
+      "detail": "Amb consentiment, Action i els seus socis publicitaris fan servir les interaccions per personalitzar anuncis, i el correu xifrat per mostrar anuncis a les xarxes socials.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "action-privacy-statement"
+      ],
+      "detail": "El butlletí es personalitza amb l’historial de compres i les interaccions; les anàlisis del compte Mi Action es declaren agregades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La declaració de privadesa no esmenta l’ús de dades per entrenar models d’IA."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "action-privacy-statement"
+      ],
+      "detail": "Proveïdors de màrqueting, tecnologia, pagament (Adyen), lliurament i atenció al client, i plataformes publicitàries amb consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "action-privacy-statement"
+      ],
+      "detail": "Amb altres empreses del grup Action que donen suport a les operacions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "action-privacy-statement"
+      ],
+      "detail": "La política diu que no ven dades personals a tercers per als seus propis fins de màrqueting.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "action-privacy-statement"
+      ],
+      "detail": "Alguns proveïdors són fora de l’EEE; s’empren decisions d’adequació, clàusules contractuals tipus i el Marc de privadesa UE-EUA.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "action-privacy-statement"
+      ],
+      "detail": "Terminis concrets per a gairebé cada tractament: set anys per a pagaments i comandes, tres mesos per a les trucades gravades, un any per al butlletí i les notificacions inactives, i dos anys d’inactivitat per al compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "action-privacy-statement"
+      ],
+      "detail": "En eliminar el compte s’esborren la targeta de client i les dades vinculades, però les dades de compres i pagaments es conserven set anys per obligació fiscal.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "historial-de-compres",
+        "period": "Set anys les dades de compres i pagaments, per obligació fiscal i comptable",
+        "sources": [
+          "action-privacy-statement"
+        ]
+      },
+      {
+        "dataType": "veu-i-audio",
+        "period": "Tres mesos les gravacions de trucades a atenció al client",
+        "sources": [
+          "action-privacy-statement"
+        ]
+      },
+      {
+        "dataType": "adreca-electronica",
+        "period": "Mentre duri la subscripció al butlletí o fins a un any després de l’última interacció",
+        "sources": [
+          "action-privacy-statement"
+        ]
+      },
+      {
+        "dataType": "identificador-de-compte",
+        "period": "Mentre el compte sigui actiu; després de dos anys sense ús i sense resposta a l’avís, es desactiva i s’esborra",
+        "sources": [
+          "action-privacy-statement"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "action-privacy-statement",
+        "action-my-action-faq"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "action-my-action-faq"
+      ],
+      "detail": "L’opció «Eliminar mi cuenta» és a «Mis datos» del compte Mi Action, a l’aplicació i al web.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "easy",
+    "requiresSupportContact": false,
+    "steps": [
+      "Inicia la sessió a Mi Action, a l’aplicació o a action.com.",
+      "Obre «Mis datos» al menú del compte.",
+      "Tria «Eliminar mi cuenta» i confirma-ho.",
+      "Com a alternativa, envia la sol·licitud pel formulari de contacte d’atenció al client.",
+      "Espera la confirmació: l’eliminació de les dades pot trigar fins a 30 dies laborables."
+    ],
+    "obstacles": "Es perden els segells i la targeta d’estalvi acumulats. Els tiquets digitals no es poden esborrar un per un.",
+    "dataRetained": "Dades de compres i pagaments durant set anys per obligació fiscal.",
+    "sources": [
+      "action-my-action-faq",
+      "action-privacy-statement"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "action-privacy-statement"
+      ],
+      "detail": "El dret de portabilitat es reconeix, però s’exerceix per sol·licitud a atenció al client, sense eina d’autoservei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "action-privacy-statement"
+      ],
+      "detail": "Drets per correu a atenció al client o al delegat de protecció de dades, amb resposta en un mes.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacy@action.nl",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "action-privacy-statement"
+      ],
+      "detail": "La publicitat personalitzada i la compartició del correu xifrat depenen del consentiment, que es retira a la configuració de l’aplicació o al centre de preferències de Mi Action.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "action-privacy-statement"
+      ],
+      "detail": "Les tecnologies d’analítica i rendiment de l’aplicació són opcionals i es gestionen a la configuració.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "action-privacy-statement"
+      ],
+      "detail": "Consentiments separats per a analítica, personalització, màrqueting i publicitat a les xarxes socials.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi de patrons foscos de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no ofereix comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política parla de «sistemes segurs» sense detallar el xifratge en trànsit."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública sobre el xifratge de les dades en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap opció de verificació en dos passos per al compte Mi Action; l’accés és amb correu i contrasenya."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories o certificacions de seguretat publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses públic."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap política de divulgació de vulnerabilitats ni fitxer security.txt a action.com."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La declaració de privadesa (actualitzada el juliol de 2026) concreta els terminis. No hem trobat cap sanció ni filtració documentada.",
+    "openQuestions": [
+      "Hi ha un canal de notificació de vulnerabilitats per a action.com?",
+      "L’eliminació del compte també esborra l’historial de compres vinculat a la targeta, a banda del que exigeix la llei fiscal?"
+    ]
+  },
+  "appStoreBundleId": "com.action.consumerapp"
+}

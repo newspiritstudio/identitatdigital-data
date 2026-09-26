@@ -1,0 +1,502 @@
+{
+  "slug": "camscanner",
+  "name": "CamScanner",
+  "company": "intsig",
+  "categories": [
+    "ofimatica-i-productivitat"
+  ],
+  "tagline": "Escàner de documents xinès amb publicitat de rastreig i un precedent de mòdul maliciós",
+  "summary": "Pels documents que escaneja, CamScanner veu contractes, nòmines i documents d’identitat, i en fa OCR si es sincronitzen. Tot i això, es finança en part amb publicitat: l’etiqueta declara identificadors i dades d’ús per rastrejar, i la política comparteix l’IDFA amb anunciants com Google. El 2019 la versió Android va distribuir un mòdul maliciós dins d’una biblioteca publicitària. Per a l’EEE, les dades es guarden a Irlanda.",
+  "platforms": [
+    "ios",
+    "android",
+    "web",
+    "windows",
+    "macos"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Xina",
+  "links": {
+    "website": "https://www.camscanner.com/",
+    "privacyPolicy": "https://v3.camscanner.com/iOS/privacy",
+    "appStore": "https://apps.apple.com/es/app/id388627783"
+  },
+  "accountRequired": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": [],
+    "detail": "La política descriu el registre, però no aclareix si es pot escanejar sense compte."
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "camscanner-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "El contingut escanejat és el més sensible: documents d’identitat, contractes, informes mèdics, factures. Si se sincronitza amb el núvol, queda als servidors de l’empresa fins que s’esborra.",
+  "dataCollection": [
+    {
+      "type": "fitxers-i-documents",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "camscanner-privacy-policy"
+      ],
+      "note": "Es pugen als servidors en fer OCR o sincronitzar, i s’hi conserven fins que s’esborren o s’elimina el compte."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "camscanner-app-store",
+        "camscanner-privacy-policy"
+      ]
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "camscanner-privacy-policy"
+      ],
+      "note": "Preguntes a les funcions d’IA."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "camscanner-app-store",
+        "camscanner-privacy-policy"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "camscanner-app-store",
+        "camscanner-privacy-policy"
+      ]
+    },
+    {
+      "type": "contrasenya",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "camscanner-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "camscanner-app-store",
+        "camscanner-privacy-policy"
+      ],
+      "note": "IDFA a iOS; es comparteix amb proveïdors de publicitat com Google."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "camscanner-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "camscanner-app-store"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "camscanner-privacy-policy"
+      ]
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "camscanner-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "camscanner-privacy-policy"
+      ],
+      "note": "Deduïda de la wifi i el Bluetooth."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "sources": [
+        "camscanner-privacy-policy"
+      ],
+      "note": "Amb permís del dispositiu."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "camscanner-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "camscanner-app-store",
+        "camscanner-privacy-policy"
+      ],
+      "note": "Firebase de Google."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "camscanner-app-store"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "camscanner-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "camscanner-privacy-policy"
+      ],
+      "detail": "Firebase i proveïdors de publicitat com Google.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "camscanner-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política diu que el contingut pujat es tracta per a emmagatzematge, OCR i funcions d’IA, però no si s’entrenen models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "camscanner-privacy-policy"
+      ],
+      "detail": "Serveis de núvol que tria la persona, passarel·les de pagament, Firebase i anunciants.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "camscanner-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "camscanner-privacy-policy"
+      ],
+      "detail": "Les dades de l’EEE es guarden a Irlanda, però es poden transferir fora amb clàusules tipus o decisions d’adequació.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "camscanner-privacy-policy"
+      ],
+      "detail": "Termini per finalitat; la majoria, fins que s’esborra la dada o el compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "camscanner-privacy-policy"
+      ],
+      "detail": "Es conserven factures, dades fiscals i comunicacions per a disputes.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "camscanner-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política diu que cal contactar amb l’empresa; guies de tercers descriuen una opció dins de l’app que no hem pogut verificar."
+    },
+    "difficulty": "unknown",
+    "steps": [
+      "Esborra primer els documents sincronitzats que no vulguis deixar al núvol.",
+      "Demana l’eliminació del compte al contacte que indica la política de privadesa."
+    ],
+    "sources": [
+      "camscanner-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "camscanner-privacy-policy"
+      ],
+      "detail": "La portabilitat es reconeix, sense eina descrita.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "camscanner-privacy-policy"
+      ],
+      "detail": "Delegat de protecció de dades i termini d’un mes.",
+      "verifiedAt": "2026-09-22",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "camscanner-privacy-policy"
+      ],
+      "detail": "Remet als controls del sistema operatiu i a l’avís de galetes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta xifratge d’extrem a extrem dels documents sincronitzats."
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política esmenta el xifratge com a control de seguretat sense concretar-ne l’abast."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "camscanner-privacy-policy"
+      ],
+      "detail": "ISO/IEC 27001, 27701 i 20000.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El domini no publica cap fitxer security.txt."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La web camscanner.com/app/privacy es carrega amb JavaScript; hem fet servir la política enllaçada des de l’App Store. L’Índia va prohibir l’app el 2020 amb altres aplicacions xineses per motius de seguretat nacional; no és una sanció de protecció de dades i no l’hem registrada.",
+    "openQuestions": [
+      "L’app iOS té una opció d’eliminar el compte a la configuració?",
+      "Es pot fer servir sense compte i sense sincronitzar res al núvol?"
+    ]
+  },
+  "appStoreBundleId": "com.intsig.CamScannerLite"
+}

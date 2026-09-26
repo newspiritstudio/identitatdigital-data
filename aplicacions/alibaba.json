@@ -1,0 +1,640 @@
+{
+  "slug": "alibaba",
+  "name": "Alibaba.com",
+  "company": "alibaba-com-singapore",
+  "categories": [
+    "comerc-electronic"
+  ],
+  "tagline": "Mercat majorista entre empreses amb dades a Alemanya, accés remot des de la Xina i xats gestionats per DingTalk",
+  "summary": "Alibaba.com és la plataforma de compra majorista del grup Alibaba, pensada per a empreses. El responsable per a qui es registra fora de la Xina continental és una societat de Singapur, i la política designa el Garante italià com a autoritat principal a la UE. Les dades de les persones usuàries europees s’emmagatzemen a Alemanya, però entitats del grup a la Xina i Singapur hi tenen accés remot. Els xats els gestiona DingTalk, que en conserva una còpia. L’etiqueta de l’App Store declara compres, contacte i identificadors utilitzats per rastrejar.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Singapur; autoritat principal a la UE: Itàlia",
+  "links": {
+    "website": "https://www.alibaba.com/",
+    "privacyPolicy": "https://rule.alibaba.com/rule/detail/2034.htm",
+    "appStore": "https://apps.apple.com/es/app/id503451073"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "alibaba-privacy-policy"
+    ],
+    "detail": "El catàleg es pot consultar sense compte; per contactar amb proveïdors, demanar pressupostos o comprar cal registrar-se.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "alibaba-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Com que és una plataforma per a empreses, a més del compte demana documents de la societat i, per verificar-la, el document d’identitat i factures de la persona representant. Les converses de negociació amb proveïdors, l’historial de compres i la ubicació descriuen l’activitat comercial d’un petit negoci i de qui el porta.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "alibaba-app-store",
+        "alibaba-privacy-policy"
+      ],
+      "note": "L’etiqueta declara les dades de contacte per a publicitat de tercers i per rastrejar."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "alibaba-app-store",
+        "alibaba-privacy-policy"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "alibaba-app-store",
+        "alibaba-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "alibaba-app-store",
+        "alibaba-privacy-policy"
+      ],
+      "note": "Es comparteix amb logística i duanes."
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "alibaba-privacy-policy"
+      ],
+      "note": "Per verificar l’empresa (KYC i prevenció del blanqueig): document d’identitat i factures de la persona representant."
+    },
+    {
+      "type": "ocupacio-i-carrec",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "alibaba-privacy-policy"
+      ],
+      "note": "Dades de l’empresa i del càrrec de la persona que obre el compte."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "alibaba-app-store",
+        "alibaba-privacy-policy"
+      ],
+      "note": "Números de targeta i de compte i extractes; els proveïdors de pagament i de risc de crèdit en reben."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada",
+        "recomanacions-algoritmiques",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "alibaba-app-store",
+        "alibaba-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "recomanacions-algoritmiques",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "alibaba-app-store",
+        "alibaba-privacy-policy"
+      ],
+      "note": "Per defecte, els productes vistos es comparteixen amb els venedors perquè puguin contactar el comprador; es pot desactivar a «Buyer Privacy Settings»."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "alibaba-privacy-policy"
+      ],
+      "note": "La missatgeria la presta DingTalk, que recull els xats i en comparteix una còpia amb Alibaba.com."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "alibaba-privacy-policy"
+      ],
+      "note": "Accés a fotos, vídeos, càmera i micròfon amb permís."
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "alibaba-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "alibaba-app-store",
+        "alibaba-privacy-policy"
+      ],
+      "note": "Amb consentiment."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "alibaba-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "alibaba-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "alibaba-app-store"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "alibaba-privacy-policy",
+        "alibaba-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "alibaba-app-store"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "alibaba-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "alibaba-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "alibaba-app-store"
+      ],
+      "detail": "L’etiqueta declara compres, dades de contacte i identificadors utilitzats per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "alibaba-privacy-policy",
+        "alibaba-app-store"
+      ],
+      "detail": "La política esmenta els identificadors publicitaris del dispositiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "alibaba-privacy-policy"
+      ],
+      "detail": "Comparteix dades amb Google, Twitter, Facebook i Instagram, que poden combinar-les per fer publicitat segmentada.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "alibaba-privacy-policy"
+      ],
+      "detail": "Màrqueting i publicitat personalitzats, per consentiment o interès legítim.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "alibaba-privacy-policy"
+      ],
+      "detail": "Recomanacions personalitzades i avaluació del frau i del risc de crèdit amb mètodes de puntuació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "alibaba-privacy-policy"
+      ],
+      "detail": "La recerca i el desenvolupament, per interès legítim, inclouen «anonymized data for machine learning purposes». No diu res de dades no anonimitzades.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "alibaba-privacy-policy"
+      ],
+      "detail": "Venedors, xarxes publicitàries, pagaments, risc de crèdit, logística, duanes, núvol, SDK, verificació, ressenyes i autoritats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "alibaba-privacy-policy"
+      ],
+      "detail": "Amb empreses del grup Alibaba, entre elles DingTalk per als xats i Alibaba Cloud per a les videoconferències.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu explícitament si ven dades personals."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "alibaba-privacy-policy"
+      ],
+      "detail": "Les dades de la UE s’emmagatzemen a Alemanya, però entitats del grup a la Xina continental i Singapur hi tenen «limited remote access». Invoca decisions d’adequació, clàusules contractuals tipus i les excepcions de l’article 49.1.b i c del RGPD per a les dades de transacció i de pagament.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "derogation"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència d’Alibaba.com."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "alibaba-privacy-policy"
+      ],
+      "detail": "Només diu que conserva les dades mentre hi hagi una necessitat legítima de negoci o ho exigeixi la llei fiscal i comptable.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "alibaba-delete-account",
+        "alibaba-privacy-policy"
+      ],
+      "detail": "L’ajuda diu que les dades generades a la plataforma s’eliminen permanentment, però la política manté la conservació per obligacions fiscals i comptables.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "alibaba-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "alibaba-delete-account"
+      ],
+      "detail": "Es pot eliminar des de l’aplicació i des del web.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "easy",
+    "requiresSupportContact": false,
+    "steps": [
+      "A l’aplicació, obre «My Alibaba» i ves a «Settings».",
+      "Toca «Delete account» i segueix les instruccions.",
+      "Des del web: My Alibaba > Account Settings > Account Security > «Delete Account».",
+      "Abans, tanca les comandes i les disputes obertes, perquè en bloquegen l’eliminació."
+    ],
+    "obstacles": "No es pot eliminar el compte amb comandes o disputes obertes. L’ajuda distingeix entre desactivar el compte, que és reversible i només es pot fer des del web, i eliminar-lo.",
+    "dataRetained": "La política preveu conservar les dades que exigeixen les lleis fiscals i comptables, sense terminis concrets.",
+    "sources": [
+      "alibaba-delete-account",
+      "alibaba-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "alibaba-privacy-policy"
+      ],
+      "detail": "La portabilitat es reconeix i s’exerceix amb el formulari del compte o per correu, sense eina de descàrrega directa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "alibaba-privacy-policy"
+      ],
+      "detail": "Formulari dins del compte i correu del delegat de protecció de dades.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:DataProtection@service.alibaba.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "alibaba-privacy-policy"
+      ],
+      "detail": "Part de la publicitat es basa en el consentiment i part en l’interès legítim, on cal exercir l’oposició.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap control documentat per desactivar l’analítica a l’aplicació."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "alibaba-privacy-policy"
+      ],
+      "detail": "«Buyer Privacy Settings» permet deixar de compartir els productes vistos amb els venedors; la ubicació precisa, la càmera i el micròfon depenen dels permisos del dispositiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi de patrons foscos de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "alibaba-privacy-policy"
+      ],
+      "detail": "DingTalk recull el contingut dels xats i en comparteix una còpia amb Alibaba.com, cosa incompatible amb un xifratge d’extrem a extrem.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap documentació oficial sobre el xifratge en trànsit."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública sobre el xifratge de les dades en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació sobre la verificació en dos passos del compte d’Alibaba.com."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories ni certificacions publicades per a Alibaba.com."
+    },
+    "bugBounty": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "alibaba-asrc"
+      ],
+      "detail": "El centre de resposta de seguretat del grup (ASRC) té un programa de recompenses, però no hem pogut confirmar si inclou Alibaba.com.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://security.alibaba.com/"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "alibaba-asrc"
+      ],
+      "detail": "Es poden notificar vulnerabilitats a l’ASRC del grup; alibaba.com no publica security.txt.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "No hem trobat sancions ni filtracions d’Alibaba.com, però la cerca va quedar a mitges. L’extracció massiva de dades de Taobao (2019-2020) i les queixes de noyb de 2025 per transferències a la Xina afecten Taobao i AliExpress, no aquesta aplicació, i no les hem registrat com a incidents. L’App Store enllaça una política antiga.",
+    "openQuestions": [
+      "Quines entitats de la Xina accedeixen a les dades europees i amb quin mecanisme de transferència?",
+      "El programa de recompenses de l’ASRC inclou Alibaba.com?",
+      "L’aplicació ofereix verificació en dos passos?"
+    ]
+  },
+  "appStoreBundleId": "com.alibaba.sourcing"
+}

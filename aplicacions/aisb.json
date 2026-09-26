@@ -1,0 +1,528 @@
+{
+  "slug": "aisb",
+  "name": "AISB 26",
+  "company": "ai-summit-alliance",
+  "categories": [
+    "xarxes-professionals",
+    "utilitats"
+  ],
+  "tagline": "L’aplicació d’un congrés on l’escaneig de la credencial cedeix el càrrec i l’empresa als patrocinadors",
+  "summary": "És l’aplicació del congrés AI Summit Barcelona. La política identifica com a responsable AI Summit Alliance, S.L., tot i que a l’App Store la fitxa la publica Rusker Travel, S.L., que a més declara no ser comerciant a l’efecte dels drets del consumidor a la Unió Europea. La política és detallada per a un esdeveniment: enumera Supabase, Stripe, Google i Meta com a destinataris, publica terminis concrets (vint-i-quatre mesos per als comptes, noranta dies per als contactes captats) i explica que els patrocinadors només reben nom, empresa i càrrec quan la persona deixa escanejar voluntàriament la credencial.",
+  "platforms": [
+    "ios"
+  ],
+  "businessModel": "unknown",
+  "jurisdiction": "Espanya (AI Summit Alliance, S.L., Barcelona)",
+  "links": {
+    "website": "https://aisummitbarcelona.com/",
+    "privacyPolicy": "https://aisummitbarcelona.com/privacy-policy",
+    "appStore": "https://apps.apple.com/es/app/id6777883797"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "aisb-privacy-policy"
+    ],
+    "detail": "L’aplicació funciona amb el compte de l’entrada i el perfil de networking del congrés.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "aisb-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "L’aplicació registra amb qui es parla durant el congrés, a quines sessions s’assisteix, quins patrocinadors escanegen la credencial i des de quin dispositiu es connecta a la wifi de l’esdeveniment. Aquesta informació té valor comercial directe per a qui ven al sector.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "cessio-a-tercers"
+      ],
+      "sources": [
+        "aisb-privacy-policy",
+        "aisb-app-store"
+      ],
+      "note": "Els patrocinadors el reben quan la persona deixa escanejar la credencial."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "aisb-privacy-policy",
+        "aisb-app-store"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "aisb-privacy-policy",
+        "aisb-app-store"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "aisb-privacy-policy"
+      ]
+    },
+    {
+      "type": "ocupacio-i-carrec",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "cessio-a-tercers"
+      ],
+      "sources": [
+        "aisb-privacy-policy"
+      ],
+      "note": "Càrrec, empresa, sector i nivell de responsabilitat; és el que reben els patrocinadors amb l’escaneig."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "aisb-privacy-policy",
+        "aisb-app-store"
+      ],
+      "note": "Fotografia de perfil per al networking."
+    },
+    {
+      "type": "xarxa-de-contactes",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "cessio-a-tercers"
+      ],
+      "sources": [
+        "aisb-privacy-policy"
+      ],
+      "note": "Connexions de networking i sol·licituds de reunió amb patrocinadors."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "aisb-privacy-policy",
+        "aisb-app-store"
+      ],
+      "note": "Missatgeria dins de l’aplicació entre assistents."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "aisb-privacy-policy"
+      ],
+      "note": "Inscripció a sessions i assistència registrada."
+    },
+    {
+      "type": "xarxa-i-connectivitat",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "aisb-privacy-policy"
+      ],
+      "note": "Registres de connexió a la wifi de l’esdeveniment."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "aisb-privacy-policy"
+      ],
+      "note": "La venda d’entrades es processa amb Stripe."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "aisb-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "aisb-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "aisb-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "aisb-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada utilitzada per rastrejar en aplicacions o webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Ni l’etiqueta ni la política esmenten l’identificador publicitari del dispositiu."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "aisb-privacy-policy"
+      ],
+      "detail": "La política enumera Google i Meta entre els destinataris de dades, i basa l’analítica i la publicitat en el consentiment.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "aisb-privacy-policy"
+      ],
+      "detail": "La publicitat i l’analítica es basen en el consentiment; les dades de màrqueting es conserven fins que la persona s’hi doni de baixa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap perfilat automatitzat més enllà de les recomanacions de networking."
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta cap ús de les dades per entrenar models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "aisb-privacy-policy"
+      ],
+      "detail": "Supabase, Stripe, Google, Meta i altres proveïdors de serveis; als patrocinadors només arriben el nom, l’empresa i el càrrec quan la persona deixa escanejar la credencial o demana una reunió.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap estructura de grup ni societats vinculades."
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta la venda de dades a intermediaris."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "aisb-privacy-policy"
+      ],
+      "detail": "Transferències fora de l’Espai Econòmic Europeu emparades en decisions d’adequació o en clàusules contractuals tipus amb mesures complementàries.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència; és una organització petita i no seria habitual."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "aisb-privacy-policy"
+      ],
+      "detail": "La política publica terminis concrets per categoria de dada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no detalla què queda després d’una sol·licitud de supressió."
+    },
+    "periods": [
+      {
+        "period": "Vint-i-quatre mesos des de l’última interacció per als comptes",
+        "sources": [
+          "aisb-privacy-policy"
+        ]
+      },
+      {
+        "period": "Noranta dies després de l’esdeveniment per als contactes captats pels patrocinadors",
+        "sources": [
+          "aisb-privacy-policy"
+        ]
+      },
+      {
+        "period": "Fins a la baixa per a les dades de màrqueting",
+        "sources": [
+          "aisb-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "aisb-privacy-policy"
+      ],
+      "detail": "La política reconeix el dret de supressió i indica una adreça per exercir-lo.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap opció documentada per eliminar el compte des de l’aplicació."
+    },
+    "difficulty": "medium",
+    "requiresSupportContact": true,
+    "steps": [
+      "Escriu a info@aisummitnetwork.com des de l’adreça del compte demanant la supressió de les dades.",
+      "Si no hi ha resposta en un mes, reclama davant de l’Agencia Española de Protección de Datos."
+    ],
+    "obstacles": "Les dades ja lliurades als patrocinadors per un escaneig de credencial passen a ser responsabilitat de cada patrocinador.",
+    "sources": [
+      "aisb-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "aisb-privacy-policy"
+      ],
+      "detail": "La política reconeix el dret de portabilitat, però no descriu cap eina d’exportació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "aisb-privacy-policy"
+      ],
+      "detail": "Per correu a info@aisummitnetwork.com, amb reclamació posterior davant de l’Agencia Española de Protección de Datos.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "aisb-privacy-policy"
+      ],
+      "detail": "L’analítica i la publicitat depenen del consentiment i el màrqueting té baixa en qualsevol moment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "aisb-privacy-policy"
+      ],
+      "detail": "L’analítica es basa en el consentiment, però la política no descriu on es gestiona dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "aisb-privacy-policy"
+      ],
+      "detail": "L’escaneig de credencial i les sol·licituds de reunió són accions voluntàries, i així la persona decideix si les seves dades arriben als patrocinadors.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem analitzat les pantalles de registre i consentiment de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "aisb-privacy-policy"
+      ],
+      "detail": "La missatgeria de l’aplicació figura entre les dades que tracta el responsable, de manera que no hi ha xifratge extrem a extrem.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu mesures tècniques concretes."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública sobre el xifratge de les dades en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap opció de verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat auditories ni certificacions de seguretat."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa públic de recompenses per vulnerabilitats."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap canal públic per notificar vulnerabilitats."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "A l’App Store la fitxa la publica Rusker Travel, S.L., que declara no haver-se identificat com a comerciant (de manera que els drets del consumidor de la Unió Europea no s’hi apliquen), mentre que la política de privadesa designa com a responsable AI Summit Alliance, S.L. Hem assignat la fitxa al responsable del tractament. Per a una aplicació d’esdeveniment, la política és molt concreta amb els terminis i els destinataris. No hem trobat cap incident documentat.",
+    "openQuestions": [
+      "Quina relació hi ha entre Rusker Travel, S.L. i AI Summit Alliance, S.L.?",
+      "Per què la fitxa de l’App Store declara que el proveïdor no és comerciant a l’efecte dels drets del consumidor?",
+      "Els patrocinadors reben alguna dada més enllà del nom, l’empresa i el càrrec quan escanegen una credencial?"
+    ]
+  },
+  "appStoreBundleId": "app.aisummit.barcelona"
+}

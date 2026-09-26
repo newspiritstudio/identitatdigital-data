@@ -1,0 +1,549 @@
+{
+  "slug": "kick",
+  "name": "Kick",
+  "company": "kick-streaming",
+  "categories": [
+    "video-i-streaming"
+  ],
+  "tagline": "Declara a Google Play que no recull cap dada mentre la seva política descriu documents d’identitat i publicitat per interessos",
+  "summary": "Kick és la plataforma australiana de retransmissió en directe que competeix amb Twitch. La seva política descriu un tractament ampli: documents d’identitat i identificadors fiscals per cobrar, adreces electròniques xifrades cedides a anunciants i verificació d’edat delegada a un tercer. En canvi, la fitxa de seguretat de les dades que la mateixa empresa publica a Google Play afirma que l’aplicació no recull ni comparteix res. Les dues declaracions es contradiuen.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Austràlia",
+  "links": {
+    "website": "https://kick.com",
+    "privacyPolicy": "https://kick.com/privacy-policy",
+    "appStore": "https://apps.apple.com/es/app/id6446202561"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "kick-privacy-policy"
+    ],
+    "detail": "Es pot mirar sense compte, però qualsevol interacció (xat, subscripció o retransmissió) en demana un.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "kick-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Qui retransmet ha de lliurar document d’identitat i número fiscal a un verificador extern. De qui mira queden registrats el xat, les subscripcions i les hores de connexió, i la seva adreça electrònica, xifrada, arriba a les xarxes publicitàries per identificar-lo com a públic objectiu.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "kick-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "kick-privacy-policy"
+      ],
+      "note": "La política admet que es comparteixen adreces electròniques xifrades o identificadors amb els anunciants."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "kick-privacy-policy"
+      ]
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "kick-privacy-policy"
+      ],
+      "note": "Només per a qui cobra: documents oficials i identificadors fiscals, recollits a través de verificadors externs."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "kick-privacy-policy"
+      ],
+      "note": "Stripe i PayPal com a processadors."
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal"
+      ],
+      "sources": [
+        "kick-privacy-policy"
+      ],
+      "note": "La comprovació d’edat es delega a K-ID; la política diu que Kick no tracta directament aquestes dades."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "kick-privacy-policy"
+      ],
+      "note": "Els missatges del xat són públics per a la resta de la comunitat."
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "kick-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "kick-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "kick-privacy-policy"
+      ],
+      "note": "Deduïda de l’adreça IP."
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "kick-privacy-policy"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "recomanacions-algoritmiques",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "kick-privacy-policy"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "kick-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "kick-privacy-policy"
+      ],
+      "note": "Subscripcions a canals i compra de «KICKs»."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "kick-privacy-policy"
+      ],
+      "detail": "Comparteix adreces electròniques xifrades o identificadors amb xarxes publicitàries i plataformes socials per formar públics.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "kick-privacy-policy"
+      ],
+      "detail": "La política remet a les opcions de limitació del seguiment publicitari d’iOS i Android.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "kick-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "kick-privacy-policy"
+      ],
+      "detail": "Publicitat basada en interessos amb xarxes de tercers. La política es compromet a no fer-ne servir categories sensibles com la raça, la religió, l’orientació sexual o la salut.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://kick.com/privacy-policy"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "kick-privacy-policy"
+      ],
+      "detail": "Personalitza recomanacions a partir del comportament dins del servei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu si les retransmissions o el xat serveixen per entrenar models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "kick-privacy-policy"
+      ],
+      "detail": "Processadors de pagament, verificadors d’identitat, atenció al client, xarxes publicitàries i plataformes socials.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "kick-privacy-policy"
+      ],
+      "detail": "La política preveu la compartició amb altres entitats del grup Kick.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta la venda de dades a intermediaris."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "kick-privacy-policy"
+      ],
+      "detail": "Transferències cap als Estats Units i altres països, amb clàusules contractuals tipus per a les persones de l’EEE.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap informe de transparència sobre peticions d’autoritats ni sobre moderació."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "kick-privacy-policy"
+      ],
+      "detail": "Els criteris s’expliquen per base jurídica (durada del contracte, termini de prescripció, retirada del consentiment), però sense terminis numèrics.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "kick-privacy-policy"
+      ],
+      "detail": "Les llicències sobre el contingut publicat poden impedir l’esborrat complet de la informació pública.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "kick-privacy-policy"
+      ],
+      "detail": "La política reconeix el dret de supressió però adverteix que no sempre es podrà atendre.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap opció d’eliminació dins de l’aplicació i remet a l’assistència; no hem pogut verificar si existeix un botó de baixa."
+    },
+    "difficulty": "unknown",
+    "requiresSupportContact": true,
+    "steps": [
+      "Escriu a l’assistència de Kick o al delegat de protecció de dades demanant la supressió del compte.",
+      "Invoca l’article 17 del RGPD i conserva la confirmació com a prova.",
+      "Tingues present que els missatges del xat i el contingut públic poden quedar-se al servei."
+    ],
+    "obstacles": "La política admet expressament que «potser no podrem corregir, modificar o esborrar la informació en tots els casos» i que les llicències sobre el contingut publicat poden impedir-ho.",
+    "dataRetained": "Contingut públic i missatges del xat subjectes a la llicència d’ús.",
+    "sources": [
+      "kick-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "kick-privacy-policy"
+      ],
+      "detail": "El dret a rebre una còpia en format estructurat es reconeix, però no hi ha cap eina automàtica.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "kick-privacy-policy"
+      ],
+      "detail": "Hi ha delegat de protecció de dades i s’informa de les vies de reclamació davant les autoritats europees.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "kick-privacy-policy"
+      ],
+      "detail": "Hi ha selectors de preferències, però la política remet sobretot a les eines sectorials de la DAA i la NAI i a la configuració del sistema operatiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap manera de desactivar l’analítica."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "kick-privacy-policy"
+      ],
+      "detail": "Hi ha preferències de comunicacions i de publicitat, però no un panell per finalitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "yes",
+      "level": "editorial",
+      "sources": [
+        "kick-play-data-safety",
+        "kick-privacy-policy"
+      ],
+      "detail": "Declarar a la botiga d’aplicacions que no es recull cap dada, quan la política pròpia descriu documents d’identitat, adreces cedides a anunciants i seguiment publicitari, buida de contingut el resum de la botiga, que és el que es consulta abans d’instal·lar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "confusing-language",
+        "severity": "high",
+        "description": "La fitxa «Seguridad de los datos» de Google Play declara que l’aplicació no recull ni comparteix cap dada, en contradicció directa amb la política de privadesa de Kick.",
+        "sources": [
+          "kick-play-data-safety",
+          "kick-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei distribueix vídeo públic i xat obert; no hi ha comunicacions privades xifrades d’extrem a extrem.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "kick-play-data-safety"
+      ],
+      "detail": "El desenvolupador declara a Google Play que les dades es xifren en trànsit.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu el xifratge en repòs dels documents d’identitat."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta la verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories independents publicades."
+    },
+    "bugBounty": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "kick-security-txt"
+      ],
+      "detail": "El fitxer security.txt remet a un programa de divulgació de vulnerabilitats a Bugcrowd, no a un programa de recompenses econòmiques. La data de caducitat declarada al fitxer ja havia passat en el moment de la revisió.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://bugcrowd.com/engagements/kick-vdp-pro"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "kick-security-txt"
+      ],
+      "detail": "Kick publica un fitxer security.txt amb el canal de contacte.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "twitch",
+      "comparability": "equivalent",
+      "rationale": "Mateix ús de retransmissió en directe, amb una política més detallada i un grup amb estructura de resposta a les autoritats europees.",
+      "tradeOffs": "Pertany a Amazon, de manera que les dades s’incorporen a un ecosistema publicitari molt més gran."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La contradicció entre la política i la declaració a Google Play és el fet més rellevant i s’ha documentat amb les dues fonts. No hem trobat cap sanció ferma de cap autoritat de protecció de dades contra Kick.",
+    "openQuestions": [
+      "L’etiqueta de privadesa de l’App Store no s’ha pogut consultar: Apple va respondre amb un error 429 durant tota la revisió.",
+      "Existeix una opció d’eliminació del compte dins de l’aplicació o del web de Kick?"
+    ]
+  },
+  "appStoreBundleId": "com.kick.mobile"
+}

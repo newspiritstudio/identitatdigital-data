@@ -1,0 +1,462 @@
+{
+  "slug": "waylet",
+  "name": "Waylet",
+  "company": "repsol",
+  "categories": [
+    "mobilitat-i-transport",
+    "comerc-electronic"
+  ],
+  "tagline": "Una aplicació per pagar la benzina que declara l’historial de navegació com a dada de rastreig",
+  "summary": "Waylet serveix per pagar a les estacions de servei de Repsol i acumular saldo. L’etiqueta de l’App Store declara una sola categoria utilitzada per rastrejar-te fora de l’aplicació: l’historial de navegació. La política aplicable és la comuna de Repsol i el grup, que descriu «perfiles sencillos del cliente en base a los consumos realizados» emparats en l’interès legítim, i inclou dades biomètriques i de geolocalització entre les categories tractades.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Espanya",
+  "userBase": "Aplicació de pagament i fidelització de la xarxa d’estacions de servei de Repsol",
+  "links": {
+    "website": "https://waylet.es/",
+    "privacyPolicy": "https://www.repsol.com/es/pie-de-pagina/politica-de-privacidad/index.cshtml",
+    "appStore": "https://apps.apple.com/es/app/id494847823"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "waylet-repsol-privacy-policy"
+    ],
+    "detail": "El servei es basa en un compte de client amb mitjà de pagament associat, i la política descriu el tractament de dades identificatives i transaccionals per a l’execució del contracte.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "waylet-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Els repostatges mostren per on passes i amb quina freqüència. Repsol la creua amb el mitjà de pagament, amb la geolocalització i amb els perfils de consum, i l’aplicació declara a més l’historial de navegació entre les dades que serveixen per rastrejar-te en aplicacions i webs d’altres empreses.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "waylet-app-store",
+        "waylet-repsol-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "waylet-app-store",
+        "waylet-repsol-privacy-policy"
+      ],
+      "note": "És l’única categoria que l’etiqueta declara vinculada amb la identitat."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "waylet-repsol-privacy-policy"
+      ],
+      "note": "La política de Repsol inclou les dades transaccionals i els mitjans de pagament entre les categories tractades."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "waylet-repsol-privacy-policy"
+      ],
+      "note": "Els consums són la base dels «perfiles sencillos del cliente» que descriu la política."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "waylet-app-store",
+        "waylet-repsol-privacy-policy"
+      ],
+      "note": "La política tracta la geolocalització amb consentiment en els casos específics que hi preveu."
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "waylet-app-store"
+      ],
+      "note": "Única categoria declarada com a utilitzada per rastrejar-te en aplicacions i webs d’altres empreses."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "waylet-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "waylet-app-store"
+      ]
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "waylet-repsol-privacy-policy"
+      ],
+      "note": "La política de Repsol enumera dades biomètriques entre les categories tractades, sense concretar en quins serveis."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "waylet-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "waylet-app-store"
+      ],
+      "detail": "L’etiqueta declara l’historial de navegació entre les dades utilitzades per rastrejar-te en aplicacions i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "waylet-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap identificador publicitari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política de Repsol no anomena els proveïdors publicitaris integrats a l’aplicació."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "waylet-repsol-privacy-policy"
+      ],
+      "detail": "Comunicacions comercials basades en el consentiment i oferta adaptada als perfils de consum.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "waylet-repsol-privacy-policy"
+      ],
+      "detail": "La política declara «perfiles sencillos del cliente en base a los consumos realizados», emparats en l’interès legítim.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta l’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "waylet-repsol-privacy-policy"
+      ],
+      "detail": "Proveïdors de serveis sota deure de confidencialitat i autoritats competents.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "waylet-repsol-privacy-policy"
+      ],
+      "detail": "Comunicacions a les societats del grup Repsol amb activitat comercial.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no declara cap venda de dades a intermediaris."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "waylet-repsol-privacy-policy"
+      ],
+      "detail": "Transferències protegides amb decisions d’adequació, normes corporatives vinculants o clàusules contractuals tipus.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "bcrs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem localitzat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "waylet-repsol-privacy-policy"
+      ],
+      "detail": "La política lliga la conservació a la durada de la relació comercial, sense terminis per categoria.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "waylet-repsol-privacy-policy"
+      ],
+      "detail": "Acabada la relació, les dades queden bloquejades durant els terminis de prescripció.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "waylet-repsol-privacy-policy"
+      ],
+      "detail": "La política reconeix els drets de supressió i oposició, però no documenta cap procediment de baixa del compte dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut consultar cap pàgina d’ajuda de Waylet que descrigui la baixa autoservei."
+    },
+    "difficulty": "unknown",
+    "steps": [
+      "Gasta o transfereix el saldo acumulat abans de demanar la baixa.",
+      "Escriu a rgpd.crc@repsol.com demanant la supressió del compte i de les dades associades.",
+      "Per a qüestions específiques de Waylet, la política indica un delegat de protecció de dades propi a dpd@waylet.es.",
+      "Si no obtens resposta dins de termini, reclama davant de l’AEPD."
+    ],
+    "dataRetained": "Dades bloquejades durant els terminis de prescripció legal.",
+    "sources": [
+      "waylet-repsol-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "waylet-repsol-privacy-policy"
+      ],
+      "detail": "La política reconeix el dret de portabilitat, però només per la via del correu electrònic.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:rgpd.crc@repsol.com"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "waylet-repsol-privacy-policy"
+      ],
+      "detail": "Accés, rectificació, supressió, oposició i portabilitat a rgpd.crc@repsol.com, amb un delegat específic per a Waylet a dpd@waylet.es.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:rgpd.crc@repsol.com",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "waylet-repsol-privacy-policy"
+      ],
+      "detail": "Es poden retirar els consentiments comercials i oposar-se al perfilat basat en l’interès legítim, però per correu electrònic.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap control sobre l’analítica d’ús."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "waylet-repsol-privacy-policy"
+      ],
+      "detail": "Hi ha consentiments separables per finalitat, però no un panell únic documentat dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem revisat els fluxos de consentiment de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no transporta comunicacions privades entre persones usuàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no documenta el xifratge del canal."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació sobre els factors d’autenticació de l’aplicació."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories independents publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses ni cap fitxer security.txt."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem localitzat cap canal públic de divulgació de vulnerabilitats."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "moeve-gow",
+      "comparability": "equivalent",
+      "rationale": "La mateixa funció a la xarxa d’estacions de servei de Moeve, amb una etiqueta que no declara l’historial de navegació."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "L’historial de navegació és una de les dades més reveladores, i és l’única que aquesta aplicació reconeix utilitzar per rastrejar. La funció de pagar la benzina no necessita saber quines pàgines visites.",
+    "openQuestions": [
+      "Quin historial de navegació recull exactament l’aplicació i quins tercers el reben?",
+      "En quins serveis de Repsol s’apliquen les dades biomètriques que enumera la política?",
+      "Hi ha una manera de donar-se de baixa de Waylet des de la mateixa aplicació?"
+    ]
+  },
+  "appStoreBundleId": "com.repsol.copiloto"
+}

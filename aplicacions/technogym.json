@@ -1,0 +1,487 @@
+{
+  "slug": "technogym",
+  "name": "Technogym - app gym y casa",
+  "company": "technogym",
+  "categories": [
+    "benestar-i-activitat-fisica"
+  ],
+  "tagline": "Declara rastreig per identificadors a l’App Store i «no es comparteixen dades amb tercers» a Google Play, i conserva les dades deu anys després d’eliminar el compte",
+  "summary": "L’aplicació de la marca italiana de maquinària de gimnàs connecta els aparells, els entrenaments i el compte Mywellness. L’etiqueta de l’App Store declara ubicació exacta, dades de forma física, fotos i identificadors vinculats a la identitat, i els identificadors també com a dades per rastrejar; la fitxa de Google Play, en canvi, diu que no es comparteixen dades amb tercers. La política diu que, encara que el compte s’elimini immediatament, les dades de compres i d’ús es conserven deu anys abans d’anonimitzar-les.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Itàlia",
+  "links": {
+    "website": "https://www.technogym.com/es-ES/",
+    "privacyPolicy": "https://www.technogym.com/es-ES/politica-de-privacidad-de-technogym/",
+    "terms": "https://www.technogym.com/es-ES/terms-of-use/",
+    "appStore": "https://apps.apple.com/es/app/id976506047"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "technogym-privacy"
+    ],
+    "detail": "Als aparells d’un gimnàs s’hi pot entrenar sense compte de Technogym, i llavors el responsable és el gimnàs. Per fer servir l’aplicació i sincronitzar els entrenaments cal compte, i llavors Technogym passa a ser responsable independent de les mateixes dades.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": [],
+    "detail": "No hem trobat publicat el codi de l’aplicació."
+  },
+  "dataSummary": "Un registre d’entrenaments diu quan fas exercici, a quina intensitat i, amb la ubicació exacta, on. Amb les fotos del perfil i l’historial de compres, permet reconstruir una rutina setmanal molt precisa que, segons l’etiqueta, es fa servir també per a màrqueting i personalització.",
+  "dataCollection": [
+    {
+      "type": "dades-de-salut",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "technogym-app-store",
+        "technogym-privacy"
+      ],
+      "note": "L’etiqueta declara «Salud y forma física (Forma física)» vinculada a la identitat."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "technogym-app-store"
+      ],
+      "note": "L’etiqueta la declara sota «Funcionalidad de la app» i vinculada a la identitat."
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "technogym-app-store",
+        "technogym-privacy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "technogym-app-store"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "technogym-app-store"
+      ]
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "technogym-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "technogym-app-store"
+      ],
+      "note": "L’etiqueta el declara sota quatre finalitats, inclosa «Publicidad o marketing del desarrollador», i els identificadors són l’única categoria declarada com a dada per rastrejar."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "technogym-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "technogym-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "technogym-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "technogym-privacy"
+      ],
+      "note": "La política diu que les dades de compres i d’ús es conserven deu anys després d’eliminar el compte."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "technogym-app-store"
+      ],
+      "detail": "L’etiqueta declara els identificadors com a dades utilitzades per rastrejar en aplicacions i llocs web d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "technogym-app-store"
+      ],
+      "detail": "L’etiqueta declara l’identificador d’usuari sota la finalitat de publicitat o màrqueting del desenvolupador, però no esmenta l’identificador publicitari del sistema.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no anomena cap eina d’analítica ni cap xarxa publicitària concreta."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "technogym-app-store",
+        "technogym-privacy"
+      ],
+      "detail": "L’etiqueta declara una finalitat de publicitat o màrqueting del desenvolupador, i la política preveu perfils comercials revocables des de la configuració del perfil.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "technogym-privacy"
+      ],
+      "detail": "La política parla de perfils comercials i explica com revocar-ne el consentiment des dels ajustos del perfil o des dels correus.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu res sobre l’entrenament de models, tot i que el producte inclou un entrenador amb intel·ligència artificial."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "technogym-privacy",
+        "technogym-play-store"
+      ],
+      "detail": "La política preveu corresponsables locals (sucursals i distribuïdors) per a venda, manteniment i màrqueting. La fitxa de Google Play, en canvi, declara que no es comparteixen dades amb tercers, cosa que xoca amb el rastreig per identificadors declarat a l’App Store.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "technogym-privacy"
+      ],
+      "detail": "Sucursals i distribuïdors locals actuen com a corresponsables del tractament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta cap venda de dades."
+    },
+    "internationalTransfers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "technogym-privacy"
+      ],
+      "detail": "La política diu que adopta mesures específiques per legitimar les transferències a tercers països, però no concreta ni el mecanisme ni els països.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència; el lloc corporatiu publica informes financers i de sostenibilitat, però cap sobre peticions de dades."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "technogym-privacy"
+      ],
+      "detail": "La política fixa deu anys per a les dades de compres i d’ús i cinc anys d’inactivitat abans de l’anonimització del compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "technogym-privacy"
+      ],
+      "detail": "Textualment: el compte s’elimina immediatament, però les dades de compres i d’ús es conserven deu anys. Un cop anonimitzades, ja no es poden recuperar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "historial-de-compres",
+        "period": "10 anys des de l’eliminació del compte",
+        "sources": [
+          "technogym-privacy"
+        ]
+      },
+      {
+        "dataType": "interaccions-i-us",
+        "period": "10 anys des de l’eliminació del compte; anonimització després de 5 anys d’inactivitat, amb dos recordatoris trimestrals previs",
+        "sources": [
+          "technogym-privacy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "technogym-privacy"
+      ],
+      "detail": "La política diu que es pot demanar l’eliminació del compte en qualsevol moment i que s’elimina immediatament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut verificar si hi ha un botó d’eliminació dins de l’aplicació: les pàgines de suport es generen amb JavaScript i no exposen cap article sobre l’eliminació del compte."
+    },
+    "difficulty": "medium",
+    "steps": [
+      "Demana l’eliminació del compte de Technogym des del teu perfil o escrivint al delegat de protecció de dades, a dpo@technogym.com.",
+      "Si entrenes en un gimnàs, contacta a part amb la instal·lació: eliminar el compte de Technogym no esborra les dades que té el gimnàs, que n’és responsable per separat.",
+      "Si vols conservar-ne una còpia, demana la portabilitat abans, perquè un cop anonimitzades les dades ja no es poden recuperar."
+    ],
+    "obstacles": "Les dades de compres i d’ús es conserven deu anys: el compte desapareix, però el registre d’activitat no.",
+    "dataRetained": "Dades de compres i d’ús durant deu anys, fins a l’anonimització.",
+    "sources": [
+      "technogym-privacy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "technogym-privacy"
+      ],
+      "detail": "La política diu que per a alguns serveis hi ha sistemes de portabilitat automatitzats dins del compte, però no concreta per a quins ni on es troben.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "technogym-privacy"
+      ],
+      "detail": "Hi ha delegat de protecció de dades designat, amb correu electrònic i adreça postal a Cesena.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dpo@technogym.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "technogym-privacy"
+      ],
+      "detail": "El consentiment per a perfils comercials es pot revocar des dels ajustos del perfil, des de l’enllaç de baixa dels correus o escrivint al delegat de protecció de dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap manera de desactivar l’analítica d’ús."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "technogym-privacy"
+      ],
+      "detail": "Hi ha controls sobre el màrqueting, però no un panell de privadesa per finalitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi de patrons foscos a l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No és un servei de comunicació privada entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "technogym-play-store"
+      ],
+      "detail": "La fitxa de Google Play declara que les dades van xifrades en trànsit.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informació sobre el xifratge de les dades en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap documentació sobre doble factor."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap certificació de seguretat publicada."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses. El canal ètic del web corporatiu és de denúncies internes, no de seguretat."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha fitxer security.txt a technogym.com ni a mywellness.com."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "El cercador de resolucions del Garante per la protezione dei dati personali no retorna cap provisió atribuïble a Technogym. La URL que la fitxa de l’App Store publica com a política de privadesa no funciona: la política accessible en castellà és una altra. La política distingeix dos rols: al gimnàs, Technogym és encarregat i el responsable és la instal·lació; si es connecta el compte, Technogym passa a ser responsable independent de les mateixes dades.",
+    "openQuestions": [
+      "Quina és la data de l’última revisió de la política? No consta al document.",
+      "L’aplicació permet eliminar el compte des de dins, com exigeix la directriu 5.1.1(v) de l’App Store?",
+      "Quin mecanisme empara les transferències a tercers països i cap a quins països?",
+      "L’entrenador amb intel·ligència artificial fa servir les dades d’entrenament per entrenar models?",
+      "La cerca d’incidents s’ha limitat al cercador oficial del Garante; no s’ha pogut completar amb cerques generals."
+    ]
+  },
+  "appStoreBundleId": "com.technogym.tgapp"
+}

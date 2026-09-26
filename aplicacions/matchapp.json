@@ -1,0 +1,465 @@
+{
+  "slug": "matchapp",
+  "name": "Matchapp",
+  "company": "match-app",
+  "categories": [
+    "esports-i-resultats"
+  ],
+  "tagline": "No té política de privadesa de l’aplicació i les etiquetes d’Apple i de Google es contradiuen",
+  "summary": "Matchapp organitza partits de futbol entre amics, però l’enllaç de privadesa que declara a les botigues porta a un avís legal del web que només parla del formulari de contacte. L’etiqueta de l’App Store declara dades de contacte, identificadors i dades d’ús utilitzades per rastrejar, mentre que la fitxa de Google Play afirma que no comparteix res amb tercers. Les dues declaracions corresponen al mateix producte i es contradiuen.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://matchapp.es/",
+    "privacyPolicy": "https://matchapp.es/terms/",
+    "terms": "https://matchapp.es/conditions/",
+    "appStore": "https://apps.apple.com/es/app/id907431871"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "matchapp-play-data-safety"
+    ],
+    "detail": "La fitxa de Google Play declara nom i correu per a la gestió del compte.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "matchapp-terms"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Saber amb qui juga cada persona, on i cada quan revela el seu cercle d’amistats i la seva rutina setmanal. Cap document explica què se’n fa; l’única descripció del tractament és la llista de l’etiqueta de l’App Store.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "matchapp-app-store",
+        "matchapp-play-data-safety"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "matchapp-app-store"
+      ],
+      "note": "L’etiqueta declara les dades de contacte com a utilitzades per rastrejar."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "matchapp-app-store"
+      ],
+      "note": "Declarat sota «Publicidad de terceros»."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "matchapp-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "matchapp-app-store"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "matchapp-app-store"
+      ],
+      "note": "Les «dades de publicitat» es declaren com a no vinculades però sí utilitzades per rastrejar."
+    },
+    {
+      "type": "xarxa-de-contactes",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "matchapp-play-data-safety"
+      ],
+      "note": "El servei consisteix a convocar partits amb un grup de persones conegudes."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "matchapp-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "matchapp-app-store"
+      ],
+      "note": "Subscripció Matchapp Premium per treure els bàners."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "unknown",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "sources": [
+        "matchapp-app-store"
+      ],
+      "note": "Cap de les dues etiquetes declara ubicació, tot i que l’aplicació convoca partits en camps concrets."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "unknown",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "sources": [
+        "matchapp-terms"
+      ],
+      "note": "No hi ha cap document que expliqui com es tracten els pagaments de la subscripció."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "matchapp-app-store"
+      ],
+      "detail": "L’etiqueta declara dades de contacte, identificadors i dades d’ús utilitzades per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "matchapp-app-store"
+      ],
+      "detail": "Hi ha una categoria «Publicidad de terceros» amb identificadors i dades de publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "matchapp-app-store"
+      ],
+      "detail": "L’aplicació gratuïta mostra bàners i declara publicitat de tercers; la llista de socis no es publica enlloc.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "matchapp-app-store"
+      ],
+      "detail": "L’etiqueta declara publicitat de tercers i màrqueting del desenvolupador amb dades vinculades a la persona.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "matchapp-app-store"
+      ],
+      "detail": "Hi ha una finalitat de «personalització del producte» amb correu, nom i identificador d’usuari, però cap document que l’expliqui.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap document que en parli."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "matchapp-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store declara publicitat de tercers, mentre que l’avís legal diu que les dades «no es comunicaran a tercers excepte obligació legal» i la fitxa de Google Play afirma que no se’n comparteix cap.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap grup empresarial."
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap document que en parli."
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Cap document esmenta transferències internacionals ni el seu mecanisme."
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No n’hi ha cap."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "matchapp-terms"
+      ],
+      "detail": "L’avís legal només parla del «temps necessari per atendre la petició» del formulari de contacte, i no diu res del compte de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Cap document diu què es conserva després de tancar el compte."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "matchapp-conditions"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "matchapp-conditions"
+      ],
+      "detail": "Les condicions diuen textualment que per cancel·lar el compte cal escriure a soporte@matchapp.es. Google Play només ofereix «sol·licitar que s’eliminin les dades».",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "hard",
+    "requiresSupportContact": true,
+    "steps": [
+      "Escriu a soporte@matchapp.es des de l’adreça amb què vas obrir el compte i demana’n la cancel·lació.",
+      "Invoca el dret de supressió de l’article 17 del RGPD perquè no es limitin a desactivar el compte.",
+      "Si no en reps resposta en un mes, reclama davant de l’AEPD."
+    ],
+    "obstacles": "No hi ha cap pàgina d’ajuda amb el procediment, cap termini publicat i cap indicació de què es conserva. L’entitat responsable, a més, apareix amb tres noms diferents segons la font.",
+    "sources": [
+      "matchapp-conditions",
+      "matchapp-play-data-safety"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "matchapp-terms"
+      ],
+      "detail": "L’avís legal enumera el dret de portabilitat, però no hi ha cap eina d’exportació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "matchapp-terms"
+      ],
+      "detail": "Els drets s’exerceixen per correu electrònic o postal. No hi ha delegat de protecció de dades.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:soporte@matchapp.es"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "matchapp-conditions"
+      ],
+      "detail": "L’única manera de treure els bàners és pagar la subscripció, i les condicions adverteixen que així i tot es continuen rebent notificacions i correus comercials.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap control de telemetria."
+    },
+    "granularControls": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "matchapp-terms"
+      ],
+      "detail": "No hi ha cap panell de privadesa; el bàner de galetes del web és del tipus «si continues, acceptes», amb un sol botó.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [],
+      "detail": "El bàner de galetes del web amb un sol botó d’acceptació i l’absència d’eliminació autoservei són dos indicis, però no hem trobat cap anàlisi independent de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no ofereix comunicacions privades xifrades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "matchapp-play-data-safety"
+      ],
+      "detail": "Google Play confirma el xifratge de les dades en trànsit.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública sobre el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap opció de verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories ni certificacions."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El domini no publica cap fitxer security.txt i les condicions declaren expressament que no garanteixen la invulnerabilitat de l’aplicació."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "El problema principal és documental: no hi ha política de privadesa de l’aplicació, l’enllaç que la substitueix és un avís legal sobre el formulari del web, i l’entitat responsable apareix com a «just team up SL» a l’App Store, «NVDO SMART TECH SL» a Google Play i «MATCH APP, S.L.» als documents legals, totes tres amb el mateix telèfon. La matriu de dades s’ha hagut de construir gairebé sencera a partir de les etiquetes de les botigues.",
+    "openQuestions": [
+      "Quina és l’entitat que realment tracta les dades de l’aplicació?",
+      "Hi ha botó d’eliminació del compte dins de l’aplicació, tal com exigeix Apple?",
+      "Quins són els socis publicitaris que reben els identificadors?"
+    ]
+  },
+  "appStoreBundleId": "com.justteamup.matchapp"
+}

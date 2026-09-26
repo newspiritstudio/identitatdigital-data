@@ -1,0 +1,566 @@
+{
+  "slug": "hevy",
+  "name": "Hevy",
+  "company": "hevy-studios",
+  "categories": [
+    "benestar-i-activitat-fisica",
+    "xarxes-socials"
+  ],
+  "tagline": "Registre d’entrenaments amb el perfil públic per defecte, visible per a qualsevol persona usuària fins que ho canvies a la configuració",
+  "summary": "Hevy és un registre d’entrenaments fet a Girona amb una capa social: seguidors, rutines compartides i un tauler d’activitat. La política diu que «quan es crea un compte, el perfil és públic per defecte» i, si actives la compartició del gimnàs, l’aplicació pot suggerir el teu perfil a qui entreni al mateix lloc. Té dues polítiques diferents alhora: la que enllaça l’App Store, allotjada a iubenda, parla de retargeting conductual, i la del web, més extensa, detalla terminis per categoria i anomena OpenAI i Anthropic entre els proveïdors.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Espanya; autoritat de control: Agencia Española de Protección de Datos",
+  "links": {
+    "website": "https://www.hevyapp.com",
+    "privacyPolicy": "https://www.hevyapp.com/privacy/",
+    "appStore": "https://apps.apple.com/es/app/id1458862350"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "hevy-privacy-policy"
+    ],
+    "detail": "Cal crear un compte amb nom d’usuari i adreça electrònica per registrar entrenaments i sincronitzar-los.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "editorial",
+    "sources": [],
+    "detail": "No hem trobat cap repositori públic del codi de l’aplicació.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Un historial d’entrenaments registra dies, hores, durada i progressió de força. Amb el pes, l’alçada i les mesures corporals, i amb el perfil públic per defecte, aquesta informació és visible per a altres persones sense que calgui cap filtració.",
+  "dataCollection": [
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "hevy-privacy-policy",
+        "hevy-app-store"
+      ],
+      "note": "L’etiqueta de l’App Store declara l’identificador d’usuari com a dada NO vinculada amb la identitat, cosa difícil de quadrar amb un perfil públic amb nom d’usuari."
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "hevy-privacy-policy",
+        "hevy-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "hevy-privacy-policy",
+        "hevy-app-store"
+      ]
+    },
+    {
+      "type": "contrasenya",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "hevy-iubenda-privacy"
+      ]
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "hevy-iubenda-privacy"
+      ]
+    },
+    {
+      "type": "genere",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "hevy-iubenda-privacy"
+      ]
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "hevy-privacy-policy"
+      ],
+      "note": "Registres d’entrenament, alçada, pes, mesures corporals i freqüència cardíaca importada de rellotges connectats. L’etiqueta de l’App Store declara «datos sensibles» com a NO vinculats amb la identitat."
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "hevy-privacy-policy"
+      ],
+      "note": "Els entrenaments amb visibilitat «Everyone» els veu qualsevol persona usuària de Hevy."
+    },
+    {
+      "type": "xarxa-de-contactes",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "hevy-app-store",
+        "hevy-privacy-policy"
+      ],
+      "note": "L’etiqueta declara la categoria «Contactos» vinculada amb la identitat; la política explica que, amb el gimnàs compartit i el perfil públic, l’aplicació pot suggerir el teu perfil a altres persones del mateix gimnàs."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "hevy-privacy-policy"
+      ],
+      "note": "Només si dones consentiment per compartir el gimnàs on entrenes."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "hevy-app-store",
+        "hevy-iubenda-privacy"
+      ],
+      "note": "La subscripció es cobra per l’App Store o Google Play; Hevy no desa el número complet de la targeta."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "hevy-app-store",
+        "hevy-iubenda-privacy"
+      ],
+      "note": "Amplitude i Adjust reben dades d’ús; la política d’iubenda parla de retargeting conductual."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-publicitaria",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "hevy-iubenda-privacy"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "hevy-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "hevy-iubenda-privacy",
+        "hevy-app-store"
+      ],
+      "detail": "La política enllaçada des de l’App Store descriu retargeting conductual amb Adjust i remet a AppChoices per desactivar-lo, però l’etiqueta de l’App Store no declara cap dada utilitzada per rastrejar-te. Les dues afirmacions són difícils de conciliar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "hevy-iubenda-privacy"
+      ],
+      "detail": "El retargeting conductual que descriu la política requereix identificadors publicitaris, tot i que l’etiqueta de l’App Store no els declara.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "hevy-iubenda-privacy"
+      ],
+      "detail": "Amplitude i Google Ireland per a l’analítica, Adjust per a l’atribució publicitària.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "hevy-iubenda-privacy"
+      ],
+      "detail": "La política d’iubenda inclou «behavioral retargeting» amb anuncis adaptats als interessos i al comportament, amb sortida des de la configuració del dispositiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "hevy-privacy-policy"
+      ],
+      "detail": "Hi ha recomanacions socials (suggerir perfils de persones del mateix gimnàs) i segmentació publicitària, però no consta cap perfilat amb efectes jurídics.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "hevy-privacy-policy"
+      ],
+      "detail": "La política anomena OpenAI i Anthropic entre els tercers als quals s’accedeix, però no detalla quines dades hi arriben ni si serveixen per entrenar models.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "hevy-privacy-policy",
+        "hevy-iubenda-privacy"
+      ],
+      "detail": "OpenAI, Anthropic, Apple, Strava, Google Analytics, Amplitude, Adjust i proveïdors d’allotjament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Hevy Studios, S.L. és una societat única, sense grup empresarial conegut.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "hevy-privacy-policy"
+      ],
+      "detail": "La política no preveu cap venda de dades a intermediaris.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "hevy-privacy-policy"
+      ],
+      "detail": "Transferències als Estats Units i a Irlanda emparades en clàusules contractuals tipus i, quan el destinatari hi està certificat, en el marc de privadesa de dades UE-EUA.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "hevy-privacy-policy"
+      ],
+      "detail": "Hi ha terminis per a algunes categories, però les dades de compte i d’entrenament es conserven indefinidament mentre el compte estigui obert.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "hevy-privacy-policy"
+      ],
+      "detail": "Les mesures corporals s’esborren en trenta dies des de la sol·licitud; la resta segueix el termini general.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "dades-de-salut",
+        "period": "30 dies des de la sol·licitud (mesures corporals)",
+        "sources": [
+          "hevy-privacy-policy"
+        ]
+      },
+      {
+        "period": "Dades de compte i d’entrenament: mentre el compte estigui obert",
+        "sources": [
+          "hevy-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "hevy-privacy-policy"
+      ],
+      "detail": "El dret de supressió es reconeix i s’exerceix escrivint al contacte de protecció de dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "hevy-privacy-policy"
+      ],
+      "detail": "La política només descriu la via del correu electrònic amb la referència «Data Protection Rights»; no documenta cap botó d’eliminació dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "waitingPeriodDays": 30,
+    "requiresSupportContact": true,
+    "steps": [
+      "Abans de res, exporta els entrenaments si els vols conservar: la política reconeix el dret de portabilitat en format estructurat i llegible per màquina.",
+      "Escriu al contacte de protecció de dades de Hevy indicant «Data Protection Rights» i demanant la supressió del compte.",
+      "Espera la resposta: la política es compromet a resoldre en el termini d’un mes.",
+      "Si només vols treure el perfil de la vista pública, a la configuració pots fer-lo privat i canviar la visibilitat de cada entrenament, sense donar-te de baixa."
+    ],
+    "obstacles": "La supressió passa per un correu electrònic i no per la configuració, i les mesures corporals encara triguen trenta dies més a desaparèixer.",
+    "dataRetained": "Les mesures corporals fins a trenta dies després de la sol·licitud.",
+    "sources": [
+      "hevy-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "hevy-privacy-policy"
+      ],
+      "detail": "La política reconeix el dret a rebre les dades en un format estructurat, d’ús comú i llegible per màquina, i a transmetre-les a un altre responsable.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "hevy-privacy-policy"
+      ],
+      "detail": "Hi ha un contacte de protecció de dades identificat i un compromís de resposta d’un mes.",
+      "verifiedAt": "2026-09-22",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "hevy-iubenda-privacy"
+      ],
+      "detail": "La sortida del retargeting es fa des de la configuració del dispositiu o des de recursos externs com AppChoices, no des d’un control dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap control per desactivar l’analítica d’Amplitude."
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "hevy-privacy-policy"
+      ],
+      "detail": "La visibilitat es pot ajustar a dos nivells: perfil públic o privat, i visibilitat per a cada entrenament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "yes",
+      "level": "editorial",
+      "sources": [
+        "hevy-privacy-policy"
+      ],
+      "detail": "Un perfil públic per defecte en una aplicació que desa pes, mesures corporals i horaris d’entrenament inverteix la regla de protecció de dades des del disseny i per defecte de l’article 25 del RGPD: la configuració més protectora hauria de ser la de sortida.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "preselected",
+        "severity": "high",
+        "description": "Els perfils es creen públics i els entrenaments marcats com a «Everyone» els veu qualsevol persona usuària de Hevy fins que entres a la configuració a canviar-ho.",
+        "sources": [
+          "hevy-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no transporta comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política parla de mesures tècniques i organitzatives adequades, sense detallar-les."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública sobre el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap documentació sobre verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories ni certificacions publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "hevy-app-store"
+      ],
+      "detail": "El domini hevyapp.com no serveix cap fitxer .well-known/security.txt i no hem trobat cap política de divulgació publicada.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "symmetry",
+      "comparability": "partial",
+      "rationale": "Cobreix el mateix ús, el seguiment d’entrenaments de gimnàs, sense component social: no hi ha perfil públic ni suggeriments de persones del mateix gimnàs.",
+      "tradeOffs": "La política de Symmetry és molt més pobra i fixa una conservació mínima de cinc anys."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Hevy té dues polítiques en circulació alhora: la que enllaça l’App Store, generada amb iubenda, i la del seu web, més detallada. No diuen el mateix, i la primera és la que la gent veu abans d’instal·lar. El punt principal de la fitxa, però, és el perfil públic per defecte, que la política declara explícitament.",
+    "openQuestions": [
+      "Quines dades arriben a OpenAI i a Anthropic, i per a quina funció de l’aplicació?",
+      "Per què l’etiqueta de l’App Store declara l’identificador d’usuari i les dades sensibles com a NO vinculades amb la identitat?"
+    ]
+  },
+  "appStoreBundleId": "com.hevyapp.hevy"
+}

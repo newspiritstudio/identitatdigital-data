@@ -1,0 +1,17 @@
+{
+  "slug": "duolingo-scraping-2023",
+  "title": "Publicació de dades de 2,6 milions de comptes de Duolingo obtingudes d’una API oberta",
+  "type": "scraping",
+  "severity": "medium",
+  "apps": [
+    "duolingo"
+  ],
+  "company": "duolingo",
+  "occurredAt": "2023-01-01",
+  "disclosedAt": "2023-08-23",
+  "description": "Una API pública de Duolingo permetia comprovar si una adreça electrònica tenia compte i retornava les dades del perfil associat. Algú la va explotar per compondre un fitxer de 2,6 milions de registres que barrejava informació pública del perfil amb l’adreça electrònica, que no ho és. El conjunt es va posar a la venda el gener de 2023 per 1.500 dòlars i es va publicar en obert en un fòrum el mes d’agost. Duolingo va sostenir que no era ni una bretxa ni una intrusió perquè les dades del perfil ja eren públiques, i va limitar el ritme de peticions a l’API.",
+  "affectedPeople": "Prop de 2,6 milions de comptes, amb l’adreça electrònica exposada.",
+  "sources": [
+    "duolingo-scraping-press"
+  ]
+}

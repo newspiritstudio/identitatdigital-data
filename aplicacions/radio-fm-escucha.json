@@ -1,0 +1,414 @@
+{
+  "slug": "radio-fm-escucha",
+  "name": "Radio FM: Escucha En Directo",
+  "company": "camadu",
+  "categories": [
+    "musica-i-audio"
+  ],
+  "tagline": "Un dial de ràdios en directe fet per un desenvolupador individual de Salamanca que es paga amb publicitat personalitzada",
+  "summary": "Radio FM reprodueix emissores de ràdio en directe i no necessita cap compte. L’etiqueta de l’App Store declara l’identificador del dispositiu i les dades de publicitat com a dades per rastrejar-te, i la política comuna de CAMADU ho confirma: hi ha identificadors publicitaris, gestió del consentiment i publicitat personalitzada si l’acceptes. La política és curta però ordenada, identifica el responsable amb nom i NIF, i explica que els errors es monitoren amb Sentry a Frankfurt.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "advertising",
+  "jurisdiction": "Espanya (UE)",
+  "links": {
+    "website": "https://www.camadu.com/",
+    "privacyPolicy": "https://www.camadu.com/privacidad-apps/",
+    "appStore": "https://apps.apple.com/es/app/id571346544"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "radio-fm-escucha-privacy-policy",
+      "radio-fm-escucha-app-store"
+    ],
+    "detail": "La política diu que les dades de contacte només s’aporten voluntàriament; l’etiqueta declara el correu i el nom com a dades no vinculades a la identitat, lligades a l’atenció a l’usuari.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "radio-fm-escucha-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Sense compte, les dades són sobretot publicitàries: quin dispositiu ets, quines emissores escoltes i quins anuncis has vist. La política admet que, amb consentiment, aquestes dades serveixen per personalitzar la publicitat.",
+  "dataCollection": [
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "radio-fm-escucha-app-store",
+        "radio-fm-escucha-privacy-policy"
+      ],
+      "note": "L’etiqueta el declara com a dada per rastrejar i com a dada vinculada a la identitat per a publicitat de tercers."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "radio-fm-escucha-privacy-policy",
+        "radio-fm-escucha-app-store"
+      ],
+      "note": "La política parla explícitament d’identificadors publicitaris i de dades de consentiment publicitari."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "radio-fm-escucha-app-store",
+        "radio-fm-escucha-privacy-policy"
+      ],
+      "note": "Emissores escoltades i ús de l’aplicació; l’etiqueta declara «altres dades d’ús» per rastrejar."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "radio-fm-escucha-app-store",
+        "radio-fm-escucha-privacy-policy"
+      ],
+      "note": "Monitoratge d’errors amb Sentry (Functional Software, Inc.), amb emmagatzematge a la regió europea de Frankfurt."
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "radio-fm-escucha-privacy-policy"
+      ],
+      "note": "Model, sistema operatiu, versió de l’app, idioma i regió."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "radio-fm-escucha-app-store",
+        "radio-fm-escucha-privacy-policy"
+      ],
+      "note": "Només si escrius al suport a apps@camadu.com."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "radio-fm-escucha-privacy-policy"
+      ],
+      "note": "Estat de la subscripció i de les compres; les dades de la targeta les tracten Apple i Google."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "radio-fm-escucha-privacy-policy"
+      ],
+      "note": "La política diu que només es demana si una funció concreta ho necessita."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "radio-fm-escucha-app-store"
+      ],
+      "detail": "L’etiqueta declara l’identificador del dispositiu, les dades de publicitat, altres dades d’ús i les dades d’error com a dades utilitzades per rastrejar-te.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "radio-fm-escucha-privacy-policy",
+        "radio-fm-escucha-app-store"
+      ],
+      "detail": "La política enumera els identificadors publicitaris i les dades de consentiment entre les categories tractades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "radio-fm-escucha-privacy-policy"
+      ],
+      "detail": "Proveïdors de diagnòstic, d’analítica i de publicitat o monetització, a més de Sentry, tot i que la política no en dona els noms comercials.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "radio-fm-escucha-privacy-policy",
+        "radio-fm-escucha-app-store"
+      ],
+      "detail": "La política inclou entre les finalitats mostrar publicitat i publicitat personalitzada quan hi ha un consentiment vàlid.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "radio-fm-escucha-privacy-policy"
+      ],
+      "detail": "La personalització publicitària implica elaborar un perfil del dispositiu; la política no descriu cap altre perfilat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no parla d’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "radio-fm-escucha-privacy-policy"
+      ],
+      "detail": "Categories de proveïdors: allotjament, diagnòstic, analítica, publicitat i monetització, suport i les botigues d’Apple i Google.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "CAMADU és el nom comercial d’un desenvolupador individual, sense grup empresarial.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu res sobre la venda de dades a corredors de dades."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "radio-fm-escucha-privacy-policy"
+      ],
+      "detail": "Sentry desa les dades a Frankfurt, però algunes dades de compte o de suport poden ser als Estats Units, amb decisions d’adequació o clàusules contractuals tipus.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "no",
+      "level": "editorial",
+      "sources": [
+        "radio-fm-escucha-privacy-policy"
+      ],
+      "detail": "No hi ha cap informe de transparència; és un desenvolupador individual.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no fixa cap termini concret de conservació."
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Com que no hi ha compte, la política no descriu què passa en desinstal·lar l’aplicació."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació funciona sense compte: no hi ha res per eliminar més enllà de desinstal·lar-la.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "unknown",
+    "requiresSupportContact": false,
+    "dataRetained": "La política no detalla què es conserva després de desinstal·lar l’aplicació.",
+    "sources": [
+      "radio-fm-escucha-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política reconeix el dret de portabilitat, però no descriu cap eina d’exportació."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "radio-fm-escucha-privacy-policy"
+      ],
+      "detail": "Escrivint a apps@camadu.com, amb menció expressa del dret a reclamar davant l’AEPD.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "radio-fm-escucha-privacy-policy"
+      ],
+      "detail": "El consentiment publicitari es pot retirar des de l’aplicació en qualsevol moment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu si el monitoratge d’errors i l’analítica es poden desactivar."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut comprovar quines opcions ofereix la pantalla de privadesa de l’aplicació."
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut revisar la finestra de consentiment publicitari de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació només reprodueix emissores públiques; no hi ha contingut privat que xifrar d’extrem a extrem.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap canal de notificació de vulnerabilitats."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "La política és comuna a totes les aplicacions de CAMADU i no detalla quins SDK publicitaris incorpora Radio FM, de manera que les categories de proveïdors són genèriques. No hem pogut fer la cerca d’incidents perquè la sessió havia exhaurit el pressupost de cerques.",
+    "openQuestions": [
+      "Quines xarxes publicitàries concretes integra l’aplicació?",
+      "Quants dies es conserven les dades d’error de Sentry?"
+    ]
+  },
+  "appStoreBundleId": "com.cmobile.radiofm"
+}

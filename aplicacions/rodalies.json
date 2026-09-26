@@ -1,0 +1,551 @@
+{
+  "slug": "rodalies",
+  "name": "Rodalies",
+  "company": "renfe-viajeros",
+  "categories": [
+    "mobilitat-i-transport"
+  ],
+  "tagline": "La nova app de Rodalies declara diagnòstics per rastrejar i remet a la política de privadesa de Cercanías",
+  "summary": "Renfe va publicar l’estiu del 2026 una app nova de Rodalies, amb la identitat visual de la Generalitat, que substitueix l’antiga. Mostra horaris en temps real, ven bitllets amb el compte de Renfe i té un cercador amb IA. L’etiqueta declara els diagnòstics com a dades per rastrejar i la ubicació precisa, fins i tot en segon pla; la política enllaçada és la de l’app Cercanías, que afirma no fer servir tecnologies de seguiment. El responsable continua sent Renfe Viajeros, tot i que ja s’ha constituït l’empresa mixta Rodalies de Catalunya.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "public-service",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://rodalies.gencat.cat/",
+    "privacyPolicy": "https://www.renfe.com/es/es/ayuda/informacion-legal-viajeros/privacidad-cookies/privacidad-apps/politica-de-privacidad-app-cercanias",
+    "appStore": "https://apps.apple.com/es/app/id6788656454",
+    "security": "https://www.renfe.com/es/es/ayuda/informacion-legal-viajeros/certificaciones-ciberseguridad"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "rodalies-politica-privadesa",
+      "rodalies-gencat-app"
+    ],
+    "detail": "Els horaris i el temps real són oberts; comprar bitllets i les funcions personalitzades demanen el compte de Renfe.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "rodalies-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "publicService": {
+    "isPublicService": true,
+    "administrationLevel": "state",
+    "legalBasis": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "rodalies-politica-privadesa"
+      ],
+      "detail": "La política assigna una base a cada finalitat (contracte, interès legítim, obligació legal i consentiment) i cita el Reial decret 1575/1989 per a la cessió a les asseguradores, però no la norma que empara la resta de tractaments.",
+      "verifiedAt": "2026-09-22"
+    },
+    "processingRegistry": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap activitat del registre de Renfe Viajeros que correspongui a l’app de Rodalies."
+    },
+    "dpia": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap avaluació d’impacte publicada."
+    },
+    "ensConformity": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "renfe-certificaciones-ciberseguridad"
+      ],
+      "detail": "El grup Renfe declara la conformitat amb l’Esquema Nacional de Seguretat i la ISO 27001, sense publicar-ne la categoria, l’abast ni l’entitat certificadora.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dpo": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "rodalies-politica-privadesa"
+      ],
+      "detail": "Delegat de protecció de dades del grup Renfe amb correu publicat.",
+      "verifiedAt": "2026-09-22",
+      "contact": "dpd@renfe.es"
+    },
+    "offlineAlternative": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "renfe-condiciones-venta"
+      ],
+      "detail": "El bitllet es pot comprar a les estacions i oficines de venda sense compte ni aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "accessibilityStatement": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "rodalies-accessibilitat-cercanias",
+        "rodalies-app-store"
+      ],
+      "detail": "Renfe té una declaració per a l’app Cercanías, però no per a l’app Rodalies, i la fitxa de l’App Store no declara prestacions d’accessibilitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mandatoryRetention": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "rodalies-politica-privadesa"
+      ],
+      "detail": "La política conserva les dades el temps necessari «o hasta que solicites su supresión»; cap norma impedeix tancar el compte.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataSummary": "Sense compte, l’app tracta la ubicació precisa, també en segon pla, i dades de diagnòstic que l’etiqueta declara com a utilitzades per rastrejar. Amb compte, la identitat, els mitjans de pagament i les compres queden lligats al compte de Renfe.",
+  "dataCollection": [
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "rodalies-app-store",
+        "rodalies-politica-privadesa"
+      ],
+      "note": "La fitxa avisa que l’app pot fer servir la ubicació encara que no estigui oberta."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "rodalies-politica-privadesa"
+      ],
+      "note": "Ciutat o país a partir de l’adreça IP anonimitzada, per a Adobe Analytics."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "rodalies-app-store"
+      ],
+      "note": "L’etiqueta els declara com a dades utilitzades per rastrejar."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "rodalies-politica-privadesa"
+      ],
+      "note": "Clics i seleccions, amb Adobe Analytics com a encarregat; l’etiqueta no ho declara."
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "rodalies-politica-privadesa"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "rodalies-politica-privadesa"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "rodalies-politica-privadesa"
+      ],
+      "note": "És el compte general de Renfe."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "rodalies-politica-privadesa"
+      ],
+      "note": "Es comuniquen a bancs i passarel·les de pagament."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "rodalies-politica-privadesa"
+      ],
+      "note": "Les dades del viatge es cedeixen a les asseguradores per l’assegurança obligatòria de viatgers."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "rodalies-politica-privadesa",
+        "rodalies-app-store"
+      ],
+      "note": "Les consultes al cercador amb IA; Renfe diu que no es perfilen ni entrenen models."
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "rodalies-politica-privadesa"
+      ],
+      "note": "Permís de micròfon per a la locució de veu."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "rodalies-app-store",
+        "rodalies-politica-privadesa"
+      ],
+      "detail": "L’etiqueta declara els diagnòstics com a dades per rastrejar, mentre la política afirma que no fa servir tecnologies «con fines publicitarios, de seguimiento individual o elaboración de perfiles».",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta identificadors publicitaris."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "rodalies-politica-privadesa"
+      ],
+      "detail": "Adobe Analytics, com a encarregat del tractament.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "rodalies-politica-privadesa"
+      ],
+      "detail": "Comunicacions comercials amb ofertes personalitzades, basades en el consentiment; no publicitat de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "rodalies-politica-privadesa"
+      ],
+      "detail": "Hi ha perfilació per a ofertes personalitzades, només amb consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "rodalies-politica-privadesa"
+      ],
+      "detail": "Les dades de l’assistent virtual no es fan servir «para entrenar» models d’IA.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "rodalies-politica-privadesa",
+        "rodalies-empresa-mixta-2026"
+      ],
+      "detail": "Autoritats, asseguradores, bancs i passarel·les de pagament i encarregats del tractament. La nova empresa mixta Rodalies de Catalunya (Renfe i Generalitat) no operarà el servei fins al 2027 i no figura entre els destinataris.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política de Cercanías que enllaça l’app no descriu comunicacions dins del grup Renfe."
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "rodalies-politica-privadesa"
+      ],
+      "detail": "La llista de destinataris no inclou venda de dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no en diu res."
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "rodalies-politica-privadesa"
+      ],
+      "detail": "Només «el tiempo estrictamente necesario» o fins a la supressió, sense xifres.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no ho concreta."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "rodalies-politica-privadesa"
+      ],
+      "detail": "La política preveu la baixa a la plataforma i el dret de supressió.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap opció d’esborrar el compte dins de l’app."
+    },
+    "difficulty": "medium",
+    "requiresSupportContact": true,
+    "steps": [
+      "Escriu a derechos.viajeros@renfe.es demanant la supressió del compte de Renfe.",
+      "Si no reps resposta, adreça’t al delegat de protecció de dades a dpd@renfe.es."
+    ],
+    "obstacles": "El compte és el mateix de renfe.com i de l’app de Renfe: esborrar-lo afecta tots els canals.",
+    "sources": [
+      "rodalies-politica-privadesa"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "rodalies-politica-privadesa"
+      ],
+      "detail": "La portabilitat es reconeix, però s’exerceix per correu electrònic.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "rodalies-politica-privadesa"
+      ],
+      "detail": "Adreça específica per exercir drets i delegat de protecció de dades, amb reclamació a l’AEPD.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:derechos.viajeros@renfe.es"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "rodalies-politica-privadesa"
+      ],
+      "detail": "Les comunicacions comercials amb perfilació depenen d’un consentiment revocable.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "rodalies-politica-privadesa"
+      ],
+      "detail": "Ubicació, micròfon, biometria i notificacions es demanen per separat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És una aplicació de transport sense comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "rodalies-politica-privadesa"
+      ],
+      "detail": "La política esmenta l’autenticació reforçada (2FA) i l’accés biomètric, sense detallar el mètode ni si és obligatòria.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "renfe-certificaciones-ciberseguridad"
+      ],
+      "detail": "Renfe declara la ISO 27001 i l’ENS sense publicar-ne l’abast ni l’entitat certificadora.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Ni renfe.com ni rodalies.gencat.cat publiquen un fitxer security.txt vàlid."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "renfe",
+      "comparability": "partial",
+      "rationale": "L’app general de Renfe ven els mateixos bitllets amb el mateix compte.",
+      "tradeOffs": "Menys centrada en Rodalies i també de Renfe Viajeros."
+    },
+    {
+      "app": "google-maps",
+      "comparability": "partial",
+      "rationale": "Horaris de Rodalies i planificació sense compte de Renfe.",
+      "tradeOffs": "No ven bitllets."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "L’app antiga «Rodalies de Catalunya» ja no és a l’App Store. Hi ha ressenyes que diuen que l’inici de sessió amb el compte de Renfe falla i que l’app nova no permet subscriure’s a les incidències de les línies. No hem trobat sancions de l’AEPD contra Renfe Viajeros; la del 2012 (PS/00166/2012) va ser contra Renfe Operadora per les càmeres d’estacions de Sevilla i no s’ha incorporat.",
+    "openQuestions": [
+      "Quan passarà la titularitat de l’app a Rodalies de Catalunya, i canviarà el responsable del tractament?",
+      "Per què l’etiqueta declara els diagnòstics com a dades per rastrejar?"
+    ]
+  },
+  "appStoreBundleId": "com.renfe.renferodalies"
+}

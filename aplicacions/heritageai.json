@@ -1,0 +1,396 @@
+{
+  "slug": "heritageai",
+  "name": "HeritageAI",
+  "company": "joylink-network-tech",
+  "categories": [
+    "edicio-de-foto-i-video"
+  ],
+  "tagline": "La política diu que cap dada no serveix per rastrejar-te; l’etiqueta de l’App Store diu el contrari",
+  "summary": "HeritageAI demana una fotografia de la teva cara i en genera retrats «ancestrals» i històries d’avantpassats inventades. La política és inusualment detallada: la detecció de cara es fa al dispositiu, la imatge s’envia a una passarel·la pròpia amb servidors a Singapur i a Replicate, s’esborra en 24 hores i no s’entrenen models. Però aquesta mateixa política inclou una taula que assegura que cap dada no s’usa per rastrejar, mentre que l’etiqueta de l’App Store declara identificadors usats per rastrejar-te i l’identificador del dispositiu per a publicitat de tercers.",
+  "platforms": [
+    "ios"
+  ],
+  "businessModel": "freemium",
+  "links": {
+    "website": "https://tagv.papilioaiimg.com/",
+    "privacyPolicy": "https://tagv.papilioaiimg.com/privacyPolicy.html",
+    "appStore": "https://apps.apple.com/es/app/id6761894538"
+  },
+  "accountRequired": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": [],
+    "detail": "Ni la política ni la fitxa de l’App Store esmenten cap registre."
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "heritageai-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Una fotografia de la cara enviada a un servei d’IA és la dada més identificativa que hi ha. L’empresa promet que no en fa plantilles biomètriques, que la processa un tercer i que l’esborra en 24 hores; tot allò que es desa al telèfon, en canvi, hi queda fins que s’esborra a mà.",
+  "dataCollection": [
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "heritageai-privacy-policy"
+      ],
+      "note": "La imatge triada s’envia a la passarel·la PapilioAI (servidors a Singapur) i a Replicate, i la política diu que s’esborra automàticament en 24 hores."
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "heritageai-privacy-policy"
+      ],
+      "note": "La política diu que la detecció de cara es fa al dispositiu amb el marc Vision d’Apple, que només localitza un rectangle, i que no es creen plantilles ni identificadors biomètrics."
+    },
+    {
+      "type": "origen-etnic-o-nacionalitat",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "heritageai-privacy-policy"
+      ],
+      "note": "La política insisteix que els resultats són ficció i que l’aplicació no determina l’ascendència, l’origen ètnic ni cap dada genètica."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "heritageai-app-store"
+      ],
+      "note": "L’etiqueta declara identificadors usats per rastrejar; la política no n’esmenta cap."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "heritageai-app-store"
+      ],
+      "note": "Declarat per a publicitat de tercers."
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "heritageai-privacy-policy"
+      ],
+      "note": "Model, versió del sistema operatiu i versió de l’aplicació."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "heritageai-privacy-policy"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "heritageai-app-store"
+      ],
+      "detail": "L’etiqueta declara identificadors usats per rastrejar, en contradicció amb la taula de divulgació de la política.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "heritageai-app-store"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no anomena cap xarxa publicitària ni cap SDK d’analítica."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "heritageai-app-store"
+      ],
+      "detail": "L’etiqueta declara l’identificador del dispositiu per a publicitat de tercers; la política diu que les imatges no s’usen per a perfils publicitaris, però no parla dels identificadors.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "aiTraining": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "heritageai-privacy-policy"
+      ],
+      "detail": "La política diu expressament que ni l’empresa ni els proveïdors poden fer servir les imatges per entrenar models.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "heritageai-privacy-policy"
+      ],
+      "detail": "La passarel·la pròpia PapilioAI i Replicate, com a proveïdor de generació d’imatges.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "heritageai-privacy-policy"
+      ],
+      "detail": "La política diu que no es venen, lloguen ni intercanvien dades personals ni dades de la cara.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "heritageai-privacy-policy"
+      ],
+      "detail": "La infraestructura de processament és a Singapur i Replicate processa les imatges als seus sistemes. La política no invoca cap mecanisme del RGPD.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "heritageai-privacy-policy"
+      ],
+      "detail": "Les fotografies d’origen s’esborren automàticament en 24 hores des que acaba la generació; els resultats desats al dispositiu hi queden fins que s’esborren.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "heritageai-privacy-policy"
+      ],
+      "detail": "La supressió es fa «en un termini raonable» i, quan escaigui, en 30 dies, amb les excepcions legals de conservació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "fotografies-i-videos",
+        "period": "24 hores als servidors de processament",
+        "sources": [
+          "heritageai-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "heritageai-privacy-policy"
+      ],
+      "detail": "No hi ha cap compte descrit; es pot demanar la supressió de la informació associada al processament d’imatges escrivint al desenvolupador.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "heritageai-privacy-policy"
+      ],
+      "detail": "El consentiment per al processament d’imatges es pot retirar des de Configuració → Privacy Choices, però la supressió de dades s’ha de demanar per correu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "requiresSupportContact": true,
+    "waitingPeriodDays": 30,
+    "steps": [
+      "Retira el consentiment de processament d’imatges a Configuració → Privacy Choices, dins de l’aplicació.",
+      "Esborra l’historial local i els resultats que hagis desat a la fototeca.",
+      "Escriu a l’adreça de contacte de la política per demanar la supressió de les dades associades; el termini declarat és de 30 dies."
+    ],
+    "sources": [
+      "heritageai-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "heritageai-privacy-policy"
+      ],
+      "detail": "Es reconeix el dret d’accés, sense cap eina d’exportació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "heritageai-privacy-policy"
+      ],
+      "detail": "Els drets s’exerceixen per correu; no hi ha delegat de protecció de dades ni representant a la Unió Europea.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta cap control publicitari, tot i que l’etiqueta declara publicitat de tercers."
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "heritageai-privacy-policy"
+      ],
+      "detail": "Hi ha un avís previ a cada processament d’imatge i un apartat de Privacy Choices per retirar el consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "heritageai-privacy-policy"
+      ],
+      "detail": "Les imatges es desxifren per processar-les a la passarel·la i a Replicate.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "heritageai-privacy-policy"
+      ],
+      "detail": "La política parla de transmissió segura de les dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha comptes ni contrasenyes descrits.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "La política és completa pel que fa al tractament de les imatges, però contradiu l’etiqueta de l’App Store en un punt central: la taula d’«App Privacy Disclosure» afirma que cap dada no s’usa per rastrejar, mentre que la fitxa d’Apple declara identificadors usats per rastrejar i l’identificador del dispositiu per a publicitat de tercers. La contradicció és del mateix desenvolupador, que omple totes dues coses.",
+    "openQuestions": [
+      "Quina xarxa publicitària hi ha integrada, si la política no n’esmenta cap?",
+      "Qui és JOYLINK NETWORK TECH LIMITED i en quin país està establerta?",
+      "Quant de temps conserva Replicate les imatges enviades?"
+    ]
+  },
+  "appStoreBundleId": "com.papilio.ai.photo.img.studio"
+}

@@ -1,0 +1,712 @@
+{
+  "slug": "instagram",
+  "name": "Instagram",
+  "company": "meta-platforms-ireland",
+  "categories": [
+    "xarxes-socials",
+    "descobriment-visual"
+  ],
+  "tagline": "Xarxa social visual amb publicitat basada en perfilat",
+  "summary": "Instagram funciona amb la mateixa política de privadesa i la mateixa infraestructura publicitària que Facebook. Tot el que s’hi fa (què es mira i durant quant de temps, què s’hi cerca, amb qui s’interactua) alimenta un perfil publicitari compartit amb la resta del grup Meta. És, juntament amb Facebook, la plataforma amb més resolucions sancionadores acumulades del directori.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "advertising",
+  "jurisdiction": "Irlanda, per a persones usuàries de l’Espai Econòmic Europeu",
+  "userBase": "Més de 2.000 milions de comptes actius mensuals",
+  "links": {
+    "website": "https://www.instagram.com/",
+    "privacyPolicy": "https://www.facebook.com/privacy/policy/",
+    "terms": "https://help.instagram.com/581066165581870",
+    "privacyCenter": "https://accountscenter.instagram.com/"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "meta-privacy-policy"
+    ],
+    "detail": "Es pot veure contingut públic sense compte de manera molt limitada, però qualsevol altre ús requereix registre amb adreça electrònica o número de telèfon.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "meta-privacy-policy"
+    ],
+    "detail": "Codi íntegrament privatiu.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Instagram recull continguts, interaccions, temps de visualització, cerques, contactes, ubicació i activitat fora de la plataforma a través del píxel de Meta present a milers de llocs web i aplicacions. Combinar l’activitat dins i fora de la plataforma permet un perfil publicitari molt detallat.",
+  "dataCollection": [
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "meta-privacy-policy"
+      ]
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "meta-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "meta-privacy-policy"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "meta-privacy-policy"
+      ]
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "entrenament-de-models-dia"
+      ],
+      "sources": [
+        "meta-privacy-policy",
+        "dpc-meta-ai-2025"
+      ]
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "entrenament-de-models-dia"
+      ],
+      "sources": [
+        "meta-privacy-policy",
+        "dpc-meta-ai-2025"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "recomanacions-algoritmiques",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "meta-privacy-policy"
+      ],
+      "note": "Inclou el temps que es passa mirant cada publicació, no només els «m’agrada»."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "meta-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "meta-privacy-policy"
+      ]
+    },
+    {
+      "type": "xarxa-de-contactes",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "meta-privacy-policy"
+      ]
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "meta-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "meta-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "meta-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "meta-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "meta-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "meta-privacy-policy"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "meta-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "meta-privacy-policy"
+      ],
+      "note": "Activitat en llocs i aplicacions de tercers recollida amb el píxel de Meta."
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "meta-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "meta-privacy-policy"
+      ],
+      "note": "Només si es fan compres dins de la plataforma o se subscriu el pla sense publicitat."
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "meta-privacy-policy"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "regulator",
+      "sources": [
+        "meta-privacy-policy",
+        "dpc-meta-ads-2023"
+      ],
+      "detail": "El píxel de Meta i el kit de desenvolupament per a aplicacions recullen activitat en llocs i aplicacions de tercers i la vinculen al compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "regulator",
+      "sources": [
+        "meta-privacy-policy",
+        "dpc-meta-ads-2023"
+      ],
+      "detail": "És el model de negoci del servei. L’autoritat irlandesa va declarar el 2023 que Meta no podia emparar-la en l’execució del contracte.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://accountscenter.instagram.com/ad_preferences/"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "regulator",
+      "sources": [
+        "meta-privacy-policy",
+        "dpc-meta-ads-2023"
+      ],
+      "detail": "Perfilat extensiu amb categories d’interès inferides a partir del comportament dins i fora de la plataforma.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "yes",
+      "level": "regulator",
+      "sources": [
+        "dpc-meta-ai-2025"
+      ],
+      "detail": "Des del maig de 2025 Meta fa servir el contingut públic de comptes d’adults europeus per entrenar els seus models, empara el tractament en l’interès legítim i ofereix un formulari d’oposició.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://www.facebook.com/privacy/genai"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-privacy-policy"
+      ],
+      "detail": "Anunciants, socis de mesura, proveïdors i autoritats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-privacy-policy"
+      ],
+      "detail": "Compartició sistemàtica amb Facebook, Messenger, Threads i WhatsApp a través del Centre de comptes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "meta-privacy-policy"
+      ],
+      "detail": "Meta afirma que no ven dades personals, però rep informació de socis publicitaris i de comerços que la incorpora al perfil.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "regulator",
+      "sources": [
+        "meta-privacy-policy",
+        "dpc-meta-transfers-2023"
+      ],
+      "detail": "Transferències als Estats Units, sancionades el 2023 abans de l’adopció del marc d’adequació actual.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "adequacy"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-transparency-center"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://transparency.meta.com/"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "meta-privacy-policy"
+      ],
+      "detail": "La política parla de conservar les dades «el temps necessari» sense terminis concrets per a la majoria de categories.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "ig-delete-account"
+      ],
+      "detail": "Un cop passat el període de gràcia de 30 dies, pot trigar fins a 90 dies a esborrar-ho tot dels sistemes de còpia de seguretat. Els missatges enviats a altres persones no s’eliminen.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "period": "30 dies de període de gràcia abans de començar l’eliminació",
+        "sources": [
+          "ig-delete-account"
+        ]
+      },
+      {
+        "period": "Fins a 90 dies addicionals per esborrar-ho dels sistemes",
+        "sources": [
+          "ig-delete-account"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ig-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ig-delete-account"
+      ],
+      "detail": "Es fa des del Centre de comptes, tot i que el camí és llarg i la desactivació temporal es presenta primer.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://www.instagram.com/accounts/remove/request/permanent/",
+    "difficulty": "medium",
+    "waitingPeriodDays": 30,
+    "requiresSupportContact": false,
+    "steps": [
+      "Entra al Centre de comptes des de la configuració d’Instagram.",
+      "Ves a Dades personals i després a Propietat i control del compte.",
+      "Tria «Desactivació o eliminació» i selecciona el compte.",
+      "Tria «Eliminar el compte» en lloc de «Desactivar-lo».",
+      "Confirma amb la contrasenya i no tornis a iniciar sessió durant 30 dies."
+    ],
+    "obstacles": "La desactivació temporal apareix sempre com a primera opció i amb un llenguatge més amable. Si s’inicia sessió durant els 30 dies següents, l’eliminació s’anul·la sense avisar-ne les conseqüències.",
+    "dataRetained": "Els missatges directes enviats es conserven a les bústies de les persones destinatàries. Meta manté informació que altres persones han compartit sobre tu i registres necessaris per a obligacions legals.",
+    "sources": [
+      "ig-delete-account"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fb-download-info"
+      ],
+      "detail": "Exportació unificada des del Centre de comptes de Meta.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://accountscenter.instagram.com/info_and_permissions/dyi/"
+    },
+    "exportFormatQuality": "mixed",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-privacy-center"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.facebook.com/help/contact/540977946302970",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "regulator",
+      "sources": [
+        "meta-privacy-center",
+        "dpc-meta-ads-2023"
+      ],
+      "detail": "Es poden limitar algunes categories i l’ús de dades de socis, però no desactivar la publicitat personalitzada sense pagar la subscripció sense anuncis.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://accountscenter.instagram.com/ad_preferences/"
+    },
+    "telemetryOptOut": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "meta-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "meta-privacy-center"
+      ],
+      "detail": "Hi ha molts controls, però repartits entre la configuració d’Instagram, el Centre de comptes i el Centre de privadesa de Meta.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "yes",
+      "level": "regulator",
+      "sources": [
+        "dpc-tiktok-2023",
+        "dpc-instagram-2022"
+      ],
+      "detail": "La resolució de 2022 va constatar que els comptes de menors es creaven públics per defecte i que el pas a perfil d’empresa exposava el telèfon i l’adreça electrònica sense advertir-ho prou.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "hidden-exit",
+        "severity": "high",
+        "description": "L’eliminació del compte està tres nivells per sota dins del Centre de comptes i sempre apareix precedida de la desactivació temporal.",
+        "sources": [
+          "ig-delete-account"
+        ]
+      },
+      {
+        "type": "preselected",
+        "severity": "high",
+        "description": "Els comptes de persones menors d’edat es creaven públics per defecte, cosa que va motivar una sanció de 405 milions d’euros.",
+        "sources": [
+          "dpc-instagram-2022"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "meta-privacy-policy"
+      ],
+      "detail": "Els missatges directes tenen xifratge d’extrem a extrem per defecte des del desplegament de 2023-2024, però no cobreix el contingut publicat ni les històries.",
+      "verifiedAt": "2026-09-22",
+      "scope": "partial-default",
+      "protocol": "Labyrinth, derivat del Signal Protocol"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-safety-center"
+      ],
+      "detail": "Verificació en dos passos amb aplicació d’autenticació, SMS i claus de seguretat.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "totp",
+        "sms",
+        "hardware-key",
+        "app-push"
+      ]
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha auditories de seguretat independents publicades específicament sobre Instagram."
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-transparency-center"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.facebook.com/whitehat"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-transparency-center"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "pinterest",
+      "comparability": "partial",
+      "rationale": "Cobreix el descobriment visual i el desat d’imatges, però no la part de xarxa social amb persones conegudes ni la missatgeria.",
+      "tradeOffs": "També viu de la publicitat i infereix intenció de compra, de manera que el guany en privadesa és limitat."
+    }
+  ],
+  "review": {
+    "researchStatus": "in-depth",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Instagram i Facebook comparteixen política, infraestructura i sancions. Es mantenen com a fitxes separades perquè el perfil de dades no és idèntic: Instagram recull més senyals visuals i de temps d’atenció, i Facebook més dades de xarxa social i d’esdeveniments.",
+    "openQuestions": [
+      "Quin abast té el xifratge d’extrem a extrem dels missatges directes i quines excepcions manté?"
+    ]
+  },
+  "appStoreBundleId": "com.burbn.instagram"
+}

@@ -1,0 +1,390 @@
+{
+  "slug": "instant-translator",
+  "name": "InstantTranslator",
+  "company": "applabs",
+  "categories": [
+    "traduccio-i-referencia"
+  ],
+  "tagline": "Diu que no desa cap text traduït, però viu de l’identificador publicitari",
+  "summary": "Explica bé què fa: afirma que no recull ni desa els textos traduïts, i detalla que la traducció fora de línia es fa al dispositiu amb Google ML Kit. El que sí que recull és l’identificador publicitari i les dades de rendiment dels anuncis per a les plataformes de publicitat, i l’etiqueta de l’App Store confirma que els identificadors s’utilitzen per rastrejar entre aplicacions. Què passa amb el text quan la traducció es fa al núvol, en canvi, no consta enlloc.",
+  "platforms": [
+    "ios"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Hong Kong",
+  "links": {
+    "website": "https://instanttranslator-6e103.web.app/term_of_use.txt",
+    "privacyPolicy": "https://instanttranslator-6e103.web.app/privacy_policy.txt",
+    "appStore": "https://apps.apple.com/es/app/id6636468891"
+  },
+  "accountRequired": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": [],
+    "detail": "Ni la política ni la fitxa de l’App Store esmenten cap registre."
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "instant-translator-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Per un traductor hi passen textos que la persona necessita entendre: correus de la feina, cartes de metges, converses privades. L’aplicació diu que no en desa res; el que sí que desa i comparteix és l’identificador que permet seguir-la entre aplicacions.",
+  "dataCollection": [
+    {
+      "type": "contingut-de-missatges",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "instant-translator-privacy-policy"
+      ],
+      "note": "La política afirma que no es recull, no es monitora i no es desa el contingut ni les preferències de cerca. No diu què passa amb el text quan la traducció es fa al núvol."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "instant-translator-app-store",
+        "instant-translator-privacy-policy"
+      ],
+      "note": "La política diu que es recull per complir els requisits de les plataformes publicitàries i evitar el frau amb els anuncis."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "instant-translator-app-store",
+        "instant-translator-privacy-policy"
+      ]
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "instant-translator-privacy-policy"
+      ],
+      "note": "Tipus i model del dispositiu i versió del sistema operatiu."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "instant-translator-app-store",
+        "instant-translator-privacy-policy"
+      ],
+      "note": "Dades de rendiment i d’interacció amb els anuncis."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "instant-translator-privacy-policy"
+      ],
+      "note": "El SDK de Google ML Kit envia mètriques tècniques i d’ús de l’API a Google."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "compliment-legal"
+      ],
+      "sources": [
+        "instant-translator-privacy-policy"
+      ],
+      "note": "Si demanes una devolució, la política condiciona tramitar-la a cedir l’historial de comandes, de despesa i de devolucions anteriors a Apple i a les passarel·les de pagament."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "instant-translator-app-store"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "instant-translator-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "instant-translator-privacy-policy"
+      ],
+      "detail": "Plataformes de publicitat de tercers, que la política no anomena, i el SDK de Google ML Kit.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "instant-translator-app-store",
+        "instant-translator-privacy-policy"
+      ],
+      "detail": "L’etiqueta declara publicitat de tercers i la política reconeix que les dades serveixen per lliurar anuncis rellevants.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "aiTraining": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "instant-translator-privacy-policy"
+      ],
+      "detail": "La política diu que el text traduït no es desa; amb el ML Kit, la traducció fora de línia es fa al dispositiu i el text no s’envia a Google.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "instant-translator-privacy-policy"
+      ],
+      "detail": "Plataformes publicitàries i Google, a través del SDK de ML Kit.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política invoca el RGPD però no diu on es processen les dades ni amb quin mecanisme es transfereixen."
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "instant-translator-privacy-policy"
+      ],
+      "detail": "No hi ha cap termini de conservació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "instant-translator-privacy-policy"
+      ],
+      "detail": "La política reconeix el dret de supressió, subjecte a obligacions legals, però no descriu cap compte ni cap procediment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "instant-translator-privacy-policy"
+      ],
+      "detail": "Només per correu al desenvolupador.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "unknown",
+    "requiresSupportContact": true,
+    "steps": [
+      "Desactiva el seguiment publicitari de l’aplicació a Configuració → Privadesa i seguretat → Seguiment del sistema operatiu.",
+      "Escriu a l’adreça de contacte de la política per demanar la supressió de les dades.",
+      "Desinstal·la l’aplicació; els models d’idioma descarregats s’esborren amb ella."
+    ],
+    "sources": [
+      "instant-translator-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "instant-translator-privacy-policy"
+      ],
+      "detail": "Es reconeix el dret a demanar una còpia, sense cap eina.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "instant-translator-privacy-policy"
+      ],
+      "detail": "Els drets s’exerceixen per correu; no hi ha delegat de protecció de dades, termini de resposta ni representant a la Unió Europea.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "instant-translator-privacy-policy"
+      ],
+      "detail": "La política remet a les polítiques de les plataformes publicitàries; el control efectiu és el permís de seguiment del sistema operatiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "instant-translator-privacy-policy"
+      ],
+      "detail": "Els models de traducció fora de línia es poden esborrar des de l’aplicació quan la funció ho permet.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha comunicació entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "alternatives": [
+    {
+      "app": "traductor-de-deepl",
+      "comparability": "equivalent",
+      "rationale": "Tradueix text, veu, fotografies i documents, i el responsable és una empresa europea amb política de privadesa completa.",
+      "tradeOffs": "Les funcions il·limitades són de pagament."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "La clàusula de devolucions és inhabitual: condiciona tramitar el reemborsament a autoritzar la cessió de l’historial de compres, de despesa i de devolucions anteriors. És un consentiment que no és lliure, perquè la política el declara «precondició» per atendre la sol·licitud.",
+    "openQuestions": [
+      "Quin proveïdor fa la traducció al núvol dels més de 100 idiomes i on es processa el text?",
+      "Quines plataformes publicitàries hi ha integrades?",
+      "APPLABS LIMITED té representant a la Unió Europea?"
+    ]
+  },
+  "appStoreBundleId": "com.applabs.tools.instant.translator"
+}

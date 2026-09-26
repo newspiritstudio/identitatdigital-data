@@ -1,0 +1,515 @@
+{
+  "slug": "santa-biblia",
+  "name": "Santa Biblia (YouVersion)",
+  "company": "youversion",
+  "categories": [
+    "llibres-i-lectura",
+    "comunitats-i-forums"
+  ],
+  "tagline": "Una entitat sense ànim de lucre que renuncia a la publicitat segmentada sobre dades de conviccions religioses",
+  "summary": "El que registra aquesta aplicació (què subratlles, quins plans de lectura segueixes, quines notes escrius) és informació sobre conviccions religioses, una categoria especial del RGPD. YouVersion és de les poques aplicacions massives d’aquesta onada que diu explícitament que no fa servir galetes ni tecnologies similars per a publicitat basada en interessos i que no mostra anuncis, i l’etiqueta de l’App Store no declara cap dada usada per rastrejar. D’altra banda, el correu queda vinculat al màrqueting propi i les dades es processen als Estats Units.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "donations",
+  "jurisdiction": "Estats Units",
+  "userBase": "L’aplicació diu haver-se instal·lat en més de 500 milions de dispositius.",
+  "links": {
+    "website": "https://www.bible.com/",
+    "privacyPolicy": "https://www.bible.com/privacy",
+    "appStore": "https://apps.apple.com/es/app/id282935706"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "santa-biblia-app-store"
+    ],
+    "detail": "Es pot llegir sense compte; el compte cal per als plans, els amics, les notes i la sincronització.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "santa-biblia-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Les marques, les notes i els plans de lectura mostren la pràctica religiosa d’una persona, i l’historial de cerca hi afegeix els seus dubtes. És una de les dades més sensibles que pot recollir una aplicació de lectura.",
+  "dataCollection": [
+    {
+      "type": "conviccions-i-opinions",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "santa-biblia-privacy-policy"
+      ],
+      "note": "Subratllats, notes, marcadors, oracions i plans de lectura. Són dades de categoria especial segons el RGPD."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "santa-biblia-app-store",
+        "santa-biblia-privacy-policy"
+      ],
+      "note": "L’etiqueta la declara també per al màrqueting del mateix desenvolupador."
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "santa-biblia-app-store",
+        "santa-biblia-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "santa-biblia-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "santa-biblia-app-store"
+      ]
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "santa-biblia-app-store",
+        "santa-biblia-privacy-policy"
+      ],
+      "note": "Contingut compartit amb amics i a les converses de la comunitat."
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "santa-biblia-privacy-policy"
+      ],
+      "note": "Només si es dona permís per buscar-hi amics."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "santa-biblia-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "santa-biblia-privacy-policy"
+      ],
+      "note": "La política diu que, si s’activa, la ubicació es desa al dispositiu i que les coordenades i l’adreça IP es conserven uns set dies."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "santa-biblia-privacy-policy"
+      ],
+      "note": "Conservació d’uns set dies segons la política."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "santa-biblia-app-store"
+      ],
+      "note": "L’etiqueta el declara per al màrqueting del mateix desenvolupador, sense vincular-lo a la identitat."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "santa-biblia-app-store",
+        "santa-biblia-privacy-policy"
+      ],
+      "note": "La política anomena Facebook i Google com a proveïdors d’atribució de les campanyes."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "santa-biblia-app-store",
+        "santa-biblia-privacy-policy"
+      ],
+      "note": "Donacions processades per Stripe i PayPal."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "santa-biblia-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "santa-biblia-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap dada usada per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "santa-biblia-privacy-policy"
+      ],
+      "detail": "La política diu que no es fan servir galetes ni tecnologies similars per a publicitat basada en interessos.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "santa-biblia-privacy-policy"
+      ],
+      "detail": "Hi ha proveïdors d’atribució de campanyes de Facebook i Google, i eines d’anàlisi, però no xarxes de publicitat segmentada.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "santa-biblia-privacy-policy"
+      ],
+      "detail": "La política diu que no es publiquen anuncis a les plataformes ni es fa publicitat basada en interessos.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política parla d’optimització del servei, sense descriure cap elaboració de perfils."
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "S’esmenten funcions d’IA del dispositiu, com Apple Intelligence, però no si el contingut s’utilitza per entrenar models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "santa-biblia-privacy-policy"
+      ],
+      "detail": "Passarel·les de pagament (Stripe, PayPal), proveïdors d’atribució (Facebook, Google), allotjament i proveïdors de traduccions bíbliques.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "santa-biblia-privacy-policy"
+      ],
+      "detail": "Les dades es transfereixen i es processen als Estats Units amb proteccions contractuals; la política no invoca cap decisió d’adequació concreta.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "santa-biblia-privacy-policy"
+      ],
+      "detail": "Hi ha terminis concrets per a les galetes (21 dies) i per a l’adreça IP i les coordenades (uns 7 dies), però el contingut del compte es conserva fins que s’elimina o el compte queda inactiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "santa-biblia-privacy-policy"
+      ],
+      "detail": "Les dades agregades i desidentificades es conserven indefinidament, i les còpies en memòria cau poden durar fins a 30 dies.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "santa-biblia-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "santa-biblia-privacy-policy"
+      ],
+      "detail": "Des de la configuració de l’aplicació o del web.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://www.bible.com/settings",
+    "difficulty": "easy",
+    "waitingPeriodDays": 14,
+    "requiresSupportContact": false,
+    "steps": [
+      "Entra a la configuració del compte, des de l’aplicació o des de bible.com/settings.",
+      "Tria l’opció d’eliminar el compte i confirma-la.",
+      "Compta uns 14 dies fins que s’executa l’eliminació; les còpies en memòria cau poden durar fins a 30 dies."
+    ],
+    "dataRetained": "Dades agregades i desidentificades, que l’entitat conserva indefinidament.",
+    "sources": [
+      "santa-biblia-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "santa-biblia-privacy-policy"
+      ],
+      "detail": "Es pot demanar una còpia de les dades facilitades, però la política avisa que part del contingut propi de YouVersion pot no ser exportable fora de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "santa-biblia-privacy-policy"
+      ],
+      "detail": "La política enumera les bases jurídiques per a l’EEE (consentiment, contracte i interès legítim) i el procediment per exercir els drets.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha publicitat segmentada de la qual es pugui sortir.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "santa-biblia-privacy-policy"
+      ],
+      "detail": "Hi ha configuració de visibilitat del contingut i del perfil, però no un panell de privadesa complet.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "santa-biblia-privacy-policy"
+      ],
+      "detail": "El contingut se sincronitza als servidors de l’entitat, que hi té accés.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "santa-biblia-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "santa-biblia-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta cap verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "santa-biblia-privacy-policy"
+      ],
+      "detail": "La política diu que la infraestructura de núvol té la certificació ISO 27017; no hi ha cap auditoria pública de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El domini no publica cap fitxer security.txt."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "El web bible.com bloqueja les peticions automàtiques; la política s’ha llegit amb una eina de recuperació de pàgines i les afirmacions s’han limitat al que hi consta literalment. La qüestió oberta més rellevant és si les dades de conviccions religioses, que són de categoria especial, es tracten amb un consentiment explícit per a les persones de la Unió Europea.",
+    "openQuestions": [
+      "Quin consentiment explícit es recull per al tractament de dades de categoria especial a la Unió Europea?",
+      "YouVersion té representant a la Unió Europea als efectes de l’article 27 del RGPD?",
+      "L’aplicació ofereix verificació en dos passos?"
+    ]
+  },
+  "appStoreBundleId": "tv.lifechurch.bible"
+}

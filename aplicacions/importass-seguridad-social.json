@@ -1,0 +1,441 @@
+{
+  "slug": "importass-seguridad-social",
+  "name": "Importass Seguridad Social",
+  "company": "tesoreria-general-seguridad-social",
+  "categories": [
+    "administracio-publica"
+  ],
+  "tagline": "Vida laboral i cotitzacions al mòbil, sense una política de privadesa pròpia",
+  "summary": "Importass dona accés a la vida laboral, les bases de cotització, els deutes i els tràmits d’autònoms i de treballadores de la llar. Són dades que revelen la trajectòria laboral i els ingressos. L’etiqueta de l’App Store és mínima i l’enllaç de privadesa remet a la pàgina general de la Seguretat Social, sense res específic de l’app.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "public-service",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://sede.seg-social.gob.es/wps/portal/sede/sede/SSMovil/listadoAplicaciones/detalleAplicacionMobile/apptesoreria",
+    "privacyPolicy": "https://sede.seg-social.gob.es/wps/portal/sede/sede/Inicio/informacionUtil/SS-Proteccion_de_datos/",
+    "appStore": "https://apps.apple.com/es/app/id6502392871"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "importass-app-page"
+    ],
+    "detail": "Cal identificar-se amb Cl@ve, certificat electrònic o SMS al telèfon registrat a la Seguretat Social.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": []
+  },
+  "publicService": {
+    "isPublicService": true,
+    "administrationLevel": "state",
+    "legalBasis": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tgss-registro-tratamiento"
+      ],
+      "detail": "El registre d’activitats invoca els articles 6.1.c i 6.1.e del RGPD amb la Llei general de la Seguretat Social i el Reglament general de cotització, sense concretar-ne cap article, i hi suma el consentiment de l’article 6.1.a en tractaments que són obligatoris, com l’afiliació.",
+      "verifiedAt": "2026-09-22",
+      "norm": "Reial decret legislatiu 8/2015, text refós de la Llei general de la Seguretat Social"
+    },
+    "processingRegistry": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tgss-registro-tratamiento",
+        "seg-social-proteccion-datos"
+      ],
+      "detail": "La Seguretat Social publica el registre d’activitats de cada entitat. El de la TGSS, del 8 de maig del 2024, inclou «Afiliación e inscripción de empresas» i «Bases de cotización», que són les dades que mostra l’app.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://sede.seg-social.gob.es/binarios/es/ASSI_TGSS"
+    },
+    "dpia": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat publicada cap avaluació d’impacte relativa a la protecció de dades de l’app ni dels tractaments d’afiliació i cotització."
+    },
+    "ensConformity": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "seg-social-certificacion-ens"
+      ],
+      "detail": "Certificat de conformitat amb l’Esquema Nacional de Seguretat de categoria alta, acompanyat de la ISO/IEC 27001:2023, i l’abast esmenta expressament els sistemes de la seu electrònica i d’Importass.",
+      "verifiedAt": "2026-09-22",
+      "category": "high",
+      "url": "https://www.seg-social.es/wps/portal/wss/internet/HerramientasWeb/0d32d60e-ab65-4cad-b27f-6f60027fe73a"
+    },
+    "dpo": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "seg-social-proteccion-datos",
+        "tgss-registro-tratamiento"
+      ],
+      "detail": "El delegat de protecció de dades de la Seguretat Social consta amb adreça postal i electrònica, i es repeteix a cada fitxa del registre d’activitats de la TGSS.",
+      "verifiedAt": "2026-09-22",
+      "contact": "delegado.protecciondatos@seg-social.es"
+    },
+    "offlineAlternative": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "importass-portal-web",
+        "importass-app-page"
+      ],
+      "detail": "Els mateixos tràmits es fan des del portal web d’Importass i des de la seu electrònica sense instal·lar l’app, i els informes es poden demanar perquè arribin al domicili, però no hem trobat documentat un canal presencial o telefònic equivalent per a tots els tràmits de la TGSS.",
+      "verifiedAt": "2026-09-22"
+    },
+    "accessibilityStatement": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "seg-social-declaracion-accesibilidad"
+      ],
+      "detail": "La seu electrònica es declara parcialment conforme amb el Reial decret 1112/2018, amb declaració i revisió del 18 de maig del 2026 i una llista llarga d’incompliments. No hi ha declaració d’accessibilitat de l’app.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://sede.seg-social.gob.es/wps/portal/sede/sede/Inicio/Accesibilidad"
+    },
+    "mandatoryRetention": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "lgss-afiliacion",
+        "tgss-registro-tratamiento"
+      ],
+      "detail": "L’article 15 del text refós de la Llei general de la Seguretat Social estableix que l’afiliació és obligatòria i «única para toda su vida y para todo el sistema», i el registre d’activitats hi afegeix que les dades es conserven segons la normativa d’arxius i documentació. Per això l’expedient no es pot suprimir a petició de la persona.",
+      "verifiedAt": "2026-09-22",
+      "norm": "Reial decret legislatiu 8/2015, article 15"
+    }
+  },
+  "dataSummary": "La vida laboral, les bases de cotització i els deutes amb la Seguretat Social mostren on ha treballat una persona, quant ha cobrat i si passa dificultats econòmiques.",
+  "dataCollection": [
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "importass-app-page"
+      ],
+      "note": "Identificació amb DNI o NIE i número de la Seguretat Social."
+    },
+    {
+      "type": "ocupacio-i-carrec",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "importass-app-page"
+      ],
+      "note": "Vida laboral i situació d’autònom o de treballadora de la llar."
+    },
+    {
+      "type": "nivell-d-ingressos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "importass-app-page"
+      ],
+      "note": "Bases de cotització, rebuts i deutes."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "importass-app-page"
+      ],
+      "note": "Per a l’accés per SMS."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "importass-app-store"
+      ],
+      "note": "L’etiqueta el declara per a «altres finalitats» sense concretar."
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "importass-app-page"
+      ],
+      "note": "L’accés biomètric es configura al dispositiu i el gestiona el sistema operatiu."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "importass-app-store"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "importass-app-store"
+      ],
+      "detail": "L’etiqueta no declara rastreig ni publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap política específica que ho aclareixi."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "importass-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap ús publicitari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "seg-social-proteccion-datos"
+      ],
+      "detail": "Altres administracions públiques per cessió reglada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "seg-social-proteccion-datos"
+      ],
+      "detail": "Entitats de la Seguretat Social com l’INSS, l’ISM i la IGSS.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La informació general esmenta tercers països «si escau», sense detall per a l’app."
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "seg-social-proteccion-datos"
+      ],
+      "detail": "Remet als terminis de cada activitat de tractament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha un compte propi que es pugui eliminar.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’app no crea cap compte propi: s’hi entra amb Cl@ve, certificat o SMS, i les dades de la Seguretat Social es conserven per obligació legal.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha compte propi.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "unknown",
+    "obstacles": "Per deixar de fer-la servir n’hi ha prou de desinstal·lar-la; la supressió de l’expedient de la Seguretat Social no es pot demanar perquè el tractament és obligatori.",
+    "sources": [
+      "importass-app-page",
+      "seg-social-proteccion-datos"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "importass-app-page"
+      ],
+      "detail": "Permet descarregar informes de vida laboral, bases de cotització i certificats, però no una còpia completa de les dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "seg-social-proteccion-datos"
+      ],
+      "detail": "Amb certificat o Cl@ve, o presencialment; delegat a delegado.protecciondatos@seg-social.es.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:delegado.protecciondatos@seg-social.es"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’app no declara publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No és un servei de comunicacions entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "importass-app-page"
+      ],
+      "detail": "Accés amb Cl@ve Mòbil, Cl@ve Permanent, certificat o SMS, i biometria opcional.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "sms",
+        "app-push"
+      ]
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "review": {
+    "researchStatus": "initial",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "No hem trobat cap política de privadesa específica de l’app. Tampoc no hem trobat incidents documentats que afectin Importass.",
+    "openQuestions": [
+      "Quins SDK de tercers inclou l’app?",
+      "A què correspon l’identificador del dispositiu declarat per a «altres finalitats»?"
+    ]
+  },
+  "appStoreBundleId": "gov.es.segsocial.importass.ios"
+}

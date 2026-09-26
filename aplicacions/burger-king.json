@@ -1,0 +1,583 @@
+{
+  "slug": "burger-king",
+  "name": "Burger King España",
+  "company": "burger-king-spain",
+  "categories": [
+    "alimentacio-i-restauracio"
+  ],
+  "tagline": "Política amb perfilat i publicitat per consentiment, però sense terminis ni proveïdors i amb restes d’esborrany",
+  "summary": "L’aplicació de Burger King a Espanya combina comandes, repartiment i el programa de punts My Burger King. La política preveu perfils comercials a partir de les comandes, el restaurant habitual i els cupons, i píxels i SDK publicitaris, tot amb consentiment. L’etiqueta de l’App Store declara rastreig amb compres, ubicació i dades de contacte. La política no fixa cap termini concret ni anomena proveïdors, i la versió publicada encara conté textos «recomanats» propis d’un esborrany.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Espanya (Burger King Spain, S.L.U.)",
+  "links": {
+    "website": "https://www.burgerking.es/",
+    "privacyPolicy": "https://www.burgerking.es/privacy-policy",
+    "appStore": "https://apps.apple.com/es/app/id649457639",
+    "playStore": "https://play.google.com/store/apps/details?id=es.burgerking.android"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "burger-king-privacy-policy"
+    ],
+    "detail": "Cal un compte per al programa My Burger King, que la política tracta a part de la navegació pel web i per l’aplicació.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "burger-king-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "L’historial de comandes amb adreça de lliurament, restaurant habitual, hores i freqüència de compra mostra rutines i hàbits alimentaris. La política diu que aquestes dades, amb els interessos inferits i el que recullen els píxels, alimenten perfils comercials.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "burger-king-privacy-policy",
+        "burger-king-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "burger-king-privacy-policy",
+        "burger-king-app-store"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "burger-king-privacy-policy",
+        "burger-king-play-data-safety"
+      ],
+      "note": "El restaurant pot trucar si hi ha un problema amb el lliurament."
+    },
+    {
+      "type": "adreca-postal",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "burger-king-privacy-policy",
+        "burger-king-app-store"
+      ],
+      "note": "Adreça de lliurament, compartida amb el restaurant i amb l’operador de repartiment."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "burger-king-privacy-policy",
+        "burger-king-app-store"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "burger-king-privacy-policy",
+        "burger-king-app-store"
+      ],
+      "note": "Amb permís del dispositiu, per mostrar restaurants propers i comprovar el repartiment."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "burger-king-privacy-policy",
+        "burger-king-play-data-safety"
+      ],
+      "note": "Les dades completes de la targeta les gestionen els proveïdors de pagament."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "burger-king-privacy-policy",
+        "burger-king-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "burger-king-privacy-policy",
+        "burger-king-app-store",
+        "burger-king-play-data-safety"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-publicitaria",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "burger-king-privacy-policy"
+      ],
+      "note": "Amb consentiment, per a atribució, audiències i remàrqueting."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "burger-king-privacy-policy"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "burger-king-privacy-policy",
+        "burger-king-app-store",
+        "burger-king-play-data-safety"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "burger-king-play-data-safety"
+      ]
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "burger-king-privacy-policy"
+      ],
+      "note": "La política esmenta expressament els «inferred interests» entre les dades de màrqueting."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "burger-king-privacy-policy",
+        "burger-king-app-store"
+      ],
+      "note": "Consultes, queixes i, si n’hi ha i s’ha informat, enregistraments."
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "burger-king-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "burger-king-privacy-policy",
+        "burger-king-app-store",
+        "burger-king-play-data-safety"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "burger-king-app-store"
+      ],
+      "detail": "L’etiqueta declara que les compres, la ubicació, les dades de contacte, el contingut de l’usuari, els identificadors, les dades d’ús i els diagnòstics s’usen per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "burger-king-privacy-policy"
+      ],
+      "detail": "Amb consentiment, per a atribució, audiències i remàrqueting.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "burger-king-privacy-policy",
+        "burger-king-play-data-safety"
+      ],
+      "detail": "La política preveu píxels i SDK de xarxes socials, plataformes publicitàries i eines d’analítica, sense anomenar-les.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "burger-king-privacy-policy"
+      ],
+      "detail": "Publicitat personalitzada, remàrqueting i creació d’audiències amb consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "burger-king-privacy-policy"
+      ],
+      "detail": "Perfils comercials a partir de l’historial de comandes, la freqüència de compra, el restaurant habitual, la zona, els cupons i les dades de píxels si s’hi ha consentit.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu res sobre l’entrenament de models d’IA."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "burger-king-privacy-policy"
+      ],
+      "detail": "Restaurants i franquiciats, operadors de repartiment, proveïdors de pagament i antifrau, proveïdors tecnològics i, amb consentiment, plataformes d’analítica i publicitat. No s’anomena cap proveïdor.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "burger-king-privacy-policy"
+      ],
+      "detail": "Les empreses del grup hi poden accedir per a serveis, campanyes, seguretat i administració de la plataforma.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu si les dades es venen."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "burger-king-privacy-policy"
+      ],
+      "detail": "Proveïdors i entitats del grup de fora de l’Espai Econòmic Europeu, amb decisions d’adequació o clàusules contractuals tipus.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "burger-king-privacy-policy"
+      ],
+      "detail": "La taula de conservació només dona criteris («as long as necessary»), sense cap termini concret.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "burger-king-privacy-policy"
+      ],
+      "detail": "Quan ja no calen, les dades es poden conservar bloquejades pels terminis legals.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "burger-king-privacy-policy",
+        "burger-king-play-data-safety"
+      ],
+      "detail": "La política reconeix el dret de supressió i la fitxa de Google Play diu que es pot demanar l’eliminació de les dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut verificar si l’aplicació té un botó per eliminar el compte; la política només indica el canal del delegat de protecció de dades."
+    },
+    "difficulty": "unknown",
+    "steps": [
+      "Envia la sol·licitud de supressió al delegat de protecció de dades pel canal rbeurope-canaletico.appcore.es.",
+      "També es pot enviar per correu postal a Avenida de Europa 26, Edificio Ática VII, 28224 Pozuelo de Alarcón (Madrid).",
+      "Identifica’t clarament i indica el dret que exerceixes; l’empresa pot demanar informació addicional per verificar la identitat."
+    ],
+    "dataRetained": "Dades de comandes i facturació durant els terminis fiscals, comptables i de consum, bloquejades.",
+    "sources": [
+      "burger-king-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "burger-king-privacy-policy"
+      ],
+      "detail": "Es reconeix el dret de portabilitat, però no hi ha eina de descàrrega.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "burger-king-privacy-policy"
+      ],
+      "detail": "Delegat de protecció de dades extern amb un canal web i adreça postal.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://rbeurope-canaletico.appcore.es/"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "burger-king-privacy-policy"
+      ],
+      "detail": "Les tecnologies publicitàries depenen del consentiment, que es pot retirar des del panell de configuració o els permisos del dispositiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "burger-king-privacy-policy"
+      ],
+      "detail": "L’analítica requereix consentiment, però els diagnòstics de l’aplicació poden basar-se en l’interès legítim segons la configuració.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "burger-king-privacy-policy"
+      ],
+      "detail": "Panell de consentiment per categories (preferències, analítica, publicitat, xarxes socials).",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi de patrons foscos a l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no transporta comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "burger-king-play-data-safety"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política diu que les mesures «may include» xifratge, sense concretar-ho."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El formulari d’inici de sessió del web només demana el correu o l’inici de sessió amb Apple; no consta verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories ni certificacions publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses de Burger King Spain ni de Restaurant Brands Europe."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap fitxer security.txt a burgerking.es ni cap canal públic per notificar vulnerabilitats."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La política publicada a burgerking.es conserva instruccions internes d’esborrany, com «In the absence of a final technical inventory, the following categories must be incorporated» o un «Recommended Text for First Layer of Cookie Banner». Això fa pensar que el text no s’ha revisat abans de publicar-lo, i per això en valorem la claredat com a baixa. El responsable és Burger King Spain, S.L.U., filial de Restaurant Brands Europe (abans Restaurant Brands Iberia), tot i que el desenvolupador que consta a l’App Store és Burger King Corporation. No hem trobat sancions de l’AEPD ni filtracions que afectin la clientela espanyola.",
+    "openQuestions": [
+      "L’aplicació permet eliminar el compte sense contactar amb el delegat de protecció de dades?",
+      "Hi ha una versió en castellà de la política amb el mateix contingut? Nosaltres només vam poder llegir la versió anglesa del mateix domini."
+    ]
+  },
+  "appStoreBundleId": "es.burgerking.burgerking-iphone"
+}

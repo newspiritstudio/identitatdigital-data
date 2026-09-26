@@ -1,0 +1,418 @@
+{
+  "version": "1.1",
+  "effectiveFrom": "2026-09-22",
+  "status": "current",
+  "summary": "Identitat.digital puntua cada servei en tres dimensions (privadesa, seguretat i control de la persona usuària) i n'obté una puntuació global ponderada (45 %, 30 % i 25 %). Cada dimensió és la mitjana ponderada d'un conjunt d'indicadors, i cada indicador prové d'una afirmació documentada amb fonts dins de la fitxa. A part hi ha una quarta xifra, el grau de confiança, que mesura la nostra anàlisi i no el servei: indica fins a quin punt hem pogut documentar allò que puntuem. Les quatre xifres es recalculen automàticament cada vegada que es desa una fitxa, i cada canvi queda registrat amb la data i el desglossament complet indicador per indicador.",
+  "principles": [
+    {
+      "title": "Desconegut no vol dir dolent",
+      "body": "Quan no hem pogut documentar una pràctica, l'indicador surt del càlcul i no suma ni resta. Penalitzar el silenci seria fer una acusació sense proves, i premiar-lo seria recompensar l'opacitat. El que baixa és el grau de confiança."
+    },
+    {
+      "title": "Tota puntuació es pot refer",
+      "body": "Cada fitxa desa el desglossament de tots els indicadors: quin valor ha pres, amb quin pes, amb quina evidència i si s'ha exclòs. Qualsevol persona pot refer el càlcul a mà i arribar al mateix número, o assenyalar on discrepa."
+    },
+    {
+      "title": "Es mesura el que es pot documentar",
+      "body": "Un indicador només puntua si hi ha una afirmació amb estat i fonts a la fitxa. No compten les impressions, la reputació ni les intuïcions sobre si una empresa «és de fiar»."
+    },
+    {
+      "title": "El que no aplica no compta",
+      "body": "Demanar xifratge d'extrem a extrem a un navegador, o eliminació de compte a un servei que no en demana, distorsionaria la comparació. Aquests indicadors es marquen com a no aplicables i queden fora tant de la puntuació com del grau de confiança."
+    },
+    {
+      "title": "Comparem dins de la mateixa necessitat",
+      "body": "Les puntuacions són comparables entre serveis que cobreixen la mateixa necessitat funcional. Un gestor de correu i una xarxa social poden tenir la mateixa xifra i no voler dir el mateix, perquè la selecció d'indicadors aplicables no és idèntica."
+    },
+    {
+      "title": "Un servei públic no es mesura com un de comercial",
+      "body": "Una administració no té model de negoci, no fa programes de recompenses per errors i sovint no permet donar-se de baixa perquè una llei l'obliga a conservar l'expedient. Mesurar-la amb els mateixos criteris que el sector privat la penalitzaria per complir la norma. Per això les fitxes marcades com a servei públic canvien de bloc d'indicadors: en surten el programa de recompenses i l'informe de transparència, i hi entren la base jurídica declarada, el registre d'activitats de tractament, l'avaluació d'impacte, la conformitat amb l'Esquema Nacional de Seguretat, el delegat de protecció de dades, l'alternativa no digital i la declaració d'accessibilitat. Quan la conservació de les dades és una obligació legal documentada, els indicadors d'eliminació del compte també queden fora. El que no canvia és la minimització: un manament legal empara el tractament, però no eximeix de ser proporcionat."
+    },
+    {
+      "title": "Una versió per cada canvi de regles",
+      "body": "Si es modifica un pes, s'afegeix un indicador o se'n canvia el càlcul, es publica una versió nova de la metodologia. Les puntuacions antigues conserven la versió amb què es van calcular i continuen sent explicables."
+    }
+  ],
+  "dimensions": [
+    {
+      "key": "privacy",
+      "label": "Privadesa",
+      "weight": 0.45
+    },
+    {
+      "key": "security",
+      "label": "Seguretat",
+      "weight": 0.3
+    },
+    {
+      "key": "agency",
+      "label": "Control de la persona usuària",
+      "weight": 0.25
+    }
+  ],
+  "indicators": [
+    {
+      "key": "data-volume",
+      "dimension": "privacy",
+      "weight": 14,
+      "label": "Minimització de dades",
+      "description": "Suma de la sensibilitat de les dades personals recollides, normalitzada contra un sostre fix. Les dades opcionals compten la meitat.",
+      "scope": "all"
+    },
+    {
+      "key": "data-sensitivity",
+      "dimension": "privacy",
+      "weight": 8,
+      "label": "Sensibilitat de les dades",
+      "description": "Penalitza recollir dades de sensibilitat màxima i categories especials de l’article 9 del RGPD.",
+      "scope": "all"
+    },
+    {
+      "key": "identity-linkage",
+      "dimension": "privacy",
+      "weight": 8,
+      "label": "Vinculació a la identitat",
+      "description": "Proporció de dades recollides que queden associades a una identitat concreta en lloc de tractar-se de manera agregada.",
+      "scope": "all"
+    },
+    {
+      "key": "targeted-advertising",
+      "dimension": "privacy",
+      "weight": 13,
+      "label": "Publicitat personalitzada",
+      "description": "Ús de dades personals per seleccionar quins anuncis veu cada persona.",
+      "scope": "all"
+    },
+    {
+      "key": "profiling",
+      "dimension": "privacy",
+      "weight": 9,
+      "label": "Elaboració de perfils",
+      "description": "Inferència d’interessos, característiques o comportaments futurs a partir de l’activitat.",
+      "scope": "all"
+    },
+    {
+      "key": "cross-app-tracking",
+      "dimension": "privacy",
+      "weight": 12,
+      "label": "Seguiment entre aplicacions i webs",
+      "description": "Seguiment de l’activitat fora del propi servei.",
+      "scope": "all"
+    },
+    {
+      "key": "third-party-trackers",
+      "dimension": "privacy",
+      "weight": 6,
+      "label": "Rastrejadors de tercers",
+      "description": "Presència de SDK o rastrejadors d’altres empreses dins de l’aplicació.",
+      "scope": "all"
+    },
+    {
+      "key": "third-party-sharing",
+      "dimension": "privacy",
+      "weight": 10,
+      "label": "Cessió a tercers",
+      "description": "Comunicació de dades personals a empreses alienes al grup.",
+      "scope": "all"
+    },
+    {
+      "key": "intra-group-sharing",
+      "dimension": "privacy",
+      "weight": 6,
+      "label": "Compartició dins del grup",
+      "description": "Circulació de dades entre les empreses del mateix conglomerat, que concentra perfils encara que no surtin de l’organització.",
+      "scope": "all"
+    },
+    {
+      "key": "data-broker-sales",
+      "dimension": "privacy",
+      "weight": 8,
+      "label": "Venda o cessió a intermediaris de dades",
+      "description": "Venda de dades personals o cessió a data brokers.",
+      "scope": "all"
+    },
+    {
+      "key": "ai-training",
+      "dimension": "privacy",
+      "weight": 6,
+      "label": "Entrenament de models amb contingut de les persones usuàries",
+      "description": "Ús del contingut generat per les persones usuàries per entrenar models. Compta com a parcial si hi ha oposició efectiva.",
+      "scope": "all"
+    },
+    {
+      "key": "retention-limits",
+      "dimension": "privacy",
+      "weight": 6,
+      "label": "Terminis de conservació documentats",
+      "description": "Existència de terminis concrets i publicats, no de fórmules obertes.",
+      "scope": "all"
+    },
+    {
+      "key": "data-after-deletion",
+      "dimension": "privacy",
+      "weight": 6,
+      "label": "Dades retingudes després d’eliminar el compte",
+      "description": "Dades que el servei declara que conserva un cop suprimit el compte.",
+      "scope": "all"
+    },
+    {
+      "key": "policy-clarity",
+      "dimension": "privacy",
+      "weight": 5,
+      "label": "Claredat de la política",
+      "description": "Si la política permet saber quines dades concretes es recullen i per a què, o si es queda en categories genèriques.",
+      "scope": "all"
+    },
+    {
+      "key": "e2ee",
+      "dimension": "security",
+      "weight": 24,
+      "label": "Xifratge d’extrem a extrem",
+      "description": "Xifratge que impedeix al propi proveïdor llegir el contingut. Puntua el màxim només si és el comportament per defecte.",
+      "scope": "all"
+    },
+    {
+      "key": "transport-encryption",
+      "dimension": "security",
+      "weight": 10,
+      "label": "Xifratge en trànsit",
+      "description": "Protecció de les comunicacions entre el dispositiu i el servidor.",
+      "scope": "all"
+    },
+    {
+      "key": "at-rest-encryption",
+      "dimension": "security",
+      "weight": 9,
+      "label": "Xifratge en repòs",
+      "description": "Xifratge de les dades emmagatzemades als servidors.",
+      "scope": "all"
+    },
+    {
+      "key": "mfa",
+      "dimension": "security",
+      "weight": 16,
+      "label": "Verificació en dos passos",
+      "description": "Disponibilitat i qualitat del segon factor. Les claus de seguretat i les passkeys puntuen més que l’SMS.",
+      "scope": "all"
+    },
+    {
+      "key": "independent-audits",
+      "dimension": "security",
+      "weight": 10,
+      "label": "Auditories independents",
+      "description": "Auditories externes de seguretat amb resultats publicats.",
+      "scope": "all"
+    },
+    {
+      "key": "bug-bounty",
+      "dimension": "security",
+      "weight": 7,
+      "label": "Programa de recompenses per errors",
+      "description": "Canal remunerat i públic per reportar vulnerabilitats.",
+      "scope": "all"
+    },
+    {
+      "key": "vulnerability-disclosure",
+      "dimension": "security",
+      "weight": 4,
+      "label": "Política de divulgació de vulnerabilitats",
+      "description": "Procediment públic per comunicar problemes de seguretat.",
+      "scope": "all"
+    },
+    {
+      "key": "open-source",
+      "dimension": "security",
+      "weight": 8,
+      "label": "Codi obert",
+      "description": "Possibilitat de verificar les afirmacions de seguretat. El codi tancat és la norma del sector i no es tracta com una vulnerabilitat: puntua baix, no zero.",
+      "scope": "all"
+    },
+    {
+      "key": "transparency-report",
+      "dimension": "security",
+      "weight": 6,
+      "label": "Informe de transparència",
+      "description": "Publicació periòdica de peticions governamentals i retirades de contingut.",
+      "scope": "all"
+    },
+    {
+      "key": "incident-history",
+      "dimension": "security",
+      "weight": 14,
+      "label": "Historial d’incidents",
+      "description": "Bretxes i incidents documentats, ponderats per gravetat i antiguitat: els de més de cinc anys hi pesen un quart.",
+      "scope": "all"
+    },
+    {
+      "key": "deletion-possible",
+      "dimension": "agency",
+      "weight": 12,
+      "label": "Es pot eliminar el compte",
+      "description": "Existeix una via documentada per suprimir el compte.",
+      "scope": "all"
+    },
+    {
+      "key": "deletion-self-service",
+      "dimension": "agency",
+      "weight": 9,
+      "label": "Eliminació autònoma",
+      "description": "Es pot fer sense escriure a suport ni justificar-se.",
+      "scope": "all"
+    },
+    {
+      "key": "deletion-direct-url",
+      "dimension": "agency",
+      "weight": 4,
+      "label": "Enllaç directe d’eliminació",
+      "description": "Existeix una adreça que porta directament al procés.",
+      "scope": "all"
+    },
+    {
+      "key": "deletion-difficulty",
+      "dimension": "agency",
+      "weight": 9,
+      "label": "Dificultat del procés",
+      "description": "Nombre de passos, obstacles i friccions deliberades.",
+      "scope": "all"
+    },
+    {
+      "key": "deletion-waiting",
+      "dimension": "agency",
+      "weight": 4,
+      "label": "Temps d’espera",
+      "description": "Dies entre la sol·licitud i la supressió efectiva.",
+      "scope": "all"
+    },
+    {
+      "key": "data-export",
+      "dimension": "agency",
+      "weight": 12,
+      "label": "Exportació de les dades",
+      "description": "Possibilitat d’obtenir una còpia de les pròpies dades.",
+      "scope": "all"
+    },
+    {
+      "key": "export-formats",
+      "dimension": "agency",
+      "weight": 4,
+      "label": "Format de l’exportació",
+      "description": "Formats oberts i llegibles per màquina enfront de formats propietaris.",
+      "scope": "all"
+    },
+    {
+      "key": "ads-optout",
+      "dimension": "agency",
+      "weight": 9,
+      "label": "Desactivació de la publicitat personalitzada",
+      "description": "Controls per deixar de rebre publicitat basada en el perfil. No aplica als serveis sense publicitat.",
+      "scope": "all"
+    },
+    {
+      "key": "telemetry-optout",
+      "dimension": "agency",
+      "weight": 6,
+      "label": "Desactivació de la telemetria",
+      "description": "Control sobre l’enviament de dades d’ús i diagnòstic.",
+      "scope": "all"
+    },
+    {
+      "key": "granular-controls",
+      "dimension": "agency",
+      "weight": 10,
+      "label": "Controls granulars de privadesa",
+      "description": "Configuració detallada de visibilitat, permisos i recollida de dades.",
+      "scope": "all"
+    },
+    {
+      "key": "privacy-by-default",
+      "dimension": "agency",
+      "weight": 7,
+      "label": "Privadesa per defecte",
+      "description": "Configuració inicial protectora sense haver de tocar res.",
+      "scope": "all"
+    },
+    {
+      "key": "rights-exercise",
+      "dimension": "agency",
+      "weight": 5,
+      "label": "Exercici dels drets RGPD",
+      "description": "Canal accessible per exercir accés, rectificació, oposició i portabilitat.",
+      "scope": "all"
+    },
+    {
+      "key": "dark-patterns",
+      "dimension": "agency",
+      "weight": 9,
+      "label": "Absència de patrons enganyosos",
+      "description": "Interfícies que dificulten deliberadament les opcions protectores de la privadesa.",
+      "scope": "all"
+    },
+    {
+      "key": "no-account-required",
+      "dimension": "agency",
+      "weight": 4,
+      "label": "Ús sense compte",
+      "description": "Possibilitat d’utilitzar el servei sense identificar-se.",
+      "scope": "all"
+    },
+    {
+      "key": "legal-basis",
+      "dimension": "privacy",
+      "weight": 10,
+      "label": "Base jurídica declarada",
+      "description": "Norma amb rang suficient que empara el tractament, citada article per article. En un servei públic el consentiment no és la base habitual: l’obligació legal o la missió d’interès públic han de constar.",
+      "scope": "public-service"
+    },
+    {
+      "key": "processing-registry",
+      "dimension": "privacy",
+      "weight": 6,
+      "label": "Registre d’activitats de tractament públic",
+      "description": "Publicació del registre que exigeix l’article 31 de la LOPDGDD, amb l’activitat concreta del servei localitzable.",
+      "scope": "public-service"
+    },
+    {
+      "key": "dpia",
+      "dimension": "privacy",
+      "weight": 6,
+      "label": "Avaluació d’impacte publicada",
+      "description": "Avaluació d’impacte relativa a la protecció de dades accessible, obligatòria en tractaments a gran escala de dades sensibles.",
+      "scope": "public-service"
+    },
+    {
+      "key": "ens-conformity",
+      "dimension": "security",
+      "weight": 12,
+      "label": "Conformitat amb l’Esquema Nacional de Seguretat",
+      "description": "Declaració o certificació de conformitat vigent amb la categoria del sistema. És l’equivalent públic de les auditories i els programes de recompenses del sector privat.",
+      "scope": "public-service"
+    },
+    {
+      "key": "dpo",
+      "dimension": "agency",
+      "weight": 5,
+      "label": "Delegat de protecció de dades identificat",
+      "description": "Persona o unitat delegada de protecció de dades amb contacte directe publicat, obligatòria a tota administració.",
+      "scope": "public-service"
+    },
+    {
+      "key": "offline-alternative",
+      "dimension": "agency",
+      "weight": 8,
+      "label": "Alternativa no digital",
+      "description": "Possibilitat de fer el mateix tràmit sense l’aplicació. Quan el servei és obligatori i no en té, el poder de decisió de la persona és nul.",
+      "scope": "public-service"
+    },
+    {
+      "key": "accessibility-statement",
+      "dimension": "agency",
+      "weight": 5,
+      "label": "Declaració d’accessibilitat",
+      "description": "Declaració vigent i localitzable segons el Reial decret 1112/2018, amb el grau de conformitat i el mecanisme de queixa.",
+      "scope": "public-service"
+    }
+  ],
+  "unknownPolicy": "Cada afirmació d'una fitxa pot prendre cinc valors: sí, parcialment, no, desconegut i no aplica. «Desconegut» i «no aplica» treuen l'indicador del numerador i del denominador de la seva dimensió, de manera que no poden moure la puntuació en cap direcció. La diferència entre tots dos és el grau de confiança: «desconegut» hi compta com a cobertura no assolida, perquè és informació que hauríem de tenir i no tenim; «no aplica» en queda completament fora, perquè no hi ha res a saber.\n\nAmb aquesta regla, un servei molt opac pot acabar amb una puntuació aparentment correcta i un grau de confiança baix. Per això, per sota de 50 punts de confiança, la puntuació es marca com a provisional i s'ha de llegir com una anàlisi encara oberta.\n\nHi ha un cas addicional. L'indicador d'historial d'incidents només puntua si una persona editora ha marcat explícitament la casella de revisió d'incidents a la fitxa. Sense aquesta marca, l'absència d'incidents registrats vol dir que no s'ha revisat, i per tant l'indicador queda exclòs.",
+  "confidenceFormula": "El grau de confiança és una mitjana ponderada de tres factors, expressada de 0 a 100:\n\nCobertura (55 %): proporció d'indicadors aplicables que tenen resposta documentada. És el factor dominant perquè és el que millor descriu si l'anàlisi està acabada.\n\nQualitat de les fonts (30 %): mitjana del nivell d'evidència dels indicadors que puntuen. La documentació oficial de l'empresa i les resolucions d'autoritats de control valen 1; les anàlisis tècniques independents, 0,9; la premsa, 0,7; la interpretació editorial pròpia, 0,45.\n\nActualitat (15 %): antiguitat de les verificacions. Una fitxa verificada fa menys de sis mesos manté el factor íntegre i decau progressivament fins als dos anys, quan es considera que la informació ja no és fiable sense tornar-la a comprovar.\n\nEl grau de confiança no valora el servei. Un servei excel·lent pot tenir una confiança baixa si encara no l'hem documentat prou, i un servei pèssim pot tenir-la molt alta si la seva mala pràctica està perfectament acreditada.",
+  "changelog": "Versió 1.1. Incorpora el bloc d'indicadors de serveis públics: base jurídica declarada, registre d'activitats de tractament, avaluació d'impacte, conformitat amb l'Esquema Nacional de Seguretat, delegat de protecció de dades, alternativa no digital i declaració d'accessibilitat. A les fitxes marcades com a servei públic, aquests indicadors substitueixen el programa de recompenses i l'informe de transparència, i els indicadors d'eliminació del compte queden fora del càlcul quan la conservació està obligada per llei. Cap pes de les dimensions ni dels indicadors comuns no s'ha modificat, de manera que les puntuacions dels serveis comercials no varien.\n\nVersió 1.0. Primera versió publicada. Fixa les tres dimensions, els indicadors comuns, el tractament de la informació desconeguda i un sostre de volum de dades de 34 punts de sensibilitat acumulada per normalitzar la minimització. El catàleg actual té 45 indicadors."
+}

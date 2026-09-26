@@ -1,0 +1,430 @@
+{
+  "slug": "bizum-pay",
+  "name": "Bizum Pay",
+  "company": "bizum",
+  "categories": [
+    "banca-i-finances"
+  ],
+  "tagline": "Una etiqueta sense rastreig ni cap dada vinculada amb la identitat",
+  "summary": "L’aplicació pròpia de Bizum declara a l’App Store només dues categories de dades, ús i diagnòstics, i totes dues sense vincular amb la identitat. La política diu que no hi ha cessions a tercers fora de l’obligació legal, tot i que el servei funciona perquè les entitats adherides, és a dir els bancs, hi participen.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Espanya",
+  "userBase": "Aplicació pròpia del servei de pagaments immediats de la banca espanyola",
+  "links": {
+    "website": "https://bizum.com/",
+    "privacyPolicy": "https://bizumpay.com/politica-de-privacidad-app-bizum-pay/",
+    "appStore": "https://apps.apple.com/es/app/id6761751498"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "bizum-privacy-policy"
+    ],
+    "detail": "L’alta al servei es fa a través d’una entitat adherida, de manera que cal tenir compte en un banc.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "bizum-pay-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Bizum sap qui paga a qui, quan i quant, encara que els diners els moguin els bancs. La política de l’aplicació enumera dades identificatives, de contacte, d’ús, tècniques i del dispositiu, i dades relacionades amb les operacions; la política general del servei afegeix l’àlies format pel nom i les inicials que es mostra abans de confirmar cada enviament.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bizum-pay-privacy-policy",
+        "bizum-privacy-policy"
+      ],
+      "note": "La política general explica que es mostra un àlies amb el nom i les inicials dels cognoms perquè qui paga confirmi el destinatari."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bizum-pay-privacy-policy"
+      ],
+      "note": "El telèfon és l’identificador del servei; la política el declara entre les dades de contacte."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "bizum-pay-privacy-policy"
+      ],
+      "note": "Les comunicacions comercials es basen en el consentiment, segons l’article 6.1.a del RGPD."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "bizum-pay-privacy-policy"
+      ],
+      "note": "La política parla de «datos relacionados con operaciones»."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "bizum-pay-privacy-policy"
+      ],
+      "note": "Dades tècniques i del dispositiu, per a seguretat i prevenció del frau."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bizum-pay-privacy-policy"
+      ],
+      "note": "La geolocalització s’empara en el consentiment «previo, expreso y revocable»."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "bizum-pay-app-store",
+        "bizum-pay-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "bizum-pay-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "bizum-pay-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap dada utilitzada per rastrejar-te en aplicacions i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "bizum-pay-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap identificador publicitari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta SDK de tercers i no hem fet una anàlisi del trànsit de l’aplicació."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bizum-pay-privacy-policy"
+      ],
+      "detail": "Hi ha comunicacions comercials del mateix Bizum basades en el consentiment; la política no descriu publicitat de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta cap elaboració de perfils."
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta l’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bizum-pay-privacy-policy",
+        "bizum-privacy-policy"
+      ],
+      "detail": "La política de l’aplicació diu que «no se cederán datos a terceros salvo obligación legal»; la política general del servei sí que preveu la cessió a les entitats adherides per poder prestar-lo.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap estructura de grup ni cessions internes."
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "bizum-pay-privacy-policy"
+      ],
+      "detail": "La política exclou expressament les cessions fora de l’obligació legal.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bizum-pay-privacy-policy"
+      ],
+      "detail": "El tractament es fa dins de l’Espai Econòmic Europeu o a països amb nivell de protecció adequat, i si escau amb clàusules contractuals tipus aprovades per la Comissió Europea.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem localitzat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bizum-pay-privacy-policy",
+        "bizum-privacy-policy"
+      ],
+      "detail": "La política de l’aplicació lliga la conservació a la relació d’usuari i al bloqueig posterior; la general dona terminis de cinc anys amb caràcter general, quatre per a les dades tributàries i dos per a les cessions publicades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bizum-pay-privacy-policy"
+      ],
+      "detail": "Acabada la relació, les dades es conserven degudament bloquejades durant els terminis necessaris per complir les obligacions legals.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bizum-pay-privacy-policy"
+      ],
+      "detail": "La política reconeix el dret de supressió i la retirada del consentiment, però no documenta cap procediment de baixa dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap pàgina d’ajuda que descrigui la baixa autoservei."
+    },
+    "difficulty": "unknown",
+    "steps": [
+      "Dona de baixa el servei Bizum des de l’aplicació del teu banc, que és l’entitat adherida que t’hi va donar accés.",
+      "Escriu a contacto@bizum.es per exercir el dret de supressió sobre les dades que tracta Bizum, S.L.",
+      "Si no obtens resposta dins de termini, reclama davant de l’AEPD."
+    ],
+    "dataRetained": "Dades bloquejades durant els terminis legals de conservació, amb un màxim general de cinc anys segons la política del servei.",
+    "sources": [
+      "bizum-pay-privacy-policy",
+      "bizum-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bizum-pay-privacy-policy"
+      ],
+      "detail": "La política reconeix el dret de portabilitat, però només per la via del correu electrònic.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:contacto@bizum.es"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bizum-pay-privacy-policy"
+      ],
+      "detail": "Accés, rectificació, supressió, oposició, limitació i portabilitat a contacto@bizum.es, amb reclamació posterior davant de l’AEPD.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:contacto@bizum.es",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bizum-pay-privacy-policy"
+      ],
+      "detail": "Les comunicacions comercials es basen en el consentiment i la política diu que es pot retirar en qualsevol moment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap control sobre l’analítica d’ús."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bizum-pay-privacy-policy"
+      ],
+      "detail": "Hi ha consentiments separables per a les comunicacions comercials i per a la geolocalització, però no un panell únic documentat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "protective",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem revisat els fluxos de consentiment de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no transporta comunicacions privades entre persones usuàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no documenta el xifratge del canal."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu el sistema d’autenticació; l’operativa de pagament la valida l’entitat adherida."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories independents publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses ni cap fitxer security.txt."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem localitzat cap canal públic de divulgació de vulnerabilitats."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "paypal",
+      "comparability": "partial",
+      "rationale": "Alternativa per enviar diners entre particulars sense passar pel compte bancari de l’altra persona.",
+      "tradeOffs": "PayPal declara onze categories de dades vinculades amb la identitat i conserva la informació deu anys després d’acabar la relació."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Si una aplicació de pagaments pot funcionar declarant només dades d’ús i diagnòstics no vinculats, les etiquetes molt més carregades de la resta del sector responen a decisions de les empreses i no a una necessitat tècnica. El punt feble és que la política de l’aplicació nega les cessions i la del servei preveu la cessió a les entitats adherides.",
+    "openQuestions": [
+      "Quin és el repartiment de responsabilitats entre Bizum, S.L. i l’entitat adherida sobre les dades de cada operació?",
+      "Hi ha una manera de donar-se de baixa de Bizum Pay sense passar per l’aplicació del banc?"
+    ]
+  },
+  "appStoreBundleId": "es.bizum.wallet"
+}

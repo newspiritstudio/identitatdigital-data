@@ -1,0 +1,590 @@
+{
+  "slug": "barcelona-a-la-butxaca",
+  "name": "Barcelona a la butxaca",
+  "company": "ajuntament-de-barcelona",
+  "categories": [
+    "administracio-publica",
+    "utilitats"
+  ],
+  "tagline": "L’app de la ciutat declara un identificador d’usuari vinculat i l’accés a les apps instal·lades, però la política no descriu cap compte",
+  "summary": "L’app oficial de l’Ajuntament de Barcelona reuneix tràmits, agenda, equipaments a prop, el cercador de residus i la notificació d’incidències a la via pública. La política és curta però concreta: identifica el responsable, el delegat de protecció de dades, la finalitat i la legitimació, remet a la fitxa 0013 del registre d’activitats i declara analítica amb una llibreria de Google. L’etiqueta de l’App Store hi afegeix un identificador d’usuari i el nom vinculats a la identitat, que la política no explica, i la política reconeix que l’app consulta quines aplicacions hi ha instal·lades al dispositiu.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "public-service",
+  "jurisdiction": "Barcelona; servei públic de l’Ajuntament de Barcelona",
+  "links": {
+    "website": "https://www.barcelona.cat/bcnalabutxaca/ca",
+    "privacyPolicy": "https://ajuntament.barcelona.cat/apps/ca/politica-privacitat-butxaca",
+    "appStore": "https://apps.apple.com/es/app/id1465234509"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "butxaca-privacitat",
+      "butxaca-app-store"
+    ],
+    "detail": "La consulta és oberta. Per notificar una incidència cal donar nom, correu i telèfon, i l’etiqueta declara un identificador d’usuari vinculat a la identitat; la política no descriu cap compte ni cap inici de sessió.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": [],
+    "detail": "No hem trobat publicat el codi de l’aplicació."
+  },
+  "publicService": {
+    "isPublicService": true,
+    "administrationLevel": "local",
+    "legalBasis": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "butxaca-privacitat",
+        "bcn-registre-activitats-tractament"
+      ],
+      "detail": "La política dona com a legitimació l’exercici de poders públics per a la gestió d’incidències, i el registre d’activitats concreta la norma: la Llei 7/1985, reguladora de les bases del règim local. No hi ha base jurídica declarada per a l’analítica ni per a la consulta d’apps instal·lades.",
+      "verifiedAt": "2026-09-22",
+      "norm": "Missió d’interès públic i exercici de poders públics; Llei 7/1985, de bases del règim local"
+    },
+    "processingRegistry": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bcn-registre-activitats-tractament",
+        "butxaca-privacitat"
+      ],
+      "detail": "La política remet al tractament 0013, «Gestió de comunicacions dels ciutadans (IRIS)», que figura al registre d’activitats publicat per l’Ajuntament en PDF i full de càlcul amb finalitat, cessions, legitimació, tipologia de dades, termini i mesures de seguretat.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://ajuntament.barcelona.cat/seuelectronica/estatics/files/tractaments/relacio_tractaments.xlsx"
+    },
+    "dpia": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat publicada cap avaluació d’impacte relativa a la protecció de dades de l’app."
+    },
+    "ensConformity": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bcn-registre-activitats-tractament"
+      ],
+      "detail": "El registre diu que les mesures de seguretat del tractament 0013 «es corresponen amb les previstes a l’annex II» del Reial decret 311/2022. És una declaració d’aplicació de mesures, no una declaració ni una certificació de conformitat, i no indica la categoria del sistema.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dpo": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "butxaca-privacitat"
+      ],
+      "detail": "Hi ha delegat de protecció de dades, contactable per formulari web o per correu postal a la via Laietana, 7. No es publica cap adreça electrònica directa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "offlineAlternative": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "butxaca-web"
+      ],
+      "detail": "L’app és un recull de serveis que existeixen per altres canals: la mateixa web del servei remet a les oficines d’atenció per fer tot tipus de gestions i tràmits, i als telèfons d’utilitat de la ciutat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "accessibilityStatement": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "butxaca-accessibilitat-ios"
+      ],
+      "detail": "La declaració per a iOS diu «parcialment conforme» amb el Reial decret 1112/2018 i es va revisar el 3 de juliol del 2026.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://ajuntament.barcelona.cat/declaracio-accessibilitat/ca/barcelona-la-butxaca-ios"
+    },
+    "mandatoryRetention": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "bcn-registre-activitats-tractament"
+      ],
+      "detail": "El registre fixa cinc anys de conservació per a les comunicacions ciutadanes, però no cita cap norma que imposi aquest termini.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataSummary": "Per notificar una incidència a la via pública cal donar nom, correu i telèfon, i s’hi poden afegir una foto i la ubicació exacta. L’Ajuntament ho guarda cinc anys i ho passa a l’òrgan que l’ha de resoldre. La resta de l’app funciona sense identificar-se, tot i que declara analítica de navegació i un identificador de dispositiu.",
+  "dataCollection": [
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "butxaca-app-store",
+        "butxaca-privacitat"
+      ],
+      "note": "Per mostrar els equipaments a prop i situar les incidències al mapa."
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "butxaca-privacitat",
+        "butxaca-app-store"
+      ],
+      "note": "Per notificar incidències. L’etiqueta el declara també per a la personalització del producte."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "butxaca-privacitat",
+        "butxaca-app-store"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "butxaca-privacitat",
+        "butxaca-app-store"
+      ]
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "butxaca-app-store",
+        "bcn-registre-activitats-tractament"
+      ],
+      "note": "L’etiqueta declara «correus o missatges de text»: és el text de la incidència, que es comunica a l’òrgan competent per resoldre-la."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "butxaca-privacitat",
+        "butxaca-app-store"
+      ],
+      "note": "Imatges adjuntes a les incidències, amb accés a la galeria del dispositiu."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "butxaca-app-store"
+      ],
+      "note": "Declarat a l’etiqueta; la política no explica a què correspon."
+    },
+    {
+      "type": "aplicacions-instal-lades",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "butxaca-privacitat"
+      ],
+      "note": "La política diu que l’app accedeix a les aplicacions instal·lades per obrir directament les altres apps municipals. L’etiqueta de l’App Store no ho declara."
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "butxaca-app-store",
+        "butxaca-privacitat"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "butxaca-app-store",
+        "butxaca-privacitat"
+      ],
+      "note": "Mètriques recollides amb una llibreria de Google, segons la política."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "butxaca-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "butxaca-app-store",
+        "butxaca-privacitat"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "butxaca-app-store"
+      ],
+      "note": "L’etiqueta no declara cap dada utilitzada per rastrejar."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "butxaca-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no té secció de dades utilitzades per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "butxaca-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap identificador publicitari i l’app no té publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "butxaca-privacitat"
+      ],
+      "detail": "La política diu que les mètriques d’ús i de rendiment es recullen amb «una llibreria de Google», sense anomenar-la.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "butxaca-privacitat"
+      ],
+      "detail": "No hi ha publicitat ni cap finalitat comercial declarada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "butxaca-privacitat"
+      ],
+      "detail": "La política diu que l’analítica serveix per «identificar possibles patrons de comportament dels usuaris», tot i que la qualifica d’anònima.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu res sobre l’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bcn-registre-activitats-tractament",
+        "butxaca-privacitat"
+      ],
+      "detail": "Les incidències es comuniquen a l’òrgan competent per resoldre-les, a entitats de dret públic i, per obligació legal, a jutjats, tribunals i cossos de seguretat. L’analítica passa per Google.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bcn-registre-activitats-tractament"
+      ],
+      "detail": "La incidència s’adreça a l’òrgan municipal competent, que pot ser una altra entitat de l’Ajuntament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "bcn-registre-activitats-tractament"
+      ],
+      "detail": "Les úniques cessions previstes són a òrgans públics i les legalment obligatòries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bcn-registre-activitats-tractament",
+        "butxaca-privacitat"
+      ],
+      "detail": "El registre diu que el tractament 0013 no fa transferències internacionals, però la política no aclareix on tracta Google les mètriques d’ús.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe sobre les dades de l’aplicació."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bcn-registre-activitats-tractament"
+      ],
+      "detail": "Les comunicacions ciutadanes es conserven cinc anys. La política no fixa cap termini per a l’analítica ni per a l’identificador d’usuari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu què passa amb les dades si es deixa de fer servir l’app."
+    },
+    "periods": [
+      {
+        "dataType": "contingut-de-missatges",
+        "period": "Cinc anys (tractament 0013, gestió de comunicacions ciutadanes)",
+        "sources": [
+          "bcn-registre-activitats-tractament"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "butxaca-privacitat"
+      ],
+      "detail": "La política reconeix el dret de supressió i dona els formularis per exercir-lo, però no descriu cap compte ni cap procediment de baixa de l’app.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap opció de baixa dins de l’app; la política no en descriu cap."
+    },
+    "difficulty": "medium",
+    "requiresSupportContact": true,
+    "steps": [
+      "Desinstal·la l’aplicació per deixar d’enviar dades d’ús, de navegació i d’ubicació.",
+      "Per demanar la supressió de les dades de les incidències que hagis notificat, fes servir els formularis d’exercici de drets que enllaça la política de privacitat de l’app.",
+      "Si no et responen, pots contactar el delegat de protecció de dades pel formulari web o per correu postal a la via Laietana, 7, de Barcelona, i després reclamar a l’APDCAT."
+    ],
+    "obstacles": "La política no explica l’identificador d’usuari que declara l’etiqueta ni si hi ha un compte que es pugui tancar.",
+    "dataRetained": "Les incidències notificades, cinc anys segons el registre d’activitats.",
+    "sources": [
+      "butxaca-privacitat",
+      "bcn-registre-activitats-tractament"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta la portabilitat."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "butxaca-privacitat"
+      ],
+      "detail": "Formularis de drets d’accés, rectificació, supressió, oposició i limitació, delegat de protecció de dades identificat i reclamació a l’APDCAT amb adreça.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://ajuntament.barcelona.cat/apps/ca/politica-privacitat-butxaca"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no mostra publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no ofereix cap manera de desactivar l’analítica de Google."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "butxaca-privacitat"
+      ],
+      "detail": "La ubicació i la galeria d’imatges depenen dels permisos del sistema, i les dades personals només es demanen per notificar incidències. No hi ha control sobre l’analítica.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem analitzat la interfície de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No és un servei de comunicació entre particulars.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "butxaca-privacitat"
+      ],
+      "detail": "La política diu que totes les dades que viatgen al servidor ho fan per HTTPS.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu res sobre el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut confirmar si hi ha cap inici de sessió ni, per tant, si té doble factor."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap auditoria de seguretat publicada."
+    },
+    "bugBounty": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Administració pública: el bloc de servei públic substitueix aquest indicador per la conformitat amb l’ENS.",
+      "verifiedAt": "2026-09-22"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha fitxer security.txt a barcelona.cat ni a ajuntament.barcelona.cat."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La política està ben lligada al registre d’activitats: dona el codi del tractament i s’hi pot comprovar la base legal, el termini i les mesures de seguretat. Les discrepàncies són a l’etiqueta de l’App Store: declara un identificador d’usuari i el nom vinculats per «personalitzar el producte», i no declara la consulta d’aplicacions instal·lades que la política reconeix. No hem trobat cap incident ni resolució de l’APDCAT sobre l’app.",
+    "openQuestions": [
+      "Què és l’identificador d’usuari que declara l’etiqueta, i hi ha algun inici de sessió dins de l’app?",
+      "Quina llibreria de Google recull les mètriques i on es tracten?",
+      "Quines dades de les apps instal·lades llegeix l’app i si surten del dispositiu?"
+    ]
+  },
+  "appStoreBundleId": "cat.bcn.butxaca"
+}

@@ -1,0 +1,633 @@
+{
+  "slug": "shein",
+  "name": "SHEIN",
+  "company": "shein-infinite-styles",
+  "categories": [
+    "comerc-electronic"
+  ],
+  "tagline": "Moda ultraràpida amb rastreig declarat, transferències a la Xina i una sanció de 150 milions per galetes",
+  "summary": "SHEIN és un mercat en línia que ven directament i també connecta amb venedors de fora de la UE, als quals passa les dades d’enviament. La política admet transferències a la Xina, Singapur, les Filipines i altres països, i l’ús de xats d’atenció al client desidentificats per entrenar models de qualitat, també amb ChatGPT. La CNIL la va sancionar el 2025 amb 150 milions d’euros per instal·lar galetes publicitàries sense consentiment i no respectar-ne el rebuig.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Irlanda, per a persones usuàries de l’Espai Econòmic Europeu",
+  "links": {
+    "website": "https://es.shein.com/",
+    "privacyPolicy": "https://es.shein.com/Privacy-Security-Policy-a-282.html",
+    "privacyCenter": "https://roe.shein.com/Privacy-Center-a-1045.html",
+    "appStore": "https://apps.apple.com/es/app/id878577184"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "shein-privacy-notice"
+    ],
+    "detail": "Cal registrar-se amb nom i correu o telèfon per comprar.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "shein-privacy-notice"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "SHEIN recull la talla, la forma del cos, l’estil, les compres i les preferències de roba de maternitat, que la mateixa política reconeix com a possible dada de salut. Amb els perfils infantils (edat aproximada i gènere) i l’adreça d’enviament, que es comparteix amb venedors de tot el món, permet saber força coses de la composició d’una llar.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "shein-privacy-notice",
+        "shein-app-store"
+      ],
+      "note": "Es comparteix amb els venedors externs quan envien directament."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "shein-privacy-notice",
+        "shein-app-store"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "shein-privacy-notice",
+        "shein-app-store"
+      ],
+      "note": "Màrqueting per SMS i WhatsApp només amb consentiment."
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "shein-privacy-notice",
+        "shein-app-store"
+      ],
+      "note": "Per a lliurament i duanes, també amb transportistes i venedors de fora de l’EEE."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "shein-privacy-notice",
+        "shein-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "investigacio-i-estadistica",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "shein-privacy-notice",
+        "shein-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "shein-privacy-notice"
+      ],
+      "note": "Productes vistos, comprats o afegits a la llista de desitjos."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "shein-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "shein-privacy-notice"
+      ],
+      "note": "La preferència per roba de maternitat es tracta com a categoria especial amb consentiment explícit; també la talla i la forma del cos, si s’indiquen."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "shein-privacy-notice"
+      ],
+      "note": "Fotos a les ressenyes, públiques, i imatge facial per a la verificació d’edat, que fa un tercer."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari",
+        "entrenament-de-models-dia"
+      ],
+      "sources": [
+        "shein-privacy-notice"
+      ],
+      "note": "Els xats d’atenció al client, desidentificats, s’usen per entrenar models de qualitat i els revisen persones a la Xina i les Filipines."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "shein-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "shein-app-store",
+        "shein-privacy-notice"
+      ],
+      "note": "L’etiqueta declara «identificadors» utilitzats per rastrejar."
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "shein-privacy-notice"
+      ],
+      "note": "Inclou si el dispositiu té activada l’autenticació biomètrica (sí o no), no la dada biomètrica."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "shein-privacy-notice"
+      ],
+      "note": "Ubicació per IP per dirigir a la botiga local i estimar els terminis de lliurament."
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "shein-privacy-notice",
+        "shein-cnil-2025"
+      ],
+      "note": "Galetes de Google Ads, Microsoft Advertising i Meta."
+    },
+    {
+      "type": "genere",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "shein-privacy-notice"
+      ],
+      "note": "Als perfils infantils es demanen l’edat aproximada i el gènere de l’infant."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "shein-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "shein-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store declara identificadors utilitzats per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "shein-privacy-notice",
+        "shein-app-store"
+      ],
+      "detail": "Remàrqueting amb Google Ads, Microsoft Advertising i Facebook.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "regulator",
+      "sources": [
+        "shein-cnil-2025",
+        "shein-privacy-notice"
+      ],
+      "detail": "La CNIL va constatar galetes publicitàries de tercers instal·lades en arribar al web, abans de cap consentiment.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "shein-privacy-notice"
+      ],
+      "detail": "Publicitat basada en interessos i remàrqueting a altres webs, amb consentiment a través del bàner de galetes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "shein-privacy-notice"
+      ],
+      "detail": "Sistema de recomanació amb l’activitat i les compres, i decisions automatitzades per restringir devolucions o suspendre comptes amb un índex de devolucions alt.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "shein-privacy-notice"
+      ],
+      "detail": "Els xats d’atenció al client, desidentificats, s’usen per entrenar models interns de qualitat i s’analitzen amb proveïdors externs com ChatGPT. Es pot exercir l’oposició.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "shein-privacy-notice"
+      ],
+      "detail": "Venedors externs del mercat (com a responsables independents), logística, pagaments, màrqueting i publicitat, prevenció del frau i proveïdors d’IA.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "shein-privacy-notice"
+      ],
+      "detail": "Amb les empreses del grup SHEIN, també per a la continuïtat de la personalització.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política europea no diu explícitament si ven dades personals."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "shein-privacy-notice"
+      ],
+      "detail": "Transferències o accessos des de la Xina, Colòmbia, Egipte, el Marroc, Indonèsia, les Filipines, Singapur i els Estats Units.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència sobre peticions d’autoritats en matèria de dades."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "shein-privacy-notice"
+      ],
+      "detail": "La taula de tractaments dona criteris per a cada dada, majoritàriament «mentre el compte sigui actiu més un temps raonable», amb pocs terminis concrets.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "shein-privacy-notice"
+      ],
+      "detail": "Es conserven les dades de pagament per obligació fiscal i les necessàries per a disputes o investigacions reguladores.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "shein-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "shein-delete-account"
+      ],
+      "detail": "A la UE, el Regne Unit i els Estats Units es pot eliminar des de l’aplicació. Fora d’aquestes zones cal demanar-ho a atenció al client.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "requiresSupportContact": false,
+    "steps": [
+      "A l’aplicació, obre «Yo» i entra a la configuració.",
+      "Tria «Seguridad de la cuenta» i després «Eliminar cuenta».",
+      "Llegeix les condicions, marca la casella i confirma la sol·licitud."
+    ],
+    "obstacles": "Abans cal no tenir comandes pendents ni saldo al moneder de SHEIN ni processos oberts; la resta de dades es perden sense possibilitat de recuperar-les.",
+    "dataRetained": "Dades de pagament i facturació durant els terminis fiscals, i les necessàries per a disputes o investigacions.",
+    "sources": [
+      "shein-delete-account",
+      "shein-privacy-notice"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "shein-privacy-notice"
+      ],
+      "detail": "La portabilitat es lliura en format de full de càlcul Excel, a petició al centre de privadesa.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://roe.shein.com/Privacy-Center-a-1045.html"
+    },
+    "exportFormatQuality": "mixed",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "shein-privacy-notice"
+      ],
+      "detail": "Centre de privadesa i delegat de protecció de dades a Dublín, amb resposta en un mes ampliable a tres.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacy@sheingroup.com",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "shein-privacy-notice"
+      ],
+      "detail": "Gestor de galetes amb opció de rebutjar les de publicitat i xarxes socials; màrqueting directe per canal a «Preferencias de contacto».",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "shein-privacy-notice"
+      ],
+      "detail": "Les galetes de rendiment es poden rebutjar al web; a l’aplicació no hem vist un control equivalent documentat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "shein-privacy-notice"
+      ],
+      "detail": "Controls separats per a galetes, canals de màrqueting i ús dels xats per a IA (per oposició).",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "yes",
+      "level": "regulator",
+      "sources": [
+        "shein-cnil-2025"
+      ],
+      "detail": "La CNIL va constatar que el botó «rebutjar-ho tot» no impedia instal·lar noves galetes publicitàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "unbalanced-consent",
+        "severity": "high",
+        "description": "Galetes publicitàries instal·lades en arribar al web i que continuaven instal·lant-se després de rebutjar-les o retirar el consentiment, segons la CNIL (2023-2025).",
+        "sources": [
+          "shein-cnil-2025"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no ofereix comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política parla de mesures «estàndard del sector» sense concretar el xifratge."
+    },
+    "atRestEncryption": {
+      "status": "no",
+      "level": "regulator",
+      "sources": [
+        "shein-nyag-2022"
+      ],
+      "detail": "El 2018 hi havia dades de targetes exposades en text pla i contrasenyes mal protegides, segons la fiscalia de Nova York. No sabem l’estat actual.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació oficial sobre verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories de seguretat independents publicades."
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "shein-hackerone"
+      ],
+      "detail": "Programa de recompenses a HackerOne i centre de resposta de seguretat propi.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://hackerone.com/shein"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "shein-hackerone"
+      ],
+      "detail": "Canal de notificació a través de HackerOne i security.shein.com.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "vinted",
+      "comparability": "partial",
+      "rationale": "Per a roba, la compravenda de segona mà entre particulars evita dependre d’un mercat que transfereix dades a venedors i empreses de fora de l’EEE.",
+      "tradeOffs": "No és una botiga: l’oferta depèn del que venen altres persones i també recull dades."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "L’estat de la sanció de la CNIL cal revisar-lo: SHEIN va anunciar recurs davant del Conseil d’État. Les investigacions de la Comissió Europea i de la xarxa CPC sobre SHEIN tracten sobretot de productes il·legals i pràctiques comercials, no de dades personals, i no les hem comptat com a incidents de privadesa.",
+    "openQuestions": [
+      "Quin és l’estat del recurs contra la sanció de la CNIL?",
+      "Quines dades de l’aplicació arriben efectivament a les empreses del grup a la Xina?"
+    ]
+  },
+  "appStoreBundleId": "zzkko.com.ZZKKO"
+}

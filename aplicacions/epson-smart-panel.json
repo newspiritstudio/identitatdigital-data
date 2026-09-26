@@ -1,0 +1,392 @@
+{
+  "slug": "epson-smart-panel",
+  "name": "Epson Smart Panel",
+  "company": "epson-europe",
+  "categories": [
+    "utilitats"
+  ],
+  "tagline": "L’aplicació que controla la impressora no té cap política de privadesa pròpia localitzable",
+  "summary": "Epson Smart Panel configura i governa les impressores i els escàners d’Epson des del telèfon: hi passen els documents que s’imprimeixen i s’escanegen, i l’estat dels consumibles. No hem localitzat cap declaració de privadesa específica de l’aplicació, i l’única font pública aplicable és la declaració corporativa d’Epson Europe B.V., que parla de màrqueting i de la botiga en línia, no de l’aparell.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "unknown",
+  "jurisdiction": "Països Baixos, per a les persones usuàries europees",
+  "links": {
+    "website": "https://www.epson.eu",
+    "privacyPolicy": "https://www.epson.eu/en_EU/privacy",
+    "appStore": "https://apps.apple.com/es/app/id1477796092"
+  },
+  "accountRequired": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": [],
+    "detail": "No hem pogut verificar si cal un compte d’Epson per a les funcions bàsiques de configuració i impressió."
+  },
+  "openSource": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": [],
+    "detail": "No consta cap component publicat amb llicència lliure."
+  },
+  "dataSummary": "Una aplicació d’impressió veu el que s’imprimeix i el que s’escaneja: contractes, receptes mèdiques, documents d’identitat. Sense una declaració de privadesa pròpia no es pot saber quina part d’aquest flux queda al telèfon, quina passa per la xarxa local i quina arriba als servidors d’Epson.",
+  "dataCollection": [
+    {
+      "type": "fitxers-i-documents",
+      "status": "unknown",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "note": "L’aplicació imprimeix i escaneja documents, però cap font pública descriu si en surt res del dispositiu ni de la xarxa local."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "unknown",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "note": "La impressió de fotografies és una de les funcions principals; no hi ha documentació sobre el seu tractament."
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "epson-europe-privacy"
+      ],
+      "note": "Segons la declaració corporativa, quan es registra un producte o es fa servir la botiga en línia."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "epson-europe-privacy"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "epson-europe-privacy"
+      ]
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "epson-europe-privacy"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "epson-europe-privacy"
+      ],
+      "note": "Compres a la botiga d’Epson, no consum de l’aparell."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "unknown",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "note": "No hem trobat documentació sobre la telemetria que l’aplicació o la impressora envien al fabricant."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Cap font pública ho descriu."
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Cap font pública ho descriu."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Cap font pública ho descriu."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "epson-europe-privacy"
+      ],
+      "detail": "La declaració corporativa descriu màrqueting directe i elaboració de perfils de client basats en l’interès legítim, però referits al web i a la botiga, no a l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "epson-europe-privacy"
+      ],
+      "detail": "Anàlisi de mercat i perfils de client, segons la declaració corporativa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Cap font pública ho descriu."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "epson-europe-privacy"
+      ],
+      "detail": "Proveïdors que actuen seguint instruccions d’Epson.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "epson-europe-privacy"
+      ],
+      "detail": "Les dades circulen dins del grup Epson internacional.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La declaració no esmenta la venda de dades a intermediaris."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "epson-europe-privacy"
+      ],
+      "detail": "Transferències fora de l’Espai Econòmic Europeu emparades en decisions d’adequació o clàusules contractuals tipus.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "epson-europe-privacy"
+      ],
+      "detail": "La declaració corporativa fixa dos anys per a màrqueting i deu per a la botiga en línia, però no diu res dels documents que passen per l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha documentació específica de l’aplicació."
+    },
+    "periods": [
+      {
+        "period": "2 anys des del darrer contacte, per a les dades de màrqueting",
+        "sources": [
+          "epson-europe-privacy"
+        ]
+      },
+      {
+        "period": "10 anys per a les dades de la botiga en línia",
+        "sources": [
+          "epson-europe-privacy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "epson-europe-privacy"
+      ],
+      "detail": "El dret de supressió es reconeix a la declaració corporativa, que remet a un formulari de contacte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut verificar si l’aplicació permet esborrar el compte d’Epson."
+    },
+    "difficulty": "unknown",
+    "steps": [
+      "Fes servir el formulari de contacte de privadesa d’Epson Europe per demanar la supressió.",
+      "Com a alternativa, escriu al delegat de protecció de dades, edpo@epson.eu."
+    ],
+    "sources": [
+      "epson-europe-privacy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "epson-europe-privacy"
+      ],
+      "detail": "El dret de portabilitat es reconeix, sense eina d’autoservei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "epson-europe-privacy"
+      ],
+      "detail": "Hi ha un delegat de protecció de dades europeu amb adreça pública.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:edpo@epson.eu"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "epson-europe-privacy"
+      ],
+      "detail": "Les preferències de màrqueting es gestionen des del compte d’Epson i des dels enllaços de baixa dels correus.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha documentació sobre la telemetria de l’aplicació ni sobre com desactivar-la."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha documentació sobre els controls de privadesa dins de l’aplicació."
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Sense documentació específica de l’aplicació no es pot valorar."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "La impressió passa per la xarxa local o pel servei d’impressió remota; no és una comunicació entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha documentació pública sobre el xifratge del trànsit de l’aplicació."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha documentació pública."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut verificar si el compte d’Epson admet verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories independents publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem localitzat cap canal públic de comunicació de vulnerabilitats."
+    }
+  },
+  "review": {
+    "researchStatus": "initial",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Molts camps d’aquesta fitxa consten com a desconeguts. Una aplicació que manipula documents impresos i escanejats hauria de tenir una declaració de privadesa pròpia i accessible; no l’hem trobada, i l’única font aplicable parla de màrqueting i de la botiga en línia. Les pàgines de suport d’Epson van respondre amb errors 403 i 404 durant la revisió.",
+    "openQuestions": [
+      "L’etiqueta de privadesa de l’App Store no s’ha pogut consultar: Apple va respondre amb un error 429 durant tota la revisió.",
+      "Existeix una declaració de privadesa específica d’Epson Smart Panel? On es publica?",
+      "Els documents que s’escanegen i s’imprimeixen passen en algun moment pels servidors d’Epson?"
+    ]
+  },
+  "appStoreBundleId": "com.epson.Epson-Smart"
+}

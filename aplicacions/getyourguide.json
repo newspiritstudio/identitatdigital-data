@@ -1,0 +1,626 @@
+{
+  "slug": "getyourguide",
+  "name": "GetYourGuide",
+  "company": "getyourguide-deutschland",
+  "categories": [
+    "viatges-i-allotjament"
+  ],
+  "tagline": "Política alemanya detallada i servidors a la UE, però amb correu i identificador de dispositiu declarats per a publicitat de tercers",
+  "summary": "GetYourGuide ven entrades i activitats i documenta el tractament amb molt de detall: el proveïdor de cada eina, on és i amb quina garantia de transferència. L’adreça IP es desa xifrada i s’esborra als trenta dies, i els servidors d’AWS són a la Unió Europea. La llista de desitjos serveix per fer recomanacions i publicitat dirigida per interès legítim, l’etiqueta de l’App Store declara correu i identificador de dispositiu per a publicitat de tercers, i les dades de la reserva, que poden incloure passaport, edat, dieta o necessitats d’accessibilitat, van al proveïdor de l’activitat, que n’és responsable independent.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Alemanya: responsable GetYourGuide Deutschland GmbH, amb seu a Berlín",
+  "links": {
+    "website": "https://www.getyourguide.es/",
+    "privacyPolicy": "https://www.getyourguide.com/c/privacy-policy/",
+    "appStore": "https://apps.apple.com/es/app/id705079381"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "getyourguide-privacy-policy"
+    ],
+    "detail": "La política diu expressament que no cal registrar-se per fer servir el servei; el compte permet desar llistes de desitjos, gestionar reserves i configurar notificacions.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "editorial",
+    "sources": [],
+    "detail": "Aplicació privativa; no hi ha cap repositori públic del client.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Reservar una activitat diu on seràs, quin dia i a quina hora, amb quanta gent i, sovint, dades que el RGPD tracta com a categoria especial: al·lèrgies, dieta o necessitats d’accessibilitat. Aquestes dades arriben al guia o a l’empresa que fa l’activitat, sovint fora de la Unió Europea.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "getyourguide-privacy-policy",
+        "getyourguide-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada",
+        "cessio-a-tercers"
+      ],
+      "sources": [
+        "getyourguide-privacy-policy",
+        "getyourguide-app-store"
+      ],
+      "note": "L’etiqueta la declara també per a publicitat de tercers."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "getyourguide-privacy-policy"
+      ],
+      "note": "Per als avisos de reserva per SMS, enviats amb Twilio."
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "getyourguide-privacy-policy"
+      ],
+      "note": "Adreça de facturació."
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "getyourguide-privacy-policy"
+      ],
+      "note": "Número de passaport, quan l’activitat ho exigeix."
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "getyourguide-privacy-policy"
+      ],
+      "note": "Categoria especial: requisits dietètics o necessitats d’accessibilitat, amb consentiment explícit segons l’article 9.2.a del RGPD."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "getyourguide-privacy-policy",
+        "getyourguide-app-store"
+      ],
+      "note": "Amb proveïdors de pagament que actuen com a responsables, i amb Forter i Ethoca per al control del frau; si es paga per factura, Klarna fa una avaluació creditícia amb valors de puntuació."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "getyourguide-privacy-policy",
+        "getyourguide-app-store"
+      ]
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "publicitat-personalitzada",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "getyourguide-privacy-policy"
+      ],
+      "note": "Les llistes de desitjos, l’historial de cerca i de reserves i la ubicació ordenen els resultats i alimenten la publicitat dirigida, per interès legítim."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "getyourguide-app-store",
+        "getyourguide-privacy-policy"
+      ]
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "getyourguide-privacy-policy"
+      ],
+      "note": "Les valoracions poden mostrar el nom, la franja d’edat, el país i fotos, i es poden publicar en webs d’empreses afiliades i en material promocional; es poden enviar de manera anònima."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "getyourguide-privacy-policy"
+      ],
+      "note": "Es desa xifrada i s’esborra al cap de 30 dies."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "getyourguide-app-store"
+      ],
+      "note": "L’etiqueta la declara sense vincular al compte."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "getyourguide-app-store",
+        "getyourguide-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria",
+        "cessio-a-tercers"
+      ],
+      "sources": [
+        "getyourguide-app-store",
+        "getyourguide-privacy-policy"
+      ],
+      "note": "Els SDK de l’aplicació registren identificadors de dispositiu, adreça IP, activitat dins de l’aplicació i ubicació de xarxa."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "getyourguide-app-store"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "getyourguide-privacy-policy"
+      ],
+      "note": "Amb Google i Meta per a analítica i publicitat de retorn, amb consentiment."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "getyourguide-app-store",
+        "getyourguide-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "getyourguide-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "getyourguide-app-store"
+      ],
+      "detail": "L’etiqueta declara identificadors utilitzats per rastrejar la persona entre aplicacions i llocs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "getyourguide-privacy-policy",
+        "getyourguide-app-store"
+      ],
+      "detail": "Els SDK de l’aplicació registren identificadors únics del dispositiu i l’etiqueta els declara per a publicitat de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "getyourguide-privacy-policy"
+      ],
+      "detail": "Google Ireland per a analítica i publicitat de retorn, Meta, Smartly.io per avaluar els anuncis i Braze per a notificacions personalitzades.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "getyourguide-privacy-policy",
+        "getyourguide-app-store"
+      ],
+      "detail": "Publicitat i remàrqueting amb Google i Meta amb consentiment, i llistes de desitjos utilitzades per mostrar anuncis dirigits per interès legítim.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "getyourguide-privacy-policy"
+      ],
+      "detail": "La política descriu la personalització del contingut i l’ordenació dels resultats de cerca segons l’historial de cerca i de reserves, la ubicació i les interaccions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política descriu un xatbot amb tecnologia d’IA de Voiceflow i una eina d’Assembled per a l’atenció al client, però no diu si les converses s’utilitzen per entrenar models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "getyourguide-privacy-policy"
+      ],
+      "detail": "Amb el proveïdor de l’activitat reservada, que actua com a responsable independent, i amb encarregats com Zendesk, Assembled, Sprout Social, Braze, Twilio, Datadog i AWS.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "getyourguide-privacy-policy"
+      ],
+      "detail": "Les consultes d’atenció al client les pot tractar la filial GetYourGuide Global Services GmbH.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu expressament si ven o no dades personals."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "getyourguide-privacy-policy"
+      ],
+      "detail": "Amb clàusules contractuals tipus o el marc de privadesa de dades UE–EUA segons el proveïdor; les dades de la reserva enviades a proveïdors d’activitats de fora de l’Espai Econòmic Europeu s’emparen en els articles 49.1.b i 49.1.c del RGPD.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència de peticions governamentals de dades."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "getyourguide-privacy-policy"
+      ],
+      "detail": "Hi ha un termini explícit per a l’adreça IP (30 dies); la resta s’esborra o s’anonimitza «tan aviat com deixi de ser necessària», sense terminis publicats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "getyourguide-privacy-policy"
+      ],
+      "detail": "En eliminar el compte, el perfil s’esborra de manera completa i permanent, però es conserven còpies de seguretat mentre calguin per motius legals o per defensar reclamacions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "adreca-ip",
+        "period": "30 dies, desada xifrada",
+        "sources": [
+          "getyourguide-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "getyourguide-privacy-policy"
+      ],
+      "detail": "La política diu que, en eliminar el compte, el perfil s’esborra de manera completa i permanent.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política remet al formulari de sol·licitud de drets i no documenta cap botó d’eliminació dins de l’aplicació."
+    },
+    "difficulty": "medium",
+    "requiresSupportContact": true,
+    "steps": [
+      "Obre el formulari de sol·licitud de drets que enllaça la política de privadesa, o escriu a l’equip de privadesa de GetYourGuide.",
+      "Demana-hi la supressió del compte i de les dades personals.",
+      "Si només vols deixar de rebre avisos, canvia-ho a «Configuració» i «Notificacions» del perfil.",
+      "Revisa també les preferències de galetes i de màrqueting del web i del menú de privadesa de l’aplicació."
+    ],
+    "obstacles": "Les dades enviades al proveïdor de l’activitat les tracta aquesta empresa com a responsable independent i no depenen de GetYourGuide. Les còpies de seguretat es conserven mentre siguin necessàries per a reclamacions.",
+    "dataRetained": "Còpies de seguretat conservades per motius legals o per assegurar i defensar reclamacions.",
+    "sources": [
+      "getyourguide-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "getyourguide-privacy-policy"
+      ],
+      "detail": "Dret d’accés i de portabilitat previstos a la política, exercibles amb el formulari de sol·licitud o per correu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "getyourguide-privacy-policy"
+      ],
+      "detail": "Formulari de sol·licitud de drets, correu postal o correu electrònic a l’equip de privadesa; hi ha delegat de protecció de dades extern.",
+      "verifiedAt": "2026-09-22",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "getyourguide-privacy-policy"
+      ],
+      "detail": "Les galetes i els SDK de publicitat es poden desactivar per categories, però l’ús de la llista de desitjos per a publicitat dirigida es basa en l’interès legítim i només s’hi pot oposar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "getyourguide-privacy-policy"
+      ],
+      "detail": "L’eina de preferències permet activar i desactivar categories de tecnologies, excepte les estrictament necessàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "getyourguide-privacy-policy"
+      ],
+      "detail": "Preferències de galetes i de màrqueting per categories al web i al menú de privadesa de l’aplicació, i preferències de notificacions al perfil.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi de patrons foscos de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És una aplicació de reserva d’activitats: no hi ha comunicacions privades entre persones que es puguin xifrar d’extrem a extrem.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "getyourguide-privacy-policy"
+      ],
+      "detail": "La política diu que les dades personals tractades pel xatbot es xifren en trànsit i en repòs, i que l’adreça IP es desa xifrada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "getyourguide-privacy-policy"
+      ],
+      "detail": "Hi ha xifratge en repòs documentat per a l’adreça IP i per a les dades del xatbot; la política no ho generalitza a la resta de dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap documentació sobre verificació en dos passos del compte."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap auditoria ni certificació de seguretat publicada."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa públic de recompenses per vulnerabilitats."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "no",
+      "level": "editorial",
+      "sources": [],
+      "detail": "Comprovació pròpia: getyourguide.com no publica cap fitxer /.well-known/security.txt accessible.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La política de GetYourGuide és detallada pel que fa a encarregats i a garanties de transferència: identifica cada proveïdor i la base jurídica de cada tractament. El lloc bloqueja la lectura automatitzada i n’hem consultat la versió arxivada a la Wayback Machine (setembre de 2026).",
+    "openQuestions": [
+      "Es pot eliminar el compte des de l’aplicació, o només per sol·licitud a l’equip de privadesa?",
+      "Les converses amb el xatbot d’IA s’utilitzen per entrenar o ajustar models?"
+    ]
+  },
+  "appStoreBundleId": "com.getyourguide.mobile.GetYourGuide"
+}

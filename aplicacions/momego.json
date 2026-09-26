@@ -1,0 +1,450 @@
+{
+  "slug": "momego",
+  "name": "Momego",
+  "company": "transit-now",
+  "categories": [
+    "mobilitat-i-transport",
+    "mapes-i-navegacio"
+  ],
+  "tagline": "Transport públic amb la ubicació processada només en memòria i sense cap dada vinculada a la identitat",
+  "summary": "Momego té una política curta que explica decisions tècniques concretes de minimització. La ubicació es converteix en cel·les H3 i només es manté en memòria mentre dura el trajecte; l’analítica va a un OpenPanel autoallotjat; el correu de suport s’esborra trenta dies després de tancar la incidència. L’etiqueta de l’App Store no declara cap dada vinculada a la identitat ni cap dada de rastreig, tot i que l’app integra AppLovin i AdMob per als anuncis.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "advertising",
+  "jurisdiction": "Regne Unit",
+  "links": {
+    "website": "https://travelwhiz.app/",
+    "privacyPolicy": "https://travelwhiz.app/privacy.html",
+    "terms": "https://travelwhiz.app/terms.html",
+    "appStore": "https://apps.apple.com/es/app/id1281251210"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "momego-privacy-policy"
+    ],
+    "detail": "La política no descriu cap registre: el correu només es recull si s’escriu al suport.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "momego-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Momego no desa a quina parada ets ni cap a on vas: la ubicació es generalitza en cel·les H3, es tracta en memòria i s’esborra en acabar el viatge. Sí que recull l’analítica d’ús i els identificadors que demanen les xarxes publicitàries.",
+  "dataCollection": [
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "momego-privacy-policy",
+        "momego-app-store"
+      ],
+      "note": "La política diu que es fa servir la cel·la H3 durant el viatge i que no es desa un cop acabat; l’etiqueta la declara per a «publicitat de tercers»."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "momego-app-store"
+      ],
+      "note": "Declarada per al funcionament de l’app i com a dada no vinculada a la identitat."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "momego-privacy-policy"
+      ],
+      "note": "Només si s’obre una incidència de suport; s’esborra trenta dies després de tancar-la."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "momego-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "momego-app-store"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "momego-app-store"
+      ],
+      "note": "Correspon a la categoria «Datos de publicidad» de l’etiqueta, declarada per a publicitat de tercers i no vinculada a la identitat."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "momego-privacy-policy"
+      ],
+      "note": "La política adverteix que, encara que no s’hi faci publicitat personalitzada, els socis poden deduir la ubicació aproximada per l’adreça IP."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "momego-app-store",
+        "momego-privacy-policy"
+      ],
+      "note": "Les compres dins de l’app es gestionen amb RevenueCat."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "momego-app-store",
+        "momego-privacy-policy"
+      ],
+      "note": "L’analítica va a un tauler d’OpenPanel autoallotjat pel mateix desenvolupador."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "momego-app-store",
+        "momego-privacy-policy"
+      ],
+      "note": "Bugsnag rep el tipus de dispositiu i el país."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "momego-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap dada utilitzada per rastrejar en apps i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "momego-app-store",
+        "momego-privacy-policy"
+      ],
+      "detail": "L’etiqueta declara «dades de publicitat» per a publicitat de tercers, però no vinculades a la identitat, i la política diu que no permet publicitat personalitzada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "momego-privacy-policy"
+      ],
+      "detail": "AppLovin i Google AdMob per als anuncis, Bugsnag per als errors, RevenueCat per a les compres i Firebase Cloud Messaging per a les notificacions.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "momego-privacy-policy"
+      ],
+      "detail": "La política diu expressament que no permet publicitat personalitzada, tot i que els socis poden deduir la ubicació aproximada per l’adreça IP.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "momego-privacy-policy"
+      ],
+      "detail": "No descriu cap perfilat: les dades de trajecte no es conserven.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no en diu res."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "momego-privacy-policy"
+      ],
+      "detail": "AppLovin, AdMob, Bugsnag, RevenueCat i els serveis de notificacions de Google i Apple; l’analítica és autoallotjada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [
+        "momego-terms"
+      ],
+      "detail": "Les condicions d’ús alternen els noms de Transit Now Ltd i BusExpert Ltd sense explicar la relació entre totes dues ni si es comparteixen dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no en diu res."
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta les transferències internacionals ni el RGPD."
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "momego-privacy-policy"
+      ],
+      "detail": "Les dades del trajecte s’esborren en acabar el viatge i el correu de suport, trenta dies després de tancar la incidència; per a l’analítica i els informes d’error no dona termini.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu què queda perquè no descriu cap compte."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no crea cap compte de persona usuària: la política només parla del correu de suport.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha compte que eliminar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "unknown",
+    "dataRetained": "El correu de suport s’esborra trenta dies després de tancar la incidència.",
+    "sources": [
+      "momego-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta el dret de portabilitat."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "momego-privacy-policy"
+      ],
+      "detail": "La política no enumera cap dret del RGPD ni cap autoritat de control; només dona una adreça de contacte.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "La política declara que no hi ha publicitat personalitzada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap manera de desactivar l’analítica d’OpenPanel."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Els permisos del sistema operatiu són els únics controls que hem pogut verificar."
+    },
+    "defaultPosture": "protective",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És una aplicació d’informació de transport, sense comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "momego-privacy-policy"
+      ],
+      "detail": "Les dades del viatge actiu es processen «en memòria, mai en disc», de manera que no hi ha res a xifrar en repòs mentre dura el trajecte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha comptes de persona usuària.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El domini travelwhiz.app no publica cap fitxer security.txt."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "citymapper",
+      "comparability": "equivalent",
+      "rationale": "Cobreix les mateixes ciutats amb més serveis integrats.",
+      "tradeOffs": "Vincula la ubicació i l’adreça de casa a la identitat i les declara per a publicitat de tercers."
+    },
+    {
+      "app": "moovit",
+      "comparability": "equivalent",
+      "rationale": "Planificador de transport públic amb cobertura àmplia a Espanya.",
+      "tradeOffs": "És d’Intel i el seu model es basa en l’explotació de dades de mobilitat."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "La política té data del 22 de setembre del 2026 i és un document minimalista: parla de cel·les H3, de processament en memòria i d’analítica autoallotjada. En canvi, no esmenta el RGPD, no identifica el responsable del tractament, no enumera drets i no diu res de transferències internacionals. Les condicions d’ús, del 2020, alternen els noms de Transit Now Ltd i BusExpert Ltd i enllacen la política amb el domini mal escrit. No hem pogut fer la cerca d’incidents.",
+    "openQuestions": [
+      "Quina és la relació societària entre Transit Now Ltd i BusExpert Ltd?",
+      "Quant de temps es conserven les dades d’OpenPanel i de Bugsnag?",
+      "Com s’exerceixen els drets del RGPD davant d’aquesta empresa?"
+    ]
+  },
+  "appStoreBundleId": "com.totaltransitapp.totaltransit"
+}

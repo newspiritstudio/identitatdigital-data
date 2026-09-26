@@ -1,0 +1,498 @@
+{
+  "slug": "meteocat",
+  "name": "METEOCAT",
+  "company": "servei-meteorologic-de-catalunya",
+  "categories": [
+    "meteorologia"
+  ],
+  "tagline": "Analítica de Firebase amb l’identificador de publicitat en una app pública del temps, i un enllaç de privadesa a l’App Store que no porta enlloc",
+  "summary": "L’aplicació del Servei Meteorològic de Catalunya dona la predicció municipal, el radar i els avisos de situació meteorològica de perill, sense compte ni publicitat. L’etiqueta de l’App Store només declara ubicació, identificador de dispositiu i diagnòstics no vinculats a la identitat. La política, però, diu que l’analítica es fa amb Firebase Analytics «mitjançant l’IDFA», l’identificador de publicitat d’iOS, i que la ubicació és «sempre aproximada, no precisa», mentre l’etiqueta declara la ubicació exacta. L’enllaç de privadesa que l’App Store mostra redirigeix a una adreça interna del servidor i no s’obre.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "public-service",
+  "jurisdiction": "Catalunya; servei públic del Servei Meteorològic de Catalunya",
+  "links": {
+    "website": "https://www.meteo.cat/wpweb/serveis/app-meteocat/",
+    "privacyPolicy": "https://www.meteo.cat/wpweb/serveis/app-meteocat/politica-de-privacitat-de-lapp/",
+    "terms": "https://www.meteo.cat/wpweb/serveis/app-meteocat/avis-legal-de-lapp/",
+    "appStore": "https://apps.apple.com/es/app/id6477286914"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "meteocat-app-pagina",
+      "meteocat-privacitat-app"
+    ],
+    "detail": "No hi ha registre: la política només tracta dades personals de qui activa les notificacions, identificades per l’identificador del dispositiu.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": [],
+    "detail": "No hem trobat publicat el codi de l’aplicació."
+  },
+  "publicService": {
+    "isPublicService": true,
+    "administrationLevel": "regional",
+    "legalBasis": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "meteocat-privacidad-app-es"
+      ],
+      "detail": "Només la versió castellana de la política dona una base jurídica, i només per a les notificacions: el consentiment exprés de qui les activa. No en dona cap per a l’analítica amb Firebase ni per a l’emmagatzematge de la darrera ubicació. La versió catalana no en cita cap.",
+      "verifiedAt": "2026-09-22",
+      "norm": "Reglament (UE) 2016/679 i Llei orgànica 3/2018, citats de manera genèrica; consentiment per a les notificacions"
+    },
+    "processingRegistry": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "meteocat-registre-activitats",
+        "meteocat-privacitat-app"
+      ],
+      "detail": "L’SMC publica un registre d’activitats de tractament en PDF, del novembre del 2021, amb disset activitats (accessos, videovigilància, recursos humans, xarxes d’observadors…). Cap no correspon a l’aplicació ni a les notificacions. L’enllaç «informació detallada del tractament» de la política apunta a un servidor de desenvolupament (devbloc.meteocat.gencat.cat) que no respon.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://static-m.meteo.cat/wordpressweb/wp-content/uploads/2021/11/11115244/Registre-dactivitats-de-tractament-METEOCAT-A3.pdf"
+    },
+    "dpia": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat publicada cap avaluació d’impacte relativa a la protecció de dades de l’aplicació."
+    },
+    "ensConformity": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap declaració ni certificació de conformitat amb l’Esquema Nacional de Seguretat (Reial decret 311/2022) de l’SMC ni del servei."
+    },
+    "dpo": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meteocat-politica-privacitat",
+        "meteocat-privacidad-app-es",
+        "meteocat-registre-activitats"
+      ],
+      "detail": "Hi ha delegat de protecció de dades, però els documents no coincideixen en l’adreça: la política general del web dona dpd.meteocat@gencat.cat, i la política castellana de l’app i el registre d’activitats donen protecciodades.meteocat@gencat.cat. El registre identifica el delegat com l’empresa PrivaDatum.",
+      "verifiedAt": "2026-09-22",
+      "contact": "dpd.meteocat@gencat.cat"
+    },
+    "offlineAlternative": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meteocat-app-pagina",
+        "meteocat-avis-legal-app"
+      ],
+      "detail": "Tota la informació de l’aplicació (predicció, radar i avisos de perill) es publica al web meteo.cat, i l’avís legal mateix recomana informar-se també pels altres canals perquè les notificacions poden fallar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "accessibilityStatement": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "meteocat-accessibilitat-ios"
+      ],
+      "detail": "La declaració per a iOS diu «parcialment conforme» amb el Reial decret 1112/2018 i el Decret 216/2023 i avaluada amb la norma UNE-EN 301549:2022. Es va preparar el 21 de novembre del 2025 a partir d’una auditoria externa de TOTHOMweb.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.meteo.cat/wpweb/serveis/app-meteocat/declaracio-daccessibilitat-de-lapp-ios/"
+    },
+    "mandatoryRetention": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "meteocat-privacitat-app"
+      ],
+      "detail": "No hi ha cap expedient: la política fixa ella mateixa el termini (mentre l’app estigui instal·lada i després no més d’un any) i no invoca cap norma que obligui a conservar les dades.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataSummary": "L’aplicació no demana cap dada d’identitat. Recull la ubicació, també en segon pla per enviar els avisos de la zona, i un identificador del dispositiu. La política diu que la ubicació és aproximada i que l’analítica passa per Firebase amb l’identificador de publicitat, dues afirmacions que l’etiqueta de l’App Store no reflecteix.",
+  "dataCollection": [
+    {
+      "type": "ubicacio-aproximada",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "meteocat-app-store",
+        "meteocat-privacitat-app"
+      ],
+      "note": "Només amb permís. L’app funciona en segon pla per recollir els canvis d’ubicació i l’SMC en desa la darrera."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "meteocat-app-store",
+        "meteocat-privacitat-app"
+      ],
+      "note": "L’etiqueta de l’App Store declara la ubicació exacta; la política diu que la ubicació «sempre serà aproximada, no precisa»."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "meteocat-app-store",
+        "meteocat-privacitat-app"
+      ],
+      "note": "L’identificador de notificacions, lligat a les comarques, meteors i estacions que s’han triat per rebre avisos."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "meteocat-privacitat-app",
+        "meteocat-app-store"
+      ],
+      "note": "La política diu textualment que l’analítica és «Firebase Analytics mitjançant el IDFA (Identificador de publicitat)». L’etiqueta no declara cap dada utilitzada per rastrejar."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "meteocat-privacitat-app"
+      ],
+      "note": "Interacció amb l’aplicació recollida per Firebase Analytics, de Google. L’etiqueta de l’App Store no declara dades d’ús."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "meteocat-app-store"
+      ],
+      "note": "Dades d’errors, no vinculades a la identitat."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "meteocat-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no té secció de dades utilitzades per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meteocat-privacitat-app"
+      ],
+      "detail": "La política declara que Firebase Analytics funciona amb l’IDFA. En iOS, l’app només pot llegir-lo si demana permís de rastreig; no hem comprovat si ho fa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meteocat-privacitat-app"
+      ],
+      "detail": "Firebase Analytics, de Google, per a l’estadística d’ús.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "meteocat-privacitat-app",
+        "meteocat-app-store"
+      ],
+      "detail": "No hi ha publicitat. La política diu que les dades analítiques no s’usaran per a cap altre objectiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "meteocat-privacitat-app"
+      ],
+      "detail": "La política no preveu cap perfil; les preferències només serveixen per enviar els avisos triats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu res sobre l’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "meteocat-privacitat-app",
+        "meteocat-privacidad-app-es"
+      ],
+      "detail": "La política diu que la ubicació, les preferències i l’identificador de notificacions no es cedeixen a tercers, però l’analítica la fa Google amb Firebase.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La versió catalana diu que la informació analítica «proporciona informació rellevant a la Generalitat», sense concretar a quin òrgan ni amb quina finalitat."
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "meteocat-privacidad-app-es"
+      ],
+      "detail": "La política diu que el responsable no preveu comunicar dades a tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu res de transferències internacionals; l’ús de Firebase Analytics en podria implicar cap als Estats Units."
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència sobre les dades de l’aplicació."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meteocat-privacitat-app"
+      ],
+      "detail": "Les dades es conserven mentre l’app estigui instal·lada i després no més d’un any.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "meteocat-privacitat-app"
+      ],
+      "detail": "Desinstal·lar l’app obre un termini màxim d’un any; la política no diu res de les dades que ja té Firebase.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "ubicacio-aproximada",
+        "period": "Mentre l’app estigui instal·lada i, després, no més d’un any",
+        "sources": [
+          "meteocat-privacitat-app"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha compte. El que es pot fer és desinstal·lar l’app o demanar la supressió de les dades associades al dispositiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "meteocat-app-pagina",
+        "meteocat-privacitat-app"
+      ],
+      "detail": "Les notificacions es poden editar o eliminar des de l’apartat «Configura» i la ubicació es pot desactivar; la supressió de les dades ja desades s’ha de demanar per correu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "easy",
+    "requiresSupportContact": false,
+    "steps": [
+      "A l’apartat «Configura», elimina les notificacions d’avisos i d’estacions que tinguis actives.",
+      "Retira el permís d’ubicació a Configuració > Privacitat i seguretat > Localització.",
+      "Desinstal·la l’aplicació: segons la política, les dades es conserven com a màxim un any més.",
+      "Per demanar-ne la supressió abans, escriu a protecciodades.meteocat@gencat.cat amb una còpia del DNI o signant el correu amb certificat."
+    ],
+    "dataRetained": "Fins a un any després de desinstal·lar l’aplicació.",
+    "sources": [
+      "meteocat-app-pagina",
+      "meteocat-privacitat-app",
+      "meteocat-privacidad-app-es"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "meteocat-privacidad-app-es",
+        "meteocat-politica-privacitat"
+      ],
+      "detail": "La portabilitat es reconeix, però només a petició per correu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meteocat-privacidad-app-es",
+        "meteocat-politica-privacitat"
+      ],
+      "detail": "Els drets s’exerceixen per escrit a l’adreça de protecció de dades, amb còpia del DNI o signatura electrònica reconeguda, i es pot reclamar a l’APDCAT. L’enllaç «com exercir aquests drets» de la versió catalana apunta al servidor de desenvolupament i no s’obre.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:protecciodades.meteocat@gencat.cat"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no mostra publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no ofereix cap manera de desactivar Firebase Analytics dins de l’aplicació."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "meteocat-app-pagina"
+      ],
+      "detail": "Cada notificació es configura per comarca, meteor, nivell de perill o estació, i es pot editar o eliminar. No hi ha control sobre l’analítica.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem analitzat la interfície de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Servei d’informació meteorològica; no hi ha comunicació privada entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu res sobre el xifratge de les comunicacions."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu res sobre el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha compte que calgui protegir.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’única auditoria publicada és la d’accessibilitat; no n’hem trobat cap de seguretat."
+    },
+    "bugBounty": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Administració pública: el bloc de servei públic substitueix aquest indicador per la conformitat amb l’ENS.",
+      "verifiedAt": "2026-09-22"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha fitxer security.txt a meteo.cat."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "aemet",
+      "comparability": "equivalent",
+      "rationale": "L’agència estatal també publica radar, predicció municipal i avisos per a Catalunya, i la seva etiqueta de l’App Store declara que no recull cap dada.",
+      "tradeOffs": "No té la xarxa d’estacions automàtiques de l’SMC ni els avisos per comarca amb llindars propis."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La política és una plantilla de la Generalitat que no s’ha adaptat a l’aplicació: parla de preferències «sobre tràmits i ajudes» en una app del temps. L’enllaç de privadesa que declara la fitxa de l’App Store (meteo.cat/wpweb/politica-de-privacidad-de-la-app/) respon amb una redirecció a ajp://127.0.0.1:8009, una adreça interna del servidor, i no s’obre: ho hem comprovat el 22 de setembre del 2026. No hem trobat cap incident ni cap resolució de l’APDCAT sobre l’aplicació.",
+    "openQuestions": [
+      "L’app demana el permís de rastreig d’iOS per llegir l’IDFA, tal com dona a entendre la política? Si no, la frase és incorrecta; si sí, l’etiqueta ho hauria de declarar.",
+      "Quina és l’adreça vigent del delegat de protecció de dades: dpd.meteocat@gencat.cat o protecciodades.meteocat@gencat.cat?",
+      "Per què el registre d’activitats del 2021 no inclou l’aplicació, publicada el 2024?"
+    ]
+  },
+  "appStoreBundleId": "cat.gencat.mobi.meteocat"
+}

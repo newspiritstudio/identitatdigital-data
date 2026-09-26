@@ -1,0 +1,426 @@
+{
+  "slug": "midgt",
+  "name": "miDGT",
+  "company": "direccion-general-de-trafico",
+  "categories": [
+    "administracio-publica",
+    "utilitats"
+  ],
+  "tagline": "Declara a l’App Store que no recull cap dada, tot i que mostra el permís, els punts i les sancions",
+  "summary": "miDGT porta al mòbil el permís de conducció digital, amb validesa per circular per Espanya, i la documentació dels vehicles. També mostra els punts, la caducitat del permís, la ITV i les sancions, i permet pagar-les. A l’App Store hi consta «No se recopilan datos», tot i que el servei consulta els registres de conductors i de vehicles, i l’enllaç a la política de privadesa que hi publica la DGT ja no existeix.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "public-service",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://www.dgt.es/",
+    "privacyPolicy": "https://www.dgt.es/contenido/proteccion-de-datos/",
+    "appStore": "https://apps.apple.com/es/app/id1463054197"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "midgt-dgt-noticia",
+      "midgt-app-store"
+    ],
+    "detail": "Cal identificar-se amb Cl@ve, amb certificat digital o amb un codi d’un sol ús enviat per SMS al telèfon que consta a la DGT.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": [],
+    "detail": "No hem trobat el codi publicat."
+  },
+  "publicService": {
+    "isPublicService": true,
+    "administrationLevel": "state",
+    "legalBasis": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "midgt-dgt-proteccion-datos"
+      ],
+      "detail": "La informació de protecció de dades diu que els tractaments de la DGT es fan «en cumplimiento de obligaciones legales, o de una misión realizada en interés público o está basada en el consentimiento» i remet la base legal concreta a cada fitxa del registre d’activitats de tractament. No cita cap norma ni article per a l’aplicació.",
+      "verifiedAt": "2026-09-22",
+      "norm": "Reglament (UE) 2016/679, article 6, sense concretar la norma habilitant"
+    },
+    "processingRegistry": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "midgt-dgt-proteccion-datos"
+      ],
+      "detail": "La DGT declara que tots els seus tractaments consten al Registre d’Activitats de Tractament de la DGT dins del RAT del Ministeri de l’Interior i hi enllaça l’inventari. El document del ministeri no es pot consultar de manera automatitzada i no hem pogut confirmar que hi hagi una activitat identificable per a miDGT.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.interior.gob.es/opencms/pdf/servicios-al-ciudadano/participacion-ciudadana/proteccion-de-datos-de-caracter-personal/tutela-de-los-derechos/Inventario_de_Actividades_de_Tratamiento_del_Ministerio_del_Interior.pdf"
+    },
+    "dpia": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat publicada cap avaluació d’impacte relativa a la protecció de dades de l’aplicació."
+    },
+    "ensConformity": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "midgt-dgt-ens"
+      ],
+      "detail": "La seu electrònica publica el certificat de conformitat de nivell mitjà amb l’Esquema Nacional de Seguretat, obtingut el 21 de gener de 2025, però l’abast declarat és el sistema d’ingressos de l’organisme, no l’aplicació.",
+      "verifiedAt": "2026-09-22",
+      "category": "medium",
+      "url": "https://sede.dgt.gob.es/es/contenido/esquema-nacional-de-seguridad/index.html"
+    },
+    "dpo": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "midgt-dgt-proteccion-datos"
+      ],
+      "detail": "Delegat de protecció de dades de la DGT amb adreça postal (C/ Josefa Valcárcel 44, 3a planta, 28071 Madrid) i un correu d’atenció exclusiva a l’exercici dels drets.",
+      "verifiedAt": "2026-09-22",
+      "contact": "protecciondedatos@dgt.es"
+    },
+    "offlineAlternative": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "midgt-dgt-canals"
+      ],
+      "detail": "Segons el tràmit, la DGT ofereix la seu electrònica, l’aplicació, el telèfon 060 i l’atenció presencial a les jefatures i oficines de trànsit, a més d’oficines de Correus, ajuntaments col·laboradors, autoescoles i ITV. L’aplicació és un canal més, no l’únic.",
+      "verifiedAt": "2026-09-22"
+    },
+    "accessibilityStatement": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "midgt-dgt-accessibilitat"
+      ],
+      "detail": "La declaració d’accessibilitat de la DGT és de setembre de 2020, s’aplica només a les pàgines del domini www.dgt.es i n’exclou els subdominis: no cobreix l’aplicació, tot i que el Reial decret 1112/2018 també abasta les aplicacions per a dispositius mòbils del sector públic.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.dgt.es/contenido/declaracion-de-accesibilidad/"
+    },
+    "mandatoryRetention": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "midgt-boe-trafic",
+        "midgt-dgt-proteccion-datos"
+      ],
+      "detail": "L’aplicació no crea cap compte propi: mostra les dades dels registres de vehicles i de conductors i infractors que el Ministeri de l’Interior ha de gestionar per llei, i que es conserven segons la normativa d’arxius. No es pot demanar que se n’esborri l’expedient.",
+      "verifiedAt": "2026-09-22",
+      "norm": "Reial decret legislatiu 6/2015, article 5.h)"
+    }
+  },
+  "dataSummary": "El permís, els punts, els vehicles i les sancions formen l’historial administratiu de cada conductor. Aquestes dades no s’envien a cap anunciant, però queden als registres de la DGT, i l’aplicació no explica què en desa al telèfon.",
+  "dataCollection": [
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "midgt-dgt-noticia"
+      ],
+      "note": "Permís de conducció digital amb les seves dades i la data de caducitat."
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "midgt-dgt-noticia"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "midgt-dgt-noticia"
+      ],
+      "note": "Per a l’accés amb codi d’un sol ús per SMS."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "midgt-dgt-noticia"
+      ],
+      "note": "Pagament de sancions des de l’aplicació. No hi ha cap tipus de dada específic per als vehicles, la ITV o els punts del permís: també es tracten aquí."
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "unknown",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "sources": [
+        "midgt-app-store"
+      ],
+      "note": "L’etiqueta declara que no es recull cap dada, i no hi ha cap política de l’aplicació que ho matisi."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "midgt-app-store"
+      ],
+      "detail": "L’etiqueta declara «No se recopilan datos».",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "midgt-app-store"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’etiqueta no declara cap recollida, però no hi ha cap política de l’aplicació que confirmi si hi ha serveis de tercers com les notificacions push."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "midgt-app-store"
+      ],
+      "detail": "Servei públic sense publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El registre d’activitats de tractament de la DGT preveu cessions reglades, però no hi ha cap fitxa pública específica de l’aplicació."
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Organisme públic sense grup empresarial.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "midgt-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap recollida ni cap ús comercial.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Les administracions públiques espanyoles no publiquen informes de transparència d’aquest tipus."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La informació general de la DGT remet al registre d’activitats de tractament, sense terminis per a l’aplicació."
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no crea cap compte propi: s’hi entra amb Cl@ve, certificat o SMS, i les dades del registre de conductors i de vehicles es tracten per obligació legal.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha compte propi.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "unknown",
+    "obstacles": "Per deixar de fer-la servir n’hi ha prou de desinstal·lar-la; les dades dels registres de la DGT no es poden suprimir perquè el tractament és obligatori.",
+    "sources": [
+      "midgt-dgt-noticia",
+      "midgt-dgt-proteccion-datos"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "midgt-dgt-proteccion-datos"
+      ],
+      "detail": "Formulari oficial que es presenta presencialment, a la seu electrònica o per correu signat, i delegat de protecció de dades a protecciondedatos@dgt.es.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:protecciondedatos@dgt.es"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no mostra publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No és un servei de comunicacions entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "midgt-dgt-noticia"
+      ],
+      "detail": "L’accés exigeix Cl@ve, certificat digital o un codi d’un sol ús per SMS al telèfon registrat.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "sms"
+      ]
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap declaració de conformitat amb l’Esquema Nacional de Seguretat referida a l’aplicació."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha security.txt a dgt.es."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "clave",
+      "comparability": "complementary",
+      "rationale": "És el sistema d’identificació amb què s’entra a miDGT i té una política de privadesa pròpia que miDGT no té.",
+      "tradeOffs": "No mostra el permís de conducció ni la documentació dels vehicles."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Hem comprovat que l’enllaç de política de privadesa que la DGT declara a l’App Store (www.dgt.es/es/proteccion-de-datos.shtml) respon amb un error 404. La informació general de protecció de dades de la DGT no esmenta l’aplicació. Cap filtració associada a dgt.es a Have I Been Pwned.",
+    "openQuestions": [
+      "Per què l’etiqueta diu «No se recopilan datos» si l’aplicació consulta i mostra dades personals?",
+      "Quina és la fitxa del registre d’activitats de tractament que empara miDGT?",
+      "Quines dades queden desades al telèfon quan es genera el permís digital?"
+    ]
+  },
+  "appStoreBundleId": "com.dgt.midgt"
+}

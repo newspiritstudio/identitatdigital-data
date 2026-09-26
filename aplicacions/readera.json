@@ -1,0 +1,393 @@
+{
+  "slug": "readera",
+  "name": "ReadEra",
+  "company": "readera",
+  "categories": [
+    "llibres-i-lectura",
+    "utilitats"
+  ],
+  "tagline": "Un lector de llibres que declara no recollir cap dada, ni tan sols estadístiques anònimes, a la versió d’iOS",
+  "summary": "ReadEra obre EPUB, PDF, MOBI, DjVu, Word i una dotzena de formats més i no demana registre ni connexió. L’etiqueta de l’App Store diu que el desenvolupador no recull cap dada, i la política d’iOS ho confirma: ni informació personal, ni informació sobre els fitxers, ni estadístiques tècniques anònimes. La versió d’Android, en canvi, sí que recull diagnòstics anònims, desactivables des de la configuració. La versió de pagament sincronitza contra el Google Drive de la mateixa persona, no contra servidors de l’empresa. El que falla és la identificació de l’empresa: l’editor de l’App Store és una societat búlgara i les polítiques parlen d’una «Readera LLC» que no s’identifica enlloc.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Bulgària (UE)",
+  "userBase": "Més de 40 milions de baixades, segons el mateix servei.",
+  "links": {
+    "website": "https://readera.org/",
+    "privacyPolicy": "https://readera.org/privacy-ios",
+    "appStore": "https://apps.apple.com/es/app/id1669188337"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "readera-privacy-ios",
+      "readera-website"
+    ],
+    "detail": "La política diu que l’app «does not require the user to provide any personal, financial, or other private information», i el web promet lectura «without registration».",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "readera-app-store"
+    ],
+    "detail": "No hem trobat cap repositori públic del codi.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Els llibres es queden al dispositiu, no s’envia cap informació sobre quins fitxers s’obren i, a iOS, ni tan sols hi ha telemetria. La sincronització de la versió Premium passa pel Google Drive de la persona usuària, de manera que les dades les té Google i ReadEra no hi accedeix.",
+  "dataCollection": [
+    {
+      "type": "fitxers-i-documents",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "readera-privacy-ios"
+      ],
+      "note": "La política és explícita: «user files or any information about the files are not collected or transmitted by the application»."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "readera-privacy-ios",
+        "readera-app-store"
+      ],
+      "note": "A iOS no se’n recull cap; a Android sí (errors, rendiment i ús de funcions), i es poden desactivar des de la configuració."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "readera-app-store"
+      ],
+      "note": "L’etiqueta declara que no es recull cap dada."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "readera-privacy-ios",
+        "readera-app-store"
+      ],
+      "note": "A la versió d’Android sí que es recullen estadístiques anònimes d’ús de les funcions."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "readera-premium"
+      ],
+      "note": "La compra de ReadEra Premium la tramita la botiga d’aplicacions; la política no en parla."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "readera-app-store",
+        "readera-privacy-ios"
+      ],
+      "detail": "L’etiqueta declara que no es recull cap dada i la política afirma que no se’n transfereix cap a tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "readera-app-store",
+        "readera-website"
+      ],
+      "detail": "No hi ha publicitat a l’app i l’etiqueta no declara cap identificador.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "readera-privacy-ios",
+        "readera-website"
+      ],
+      "detail": "La política diu que l’app no transfereix dades a tercers i el web promet lectura sense anuncis.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "readera-website",
+        "readera-app-store"
+      ],
+      "detail": "L’app no mostra publicitat i no recull cap dada que s’hi pugui destinar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "readera-privacy-ios"
+      ],
+      "detail": "Sense recollida de dades no hi ha perfilat possible.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "readera-privacy-ios"
+      ],
+      "detail": "Els fitxers no surten del dispositiu, de manera que no poden servir per entrenar cap model.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "readera-privacy-ios"
+      ],
+      "detail": "«The application does not transfer data to third parties.»",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "READERA EOOD és una societat unipersonal sense grup empresarial conegut.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "readera-privacy-ios"
+      ],
+      "detail": "No hi ha cap dada recollida que es pugui vendre.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "readera-privacy-ios"
+      ],
+      "detail": "L’app treballa amb fitxers locals i no envia dades enlloc. La sincronització de la versió Premium va al Google Drive de la mateixa persona usuària.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "none"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència; en un servei sense comptes ni dades al servidor, tampoc hi hauria peticions a què respondre."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’app no guarda cap dada als servidors de l’empresa, de manera que no hi ha cap termini de conservació a definir.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha compte ni dades al servidor que puguin quedar després d’una baixa.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha cap compte que es pugui eliminar: n’hi ha prou de desinstal·lar l’app.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha cap compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "easy",
+    "requiresSupportContact": false,
+    "steps": [
+      "Desinstal·la l’app: els llibres i les anotacions són al dispositiu.",
+      "Si has fet servir ReadEra Premium amb sincronització, esborra també la carpeta corresponent del teu Google Drive."
+    ],
+    "dataRetained": "Cap al costat de ReadEra. Les còpies sincronitzades són al Google Drive de la mateixa persona usuària.",
+    "sources": [
+      "readera-privacy-ios",
+      "readera-premium"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha cap dada al servidor que es pugui exportar; els llibres i les anotacions ja són fitxers del dispositiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "open",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "readera-privacy-ios"
+      ],
+      "detail": "L’únic canal és el correu support@readera.org. La política no descriu els drets del RGPD ni identifica cap responsable amb domicili.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:support@readera.org"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’app no mostra publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "readera-privacy-android",
+        "readera-privacy-ios"
+      ],
+      "detail": "A iOS no hi ha telemetria; a Android, les estadístiques anònimes es poden desactivar des de la configuració de l’app.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "readera-privacy-android"
+      ],
+      "detail": "L’únic control de privadesa documentat és l’interruptor de les estadístiques anònimes de la versió d’Android.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "protective",
+    "darkPatterns": {
+      "status": "no",
+      "level": "editorial",
+      "sources": [
+        "readera-website",
+        "readera-app-store"
+      ],
+      "detail": "No hem detectat cap patró fosc: no hi ha registre, ni publicitat, ni consentiments a gestionar. No hem pogut examinar el flux de compra de la versió Premium.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’app no transmet contingut: els fitxers no surten del dispositiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’app funciona sense connexió i no envia dades a cap servidor propi.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu si els fitxers i les anotacions del dispositiu es xifren més enllà del que ja fa el sistema operatiu."
+    },
+    "mfa": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha compte que protegir amb un segon factor.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap auditoria independent del codi."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "vulnerabilityDisclosure": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "readera-privacy-ios"
+      ],
+      "detail": "No hi ha security.txt ni cap procediment publicat; l’únic canal és l’adreça general support@readera.org.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "adobe-acrobat-reader",
+      "comparability": "partial",
+      "rationale": "També obre PDF i documents al dispositiu.",
+      "tradeOffs": "Empeny cap al núvol i cap al compte d’Adobe, i recull molta més informació."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "L’única contradicció és documental: l’editor que consta a l’App Store és READERA EOOD, una societat búlgara, però totes dues polítiques atribueixen el desenvolupament a «Readera LLC», sense país ni domicili, i cap document no identifica un responsable del tractament amb adreça postal ni esmenta els drets del RGPD. Com que l’app no recull dades, l’impacte pràctic és baix, però una empresa establerta a la Unió Europea està obligada a donar aquesta informació. Cap domini de ReadEra no consta a la llista de filtracions de Have I Been Pwned.",
+    "openQuestions": [
+      "Quina relació hi ha entre READERA EOOD i «Readera LLC», i qui és el responsable del tractament?",
+      "La versió Premium d’iOS també sincronitza amb Google Drive, o fa servir iCloud?",
+      "L’app d’iOS fa alguna petició de xarxa en obrir-se, tot i el que diu la política?"
+    ]
+  },
+  "appStoreBundleId": "org.readera.book-reader"
+}

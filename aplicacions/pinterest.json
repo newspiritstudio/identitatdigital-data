@@ -1,0 +1,538 @@
+{
+  "slug": "pinterest",
+  "name": "Pinterest",
+  "company": "pinterest",
+  "categories": [
+    "descobriment-visual"
+  ],
+  "tagline": "Descobriment visual i inferència d’intenció de compra",
+  "summary": "A Pinterest es desen imatges, però un tauler d’inspiració mostra amb molta precisió els plans d’una persona: reformes, embarassos, casaments, dietes, mudances. Conèixer-los per endavant és el que el fa valuós per als anunciants.",
+  "platforms": [
+    "web",
+    "ios",
+    "android"
+  ],
+  "businessModel": "advertising",
+  "jurisdiction": "Irlanda, per a persones usuàries de l’Espai Econòmic Europeu",
+  "userBase": "Més de 550 milions de persones usuàries mensuals",
+  "links": {
+    "website": "https://www.pinterest.com/",
+    "privacyPolicy": "https://policy.pinterest.com/en/privacy-policy",
+    "terms": "https://policy.pinterest.com/en/terms-of-service",
+    "privacyCenter": "https://www.pinterest.com/settings/privacy"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "pinterest-privacy-policy"
+    ],
+    "detail": "Es pot veure contingut públic amb limitacions creixents, però desar res requereix compte.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "pinterest-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Pinterest recull el que es desa, el que es cerca i el que es mira, i ho combina amb activitat en llocs de tercers a través del seu píxel per construir un perfil comercial molt orientat a la conversió.",
+  "dataCollection": [
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "pinterest-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "pinterest-privacy-policy"
+      ]
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "pinterest-privacy-policy"
+      ],
+      "note": "Les imatges desades permeten inferir esdeveniments vitals amb mesos d’antelació."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "pinterest-privacy-policy"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "pinterest-privacy-policy"
+      ]
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "pinterest-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "pinterest-privacy-policy"
+      ],
+      "note": "L’etiqueta de Pinterest és present en molts comerços electrònics."
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "pinterest-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "pinterest-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "pinterest-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "pinterest-privacy-policy"
+      ]
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "pinterest-privacy-policy"
+      ]
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "pinterest-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "pinterest-privacy-policy"
+      ],
+      "note": "Rebut de comerços associats per mesurar l’efectivitat dels anuncis."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "pinterest-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "pinterest-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "pinterest-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "pinterest-privacy-settings"
+      ],
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://www.pinterest.com/settings/privacy"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "pinterest-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "pinterest-privacy-policy"
+      ],
+      "detail": "La política preveu l’ús de contingut per desenvolupar tecnologia, amb un control per desactivar-ho a la configuració.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://www.pinterest.com/settings/privacy"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "pinterest-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Pinterest no forma part de cap grup amb altres serveis de consum.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "pinterest-privacy-policy"
+      ],
+      "detail": "Pinterest rep dades d’anunciants i de socis de mesura per enriquir els perfils.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "pinterest-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "mechanism": "adequacy"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "pinterest-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://policy.pinterest.com/en/transparency-report"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "pinterest-personal-data"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "pinterest-delete-account"
+      ],
+      "detail": "Pinterest declara que el compte i les dades personals s’eliminen definitivament en set dies, un termini molt més curt que el de la majoria de plataformes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "period": "7 dies fins a l’eliminació definitiva del compte i les dades personals",
+        "sources": [
+          "pinterest-delete-account"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "pinterest-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "pinterest-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://www.pinterest.com/settings/account-settings",
+    "difficulty": "easy",
+    "waitingPeriodDays": 7,
+    "requiresSupportContact": false,
+    "steps": [
+      "Obre la configuració del compte.",
+      "Baixa fins a «Eliminació del compte» i tria «Elimina el compte».",
+      "Confirma per correu electrònic el missatge que rebràs."
+    ],
+    "obstacles": "Es proposa primer la desactivació temporal, però l’eliminació és accessible i el termini és curt i explícit.",
+    "dataRetained": "Es conserven registres per a obligacions legals. Els pins que altres persones han desat als seus taulers continuen existint.",
+    "sources": [
+      "pinterest-delete-account",
+      "pinterest-personal-data"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "pinterest-personal-data"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.pinterest.com/settings/privacy"
+    },
+    "exportFormatQuality": "mixed",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "pinterest-personal-data"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://help.pinterest.com/en/article/review-personal-data-options",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "pinterest-privacy-settings"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.pinterest.com/settings/privacy"
+    },
+    "telemetryOptOut": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "pinterest-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "pinterest-privacy-settings"
+      ],
+      "detail": "Es pot desactivar la personalització a partir de l’activitat en llocs externs, de socis i de la informació del compte per separat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [
+        "pinterest-delete-account"
+      ],
+      "detail": "Es proposa la desactivació abans de l’eliminació, però sense enfosquir la segona opció.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Pinterest no és un servei de comunicació privada; els missatges directes són una funció secundària.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "pinterest-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "pinterest-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "pinterest-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "totp",
+        "sms"
+      ]
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories de seguretat independents publicades."
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "pinterest-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://hackerone.com/pinterest"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "pinterest-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "No hi ha cap incident regulador registrat, cosa que només vol dir que no n’hi ha de documentats. La casella de revisió d’incidents està marcada, de manera que l’indicador puntua com a favorable amb aquesta base."
+  },
+  "appStoreBundleId": "pinterest"
+}

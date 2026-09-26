@@ -1,0 +1,558 @@
+{
+  "slug": "dazn",
+  "name": "DAZN",
+  "company": "dazn",
+  "categories": [
+    "video-i-streaming",
+    "esports-i-resultats"
+  ],
+  "tagline": "Televisió esportiva de pagament que declara identificadors i dades de publicitat utilitzats per rastrejar",
+  "summary": "DAZN es paga amb subscripcions, però l’etiqueta de l’App Store declara identificador d’usuari, identificador de dispositiu i dades de publicitat com a dades utilitzades per rastrejar, i el consentiment de galetes es demana amb el marc de l’IAB i 197 socis publicitaris. L’avís de privadesa fixa un termini general de conservació de set anys i identifica DAZN Limited, al Regne Unit, com a responsable, amb DAZN Spain, S.L. per als clients del canal d’Amazon Prime Video. El servei registra quines competicions es miren, a quina hora i des de quins dispositius.",
+  "platforms": [
+    "ios",
+    "android",
+    "web",
+    "other"
+  ],
+  "businessModel": "subscription",
+  "jurisdiction": "Regne Unit i Espanya",
+  "userBase": "Present a més de 200 mercats; DAZN no publica el nombre de subscripcions a Espanya",
+  "links": {
+    "website": "https://www.dazn.com/es-ES/welcome",
+    "privacyPolicy": "https://help.dazn.com/hc/es-es/articles/16394152093597",
+    "appStore": "https://apps.apple.com/es/app/id1129523589"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "dazn-privacy-notice"
+    ],
+    "detail": "Cal registrar-se i subscriure’s per veure qualsevol retransmissió.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "dazn-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "L’historial de reproducció d’una plataforma esportiva mostra de quin equip ets, a quines hores mires els partits i amb quants dispositius comparteixes el compte. Combinat amb les dades de publicitat que DAZN declara utilitzar per rastrejar, permet mostrar-te anuncis fora de la plataforma.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "dazn-app-store",
+        "dazn-privacy-notice"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "dazn-app-store"
+      ],
+      "note": "Declarada també per a publicitat i màrqueting del desenvolupador."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "dazn-privacy-notice"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "dazn-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-visualitzacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "dazn-privacy-notice"
+      ],
+      "note": "L’avís de privadesa parla de dades de visualització per personalitzar el servei i informar els titulars de drets."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "dazn-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "dazn-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "dazn-app-store"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "dazn-app-store"
+      ],
+      "note": "L’App Store ho declara com a «datos de publicidad» utilitzats per rastrejar."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "dazn-app-store"
+      ],
+      "note": "Serveix per aplicar els drets de retransmissió per territori."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "dazn-privacy-notice"
+      ],
+      "note": "El diàleg de consentiment de galetes inclou la funció especial d’ubicació geogràfica precisa per a 56 socis."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "compliment-legal"
+      ],
+      "sources": [
+        "dazn-privacy-notice"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "dazn-privacy-notice"
+      ],
+      "note": "Consentiment gestionat amb el marc de transparència de l’IAB: 197 socis declarats."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "dazn-app-store"
+      ]
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "dazn-app-store"
+      ],
+      "note": "L’etiqueta no declara contingut de comunicacions privades."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dazn-app-store"
+      ],
+      "detail": "L’App Store declara identificadors i dades de publicitat com a dades utilitzades per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dazn-app-store"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dazn-privacy-notice"
+      ],
+      "detail": "El diàleg de consentiment enumera 197 socis del marc de transparència de l’IAB, amb vinculació de dispositius i combinació de dades de fonts externes.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dazn-privacy-notice",
+        "dazn-app-store"
+      ],
+      "detail": "L’avís preveu publicitat adaptada a la plataforma i fora, amb els socis publicitaris.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dazn-privacy-notice"
+      ],
+      "detail": "L’avís descriu l’ús de dades per entendre millor les persones usuàries i oferir una experiència de contingut i publicitat personalitzada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’avís de privadesa no diu si les dades s’utilitzen per entrenar models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dazn-privacy-notice"
+      ],
+      "detail": "Proveïdors de detecció de frau, socis publicitaris, titulars de drets i proveïdors de dades demogràfiques i d’interessos.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dazn-privacy-notice"
+      ],
+      "detail": "L’avís és global i parla de transferències entre les entitats del grup DAZN.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’avís no parla de venda de dades a intermediaris, però sí de combinar dades pròpies amb informació demogràfica i d’interessos obtinguda de tercers."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dazn-privacy-notice"
+      ],
+      "detail": "Decisions d’adequació, clàusules tipus i, per als Estats Units, el marc de transferència acordat.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap informe públic sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "dazn-privacy-notice"
+      ],
+      "detail": "S’indica un termini general de set anys des del fet que activa la conservació, però no un desglossament per categoria de dada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "dazn-privacy-notice"
+      ],
+      "detail": "Les dades es conserven mentre calgui per complir obligacions legals, auditories i polítiques internes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "period": "Set anys des del fet que activa la conservació, per a la major part de la informació",
+        "sources": [
+          "dazn-privacy-notice"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dazn-privacy-notice"
+      ],
+      "detail": "L’avís reconeix el dret de supressió quan el tractament ja no és necessari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap article d’ajuda públic que descrigui un botó d’eliminació del compte; el centre d’ajuda no es deixa llegir sense navegador."
+    },
+    "difficulty": "unknown",
+    "steps": [
+      "Cancel·la la subscripció des de La meva compta abans de demanar la supressió, perquè la baixa de pagament i la supressió del compte són coses diferents.",
+      "Escriu a DPO@dazn.com invocant el dret de supressió de l’article 17 del RGPD.",
+      "Guarda la confirmació; si no hi ha resposta en un mes, pots reclamar a l’Agència Espanyola de Protecció de Dades."
+    ],
+    "dataRetained": "Dades de facturació i registres que DAZN conservi pels terminis legals, dins del marc general de set anys.",
+    "sources": [
+      "dazn-privacy-notice"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "dazn-privacy-notice"
+      ],
+      "detail": "Es reconeix el dret a obtenir una còpia i a la portabilitat, però no hi ha una eina d’autoservei documentada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dazn-privacy-notice"
+      ],
+      "detail": "Canal del delegat de protecció de dades a DPO@dazn.com i llista de representants a la UE.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:DPO@dazn.com",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "dazn-privacy-notice"
+      ],
+      "detail": "El diàleg de galetes permet triar «Només galetes essencials» i oposar-se a les finalitats d’interès legítim, però s’ha de fer soci a soci per a 197 proveïdors.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap control per desactivar l’analítica d’ús dins de l’aplicació."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "dazn-privacy-notice"
+      ],
+      "detail": "Els controls existeixen dins del gestor de consentiment, no en un panell de privadesa del compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [],
+      "detail": "Interpretació pròpia: el diàleg de galetes ofereix un botó «Acceptar» destacat i amaga la tria fina darrere de «Administrar preferències», amb 197 socis i finalitats d’interès legítim actives per defecte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "unbalanced-consent",
+        "severity": "medium",
+        "description": "Acceptar-ho tot és un sol clic; refusar les finalitats d’interès legítim obliga a entrar a «Administrar preferències» i a revisar-les una per una.",
+        "sources": [
+          "dazn-privacy-notice"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És un servei de difusió de vídeo: no transporta comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "editorial",
+      "sources": [],
+      "detail": "Interpretació pròpia a partir de la navegació: el web i l’API de DAZN només responen per HTTPS.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública sobre el xifratge de les dades en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació pública sobre verificació en dos passos als comptes de DAZN."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories de seguretat independents publicades."
+    },
+    "bugBounty": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "dazn-responsible-disclosure"
+      ],
+      "detail": "La política de divulgació responsable diu expressament que DAZN no ofereix recompenses econòmiques per les vulnerabilitats comunicades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dazn-responsible-disclosure",
+        "dazn-security-txt"
+      ],
+      "detail": "Política pública de divulgació responsable i fitxer security.txt amb el contacte security@dazn.com.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.dazn.com/es-ES/help/articles/responsible-disclosure"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "El centre d’ajuda de DAZN està darrere d’una protecció que impedeix llegir els articles amb eines automàtiques; l’avís de privadesa s’ha consultat a la còpia arxivada del desembre del 2024, i el diàleg de galetes s’ha comprovat en directe. La fitxa destaca el contrast entre un servei que es paga amb subscripció i una etiqueta de l’App Store que declara dades de publicitat per rastrejar.",
+    "openQuestions": [
+      "DAZN permet eliminar el compte des de la configuració o cal passar pel delegat de protecció de dades?",
+      "Ofereix verificació en dos passos per als comptes?"
+    ]
+  },
+  "appStoreBundleId": "com.dazn.theApp"
+}

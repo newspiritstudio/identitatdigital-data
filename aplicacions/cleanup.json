@@ -1,0 +1,482 @@
+{
+  "slug": "cleanup",
+  "name": "Cleanup",
+  "company": "codeway",
+  "categories": [
+    "utilitats"
+  ],
+  "tagline": "Netejador de fotos que promet no pujar cap imatge i, alhora, declara compres i interacció utilitzades per rastrejar",
+  "summary": "Cleanup busca fotos duplicades i vídeos pesants per alliberar espai. La política de Codeway diu que ni les fotos, ni els vídeos, ni la llista de contactes s’emmagatzemen als seus servidors, perquè el processament es fa al dispositiu. En canvi, a l’etiqueta de l’App Store l’historial de compres, els identificadors i la interacció amb el producte figuren com a dades utilitzades per rastrejar.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Turquia",
+  "links": {
+    "website": "https://cleanup.photos/",
+    "privacyPolicy": "https://cleanup.photos/privacy",
+    "appStore": "https://apps.apple.com/es/app/id1510944943"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "cleanup-privacy-policy"
+    ],
+    "detail": "L’aplicació funciona sense registre; la política només tracta el correu si es contacta amb l’empresa o es crea un compte.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "cleanup-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Una aplicació que llegeix tota la galeria i la llista de contactes accedeix a dades molt personals. L’única garantia que aquest contingut no surt del dispositiu és el que afirma la política, i no es pot verificar des de fora.",
+  "dataCollection": [
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "cleanup-privacy-policy"
+      ],
+      "note": "La política afirma que el processament es fa al dispositiu o al núvol propi de la persona i que no se’n desa cap còpia als servidors de Codeway."
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "cleanup-privacy-policy"
+      ],
+      "note": "El permís es pot denegar; la política diu que la llista no s’emmagatzema."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "cleanup-app-store",
+        "cleanup-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "cleanup-app-store"
+      ],
+      "note": "Declarat com a dada utilitzada per rastrejar."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "cleanup-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "cleanup-app-store"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "cleanup-privacy-policy"
+      ],
+      "note": "Compartit amb Google, Apple, Facebook SDK, Adjust i Firebase per a màrqueting i publicitat personalitzada."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "cleanup-app-store"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "cleanup-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "cleanup-privacy-policy"
+      ],
+      "note": "Zona general deduïda de l’adreça IP."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "cleanup-app-store"
+      ]
+    },
+    {
+      "type": "fitxers-i-documents",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "cleanup-privacy-policy"
+      ],
+      "note": "Materials i fitxers als quals s’accedeix per netejar l’emmagatzematge, sense pujada als servidors."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cleanup-app-store"
+      ],
+      "detail": "Historial de compres, identificadors i interacció amb el producte declarats com a dades utilitzades per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cleanup-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cleanup-privacy-policy"
+      ],
+      "detail": "Google, Apple, Facebook SDK, Adjust i Firebase Analytics incrustats a l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cleanup-privacy-policy"
+      ],
+      "detail": "Les dades de màrqueting es comparteixen per fer publicitat, també personalitzada, amb consentiment retirable.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "cleanup-privacy-policy"
+      ],
+      "detail": "El perfilat descrit és de màrqueting i millora de l’experiència, no de decisions amb efectes jurídics.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no parla d’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cleanup-privacy-policy"
+      ],
+      "detail": "Proveïdors de serveis i socis de màrqueting i analítica; el contingut de la galeria, segons la política, no s’hi inclou.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No es descriu la compartició amb altres societats del grup."
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Sense evidència de venda a intermediaris."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cleanup-privacy-policy"
+      ],
+      "detail": "Transferències fora de l’EEE amb decisions d’adequació, clàusules tipus i mesures complementàries, segons la secció europea.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "cleanup-privacy-policy"
+      ],
+      "detail": "La política fixa criteris generals i remet a l’esborrat o l’anonimització quan la finalitat s’exhaureix, sense terminis per categoria.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No es descriu què es conserva quan es deixa de fer servir l’aplicació."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cleanup-privacy-policy"
+      ],
+      "detail": "La secció europea reconeix el dret de supressió de l’article 17 del RGPD.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [
+        "cleanup-privacy-policy"
+      ],
+      "detail": "Interpretació pròpia: com que l’aplicació es pot fer servir sense compte, desinstal·lar-la atura el gruix del tractament, però les dades ja enviades als proveïdors de màrqueting només s’esborren per petició.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "steps": [
+      "Cancel·la la subscripció des dels ajustos de l’App Store.",
+      "Retira els permisos de fotos i contactes des dels ajustos del sistema.",
+      "Escriu a cleanup@codeway.co demanant la supressió de les dades a l’empara de l’article 17 del RGPD."
+    ],
+    "sources": [
+      "cleanup-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "cleanup-privacy-policy"
+      ],
+      "detail": "Es reconeix la portabilitat a la secció europea, sense eina d’autoservei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "cleanup-privacy-policy"
+      ],
+      "detail": "Sol·licituds a cleanup@codeway.co o per correu postal a Istanbul; no consta cap representant a la UE.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:cleanup@codeway.co"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "cleanup-privacy-policy"
+      ],
+      "detail": "El consentiment publicitari es pot retirar des dels ajustos de privadesa del sistema o escrivint a l’empresa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap interruptor per desactivar l’analítica."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "cleanup-privacy-policy"
+      ],
+      "detail": "Els controls efectius són els permisos del sistema operatiu: fotos, contactes i seguiment publicitari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem examinat el flux de subscripció dins de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El contingut de la galeria no es transmet als servidors, segons la política.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cleanup-privacy-policy"
+      ],
+      "detail": "La política descriu canals xifrats i mesures criptogràfiques per a les dades que sí que es transmeten.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "cleanup-privacy-policy"
+      ],
+      "detail": "S’esmenta l’emmagatzematge amb mètodes criptogràfics, sense detall.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no requereix compte propi.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories independents."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha fitxer security.txt ni programa conegut."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap canal públic documentat."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "El compromís de no pujar fotos ni contactes consta a la política, que és el que podem verificar; no l’hem comprovat amb una anàlisi de trànsit. L’etiqueta de l’App Store, en canvi, declara un rastreig ampli basat en compres i interacció.",
+    "openQuestions": [
+      "Una anàlisi del trànsit de l’aplicació confirmaria que cap imatge no surt del dispositiu?",
+      "Quina relació societària hi ha entre Codeway i Deep Flow Software Services - FZCO, que comparteixen compte de desenvolupador a l’App Store?"
+    ]
+  },
+  "appStoreBundleId": "com.codeway.cleanerplus"
+}

@@ -1,0 +1,572 @@
+{
+  "slug": "antiqsnap",
+  "name": "AntiqSnap",
+  "company": "next-vision",
+  "categories": [
+    "traduccio-i-referencia"
+  ],
+  "tagline": "Taxador d’antiguitats amb foto que rastreja entre aplicacions i envia dades als Estats Units i a la Xina",
+  "summary": "AntiqSnap identifica antiguitats amb una foto i n’estima el preu de mercat. És de Next Vision Limited, de Hong Kong, i comparteix política amb FoilSnap: allotjament als Estats Units, transferència a empreses vinculades de Hangzhou, Google Analytics, Adjust i xarxes publicitàries. L’etiqueta de l’App Store declara rastreig entre aplicacions, però la pàgina d’ajuda assegura que no compartirà mai la informació amb ningú.",
+  "platforms": [
+    "ios"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Hong Kong; sense representant a la UE identificat",
+  "links": {
+    "website": "https://antiqueworthai.com/",
+    "privacyPolicy": "https://app-service.antiqueworthai.com/static/EuropeanUnion/privacy_policy.html",
+    "terms": "https://app-service.antiqueworthai.com/static/EuropeanUnion/user_agreement_20260126.html",
+    "appStore": "https://apps.apple.com/es/app/id6752929120"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "antiqsnap-privacy-policy"
+    ],
+    "detail": "Crear un perfil és opcional.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "antiqsnap-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Les fotos d’objectes de casa amb el valor estimat de cadascun formen un inventari del patrimoni domèstic. Unit a identificadors del dispositiu que es fan servir per rastrejar, permet perfilar la persona com a propietària de béns de valor.",
+  "dataCollection": [
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "antiqsnap-app-store",
+        "antiqsnap-privacy-policy"
+      ],
+      "note": "Les fotos dels objectes i les seves metadades."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-publicitaria",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "antiqsnap-app-store",
+        "antiqsnap-privacy-policy"
+      ],
+      "note": "Les compres, descàrregues i cancel·lacions s’envien a Adjust."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "antiqsnap-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "antiqsnap-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-publicitaria",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "antiqsnap-app-store",
+        "antiqsnap-privacy-policy"
+      ],
+      "note": "La política esmenta l’IMEI, l’IMSI i l’adreça MAC, a més de l’identificador del dispositiu."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "unknown",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "sources": [
+        "antiqsnap-privacy-policy"
+      ],
+      "note": "La política diu que «requereix» el número de telèfon (MSISDN), però l’etiqueta de l’App Store no el declara."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "antiqsnap-app-store",
+        "antiqsnap-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "antiqsnap-privacy-policy"
+      ]
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "antiqsnap-privacy-policy"
+      ]
+    },
+    {
+      "type": "xarxa-i-connectivitat",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "antiqsnap-privacy-policy"
+      ],
+      "note": "Operadora i intensitat del senyal mòbil i wifi."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "antiqsnap-app-store",
+        "antiqsnap-privacy-policy"
+      ],
+      "note": "Google Analytics, que pot combinar-les amb el compte de Google per a finalitats pròpies."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "antiqsnap-app-store"
+      ],
+      "note": "Consultes a atenció al client."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "antiqsnap-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "antiqsnap-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store declara compres, identificadors i dades d’ús «utilitzats per rastrejar-te» entre aplicacions i llocs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "antiqsnap-app-store",
+        "antiqsnap-privacy-policy"
+      ],
+      "detail": "L’etiqueta declara identificadors per rastrejar i la política remet a la configuració del mòbil per desactivar els anuncis basats en interessos.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "antiqsnap-privacy-policy"
+      ],
+      "detail": "Google Analytics i Adjust, i «xarxes publicitàries» sense nom.",
+      "verifiedAt": "2026-09-22",
+      "trackers": [
+        {
+          "name": "Google Analytics",
+          "purpose": "Analítica d’ús",
+          "sources": [
+            "antiqsnap-privacy-policy"
+          ]
+        },
+        {
+          "name": "Adjust",
+          "purpose": "Atribució de campanyes i mesura de compres",
+          "sources": [
+            "antiqsnap-privacy-policy"
+          ]
+        }
+      ]
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "antiqsnap-privacy-policy"
+      ],
+      "detail": "La política permet que xarxes publicitàries recullin informació per mostrar anuncis personalitzats a l’aplicació i fora, amb consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "antiqsnap-privacy-policy"
+      ],
+      "detail": "Personalització amb consentiment, i perfils que Google pot fer amb les dades d’Analytics per a finalitats pròpies.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu si les fotos serveixen per entrenar el model de reconeixement."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "antiqsnap-privacy-policy"
+      ],
+      "detail": "Proveïdors com Amazon Web Services, Google, Adjust i xarxes publicitàries; també possibles compradors de l’empresa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "antiqsnap-privacy-policy"
+      ],
+      "detail": "Amb empreses vinculades de Next Vision, entre elles a Hangzhou.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "antiqsnap-privacy-policy"
+      ],
+      "detail": "Declara que no ven informació personal a tercers per als seus propis usos comercials.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "antiqsnap-privacy-policy"
+      ],
+      "detail": "Allotjament als Estats Units i transferència a empreses vinculades de Hangzhou (Xina), amb clàusules contractuals tipus o mecanismes similars.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "antiqsnap-privacy-policy"
+      ],
+      "detail": "Només diu que avisarà la persona afectada d’una petició d’autoritats si la llei ho permet.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "antiqsnap-privacy-policy"
+      ],
+      "detail": "Només fixa els 13 mesos de les galetes de Google Analytics; per a la resta, criteris generals.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "antiqsnap-faq",
+        "antiqsnap-privacy-policy"
+      ],
+      "detail": "L’ajuda diu que en eliminar el compte s’esborren totes les dades; la política admet que en pot conservar per obligacions legals.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "galetes-i-identificadors-web",
+        "period": "Galetes de Google Analytics: 13 mesos",
+        "sources": [
+          "antiqsnap-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "antiqsnap-faq"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "antiqsnap-faq"
+      ],
+      "detail": "Hi ha una opció «Delete Account» dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "steps": [
+      "Obre la configuració de l’aplicació i toca «Privacy Policy».",
+      "Toca la icona de la part superior dreta per obrir «Data Management».",
+      "Tria «Delete Account» i confirma-ho.",
+      "Cancel·la la subscripció des de la configuració de l’Apple ID: eliminar el compte no l’atura."
+    ],
+    "obstacles": "L’opció és dins de la pantalla de la política de privadesa, darrere d’una icona sense text.",
+    "dataRetained": "El que calgui per obligacions legals o litigis, segons la política.",
+    "sources": [
+      "antiqsnap-faq",
+      "antiqsnap-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "antiqsnap-privacy-policy"
+      ],
+      "detail": "La política reconeix el dret de portabilitat, però només per correu electrònic; no hi ha cap eina d’exportació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "antiqsnap-privacy-policy"
+      ],
+      "detail": "Els drets s’exerceixen per correu a l’adreça de suport; l’empresa pot demanar un document d’identitat i respon en un mes, prorrogable dos mesos més. No hi ha delegat de protecció de dades ni representant a la UE identificats.",
+      "verifiedAt": "2026-09-22",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "antiqsnap-privacy-policy"
+      ],
+      "detail": "Remet a l’eina de galetes de l’aplicació, a la configuració del mòbil i a la pàgina d’Adjust per excloure el dispositiu.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.adjust.com/forget-device/"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "antiqsnap-privacy-policy"
+      ],
+      "detail": "Google Analytics es basa en el consentiment, però no hem vist com es gestiona dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut veure l’eina de gestió de galetes que esmenta la política."
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "yes",
+      "level": "editorial",
+      "sources": [
+        "antiqsnap-faq",
+        "antiqsnap-privacy-policy"
+      ],
+      "detail": "Valoració editorial: la pàgina d’ajuda assegura que no es compartirà mai la informació amb ningú, cosa que contradiu la política i l’etiqueta.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "confusing-language",
+        "severity": "medium",
+        "description": "L’ajuda diu «we will NEVER share your information with anyone», mentre que la política permet compartir dades amb xarxes publicitàries i empreses vinculades de la Xina.",
+        "sources": [
+          "antiqsnap-faq",
+          "antiqsnap-privacy-policy"
+        ]
+      },
+      {
+        "type": "hidden-exit",
+        "severity": "low",
+        "description": "L’opció d’eliminar el compte és a «Data Management», dins de la pantalla de la política de privadesa i darrere d’una icona.",
+        "sources": [
+          "antiqsnap-faq"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No és un servei de comunicació entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "antiqsnap-privacy-policy"
+      ],
+      "detail": "La política parla genèricament de xifratge, tallafocs i autenticació de servidors, però adverteix que no pot garantir que les dades no s’interceptin en trànsit.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política esmenta el xifratge de manera genèrica, sense dir si s’aplica a les dades emmagatzemades."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap opció de verificació en dos passos; el compte opcional es lliga a l’identificador d’Apple o de Google."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap auditoria ni certificació publicada."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap canal de notificació de vulnerabilitats ni fitxer security.txt."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "Política de la UE del 26 de gener de 2026, idèntica a la de FoilSnap llevat del nom i del correu de contacte. La llista d’identificadors de xarxa (IMEI, IMSI, MSISDN) és genèrica i iOS no els dona a les aplicacions.",
+    "openQuestions": [
+      "La cerca d’incidents no s’ha pogut completar: s’havia esgotat el pressupost de cerques web de la sessió.",
+      "Les fotos s’utilitzen per entrenar el model de reconeixement?"
+    ]
+  },
+  "appStoreBundleId": "com.antiqueworth.identifier"
+}

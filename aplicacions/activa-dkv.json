@@ -1,0 +1,576 @@
+{
+  "slug": "activa-dkv",
+  "name": "Activa DKV",
+  "company": "dkv-seguros",
+  "categories": [
+    "salut-i-assistencia-sanitaria",
+    "banca-i-finances"
+  ],
+  "tagline": "Una asseguradora que tracta dades mèdiques i declara la interacció amb l’app com a dada per rastrejar-te",
+  "summary": "Activa DKV és l’aplicació amb què els clients de l’asseguradora gestionen la pòlissa de salut: autoritzacions, reemborsaments, quadre mèdic i, si tenen l’app QC+, teleconsulta, biografia de salut i recepta electrònica. La política reconeix que tracta dades d’identificació, contacte, localització, imatge, veu (incloses les de les videotrucades) i dades mèdiques, i que les fa servir també per a mercadotecnia directa i per segmentar perfils, amb base en l’interès legítim. L’etiqueta de l’App Store declara la interacció amb el producte com a dada usada per rastrejar-te. El compte només es pot cancel·lar escrivint al delegat de protecció de dades del grup.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "subscription",
+  "jurisdiction": "Espanya (UE)",
+  "links": {
+    "website": "https://dkv.es/gestiones",
+    "privacyPolicy": "https://dkv.es/aviso-legal/politica-de-privacidad-dkv-activa",
+    "terms": "https://dkv.es/aviso-legal/politica-de-privacidad-dkv-activa",
+    "appStore": "https://apps.apple.com/es/app/id6443825826"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "activa-dkv-privacy-policy"
+    ],
+    "detail": "Cal descarregar l’aplicació, registrar-s’hi, ser major d’edat i confirmar el registre amb un enllaç enviat per correu.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "activa-dkv-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "El conjunt uneix la pòlissa i els pagaments amb símptomes descrits, fotografies i vídeos de lesions, informes, resultats de proves, activitat física i l’historial de consultes. La política diu que el contingut dels xats es guarda xifrat i per temps indefinit tret que es demani esborrar-lo.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "activa-dkv-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "activa-dkv-app-store",
+        "activa-dkv-privacy-policy"
+      ],
+      "note": "També per a les comunicacions comercials de DKV i d’altres companyies del grup."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "activa-dkv-app-store",
+        "activa-dkv-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "activa-dkv-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "activa-dkv-privacy-policy"
+      ],
+      "note": "Símptomes, informes mèdics, resultats de proves, activitat física i receptes electròniques. L’etiqueta de l’App Store no declara cap dada de salut."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "activa-dkv-app-store",
+        "activa-dkv-privacy-policy"
+      ],
+      "note": "Fotografies i vídeos que s’envien als professionals sanitaris per descriure símptomes."
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "activa-dkv-privacy-policy"
+      ],
+      "note": "Imatge i veu recollides a les videoconferències i trucades. La política diu que no se’n registra el contingut, només data, hora i especialitat."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "activa-dkv-privacy-policy"
+      ],
+      "note": "Els xats de consulta es conserven xifrats, accessibles per a la persona usuària i el professional, per temps indefinit tret que se’n demani el esborrat."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "activa-dkv-app-store"
+      ],
+      "note": "L’etiqueta la declara sense vincular; la cerca del quadre mèdic i de l’oficina més propera en justificaria l’ús."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "activa-dkv-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "activa-dkv-privacy-policy"
+      ],
+      "note": "Mètodes de pagament, condicions particulars i gestió de reemborsaments."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "activa-dkv-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "activa-dkv-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "activa-dkv-app-store",
+        "activa-dkv-privacy-policy"
+      ],
+      "note": "L’etiqueta declara la interacció amb el producte com a dada usada per rastrejar, i la política preveu «segmentació i anàlisi de perfils en base a l’ús i altres variables»."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "activa-dkv-app-store"
+      ],
+      "note": "Dades d’errors i de rendiment, no vinculades a la identitat."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "activa-dkv-app-store"
+      ],
+      "detail": "L’etiqueta declara la interacció amb el producte com a dada que es pot fer servir per rastrejar-te en apps i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’etiqueta declara l’identificador del dispositiu per a la funcionalitat de l’app, però no diu si es fa servir l’identificador publicitari."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no identifica cap component d’analítica dins de l’aplicació."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "activa-dkv-privacy-policy"
+      ],
+      "detail": "La política preveu tractar les dades «amb fins de mercadotecnia directa» per informar de productes i serveis propis i de tercers relacionats, amb base en l’interès legítim.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "activa-dkv-privacy-policy"
+      ],
+      "detail": "Preveu «segmentació i anàlisi de perfils en base a l’ús i altres variables» per millorar la usabilitat i incorporar funcionalitats noves.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no parla d’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "activa-dkv-privacy-policy"
+      ],
+      "detail": "La xarxa homologada de professionals sanitaris i una xarxa de voluntaris mèdics acreditats hi accedeixen com a encarregats, i la política autoritza facilitar dades a tercers per gestionar els serveis i informar de productes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "activa-dkv-privacy-policy",
+        "activa-dkv-group"
+      ],
+      "detail": "DKV forma part del grup assegurador europeu ERGO. Cal donar d’alta l’usuari també a DKV Servicios, i es poden rebre comunicacions d’altres companyies del grup DKV. La política precisa que DKV Servicios no comparteix amb DKV Seguros la informació de QC+.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu explícitament que no vengui dades personals."
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta transferències internacionals."
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència sobre peticions de dades."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "activa-dkv-privacy-policy"
+      ],
+      "detail": "La informació mèdica es conserva segons la Llei 41/2002 i el contingut dels xats «per temps indefinit tret que la persona usuària en demani l’esborrat»; no hi ha cap altre termini concret.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "activa-dkv-privacy-policy"
+      ],
+      "detail": "Cancel·lar el compte faculta DKV per esborrar els continguts afegits i bloquejar l’accés a les consultes anteriors, però la documentació clínica es conserva segons la normativa sanitària.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "contingut-de-missatges",
+        "period": "Indefinit, tret que la persona usuària demani que s’esborri",
+        "sources": [
+          "activa-dkv-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "activa-dkv-privacy-policy"
+      ],
+      "detail": "La política preveu cancel·lar el compte i suprimir les dades del servei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "activa-dkv-privacy-policy"
+      ],
+      "detail": "La cancel·lació es demana per correu electrònic al delegat de protecció de dades del grup; no hi ha cap botó dins de l’app.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "hard",
+    "requiresSupportContact": true,
+    "steps": [
+      "Si vols conservar els informes i resultats guardats a QC+, descarrega’ls abans.",
+      "Escriu a dpogrupodkv@dkvseguros.es demanant la cancel·lació del compte d’usuari.",
+      "Per suprimir les dades cal, a més, un escrit signat amb nom, cognoms i NIF adreçat a DKV Seguros (Torre DKV, Avda. María Zambrano 31, 50018 Saragossa), amb la referència «Protecció de Dades».",
+      "Tingues en compte que cancel·lar el compte bloqueja l’accés a les consultes anteriors i que, si tens serveis de salut subscrits, deixaràs de poder-hi accedir."
+    ],
+    "obstacles": "No hi ha autoservei: la baixa es demana per correu i la supressió, per escrit signat amb identificació. La pòlissa i la documentació clínica no s’esborren.",
+    "dataRetained": "La informació mèdica generada per l’ús de l’aplicació, conservada segons la Llei 41/2002, i les dades associades a la pòlissa.",
+    "sources": [
+      "activa-dkv-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "activa-dkv-privacy-policy"
+      ],
+      "detail": "La política reconeix la portabilitat, però només per escrit i amb identificació; no hi ha cap eina de descàrrega.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "activa-dkv-privacy-policy"
+      ],
+      "detail": "Per escrit a DKV Seguros a Saragossa, identificant-se amb nom, cognoms i NIF, o per correu al delegat de protecció de dades del grup.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dpogrupodkv@dkvseguros.es"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "activa-dkv-privacy-policy"
+      ],
+      "detail": "Es pot exercir el dret d’oposició a la mercadotecnia directa, però la política la basa en l’interès legítim i no descriu cap interruptor dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no parla de cap manera de desactivar l’analítica d’ús."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "activa-dkv-privacy-policy"
+      ],
+      "detail": "Cada aplicació integrada, com QC+, demana la seva acceptació i els seus consentiments concrets en el primer accés.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "activa-dkv-privacy-policy"
+      ],
+      "detail": "Per registrar-se cal acceptar en bloc les condicions, la política de privadesa i la de galetes, i la política afirma que acceptar-la autoritza a facilitar dades a tercers per informar de productes i promocions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "unbalanced-consent",
+        "severity": "medium",
+        "description": "L’acceptació conjunta de les condicions i de la política inclou l’autorització a comunicar dades a tercers amb finalitat informativa i promocional.",
+        "sources": [
+          "activa-dkv-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "activa-dkv-privacy-policy"
+      ],
+      "detail": "Els xats es conserven xifrats i accessibles per a la persona usuària i el professional, però és DKV qui els custodia i qui els pot esborrar a petició: no és xifratge d’extrem a extrem.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "activa-dkv-privacy-policy"
+      ],
+      "detail": "La política diu que les dades personals es xifren quan es transmeten per xarxes públiques o sense fil, i que els protocols de comunicació amb el sistema de recepta electrònica van xifrats segons l’article 8 del Reial decret 1718/2010.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "activa-dkv-privacy-policy"
+      ],
+      "detail": "Només consta el xifratge del contingut de les consultes per xat; per a la resta, la política parla de mesures en termes generals.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no parla de verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "activa-dkv-privacy-policy"
+      ],
+      "detail": "La política diu que la xarxa de professionals està auditada i que s’ha provat el nivell de resiliència del sistema, però no publica cap informe.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses per a vulnerabilitats."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El domini dkv.es no serveix cap fitxer security.txt."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "mi-sanitas",
+      "comparability": "equivalent",
+      "rationale": "És l’aplicació equivalent d’una altra asseguradora de salut espanyola, amb pòlissa, quadre mèdic i teleconsulta.",
+      "tradeOffs": "També és una asseguradora que tracta dades de salut amb finalitats comercials; només serveix si hi tens la pòlissa."
+    },
+    {
+      "app": "adeslas",
+      "comparability": "equivalent",
+      "rationale": "Mateixa funció per als clients d’SegurCaixa Adeslas.",
+      "tradeOffs": "Només serveix per a qui hi tingui contractada l’assegurança."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "El document que enllaça l’App Store barreja les condicions d’ús i la política de privadesa en una sola pàgina, i bona part del tractament de dades de salut s’explica remetent a l’aplicació QC+, amb condicions pròpies que no hem revisat. Classifiquem la fitxa també a banca i finances perquè el responsable és una asseguradora. El buscador de resolucions de l’AEPD no ens ha respost i no hem pogut completar la cerca d’incidents.",
+    "openQuestions": [
+      "Per què l’etiqueta de l’App Store no declara cap dada de salut si l’aplicació gestiona informes, símptomes i receptes?",
+      "Quina eina fa servir DKV per mesurar la interacció amb el producte i per què la declara com a rastreig?",
+      "Què diu exactament la política de privadesa de QC+, on es guarda la biografia de salut?"
+    ]
+  },
+  "appStoreBundleId": "com.dkv.appdkv"
+}

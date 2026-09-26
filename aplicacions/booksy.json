@@ -1,0 +1,576 @@
+{
+  "slug": "booksy",
+  "name": "Booksy",
+  "company": "booksy-iberia",
+  "categories": [
+    "benestar-i-activitat-fisica",
+    "comerc-electronic"
+  ],
+  "tagline": "Reserves de perruqueria amb una política espanyola molt detallada i una etiqueta d’App Store que declara rastreig i accés als contactes",
+  "summary": "Booksy serveix per reservar hora a perruqueries, barberies i centres d’estètica. La política espanyola està ben feta: identifica Booksy Iberia com a responsable, publica una taula amb la finalitat, la base jurídica i el termini de conservació de cada tractament, i afirma que les dades no se cedeixen fora de l’Espai Econòmic Europeu. L’etiqueta de l’App Store, en canvi, declara identificadors utilitzats per rastrejar i l’accés a la llista de contactes, cosa que la política no explica. La baixa és autoservei des de l’aplicació.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Espanya (UE)",
+  "userBase": "No n’hem verificat cap xifra oficial de comptes a Espanya.",
+  "links": {
+    "website": "https://booksy.com/es-es/",
+    "privacyPolicy": "https://booksy.com/es-es/p/privacy",
+    "terms": "https://booksy.com/es-es/p/terms",
+    "appStore": "https://apps.apple.com/es/app/id723961236"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "booksy-privacy-policy"
+    ],
+    "detail": "Cal donar nom, cognom, correu i telèfon per reservar.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "booksy-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "L’historial de reserves diu quan vas a la perruqueria, a quin barri, amb qui i quant hi gastes. Sumat al sexe, a la data de naixement i a la geolocalització (que la política reconeix que fa servir per agrupar perfils), mostra una rutina personal regular i fàcil de predir.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "booksy-privacy-policy",
+        "booksy-app-store"
+      ],
+      "note": "El negoci reservat rep les dades de la persona que hi va."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "booksy-privacy-policy"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "booksy-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "booksy-privacy-policy"
+      ]
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "booksy-privacy-policy"
+      ]
+    },
+    {
+      "type": "genere",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "booksy-privacy-policy"
+      ],
+      "note": "La política l’inclou expressament entre els criteris amb què agrupa perfils."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "booksy-privacy-policy",
+        "booksy-app-store"
+      ],
+      "note": "Foto de perfil; els negocis hi pengen el catàleg de treballs."
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "booksy-app-store"
+      ],
+      "note": "L’etiqueta de l’App Store declara l’accés als contactes vinculat a la identitat. La política no n’explica la finalitat."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "booksy-privacy-policy",
+        "booksy-app-store"
+      ],
+      "note": "Serveix per trobar negocis propers i, segons la política, també per agrupar perfils."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "booksy-app-store",
+        "booksy-privacy-policy"
+      ],
+      "note": "Les reserves i els pagaments fets a través de l’aplicació."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "booksy-app-store"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "booksy-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "booksy-app-store"
+      ],
+      "note": "L’etiqueta declara identificadors com a dades utilitzades per rastrejar-te."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "booksy-app-store",
+        "booksy-privacy-policy"
+      ],
+      "note": "La política esmenta les hores d’ús i l’última activitat registrada com a criteris de perfilat."
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "booksy-privacy-policy"
+      ],
+      "note": "Galetes pròpies i de tercers, amb Google Analytics i Facebook citats a la política."
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "booksy-privacy-policy"
+      ],
+      "note": "La política afirma que no tracta categories especials de dades, tot i que alguns serveis reservables (depilació, estètica) hi poden fregar."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "booksy-app-store"
+      ],
+      "detail": "L’etiqueta declara identificadors utilitzats per rastrejar-te en aplicacions i webs d’altres empreses, cosa que la política no explica.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "booksy-app-store"
+      ],
+      "detail": "Identificadors declarats sota «dades utilitzades per rastrejar-te».",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "booksy-privacy-policy"
+      ],
+      "detail": "La política de galetes esmenta Google Analytics i Facebook.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "booksy-privacy-policy"
+      ],
+      "detail": "Hi ha màrqueting directe i indirecte basat en l’interès legítim, però la política afirma que Booksy «no utilitza pràctiques invasives de creació de perfils i seguiment» amb finalitats publicitàries. L’etiqueta de l’App Store, en canvi, declara rastreig.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "booksy-privacy-policy"
+      ],
+      "detail": "Perfilat i agrupació a partir de l’activitat al web i a l’aplicació, la geolocalització, el sexe, les hores d’ús, l’última activitat i l’anàlisi de les fotos consultades, sota interès legítim.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no parla d’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "booksy-privacy-policy"
+      ],
+      "detail": "Els negocis reservats, proveïdors de comptabilitat, informàtica, màrqueting, anàlisi, serveis jurídics i recobrament, i autoritats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "booksy-privacy-policy"
+      ],
+      "detail": "Amb les empreses del grup de capital de Booksy, sense concretar quines.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no parla de venda de dades ni la descarta expressament."
+    },
+    "internationalTransfers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "booksy-privacy-policy"
+      ],
+      "detail": "La política afirma que les dades no se cediran a entitats amb seu fora de l’Espai Econòmic Europeu.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "none"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "booksy-privacy-policy"
+      ],
+      "detail": "La política publica una taula amb el termini de cada finalitat, però els terminis s’expressen per esdeveniment (fi del contracte, revocació, prescripció d’accions) i no en xifres.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "booksy-privacy-policy"
+      ],
+      "detail": "Es conserven les dades necessàries per defensar-se de reclamacions fins que prescriguin i les que exigeixen les obligacions legals.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "booksy-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "booksy-privacy-policy"
+      ],
+      "detail": "La política descriu el camí dins de l’aplicació d’iOS; per al web, remet a una sol·licitud per correu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "easy",
+    "requiresSupportContact": false,
+    "steps": [
+      "Obre l’aplicació de Booksy i ves a la pestanya «Perfil».",
+      "Entra a «Configuración» i després a «App de Booksy».",
+      "Tria «Eliminar cuenta» i confirma amb «Sí, enviar solicitud».",
+      "Si ho fas des del web, envia la sol·licitud a lopd@booksy.com."
+    ],
+    "obstacles": "Des del web no hi ha botó: cal escriure un correu. Les cites ja fetes i les dades de facturació es conserven fins que prescriguin les possibles reclamacions.",
+    "dataRetained": "Dades necessàries per a obligacions legals i comptables i per a la defensa de reclamacions.",
+    "sources": [
+      "booksy-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "booksy-privacy-policy"
+      ],
+      "detail": "El dret de portabilitat es reconeix i s’exerceix per correu o telèfon; no hi ha cap eina d’autoservei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "booksy-privacy-policy"
+      ],
+      "detail": "Canal específic de protecció de dades amb adreça electrònica, telèfon gratuït, formulari i adreça postal a Madrid, i menció expressa del dret a reclamar davant de l’Agència Espanyola de Protecció de Dades.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:lopd@booksy.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "booksy-privacy-policy"
+      ],
+      "detail": "Els consentiments de màrqueting i comunicació es gestionen a l’apartat «La teva privadesa» del perfil, però el perfilat es fa per interès legítim i només s’hi pot fer oposició.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "booksy-privacy-policy"
+      ],
+      "detail": "Les galetes analítiques només es poden bloquejar des del navegador; no hi ha cap control dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "booksy-privacy-policy"
+      ],
+      "detail": "Hi ha consentiments separats per a les comunicacions, però no un panell que permeti aturar el perfilat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "booksy-privacy-policy"
+      ],
+      "detail": "La política diu que en fer servir el sistema s’accepten les galetes, un plantejament que el RGPD i la normativa de comunicacions electròniques no admeten per a les galetes no necessàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "unbalanced-consent",
+        "severity": "medium",
+        "description": "El consentiment de galetes es dona per atorgat pel simple ús del servei, i l’única sortida que s’ofereix és configurar el navegador.",
+        "sources": [
+          "booksy-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "no",
+      "level": "editorial",
+      "sources": [
+        "booksy-privacy-policy"
+      ],
+      "detail": "La plataforma transporta missatges entre clients i negocis i la política no en reivindica cap xifratge d’extrem a extrem.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "booksy-privacy-policy"
+      ],
+      "detail": "La política diu que les sessions de registre i d’autorització van xifrades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "booksy-privacy-policy"
+      ],
+      "detail": "Només es concreta que les contrasenyes es guarden amb algoritmes de xifratge unidireccional; de la resta de dades no en diu res.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap segon factor per al compte de client."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El centre de confiança del web no publica certificacions ni auditories llegibles."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat security.txt ni cap canal públic per comunicar vulnerabilitats."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "No hi ha cap categoria de bellesa o de reserva de cites: la classifiquem com a benestar (el servei que es reserva) i comerç electrònic (el pagament i la comissió). La fitxa mostra la distància entre una política espanyola detallada, amb taula de bases jurídiques i terminis, i una etiqueta de l’App Store que declara rastreig publicitari i accés als contactes sense que la política ho expliqui. No hem pogut completar la cerca d’incidents.",
+    "openQuestions": [
+      "Per què l’aplicació demana la llista de contactes i amb qui es comparteix?",
+      "Com es concilia l’afirmació que no fa seguiment invasiu amb els identificadors declarats per rastrejar a l’App Store?",
+      "Hi ha cap actuació de l’AEPD o cap filtració documentada que afecti Booksy?"
+    ]
+  },
+  "appStoreBundleId": "com.sensi.BooksyCUST"
+}

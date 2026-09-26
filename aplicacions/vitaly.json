@@ -1,0 +1,504 @@
+{
+  "slug": "vitaly",
+  "name": "Vítaly",
+  "company": "vitaly-health-services",
+  "categories": [
+    "salut-i-assistencia-sanitaria"
+  ],
+  "tagline": "Aplicació de vigilància de la salut laboral que no declara cap dada de salut a l’App Store i que diu alhora que no fa transferències fora de la UE i que Microsoft en pot fer perfils publicitaris",
+  "summary": "Vítaly és l’aplicació del servei de prevenció aliè que va néixer de la unió de Preving i Cualtis: hi consultes el reconeixement mèdic, les analítiques i la telemedicina que et fa l’empresa on treballes. La política identifica bé el responsable, les bases jurídiques i els terminis legals, però conté dues contradiccions rellevants: l’etiqueta de l’App Store no declara cap dada de salut i, en el mateix apartat, la política nega les transferències fora de la Unió Europea i tot seguit diu que Microsoft Ireland pot tractar les dades com a responsable independent per crear perfils de publicitat personalitzada.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "unknown",
+  "jurisdiction": "Espanya",
+  "userBase": "El grup declara més de 2,5 milions de persones protegides i més de 150.000 empreses clients",
+  "links": {
+    "website": "https://vitaly.es/",
+    "privacyPolicy": "https://privacidad.vitaly.es/app-vitaly/",
+    "appStore": "https://apps.apple.com/es/app/id6470290292"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "vitaly-privacy-app"
+    ],
+    "detail": "Cal donar el consentiment i identificar-se: la política diu que sense consentiment no es pot accedir a l’aplicació.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": [],
+    "detail": "No hem trobat publicat el codi de l’aplicació."
+  },
+  "dataSummary": "Reconeixements mèdics, analítiques, telemedicina i salut mental lligats a la feina. Hi conviuen dades de salut i dades laborals, en un servei que tria l’empresa on treballa la persona.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "vitaly-app-store",
+        "vitaly-privacy-app"
+      ]
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "vitaly-privacy-app"
+      ],
+      "note": "Número de document i signatura."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "vitaly-app-store",
+        "vitaly-privacy-app"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "vitaly-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "vitaly-privacy-app"
+      ],
+      "note": "La política llista expressament les dades de salut, però l’etiqueta de l’App Store no declara cap categoria de salut i forma física."
+    },
+    {
+      "type": "ocupacio-i-carrec",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "vitaly-privacy-app"
+      ],
+      "note": "Detalls de l’ocupació. A l’empresa ocupadora només se li comuniquen les conclusions d’aptitud psicofísica, no les dades clíniques."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "vitaly-app-store"
+      ],
+      "note": "L’etiqueta declara «correos o mensajes de texto» vinculats a la identitat: és la comunicació amb els professionals sanitaris."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "vitaly-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "vitaly-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "vitaly-app-store",
+        "vitaly-privacy-app"
+      ],
+      "note": "La política parla de registres de tocs, navegació i activitat a la pantalla."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "vitaly-app-store"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "unknown",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "note": "La fitxa de Google Play declara que l’aplicació pot compartir la ubicació amb tercers; ni l’etiqueta de l’App Store ni la política ho esmenten.",
+      "sources": [
+        "vitaly-play-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "vitaly-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no té secció de dades utilitzades per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’etiqueta no declara cap identificador publicitari, però la política esmenta perfils publicitaris de Microsoft Ireland."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "vitaly-privacy-app"
+      ],
+      "detail": "La política diu que Microsoft Ireland Operations Ltd. pot tractar dades com a responsable independent per crear perfils de publicitat personalitzada.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "vitaly-privacy-app"
+      ],
+      "detail": "El servei no mostra publicitat, però la política declara que Microsoft Ireland pot crear perfils per a publicitat personalitzada com a responsable independent.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "vitaly-privacy-app"
+      ],
+      "detail": "La política diu que no es prenen decisions automatitzades ni s’elaboren perfils i, en el mateix document, que Microsoft Ireland en pot crear amb finalitat publicitària. És una contradicció interna.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu res sobre l’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "vitaly-privacy-app"
+      ],
+      "detail": "A l’empresa ocupadora només se li comuniquen les conclusions d’aptitud. La política afirma que no se cediran dades de salut a cap tercer.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "vitaly-privacy-app"
+      ],
+      "detail": "Comunicacions internes dins del grup Vítaly.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "vitaly-privacy-app"
+      ],
+      "detail": "La política declara que no se cediran dades de salut a cap tercer.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "vitaly-privacy-app"
+      ],
+      "detail": "La política diu que no es fan transferències fora de la Unió Europea i, tot seguit, que les dades poden ser transferides als Estats Units en el marc del Data Privacy Framework a través de Microsoft Ireland. Les dues afirmacions són incompatibles.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "adequacy"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "vitaly-cancelacio"
+      ],
+      "detail": "La política de cancel·lació fixa un mínim de 5 anys, emparat en l’article 23 de la Llei 31/1995 de prevenció de riscos laborals i l’article 17.1 de la Llei 41/2002, ampliable per la normativa sanitària.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "vitaly-cancelacio"
+      ],
+      "detail": "La documentació de vigilància de la salut s’ha de conservar encara que la persona demani la supressió, mentre corren els terminis legals.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "dades-de-salut",
+        "period": "Mínim 5 anys (Llei 31/1995 i Llei 41/2002), ampliable per la normativa sanitària específica",
+        "sources": [
+          "vitaly-cancelacio"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "vitaly-drets",
+        "vitaly-cancelacio"
+      ],
+      "detail": "La supressió s’ha de demanar formalment i xoca amb els terminis legals de conservació de la documentació de vigilància de la salut.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "vitaly-drets"
+      ],
+      "detail": "No hi ha cap opció d’eliminació dins de l’aplicació: cal omplir un formulari en format .docx, adjuntar-hi còpia del document d’identitat i enviar-lo per correu electrònic o postal.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "hard",
+    "requiresSupportContact": true,
+    "waitingPeriodDays": 30,
+    "steps": [
+      "Descarrega el model d’exercici de drets de privacidad.vitaly.es.",
+      "Omple’l, adjunta-hi una còpia del DNI o del passaport i envia’l a privacidad@vitaly.es o per correu postal a l’adreça de Badajoz amb la referència «Ejercicio derechos».",
+      "Espera la resposta, que segons la mateixa pàgina arriba en un màxim d’un mes.",
+      "Si Vítaly actua com a encarregat per compte de la teva empresa, et derivarà al responsable: has de repetir la sol·licitud davant de l’empresa ocupadora."
+    ],
+    "obstacles": "La sol·licitud exigeix un formulari en format .docx i una còpia del document d’identitat, dos requisits que ja dificulten la petició. A més, en molts casos Vítaly actua com a encarregat del tractament i deriva la petició a l’empresa ocupadora, que és qui decideix.",
+    "dataRetained": "La documentació de vigilància de la salut, durant un mínim de cinc anys.",
+    "sources": [
+      "vitaly-drets",
+      "vitaly-cancelacio"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "vitaly-drets"
+      ],
+      "detail": "La portabilitat es reconeix, però només per la via del formulari manual: no hi ha cap eina d’autoservei d’exportació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "vitaly-drets"
+      ],
+      "detail": "Hi ha una pàgina específica amb el procediment, el formulari, l’adreça postal, el correu de privadesa i el termini d’un mes, i s’hi indica la reclamació davant de l’AEPD.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacidad@vitaly.es",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap manera d’oposar-se als perfils publicitaris que atribueix a Microsoft Ireland."
+    },
+    "telemetryOptOut": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "vitaly-privacy-app"
+      ],
+      "detail": "La política declara que es registren els tocs, la navegació i l’activitat a la pantalla, sense oferir cap manera de desactivar-ho.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap panell de privadesa a l’aplicació."
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi de patrons foscos a l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El servei inclou telemedicina i missatgeria amb professionals sanitaris, però no hem trobat cap promesa de xifratge d’extrem a extrem."
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "vitaly-play-store"
+      ],
+      "detail": "La fitxa de Google Play declara que les dades van xifrades en trànsit.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informació sobre el xifratge de les dades en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap documentació sobre doble factor."
+    },
+    "independentAudits": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "vitaly-certificacions"
+      ],
+      "detail": "L’empresa publica la certificació ISO/IEC 27001:2022 i la conformitat amb l’Esquema Nacional de Seguretat de nivell mitjà (Reial decret 311/2022). La política de l’aplicació encara cita la versió 27001:2013.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "vitaly-certificacions"
+      ],
+      "detail": "Hi ha un sistema de gestió de la seguretat de la informació documentat públicament, amb un procediment de gestió de vulneracions, però no un canal obert per notificar vulnerabilitats des de fora. No hi ha fitxer security.txt a vitaly.es.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "El cercador de resolucions de l’AEPD no retorna cap resultat per als termes «preving», «preving investments», «cualtis» ni «vitaly». La fitxa té dues discrepàncies documentades: el venedor a l’App Store és Preving Investments, S.L., mentre que el responsable del tractament declarat és Vítaly Health Services, S.L.U.; i l’etiqueta de l’App Store no declara cap dada de salut tot i que la política sí que les enumera. L’ús d’aquesta aplicació no el tria la persona usuària: el determina l’empresa on treballa.",
+    "openQuestions": [
+      "Com es concilia «no es fan transferències fora de la Unió Europea» amb el paràgraf que preveu el tractament per Microsoft Ireland i la transferència als Estats Units?",
+      "Per què l’etiqueta de l’App Store no declara cap dada de salut si la política les enumera expressament?",
+      "Quina relació societària hi ha entre Preving Investments, S.L. i Vítaly Health Services, S.L.U.?",
+      "La cerca d’incidents s’ha limitat al cercador oficial de resolucions de l’AEPD; no s’ha pogut completar amb cerques generals."
+    ]
+  },
+  "appStoreBundleId": "com.vitaly.tps"
+}

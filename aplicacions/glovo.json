@@ -1,0 +1,540 @@
+{
+  "slug": "glovo",
+  "name": "Glovo",
+  "company": "glovo",
+  "categories": [
+    "repartiment-a-domicili"
+  ],
+  "tagline": "Repartiment a domicili amb dades d’ubicació i sense baixa autoservei",
+  "summary": "Glovo és l’únic servei d’aquesta primera onada en què no hem trobat cap manera d’eliminar el compte sense passar per atenció al client. Recull l’adreça de domicili, les comandes d’alimentació i farmàcia i els horaris habituals. L’autoritat espanyola l’ha sancionat pel tractament de dades de les persones repartidores.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Espanya",
+  "userBase": "Present a més de 20 països, amb desenes de milions de comptes",
+  "links": {
+    "website": "https://glovoapp.com/",
+    "privacyPolicy": "https://glovoapp.com/docs/es/legal/privacy/",
+    "terms": "https://glovoapp.com/docs/es/legal/terms/"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "glovo-privacy-policy"
+    ],
+    "detail": "Cal registrar-se amb adreça electrònica o telèfon per fer qualsevol comanda.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "glovo-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Les comandes de menjar i de farmàcia revelen hàbits alimentaris, restriccions religioses, situacions de salut i rutines domèstiques. L’adreça exacta i les hores de lliurament indiquen on viu la persona i quins horaris fa.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "glovo-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "glovo-privacy-policy"
+      ],
+      "note": "Es comparteix amb la persona repartidora i amb l’establiment."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "glovo-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "glovo-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "glovo-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "glovo-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "recomanacions-algoritmiques",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "glovo-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "glovo-privacy-policy"
+      ],
+      "note": "Les comandes de farmàcia i parafarmàcia permeten inferir tractaments i condicions."
+    },
+    {
+      "type": "conviccions-i-opinions",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "glovo-privacy-policy"
+      ],
+      "note": "No es demanen, però els hàbits alimentaris poden revelar conviccions religioses."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "glovo-privacy-policy"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "glovo-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "glovo-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "glovo-privacy-policy"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "glovo-privacy-policy"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "glovo-privacy-policy"
+      ],
+      "detail": "La política preveu l’ús d’eines de publicitat i d’anàlisi de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "glovo-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "glovo-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "glovo-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://glovoapp.com/docs/es/legal/privacy/"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "glovo-privacy-policy"
+      ],
+      "detail": "La política reconeix explícitament l’elaboració de perfils i indica que s’hi pot oposar escrivint a gdpr@glovoapp.com.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no detalla si les dades s’utilitzen per entrenar models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "glovo-privacy-policy"
+      ],
+      "detail": "Establiments, persones repartidores, passarel·les de pagament i proveïdors tecnològics.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "glovo-privacy-policy"
+      ],
+      "detail": "Compartició amb Delivery Hero com a societat matriu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta la venda de dades a intermediaris."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "glovo-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "glovo-privacy-policy"
+      ],
+      "detail": "No publica cap informe de transparència sobre peticions d’autoritats.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "glovo-privacy-policy"
+      ],
+      "detail": "S’indiquen criteris generals i terminis de prescripció legal, però pocs terminis concrets per categoria.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "glovo-privacy-policy"
+      ],
+      "detail": "Es conserven les dades de facturació durant els terminis fiscals obligatoris.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "glovo-privacy-policy",
+        "glovo-delete-guide"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "no",
+      "level": "independent",
+      "sources": [
+        "glovo-delete-guide"
+      ],
+      "detail": "No hi ha cap opció d’eliminació dins de la configuració de l’aplicació. Cal obrir un cas a través del formulari d’atenció al client o escriure al canal de protecció de dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "hard",
+    "requiresSupportContact": true,
+    "steps": [
+      "Obre l’aplicació i entra a Perfil i després a Ajuda o Contacta amb nosaltres.",
+      "Tria una categoria de consulta i redacta la sol·licitud d’eliminació del compte.",
+      "Com a alternativa, escriu a gdpr@glovoapp.com invocant el dret de supressió de l’article 17 del RGPD.",
+      "Espera la confirmació per correu electrònic i guarda-la com a prova."
+    ],
+    "obstacles": "Com que no hi ha cap botó d’eliminació, cal exercir formalment el dret de supressió. Sense resposta dins de termini, cal reclamar davant de l’Agència Espanyola de Protecció de Dades.",
+    "dataRetained": "Dades de facturació i comandes durant els terminis de prescripció fiscal i mercantil.",
+    "sources": [
+      "glovo-privacy-policy",
+      "glovo-delete-guide"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "glovo-privacy-policy"
+      ],
+      "detail": "El dret de portabilitat es reconeix a la política, però no hi ha una eina d’autoservei.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://glovoapp.com/docs/es/legal/privacy/"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "glovo-privacy-policy"
+      ],
+      "detail": "Canal de protecció de dades explícit a la política.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:gdpr@glovoapp.com",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "glovo-privacy-policy"
+      ],
+      "detail": "L’oposició al perfilat s’ha de fer per correu electrònic, no amb un control dins de l’aplicació.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:gdpr@glovoapp.com"
+    },
+    "telemetryOptOut": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "glovo-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "glovo-privacy-policy"
+      ],
+      "detail": "L’aplicació no ofereix un panell de privadesa amb controls per finalitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "yes",
+      "level": "editorial",
+      "sources": [
+        "glovo-delete-guide"
+      ],
+      "detail": "L’absència d’eliminació autoservei funciona com a patró de retenció, perquè la baixa només es pot demanar a través d’atenció al client.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "hidden-exit",
+        "severity": "high",
+        "description": "No hi ha cap opció per eliminar el compte dins de l’aplicació ni del web; cal contactar amb atenció al client o invocar el RGPD per correu electrònic.",
+        "sources": [
+          "glovo-delete-guide"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no transporta comunicacions privades més enllà del xat puntual amb la persona repartidora.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "glovo-security"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública sobre el xifratge de les dades en repòs."
+    },
+    "mfa": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "glovo-security"
+      ],
+      "detail": "L’accés habitual es fa amb un codi d’un sol ús per SMS o correu, cosa que substitueix la contrasenya en lloc de reforçar-la.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "sms",
+        "email"
+      ]
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories de seguretat independents publicades."
+    },
+    "bugBounty": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "glovo-security"
+      ],
+      "detail": "Existeix una pàgina de seguretat amb un canal de comunicació, però no un programa de recompenses públic.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://glovoapp.com/en/security"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "glovo-security"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "L’absència de baixa autoservei s’ha verificat revisant la configuració de l’aplicació i la documentació pública. No l’hem trobada resumida en cap altra font.",
+    "openQuestions": [
+      "Quin és el temps mitjà de resposta a una sol·licitud de supressió per correu electrònic?"
+    ]
+  },
+  "appStoreBundleId": "com.glovo.Glovo"
+}

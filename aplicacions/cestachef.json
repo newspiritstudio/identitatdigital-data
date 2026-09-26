@@ -1,0 +1,413 @@
+{
+  "slug": "cestachef",
+  "name": "CestaChef - Menu Semanal",
+  "company": "cestachef",
+  "categories": [
+    "alimentacio-i-restauracio",
+    "utilitats"
+  ],
+  "tagline": "Aplicació petita amb una política detallada: dades de salut amb consentiment separat i analítica amb PostHog allotjat a la UE",
+  "summary": "CestaChef planifica menús setmanals i llistes de la compra. La seva política de privadesa és detallada: les dades de salut només es tracten si s’activa la funció «Mi objetivo», amb consentiment exprés de l’article 9.2 a), i s’esborren de manera irreversible si es retira; l’analítica és amb PostHog allotjat a la Unió Europea, amb la captura automàtica i l’enregistrament de sessions desactivats. L’etiqueta de l’App Store, en canvi, diu que l’aplicació no recull cap dada, cosa que contradiu la política.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://www.cestachef.es/",
+    "privacyPolicy": "https://www.cestachef.es/privacidad",
+    "appStore": "https://apps.apple.com/es/app/id6779004897"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "cestachef-privacy-policy"
+    ],
+    "detail": "La política descriu el compte com a base del servei: es crea amb Google o amb un enllaç màgic enviat al correu.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "cestachef-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Un planificador de menús sap què menges cada dia i, si actives la funció d’objectius, també el teu pes i la teva meta calòrica: dades de salut de l’article 9 del RGPD. CestaChef les tracta amb un consentiment separat i no les envia mai a l’analítica.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "cestachef-privacy-policy"
+      ],
+      "note": "Prové del compte de Google o del registre amb enllaç màgic."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "cestachef-privacy-policy"
+      ]
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "cestachef-privacy-policy"
+      ],
+      "note": "Fotografia de perfil opcional, desada a Supabase Storage dins de la Unió Europea."
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "cestachef-privacy-policy"
+      ],
+      "note": "Pes i objectiu calòric, només si s’activa «Mi objetivo», amb consentiment exprés de l’article 9.2 a) i només per a majors d’edat. A l’analítica només se n’envia la franja, com ara «1700-1999»."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "cestachef-privacy-policy"
+      ],
+      "note": "Preferències de menú i restriccions alimentàries."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "cestachef-privacy-policy"
+      ],
+      "note": "Testimoni de notificacions push."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "cestachef-privacy-policy"
+      ],
+      "note": "Només amb consentiment i amb esdeveniments declarats; la captura automàtica i l’enregistrament de sessions estan desactivats."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "cestachef-app-store",
+        "cestachef-privacy-policy"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada utilitzada per rastrejar i la política no descriu cap tractament publicitari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "cestachef-privacy-policy"
+      ],
+      "detail": "La política no esmenta identificadors publicitaris; l’únic identificador de dispositiu és el testimoni de notificacions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "cestachef-privacy-policy"
+      ],
+      "detail": "L’únic tercer amb accés a dades d’ús és PostHog, allotjat a la Unió Europea, amb consentiment previ i sense captura automàtica.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "cestachef-privacy-policy"
+      ],
+      "detail": "La política diu que no hi ha venda de dades ni tractaments publicitaris.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "cestachef-privacy-policy"
+      ],
+      "detail": "Les preferències i l’objectiu de la persona usuària serveixen per generar els menús, però la política no descriu cap elaboració de perfils comercials.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta l’ús de dades per entrenar models d’intel·ligència artificial."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "cestachef-privacy-policy"
+      ],
+      "detail": "Els únics destinataris són els proveïdors necessaris: Supabase per a l’allotjament, Google per a l’inici de sessió i PostHog per a l’analítica.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "CestaChef no forma part de cap grup empresarial declarat a la política.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "cestachef-privacy-policy"
+      ],
+      "detail": "La política diu expressament que no es venen dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "cestachef-privacy-policy"
+      ],
+      "detail": "La política situa l’allotjament de Supabase i de PostHog a la Unió Europea.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "none"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "És un servei petit; no hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "cestachef-privacy-policy"
+      ],
+      "detail": "La política lliga la conservació a la vida del compte i descriu l’esborrat de les dades de salut quan es retira el consentiment, però no dona terminis numèrics per a la resta.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "cestachef-privacy-policy"
+      ],
+      "detail": "En eliminar el compte s’esborren les dades personals, però el registre d’esdeveniments d’ús es conserva desidentificat de manera permanent, a l’empara de l’article 17.3 del RGPD.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cestachef-privacy-policy"
+      ],
+      "detail": "La política descriu l’eliminació del compte des de la mateixa aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cestachef-privacy-policy"
+      ],
+      "detail": "L’opció és dins de l’aplicació, sense haver de contactar amb ningú.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "easy",
+    "requiresSupportContact": false,
+    "steps": [
+      "Ves a «Perfil» → «Cuenta» → «Eliminar cuenta».",
+      "Confirma-ho: s’esborren el compte i les dades personals associades.",
+      "Si només vols retirar el consentiment de salut, desactiva «Mi objetivo» a «Perfil»: el perfil de salut i l’historial de pes s’esborren de manera irreversible."
+    ],
+    "dataRetained": "El registre d’esdeveniments d’ús es conserva desidentificat de manera permanent, emparat en l’article 17.3 del RGPD.",
+    "sources": [
+      "cestachef-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cestachef-privacy-policy"
+      ],
+      "detail": "Hi ha una exportació d’autoservei a «Perfil» → «Ajustes» → «Exportar mis datos», que genera un fitxer JSON.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "open",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cestachef-privacy-policy"
+      ],
+      "detail": "Els drets s’exerceixen escrivint a info@cestachef.es, i part d’ells (supressió i portabilitat) són d’autoservei dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "La política no descriu cap tractament publicitari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cestachef-privacy-policy"
+      ],
+      "detail": "L’analítica amb PostHog depèn d’un consentiment previ que es pot retirar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cestachef-privacy-policy"
+      ],
+      "detail": "Consentiments separats per a l’analítica i per a les dades de salut, i camps de salut ocults fins que s’hi consent.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "protective",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi independent dels formularis de consentiment de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És un planificador de menús, sense comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu explícitament el xifratge en trànsit."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no concreta el xifratge de les dades en repòs a Supabase."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’entrada és amb Google o amb enllaç màgic al correu; la política no esmenta cap segon factor propi."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat auditories ni certificacions de seguretat publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa públic de recompenses per vulnerabilitats."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap security.txt ni cap canal públic documentat per notificar vulnerabilitats."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "CestaChef és una aplicació d’un desenvolupador individual amb una política actualitzada el juliol del 2026 que tracta les dades de salut amb un consentiment separat de l’article 9.2 a), que en descriu l’esborrat irreversible i que limita l’analítica a esdeveniments declarats amb PostHog allotjat a la Unió Europea. En canvi, l’etiqueta de l’App Store declara que «el desarrollador no recopila ningún dato en esta app», tot i que la política descriu dades de compte, de salut i d’analítica.",
+    "openQuestions": [
+      "Per què l’etiqueta de l’App Store diu que no es recull cap dada si la política en descriu diverses categories?",
+      "Quina és l’entitat responsable del tractament: la política només parla de «l’equip de CestaChef».",
+      "Quins terminis concrets s’apliquen a les dades del compte mentre és actiu?"
+    ]
+  },
+  "appStoreBundleId": "com.cestachef.app"
+}

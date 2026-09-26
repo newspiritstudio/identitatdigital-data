@@ -1,0 +1,655 @@
+{
+  "slug": "milanuncios",
+  "name": "Milanuncios",
+  "company": "adevinta-motor",
+  "categories": [
+    "compravenda-entre-particulars"
+  ],
+  "tagline": "Anuncis de segona mà amb xats revisats, identificadors per a LiveRamp i ID5 i dades fiscals per a Hisenda",
+  "summary": "Milanuncios revisa els xats i els anuncis amb processos manuals i automàtics per detectar frau, i ho diu a la política. Amb consentiment, comparteix el correu en format hash i l’identificador publicitari amb LiveRamp i ID5 per crear identificadors que viatgen entre anunciants. A qui ven molt, li demana el NIF, la data de naixement i el compte bancari, que ha de comunicar a Hisenda per la directiva DAC7. La baixa és immediata i es fa des dels ajustos.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://www.milanuncios.com/",
+    "privacyPolicy": "https://www.milanuncios.com/legal/politica-privacidad",
+    "terms": "https://www.milanuncios.com/legal/condiciones-uso",
+    "appStore": "https://apps.apple.com/es/app/id967185651"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "milanuncios-privacy-policy"
+    ],
+    "detail": "Els anuncis es poden consultar sense compte; cal per publicar, xatejar o fer servir Milanuncios Express.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "editorial",
+    "sources": [],
+    "detail": "No hem trobat cap repositori públic del codi de l’aplicació; ho considerem programari privatiu.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "El que una persona compra i ven a Milanuncios, juntament amb l’adreça, la ubicació precisa i els missatges, dona informació sobre la seva economia domèstica i els seus desplaçaments. Qui ven sovint hi deixa també el NIF, el compte bancari i els imports cobrats, i els identificadors publicitaris permeten reconèixer-la fora del portal.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "milanuncios-privacy-policy",
+        "milanuncios-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "milanuncios-privacy-policy",
+        "milanuncios-app-store"
+      ],
+      "note": "Es comparteix en format hash amb LiveRamp i ID5 si s’hi dona consentiment."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "milanuncios-privacy-policy",
+        "milanuncios-app-store"
+      ],
+      "note": "Si es posa com a contacte a l’anunci, és visible per a tothom."
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "milanuncios-privacy-policy",
+        "milanuncios-app-store"
+      ],
+      "note": "Es comparteix amb Correos o SEUR als enviaments de Milanuncios Express."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts",
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "milanuncios-privacy-policy",
+        "milanuncios-app-store"
+      ],
+      "note": "Amb consentiment, per ordenar els anuncis per distància."
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "milanuncios-privacy-policy"
+      ],
+      "note": "NIF de venedors que superen els llindars de la DAC7 i DNI als enviaments d’Express."
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal"
+      ],
+      "sources": [
+        "milanuncios-privacy-policy"
+      ],
+      "note": "Es comunica a l’administració tributària per la DAC7."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "milanuncios-app-store"
+      ],
+      "note": "Fotos dels anuncis, incloses les matrícules dels vehicles."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "milanuncios-privacy-policy"
+      ],
+      "note": "Els missatges es poden revisar amb processos manuals i automàtics."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "milanuncios-privacy-policy"
+      ],
+      "note": "Pagaments d’Express a través de Mangopay; el compte o la targeta on es cobra es comunica a Hisenda per la DAC7."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "milanuncios-privacy-policy"
+      ],
+      "note": "Transaccions d’Express i import total cobrat per cada venedor."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts",
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "milanuncios-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "milanuncios-app-store"
+      ]
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "milanuncios-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "milanuncios-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "milanuncios-app-store"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "brokers",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "milanuncios-privacy-policy"
+      ],
+      "note": "Compartit amb LiveRamp per crear un identificador publicitari entre dispositius."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "brokers",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "milanuncios-privacy-policy"
+      ],
+      "note": "Compartida amb ID5 i LiveRamp si s’hi dona consentiment."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "milanuncios-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "milanuncios-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store declara identificadors i dades d’ús «utilitzats per rastrejar-te» en aplicacions i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "milanuncios-privacy-policy",
+        "milanuncios-app-store"
+      ],
+      "detail": "La política esmenta l’identificador de publicitat mòbil que es comparteix amb LiveRamp.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "milanuncios-privacy-policy"
+      ],
+      "detail": "ID5 i LiveRamp, a més de proveïdors publicitaris i galetes de tercers.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "milanuncios-privacy-policy"
+      ],
+      "detail": "Amb consentiment, el perfil comercial serveix per mostrar publicitat a Milanuncios, a altres webs del grup i a webs de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "milanuncios-privacy-policy"
+      ],
+      "detail": "Perfil comercial amb dades de navegació i hàbits d’accés; la política també preveu detectar qui encaixa com a usuari professional per oferir-li plans de pagament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu res de l’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "milanuncios-privacy-policy"
+      ],
+      "detail": "Anunciants, compradors professionals de vehicles, Correos, SEUR, Mangopay, portals de multipublicació, proveïdors i l’administració tributària.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "milanuncios-privacy-policy"
+      ],
+      "detail": "Altres portals d’Adevinta Motor, com coches.net, i accés d’empreses del grup per a suport.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "milanuncios-privacy-policy"
+      ],
+      "detail": "La política preveu compartir el correu en format hash, l’identificador publicitari del mòbil i l’adreça IP amb LiveRamp, com a corresponsable, per crear un identificador que es pot compartir amb anunciants de tot el món. No parla de venda de dades. ID5 rep les mateixes dades amb la mateixa finalitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "milanuncios-privacy-policy"
+      ],
+      "detail": "Proveïdors de fora de l’Espai Econòmic Europeu amb clàusules contractuals tipus.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política preveu informes de transparència sobre moderació, però no n’hem trobat cap sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "milanuncios-privacy-policy"
+      ],
+      "detail": "Només Milanuncios Express té terminis concrets: sis anys per a les dades de contracte i dotze mesos per a les de navegació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "milanuncios-privacy-policy"
+      ],
+      "detail": "Les dades queden bloquejades durant els terminis de prescripció de cada finalitat, a disposició només de jutges, tribunals i autoritats, abans de l’esborrat definitiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "period": "Sis anys per a les dades identificatives dels enviaments de Milanuncios Express",
+        "sources": [
+          "milanuncios-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "galetes-i-identificadors-web",
+        "period": "Dotze mesos per a les dades de navegació i galetes a Express",
+        "sources": [
+          "milanuncios-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "milanuncios-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "milanuncios-delete-account"
+      ],
+      "detail": "L’eliminació és immediata des dels ajustos del compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://ayuda.milanuncios.com/hc/es/articles/12012862940050-Eliminar-una-cuenta",
+    "difficulty": "easy",
+    "requiresSupportContact": false,
+    "steps": [
+      "Inicia la sessió amb el correu i la contrasenya.",
+      "Als ajustos del compte, obre l’opció sobre les teves dades.",
+      "Tria «Eliminar cuenta» i, si vols, explica per què te’n vas."
+    ],
+    "obstacles": "S’esborren tots els anuncis i es perden els crèdits no gastats.",
+    "dataRetained": "Les dades queden bloquejades durant els terminis de prescripció de cada finalitat, a disposició només de jutges, tribunals i autoritats, abans de l’esborrat definitiu. Les dades d’Express es conserven sis anys.",
+    "sources": [
+      "milanuncios-delete-account",
+      "milanuncios-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "milanuncios-privacy-policy"
+      ],
+      "detail": "La portabilitat es reconeix, però no hem trobat cap eina d’exportació documentada.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacidad@milanuncios.com"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "milanuncios-privacy-policy"
+      ],
+      "detail": "Delegat de protecció de dades a privacidad@milanuncios.com, accés des del perfil o correu postal.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacidad@milanuncios.com",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "milanuncios-privacy-policy"
+      ],
+      "detail": "El perfil comercial, ID5 i LiveRamp depenen del consentiment, que es pot retirar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "milanuncios-privacy-policy"
+      ],
+      "detail": "Les estadístiques d’ús es basen en l’interès legítim o en el consentiment, segons la política de galetes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "milanuncios-privacy-policy"
+      ],
+      "detail": "La política separa per consentiment la ubicació, el perfil comercial, les comunicacions de tercers i les alertes. No hem verificat els controls dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem analitzat el bàner de consentiment ni el flux de registre."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "milanuncios-privacy-policy"
+      ],
+      "detail": "Els missatges es poden revisar manualment i automàticament, cosa que exclou el xifratge d’extrem a extrem.",
+      "verifiedAt": "2026-09-22",
+      "scope": "none"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "editorial",
+      "sources": [],
+      "detail": "Comprovació pròpia del web: redirigeix a HTTPS. No hem analitzat el trànsit de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha informació pública sobre el xifratge de les dades en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap opció de verificació en dos passos; la verificació telefònica serveix per contactar amb anunciants."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories ni certificacions publicades."
+    },
+    "bugBounty": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "adevinta-vulnerability-disclosure"
+      ],
+      "detail": "Hi ha un canal de divulgació responsable a HackerOne, sense recompenses anunciades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "adevinta-vulnerability-disclosure"
+      ],
+      "detail": "La política de divulgació responsable d’Adevinta cobreix els seus serveis, però milanuncios.com no publica security.txt.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://adevinta.com/security-vulnerability/"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "wallapop",
+      "comparability": "equivalent",
+      "rationale": "Compravenda de segona mà entre particulars amb xat i enviaments."
+    },
+    {
+      "app": "vinted",
+      "comparability": "partial",
+      "rationale": "Segona mà centrada en roba i objectes personals."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La política és de l’octubre del 2024 i preveu comunicar dades a Fotocasa Group, que des del 2025 és de Scout24 i ja no forma part del mateix grup. A l’AEPD, Milanuncios surt en expedients contra anunciants, no com a sancionada.",
+    "openQuestions": [
+      "Quins controls de privadesa ofereix l’aplicació per retirar el consentiment a LiveRamp i ID5?"
+    ]
+  },
+  "appStoreBundleId": "com.muba.anuncios"
+}

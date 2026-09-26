@@ -1,0 +1,602 @@
+{
+  "slug": "mi-vodafone",
+  "name": "Mi Vodafone",
+  "company": "vodafone-espana",
+  "categories": [
+    "telecomunicacions"
+  ],
+  "tagline": "L’app de l’operadora és també el panell on es donen i es retiren els consentiments publicitaris",
+  "summary": "Mi Vodafone serveix per gestionar la factura i la tarifa. La major part del tractament de dades el fa l’operadora: dades de trànsit i localització, comprovacions de solvència a ASNEF i Badexcug i categories de navegació que, amb consentiment, alimenten la publicitat. La política fixa terminis concrets, sis anys després de deixar de ser client i dotze mesos per al trànsit, i concentra tots els permisos a l’eina «Permisos y Preferencias», accessible des de la mateixa app.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "subscription",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://www.vodafone.es/c/mvfes/conocenos-mi-vodafone/",
+    "privacyPolicy": "https://www.vodafone.es/c/conocenos/es/vodafone-espana/quienes-somos/legal-y-regulatorio/politica-de-privacidad-y-cookies/",
+    "appStore": "https://apps.apple.com/es/app/id455655421"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "vodafone-es-privacy-policy"
+    ],
+    "detail": "L’aplicació és l’àrea privada de clients; sense contracte i sense credencials no serveix de res.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "mi-vodafone-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "L’operadora sap a qui truques, quan i des d’on, quines categories de llocs visites i quina solvència tens, i conserva aquesta informació sis anys després que deixis de ser client.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "vodafone-es-privacy-policy"
+      ]
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "vodafone-es-privacy-policy"
+      ],
+      "note": "Es fa servir també per a les consultes a ASNEF (Equifax) i Badexcug (Experian)."
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "vodafone-es-privacy-policy"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "vodafone-es-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "vodafone-es-privacy-policy"
+      ]
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "vodafone-es-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "vodafone-es-privacy-policy"
+      ],
+      "note": "Targeta, compte i altra informació bancària per a la facturació."
+    },
+    {
+      "type": "metadades-de-comunicacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "vodafone-es-privacy-policy"
+      ],
+      "note": "Números marcats, durada i moment de cada trucada o missatge. Es conserven dotze mesos per la Llei 25/2007."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "vodafone-es-privacy-policy"
+      ],
+      "note": "Ubicació per cel·la de xarxa associada a cada comunicació."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "mi-vodafone-app-store",
+        "vodafone-es-privacy-policy"
+      ],
+      "note": "L’etiqueta declara la ubicació exacta com a dada no vinculada amb la identitat i l’associa a l’analítica."
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "vodafone-es-privacy-policy"
+      ],
+      "note": "Només categories de llocs visitats i només amb consentiment; la política diu que no es guarda l’historial complet."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "vodafone-es-privacy-policy"
+      ],
+      "note": "Perfils comercials amb consentiment exprés, també per a ofertes de tercers de sectors com el financer o l’energètic."
+    },
+    {
+      "type": "historial-de-visualitzacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "vodafone-es-privacy-policy"
+      ],
+      "note": "Per al servei de televisió: què es mira, quanta estona i si es pausa o es grava."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "mi-vodafone-app-store"
+      ]
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "vodafone-es-app-supplement"
+      ],
+      "note": "Tipus de terminal, identificadors únics, sistema operatiu i tipus de connexió."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "mi-vodafone-app-store",
+        "vodafone-es-app-supplement"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "vodafone-es-privacy-policy"
+      ],
+      "note": "Amb consentiment, es comparteix informació pseudonimitzada amb Meta i Google per a publicitat en línia."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "mi-vodafone-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mi-vodafone-app-store"
+      ],
+      "detail": "L’etiqueta declara dades d’ús i diagnòstics per rastrejar en apps i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Ni l’etiqueta ni la política concreten l’ús de l’identificador publicitari del sistema."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "vodafone-es-privacy-policy"
+      ],
+      "detail": "La política reconeix acords amb Meta i Google per a publicitat en línia amb dades pseudonimitzades.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "vodafone-es-privacy-policy"
+      ],
+      "detail": "Publicitat basada en interessos amb consentiment exprés, al web propi i a webs i xarxes de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "vodafone-es-privacy-policy"
+      ],
+      "detail": "Personalitza els missatges amb dades d’ús, localització, navegació, trànsit i facturació quan hi ha autorització expressa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta l’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "vodafone-es-privacy-policy"
+      ],
+      "detail": "Agències de solvència i de recobrament, distribuïdors, anunciants com Meta i Google amb consentiment, serveis d’emergència i autoritats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "vodafone-es-privacy-policy"
+      ],
+      "detail": "Les entitats del grup Vodafone a Espanya són corresponsables i comparteixen dades per a gestió interna i, amb consentiment, per a ofertes creuades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "vodafone-es-privacy-policy"
+      ],
+      "detail": "Els informes de Vodafone Analytics que es venen a tercers són, segons la política, anònims i agregats amb un mínim de quinze registres.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "vodafone-es-privacy-policy"
+      ],
+      "detail": "Centres d’atenció a Colòmbia, el Perú i el Marroc i suport intern a Egipte i l’Índia, emparats en clàusules contractuals tipus.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem verificat cap informe de transparència propi de la filial espanyola."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "vodafone-es-privacy-policy"
+      ],
+      "detail": "Sis anys com a regla general i dotze mesos per al trànsit i la localització.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "vodafone-es-privacy-policy"
+      ],
+      "detail": "Un cop deixes de ser client, la informació es conserva sis anys i després es bloqueja, s’anonimitza o s’esborra.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "period": "6 anys després de deixar de ser client, com a regla general",
+        "sources": [
+          "vodafone-es-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "metadades-de-comunicacio",
+        "period": "12 mesos des que es generen, en compliment de la Llei 25/2007",
+        "sources": [
+          "vodafone-es-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "vodafone-es-privacy-policy"
+      ],
+      "detail": "El compte de l’app va lligat al contracte; la política regula la baixa del servei i la conservació posterior, no una eliminació immediata del compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap opció documentada per eliminar el compte de Mi Vodafone des de l’aplicació."
+    },
+    "difficulty": "unknown",
+    "requiresSupportContact": true,
+    "steps": [
+      "Dona de baixa el servei o porta el número a una altra operadora pels canals habituals d’atenció al client.",
+      "Entra a «Permisos y Preferencias», dins de Mi Vodafone, i retira els consentiments de publicitat, de perfilat i d’anàlisi Big Data.",
+      "Si vols la supressió de les dades que ja no siguin necessàries, escriu al delegat de protecció de dades a dpo-spain@vodafone.com."
+    ],
+    "obstacles": "Encara que es tanqui el contracte, la política preveu conservar la informació sis anys i permet seguir enviant comunicacions comercials si no s’hi ha renunciat.",
+    "dataRetained": "Dades de client durant sis anys i dades de trànsit i localització durant dotze mesos.",
+    "sources": [
+      "vodafone-es-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "vodafone-es-privacy-policy"
+      ],
+      "detail": "Es reconeix la portabilitat, però no es descriu cap eina d’autoservei per descarregar les dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "vodafone-es-privacy-policy"
+      ],
+      "detail": "Delegat de protecció de dades propi i canals d’atenció al client.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dpo-spain@vodafone.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "vodafone-es-privacy-policy"
+      ],
+      "detail": "L’eina «Permisos y Preferencias», accessible des de l’app i del web, permet donar i retirar cada consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "vodafone-es-privacy-policy"
+      ],
+      "detail": "Es pot demanar l’exclusió de les iniciatives de Big Data des de «Permisos y Preferencias» o en el moment de la contractació; no consta un control equivalent per a l’analítica de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "vodafone-es-privacy-policy"
+      ],
+      "detail": "Els consentiments es gestionen un per un.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No n’hem documentat cap amb prou base."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’operadora necessita veure les metadades per encaminar les comunicacions; l’app és una àrea de client.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació d’un segon factor per al compte de Mi Vodafone."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El domini vodafone.es no publica cap fitxer security.txt."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap fitxer security.txt a vodafone.es."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "mi-movistar",
+      "comparability": "equivalent",
+      "rationale": "Àrea de client de l’altra gran operadora espanyola, amb el mateix tipus de tractament regulat pel sector.",
+      "tradeOffs": "Canviar d’operadora no redueix les dades de trànsit i localització que la llei obliga a conservar."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "La política és la del grup a Espanya, no una política específica de l’aplicació; el suplement d’apps hi afegeix poca cosa. Crida l’atenció que l’etiqueta de l’App Store declari la ubicació exacta com a dada d’analítica no vinculada. No hem pogut fer la cerca d’incidents ni verificar les sancions de l’AEPD contra l’operadora.",
+    "openQuestions": [
+      "Quines sancions fermes de l’AEPD afecten Vodafone España i per quins fets?",
+      "Per a què fa servir l’app la ubicació exacta si la declara com a dada d’analítica no vinculada?",
+      "Es pot eliminar el compte de Mi Vodafone sense donar de baixa el contracte?"
+    ]
+  },
+  "appStoreBundleId": "es.vodafone.mobile.mivodafone"
+}

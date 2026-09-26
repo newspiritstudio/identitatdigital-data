@@ -1,0 +1,589 @@
+{
+  "slug": "bankinter",
+  "name": "Bankinter",
+  "company": "bankinter",
+  "categories": [
+    "banca-i-finances"
+  ],
+  "tagline": "Les dades dels exclients es poden conservar fins a vuitanta anys, i les dels clients serveixen per construir models d’IA",
+  "summary": "El document de vint-i-tants apartats de Bankinter revela terminis molt llargs: fins a vuitanta anys d’informació d’exclients per si es discuteix la nul·litat d’una clàusula, i sis anys de justificants de sol·licituds de crèdit encara que s’hagin denegat. Declara expressament que tracta dades de clients per desenvolupar i validar models d’intel·ligència artificial, per interès legítim. L’aplicació no declara cap dada utilitzada per rastrejar.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "subscription",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://www.bankinter.com/",
+    "privacyPolicy": "https://www.bankinter.com/banca/nav/seguridad-privacidad",
+    "appStore": "https://apps.apple.com/es/app/id356160865"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "bankinter-privacy-policy"
+    ],
+    "detail": "L’aplicació és la banca en línia del banc: cal ser-ne client.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "bankinter-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Saldos mitjans, moviments i productes contractats formen un perfil comercial que, amb consentiment, es completa amb fonts externes al banc: registres públics, sistemes d’informació creditícia, la CIRBE, xarxes socials i Informa.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "bankinter-privacy-policy"
+      ]
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "bankinter-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bankinter-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "bankinter-privacy-policy"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "bankinter-privacy-policy"
+      ]
+    },
+    {
+      "type": "ocupacio-i-carrec",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bankinter-privacy-policy"
+      ],
+      "note": "Les dades professionals i socioeconòmiques són una de les categories que s’utilitzen per desenvolupar models d’IA."
+    },
+    {
+      "type": "nivell-d-ingressos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "bankinter-privacy-policy"
+      ],
+      "note": "Es contrasta amb la CIRBE del Banc d’Espanya, ASNEF-Equifax, BADEXCUG i el Registre d’Acceptacions Impagades."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bankinter-privacy-policy"
+      ],
+      "note": "Les dades transaccionals agregades, com els saldos mitjans, formen el perfil comercial bàsic per interès legítim."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bankinter-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "bankinter-security"
+      ],
+      "note": "L’empremta o el reconeixement facial per entrar a l’aplicació es queden al contenidor segur del telèfon i no es sincronitzen amb iCloud ni amb les còpies de seguretat."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "bankinter-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "bankinter-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "bankinter-app-store"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bankinter-app-store"
+      ],
+      "note": "L’etiqueta la declara no vinculada a la persona, per a la funcionalitat de l’aplicació."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "bankinter-app-store"
+      ]
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari",
+        "compliment-legal"
+      ],
+      "sources": [
+        "bankinter-privacy-policy"
+      ],
+      "note": "Les gestions per banca telefònica s’enregistren."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "bankinter-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada utilitzada per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bankinter-app-store"
+      ],
+      "detail": "L’identificador d’usuari es declara per a publicitat o màrqueting del desenvolupador, però no hi ha identificadors publicitaris de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut verificar quins rastrejadors incorpora l’aplicació."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bankinter-privacy-policy"
+      ],
+      "detail": "Comunicacions comercials pròpies i del grup, amb consentiment per al perfil comercial avançat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bankinter-privacy-policy"
+      ],
+      "detail": "Perfil comercial bàsic per interès legítim i perfil avançat amb consentiment, que pot consultar registres públics, sistemes d’informació creditícia, la CIRBE, xarxes socials i Informa. Hi ha decisions automatitzades sense validació humana, com el test d’idoneïtat que bloqueja la contractació d’un producte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bankinter-privacy-policy"
+      ],
+      "detail": "El document dedica un apartat al desenvolupament, la modificació i la validació de models algorísmics d’intel·ligència artificial amb dades de clients, per interès legítim. Diu que no en fa perfils ni hi tracta categories especials, i que aplica xifratge, agregació o pseudonimització quan no afecta l’exactitud.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bankinter-privacy-policy"
+      ],
+      "detail": "Sistemes d’informació creditícia (CIRBE, ASNEF-Equifax, BADEXCUG, RAI), autoritats judicials i administratives, i encarregats del tractament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bankinter-privacy-policy"
+      ],
+      "detail": "Empreses del grup Bankinter i participades; per elaborar-hi perfil comercial cal consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El document no diu si cedeix dades a intermediaris de dades."
+    },
+    "internationalTransfers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bankinter-privacy-policy"
+      ],
+      "detail": "Diu que amb caràcter general només tracta les dades dins de l’Espai Econòmic Europeu i que, si hi ha destinataris fora, adoptarà «les mesures i salvaguardes establertes a la normativa», sense concretar cap mecanisme ni cap destí.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bankinter-privacy-policy"
+      ],
+      "detail": "El document porta una taula de terminis per finalitat, amb xifres poc habituals de trobar publicades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bankinter-privacy-policy"
+      ],
+      "detail": "Un cop esgotats els terminis, les dades es bloquegen; part de la informació d’exclients es pot conservar fins a vuitanta anys.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "identificador-de-compte",
+        "period": "Fins a 80 anys per a certa informació d’exclients, per l’acció de nul·litat de clàusules abusives",
+        "sources": [
+          "bankinter-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "nivell-d-ingressos",
+        "period": "6 anys els justificants de sol·licituds de crèdit, també si s’han denegat",
+        "sources": [
+          "bankinter-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "document-identificatiu-oficial",
+        "period": "10 anys per prevenció del blanqueig des de la fi de la relació",
+        "sources": [
+          "bankinter-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "adreca-electronica",
+        "period": "3 anys les comunicacions comercials; 3 mesos si el procés de contractació s’interromp",
+        "sources": [
+          "bankinter-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bankinter-privacy-policy"
+      ],
+      "detail": "Es pot cancel·lar la relació contractual, però l’esborrament efectiu xoca amb terminis que arriben als deu anys per blanqueig i als vuitanta per a certa informació d’exclients.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap document oficial de Bankinter que descrigui el tancament del compte ni si es pot fer des de l’aplicació."
+    },
+    "difficulty": "unknown",
+    "requiresSupportContact": true,
+    "steps": [
+      "Deixa el compte a zero i cancel·la els productes associats (targetes, rebuts domiciliats, préstecs).",
+      "Demana la cancel·lació per banca telefònica, a l’oficina o a l’Àrea Client del web i de l’aplicació.",
+      "Per exercir els drets de protecció de dades, escriu a privacidad@bankinter.com o adreça’t a l’Àrea Client.",
+      "Demana el justificant del tancament per escrit."
+    ],
+    "obstacles": "El banc no publica cap guia del procediment. La conservació de fins a vuitanta anys de certa informació d’exclients fa que tancar el compte no n’elimini les dades dels seus sistemes.",
+    "dataRetained": "Informació d’exclients fins a vuitanta anys, deu anys de dades de prevenció del blanqueig i sis anys de justificants de sol·licituds de crèdit.",
+    "sources": [
+      "bankinter-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bankinter-privacy-policy"
+      ],
+      "detail": "La portabilitat es reconeix; no hem trobat cap eina d’exportació autoservei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bankinter-privacy-policy"
+      ],
+      "detail": "Delegat de protecció de dades i diversos canals: correu, banca telefònica, oficina i Àrea Client del web i de l’aplicació.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacidad@bankinter.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bankinter-privacy-policy"
+      ],
+      "detail": "El perfil comercial avançat i les comunicacions comercials depenen del consentiment, revocable des de l’Àrea Client.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap control per desactivar l’analítica de l’aplicació."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bankinter-privacy-policy"
+      ],
+      "detail": "L’Àrea Client del web i de l’aplicació serveix per revocar consentiments, però no consta cap panell de preferències per finalitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi de patrons foscos de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no transporta comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bankinter-security"
+      ],
+      "detail": "Certificat de validació estesa emès per Entrust i xifratge de tota la informació transmesa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública sobre el xifratge de les dades en repòs."
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bankinter-security"
+      ],
+      "detail": "Targeta de claus amb coordenades introduïdes en un panell gràfic per signar operacions, i entrada biomètrica amb la clau desada al contenidor segur del telèfon.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "app-push",
+        "sms"
+      ]
+    },
+    "independentAudits": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bankinter-security"
+      ],
+      "detail": "Certificació simultània ISO 22301:2019 i ISO/IEC 27001:2022 per BSI, i després ISO/IEC 27017:2015, amb tests d’intrusió interns i externs periòdics.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El fitxer security.txt no es pot consultar: el tallafoc del web respon amb un repte i no serveix el fitxer."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Bankinter va absorbir EVO Banco l’abril de 2025 i, com a successora legal, va assumir la responsabilitat de la bretxa d’EVO de 2024. En una fusió bancària, les dades i els incidents canvien de mans alhora.",
+    "openQuestions": [
+      "Quin és el procediment oficial per tancar un compte i quants dies triga?",
+      "Quin mecanisme de transferència internacional s’aplica quan hi ha proveïdors fora de l’Espai Econòmic Europeu?"
+    ]
+  },
+  "appStoreBundleId": "com.bankinter.Launcher"
+}

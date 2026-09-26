@@ -1,0 +1,420 @@
+{
+  "slug": "slowread",
+  "name": "SlowRead",
+  "company": "adria-matz",
+  "categories": [
+    "llibres-i-lectura"
+  ],
+  "tagline": "Un registre de lectures que, si no es crea compte, guarda les dades només al dispositiu",
+  "summary": "SlowRead és una estanteria digital feta per un desenvolupador independent: hi anotes els llibres que llegeixes, l’estat de lectura, les etiquetes i les notes. La política explica amb detall què es queda al dispositiu i què puja al núvol, i afirma que no es venen ni es comparteixen dades personals amb anunciants. Però l’etiqueta de l’App Store declara identificadors utilitzats per rastrejar, i la política no ho explica.",
+  "platforms": [
+    "ios"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Espanya",
+  "userBase": "Aplicació independent recent",
+  "links": {
+    "website": "https://sites.google.com/view/sup-slowread",
+    "privacyPolicy": "https://sites.google.com/view/privacy-policy-slowread/",
+    "appStore": "https://apps.apple.com/es/app/id6763293288"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "slowread-privacy-policy"
+    ],
+    "detail": "Les dades es poden guardar només al dispositiu; el compte amb Apple o Google és opcional i serveix per sincronitzar.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "editorial",
+    "sources": [],
+    "detail": "No consta cap repositori públic; és programari privatiu.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "La llista de llibres d’una persona diu molt dels seus interessos i conviccions. Aquí, si no es crea compte, aquesta llista no surt del telèfon; si es crea, va a Firebase.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "slowread-privacy-policy"
+      ],
+      "note": "Només si s’inicia sessió amb Apple o Google."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "slowread-privacy-policy"
+      ]
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "slowread-privacy-policy"
+      ],
+      "note": "Els llibres afegits, l’estat de lectura, les biblioteques i les etiquetes; al dispositiu si no hi ha compte."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "slowread-privacy-policy"
+      ],
+      "note": "Les consultes de títol o autor es resolen contra Google Books, Open Library i NeoDB."
+    },
+    {
+      "type": "fitxers-i-documents",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "slowread-privacy-policy"
+      ],
+      "note": "Les notes personals sobre cada llibre."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "slowread-app-store",
+        "slowread-privacy-policy"
+      ],
+      "note": "La subscripció es gestiona amb RevenueCat sobre les compres de l’App Store."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "slowread-privacy-policy"
+      ],
+      "note": "Analítica amb PostHog."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "slowread-app-store"
+      ],
+      "note": "L’etiqueta de l’App Store declara identificadors utilitzats per rastrejar, cosa que la política no explica."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "slowread-app-store",
+        "slowread-privacy-policy"
+      ],
+      "detail": "L’etiqueta declara identificadors utilitzats per rastrejar, mentre que la política afirma que no es comparteixen dades personals amb anunciants. Les dues declaracions es contradiuen.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta cap identificador publicitari."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "slowread-privacy-policy"
+      ],
+      "detail": "PostHog per a l’analítica, Firebase per a l’autenticació i RevenueCat per a les subscripcions.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "slowread-privacy-policy"
+      ],
+      "detail": "«No vendemos, alquilamos ni compartimos datos personales con anunciantes».",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "slowread-privacy-policy"
+      ],
+      "detail": "La política no descriu cap elaboració de perfils comercials.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu si les dades s’utilitzen per entrenar models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "slowread-privacy-policy"
+      ],
+      "detail": "Google i Firebase per a l’autenticació i l’emmagatzematge, RevenueCat, PostHog, i Google Books, Open Library i NeoDB per a les metadades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És una aplicació d’un desenvolupador individual, sense grup empresarial.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "slowread-privacy-policy"
+      ],
+      "detail": "La política ho descarta explícitament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [],
+      "detail": "L’ús de Firebase, RevenueCat i PostHog implica tractaments fora de la Unió Europea, però la política no ho explicita ni n’indica el mecanisme.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Un desenvolupador individual no publica informes de transparència sobre peticions d’autoritats.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no dona terminis de conservació."
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no detalla què es conserva després d’eliminar el compte."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "slowread-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "slowread-privacy-policy"
+      ],
+      "detail": "La política diu que el compte es pot eliminar des de dins de l’aplicació, o bé per correu electrònic.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "easy",
+    "steps": [
+      "Obre la configuració de l’aplicació i tria l’opció d’eliminar el compte.",
+      "Com a alternativa, escriu a hello@adriamatz.com demanant-ne la supressió.",
+      "Si no havies creat cap compte, n’hi ha prou de desinstal·lar l’aplicació: les dades eren al dispositiu."
+    ],
+    "sources": [
+      "slowread-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap eina d’exportació de la biblioteca."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "slowread-privacy-policy"
+      ],
+      "detail": "Hi ha una adreça de correu de contacte directa amb el desenvolupador, sense un procediment formal descrit.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:hello@adriamatz.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei declara que no fa publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap control per desactivar l’analítica de PostHog."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "slowread-privacy-policy"
+      ],
+      "detail": "El control principal és no crear compte, i així la biblioteca es queda al dispositiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "protective",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut revisar els fluxos de consentiment dins de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política diu que les dades del compte es guarden «de manera segura» a Firebase, sense descriure el model de xifratge."
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "editorial",
+      "sources": [],
+      "detail": "Els serveis que fa servir (Firebase, RevenueCat, PostHog) operen sobre HTTPS.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no ho detalla més enllà de dir que Firebase ho fa de manera segura."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’autenticació delega en Apple i Google; no consta si s’hereten els seus factors."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories independents."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "slowread-privacy-policy"
+      ],
+      "detail": "L’únic canal és l’adreça de contacte del desenvolupador.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "goodreads",
+      "comparability": "equivalent",
+      "rationale": "És el registre de lectures més estès i té una comunitat molt gran.",
+      "tradeOffs": "Pertany a Amazon i integra la biblioteca en un ecosistema comercial molt més ampli."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "La configuració per defecte és protectora: sense compte, la biblioteca no surt del telèfon. L’única contradicció és entre l’etiqueta de l’App Store, que declara rastreig, i la política, que el descarta.",
+    "openQuestions": [
+      "Per què l’etiqueta de l’App Store declara identificadors utilitzats per rastrejar si la política diu que no es comparteixen dades amb anunciants?",
+      "Quins terminis de conservació s’apliquen a les dades sincronitzades a Firebase?",
+      "Queda pendent la cerca sistemàtica d’incidents i sancions: les eines de cerca no eren disponibles durant aquesta revisió."
+    ]
+  },
+  "appStoreBundleId": "com.adriamatz.SlowRead"
+}

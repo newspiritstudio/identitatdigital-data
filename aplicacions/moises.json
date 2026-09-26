@@ -1,0 +1,568 @@
+{
+  "slug": "moises",
+  "name": "Moises: La App para Músicos",
+  "company": "moises-systems",
+  "categories": [
+    "musica-i-audio",
+    "assistents-d-ia"
+  ],
+  "tagline": "Separa les pistes de qualsevol cançó amb IA i es compromet per contracte a no entrenar-hi els models sense permís",
+  "summary": "Moises puja els fitxers d’àudio als seus servidors per separar-ne les veus i els instruments, detectar acords i canviar la tonalitat. Les condicions d’ús tenen una clàusula «NO TRAINING» que diu en majúscules que no faran servir el contingut ni els resultats per entrenar models sense autorització expressa. D’altra banda, la política conserva l’historial de pujades i de fitxers processats, dedueix la ubicació a partir de la IP també per a publicitat personalitzada, i el nom i la foto de perfil són sempre públics. El compte només es pot eliminar des de l’aplicació del mòbil.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Estats Units, amb representant a la UE a Irlanda",
+  "links": {
+    "website": "https://moises.ai/",
+    "privacyPolicy": "https://help.moises.ai/hc/en-us/articles/360013805640-Privacy-Policy",
+    "terms": "https://moises.ai/terms-of-use/",
+    "appStore": "https://apps.apple.com/es/app/id1515796612"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "moises-privacy-policy"
+    ],
+    "detail": "Cal un compte, propi o de Google, Apple, Facebook o Twitter, per processar fitxers i conservar la biblioteca.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "moises-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "La biblioteca d’un músic mostra què assaja, què versiona i amb quina freqüència. Moises hi afegeix l’historial de cerques i de navegació, inferències sobre la persona usuària i una ubicació aproximada derivada de la IP que també es fa servir per a publicitat.",
+  "dataCollection": [
+    {
+      "type": "veu-i-audio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "moises-app-store",
+        "moises-privacy-policy",
+        "moises-terms"
+      ],
+      "note": "Els fitxers pujats es processen als servidors. L’etiqueta declara el contingut de l’usuari com a dada per rastrejar-te; les condicions exclouen l’entrenament de models sense permís exprés."
+    },
+    {
+      "type": "fitxers-i-documents",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "moises-privacy-policy"
+      ],
+      "note": "Historial de pujades, fitxers processats i biblioteca, que es conserven mentre el compte és actiu."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "moises-privacy-policy",
+        "moises-app-store"
+      ]
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "moises-privacy-policy"
+      ],
+      "note": "La política diu que el nom o el sobrenom i la foto de perfil són sempre públics."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "moises-privacy-policy",
+        "moises-app-store"
+      ],
+      "note": "Foto de perfil, pública."
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "moises-privacy-policy"
+      ]
+    },
+    {
+      "type": "genere",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "moises-privacy-policy"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "moises-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "moises-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "moises-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "moises-privacy-policy"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "moises-app-store",
+        "moises-privacy-policy"
+      ],
+      "note": "L’etiqueta declara les dades d’ús com a dades per rastrejar-te i les associa a dades de publicitat."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "moises-privacy-policy"
+      ],
+      "note": "La política parla d’inferències extretes de la resta de dades."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "moises-privacy-policy"
+      ],
+      "note": "Derivada de l’adreça IP, per a les llicències musicals i per a contingut i publicitat personalitzats."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "compliment-legal"
+      ],
+      "sources": [
+        "moises-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "moises-privacy-policy"
+      ],
+      "note": "Les tracten passarel·les de pagament externes."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "moises-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "moises-app-store"
+      ],
+      "detail": "L’etiqueta declara el contingut de l’usuari i les dades d’ús com a dades utilitzades per rastrejar-te, una combinació poc habitual.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "moises-app-store"
+      ],
+      "detail": "L’etiqueta declara dades de publicitat vinculades a la identitat dins de l’analítica; no concreta quin identificador fa servir.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "moises-privacy-policy"
+      ],
+      "detail": "La política cita proveïdors de serveis, passarel·les de pagament i socis publicitaris entre els destinataris.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "moises-privacy-policy"
+      ],
+      "detail": "La ubicació no precisa derivada de la IP es fa servir per oferir contingut i publicitat personalitzats, i la política enumera socis publicitaris.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "moises-privacy-policy"
+      ],
+      "detail": "La política inclou les inferències extretes de la resta de dades entre les categories tractades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "moises-terms",
+        "moises-privacy-policy"
+      ],
+      "detail": "La clàusula 11.4 de les condicions diu que no faran servir el contingut ni els resultats per entrenar models sense autorització expressa per escrit o per una casella d’acceptació. La 11.5 permet fer servir dades analítiques i d’instruccions per millorar el servei, però n’exclou el contingut.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "moises-privacy-policy"
+      ],
+      "detail": "Proveïdors de serveis, passarel·les de pagament i socis publicitaris; el nom i la foto de perfil són públics.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "moises-privacy-policy"
+      ],
+      "detail": "La política cobreix Moises Systems Inc. i les seves filials, incloent-hi Music.ai.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no parla explícitament de la venda de dades a corredors de dades."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "moises-privacy-policy"
+      ],
+      "detail": "Les dades europees es traslladen als Estats Units amb clàusules contractuals tipus; el representant a la UE és Instant EU GDPR Representative Ltd, de Dublín.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "no",
+      "level": "editorial",
+      "sources": [
+        "moises-privacy-policy"
+      ],
+      "detail": "No hem trobat cap informe de transparència.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "moises-privacy-policy"
+      ],
+      "detail": "Els fitxers i els resultats es conserven mentre el compte és actiu; no hi ha terminis numèrics.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "moises-privacy-policy",
+        "moises-delete-account"
+      ],
+      "detail": "S’esborra a petició, excepte el que calgui conservar per obligacions legals, fiscals o de prevenció del frau. L’article d’ajuda avisa que les dades esborrades no es poden recuperar.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "moises-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "moises-delete-account"
+      ],
+      "detail": "Només des de l’aplicació del mòbil: la versió web no té l’opció i cal obrir una petició al suport.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://help.moises.ai/hc/en-us/articles/5440087821330",
+    "difficulty": "medium",
+    "requiresSupportContact": false,
+    "steps": [
+      "Cancel·la abans la subscripció, si en tens una activa: amb una subscripció vigent l’opció no apareix.",
+      "Obre l’aplicació de Moises al mòbil (des de la versió web no es pot fer).",
+      "Ves al perfil i obre la configuració amb la icona de l’engranatge.",
+      "Entra a «Account Information» i tria «Delete My Account».",
+      "Confirma-ho: l’esborrat és irreversible i no es poden recuperar els fitxers ni els resultats."
+    ],
+    "dataRetained": "El que calgui per obligacions legals, fiscals o de prevenció del frau, segons la política.",
+    "sources": [
+      "moises-delete-account",
+      "moises-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política reconeix els drets del RGPD, però no descriu cap eina d’exportació de la biblioteca."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "moises-privacy-policy"
+      ],
+      "detail": "A privacy@moises.ai o al representant a la Unió Europea, Instant EU GDPR Representative Ltd (contact@gdprlocal.com).",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap opció per desactivar la personalització publicitària."
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "moises-privacy-policy",
+        "moises-delete-account"
+      ],
+      "detail": "Es poden esborrar cançons concretes de la biblioteca, cosa que n’elimina el fitxer, però el nom i la foto de perfil són sempre públics.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem revisat les pantalles de registre i de subscripció."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "no",
+      "level": "editorial",
+      "sources": [
+        "moises-privacy-policy"
+      ],
+      "detail": "El servei ha de processar l’àudio als seus servidors per separar-ne les pistes, cosa incompatible amb el xifratge d’extrem a extrem.",
+      "verifiedAt": "2026-09-22",
+      "scope": "none"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "El web d’ajuda bloqueja les peticions automatitzades i hem llegit la política i l’article d’eliminació del compte per l’API pública del centre d’ajuda. La clàusula «NO TRAINING» és una de les poques d’aquest tipus que hem trobat en un servei d’IA generativa. No hem pogut fer la cerca d’incidents perquè la sessió havia exhaurit el pressupost de cerques.",
+    "openQuestions": [
+      "Quins són els socis publicitaris concrets?",
+      "Es poden descarregar totes les dades del compte en bloc?"
+    ]
+  },
+  "appStoreBundleId": "ai.moises"
+}

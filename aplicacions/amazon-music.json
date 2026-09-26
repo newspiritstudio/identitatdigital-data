@@ -1,0 +1,496 @@
+{
+  "slug": "amazon-music",
+  "name": "Amazon Music",
+  "company": "amazon-europe-core",
+  "categories": [
+    "musica-i-audio"
+  ],
+  "tagline": "Música i pòdcasts dins del perfil únic del compte d’Amazon",
+  "summary": "Amazon Music forma part del grup de serveis d’entreteniment que Amazon pot creuar amb la botiga i amb Alexa si hi dones consentiment. Per a Music i Prime Video, l’autoritat de referència a la UE és la bavaresa i no la luxemburguesa. Com a la resta de serveis del compte, no hi ha baixa per servei: només el tancament de tot el compte.",
+  "platforms": [
+    "ios",
+    "android",
+    "web",
+    "windows",
+    "macos",
+    "other"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Unió Europea; reclamacions a l’autoritat de Baviera (Alemanya)",
+  "links": {
+    "website": "https://music.amazon.es/",
+    "privacyPolicy": "https://www.amazon.es/gp/help/customer/display.html?nodeId=GX7NJQ4ZB8MHFRNJ",
+    "privacyCenter": "https://www.amazon.es/hz/privacy-central",
+    "appStore": "https://apps.apple.com/es/app/id510855668"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "amazon-close-account",
+      "amazon-music-app-store"
+    ],
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "amazon-privacy-notice"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "L’historial d’escolta de música i pòdcasts revela estat d’ànim, ideologia i hàbits diaris. Dins del compte d’Amazon es pot combinar amb compres i interaccions amb Alexa.",
+  "dataCollection": [
+    {
+      "type": "historial-de-visualitzacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "amazon-privacy-notice",
+        "amazon-cross-service-consent"
+      ],
+      "note": "Historial de reproduccions de música i pòdcasts."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "amazon-music-app-store"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "sources": [
+        "amazon-music-app-store"
+      ],
+      "note": "L’etiqueta declara «Ubicación» sense precisar-ne el grau."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "amazon-music-app-store"
+      ]
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "sources": [
+        "amazon-music-app-store"
+      ],
+      "note": "Contingut de l’usuari, com ara llistes de reproducció."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "amazon-music-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "amazon-music-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "amazon-music-app-store"
+      ]
+    },
+    {
+      "type": "xarxa-i-connectivitat",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "note": "Dades de xarxa per a la qualitat de la reproducció, inclòs el proveïdor d’internet."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "amazon-music-app-store"
+      ]
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "amazon-alexa-privacy-faq"
+      ],
+      "note": "Quan es demana música a Alexa, la gravació de la petició es fa servir per reproduir-la."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "amazon-music-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara dades utilitzades per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "detail": "L’avís general preveu compartir identificadors publicitaris amb empreses de publicitat per als anuncis d’Amazon.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi independent dels rastrejadors de l’aplicació."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "amazon-cross-service-consent"
+      ],
+      "detail": "L’historial de reproducció només personalitza anuncis en altres serveis d’Amazon amb consentiment.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://www.amazon.es/adprefs"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "detail": "Recomanacions a partir de l’historial d’ús de continguts.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’avís no concreta si l’historial d’escolta entrena models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "detail": "Amb proveïdors que tracten dades per compte d’Amazon, amb terceres empreses quan intervenen en una operació i amb empreses de publicitat, a les quals Amazon diu que dona un identificador publicitari i no el nom.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice",
+        "amazon-cross-service-consent"
+      ],
+      "detail": "Les dades es comparteixen amb Amazon.com, Inc. i les seves filials. Des del 6 de març de 2024, creuar-les entre la botiga, Alexa, els serveis d’entreteniment i els dispositius per recomanar i personalitzar anuncis requereix consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "detail": "Amazon declara que no ven la informació personal de la clientela a tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "detail": "Transferències fora de l’Espai Econòmic Europeu sota decisions d’adequació (Data Privacy Framework) o clàusules contractuals tipus.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "adequacy"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-law-enforcement-requests"
+      ],
+      "detail": "Amazon publica un informe semestral de peticions governamentals d’informació; no hem verificat si el desglossa per servei.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=GYSDRGWQ2C2CRYEF"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "detail": "L’avís fixa alguns terminis (dades de comandes 10 anys pel Codi de Comerç de Luxemburg, galetes 13 mesos), però la resta es conserva «el temps necessari» mentre el compte és actiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "detail": "En tancar el compte s’eliminen les dades, excepte les necessàries per a obligacions legals, reclamacions, frau i seguretat. Amazon diu que no les fa servir per a màrqueting.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-close-account",
+        "amazon-privacy-notice"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "amazon-close-account"
+      ],
+      "detail": "No hi ha manera d’eliminar només Amazon Music: cal tancar tot el compte d’Amazon amb el formulari en línia i confirmar-ho en cinc dies.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://www.amazon.es/privacy/data-deletion",
+    "difficulty": "medium",
+    "waitingPeriodDays": 5,
+    "requiresSupportContact": false,
+    "steps": [
+      "Ves a la pàgina «Cerrar mi cuenta de Amazon» i inicia la sessió amb el compte que vols tancar.",
+      "Revisa la llista de productes i serveis associats al compte.",
+      "Tria un motiu al desplegable i marca la casella «Sí, quiero cerrar permanentemente mi cuenta de Amazon y eliminar mis datos».",
+      "Prem «Cerrar mi cuenta».",
+      "Respon en cinc dies la confirmació que rebràs per correu electrònic o SMS."
+    ],
+    "obstacles": "El tancament és global: afecta totes les botigues d’Amazon del món que fan servir les mateixes credencials i és irreversible. Es perd la música comprada i les llistes, juntament amb la resta de continguts digitals del compte.",
+    "dataRetained": "Dades de les comandes (nom, producte, data, adreça, forma de pagament, preu i IVA) durant 10 anys, i informació d’identificació limitada per atendre obligacions i reclamacions.",
+    "sources": [
+      "amazon-close-account",
+      "amazon-privacy-notice"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "detail": "Amb «Solicita tu información personal» es pot descarregar una còpia en un format llegible per màquina.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.amazon.es/hz/privacy-central/data-requests/preview.html"
+    },
+    "exportFormatQuality": "mixed",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "detail": "Formularis del compte, atenció al client («Consultas sobre privacidad de datos») i el delegat de protecció de dades a eu-privacy@amazon.es.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:eu-privacy@amazon.es",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-ad-preferences",
+        "amazon-cross-service-consent"
+      ],
+      "detail": "Es poden retirar el consentiment a les galetes publicitàries, les preferències de publicitat i el consentiment per creuar dades entre serveis.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.amazon.es/adprefs"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "amazon-cross-service-consent"
+      ],
+      "detail": "Es pot refusar el creuament de dades entre serveis sense perdre el servei contractat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Un servei de música no transporta comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "detail": "L’avís diu que la informació es protegeix durant la transmissió amb programari i protocols de xifratge.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’avís parla de mesures físiques, electròniques i procedimentals, però no concreta el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-2sv"
+      ],
+      "detail": "Verificació en dos passos del compte d’Amazon amb codi per SMS o aplicació d’autenticació.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "sms",
+        "totp"
+      ]
+    },
+    "independentAudits": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "detail": "Només declara el compliment de PCI DSS per a les dades de targeta; no hem trobat auditories publicades específiques del servei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-vrp-hackerone"
+      ],
+      "detail": "L’aplicació d’iOS (identificador 510855668) és dins de l’abast del programa de recompenses d’Amazon a HackerOne.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://hackerone.com/amazonvrp"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-security-txt"
+      ],
+      "detail": "Fitxer security.txt que adreça les notificacions al programa d’Amazon a HackerOne.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "openQuestions": [
+      "Quant de temps es conserva l’historial de reproduccions mentre el compte és actiu?"
+    ]
+  },
+  "appStoreBundleId": "com.amazon.mp3.AmazonCloudPlayer"
+}

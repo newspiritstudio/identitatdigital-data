@@ -1,0 +1,363 @@
+{
+  "slug": "virtual-waiting-room",
+  "name": "Virtual Waiting Room",
+  "company": "mysphera",
+  "categories": [
+    "salut-i-assistencia-sanitaria"
+  ],
+  "tagline": "Avisa la família de com va l’operació sense demanar cap dada: només un identificador temporal de Firebase",
+  "summary": "La sala d’espera virtual de Mysphera avisa els familiars de l’estat d’un pacient durant una operació o a urgències, a partir de la polsera de localització que li posa l’hospital. Per fer-la servir cal un codi d’accés que dona l’hospital i escanejar-lo amb la càmera. La política diu que l’aplicació no desa cap dada identificativa del telèfon: l’única dada tractada és l’identificador d’instància de Firebase Cloud Messaging, que serveix per enviar les notificacions i que Google esborra 180 dies després de desinstal·lar l’app. L’etiqueta de l’App Store ho confirma: no es recull cap dada.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "jurisdiction": "Espanya (UE)",
+  "userBase": "Més de 4.600 valoracions a l’App Store espanyol, amb una nota mitjana de 4,8 sobre 5.",
+  "links": {
+    "website": "https://www.mysphera.com/",
+    "privacyPolicy": "https://www.mysphera.com/mysphera-app-politica-de-privacidad/",
+    "appStore": "https://apps.apple.com/es/app/id1497714153"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "virtual-waiting-room-privacy-policy",
+      "virtual-waiting-room-app-store"
+    ],
+    "detail": "No hi ha registre: cal un codi d’accés que lliura l’hospital i que es llegeix amb la càmera en forma de codi QR.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "virtual-waiting-room-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Les dades que mostra l’aplicació són del pacient, no del familiar que la fa servir: que és en un quiròfan o a urgències i en quina fase del procés es troba. Mysphera diu que aquesta informació la gestiona l’hospital i que a l’app només hi arriba una notificació lligada a un identificador d’instància.",
+  "dataCollection": [
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "virtual-waiting-room-privacy-policy"
+      ],
+      "note": "Identificador d’instància de Firebase Cloud Messaging, gestionat per Google com a encarregat del tractament. És l’única categoria de dades que la política declara."
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [],
+      "sources": [
+        "virtual-waiting-room-privacy-policy",
+        "virtual-waiting-room-app-store"
+      ],
+      "note": "La política diu que la solució no desa cap dada identificativa del telèfon ni cap altra dada personal; l’estat del pacient el gestiona l’hospital."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "virtual-waiting-room-privacy-policy"
+      ],
+      "note": "Cal el permís de càmera per llegir el codi QR de l’hospital, però la política no declara que se’n desin imatges."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "virtual-waiting-room-app-store"
+      ],
+      "detail": "L’etiqueta declara que no es recull cap dada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "virtual-waiting-room-privacy-policy"
+      ],
+      "detail": "L’única dada declarada és l’identificador d’instància de Firebase, que no és l’identificador publicitari del dispositiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "virtual-waiting-room-privacy-policy"
+      ],
+      "detail": "Hi ha un sol component de tercers: Firebase Cloud Messaging, de Google, com a encarregat del tractament per enviar les notificacions.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "virtual-waiting-room-privacy-policy"
+      ],
+      "detail": "L’única finalitat declarada és notificar l’estat del pacient i els missatges del personal sanitari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "virtual-waiting-room-privacy-policy"
+      ],
+      "detail": "La política no descriu cap elaboració de perfils.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "virtual-waiting-room-privacy-policy"
+      ],
+      "detail": "La política no preveu cap ús de les dades més enllà de l’enviament de notificacions.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "virtual-waiting-room-privacy-policy"
+      ],
+      "detail": "La política diu que les dades no es comuniquen a tercers, llevat dels casos previstos per la llei; Google hi intervé com a encarregat del tractament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Mysphera és una empresa independent sense grup empresarial.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "virtual-waiting-room-privacy-policy"
+      ],
+      "detail": "No hi ha cap cessió prevista.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "virtual-waiting-room-privacy-policy"
+      ],
+      "detail": "La política remet a les condicions de tractament i seguretat de Firebase, que diu que compleixen el RGPD, però no concreta on s’allotgen els identificadors ni amb quin mecanisme.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència; per la mida de l’empresa i la naturalesa del servei, seria inusual que n’hi hagués."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "virtual-waiting-room-privacy-policy"
+      ],
+      "detail": "Firebase esborra l’identificador d’instància dins dels 180 dies posteriors a desinstal·lar l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "virtual-waiting-room-privacy-policy"
+      ],
+      "detail": "Un cop esborrat l’identificador d’instància no queda cap dada, perquè no se’n tracta cap altra.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "identificador-de-dispositiu",
+        "period": "180 dies des de la desinstal·lació de l’aplicació",
+        "sources": [
+          "virtual-waiting-room-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha compte: l’accés es fa amb un codi que dona l’hospital.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "virtual-waiting-room-privacy-policy"
+      ],
+      "detail": "Desinstal·lar l’aplicació posa en marxa l’esborrat de l’identificador d’instància, que Firebase elimina en un màxim de 180 dies.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "easy",
+    "steps": [
+      "Desinstal·la l’aplicació del telèfon.",
+      "Firebase esborrarà l’identificador d’instància dins dels 180 dies següents.",
+      "Si vols exercir els drets abans, escriu a gdpr@mysphera.com o envia un escrit amb còpia del DNI a Ronda Auguste i Louis Lumière 23, nau 13, Paterna (València)."
+    ],
+    "dataRetained": "Cap, un cop esborrat l’identificador d’instància.",
+    "sources": [
+      "virtual-waiting-room-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "virtual-waiting-room-privacy-policy"
+      ],
+      "detail": "La política enumera els drets d’accés, rectificació, supressió i limitació, però no la portabilitat, i no hi ha cap eina de descàrrega: tampoc hi hauria gaire cosa a descarregar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "virtual-waiting-room-privacy-policy"
+      ],
+      "detail": "Per correu a gdpr@mysphera.com o per escrit a Paterna, però sempre amb fotocòpia del DNI o d’una altra identificació vàlida.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:gdpr@mysphera.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha publicitat ni personalització publicitària.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no declara recollir dades de diagnòstic ni d’ús.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "virtual-waiting-room-privacy-policy"
+      ],
+      "detail": "Els únics permisos són la càmera per llegir el codi QR i les notificacions, i es poden revocar des del sistema.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "protective",
+    "darkPatterns": {
+      "status": "no",
+      "level": "editorial",
+      "sources": [
+        "virtual-waiting-room-privacy-policy"
+      ],
+      "detail": "No hi ha registre, ni consentiments encadenats, ni publicitat: no hem detectat cap patró enganyós, tot i que no hem revisat les pantalles de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació només rep notificacions d’estat; no hi ha conversa entre persones usuàries que pugui anar xifrada d’extrem a extrem.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no concreta el protocol de transport; remet a les condicions de seguretat de Firebase."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no parla de xifratge en repòs."
+    },
+    "mfa": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha compte ni contrasenya: l’accés es fa amb el codi que lliura l’hospital.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap auditoria publicada."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses per a vulnerabilitats."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El domini mysphera.com no serveix cap fitxer security.txt."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "És una aplicació sòbria: una sola categoria de dades, un sol encarregat del tractament i un termini de conservació concret. El risc principal és al sistema de localització de l’hospital, que Mysphera ven a part i que queda fora de la política que hem llegit. El web de Mysphera sí que fa servir galetes de mercadotecnia, però això no afecta l’aplicació. El buscador de resolucions de l’AEPD no ens ha respost i no hem pogut completar la cerca d’incidents.",
+    "openQuestions": [
+      "Qui és el responsable del tractament de les dades de localització del pacient: l’hospital o Mysphera?",
+      "On s’allotgen els identificadors d’instància de Firebase i amb quin mecanisme de transferència?",
+      "Què conté exactament el missatge que envia el personal sanitari als familiars?"
+    ]
+  },
+  "appStoreBundleId": "com.mysphera.VirtualWaitingRoom"
+}

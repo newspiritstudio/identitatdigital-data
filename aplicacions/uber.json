@@ -1,0 +1,654 @@
+{
+  "slug": "uber",
+  "name": "Uber",
+  "company": "uber-bv",
+  "categories": [
+    "mobilitat-i-transport"
+  ],
+  "tagline": "Transport amb conductor que declara el nom, l’adreça, el telèfon i l’historial de compres com a dades per rastrejar",
+  "summary": "Uber recull la ubicació exacta durant tot el trajecte, l’historial de viatges, el pagament i, per verificar la identitat, documents i selfies amb reconeixement facial. L’etiqueta declara dades de contacte, compres i cerques com a dades per rastrejar, i l’avís de privadesa preveu compartir-ne amb intermediaris publicitaris. L’autoritat neerlandesa l’ha sancionat quatre vegades, la darrera amb 825 milions d’euros per desactivar automàticament els comptes de conductors.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Països Baixos (Uber B.V.), amb Uber Technologies com a corresponsable",
+  "links": {
+    "website": "https://www.uber.com/es/es/",
+    "privacyPolicy": "https://www.uber.com/legal/es/document/?name=privacy-notice&country=spain&lang=es",
+    "privacyCenter": "https://myprivacy.uber.com/",
+    "appStore": "https://apps.apple.com/es/app/id368677368"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "uber-privacy-notice"
+    ],
+    "detail": "Cal un compte amb telèfon o correu per demanar un viatge.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "uber-privacy-notice"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Els orígens i destinacions dels viatges revelen el domicili, la feina, els centres mèdics o religiosos que es visiten i les rutines horàries. Uber també pot inferir el gènere a partir del nom i combina aquestes dades amb la publicitat de la seva pròpia xarxa.",
+  "dataCollection": [
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "uber-app-store",
+        "uber-privacy-notice"
+      ],
+      "note": "Des que es demana el viatge fins que s’acaba; es comparteix amb el conductor."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "uber-app-store"
+      ]
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "uber-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "uber-app-store"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "uber-app-store"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "uber-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "uber-app-store",
+        "uber-privacy-notice"
+      ],
+      "note": "Historial de viatges i comandes."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "uber-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "uber-app-store",
+        "uber-privacy-notice"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "uber-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "uber-app-store"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "uber-privacy-notice"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "uber-app-store"
+      ]
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "uber-app-store",
+        "uber-privacy-notice"
+      ],
+      "note": "Xats amb el conductor i amb atenció al client; les trucades d’atenció es poden enregistrar."
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "uber-privacy-notice"
+      ],
+      "note": "Quan Uber demana verificar la identitat."
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "uber-privacy-notice",
+        "uber-app-store"
+      ],
+      "note": "Selfies i reconeixement facial per verificar la identitat; l’etiqueta declara «dades sensibles»."
+    },
+    {
+      "type": "genere",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "uber-privacy-notice"
+      ],
+      "note": "L’avís preveu inferir el gènere a partir del nom."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "uber-privacy-notice"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "uber-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "uber-app-store"
+      ],
+      "detail": "L’etiqueta declara per rastrejar l’historial de compres, les dades de contacte, les cerques, els identificadors i les dades d’ús.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "uber-privacy-notice"
+      ],
+      "detail": "L’avís inclou els identificadors publicitaris entre les dades del dispositiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "uber-privacy-notice"
+      ],
+      "detail": "Intermediaris publicitaris com Criteo, Google i Rokt.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "uber-privacy-notice"
+      ],
+      "detail": "Personalització d’anuncis amb l’historial de viatges, comandes i cerques, dins i fora de l’aplicació.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://myprivacy.uber.com/"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "uber-privacy-notice"
+      ],
+      "detail": "Algoritmes d’emparellament, de preus dinàmics, de detecció del frau i de risc de conflicte entre persones usuàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "uber-privacy-notice"
+      ],
+      "detail": "L’avís preveu fer servir dades per a recerca i desenvolupament de productes, inclòs l’entrenament de models d’aprenentatge automàtic.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "uber-privacy-notice"
+      ],
+      "detail": "Amb conductors i establiments, socis de publicitat i màrqueting (com Criteo, Google i Rokt), asseguradores, autoritats i aplicacions connectades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "uber-privacy-notice"
+      ],
+      "detail": "Uber Technologies i Uber B.V. són corresponsables, i el compte és compartit entre Uber i Uber Eats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’avís no esmenta la venda a intermediaris de dades per a la Unió Europea."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "uber-privacy-notice"
+      ],
+      "detail": "Transferències als Estats Units amb el marc de privadesa UE-EUA i clàusules contractuals tipus.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "adequacy"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "uber-transparency-report"
+      ],
+      "detail": "Informe de transparència sobre les peticions governamentals de dades.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "uber-privacy-notice"
+      ],
+      "detail": "L’avís dona terminis per categoria: viatges i pagaments, el que arribi abans entre la vida del compte i set anys; documents d’identitat, un any; selfies de verificació, tres anys.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "uber-privacy-notice",
+        "uber-delete-account"
+      ],
+      "detail": "Esborrat en 90 dies després de la sol·licitud, amb excepcions per frau, seguretat i obligacions legals.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "ubicacio-precisa",
+        "period": "Vida del compte o set anys, el que arribi abans",
+        "sources": [
+          "uber-privacy-notice"
+        ]
+      },
+      {
+        "dataType": "document-identificatiu-oficial",
+        "period": "Un any",
+        "sources": [
+          "uber-privacy-notice"
+        ]
+      },
+      {
+        "dataType": "dades-biometriques",
+        "period": "Tres anys (selfies de verificació)",
+        "sources": [
+          "uber-privacy-notice"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "uber-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "uber-delete-account"
+      ],
+      "detail": "Des de l’aplicació o el web, amb un codi de verificació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://help.uber.com/en/riders/article/delete-my-uber-account?nodeId=71c58af5-23fd-428a-b1d1-fc3c7dd70b4a",
+    "difficulty": "easy",
+    "waitingPeriodDays": 30,
+    "requiresSupportContact": false,
+    "steps": [
+      "A l’aplicació Uber, obre el menú i ves a «Configuració» i després a «Configuració de privadesa».",
+      "Toca «Eliminar compte» i segueix els passos.",
+      "Verifica la identitat amb el codi temporal que rebràs.",
+      "El compte es desactiva de seguida i s’elimina definitivament al cap de 30 dies; si hi tornes a entrar abans, es recupera."
+    ],
+    "obstacles": "El compte és únic per a Uber i Uber Eats: eliminar-lo esborra tots dos serveis. Els crèdits i promocions no utilitzats es perden.",
+    "dataRetained": "Informació que la llei exigeix o permet conservar, com registres fiscals i de frau.",
+    "sources": [
+      "uber-delete-account",
+      "uber-privacy-notice"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "uber-privacy-notice"
+      ],
+      "detail": "Eina «Descarga tus datos» al centre de privadesa.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://myprivacy.uber.com/"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "uber-privacy-notice"
+      ],
+      "detail": "Centre de privadesa i delegat de protecció de dades a Uber B.V. (Amsterdam).",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.uber.com/privacy-dpo",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "uber-privacy-notice"
+      ],
+      "detail": "Al menú «Anuncios y datos» es pot triar si l’historial de viatges, comandes i cerques personalitza els anuncis.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://myprivacy.uber.com/"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap control per aturar l’analítica d’ús."
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "uber-privacy-notice"
+      ],
+      "detail": "Centre de privadesa amb controls d’anuncis, de comunicacions i de galetes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi independent de patrons foscos a l’aplicació de consum."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "uber-privacy-notice"
+      ],
+      "detail": "Uber conserva el contingut dels xats i pot enregistrar trucades d’atenció al client.",
+      "verifiedAt": "2026-09-22",
+      "scope": "none"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació pública recent sobre el xifratge en trànsit."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació pública sobre el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "uber-2fa"
+      ],
+      "detail": "Verificació en dos passos opcional amb codi per SMS o aplicació d’autenticació.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "sms",
+        "totp"
+      ]
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat auditories de seguretat publicades per al servei de consum."
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "uber-hackerone"
+      ],
+      "detail": "Programa públic de recompenses a HackerOne des del 2016.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://hackerone.com/uber"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "uber-hackerone"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Les dues sancions més altes de l’autoritat neerlandesa afecten les dades dels conductors, no les de les persones passatgeres, però són del mateix responsable i de la mateixa plataforma. Les registrem com a incidents de l’empresa sense que pesin com una bretxa de les dades de qui demana viatges.",
+    "openQuestions": [
+      "Quins intermediaris publicitaris reben dades de les persones usuàries a Espanya, més enllà dels exemples que dona l’avís?"
+    ]
+  },
+  "appStoreBundleId": "com.ubercab.UberClient"
+}

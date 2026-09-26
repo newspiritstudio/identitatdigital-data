@@ -1,0 +1,546 @@
+{
+  "slug": "whatsapp-business",
+  "name": "WhatsApp Business",
+  "company": "whatsapp-ireland",
+  "categories": [
+    "missatgeria"
+  ],
+  "tagline": "WhatsApp per a negocis: xifrat d’extrem a extrem, però amb dades de l’empresa compartides amb Meta",
+  "summary": "WhatsApp Business és la versió per a petites empreses: perfil comercial, catàleg, respostes automàtiques i etiquetes de clients. Els missatges es xifren d’extrem a extrem com a WhatsApp, però les condicions per a empreses permeten compartir la informació del compte, l’ús i el diagnòstic amb la resta de Meta i transferir-la als Estats Units. L’etiqueta de l’App Store declara ubicació, identificador i dades d’ús per a publicitat de tercers, i des del 2026 hi ha anuncis a la pestanya de novetats també a Europa.",
+  "platforms": [
+    "ios",
+    "android",
+    "web",
+    "windows",
+    "macos"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Irlanda, per a persones usuàries de l’Espai Econòmic Europeu",
+  "links": {
+    "website": "https://business.whatsapp.com/",
+    "privacyPolicy": "https://www.whatsapp.com/legal/privacy-policy-eea",
+    "terms": "https://www.whatsapp.com/legal/business-terms/",
+    "appStore": "https://apps.apple.com/es/app/id1386412985"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "wa-privacy-policy-eea",
+      "whatsapp-business-terms"
+    ],
+    "detail": "Cal un número de telèfon i les dades de registre de l’empresa.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "wa-security"
+    ],
+    "detail": "Client privatiu; el protocol de xifratge està documentat.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "L’empresa hi desa els telèfons dels seus clients, les etiquetes i el catàleg. El contingut va xifrat, però Meta sap amb quins clients parla cada negoci, amb quina freqüència i des d’on, i hi pot afegir informació d’altres fonts del grup.",
+  "dataCollection": [
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "wa-privacy-policy-eea",
+        "whatsapp-business-app-store"
+      ]
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "whatsapp-business-terms",
+        "whatsapp-business-app-store"
+      ],
+      "note": "Els telèfons dels clients que l’empresa aporta; WhatsApp hi actua com a encarregat del tractament."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "wa-security"
+      ],
+      "note": "Xifrat d’extrem a extrem entre el negoci i el client."
+    },
+    {
+      "type": "metadades-de-comunicacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "wa-privacy-policy-eea",
+        "whatsapp-business-terms"
+      ],
+      "note": "WhatsApp ofereix a l’empresa mètriques agregades de missatges enviats, lliurats i llegits."
+    },
+    {
+      "type": "ocupacio-i-carrec",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "whatsapp-business-terms"
+      ],
+      "note": "Dades de registre i del perfil de l’empresa."
+    },
+    {
+      "type": "adreca-postal",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "whatsapp-business-app-store"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "whatsapp-business-app-store"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "whatsapp-business-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "whatsapp-business-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "whatsapp-business-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "whatsapp-business-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "whatsapp-business-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "whatsapp-business-app-store",
+        "whatsapp-business-terms"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "whatsapp-business-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "whatsapp-business-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada «utilitzada per rastrejar-te», però sí dades vinculades a la identitat que es fan servir per a publicitat de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "whatsapp-business-app-store"
+      ],
+      "detail": "L’etiqueta declara l’identificador d’usuari i dades de publicitat per a publicitat de tercers, i l’identificador de dispositiu per a màrqueting propi.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "press",
+      "sources": [
+        "whatsapp-business-ads-eu-2026",
+        "whatsapp-business-app-store"
+      ],
+      "detail": "Des del març de 2026 hi ha canals promocionats i anuncis als estats de la pestanya de novetats també a Europa; els xats continuen sense anuncis.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "whatsapp-business-terms"
+      ],
+      "detail": "Meta fa servir la informació del compte i d’ús per personalitzar i comercialitzar els seus serveis i els de la resta del grup.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "wa-privacy-policy-eea"
+      ],
+      "detail": "Els missatges xifrats no es poden fer servir; les interaccions amb Meta AI dins de l’aplicació sí que surten del xifratge.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "wa-privacy-policy-eea",
+        "whatsapp-business-terms"
+      ],
+      "detail": "Proveïdors de serveis, proveïdors que l’empresa triï per gestionar les comunicacions, i autoritats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "whatsapp-business-terms"
+      ],
+      "detail": "Les condicions permeten compartir la informació del compte, d’ús, de diagnòstic i de suport amb les altres empreses de Meta per desenvolupar i comercialitzar els seus productes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "wa-privacy-policy-eea"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "whatsapp-business-terms"
+      ],
+      "detail": "L’empresa accepta la transferència de la informació als Estats Units i a altres països.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "adequacy"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-transparency-center"
+      ],
+      "detail": "Informe conjunt de Meta.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://transparency.meta.com/"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "wa-manage-info"
+      ],
+      "detail": "Terminis concrets per a l’eliminació, no per a totes les categories.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "wa-manage-info"
+      ],
+      "detail": "Fins a 90 dies per esborrar la informació dels sistemes; els missatges es conserven als dispositius dels clients.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wa-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wa-delete-account"
+      ],
+      "detail": "El procés de WhatsApp es fa des de la configuració del compte; no hem trobat una pàgina específica per a WhatsApp Business.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "easy",
+    "requiresSupportContact": false,
+    "steps": [
+      "Obre l’aplicació i ves a Configuració.",
+      "Entra a Compte i tria «Elimina el meu compte».",
+      "Introdueix el número de telèfon amb el prefix del país i confirma."
+    ],
+    "dataRetained": "Els missatges enviats es conserven als dispositius dels clients; els registres poden trigar fins a 90 dies a desaparèixer.",
+    "sources": [
+      "wa-delete-account",
+      "wa-manage-info"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wa-manage-info"
+      ],
+      "detail": "Informe del compte des de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "mixed",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wa-manage-info"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.whatsapp.com/contact/",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut verificar quins controls d’anuncis ofereix la pestanya de novetats a Europa."
+    },
+    "telemetryOptOut": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "wa-privacy-policy-eea"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "wa-privacy-policy-eea"
+      ],
+      "detail": "Controls de visibilitat del perfil i dels estats, no de recollida de dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wa-security"
+      ],
+      "detail": "Missatges i trucades xifrats d’extrem a extrem per defecte. Quan l’empresa fa servir un proveïdor o l’allotjament de Meta per gestionar els missatges, el client s’hauria de considerar fora de l’extrem a extrem.",
+      "verifiedAt": "2026-09-22",
+      "scope": "metadata-excluded",
+      "protocol": "Signal Protocol"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wa-security"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wa-backups-whitepaper"
+      ],
+      "detail": "Còpies de seguretat xifrades opcionals.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wa-security"
+      ],
+      "detail": "Verificació en dos passos amb PIN de sis dígits.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "app-push"
+      ]
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha auditories publicades de la implementació."
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wa-security"
+      ],
+      "detail": "Cobert pel programa de recompenses de Meta.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.facebook.com/whitehat"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wa-security"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "L’etiqueta de l’App Store de WhatsApp Business declara dades per a publicitat de tercers, cosa que no apareix a la política de WhatsApp. La sanció de 2021 per manca de transparència és a la fitxa de WhatsApp.",
+    "openQuestions": [
+      "Quines dades de WhatsApp Business es fan servir per als anuncis de la pestanya de novetats a Europa?",
+      "La font sobre els anuncis a Europa és periodística: cal confirmar-la amb un comunicat oficial."
+    ]
+  },
+  "appStoreBundleId": "net.whatsapp.WhatsAppSMB"
+}

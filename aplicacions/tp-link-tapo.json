@@ -1,0 +1,494 @@
+{
+  "slug": "tp-link-tapo",
+  "name": "TP-Link Tapo",
+  "company": "tp-link-systems",
+  "categories": [
+    "llar-connectada"
+  ],
+  "tagline": "Càmeres i endolls connectats que guarden el vídeo a la càmera per defecte i una etiqueta d’App Store sense cap dada vinculada a la identitat",
+  "summary": "Tapo controla càmeres, endolls, bombetes i sensors de TP-Link. L’etiqueta de l’App Store no declara ni rastreig ni cap dada vinculada a la identitat. La política pròpia de l’aplicació explica que els vídeos es guarden a la targeta de la càmera i que només pugen al núvol d’Amazon si es contracta TapoCare, i que el reconeixement de cares es fa dins del HomeBase, sense sortir de casa. La mateixa política fixa una conservació general de set anys, i la responsabilitat es reparteix entre societats dels Estats Units i de Singapur.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Singapur per a les persones usuàries de fora dels Estats Units, amb representant a Alemanya",
+  "userBase": "No n’hem verificat cap xifra oficial.",
+  "links": {
+    "website": "https://www.tapo.com/",
+    "privacyPolicy": "https://privacy.tp-link.com/app/tapo/privacy",
+    "appStore": "https://apps.apple.com/es/app/id1472718009"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "tp-link-tapo-privacy-policy"
+    ],
+    "detail": "Cal un TP-Link ID amb correu i contrasenya per vincular els dispositius.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "tp-link-tapo-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Una càmera i uns quants endolls connectats mostren quan hi ha algú a casa, a quina hora es lleva, quan marxa i qui hi entra. Tapo hi afegeix la configuració de la xarxa wifi, l’IMEI del telèfon i, si s’activa la geolocalització per a les accions automàtiques, la posició exacta del mòbil.",
+  "dataCollection": [
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tp-link-tapo-privacy-policy"
+      ],
+      "note": "És el TP-Link ID. L’etiqueta de l’App Store declara les dades de contacte com a no vinculades a la identitat, cosa difícil de conciliar amb un compte."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tp-link-tapo-privacy-policy"
+      ]
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tp-link-tapo-privacy-policy"
+      ],
+      "note": "Les gravacions es guarden a la càmera; només pugen a Amazon Web Services si es contracta TapoCare."
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tp-link-tapo-privacy-policy"
+      ],
+      "note": "Les trucades de veu en directe entre la càmera i l’aplicació."
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tp-link-tapo-privacy-policy"
+      ],
+      "note": "El reconeixement de cares es processa al dispositiu HomeBase i les cares desconegudes s’esborren automàticament al cap de 90 dies."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tp-link-tapo-privacy-policy"
+      ],
+      "note": "Latitud i longitud per a les accions automàtiques per geolocalització."
+    },
+    {
+      "type": "xarxa-i-connectivitat",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tp-link-tapo-privacy-policy"
+      ],
+      "note": "Adreça MAC, adreça IP, credencials i configuració de la xarxa wifi de casa."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "tp-link-tapo-app-store",
+        "tp-link-tapo-privacy-policy"
+      ],
+      "note": "La política esmenta fins i tot l’IMEI del telèfon."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "tp-link-tapo-app-store",
+        "tp-link-tapo-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tp-link-tapo-app-store"
+      ],
+      "note": "Subscripcions TapoCare, cobrades per l’App Store, Google Play, Stripe o PayPal."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "tp-link-tapo-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "tp-link-tapo-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada utilitzada per rastrejar-te.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "tp-link-tapo-app-store"
+      ],
+      "detail": "No consta cap identificador publicitari a l’etiqueta.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tp-link-tapo-privacy-policy"
+      ],
+      "detail": "Hi ha serveis de tercers integrats (Amazon Web Services, Google Firebase, Google Assistant, Alexa, Stripe i PayPal), però amb finalitats de servei i no publicitàries.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tp-link-tapo-privacy-policy"
+      ],
+      "detail": "El màrqueting hi consta com a finalitat sotmesa a consentiment, però la política no descriu publicitat comportamental dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política de l’aplicació no descriu cap elaboració de perfils."
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu si les gravacions o les deteccions serveixen per entrenar models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tp-link-tapo-privacy-policy"
+      ],
+      "detail": "Amazon Web Services per a l’emmagatzematge al núvol, Google Firebase, els assistents de veu de Google i Amazon si es vinculen, les passarel·les de pagament i OhmConnect per a les estadístiques d’energia.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tp-link-tapo-privacy-policy"
+      ],
+      "detail": "La responsabilitat es reparteix entre TP-Link Systems Inc., als Estats Units, i TP-LINK CORPORATION PTE. LTD., a Singapur, amb representant a Alemanya.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "tp-link-tapo-privacy-policy"
+      ],
+      "detail": "La política afirma que no facilitarà dades personals a tercers sense consentiment clar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tp-link-tapo-privacy-policy"
+      ],
+      "detail": "Servidors potencialment a Singapur i als Estats Units. S’invoca la decisió d’adequació quan n’hi ha i, si no, les garanties de l’article 46.2 del RGPD, sense concretar quina.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tp-link-tapo-privacy-policy"
+      ],
+      "detail": "Hi ha dos terminis concrets (set anys des del final de la relació amb caràcter general i 90 dies per a les cares desconegudes del reconeixement facial), però no per a la resta de categories.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tp-link-privacy-policy-es"
+      ],
+      "detail": "La política avisa que eliminar el compte no afecta les dades que hagin recollit els socis per activar els productes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "dades-biometriques",
+        "period": "90 dies per a les cares no reconegudes, al dispositiu HomeBase",
+        "sources": [
+          "tp-link-tapo-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tp-link-tapo-privacy-policy",
+        "tp-link-privacy-policy-es"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tp-link-privacy-policy-es"
+      ],
+      "detail": "Hi ha un portal específic d’eliminació de comptes, account-delete.tplinkcloud.com, al marge de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://account-delete.tplinkcloud.com/",
+    "difficulty": "medium",
+    "requiresSupportContact": false,
+    "steps": [
+      "Descarrega les gravacions que vulguis conservar: esborrar el compte no les recupera.",
+      "Cancel·la la subscripció de TapoCare allà on la paguis (App Store, Google Play, Stripe o PayPal).",
+      "Entra a https://account-delete.tplinkcloud.com/ amb el teu TP-Link ID.",
+      "Verifica la identitat i confirma l’eliminació. També pots demanar-la a privacy@tp-link.com."
+    ],
+    "obstacles": "El portal d’eliminació és fora de l’aplicació i de la pàgina del compte, i la política no diu en quant de temps s’executa. A més, avisa que no afecta les dades que hagin recollit els socis per activar els productes.",
+    "dataRetained": "Dades que la llei obligui a conservar i dades en mans dels socis que activen els productes.",
+    "sources": [
+      "tp-link-tapo-privacy-policy",
+      "tp-link-privacy-policy-es"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tp-link-privacy-policy-es"
+      ],
+      "detail": "El dret de portabilitat es reconeix i s’exerceix per correu; no hi ha eina d’autoservei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tp-link-privacy-policy-es",
+        "tp-link-tapo-privacy-policy"
+      ],
+      "detail": "Adreces de privadesa específiques, dret de recurs si es denega la sol·licitud i menció expressa de l’Agència Espanyola de Protecció de Dades.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacy@tp-link.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tp-link-privacy-policy-es"
+      ],
+      "detail": "El màrqueting depèn del consentiment i hi ha enllaços de baixa als correus, però no un control dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap manera de desactivar l’enviament d’estadístiques d’ús."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tp-link-tapo-privacy-policy"
+      ],
+      "detail": "Es pot decidir si s’activa l’emmagatzematge al núvol, la geolocalització i la vinculació amb els assistents de veu, i el reconeixement facial es queda al dispositiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "protective",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem revisat el flux d’alta ni el de consentiment dins de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "tp-link-tapo-privacy-policy"
+      ],
+      "detail": "La política parla de xifratge i de SSL, però no reivindica cap xifratge d’extrem a extrem per al vídeo emmagatzemat al núvol.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tp-link-tapo-privacy-policy"
+      ],
+      "detail": "Xifratge i tecnologia SSL segons la política.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No es concreta si les gravacions desades a Amazon Web Services estan xifrades en repòs ni amb quines claus."
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tp-link-privacy-policy-es"
+      ],
+      "detail": "La política esmenta la verificació en dos passos com a opció disponible per al TP-Link ID.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories de seguretat independents publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut verificar si TP-Link manté un programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut verificar el canal oficial de comunicació de vulnerabilitats."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "Guardar el vídeo a la càmera i fer el reconeixement de cares al HomeBase són opcions que deixen les imatges a casa, però la política no ho presenta com una garantia ni diu res del xifratge de les gravacions que sí que pugen al núvol. A més, l’etiqueta de l’App Store declara el correu i les dades de contacte com a no vinculades a la identitat quan el servei funciona amb un compte. La política general del web adverteix expressament que no cobreix els productes Tapo, de manera que cal llegir dos documents diferents. No hem pogut completar la cerca d’incidents.",
+    "openQuestions": [
+      "Les gravacions desades a TapoCare estan xifrades en repòs i qui en té les claus?",
+      "En quant de temps s’executa l’eliminació del compte des del portal?",
+      "Hi ha un canal públic de comunicació de vulnerabilitats per als dispositius Tapo?"
+    ]
+  },
+  "appStoreBundleId": "com.tplink.tapo"
+}

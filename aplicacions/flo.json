@@ -1,0 +1,578 @@
+{
+  "slug": "flo",
+  "name": "Flo",
+  "company": "flo-health",
+  "categories": [
+    "salut-i-assistencia-sanitaria",
+    "benestar-i-activitat-fisica"
+  ],
+  "tagline": "Calendari menstrual que va arribar a un acord amb la Federal Trade Commission per haver compartit dades del cicle amb Facebook i Google",
+  "summary": "Flo és un calendari menstrual amb prediccions de cicle, mode embaràs i xats de comunitat. El 2021 la Federal Trade Commission nord-americana el va acusar d’haver compartit informació de salut amb Facebook, Google, AppsFlyer i Flurry mentre prometia el contrari, i l’acord que en va sortir obliga a demanar consentiment abans de revelar-la i a exigir la destrucció de les dades ja cedides. Avui la política enumera cada encarregat del tractament amb nom i finalitat, la companyia té certificació ISO/IEC 27001 i 27701, i ofereix un mode anònim que desvincula les dades de cicle de la identitat. També té un programa de recompenses actiu i un fitxer security.txt.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Regne Unit; establiment principal a la Unió Europea a Lituània, mitjançant Flo Health LTU UAB",
+  "userBase": "Més de cent milions de persones usuàries acumulades, segons la denúncia de la Federal Trade Commission",
+  "links": {
+    "website": "https://flo.health/",
+    "privacyPolicy": "https://flo.health/privacy-policy",
+    "privacyCenter": "https://flo.health/privacy-portal",
+    "appStore": "https://apps.apple.com/es/app/id1038369065"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "flo-privacy-policy"
+    ],
+    "detail": "Cal registrar-s’hi amb nom, correu, mes i any de naixement; el mode anònim permet fer-ho sense lligar-hi identificadors personals.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "editorial",
+    "sources": [],
+    "detail": "No hem trobat cap repositori públic del codi de l’aplicació.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Un calendari menstrual és una de les bases de dades més sensibles que una persona pot portar al telèfon: dates de regla, símptomes, vida sexual, intents d’embaràs, salut mental i son. La política les tracta com a categoria especial de l’article 9 i hi aplica el consentiment. En el cas de la Federal Trade Commission, el problema van ser els components publicitaris integrats a l’aplicació, més que la recollida.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "flo-privacy-policy",
+        "flo-app-store"
+      ],
+      "note": "És opcional: pots posar un nom preferit o cap, sense que afecti el servei."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "flo-privacy-policy",
+        "flo-app-store"
+      ]
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "flo-privacy-policy"
+      ],
+      "note": "Es recull el mes i l’any; el grup d’edat és una de les dades que, amb consentiment, arriben a AppsFlyer."
+    },
+    {
+      "type": "genere",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "flo-privacy-policy"
+      ],
+      "note": "La política diu que el sexe o el gènere es poden inferir de l’ús que fas del servei."
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "flo-privacy-policy",
+        "flo-app-store"
+      ],
+      "note": "Pes, alçada, IMC, temperatura, detalls del cicle, símptomes de menstruació, embaràs, perimenopausa i menopausa. La base jurídica és el consentiment explícit i la política diu que no es comparteixen amb tercers amb finalitats de màrqueting."
+    },
+    {
+      "type": "orientacio-sexual",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "flo-privacy-policy"
+      ],
+      "note": "La política inclou expressament detalls sobre la vida sexual entre les dades que hi pots registrar."
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "flo-privacy-policy"
+      ],
+      "note": "Els Secret Chats i els grups guiats són àrees comunitàries: el que hi escrius ho veu la comunitat de Flo."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "flo-app-store"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "flo-privacy-policy",
+        "flo-app-store"
+      ],
+      "note": "La política diu que no es recull la ubicació exacta: s’infereix del país i de l’adreça IP, que també s’envia a AppsFlyer, Firebase i TikTok Ad Manager amb consentiment."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-publicitaria",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "flo-privacy-policy",
+        "flo-app-store"
+      ],
+      "note": "Android ID, identificador publicitari de Google i IDFA d’Apple, amb consentiment i sense cap dada de salut al costat."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "flo-privacy-policy"
+      ],
+      "note": "Només si acceptes el permís de seguiment d’Apple o l’equivalent d’Android."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "flo-privacy-policy",
+        "flo-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "flo-app-store",
+        "flo-privacy-policy"
+      ],
+      "note": "L’estat de la subscripció és una de les dades que s’envien a les plataformes de màrqueting."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "flo-app-store",
+        "flo-privacy-policy"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "flo-app-store",
+        "flo-privacy-policy"
+      ],
+      "detail": "L’etiqueta declara compres, ubicació, identificadors i dades d’ús com a utilitzats per rastrejar-te. La política ho emmarca com a màrqueting amb consentiment revocable i insisteix que no s’hi inclou cap dada de salut.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "flo-privacy-policy"
+      ],
+      "detail": "IDFA a iOS i identificador publicitari de Google a Android, compartits amb AppsFlyer, Firebase i TikTok Ad Manager si dones consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "flo-privacy-policy"
+      ],
+      "detail": "AppsFlyer i els seus socis (Pinterest, Google Ads, Apple Search Ads i Meta Audience, entre d’altres), Firebase amb els serveis de Google enllaçats, i TikTok Ad Manager.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "flo-privacy-policy"
+      ],
+      "detail": "Hi ha promoció de Flo amb identificadors tècnics, grup d’edat i estat de la subscripció, sempre amb consentiment i sense dades de salut; la política diu que no ven ni lloga dades personals.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://flo.health/privacy-portal"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "flo-privacy-policy"
+      ],
+      "detail": "Models d’aprenentatge automàtic per predir el cicle i l’ovulació, per recomanar continguts i per preveure la retenció de clientela; l’encarregat és Tecton, que tracta dates de cicle, objectius i símptomes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "flo-privacy-policy"
+      ],
+      "detail": "La política descriu models d’aprenentatge automàtic entrenats amb dades de cicle per fer prediccions, i permet, amb consentiment, agregar i anonimitzar dades per a recerca; no parla de models generatius de tercers.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "flo-privacy-policy"
+      ],
+      "detail": "La política publica la taula completa d’encarregats: Amazon Web Services, Cloudflare, Auth0, Elastic, Vercel, SendGrid, Trustpilot, SurveyMonkey, Looker, Databricks, Google Analytics 4, Zendesk, Tecton, Apple, Google, Stripe, PayPal i AppsFlyer.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "flo-privacy-policy"
+      ],
+      "detail": "Flo Health Cyprus Ltd, Flo Health LTU UAB (l’establiment principal a la Unió Europea) i Flo Health NL B.V. actuen com a encarregades del tractament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "flo-privacy-policy"
+      ],
+      "detail": "La política diu que no ven ni lloga dades personals per diners i que les dades d’Apple HealthKit i Google Health Connect no es venen a plataformes publicitàries ni a intermediaris.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "flo-privacy-policy"
+      ],
+      "detail": "Les dades es transfereixen als Estats Units amb clàusules contractuals tipus i avaluacions de risc; la filial nord-americana Flo Health, Inc. està autocertificada al marc de privadesa de dades UE-EUA.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència sobre peticions d’autoritats, tot i que la política descriu els supòsits en què respon a requeriments judicials."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "flo-privacy-policy"
+      ],
+      "detail": "Hi ha terminis explícits: tres anys d’inactivitat abans de l’esborrament automàtic i fins a noranta dies per netejar les còpies de seguretat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "flo-privacy-policy"
+      ],
+      "detail": "En iniciar la supressió els identificadors es desvinculen immediatament de la informació de l’aplicació; alguna dada pot quedar temporalment a les còpies de seguretat fins a noranta dies, i se’n poden conservar per obligació legal o per defensar reclamacions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "period": "Tres anys d’inactivitat i llavors esborrament automàtic",
+        "sources": [
+          "flo-privacy-policy"
+        ]
+      },
+      {
+        "period": "Fins a 90 dies per esborrar les dades de les còpies de seguretat",
+        "sources": [
+          "flo-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "flo-privacy-policy"
+      ],
+      "detail": "La política diu que pots demanar la supressió en qualsevol moment i que el procés és irreversible.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "flo-privacy-policy"
+      ],
+      "detail": "La supressió del compte es pot demanar directament des de la configuració de l’aplicació, sense passar per atenció al client.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "easy",
+    "waitingPeriodDays": 90,
+    "steps": [
+      "Si vols conservar l’historial, demana primer una còpia de les dades: Flo les lliura en fitxers .json i, a iOS amb Premium, l’aplicació genera un informe descarregable.",
+      "Entra a la configuració de l’aplicació i demana la supressió del compte.",
+      "La petició es resol en el termini d’un mes; per netejar les còpies de seguretat poden caldre fins a noranta dies.",
+      "Recorda que suprimir el compte també retira el consentiment per tractar les dades de salut, i que el procés no es pot desfer."
+    ],
+    "dataRetained": "Dades conservades per obligació legal, per a la defensa de reclamacions o per a l’arxiu amb finalitats de recerca, un cop desvinculades dels identificadors.",
+    "sources": [
+      "flo-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "flo-privacy-policy"
+      ],
+      "detail": "Dret d’accés i de portabilitat amb lliurament en fitxers .json; a iOS, les persones subscrites poden descarregar un informe des de la mateixa aplicació.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://flo.health/privacy-portal"
+    },
+    "exportFormatQuality": "open",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "flo-privacy-policy"
+      ],
+      "detail": "Hi ha tres vies: la configuració de l’aplicació, un assistent conversacional al web i el correu del delegat de protecció de dades, amb resposta en un mes.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dpo@flo.health",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "flo-privacy-policy"
+      ],
+      "detail": "El consentiment per compartir dades amb AppsFlyer, Firebase i TikTok Ad Manager es pot retirar des de les preferències de l’aplicació o del dispositiu en qualsevol moment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "flo-privacy-policy"
+      ],
+      "detail": "El màrqueting i les notificacions es poden desactivar, però l’ús d’AppsFlyer per enllaçar el registre del web amb l’aplicació no admet oposició.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "flo-privacy-policy"
+      ],
+      "detail": "Hi ha consentiments separats per finalitat, un portal de privadesa i el mode anònim com a control estructural.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "no",
+      "level": "editorial",
+      "sources": [
+        "flo-privacy-policy"
+      ],
+      "detail": "La política adverteix de les limitacions del mode anònim i explica quins consentiments es poden retirar i quins no.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "flo-privacy-policy"
+      ],
+      "detail": "No hi ha xifratge d’extrem a extrem: les dades es xifren en trànsit i en repòs, però Flo hi té accés per prestar el servei. El mode anònim les desvincula de la identitat en lloc de fer-les il·legibles.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "flo-privacy-policy"
+      ],
+      "detail": "La política afirma que les dades personals es xifren tant en trànsit com en repòs.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "flo-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política recomana protegir el dispositiu amb codi o Face ID, però no documenta cap verificació en dos passos del compte."
+    },
+    "independentAudits": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "flo-privacy-policy"
+      ],
+      "detail": "Certificacions independents ISO/IEC 27001 de seguretat de la informació i ISO/IEC 27701 de privadesa, escanejos de vulnerabilitats i proves de penetració periòdiques, i avaluacions d’impacte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "flo-security-txt"
+      ],
+      "detail": "El fitxer security.txt del domini remet a un programa gestionat amb HackerOne i adverteix que totes les comunicacions hi han de passar per optar a recompensa.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://flo.health/responsible-vulnerability-disclosure-program"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "flo-security-txt"
+      ],
+      "detail": "Hi ha fitxer .well-known/security.txt amb adreça de contacte, política, idioma preferit i data de caducitat.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Aquesta fitxa es relaciona amb la de Wellhub: la política de Flo explica que, si t’hi subscrius amb Wellhub, Flo confirma a Wellhub si has estat activa a l’aplicació. És una dada sobre el funcionament de Wellhub que consta al document d’una altra companyia.",
+    "openQuestions": [
+      "Quin és l’estat final de la demanda col·lectiva Frasco contra Flo Health i els altres demandats a Califòrnia? No hem pogut verificar-ne els termes amb una font fiable.",
+      "Alguna autoritat europea (ICO, CNIL o la inspecció lituana) ha obert una investigació sobre el mateix tractament que va motivar l’acord amb la Federal Trade Commission?"
+    ]
+  },
+  "appStoreBundleId": "org.iggymedia.periodtracker"
+}

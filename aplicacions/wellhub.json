@@ -1,0 +1,523 @@
+{
+  "slug": "wellhub",
+  "name": "Wellhub",
+  "company": "wellhub",
+  "categories": [
+    "benestar-i-activitat-fisica",
+    "feina-i-ocupacio"
+  ],
+  "tagline": "L’empresa que et paga la subscripció rep el teu nom, el correu, el pla i el cost, i les aplicacions sòcies li confirmen si has estat activa",
+  "summary": "Wellhub, abans Gympass, és una plataforma de benestar corporatiu: l’empresa on treballes et paga l’accés a gimnasos i a aplicacions de salut. Això afegeix un tercer a la relació. Segons la política, al patrocinador se li comuniquen el nom, els cognoms, l’adreça electrònica, la subscripció i el cost del pla, i també informació d’activitat si es detecten problemes o abusos. La política de Flo, una de les aplicacions sòcies, ho confirma: en donar-t’hi d’alta amb Wellhub, Flo confirma a Wellhub si has estat activa. L’etiqueta de l’App Store declara vuit categories utilitzades per rastrejar-te.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "subscription",
+  "jurisdiction": "Estats Units; segons la política, l’autoritat de control principal a la Unió Europea és l’autoritat neerlandesa de protecció de dades",
+  "userBase": "Present a una quinzena de països, amb milers d’empreses clientes",
+  "links": {
+    "website": "https://wellhub.com/es-es/",
+    "privacyPolicy": "https://wellhub.com/es-es/privacy/",
+    "appStore": "https://apps.apple.com/es/app/id703761434"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "wellhub-politica-privacidad"
+    ],
+    "detail": "Cal registrar-s’hi i acreditar l’elegibilitat: la política tracta informació sobre si tens dret a l’avantatge a través de l’empresa o del patrocinador.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "editorial",
+    "sources": [],
+    "detail": "No hem trobat cap repositori públic del codi.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Quines activitats fas, a quins gimnasos vas i quines aplicacions de salut obres és informació d’estil de vida, encara que el servei el pagui l’empresa. La política limita el que arriba al patrocinador a dades administratives, però hi afegeix una excepció d’activitat «si es detecten problemes o abusos» que no defineix.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "wellhub-politica-privacidad",
+        "wellhub-app-store"
+      ],
+      "note": "És una de les dades que la política diu que es comuniquen al patrocinador."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "wellhub-politica-privacidad",
+        "wellhub-app-store"
+      ],
+      "note": "També es comunica al patrocinador, juntament amb la subscripció i el cost del pla."
+    },
+    {
+      "type": "ocupacio-i-carrec",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "wellhub-politica-privacidad"
+      ],
+      "note": "Informació d’elegibilitat: la relació laboral o de col·laboració que et dona dret a l’avantatge."
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "wellhub-app-store",
+        "wellhub-politica-privacidad"
+      ],
+      "note": "Dades de salut i forma física, també importades d’Apple HealthKit."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "wellhub-app-store",
+        "wellhub-politica-privacidad"
+      ],
+      "note": "L’etiqueta declara ubicació exacta vinculada amb la identitat i ubicació aproximada no vinculada, totes dues també per a màrqueting."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "wellhub-app-store",
+        "wellhub-politica-privacidad"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "wellhub-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "wellhub-app-store"
+      ]
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "wellhub-app-store"
+      ],
+      "note": "Contingut de l’usuari, declarat també entre les dades utilitzades per rastrejar-te."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "wellhub-app-store",
+        "wellhub-politica-privacidad"
+      ],
+      "note": "La política de Flo confirma que, en registrar-t’hi amb Wellhub, Flo li comunica si has estat activa a l’aplicació."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "wellhub-app-store",
+        "wellhub-politica-privacidad"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "wellhub-politica-privacidad"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "wellhub-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wellhub-app-store"
+      ],
+      "detail": "L’etiqueta declara vuit categories sota «Datos usados para rastrearte»: compres, ubicació, dades de contacte, contingut de l’usuari, historial de cerca, identificadors, dades d’ús i diagnòstics.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wellhub-app-store",
+        "wellhub-politica-privacidad"
+      ],
+      "detail": "L’etiqueta declara identificadors per rastrejar i la política enumera galetes, adreça IP i dades del dispositiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wellhub-politica-privacidad"
+      ],
+      "detail": "La política esmenta xarxes socials i proveïdors d’analítica entre els destinataris, sense anomenar-los un per un.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wellhub-app-store",
+        "wellhub-politica-privacidad"
+      ],
+      "detail": "L’etiqueta de l’App Store declara «publicidad o marketing» entre les finalitats de gairebé totes les categories vinculades amb la identitat, inclosa la ubicació exacta.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "wellhub-politica-privacidad"
+      ],
+      "detail": "La política descriu la personalització de continguts i recomanacions, i el seguiment de l’activitat per detectar problemes o abusos.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [
+        "wellhub-politica-privacidad"
+      ],
+      "detail": "La política no esmenta l’entrenament de models d’intel·ligència artificial."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wellhub-politica-privacidad",
+        "flo-privacy-policy"
+      ],
+      "detail": "Gimnasos, estudis i entrenadors, l’empresa o el patrocinador que paga la subscripció, els socis indirectes, els proveïdors de serveis, les xarxes socials i els proveïdors d’analítica. La política de Flo, aplicació sòcia, confirma que li retorna a Wellhub si has estat activa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wellhub-politica-privacidad"
+      ],
+      "detail": "La política identifica entitats diferents segons el país: Wellhub US, LLC com a entitat general, GPBR Participações Ltda. per al Brasil i Gympass SAS per a l’Argentina.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [
+        "wellhub-politica-privacidad"
+      ],
+      "detail": "La política no diu si es venen dades a intermediaris; tampoc no ho nega expressament."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wellhub-politica-privacidad"
+      ],
+      "detail": "Les transferències es fan a escala global emparades en les clàusules contractuals tipus de la Unió Europea.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "wellhub-politica-privacidad"
+      ],
+      "detail": "La política només diu que les dades es conserven «únicamente durante el tiempo necesario» i pels terminis fiscals i reguladors, sense cap xifra.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [
+        "wellhub-politica-privacidad"
+      ],
+      "detail": "La política no descriu què es conserva després de tancar el compte."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wellhub-politica-privacidad"
+      ],
+      "detail": "La política diu que pots tancar el compte des de la configuració de la plataforma o contactant amb el centre d’ajuda.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "wellhub-politica-privacidad"
+      ],
+      "detail": "Hi ha l’opció de tancar el compte des de la configuració, però la política no en descriu els passos ni distingeix entre tancar-lo i suprimir les dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "steps": [
+      "Tanca la subscripció des de la configuració de la plataforma o demana-ho al centre d’ajuda de Wellhub.",
+      "Revisa per separat les aplicacions sòcies a què t’hagis donat d’alta amb Wellhub: cadascuna té el seu compte i el seu procediment de supressió.",
+      "Per exercir el dret de supressió sobre les dades ja tractades, adreça’t al contacte de protecció de dades a través del centre d’ajuda."
+    ],
+    "obstacles": "Hi intervenen tres parts: tu, Wellhub i l’empresa que paga. Tancar el compte no afecta les dades que ja s’han comunicat al patrocinador ni els comptes que t’hagis creat a les aplicacions sòcies.",
+    "sources": [
+      "wellhub-politica-privacidad"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [
+        "wellhub-politica-privacidad"
+      ],
+      "detail": "La política no descriu cap eina d’exportació ni el procediment concret per exercir la portabilitat."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "wellhub-politica-privacidad"
+      ],
+      "detail": "Els drets s’exerceixen a través del centre d’ajuda; la política no dona cap adreça directa del delegat de protecció de dades ni cap termini de resposta.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [
+        "wellhub-politica-privacidad"
+      ],
+      "detail": "La política no descriu cap control per desactivar la publicitat i el màrqueting que declara l’etiqueta de l’App Store."
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap control per desactivar l’analítica."
+    },
+    "granularControls": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "wellhub-politica-privacidad"
+      ],
+      "detail": "No hi ha cap panell de privadesa per finalitat documentat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [
+        "wellhub-politica-privacidad",
+        "flo-privacy-policy"
+      ],
+      "detail": "La compartició amb el patrocinador es presenta com a administrativa, però l’excepció d’«información de actividad» quan es detecten problemes o abusos no està definida, i les aplicacions sòcies retornen a Wellhub si has estat activa. L’empresa que et paga la nòmina pot rebre informació per més d’una via.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "confusing-language",
+        "severity": "medium",
+        "description": "La política limita el que rep l’empresa a dades administratives, però hi afegeix informació d’activitat en cas de problemes o abusos, sense definir què compta com a tal ni qui ho decideix.",
+        "sources": [
+          "wellhub-politica-privacidad"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no transporta comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no detalla les mesures tècniques de xifratge."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública sobre el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap documentació sobre verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories ni certificacions de seguretat publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut comprovar si hi ha fitxer security.txt: el domini respon amb un error a les peticions automatitzades."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La política en espanyol que publica Wellhub porta data del 19 de desembre del 2023 i no s’ha actualitzat amb el canvi de marca. La descripció més clara de com circulen les dades és a la política de Flo, que explica la integració des del costat de l’aplicació sòcia.",
+    "openQuestions": [
+      "Què compta exactament com a «problema o abús» perquè l’empresa rebi informació d’activitat individual?",
+      "Quina entitat és responsable del tractament per a Espanya, i per què la política assenyala l’autoritat neerlandesa com a autoritat principal?",
+      "Quines altres aplicacions sòcies retornen senyals d’activitat a Wellhub, com fa Flo?"
+    ]
+  },
+  "appStoreBundleId": "com.gympass.gympass"
+}

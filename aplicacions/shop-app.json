@@ -1,0 +1,577 @@
+{
+  "slug": "shop-app",
+  "name": "Shop",
+  "company": "shopify-international",
+  "categories": [
+    "comerc-electronic"
+  ],
+  "tagline": "Segueix les comandes de milers de botigues, llegeix el correu si el connectes i uneix l’activitat de compra en un sol perfil",
+  "summary": "Shop agrupa les comandes fetes a botigues de Shopify i, si s’hi connecta la bústia, extreu informació dels correus de confirmació. La política reconeix que sincronitza la navegació i les compres entre botigues per personalitzar l’experiència i que comparteix dades amb socis publicitaris, cosa que es pot desactivar al portal de privadesa. L’etiqueta declara ubicació precisa, correus i missatges vinculats a la identitat, però no rastreig entre aplicacions.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Irlanda (Shopify International Ltd.) per a l’Espai Econòmic Europeu; grup amb seu al Canadà",
+  "links": {
+    "website": "https://shop.app/",
+    "privacyPolicy": "https://www.shopify.com/legal/privacy/app-users",
+    "privacyCenter": "https://privacy.shopify.com/en",
+    "appStore": "https://apps.apple.com/es/app/id1223471316"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "shopify-consumer-privacy"
+    ],
+    "detail": "La política descriu el servei a partir d’un compte de Shop, on es desen les comandes i Shop Pay.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "shopify-consumer-privacy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "L’historial de compres de centenars de botigues independents, junt amb l’adreça d’enviament, la ubicació i els correus de confirmació, mostra hàbits de consum, poder adquisitiu i rutines. Tot queda en una sola empresa, encara que la persona compri a botigues diferents.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "shop-app-store",
+        "shopify-consumer-privacy"
+      ],
+      "note": "L’etiqueta el declara també per a publicitat o màrqueting del desenvolupador."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "shop-app-store"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "shop-app-store"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "shop-app-store",
+        "shopify-consumer-privacy"
+      ],
+      "note": "Es comparteix amb les botigues."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "shop-app-store"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "shop-app-store",
+        "shopify-consumer-privacy"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "shop-app-store",
+        "shopify-consumer-privacy"
+      ],
+      "note": "Shop Pay."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "shop-app-store",
+        "shopify-consumer-privacy"
+      ],
+      "note": "Unificat entre totes les botigues de Shopify on es compra."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "shop-app-store",
+        "shopify-consumer-privacy"
+      ],
+      "note": "Informació dels correus de les bústies connectades. La política diu que no la fa servir per a publicitat ni màrqueting."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "shop-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "shopify-consumer-privacy"
+      ],
+      "note": "La política parla de sincronitzar la navegació i les compres entre botigues."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "shop-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "shop-app-store",
+        "shopify-consumer-privacy"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "shopify-consumer-privacy"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "shop-app-store",
+        "shopify-consumer-privacy"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "shop-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "shop-app-store"
+      ],
+      "detail": "L’etiqueta no declara dades «utilitzades per rastrejar-te». La política, però, admet que dona informació a tercers per a publicitat dirigida.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap declaració sobre l’identificador publicitari del dispositiu."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi independent de rastrejadors de l’aplicació."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "shopify-consumer-privacy"
+      ],
+      "detail": "Màrqueting i publicitat personalitzada amb socis publicitaris, amb opció d’exclusió.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://privacy.shopify.com/en"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "shopify-consumer-privacy",
+        "shopify-privacy-policy"
+      ],
+      "detail": "Uneix l’activitat de compra de totes les botigues i fa servir aprenentatge automàtic per personalitzar el servei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "shopify-privacy-policy"
+      ],
+      "detail": "La política general diu que fa servir aprenentatge automàtic per desenvolupar i millorar els serveis, sense concretar si amb dades de Shop.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "shopify-consumer-privacy"
+      ],
+      "detail": "Botigues, proveïdors, socis de publicitat i màrqueting, autoritats i possibles compradors en una fusió.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "shopify-consumer-privacy",
+        "shopify-privacy-policy"
+      ],
+      "detail": "Les dades circulen entre Shop, les botigues de Shopify i les empreses del grup.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "shopify-consumer-privacy"
+      ],
+      "detail": "La política admet que donar dades a tercers per a publicitat es pot considerar «compartir» o «publicitat dirigida» segons algunes lleis.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "shopify-privacy-policy"
+      ],
+      "detail": "Les dades de l’Espai Econòmic Europeu es transfereixen a altres empreses del grup amb normes corporatives vinculants, i a tercers amb clàusules contractuals tipus. Per al Canadà, on té la seu, hi ha una decisió d’adequació.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "bcrs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència de Shopify."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "shopify-consumer-privacy"
+      ],
+      "detail": "Només diu que conserva les dades mentre hi hagi una necessitat de negoci.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no explica què es conserva després d’eliminar el compte de Shop."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "shopify-consumer-privacy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "shopify-consumer-privacy"
+      ],
+      "detail": "La política diu que es pot demanar l’eliminació del compte des de la configuració de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "easy",
+    "steps": [
+      "A l’aplicació Shop, obre la configuració del compte.",
+      "Tria l’opció d’eliminar el compte i confirma-ho.",
+      "Desconnecta abans la bústia de correu, si l’havies connectada.",
+      "Per a les dades que tenen les botigues, adreça’t a cadascuna o al portal privacy.shopify.com."
+    ],
+    "obstacles": "Les comandes també les tenen les botigues, que en són responsables per separat.",
+    "sources": [
+      "shopify-consumer-privacy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "shopify-consumer-privacy"
+      ],
+      "detail": "Accés i portabilitat a demanda des del portal de privadesa, sense exportació immediata.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://privacy.shopify.com/en"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "shopify-consumer-privacy",
+        "shopify-privacy-policy"
+      ],
+      "detail": "Portal de privadesa i delegat de protecció de dades a Dublín.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://privacy.shopify.com/en"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "shopify-consumer-privacy"
+      ],
+      "detail": "Exclusió de la compartició per a publicitat dirigida al portal de privadesa.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://privacy.shopify.com/en"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap opció per desactivar l’analítica d’ús."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "shopify-consumer-privacy"
+      ],
+      "detail": "La connexió del correu és opcional i la publicitat dirigida es pot desactivar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi de patrons foscos a Shop."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No és un servei de comunicació entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política diu que cap transmissió és segura al 100 %, sense detallar les mesures."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat informació pública específica de Shop."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació sobre la verificació en dos passos als comptes de Shop."
+    },
+    "independentAudits": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "shopify-security"
+      ],
+      "detail": "Shopify té la certificació PCI DSS de nivell 1 i informes SOC 2 tipus II i SOC 3, que cobreixen la plataforma de pagament; no consta l’abast respecte a Shop.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "shopify-security-txt"
+      ],
+      "detail": "Shopify té programa a HackerOne; no hem pogut comprovar si Shop entra a l’abast.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://hackerone.com/shopify"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "shopify-security-txt"
+      ],
+      "detail": "Fitxer security.txt amb adreça, clau de xifratge i política.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "L’etiqueta no declara rastreig, però la política de consumidors admet la compartició per a publicitat dirigida. Les dues coses poden ser compatibles, perquè Apple només compta el rastreig entre empreses.",
+    "openQuestions": [
+      "La cerca d’incidents no s’ha pogut completar: s’havia esgotat el pressupost de cerques web de la sessió.",
+      "Quines dades extreu exactament Shop dels correus i quant temps les conserva?"
+    ]
+  },
+  "appStoreBundleId": "com.jadedlabs.arrive"
+}

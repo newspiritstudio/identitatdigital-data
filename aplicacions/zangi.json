@@ -1,0 +1,449 @@
+{
+  "slug": "zangi",
+  "name": "Zangi",
+  "company": "secret-phone",
+  "categories": [
+    "missatgeria"
+  ],
+  "tagline": "Diu a l’App Store que no recull cap dada, però enumera les que lliura a la policia",
+  "summary": "Zangi permet registrar-se sense número de telèfon i manté la còpia de l’agenda dins del dispositiu, cosa que el distingeix de la majoria de missatgers. L’etiqueta de l’App Store, però, declara «no es recullen dades», mentre que la mateixa política admet que els servidors desen l’identificador del dispositiu, el testimoni de notificacions, el model i el sistema operatiu, i detalla la llista exacta de dades que es lliuren a les autoritats: data d’alta i de baixa, nom i biografia del perfil, estat i transaccions de la subscripció i identificadors del terminal.",
+  "platforms": [
+    "ios",
+    "android",
+    "windows",
+    "macos",
+    "linux"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Estats Units (Delaware), amb jurisdicció exclusiva dels tribunals d’Armènia",
+  "userBase": "Sense xifres públiques verificables.",
+  "links": {
+    "website": "https://zangi.com/",
+    "privacyPolicy": "https://zangi.com/privacy-policy",
+    "appStore": "https://apps.apple.com/es/app/id549493839"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "zangi-privacy-policy",
+      "zangi-app-store"
+    ],
+    "detail": "Cal un compte, però es crea amb un número virtual de Zangi, sense SIM ni telèfon real.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": [],
+    "detail": "No consta cap repositori públic del client ni del protocol Zangi SCP."
+  },
+  "dataSummary": "L’empresa diu que no desa el contingut de les converses, però al servidor hi queden les dades del compte: quan es va crear, amb quin aparell, quin nom hi vas posar i quan el vas esborrar. N’hi ha prou per situar una persona en el temps i en un dispositiu, i la política diu explícitament que es lliuren davant d’una ordre judicial.",
+  "dataCollection": [
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "zangi-privacy-policy"
+      ],
+      "note": "Número virtual de Zangi, assignat en el registre."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "zangi-privacy-policy"
+      ],
+      "note": "Identificador del terminal i testimoni de notificacions, desats als servidors."
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "zangi-privacy-policy"
+      ],
+      "note": "Tipus i model del terminal, sistema operatiu, versió de l’aplicació i codi de país."
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "zangi-privacy-policy"
+      ],
+      "note": "El perfil es pot deixar en blanc; si s’omple, el veuen les persones que tenen el teu número de Zangi."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "zangi-privacy-policy"
+      ],
+      "note": "Fotografia i biografia del perfil."
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "zangi-privacy-policy"
+      ],
+      "note": "La còpia de l’agenda es fa al mateix dispositiu per poder enviar invitacions i, segons la política, no s’envia als servidors ni a tercers."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "zangi-app-store",
+        "zangi-privacy-policy"
+      ],
+      "note": "L’empresa diu que les converses es xifren d’extrem a extrem i no es desen als servidors. No hi ha auditoria que ho comprovi."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "zangi-privacy-policy"
+      ],
+      "note": "Només per als comptes antics registrats amb telèfon o correu; els comptes amb número virtual no en tenen."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "zangi-privacy-policy"
+      ],
+      "note": "Igual que el telèfon: només per als comptes antics."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "zangi-privacy-policy"
+      ],
+      "note": "Estat de la subscripció Premium, identificador de la transacció i data de renovació."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "unknown",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "note": "La política no diu si es registra l’adreça IP de les connexions."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "zangi-app-store"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "zangi-app-store",
+        "zangi-about"
+      ],
+      "detail": "L’etiqueta no declara cap identificador publicitari i el web diu «No Ads».",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El web corporatiu demana consentiment per a galetes d’anàlisi i de màrqueting, però no hi ha cap inventari dels SDK de l’aplicació."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "zangi-about",
+        "zangi-app-store"
+      ],
+      "detail": "L’aplicació no mostra publicitat; el model és la subscripció Premium.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "zangi-privacy-policy"
+      ],
+      "detail": "La política no descriu cap proveïdor extern, però sí una cessió detallada a autoritats policials i judicials amb una ordre o citació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu on són els servidors ni quin mecanisme empara les transferències des de la Unió Europea."
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap informe periòdic de peticions d’autoritats, tot i que la política n’explica el procediment."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "zangi-privacy-policy"
+      ],
+      "detail": "El document no fixa cap termini de conservació per a cap categoria de dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "zangi-privacy-policy"
+      ],
+      "detail": "La data d’eliminació del compte queda registrada i figura entre les dades que es poden lliurar a les autoritats.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "zangi-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "zangi-privacy-policy"
+      ],
+      "detail": "Hi ha una opció dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "easy",
+    "requiresSupportContact": false,
+    "steps": [
+      "Obre Zangi i ves a Configuració → Privadesa.",
+      "Tria «Delete account» i confirma-ho.",
+      "Si havies donat permís d’agenda, retira’l també a la configuració del sistema perquè no es torni a sincronitzar."
+    ],
+    "dataRetained": "La data d’alta i la de baixa del compte queden al sistema i es poden lliurar a les autoritats.",
+    "sources": [
+      "zangi-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap eina ni procediment d’exportació descrit."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "zangi-privacy-policy"
+      ],
+      "detail": "La política només reconeix un dret d’accés emparat en la llei britànica de protecció de dades del 1998, derogada, i diu que hi haurà una petita taxa. No hi ha delegat de protecció de dades ni formulari del RGPD.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no mostra publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "zangi-privacy-policy"
+      ],
+      "detail": "Es pot decidir si s’omple el perfil i si es dona accés a l’agenda, i tots dos es poden revertir.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "protective",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "zangi-app-store"
+      ],
+      "detail": "L’empresa diu que aplica xifratge d’extrem a extrem AES-GCM de 256 bits. El client és privatiu i no hi ha cap auditoria pública que ho confirmi.",
+      "verifiedAt": "2026-09-22",
+      "scope": "all-default"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’empresa descriu un protocol de transport propi, Zangi SCP, sense especificacions públiques."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap auditoria externa del xifratge ni del protocol."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El domini no publica cap fitxer security.txt ni cap política de divulgació de vulnerabilitats."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "signal",
+      "comparability": "equivalent",
+      "rationale": "Signal ofereix el mateix xifratge d’extrem a extrem amb protocol i clients de codi obert auditats, i publica les poques dades que pot lliurar davant d’una citació judicial.",
+      "tradeOffs": "Signal demana un número de telèfon per registrar-se; Zangi no."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "L’etiqueta de l’App Store diu «no es recullen dades», però la política del mateix servei enumera identificadors desats als servidors i una llista concreta de dades cedibles a les autoritats. Les promeses de xifratge no es poden verificar perquè el client és privatiu i no hi ha auditoria.",
+    "openQuestions": [
+      "On són allotjats els servidors de Zangi i sota quin mecanisme es transfereixen les dades des de la Unió Europea?",
+      "Hi ha hagut alguna auditoria externa del protocol Zangi SCP o del xifratge de les converses?",
+      "Queda algun registre de connexió (adreça IP, metadades de trucada) i durant quant de temps?"
+    ]
+  },
+  "appStoreBundleId": "com.interactive.zangi"
+}

@@ -1,0 +1,514 @@
+{
+  "slug": "substack",
+  "name": "Substack",
+  "company": "substack-inc",
+  "categories": [
+    "noticies-i-mitjans",
+    "comunitats-i-forums"
+  ],
+  "tagline": "Sense publicitat ni rastreig declarat; el nom i el correu passen a cada autor a qui et subscrius",
+  "summary": "Substack es finança amb una comissió sobre les subscripcions, sense publicitat, i l’etiqueta de l’App Store no declara cap dada de rastreig. Quan et subscrius a un butlletí, el nom i l’adreça electrònica passen a l’autor, que els tracta pel seu compte i sovint els exporta a la seva pròpia llista de correu. La política reconeix també que els sistemes no atenen el senyal Do Not Track.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Estats Units",
+  "links": {
+    "website": "https://substack.com/",
+    "privacyPolicy": "https://substack.com/privacy",
+    "appStore": "https://apps.apple.com/es/app/id1581650857"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "substack-privacy-policy"
+    ],
+    "detail": "Es poden llegir publicacions obertes sense compte; per subscriure-s’hi, comentar o publicar, cal registre.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "substack-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "La llista de butlletins a què et subscrius revela bona part de les teves idees polítiques, religioses i professionals, i cada autor rep el teu nom i el teu correu.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "substack-app-store",
+        "substack-privacy-policy"
+      ],
+      "note": "Es comparteix amb l’autor de cada publicació a què et subscrius."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "substack-app-store",
+        "substack-privacy-policy"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "substack-privacy-policy"
+      ]
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "compliment-legal"
+      ],
+      "sources": [
+        "substack-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "substack-privacy-policy"
+      ],
+      "note": "Els cobraments els gestionen processadors externs."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "substack-app-store"
+      ]
+    },
+    {
+      "type": "contrasenya",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "substack-privacy-policy"
+      ]
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "substack-app-store",
+        "substack-privacy-policy"
+      ]
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "substack-privacy-policy"
+      ],
+      "note": "La política inclou expressament el contingut dels missatges directes entre les dades recollides."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "substack-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "substack-app-store"
+      ],
+      "note": "Els autors veuen mètriques d’obertura i de clics dels seus butlletins."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "substack-privacy-policy"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "substack-privacy-policy"
+      ],
+      "note": "La política admet galetes de tercers com Google i Facebook al web."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "substack-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "substack-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada utilitzada per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "substack-app-store"
+      ],
+      "detail": "L’etiqueta no declara identificadors publicitaris.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "substack-privacy-policy"
+      ],
+      "detail": "Galetes de tercers com Google i Facebook al web; la política reconeix que no s’atén el senyal Do Not Track.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "substack-privacy-policy",
+        "substack-app-store"
+      ],
+      "detail": "El model és la comissió sobre les subscripcions; la política no descriu publicitat segmentada pròpia.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política parla de personalitzar recomanacions, però no detalla si elabora perfils."
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu si el contingut publicat s’utilitza per entrenar models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "substack-privacy-policy"
+      ],
+      "detail": "Autors de les publicacions subscrites, processadors de pagament, allotjament, analítica i consorcis de seguretat infantil.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "substack-privacy-policy"
+      ],
+      "detail": "La política esmenta filials, tot i que el grup és petit.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "substack-privacy-policy"
+      ],
+      "detail": "La política no preveu la venda de dades a intermediaris.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "substack-privacy-policy"
+      ],
+      "detail": "Tractament als Estats Units a l’empara del marc de privadesa UE-EUA; representant a la UE de Bird & Bird als Països Baixos.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "adequacy"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència periòdic."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "substack-privacy-policy"
+      ],
+      "detail": "Només el criteri general del «temps raonablement necessari», ampliable si hi ha litigi previsible.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no concreta què queda després d’eliminar el compte."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "substack-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "substack-privacy-policy"
+      ],
+      "detail": "La política diu que la supressió es pot fer des de la pàgina de compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "steps": [
+      "Al web substack.com, entra a la configuració del compte (Settings).",
+      "Cancel·la abans les subscripcions de pagament actives perquè no es renovin.",
+      "A la mateixa pàgina de compte, demana l’eliminació del compte.",
+      "Si tens publicacions pròpies, recorda que els autors conserven les llistes de subscriptors que hagin exportat."
+    ],
+    "obstacles": "Les dades que cada autor hagi exportat de la seva llista de subscriptors queden fora del control de Substack.",
+    "sources": [
+      "substack-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "substack-privacy-policy"
+      ],
+      "detail": "Es poden consultar i editar les dades del perfil, però la política no descriu cap eina d’exportació completa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "substack-privacy-policy"
+      ],
+      "detail": "Resposta en un mes, ampliable a dos; representant a la UE de Bird & Bird.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacy@substack.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no mostra publicitat segmentada pròpia.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap manera de desactivar l’analítica dins de l’aplicació."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "substack-privacy-policy"
+      ],
+      "detail": "Es poden gestionar les subscripcions, les notificacions i la visibilitat del perfil.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És una plataforma de publicació oberta; els missatges directes no es xifren d’extrem a extrem.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació pública sobre la verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses públic."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El domini no publica cap fitxer security.txt."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "reddit",
+      "comparability": "partial",
+      "rationale": "També serveix per seguir comunitats d’interès, però amb publicitat segmentada i sense butlletins de pagament."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "L’etiqueta no declara rastreig, però cada autor esdevé responsable de les dades dels seus subscriptors pel seu compte. No hem pogut consultar el centre d’ajuda, que bloqueja les peticions automatitzades.",
+    "openQuestions": [
+      "Substack ofereix verificació en dos passos i, si és així, amb quins mètodes?",
+      "Quant temps es conserven les dades després de la supressió del compte?",
+      "Hi ha sancions o filtracions documentades? No hem pogut fer la cerca d’incidents."
+    ]
+  },
+  "appStoreBundleId": "com.substack.Substack"
+}

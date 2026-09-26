@@ -1,0 +1,468 @@
+{
+  "slug": "blablacar",
+  "name": "BlaBlaCar",
+  "company": "comuto",
+  "categories": [
+    "mobilitat-i-transport",
+    "viatges-i-allotjament"
+  ],
+  "tagline": "Les dues botigues declaren coses oposades i la política de privadesa bloqueja la lectura automatitzada",
+  "summary": "Les dues botigues d’aplicacions descriuen BlaBlaCar de manera contradictòria. L’etiqueta de l’App Store declara publicitat de tercers, ubicació i fins i tot dades sensibles i de salut, mentre que la fitxa de Google Play afirma que no es comparteix cap dada amb tercers. La política de privadesa, on s’hauria d’aclarir la contradicció, té una protecció antirobots que impedeix llegir-la sense navegador.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "França",
+  "userBase": "Desenes de milions de persones usuàries a Europa i a l’Amèrica Llatina",
+  "links": {
+    "website": "https://www.blablacar.es/",
+    "privacyPolicy": "https://www.blablacar.com/about-us/privacy-policy",
+    "appStore": "https://apps.apple.com/es/app/id341329033"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "blablacar-app-store"
+    ],
+    "detail": "L’etiqueta declara la recollida de correu electrònic i d’identificador d’usuari per al funcionament de l’aplicació: no es pot reservar una plaça sense compte.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "editorial",
+    "sources": [],
+    "detail": "Aplicació privativa: no consta cap publicació del codi font del servei.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Un trajecte compartit revela l’origen, la destinació, l’hora i amb qui viatges. Afegit al perfil públic amb foto i a les valoracions, el servei conserva una xarxa de relacions i un historial de desplaçaments que poques aplicacions de transport tenen.",
+  "dataCollection": [
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "blablacar-app-store"
+      ],
+      "note": "L’etiqueta la situa també sota la finalitat de publicitat o màrqueting de l’editora."
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "blablacar-app-store"
+      ],
+      "note": "El nom i la foto són visibles per a la resta de persones del trajecte."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "blablacar-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "blablacar-app-store"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "blablacar-app-store"
+      ],
+      "note": "És una de les dues categories declarades sota «Datos utilizados para rastrearte»."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "blablacar-app-store"
+      ],
+      "note": "Declarada només sota la finalitat de funcionament de l’aplicació."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "blablacar-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "blablacar-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "blablacar-app-store"
+      ]
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "blablacar-app-store"
+      ],
+      "note": "Les valoracions i els missatges entre persones usuàries són contingut d’usuari declarat."
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "blablacar-app-store"
+      ],
+      "note": "L’etiqueta declara dades de salut i de forma física sota la finalitat de funcionament de l’aplicació, sense explicar-ne el motiu."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "blablacar-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "blablacar-app-store"
+      ],
+      "detail": "L’etiqueta declara ubicació i identificadors sota «Datos utilizados para rastrearte».",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "blablacar-app-store"
+      ],
+      "detail": "Identificador d’usuari i de dispositiu, declarats també per a publicitat de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "blablacar-app-store"
+      ],
+      "detail": "Hi ha una finalitat «Publicidad de terceros» amb ubicació, identificadors i dades d’ús. Google Play, en canvi, diu que no es comparteix res amb tercers.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "blablacar-app-store"
+      ],
+      "detail": "L’etiqueta declara les finalitats de publicitat de tercers i de publicitat o màrqueting de l’editora.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "blablacar-app-store"
+      ],
+      "detail": "Hi ha una finalitat de «Personalización del producto» amb identificadors i dades d’ús, però sense cap descripció del perfilat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut llegir la política de privadesa, que és on constaria."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "blablacar-app-store"
+      ],
+      "detail": "La finalitat de publicitat de tercers implica compartició. La fitxa de Google Play ho contradiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut llegir la política, que és on constarien les societats del grup Comuto."
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha informació pública llegible sobre la venda de dades."
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut llegir la política, que és on constaria el mecanisme de transferència."
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència publicat."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Els terminis constarien a la política, que no s’ha pogut consultar."
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut verificar què es conserva després de la baixa."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "blablacar-play-data-safety"
+      ],
+      "detail": "Google Play declara que es pot demanar l’eliminació de les dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut verificar si hi ha un botó d’eliminació dins de l’aplicació."
+    },
+    "difficulty": "unknown",
+    "obstacles": "La documentació de privadesa del servei no és llegible sense navegador: tant la política com el centre d’ajuda es carreguen per JavaScript i el domini rebutja les peticions automatitzades.",
+    "sources": [
+      "blablacar-play-data-safety"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut verificar si hi ha una eina de descàrrega de dades."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut localitzar el canal d’exercici de drets ni el contacte del delegat de protecció de dades."
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut verificar quins controls de publicitat ofereix l’aplicació."
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap control documentat sobre l’analítica."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut revisar el panell de privadesa del compte."
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem documentat cap patró fosc concret."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "La missatgeria entre persones usuàries passa pel servidor i el servei l’ha de poder moderar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "blablacar-play-data-safety"
+      ],
+      "detail": "Google Play declara que les dades es xifren en trànsit.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública sobre el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació sobre la verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories independents publicades."
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "blablacar-security-txt"
+      ],
+      "detail": "El security.txt remet a un programa públic de recompenses allotjat a YesWeHack.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://yeswehack.com/programs/bug-bounty-program-blablacar"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "blablacar-security-txt"
+      ],
+      "detail": "Fitxer security.txt amb contacte i reconeixement públic dels informes.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "renfe",
+      "comparability": "partial",
+      "rationale": "Per a la mateixa distància, el tren públic declara menys seguiment i no aplica publicitat de tercers a l’aplicació.",
+      "tradeOffs": "És més car i no arriba a les destinacions sense estació."
+    }
+  ],
+  "review": {
+    "researchStatus": "initial",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La mateixa empresa declara a Apple una finalitat de publicitat de tercers i a Google que no comparteix dades amb ningú. Almenys una de les dues declaracions és incorrecta.",
+    "openQuestions": [
+      "El domini www.blablacar.com rebutja les peticions automatitzades i el centre d’ajuda es carrega per JavaScript: cal revisar la política de privadesa i els passos de baixa amb un navegador real.",
+      "Per què l’etiqueta de l’App Store declara dades de salut i de forma física?"
+    ]
+  },
+  "appStoreBundleId": "com.comuto.comuto"
+}

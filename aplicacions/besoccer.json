@@ -1,0 +1,487 @@
+{
+  "slug": "besoccer",
+  "name": "BeSoccer",
+  "company": "besoccer",
+  "categories": [
+    "esports-i-resultats"
+  ],
+  "tagline": "Resultats en directe amb desactivació i eliminació del compte separades, i una política que publica la llista de socis publicitaris",
+  "summary": "BeSoccer, abans Resultados de Fútbol, és una aplicació malaguenya de resultats en directe. La política identifica els socis que fan el seguiment (Google Analytics i Ad Manager, Facebook, Criteo, Smartadserver, AppNexus i comScore) i situa els servidors a OVH dins de la Unió Europea. A l’App Store declara ubicació aproximada, identificador de dispositiu, dades d’ús i de publicitat i dades de diagnòstic com a utilitzats per rastrejar. El perfil ofereix dues opcions: desactivar el compte, que es pot recuperar durant un any, o eliminar-lo definitivament.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "advertising",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://www.besoccer.com/",
+    "privacyPolicy": "https://www.besoccer.com/legal/privacidad",
+    "appStore": "https://apps.apple.com/es/app/id550928207"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "besoccer-privacy-policy"
+    ],
+    "detail": "Els resultats i les classificacions es consulten sense compte; el registre amb usuari, correu i contrasenya serveix per als continguts personalitzats.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "editorial",
+    "sources": [],
+    "detail": "Servei comercial tancat.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Una aplicació de resultats sap quins equips segueixes, a quina hora consultes els partits i des d’on. Per separat són poques dades, però juntes donen a la subhasta publicitària un perfil d’interès estable, amb una ubicació aproximada i lligat a l’identificador del dispositiu.",
+  "dataCollection": [
+    {
+      "type": "identificador-de-compte",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "besoccer-privacy-policy"
+      ],
+      "note": "Nom d’usuari escollit al registre."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "besoccer-privacy-policy"
+      ]
+    },
+    {
+      "type": "contrasenya",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "besoccer-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "besoccer-app-store",
+        "besoccer-privacy-policy"
+      ],
+      "note": "L’etiqueta la declara utilitzada per rastrejar i la política reconeix galetes de geolocalització."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "besoccer-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "besoccer-app-store",
+        "besoccer-privacy-policy"
+      ],
+      "note": "Inclou les dades de publicitat; la política parla de galetes de comportament i de publicitat adaptada a l’ús del lloc."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "besoccer-app-store"
+      ],
+      "note": "Les dades d’errors i de rendiment consten entre les utilitzades per rastrejar."
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "besoccer-privacy-policy"
+      ],
+      "note": "Google Analytics i Ad Manager, Facebook, Criteo, Smartadserver, AppNexus, StatCounter, comScore i Pingdom."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "besoccer-privacy-policy"
+      ],
+      "note": "Les galetes de publicitat permeten mostrar anuncis «relacionats amb el teu perfil de navegació»."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "besoccer-privacy-policy"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "besoccer-app-store"
+      ],
+      "detail": "L’etiqueta declara ubicació aproximada, identificador de dispositiu, interacció amb el producte, dades de publicitat i diagnòstics «utilitzats per rastrejar-te».",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "besoccer-app-store"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "besoccer-privacy-policy"
+      ],
+      "detail": "La política publica la llista: Google (Analytics, DFP/ADX, Ads), Facebook, Criteo, Smartadserver, AppNexus, StatCounter, comScore i Pingdom.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "besoccer-privacy-policy",
+        "besoccer-app-store"
+      ],
+      "detail": "Galetes de publicitat i de comportament per mostrar anuncis segons el perfil de navegació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "besoccer-privacy-policy"
+      ],
+      "detail": "Es parla de perfil de navegació per a la publicitat, però no es descriu cap perfilat de compte ni decisions automatitzades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta l’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "besoccer-privacy-policy"
+      ],
+      "detail": "Proveïdors de publicitat i d’analítica identificats a la política, i OVH Hispano com a proveïdor d’allotjament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "besoccer-privacy-policy"
+      ],
+      "detail": "La política invoca l’«interès legítim del grup empresarial» per tractar dades de jugadors i de personal tècnic obtingudes de fonts públiques.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta la venda de dades."
+    },
+    "internationalTransfers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "besoccer-privacy-policy"
+      ],
+      "detail": "La política diu que les dades s’emmagatzemen a servidors d’OVH Hispano dins de la Unió Europea, però no explica les transferències que impliquen els socis publicitaris nord-americans que ella mateixa enumera.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "besoccer-privacy-policy"
+      ],
+      "detail": "Per als comptes, «fins que revoquis el consentiment»; hi ha terminis concrets només per a les candidatures de feina (dos anys).",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "besoccer-privacy-policy"
+      ],
+      "detail": "La desactivació manté les dades recuperables durant un any; l’eliminació es descriu com a definitiva i irrecuperable.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "period": "1 any de recuperació després de desactivar el compte",
+        "sources": [
+          "besoccer-privacy-policy"
+        ]
+      },
+      {
+        "period": "2 anys per a les candidatures de feina no seleccionades",
+        "sources": [
+          "besoccer-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "besoccer-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "besoccer-privacy-policy"
+      ],
+      "detail": "Des de la configuració del perfil, amb dues opcions diferenciades: desactivar o eliminar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "easy",
+    "steps": [
+      "Obre l’aplicació o el web i entra a la configuració del teu perfil.",
+      "Tria «Desactivar compte» si només vols aturar-lo: es podrà recuperar durant un any.",
+      "Tria «Eliminar compte» per a una supressió definitiva i irrecuperable.",
+      "Per a qualsevol dubte o per exercir la resta de drets, escriu a protecciondedatos@besoccer.com."
+    ],
+    "dataRetained": "Després de l’eliminació, la política no declara cap conservació més enllà de les obligacions legals.",
+    "sources": [
+      "besoccer-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "besoccer-privacy-policy"
+      ],
+      "detail": "La portabilitat es reconeix entre els drets, però no hi ha cap eina d’exportació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "besoccer-privacy-policy"
+      ],
+      "detail": "Adreça específica de protecció de dades i referència expressa a la reclamació davant de l’AEPD.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:protecciondedatos@besoccer.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "besoccer-privacy-policy"
+      ],
+      "detail": "Hi ha un tauler de galetes al web; per a l’aplicació, la política no descriu cap control més enllà del permís de rastreig del sistema operatiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap manera de desactivar l’analítica dins de l’aplicació."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "besoccer-privacy-policy"
+      ],
+      "detail": "La distinció entre desactivar i eliminar el compte és un control ben pensat; en canvi, no hi ha un panell de privadesa per finalitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [
+        "besoccer-privacy-policy",
+        "besoccer-app-store"
+      ],
+      "detail": "La política publica els socis de seguiment, cosa poc habitual, però descriu el tractament com si només hi hagués el web i no explica que l’aplicació declara a Apple cinc categories de dades utilitzades per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no transporta comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "editorial",
+      "sources": [],
+      "detail": "El web i l’API es publiquen sobre HTTPS; comprovat el setembre del 2026.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha informació pública sobre el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap segon factor per al compte."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap política pública de divulgació de vulnerabilitats."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "flashscore",
+      "comparability": "equivalent",
+      "rationale": "Ofereix el mateix servei de resultats en directe i notificacions sense necessitat de compte.",
+      "tradeOffs": "Cal comprovar-ne l’etiqueta de privadesa, perquè el model publicitari del sector és el mateix."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "BeSoccer publica els noms dels socis de seguiment. En canvi, la política descriu només el web, mentre que l’aplicació declara a Apple cinc categories de dades utilitzades per rastrejar, entre elles els diagnòstics.",
+    "openQuestions": [
+      "Com es concilia l’afirmació que les dades es guarden a servidors europeus amb els socis publicitaris nord-americans que la mateixa política enumera?",
+      "Per què les dades de diagnòstic figuren entre les utilitzades per rastrejar?"
+    ]
+  },
+  "appStoreBundleId": "com.resultadosfutbol.resultadosfutboliphone"
+}

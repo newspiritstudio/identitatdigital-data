@@ -1,0 +1,552 @@
+{
+  "slug": "vivagym",
+  "name": "VivaGym MyApp",
+  "company": "el-gym-iberia",
+  "categories": [
+    "benestar-i-activitat-fisica"
+  ],
+  "tagline": "Dades antropomètriques i registres d’entrada al gimnàs, amb el consentiment com a única base legal i una aplicació feta per una tercera empresa",
+  "summary": "L’aplicació dels gimnasos VivaGym la desenvolupa Intelligent System Vitale, la plataforma MyVitale, però la responsable del tractament és la societat del grup titular del club. La política declara dades antropomètriques per a dietes i entrenaments, dades bancàries i registres d’entrada i sortida pels torns d’accés, i fa descansar gairebé tot el tractament en el consentiment de la inscripció. L’etiqueta de l’App Store no declara cap dada per rastrejar.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "subscription",
+  "jurisdiction": "Espanya; autoritat de control: Agencia Española de Protección de Datos",
+  "userBase": "Clubs de les marques VivaGym i Altafit a Espanya i Portugal",
+  "links": {
+    "website": "https://www.vivagym.com/",
+    "privacyPolicy": "https://www.vivagym.com/es-es/privacidad-y-proteccion-de-datos/",
+    "appStore": "https://apps.apple.com/es/app/id6448747670"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "vivagym-politica-privacidad"
+    ],
+    "detail": "L’aplicació és per a persones abonades: l’alta es fa en inscriure’s al club.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": [],
+    "detail": "No hem trobat cap repositori públic del codi."
+  },
+  "dataSummary": "El gimnàs registra cada entrada i sortida del club. Si a més hi afegeixes pes, mesures i entrenaments per rebre dietes i plans personalitzats, el registre inclou dades de salut i de rutines, al costat de les dades bancàries de la quota.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "vivagym-politica-privacidad",
+        "vivagym-app-store"
+      ]
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "vivagym-politica-privacidad"
+      ],
+      "note": "DNI a la inscripció."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "vivagym-politica-privacidad",
+        "vivagym-app-store"
+      ],
+      "note": "També per a la segmentació d’audiències en plataformes de màrqueting, segons la política."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "vivagym-politica-privacidad"
+      ],
+      "note": "Amb consentiment, nom i telèfon es faciliten als entrenadors personals col·laboradors."
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "vivagym-politica-privacidad"
+      ]
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "vivagym-politica-privacidad"
+      ]
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "vivagym-politica-privacidad"
+      ],
+      "note": "Fotografia del perfil i videovigilància a l’entrada i als torns, amb 30 dies de conservació."
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "vivagym-politica-privacidad",
+        "vivagym-app-store"
+      ],
+      "note": "Dades antropomètriques per a dietes i entrenaments personalitzats; l’etiqueta de l’App Store declara «salud y forma física» vinculada amb la identitat."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "vivagym-politica-privacidad"
+      ],
+      "note": "Compte bancari o targeta per a la quota."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "vivagym-app-store"
+      ],
+      "note": "Inclou els registres d’entrada i sortida dels torns d’accés al club."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "vivagym-politica-privacidad"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "vivagym-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "vivagym-app-store"
+      ]
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "unknown",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "unknown",
+      "note": "La política no esmenta empremta ni reconeixement facial per accedir al club; parla de torns amb videovigilància. No hem pogut comprovar-ho al club."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "vivagym-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada utilitzada per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "vivagym-app-store"
+      ],
+      "detail": "L’etiqueta no declara dades de publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "vivagym-politica-privacidad"
+      ],
+      "detail": "La política esmenta plataformes de màrqueting per a la segmentació d’audiències, sense anomenar-les.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "vivagym-politica-privacidad"
+      ],
+      "detail": "Comunicacions comercials amb consentiment revocable i segmentació d’audiències en plataformes de màrqueting, que la política diu que es fa sense perfilat individual.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "vivagym-politica-privacidad"
+      ],
+      "detail": "La política nega el perfilat individual per a màrqueting, però sí que hi ha personalització de dietes i entrenaments a partir de les dades antropomètriques.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu res sobre l’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "vivagym-politica-privacidad"
+      ],
+      "detail": "Entrenadors personals col·laboradors (nom i telèfon, amb consentiment), proveïdor de còpies de seguretat a la Unió Europea, plataforma de recursos humans i plataformes de màrqueting.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "vivagym-politica-privacidad"
+      ],
+      "detail": "La política identifica vuit societats del grup i diu que la responsable és la titular del club on t’inscrius.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "vivagym-politica-privacidad"
+      ],
+      "detail": "La política diu que no se cedeixen dades fora dels casos que hi enumera.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "vivagym-politica-privacidad"
+      ],
+      "detail": "No se’n declara cap; el proveïdor de còpies de seguretat és a la Unió Europea.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "none"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "vivagym-politica-privacidad"
+      ],
+      "detail": "Mentre hi hagi interès mutu i després bloqueig i destrucció, amb quatre anys per obligacions fiscals i sis per les comptables; la videovigilància, 30 dies.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "vivagym-politica-privacidad"
+      ],
+      "detail": "Les dades passen a bloqueig i es conserven pels terminis fiscals i comptables.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "fotografies-i-videos",
+        "period": "30 dies (videovigilància)",
+        "sources": [
+          "vivagym-politica-privacidad"
+        ]
+      },
+      {
+        "dataType": "dades-de-pagament",
+        "period": "Fins a sis anys per obligacions comptables",
+        "sources": [
+          "vivagym-politica-privacidad"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "vivagym-politica-privacidad",
+        "vivagym-baja"
+      ],
+      "detail": "Es pot donar de baixa la quota en línia, però no hem trobat cap procediment documentat per eliminar el compte i les dades de l’aplicació: cal exercir el dret de supressió.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "vivagym-baja"
+      ],
+      "detail": "La baixa de la quota es tramita des de l’àrea de clients del web, sense trucar ni anar al club.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://www.vivagym.com/es-es/contrato-y-desistimiento/",
+    "difficulty": "medium",
+    "steps": [
+      "Entra a l’àrea de clients del web de VivaGym amb les teves credencials.",
+      "Tramita la sol·licitud de baixa abans del dia 15 o del dia 20 del mes, segons el club, perquè tingui efecte el mes en curs.",
+      "Espera el correu de confirmació: la baixa no és ferma fins que arriba.",
+      "Per esborrar també les dades, escriu al canal de protecció de dades del grup invocant el dret de supressió."
+    ],
+    "obstacles": "La baixa de la quota i l’esborrat de les dades són dos tràmits diferents, i només el primer està documentat. El dia límit del mes varia segons el club.",
+    "dataRetained": "Dades de facturació durant quatre anys pels terminis fiscals i sis pels comptables.",
+    "sources": [
+      "vivagym-baja",
+      "vivagym-politica-privacidad"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap eina d’autoservei de descàrrega documentada; la portabilitat s’ha de demanar al canal de protecció de dades."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "vivagym-politica-privacidad"
+      ],
+      "detail": "La política reconeix tots els drets i indica una bústia de protecció de dades i una adreça postal a Màlaga, però no nomena cap delegat ni ofereix formulari.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "vivagym-politica-privacidad"
+      ],
+      "detail": "El consentiment publicitari es dona a l’alta amb una casella i es pot revocar en qualsevol moment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap control d’analítica ni de diagnòstics dins de l’aplicació."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació sobre un panell de privadesa dins de l’aplicació."
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [
+        "vivagym-baja"
+      ],
+      "detail": "La baixa és autoservei, però està condicionada a un dia límit del mes que varia segons el club i no és ferma fins a rebre un correu de confirmació. Amb aquestes condicions és fàcil pagar un mes de més.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "other",
+        "severity": "medium",
+        "description": "La cancel·lació només té efecte si es tramita abans del dia 15 o del 20 del mes segons el club, i cal esperar una confirmació per correu perquè sigui vàlida.",
+        "sources": [
+          "vivagym-baja"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no transporta comunicacions privades xifrables d’extrem a extrem.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació tècnica publicada."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació sobre verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories ni certificacions publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "vivagym-politica-privacidad"
+      ],
+      "detail": "No hi ha fitxer security.txt al domini i l’únic procediment publicat és el de resposta interna davant violacions de seguretat, amb notificació a l’Agència en 72 hores.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "basic-fit",
+      "comparability": "equivalent",
+      "rationale": "Cadena de gimnasos del mateix segment amb aplicació pròpia, útil per comparar declaracions."
+    },
+    {
+      "app": "strava",
+      "comparability": "complementary",
+      "rationale": "Si el que vols és registrar l’activitat física sense lligar-la al club, una aplicació d’entrenament independent no necessita les teves dades bancàries ni els teus registres d’accés.",
+      "tradeOffs": "No substitueix la gestió de l’abonament ni la reserva de classes."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Cal distingir tres entitats: qui desenvolupa l’aplicació (Intelligent System Vitale, la plataforma MyVitale), qui n’és responsable del tractament (la societat del grup titular del club) i quina política enllaça l’App Store (una pàgina de selecció d’idioma). La política fa descansar el tractament en el consentiment, i no en l’execució del contracte, cosa poc habitual en un servei d’abonament. El grup va comprar Synergym el 2026, que arrossega una filtració documentada anterior a l’adquisició; no és atribuïble a aquesta aplicació, però queda registrada com a incident del grup. La sanció de l’AEPD a un gimnàs per exigir l’empremta dactilar és d’una altra cadena i no s’ha d’atribuir a VivaGym.",
+    "openQuestions": [
+      "Hi ha procediment d’eliminació del compte i de les dades dins de l’aplicació?",
+      "El contracte d’encarregat del tractament entre VivaGym i MyVitale no és públic.",
+      "Els torns d’accés dels clubs fan servir alguna dada biomètrica?"
+    ]
+  },
+  "appStoreBundleId": "com.myvitale.vggroup"
+}

@@ -1,0 +1,387 @@
+{
+  "slug": "vilaweb",
+  "name": "VilaWeb",
+  "company": "partal-maresma-i-associats",
+  "categories": [
+    "noticies-i-mitjans"
+  ],
+  "tagline": "App de notícies que no declara rastreig, amb una política que encara cita el Privacy Shield",
+  "summary": "L’etiqueta de l’App Store només declara historial de navegació i dades d’ús, no vinculats a la identitat i sense rastreig. La política de privadesa se centra en la subscripció, la botiga i els butlletins, i encara cita el Privacy Shield, anul·lat pel Tribunal de Justícia de la UE el 2020. El web sí que té galetes de publicitat, analítica i geolocalització, i un bàner que ofereix tots els proveïdors del marc de l’IAB. Els drets s’exerceixen per correu.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "subscription",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://www.vilaweb.cat/",
+    "privacyPolicy": "https://www.vilaweb.cat/pagines/politica-de-privacitat/",
+    "appStore": "https://apps.apple.com/es/app/id406620374"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "vilaweb-app-store"
+    ],
+    "detail": "L’etiqueta no declara dades de contacte ni identificadors vinculats a la persona.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "vilaweb-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Segons l’etiqueta, l’app recull les notícies que s’obren sense vincular-les a la identitat. Al web, les galetes de tercers fan seguiment si s’accepten.",
+  "dataCollection": [
+    {
+      "type": "historial-de-navegacio",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "vilaweb-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "vilaweb-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "vilaweb-privacy-policy"
+      ],
+      "note": "Subscripció, botiga i butlletins."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "vilaweb-privacy-policy"
+      ],
+      "note": "Domiciliació bancària de la subscripció."
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "vilaweb-cookies-policy",
+        "vilaweb-didomi-config"
+      ],
+      "note": "Al web: Google Analytics, Chartbeat, Outbrain, Comscore, Facebook i els proveïdors del TCF, si s’accepten."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "unknown",
+      "linked": "no",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "vilaweb-cookies-policy"
+      ],
+      "note": "La política de galetes del web preveu galetes de geolocalització."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "vilaweb-app-store"
+      ],
+      "detail": "L’etiqueta no declara dades per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "vilaweb-cookies-policy",
+        "vilaweb-didomi-config"
+      ],
+      "detail": "Al web: Google Analytics, Chartbeat, Outbrain, Pushwoosh, Comscore, Facebook i els proveïdors del TCF de l’IAB.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "vilaweb-cookies-policy"
+      ],
+      "detail": "Galetes de publicitat segons els interessos al web; l’app no ho declara.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "vilaweb-didomi-config"
+      ],
+      "detail": "Les finalitats de perfil publicitari del bàner s’apliquen al web.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no en diu res."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "vilaweb-privacy-policy",
+        "vilaweb-cookies-policy"
+      ],
+      "detail": "No cedeix les dades de registre fora d’obligacions legals, bancs i proveïdors; les galetes de tercers del web sí que en comparteixen.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No forma part d’un grup empresarial.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "internationalTransfers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "vilaweb-privacy-policy"
+      ],
+      "detail": "No en preveu, però admet que alguns proveïdors poden ser fora de l’EEE i encara esmenta el Privacy Shield.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "vilaweb-privacy-policy"
+      ],
+      "detail": "Mentre duri la relació i els terminis legals; per als butlletins, fins que es retiri el consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "vilaweb-privacy-policy"
+      ],
+      "detail": "Dret de supressió.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "vilaweb-privacy-policy"
+      ],
+      "detail": "Per escrit a l’adreça postal o per correu electrònic.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "requiresSupportContact": true,
+    "steps": [
+      "Escriu a administracio@partal.cat indicant que vols exercir el dret de supressió i amb les dades que t’identifiquin."
+    ],
+    "sources": [
+      "vilaweb-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "vilaweb-privacy-policy"
+      ],
+      "detail": "Drets reconeguts per correu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "vilaweb-privacy-policy"
+      ],
+      "detail": "Per escrit al carrer de Ferlandina, 43, de Barcelona, o per correu electrònic.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:administracio@partal.cat"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "vilaweb-didomi-config",
+        "vilaweb-cookies-policy"
+      ],
+      "detail": "Al web, bàner de consentiment; la política de galetes remet sobretot a la configuració del navegador.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "vilaweb-didomi-config"
+      ],
+      "detail": "Al web, el gestor de consentiment permet triar per finalitat i proveïdor.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És una aplicació de lectura de notícies.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap fitxer security.txt al domini."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "diari-ara",
+      "comparability": "equivalent",
+      "rationale": "Diari en català amb més continguts propis, però l’app declara rastreig."
+    },
+    {
+      "app": "el-nacional",
+      "comparability": "equivalent",
+      "rationale": "Diari digital en català gratuït, amb molts més proveïdors publicitaris."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "L’etiqueta declara poques dades i cap per rastrejar. La política encara cita el Privacy Shield, anul·lat el 2020, i per això sembla que fa anys que no es revisa. El procediment de l’AEPD del 2026 és per un contingut periodístic, no per les dades dels lectors.",
+    "openQuestions": [
+      "L’app mostra publicitat de tercers com el web?"
+    ]
+  },
+  "appStoreBundleId": "cat.vilaweb.mag"
+}

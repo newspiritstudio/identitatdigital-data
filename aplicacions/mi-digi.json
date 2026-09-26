@@ -1,0 +1,472 @@
+{
+  "slug": "mi-digi",
+  "name": "Mi DIGI",
+  "company": "digi-spain-telecom",
+  "categories": [
+    "telecomunicacions"
+  ],
+  "tagline": "Declara les dades d’error com a dades per rastrejar-te",
+  "summary": "Mi DIGI és l’àrea de client de l’operador: factures, consum, tarifes, fibra i televisió. La política de DIGI Spain Telecom detalla les bases jurídiques, els destinataris i el bloqueig de les dades en acabar la relació. L’etiqueta de l’App Store declara les dades de diagnòstic d’errors com a dades usades per rastrejar-te, i la interacció amb el producte com a dada vinculada a la identitat.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "subscription",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://www.digimobil.es/",
+    "privacyPolicy": "https://www.digimobil.es/legal/politica-de-privacidad",
+    "appStore": "https://apps.apple.com/es/app/id1520048638"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "mi-digi-privacy-policy",
+      "mi-digi-app-store"
+    ],
+    "detail": "L’aplicació és l’àrea privada de clients de contracte o prepagament.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": []
+  },
+  "dataSummary": "L’àrea de client d’un operador conté el document d’identitat, les dades de pagament i el consum. A més, segons la política, DIGI pot calcular o estimar informació a partir de les dades disponibles i de les interaccions.",
+  "dataCollection": [
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "mi-digi-app-store",
+        "mi-digi-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "mi-digi-app-store"
+      ],
+      "note": "L’etiqueta declara les dades d’error com a dades usades per rastrejar-te."
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "mi-digi-privacy-policy"
+      ],
+      "note": "Necessari per contractar."
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "mi-digi-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "mi-digi-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "mi-digi-privacy-policy"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "mi-digi-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "mi-digi-privacy-policy"
+      ],
+      "note": "Es comuniquen a entitats financeres i, en cas d’impagament, a sistemes d’informació creditícia."
+    },
+    {
+      "type": "metadades-de-comunicacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "mi-digi-privacy-policy"
+      ],
+      "note": "Dades de consum i de facturació dels serveis de comunicacions, regides també per les condicions generals del servei."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "mi-digi-privacy-policy"
+      ],
+      "note": "Amb data i hora d’accés i registres tècnics."
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "mi-digi-privacy-policy"
+      ]
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "mi-digi-privacy-policy"
+      ],
+      "note": "La política diu que DIGI pot calcular, generar o estimar informació analitzant i combinant les dades disponibles."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mi-digi-app-store"
+      ],
+      "detail": "L’etiqueta declara les dades d’error com a dades que es poden fer servir per rastrejar-te en apps i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "mi-digi-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap identificador publicitari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "mi-digi-privacy-policy"
+      ],
+      "detail": "La política diu que el web i les aplicacions poden fer servir galetes i tecnologies similars, i remet a la política de galetes.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "mi-digi-privacy-policy"
+      ],
+      "detail": "Les comunicacions comercials i les recomanacions personalitzades es basen en el consentiment o en l’interès legítim, amb dret d’oposició; l’etiqueta no declara publicitat de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mi-digi-privacy-policy"
+      ],
+      "detail": "Reconeix que pot calcular, generar o estimar informació a partir de l’anàlisi i la combinació de les dades disponibles, tant de clients com de no clients.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mi-digi-privacy-policy"
+      ],
+      "detail": "Proveïdors tecnològics i d’atenció, altres operadors, entitats financeres, sistemes d’informació creditícia i administracions públiques.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mi-digi-privacy-policy"
+      ],
+      "detail": "Altres entitats del grup DIGI poden accedir a les dades com a encarregades del tractament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta cap venda de dades."
+    },
+    "internationalTransfers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "mi-digi-privacy-policy"
+      ],
+      "detail": "Amb caràcter general no en preveu fora de l’EEE, però admet que alguns proveïdors poden estar en tercers països amb les garanties adequades.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "mi-digi-privacy-policy"
+      ],
+      "detail": "Criteris per finalitat i terminis addicionals per a frau, seguretat i reclamacions, però sense xifres concretes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "mi-digi-privacy-policy"
+      ],
+      "detail": "En acabar la relació, les dades queden bloquejades i a disposició de les autoritats durant els terminis legals.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "mi-digi-privacy-policy"
+      ],
+      "detail": "Es reconeix el dret de supressió, però les dades de la relació contractual es bloquegen i es conserven pels terminis legals; la política no descriu cap manera d’esborrar el compte des de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap opció de baixa del compte dins de l’aplicació."
+    },
+    "difficulty": "unknown",
+    "requiresSupportContact": true,
+    "obstacles": "El compte va lligat al contracte: mentre hi ha servei contractat, esborrar-lo no és possible.",
+    "dataRetained": "Dades contractuals i de facturació bloquejades durant els terminis de prescripció.",
+    "sources": [
+      "mi-digi-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "mi-digi-privacy-policy"
+      ],
+      "detail": "Reconeix la portabilitat de les dades sense descriure cap eina d’autoservei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mi-digi-privacy-policy"
+      ],
+      "detail": "Davant del delegat de protecció de dades, a pdatos@digimobil.es.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:pdatos@digimobil.es"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mi-digi-privacy-policy"
+      ],
+      "detail": "Dret d’oposició a les comunicacions comercials i retirada del consentiment en qualsevol moment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política remet a la política de galetes; no hem trobat cap control equivalent per a l’aplicació."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "mi-digi-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Àrea de client: no hi ha comunicació privada entre persones dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu com s’autentica l’accés a l’àrea privada."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política esmenta serveis d’auditoria entre els proveïdors, però no publica cap certificació."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha security.txt a digimobil.es."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Cap filtració associada a digimobil.es a Have I Been Pwned, i el cercador de resolucions de l’AEPD no s’ha pogut consultar des d’aquí. La política és recent, però descriu el web i les aplicacions en bloc: res no és específic de Mi DIGI.",
+    "openQuestions": [
+      "Per què l’etiqueta declara les dades d’error com a dades per rastrejar, i cap a quins tercers van?",
+      "Quin proveïdor de diagnòstics fa servir l’aplicació?",
+      "Es pot tancar el compte de Mi DIGI sense donar de baixa el servei?"
+    ]
+  },
+  "appStoreBundleId": "es.digimobil.MiCuentaDIGI"
+}

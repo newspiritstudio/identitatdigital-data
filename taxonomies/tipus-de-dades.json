@@ -1,0 +1,373 @@
+[
+  {
+    "slug": "identificador-de-compte",
+    "name": "Identificador de compte",
+    "family": "identifiers",
+    "sensitivity": 2,
+    "description": "Nom d’usuari, identificador intern i qualsevol clau que el servei utilitza per reconèixer un compte.",
+    "whyItMatters": "Permet relacionar totes les altres dades entre si. Sense identificador no es pot construir un perfil; amb ell, tota l’activitat queda associada a una mateixa persona.",
+    "appleLabel": "User ID"
+  },
+  {
+    "slug": "nom-i-cognoms",
+    "name": "Nom i cognoms",
+    "family": "identifiers",
+    "sensitivity": 2,
+    "description": "Nom real o nom públic declarat al perfil.",
+    "appleLabel": "Name"
+  },
+  {
+    "slug": "adreca-electronica",
+    "name": "Adreça electrònica",
+    "family": "contact",
+    "sensitivity": 2,
+    "description": "Correu associat al compte, incloent-hi els àlies de verificació.",
+    "whyItMatters": "És l’identificador que més sovint permet creuar bases de dades entre serveis diferents.",
+    "appleLabel": "Email Address"
+  },
+  {
+    "slug": "numero-de-telefon",
+    "name": "Número de telèfon",
+    "family": "contact",
+    "sensitivity": 3,
+    "description": "Número utilitzat per registrar-se, verificar el compte o rebre avisos.",
+    "whyItMatters": "A diferència del correu, gairebé ningú en té més d’un i està lligat a una identitat legal. És un identificador molt persistent.",
+    "appleLabel": "Phone Number"
+  },
+  {
+    "slug": "identificador-de-dispositiu",
+    "name": "Identificador de dispositiu",
+    "family": "device",
+    "sensitivity": 3,
+    "description": "Identificadors del terminal o de la instal·lació de l’aplicació.",
+    "appleLabel": "Device ID"
+  },
+  {
+    "slug": "identificador-publicitari",
+    "name": "Identificador publicitari",
+    "family": "identifiers",
+    "sensitivity": 3,
+    "description": "IDFA a iOS, identificador de publicitat d’Android o equivalents propis del servei.",
+    "whyItMatters": "És l’identificador dissenyat expressament per seguir una persona entre aplicacions diferents.",
+    "appleLabel": "Advertising Data"
+  },
+  {
+    "slug": "adreca-ip",
+    "name": "Adreça IP",
+    "family": "device",
+    "sensitivity": 3,
+    "description": "Adreça de xarxa des de la qual es connecta el dispositiu.",
+    "whyItMatters": "Permet deduir la ubicació aproximada i relacionar sessions que semblaven independents."
+  },
+  {
+    "slug": "galetes-i-identificadors-web",
+    "name": "Galetes i identificadors web",
+    "family": "identifiers",
+    "sensitivity": 3,
+    "description": "Galetes, emmagatzematge local i empremtes del navegador."
+  },
+  {
+    "slug": "adreca-postal",
+    "name": "Adreça postal",
+    "family": "contact",
+    "sensitivity": 3,
+    "description": "Adreça de facturació, de lliurament o de residència."
+  },
+  {
+    "slug": "llista-de-contactes",
+    "name": "Llista de contactes",
+    "family": "social",
+    "sensitivity": 4,
+    "description": "Agenda del telèfon o contactes importats.",
+    "whyItMatters": "Revela dades de terceres persones que no han acceptat res, de manera que no és una dada només teva.",
+    "appleLabel": "Contacts"
+  },
+  {
+    "slug": "ubicacio-precisa",
+    "name": "Ubicació precisa",
+    "family": "location",
+    "sensitivity": 5,
+    "description": "Coordenades amb precisió de metres, en temps real o històriques.",
+    "whyItMatters": "Revela on dorms, on treballes, a quin metge vas i a quines manifestacions assisteixes. Quatre punts d’ubicació basten per identificar una persona única entre milions.",
+    "appleLabel": "Precise Location"
+  },
+  {
+    "slug": "ubicacio-aproximada",
+    "name": "Ubicació aproximada",
+    "family": "location",
+    "sensitivity": 3,
+    "description": "Població, regió o zona deduïda de la xarxa.",
+    "appleLabel": "Coarse Location"
+  },
+  {
+    "slug": "contingut-de-missatges",
+    "name": "Contingut de missatges",
+    "family": "content",
+    "sensitivity": 5,
+    "description": "Text, àudio i fitxers de les converses privades.",
+    "whyItMatters": "És el contingut més íntim que una persona confia a un servei, i per això és decisiu saber si el servei el pot llegir."
+  },
+  {
+    "slug": "metadades-de-comunicacio",
+    "name": "Metadades de comunicació",
+    "family": "behaviour",
+    "sensitivity": 4,
+    "description": "Qui parla amb qui, quan, amb quina freqüència i des d’on.",
+    "whyItMatters": "Encara que el contingut estigui xifrat, el mapa de relacions revela vincles laborals, sentimentals, mèdics i polítics."
+  },
+  {
+    "slug": "publicacions-i-comentaris",
+    "name": "Publicacions i comentaris",
+    "family": "content",
+    "sensitivity": 3,
+    "description": "Contingut públic o semipúblic creat per la persona usuària."
+  },
+  {
+    "slug": "fotografies-i-videos",
+    "name": "Fotografies i vídeos",
+    "family": "content",
+    "sensitivity": 4,
+    "description": "Imatges pujades, incloent-hi les metadades del fitxer.",
+    "appleLabel": "Photos or Videos"
+  },
+  {
+    "slug": "fitxers-i-documents",
+    "name": "Fitxers i documents",
+    "family": "content",
+    "sensitivity": 4,
+    "description": "Documents emmagatzemats o compartits a través del servei."
+  },
+  {
+    "slug": "veu-i-audio",
+    "name": "Veu i àudio",
+    "family": "content",
+    "sensitivity": 4,
+    "description": "Enregistraments de veu, notes d’àudio i comandes parlades.",
+    "appleLabel": "Audio Data"
+  },
+  {
+    "slug": "historial-de-navegacio",
+    "name": "Historial de navegació",
+    "family": "behaviour",
+    "sensitivity": 4,
+    "description": "Pàgines visitades dins i fora del servei.",
+    "whyItMatters": "És una de les dades més reveladores que existeixen: mostra interessos, salut, orientació i creences sense que calgui declarar-los.",
+    "appleLabel": "Browsing History"
+  },
+  {
+    "slug": "historial-de-cerca",
+    "name": "Historial de cerca",
+    "family": "behaviour",
+    "sensitivity": 4,
+    "description": "Consultes escrites al cercador del servei.",
+    "whyItMatters": "La gent pregunta a un cercador coses que no diria a ningú.",
+    "appleLabel": "Search History"
+  },
+  {
+    "slug": "historial-de-visualitzacio",
+    "name": "Historial de reproducció",
+    "family": "behaviour",
+    "sensitivity": 3,
+    "description": "Contingut vist o escoltat, amb durada i moment."
+  },
+  {
+    "slug": "interaccions-i-us",
+    "name": "Interaccions i ús",
+    "family": "behaviour",
+    "sensitivity": 3,
+    "description": "Clics, temps de permanència, desplaçament, pauses i qualsevol senyal de comportament dins del producte.",
+    "appleLabel": "Product Interaction"
+  },
+  {
+    "slug": "interessos-inferits",
+    "name": "Interessos inferits",
+    "family": "behaviour",
+    "sensitivity": 4,
+    "description": "Categories que el servei dedueix de l’activitat, no dades que la persona hagi facilitat.",
+    "whyItMatters": "La persona no sap que aquesta dada existeix. Sovint inclou categories sensibles deduïdes indirectament."
+  },
+  {
+    "slug": "xarxa-de-contactes",
+    "name": "Xarxa de contactes",
+    "family": "social",
+    "sensitivity": 4,
+    "description": "Amistats, seguidors, grups i connexions professionals."
+  },
+  {
+    "slug": "informacio-del-dispositiu",
+    "name": "Informació del dispositiu",
+    "family": "device",
+    "sensitivity": 2,
+    "description": "Model, sistema operatiu, idioma, resolució i configuració."
+  },
+  {
+    "slug": "xarxa-i-connectivitat",
+    "name": "Xarxa i connectivitat",
+    "family": "device",
+    "sensitivity": 2,
+    "description": "Operador, tipus de connexió i xarxes wifi properes."
+  },
+  {
+    "slug": "aplicacions-instal-lades",
+    "name": "Aplicacions instal·lades",
+    "family": "device",
+    "sensitivity": 4,
+    "description": "Inventari d’aplicacions presents al dispositiu.",
+    "whyItMatters": "La llista d’aplicacions revela per si sola salut, orientació, religió i situació econòmica."
+  },
+  {
+    "slug": "dades-de-pagament",
+    "name": "Dades de pagament",
+    "family": "financial",
+    "sensitivity": 4,
+    "description": "Mitjà de pagament, adreça de facturació i historial de transaccions.",
+    "appleLabel": "Payment Info"
+  },
+  {
+    "slug": "historial-de-compres",
+    "name": "Historial de compres",
+    "family": "financial",
+    "sensitivity": 3,
+    "description": "Productes i serveis adquirits a través del servei.",
+    "appleLabel": "Purchase History"
+  },
+  {
+    "slug": "dades-biometriques",
+    "name": "Dades biomètriques",
+    "family": "biometric",
+    "sensitivity": 5,
+    "specialCategory": true,
+    "description": "Trets facials, empremtes o veu tractats amb finalitat identificativa.",
+    "whyItMatters": "A diferència d’una contrasenya, no es poden canviar si es filtren."
+  },
+  {
+    "slug": "dades-de-salut",
+    "name": "Dades de salut",
+    "family": "health",
+    "sensitivity": 5,
+    "specialCategory": true,
+    "description": "Informació sobre estat de salut, condicions mèdiques o activitat física."
+  },
+  {
+    "slug": "orientacio-sexual",
+    "name": "Orientació sexual",
+    "family": "special",
+    "sensitivity": 5,
+    "specialCategory": true,
+    "description": "Orientació declarada o deduïble de l’ús del servei."
+  },
+  {
+    "slug": "conviccions-i-opinions",
+    "name": "Conviccions i opinions",
+    "family": "special",
+    "sensitivity": 5,
+    "specialCategory": true,
+    "description": "Opinions polítiques, creences religioses o afiliació sindical."
+  },
+  {
+    "slug": "dades-de-diagnostic",
+    "name": "Dades de diagnòstic",
+    "family": "diagnostics",
+    "sensitivity": 1,
+    "description": "Registres de fallades, rendiment i estabilitat de l’aplicació.",
+    "appleLabel": "Diagnostics"
+  },
+  {
+    "slug": "contrasenya",
+    "name": "Contrasenya",
+    "family": "credentials",
+    "sensitivity": 5,
+    "description": "Contrasenya del compte, tant si es desa xifrada amb una funció de derivació moderna com si es desa amb un resum antic o, en els casos pitjors, en text pla.",
+    "whyItMatters": "La gent reutilitza contrasenyes. Una contrasenya filtrada d’un servei sense importància permet entrar als comptes que sí que en tenen, i per això una sola filtració s’estén a molts altres serveis de la mateixa persona."
+  },
+  {
+    "slug": "pregunta-de-seguretat",
+    "name": "Pregunta i resposta de seguretat",
+    "family": "credentials",
+    "sensitivity": 5,
+    "description": "Preguntes de recuperació del compte i les seves respostes, sovint desades sense xifrar.",
+    "whyItMatters": "La resposta no es pot canviar (el cognom de soltera de la mare sempre és el mateix). Una filtració la inutilitza a tots els serveis alhora, i habitualment permet entrar al compte sense haver d’endevinar la contrasenya."
+  },
+  {
+    "slug": "testimoni-d-autenticacio",
+    "name": "Testimoni d’autenticació",
+    "family": "credentials",
+    "sensitivity": 4,
+    "description": "Galetes de sessió, testimonis d’accés i claus d’API que mantenen la sessió oberta sense tornar a demanar la contrasenya.",
+    "whyItMatters": "Qui té el testimoni entra sense contrasenya i, sovint, sense passar pel segon factor, de manera que es pot perdre un compte ben protegit sense cap avís."
+  },
+  {
+    "slug": "data-de-naixement",
+    "name": "Data de naixement",
+    "family": "identifiers",
+    "sensitivity": 3,
+    "description": "Data completa o any de naixement declarat al perfil o exigit al registre.",
+    "whyItMatters": "Combinada amb el nom i el codi postal identifica una persona concreta amb una precisió altíssima. També és la dada que decideix si el servei et tracta com a menor."
+  },
+  {
+    "slug": "genere",
+    "name": "Gènere declarat",
+    "family": "identifiers",
+    "sensitivity": 2,
+    "description": "Gènere que la persona declara al perfil o que el servei infereix del seu ús.",
+    "whyItMatters": "És una de les primeres variables de segmentació publicitària i condiciona què et mostren abans que hagis fet res."
+  },
+  {
+    "slug": "ocupacio-i-carrec",
+    "name": "Ocupació i càrrec",
+    "family": "identifiers",
+    "sensitivity": 3,
+    "description": "Professió, càrrec, empresa ocupadora i situació laboral.",
+    "whyItMatters": "És la base del frau dirigit: saber on treballes i de qui depens permet escriure un correu fraudulent molt creïble."
+  },
+  {
+    "slug": "document-identificatiu-oficial",
+    "name": "Document identificatiu oficial",
+    "family": "identifiers",
+    "sensitivity": 5,
+    "description": "Número de document nacional d’identitat, passaport, permís de conduir o número de seguretat social, i les imatges d’aquests documents.",
+    "whyItMatters": "No es pot canviar quan es filtra i habilita la suplantació amb efectes legals, des d’obrir un contracte fins a demanar un crèdit, i és la pèrdua més difícil de reparar."
+  },
+  {
+    "slug": "origen-etnic-o-nacionalitat",
+    "name": "Origen ètnic o nacionalitat",
+    "family": "special",
+    "sensitivity": 5,
+    "specialCategory": true,
+    "description": "Origen racial o ètnic, nacionalitat i país de naixement declarats o inferits.",
+    "whyItMatters": "És una categoria especial de l’article 9 del RGPD. Tractar-la sense una base reforçada és il·lícit, i fer-la servir per segmentar permet la discriminació directa.",
+    "appleLabel": "Sensitive Info"
+  },
+  {
+    "slug": "situacio-familiar",
+    "name": "Situació familiar",
+    "family": "identifiers",
+    "sensitivity": 3,
+    "description": "Estat civil, convivència, fills a càrrec i estructura de la llar.",
+    "whyItMatters": "Defineix moments vitals de gran valor publicitari, com una separació o un embaràs, i és la mena de dada que les plataformes dedueixen abans que la persona l’hagi explicat a ningú."
+  },
+  {
+    "slug": "nivell-d-ingressos",
+    "name": "Nivell d’ingressos i solvència",
+    "family": "financial",
+    "sensitivity": 4,
+    "description": "Ingressos estimats o declarats, capacitat de despesa, solvència i segment socioeconòmic assignat.",
+    "whyItMatters": "A diferència de la dada de pagament, indica quant et poden cobrar. Permet aplicar preus personalitzats i decidir quines ofertes no et mostren mai."
+  },
+  {
+    "slug": "nivell-formatiu",
+    "name": "Nivell formatiu",
+    "family": "identifiers",
+    "sensitivity": 2,
+    "description": "Estudis cursats, titulacions i centres on s’han obtingut.",
+    "whyItMatters": "Per si sol diu poc, però és una de les variables que més afina els models de segmentació quan es creua amb l’ocupació i l’edat."
+  },
+  {
+    "slug": "llengua",
+    "name": "Llengua",
+    "family": "identifiers",
+    "sensitivity": 2,
+    "description": "Llengües que la persona declara parlar o que el servei dedueix del seu ús.",
+    "whyItMatters": "Sovint no és innòcua: la llengua és un indici raonable de l’origen, i per aquesta via acaba funcionant com a substitut d’una dada de categoria especial."
+  }
+]

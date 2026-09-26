@@ -1,0 +1,571 @@
+{
+  "slug": "fanalysis",
+  "name": "Fanalysis",
+  "company": "fanalysis-limited",
+  "categories": [
+    "esports-i-resultats"
+  ],
+  "tagline": "Estima l’edat amb reconeixement facial i esborra la imatge en set dies, però l’etiqueta de la botiga no ho declara",
+  "summary": "Fanalysis recull valoracions de jugadors fetes per aficionats i les cedeix a Sky Sports. La seva política és detallada, amb una llista nominal d’encarregats, terminis per categoria i mecanismes de transferència explicats un per un. En canvi, cap etiqueta de botiga no esmenta que l’aplicació estima l’edat amb AWS Rekognition a partir d’una fotografia i genera l’avatar amb OpenAI.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Regne Unit",
+  "links": {
+    "website": "https://www.fanalysis.com/",
+    "privacyPolicy": "https://www.fanalysis.com/es/politica-de-privacidad",
+    "appStore": "https://apps.apple.com/es/app/id6749045838"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "fanalysis-privacy-policy"
+    ],
+    "detail": "Cal compte per valorar jugadors i publicar; l’edat es verifica o s’estima en el registre.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "fanalysis-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Les valoracions, les ressenyes i el club que se segueix formen un perfil d’afició que es guarda en un magatzem analític de Snowflake juntament amb el correu, el nom i la nacionalitat. A més, l’aplicació tracta dades biomètriques: una fotografia que serveix per estimar l’edat i per generar un avatar amb un model de tercers.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "fanalysis-privacy-policy",
+        "fanalysis-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "fanalysis-privacy-policy",
+        "fanalysis-app-store"
+      ],
+      "note": "Arriba a Snowflake juntament amb el nom, la nacionalitat, el club i les valoracions."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "fanalysis-app-store"
+      ]
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "fanalysis-privacy-policy"
+      ],
+      "note": "Fotografia i representació matemàtica facial per estimar l’edat amb AWS Rekognition a Irlanda, esborrades automàticament al cap de set dies. Verificació documental d’edat amb Yoti. Cap etiqueta de botiga declara aquesta categoria."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "fanalysis-privacy-policy"
+      ],
+      "note": "La fotografia per a l’avatar és opcional i té alternativa; l’avatar el genera OpenAI."
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "moderacio-de-continguts",
+        "investigacio-i-estadistica"
+      ],
+      "sources": [
+        "fanalysis-privacy-policy",
+        "fanalysis-app-store"
+      ],
+      "note": "El feed d’activitat es gestiona amb GetStream i la detecció de contingut nociu amb AWS Rekognition."
+    },
+    {
+      "type": "origen-etnic-o-nacionalitat",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "investigacio-i-estadistica"
+      ],
+      "sources": [
+        "fanalysis-privacy-policy"
+      ],
+      "note": "La política inclou la nacionalitat entre les dades que arriben a Snowflake."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "fanalysis-app-store",
+        "fanalysis-privacy-policy"
+      ],
+      "note": "L’atribució es fa amb AppsFlyer i només amb consentiment ATT."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "fanalysis-app-store"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "fanalysis-privacy-policy"
+      ],
+      "note": "Dades tècniques recollides amb Google Analytics, conservades dos anys."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "fanalysis-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "fanalysis-app-store"
+      ]
+    },
+    {
+      "type": "ocupacio-i-carrec",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "fanalysis-privacy-policy"
+      ],
+      "note": "Dades d’ocupació i, per a les candidatures a «Starting XI Fanalyst», antecedents penals que s’esborren just després de la decisió."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "fanalysis-app-store"
+      ]
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "fanalysis-privacy-policy"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fanalysis-app-store"
+      ],
+      "detail": "L’etiqueta declara identificadors i dades d’ús utilitzats per rastrejar; la política ho lliga al consentiment per a l’atribució d’AppsFlyer.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fanalysis-privacy-policy"
+      ],
+      "detail": "Seguiment d’atribució amb l’SDK d’AppsFlyer, subjecte a consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fanalysis-privacy-policy"
+      ],
+      "detail": "AppsFlyer i Google Analytics; la política els identifica pel nom.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "fanalysis-privacy-policy"
+      ],
+      "detail": "La política declara que no venen dades ni les comparteixen per a publicitat conductual entre contextos; el màrqueting electrònic propi depèn del consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fanalysis-privacy-policy"
+      ],
+      "detail": "Hi ha valoració automatitzada de les candidatures a «Fanalyst», amb dret a intervenció humana i a impugnació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "fanalysis-privacy-policy"
+      ],
+      "detail": "Les fotografies es processen amb OpenAI per generar l’avatar i amb AWS Rekognition per estimar l’edat i detectar contingut nociu; la política no diu que les dades serveixin per entrenar models propis.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fanalysis-privacy-policy"
+      ],
+      "detail": "Llista nominal: OpenAI, Amazon Web Services EMEA, AppsFlyer, Google, GetStream, Snowflake, OneSignal i Yoti, a més d’assessors i reguladors. La llista completa de subencarregats només s’obté sota petició.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Fanalysis Limited no té grup ni filials conegudes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "fanalysis-privacy-policy"
+      ],
+      "detail": "La política declara expressament que no venen dades personals.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fanalysis-privacy-policy"
+      ],
+      "detail": "Clàusules contractuals tipus de la UE i l’addenda britànica de transferències internacionals per als proveïdors dels Estats Units i d’Israel; el Regne Unit està cobert per la decisió d’adequació.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fanalysis-privacy-policy"
+      ],
+      "detail": "Terminis concrets per a cada categoria, inclosa l’eliminació de la imatge facial en set dies.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "fanalysis-privacy-policy"
+      ],
+      "detail": "Les dades de compte i perfil es conserven fins a sis anys després de tancar el compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "identificador-de-compte",
+        "period": "Vigència del compte i sis anys més",
+        "sources": [
+          "fanalysis-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "dades-biometriques",
+        "period": "Set dies per a la imatge i la representació matemàtica facial",
+        "sources": [
+          "fanalysis-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "adreca-ip",
+        "period": "Dos anys per a les dades tècniques i d’ús",
+        "sources": [
+          "fanalysis-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fanalysis-faq"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "fanalysis-faq"
+      ],
+      "detail": "La pàgina de preguntes freqüents diu que el compte s’elimina escrivint a l’equip de suport des de l’adreça amb què es va crear, i amb el número antic a mà per verificar la identitat. Sí que són autoservei l’esborrat de l’avatar i de les publicacions pròpies.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "requiresSupportContact": true,
+    "steps": [
+      "Escriu a hello@fanalysis.com des de l’adreça amb què vas crear el compte.",
+      "Tingues a mà el número de telèfon associat, que serveix per verificar la identitat.",
+      "Si vols, esborra abans l’avatar i les publicacions pròpies des del menú de tres punts."
+    ],
+    "obstacles": "L’eliminació no és immediata ni automàtica: les dades de compte i perfil es conserven fins a sis anys.",
+    "dataRetained": "Dades de compte i perfil fins a sis anys després del tancament, per a la defensa de possibles reclamacions.",
+    "sources": [
+      "fanalysis-faq",
+      "fanalysis-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "fanalysis-privacy-policy"
+      ],
+      "detail": "La portabilitat es reconeix i s’exerceix per correu en el termini d’un mes, sense eina d’autoservei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fanalysis-privacy-policy"
+      ],
+      "detail": "Coordinador de protecció de dades a hello@fanalysis.com i representant a la UE segons l’article 27 del RGPD: DP-Dock GmbH, a Hamburg.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:hello@fanalysis.com",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fanalysis-privacy-policy"
+      ],
+      "detail": "El seguiment d’atribució depèn del consentiment ATT, retirable des dels ajustos del dispositiu, i el màrqueting té enllaç de baixa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "fanalysis-privacy-policy"
+      ],
+      "detail": "L’analítica de Google es tracta per interès legítim i no consta un interruptor propi dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fanalysis-privacy-policy"
+      ],
+      "detail": "La fotografia per a l’avatar és opcional i té alternativa, i l’aplicació no utilitza galetes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi independent de patrons foscos."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei és de contingut públic, no de comunicacions privades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fanalysis-privacy-policy"
+      ],
+      "detail": "HTTPS amb HSTS al web.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política només parla de «salvaguardes físiques i electròniques raonables», sense concretar."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap opció de verificació en dos passos documentada."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories ni certificacions publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "fanalysis-privacy-policy"
+      ],
+      "detail": "La política declara procediments de resposta a bretxes i de notificació a les persones afectades i al regulador, però no publica cap canal de divulgació ni fitxer security.txt.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La política de Fanalysis és completa: identifica cada encarregat pel nom, dona terminis per categoria i explica el mecanisme de transferència de cadascun. En canvi, les etiquetes de les botigues no declaren la fotografia ni la representació facial que descriu la política. L’aplicació és nova (abril de 2026) i no té historial.",
+    "openQuestions": [
+      "Per què ni l’App Store ni Google Play declaren les dades biomètriques que la política descriu?",
+      "Quina és la llista completa de subencarregats? Només s’obté sota petició."
+    ]
+  },
+  "appStoreBundleId": "co.uk.fanalysis"
+}

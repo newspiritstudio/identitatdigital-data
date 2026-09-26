@@ -1,0 +1,531 @@
+{
+  "slug": "t-mobilitat",
+  "name": "T-mobilitat",
+  "company": "autoritat-del-transport-metropolita",
+  "categories": [
+    "mobilitat-i-transport",
+    "administracio-publica"
+  ],
+  "tagline": "L’app del bitllet únic diu que no recull cap dada, però l’alta demana el DNI i cada validació queda registrada",
+  "summary": "L’app de l’ATM gestiona el compte T-mobilitat: alta, recàrrega de títols i, a Android, validació amb NFC; a l’iPhone la validació passa per l’app germana Cartera T-mobilitat. L’etiqueta de l’App Store diu «No se recopilan datos», però el mateix registre d’activitats de l’ATM detalla que l’alta recull nom, document d’identitat, data de naixement, adreça, correu i telèfon, i que cada validació deixa data, hora, operador i zona, que es comuniquen als operadors i a les forces de seguretat. El 2024 l’APDCAT va declarar dues infraccions de l’ATM per una sol·licitud d’alta pujada al compte d’una altra persona.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "public-service",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://t-mobilitat.cat/",
+    "privacyPolicy": "https://t-mobilitat.cat/web/t-mobilitat/proteccio-de-dades",
+    "terms": "https://t-mobilitat.cat/documents/54021/0/02.2024_Condicions+d%E2%80%99utilitzaci%C3%B3+T-mobilitat.pdf/fb0501b7-ca5d-ac39-e936-c3cd4f09c89b?t=1709116783119",
+    "privacyCenter": "https://t-mobilitat.cat/documents/54021/0/20250525_RAT+T-mobilitat.rev_DEF+%288%29.xlsx/5cd2b9e6-9461-01cb-48ec-60fdd377b7a1?t=1761117162225",
+    "appStore": "https://apps.apple.com/es/app/id1586790838",
+    "security": "https://www.atm.cat/es/seguretat-de-la-informacio",
+    "rightsRequest": "https://web.gencat.cat/ca/tramits/tramits-temes/Peticio-generica?moda=1"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "tmobilitat-condicions",
+      "tmobilitat-app-store"
+    ],
+    "detail": "Per recarregar i validar amb el mòbil cal donar-se d’alta i registrar les dades. Viatjar sense compte és possible, però amb el suport de cartró anònim, no amb l’app.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "tmobilitat-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "publicService": {
+    "isPublicService": true,
+    "administrationLevel": "other",
+    "legalBasis": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tmobilitat-proteccio-dades",
+        "tmobilitat-rat",
+        "atm-organitzacio"
+      ],
+      "detail": "L’ATM és un consorci de la Generalitat (51 %) i les administracions locals (49 %). La política invoca les lletres a, b, c i e de l’article 6.1 del RGPD i la LOPDGDD, i el registre hi afegeix l’article 8 de la LOPDGDD, la Llei 26/2010 i la Llei 39/2015. No cita la norma que atribueix a l’ATM la gestió del sistema tarifari ni concreta quina base empara el registre de validacions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "processingRegistry": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tmobilitat-rat"
+      ],
+      "detail": "Registre específic de la T-mobilitat, en full de càlcul, actualitzat el 23 de maig de 2025, amb catorze activitats. Contradiu la política en un punt: diu que no hi ha transferències internacionals, mentre la política n’admet per al butlletí i el núvol.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://t-mobilitat.cat/documents/54021/0/20250525_RAT+T-mobilitat.rev_DEF+%288%29.xlsx/5cd2b9e6-9461-01cb-48ec-60fdd377b7a1?t=1761117162225"
+    },
+    "dpia": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap avaluació d’impacte publicada, tot i que el sistema registra desplaçaments de persones identificades a gran escala."
+    },
+    "ensConformity": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "atm-seguretat-informacio",
+        "tmobilitat-cronica-ciberseguretat"
+      ],
+      "detail": "L’ATM té una política de seguretat de la informació basada en l’ENS i la ISO 27001, aprovada l’octubre de 2025, i va contractar una oficina de ciberseguretat per a la T-mobilitat el 2024. No publica cap declaració ni certificat de conformitat, ni la categoria del sistema.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dpo": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tmobilitat-proteccio-dades",
+        "tmobilitat-rat"
+      ],
+      "detail": "Delegada de protecció de dades amb correu publicat.",
+      "verifiedAt": "2026-09-22",
+      "contact": "dpd@atm.cat"
+    },
+    "offlineAlternative": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tmobilitat-condicions"
+      ],
+      "detail": "La T-mobilitat existeix en suport de cartró anònim i transferible i en targeta de PVC, que es poden fer servir sense l’app.",
+      "verifiedAt": "2026-09-22"
+    },
+    "accessibilityStatement": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "atm-accessibilitat",
+        "tmobilitat-app-store"
+      ],
+      "detail": "L’ATM té una declaració per al web atm.cat, «parcialment conforme», però no per a l’app, i la fitxa de l’App Store no declara cap prestació d’accessibilitat.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.atm.cat/accessibilitat"
+    },
+    "mandatoryRetention": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "tmobilitat-condicions"
+      ],
+      "detail": "Les condicions permeten donar-se de baixa. Només es conserven les dades bàsiques associades a penalitzacions fins que prescriuen.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataSummary": "Un títol personalitzat lliga el nom i el document d’identitat amb cada validació: data, hora, operador i zona. Aquestes dades mostren els desplaçaments habituals d’una persona, i l’ATM les comunica als operadors de transport, a altres administracions i a les forces de seguretat.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tmobilitat-rat"
+      ],
+      "note": "Activitat «Alta app» del registre; l’etiqueta de l’App Store no declara cap dada."
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "tmobilitat-rat",
+        "tmobilitat-condicions"
+      ],
+      "note": "DNI, NIE o passaport, al qual van lligats els suports personalitzats."
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tmobilitat-rat"
+      ],
+      "note": "Determina l’accés a títols per edat, com la T-16."
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tmobilitat-rat"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "tmobilitat-rat",
+        "tmobilitat-proteccio-dades"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tmobilitat-rat"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tmobilitat-rat",
+        "tmobilitat-cartera-iphone"
+      ],
+      "note": "El compte es pot vincular a la TMB App, a l’app d’FGC i a Cartera T-mobilitat."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "investigacio-i-estadistica",
+        "compliment-legal"
+      ],
+      "sources": [
+        "tmobilitat-rat",
+        "tmobilitat-directa-2018"
+      ],
+      "note": "Cada validació registra data, hora i lloc (operador i zona) i es comunica als operadors, a administracions i a forces de seguretat. La traçabilitat dels desplaçaments ja va ser objecte de crítica el 2018."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tmobilitat-rat",
+        "tmobilitat-condicions"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tmobilitat-condicions",
+        "tmobilitat-proteccio-dades"
+      ],
+      "note": "Les condicions preveuen el pagament amb targeta o amb el mòbil; la política inclou dades econòmiques."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "tmobilitat-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap dada, ni per rastrejar ni de cap altre tipus.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La documentació no esmenta identificadors publicitaris."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política parla de galetes de tercers al web, però no dels SDK de l’app."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política preveu comunicacions i un butlletí, però no diu si són comercials ni si es personalitzen."
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta perfils ni decisions automatitzades."
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La documentació no en diu res."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tmobilitat-rat",
+        "tmobilitat-proteccio-dades"
+      ],
+      "detail": "Les dades d’ús es comuniquen als operadors de transport, a altres administracions i a les forces i cossos de seguretat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’ATM actua d’encarregada de l’AMB i d’FGC per a alguns tractaments, però no hem trobat quines dades de la T-mobilitat circulen entre els consorciats."
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "tmobilitat-proteccio-dades"
+      ],
+      "detail": "Els destinataris declarats són només organismes públics i forces de seguretat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tmobilitat-proteccio-dades",
+        "tmobilitat-rat"
+      ],
+      "detail": "La política admet transferències amb clàusules contractuals tipus per al butlletí (Mailchimp, Campaign Monitor, Active Campaign), per al núvol de Google o Microsoft i per a galetes de tercers; el registre diu que no n’hi ha cap.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tmobilitat-proteccio-dades",
+        "tmobilitat-rat"
+      ],
+      "detail": "La política remet els terminis al registre, però per a les dades de validació no hem trobat cap termini en dies o anys.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tmobilitat-condicions"
+      ],
+      "detail": "La baixa és irreversible, però les dades bàsiques associades a penalitzacions es conserven fins que prescriuen.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tmobilitat-condicions"
+      ],
+      "detail": "L’article 12 de les condicions regula la baixa del compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tmobilitat-condicions"
+      ],
+      "detail": "Es pot fer a l’àrea privada del web només si no hi ha suports ni persones vinculades; si n’hi ha, cal anar al Centre d’Atenció i Informació amb el document d’identitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "steps": [
+      "Desvincula els suports i les persones associades al compte.",
+      "Entra a l’àrea privada de t-mobilitat.cat i demana la baixa, o bé ves al Centre d’Atenció i Informació amb el document d’identitat."
+    ],
+    "obstacles": "Amb suports vinculats, la baixa només es pot fer presencialment.",
+    "dataRetained": "Dades bàsiques associades a penalitzacions, fins que prescriuen.",
+    "sources": [
+      "tmobilitat-condicions"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política enumera els drets amb formularis, però no hem pogut comprovar com s’exerceix la portabilitat."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tmobilitat-proteccio-dades"
+      ],
+      "detail": "Formularis per a cada dret, que s’envien per la Petició Genèrica de la Generalitat o per correu postal; delegada de protecció de dades i APDCAT.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://web.gencat.cat/ca/tramits/tramits-temes/Peticio-generica?moda=1"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut verificar quins permisos demana l’app ni si hi ha preferències de privadesa."
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És una aplicació de gestió de títols de transport, sense comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap auditoria o certificació independent publicada del sistema T-mobilitat."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Ni t-mobilitat.cat ni atm.cat publiquen un fitxer security.txt; l’ATM dona l’adreça cdc@atm.cat del comitè de ciberseguretat."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "tmb-app",
+      "comparability": "partial",
+      "rationale": "Permet donar-se d’alta i recarregar la T-mobilitat des del compte TMB.",
+      "tradeOffs": "El compte T-mobilitat de l’ATM es crea igualment, i s’hi afegeixen les dades del compte TMB."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "L’etiqueta «No se recopilan datos» és incompatible amb el registre d’activitats de la mateixa ATM. No hem pogut instal·lar l’app per comprovar-ne els permisos. La fitxa de l’App Store no cobreix l’app Cartera T-mobilitat, que és la que valida a l’iPhone.",
+    "openQuestions": [
+      "Quant de temps es conserven les validacions lligades a un títol personalitzat?",
+      "Hi ha una avaluació d’impacte del sistema T-mobilitat?",
+      "Quin accés tenen a les dades les empreses privades que van desenvolupar el sistema?"
+    ]
+  },
+  "appStoreBundleId": "cat.atm.tmobilitat"
+}

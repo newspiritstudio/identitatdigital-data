@@ -1,0 +1,600 @@
+{
+  "slug": "openbank",
+  "name": "Openbank",
+  "company": "open-bank-sa",
+  "categories": [
+    "banca-i-finances"
+  ],
+  "tagline": "Banc digital que documenta el perfilat creditici amb un detall poc habitual",
+  "summary": "La política d’Openbank és de les poques del sector que explica, pas a pas, quina lògica segueix el perfilat que decideix si et concedeix un préstec o una targeta: quines fonts internes i externes hi entren, quins fitxers de solvència es consulten i com demanar la intervenció d’una persona. L’aplicació, però, declara a l’App Store identificadors utilitzats per rastrejar-te i publicitat de tercers.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Espanya",
+  "userBase": "Banc digital del grup Santander, present a diversos països europeus",
+  "links": {
+    "website": "https://www.openbank.es/",
+    "privacyPolicy": "https://www.openbank.es/assets/static/pdf/PieDePagina/Proteccion_Datos_191223.pdf",
+    "appStore": "https://apps.apple.com/es/app/id1217874244"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "openbank-privacy-policy"
+    ],
+    "detail": "L’aplicació és el canal principal d’un banc sense oficines: sense contracte no hi ha servei.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "openbank-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "A la informació financera habitual s’hi suma el que Openbank obté de fora: els fitxers de solvència ASNEF i BADEXCUG, la Central d’Informació de Riscos del Banc d’Espanya i els agregadors de comptes d’altres entitats. Amb aquestes fonts, Openbank coneix la teva situació econòmica millor que un banc que només veu les operacions que hi fas.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "openbank-privacy-policy",
+        "openbank-app-store"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "openbank-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "openbank-app-store"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "openbank-app-store"
+      ]
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "compliment-legal"
+      ],
+      "sources": [
+        "openbank-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "openbank-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "openbank-privacy-policy"
+      ],
+      "note": "Els moviments d’ingrés i de càrrec alimenten el perfilat de risc de morositat."
+    },
+    {
+      "type": "nivell-d-ingressos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "compliment-legal"
+      ],
+      "sources": [
+        "openbank-privacy-policy"
+      ],
+      "note": "La política descriu l’anàlisi de nòmines, pensions i transferències periòdiques com a part del perfilat creditici."
+    },
+    {
+      "type": "situacio-familiar",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "openbank-privacy-policy"
+      ],
+      "note": "La política esmenta dades sobre règim econòmic matrimonial i negocis de transcendència real per a determinats productes."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "compliment-legal"
+      ],
+      "sources": [
+        "openbank-app-store"
+      ],
+      "note": "L’etiqueta declara fotografies o vídeos per a la funcionalitat de l’aplicació: l’alta digital exigeix un vídeo identificatiu."
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "openbank-app-store"
+      ],
+      "note": "Declarada com a dada no vinculada amb la identitat."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "openbank-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "openbank-app-store"
+      ],
+      "note": "Declarat sota «publicidad de terceros» i sota publicitat del desenvolupador."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "openbank-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "openbank-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "openbank-app-store"
+      ]
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "openbank-privacy-policy"
+      ],
+      "note": "Openbank fa segmentacions d’audiència a xarxes socials amb eines com Facebook Custom Audiences."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "openbank-app-store"
+      ],
+      "detail": "L’etiqueta declara identificadors utilitzats per rastrejar-te en aplicacions i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "openbank-app-store"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "openbank-app-store",
+        "openbank-privacy-policy"
+      ],
+      "detail": "Publicitat de tercers declarada a l’etiqueta; la política reconeix l’ús d’eines de segmentació de les xarxes socials.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "openbank-privacy-policy"
+      ],
+      "detail": "Publicitat personalitzada a l’àrea privada del web i segmentacions d’audiència a xarxes socials, totes dues sobre la base de l’interès legítim, amb dret d’oposició.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "openbank-privacy-policy"
+      ],
+      "detail": "Perfilat creditici automatitzat amb fonts internes i externes (ASNEF, BADEXCUG i CIRBE) que pot aprovar o denegar una targeta o un préstec; es pot demanar l’explicació de la lògica i la intervenció humana.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta l’entrenament de models d’intel·ligència artificial."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "openbank-privacy-policy"
+      ],
+      "detail": "Autoritats i supervisors, fitxers de solvència ASNEF i Experian, la plataforma antifrau d’Iberpay, agregadors financers com Tink i proveïdors tecnològics.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "openbank-privacy-policy"
+      ],
+      "detail": "Openbank forma part del grup Santander i la política preveu comunicacions a altres entitats del grup.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "openbank-privacy-policy"
+      ],
+      "detail": "No hi ha venda de dades, però sí comunicació als fitxers comuns de solvència patrimonial en cas d’impagament, que són en la pràctica intermediaris de dades creditícies.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "openbank-privacy-policy"
+      ],
+      "detail": "Transferències a països sense decisió d’adequació en el marc de serveis de proveïdors, amb clàusules contractuals tipus o mecanismes de certificació.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem localitzat cap informe de transparència sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "openbank-privacy-policy"
+      ],
+      "detail": "La política explica el règim de bloqueig posterior a la relació contractual i adverteix que algunes accions de consum són imprescriptibles, però no dona terminis concrets per categoria.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "openbank-privacy-policy"
+      ],
+      "detail": "Un cop acabada la relació, les dades es mantenen bloquejades a disposició d’administracions, jutjats i ministeri fiscal fins que prescriuen les responsabilitats.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "openbank-privacy-policy"
+      ],
+      "detail": "Es pot exercir el dret de supressió, però la relació bancària obliga a cancel·lar abans els productes i deixa les dades bloquejades durant els terminis legals.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "openbank-privacy-policy"
+      ],
+      "detail": "Els drets es poden exercir des del perfil de client, a la secció «Datos Personales», sense haver d’escriure cap correu.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.openbank.es/"
+    },
+    "difficulty": "medium",
+    "steps": [
+      "Cancel·la els productes contractats (comptes, targetes, inversions) des de l’aplicació o del web.",
+      "Entra al perfil de client, a la secció «Datos Personales», i sol·licita la supressió; també es pot fer per correu a privacy@openbank.es.",
+      "Guarda la confirmació i tingues present que les dades quedaran bloquejades durant els terminis legals de conservació."
+    ],
+    "obstacles": "El bloqueig és una obligació legal, de manera que suprimir el compte no esborra l’historial.",
+    "dataRetained": "Dades bloquejades durant els terminis de prescripció fiscal, mercantil i de prevenció del blanqueig.",
+    "sources": [
+      "openbank-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "openbank-privacy-policy"
+      ],
+      "detail": "La política reconeix el dret de portabilitat «en un formato estructurado de uso común y legible» i el canalitza pel perfil de client, el correu, el telèfon o la sucursal.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacy@openbank.es"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "openbank-privacy-policy"
+      ],
+      "detail": "Cinc canals declarats: perfil de client, correu, correu postal, sucursal i telèfon.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacy@openbank.es",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "openbank-privacy-policy"
+      ],
+      "detail": "Es pot oposar a la publicitat personalitzada de l’àrea privada, però el banc adverteix que continuaran els avisos genèrics; per a les xarxes socials cal adreçar-se a la xarxa, no a Openbank.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap control per desactivar l’analítica d’ús de l’aplicació."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "openbank-privacy-policy"
+      ],
+      "detail": "Hi ha consentiments i oposicions separables per finalitat, però es gestionen amb sol·licituds, no amb un panell d’interruptors.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [],
+      "detail": "Fer que l’oposició a la publicitat a xarxes socials s’hagi de tramitar davant de la xarxa social, i no davant del banc que ha fet la segmentació, trasllada a la persona usuària una feina que hauria d’assumir el responsable.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "confusing-language",
+        "severity": "medium",
+        "description": "La política reconeix que Openbank i la xarxa social són corresponsables o responsables separats «según el caso», sense aclarir quan és una cosa o l’altra, i deriva l’oposició a la xarxa social.",
+        "sources": [
+          "openbank-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no transporta comunicacions privades entre persones usuàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El banc no publica documentació tècnica sobre el xifratge del canal."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública."
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "openbank-privacy-policy"
+      ],
+      "detail": "La normativa europea de serveis de pagament exigeix autenticació reforçada i l’aplicació la implementa amb clau de signatura i biometria.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "app-push",
+        "sms"
+      ]
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories de seguretat independents publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses propi d’Openbank ni cap fitxer security.txt a openbank.es."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "santander-hackerone"
+      ],
+      "detail": "Openbank no publica canal propi; el grup Santander, al qual pertany, manté una política de divulgació a HackerOne.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "revolut",
+      "comparability": "partial",
+      "rationale": "Alternativa digital per a les operacions del dia a dia, amb controls de privadesa dins de l’aplicació.",
+      "tradeOffs": "És una entitat lituana amb un model de negoci més orientat a serveis de pagament que a la banca universal."
+    },
+    {
+      "app": "banco-sabadell",
+      "comparability": "equivalent",
+      "rationale": "Banca mòbil espanyola equivalent per a qui prefereixi una entitat amb oficines."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La política d’Openbank explica la lògica del perfilat creditici, les fonts externes que hi entren i com demanar intervenció humana. Tot i això, la mateixa aplicació declara identificadors per rastrejar fora del banc.",
+    "openQuestions": [
+      "Quins tercers publicitaris reben els identificadors que declara l’etiqueta de l’App Store?",
+      "Quin és el resultat pràctic d’oposar-se al perfilat comercial sense cancel·lar els productes?"
+    ]
+  },
+  "appStoreBundleId": "es.openbank.mobile"
+}

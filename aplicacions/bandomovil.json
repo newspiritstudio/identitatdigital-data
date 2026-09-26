@@ -1,0 +1,373 @@
+{
+  "slug": "bandomovil",
+  "name": "Bandomóvil",
+  "company": "lemur-ideas",
+  "categories": [
+    "administracio-publica",
+    "noticies-i-mitjans"
+  ],
+  "tagline": "El ban municipal al mòbil: nom, telèfon i ubicació exacta vinculats a la identitat, sense rastreig",
+  "summary": "Bandomóvil porta al mòbil el ban municipal: ordenances, avisos i actes dels ajuntaments petits que el contracten. L’etiqueta de l’App Store no declara cap dada de rastreig, però sí que vincula a la identitat el nom, el correu, el telèfon, l’identificador del dispositiu i la ubicació exacta, tot per al funcionament de l’aplicació. La política de privadesa és breu i no diu quines dades recull exactament ni durant quant temps.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "subscription",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://www.bandomovil.com/",
+    "privacyPolicy": "https://www.bandomovil.com/susdatosseguros.html",
+    "appStore": "https://apps.apple.com/es/app/id1049832681"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "bandomovil-app-store"
+    ],
+    "detail": "Cal donar dades de contacte per subscriure’s als municipis i rebre’n els avisos.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "bandomovil-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "La llista de municipis als quals et subscrius, amb el telèfon i la ubicació exacta al costat, pot revelar on vius, on tens la segona residència i on viuen els teus pares.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bandomovil-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "bandomovil-app-store"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bandomovil-app-store"
+      ],
+      "note": "L’aplicació inclou una guia telefònica municipal i un mòdul de comunicacions ciutadanes."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bandomovil-app-store"
+      ],
+      "note": "Declarada vinculada a la identitat i associada al funcionament de l’app."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bandomovil-app-store"
+      ],
+      "note": "Necessari per enviar les notificacions push dels bans."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "bandomovil-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap dada utilitzada per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "bandomovil-app-store"
+      ],
+      "detail": "L’etiqueta no declara dades publicitàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut analitzar el trànsit de l’aplicació."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "bandomovil-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap finalitat publicitària de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap perfilat, però tampoc no ho descarta expressament."
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no en diu res."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bandomovil-privacy-policy"
+      ],
+      "detail": "Personal autoritzat, entitats necessàries per prestar el servei com els bancs, i autoritats per obligació legal.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’empresa no forma part de cap grup declarat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "bandomovil-privacy-policy"
+      ],
+      "detail": "La política diu que només es comuniquen dades a altres tercers amb consentiment previ.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bandomovil-privacy-policy"
+      ],
+      "detail": "La política diu que no envia informació a cap país que no consideri segur, llevat d’autorització prèvia, però no detalla cap mecanisme.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Les empreses proveïdores d’administracions locals no acostumen a publicar-ne."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "bandomovil-privacy-policy"
+      ],
+      "detail": "Només el criteri de la durada de la relació i els terminis legals obligatoris.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bandomovil-privacy-policy"
+      ],
+      "detail": "La política diu que un cop passats els terminis legals les dades s’eliminen de manera segura.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bandomovil-privacy-policy"
+      ],
+      "detail": "La política reconeix el dret de supressió.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut verificar cap opció d’eliminació dins de l’aplicació."
+    },
+    "difficulty": "medium",
+    "steps": [
+      "Dona’t de baixa dels municipis als quals estiguis subscrit des de la mateixa aplicació.",
+      "Escriu a info@bandomovil.com demanant la supressió de les dades personals."
+    ],
+    "obstacles": "La política no publica cap formulari ni termini de resposta.",
+    "sources": [
+      "bandomovil-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bandomovil-privacy-policy"
+      ],
+      "detail": "La portabilitat es reconeix, però cal demanar-la per correu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bandomovil-privacy-policy"
+      ],
+      "detail": "Per correu a info@bandomovil.com, amb reclamació davant l’AEPD.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:info@bandomovil.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no mostra publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bandomovil-app-store"
+      ],
+      "detail": "Es poden triar els municipis subscrits i filtrar les categories d’avisos.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És un canal de comunicació pública dels ajuntaments.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bandomovil-privacy-policy"
+      ],
+      "detail": "La política diu que l’empresa fa auditories anuals de la seva política de protecció de dades; no consta cap auditoria de seguretat externa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El domini no publica cap fitxer security.txt."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "eagora",
+      "comparability": "equivalent",
+      "rationale": "Mateixa funció de comunicació municipal, amb una etiqueta que no vincula cap dada a la identitat."
+    }
+  ],
+  "review": {
+    "researchStatus": "initial",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "La política és un text genèric que no enumera les dades recollides, en contrast amb una etiqueta de l’App Store que sí que ho fa i que hi vincula la ubicació exacta. Els ajuntaments que contracten el servei no hi apareixen com a responsables ni com a encarregats.",
+    "openQuestions": [
+      "Per a què s’utilitza la ubicació exacta vinculada a la identitat?",
+      "Quin és el repartiment de responsabilitats entre Lemur Ideas i els ajuntaments?",
+      "L’aplicació permet eliminar el compte sense escriure un correu?"
+    ]
+  },
+  "appStoreBundleId": "com.bandomovil.bandomovil"
+}

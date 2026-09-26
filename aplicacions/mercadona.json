@@ -1,0 +1,463 @@
+{
+  "slug": "mercadona",
+  "name": "Mercadona",
+  "company": "mercadona",
+  "categories": [
+    "alimentacio-i-restauracio",
+    "comerc-electronic"
+  ],
+  "tagline": "L’aplicació declara que no fa rastreig, però l’empresa va pagar 2,52 milions d’euros de sanció per reconeixement facial a les botigues",
+  "summary": "L’aplicació de compra en línia de Mercadona és de les poques del sector que declara a l’App Store que no fa servir cap dada per rastrejar-te, i la fitxa de Google Play limita la compartició a finalitats d’analítica. El web de la política de privadesa bloqueja qualsevol lectura automatitzada, de manera que no hem pogut documentar bases jurídiques, terminis ni transferències. El 2021 l’AEPD va sancionar l’empresa amb 2.520.000 euros pel sistema de reconeixement facial de les botigues físiques.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://www.mercadona.es/",
+    "appStore": "https://apps.apple.com/es/app/id1368037685",
+    "playStore": "https://play.google.com/store/apps/details?id=es.mercadona.tienda"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "mercadona-app-store"
+    ],
+    "detail": "L’etiqueta de l’App Store declara identificador d’usuari vinculat a la identitat per al funcionament de l’aplicació; la compra en línia de Mercadona exigeix registre.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "mercadona-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "La cistella de la compra setmanal revela la dieta, les intoleràncies, la mida de la llar, la presència d’infants o de mascotes i el nivell de despesa. L’aplicació hi suma l’adreça de lliurament i la ubicació precisa per triar el magatzem de referència.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "mercadona-play-data-safety"
+      ],
+      "note": "La fitxa de Google Play declara que el nom es comparteix amb finalitats d’analítica."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "mercadona-play-data-safety"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "mercadona-play-data-safety"
+      ],
+      "note": "Imprescindible per al lliurament a domicili; Google Play la declara també per a analítica."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "mercadona-app-store",
+        "mercadona-play-data-safety"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "mercadona-app-store",
+        "mercadona-play-data-safety"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "mercadona-app-store",
+        "mercadona-play-data-safety"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "mercadona-app-store"
+      ],
+      "note": "L’etiqueta la declara no vinculada a la identitat, per al funcionament de l’aplicació."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "mercadona-app-store"
+      ]
+    },
+    {
+      "type": "aplicacions-instal-lades",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "mercadona-play-data-safety"
+      ],
+      "note": "La fitxa de Google Play declara la recollida de la llista d’aplicacions instal·lades per a la prevenció del frau."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "mercadona-app-store"
+      ],
+      "note": "L’aplicació guarda les compres anteriors per repetir-les; no hem pogut verificar-ne el tractament posterior."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "mercadona-app-store"
+      ],
+      "note": "La compra en línia requereix targeta; la política no s’ha pogut llegir."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "mercadona-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada utilitzada per rastrejar-te entre aplicacions i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "mercadona-app-store",
+        "mercadona-play-data-safety"
+      ],
+      "detail": "Cap de les dues fitxes de botiga declara identificadors publicitaris ni finalitats de publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "mercadona-play-data-safety"
+      ],
+      "detail": "Hi ha compartició d’identificadors de dispositiu i d’interaccions amb finalitats d’analítica, però cap finalitat publicitària declarada.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "mercadona-app-store",
+        "mercadona-play-data-safety"
+      ],
+      "detail": "Cap de les dues fitxes de botiga declara finalitats de publicitat personalitzada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut llegir la política de privadesa i les fitxes de botiga no declaren elaboració de perfils."
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap document oficial sobre l’ús de dades per entrenar models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mercadona-play-data-safety"
+      ],
+      "detail": "La fitxa de Google Play declara compartició d’interaccions, identificadors de dispositiu, nom, correu i adreça amb finalitats d’analítica.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut llegir la política de privadesa."
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap document oficial que ho descrigui ni que ho descarti."
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut llegir la política de privadesa, que és on constarien les transferències internacionals."
+    }
+  },
+  "transparency": {
+    "policyClarity": "unknown",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut llegir la política de privadesa, que és on hi hauria els terminis de conservació."
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació oficial sobre què es conserva després d’eliminar el compte."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mercadona-play-data-safety"
+      ],
+      "detail": "La fitxa de Google Play declara que es pot demanar l’eliminació de les dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut verificar si l’eliminació es pot fer des de l’aplicació ni quins són els passos reals."
+    },
+    "difficulty": "unknown",
+    "requiresSupportContact": false,
+    "steps": [],
+    "sources": [
+      "mercadona-play-data-safety"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap eina ni cap document oficial sobre la descàrrega de les dades."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut llegir la política de privadesa, que és on constaria el canal per exercir els drets."
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Les fitxes de botiga no declaren cap tractament amb finalitats publicitàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació oficial sobre com desactivar l’analítica d’ús."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut verificar quins controls de privadesa ofereix l’aplicació."
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi independent dels formularis de consentiment de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És una aplicació de compra en línia sense comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mercadona-play-data-safety"
+      ],
+      "detail": "La fitxa de Google Play declara que les dades es xifren en trànsit.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat informació pública sobre el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació oficial sobre la verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat auditories ni certificacions de seguretat publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa públic de recompenses per vulnerabilitats."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap security.txt ni cap canal públic documentat per notificar vulnerabilitats."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "bonpreu-i-esclat",
+      "comparability": "partial",
+      "rationale": "Cadena d’alimentació que no declara cap dada utilitzada per rastrejar a l’App Store i que no fa publicitat segmentada amb identificadors publicitaris.",
+      "tradeOffs": "Només opera a Catalunya i la política és molt menys detallada, sense terminis concrets."
+    },
+    {
+      "app": "dia",
+      "comparability": "equivalent",
+      "rationale": "Programa de fidelització d’abast estatal amb una política que detalla les cessions i permet retirar el consentiment publicitari.",
+      "tradeOffs": "També basa el perfil comercial en el contracte i declara identificadors utilitzats per rastrejar."
+    },
+    {
+      "app": "carrefour",
+      "comparability": "equivalent",
+      "rationale": "Alternativa d’abast estatal amb compra en línia i programa de fidelització.",
+      "tradeOffs": "Les pràctiques de rastreig es documenten a la fitxa de Mi Carrefour."
+    }
+  ],
+  "review": {
+    "researchStatus": "initial",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Tots els dominis de Mercadona que allotgen la política de privadesa (info.mercadona.es, www.mercadona.es, tienda.mercadona.es i privacy.mercadona.com) responen amb un error 403 a les peticions automatitzades, i no n’hi ha captures a l’arxiu web. La fitxa es fonamenta només en les dues etiquetes de botiga i en la resolució de l’AEPD, i per això queda com a «initial». La sanció del 2021 es refereix al reconeixement facial de les botigues físiques, no a l’aplicació.",
+    "openQuestions": [
+      "Quines bases jurídiques, terminis de conservació i transferències internacionals declara la política de privadesa de Mercadona?",
+      "Com s’elimina el compte de la botiga en línia i què es conserva després?",
+      "Mercadona fa servir l’historial de compres per elaborar perfils o per personalitzar ofertes?"
+    ]
+  },
+  "appStoreBundleId": "es.mercadona.tienda"
+}

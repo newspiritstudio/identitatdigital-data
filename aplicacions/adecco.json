@@ -1,0 +1,605 @@
+{
+  "slug": "adecco",
+  "name": "Adecco: Buscar Trabajo",
+  "company": "adecco-iberia",
+  "categories": [
+    "feina-i-ocupacio"
+  ],
+  "tagline": "Tres anys de conservació del perfil i sis mesos per a les dades de discapacitat, amb aprenentatge automàtic a la preselecció",
+  "summary": "Adecco publica terminis de conservació concrets: fins a tres anys des de l’última activitat, sis mesos per a les dades sensibles com la discapacitat i fins a sis anys per a les reclamacions. La política admet que recull dades sobre discapacitat i sobre delictes penals quan la llei ho permet, i que fa servir aprenentatge automàtic per elaborar la preselecció, tot i que assegura que les decisions són humanes. El 2021 es va filtrar una base de dades de candidats d’Adecco a Sud-amèrica.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "unknown",
+  "jurisdiction": "Espanya (Adecco Iberia, S.A.), dins del grup suís The Adecco Group",
+  "links": {
+    "website": "https://www.adecco.es/",
+    "privacyPolicy": "https://www.adeccogroup.com/es-es/politica-de-privacidad-candidatos",
+    "appStore": "https://apps.apple.com/es/app/id731343750"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "adecco-candidate-privacy"
+    ],
+    "detail": "Cal registrar-se com a candidat per inscriure’s a les ofertes i constar a la base de dades.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "adecco-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Currículum, titulacions, documents d’identitat, proves del dret a treballar i, quan la llei ho permet, dades sobre discapacitat i sobre delictes penals presumptes o provats. L’etiqueta de l’App Store hi afegeix la ubicació exacta i les fotografies o vídeos. Amb aquestes dades es pot reconstruir la trajectòria laboral d’una persona i conèixer part de la seva situació de salut.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "cessio-a-tercers"
+      ],
+      "sources": [
+        "adecco-candidate-privacy",
+        "adecco-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "adecco-candidate-privacy",
+        "adecco-app-store"
+      ],
+      "note": "El màrqueting directe es basa en el consentiment."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "adecco-candidate-privacy",
+        "adecco-app-store"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "adecco-candidate-privacy",
+        "adecco-app-store"
+      ]
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "adecco-candidate-privacy"
+      ],
+      "note": "Documents d’identitat i proves del dret a treballar."
+    },
+    {
+      "type": "nivell-formatiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "adecco-candidate-privacy"
+      ]
+    },
+    {
+      "type": "ocupacio-i-carrec",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "adecco-candidate-privacy"
+      ]
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "adecco-candidate-privacy"
+      ],
+      "note": "La política classifica com a dades confidencials els detalls sobre qualsevol discapacitat i les conserva sis mesos des de l’última activitat."
+    },
+    {
+      "type": "conviccions-i-opinions",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal"
+      ],
+      "sources": [
+        "adecco-candidate-privacy"
+      ],
+      "note": "La política preveu tractar dades sobre delictes penals presumptes o provats quan la legislació ho permet; a la taxonomia del projecte és el tipus de dada més proper."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "adecco-app-store"
+      ],
+      "note": "L’etiqueta declara contingut de l’usuari (fotos o vídeos) vinculat a la identitat."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "adecco-app-store"
+      ],
+      "note": "L’etiqueta declara la ubicació exacta per a la funcionalitat de l’aplicació; la política de candidats no l’esmenta."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "adecco-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "adecco-app-store"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "adecco-candidate-privacy"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "adecco-candidate-privacy"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "adecco-app-store"
+      ]
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "adecco-candidate-privacy"
+      ],
+      "note": "Preselecció elaborada amb aprenentatge automàtic, revisada per persones segons la política."
+    },
+    {
+      "type": "contrasenya",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "adecco-candidate-privacy",
+        "adecco-hibp-breach"
+      ],
+      "note": "La filtració del 2021 va exposar contrasenyes protegides amb bcrypt."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "adecco-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada utilitzada per rastrejar la persona en aplicacions o webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Ni l’etiqueta ni la política esmenten l’identificador publicitari del dispositiu."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "adecco-candidate-privacy"
+      ],
+      "detail": "La política inclou galetes i dades de navegació entre les dades tècniques que recull, i esmenta informació de campanyes de màrqueting.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "adecco-candidate-privacy"
+      ],
+      "detail": "El màrqueting directe es basa en el consentiment i es pot retirar; no hem trobat publicitat de tercers dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "adecco-candidate-privacy"
+      ],
+      "detail": "La política diu que no pren decisions automatitzades, però reconeix que utilitza aprenentatge automàtic per elaborar la preselecció de candidatures.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu si les candidatures serveixen per entrenar els models d’aprenentatge automàtic que esmenta."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "adecco-candidate-privacy"
+      ],
+      "detail": "Clients i ocupadors potencials, proveïdors de tecnologia i autoritats públiques sota ordre legal.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "adecco-candidate-privacy"
+      ],
+      "detail": "Altres societats del grup Adecco, entre d’altres per a funcions informàtiques a la República Txeca i França.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta la venda de dades a intermediaris."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "adecco-candidate-privacy"
+      ],
+      "detail": "Transferències dins i fora de la Unió Europea emparades en decisions d’adequació i en clàusules contractuals tipus.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "adecco-candidate-privacy"
+      ],
+      "detail": "La política publica terminis concrets per tipus de dada, cosa poc habitual en aquest sector.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "adecco-candidate-privacy"
+      ],
+      "detail": "Les incidències i reclamacions es conserven fins a sis anys i les obligacions fiscals i laborals imposen els seus propis terminis.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "period": "Fins a tres anys des de l’última activitat, amb caràcter general",
+        "sources": [
+          "adecco-candidate-privacy"
+        ]
+      },
+      {
+        "dataType": "dades-de-salut",
+        "period": "Sis mesos des de l’última activitat",
+        "sources": [
+          "adecco-candidate-privacy"
+        ]
+      },
+      {
+        "period": "Fins a sis anys per a incidències i reclamacions",
+        "sources": [
+          "adecco-candidate-privacy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "adecco-candidate-privacy"
+      ],
+      "detail": "La política reconeix el dret a ser oblidat i a eliminar la informació personal.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política només documenta un formulari de drets i dues adreces de correu; no hem trobat una opció d’eliminació del compte dins de l’aplicació."
+    },
+    "difficulty": "medium",
+    "requiresSupportContact": true,
+    "steps": [
+      "Omple el formulari d’exercici de drets que enllaça la política de privadesa de candidats.",
+      "Alternativament, escriu a globalprivacy@adeccogroup.com o, per a Espanya, a proteccion.datos@adecco.com demanant la supressió.",
+      "Si no hi ha resposta en un mes, reclama davant de l’Agencia Española de Protección de Datos."
+    ],
+    "obstacles": "No hi ha un botó d’eliminació documentat: cal passar per un formulari o pel correu de protecció de dades.",
+    "dataRetained": "Dades necessàries per a obligacions fiscals i laborals i per a reclamacions, fins a sis anys.",
+    "sources": [
+      "adecco-candidate-privacy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "adecco-candidate-privacy"
+      ],
+      "detail": "La política reconeix el dret d’accés i a obtenir una còpia de les dades a través del formulari de drets.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "adecco-candidate-privacy"
+      ],
+      "detail": "Formulari de drets, delegat de protecció de dades del grup a globalprivacy@adeccogroup.com i contacte local a proteccion.datos@adecco.com.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "adecco-candidate-privacy"
+      ],
+      "detail": "El màrqueting directe es basa en el consentiment i es pot retirar en qualsevol moment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap opció documentada per desactivar l’analítica dins de l’aplicació."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "adecco-candidate-privacy"
+      ],
+      "detail": "Hi ha consentiments separats per a màrqueting i per a dades confidencials, però la política no descriu un panell de preferències dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem analitzat els formularis de registre i consentiment de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És una aplicació de cerca de feina, sense comunicacions privades xifrades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació oficial sobre el xifratge en trànsit d’aquesta aplicació."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública sobre el xifratge de les dades en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política només parla de mantenir les credencials segures; no hem trobat cap verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat auditories ni certificacions de seguretat publicades per a aquest servei."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa públic de recompenses per vulnerabilitats del grup Adecco."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap canal públic documentat per notificar vulnerabilitats."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "infojobs",
+      "comparability": "equivalent",
+      "rationale": "Cobreix la mateixa necessitat de cercar feina a Espanya amb un portal generalista.",
+      "tradeOffs": "No hem comprovat que publiqui terminis de conservació tan concrets com Adecco."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La política de candidats del grup Adecco dona detall sobre terminis i categories especials de dades. En canvi, l’etiqueta de l’App Store declara ubicació exacta i fotografies que la política no esmenta. La filtració del 2021 afecta usuaris d’Amèrica del Sud; no consta que afectés Espanya.",
+    "openQuestions": [
+      "Per a què demana l’aplicació la ubicació exacta, si la política de candidats no la menciona?",
+      "Quin sistema d’aprenentatge automàtic fa la preselecció i com es pot demanar la revisió humana?",
+      "Va afectar la filtració del 2021 candidats d’Espanya?"
+    ]
+  },
+  "appStoreBundleId": "org.apache.cordovastore.AdeccoEmpleate"
+}

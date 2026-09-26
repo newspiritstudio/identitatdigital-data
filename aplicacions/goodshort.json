@@ -1,0 +1,554 @@
+{
+  "slug": "goodshort",
+  "name": "GoodShort",
+  "company": "new-reading-technology",
+  "categories": [
+    "video-i-streaming"
+  ],
+  "tagline": "Sèries verticals de pagament per episodi amb la mateixa política que GoodNovel",
+  "summary": "GoodShort és la versió audiovisual de GoodNovel: microsèries verticals que es desbloquegen episodi a episodi amb monedes. La política de privadesa és pràcticament idèntica a la de GoodNovel i comparteix la mateixa adreça de contacte. El model de pagament fragmentat fa que el registre de visualització i de despesa sigui molt detallat, i la baixa implica perdre el saldo.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Singapur",
+  "userBase": "Plataforma de drames curts verticals amb desenes de milions de descàrregues",
+  "links": {
+    "website": "https://www.goodshort.com/",
+    "privacyPolicy": "https://www.goodshort.com/other/static_file/privacy_policy.html",
+    "terms": "https://www.goodshort.com/other/static_file/term_of_use.html",
+    "appStore": "https://apps.apple.com/es/app/id6448176203"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "goodshort-privacy-policy"
+    ],
+    "detail": "Es pot mirar contingut gratuït sense compte, però desbloquejar episodis i conservar el saldo en demana un.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "goodshort-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "El pagament per episodi genera un registre minut a minut del que es mira i del moment exacte en què es decideix pagar per continuar. Aquest registre mostra fins a quin punt enganxa el contingut i queda lligat a l’historial de despesa.",
+  "dataCollection": [
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "goodshort-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "goodshort-app-store",
+        "goodshort-privacy-policy"
+      ]
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "compliment-legal"
+      ],
+      "sources": [
+        "goodshort-privacy-policy"
+      ],
+      "note": "Edat mínima de dotze anys i consentiment parental fins als divuit."
+    },
+    {
+      "type": "genere",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "goodshort-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "goodshort-privacy-policy"
+      ],
+      "note": "La política esmenta processadors de pagament com PayPal."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "recomanacions-algoritmiques",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "goodshort-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-visualitzacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "goodshort-privacy-policy"
+      ],
+      "note": "La política parla de patrons, freqüència i durada del consum de contingut."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "goodshort-privacy-policy"
+      ]
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "goodshort-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "goodshort-app-store"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "goodshort-app-store"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "goodshort-privacy-policy"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "goodshort-privacy-policy"
+      ]
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "goodshort-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "goodshort-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "goodshort-app-store"
+      ],
+      "detail": "L’etiqueta declara identificadors utilitzats per rastrejar-te en aplicacions i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "goodshort-app-store"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "goodshort-privacy-policy"
+      ],
+      "detail": "La política reconeix socis publicitaris i tecnologies de seguiment.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "goodshort-privacy-policy"
+      ],
+      "detail": "Publicitat personalitzada amb socis comercials, amb una opció declarada d’acceptació o rebuig.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "goodshort-privacy-policy"
+      ],
+      "detail": "Recomanacions a partir dels patrons de visualització i de compra.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta l’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "goodshort-privacy-policy"
+      ],
+      "detail": "Socis de serveis, processadors de pagament i autoritats quan ho exigeix la llei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "goodshort-privacy-policy"
+      ],
+      "detail": "Compartició amb societats afiliades; la política comparteix adreça de contacte amb GoodNovel.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "goodshort-privacy-policy"
+      ],
+      "detail": "La política afirma que no es venen dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "goodshort-privacy-policy"
+      ],
+      "detail": "Transferències als Estats Units i a altres països per mantenir l’operació global, sense esmentar cap mecanisme de l’article 46 del RGPD.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No publica cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "goodshort-privacy-policy"
+      ],
+      "detail": "Només el criteri genèric del temps necessari per prestar el servei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "goodshort-privacy-policy"
+      ],
+      "detail": "Després de la baixa es poden conservar dades agregades i anonimitzades.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "goodshort-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "goodshort-privacy-policy"
+      ],
+      "detail": "Es pot demanar des del Personal Center o a l’atenció al client, amb un termini de quinze dies.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "waitingPeriodDays": 15,
+    "steps": [
+      "Entra al Personal Center de l’aplicació i sol·licita l’eliminació del compte.",
+      "Si no hi trobes l’opció, escriu a contact@goodnovel.com, que és l’adreça declarada també per a GoodShort.",
+      "La sol·licitud es completa en un termini de quinze dies.",
+      "Tingues present que perdràs l’historial de visualització, els episodis desbloquejats i el saldo de monedes."
+    ],
+    "obstacles": "El compte no es pot reactivar i el saldo de monedes no consumides es perd, cosa que penalitza econòmicament la sortida.",
+    "dataRetained": "Dades agregades i anonimitzades.",
+    "sources": [
+      "goodshort-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "goodshort-privacy-policy"
+      ],
+      "detail": "El dret d’accés es canalitza pel Personal Center i per l’atenció al client, sense una eina d’exportació documentada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "goodshort-privacy-policy"
+      ],
+      "detail": "Resposta declarada en quinze dies laborables. No consta cap representant a la Unió Europea segons l’article 27 del RGPD.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:contact@goodnovel.com",
+      "responseTimeDays": 15
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "goodshort-privacy-policy"
+      ],
+      "detail": "La política diu que es pot acceptar o rebutjar l’ús de dades dels socis per a publicitat personalitzada, sense indicar on és el control.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap control per desactivar l’analítica d’ús."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap panell de privadesa per finalitat."
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [],
+      "detail": "El model de monedes prepagades fa que tancar el compte signifiqui renunciar a diners ja pagats. Aquesta barrera de sortida no respon a cap requisit tècnic ni legal.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "other",
+        "severity": "medium",
+        "description": "La baixa comporta la pèrdua del saldo de monedes comprades i dels episodis desbloquejats, sense possibilitat de reactivació ni de reemborsament.",
+        "sources": [
+          "goodshort-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei distribueix vídeo; no transporta comunicacions privades entre persones usuàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política parla de mesures «raonables i apropiades», sense detallar el xifratge en trànsit."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La documentació pública no confirma si el compte admet un segon factor."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories independents publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses ni cap fitxer security.txt a goodshort.com."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap política pública de divulgació de vulnerabilitats."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "goodnovel",
+      "comparability": "complementary",
+      "rationale": "És la mateixa editora en format text: canviar d’una a l’altra no canvia el responsable del tractament."
+    },
+    {
+      "app": "netflix",
+      "comparability": "partial",
+      "rationale": "Subscripció plana de vídeo, sense pagament per episodi ni saldo de monedes que es perdi en donar-se de baixa.",
+      "tradeOffs": "No té catàleg de microsèries verticals i el preu mensual és més alt que unes quantes monedes soltes."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "GoodShort i GoodNovel comparteixen editora, política i adreça de contacte. Pel que fa a la privadesa, la diferència és que aquí la dada principal és l’historial de visualització i el moment exacte de la decisió de pagar.",
+    "openQuestions": [
+      "Quin mecanisme empara les transferències als Estats Units?",
+      "El saldo de monedes es pot reemborsar abans de tancar el compte?"
+    ]
+  },
+  "appStoreBundleId": "com.newreading.goodreels"
+}

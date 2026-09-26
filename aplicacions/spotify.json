@@ -1,0 +1,568 @@
+{
+  "slug": "spotify",
+  "name": "Spotify",
+  "company": "spotify",
+  "categories": [
+    "musica-i-audio"
+  ],
+  "tagline": "Música per subscripció amb inferència d’estat d’ànim",
+  "summary": "L’historial d’escolta de Spotify permet inferir estat d’ànim, rutines, moments del dia i episodis vitals. La companyia ho ha fet servir públicament en campanyes basades en dades agregades. La sanció sueca de 2023, reduïda després en via judicial, va ser per no explicar prou bé què feia amb les dades.",
+  "platforms": [
+    "ios",
+    "android",
+    "web",
+    "windows",
+    "macos",
+    "linux"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Suècia",
+  "userBase": "Més de 675 milions de persones usuàries actives mensuals",
+  "links": {
+    "website": "https://www.spotify.com/",
+    "privacyPolicy": "https://www.spotify.com/legal/privacy-policy/",
+    "terms": "https://www.spotify.com/legal/end-user-agreement/",
+    "privacyCenter": "https://www.spotify.com/account/privacy/"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "spotify-privacy-policy"
+    ],
+    "detail": "Cal compte fins i tot per al pla gratuït.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "spotify-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Spotify recull cada reproducció amb marca de temps, dispositiu i context. Aquest nivell de detall fa possibles les recomanacions i converteix l’historial d’escolta en una dada molt personal.",
+  "dataCollection": [
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "spotify-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "spotify-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-visualitzacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "spotify-privacy-policy"
+      ],
+      "note": "Historial complet d’escolta amb marca de temps."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "spotify-privacy-policy"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "spotify-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "spotify-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "spotify-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "spotify-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "spotify-privacy-policy"
+      ]
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "spotify-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "spotify-privacy-policy"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "spotify-privacy-policy"
+      ]
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "spotify-privacy-policy"
+      ]
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "spotify-privacy-policy"
+      ],
+      "note": "Comandes de veu, si s’activen."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "spotify-privacy-policy"
+      ]
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "spotify-privacy-policy"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "spotify-privacy-policy"
+      ],
+      "detail": "El pla gratuït incorpora socis publicitaris que operen fora del servei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "spotify-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "spotify-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "spotify-privacy-settings"
+      ],
+      "detail": "Només al pla gratuït. El pla de pagament no mostra publicitat, però la recollida de dades d’escolta continua.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://www.spotify.com/account/privacy/"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "spotify-privacy-policy"
+      ],
+      "detail": "Es pot desactivar la personalització de la publicitat, però no la de les recomanacions, que és el nucli del servei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "spotify-privacy-policy"
+      ],
+      "detail": "La política preveu l’ús de dades per desenvolupar noves funcions, incloent-hi les basades en aprenentatge automàtic com el DJ.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "spotify-privacy-policy"
+      ],
+      "detail": "Anunciants, socis de mesura, discogràfiques amb dades agregades i aplicacions connectades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Spotify no forma part d’un grup amb altres serveis de consum.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "spotify-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "spotify-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "spotify-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.spotify.com/legal/transparency-report/"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "regulator",
+      "sources": [
+        "spotify-privacy-policy",
+        "imy-spotify-2023"
+      ],
+      "detail": "La política descriu criteris de conservació però amb pocs terminis numèrics, cosa relacionada amb la sanció sueca.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "spotify-close-account"
+      ],
+      "detail": "El compte es pot recuperar durant 7 dies; després s’elimina, però es conserven dades de facturació i registres legals.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "period": "7 dies de finestra de recuperació abans de l’eliminació definitiva",
+        "sources": [
+          "spotify-close-account"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "spotify-close-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "spotify-close-account"
+      ],
+      "detail": "Es fa des del web mitjançant un formulari guiat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://support.spotify.com/us/article/close-account/",
+    "difficulty": "easy",
+    "waitingPeriodDays": 7,
+    "requiresSupportContact": false,
+    "steps": [
+      "Cancel·la primer la subscripció de pagament si en tens.",
+      "Entra al suport de Spotify i obre l’article de tancament del compte.",
+      "Segueix el formulari «Tanca el compte» i confirma les dades.",
+      "Confirma des de l’enllaç que rebràs per correu electrònic."
+    ],
+    "obstacles": "Cal cancel·lar la subscripció abans, i la confirmació arriba per correu electrònic amb un enllaç de validesa limitada.",
+    "dataRetained": "Les llistes de reproducció públiques poden continuar sent accessibles per a les persones que hi estaven subscrites. Es conserven dades de facturació.",
+    "sources": [
+      "spotify-close-account"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "regulator",
+      "sources": [
+        "spotify-privacy-settings",
+        "imy-spotify-2023"
+      ],
+      "detail": "Es pot demanar l’historial d’escolta complet, tot i que arriba en dos lliuraments i el segon pot trigar fins a 30 dies.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.spotify.com/account/privacy/"
+    },
+    "exportFormatQuality": "open",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "regulator",
+      "sources": [
+        "imy-spotify-2023"
+      ],
+      "detail": "L’autoritat sueca va constatar que Spotify facilitava les dades però no explicava prou clarament com les feia servir.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://support.spotify.com/us/privacy/",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "spotify-privacy-settings"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.spotify.com/account/privacy/"
+    },
+    "telemetryOptOut": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "spotify-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "spotify-privacy-settings"
+      ],
+      "detail": "Hi ha una sessió privada temporal i controls de personalització de la publicitat, però no es pot desactivar el registre de l’historial d’escolta.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "no",
+      "level": "editorial",
+      "sources": [
+        "spotify-close-account"
+      ],
+      "detail": "El procés de tancament és clar, tot i que exigeix passar pel web i no per l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei distribueix contingut, no comunicacions privades entre persones usuàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "spotify-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "spotify-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "spotify-privacy-policy"
+      ],
+      "detail": "Spotify no ofereix verificació en dos passos per a comptes creats amb contrasenya; l’accés per enllaç màgic i els inicis de sessió amb comptes de tercers en són el substitut.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "email"
+      ]
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories de seguretat independents publicades."
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "spotify-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://hackerone.com/spotify"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "spotify-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "L’import de la sanció sueca es va reduir substancialment en via judicial, de manera que l’incident queda registrat amb estat «anul·lada o reduïda». Per això no es compta per l’import original."
+  },
+  "appStoreBundleId": "com.spotify.client"
+}

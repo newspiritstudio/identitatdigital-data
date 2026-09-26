@@ -1,0 +1,471 @@
+{
+  "slug": "holodex",
+  "name": "HoloDex",
+  "company": "mavelli",
+  "categories": [
+    "utilitats"
+  ],
+  "tagline": "Escàner de cromos que declara la ubicació i les fotos entre les dades de rastreig",
+  "summary": "HoloDex escaneja cartes col·leccionables de Pokémon, Magic o Lorcana, en valora l’estat amb IA i en fa el seguiment del preu. L’etiqueta de l’App Store declara la ubicació, els identificadors i les dades d’ús com a dades utilitzades per rastrejar, i vincula amb la persona el correu, les fotos, l’historial de cerca i la ubicació exacta. La política la signa una empresa de zona franca de Dubai i confirma l’ús de píxels i SDK per a atribució i mesura publicitària, amb tractament repartit entre els Emirats, els Estats Units i la Unió Europea.",
+  "platforms": [
+    "ios"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Emirats Àrabs Units",
+  "links": {
+    "website": "https://www.getholodex.com/",
+    "privacyPolicy": "https://www.getholodex.com/privacy",
+    "appStore": "https://apps.apple.com/es/app/id6747442689"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "holodex-privacy"
+    ],
+    "detail": "La col·lecció es lliga a un compte, amb registre propi o amb Apple i Google.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "holodex-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Una col·lecció escanejada és un inventari de béns amb valor de mercat, lligat a un correu i, segons l’etiqueta, a la ubicació exacta. Aquesta informació pot interessar tant als anunciants com a qualsevol que vulgui saber què guardes a casa.",
+  "dataCollection": [
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "holodex-app-store",
+        "holodex-privacy"
+      ]
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "holodex-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "holodex-app-store",
+        "holodex-privacy"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "holodex-app-store",
+        "holodex-privacy"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "holodex-app-store"
+      ],
+      "note": "L’etiqueta la declara vinculada amb la persona i posa la ubicació entre les dades de rastreig. La política no explica per a què la necessita un escàner de cartes."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "holodex-app-store"
+      ]
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "holodex-app-store",
+        "holodex-privacy"
+      ],
+      "note": "Imatges de l’anvers i el revers de cada carta per a l’escaneig i la valoració automàtica."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "holodex-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "holodex-privacy"
+      ],
+      "note": "Les subscripcions es gestionen amb RevenueCat i Stripe."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "holodex-app-store",
+        "holodex-privacy"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "holodex-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "holodex-app-store"
+      ],
+      "detail": "L’etiqueta declara la ubicació, els identificadors i les dades d’ús com a dades utilitzades per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "holodex-privacy"
+      ],
+      "detail": "La política cita píxels, SDK i emmagatzematge local per a atribució i mesura publicitària.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "holodex-privacy"
+      ],
+      "detail": "SDK d’atribució i de mesura, a més dels proveïdors de pagament i d’autenticació.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "holodex-privacy"
+      ],
+      "detail": "La política descriu mesura de campanyes i comunicacions de màrqueting; no detalla publicitat dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu l’elaboració de perfils."
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’aplicació fa valoració automàtica de cartes amb IA, però la política no diu si les imatges enviades serveixen per entrenar el model."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "holodex-privacy"
+      ],
+      "detail": "Apple i Google per a autenticació i pagament, RevenueCat i Stripe per a subscripcions, i proveïdors d’analítica i atribució.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap estructura de grup."
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no ho aclareix."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "holodex-privacy"
+      ],
+      "detail": "El tractament es reparteix entre els Emirats Àrabs Units, els Estats Units, la Unió Europea i altres llocs on opera l’empresa, sense concretar cap garantia adequada.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "holodex-privacy"
+      ],
+      "detail": "El criteri és «mentre sigui necessari», sense terminis.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "holodex-privacy"
+      ],
+      "detail": "La política adverteix que algunes dades poden persistir a les còpies de seguretat.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "holodex-privacy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "holodex-privacy"
+      ],
+      "detail": "La política diu que el compte es pot esborrar des de l’aplicació o escrivint al correu de contacte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "requiresSupportContact": false,
+    "steps": [
+      "Cancel·la la subscripció des de l’App Store: els plans van de 4,99 € setmanals a 49,99 €.",
+      "Esborra el compte des de l’aplicació o escriu a contact@getholodex.com."
+    ],
+    "obstacles": "Algunes dades poden quedar a les còpies de seguretat i la política no diu quant de temps.",
+    "dataRetained": "Còpies de seguretat i les dades necessàries per complir obligacions legals.",
+    "sources": [
+      "holodex-privacy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "holodex-privacy"
+      ],
+      "detail": "El dret d’accés es reconeix segons el lloc de residència, sense eina d’exportació documentada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "holodex-privacy"
+      ],
+      "detail": "Els drets s’exerceixen per correu; la política no designa cap representant a la Unió Europea.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:contact@getholodex.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "holodex-privacy"
+      ],
+      "detail": "Es pot deixar de rebre comunicacions de màrqueting; la política no ofereix un control per a l’atribució publicitària.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "holodex-privacy"
+      ],
+      "detail": "No descriu cap manera de desactivar l’analítica.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut verificar quins controls de privadesa hi ha dins de l’aplicació."
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem provat el flux de subscripció, però la fitxa ofereix set plans amb preus molt dispars."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És un gestor de col·leccions, sense comunicacions privades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’accés amb Apple o Google hereta el segon factor d’aquests comptes; l’app no en documenta cap de propi."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "holodex-privacy"
+      ],
+      "detail": "El domini no publica cap fitxer security.txt i la política no dona cap canal de seguretat.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "collectr",
+      "comparability": "equivalent",
+      "rationale": "Cobreix el mateix ús de catalogació i valoració de col·leccions de cartes."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "No hem trobat incidents documentats. El punt menys justificat és la ubicació: l’etiqueta la declara exacta, vinculada amb la persona i entre les dades de rastreig, i la política no explica quina funció d’un escàner de cartes la necessita.",
+    "openQuestions": [
+      "Per a què fa servir HoloDex la ubicació exacta?",
+      "Les imatges de les cartes serveixen per entrenar el model de valoració?",
+      "Qui és el representant de Mavelli FZCO a la Unió Europea?"
+    ]
+  },
+  "appStoreBundleId": "com.getholodex.app"
+}

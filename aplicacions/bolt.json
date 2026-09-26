@@ -1,0 +1,705 @@
+{
+  "slug": "bolt",
+  "name": "Bolt",
+  "company": "bolt-operations",
+  "categories": [
+    "mobilitat-i-transport"
+  ],
+  "tagline": "Verificació facial amb consentiment i una taula de terminis de conservació amb xifres, poc habitual en el sector",
+  "summary": "Bolt recull el recorregut sencer d’un viatge: on ets, on vas, com pagues i com et puntua el conductor. L’avís per a passatgers és detallat: la verificació d’identitat amb reconeixement facial exigeix consentiment i es pot substituir per una revisió manual, els enregistraments d’àudio del viatge s’esborren al cap de 24 hores si no es denuncia res i el nom i el telèfon queden visibles per al conductor entre 24 i 48 hores després del trajecte.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Estònia",
+  "links": {
+    "website": "https://bolt.eu/",
+    "privacyPolicy": "https://bolt.eu/en/privacy/privacy-for-riders/",
+    "appStore": "https://apps.apple.com/es/app/id675033630"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "bolt-privacy-riders"
+    ],
+    "detail": "Cal registrar-se amb nom, correu i telèfon per demanar un viatge.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "bolt-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "L’historial de viatges mostra on vius, on treballes, a quina hora tornes a casa i a qui vas a veure. Bolt hi afegeix el calendari, si li dones permís, i la valoració que en fan els conductors.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bolt-app-store",
+        "bolt-privacy-riders"
+      ],
+      "note": "Visible per al conductor durant el viatge i fins a 24-48 hores després."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "bolt-app-store",
+        "bolt-privacy-riders"
+      ],
+      "note": "Es comparteix amb socis promocionals i de màrqueting per informar d’ofertes."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bolt-app-store",
+        "bolt-privacy-riders"
+      ],
+      "note": "A molts països s’emmascara perquè el conductor no en vegi el número real."
+    },
+    {
+      "type": "adreca-postal",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "bolt-app-store",
+        "bolt-privacy-riders"
+      ],
+      "note": "Adreça de casa o de la feina i ubicacions preferides, opcionals."
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "bolt-privacy-riders"
+      ]
+    },
+    {
+      "type": "genere",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "bolt-privacy-riders"
+      ],
+      "note": "L’avís inclou l’edat i el gènere entre les dades demogràfiques que tracta."
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "compliment-legal"
+      ],
+      "sources": [
+        "bolt-privacy-riders"
+      ],
+      "note": "Passaport, carnet de conduir o document d’identitat, si es demana verificar la identitat o l’edat."
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "bolt-privacy-riders"
+      ],
+      "note": "Reconeixement facial per comparar la selfie amb el document. Cal consentiment exprés i es pot triar la verificació manual."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bolt-app-store",
+        "bolt-privacy-riders"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "bolt-app-store",
+        "bolt-privacy-riders"
+      ],
+      "note": "Es comparteix amb el conductor i amb Google per als mapes i les rutes."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bolt-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "bolt-app-store"
+      ],
+      "note": "Destinacions cercades dins de l’app."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "bolt-privacy-riders"
+      ],
+      "note": "Xat amb el conductor i amb atenció al client; les trucades es poden gravar amb avís previ."
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "bolt-privacy-riders"
+      ],
+      "note": "Enregistrament d’àudio del viatge, on la funció està disponible; es pot compartir amb el conductor o amb les forces de seguretat."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "bolt-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "bolt-app-store",
+        "bolt-privacy-riders"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "bolt-privacy-riders"
+      ],
+      "note": "L’avís cita els identificadors publicitaris entre les dades del dispositiu."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "bolt-app-store",
+        "bolt-privacy-riders"
+      ],
+      "note": "Inclou dades de publicitat, segons l’etiqueta de l’App Store."
+    },
+    {
+      "type": "fitxers-i-documents",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "bolt-privacy-riders"
+      ],
+      "note": "Imatges, vídeos o fitxers adjunts a una consulta d’atenció al client."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "bolt-privacy-riders"
+      ],
+      "note": "L’avís preveu recollir dades sobre visites i accions en apps i webs de tercers per a publicitat personalitzada."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "bolt-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bolt-app-store",
+        "bolt-privacy-riders"
+      ],
+      "detail": "L’etiqueta declara els identificadors com a dada de rastreig i l’avís reconeix la recollida de dades sobre l’activitat en apps i webs de tercers per a publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bolt-privacy-riders"
+      ],
+      "detail": "Els identificadors publicitaris figuren entre les dades del dispositiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bolt-privacy-riders"
+      ],
+      "detail": "Galetes, píxels, SDK i tecnologies de tercers, amb consentiment previ; l’avís cita Facebook i Google per a l’inici de sessió i la publicitat.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bolt-privacy-riders"
+      ],
+      "detail": "Publicitat personalitzada i mesura de l’eficàcia dels anuncis, amb interès legítim per al màrqueting directe i consentiment per a les tecnologies de rastreig.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bolt-privacy-riders"
+      ],
+      "detail": "Personalitza el màrqueting segons l’ús de l’app i fa resums anuals de l’activitat; no descriu perfils publicitaris venuts a tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bolt-privacy-riders"
+      ],
+      "detail": "La ubicació i l’ús serveixen per millorar els algorismes i els models d’aprenentatge automàtic, i hi ha proveïdors d’intel·ligència artificial entre els encarregats.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bolt-privacy-riders"
+      ],
+      "detail": "Conductors, clients de Bolt Business, socis promocionals, asseguradores, Google per als mapes, proveïdors de verificació biomètrica i forces de seguretat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bolt-privacy-riders"
+      ],
+      "detail": "Les filials locals poden compartir les dades amb Bolt Operations OÜ com a responsable principal.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’avís no parla de venda de dades, però sí de compartir dades limitades amb proveïdors de dades de tercers per a màrqueting."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bolt-privacy-riders"
+      ],
+      "detail": "Decisions d’adequació i clàusules contractuals tipus per a transferències als Estats Units, Singapur i Nigèria; els centres de dades del servei són a l’Espai Econòmic Europeu.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bolt-privacy-riders"
+      ],
+      "detail": "L’avís té una taula amb terminis concrets per a cada tipus de dada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bolt-privacy-riders"
+      ],
+      "detail": "Després de tancar el compte es poden conservar dades per obligacions legals, comptabilitat, resolució de disputes o prevenció del frau.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "contingut-de-missatges",
+        "period": "90 dies per als xats amb atenció al client, o 6 mesos si hi ha incidència o disputa",
+        "sources": [
+          "bolt-privacy-riders"
+        ]
+      },
+      {
+        "dataType": "veu-i-audio",
+        "period": "24 hores al dispositiu; 7 dies si l’enregistrament es comparteix amb Bolt per a una investigació",
+        "sources": [
+          "bolt-privacy-riders"
+        ]
+      },
+      {
+        "period": "3 anys per als tiquets, trucades i xats d’atenció al client",
+        "sources": [
+          "bolt-privacy-riders"
+        ]
+      },
+      {
+        "period": "3 anys per a les valoracions i els comentaris dels conductors",
+        "sources": [
+          "bolt-privacy-riders"
+        ]
+      },
+      {
+        "period": "12 mesos per al registre de reclamacions a disposició de l’autoritat que atorga la llicència",
+        "sources": [
+          "bolt-privacy-riders"
+        ]
+      },
+      {
+        "period": "Als 3 anys sense fer servir l’app, Bolt demana confirmació i, si no hi ha resposta, tanca el compte i esborra les dades",
+        "sources": [
+          "bolt-privacy-riders"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bolt-privacy-riders"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bolt-privacy-riders"
+      ],
+      "detail": "L’avís diu que es pot demanar l’eliminació del compte en qualsevol moment des de la mateixa aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "easy",
+    "requiresSupportContact": false,
+    "steps": [
+      "Obre el menú principal de l’app i entra a la configuració del compte.",
+      "Tria l’opció d’eliminar el compte; desinstal·lar l’aplicació no esborra cap dada.",
+      "Si necessites que s’esborrin dades concretes, escriu a l’equip d’atenció al client o a privacy@bolt.eu."
+    ],
+    "dataRetained": "Dades necessàries per a obligacions legals, comptabilitat, disputes o prevenció del frau, i els terminis de la taula de conservació.",
+    "sources": [
+      "bolt-privacy-riders"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bolt-privacy-riders"
+      ],
+      "detail": "Dret d’accés i de portabilitat exercibles a través de l’equip d’atenció al client.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bolt-privacy-riders"
+      ],
+      "detail": "Delegat de protecció de dades global i bústia de privadesa.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacy@bolt.eu"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bolt-privacy-riders"
+      ],
+      "detail": "Enllaç de baixa als correus, resposta «STOP» als missatges i preferències de comunicació a la configuració del compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bolt-privacy-riders"
+      ],
+      "detail": "Les galetes, els SDK i les tecnologies de tercers requereixen consentiment i hi ha analítiques que també el demanen, amb retirada des del perfil.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bolt-privacy-riders"
+      ],
+      "detail": "Permisos separats per a la ubicació, el calendari, la foto de perfil, la verificació biomètrica i les comunicacions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No n’hem documentat cap amb prou base."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei necessita veure el trajecte i el xat per prestar-lo i moderar-lo.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bolt-privacy-riders"
+      ],
+      "detail": "L’avís diu que hi ha xifratge en trànsit i en repòs.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bolt-privacy-riders"
+      ],
+      "detail": "Xifratge en repòs i centres de dades dins de l’Espai Econòmic Europeu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’avís no documenta cap segon factor per al compte de passatger."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bolt-security-txt"
+      ],
+      "detail": "Programa públic de recompenses amb política de divulgació pròpia.",
+      "verifiedAt": "2026-09-22"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bolt-security-txt"
+      ],
+      "detail": "Fitxer security.txt amb adreça de contacte i clau PGP, tot i que la data de caducitat declarada ja ha passat.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://bolt.eu/.well-known/security.txt"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "cabify",
+      "comparability": "equivalent",
+      "rationale": "Mateix servei de viatges amb conductor amb responsable establert a Espanya i autoritat de control espanyola.",
+      "tradeOffs": "Cobertura més limitada fora de les grans ciutats."
+    },
+    {
+      "app": "uber",
+      "comparability": "equivalent",
+      "rationale": "Alternativa amb la mateixa funció i una política igualment detallada.",
+      "tradeOffs": "Grup nord-americà, amb més transferències internacionals."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "L’avís consultat és el global per a passatgers, actualitzat l’11 d’abril del 2025; a Espanya el responsable pot ser la filial local, que figura en una llista separada que no hem revisat. No hem pogut fer la cerca d’incidents.",
+    "openQuestions": [
+      "Quina societat de Bolt és responsable del tractament a Espanya?",
+      "Quin proveïdor fa la verificació biomètrica i on es tracten les dades facials?"
+    ]
+  },
+  "appStoreBundleId": "ee.mtakso.client"
+}

@@ -1,0 +1,677 @@
+{
+  "slug": "thefork",
+  "name": "TheFork",
+  "company": "la-fourchette",
+  "categories": [
+    "alimentacio-i-restauracio"
+  ],
+  "tagline": "Reserves de restaurants amb perfil públic per defecte, publicitat de retargeting i un historial de «no-shows» que veuen els restaurants",
+  "summary": "TheFork (abans ElTenedor) guarda l’historial de reserves, incloent-hi cancel·lacions i absències, i en comparteix «paràmetres de risc» amb els restaurants, que són corresponsables de les dades. L’etiqueta de l’App Store declara que compres, contacte, identificadors i ús es fan servir per rastrejar, i la política preveu anuncis de retargeting fora de l’aplicació. El perfil (nom, foto i activitat) és públic per defecte, i el compte es pot tancar des de la configuració.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "França (La Fourchette SAS, grup Tripadvisor)",
+  "links": {
+    "website": "https://www.thefork.es/",
+    "privacyPolicy": "https://www.thefork.es/legal",
+    "terms": "https://www.thefork.es/legal",
+    "appStore": "https://apps.apple.com/es/app/id424850908"
+  },
+  "accountRequired": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": [],
+    "detail": "La política parla de crear un compte i de fer reserves com a activitats diferents, però no hem verificat si es pot reservar sense compte des de l’aplicació."
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "thefork-legal"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Les reserves diuen on i amb qui es menja, amb quina freqüència i en quin barri. Si s’hi afegeixen al·lèrgies o necessitats d’accessibilitat, el perfil inclou dades de salut. L’historial de cancel·lacions i «no-shows» serveix per elaborar paràmetres de risc que es comparteixen amb els restaurants.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "thefork-app-store",
+        "thefork-legal"
+      ],
+      "note": "El restaurant rep les dades de la reserva. El nom i la foto també es mostren al perfil públic."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "thefork-app-store",
+        "thefork-legal"
+      ],
+      "note": "La política preveu compartir dades de contacte codificades amb socis publicitaris."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "thefork-app-store",
+        "thefork-legal"
+      ]
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "thefork-legal"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "thefork-app-store",
+        "thefork-legal"
+      ],
+      "note": "L’historial de reserves inclou cancel·lacions i «no-shows»; se’n comparteixen paràmetres de risc amb els restaurants."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "thefork-legal"
+      ],
+      "note": "Només per pagar amb TheFork PAY o comprar targetes regal."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "thefork-app-store",
+        "thefork-legal"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "thefork-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "thefork-legal"
+      ],
+      "note": "Al·lèrgies o necessitats d’accessibilitat indicades a la reserva. La política diu que es pot retirar el consentiment a la configuració del compte."
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "thefork-legal"
+      ],
+      "note": "Les ressenyes són públiques i el restaurant hi pot respondre."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "thefork-app-store",
+        "thefork-legal"
+      ]
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "thefork-legal"
+      ],
+      "note": "Sincronització opcional per suggerir connexions; demana consentiment explícit."
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "thefork-legal"
+      ],
+      "note": "Trucades amb atenció al client i interfícies de veu."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari",
+        "entrenament-de-models-dia"
+      ],
+      "sources": [
+        "thefork-app-store",
+        "thefork-legal"
+      ],
+      "note": "Converses amb atenció al client i amb l’assistent d’IA."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts",
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "thefork-app-store",
+        "thefork-legal"
+      ]
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "thefork-legal"
+      ],
+      "note": "La política esmenta inferències com les preferències gastronòmiques."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "thefork-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "thefork-app-store",
+        "thefork-legal"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "thefork-legal"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "thefork-legal"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "thefork-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "thefork-app-store"
+      ],
+      "detail": "L’etiqueta declara que les compres, les dades de contacte, els identificadors i les dades d’ús es poden fer servir per rastrejar en aplicacions i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "thefork-legal"
+      ],
+      "detail": "La política inclou els identificadors de publicitat entre les dades recollides automàticament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "thefork-legal"
+      ],
+      "detail": "Socis publicitaris i d’anàlisi poden recollir identificadors i dades de galetes.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "thefork-legal"
+      ],
+      "detail": "La política preveu anuncis de retargeting i bàners personalitzats en webs i aplicacions de tercers a partir de les cerques, reserves i ressenyes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "thefork-legal"
+      ],
+      "detail": "Infereix preferències gastronòmiques i elabora paràmetres de risc a partir de l’historial de reserves, que es comparteixen amb els restaurants.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "thefork-legal"
+      ],
+      "detail": "La política diu que fa servir IA i models d’ús general per desenvolupar, entrenar i perfeccionar la cerca, les recomanacions i l’assistent, amb les mateixes categories de dades que recull.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "thefork-legal"
+      ],
+      "detail": "Restaurants (corresponsables de les reserves), socis comercials, socis publicitaris i d’anàlisi, xarxes socials d’inici de sessió i proveïdors.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "thefork-legal"
+      ],
+      "detail": "Compartició amb empreses del grup per oferir productes i serveis i per entendre com s’usen els serveis del grup.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no parla de venda de dades a intermediaris."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "thefork-legal"
+      ],
+      "detail": "Transferències fora de l’EEE amb decisions d’adequació o clàusules contractuals tipus.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "thefork-legal"
+      ],
+      "detail": "Publica informes de transparència de la Llei de serveis digitals sobre moderació de continguts, però no sobre peticions de dades d’autoritats.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.thefork.es/legal"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "thefork-legal"
+      ],
+      "detail": "Conserva les dades mentre hi hagi compte o «el temps necessari», sense terminis concrets.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "thefork-legal"
+      ],
+      "detail": "En tancar el compte, el desactiva i retira el perfil de la vista activa, però pot conservar reserves anteriors i altres dades per a còpies de seguretat, prevenció del frau, disputes i obligacions legals.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "thefork-legal",
+        "thefork-close-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "thefork-legal",
+        "thefork-close-account"
+      ],
+      "detail": "Des de «Ajustes > Cerrar mi cuenta» al web o «Ajustes > Eliminar mi cuenta» a l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://support.thefork.com/s/article/How-do-I-close-my-TheFork-account?language=es",
+    "difficulty": "easy",
+    "requiresSupportContact": false,
+    "steps": [
+      "Inicia la sessió a thefork.es o a l’aplicació.",
+      "Al web, obre el panell d’usuari amb el teu nom i entra a «Ajustes»; a l’aplicació, entra a «Ajustes».",
+      "Tria «Cerrar mi cuenta» (web) o «Eliminar mi cuenta» (aplicació) i torna a escriure la contrasenya.",
+      "Confirma amb «Sí, cerrar mi cuenta».",
+      "Per exercir formalment el dret de supressió, fes la sol·licitud al portal de privadesa de TheFork."
+    ],
+    "obstacles": "Es perden els Yums acumulats, les reserves en curs i les targetes regal. La supressió completa de dades es tramita a part, pel portal de privadesa.",
+    "dataRetained": "Reserves anteriors i dades associades per a còpies de seguretat, prevenció del frau, disputes i obligacions legals.",
+    "sources": [
+      "thefork-legal",
+      "thefork-close-account"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "thefork-legal"
+      ],
+      "detail": "Reconeix el dret de portabilitat, que es demana al portal de privadesa; no hem trobat una eina de descàrrega autoservei.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://privacyportal.onetrust.com/webform/da774af3-e615-4e8c-8a28-3d13e98367c5/091dbabd-4724-4ae9-a3a7-541da83969f3"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "thefork-legal"
+      ],
+      "detail": "Portal de privadesa (OneTrust) per a sol·licituds d’accés i supressió, i formulari de contacte amb l’equip de privadesa.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://privacyportal.onetrust.com/webform/da774af3-e615-4e8c-8a28-3d13e98367c5/091dbabd-4724-4ae9-a3a7-541da83969f3"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "thefork-legal"
+      ],
+      "detail": "Les galetes publicitàries es gestionen amb l’eina de consentiment, i la política remet a Your Online Choices; no hi ha un interruptor de publicitat personalitzada dins del compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap opció per desactivar la recollida de dades d’ús a l’aplicació."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "thefork-legal"
+      ],
+      "detail": "Des de la configuració es pot limitar la visibilitat del perfil, esborrar la sincronització de contactes, ajustar el màrqueting i retirar el consentiment per a dades de salut.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [
+        "thefork-legal"
+      ],
+      "detail": "Valoració pròpia: la política reconeix que el perfil (nom, foto i activitat) és públic per defecte i s’ha de restringir manualment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "preselected",
+        "severity": "medium",
+        "description": "El perfil de la comunitat, amb nom, foto i activitat, és visible públicament per defecte.",
+        "sources": [
+          "thefork-legal"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no ofereix comunicacions privades entre persones usuàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "editorial",
+      "sources": [],
+      "detail": "Comprovació pròpia: el web i les pàgines d’ajuda només funcionen amb HTTPS. La política parla d’«eines de xifratge» sense concretar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "thefork-legal"
+      ],
+      "detail": "La política esmenta eines de xifratge, hashing i seudonimització, sense dir quines dades es xifren en repòs.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat informació sobre verificació en dos passos als comptes de comensal."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten certificacions ni auditories de seguretat publicades."
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "thefork-bugcrowd"
+      ],
+      "detail": "Programa gestionat a Bugcrowd, en curs des del desembre de 2025, sobre el web i l’aplicació per a comensals.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://bugcrowd.com/engagements/thefork-mbb-og"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "thefork-bugcrowd"
+      ],
+      "detail": "El canal és el programa de Bugcrowd; no hem trobat un fitxer security.txt als dominis de TheFork.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La declaració de privadesa llegida és la del 24 d’agost de 2026, que substitueix l’anterior a partir del 25 de setembre de 2026. Les sancions de l’AEPD que consten són anteriors al RGPD i es van imposar a La Fourchette España, S.L., filial espanyola de l’època. La pàgina de TheFork no es deixa llegir sense navegador (retorna 403) i s’ha consultat amb un navegador real.",
+    "openQuestions": [
+      "Es pot reservar a l’aplicació sense crear un compte?",
+      "Quins «paràmetres de risc» concrets veuen els restaurants i durant quant de temps?",
+      "Hi ha verificació en dos passos per als comptes de comensal?"
+    ]
+  },
+  "appStoreBundleId": "com.c4mprod.lafourchette"
+}

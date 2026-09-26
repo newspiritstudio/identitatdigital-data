@@ -1,0 +1,540 @@
+{
+  "slug": "certificado-digital-fnmt",
+  "name": "Certificado digital FNMT",
+  "company": "fnmt-rcm",
+  "categories": [
+    "administracio-publica",
+    "autenticacio-i-seguretat"
+  ],
+  "tagline": "L’aplicació del certificat digital de la FNMT declara a l’App Store que no recull cap dada, tot i que el tràmit tracta el DNI",
+  "summary": "L’aplicació de la Fábrica Nacional de Moneda y Timbre serveix per sol·licitar, descarregar i fer servir el certificat de persona física, la clau amb què milions de persones signen davant de l’administració. L’etiqueta de l’App Store diu «No se recopilan datos», però el tràmit tracta el DNI, el domicili, el telèfon i, si s’acredita la identitat per vídeo, la imatge de la cara i del document. La política que enllaça la fitxa de l’App Store és la genèrica de l’organisme, no una política de l’aplicació.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "public-service",
+  "jurisdiction": "Espanya; autoritat de control: Agencia Española de Protección de Datos",
+  "userBase": "Milions de certificats de ciutadà en vigor a Espanya",
+  "links": {
+    "website": "https://www.sede.fnmt.gob.es/certificados/persona-fisica/certificado-con-dispositivo-movil",
+    "privacyPolicy": "https://www.fnmt.es/politica-privacidad",
+    "appStore": "https://apps.apple.com/es/app/id6449721772"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "fnmt-rcm-certificado-movil"
+    ],
+    "detail": "No hi ha compte d’usuari: el vincle és el codi de sol·licitud i l’acreditació de la identitat. Només es pot tenir un certificat de ciutadà actiu alhora.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": [],
+    "detail": "No hem trobat cap repositori públic del codi de l’aplicació."
+  },
+  "publicService": {
+    "isPublicService": true,
+    "administrationLevel": "state",
+    "legalBasis": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fnmt-rcm-rat",
+        "fnmt-rcm-politica-certificado-movil"
+      ],
+      "detail": "El registre d’activitats descriu el tractament «Gestión de la PKI» com a execució del contracte i compliment d’una obligació legal, amb l’article 6.1.c) del RGPD i la Llei 6/2020 citats expressament. La política del certificat mòbil remet a aquest mateix tractament, el número 13 del registre.",
+      "verifiedAt": "2026-09-22",
+      "norm": "Reglament (UE) 2016/679, article 6.1.c), i Llei 6/2020, d’11 de novembre, de serveis electrònics de confiança"
+    },
+    "processingRegistry": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fnmt-rcm-rat",
+        "fnmt-rcm-politica-certificado-movil"
+      ],
+      "detail": "El registre publicat, amb data de juny del 2026, conté el tractament número 13, «Gestión de la PKI», que és exactament el del certificat de ciutadà: finalitats, categories de dades, encarregats, comunicacions i termini de supressió.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.fnmt.es/documents/10179/10671624/RAT.pdf/1e61cdb7-bc0b-339b-e82e-edbd3c32830c"
+    },
+    "dpia": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat publicada cap avaluació d’impacte relativa a la gestió de la PKI ni a la vídeo-identificació, que és on hi hauria tractament biomètric."
+    },
+    "ensConformity": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fnmt-rcm-declaracion-conformidad-ens"
+      ],
+      "detail": "La seu electrònica publica una declaració de conformitat amb l’Esquema Nacional de Seguretat i hi enllaça el segell amb el certificat de conformitat del 2025. La declaració, però, encara s’empara en l’article 41 del Reial decret 3/2010, derogat pel Reial decret 311/2022, i no diu en quina categoria està classificat el sistema.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dpo": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fnmt-rcm-politica-privacidad"
+      ],
+      "detail": "La política de l’organisme identifica el delegat de protecció de dades amb adreça postal i correu electrònic publicats.",
+      "verifiedAt": "2026-09-22",
+      "contact": "dpd@fnmt.es"
+    },
+    "offlineAlternative": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fnmt-rcm-certificado-software",
+        "fnmt-rcm-anular"
+      ],
+      "detail": "El mateix certificat s’obté sense l’aplicació: es demana pel navegador, s’acredita la identitat presencialment en una oficina d’acreditació i es descarrega com a certificat programari. L’anul·lació també es pot demanar per telèfon o presencialment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "accessibilityStatement": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "fnmt-rcm-accesibilidad"
+      ],
+      "detail": "La seu es declara «parcialmente conforme» amb el Reial decret 1112/2018: imatges amb text alternatiu incorrecte, formularis amb CAPTCHA poc accessibles i documents PDF que perden l’accessibilitat en signar-los. És una autoavaluació de l’organisme, preparada el 24 d’abril del 2023 i revisada l’1 de juliol del 2026, i cobreix el web de la seu, no l’aplicació mòbil.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.sede.fnmt.gob.es/accesibilidad"
+    },
+    "mandatoryRetention": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fnmt-rcm-ley-6-2020",
+        "fnmt-rcm-rat"
+      ],
+      "detail": "La llei obliga el prestador qualificat a conservar la informació relativa al servei prestat durant quinze anys des de l’extinció del certificat, i el registre d’activitats fixa el mateix termini de supressió. Per això revocar el certificat no esborra aquest registre, i la FNMT no hi pot fer res.",
+      "verifiedAt": "2026-09-22",
+      "norm": "Llei 6/2020, article 9.3.a), en relació amb l’article 24.2.h) del Reglament (UE) 910/2014"
+    }
+  },
+  "dataSummary": "Per emetre un certificat cal provar qui ets davant d’un prestador qualificat: número de DNI, nom, domicili, telèfon i correu, més la clau pública del certificat i el seu número de sèrie. Si l’acreditació es fa per vídeo, s’hi afegeixen la imatge de la cara i la del document. Un cop emès, el certificat identifica la persona a cada tràmit administratiu que signa.",
+  "dataCollection": [
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "fnmt-rcm-politica-certificado-movil",
+        "fnmt-rcm-certificado-movil"
+      ],
+      "note": "DNI espanyol en vigor, llegit per NFC amb el PIN del DNIe o mostrat en la vídeo-identificació."
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "fnmt-rcm-politica-certificado-movil"
+      ],
+      "note": "Consta al mateix certificat i, per tant, el veu qualsevol destinatari d’un document signat."
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "fnmt-rcm-politica-certificado-movil"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "fnmt-rcm-politica-certificado-movil"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "fnmt-rcm-politica-certificado-movil"
+      ]
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "fnmt-rcm-politica-certificado-movil"
+      ],
+      "note": "La política parla de l’edat com a dada tractada per comprovar la capacitat d’obrar."
+    },
+    {
+      "type": "testimoni-d-autenticacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "fnmt-rcm-politica-certificado-movil"
+      ],
+      "note": "Clau pública d’autenticació, clau privada de signatura i número de sèrie del certificat."
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "fnmt-rcm-certificado-movil"
+      ],
+      "note": "Només si s’escull la vídeo-identificació de pagament: la seu descriu el servei, però la política no en detalla el tractament biomètric ni el termini de conservació del vídeo."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "unknown",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "unknown",
+      "sources": [
+        "certificado-digital-fnmt-app-store"
+      ],
+      "note": "L’etiqueta de l’App Store no declara cap dada; no hi ha documentació tècnica de la telemetria de l’aplicació."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "certificado-digital-fnmt-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada utilitzada per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "certificado-digital-fnmt-app-store"
+      ],
+      "detail": "L’etiqueta declara «No se recopilan datos».",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi tècnica del trànsit de l’aplicació que confirmi o desmenteixi l’etiqueta."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "fnmt-rcm-politica-privacidad"
+      ],
+      "detail": "Cap finalitat publicitària: el tractament s’empara en l’execució del contracte de certificació i en la Llei 6/2020 de serveis electrònics de confiança.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "fnmt-rcm-politica-certificado-movil"
+      ],
+      "detail": "La política no preveu elaboració de perfils ni decisions automatitzades sobre la persona sol·licitant.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu res sobre l’ús de les dades per entrenar models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fnmt-rcm-politica-certificado-movil"
+      ],
+      "detail": "Administracions públiques, forces i cossos de seguretat, òrgans judicials i qualsevol tercer que verifiqui la validesa del certificat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "La FNMT-RCM és una entitat pública empresarial única, sense grup empresarial.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "fnmt-rcm-politica-privacidad"
+      ],
+      "detail": "La política no preveu cap cessió comercial de dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta transferències internacionals; tampoc no diu expressament que no n’hi hagi."
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El portal de transparència de la FNMT és el de la Llei 19/2013 i no publica dades sobre peticions d’accés a informació personal."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "fnmt-rcm-rat",
+        "fnmt-rcm-politica-certificado-movil"
+      ],
+      "detail": "El registre d’activitats de tractament recull els criteris de conservació per tractament, però la política de l’app no dona terminis concrets per a la vídeo-identificació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "fnmt-rcm-anular"
+      ],
+      "detail": "Revocar el certificat no esborra el registre de certificació: la normativa de serveis de confiança obliga a conservar-lo per poder verificar signatures antigues.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "fnmt-rcm-anular"
+      ],
+      "detail": "El que es pot fer és revocar el certificat; no hi ha «compte» que eliminar, i les dades del registre de certificació es conserven.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fnmt-rcm-anular"
+      ],
+      "detail": "Es pot anul·lar en línia amb el mateix certificat, sense parlar amb ningú.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://www.sede.fnmt.gob.es/certificados/persona-fisica/anular",
+    "difficulty": "medium",
+    "steps": [
+      "Entra a la seu electrònica de la FNMT, a l’apartat «Anular» del certificat de persona física.",
+      "Si encara tens el certificat operatiu, fes la sol·licitud d’anul·lació en línia identificant-t’hi amb el mateix certificat.",
+      "Si l’has perdut o te l’han robat, truca al servei d’anul·lació telefònica, disponible tot el dia, amb el codi de sol·licitud a mà.",
+      "Si tampoc tens el codi, demana l’anul·lació presencialment a una oficina d’acreditació.",
+      "Recorda que sol·licitar un certificat nou revoca automàticament l’anterior."
+    ],
+    "obstacles": "L’anul·lació només la pot demanar la persona titular i només mentre el certificat és vigent. Si s’ha perdut el certificat i el codi de sol·licitud, l’única via és presencial.",
+    "dataRetained": "Les dades del registre de certificació, per obligació de la normativa de serveis electrònics de confiança.",
+    "sources": [
+      "fnmt-rcm-anular",
+      "fnmt-rcm-politica-certificado-movil"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap eina d’autoservei per descarregar les dades; la portabilitat s’ha de demanar pel registre electrònic."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fnmt-rcm-politica-privacidad"
+      ],
+      "detail": "Els drets s’exerceixen pel Registre Electrónico Común triant la FNMT-RCM com a organisme destinatari, o escrivint al delegat de protecció de dades.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dpd@fnmt.es",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha publicitat al servei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap panell de configuració de telemetria ni cap documentació que digui si n’hi ha."
+    },
+    "granularControls": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "fnmt-rcm-politica-certificado-movil"
+      ],
+      "detail": "El tractament és el mínim necessari per emetre el certificat i no admet opcions, perquè no té finalitats accessòries que es puguin configurar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "protective",
+    "darkPatterns": {
+      "status": "no",
+      "level": "editorial",
+      "sources": [],
+      "detail": "No hem trobat patrons enganyosos: el servei no reté la persona usuària ni li ofereix opcions confuses. El problema és la manca de documentació.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no transporta comunicacions privades; el que protegeix és la clau del certificat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fnmt-rcm-certificaciones"
+      ],
+      "detail": "Prestador qualificat de serveis de confiança sota el Reglament eIDAS, amb certificació ETSI.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta documentació pública específica sobre el xifratge en repòs de les dades de sol·licitud."
+    },
+    "mfa": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "fnmt-rcm-certificado-movil"
+      ],
+      "detail": "No hi ha compte amb contrasenya: l’acreditació es fa amb el DNIe per NFC i el seu PIN, per vídeo-identificació o presencialment, i la instal·lació del certificat demana codi de desbloqueig i contrasenya de la còpia.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fnmt-rcm-certificaciones",
+        "fnmt-rcm-declaracion-conformidad-ens"
+      ],
+      "detail": "ISO/IEC 27001 amb certificació d’AENOR i auditories de conformitat eIDAS com a prestador qualificat. La conformitat amb l’Esquema Nacional de Seguretat no consta a la pàgina de certificacions, sinó a la declaració publicada a la seu electrònica.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses ni cap canal propi de divulgació responsable."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha fitxer security.txt als dominis fnmt.es ni sede.fnmt.gob.es, i no hem trobat cap política publicada de divulgació de vulnerabilitats."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "clave",
+      "comparability": "partial",
+      "rationale": "Cl@ve permet identificar-se davant de moltes administracions sense instal·lar cap certificat al dispositiu.",
+      "tradeOffs": "No serveix per signar documents fora de la seu electrònica ni per acreditar-se davant de tercers privats, i no cobreix tots els tràmits que accepten el certificat de la FNMT."
+    },
+    {
+      "app": "autofirma",
+      "comparability": "complementary",
+      "rationale": "AutoFirma signa documents amb el mateix certificat des de l’ordinador, sense dependre de l’aplicació mòbil."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "El desajust entre l’etiqueta «No se recopilan datos» i un servei que tracta el DNI i, opcionalment, la imatge de la cara és la troballa d’aquesta fitxa. L’etiqueta es refereix al que recull el desenvolupador a través de l’aplicació, no al tractament del servei, però una persona que la llegeix no pot saber-ho. Tampoc no hem trobat cap política de privadesa específica de l’aplicació: la que enllaça l’App Store és la general de l’organisme.",
+    "openQuestions": [
+      "Quin és el termini de conservació del vídeo i de les imatges capturades en la vídeo-identificació?",
+      "On es custodia realment la clau privada de signatura en la modalitat mòbil: al dispositiu o en un mòdul de la FNMT?",
+      "L’aplicació envia telemetria a algun proveïdor tercer?"
+    ]
+  },
+  "appStoreBundleId": "es.fnmtrcm.ceres.certificadoDigitalFNMT"
+}

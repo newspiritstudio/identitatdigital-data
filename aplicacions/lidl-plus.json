@@ -1,0 +1,612 @@
+{
+  "slug": "lidl-plus",
+  "name": "Lidl Plus",
+  "company": "lidl-stiftung",
+  "categories": [
+    "alimentacio-i-restauracio",
+    "comerc-electronic"
+  ],
+  "tagline": "El programa de fidelització basa la publicitat personalitzada en l’execució del contracte, no en el consentiment, i la verificació en dos passos només existeix si fas servir Lidl Pay",
+  "summary": "Lidl Plus elabora un perfil de consum a partir dels tiquets. La política diu que la determinació d’interessos i la publicitat personalitzada es fonamenten en l’article 6.1 b) del RGPD, l’execució del contracte, de manera que no s’hi pot renunciar sense deixar el programa. Entre les dades de seguiment hi ha l’identificador publicitari del dispositiu, l’adreça IP, la MAC i l’empremta del dispositiu. L’etiqueta de l’App Store declara identificadors, dades d’ús i diagnòstics utilitzats per rastrejar.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Alemanya",
+  "links": {
+    "website": "https://www.lidl.es/",
+    "privacyPolicy": "https://www.lidl.es/c/politica-de-privacidad-lidl-plus/s10008103",
+    "appStore": "https://apps.apple.com/es/app/id1238611143",
+    "playStore": "https://play.google.com/store/apps/details?id=com.lidl.eci.lidlplus"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "lidl-plus-privacy-policy"
+    ],
+    "detail": "Cal registrar-se amb nom, data de naixement, correu, telèfon mòbil i contrasenya, i tenir 18 anys o més; també es pot entrar amb un compte de Google o d’Apple.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "lidl-plus-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "L’historial de compres d’un supermercat, lligat a la data de naixement, el sexe i la botiga habitual, revela la dieta, la composició de la llar, els horaris i el nivell de despesa. Lidl hi suma els identificadors publicitaris i tècnics del dispositiu i, si es fa servir Lidl Pay, les dades de pagament.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "lidl-plus-privacy-policy",
+        "lidl-plus-app-store",
+        "lidl-plus-play-data-safety"
+      ]
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "lidl-plus-privacy-policy"
+      ],
+      "note": "Obligatòria en el registre; també serveix per comprovar la majoria d’edat."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "lidl-plus-privacy-policy",
+        "lidl-plus-app-store",
+        "lidl-plus-play-data-safety"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "lidl-plus-privacy-policy",
+        "lidl-plus-play-data-safety"
+      ],
+      "note": "El mòbil és obligatori en el registre i serveix per verificar el compte."
+    },
+    {
+      "type": "genere",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "lidl-plus-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "lidl-plus-privacy-policy",
+        "lidl-plus-play-data-safety"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "lidl-plus-privacy-policy",
+        "lidl-plus-app-store",
+        "lidl-plus-play-data-safety"
+      ],
+      "note": "Els tiquets són la base de la determinació d’interessos, que la política fonamenta en l’execució del contracte."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "lidl-plus-privacy-policy",
+        "lidl-plus-app-store"
+      ],
+      "note": "Només si es fa servir Lidl Pay; s’emmagatzemen en sistemes certificats PCI-DSS i PCI-3DS i s’esborren després de 24 mesos sense fer-los servir."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "lidl-plus-app-store"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-publicitaria",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "lidl-plus-privacy-policy",
+        "lidl-plus-app-store"
+      ],
+      "note": "La política esmenta l’IDFA d’Apple i els identificadors publicitaris d’Android i de Huawei."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "lidl-plus-privacy-policy",
+        "lidl-plus-app-store",
+        "lidl-plus-play-data-safety"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "lidl-plus-privacy-policy"
+      ],
+      "note": "La política esmenta l’adreça IP, l’adreça MAC, les capçaleres HTTP i l’empremta del dispositiu entre les dades de seguiment."
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "lidl-plus-privacy-policy"
+      ],
+      "note": "Empremta del dispositiu (device fingerprint)."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "lidl-plus-privacy-policy",
+        "lidl-plus-app-store"
+      ],
+      "note": "Els registres d’interacció es conserven com a màxim 90 dies."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "lidl-plus-app-store",
+        "lidl-plus-play-data-safety"
+      ],
+      "note": "L’etiqueta de l’App Store declara els diagnòstics també entre les dades utilitzades per rastrejar."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "lidl-plus-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store declara identificadors, dades d’ús i diagnòstics com a utilitzats per rastrejar-te entre aplicacions i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "lidl-plus-privacy-policy"
+      ],
+      "detail": "La política identifica expressament l’IDFA d’Apple i els identificadors publicitaris d’Android i de Huawei com a dades tractades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "lidl-plus-privacy-policy"
+      ],
+      "detail": "La política descriu tecnologies de seguiment de tercers dins de l’aplicació amb identificadors publicitaris i empremta del dispositiu.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "lidl-plus-privacy-policy"
+      ],
+      "detail": "La publicitat personalitzada i la determinació d’interessos es basen en l’article 6.1 b) del RGPD, l’execució del contracte del programa de fidelització, i no en el consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "lidl-plus-privacy-policy"
+      ],
+      "detail": "Determinació d’interessos a partir de l’historial de compres i del comportament dins de l’aplicació, com a part del contracte de Lidl Plus.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta l’ús de dades per entrenar models d’intel·ligència artificial."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "lidl-plus-privacy-policy",
+        "lidl-plus-play-data-safety"
+      ],
+      "detail": "Proveïdors de serveis tecnològics, de pagament i de màrqueting; la fitxa de Google Play declara compartició d’historial de compres, dades de contacte, identificadors i diagnòstics.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "lidl-plus-privacy-policy"
+      ],
+      "detail": "Les dades es tracten per Lidl Stiftung & Co. KG com a responsable i es comuniquen a les societats Lidl dels països on s’usa el programa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu vendes de dades a intermediaris ni les descarta expressament."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "lidl-plus-privacy-policy"
+      ],
+      "detail": "La política preveu transferències fora de l’Espai Econòmic Europeu emparades en decisions d’adequació, el marc de privadesa UE-EUA, clàusules contractuals tipus, normes corporatives vinculants o codis de conducta.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "lidl-plus-privacy-policy"
+      ],
+      "detail": "La política fixa terminis concrets: 24 mesos d’inactivitat abans d’iniciar l’esborrat, cistella de Scan&Go 72 hores, dades de Lidl Pay 24 mesos sense ús, atenció al client anonimitzada en 95 dies, registres d’interacció 90 dies i constància de l’exercici de drets tres anys.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "lidl-plus-privacy-policy"
+      ],
+      "detail": "Quan s’inicia l’esborrat per inactivitat s’avisa la persona, que té 72 hores per cancel·lar-lo; la constància d’haver exercit drets es guarda tres anys.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "period": "24 mesos d’inactivitat abans d’iniciar l’esborrat del compte, amb avís i 72 hores per cancel·lar-lo",
+        "sources": [
+          "lidl-plus-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "dades-de-pagament",
+        "period": "24 mesos sense fer servir Lidl Pay",
+        "sources": [
+          "lidl-plus-privacy-policy"
+        ]
+      },
+      {
+        "period": "72 hores per a la cistella de Scan&Go",
+        "sources": [
+          "lidl-plus-privacy-policy"
+        ]
+      },
+      {
+        "period": "95 dies fins a l’anonimització de les consultes d’atenció al client",
+        "sources": [
+          "lidl-plus-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "interaccions-i-us",
+        "period": "90 dies com a màxim per als registres d’interacció",
+        "sources": [
+          "lidl-plus-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "lidl-plus-privacy-policy"
+      ],
+      "detail": "La política descriu la supressió del compte a petició i també l’esborrat automàtic després de 24 mesos d’inactivitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut verificar en documentació oficial si l’eliminació del compte es pot fer des de la mateixa aplicació."
+    },
+    "difficulty": "unknown",
+    "requiresSupportContact": false,
+    "steps": [
+      "Demana la supressió del compte al delegat de protecció de dades, a protecciondedatos@lidlplus.es.",
+      "Si l’esborrat s’ha iniciat per inactivitat, rebràs un avís i tindràs 72 hores per cancel·lar-lo si vols conservar el compte.",
+      "Si no et responen dins del termini, pots reclamar davant de l’autoritat de protecció de dades."
+    ],
+    "obstacles": "La política no documenta cap camí d’autoservei dins de l’aplicació: el canal descrit és el correu del delegat de protecció de dades.",
+    "dataRetained": "Les dades necessàries per complir obligacions legals i la constància de l’exercici de drets, que es guarda tres anys.",
+    "sources": [
+      "lidl-plus-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "lidl-plus-privacy-policy"
+      ],
+      "detail": "La política reconeix el dret de portabilitat, però no descriu cap eina d’autoservei per baixar-se les dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "lidl-plus-privacy-policy"
+      ],
+      "detail": "Drets d’accés, rectificació, supressió, limitació, oposició i portabilitat davant del delegat de protecció de dades a protecciondedatos@lidlplus.es.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "lidl-plus-privacy-policy"
+      ],
+      "detail": "La determinació d’interessos i la publicitat personalitzada es basen en l’execució del contracte, no en el consentiment, de manera que no es poden rebutjar sense deixar Lidl Plus.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap manera de desactivar el seguiment dins de l’aplicació."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "lidl-plus-privacy-policy"
+      ],
+      "detail": "Hi ha preferències de comunicacions i consentiments separats per a alguns tractaments, però no per al perfil de consum.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi independent dels formularis de consentiment actuals de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És una aplicació de compra i fidelització sense comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "lidl-plus-play-data-safety"
+      ],
+      "detail": "La fitxa de Google Play declara que les dades es xifren en trànsit.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "lidl-plus-privacy-policy"
+      ],
+      "detail": "Les dades de Lidl Pay s’emmagatzemen en sistemes certificats PCI-DSS i PCI-3DS; la política no concreta la resta.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "lidl-plus-privacy-policy"
+      ],
+      "detail": "La verificació en dos passos només s’activa quan es fa servir Lidl Pay, i es pot desactivar demanant-ho a atenció al client.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "lidl-plus-privacy-policy"
+      ],
+      "detail": "La política cita les certificacions PCI-DSS i PCI-3DS dels sistemes de pagament, sense cap auditoria de seguretat general publicada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa públic de recompenses per vulnerabilitats."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap security.txt ni cap canal públic documentat per notificar vulnerabilitats."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "bonpreu-i-esclat",
+      "comparability": "partial",
+      "rationale": "Cadena d’alimentació que no declara cap dada utilitzada per rastrejar a l’App Store i que no fa publicitat segmentada amb identificadors publicitaris.",
+      "tradeOffs": "Només opera a Catalunya i la política és molt menys detallada, sense terminis concrets."
+    },
+    {
+      "app": "dia",
+      "comparability": "equivalent",
+      "rationale": "Programa de fidelització d’abast estatal amb una política que detalla les cessions i permet retirar el consentiment publicitari.",
+      "tradeOffs": "També basa el perfil comercial en el contracte i declara identificadors utilitzats per rastrejar."
+    },
+    {
+      "app": "carrefour",
+      "comparability": "equivalent",
+      "rationale": "Alternativa d’abast estatal amb compra en línia i programa de fidelització.",
+      "tradeOffs": "Les pràctiques de rastreig es documenten a la fitxa de Mi Carrefour."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "La política de Lidl Plus és detallada i explícita amb els terminis. La determinació d’interessos i la publicitat personalitzada es fonamenten en l’execució del contracte, no en el consentiment, i per tant no s’hi pot renunciar dins del programa. La verificació en dos passos només existeix per a qui fa servir Lidl Pay, i es pot desactivar.",
+    "openQuestions": [
+      "Es pot eliminar el compte des de la mateixa aplicació, sense escriure al delegat de protecció de dades?",
+      "Quines empreses concretes reben els identificadors publicitaris que declara la política?",
+      "Lidl ha rebut sancions de protecció de dades a Espanya o a Alemanya? No hem pogut completar la cerca d’incidents."
+    ]
+  },
+  "appStoreBundleId": "com.lidl.eci.lidl.plus"
+}

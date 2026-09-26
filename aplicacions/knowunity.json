@@ -1,0 +1,575 @@
+{
+  "slug": "knowunity",
+  "name": "Knowunity",
+  "company": "knowunity",
+  "categories": [
+    "educacio",
+    "assistents-d-ia"
+  ],
+  "tagline": "Apunts compartits entre adolescents amb píxels de Meta, TikTok, Snap i LinkedIn a dins",
+  "summary": "Knowunity és una xarxa d’apunts escolars amb un assistent d’IA, «SchoolGPT», dirigida a alumnat de secundària. La política de privadesa és detallada: diu el nom de cada encarregat i la base jurídica de cada tractament. Hi consta el compromís contractual que cap proveïdor d’IA entreni models amb els textos de l’alumnat i, alhora, l’ús de píxels i SDK de Meta, TikTok, Snap, LinkedIn i Google per mesurar la captació publicitària.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Alemanya; Knowunity GmbH és la responsable del tractament",
+  "userBase": "Més de vint milions de comptes declarats a Europa (Knowunity, 2026)",
+  "links": {
+    "website": "https://knowunity.es/",
+    "privacyPolicy": "https://knowunity.es/legal/privacy",
+    "appStore": "https://apps.apple.com/es/app/id1484296272"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "knowunity-privacy-policy"
+    ],
+    "detail": "Cal registrar-se amb adreça electrònica o amb un compte de Google o d’Apple; sense tractament de dades personals l’aplicació no funciona.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "knowunity-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Aquestes dades mostren el curs, les assignatures que costen, què es pregunta a l’assistent d’IA i quins apunts es descarreguen abans d’un examen. Com que la majoria d’usuaris són adolescents, aquestes inferències afecten persones menors d’edat, i una part es mesura amb píxels d’empreses publicitàries.",
+  "dataCollection": [
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "knowunity-privacy-policy",
+        "knowunity-app-store-privacy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "knowunity-privacy-policy"
+      ]
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "knowunity-app-store-privacy"
+      ],
+      "note": "Arriba del proveïdor d’inici de sessió únic si es fa servir Google o Apple."
+    },
+    {
+      "type": "nivell-formatiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "knowunity-privacy-policy"
+      ],
+      "note": "Curs, tipus de centre i assignatures determinen els continguts que es mostren."
+    },
+    {
+      "type": "fitxers-i-documents",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "knowunity-privacy-policy"
+      ],
+      "note": "Els apunts pujats i les seves metadades es revisen amb IA per detectar continguts il·lícits."
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "knowunity-privacy-policy"
+      ]
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "knowunity-privacy-policy"
+      ],
+      "note": "Els xats de grup es revisen automàticament amb models d’IA."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "knowunity-app-store-privacy"
+      ],
+      "note": "L’etiqueta el situa entre les dades no vinculades, amb finalitat de publicitat de tercers."
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "knowunity-app-store-privacy"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "knowunity-app-store-privacy",
+        "knowunity-privacy-policy"
+      ],
+      "note": "És l’única família que l’etiqueta declara com a utilitzada per rastrejar a través d’altres empreses."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "knowunity-privacy-policy"
+      ],
+      "note": "RevenueCat sincronitza l’estat de la subscripció; el pagament el fa la botiga o Paddle."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "knowunity-privacy-policy"
+      ],
+      "note": "Els registres del servidor es conserven un màxim de catorze dies."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "knowunity-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "knowunity-privacy-policy"
+      ],
+      "note": "La política diu que es demana consentiment abans de fer-lo servir per a publicitat personalitzada."
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "knowunity-privacy-policy"
+      ],
+      "note": "La taula de la política llista galetes pròpies, de Cloudflare, Stripe i hCaptcha, i emmagatzematge local permanent amb identificador de dispositiu."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "knowunity-app-store-privacy"
+      ]
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "knowunity-privacy-policy"
+      ],
+      "note": "La política demana expressament que no s’enviïn dades sensibles a SchoolGPT."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "knowunity-app-store-privacy",
+        "knowunity-privacy-policy"
+      ],
+      "detail": "Les dades d’ús es declaren com a utilitzades per rastrejar, i la política reconeix píxels i SDK de Meta, TikTok, Snap, LinkedIn i Google.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "knowunity-privacy-policy"
+      ],
+      "detail": "Identificador publicitari del dispositiu, amb consentiment previ segons la política.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "knowunity-privacy-policy"
+      ],
+      "detail": "Firebase, Microsoft, Meta Ads, Google Ads, LinkedIn Insight Tag, Snap Pixel, TikTok, Iterable, Freshworks, hCaptcha, Cloudflare i Elastic Cloud.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "knowunity-app-store-privacy",
+        "knowunity-privacy-policy"
+      ],
+      "detail": "L’etiqueta declara identificadors i dades d’ús per a «publicitat o màrqueting del desenvolupador», i la política descriu públics personalitzats i similars a Meta.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "knowunity-privacy-policy"
+      ],
+      "detail": "La política admet l’elaboració de perfils per a màrqueting i personalització amb consentiment o interès legítim, però nega decisions automatitzades de l’article 22.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "knowunity-privacy-policy"
+      ],
+      "detail": "Knowunity declara haver pactat contractualment amb OpenAI, Anthropic, Google i Mistral que no entrenin models amb les entrades de les persones usuàries, i que el tractament es faci a servidors de la UE o l’EEE.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "knowunity-privacy-policy"
+      ],
+      "detail": "Proveïdors de models d’IA, allotjament (AWS, Google Cloud, Microsoft), pagaments (Paddle, PayPal, RevenueCat), suport (Freshworks) i xarxes publicitàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No consta cap grup empresarial amb el qual es comparteixin dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "knowunity-privacy-policy"
+      ],
+      "detail": "La política no preveu cap venda de dades a intermediaris.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "knowunity-privacy-policy"
+      ],
+      "detail": "Transferències als Estats Units emparades en el Marc de Privadesa de Dades UE-EUA i, quan cal, en clàusules contractuals tipus. Per als models d’IA es pacta tractament dins de l’EEE.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "knowunity-privacy-policy"
+      ],
+      "detail": "Hi ha terminis concrets per als registres del servidor i per a les candidatures de feina, però no per als continguts ni per a les converses amb SchoolGPT.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "knowunity-privacy-policy"
+      ],
+      "detail": "En eliminar el compte se suprimeixen les dades, llevat de les subjectes a obligacions legals de conservació mercantil o fiscal.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "adreca-ip",
+        "period": "Catorze dies als registres del servidor, i després supressió o anonimització",
+        "sources": [
+          "knowunity-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "knowunity-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "knowunity-privacy-policy"
+      ],
+      "detail": "La política afirma dues vegades que es pot eliminar el compte en qualsevol moment, tot i que no en descriu el camí exacte dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "obstacles": "La política garanteix el dret, però no hi ha cap pàgina d’ajuda pública amb els passos concrets; si no es troba l’opció, cal escriure al delegat de protecció de dades.",
+    "dataRetained": "Dades amb obligació legal de conservació mercantil o fiscal.",
+    "sources": [
+      "knowunity-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "knowunity-privacy-policy"
+      ],
+      "detail": "Es reconeix el dret de portabilitat en format estructurat i de lectura mecànica, exercible pel canal de protecció de dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "knowunity-privacy-policy",
+        "knowunity-imprint"
+      ],
+      "detail": "Delegat de protecció de dades designat i adreça de suport en castellà.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:support-es@knowunity.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "knowunity-privacy-policy"
+      ],
+      "detail": "La publicitat personalitzada depèn d’un consentiment retirable, i la política remet a la configuració del sistema operatiu per limitar l’identificador publicitari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "knowunity-privacy-policy"
+      ],
+      "detail": "L’eina de gestió del consentiment permet rebutjar l’analítica no essencial, però els registres del servidor s’emparen en l’interès legítim.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "knowunity-privacy-policy"
+      ],
+      "detail": "Consentiment separat per a analítica, màrqueting, inici de sessió únic i accés de les famílies.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut revisar les pantalles de consentiment dins de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei ha de poder llegir els continguts per moderar-los i indexar-los.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política descriu la infraestructura però no detalla les mesures criptogràfiques."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública sobre el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació sobre verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories de seguretat independents publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses ni canal de seguretat."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha ni security.txt ni pàgina de comunicació de vulnerabilitats."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "El compromís contractual que cap proveïdor d’IA entreni models amb les entrades de l’alumnat és el més explícit que hem llegit en tota l’onada. Conviu amb un nombre de píxels publicitaris poc habitual en un servei que sap que les seves persones usuàries són adolescents.",
+    "openQuestions": [
+      "On és exactament l’opció d’eliminar el compte dins de l’aplicació? La política hi remet però no la descriu.",
+      "Com es verifica l’edat i el consentiment parental de l’alumnat menor de setze anys?"
+    ]
+  },
+  "appStoreBundleId": "de.knowunity.app"
+}

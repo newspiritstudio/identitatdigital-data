@@ -1,0 +1,544 @@
+{
+  "slug": "tribbu",
+  "name": "Tribbu",
+  "company": "hoop-solutions",
+  "categories": [
+    "mobilitat-i-transport"
+  ],
+  "tagline": "Geolocalització limitada al primer pla, però cessió del trajecte a la universitat o a l’empresa que paga el servei",
+  "summary": "Tribbu comparteix cotxe per als trajectes de cada dia entre casa i la universitat o la feina. La política és clara en un punt poc habitual: la ubicació només es llegeix «cuando la aplicación está abierta en primer plano». D’altra banda, la plataforma la contracten universitats i empreses, que reben informació de qui comparteix cotxe per concedir beneficis d’aparcament.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Espanya",
+  "userBase": "Comunitats universitàries i centres de treball a Espanya",
+  "links": {
+    "website": "https://www.tribbuapp.com/",
+    "privacyPolicy": "https://www.hoopcarpool.com/privacidad",
+    "appStore": "https://apps.apple.com/es/app/id1323765310"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "tribbu-privacy-policy"
+    ],
+    "detail": "El registre demana nom, correu, telèfon, fotografia i data de naixement; per conduir, també la matrícula i el distintiu ambiental.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "editorial",
+    "sources": [],
+    "detail": "Aplicació privativa: no consta cap publicació del codi font.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Un trajecte diari repetit indica on vius, on estudies o treballes i a quina hora hi ets. A més, com que el servei va vinculat a la universitat o l’empresa, un tercer també coneix aquesta rutina.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tribbu-privacy-policy",
+        "tribbu-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tribbu-privacy-policy",
+        "tribbu-app-store"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tribbu-privacy-policy",
+        "tribbu-app-store"
+      ]
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tribbu-privacy-policy"
+      ],
+      "note": "La fotografia de perfil és visible per a la resta de la comunitat."
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tribbu-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tribbu-privacy-policy",
+        "tribbu-app-store"
+      ],
+      "note": "La política limita la lectura de la ubicació al moment en què l’aplicació és oberta en primer pla per triar el trajecte."
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tribbu-privacy-policy",
+        "tribbu-app-store"
+      ],
+      "note": "Els punts de recollida equivalen a adreces del domicili o del centre de treball."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tribbu-privacy-policy"
+      ]
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tribbu-privacy-policy",
+        "tribbu-play-data-safety"
+      ],
+      "note": "Google Play declara la recollida de missatges; la política parla de les comunicacions entre membres de la comunitat."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tribbu-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "tribbu-app-store"
+      ],
+      "note": "És l’única categoria declarada sota «Datos utilizados para rastrearte»."
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "tribbu-privacy-policy"
+      ],
+      "note": "La política esmenta l’historial de navegació recollit amb galetes i eines d’analítica."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "tribbu-privacy-policy",
+        "tribbu-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "tribbu-app-store"
+      ]
+    },
+    {
+      "type": "ocupacio-i-carrec",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tribbu-privacy-policy"
+      ],
+      "note": "La pertinença a una universitat o a una empresa és el que dona accés a la comunitat i als beneficis d’aparcament."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tribbu-app-store"
+      ],
+      "detail": "L’etiqueta declara els identificadors sota «Datos utilizados para rastrearte», cosa que la política no explica.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tribbu-app-store"
+      ],
+      "detail": "Identificador d’usuari i de dispositiu declarats com a dades vinculades i de seguiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tribbu-privacy-policy"
+      ],
+      "detail": "La política cita proveïdors d’analítica de Google, Meta i Microsoft Clarity.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tribbu-privacy-policy"
+      ],
+      "detail": "Hi ha comunicacions comercials basades en consentiment i eines de Meta i Google, però la política no descriu publicitat conductual pròpia.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap elaboració de perfils més enllà de l’analítica d’ús."
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta l’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tribbu-privacy-policy"
+      ],
+      "detail": "Membres del trajecte, universitats i empreses ocupadores, processadors de pagament, proveïdors d’analítica i autoritats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Hoop Solutions, S.L. no forma part de cap grup empresarial conegut.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap venda de dades a intermediaris."
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no detalla el mecanisme de transferència, tot i que cita proveïdors nord-americans."
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tribbu-privacy-policy"
+      ],
+      "detail": "La política dona terminis per a cada situació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tribbu-privacy-policy"
+      ],
+      "detail": "Les dades es conserven seixanta dies després del tancament del compte i les comptables, el que exigeixi la normativa fiscal.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "period": "5 anys des de l’últim ús de la plataforma.",
+        "sources": [
+          "tribbu-privacy-policy"
+        ]
+      },
+      {
+        "period": "60 dies després del tancament del compte.",
+        "sources": [
+          "tribbu-privacy-policy"
+        ]
+      },
+      {
+        "period": "Entre 2 i 10 anys per als comptes suspesos.",
+        "sources": [
+          "tribbu-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tribbu-privacy-policy",
+        "tribbu-play-data-safety"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política reconeix el dret de supressió però no diu si hi ha un botó dins de l’aplicació."
+    },
+    "difficulty": "medium",
+    "steps": [
+      "Escriu a dataprotection@hoopcarpool.com demanant la supressió del compte i de les dades.",
+      "Si l’aplicació ofereix l’opció al perfil, fes-la servir i guarda’n la confirmació.",
+      "Compta que les dades es conserven seixanta dies més després del tancament."
+    ],
+    "dataRetained": "Seixanta dies de dades generals després del tancament i les dades comptables i de facturació durant els terminis fiscals.",
+    "sources": [
+      "tribbu-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tribbu-privacy-policy"
+      ],
+      "detail": "El dret de portabilitat es reconeix i s’exerceix pel canal de protecció de dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tribbu-privacy-policy"
+      ],
+      "detail": "Adreça de protecció de dades explícita a la política.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dataprotection@hoopcarpool.com",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tribbu-privacy-policy"
+      ],
+      "detail": "Es pot cancel·lar la subscripció a les comunicacions comercials des de cada missatge o escrivint a l’empresa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap control per desactivar l’analítica dins de l’aplicació."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut revisar el panell de privadesa del compte."
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem documentat cap patró fosc concret."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Els missatges entre membres passen pel servidor del servei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tribbu-play-data-safety"
+      ],
+      "detail": "Google Play declara que les dades es xifren en trànsit.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública sobre el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació sobre la verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories independents publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses ni cap fitxer security.txt als dominis del servei."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap canal públic documentat per comunicar vulnerabilitats."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "blablacar",
+      "comparability": "partial",
+      "rationale": "És l’alternativa habitual per compartir cotxe, tot i que està pensada per a la llarga distància.",
+      "tradeOffs": "Declara molta més publicitat de tercers i no té la vinculació amb el centre d’estudis o de treball."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La política dona terminis de conservació numerats. En canvi, no explica per a què es fan servir els identificadors que l’etiqueta de l’App Store declara com a dada de seguiment.",
+    "openQuestions": [
+      "Quina informació concreta reben les universitats i les empreses que contracten el servei?",
+      "Hi ha un botó d’eliminació del compte dins de l’aplicació?"
+    ]
+  },
+  "appStoreBundleId": "com.hoopcarpool.HooP"
+}

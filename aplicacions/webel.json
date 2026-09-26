@@ -1,0 +1,581 @@
+{
+  "slug": "webel",
+  "name": "Webel",
+  "company": "webelapp-technologies",
+  "categories": [
+    "comerc-electronic",
+    "feina-i-ocupacio"
+  ],
+  "tagline": "Un mercat de serveis a domicili que guarda l’adreça de casa i demana el DNI per exercir drets",
+  "summary": "Webel posa en contacte persones que necessiten serveis a domicili, com neteja, reparacions, bellesa o cura d’infants, amb professionals autònoms. Per funcionar necessita l’adreça on es fa el servei i, si ho permets, la ubicació en temps real. La política preveu comunicacions comercials de tercers com Facebook i Google, compartició amb proveïdors antifrau i filials, i un seguiment complet dels clics. L’etiqueta de l’App Store declara molt menys del que descriu la política, i per exercir drets cal enviar un escrit signat amb còpia del DNI.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Espanya (UE)",
+  "userBase": "Més de 2 milions de persones usuàries i uns 350.000 professionals, segons l’empresa.",
+  "links": {
+    "website": "https://appwebel.com/",
+    "privacyPolicy": "https://legal.appwebel.com/11135bf692b080058410fa6f63febd28",
+    "terms": "https://legal.appwebel.com/11135bf692b08083a746d1fed2d73685",
+    "appStore": "https://apps.apple.com/es/app/id1470056152"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "webel-privacy-policy",
+      "webel-terms"
+    ],
+    "detail": "Cal crear un compte amb nom, cognoms i correu per reservar.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "webel-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Les reserves revelen on viu una persona, quan és a casa i quins serveis hi contracta, com la cura d’infants o de persones grans. Els professionals veuen l’adreça i entren al domicili, i la plataforma hi afegeix l’historial de navegació, la ubicació i les dades de pagament.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "webel-privacy-policy"
+      ],
+      "note": "Es comparteix amb el professional contractat. L’etiqueta de l’App Store no ho declara."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "webel-privacy-policy"
+      ],
+      "note": "També per a comunicacions comercials si s’hi dona el consentiment."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "webel-privacy-policy",
+        "webel-terms"
+      ]
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "webel-privacy-policy",
+        "webel-terms"
+      ]
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "webel-privacy-policy",
+        "webel-terms"
+      ],
+      "note": "Voluntari al perfil, però obligatori en còpia per exercir els drets de protecció de dades."
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "webel-privacy-policy"
+      ],
+      "note": "L’adreça on es fa el servei. La política preveu fer-la servir per entregar mostres o fullets promocionals."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "webel-privacy-policy"
+      ],
+      "note": "Ubicació en temps real, només si es dona permís."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "webel-privacy-policy"
+      ],
+      "note": "La foto de perfil és obligatòria per als professionals."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "webel-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "webel-privacy-policy"
+      ],
+      "note": "Les processen MangoPay i Stripe."
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "webel-privacy-policy"
+      ],
+      "note": "Valoracions dels serveis."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "webel-terms",
+        "webel-privacy-policy"
+      ],
+      "note": "La missatgeria amb professionals passa per filtres automatitzats; els missatges al suport es conserven per gestionar incidències."
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "webel-privacy-policy"
+      ],
+      "note": "La política parla del «clickstream» complet d’URL amb data i hora, de l’historial de navegació i de la font d’arribada."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "webel-app-store"
+      ],
+      "note": "L’etiqueta declara «altres dades d’ús» per rastrejar."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "webel-privacy-policy"
+      ]
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "webel-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "webel-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "webel-app-store"
+      ],
+      "detail": "L’etiqueta declara «altres dades d’ús» com a dades per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’etiqueta no declara l’identificador del dispositiu. Els enllaços de baixada del web passen per Adjust, una eina de mesura de campanyes, però no hem pogut confirmar quin identificador fa servir l’app."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "webel-privacy-policy",
+        "webel-cookie-policy"
+      ],
+      "detail": "La política parla de tecnologia de tercers integrada per recollir dades i preferències, i la de galetes, de Google Analytics i de galetes de publicitat comportamental.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "webel-privacy-policy"
+      ],
+      "detail": "Personalitza la publicitat segons les preferències i preveu que es rebin comunicacions comercials de tercers com Facebook i Google.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "webel-privacy-policy"
+      ],
+      "detail": "Fa servir sistemes de CRM per recollir preferències i analitzar el comportament de les persones usuàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no en parla."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "webel-privacy-policy"
+      ],
+      "detail": "Professionals contractats, MangoPay i Stripe, centres d’atenció telefònica, proveïdors antifrau, plataformes d’enviament massiu de correus i, amb consentiment, socis comercials.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "webel-privacy-policy"
+      ],
+      "detail": "Les filials del grup poden accedir a les dades des de qualsevol territori per prestar el servei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "webel-privacy-policy"
+      ],
+      "detail": "La política diu que cap comunicació de dades inclourà vendre-les o llogar-les amb finalitats comercials.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "webel-privacy-policy"
+      ],
+      "detail": "Les dades s’allotgen a AWS a Irlanda, però alguns proveïdors poden ser fora de l’EEE. La política no concreta el mecanisme de garantia.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "no",
+      "level": "editorial",
+      "sources": [
+        "webel-privacy-policy"
+      ],
+      "detail": "No hem trobat cap informe de transparència.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "webel-privacy-policy"
+      ],
+      "detail": "Els terminis es lliguen a la durada del contracte, al termini de prescripció de les accions legals o a la retirada del consentiment, sense xifres concretes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "webel-privacy-policy"
+      ],
+      "detail": "Després de la supressió, les dades queden bloquejades a disposició de les autoritats, i es conserven dades anonimitzades per impedir que es torni a registrar qui hagi incomplert les normes.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "webel-terms",
+        "webel-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "webel-terms"
+      ],
+      "detail": "Les condicions diuen que la baixa es fa «a través de l’aplicació», comunicant-ho pel formulari de contacte o per correu. No hem pogut comprovar si hi ha un botó per eliminar el compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "steps": [
+      "Des de l’app, obre el formulari de contacte, o escriu a contact@appwebel.com des de l’adreça del compte.",
+      "Demana la baixa del compte i, si vols que se suprimeixin les dades, exerceix també el dret de supressió."
+    ],
+    "obstacles": "La baixa es gestiona per missatge. Per exercir els drets de protecció de dades, la política demana un escrit signat amb el domicili i una còpia del DNI.",
+    "dataRetained": "Dades bloquejades durant el termini de prescripció de les accions legals i dades anonimitzades per impedir un nou registre en cas d’incompliment.",
+    "sources": [
+      "webel-terms",
+      "webel-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "webel-privacy-policy"
+      ],
+      "detail": "Reconeix el dret a la portabilitat en format estructurat, però només per sol·licitud.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "webel-privacy-policy"
+      ],
+      "detail": "Per correu o a les oficines de Madrid, amb escrit signat i còpia del DNI.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:contact@appwebel.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "webel-privacy-policy"
+      ],
+      "detail": "Es pot cancel·lar la subscripció als correus i desactivar les notificacions; la publicitat de Facebook i Google depèn de la configuració d’aquestes plataformes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "webel-privacy-policy"
+      ],
+      "detail": "La geolocalització i les comunicacions comercials depenen del consentiment, però els avisos push comercials i els operatius només es poden desactivar junts des del sistema.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "webel-cookie-policy",
+        "webel-privacy-policy"
+      ],
+      "detail": "La política de galetes diu que continuar navegant equival a consentir-les, i la de privadesa presenta el fet de facilitar dades com un consentiment exprés al tractament per part de l’empresa i les filials.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "unbalanced-consent",
+        "severity": "medium",
+        "description": "El web considera que seguir navegant és acceptar les galetes, incloses les de publicitat comportamental.",
+        "sources": [
+          "webel-cookie-policy"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "no",
+      "level": "editorial",
+      "sources": [
+        "webel-terms"
+      ],
+      "detail": "Els missatges passen per sistemes automatitzats que en detecten el contingut, de manera que el servidor els pot llegir.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política només parla de mesures de seguretat en termes generals."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat security.txt ni cap canal per comunicar vulnerabilitats."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "No hi ha cap categoria de serveis a domicili: la classifiquem com a comerç electrònic (reserves i pagament) i feina (els professionals s’hi anuncien). La política conté restes de redacció, com un comentari entre parèntesis que admet que la data de naixement, el mòbil i el DNI no s’havien esmentat abans. L’etiqueta de l’App Store no declara el nom, el correu, l’adreça, la ubicació ni el pagament, que la política sí que descriu. No hem trobat cap resolució de l’AEPD ni cap filtració registrada a Have I Been Pwned.",
+    "openQuestions": [
+      "L’app té un botó per eliminar el compte o cal demanar-ho per correu?",
+      "Quins proveïdors antifrau i quins SDK publicitaris fa servir l’app, i per a què es fan servir les dades d’ús que declara per rastrejar?"
+    ]
+  },
+  "appStoreBundleId": "es.miotek.Webel"
+}

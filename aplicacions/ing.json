@@ -1,0 +1,633 @@
+{
+  "slug": "ing",
+  "name": "ING",
+  "company": "ing-espana",
+  "categories": [
+    "banca-i-finances"
+  ],
+  "tagline": "Explica com decideix de manera automàtica i com fa servir la IA generativa, però no diu quants anys conserva les dades",
+  "summary": "La política d’ING és explícita en dos punts que gairebé ningú documenta. El primer són les decisions automatitzades: puntuació de risc amb rebuig automàtic, bloqueig d’operacions en temps real i fins i tot rescissió automàtica del contracte per risc de blanqueig. El segon és l’ús d’IA generativa, amb proves al centre de trucades i el compromís que les dades no s’utilitzen per a finalitats pròpies d’aquests sistemes. En canvi, no dona cap termini de conservació i remet a una política interna. L’etiqueta de l’App Store declara identificadors per rastrejar.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "subscription",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://www.ing.es/",
+    "privacyPolicy": "https://www.ing.es/sobre-ing/pdf/protecciondatosING.pdf",
+    "appStore": "https://apps.apple.com/es/app/id774858627"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "ing-privacy-policy"
+    ],
+    "detail": "L’aplicació és la banca en línia del banc: cal ser-ne client.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "ing-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "La política enumera la localització GPS, les interaccions a xarxes socials, les gravacions de trucades i de xats i els interessos inferits al costat de les dades financeres. També calcula una petjada de carboni estimada per a cada transacció, que informa de què es consumeix a més de quant es gasta.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "ing-privacy-policy",
+        "ing-app-store"
+      ]
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "ing-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "ing-privacy-policy",
+        "ing-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "ing-privacy-policy",
+        "ing-app-store"
+      ]
+    },
+    {
+      "type": "situacio-familiar",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "ing-privacy-policy"
+      ],
+      "note": "Estat civil, fills, règim econòmic matrimonial i nivell d’estudis."
+    },
+    {
+      "type": "ocupacio-i-carrec",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "ing-privacy-policy"
+      ]
+    },
+    {
+      "type": "nivell-d-ingressos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "ing-privacy-policy"
+      ],
+      "note": "Nòmines, hàbits de pagament, taxació de l’habitatge, capacitat creditícia i productes contractats amb altres entitats, amb consulta a ASNEF-Equifax, Experian i la CIRBE."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "ing-privacy-policy",
+        "ing-app-store"
+      ],
+      "note": "Les dades d’alta de la targeta al telèfon es comuniquen a Bizum, Google, Apple i Mastercard, que hi actuen com a responsables propis."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "ing-privacy-policy",
+        "ing-app-store"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "ing-privacy-policy"
+      ],
+      "note": "La política inclou expressament la localització GPS entre les categories tractades."
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari",
+        "compliment-legal"
+      ],
+      "sources": [
+        "ing-privacy-policy"
+      ],
+      "note": "Gravació de trucades i de xats, imatge i videovigilància."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "ing-privacy-policy"
+      ],
+      "note": "Interessos i necessitats inferits, i una petjada de carboni estimada per transacció."
+    },
+    {
+      "type": "conviccions-i-opinions",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal"
+      ],
+      "sources": [
+        "ing-privacy-policy"
+      ],
+      "note": "Dades sensibles com el càrrec polític o la discapacitat; la política diu que no tractarà cap dada sensible que es pugui inferir de les transaccions."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "ing-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "ing-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "ing-app-store"
+      ],
+      "note": "L’etiqueta declara identificadors utilitzats per rastrejar i identificadors de dispositiu per a publicitat de tercers."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "ing-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "ing-app-store",
+        "ing-privacy-policy"
+      ]
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "ing-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "ing-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ing-app-store"
+      ],
+      "detail": "L’etiqueta declara els identificadors com a dades utilitzades per rastrejar, cosa inusual en un banc.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ing-app-store"
+      ],
+      "detail": "L’etiqueta declara identificadors de dispositiu i dades de publicitat per a publicitat de tercers i del desenvolupador.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ing-app-store"
+      ],
+      "detail": "La categoria «publicitat de tercers» apareix a l’etiqueta de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ing-privacy-policy"
+      ],
+      "detail": "El màrqueting propi es basa en l’interès legítim i les promocions de tercers, en el consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ing-privacy-policy"
+      ],
+      "detail": "Cinc tipus de perfilat documentats: frau i blanqueig, risc creditici, perfils comercials bàsics per interès legítim, perfils avançats amb dades externes i consentiment exprés, i perfilat informatiu. Hi ha decisions automatitzades amb rebuig automàtic de crèdit, bloqueig d’operacions en temps real i rescissió automàtica del contracte per risc de blanqueig.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "ing-privacy-policy"
+      ],
+      "detail": "Fa servir IA tradicional contra el frau i IA generativa per millorar el xatbot, per a proves al centre de trucades amb un nombre reduït de clients avisats i per crear contingut de màrqueting. Declara mesures perquè les dades personals no s’utilitzin per a finalitats pròpies dels sistemes d’IA generativa i un procés de pseudonimització.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ing-privacy-policy"
+      ],
+      "detail": "CIRBE, SEPBLAC, Experian i ASNEF-Equifax, Agència Tributària i Seguretat Social, Iberpay, la CNMV, gestores de fons i, per a l’alta de targetes, Bizum, Google, Apple i Mastercard.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ing-privacy-policy"
+      ],
+      "detail": "Grup ING, present a més de quaranta països.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu si cedeix dades a intermediaris de dades."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ing-privacy-policy"
+      ],
+      "detail": "Clàusules contractuals tipus amb anàlisi previ de la legislació del país receptor i mesures de pseudonimització o xifratge, decisions d’adequació i normes corporatives vinculants per a les empreses del grup.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "bcrs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "ing-privacy-policy"
+      ],
+      "detail": "No hi ha cap termini en anys per a les dades de clientela, només una remissió a «la nostra política interna de retenció i esborrament». Els únics terminis numèrics són perifèrics: cinc anys per a dades de sol·licitants i trenta dies per a un fitxer antifrau.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "ing-privacy-policy"
+      ],
+      "detail": "Diu que les dades es mantindran bloquejades durant el termini previst a la legislació vigent, sense xifrar-lo.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "ing-privacy-policy"
+      ],
+      "detail": "El dret de supressió es reconeix, però el banc conserva les dades bloquejades fins que acabi un termini de retenció que no publica.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap pàgina pública d’ING amb el procediment de baixa ni cap opció d’autoservei documentada."
+    },
+    "difficulty": "unknown",
+    "requiresSupportContact": true,
+    "steps": [
+      "Cancel·la els productes associats i deixa els comptes a zero.",
+      "Demana la cancel·lació per telèfon, a l’Àrea Personal o a una oficina.",
+      "Per exercir els drets de protecció de dades, escriu a proteccion.datos@ing.es o a dpo@ing.es.",
+      "Recorda que, encara que t’oposis a les comunicacions comercials, el banc continuarà enviant les relacionades amb els productes contractats."
+    ],
+    "obstacles": "El banc no publica ni el procediment de baixa ni els terminis de conservació: qui vulgui saber quant duren les seves dades ha de demanar-ho expressament.",
+    "dataRetained": "Dades bloquejades durant terminis no publicats, fixats per una política interna de retenció.",
+    "sources": [
+      "ing-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "ing-privacy-policy"
+      ],
+      "detail": "La portabilitat es reconeix, amb transferència directa a una altra empresa quan sigui tècnicament possible; no hem trobat cap eina d’autoservei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ing-privacy-policy"
+      ],
+      "detail": "Delegat de protecció de dades i una adreça general de protecció de dades, amb canals per correu, telèfon i oficina.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dpo@ing.es"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ing-privacy-policy"
+      ],
+      "detail": "Els perfils comercials avançats depenen del consentiment exprés i es poden retirar des de l’Àrea Personal.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap control per desactivar l’analítica de l’aplicació."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "ing-app-privacy",
+        "ing-privacy-policy"
+      ],
+      "detail": "L’Àrea Personal permet gestionar consentiments, però el banc adverteix que continuarà enviant comunicacions relacionades amb els productes contractats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi de patrons foscos de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no transporta comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La pàgina de protecció de dades només parla de mesures tècniques i organitzatives genèriques."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública sobre el xifratge de les dades en repòs."
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ing-security"
+      ],
+      "detail": "Validació mòbil amb contrasenya alfanumèrica, validació biomètrica i clau de sis dígits de la qual només se’n demanen tres posicions aleatòries. La bústia d’SMS permet comprovar l’autenticitat dels missatges rebuts els últims set dies.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "app-push",
+        "sms"
+      ]
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten certificacions de seguretat publicades."
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ing-responsible-disclosure"
+      ],
+      "detail": "Programa de divulgació responsable amb recompensa econòmica, gestionat amb Intigriti, amb resposta inicial en un màxim de dos dies i en castellà o anglès.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.ing.es/responsible-disclosure"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ing-responsible-disclosure"
+      ],
+      "detail": "Hi ha política de divulgació responsable pública, tot i que el domini ing.es no publica cap fitxer security.txt.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "El banc que millor explica com decideixen els seus algorismes és, alhora, el que no publica cap termini de conservació i el que declara rastreig a l’App Store.",
+    "openQuestions": [
+      "Quins terminis concrets fixa la política interna de retenció i esborrament?",
+      "Hi ha resolucions de l’AEPD contra la sucursal espanyola? No hem pogut consultar el cercador de resolucions, que responia amb errors."
+    ]
+  },
+  "appStoreBundleId": "es.ingdirect.www"
+}

@@ -1,0 +1,464 @@
+{
+  "slug": "aquaservice",
+  "name": "Aquaservice",
+  "company": "viva-aqua-service-spain",
+  "categories": [
+    "alimentacio-i-restauracio",
+    "repartiment-a-domicili",
+    "utilitats"
+  ],
+  "tagline": "Servei de subscripció amb dades de contracte guardades deu anys i una política que no parla mai de l’aplicació",
+  "summary": "Aquaservice reparteix aigua a domicili amb un contracte de subscripció, però la seva política de privadesa està escrita per als formularis del web i no esmenta mai l’aplicació. Tampoc no hi ha procediment d’eliminació del compte, ni delegat de protecció de dades identificat, ni apartat de transferències internacionals. Les dades del contracte es conserven deu anys. L’etiqueta de l’App Store és, en canvi, molt continguda: només dades no vinculades a la identitat i cap rastreig.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "subscription",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://www.aquaservice.com/",
+    "privacyPolicy": "https://www.aquaservice.com/politica-privacidad",
+    "appStore": "https://apps.apple.com/es/app/id986255140",
+    "playStore": "https://play.google.com/store/apps/details?id=es.aquaservice.aquaservice"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "editorial",
+    "sources": [],
+    "detail": "L’aplicació serveix per gestionar un contracte de subministrament a domicili (comandes, factures i visites), de manera que pressuposa ser client. No hem trobat cap document oficial que ho digui explícitament.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "aquaservice-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "El consum d’aigua i de cafè d’una llar o d’una oficina, amb la periodicitat de les entregues i l’adreça, diu quanta gent hi viu o hi treballa i quins són els seus horaris. Les dades contractuals es conserven deu anys.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "aquaservice-privacy-policy"
+      ],
+      "note": "La política descriu la recollida per als formularis del web i per a la contractació; no esmenta l’aplicació."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "aquaservice-privacy-policy"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "aquaservice-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "aquaservice-privacy-policy"
+      ],
+      "note": "Imprescindible per al repartiment a domicili."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "aquaservice-privacy-policy"
+      ],
+      "note": "La contractació del subministrament inclou les dades de domiciliació; la política no en detalla el tractament."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "aquaservice-privacy-policy"
+      ],
+      "note": "Comandes i entregues associades al contracte, conservades deu anys."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "aquaservice-app-store"
+      ],
+      "note": "L’etiqueta de l’App Store el declara com a dada NO vinculada a la identitat, cosa poc habitual en un servei amb contracte."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "aquaservice-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "aquaservice-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "aquaservice-app-store"
+      ]
+    },
+    {
+      "type": "ocupacio-i-carrec",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "aquaservice-privacy-policy"
+      ],
+      "note": "Els currículums enviats per la web es conserven un any."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "aquaservice-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada utilitzada per rastrejar-te entre aplicacions i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "aquaservice-app-store"
+      ],
+      "detail": "L’etiqueta no declara identificadors publicitaris ni dades publicitàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu tecnologies de seguiment dins de l’aplicació."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "aquaservice-privacy-policy"
+      ],
+      "detail": "La política preveu comunicacions comercials amb consentiment, que es retira enviant la paraula «BAJA» per correu electrònic; no descriu publicitat segmentada a plataformes de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu l’elaboració de perfils comercials."
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta l’ús de dades per entrenar models d’intel·ligència artificial."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no enumera els destinataris de les dades més enllà dels proveïdors necessaris per prestar el servei."
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu comunicacions dins d’un grup empresarial."
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu vendes de dades a intermediaris ni les descarta expressament."
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no té cap apartat sobre transferències internacionals de dades."
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "aquaservice-privacy-policy"
+      ],
+      "detail": "La política fixa terminis concrets: deu anys per a les dades contractuals, dos anys des de l’última autorització per a la relació comercial, un màxim de deu anys per al canal de denúncies i un any per als currículums.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu què passa amb les dades quan es dona de baixa un compte de l’aplicació."
+    },
+    "periods": [
+      {
+        "period": "Deu anys per a les dades derivades del contracte",
+        "sources": [
+          "aquaservice-privacy-policy"
+        ]
+      },
+      {
+        "period": "Dos anys des de l’última autorització per a la relació comercial",
+        "sources": [
+          "aquaservice-privacy-policy"
+        ]
+      },
+      {
+        "period": "Un any per als currículums enviats pel web",
+        "sources": [
+          "aquaservice-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "aquaservice-privacy-policy"
+      ],
+      "detail": "La política reconeix el dret de supressió davant de l’empresa, però no descriu cap procediment per eliminar el compte de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap document oficial que descrigui una opció d’eliminació dins de l’aplicació."
+    },
+    "difficulty": "unknown",
+    "requiresSupportContact": true,
+    "steps": [
+      "Escriu a VIVA AQUA SERVICE SPAIN, S.A. i demana la supressió de les dades i la baixa del servei.",
+      "Per correu postal: Polígon Industrial El Molí, carrer del Testar 8, 46980 Paterna (València).",
+      "Per deixar de rebre comunicacions comercials, n’hi ha prou d’enviar un correu amb la paraula «BAJA».",
+      "Si no et responen dins del termini, pots reclamar davant de l’Agencia Española de Protección de Datos."
+    ],
+    "obstacles": "La política no identifica cap delegat de protecció de dades ni cap formulari, i com que hi ha un contracte de subministrament la supressió queda condicionada a la baixa del servei.",
+    "dataRetained": "Les dades del contracte es conserven deu anys per obligacions legals.",
+    "sources": [
+      "aquaservice-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "aquaservice-privacy-policy"
+      ],
+      "detail": "La política reconeix el dret de portabilitat, però no ofereix cap eina per descarregar les dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "aquaservice-privacy-policy"
+      ],
+      "detail": "Drets exercibles per escrit davant de l’empresa; la política no identifica cap delegat de protecció de dades ni cap formulari específic.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "aquaservice-privacy-policy"
+      ],
+      "detail": "Les comunicacions comercials es poden aturar enviant la paraula «BAJA» per correu electrònic.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap manera de desactivar l’analítica d’ús de l’aplicació."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació sobre els controls de privadesa dins de l’aplicació."
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi independent dels formularis de consentiment de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És una aplicació de gestió d’un servei de repartiment, sense comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap document oficial que descrigui el xifratge en trànsit."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no concreta les mesures tècniques de seguretat."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació oficial sobre la verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat auditories ni certificacions de seguretat publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa públic de recompenses per vulnerabilitats."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap security.txt ni cap canal públic documentat per notificar vulnerabilitats."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "La política de privadesa d’Aquaservice està pensada per als formularis del web i no esmenta l’aplicació en cap moment, de manera que molts apartats (destinataris, transferències, mesures de seguretat) queden sense resposta. Hem detectat, a més, que la URL alternativa /politica-de-privacidad serveix un text en portuguès encapçalat «Política de Privacidade de Aquaservice TEMP», una pàgina aparentment provisional. L’etiqueta de l’App Store només declara dades no vinculades a la identitat, cosa poc habitual en un servei que funciona per contracte nominatiu.",
+    "openQuestions": [
+      "Per què l’etiqueta de l’App Store no declara cap dada vinculada a la identitat si l’aplicació gestiona un contracte nominatiu?",
+      "Hi ha alguna política de privadesa específica de l’aplicació?",
+      "Quins encarregats del tractament intervenen en el repartiment i la facturació?"
+    ]
+  },
+  "appStoreBundleId": "es.aquaservice.AquaService"
+}

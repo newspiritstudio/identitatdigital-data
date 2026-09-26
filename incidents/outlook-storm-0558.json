@@ -1,0 +1,17 @@
+{
+  "slug": "outlook-storm-0558",
+  "title": "Accés no autoritzat al correu de vora 25 organitzacions amb testimonis falsificats (Storm-0558)",
+  "type": "breach",
+  "severity": "high",
+  "apps": [
+    "outlook"
+  ],
+  "company": "microsoft",
+  "occurredAt": "2023-05-15",
+  "disclosedAt": "2023-07-11",
+  "description": "Un actor d’origen xinès identificat per Microsoft com a Storm-0558 va falsificar testimonis d’autenticació amb una clau de signatura de comptes de Microsoft obtinguda indegudament. Un error de validació al codi de Microsoft va permetre que aquella clau signés testimonis vàlids tant per a comptes personals com per a comptes de Microsoft Entra ID. Amb aquests testimonis, l’actor va accedir al correu a través d’Outlook Web Access i d’Outlook.com i en va extreure missatges, adjunts i informació de carpetes amb scripts contra l’API del servei. Microsoft ho va detectar el 16 de juny del 2023 arran de l’avís d’un client, va revocar totes les claus de signatura actives i va donar per bloquejada l’activitat el 29 de juny.",
+  "affectedPeople": "Aproximadament 25 organitzacions, entre elles organismes públics, i comptes personals relacionats",
+  "sources": [
+    "microsoft-storm-0558"
+  ]
+}

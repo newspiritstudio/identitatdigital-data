@@ -1,0 +1,565 @@
+{
+  "slug": "dramabox",
+  "name": "DramaBox",
+  "company": "storymatrix",
+  "categories": [
+    "video-i-streaming"
+  ],
+  "tagline": "Microdrames verticals amb identificadors publicitaris, perfilat algorítmic i una cadena de propietat que va de Singapur a Pequín",
+  "summary": "DramaBox serveix sèries verticals d’un o dos minuts que es desbloquegen amb monedes o amb una subscripció. L’etiqueta de l’App Store declara identificadors i dades d’ús per rastrejar, i la política reconeix els SDK d’AdMob, AppsFlyer i AppLovin Max i el perfilat algorítmic que decideix què et mostra. La societat responsable és de Singapur, però la matriu és xinesa, i una anàlisi independent del binari per a iOS hi troba a faltar el manifest de privadesa que Apple exigeix.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Singapur, amb representant a la UE",
+  "userBase": "Més de 100 milions de descàrregues acumulades l’agost del 2025.",
+  "links": {
+    "website": "https://www.dramaboxdb.com/",
+    "privacyPolicy": "https://support.dramaboxdb.com/privacy.html",
+    "appStore": "https://apps.apple.com/es/app/id6445905219"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "dramabox-privacy-policy"
+    ],
+    "detail": "Es pot mirar contingut sense registre, però cal un compte amb correu, telèfon o xarxa social per conservar les monedes, la subscripció i l’historial.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "dramabox-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "L’historial de visualització d’un catàleg organitzat per temes molt marcats (infidelitats, embarassos, venjances, milionaris) revela interessos íntims. DramaBox el creua amb l’identificador publicitari i amb la llista d’aplicacions instal·lades per alimentar recomanacions i campanyes.",
+  "dataCollection": [
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "dramabox-privacy-policy"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "dramabox-privacy-policy"
+      ],
+      "note": "Amb el codi de verificació per SMS, que envia un proveïdor extern."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "dramabox-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "dramabox-app-store",
+        "dramabox-privacy-policy"
+      ],
+      "note": "L’etiqueta el declara sota «publicitat de tercers»; l’anàlisi del binari hi troba l’IDFV."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "independent",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "dramabox-privacy-policy",
+        "dramabox-nowsecure"
+      ],
+      "note": "L’IDFA consta a la política i l’anàlisi de NowSecure hi detecta l’ús de l’identificador publicitari i el permís de rastreig."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "compliment-legal"
+      ],
+      "sources": [
+        "dramabox-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "independent",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "dramabox-nowsecure"
+      ],
+      "note": "L’anàlisi del binari hi detecta la recollida del codi postal. La política només parla de la ubicació derivada de l’adreça IP."
+    },
+    {
+      "type": "historial-de-visualitzacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "personalitzacio-de-continguts",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "dramabox-privacy-policy",
+        "dramabox-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "dramabox-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "dramabox-app-store"
+      ],
+      "note": "Monedes, episodis desbloquejats i subscripcions."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "dramabox-app-store"
+      ]
+    },
+    {
+      "type": "aplicacions-instal-lades",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "dramabox-privacy-policy"
+      ],
+      "note": "La política diu que es llegeix amb consentiment."
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "dramabox-privacy-policy"
+      ],
+      "note": "Galetes i balises web, compartides amb els socis publicitaris."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "dramabox-app-store"
+      ]
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "recomanacions-algoritmiques",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "dramabox-privacy-policy"
+      ],
+      "note": "La política parla d’«anàlisi algorítmica i creació de perfils d’usuari»."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dramabox-app-store",
+        "dramabox-privacy-policy"
+      ],
+      "detail": "L’etiqueta declara identificadors i dades d’ús com a dades per rastrejar, i la política enumera socis publicitaris que reben identificadors i galetes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dramabox-privacy-policy",
+        "dramabox-nowsecure"
+      ],
+      "detail": "La política cita l’IDFA i l’anàlisi del binari hi detecta l’identificador publicitari i el permís de rastreig d’iOS.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dramabox-privacy-policy"
+      ],
+      "detail": "AdMob, AppsFlyer, AppLovin Max, Sensors Data, Facebook, Firebase i Sobot.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dramabox-privacy-policy"
+      ],
+      "detail": "La política inclou el màrqueting i la publicitat dirigida entre les finalitats i descriu la compartició d’identificadors amb els socis publicitaris.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dramabox-privacy-policy"
+      ],
+      "detail": "Reconeix l’anàlisi algorítmica i la creació de perfils per recomanar contingut a partir de l’historial de visualització i de les interaccions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "dramabox-privacy-policy"
+      ],
+      "detail": "La política diu que la informació serveix per entrenar i millorar els seus algoritmes, però no concreta si alimenta models d’intel·ligència artificial generativa.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dramabox-privacy-policy"
+      ],
+      "detail": "Proveïdors d’analítica, d’SMS i d’atenció al client, xarxes socials en cas de registre federat, proveïdors d’SDK i autoritats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [
+        "dramabox-wikipedia"
+      ],
+      "detail": "StoryMatrix és una filial de Dianzhong Technology, amb seu a Pequín, però la política no diu quines dades arriben a la matriu ni amb quina garantia.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no parla de venda de dades a intermediaris; només adverteix que la compartició amb socis publicitaris es considera «venda» a efectes de la llei de Califòrnia."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dramabox-privacy-policy"
+      ],
+      "detail": "Els servidors principals són a Singapur. Per a l’Espai Econòmic Europeu s’invoquen decisions d’adequació, clàusules contractuals tipus i normes corporatives vinculants, sense dir quina s’aplica a cada cas.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "dramabox-privacy-policy"
+      ],
+      "detail": "La política diu que conserva les dades «fins a la terminació del compte» i el temps necessari per a les finalitats descrites, sense cap termini concret.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "dramabox-privacy-policy"
+      ],
+      "detail": "Es preveu conservar informació quan calgui per complir obligacions legals, fer complir acords o resoldre disputes, sense dir quines dades ni durant quant de temps.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dramabox-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dramabox-privacy-policy"
+      ],
+      "detail": "La política indica un camí dins de l’aplicació: Perfil → Configuració → Eliminació del compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "requiresSupportContact": false,
+    "steps": [
+      "Cancel·la abans la subscripció des dels ajustos de l’App Store, perquè eliminar el compte no atura la renovació automàtica.",
+      "Obre l’aplicació i ves a Perfil i després a Configuració.",
+      "Tria «Eliminació del compte» i confirma la sol·licitud.",
+      "Si no trobes l’opció, escriu a DPO@dramabox.com invocant el dret de supressió de l’article 17 del RGPD."
+    ],
+    "obstacles": "Les monedes comprades i els episodis desbloquejats es perden amb el compte, i la política no diu en quant de temps es completa l’esborrat.",
+    "dataRetained": "Informació necessària per a obligacions legals, per fer complir els acords o per resoldre disputes.",
+    "sources": [
+      "dramabox-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "dramabox-privacy-policy"
+      ],
+      "detail": "Es reconeix el dret de portabilitat, però no hi ha cap eina d’autoservei: cal demanar-ho al canal de protecció de dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dramabox-privacy-policy"
+      ],
+      "detail": "Representant a la Unió Europea amb adreça de contacte pròpia.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:DPO@dramabox.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "dramabox-privacy-policy"
+      ],
+      "detail": "Depèn sobretot del permís de rastreig d’iOS i de la configuració de cada xarxa publicitària; l’aplicació no ofereix un interruptor propi documentat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap manera de desactivar l’analítica d’ús."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació d’un panell de privadesa amb controls per finalitat."
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "independent",
+      "sources": [
+        "dramabox-nowsecure"
+      ],
+      "detail": "L’anàlisi independent del binari constata que l’aplicació no declara el manifest de privadesa d’iOS ni els tipus de dades recollides, de manera que el que el sistema mostra a la persona usuària no reflecteix el que fa l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "confusing-language",
+        "severity": "medium",
+        "description": "Falten el manifest de privadesa d’iOS, la declaració d’API accedides, la de dades recollides i la de rastreig, que són els avisos que el sistema ensenya abans d’instal·lar.",
+        "sources": [
+          "dramabox-nowsecure"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei distribueix contingut audiovisual i no transporta comunicacions privades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dramabox-privacy-policy"
+      ],
+      "detail": "La política diu que xifra la transmissió.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "dramabox-privacy-policy"
+      ],
+      "detail": "Parla d’emmagatzematge segur classificat per nivells i de control d’accés, però no confirma que les dades estiguin xifrades en repòs.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap segon factor per al compte de DramaBox."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories de seguretat encarregades per l’empresa. L’anàlisi de NowSecure és automatitzada i no la va encarregar StoryMatrix."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat security.txt ni cap canal per comunicar vulnerabilitats."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La cadena de propietat és rellevant: la responsable del tractament és de Singapur, però la matriu, Dianzhong Technology, és de Pequín, i la política no diu quines dades hi arriben. Les crítiques públiques de l’aplicació es concentren en el model de monedes i en les subscripcions setmanals cares, però no hem trobat cap resolució d’autoritat que ho hagi examinat, i per això no ho recollim com a patró fosc documentat. No hem trobat cap sanció del RGPD ni cap filtració registrada.",
+    "openQuestions": [
+      "Quines dades es transfereixen a la matriu xinesa i sota quina garantia?",
+      "En quant de temps s’esborra el compte després de demanar-ne l’eliminació?",
+      "Ha corregit l’aplicació el manifest de privadesa d’iOS que hi troba a faltar l’anàlisi independent?"
+    ]
+  },
+  "appStoreBundleId": "com.storymatrix.drama"
+}

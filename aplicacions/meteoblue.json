@@ -1,0 +1,476 @@
+{
+  "slug": "meteoblue",
+  "name": "meteoblue tiempo y mapas",
+  "company": "meteoblue",
+  "categories": [
+    "meteorologia"
+  ],
+  "tagline": "Previsió suïssa amb repetició de sessió de Microsoft Clarity i cap procediment de baixa documentat",
+  "summary": "meteoblue va néixer a la Universitat de Basilea i ven previsions d’alta resolució. A l’App Store declara l’identificador de dispositiu com a dada vinculada a la identitat i usada per rastrejar, destinada a publicitat de tercers. La política, revisada el maig del 2024, reconeix l’ús de Microsoft Clarity amb mapes de calor i repetició de sessió, demana moltes dades opcionals al compte i no descriu cap manera d’eliminar-lo.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Suïssa",
+  "links": {
+    "website": "https://www.meteoblue.com/",
+    "privacyPolicy": "https://content.meteoblue.com/en/about-us/legal/privacy",
+    "privacyCenter": "https://content.meteoblue.com/en/about-us/legal/ad-providers",
+    "appStore": "https://apps.apple.com/es/app/id994459137"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "meteoblue-privacy-policy"
+    ],
+    "detail": "Les previsions es consulten sense compte; el compte serveix per desar llocs, avisos i subscripcions.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": []
+  },
+  "dataSummary": "A més de la ubicació, l’aplicació registra com et mous per la interfície: Microsoft Clarity permet reproduir les sessions, i l’identificador del dispositiu queda vinculat a la identitat per a publicitat.",
+  "dataCollection": [
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "meteoblue-app-store",
+        "meteoblue-ad-providers"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "meteoblue-app-store"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "meteoblue-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "meteoblue-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "meteoblue-app-store",
+        "meteoblue-privacy-policy"
+      ],
+      "note": "Google Analytics i Microsoft Clarity, amb mapes de calor i repetició de sessió."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "meteoblue-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "meteoblue-privacy-policy"
+      ]
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "meteoblue-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "meteoblue-privacy-policy"
+      ]
+    },
+    {
+      "type": "genere",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "meteoblue-privacy-policy"
+      ],
+      "note": "La política l’enumera entre les dades de compte, juntament amb l’edat, l’ocupació i els interessos."
+    },
+    {
+      "type": "ocupacio-i-carrec",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "meteoblue-privacy-policy"
+      ]
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "meteoblue-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "meteoblue-privacy-policy"
+      ],
+      "note": "Les tracta la passarel·la suïssa Datatrans."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meteoblue-app-store"
+      ],
+      "detail": "L’etiqueta declara l’identificador de dispositiu com a dada usada per rastrejar-te.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meteoblue-app-store",
+        "meteoblue-ad-providers"
+      ],
+      "detail": "Els anuncis els serveix Google Ad Manager amb desenes de proveïdors associats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meteoblue-privacy-policy"
+      ],
+      "detail": "Google Analytics i AdSense, Microsoft Clarity i Microsoft Advertising.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meteoblue-privacy-policy",
+        "meteoblue-app-store"
+      ],
+      "detail": "Google AdSense mostra anuncis segons el perfil i el comportament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "meteoblue-privacy-policy"
+      ],
+      "detail": "Perfil publicitari i mètriques de comportament amb repetició de sessió.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meteoblue-privacy-policy",
+        "meteoblue-ad-providers"
+      ],
+      "detail": "Google, Microsoft, Datatrans i la llista de proveïdors publicitaris de Google Ad Manager.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Empresa independent, sense grup.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "internationalTransfers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "meteoblue-privacy-policy"
+      ],
+      "detail": "Empresa suïssa que fa servir serveis de Google i Microsoft; exigeix garanties contractuals als tercers fora de la UE, sense concretar-ne el mecanisme.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "meteoblue-privacy-policy"
+      ],
+      "detail": "Només el criteri general; reconeix que les còpies de seguretat no s’esborren immediatament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu què passa en donar-se de baixa."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política reconeix drets però no documenta cap procediment de supressió del compte."
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "difficulty": "unknown",
+    "requiresSupportContact": true,
+    "obstacles": "L’única via documentada és el formulari de contacte general.",
+    "sources": [
+      "meteoblue-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta la portabilitat."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "meteoblue-privacy-policy"
+      ],
+      "detail": "Reconeix l’accés i la rectificació «en la mesura tècnicament possible i raonable» i remet al formulari de contacte; el delegat de protecció de dades només es facilita a petició.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "meteoblue-ad-providers"
+      ],
+      "detail": "No hi ha cap renúncia conjunta: la pàgina de proveïdors remet a la política de cadascun.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "meteoblue-privacy-policy"
+      ],
+      "detail": "Es poden refusar galetes, però la política avisa que això limita molt les funcions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "meteoblue-privacy-policy"
+      ],
+      "detail": "Hi ha preferències de privadesa dins del compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política avisa que refusar galetes provoca «limitacions significatives»; podria ser un patró enganyós, però no ho hem pogut comprovar a la interfície."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Servei de previsió meteorològica: no hi ha comunicació privada entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut consultar cap security.txt a meteoblue.com."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "aemet",
+      "comparability": "partial",
+      "rationale": "Per a previsions a Espanya, el servei públic estatal cobreix la mateixa necessitat sense publicitat ni analítica de comportament.",
+      "tradeOffs": "No té models d’alta resolució per a qualsevol coordenada del món."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Cap filtració associada a meteoblue.com a Have I Been Pwned. La política té data de revisió (15 de maig del 2024) però barreja el web, l’aplicació i els serveis professionals sense distingir-los.",
+    "openQuestions": [
+      "Com s’elimina un compte de meteoblue i què se’n conserva?",
+      "La repetició de sessió de Microsoft Clarity afecta també l’aplicació mòbil o només el web?"
+    ]
+  },
+  "appStoreBundleId": "com.meteoblue.meteoblue-weather"
+}

@@ -1,0 +1,516 @@
+{
+  "slug": "dazn-bet",
+  "name": "DAZN Bet",
+  "company": "dzbt-deportes",
+  "categories": [
+    "apostes"
+  ],
+  "tagline": "Casa d’apostes que exigeix DNI i selfie del document i només deixa tancar el compte pel xat",
+  "summary": "DAZN Bet és la marca d’apostes associada a DAZN i l’explota a Espanya DZBT Deportes, S.A.U., amb domicili a Ceuta. El registre obliga a identificar-se amb el DNI o el NIE i, en passar dels 150 € dipositats o en demanar la primera retirada, a fotografiar el document per les dues cares. L’etiqueta de l’App Store declara adreça física, dades de pagament, fotos i missatges vinculats al compte. No hi ha cap botó per tancar el compte: cal demanar-ho pel xat d’atenció al client.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://www.daznbet.es/",
+    "privacyPolicy": "https://www.daznbet.es/es/page/politica-de-privacidad",
+    "appStore": "https://apps.apple.com/es/app/id1672207635"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "dazn-bet-help-verification",
+      "dazn-bet-help-operator"
+    ],
+    "detail": "El joc en línia a Espanya exigeix registre i verificació d’identitat amb DNI o NIE davant de l’operadora DZBT Deportes, S.A.U.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "dazn-bet-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Un historial d’apostes és molt sensible perquè mostra quant es juga, amb quina freqüència, a quines hores i amb quins diners. Aquí va lligat al document d’identitat, a la imatge del DNI i als moviments de pagament, i el sector té obligacions específiques de conservació i de comunicació amb el regulador.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "dazn-bet-app-store",
+        "dazn-bet-help-verification"
+      ]
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "dazn-bet-help-verification"
+      ],
+      "note": "Cal fotografiar l’anvers i el revers del DNI o NIE amb la càmera del mòbil."
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "dazn-bet-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "dazn-bet-app-store"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "dazn-bet-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "dazn-bet-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "dazn-bet-app-store"
+      ],
+      "note": "Inclou dipòsits, retirades i l’historial de joc, que l’operador ha de poder acreditar davant del regulador."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "dazn-bet-app-store",
+        "dazn-bet-help-verification"
+      ]
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "dazn-bet-app-store"
+      ],
+      "note": "L’etiqueta declara correus o missatges de text i les converses d’atenció al client."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "compliment-legal"
+      ],
+      "sources": [
+        "dazn-bet-app-store"
+      ],
+      "note": "El joc en línia només es pot oferir a persones que hi juguin des d’Espanya."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "dazn-bet-app-store"
+      ],
+      "note": "L’identificador d’usuari és l’única dada declarada com a utilitzada per rastrejar."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "dazn-bet-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "dazn-bet-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "dazn-bet-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "dazn-bet-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dazn-bet-app-store"
+      ],
+      "detail": "L’etiqueta declara l’identificador d’usuari com a dada utilitzada per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’etiqueta no declara l’identificador publicitari del dispositiu."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut llegir la política de privadesa ni la de galetes: el web es carrega íntegrament amb JavaScript i no serveix el text als lectors automàtics."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El Reial decret 958/2020 limita la publicitat del joc, però no hem pogut llegir la política per saber quin ús publicitari es fa de les dades."
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut llegir la política; el sector sí que té obligacions de detecció de joc problemàtic."
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Sense font."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Sense accés a la política, no podem documentar amb qui es comparteixen les dades més enllà dels proveïdors de verificació i pagament."
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta la relació societària entre DZBT Deportes i el grup DAZN."
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Sense font."
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Sense font."
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut llegir els terminis de conservació; la normativa de joc n’imposa de propis."
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Sense font."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dazn-bet-help-close-account"
+      ],
+      "detail": "El centre d’ajuda confirma que es pot tancar el compte en qualsevol moment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "dazn-bet-help-close-account"
+      ],
+      "detail": "No hi ha cap opció de tancament dins del compte: cal contactar amb atenció al client pel xat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://ayuda.daznbet.es/hc/es/articles/6675455591197",
+    "difficulty": "hard",
+    "requiresSupportContact": true,
+    "steps": [
+      "Obre el xat d’atenció al client de DAZN Bet i demana el tancament del compte.",
+      "Si el motiu és el joc problemàtic, demana l’autoexclusió, de sis mesos a cinc anys, que no es pot revocar mentre dura.",
+      "Per a una exclusió que abasti tots els operadors amb llicència a Espanya, inscriu-te al Registre General d’Interdiccions d’Accés al Joc de la Direcció General d’Ordenació del Joc.",
+      "Per esborrar les dades personals, i no només tancar el compte, exerceix el dret de supressió davant de DZBT Deportes, S.A.U."
+    ],
+    "obstacles": "Tancar el compte depèn d’un agent del xat, i la reobertura també. La normativa de joc obliga a conservar part de la informació encara que el compte es tanqui.",
+    "dataRetained": "La normativa de joc i la de prevenció del blanqueig imposen terminis de conservació propis que no hem pogut documentar.",
+    "sources": [
+      "dazn-bet-help-close-account",
+      "dazn-bet-help-self-exclusion"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap eina d’exportació; el centre d’ajuda sí que ofereix un resum anual d’activitat de joc."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut llegir la política per identificar el canal de protecció de dades ni el delegat."
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "dazn-bet-help-marketing"
+      ],
+      "detail": "Les preferències de comunicació del compte permeten deixar de rebre correus i SMS promocionals, però no equivalen a una oposició al perfilat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Sense font."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "dazn-bet-help-self-exclusion",
+        "dazn-bet-help-marketing"
+      ],
+      "detail": "Hi ha eines de joc segur ben documentades (límits de dipòsit, de pèrdua i d’aposta, pauses i autoexclusió), però no un panell de privadesa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "yes",
+      "level": "editorial",
+      "sources": [
+        "dazn-bet-help-close-account"
+      ],
+      "detail": "Interpretació pròpia: la sortida existeix però passa obligatòriament per una conversa amb un agent que pot oferir alternatives per retenir-te, i l’article de tancament del compte ja proposa suggeriments i eines abans de la baixa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "hidden-exit",
+        "severity": "high",
+        "description": "No hi ha cap botó per tancar el compte: només es pot demanar pel xat d’atenció al client.",
+        "sources": [
+          "dazn-bet-help-close-account"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No transporta comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "editorial",
+      "sources": [],
+      "detail": "Interpretació pròpia a partir de la navegació: el web només respon per HTTPS.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Sense font."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació sobre verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Sense font pública; la llicència de joc sí que comporta homologació tècnica davant del regulador."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha fitxer security.txt ni programa públic conegut."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha fitxer security.txt a daznbet.es ni cap política publicada."
+    }
+  },
+  "review": {
+    "researchStatus": "initial",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La política de privadesa de daznbet.es és una aplicació d’una sola pàgina que no serveix el text a cap lector automàtic, i el centre d’ajuda està protegit contra l’accés automatitzat; la fitxa s’ha construït amb l’etiqueta de l’App Store i amb els articles d’ajuda recuperats. L’aplicació es publica a l’App Store sota el nom de desenvolupador «dzbt-es-stage», que sembla un compte d’entorn de proves.",
+    "openQuestions": [
+      "Quins terminis de conservació aplica DZBT Deportes i quines dades cedeix a la Direcció General d’Ordenació del Joc?",
+      "Quina és la relació societària entre DZBT Deportes, S.A.U. i el grup DAZN?",
+      "Hi ha verificació en dos passos per als comptes?"
+    ]
+  },
+  "appStoreBundleId": "com.daznbetes.app"
+}

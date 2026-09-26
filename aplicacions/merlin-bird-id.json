@@ -1,0 +1,456 @@
+{
+  "slug": "merlin-bird-id",
+  "name": "Merlin Bird ID",
+  "company": "cornell-lab-ornithology",
+  "categories": [
+    "traduccio-i-referencia"
+  ],
+  "tagline": "Identificador d’ocells d’una universitat sense ànim de lucre, que fa servir les observacions per a la recerca i no per a publicitat",
+  "summary": "Merlin identifica ocells per foto, per so i per descripció, i el publica el laboratori d’ornitologia de la Universitat Cornell. L’etiqueta de l’App Store no declara cap dada de rastreig i només vincula amb la persona l’identificador de compte. Si hi entres amb compte del Cornell Lab, les observacions que desis passen a eBird, una base de dades pública que consulten investigadors de tot el món, i queden visibles per a la resta de persones usuàries.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "donations",
+  "jurisdiction": "Estats Units",
+  "userBase": "Milions de descàrregues; eBird és la base d’observacions d’ocells més gran del món.",
+  "links": {
+    "website": "https://merlin.allaboutbirds.org/",
+    "privacyPolicy": "https://www.birds.cornell.edu/home/privacy/",
+    "appStore": "https://apps.apple.com/es/app/id773457673"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "cornell-lab-privacy"
+    ],
+    "detail": "Es pot identificar sense compte; el compte del Cornell Lab cal per desar observacions i per lligar-les a eBird.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "merlin-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Cada observació d’ocell porta data, hora i coordenades, de manera que un historial d’observacions també és un historial de per on t’has mogut i a quina hora. Aquesta informació va a una base de dades científica oberta i no a un mercat publicitari.",
+  "dataCollection": [
+    {
+      "type": "identificador-de-compte",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "merlin-app-store"
+      ],
+      "note": "És l’única categoria que l’etiqueta declara vinculada amb la persona."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "merlin-app-store",
+        "cornell-lab-privacy"
+      ],
+      "note": "L’etiqueta la declara també per a publicitat o màrqueting del desenvolupador, que en aquest cas són les campanyes de socis i donacions del laboratori."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "merlin-app-store"
+      ],
+      "note": "Cal per mostrar les espècies probables de la zona."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "investigacio-i-estadistica"
+      ],
+      "sources": [
+        "cornell-lab-privacy"
+      ],
+      "note": "Les observacions desades amb compte porten coordenades i entren a la base pública d’eBird. Les espècies sensibles queden ocultes automàticament."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "investigacio-i-estadistica",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "cornell-lab-privacy"
+      ],
+      "note": "Les fotos i els enregistraments que es comparteixen passen a formar part del material de recerca, amb la llicència que s’hi atorga."
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "investigacio-i-estadistica"
+      ],
+      "sources": [
+        "cornell-lab-privacy"
+      ],
+      "note": "Els enregistraments del Sound ID que es desen amb compte es tracten com a contingut enviat a eBird i a la Macaulay Library."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "merlin-app-store"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "cornell-lab-privacy"
+      ],
+      "note": "La declaració diu que es recull automàticament en usar les apps i els webs del laboratori."
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "cornell-lab-privacy"
+      ]
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "cornell-lab-privacy"
+      ],
+      "note": "El nom es mostra amb les llistes d’eBird si no tries sortir com a «Anonymous eBirder»."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "merlin-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap dada utilitzada per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "merlin-app-store"
+      ],
+      "detail": "No apareix cap identificador publicitari a l’etiqueta.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "cornell-lab-privacy"
+      ],
+      "detail": "La declaració reconeix galetes i eines de seguiment per entendre l’ús i per fer màrqueting dels serveis del laboratori.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "cornell-lab-privacy"
+      ],
+      "detail": "El laboratori diu que no lloga ni ven dades personals; el màrqueting és propi i de captació de socis.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "cornell-lab-privacy"
+      ],
+      "detail": "Per a la captació de donants fa segmentació i modelatge d’audiències amb dades pròpies i de tercers, i pot compartir nom i adreça postal (no el correu ni el telèfon) amb altres entitats sense ànim de lucre.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La declaració no diu si les fotos i els enregistraments serveixen per entrenar els models d’identificació de Merlin."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "cornell-lab-privacy"
+      ],
+      "detail": "Les observacions són públiques a eBird per disseny, i el laboratori comparteix nom i adreça postal amb entitats sense ànim de lucre afins si no t’hi oposes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cornell-lab-privacy"
+      ],
+      "detail": "El compte és únic per a tots els projectes del Cornell Lab: eBird, Merlin, Bird Academy, FeederWatch i la resta.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "cornell-lab-privacy"
+      ],
+      "detail": "La declaració diu explícitament que no es lloguen ni es venen dades personals.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cornell-lab-privacy"
+      ],
+      "detail": "Les dades es tracten als Estats Units; la declaració remet a les International Privacy Disclosures de la Universitat Cornell i no concreta el mecanisme de transferència.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La declaració no fixa cap termini concret de conservació."
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’article d’ajuda no aclareix si les observacions ja incorporades al conjunt científic d’eBird es conserven pseudonimitzades després de tancar el compte."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ebird-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ebird-delete-account"
+      ],
+      "detail": "La petició es fa des de la pàgina d’edició del compte del Cornell Lab.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://secure.birds.cornell.edu/cassso/account/edit",
+    "difficulty": "medium",
+    "requiresSupportContact": false,
+    "steps": [
+      "Entra a eBird amb el compte del Cornell Lab i obre «Cornell Lab Account» des del teu nom.",
+      "Descarrega abans les teves dades d’eBird si les vols conservar: la supressió és irreversible.",
+      "A la pàgina d’edició del compte, demana la supressió."
+    ],
+    "obstacles": "El compte és compartit per tots els projectes del laboratori: en esborrar-lo es perden alhora les llistes d’eBird, les observacions de Merlin, els fitxers multimèdia, els cursos de Bird Academy i les subscripcions a Birds of the World.",
+    "dataRetained": "No està documentat què passa amb les observacions ja incorporades al conjunt científic públic.",
+    "sources": [
+      "ebird-delete-account"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ebird-delete-account"
+      ],
+      "detail": "eBird permet descarregar les pròpies observacions abans de tancar el compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "open",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "cornell-lab-privacy"
+      ],
+      "detail": "La declaració reconeix els drets segons la llei aplicable, però adverteix que els pot limitar quan exercir-los comprometi els objectius de la recerca d’interès públic.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cornell-lab-privacy"
+      ],
+      "detail": "Es pot demanar per telèfon o per correu que el nom i l’adreça postal no es comparteixin amb altres entitats, i donar-se de baixa dels correus amb l’enllaç de cada missatge.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat un interruptor d’analítica dins de l’aplicació."
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ebird-privacy-settings",
+        "ebird-sensitive-species"
+      ],
+      "detail": "eBird permet sortir com a «Anonymous eBirder», amagar les llistes de les visites recents, de les alertes i del Top 100, i oculta automàticament les ubicacions de les espècies sensibles.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem documentat patrons enganyosos."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És una eina d’identificació i de ciència participativa, sense comunicacions privades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació d’un segon factor per al compte del Cornell Lab."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses de la Universitat Cornell."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El domini birds.cornell.edu no publica cap fitxer security.txt accessible."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "No hem trobat sancions ni filtracions que afectin el Cornell Lab of Ornithology, eBird o Merlin. El punt delicat és que les observacions són públiques per disseny, cosa que no sempre és evident per a qui instal·la l’app només per identificar un ocell.",
+    "openQuestions": [
+      "Les fotos i els enregistraments de Merlin serveixen per entrenar els models d’identificació?",
+      "Què passa amb les observacions ja incorporades a eBird quan s’esborra el compte?",
+      "Quin mecanisme empara la transferència de dades europees als Estats Units?"
+    ]
+  },
+  "appStoreBundleId": "edu.cornell.birds.merlin"
+}

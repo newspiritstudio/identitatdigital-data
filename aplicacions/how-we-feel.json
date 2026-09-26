@@ -1,0 +1,494 @@
+{
+  "slug": "how-we-feel",
+  "name": "How We Feel",
+  "company": "how-we-feel-project",
+  "categories": [
+    "benestar-i-activitat-fisica"
+  ],
+  "tagline": "Diari d’emocions sense ànim de lucre que, si no obres compte, no envia res al servidor",
+  "summary": "How We Feel el publica una organització sense ànim de lucre fundada pel cofundador de Pinterest amb investigadors de Yale, Harvard i el MIT. Segons la política, sense compte tot el que hi anotes es queda al dispositiu i l’organització no hi té accés, un compromís que gairebé cap altra aplicació de benestar fa. Amb compte, recull els registres d’emocions, les notes, les fotos, les notes de veu i, si ho actives, la ubicació per al temps i les dades d’Apple Salut. No ven dades ni en fa publicitat, i la compartició amb investigadors és voluntària i anonimitzada.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "donations",
+  "jurisdiction": "Estats Units",
+  "links": {
+    "website": "https://howwefeel.org/",
+    "privacyPolicy": "https://howwefeel.org/privacy",
+    "appStore": "https://apps.apple.com/es/app/id1562706384"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "how-we-feel-privacy"
+    ],
+    "detail": "Es pot fer servir sense compte, i llavors les dades no surten del dispositiu.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "how-we-feel-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Un registre diari d’emocions amb notes, fotos i àudio és un diari íntim; combinat amb el son, l’exercici i la ubicació, descriu l’estat mental d’una persona dia a dia. La política exclou la venda de dades. El risc que queda és que tot aquest material es concentra en un sol compte d’una entitat petita.",
+  "dataCollection": [
+    {
+      "type": "identificador-de-compte",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "how-we-feel-app-store"
+      ]
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "how-we-feel-app-store",
+        "how-we-feel-privacy"
+      ],
+      "note": "Si entres amb Apple o Google, el nom arriba del proveïdor d’identitat."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "how-we-feel-app-store",
+        "how-we-feel-privacy"
+      ],
+      "note": "Amb «Inicia sessió amb Apple» es pot amagar el correu real."
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "how-we-feel-privacy"
+      ],
+      "note": "Dades de son, exercici i salut introduïdes a mà o connectades des d’Apple Salut."
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "how-we-feel-privacy"
+      ],
+      "note": "Els registres d’emoció, les etiquetes, les entrades de diari i les reflexions."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "how-we-feel-privacy"
+      ],
+      "note": "Fotos que es poden adjuntar a cada registre."
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "how-we-feel-privacy"
+      ],
+      "note": "Notes de veu adjuntes a un registre."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "how-we-feel-privacy"
+      ],
+      "note": "Només si actives que es registri el temps que fa on ets."
+    },
+    {
+      "type": "xarxa-de-contactes",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "how-we-feel-privacy"
+      ],
+      "note": "Amistats afegides amb un codi o un enllaç d’invitació, amb qui decideixes quant comparteixes."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "how-we-feel-privacy"
+      ]
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "how-we-feel-privacy"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "how-we-feel-app-store"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "how-we-feel-privacy"
+      ],
+      "note": "Només al lloc web, per comptar visites."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "how-we-feel-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap dada utilitzada per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "how-we-feel-app-store",
+        "how-we-feel-privacy"
+      ],
+      "detail": "No hi ha categories publicitàries ni a l’etiqueta ni a la política.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "how-we-feel-privacy",
+        "how-we-feel-processors"
+      ],
+      "detail": "Hi ha proveïdors d’analítica i de suport, publicats en una llista oberta d’encarregats.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "how-we-feel-privacy"
+      ],
+      "detail": "La política diu textualment que no fa servir la informació per vendre anuncis ni per guanyar diners.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "how-we-feel-privacy"
+      ],
+      "detail": "La política no descriu cap elaboració de perfils comercial.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Les funcions d’IA (Reflect i la revisió setmanal) són opcionals i tenen un avís complementari propi que no hem pogut analitzar a fons."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "how-we-feel-privacy"
+      ],
+      "detail": "Amb encarregats del tractament, amb les amistats que tu esculls i, si ho autoritzes, amb investigadors acadèmics amb les dades anonimitzades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’organització no forma part de cap grup empresarial.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "how-we-feel-privacy"
+      ],
+      "detail": "La política afirma que no ven informació personal.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "editorial",
+      "sources": [],
+      "detail": "L’entitat és nord-americana i el tractament és als Estats Units; la política reconeix drets específics per a l’EEE però no descriu el mecanisme de transferència.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "how-we-feel-privacy"
+      ],
+      "detail": "La política diu que els terminis es decideixen cas per cas i que les dades del compte duren mentre duri el compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "how-we-feel-privacy"
+      ],
+      "detail": "El contingut esborrat pot quedar temporalment a les còpies de seguretat, que s’esborren en un termini raonable.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "how-we-feel-privacy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "how-we-feel-privacy"
+      ],
+      "detail": "Es tanca el compte i s’esborren les dades des de la configuració de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "easy",
+    "requiresSupportContact": false,
+    "steps": [
+      "Obre la configuració del compte dins de l’aplicació i tria esborrar el compte.",
+      "Si prefereixes la via escrita, escriu a support@howwefeel.org: l’organització es compromet a respondre en 30 dies."
+    ],
+    "dataRetained": "Còpies temporals a les còpies de seguretat i les dades de recerca ja anonimitzades que hagis autoritzat a compartir.",
+    "sources": [
+      "how-we-feel-privacy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "how-we-feel-privacy"
+      ],
+      "detail": "L’accés es demana per correu, amb resposta en 30 dies; no hi ha eina automàtica d’exportació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "how-we-feel-privacy"
+      ],
+      "detail": "Accés, rectificació, supressió, revocació del consentiment i oposició, per correu o des de la configuració.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:support@howwefeel.org"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El producte no mostra publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu un interruptor específic d’analítica."
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "how-we-feel-privacy"
+      ],
+      "detail": "Es pot usar sense compte, decidir quant es comparteix amb cada amistat, revocar el consentiment per a la recerca i desactivar les notificacions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "protective",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem documentat patrons enganyosos."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu si les entrades del diari es xifren d’extrem a extrem al servidor."
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’accés es fa amb Apple o Google; no hem trobat documentació d’un segon factor propi."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El domini howwefeel.org no publica cap fitxer security.txt vàlid."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "No hem trobat sancions ni filtracions. La política és clara, però la part de seguretat tècnica no està documentada enlloc: en un diari d’emocions és especialment rellevant saber si el contingut es xifra al servidor.",
+    "openQuestions": [
+      "Com es xifren les entrades del diari, les fotos i les notes de veu al servidor?",
+      "Què diu exactament l’avís complementari sobre les funcions d’IA?",
+      "Hi ha representant a la UE segons l’article 27 del RGPD?"
+    ]
+  },
+  "appStoreBundleId": "org.howwefeel.HowWeFeel-Moodmeter"
+}

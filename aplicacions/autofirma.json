@@ -1,0 +1,445 @@
+{
+  "slug": "autofirma",
+  "name": "Autofirma App",
+  "company": "aead",
+  "categories": [
+    "administracio-publica",
+    "autenticacio-i-seguretat"
+  ],
+  "tagline": "Signatura electrònica sense compte i amb codi publicat, però amb un enllaç de privadesa que porta a un altre ministeri",
+  "summary": "Autofirma permet signar tràmits web i documents PDF amb un certificat digital o amb el DNI electrònic per NFC. No cal cap compte i el codi de l’aplicació d’iOS és públic; les restes d’una integració antiga amb Google Analytics hi són comentades i no s’executen. La política pròpia és dins de l’aplicació, perquè l’enllaç de l’App Store porta a la pàgina de protecció de dades d’un ministeri que ja no en respon.",
+  "platforms": [
+    "ios",
+    "android",
+    "windows",
+    "macos",
+    "linux"
+  ],
+  "businessModel": "public-service",
+  "jurisdiction": "Espanya; servei públic de l’Administració General de l’Estat",
+  "links": {
+    "website": "https://administracionelectronica.gob.es/",
+    "privacyPolicy": "https://github.com/ctt-gob-es/firma-ios/blob/master/Firma_iOS/Supporting%20Files/privacy_policy_ca.html",
+    "appStore": "https://apps.apple.com/es/app/id627410001"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "autofirma-app-store"
+    ],
+    "detail": "No cal registrar-se; només cal instal·lar un certificat PKCS#12 o fer servir el DNI electrònic.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "autofirma-ios-repo"
+    ],
+    "detail": "El codi de l’aplicació d’iOS és públic al repositori del Centre de Transferència de Tecnologia. Aquest repositori no declara cap llicència, a diferència del client d’escriptori, que és GPL 2+ i EUPL 1.1.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Codi publicat sense llicència declarada (el client d’escriptori és GPL 2+ i EUPL 1.1)"
+  },
+  "publicService": {
+    "isPublicService": true,
+    "administrationLevel": "state",
+    "legalBasis": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "autofirma-privacy"
+      ],
+      "detail": "La política invoca el consentiment i el compliment d’una missió d’interès públic (article 6.1.e del RGPD), però cita malament el primer: parla de l’«article 6.4a) del RGPD», que no existeix; el consentiment és a l’article 6.1.a. De la normativa habilitant només en dona el nom, sense articles.",
+      "verifiedAt": "2026-09-22",
+      "norm": "RGPD, article 6.1.e; el consentiment s’hi cita com a «article 6.4a», inexistent"
+    },
+    "processingRegistry": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "autofirma-privacy",
+        "aead-rat-sgad"
+      ],
+      "detail": "La política enllaça el registre d’activitats del ministeri, però no s’hi troba cap fitxa amb el nom d’Autofirma. La més propera és «Identidad digital y firma electrónica», que descriu la identificació i la signatura per accedir als serveis de les administracions i que declara com a base jurídica l’article 89 del RGPD, el de les garanties per a l’arxiu en interès públic.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://digital.gob.es/content/dam/portal-mtdfp/ministerio/proteccion-datos/RAT_SGAD.pdf"
+    },
+    "dpia": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat publicada cap avaluació d’impacte de l’aplicació ni del servei de signatura trifàsica que hi ha al darrere."
+    },
+    "ensConformity": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "autofirma-privacy"
+      ],
+      "detail": "La política declara que les mesures implantades són les de l’annex II del Reial decret 311/2022, però no hem trobat publicada ni la declaració de conformitat amb l’Esquema Nacional de Seguretat ni la categoria del sistema.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dpo": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "autofirma-privacy"
+      ],
+      "detail": "La política identifica el delegat de protecció de dades del ministeri amb correu i adreça postal, i dona una adreça específica de l’AEAD per a les bretxes de seguretat.",
+      "verifiedAt": "2026-09-22",
+      "contact": "dpd@digital.gob.es"
+    },
+    "offlineAlternative": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "boe-ley-39-2015",
+        "autofirma-privacy"
+      ],
+      "detail": "Signar amb aquesta aplicació no és l’única via: les persones físiques poden presentar el tràmit en paper a les oficines d’assistència en matèria de registres, perquè l’article 14.1 de la Llei 39/2015 els deixa triar el canal, i qui hagi de signar electrònicament ho pot fer amb altres clients de signatura, entre ells el mateix Autofirma d’escriptori.",
+      "verifiedAt": "2026-09-22"
+    },
+    "accessibilityStatement": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "autofirma-accessibilitat"
+      ],
+      "detail": "L’AEAD publica una declaració d’accessibilitat del portal firmaelectronica.gob.es («parcialment conforme» amb el Reial decret 1112/2018, preparada el 2 d’abril de 2025), però hi diu expressament que s’aplica només al lloc web. No n’hi ha cap per a l’aplicació mòbil, que el mateix reial decret també cobreix.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://firmaelectronica.gob.es/Home/Accesibilidad.html"
+    },
+    "mandatoryRetention": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "autofirma-privacy"
+      ],
+      "detail": "No hi ha cap compte ni cap dada conservada en servidors del servei que una norma obligui a mantenir: el certificat i l’historial de signatures es queden al dispositiu i desapareixen quan es desinstal·la l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataSummary": "El certificat digital identifica la persona davant de qualsevol administració i els documents que se signen poden contenir dades fiscals, sanitàries o laborals. Tot això passa per l’aplicació, que ho guarda al dispositiu.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "autofirma-privacy"
+      ],
+      "note": "Surt del certificat o del DNI electrònic i s’incorpora a la signatura que rep l’administració del tràmit."
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "autofirma-privacy"
+      ],
+      "note": "Número de DNI del certificat, o lectura del xip del DNI per NFC."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "autofirma-privacy"
+      ],
+      "note": "Només si consta al certificat."
+    },
+    {
+      "type": "fitxers-i-documents",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "autofirma-app-store"
+      ],
+      "note": "Des de la versió 1.9 totes les signatures són trifàsiques, amb la participació d’un servidor. No hem pogut comprovar quina part del document hi viatja."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "independent",
+      "sources": [
+        "autofirma-ios-repo"
+      ],
+      "note": "El codi de Google Analytics del repositori és comentat i no s’executa."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "autofirma-app-store",
+        "autofirma-ios-repo"
+      ],
+      "detail": "L’etiqueta no declara rastreig i el codi publicat no té cap eina de publicitat activa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "independent",
+      "sources": [
+        "autofirma-ios-repo"
+      ],
+      "detail": "No hem trobat cap ús de l’identificador publicitari al codi publicat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "no",
+      "level": "independent",
+      "sources": [
+        "autofirma-ios-repo"
+      ],
+      "detail": "La biblioteca de Google Analytics és al repositori, però la inicialització és comentada.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "autofirma-privacy"
+      ],
+      "detail": "L’única finalitat declarada és la signatura electrònica de documents.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "autofirma-privacy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no fa servir ni entrena models d’IA.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "autofirma-privacy"
+      ],
+      "detail": "La política diu que només la persona usuària té accés a les dades. La signatura, però, s’envia a l’administració del tràmit, que és qui la rep.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha cap grup empresarial.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "autofirma-privacy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política de l’aplicació no parla de transferències internacionals."
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "autofirma-privacy"
+      ],
+      "detail": "Només diu que les dades es conserven el temps necessari i els terminis de la normativa d’arxius.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política parla d’esborrar «el compte», però l’aplicació no en té; no queda clar què es conserva fora del dispositiu."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha cap compte. El certificat i l’historial es guarden al dispositiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha cap compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "easy",
+    "steps": [
+      "Esborra dins de l’aplicació els certificats que hi hagis instal·lat.",
+      "Desinstal·la l’aplicació per eliminar l’historial de signatures desat al dispositiu."
+    ],
+    "obstacles": "Deduïm del codi publicat que l’historial es desa en local; la política no ho explica.",
+    "sources": [
+      "autofirma-ios-repo"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no conserva dades en servidors propis que es puguin exportar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "autofirma-privacy"
+      ],
+      "detail": "Drets per correu a la unitat de protecció de dades de l’AEAD, amb delegat de protecció de dades identificat.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:protecciondatos.sgad@correo.gob.es"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hem trobat telemetria activa al codi publicat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no recull dades que calgui controlar per finalitats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "protective",
+    "darkPatterns": {
+      "status": "no",
+      "level": "editorial",
+      "sources": [],
+      "detail": "Valoració editorial: l’aplicació no té compte, publicitat ni subscripció, que és on apareixen habitualment els patrons foscos.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No és un servei de comunicació entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut verificar com es protegeix la comunicació amb el servidor de signatura trifàsica."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem comprovat al codi com es protegeixen els certificats desats a l’aplicació."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat publicada cap certificació de conformitat amb l’Esquema Nacional de Seguretat específica del servei."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses; no és habitual als serveis de l’Administració, però no ho hem pogut confirmar amb una font."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha fitxer security.txt als dominis del servei. La política només ofereix una adreça per comunicar bretxes de dades personals."
+    },
+    "mfa": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha compte; la signatura exigeix el certificat i la seva contrasenya o el PIN del DNI electrònic.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "L’enllaç de privadesa de l’App Store porta a mptfp.gob.es, que ara redirigeix al Ministeri de Política Territorial i Memòria Democràtica, sense res sobre Autofirma. La política vàlida és la que porta l’aplicació, i la llegim al repositori públic. La conclusió sobre Google Analytics es basa en el codi publicat; no hem analitzat el binari de l’App Store.",
+    "openQuestions": [
+      "La cerca d’incidents no s’ha pogut completar: s’havia esgotat el pressupost de cerques web de la sessió.",
+      "Quines dades del document s’envien al servidor en la signatura trifàsica i quant temps s’hi conserven?"
+    ]
+  },
+  "appStoreBundleId": "es.gob.afirma.Cliente--firma"
+}

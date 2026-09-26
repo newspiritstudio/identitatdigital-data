@@ -1,0 +1,637 @@
+{
+  "slug": "plazo",
+  "name": "Plazo",
+  "company": "idfinance-plazo",
+  "categories": [
+    "banca-i-finances"
+  ],
+  "tagline": "Crèdit al consum amb decisió automatitzada, fitxers de morositat i dades sensibles declarades a l’etiqueta de l’App Store",
+  "summary": "Plazo és la targeta i la línia de crèdit del grup ID Finance. No és un banc: el diner electrònic l’emet Pecunia Cards. Per concedir-la, la solvència s’avalua de manera automatitzada amb consultes a ASNEF-Equifax, a CIREX d’Experian i als registres de la Seguretat Social. La política descriu usos operatius d’intel·ligència artificial: assistents de veu generativa per reclamar deute, amb gravacions i transcripcions processades per aquests sistemes.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "subscription",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://www.plazo.es/",
+    "privacyPolicy": "https://www.plazo.es/privacidad/",
+    "appStore": "https://apps.apple.com/es/app/id1551296252"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "plazo-privacy-policy"
+    ],
+    "detail": "El servei és una línia de crèdit: cal identificar-se amb document oficial, selfie i dades econòmiques.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "plazo-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Ingressos, despesa mitjana, saldos, tipus d’habitatge, nombre de fills i situació laboral descriuen tota la situació econòmica d’una persona. Un model automàtic les fa servir per decidir si es concedeix crèdit i per quant, i el resultat acaba en fitxers de solvència que altres entitats consulten durant cinc anys.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "plazo-privacy-policy",
+        "plazo-app-store"
+      ]
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "plazo-privacy-policy"
+      ],
+      "note": "Imatge del DNI o NIE i selfie per a la verificació d’identitat."
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal"
+      ],
+      "sources": [
+        "plazo-privacy-policy"
+      ]
+    },
+    {
+      "type": "genere",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "plazo-privacy-policy"
+      ]
+    },
+    {
+      "type": "situacio-familiar",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "plazo-privacy-policy"
+      ],
+      "note": "Estat civil i nombre de fills, dades que entren a l’avaluació de solvència."
+    },
+    {
+      "type": "nivell-d-ingressos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "plazo-privacy-policy"
+      ],
+      "note": "Ingressos mensuals, despesa mitjana, saldos i historial bancari."
+    },
+    {
+      "type": "ocupacio-i-carrec",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "plazo-privacy-policy"
+      ],
+      "note": "Situació laboral verificada amb la plataforma Belender contra els registres de la Seguretat Social."
+    },
+    {
+      "type": "nivell-formatiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "plazo-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "plazo-privacy-policy",
+        "plazo-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "plazo-privacy-policy",
+        "plazo-app-store"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "plazo-privacy-policy",
+        "plazo-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "plazo-privacy-policy",
+        "plazo-app-store"
+      ],
+      "note": "El compte i la targeta els emet Pecunia Cards EDE; hi intervé també Paynopain com a entitat de pagament."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "plazo-app-store",
+        "plazo-privacy-policy"
+      ]
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari",
+        "compliment-legal"
+      ],
+      "sources": [
+        "plazo-privacy-policy"
+      ],
+      "note": "Gravacions i transcripcions de veu processades per sistemes d’IA de reconeixement i síntesi, també per a recobrament."
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "compliment-legal"
+      ],
+      "sources": [
+        "plazo-privacy-policy"
+      ],
+      "note": "El selfie i la gravació de veu es demanen amb consentiment per a la verificació d’identitat."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "plazo-app-store",
+        "plazo-privacy-policy"
+      ],
+      "note": "És l’única categoria declarada com a utilitzada per rastrejar."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "plazo-privacy-policy",
+        "plazo-app-store"
+      ],
+      "note": "Microsoft Clarity enregistra les sessions: clics, desplaçaments i recorregut per l’aplicació."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "plazo-privacy-policy"
+      ],
+      "note": "Cessió a Meta Platforms Ireland, amb consentiment, per crear audiències i optimitzar campanyes."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "plazo-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "plazo-app-store"
+      ],
+      "detail": "L’etiqueta declara els identificadors com a dades utilitzades per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "plazo-privacy-policy"
+      ],
+      "detail": "Cessió a Meta Platforms Ireland per mesurar conversions i personalitzar anuncis a Facebook i Instagram, amb consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "plazo-privacy-policy"
+      ],
+      "detail": "Microsoft Clarity per a l’enregistrament de sessions i eines de Meta per a publicitat.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "plazo-privacy-policy"
+      ],
+      "detail": "Amb consentiment, revocable escrivint al delegat de protecció de dades.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "mailto:dpd@plazo.es"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "plazo-privacy-policy"
+      ],
+      "detail": "Perfilat per avaluar la solvència, concedir o modificar el límit de crèdit i detectar frau, amb dret a oposició i a revisió humana.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "plazo-privacy-policy"
+      ],
+      "detail": "La política descriu un ús operatiu intens d’IA (assistents virtuals, IVR, síntesi de veu per a recobrament) però no preveu utilitzar les dades per entrenar models.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "plazo-privacy-policy"
+      ],
+      "detail": "Pecunia Cards, Paynopain, ASNEF-Equifax, Experian, proveïdors d’IA i de verificació d’identitat, i compradors de carteres de deute.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "plazo-privacy-policy"
+      ],
+      "detail": "Empreses del grup ID Finance, també per obtenir dades per a la puntuació de risc creditici i de frau.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "plazo-privacy-policy"
+      ],
+      "detail": "No hi ha venda de dades per a màrqueting, però sí cessió a tercers adquirents en la venda de carteres de deute.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "plazo-privacy-policy"
+      ],
+      "detail": "Proveïdors d’IA i de síntesi de veu als Estats Units i Microsoft Clarity, amb clàusules contractuals tipus o normes corporatives vinculants.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "plazo-privacy-policy"
+      ],
+      "detail": "La política fixa terminis per obligació: deu anys per la llei de prevenció del blanqueig, sis per les obligacions comptables i mercantils i cinc per la prescripció de les accions del contracte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "plazo-privacy-policy"
+      ],
+      "detail": "Tancar el compte no atura aquests terminis: les dades queden bloquejades fins que s’esgoten.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "document-identificatiu-oficial",
+        "period": "10 anys des de la fi de la relació, per la Llei 10/2010 de prevenció del blanqueig",
+        "sources": [
+          "plazo-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "historial-de-compres",
+        "period": "6 anys per obligacions comptables i mercantils",
+        "sources": [
+          "plazo-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "nivell-d-ingressos",
+        "period": "5 anys als sistemes d’informació creditícia des de la fi de l’operació",
+        "sources": [
+          "plazo-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "plazo-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "plazo-delete-account"
+      ],
+      "detail": "El centre d’ajuda diu que el compte es pot cancel·lar des de la mateixa aplicació; el detall dels passos es carrega amb JavaScript i no l’hem pogut verificar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://support.plazo.es/support/solutions/articles/101000507226",
+    "difficulty": "medium",
+    "requiresSupportContact": false,
+    "steps": [
+      "Cancel·la abans la subscripció de la targeta perquè no es continuï cobrant.",
+      "Amortitza el saldo pendent de la línia de crèdit: amb deute viu no es pot tancar.",
+      "Cancel·la el compte des de l’aplicació, segons indica el centre d’ajuda.",
+      "Si vols l’esborrament de les dades que la llei permeti suprimir, escriu a dpd@plazo.es."
+    ],
+    "obstacles": "Tancar el compte no esborra res: els deu anys de conservació per prevenció del blanqueig i els cinc anys als fitxers de solvència continuen corrent.",
+    "dataRetained": "Documentació d’identitat i operacions durant deu anys, comptabilitat durant sis i dades als sistemes d’informació creditícia durant cinc.",
+    "sources": [
+      "plazo-delete-account",
+      "plazo-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "plazo-privacy-policy"
+      ],
+      "detail": "La portabilitat i una còpia gratuïta de les dades es reconeixen, però s’han de demanar per correu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "plazo-privacy-policy"
+      ],
+      "detail": "Delegat de protecció de dades propi, amb termini d’un mes prorrogable a dos.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dpd@plazo.es",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "plazo-privacy-policy"
+      ],
+      "detail": "El consentiment per a la cessió publicitària es revoca escrivint al delegat de protecció de dades, no des de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap control per desactivar l’enregistrament de sessions de Microsoft Clarity."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no documenta cap panell de preferències de privadesa dins de l’aplicació."
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi de patrons foscos de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no transporta comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "plazo-privacy-policy"
+      ],
+      "detail": "La política parla genèricament de tècniques de xifratge i d’anonimització, sense detallar-les.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública sobre el xifratge de les dades en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació oficial sobre la verificació en dos passos; el centre d’ajuda esmenta accés biomètric."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories ni certificacions publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha fitxer security.txt als dominis de Plazo ni d’ID Finance, ni cap canal públic documentat."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La societat germana ID Finance Spain, del mateix grup, acumula sancions de l’AEPD per incloure persones en fitxers de morositat sense base jurídica. No són de Plazo, però expliquen com el grup gestiona el deute i per això consten a la fitxa del grup.",
+    "openQuestions": [
+      "Quins són els passos exactes i el termini per cancel·lar el compte des de l’aplicació?",
+      "L’enregistrament de sessions de Microsoft Clarity es pot rebutjar sense deixar d’utilitzar el servei?"
+    ]
+  },
+  "appStoreBundleId": "es.card.plazo"
+}

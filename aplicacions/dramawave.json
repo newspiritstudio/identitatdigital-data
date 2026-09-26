@@ -1,0 +1,564 @@
+{
+  "slug": "dramawave",
+  "name": "DramaWave",
+  "company": "skywork-ai",
+  "categories": [
+    "video-i-streaming"
+  ],
+  "tagline": "Microdrames verticals amb funcions d’IA facial, lectura del porta-retalls i eliminació del compte des de l’aplicació",
+  "summary": "DramaWave encadena capítols verticals de pocs minuts que es desbloquegen amb monedes, i hi afegeix funcions d’IA que substitueixen cares a partir d’una fotografia. La política per a l’EEE reconeix que això implica tractar dades facials, que són categoria especial, i ho condiciona al consentiment explícit. També declara que llegeix el porta-retalls i que accedeix al calendari, cosa poc habitual. El compte s’esborra des de la mateixa aplicació.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Singapur",
+  "links": {
+    "website": "https://mydramawave.com/",
+    "privacyPolicy": "https://mydramawave.com/rules/privacy.html",
+    "appStore": "https://apps.apple.com/es/app/id6670430706"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "dramawave-privacy-policy"
+    ],
+    "detail": "Es pot mirar contingut com a visitant, però sense compte les dades queden lligades a un identificador del dispositiu i les funcions són limitades.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "dramawave-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "L’historial de visualització d’una aplicació de microdrames mostra quines sèries mires, a quines hores i quant hi gastes. Si hi puges una cara per a les funcions d’IA, hi afegeixes dades biomètriques, i el porta-retalls pot contenir qualsevol cosa que hagis copiat abans, des d’una adreça fins a una contrasenya.",
+  "dataCollection": [
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "dramawave-privacy-policy",
+        "dramawave-app-store"
+      ]
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "dramawave-app-store"
+      ],
+      "note": "Àlies, avatar i perfil públic."
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "dramawave-privacy-policy"
+      ],
+      "note": "La política admet que l’edat també es fa servir per segmentar anuncis i personalitzar l’experiència."
+    },
+    {
+      "type": "genere",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "dramawave-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "dramawave-privacy-policy"
+      ],
+      "note": "Les funcions d’IA processen geometria facial, punts de referència i vectors de la cara; la política ho condiciona al consentiment explícit i diu que no s’utilitzen per entrenar models ni per identificar ningú entre serveis sense un consentiment separat."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "dramawave-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-visualitzacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "dramawave-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "dramawave-privacy-policy"
+      ],
+      "note": "Per retirar monedes o béns virtuals pot caldre un document d’identitat oficial per prevenció del blanqueig."
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal"
+      ],
+      "sources": [
+        "dramawave-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "dramawave-privacy-policy",
+        "dramawave-app-store"
+      ],
+      "note": "La política enumera IMEI, IDFA i altres identificadors."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "dramawave-privacy-policy"
+      ],
+      "note": "Els servidors publicitaris de tercers reben automàticament l’adreça IP."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "dramawave-privacy-policy",
+        "dramawave-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "dramawave-app-store"
+      ]
+    },
+    {
+      "type": "fitxers-i-documents",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "dramawave-privacy-policy"
+      ],
+      "note": "El contingut del porta-retalls es recull amb permís quan es copia o s’enganxa a la plataforma, i es fa servir per a màrqueting i personalització."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "dramawave-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dramawave-app-store"
+      ],
+      "detail": "L’identificador de dispositiu es declara com a dada utilitzada per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dramawave-privacy-policy"
+      ],
+      "detail": "IDFA i identificadors equivalents recollits automàticament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dramawave-privacy-policy"
+      ],
+      "detail": "La política permet que servidors i xarxes publicitàries de tercers serveixin anuncis dins de la plataforma amb galetes, JavaScript i balises web.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dramawave-privacy-policy"
+      ],
+      "detail": "Compartició amb anunciants i empreses de mesura per mostrar publicitat personalitzada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dramawave-privacy-policy"
+      ],
+      "detail": "Recomanacions personalitzades i publicitat a partir de l’historial, l’edat, el gènere i la ubicació aproximada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "dramawave-privacy-policy"
+      ],
+      "detail": "La política diu que, sense un consentiment separat, no s’utilitzen les imatges pujades ni les dades facials per entrenar models ni per construir bases de reconeixement facial.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dramawave-privacy-policy"
+      ],
+      "detail": "Proveïdors de núvol, de pagament, de generació i moderació de contingut, anunciants i empreses de mesura.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dramawave-privacy-policy"
+      ],
+      "detail": "Les dades poden anar a entitats afiliades del grup en altres jurisdiccions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no parla de venda de dades a intermediaris."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dramawave-privacy-policy"
+      ],
+      "detail": "Transferències a jurisdiccions on hi ha entitats afiliades, amb «garanties necessàries i apropiades» descrites de manera genèrica i sense esmentar clàusules tipus.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "dramawave-privacy-policy"
+      ],
+      "detail": "La política només diu que es conserven les dades mentre calgui per a les necessitats del negoci i la llei, sense terminis concrets.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "dramawave-privacy-policy"
+      ],
+      "detail": "S’esborren o s’anonimitzen les dades quan s’exhaureix la finalitat o el termini legal; en cas de cessament del servei, s’avisa amb trenta dies.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dramawave-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dramawave-privacy-policy"
+      ],
+      "detail": "Es pot eliminar el compte des de la mateixa aplicació, a Perfil, Configuració i Eliminar el compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "easy",
+    "steps": [
+      "Obre Perfil i entra a Configuració.",
+      "Tria Eliminar el compte i confirma: després de la sol·licitud ja no podràs fer servir DramaWave.",
+      "Si has fet servir les funcions d’IA, demana també la supressió de les imatges pujades, de les dades facials i del contingut generat, amb les eines del servei o escrivint a dramawavesupport@mydramawave.com."
+    ],
+    "dataRetained": "Les dades que la llei obligui a conservar, per exemple per a obligacions fiscals i de prevenció del blanqueig.",
+    "sources": [
+      "dramawave-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "dramawave-privacy-policy"
+      ],
+      "detail": "Es pot demanar una còpia de les dades escrivint a l’empresa; no hi ha exportació automàtica.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dramawave-privacy-policy"
+      ],
+      "detail": "Contacte directe amb l’empresa a Singapur i representant a la UE designat a Alemanya (activeMind.legal), amb dret a impugnar decisions automatitzades com el bloqueig del compte.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dramawavesupport@mydramawave.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "dramawave-privacy-policy"
+      ],
+      "detail": "Es pot retirar el consentiment i la política remet a les polítiques dels servidors publicitaris de tercers per excloure’n algunes activitats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap control per desactivar l’analítica d’ús."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "dramawave-privacy-policy"
+      ],
+      "detail": "Hi ha permisos separats per al porta-retalls, el calendari i les funcions d’IA, revocables des del sistema, però no un panell de privadesa complet.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [
+        "dramawave-privacy-policy"
+      ],
+      "detail": "Interpretació pròpia: la lectura del porta-retalls «per a màrqueting i promocions» és un tractament poc previsible en una aplicació de sèries, encara que es demani permís.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "other",
+        "severity": "medium",
+        "description": "La política preveu recollir el contingut del porta-retalls quan es copia o s’enganxa dins de la plataforma, i desar-lo a l’aplicació per a finalitats de màrqueting.",
+        "sources": [
+          "dramawave-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no transporta comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dramawave-privacy-policy"
+      ],
+      "detail": "Xifratge en trànsit amb TLS 1.2 entre dispositius i servidors i entre servidors.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dramawave-privacy-policy"
+      ],
+      "detail": "Xifratge en repòs de totes les dades d’usuari, incloses les bases de dades i les còpies de seguretat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política descriu autenticació multifactor per als accessos interns, no per als comptes de les persones usuàries."
+    },
+    "independentAudits": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "dramawave-privacy-policy"
+      ],
+      "detail": "S’esmenten proves periòdiques de vulnerabilitats i revisió de codi, però no auditories externes publicades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha fitxer security.txt ni programa públic conegut."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap canal públic específic per comunicar vulnerabilitats."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "dramareels",
+      "comparability": "equivalent",
+      "rationale": "És l’altra aplicació de microdrames del mateix grup, amb la mateixa plantilla de política però sense funcions d’IA facial.",
+      "tradeOffs": "El contacte de protecció de dades és una adreça de Gmail i la marca del document no coincideix amb la de la botiga."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La política per a l’EEE és completa: taula de bases jurídiques, tractament de dades facials amb consentiment explícit, xifratge descrit i representant a la UE. No fixa terminis de conservació, descriu les garanties de transferència internacional de manera genèrica i se sotmet a la llei i a l’arbitratge de Singapur.",
+    "openQuestions": [
+      "Quin mecanisme empara concretament les transferències fora de l’EEE?",
+      "Quant de temps es conserven l’historial de visualització i les dades facials?"
+    ]
+  },
+  "appStoreBundleId": "com.dramabuzz.app"
+}

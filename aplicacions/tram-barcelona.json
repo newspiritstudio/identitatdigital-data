@@ -1,0 +1,323 @@
+{
+  "slug": "tram-barcelona",
+  "name": "TRAM Barcelona",
+  "company": "tramvia-metropolita",
+  "categories": [
+    "mobilitat-i-transport"
+  ],
+  "tagline": "L’app del tramvia diu que no recull dades, però la seva política envia l’ús a Google sota un acord anul·lat el 2020",
+  "summary": "L’app del Trambaix i el Trambesòs mostra horaris, parades properes i incidències. L’etiqueta de l’App Store diu que no recull cap dada, i l’enllaç de privadesa que hi figura porta a una pàgina inexistent. La política vigent, a tram.cat, admet la ubicació, les notificacions i una anàlisi estadística d’ús feta per Google Inc. als Estats Units, que empara en l’Escut de Privadesa, anul·lat pel Tribunal de Justícia de la UE el juliol del 2020. L’operen concessionàries privades del tramvia, per concessió de l’ATM.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "public-service",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://tram.cat/",
+    "privacyPolicy": "https://tram.cat/privacidad",
+    "appStore": "https://apps.apple.com/es/app/id1053996621"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "editorial",
+    "sources": [
+      "tram-app-store"
+    ],
+    "detail": "La descripció de l’app no esmenta cap compte: horaris, parades i avisos són oberts, i les queixes i objectes perduts es fan per formulari.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "tram-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "L’app demana la ubicació per trobar la parada més propera i envia l’ús de l’app a Google per a estadístiques. L’etiqueta de l’App Store no declara res d’això.",
+  "dataCollection": [
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tram-privacitat"
+      ],
+      "note": "Amb consentiment, per a les parades properes; l’etiqueta de l’App Store diu que no es recull cap dada."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "tram-privacitat"
+      ],
+      "note": "Anàlisi estadística feta per Google Inc. per interès legítim."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "tram-app-store"
+      ],
+      "note": "Formularis de queixes i d’objectes perduts."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "tram-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap dada, tampoc per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tram-privacitat"
+      ],
+      "detail": "La política atribueix l’anàlisi estadística de l’app a Google Inc.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no en diu res."
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no en diu res."
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no en diu res."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tram-privacitat"
+      ],
+      "detail": "Google Inc. per a les estadístiques d’ús i les dues UTE operadores com a encarregades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tram-privacitat",
+        "tram-qui-som",
+        "tram-accionistes-elnacional"
+      ],
+      "detail": "Les dues societats concessionàries són corresponsables i les UTE Trambaix i Trambesòs hi actuen d’encarregades. La política no preveu cap comunicació als accionistes de les concessionàries (Globalvia, Moventia, Alstom i altres).",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tram-privacitat",
+        "tjue-schrems-ii"
+      ],
+      "detail": "Les estadístiques d’ús van a Google Inc. als Estats Units, i la política empara la transferència en l’Escut de Privadesa, que el TJUE va invalidar el 16 de juliol de 2020 (C-311/18). No esmenta el marc de privadesa de dades UE-EUA vigent.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "tram-privacitat"
+      ],
+      "detail": "L’apartat de l’app deixa el termini de conservació en blanc («-»), tot i que en fixa per a altres tractaments (quatre anys per a la venda de títols, un mes per a la videovigilància).",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut verificar si l’app té compte d’usuari."
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "difficulty": "unknown"
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tram-privacitat"
+      ],
+      "detail": "Per correu postal o electrònic a les societats (dpo@tram.cat) o a les UTE (dpd@trambcn.com), amb reclamació a l’APDCAT.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dpo@tram.cat"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "La política no descriu cap publicitat ni comunicació comercial des de l’app.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’anàlisi d’ús es basa en l’interès legítim; no hem trobat com oposar-s’hi."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tram-privacitat"
+      ],
+      "detail": "La ubicació i les notificacions depenen del consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És una aplicació d’informació de transport, sense comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap auditoria de seguretat publicada."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "tram.cat no publica cap fitxer security.txt."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "tmb-app",
+      "comparability": "partial",
+      "rationale": "Inclou el tramvia en la planificació de trajectes de l’àrea de Barcelona.",
+      "tradeOffs": "Pensada per al metro i el bus; sense avisos específics del TRAM."
+    },
+    {
+      "app": "google-maps",
+      "comparability": "partial",
+      "rationale": "Horaris del tramvia i planificació.",
+      "tradeOffs": "Google vincula la ubicació al compte si hi has iniciat sessió."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "No hem incorporat el bloc de servei públic: tot i que el TRAM és transport públic, l’app la publiquen concessionàries privades, que no estan sotmeses a l’ENS ni a l’obligació de publicar el registre d’activitats. L’enllaç de privadesa de l’App Store (tram.cat/es/privacidad) retorna un error 404; la política vigent és a tram.cat/privacidad. No hem trobat incidents.",
+    "openQuestions": [
+      "Quin SDK de Google fa servir l’app per a les estadístiques, i amb quin mecanisme de transferència?",
+      "Per què l’etiqueta de l’App Store diu que no es recull cap dada?"
+    ]
+  },
+  "appStoreBundleId": "com.trambcn.tramapp"
+}

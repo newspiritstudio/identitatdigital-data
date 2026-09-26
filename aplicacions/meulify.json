@@ -1,0 +1,470 @@
+{
+  "slug": "meulify",
+  "name": "Meulify",
+  "company": "meulen-cirillo-veltri",
+  "categories": [
+    "musica-i-audio"
+  ],
+  "tagline": "Reprodueix des de YouTube, desa l’historial a Supabase i l’envia a dues xarxes publicitàries",
+  "summary": "Meulify és un reproductor de desenvolupador individual que combina reproducció en línia, ràdio, podcasts i importació de fitxers locals. La seva política és breu però concreta: cita Supabase com a rerefons, YouTube com a origen de la reproducció i ironSource i Unity Ads com a xarxes publicitàries, i reconeix que l’historial d’escolta s’utilitza per entrenar el sistema de recomanacions. També diu que el compte s’elimina des de la mateixa aplicació. En canvi, no fa cap referència al RGPD, al responsable del tractament ni als terminis.",
+  "platforms": [
+    "ios"
+  ],
+  "businessModel": "advertising",
+  "jurisdiction": "No declarada",
+  "userBase": "No n’hem verificat cap xifra oficial.",
+  "links": {
+    "website": "https://meulify.top/",
+    "privacyPolicy": "https://meulify.top/privacy.html",
+    "appStore": "https://apps.apple.com/es/app/id6754177031"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "meulify-privacy-policy"
+    ],
+    "detail": "La política descriu l’autenticació de persones usuàries i un identificador d’usuari propi.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "editorial",
+    "sources": [],
+    "detail": "No hi ha cap repositori públic.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "L’historial d’escolta i de cerca amb marca de temps, desat a un rerefons de tercers i lligat a un identificador d’usuari, permet deduir hàbits com les hores de son, les rutines de desplaçament o l’estat d’ànim. Que la reproducció passi per YouTube hi afegeix un segon destinatari amb els seus propis identificadors.",
+  "dataCollection": [
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "meulify-privacy-policy",
+        "meulify-app-store"
+      ],
+      "note": "Identificador UUID desat a Supabase."
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "meulify-app-store"
+      ],
+      "note": "Nom d’usuari, segons la política."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "meulify-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "meulify-privacy-policy",
+        "meulify-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-visualitzacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "meulify-privacy-policy"
+      ],
+      "note": "Cançons escoltades amb marca de temps; la política diu que serveixen per entrenar el sistema de recomanacions."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "meulify-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "meulify-app-store",
+        "meulify-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "meulify-privacy-policy"
+      ],
+      "note": "Cedit a ironSource i a Unity Ads si s’accepten anuncis."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "meulify-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "meulify-app-store"
+      ]
+    },
+    {
+      "type": "fitxers-i-documents",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "meulify-privacy-policy"
+      ],
+      "note": "L’aplicació permet importar fitxers MP3 locals; la política no descriu que es pugin al servidor."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meulify-app-store"
+      ],
+      "detail": "Ubicació, identificadors, dades d’ús i «otros datos» declarats com a dades utilitzades per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meulify-privacy-policy",
+        "meulify-app-store"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meulify-privacy-policy"
+      ],
+      "detail": "La política cita ironSource i Unity Ads com a xarxes publicitàries, i YouTube per a la reproducció.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meulify-privacy-policy"
+      ],
+      "detail": "Anuncis personalitzats si la persona usuària opta per veure’n.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meulify-privacy-policy"
+      ],
+      "detail": "L’historial d’escolta alimenta el sistema de recomanacions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "meulify-privacy-policy"
+      ],
+      "detail": "La política diu que les dades serveixen per «entrenar» el sistema de recomanacions; no consta cap model generatiu.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meulify-privacy-policy"
+      ],
+      "detail": "Supabase com a rerefons, YouTube per a la reproducció i ironSource i Unity Ads per a la publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No consta cap grup empresarial: el desenvolupador és una persona física.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta la venda de dades."
+    },
+    "internationalTransfers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "meulify-privacy-policy"
+      ],
+      "detail": "Els proveïdors citats són nord-americans, però la política no descriu cap mecanisme de transferència.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "meulify-privacy-policy"
+      ],
+      "detail": "Les dades es conserven mentre el compte és actiu i se suprimeixen en eliminar-lo, però no hi ha cap termini concret.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "meulify-privacy-policy"
+      ],
+      "detail": "La política afirma que les dades se suprimeixen amb el compte, sense detallar què passa amb les còpies dels socis publicitaris.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meulify-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meulify-privacy-policy"
+      ],
+      "detail": "La política diu literalment que la persona usuària pot eliminar el compte de manera autònoma des de la mateixa aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "easy",
+    "steps": [
+      "Obre l’aplicació i entra al perfil o a la configuració del compte.",
+      "Tria l’opció d’eliminar el compte i confirma-la.",
+      "Si has activat els anuncis, revoca també el seguiment a Ajustos, Privadesa i seguretat, Seguiment: les dades ja cedides a ironSource i a Unity Ads no depenen del compte."
+    ],
+    "dataRetained": "La política no descriu què conserven els proveïdors publicitaris després de la baixa.",
+    "sources": [
+      "meulify-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no preveu cap exportació de dades."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "meulify-privacy-policy"
+      ],
+      "detail": "No s’esmenta el RGPD ni cap dret d’accés, rectificació o oposició, i no es designa cap representant a la Unió Europea.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "meulify-privacy-policy"
+      ],
+      "detail": "La política presenta els anuncis com a opcionals: si no s’hi opta, no s’envien dades a les xarxes publicitàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap control d’analítica."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut verificar quins controls ofereix l’aplicació."
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut examinar el flux de consentiment de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no transporta comunicacions privades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació tècnica pública."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu la configuració de Supabase."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap segon factor d’autenticació."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap canal públic de comunicació de vulnerabilitats."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "spotify",
+      "comparability": "equivalent",
+      "rationale": "Reproductor amb llicències pròpies, responsable identificat a la Unió Europea i eina d’exportació de dades autoservei.",
+      "tradeOffs": "No permet importar fitxers locals amb la mateixa facilitat i el servei gratuït també és publicitari."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La política és tècnicament més transparent que la de moltes grans empreses, perquè cita els proveïdors pel nom, però no identifica el responsable ni esmenta cap dret. Que la reproducció passi per YouTube planteja també dubtes sobre les condicions d’ús d’aquell servei.",
+    "openQuestions": [
+      "Qui és el responsable del tractament i en quin país està establert?",
+      "Amb quina base jurídica reprodueix contingut de YouTube i quines dades hi envia?"
+    ]
+  },
+  "appStoreBundleId": "top.meulify.app"
+}

@@ -1,0 +1,466 @@
+{
+  "slug": "scanner-app-tapsuite",
+  "name": "Scanner App: PDF y documentos",
+  "company": "tapsuite",
+  "categories": [
+    "utilitats",
+    "ofimatica-i-productivitat"
+  ],
+  "tagline": "Escàner de documents turc amb una política de privadesa de plantilla, regida per la llei turca i sense cap secció de RGPD",
+  "summary": "És una aplicació d’escaneig de documents per subscripció, d’una empresa d’Esmirna. La política de privadesa és una plantilla genèrica: diu que es regeix per la llei turca, esmenta l’extint Privacy Shield, declara que pot compartir informació personal i no personal amb anunciants i socis de màrqueting i no té cap apartat sobre els drets del RGPD ni sobre el responsable a la Unió Europea. L’etiqueta de l’App Store declara identificadors, dades d’ús i diagnòstics utilitzats per rastrejar, i publicitat pròpia del desenvolupador.",
+  "platforms": [
+    "ios",
+    "macos"
+  ],
+  "businessModel": "subscription",
+  "jurisdiction": "Turquia (TAPSUITE Yazılım Hizmetleri A.Ş., Esmirna); la política es regeix per la llei turca",
+  "links": {
+    "website": "https://fastscanapp.com/",
+    "privacyPolicy": "https://fastscanapp.com/en/privacy",
+    "appStore": "https://apps.apple.com/es/app/id1568660349"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "scanner-app-tapsuite-privacy-policy"
+    ],
+    "detail": "La política descriu un registre amb adreça electrònica i contrasenya, però l’escaneig bàsic sembla funcionar sense compte; no ho hem pogut verificar.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "scanner-app-tapsuite-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Amb un escàner de documents es digitalitzen passaports, nòmines, contractes, receptes i altres papers sensibles. La política no diu si els documents es processen al dispositiu o s’envien a servidors, ni els esmenta enlloc; l’etiqueta de l’App Store sí que declara contingut de l’usuari (fotos o vídeos) per a la funcionalitat de l’aplicació, i identificadors i dades d’ús per a publicitat i analítica.",
+  "dataCollection": [
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "scanner-app-tapsuite-privacy-policy"
+      ],
+      "note": "La política diu que en enviar l’adreça s’accepta rebre correus i que es pot fer servir per segmentar audiències a plataformes com Facebook."
+    },
+    {
+      "type": "contrasenya",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "scanner-app-tapsuite-privacy-policy"
+      ]
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "scanner-app-tapsuite-app-store"
+      ],
+      "note": "L’etiqueta declara contingut de l’usuari per a la funcionalitat de l’aplicació, no vinculat amb la identitat."
+    },
+    {
+      "type": "fitxers-i-documents",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "scanner-app-tapsuite-app-store"
+      ],
+      "note": "Els documents escanejats i els PDF generats. Ni la política ni l’etiqueta diuen si surten del dispositiu."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "scanner-app-tapsuite-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "scanner-app-tapsuite-app-store"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "scanner-app-tapsuite-privacy-policy"
+      ],
+      "note": "La política admet que comparteix parts dels registres, inclosa l’adreça IP, amb socis d’analítica i xarxes publicitàries."
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "scanner-app-tapsuite-privacy-policy"
+      ],
+      "note": "La política dedica un apartat a les galetes de publicitat basada en interessos."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "scanner-app-tapsuite-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "scanner-app-tapsuite-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "scanner-app-tapsuite-app-store"
+      ],
+      "detail": "L’etiqueta declara identificadors, dades d’ús i diagnòstics utilitzats per rastrejar en aplicacions i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "scanner-app-tapsuite-app-store"
+      ],
+      "detail": "L’etiqueta declara identificadors i dades de publicitat per a la publicitat o el màrqueting del desenvolupador.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "scanner-app-tapsuite-privacy-policy",
+        "scanner-app-tapsuite-app-store"
+      ],
+      "detail": "La política parla de compartir registres amb socis d’analítica, desenvolupadors d’aplicacions i xarxes publicitàries, i el web carrega un script d’AppsFlyer.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "scanner-app-tapsuite-privacy-policy"
+      ],
+      "detail": "La política descriu publicitat basada en interessos amb galetes i l’ús de l’adreça electrònica per a segmentació d’audiències a xarxes socials.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "scanner-app-tapsuite-app-store"
+      ],
+      "detail": "L’etiqueta declara dades d’ús per a la personalització del producte, però la política no descriu cap perfilat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta cap ús dels documents escanejats per entrenar models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "scanner-app-tapsuite-privacy-policy"
+      ],
+      "detail": "La política diu explícitament que pot compartir informació personal i no personal amb anunciants, patrocinadors i socis promocionals i de màrqueting, a més de proveïdors i autoritats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "scanner-app-tapsuite-privacy-policy"
+      ],
+      "detail": "Preveu revelar informació personal a les societats afiliades presents i futures del grup.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "scanner-app-tapsuite-privacy-policy"
+      ],
+      "detail": "No parla de venda, però la compartició amb anunciants i socis de màrqueting i la transferència en cas de venda del negoci hi són explícites.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "scanner-app-tapsuite-privacy-policy"
+      ],
+      "detail": "La política diu que la informació es pot transferir i allotjar a qualsevol lloc del món, incloent-hi països sense lleis generals que en regulin l’ús, i demana el consentiment de la persona com a únic empara.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "derogation"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "scanner-app-tapsuite-privacy-policy"
+      ],
+      "detail": "La política només diu que conserva la informació «mentre la necessiti», sense cap termini.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "scanner-app-tapsuite-privacy-policy"
+      ],
+      "detail": "Adverteix que les còpies de seguretat poden conservar una còpia en forma no esborrable que serà difícil o impossible de localitzar.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "scanner-app-tapsuite-privacy-policy"
+      ],
+      "detail": "La política diu que es pot demanar la supressió cancel·lant el compte, però no descriu cap procediment ni termini.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap opció documentada per eliminar el compte des de l’aplicació."
+    },
+    "difficulty": "unknown",
+    "requiresSupportContact": true,
+    "steps": [
+      "Escriu a admin@xstudios.com.tr, l’adreça de contacte que figura a la fitxa de l’App Store, demanant la cancel·lació del compte i la supressió de les dades.",
+      "Cancel·la per separat la subscripció des dels ajustos d’Apple, perquè eliminar el compte no atura el cobrament."
+    ],
+    "obstacles": "La política adverteix que la supressió no afecta la informació ja lliurada a tercers ni les còpies de seguretat.",
+    "dataRetained": "Còpies en sistemes de còpia de seguretat, segons reconeix la mateixa política.",
+    "sources": [
+      "scanner-app-tapsuite-privacy-policy",
+      "scanner-app-tapsuite-app-store"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta el dret de portabilitat ni cap eina d’exportació."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "scanner-app-tapsuite-privacy-policy"
+      ],
+      "detail": "Preveu contactar l’empresa per actualitzar, corregir o eliminar la informació, però no hi ha cap apartat de drets del RGPD ni cap delegat de protecció de dades.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "scanner-app-tapsuite-privacy-policy"
+      ],
+      "detail": "La política només remet a bloquejar les galetes des del navegador i a les baixes dels correus; no descriu cap control dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap opció per desactivar l’analítica dins de l’aplicació."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap panell de preferències de privadesa."
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem analitzat les pantalles de subscripció ni de consentiment; les deu opcions de compra de l’App Store, amb preus que van dels 3,99 als 69,99 euros, mereixerien una revisió."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "scanner-app-tapsuite-privacy-policy"
+      ],
+      "detail": "La política no esmenta cap xifratge extrem a extrem dels documents; només parla de SSL per a la transmissió i del xifratge a la passarel·la de pagament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "scanner-app-tapsuite-privacy-policy"
+      ],
+      "detail": "La política afirma que la informació sensible es transmet amb SSL.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política només parla del xifratge a la passarel·la de pagament, no de les dades del servei."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap opció de verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat auditories ni certificacions de seguretat."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa públic de recompenses per vulnerabilitats."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap canal públic per notificar vulnerabilitats."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "adobe-scan",
+      "comparability": "equivalent",
+      "rationale": "Fa la mateixa feina d’escaneig i conversió a PDF amb una política de privadesa adaptada al RGPD.",
+      "tradeOffs": "És d’una empresa nord-americana amb un ecosistema de dades molt més gran."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "El web de fastscanapp.com només es renderitza amb JavaScript i redirigeix a una versió per idiomes; hem llegit la política a la versió anglesa. És una plantilla comercial genèrica, amb referències a la llei de Turquia i al Privacy Shield, invalidat el 2020, i sense cap secció de RGPD malgrat que l’aplicació es distribueix a la Unió Europea. No hem trobat cap incident documentat.",
+    "openQuestions": [
+      "Els documents escanejats es processen només al dispositiu o es pugen a servidors de l’empresa?",
+      "Quines xarxes publicitàries i quins SDK d’analítica incorpora l’aplicació?",
+      "Qui és el representant de l’empresa a la Unió Europea a l’efecte de l’article 27 del RGPD?"
+    ]
+  },
+  "appStoreBundleId": "com.xstudios.fastscan"
+}

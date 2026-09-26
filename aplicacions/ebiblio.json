@@ -1,0 +1,502 @@
+{
+  "slug": "ebiblio",
+  "name": "eBiblio",
+  "company": "de-marque",
+  "categories": [
+    "llibres-i-lectura",
+    "administracio-publica"
+  ],
+  "tagline": "El préstec digital de les biblioteques públiques, amb dues polítiques de privadesa incompatibles per a la mateixa app",
+  "summary": "eBiblio és el servei de préstec de llibres electrònics, audiollibres, diaris i revistes de les biblioteques públiques espanyoles: gratuït, amb el carnet de la biblioteca i amb el Ministeri de Cultura com a responsable del tractament sota l’article 6.1.e del RGPD. La base jurídica és explícita i la política diu expressament que no es fan perfils. Però l’app és una versió de marca blanca de Cantook, de l’empresa quebequesa De Marque, i la política de Cantook admet coses que la del Ministeri no esmenta: l’històric de préstecs, els marcadors, els subratllats i les notes, i servidors al Quebec sobre Google Cloud.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Espanya (UE), amb tractament al Canadà",
+  "userBase": "239.502 usuaris únics amb alguna transacció i 4,8 milions de préstecs el 2025, en el conjunt del servei web i les apps.",
+  "links": {
+    "website": "https://ebiblio.es/",
+    "privacyPolicy": "https://guiadeuso.ebiblio.es/confluence/ebiblio-user/es/preguntas-frecuentes/condiciones-generales/aplicacion-movil/aplicacion-movil-politica-de-privacidad",
+    "appStore": "https://apps.apple.com/es/app/id1541822581"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "ebiblio-privacy-policy",
+      "ebiblio-app-store"
+    ],
+    "detail": "Cal ser soci d’una biblioteca pública: l’alta al servei la fa la biblioteca, no la persona usuària des de l’app.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "ebiblio-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "La legislació de biblioteques ha protegit tradicionalment amb molta cura què llegeix cada persona a la biblioteca pública. La política del Ministeri només reconeix el nom, l’identificador de soci i el correu; la de Cantook hi afegeix la llista de préstecs en curs, l’històric complet, les reserves, la llista de desitjos i fins i tot els subratllats i les notes que es fan dins els llibres.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "ebiblio-privacy-policy"
+      ],
+      "note": "Procedent de la fitxa de soci de la biblioteca pública."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "ebiblio-privacy-policy",
+        "ebiblio-app-store",
+        "ebiblio-cantook-privacy"
+      ],
+      "note": "Número de carnet de la biblioteca. La política del Ministeri el tracta com a dada identificativa, però l’etiqueta de l’App Store el declara com a dada NO vinculada amb la identitat."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "ebiblio-privacy-policy"
+      ]
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal"
+      ],
+      "sources": [
+        "ebiblio-privacy-policy",
+        "ebiblio-cantook-privacy"
+      ],
+      "note": "No la data exacta, sinó la categoria per edat (adult o no), per aplicar les restriccions de préstec. La política de Cantook diu que la biblioteca transmet l’edat a De Marque."
+    },
+    {
+      "type": "historial-de-visualitzacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "ebiblio-cantook-privacy"
+      ],
+      "note": "Préstecs en curs, històric de préstecs, reserves i llista de desitjos, segons la política de Cantook. La política del Ministeri no els esmenta."
+    },
+    {
+      "type": "fitxers-i-documents",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "ebiblio-cantook-privacy"
+      ],
+      "note": "Marcadors, subratllats i notes fets dins els llibres, recollits per De Marque i desats als seus servidors del Quebec."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "ebiblio-cantook-privacy"
+      ],
+      "note": "La política de Cantook diu que Google Analytics registra quines cerques s’han fet i quins continguts s’han consultat."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "ebiblio-app-store",
+        "ebiblio-cantook-privacy"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "ebiblio-cantook-privacy",
+        "ebiblio-privacy-policy"
+      ],
+      "note": "Galetes de procés, de seguretat i estadístiques, incloent-hi Google Analytics. És l’única transferència internacional que declara la política del Ministeri."
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "ebiblio-cantook-privacy"
+      ],
+      "note": "Navegador i aparell, recollits per Google Analytics."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "ebiblio-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "ebiblio-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada utilitzada per rastrejar a través d’apps i llocs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "ebiblio-app-store"
+      ],
+      "detail": "Cap identificador publicitari declarat; el servei no té publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "ebiblio-cantook-privacy",
+        "ebiblio-privacy-policy"
+      ],
+      "detail": "Google Analytics, declarat tant per De Marque com pel Ministeri. No hi ha xarxes publicitàries.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "ebiblio-privacy-policy"
+      ],
+      "detail": "És un servei públic de préstec sense publicitat; la finalitat declarada és només permetre l’accés al préstec i les reserves.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "ebiblio-privacy-policy"
+      ],
+      "detail": "La política diu que «en ningún caso se realizarán tomas decisiones individuales automatizadas, incluida la elaboración de perfiles».",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Cap de les dues polítiques no en parla."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "ebiblio-privacy-policy"
+      ],
+      "detail": "La política diu que les dades no es cedeixen a tercers llevat dels casos previstos legalment, però el servei es presta a través d’un encarregat, Distribuidora Digital de Libros S.A.U., i de la seva matriu canadenca.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ebiblio-cantook-privacy",
+        "de-marque-libranda",
+        "de-marque-about"
+      ],
+      "detail": "Les dades passen de l’encarregada espanyola a De Marque inc., que les desa en un centre de dades del Quebec. La política del Ministeri no ho declara.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "ebiblio-cantook-privacy"
+      ],
+      "detail": "De Marque afirma que «ne vend pas, ne loue pas et n’exploite pas de manière commerciale» la informació recollida.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ebiblio-privacy-policy",
+        "ebiblio-cantook-privacy"
+      ],
+      "detail": "La política del Ministeri només declara la transferència als Estats Units derivada de Google Analytics, emparada en el Marc de Privadesa UE-EUA. La de Cantook hi afegeix el tractament al Canadà, que el Ministeri no esmenta i que es beneficiaria de la decisió d’adequació canadenca.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "adequacy"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "ebiblio-cifres"
+      ],
+      "detail": "El que es publica és un informe estadístic anual d’ús del servei, no un informe sobre peticions d’autoritats.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "ebiblio-privacy-policy",
+        "ebiblio-cantook-privacy"
+      ],
+      "detail": "La política del Ministeri lliga la conservació a l’alta al servei i, després, al bloqueig «durante el tiempo establecido por la normativa aplicable»; la de Cantook diu només «tant et aussi longtemps qu’il est nécessaire». Cap de les dues no dona xifres.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "ebiblio-privacy-policy"
+      ],
+      "detail": "Després de la baixa, les dades es conserven bloquejades durant els terminis de prescripció de les possibles responsabilitats i després es destrueixen.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ebiblio-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "ebiblio-privacy-policy"
+      ],
+      "detail": "La baixa no es pot fer des de l’app ni des del web: «si desea solicitar la baja del servicio puede hacerlo dirigiéndose en cualquier momento a su biblioteca».",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "requiresSupportContact": true,
+    "steps": [
+      "Adreça’t a la biblioteca pública on ets soci, o a la xarxa de biblioteques de la teva comunitat autònoma, i demana la baixa del servei eBiblio.",
+      "Si el que vols és exercir el dret de supressió davant el responsable, escriu al delegat de protecció de dades del Ministerio de Cultura a dpd@cultura.gob.es o presenta la sol·licitud a la seva seu electrònica.",
+      "Per a les dades en mans de De Marque (històric de préstecs, marcadors, subratllats i notes), la política de Cantook remet a aide@demarque.com."
+    ],
+    "obstacles": "No hi ha cap botó ni formulari dins l’app; la baixa depèn de cada xarxa autonòmica de biblioteques. Cap dels documents no fixa un termini de resposta.",
+    "dataRetained": "Les dades es conserven bloquejades durant els terminis de prescripció de les responsabilitats derivades del servei.",
+    "sources": [
+      "ebiblio-privacy-policy",
+      "ebiblio-cantook-privacy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Cap de les dues polítiques no descriu cap descàrrega de dades ni el dret de portabilitat de manera operativa."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ebiblio-privacy-policy"
+      ],
+      "detail": "Articles 15 a 22 del RGPD davant el Ministerio de Cultura: seu electrònica, presencialment, per correu a dpd@cultura.gob.es o per escrit al delegat de protecció de dades, Plaza del Rey 1 de Madrid. Reclamació davant l’AEPD o l’autoritat autonòmica.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dpd@cultura.gob.es"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no mostra publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Cap dels documents no descriu com es rebutgen les galetes estadístiques i Google Analytics dins l’aplicació."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut documentar cap panell de preferències de privadesa; les condicions d’ús de l’app no es podien llegir en el moment de la consulta."
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut examinar el flux d’alta, que depèn de cada xarxa de biblioteques."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És un servei de préstec i lectura; no hi ha comunicacions privades entre persones que puguin anar xifrades d’extrem a extrem.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ebiblio-cantook-privacy"
+      ],
+      "detail": "La política de Cantook declara xifratge SSL amb autenticació de servidor, i ebiblio.es serveix la capçalera HSTS amb una vigència de dos anys.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Cap document no ho descriu; només es parla d’un centre de dades segur al Quebec i d’allotjament a Google Cloud Platform."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’autenticació la fa cada xarxa de biblioteques, i cap document no esmenta cap segon factor."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap auditoria ni certificació."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "vulnerabilityDisclosure": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "ebiblio-privacy-policy",
+        "ebiblio-cantook-privacy"
+      ],
+      "detail": "No hi ha security.txt a ebiblio.es, cultura.gob.es, demarque.com, cantook.com ni libranda.com, i cap dels documents no descriu cap canal per comunicar vulnerabilitats: només adreces genèriques de contacte.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "storytel",
+      "comparability": "partial",
+      "rationale": "Ofereix audiollibres i llibres electrònics amb una política molt més detallada i terminis de conservació numèrics.",
+      "tradeOffs": "És de pagament, declara dades per rastrejar i el catàleg és comercial, no públic."
+    },
+    {
+      "app": "readera",
+      "comparability": "complementary",
+      "rationale": "Per llegir fitxers propis sense cap recollida de dades.",
+      "tradeOffs": "No dona accés a cap catàleg ni pot obrir els préstecs protegits d’eBiblio."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "eBiblio fa moltes coses bé: base jurídica explícita, exclusió del perfilat, absència de publicitat i un informe anual d’ús. El problema és la desconnexió entre les tres capes del servei. La política que enllaça l’App Store és la del Ministeri i no esmenta ni De Marque, ni l’històric de préstecs, ni els subratllats i les notes, ni els servidors del Quebec: tot això només surt a la política de Cantook, en francès, que no és la que enllaça l’App Store. L’etiqueta de l’App Store, a més, declara l’identificador d’usuari com a dada no vinculada amb la identitat quan la política diu que és el número de carnet. Les condicions d’ús de l’aplicació no es podien llegir en el moment de la consulta. No hem trobat cap sanció ni cap filtració documentada relacionada amb eBiblio, De Marque, Cantook o Libranda.",
+    "openQuestions": [
+      "Per què la política del Ministeri no declara el tractament al Canadà ni l’històric de lectura que sí que descriu la de Cantook?",
+      "Qui és el delegat de protecció de dades de De Marque a la Unió Europea?",
+      "Quan tornaran a estar disponibles les condicions d’ús de l’aplicació mòbil?",
+      "Com es pot rebutjar Google Analytics des de l’aplicació?"
+    ]
+  },
+  "appStoreBundleId": "com.demarque.ebiblio"
+}

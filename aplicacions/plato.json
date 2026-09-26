@@ -1,0 +1,425 @@
+{
+  "slug": "plato",
+  "name": "Plato",
+  "company": "plato-team",
+  "categories": [
+    "comunitats-i-forums",
+    "missatgeria"
+  ],
+  "tagline": "L’etiqueta no vincula cap dada a la identitat, però la baixa s’ha de demanar per correu",
+  "summary": "Plato combina una trentena de jocs de taula amb xats de grup. L’etiqueta de l’App Store no declara cap dada de rastreig ni cap dada vinculada a la identitat, i el correu electrònic és explícitament voluntari. La política dona terminis concrets (els missatges privats s’esborren quan arriben, com a molt en trenta dies), però per tancar el compte cal escriure a l’empresa i el text admet que potser no podran esborrar-ho tot.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Estats Units, sense establiment declarat a la Unió Europea",
+  "links": {
+    "website": "https://www.platoapp.com/",
+    "privacyPolicy": "https://www.platoapp.com/privacy",
+    "appStore": "https://apps.apple.com/es/app/id1054747306"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "plato-privacy-policy"
+    ],
+    "detail": "Cal registrar-se amb el dispositiu; el correu és voluntari.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "plato-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Amb qui jugues, de què parles als grups i des de quin dispositiu. La ubicació és només la que es dedueix de l’adreça IP, i l’empresa diu que no demana dades que no necessita.",
+  "dataCollection": [
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "plato-app-store",
+        "plato-privacy-policy"
+      ],
+      "note": "El registre es fa amb el dispositiu."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "plato-app-store",
+        "plato-privacy-policy"
+      ],
+      "note": "«Entirely voluntary»: no cal per jugar."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "plato-privacy-policy"
+      ],
+      "note": "Els missatges privats es conserven fins que el destinatari els rep, com a màxim trenta dies."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "plato-privacy-policy"
+      ],
+      "note": "Nom, adreça i número de targeta, processats per tercers autoritzats."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "plato-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "plato-privacy-policy"
+      ],
+      "note": "Deduïda de l’adreça IP; no fa servir el GPS."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "plato-app-store",
+        "plato-privacy-policy"
+      ],
+      "note": "Google Analytics."
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "plato-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "plato-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "plato-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada utilitzada per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "plato-privacy-policy"
+      ],
+      "detail": "Google Analytics i la llista de proveïdors publicada a platoapp.com/serviceproviders.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política només parla de comunicacions comercials pròpies, no de publicitat dirigida."
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "plato-privacy-policy"
+      ],
+      "detail": "Processadors de pagament, analítica i la resta de proveïdors llistats públicament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu explícitament que no vengui dades."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "plato-privacy-policy"
+      ],
+      "detail": "El servei s’allotja als Estats Units; la política invoca el consentiment en enviar la informació i esmenta mecanismes reconeguts per la Comissió Europea.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "derogation"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "plato-privacy-policy"
+      ],
+      "detail": "Missatges privats fins a trenta dies, dades de client sis anys per obligacions fiscals.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "plato-privacy-policy"
+      ],
+      "detail": "La política admet que «potser no serà possible esborrar completament» tota la informació personal.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "contingut-de-missatges",
+        "period": "Fins que el destinatari el rep, amb un màxim de 30 dies",
+        "sources": [
+          "plato-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "dades-de-pagament",
+        "period": "6 anys després d’acabar la relació, per obligacions fiscals",
+        "sources": [
+          "plato-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "plato-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "plato-privacy-policy"
+      ],
+      "detail": "Cal escriure a hello@platoteam.com; esborrar l’aplicació no dona de baixa el compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "hard",
+    "requiresSupportContact": true,
+    "steps": [
+      "Escriu a hello@platoteam.com demanant explícitament la supressió del compte.",
+      "Espera la confirmació abans de desinstal·lar l’aplicació: si només l’esborres, l’empresa no sap que vols donar-te de baixa."
+    ],
+    "obstacles": "No hi ha cap opció documentada dins de l’aplicació i la política avisa que potser no podran esborrar-ho tot.",
+    "dataRetained": "Dades de transaccions durant sis anys i informació anonimitzada per a la prevenció del frau.",
+    "sources": [
+      "plato-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "plato-privacy-policy"
+      ],
+      "detail": "Dret de portabilitat en un format llegible per màquina, a petició per correu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "plato-privacy-policy"
+      ],
+      "detail": "Per correu a legal@platoteam.com.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:legal@platoteam.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu controls de privadesa dins de l’aplicació."
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta xifratge d’extrem a extrem dels xats."
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "openQuestions": [
+      "Com es modera el xat i quines dades es conserven de les persones menors de divuit anys?",
+      "Es pot donar de baixa el compte des de la mateixa aplicació?"
+    ]
+  },
+  "appStoreBundleId": "com.platoapp.Plato"
+}

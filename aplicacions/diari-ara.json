@@ -1,0 +1,418 @@
+{
+  "slug": "diari-ara",
+  "name": "Diari ARA",
+  "company": "edicio-de-premsa-periodica-ara",
+  "categories": [
+    "noticies-i-mitjans"
+  ],
+  "tagline": "Diari en català amb rastreig a l’app i una política de privadesa que no parla de publicitat",
+  "summary": "L’etiqueta de l’App Store declara dades d’ús per rastrejar i dades de contacte i identificadors vinculats a la persona. La política de privadesa, en canvi, només descriu el registre, la subscripció, la botiga i els butlletins, i no diu res de publicitat, galetes ni perfils. Al web, el bàner de galetes ofereix tots els proveïdors del marc de l’IAB, i els lectors anònims només poden rebutjar-les subscrivint-s’hi. Per esborrar el compte cal escriure un correu.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "subscription",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://www.ara.cat/",
+    "privacyPolicy": "https://www.ara.cat/privacitat.html",
+    "terms": "https://www.ara.cat/condicions_contractacio.html",
+    "appStore": "https://apps.apple.com/es/app/id428237964"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "ara-condicions"
+    ],
+    "detail": "L’accés és gratuït, però alguns serveis demanen subscripció; el registre gratuït permet llegir 10 articles propis al mes.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "ara-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "L’app vincula al compte les dades d’ús (què es llegeix, quant de temps, quines seccions se segueixen) i declara que poden servir per rastrejar en apps i webs d’altres empreses.",
+  "dataCollection": [
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "ara-app-store",
+        "ara-privacy-policy"
+      ],
+      "note": "Per al registre, la subscripció i els butlletins."
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "ara-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "ara-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "ara-app-store"
+      ],
+      "note": "L’etiqueta declara les dades d’ús com a dades per rastrejar."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "ara-privacy-policy"
+      ],
+      "note": "Les entitats bancàries reben les dades per gestionar cobraments."
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "ara-didomi-config"
+      ],
+      "note": "Al web, si s’accepta el bàner."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "ara-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ara-app-store"
+      ],
+      "detail": "L’etiqueta declara dades d’ús per rastrejar en apps i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’etiqueta no concreta si fa servir l’identificador publicitari del dispositiu."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ara-didomi-config"
+      ],
+      "detail": "Al web: tots els proveïdors del TCF de l’IAB, Google i set proveïdors propis com Hotjar, Amplitude i HubSpot.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ara-didomi-config"
+      ],
+      "detail": "El gestor de consentiment del web inclou les finalitats de publicitat personalitzada. La política no ho esmenta.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ara-didomi-config"
+      ],
+      "detail": "Perfils publicitaris i de continguts entre les finalitats del bàner.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no en diu res."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ara-app-store",
+        "ara-didomi-config"
+      ],
+      "detail": "Dades d’ús per rastrejar i proveïdors publicitaris al web amb consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política és comuna amb l’ARA Balears i l’ARA Andorra, però no diu si hi comparteix dades."
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ara-privacy-policy"
+      ],
+      "detail": "Alguns encarregats són fora de l’EEE; la política diu que ho cobreix per contracte.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "ara-privacy-policy"
+      ],
+      "detail": "Només criteris genèrics: mentre duri la relació i els terminis legals de prescripció.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "ara-privacy-policy"
+      ],
+      "detail": "Es conserven durant els terminis de conservació i prescripció legals, sense concretar-los.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ara-condicions"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "ara-condicions"
+      ],
+      "detail": "Cal enviar la petició per correu a privacitat@ara.cat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "requiresSupportContact": true,
+    "steps": [
+      "Si tens subscripció, dona-te’n de baixa primer des de l’àrea personal, al 932 751 110 o a subscripcions@ara.cat (o des de l’App Store si la vas contractar allà).",
+      "Escriu a privacitat@ara.cat i demana la supressió del compte."
+    ],
+    "obstacles": "Els subscriptors han de cancel·lar la subscripció abans que es gestioni la supressió.",
+    "sources": [
+      "ara-condicions"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "ara-privacy-policy"
+      ],
+      "detail": "Reconeix el dret de portabilitat; s’exerceix per correu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ara-privacy-policy"
+      ],
+      "detail": "Delegat de protecció de dades a privacitat@ara.cat o correu postal.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacitat@ara.cat"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "ara-paga-o-accepta"
+      ],
+      "detail": "Al web, qui no és subscriptor només pot refusar les galetes subscrivint-s’hi.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut comprovar si l’app té un panell de consentiment."
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ara-paga-o-accepta"
+      ],
+      "detail": "El bàner del web substitueix el botó de rebutjar per «Subscriu-t’hi i refusa».",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "unbalanced-consent",
+        "severity": "medium",
+        "description": "Paga o accepta: per a un lector anònim, l’única alternativa a acceptar les galetes és subscriure’s. No hem comprovat si l’app fa el mateix.",
+        "sources": [
+          "ara-paga-o-accepta"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És una aplicació de lectura de notícies.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap fitxer security.txt al domini."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "vilaweb",
+      "comparability": "equivalent",
+      "rationale": "Diari en català; l’app no declara dades per rastrejar."
+    },
+    {
+      "app": "el-punt-avui",
+      "comparability": "partial",
+      "rationale": "Diari en català; l’app de quiosc declara que no recull dades, però fa anys que no s’actualitza."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La contradicció principal és entre l’etiqueta de l’App Store, que declara rastreig, i una política que no esmenta la publicitat. El paga o accepta i la llista de proveïdors són del web; no hem pogut veure el bàner de l’app. No hem trobat sancions ni filtracions.",
+    "openQuestions": [
+      "Quins proveïdors publicitaris integra l’app i amb quina base legal?",
+      "L’app també condiciona el rebuig a la subscripció?"
+    ]
+  },
+  "appStoreBundleId": "cat.ara.main"
+}

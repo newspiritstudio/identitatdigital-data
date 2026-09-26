@@ -1,0 +1,458 @@
+{
+  "slug": "tarjeta-sanitaria",
+  "name": "Tarjeta Sanitaria",
+  "company": "comunidad-de-madrid",
+  "categories": [
+    "salut-i-assistencia-sanitaria",
+    "administracio-publica"
+  ],
+  "tagline": "Targeta sanitària virtual i carpeta de salut de Madrid, amb informes clínics al mòbil",
+  "summary": "La Tarjeta Sanitaria Virtual substitueix la targeta física als centres de salut i a les farmàcies i dona accés a «Mi Carpeta de Salud»: informes clínics, analítiques, medicació, cites i baixes laborals. Es tracten dades de salut per obligació legal, sense cessions llevat de les previstes per llei. El 2025 la Comunitat va eliminar el codi per SMS a l’accés a les dades personals i el va substituir per una validació automàtica del número a través de Telefónica.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "public-service",
+  "jurisdiction": "Espanya (Comunitat de Madrid)",
+  "userBase": "Uns 2,5 milions de persones tenien la targeta virtual activa el 2023, segons la Comunitat",
+  "links": {
+    "website": "https://www.comunidad.madrid/salud/tarjeta-sanitaria-virtual",
+    "privacyPolicy": "https://www.carpetavirtual.sanidadmadrid.org/cavi/mvc/info/protecciondatos",
+    "appStore": "https://apps.apple.com/es/app/id1517046103"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "tarjeta-sanitaria-servei"
+    ],
+    "detail": "Cal activar-la amb Cl@ve Permanent, el sistema IDentifica, certificat digital o DNI electrònic, o bé amb un codi QR que lliuren als centres de salut.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": [],
+    "detail": "No hem trobat el codi publicat."
+  },
+  "publicService": {
+    "isPublicService": true,
+    "administrationLevel": "regional",
+    "legalBasis": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tarjeta-sanitaria-carpeta-proteccion-datos"
+      ],
+      "detail": "La clàusula enumera el RGPD, la Llei orgànica 3/2018 i les lleis 41/2002, 14/1986, 39/2015, 19/2013 i 10/2019, però no concreta ni l’article habilitant ni la lletra de l’article 6.1 del RGPD que empara el tractament.",
+      "verifiedAt": "2026-09-22",
+      "norm": "Llei 41/2002 i Llei 14/1986, citades sense article"
+    },
+    "processingRegistry": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "comunidad-madrid-rat",
+        "comunidad-madrid-proteccion-datos"
+      ],
+      "detail": "El registre d’activitats de tractament de la Comunitat inclou les conselleries i les entitats adscrites, però no hi hem localitzat de manera identificable l’activitat de la targeta sanitària virtual ni de la carpeta de salut.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.comunidad.madrid/proteccion-datos/registro-actividades-tratamiento-rat"
+    },
+    "dpia": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat publicada cap avaluació d’impacte, tot i que el servei tracta dades de salut a gran escala."
+    },
+    "ensConformity": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap declaració ni certificació de conformitat amb l’Esquema Nacional de Seguretat de la carpeta de salut ni de la targeta virtual."
+    },
+    "dpo": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tarjeta-sanitaria-carpeta-proteccion-datos",
+        "comunidad-madrid-dpd"
+      ],
+      "detail": "La clàusula identifica el Comitè Delegat de Protecció de Dades de la Conselleria de Sanitat amb adreça postal, i el portal de la Comunitat en publica el correu.",
+      "verifiedAt": "2026-09-22",
+      "contact": "protecciondedatos.sanidad@madrid.org"
+    },
+    "offlineAlternative": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tarjeta-sanitaria-servei"
+      ],
+      "detail": "L’activació es pot fer presencialment als centres de salut, als hospitals del Servei Madrileny de Salut i a les oficines de registre, però no hem trobat confirmat un accés equivalent a la carpeta de salut sense l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "accessibilityStatement": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "comunidad-madrid-accessibilitat"
+      ],
+      "detail": "La declaració del portal de la Comunitat es declara «no conforme» amb el Reial decret 1112/2018 i no cobreix les aplicacions mòbils; ni l’aplicació ni la carpeta virtual en tenen una de pròpia.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.comunidad.madrid/atencion-ciudadano/declaracion-accesibilidad"
+    },
+    "mandatoryRetention": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tarjeta-sanitaria-carpeta-proteccion-datos",
+        "boe-llei-41-2002"
+      ],
+      "detail": "La clàusula diu que les dades es conserven «durante los años necesarios para cumplir con la normativa vigente». La documentació clínica que mostra la carpeta de salut està sotmesa a l’article 17 de la Llei 41/2002, que obliga els centres a conservar-la com a mínim cinc anys des de l’alta de cada procés assistencial, de manera que el termini no el decideix el servei.",
+      "verifiedAt": "2026-09-22",
+      "norm": "Llei 41/2002, article 17"
+    }
+  },
+  "dataSummary": "L’aplicació porta al mòbil la història clínica de la persona: diagnòstics en informes, resultats d’analítiques, medicació, cites i baixes laborals. Qualsevol accés indegut al dispositiu o al compte exposa categories especials de dades de l’article 9 del RGPD.",
+  "dataCollection": [
+    {
+      "type": "dades-de-salut",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "tarjeta-sanitaria-carpeta-proteccion-datos"
+      ],
+      "note": "Informes clínics, analítiques, medicació i baixes laborals extrets dels sistemes del Servei Madrileny de Salut."
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tarjeta-sanitaria-servei"
+      ],
+      "note": "Per a l’activació amb Cl@ve, IDentifica o certificat digital."
+    },
+    {
+      "type": "contrasenya",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "tarjeta-sanitaria-servei"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "tarjeta-sanitaria-servei",
+        "tarjeta-sanitaria-open-gateway-2025"
+      ],
+      "note": "Es fa servir per a codis de verificació i, des del 2025, per a una validació automàtica amb l’operador de telefonia."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tarjeta-sanitaria-carpeta-proteccion-datos"
+      ],
+      "note": "La clàusula esmenta Google Maps per a les funcions de localització de centres."
+    },
+    {
+      "type": "situacio-familiar",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tarjeta-sanitaria-servei"
+      ],
+      "note": "L’accés delegat a comptes d’altres persones vincula membres de la família."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "tarjeta-sanitaria-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada utilitzada per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "tarjeta-sanitaria-app-store"
+      ],
+      "detail": "L’etiqueta no declara l’identificador publicitari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi independent dels kits de tercers que porta l’aplicació."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "tarjeta-sanitaria-carpeta-proteccion-datos"
+      ],
+      "detail": "La clàusula de protecció de dades no preveu cap finalitat publicitària.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La informació publicada no en diu res."
+    },
+    "profiling": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "tarjeta-sanitaria-carpeta-proteccion-datos"
+      ],
+      "detail": "La finalitat declarada és donar accés a la informació clínica i facilitar tràmits sanitaris.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tarjeta-sanitaria-carpeta-proteccion-datos",
+        "tarjeta-sanitaria-open-gateway-2025"
+      ],
+      "detail": "Les dades no se cedeixen llevat d’obligació legal. Hi intervenen proveïdors com Google Maps i, per a la validació del número, Telefónica.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta amb quins altres òrgans de la Comunitat es creuen les dades de l’aplicació més enllà del sistema sanitari."
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "tarjeta-sanitaria-carpeta-proteccion-datos"
+      ],
+      "detail": "Sense cessions llevat de les previstes per llei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La clàusula no en parla; l’ús de Google Maps podria implicar-ne."
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe sobre accessos o peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tarjeta-sanitaria-carpeta-proteccion-datos"
+      ],
+      "detail": "Es remet als terminis que fixa la normativa sanitària i als de prescripció, sense xifres concretes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tarjeta-sanitaria-carpeta-proteccion-datos"
+      ],
+      "detail": "La informació clínica pertany a la història clínica, que la llei obliga a conservar; desactivar l’aplicació no l’esborra.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap procediment documentat per desactivar la targeta virtual o desvincular el dispositiu."
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "difficulty": "unknown",
+    "dataRetained": "La història clínica es conserva als sistemes del Servei Madrileny de Salut durant els terminis legals.",
+    "sources": [
+      "tarjeta-sanitaria-servei",
+      "tarjeta-sanitaria-carpeta-proteccion-datos"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tarjeta-sanitaria-servei"
+      ],
+      "detail": "Els informes i analítiques es poden consultar a la carpeta de salut; no hem trobat una exportació completa en format estructurat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tarjeta-sanitaria-carpeta-proteccion-datos"
+      ],
+      "detail": "Per escrit a la Direcció General Assistencial amb còpia del DNI; comitè delegat de protecció de dades de la Conselleria de Sanitat.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.carpetavirtual.sanidadmadrid.org/cavi/mvc/info/protecciondatos"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no mostra publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tarjeta-sanitaria-servei"
+      ],
+      "detail": "Es pot gestionar l’accés delegat d’altres persones al compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No n’hem detectat, però no hem fet una revisió de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No transporta comunicacions entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació tècnica pública."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tarjeta-sanitaria-servei",
+        "tarjeta-sanitaria-open-gateway-2025"
+      ],
+      "detail": "L’activació exigeix identitat digital forta. El 2025 es va treure el codi per SMS per accedir a les dades personals i es va substituir per una validació automàtica del número amb Telefónica; l’SMS es manté per delegar l’accés.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "sms"
+      ]
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat auditories ni certificacions publicades específicament sobre aquesta aplicació."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses per vulnerabilitats."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap canal públic de notificació de vulnerabilitats ni fitxer security.txt."
+    }
+  },
+  "review": {
+    "researchStatus": "initial",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "L’etiqueta de l’App Store declara que no es recull cap dada, cosa difícil de conciliar amb una aplicació que mostra la història clínica. La clàusula de protecció de dades que citem és la de «Mi Carpeta de Salud», el servei que l’aplicació integra. No hem trobat incidents documentats.",
+    "openQuestions": [
+      "Quines dades rep Telefónica en la validació automàtica del número i amb quina base jurídica?",
+      "Com es desactiva la targeta virtual i es desvincula un dispositiu perdut?"
+    ]
+  },
+  "appStoreBundleId": "org.madrid.ztav.tarjetaSanitariaVirtual"
+}

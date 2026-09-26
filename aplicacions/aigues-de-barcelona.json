@@ -1,0 +1,493 @@
+{
+  "slug": "aigues-de-barcelona",
+  "name": "Aigües de Barcelona",
+  "company": "aigues-de-barcelona",
+  "categories": [
+    "utilitats"
+  ],
+  "tagline": "Una política detallada i sense rastreig, però l’etiqueta no declara el DNI, el compte bancari ni el consum, i l’APDCAT ha sancionat dues vegades l’empresa per errors de facturació",
+  "summary": "L’app de l’àrea de clients d’Aigües de Barcelona serveix per consultar consums i factures, pagar, canviar el compte bancari i configurar avisos de fuites. L’etiqueta de l’App Store només declara identificadors i diagnòstics, però el servei tracta el DNI, les dades bancàries i el consum d’aigua de la llar. La política és de les més detallades del bloc: explica cada finalitat amb la seva base jurídica, demana consentiment per perfilar el consum amb la telelectura i reconeix una segmentació per detectar clients vulnerables. L’APDCAT ha sancionat l’empresa el 2022 i el 2025 per haver associat dades bancàries a la persona equivocada.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "public-service",
+  "jurisdiction": "Espanya (Catalunya); servei metropolità gestionat per una empresa mixta",
+  "brandColor": "#0072ce",
+  "links": {
+    "website": "https://www.aiguesdebarcelona.cat/",
+    "privacyPolicy": "https://www.aiguesdebarcelona.cat/es/web/guest/politica-privacidad-area-clientes",
+    "terms": "https://www.aiguesdebarcelona.cat/documents/20126/980178/CondLegales-altaUR-es.pdf/60b8b50e-1cc7-3f63-ef1a-dd7e1b9e2355",
+    "appStore": "https://apps.apple.com/es/app/id916476787"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "aigues-bcn-privacy-policy",
+      "aigues-bcn-area-clients-terms"
+    ],
+    "detail": "L’Àrea de Clients només està disponible per a persones amb un contracte vigent i exigeix donar-s’hi d’alta i acceptar-ne les condicions.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "aigues-bcn-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "La telelectura permet conèixer el consum d’aigua hora a hora, que pot indicar quantes persones viuen en un habitatge i quan està buit. Aigües de Barcelona el fa servir per detectar fuites i fraus, i per fer-ne un perfil comercial només amb consentiment. A més, creua el comportament de pagament amb dades socioeconòmiques del districte censal per identificar clients en risc de vulnerabilitat.",
+  "dataCollection": [
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "aigues-bcn-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "aigues-bcn-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "aigues-bcn-app-store"
+      ]
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "aigues-bcn-privacy-policy"
+      ],
+      "note": "El DNI o NIE identifica el titular del contracte. L’etiqueta de l’App Store no el declara."
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "aigues-bcn-privacy-policy"
+      ],
+      "note": "Es comunica, entre d’altres, a l’AMB, als ajuntaments per cobrar taxes i a l’Agència Catalana de l’Aigua."
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "aigues-bcn-privacy-policy"
+      ],
+      "note": "L’adreça del punt de subministrament."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "aigues-bcn-privacy-policy",
+        "aigues-bcn-area-clients-terms"
+      ],
+      "note": "Per als avisos del servei i, només amb consentiment, per a comunicacions promocionals."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "aigues-bcn-privacy-policy",
+        "aigues-bcn-app-store"
+      ],
+      "note": "Per als avisos de fuites per SMS."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "aigues-bcn-privacy-policy",
+        "aigues-bcn-app-store"
+      ],
+      "note": "Compte bancari de domiciliació i pagament de factures amb targeta o Bizum des de l’app. L’etiqueta no declara cap dada financera."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau",
+        "investigacio-i-estadistica",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "aigues-bcn-privacy-policy"
+      ],
+      "note": "Factures i consum d’aigua, amb l’historial de lectures i la telelectura. El perfil comercial basat en el seguiment continu del consum només es fa amb consentiment."
+    },
+    {
+      "type": "nivell-d-ingressos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "compliment-legal"
+      ],
+      "sources": [
+        "aigues-bcn-privacy-policy"
+      ],
+      "note": "Segmentació per detectar vulnerabilitat a partir del comportament de pagament i de dades socioeconòmiques agregades del districte censal (INE, Idescat), per interès legítim."
+    },
+    {
+      "type": "fitxers-i-documents",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "aigues-bcn-app-store"
+      ],
+      "note": "La cèdula d’habitabilitat i altres documents que es poden pujar des de l’app."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "aigues-bcn-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap dada utilitzada per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’etiqueta declara l’identificador del dispositiu per a la funcionalitat, sense concretar si inclou l’identificador publicitari."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’Àrea de Clients web només declara galetes de seguretat d’Incapsula; no hem trobat la llista d’SDK de l’app."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "aigues-bcn-privacy-policy",
+        "aigues-bcn-area-clients-terms"
+      ],
+      "detail": "Només amb consentiment: comunicacions comercials sobre l’activitat de l’empresa i esdeveniments relacionats amb el servei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "aigues-bcn-privacy-policy"
+      ],
+      "detail": "Dos perfils: un de comercial, basat en el seguiment continu del consum amb la telelectura, que exigeix consentiment; i una segmentació per risc de vulnerabilitat i d’impagament, per interès legítim, a la qual et pots oposar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no en diu res."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "aigues-bcn-privacy-policy",
+        "aigues-bcn-iagua-accionariat-2019",
+        "aigues-bcn-ara-veolia-2025"
+      ],
+      "detail": "Per obligació legal, a l’Àrea Metropolitana de Barcelona com a titular del servei (i accionista minoritària de l’empresa, de la qual Agbar, del grup Veolia, té la majoria), als ajuntaments (taxes de clavegueram i residus), als serveis socials, a l’Agència Catalana de l’Aigua, a l’Incasòl, a les administracions tributàries, a jutjats i policia, i als altres organismes que preveu la llei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta comunicacions a Agbar ni a Veolia."
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "aigues-bcn-privacy-policy"
+      ],
+      "detail": "La política diu que no comunica dades a tercers si no hi consents o no hi ha una obligació legal.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "aigues-bcn-privacy-policy",
+        "aigues-bcn-cookies-area-clients"
+      ],
+      "detail": "Reconeix subencarregats fora de la UE, emparats en decisions d’adequació o en clàusules contractuals tipus. Les galetes de seguretat d’Incapsula de l’Àrea de Clients transfereixen dades als Estats Units.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "aigues-bcn-privacy-policy"
+      ],
+      "detail": "Criteris per finalitat (mentre duri el contracte, fins a resoldre la petició), però cap termini en anys.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "aigues-bcn-privacy-policy"
+      ],
+      "detail": "Acabat el contracte, les dades queden bloquejades mentre hi pugui haver responsabilitats. Si has acceptat comunicacions comercials, es conserven fins que te’n donis de baixa, encara que ja no siguis client.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "aigues-bcn-privacy-policy"
+      ],
+      "detail": "La política reconeix el dret de supressió.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap opció documentada per eliminar l’usuari de l’Àrea de Clients des de l’app."
+    },
+    "difficulty": "medium",
+    "requiresSupportContact": true,
+    "steps": [
+      "Escriu a atencioalclient@aiguesdebarcelona.cat, fes la petició a qualsevol oficina d’atenció al client, per carta al carrer del General Batet 1-7, 08028 Barcelona, o des de l’apartat «Contacta» del web.",
+      "Demana la supressió de l’usuari de l’Àrea de Clients i, si ho vols, retira els consentiments comercials.",
+      "Si hi ha dubtes sobre la teva identitat et poden demanar una còpia del DNI. Tenen un mes per respondre, prorrogable dos mesos més."
+    ],
+    "obstacles": "Esborrar l’usuari de l’app no dona de baixa el contracte d’aigua: mentre sigui vigent, l’empresa conserva les dades necessàries per prestar el servei.",
+    "dataRetained": "Les dades del contracte, bloquejades mentre hi pugui haver responsabilitats derivades del servei.",
+    "sources": [
+      "aigues-bcn-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "aigues-bcn-privacy-policy"
+      ],
+      "detail": "Reconeix el dret de rebre les dades en format electrònic, però per petició.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "aigues-bcn-privacy-policy",
+        "aigues-bcn-area-clients-terms"
+      ],
+      "detail": "Quatre canals gratuïts, la còpia del DNI només en cas de dubte, delegat de protecció de dades (dpo@aiguesdebarcelona.cat) i reclamació davant de l’APDCAT.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "aigues-bcn-privacy-policy"
+      ],
+      "detail": "Les comunicacions promocionals i el perfil de consum depenen del consentiment, que es gestiona des de l’Àrea de Clients i es pot retirar en qualsevol moment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap opció per desactivar els diagnòstics de l’app."
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "aigues-bcn-privacy-policy",
+        "aigues-bcn-app-store"
+      ],
+      "detail": "Des de l’Àrea de Clients es gestionen per separat els avisos (SMS o correu), les comunicacions promocionals, les enquestes i el seguiment del consum; a més, et pots oposar als tractaments basats en l’interès legítim.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi independent de la interfície."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És l’àrea de clients d’un servei de subministrament, sense comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap document oficial sobre el xifratge en trànsit."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Les condicions només diuen que l’empresa ha implantat mesures de seguretat adequades."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació sobre un segon factor per iniciar sessió."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat auditories ni certificacions publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "aiguesdebarcelona.cat no publica cap security.txt."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Aigües de Barcelona és una empresa mixta de majoria privada (Agbar, del grup Veolia, 70 %; AMB, 15 %; Criteria Caixa, 15 %, segons les dades del 2019) que gestiona un servei públic. Per això no hem activat el bloc de servei públic, pensat per a administracions, tot i que la política remet a l’APDCAT i que l’AMB rep dades dels clients com a titular del servei. L’etiqueta de l’App Store no declara bona part de les dades que tracta el servei, com el DNI, el compte bancari i el consum. Els dos expedients sancionadors de l’APDCAT (PS 49/2021 i PS-0071/2025) i un del 2016 amb la LOPD anterior repeteixen el mateix problema: dades bancàries associades a la persona equivocada.",
+    "openQuestions": [
+      "Quins proveïdors de fora de la UE actuen com a subencarregats i amb quina garantia?",
+      "Per què l’etiqueta de l’App Store no declara el DNI, el compte bancari ni el consum?",
+      "Es pot eliminar l’usuari de l’Àrea de Clients sense demanar-ho per escrit?"
+    ]
+  },
+  "appStoreBundleId": "es.synectic.ofex"
+}

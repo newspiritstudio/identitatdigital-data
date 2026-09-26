@@ -1,0 +1,606 @@
+{
+  "slug": "citymapper",
+  "name": "Citymapper",
+  "company": "citymapper",
+  "categories": [
+    "mapes-i-navegacio",
+    "mobilitat-i-transport"
+  ],
+  "tagline": "Planificador de transport públic que guarda l’adreça de casa i la fa servir per personalitzar publicitat",
+  "summary": "Citymapper fa servir la ubicació per planificar trajectes, i l’etiqueta de l’App Store declara que la ubicació precisa, l’adreça postal i l’historial de cerca també s’utilitzen per a la publicitat de tercers i a la «publicitat o màrqueting del desenvolupador». Des del 2023 forma part de Via Transportation, i les dades agregades poden servir per entrenar els seus models d’intel·ligència artificial.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Regne Unit",
+  "links": {
+    "website": "https://citymapper.com/",
+    "privacyPolicy": "https://citymapper.com/privacy-policy",
+    "appStore": "https://apps.apple.com/es/app/id469463298"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "citymapper-privacy-policy"
+    ],
+    "detail": "Es pot consultar el mapa i planificar trajectes sense compte; el registre desa adreces, preferències i subscripcions.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "citymapper-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Les adreces desades de casa i de la feina, els trajectes repetits i la ubicació en temps real permeten deduir on vius, on treballes i a quina hora et mous. L’etiqueta declara que aquesta mateixa informació s’utilitza per a la publicitat de tercers.",
+  "dataCollection": [
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "citymapper-app-store",
+        "citymapper-privacy-policy"
+      ],
+      "note": "L’etiqueta la declara també sota «publicitat o màrqueting del desenvolupador»."
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "citymapper-app-store",
+        "citymapper-privacy-policy"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "citymapper-app-store",
+        "citymapper-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "citymapper-app-store",
+        "citymapper-privacy-policy"
+      ],
+      "note": "Les adreces desades de casa i de la feina. L’etiqueta les declara per a màrqueting, analítica i personalització."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "citymapper-app-store",
+        "citymapper-privacy-policy"
+      ],
+      "note": "GPS i dades de Wi-Fi. L’etiqueta la declara també sota «publicitat o màrqueting del desenvolupador»."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "citymapper-app-store"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "citymapper-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "citymapper-app-store"
+      ],
+      "note": "Origen, destí i trajectes cercats."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "citymapper-app-store"
+      ],
+      "note": "És l’única categoria que Apple declara com a utilitzada per rastrejar entre apps i webs d’altres empreses."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "citymapper-app-store",
+        "citymapper-privacy-policy"
+      ],
+      "note": "Correspon a la categoria «Datos de publicidad» de l’etiqueta, vinculada a la identitat i declarada per a publicitat de tercers."
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "citymapper-privacy-policy"
+      ],
+      "note": "Identificadors de galeta i identificadors mòbils únics."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "citymapper-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "citymapper-app-store",
+        "citymapper-privacy-policy"
+      ],
+      "note": "La política diu que no recull ni desa directament els números complets de targeta; l’etiqueta declara «informació de pagament» vinculada a la identitat."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "citymapper-app-store"
+      ],
+      "note": "Els missatges enviats a l’atenció a l’usuari, declarats com a dada no vinculada."
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "citymapper-privacy-policy"
+      ],
+      "note": "La política diu que comparteix informació del dispositiu i identificadors en línia amb els socis publicitaris."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "citymapper-privacy-policy"
+      ],
+      "note": "La política reconeix que genera inferències i prediccions sobre els interessos i les preferències."
+    },
+    {
+      "type": "xarxa-de-contactes",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "citymapper-privacy-policy"
+      ],
+      "note": "Si s’entra amb un compte de tercers o una xarxa social, Citymapper en rep informació associada."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "citymapper-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "citymapper-app-store"
+      ],
+      "detail": "L’etiqueta declara les dades d’ús com a utilitzades per rastrejar en apps i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "citymapper-privacy-policy",
+        "citymapper-app-store"
+      ],
+      "detail": "La política esmenta identificadors únics en línia i mòbils, i l’etiqueta inclou «dades de publicitat» vinculades a la identitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "citymapper-privacy-policy"
+      ],
+      "detail": "Xarxes publicitàries, xarxes socials i proveïdors de màrqueting, sense anomenar-los un a un.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "citymapper-privacy-policy",
+        "citymapper-app-store"
+      ],
+      "detail": "Comparteix informació del dispositiu i identificadors en línia amb socis publicitaris per col·locar anuncis.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "citymapper-privacy-policy"
+      ],
+      "detail": "Genera inferències i prediccions sobre interessos i preferències a partir de la resta de dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "citymapper-privacy-policy"
+      ],
+      "detail": "Pot agregar, anonimitzar o desidentificar dades personals per desenvolupar i entrenar funcions i models d’intel·ligència artificial.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "citymapper-privacy-policy"
+      ],
+      "detail": "Proveïdors de servei, operadors de transport i reserves, xarxes publicitàries i xarxes socials.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "citymapper-privacy-policy"
+      ],
+      "detail": "Comparteix informació amb Via Transportation, Inc., la matriu, i amb altres societats del grup.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no parla de venda de dades a intermediaris."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "citymapper-privacy-policy"
+      ],
+      "detail": "Decisions d’adequació, clàusules contractuals tipus amb l’addenda britànica i el Data Privacy Framework amb els Estats Units.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "citymapper-privacy-policy"
+      ],
+      "detail": "Només criteris generals: «el temps necessari per complir les finalitats».",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "citymapper-privacy-policy"
+      ],
+      "detail": "Conserva certa informació, com les dades transaccionals, després de tancar el compte.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "citymapper-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "citymapper-privacy-policy"
+      ],
+      "detail": "Les aplicacions incorporen una funció d’eliminació del compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "easy",
+    "requiresSupportContact": false,
+    "steps": [
+      "Obre la configuració del compte dins de l’aplicació.",
+      "Fes servir la funció d’eliminació del compte.",
+      "Si no hi arribes, escriu a support@citymapper.com amb l’assumpte «Data Subject Request»."
+    ],
+    "dataRetained": "Informació transaccional i la que calgui per obligacions legals, fiscals o comptables.",
+    "sources": [
+      "citymapper-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "citymapper-privacy-policy"
+      ],
+      "detail": "Reconeix l’accés i la portabilitat, però cal demanar-los per correu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "citymapper-privacy-policy"
+      ],
+      "detail": "Per correu a l’equip de suport, amb verificació prèvia de la identitat.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:support@citymapper.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "citymapper-privacy-policy"
+      ],
+      "detail": "Hi ha una eina de preferències de galetes i es pot limitar l’identificador publicitari des del sistema operatiu, però la política no descriu un control específic dins de l’app.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap manera de desactivar l’analítica."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "citymapper-privacy-policy"
+      ],
+      "detail": "Permisos del dispositiu, preferències de galetes i baixa de les comunicacions de màrqueting.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És un planificador de trajectes, sense comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política parla de mesures físiques, tècniques i organitzatives, però no esmenta el xifratge."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació d’un segon factor."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El domini citymapper.com no serveix cap fitxer security.txt vàlid."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "moovit",
+      "comparability": "equivalent",
+      "rationale": "Cobreix les mateixes ciutats amb transport públic en temps real.",
+      "tradeOffs": "És d’Intel i també es finança amb la publicitat i de la venda de dades de mobilitat agregades."
+    },
+    {
+      "app": "momego",
+      "comparability": "equivalent",
+      "rationale": "Fa la mateixa feina amb una política molt més minimalista: la ubicació es tracta en memòria i no es vincula a la identitat.",
+      "tradeOffs": "Cobreix menys serveis i no integra pagaments ni bicicletes compartides."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "La política presenta la publicitat com una finalitat secundària, però l’etiqueta de l’App Store declara la ubicació precisa i l’adreça postal sota «publicitat o màrqueting del desenvolupador». No hem pogut fer la cerca d’incidents.",
+    "openQuestions": [
+      "Quins són els socis publicitaris concrets?",
+      "Després de la compra per Via Transportation, quines dades de mobilitat es comparteixen amb els clients públics del grup?"
+    ]
+  },
+  "appStoreBundleId": "azdev.citymapper"
+}

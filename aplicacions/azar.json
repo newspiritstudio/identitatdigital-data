@@ -1,0 +1,612 @@
+{
+  "slug": "azar",
+  "name": "Azar",
+  "company": "mtch-technology-services",
+  "categories": [
+    "xarxes-socials",
+    "cites"
+  ],
+  "tagline": "Videoxat amb desconeguts dins de Match Group, amb terminis de conservació molt detallats",
+  "summary": "Azar posa en contacte gent d’arreu del món en un videoxat aleatori. El va crear la coreana Hyperconnect, que Match Group va comprar el 2021, i per això a l’Espai Econòmic Europeu el responsable del tractament és la mateixa societat irlandesa que hi ha darrere de Tinder. Per això comparteix dades amb la resta del grup per a seguretat, recomanacions i publicitat. La política dona terminis de conservació molt concrets i la geometria facial dels efectes es processa només al dispositiu.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Irlanda (Unió Europea) per a l’EEE; Corea del Sud per a la resta",
+  "links": {
+    "website": "https://azarlive.com/",
+    "privacyPolicy": "https://azarlive.com/policy",
+    "appStore": "https://apps.apple.com/es/app/id972558973"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "azar-privacy-policy"
+    ],
+    "detail": "Cal compte i tenir divuit anys o més.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "azar-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Cara, veu i conversa amb desconeguts, més la ubicació i les inferències que el servei en treu. Tot es tracta en una infraestructura compartida amb la resta d’aplicacions de Match Group.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "azar-app-store",
+        "azar-privacy-policy"
+      ],
+      "note": "Àlies, gènere i data de naixement al crear el compte."
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "azar-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "azar-app-store",
+        "azar-privacy-policy"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "azar-privacy-policy"
+      ]
+    },
+    {
+      "type": "orientacio-sexual",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "azar-privacy-policy"
+      ],
+      "note": "La política avisa que part de les dades del perfil poden ser sensibles en alguns països, com l’orientació sexual, i que es tracten amb consentiment."
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "azar-app-store",
+        "azar-privacy-policy"
+      ]
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "azar-app-store",
+        "azar-privacy-policy"
+      ],
+      "note": "Fotos, vídeos i emissions en directe."
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "azar-privacy-policy",
+        "azar-face-geometry"
+      ],
+      "note": "La geometria facial dels efectes es processa al dispositiu i es descarta en deixar de fer-los servir."
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "compliment-legal"
+      ],
+      "sources": [
+        "azar-privacy-policy"
+      ]
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "azar-app-store",
+        "azar-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "azar-app-store",
+        "azar-privacy-policy"
+      ],
+      "note": "Latitud i longitud, amb permís del dispositiu."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "azar-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "azar-app-store",
+        "azar-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "azar-app-store"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "azar-app-store",
+        "azar-privacy-policy"
+      ],
+      "note": "Els socis publicitaris converteixen el correu, el telèfon o l’identificador publicitari en un identificador propi."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "recomanacions-algoritmiques",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "azar-privacy-policy"
+      ],
+      "note": "La política parla d’«insights and inferences» sobre preferències, característiques i actituds."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "azar-app-store",
+        "azar-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "azar-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "azar-app-store"
+      ],
+      "detail": "L’etiqueta declara identificadors i dades d’ús com a dades utilitzades per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "azar-privacy-policy"
+      ],
+      "detail": "Identificadors publicitaris i identificadors associats a galetes o tecnologies similars.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "azar-privacy-policy"
+      ],
+      "detail": "Socis publicitaris que recullen dades amb galetes i SDK dins del servei.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "azar-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "azar-privacy-policy"
+      ],
+      "detail": "Inferències sobre preferències i comportament, també per als sistemes de recomanació compartits de Match Group.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "azar-privacy-policy"
+      ],
+      "detail": "Desenvolupa i millora eines amb aprenentatge automàtic per a la seguretat i el producte, i pot conservar dades anonimitzades per fer-ho.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "azar-privacy-policy"
+      ],
+      "detail": "Proveïdors, socis de seguretat, socis publicitaris i autoritats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "azar-privacy-policy"
+      ],
+      "detail": "Amb la resta de Match Group per detectar males conductes, per als sistemes de recomanació, per a publicitat segmentada i per a funcions entre plataformes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Per a l’EEE la política no parla de venda; la secció de «sale or sharing» és només per als Estats Units."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "azar-privacy-policy"
+      ],
+      "detail": "Decisions d’adequació i clàusules contractuals tipus de la Comissió Europea.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "azar-privacy-policy"
+      ],
+      "detail": "Finestra de seguretat de tres mesos, transaccions deu anys, registres de trànsit un any, consentiments cinc anys.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "azar-privacy-policy",
+        "azar-delete-account"
+      ],
+      "detail": "El compte es pot restaurar durant noranta dies; després queden les dades amb termini legal i les de seguretat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "identificador-de-compte",
+        "period": "3 mesos de finestra de seguretat després de tancar el compte",
+        "sources": [
+          "azar-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "historial-de-compres",
+        "period": "10 anys per obligacions fiscals i comptables",
+        "sources": [
+          "azar-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "metadades-de-comunicacio",
+        "period": "Registres de trànsit, 1 any",
+        "sources": [
+          "azar-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "azar-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "azar-delete-account"
+      ],
+      "detail": "Des de l’aplicació i des del web.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://help.azarlive.com/hc/en-us/articles/226899747-How-to-delete-my-account",
+    "difficulty": "medium",
+    "waitingPeriodDays": 90,
+    "requiresSupportContact": false,
+    "steps": [
+      "Demana abans la còpia de les dades si la vols: un cop esborrat el compte ja no es pot descarregar.",
+      "Cancel·la la subscripció activa: la baixa del compte no la cancel·la.",
+      "Al perfil, obre la icona de configuració i tria «Manage Account».",
+      "Toca «Delete Account» i confirma-ho a la finestra emergent.",
+      "No tornis a entrar durant noranta dies: si ho fas, el compte es restaura."
+    ],
+    "obstacles": "Desinstal·lar l’aplicació no dona de baixa el compte, i durant els noranta dies de gràcia les dades encara hi són.",
+    "dataRetained": "Tres mesos de finestra de seguretat, dades de transaccions deu anys, registres de trànsit un any i dades per impedir que torni a obrir compte qui ha estat expulsat.",
+    "sources": [
+      "azar-delete-account",
+      "azar-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "azar-data-request"
+      ],
+      "detail": "Des de Configuració > Ajustos del compte > «Request My Azar Data»; arriba per correu en un zip protegit amb contrasenya.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "azar-privacy-policy"
+      ],
+      "detail": "Formulari en línia i delegat de protecció de dades a MTCH Technology Services Limited, Dublín.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "azar-privacy-policy"
+      ],
+      "detail": "Hi ha controls a la configuració per oposar-se a certs tractaments, però l’opció explícita de no compartir per a publicitat es descriu per als Estats Units.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "azar-privacy-policy"
+      ],
+      "detail": "El consentiment per a dades sensibles i els permisos del dispositiu es poden retirar; la compartició dins de Match Group no té interruptor.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu si les trucades de vídeo van xifrades d’extrem a extrem, i la moderació de continguts fa pensar que no."
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "azar-vulnerability-report"
+      ],
+      "detail": "La pàgina de comunicació de vulnerabilitats no ofereix cap recompensa econòmica.",
+      "verifiedAt": "2026-09-22"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "azar-vulnerability-report"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://help.azarlive.com/hc/en-us/articles/4407585822233-Reporting-Security-Vulnerabilities"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "La versió de la política vigent el dia de la revisió és la del 8 de novembre del 2025; n’hi ha una de posterior amb data del 29 de setembre del 2026 que encara no havia entrat en vigor.",
+    "openQuestions": [
+      "Com es modera exactament el videoxat en directe i quant de temps es conserven els fragments revisats?",
+      "Hi ha sancions o expedients d’autoritats de protecció de dades contra Hyperconnect per l’ús de les imatges de les persones usuàries?"
+    ]
+  },
+  "appStoreBundleId": "com.hpcnt.azar"
+}

@@ -1,0 +1,552 @@
+{
+  "slug": "shazam",
+  "name": "Shazam",
+  "company": "apple",
+  "categories": [
+    "musica-i-audio",
+    "descobriment-visual"
+  ],
+  "tagline": "Es pot fer servir sense compte, i llavors les identificacions queden lligades a un Shazam ID que Apple descriu com a no identificatiu",
+  "summary": "Shazam identifica la cançó que sona al voltant o dins d’una altra aplicació. És d’Apple des del 2018 i manté una política de privadesa pròpia: si es fa servir sense compte, les identificacions queden lligades a un «Shazam ID» que la companyia descriu com a no identificatiu; amb compte, queden lligades al correu o al compte d’Apple. L’etiqueta de l’App Store no declara cap dada per rastrejar, però sí historial de compres, ubicació aproximada, identificadors i ús vinculats a la identitat per a analítica i personalització. El portal de dades permet descarregar o eliminar el compte en trenta dies, i Apple publica informe de transparència, security.txt i programa de recompenses.",
+  "platforms": [
+    "ios",
+    "android",
+    "web",
+    "macos"
+  ],
+  "jurisdiction": "Irlanda (UE) per a l’Espai Econòmic Europeu; grup amb seu als Estats Units",
+  "userBase": "Més de 300 milions de persones usuàries mensuals, segons la descripció oficial de l’aplicació.",
+  "links": {
+    "website": "https://www.shazam.com/",
+    "privacyPolicy": "https://www.apple.com/es/legal/privacy/es/",
+    "privacyCenter": "https://www.shazam.com/privacy",
+    "appStore": "https://apps.apple.com/es/app/id284993459"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "shazam-privacy"
+    ],
+    "detail": "Shazam funciona sense compte: llavors les dades només queden associades a un Shazam ID que la companyia qualifica de no identificatiu personalment.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "shazam-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "L’historial de cançons identificades registra què has escoltat, quan i on: música, però també vídeos de xarxes socials, anuncis i programes de televisió. Shazam el fa servir per recomanar i, agregat i desidentificat amb la ciutat i el país, el comparteix amb socis del sector musical.",
+  "dataCollection": [
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "shazam-privacy"
+      ],
+      "note": "Només si es crea un compte; també es pot entrar amb el compte d’Apple o amb un servei de tercers."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "shazam-app-store",
+        "shazam-privacy"
+      ],
+      "note": "Sense compte, el Shazam ID; amb compte, les credencials o el compte d’Apple."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "shazam-app-store"
+      ],
+      "note": "L’etiqueta el declara vinculat a la identitat per a la personalització del producte."
+    },
+    {
+      "type": "historial-de-visualitzacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "shazam-privacy"
+      ],
+      "note": "L’historial de cançons identificades, que serveix per mostrar les descobertes i per recomanar música."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "shazam-app-store"
+      ],
+      "note": "L’etiqueta el declara sense vincular a la identitat."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "shazam-app-store",
+        "shazam-privacy"
+      ],
+      "note": "Shazam diu que pot aproximar la ubicació per oferir les llistes de tendències, i que comparteix amb socis la ciutat i el país de cada identificació de manera agregada."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "shazam-app-store",
+        "shazam-privacy"
+      ],
+      "note": "Només amb permís: serveix per mostrar on vas descobrir cada cançó. L’etiqueta la declara sense vincular a la identitat."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "shazam-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "shazam-app-store",
+        "shazam-privacy"
+      ],
+      "note": "Pàgines vistes, botons premuts, model del dispositiu, versió del sistema i adreça IP, també per detectar fraus o usos indeguts."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "shazam-privacy"
+      ]
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "shazam-privacy"
+      ],
+      "note": "Marca, model i versió del sistema operatiu."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "shazam-app-store"
+      ],
+      "note": "L’etiqueta declara dades de rendiment i altres dades de diagnòstic, una part vinculades a la identitat."
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "editorial",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "shazam-privacy"
+      ],
+      "note": "El micròfon és imprescindible per identificar la cançó, però ni l’etiqueta ni la pàgina de privadesa declaren que es desin dades d’àudio: la tecnologia funciona amb una empremta digital del so."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "shazam-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada usada per rastrejar-te.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "shazam-app-store",
+        "apple-privacy-policy"
+      ],
+      "detail": "L’etiqueta no declara cap identificador publicitari, i la política d’Apple diu que la seva plataforma publicitària no rastreja ni enllaça dades recollides per tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "shazam-privacy"
+      ],
+      "detail": "Shazam esmenta proveïdors de serveis que actuen en nom seu, però no identifica cap SDK d’analítica de tercers dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "apple-privacy-policy",
+        "shazam-app-store"
+      ],
+      "detail": "L’etiqueta declara dades d’interacció sense vincular per a «publicitat o màrqueting del desenvolupador»; la plataforma publicitària d’Apple personalitza anuncis a l’App Store, Apple News i Borsa, i es pot desactivar des dels ajustos.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "shazam-privacy"
+      ],
+      "detail": "Les recomanacions de cançons i de llistes es fan a partir de l’historial d’identificacions, i les notificacions es personalitzen segons l’activitat a Shazam.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Ni la pàgina de Shazam ni la política d’Apple diuen si les dades serveixen per entrenar models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "shazam-privacy"
+      ],
+      "detail": "Comparteix informació agregada i desidentificada amb socis, incloses les cançons identificades i la ciutat i el país de cada identificació, a més de proveïdors de serveis i de peticions legals vàlides.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "apple-privacy-policy"
+      ],
+      "detail": "Les dades de les persones de l’Espai Econòmic Europeu les controla Apple Distribution International Limited, a Irlanda, i les poden tractar Apple Inc. i altres filials en nom seu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "apple-privacy-policy"
+      ],
+      "detail": "La política d’Apple afirma que no ven dades personals (inclosa la definició de venda de Califòrnia i Nevada) ni les «comparteix» en el sentit de la llei californiana.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "apple-privacy-policy"
+      ],
+      "detail": "Les dades recollides a l’Espai Econòmic Europeu es poden transferir a Apple Inc. als Estats Units, segons la política, que remet a les clàusules contractuals tipus d’Apple.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "apple-transparency-report"
+      ],
+      "detail": "Apple publica informes semestrals de peticions de dades de governs i autoritats, desglossats per país i per tipus de petició.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "shazam-privacy"
+      ],
+      "detail": "L’únic termini concret és el de la baixa: l’esborrat del compte es completa en trenta dies. No hi ha terminis per a l’historial d’identificacions ni per a les dades d’ús.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "shazam-privacy"
+      ],
+      "detail": "Shazam avisa que pot conservar dades que s’hagin desidentificat i que ja no estiguin associades a la persona.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "identificador-de-compte",
+        "period": "Esborrat complet en un màxim de trenta dies des de la sol·licitud",
+        "sources": [
+          "shazam-privacy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "shazam-privacy"
+      ],
+      "detail": "Hi ha un portal específic per demanar l’eliminació del compte i de les dades associades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "shazam-privacy"
+      ],
+      "detail": "Es fa des del portal de gestió de dades de Shazam, autenticant-se amb les credencials del compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://www.shazam.com/privacy",
+    "difficulty": "easy",
+    "waitingPeriodDays": 30,
+    "steps": [
+      "Si vols conservar les teves descobertes, demana abans la descàrrega de les dades des del mateix portal: arriben per correu en un màxim de trenta dies.",
+      "Tanca la sessió a tots els dispositius o, en dispositius d’Apple, desactiva la sincronització amb iCloud.",
+      "Entra al portal de gestió de dades de Shazam i tria l’opció d’eliminar el compte, autenticant-te amb les teves credencials.",
+      "L’esborrat es completa en un màxim de trenta dies. Si fas servir Shazam amb iCloud, s’esborraran les cançons d’iCloud, però no el compte d’Apple."
+    ],
+    "dataRetained": "Dades desidentificades que ja no estiguin associades a la persona.",
+    "sources": [
+      "shazam-privacy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "shazam-privacy"
+      ],
+      "detail": "Hi ha un portal per demanar la descàrrega de les dades de Shazam, que arriben per correu en un màxim de trenta dies.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "shazam-privacy",
+        "apple-privacy-policy"
+      ],
+      "detail": "Des del portal de gestió de dades de Shazam i, per a la resta de dades del compte d’Apple, des del portal de dades i privadesa d’Apple.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://privacy.apple.com/"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "apple-privacy-policy"
+      ],
+      "detail": "Els anuncis personalitzats de la plataforma d’Apple es poden desactivar a Ajustos > Privadesa i seguretat > Publicitat d’Apple, i el permís de rastreig d’apps de tercers també es pot denegar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Ni la pàgina de Shazam ni la política d’Apple expliquen si es pot desactivar l’enviament de dades d’ús de l’aplicació."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "shazam-privacy"
+      ],
+      "detail": "Es pot fer servir Shazam sense compte, i el permís d’ubicació és opcional; la resta de la recollida no es pot ajustar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem revisat les pantalles de l’aplicació, i la pàgina de privadesa no descriu cap flux de consentiment."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Shazam no transporta comunicacions entre persones usuàries que puguin anar xifrades d’extrem a extrem.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Ni la pàgina de Shazam ni la política d’Apple concreten el xifratge del trànsit de l’aplicació."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap document que concreti el xifratge en repòs de les dades de Shazam."
+    },
+    "mfa": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "shazam-privacy"
+      ],
+      "detail": "Shazam no descriu cap segon factor propi, però es pot entrar amb el compte d’Apple o amb un altre servei de tercers, que sí que en tenen.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap auditoria pública específica de Shazam."
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "apple-security-txt"
+      ],
+      "detail": "El security.txt d’Apple enllaça les directrius del programa de recompenses Apple Security Bounty.",
+      "verifiedAt": "2026-09-22"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "apple-security-txt"
+      ],
+      "detail": "Apple publica un fitxer security.txt amb el contacte security.apple.com i els agraïments de seguretat.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "youtube-music",
+      "comparability": "partial",
+      "rationale": "També identifica cançons tararejant-les o cantant-les des del cercador de Google, sense obrir una aplicació específica.",
+      "tradeOffs": "El resultat queda associat al compte de Google, que en fa un ús molt més ampli."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "Shazam té una pàgina de privadesa pròpia, curta i clara, però el document jurídic aplicable és la política general d’Apple, que hi remet expressament. Bona part del detall (terminis, bases jurídiques, encarregats) no consta en cap dels dos llocs. Hem marcat les dades d’àudio com a editorials: el micròfon és imprescindible, però cap font declara que es desin gravacions. El buscador de resolucions de l’AEPD no ens ha respost i no hem pogut completar la cerca d’incidents.",
+    "openQuestions": [
+      "Quant de temps conserva Shazam l’historial d’identificacions de qui el fa servir sense compte?",
+      "Què inclou exactament la informació agregada que es comparteix amb els socis del sector musical?",
+      "Es pot desactivar l’enviament de dades d’ús des de l’aplicació?"
+    ]
+  },
+  "appStoreBundleId": "com.shazam.Shazam"
+}

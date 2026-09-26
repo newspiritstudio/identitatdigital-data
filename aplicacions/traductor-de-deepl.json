@@ -1,0 +1,472 @@
+{
+  "slug": "traductor-de-deepl",
+  "name": "Traductor de DeepL",
+  "company": "deepl",
+  "categories": [
+    "traduccio-i-referencia"
+  ],
+  "tagline": "A la versió gratuïta, el que tradueixes entrena el traductor; a la de pagament, no",
+  "summary": "DeepL és una de les poques aplicacions d’aquest directori que no declara cap dada de rastreig ni cap dada vinculada amb la persona a l’etiqueta de l’App Store. Segons la política, als serveis gratuïts els textos que hi enganxes es tracten temporalment per entrenar les xarxes neuronals, i la companyia demana explícitament que no hi tradueixis dades personals. Amb DeepL Pro, els textos no es guarden ni s’usen per millorar els models, i ho ha verificat una auditoria SOC 2 Type II. És una empresa alemanya sota el RGPD i la llei federal alemanya, amb servidors a la UE.",
+  "platforms": [
+    "ios",
+    "android",
+    "web",
+    "windows",
+    "macos"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Alemanya",
+  "links": {
+    "website": "https://www.deepl.com/",
+    "privacyPolicy": "https://www.deepl.com/en/privacy",
+    "appStore": "https://apps.apple.com/es/app/id1552407475"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "deepl-privacy-policy"
+    ],
+    "detail": "Es pot traduir sense compte; el compte cal per a l’historial, els glossaris i les subscripcions Pro.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "deepl-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Els textos que es tradueixen poden ser contractes, correus o informes mèdics. DeepL no declara cap perfil publicitari; el que compta és si el text s’envia al servidor i s’hi conserva. Amb el pla gratuït s’hi conserva durant un temps limitat per entrenar els models.",
+  "dataCollection": [
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "deepl-app-store",
+        "deepl-privacy-policy"
+      ],
+      "note": "L’etiqueta la declara com a dada no vinculada amb la persona, cosa poc habitual en un servei amb compte."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "entrenament-de-models-dia"
+      ],
+      "sources": [
+        "deepl-privacy-policy"
+      ],
+      "note": "Els textos i documents del servei gratuït es tracten durant un període limitat per entrenar i millorar les xarxes neuronals. A DeepL Pro no es guarden ni s’usen per millorar els models."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "deepl-privacy-policy"
+      ],
+      "note": "Al servei gratuït es conserva un màxim de catorze dies."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "deepl-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "deepl-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "deepl-privacy-policy"
+      ],
+      "note": "Els pagaments de DeepL Pro els tramita Stripe, amb prevenció del frau a càrrec de Riskified."
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "deepl-privacy-policy"
+      ],
+      "note": "Per a la facturació i l’atenció al client, gestionada amb Zendesk i Salesforce."
+    },
+    {
+      "type": "llengua",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "deepl-privacy-policy"
+      ],
+      "note": "Els parells d’idiomes escollits són inherents al servei."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "deepl-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada utilitzada per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "deepl-app-store"
+      ],
+      "detail": "No hi ha cap categoria publicitària a l’etiqueta.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "deepl-privacy-policy"
+      ],
+      "detail": "Al web hi ha HubSpot per a màrqueting i eines d’enquesta com Qualtrics i UserTesting; l’etiqueta de l’app no declara res equivalent.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "deepl-app-store",
+        "deepl-privacy-policy"
+      ],
+      "detail": "Ni l’etiqueta ni la política descriuen publicitat segmentada dins del producte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "deepl-privacy-policy"
+      ],
+      "detail": "La política no descriu elaboració de perfils de les persones usuàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "deepl-privacy-policy"
+      ],
+      "detail": "Als serveis gratuïts, el contingut que s’hi puja i les traduccions es tracten durant un període limitat per entrenar i millorar les xarxes neuronals. A DeepL Pro, no.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "deepl-privacy-policy"
+      ],
+      "detail": "Només encarregats del tractament amb contracte: Stripe, Riskified, Zendesk, Salesforce i HubSpot.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "deepl-privacy-policy"
+      ],
+      "detail": "DeepL SE i DeepL AI GmbH actuen com a corresponsables.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "deepl-privacy-policy"
+      ],
+      "detail": "La política no preveu cap cessió comercial de dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "deepl-privacy-policy"
+      ],
+      "detail": "El nucli del servei és a la UE; algunes eines de màrqueting, pagament i enquestes impliquen transferències als Estats Units amb decisió d’adequació o clàusules contractuals tipus.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "deepl-privacy-policy"
+      ],
+      "detail": "La política dona terminis concrets: catorze dies per a les IP del servei gratuït, dos anys per als tiquets de suport i fins a cinc anys per a les enquestes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "deepl-privacy-policy"
+      ],
+      "detail": "Les dades del compte es conserven mentre duri el contracte més els terminis legals de conservació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "adreca-ip",
+        "period": "14 dies al servei gratuït",
+        "sources": [
+          "deepl-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "contingut-de-missatges",
+        "period": "esborrat immediat un cop feta la traducció a DeepL Pro",
+        "sources": [
+          "deepl-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "deepl-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "deepl-privacy-policy"
+      ],
+      "detail": "Es pot esborrar el compte des de la configuració, sense passar per atenció al client.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "easy",
+    "requiresSupportContact": false,
+    "steps": [
+      "Si tens DeepL Pro, cancel·la primer la subscripció des de la configuració del compte.",
+      "Entra a la configuració del compte i tria l’opció d’esborrar-lo.",
+      "Si prefereixes la via escrita, envia la petició a support@deepl.com."
+    ],
+    "dataRetained": "Les dades que calgui conservar pels terminis legals alemanys de comptabilitat i facturació.",
+    "sources": [
+      "deepl-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "deepl-privacy-policy"
+      ],
+      "detail": "La política reconeix la portabilitat, però no descriu cap eina automàtica d’exportació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "deepl-privacy-policy"
+      ],
+      "detail": "Contacte de privadesa i delegat de protecció de dades extern (dhpg IT-Services).",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacy@deepl.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El producte no mostra publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat un interruptor d’analítica dins de l’aplicació."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "deepl-privacy-policy"
+      ],
+      "detail": "El control principal és triar entre el pla gratuït i DeepL Pro: només el de pagament garanteix que els textos no s’usin per entrenar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem documentat patrons enganyosos."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El traductor ha de processar el text en clar al servidor per poder traduir-lo.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "deepl-infrastructure"
+      ],
+      "detail": "Xifratge en trànsit documentat a la pàgina d’infraestructura.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "deepl-infrastructure"
+      ],
+      "detail": "Xifratge en repòs amb claus gestionades per DeepL, no pel proveïdor de núvol.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "deepl-trust-center"
+      ],
+      "detail": "La plataforma ofereix autenticació multifactor als plans empresarials.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "deepl-trust-center",
+        "deepl-infrastructure"
+      ],
+      "detail": "ISO 27001 i SOC 2 Type II; l’informe SOC 2 va verificar que DeepL no emmagatzema les traduccions de Pro.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política de divulgació no diu si hi ha recompensa econòmica."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "deepl-security-txt"
+      ],
+      "detail": "security.txt signat amb PGP, amb adreça de contacte i política de divulgació.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.deepl.com/.well-known/security.txt"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "google-translate",
+      "comparability": "equivalent",
+      "rationale": "Cobreix més idiomes i té traducció per càmera i conversa.",
+      "tradeOffs": "Forma part de l’ecosistema publicitari de Google, amb un perfil de compte molt més ampli."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "No hem trobat cap sanció del RGPD ni cap filtració documentada contra DeepL. La mateixa política demana explícitament no traduir dades personals amb la versió gratuïta.",
+    "openQuestions": [
+      "Quant temps exactament es conserven els textos del servei gratuït abans d’esborrar-los?",
+      "Hi ha recompensa econòmica al programa de divulgació de vulnerabilitats?"
+    ]
+  },
+  "appStoreBundleId": "com.linguee.DeepLMobileTranslator"
+}

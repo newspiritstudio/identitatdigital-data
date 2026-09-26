@@ -1,0 +1,556 @@
+{
+  "slug": "holafly",
+  "name": "Holafly",
+  "company": "holafly-limited",
+  "categories": [
+    "telecomunicacions",
+    "viatges-i-allotjament"
+  ],
+  "tagline": "Un operador de dades mòbils amb seu irlandesa, perfils de màrqueting i cap informe de transparència",
+  "summary": "Holafly ven targetes eSIM per a viatges i, per fer-ho, tracta identificadors de xarxa mòbil com l’IMSI, el MSISDN i l’adreça IP, que comparteix amb els operadors com a responsables independents. La política és recent i detallada i reconeix l’elaboració de perfils de màrqueting i la publicitat programàtica. Malgrat tractar dades de connectivitat, no publica cap informe de transparència ni cap canal de seguretat.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Irlanda",
+  "userBase": "Botiga d’eSIM amb cobertura a més de cent destinacions",
+  "links": {
+    "website": "https://esim.holafly.com/",
+    "privacyPolicy": "https://esim.holafly.com/es/politica-de-privacidad/",
+    "terms": "https://esim.holafly.com/es/terminos-y-condiciones/",
+    "appStore": "https://apps.apple.com/es/app/id1629600786"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "holafly-privacy-policy"
+    ],
+    "detail": "Cal un compte amb dades d’identificació i de contacte per comprar i activar una eSIM.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "editorial",
+    "sources": [],
+    "detail": "Aplicació privativa: no consta cap publicació del codi font.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Una eSIM lliga la identitat de la persona als identificadors de la targeta i de la línia. Sumat al país de destinació, al pla de dades i a l’historial de connexions, el servei sap on ets i quan, encara que no vegi el contingut del que hi fas.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "holafly-privacy-policy",
+        "holafly-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "holafly-privacy-policy",
+        "holafly-app-store"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "holafly-privacy-policy",
+        "holafly-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "holafly-privacy-policy"
+      ],
+      "note": "La política declara que les dades sensibles de la targeta les tracta la passarel·la i que Holafly no les emmagatzema."
+    },
+    {
+      "type": "xarxa-i-connectivitat",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "holafly-privacy-policy"
+      ],
+      "note": "Els operadors de telecomunicacions tracten l’IMSI, el MSISDN i l’adreça IP com a responsables independents."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "holafly-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "holafly-app-store"
+      ],
+      "note": "Declarada com a dada no vinculada amb la identitat."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "brokers",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "holafly-privacy-policy"
+      ],
+      "note": "La política parla d’identificadors publicitaris, mapes de calor i cessió a proveïdors de publicitat programàtica."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "holafly-privacy-policy",
+        "holafly-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "holafly-app-store"
+      ],
+      "note": "És l’única categoria declarada sota «Datos usados para rastrearte»."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "brokers",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "holafly-privacy-policy"
+      ],
+      "note": "La política reconeix que es fan «perfiles de marketing» per oferir ofertes i anuncis segmentats."
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "holafly-privacy-policy"
+      ],
+      "note": "La gravació de trucades d’atenció al client es basa en l’interès legítim."
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "holafly-privacy-policy"
+      ],
+      "note": "S’analitzen les ressenyes publicades a Trustpilot i a les botigues d’aplicacions."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "holafly-app-store"
+      ]
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "holafly-privacy-policy"
+      ],
+      "note": "La política no descriu cap accés al contingut del trànsit de dades de l’eSIM."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "holafly-app-store"
+      ],
+      "detail": "L’etiqueta declara les dades d’ús sota «Datos usados para rastrearte».",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "holafly-privacy-policy"
+      ],
+      "detail": "La política enumera els identificadors publicitaris entre les dades d’activitat recollides.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "holafly-privacy-policy"
+      ],
+      "detail": "Cessió a proveïdors tercers de publicitat programàtica a través del banner de galetes i de les cadenes del marc de transparència i consentiment.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "holafly-privacy-policy"
+      ],
+      "detail": "Anuncis segmentats i ofertes d’eSIM adaptades a partir dels perfils de màrqueting.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "holafly-privacy-policy"
+      ],
+      "detail": "La política diu literalment que es fan perfils de màrqueting a partir de les dades d’interessos en productes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta l’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "holafly-privacy-policy"
+      ],
+      "detail": "Operadors de telecomunicacions com a responsables independents, passarel·les de pagament, encarregats tecnològics, publicitat programàtica, assessors i clients corporatius.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "holafly-privacy-policy"
+      ],
+      "detail": "Compartició amb empreses del grup Holafly per a serveis intragrup.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "holafly-privacy-policy"
+      ],
+      "detail": "No es declara cap venda, però la cessió a publicitat programàtica fa arribar dades a una cadena d’intermediaris publicitaris.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "holafly-privacy-policy"
+      ],
+      "detail": "Es reconeixen destinataris fora de l’Espai Econòmic Europeu sense decisió d’adequació, amb clàusules contractuals tipus i ús excepcional de les excepcions de l’article 49.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència, tot i que el servei tracta identificadors de xarxa mòbil."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "holafly-privacy-policy"
+      ],
+      "detail": "Hi ha un termini clar per a les dades econòmiques i fiscals; la resta es lliga a la petició de supressió i al bloqueig per litigi.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "holafly-privacy-policy"
+      ],
+      "detail": "Després de l’eliminació es conserven les dades econòmiques i fiscals, els registres d’activitat i els esdeveniments de seguretat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "period": "7 anys per a les dades econòmiques i fiscals.",
+        "sources": [
+          "holafly-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "holafly-privacy-policy"
+      ],
+      "detail": "La política reconeix el dret a demanar l’eliminació del compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "holafly-privacy-policy"
+      ],
+      "detail": "El camí documentat és el formulari d’exercici de drets del peu de la política o el suport per correu i per missatgeria; no consta cap botó dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "requiresSupportContact": true,
+    "steps": [
+      "Obre el formulari d’exercici de drets enllaçat al peu de la política de privadesa.",
+      "Demana la supressió del compte i de les dades.",
+      "Com a alternativa, escriu a dpo@holafly.com o a help@holafly.com."
+    ],
+    "obstacles": "La política preveu ampliar dos mesos el termini de resposta quan la sol·licitud comporta costos logístics o operatius desproporcionats.",
+    "dataRetained": "Dades econòmiques i fiscals durant set anys, registres d’activitat i esdeveniments de seguretat.",
+    "sources": [
+      "holafly-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "holafly-privacy-policy"
+      ],
+      "detail": "La portabilitat es reconeix quan la base és el contracte o el consentiment, però només s’exerceix per formulari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "holafly-privacy-policy"
+      ],
+      "detail": "Delegat de protecció de dades amb adreça pròpia i formulari de drets.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dpo@holafly.com",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "holafly-privacy-policy"
+      ],
+      "detail": "El consentiment publicitari es revoca des del banner de galetes; no hi ha cap control equivalent dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap control per desactivar l’analítica de l’aplicació."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "holafly-privacy-policy"
+      ],
+      "detail": "La configuració del compte permet actualitzar dades i gestionar les comunicacions, però no hi ha un panell per finalitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [
+        "holafly-app-store"
+      ],
+      "detail": "L’enllaç a la política de privadesa que publica la fitxa de l’App Store porta a una adreça que retorna un error, de manera que la informació obligatòria no és accessible des de la fitxa.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei ven connectivitat; no transporta comunicacions pròpies entre persones usuàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "holafly-privacy-policy"
+      ],
+      "detail": "La política declara canals xifrats amb els operadors de xarxa mitjançant HTTPS, SFTP i SSH.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública sobre el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació sobre la verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Hi ha un centre de confiança allotjat a Vanta, però el contingut no es pot llegir sense executar JavaScript i no hem pogut verificar cap certificació."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "holafly-privacy-policy"
+      ],
+      "detail": "El domini del servei no publica cap fitxer security.txt i la política no dona cap canal per comunicar vulnerabilitats.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Tot i que la marca és d’origen espanyol, el responsable del tractament és Holafly Limited, amb domicili a Dublín i número d’empresa 745325, i l’autoritat de referència és la irlandesa i no l’Agència Espanyola de Protecció de Dades. Tampoc hem localitzat cap avís legal, que la normativa espanyola de comerç electrònic exigeix.",
+    "openQuestions": [
+      "Quines certificacions acredita el centre de confiança allotjat a Vanta?",
+      "Per què l’enllaç a la política de privadesa que publica la fitxa de l’App Store retorna un error?"
+    ]
+  },
+  "appStoreBundleId": "com.holafly.Customers"
+}

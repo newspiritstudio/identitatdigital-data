@@ -1,0 +1,427 @@
+{
+  "slug": "aemet",
+  "name": "Aemet: tiempo y radar España",
+  "company": "aemet",
+  "categories": [
+    "meteorologia",
+    "administracio-publica"
+  ],
+  "tagline": "Declara que no recull cap dada, amb una política de quatre paràgrafs que no diu com exercir els drets",
+  "summary": "L’aplicació oficial de l’agència meteorològica estatal declara a l’App Store que no recull cap dada, i la política diu que la ubicació es gestiona dins del dispositiu i no s’envia a l’AEMET. La documentació, en canvi, és mínima: la política té quatre paràgrafs, no identifica el responsable ni el delegat de protecció de dades, no diu com s’exerceixen els drets i no concreta quant de temps es conserven els registres d’accés, que sí que inclouen l’adreça IP.",
+  "platforms": [
+    "ios",
+    "android",
+    "web",
+    "macos"
+  ],
+  "businessModel": "public-service",
+  "jurisdiction": "Espanya; agència estatal adscrita al Ministeri per a la Transició Ecològica i el Repte Demogràfic",
+  "links": {
+    "website": "https://www.aemet.es/es/app/eltiempodeAEMET",
+    "privacyPolicy": "https://www.aemet.es/es/app/eltiempodeAEMET/politica_privacidad_app",
+    "terms": "https://www.aemet.es/es/nota_legal",
+    "appStore": "https://apps.apple.com/es/app/id784646178"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "aemet-app-store",
+      "aemet-privacy-app"
+    ],
+    "detail": "Ni la fitxa de l’App Store ni la política descriuen cap registre ni cap compte.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": [],
+    "detail": "No hem trobat publicat el codi de l’aplicació. Les dades meteorològiques sí que es publiquen com a dades obertes reutilitzables."
+  },
+  "publicService": {
+    "isPublicService": true,
+    "administrationLevel": "state",
+    "legalBasis": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "aemet-privacy-app"
+      ],
+      "detail": "La política es limita a invocar un «compromiso de cumplimiento» del RGPD i de la Llei orgànica 3/2018, sense concretar cap base jurídica ni cap article. Diu que les dades «quedarán incorporados a la correspondiente actividad de tratamiento», però no diu quina.",
+      "verifiedAt": "2026-09-22",
+      "norm": "Reglament (UE) 2016/679 i Llei orgànica 3/2018, citats sense article ni base jurídica concreta"
+    },
+    "processingRegistry": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política al·ludeix a «la correspondiente actividad de tratamiento» però no enllaça cap registre. No hem pogut localitzar el registre d’activitats de tractament de l’AEMET: el dia de la verificació tot el domini aemet.es responia amb un error 502 i la seu electrònica no en publica cap."
+    },
+    "dpia": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat publicada cap avaluació d’impacte relativa a la protecció de dades d’aquest servei."
+    },
+    "ensConformity": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap declaració de conformitat amb l’Esquema Nacional de Seguretat (Reial decret 311/2022) ni al web de l’agència (inaccessible el dia de la verificació) ni a la seu electrònica."
+    },
+    "dpo": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "aemet-privacy-app"
+      ],
+      "detail": "L’únic document de privadesa que l’aplicació enllaça no identifica el responsable del tractament ni designa cap delegat de protecció de dades amb contacte publicat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "offlineAlternative": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "aemet-privacy-app",
+        "aemet-nota-legal"
+      ],
+      "detail": "No hi ha cap tràmit que depengui de l’aplicació: les prediccions, els avisos i les imatges de radar són accessibles sense instal·lar-la al web aemet.es (on es publiquen la política i la nota legal) i, a més, com a dades obertes reutilitzables.",
+      "verifiedAt": "2026-09-22"
+    },
+    "accessibilityStatement": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "aemet-accessibilitat-ios"
+      ],
+      "detail": "Hi ha declaració d’accessibilitat de la versió per a iOS i s’hi declara «parcialment conforme» amb el Reial decret 1112/2018, però es refereix a la versió 2.9 i no s’ha revisat des del novembre del 2022.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.aemet.es/es/app/eltiempodeAEMET/declaracion-accesibilidad-iOS"
+    },
+    "mandatoryRetention": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "aemet-privacy-app"
+      ],
+      "detail": "No hi ha compte ni expedient administratiu: la política descriu els registres d’accés amb adreça IP com a «temporales», amb finalitat estadística i d’assegurament del servei, i no invoca cap norma que n’obligui la conservació.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataSummary": "Segons la política, l’única dada que queda del costat de l’AEMET és un registre d’accés amb l’adreça IP. L’adreça IP és una dada personal, i la política no diu durant quant de temps es conserva ni amb quina base jurídica.",
+  "dataCollection": [
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "aemet-privacy-app",
+        "aemet-app-store"
+      ],
+      "note": "La política diu que la ubicació només la gestiona l’aplicació dins del dispositiu i que no s’envia a l’AEMET. La fitxa de l’App Store, però, avisa que l’aplicació pot fer servir la ubicació encara que no estigui oberta."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "aemet-privacy-app"
+      ],
+      "note": "La política reconeix que els registres d’accés contenen l’adreça IP i que serveixen per fer estadístiques d’ús i assegurar el servei. L’etiqueta de l’App Store, en canvi, diu que no es recull cap dada."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "investigacio-i-estadistica"
+      ],
+      "sources": [
+        "aemet-privacy-app"
+      ],
+      "note": "Estadístiques d’ús a partir dels registres d’accés."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "aemet-app-store"
+      ],
+      "note": "L’etiqueta declara que no es recull cap dada i la fitxa no indica que l’aplicació contingui publicitat."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "aemet-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store declara que no es recull cap dada, i per tant tampoc cap dada per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "aemet-app-store",
+        "aemet-privacy-app"
+      ],
+      "detail": "Ni l’etiqueta ni la política esmenten cap identificador publicitari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta cap component de tercers, però no ho hem pogut comprovar amb una anàlisi independent de l’aplicació."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "aemet-privacy-app",
+        "aemet-app-store"
+      ],
+      "detail": "No hi ha publicitat: és un servei públic finançat amb pressupost.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "aemet-privacy-app"
+      ],
+      "detail": "La política diu que actualment no es recullen dades personals identificatives i no preveu cap perfilat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu res sobre l’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta cap encarregat del tractament ni cap cessió, però tampoc no els exclou expressament."
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És una agència estatal; no forma part de cap grup empresarial.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "aemet-privacy-app",
+        "aemet-nota-legal"
+      ],
+      "detail": "No hi ha cap finalitat comercial: la nota legal regula la reutilització lliure de les dades meteorològiques com a dades obertes, amb l’única condició de citar-ne la font.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta on s’allotja el servei ni cap transferència internacional."
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "aemet-transparencia",
+        "aemet-accessibilitat-ios"
+      ],
+      "detail": "Hi ha un portal de transparència institucional amb informació organitzativa, econòmica i de sol·licituds d’accés a la informació pública, i una declaració d’accessibilitat de la versió per a iOS, però cap informe sobre peticions de dades de persones usuàries.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "aemet-privacy-app"
+      ],
+      "detail": "La política descriu els registres d’accés com a «temporals», sense cap termini.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha compte ni dades personals identificatives que calgui suprimir, segons la política.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha compte: la política diu que actualment no es recullen dades personals identificatives.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Sense compte no hi ha res a donar de baixa; n’hi ha prou de desinstal·lar l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "easy",
+    "requiresSupportContact": false,
+    "steps": [
+      "Desinstal·la l’aplicació: les preferències de municipis, platges i avisos es guarden al dispositiu.",
+      "Si vols demanar la supressió dels registres d’accés associats a la teva adreça IP, adreça’t a l’atenció ciutadana de l’AEMET, perquè la política no identifica cap delegat de protecció de dades."
+    ],
+    "dataRetained": "Registres d’accés amb adreça IP, durant un termini que la política només qualifica de temporal.",
+    "sources": [
+      "aemet-privacy-app",
+      "aemet-app-store"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta el dret de portabilitat."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "aemet-privacy-app"
+      ],
+      "detail": "La política cita el RGPD i la Llei orgànica 3/2018, però no enumera els drets, no explica com s’exerceixen, no identifica el responsable amb dades de contacte ni designa cap delegat de protecció de dades.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no mostra publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "aemet-privacy-app"
+      ],
+      "detail": "Els registres d’accés amb adreça IP es generen sempre; la política no ofereix cap manera d’evitar-los.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "aemet-privacy-app"
+      ],
+      "detail": "El permís d’ubicació és opcional i la resta de preferències es configuren a l’aplicació, però no hi ha cap panell de privadesa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "protective",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi de patrons foscos a l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Servei d’informació meteorològica; no hi ha comunicació privada entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política només parla d’un compromís de compliment de la legislació, sense cap mesura tècnica. L’enllaç de política de privadesa de la fitxa de l’App Store, a més, apunta per HTTP a la nota legal."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu res sobre el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha compte que calgui protegir.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap declaració de conformitat amb l’Esquema Nacional de Seguretat ni cap auditoria publicada."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses; no és habitual a l’Administració, però no ho hem pogut confirmar amb una font."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha fitxer security.txt a aemet.es. L’únic canal formal publicat és el formulari d’incidències de la seu electrònica, pensat per a queixes, no per a seguretat."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "L’enllaç «Política de privacidad» de la fitxa de l’App Store apunta per HTTP a la nota legal, un document del novembre del 2016 sobre reutilització de dades obertes. La política de privadesa específica de l’aplicació existeix, però només s’enllaça des d’aemet.es. La declaració d’accessibilitat de la versió iOS diu «parcialment conforme» i es refereix a la versió 2.9, revisada el novembre del 2022, quan la publicada és la 3.1.7.",
+    "openQuestions": [
+      "La cerca d’incidents no s’ha pogut completar: s’havia esgotat el pressupost de cerques web de la sessió. Cal repetir-la abans de donar per bo que no n’hi ha cap.",
+      "Quant de temps es conserven els registres d’accés amb adreça IP i amb quina base jurídica?",
+      "Qui és el delegat de protecció de dades competent i com s’exerceixen els drets davant de l’AEMET?",
+      "Per què la fitxa de l’App Store avisa que l’aplicació pot fer servir la ubicació encara que no estigui oberta, si la política diu que la ubicació no surt del dispositiu?"
+    ]
+  },
+  "appStoreBundleId": "AEMET"
+}

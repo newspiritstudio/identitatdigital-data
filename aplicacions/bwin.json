@@ -1,0 +1,627 @@
+{
+  "slug": "bwin",
+  "name": "bwin",
+  "company": "electraworks-ceuta",
+  "categories": [
+    "apostes"
+  ],
+  "tagline": "Deu anys de conservació obligatòria i una sanció de l’AEPD per la manera d’informar-ne",
+  "summary": "La llicència de joc espanyola obliga bwin a conservar les dades del client deu anys des del tancament del compte, i l’operador ho aplica com a resposta estàndard a qualsevol sol·licitud de supressió. L’AEPD el va sancionar per la informació que donava sobre això. D’altra banda, el mateix marc legal imposa verificació d’identitat, contrast amb el registre d’autoexclosos i control de patrons de joc, un tractament molt invasiu que aquí té una justificació de protecció.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Espanya",
+  "userBase": "Un dels operadors amb llicència general de la DGOJ amb més quota a Espanya",
+  "links": {
+    "website": "https://sports.bwin.es/",
+    "privacyPolicy": "https://help.bwin.es/es/general-information/security/privacy-policy",
+    "appStore": "https://apps.apple.com/es/app/id803817777"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "bwin-privacy-policy"
+    ],
+    "detail": "Cal compte verificat amb document d’identitat: la llei del joc no permet jugar de manera anònima.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "bwin-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "L’historial d’apostes és un dels registres més sensibles d’una persona: mostra quant guanya i quant perd, a quines hores juga i si el patró s’està deteriorant. bwin el guarda amb el document d’identitat, els extractes bancaris i les gravacions de trucades, i el conserva deu anys des que es tanca el compte.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "bwin-privacy-policy",
+        "bwin-app-store"
+      ]
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "bwin-privacy-policy"
+      ],
+      "note": "Verificació d’identitat i d’edat amb captura documental, feta amb el proveïdor Jumio."
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal"
+      ],
+      "sources": [
+        "bwin-privacy-policy"
+      ]
+    },
+    {
+      "type": "genere",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "compliment-legal"
+      ],
+      "sources": [
+        "bwin-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal"
+      ],
+      "sources": [
+        "bwin-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "bwin-privacy-policy",
+        "bwin-app-store"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bwin-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "bwin-privacy-policy",
+        "bwin-app-store"
+      ],
+      "note": "Inclou extractes bancaris i documentació financera per a la diligència antiblanqueig."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "bwin-privacy-policy"
+      ],
+      "note": "L’historial de joc i d’apostes es conserva deu anys des del tancament del compte."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada",
+        "compliment-legal"
+      ],
+      "sources": [
+        "bwin-privacy-policy"
+      ],
+      "note": "Els patrons de comportament de joc s’analitzen per obligació legal de joc segur i també per a màrqueting."
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari",
+        "compliment-legal"
+      ],
+      "sources": [
+        "bwin-privacy-policy"
+      ],
+      "note": "Gravacions de trucades conservades tres anys."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "bwin-app-store"
+      ],
+      "note": "L’etiqueta declara «contingut de l’usuari» (atenció al client) com a dada utilitzada per rastrejar."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "bwin-privacy-policy",
+        "bwin-app-store"
+      ],
+      "note": "IP, adreça MAC i tipus de dispositiu."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "compliment-legal"
+      ],
+      "sources": [
+        "bwin-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts",
+        "compliment-legal"
+      ],
+      "sources": [
+        "bwin-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "bwin-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "bwin-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "bwin-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "bwin-privacy-policy"
+      ],
+      "note": "No es demanen, però el monitoratge de joc segur infereix indicis de joc problemàtic, que és una condició de salut."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bwin-app-store"
+      ],
+      "detail": "L’etiqueta declara «contingut de l’usuari» com a dada utilitzada per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Ni la política ni l’etiqueta concreten l’ús de l’identificador publicitari d’Apple."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bwin-privacy-policy"
+      ],
+      "detail": "La política preveu proveïdors de màrqueting, però no en publica la llista.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bwin-privacy-policy"
+      ],
+      "detail": "Màrqueting amb base de consentiment o interès legítim, amb preferències per canal al compte. La publicitat del joc està a més restringida pel Reial decret 958/2020.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bwin-privacy-policy"
+      ],
+      "detail": "S’analitzen patrons de comportament de joc, per obligació legal de joc segur i per a màrqueting. La política reconeix el dret d’oposició a decisions automatitzades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu si les dades s’utilitzen per entrenar models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bwin-privacy-policy"
+      ],
+      "detail": "DGOJ, entitats financeres i processadors de pagament, Jumio per a la verificació d’identitat, forces de seguretat, organismes esportius i antifrau, i les bases de dades d’autoexclusió dels reguladors.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bwin-privacy-policy"
+      ],
+      "detail": "Compartició amb entitats del grup Entain, amb corresponsabilitat del tractament en alguns supòsits.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu explícitament si ven dades personals a intermediaris."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bwin-privacy-policy"
+      ],
+      "detail": "Transferències fora de l’EEE amb clàusules contractuals tipus implementades pels proveïdors; el detall per país no es publica.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "bwin-entain-sustainability-2025"
+      ],
+      "detail": "Entain no publica cap informe de peticions d’autoritats; el que publica és l’apartat de sostenibilitat de l’informe anual, amb mètriques de seguretat de la informació.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bwin-privacy-policy"
+      ],
+      "detail": "Deu anys des del tancament del compte per a les dades de client i tres anys per a les gravacions de trucades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bwin-privacy-policy",
+        "bwin-aepd-2023"
+      ],
+      "detail": "El tancament del compte no esborra res: l’operador manté les dades els deu anys del període mínim de garantia legal de la llicència i la normativa antiblanqueig.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "historial-de-compres",
+        "period": "Deu anys des del tancament del compte",
+        "sources": [
+          "bwin-privacy-policy",
+          "bwin-aepd-2023"
+        ]
+      },
+      {
+        "dataType": "veu-i-audio",
+        "period": "Tres anys per a les gravacions de trucades",
+        "sources": [
+          "bwin-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "document-identificatiu-oficial",
+        "period": "Deu anys, per obligació antiblanqueig",
+        "sources": [
+          "bwin-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bwin-privacy-policy",
+        "bwin-aepd-2023"
+      ],
+      "detail": "Es pot tancar el compte, però no obtenir-ne la supressió fins que passin els deu anys de conservació obligatòria.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bwin-privacy-policy"
+      ],
+      "detail": "El tancament, la pausa de joc i l’autoexclusió es poden activar des de la configuració del compte; la supressió de les dades s’ha de demanar per escrit.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "hard",
+    "requiresSupportContact": true,
+    "steps": [
+      "Entra a la configuració del compte i tria la pausa de joc o el tancament, segons el que vulguis.",
+      "Si vols l’autoexclusió, tingues present que el termini mínim és de sis mesos i que és irrevocable mentre dura.",
+      "Per demanar la supressió de les dades, escriu a privacy@bwin.es o al delegat de protecció de dades del grup, dataprotectionofficer@entaingroup.com.",
+      "Espera una resposta que, molt probablement, invocarà el termini de deu anys de conservació obligatòria; si no hi estàs d’acord, reclama davant de l’AEPD."
+    ],
+    "obstacles": "La conservació de deu anys deriva dels requisits de llicència i de la normativa antiblanqueig, però l’AEPD va sancionar l’operador per la manera com informava d’aquesta limitació.",
+    "dataRetained": "Identitat, historial de joc i documentació financera durant deu anys des del tancament, i les dades d’autoexclusió mentre calgui per garantir l’eficàcia de l’exclusió.",
+    "sources": [
+      "bwin-privacy-policy",
+      "bwin-aepd-2023"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bwin-privacy-policy"
+      ],
+      "detail": "La portabilitat es reconeix; no hi ha eina d’autoservei documentada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bwin-privacy-policy"
+      ],
+      "detail": "Delegat de protecció de dades del grup i canal específic per a Espanya.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacy@bwin.es"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bwin-privacy-policy"
+      ],
+      "detail": "Preferències de comunicacions comercials per canal a la configuració del compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap control per desactivar l’analítica d’ús."
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bwin-privacy-policy"
+      ],
+      "detail": "Límits de dipòsit, límits de temps de sessió, pausa de joc i autoexclusió, a més del gestor de galetes del web. Són controls de joc, no de dades, però limiten el que es registra.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi independent de patrons foscos de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’operador ha de poder llegir l’historial de joc per obligació legal; el xifratge d’extrem a extrem no hi és aplicable.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bwin-privacy-policy"
+      ],
+      "detail": "El servei s’ofereix exclusivament sobre HTTPS.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública sobre el xifratge de les dades en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Hem vist referències a una verificació en dos passos amb codi al mòbil, però no hem trobat cap documentació oficial de bwin.es que ho confirmi."
+    },
+    "independentAudits": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bwin-entain-sustainability-2025"
+      ],
+      "detail": "Entain declara la certificació ISO 27001 amb una cobertura del 78,5 % de la plantilla el 2025, però no consta que l’abast inclogui ElectraWorks (Ceuta). Els sistemes tècnics de joc, a més, han d’estar homologats per laboratoris acreditats davant de la DGOJ.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses públic d’Entain ni de bwin."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Ni bwin.es ni entaingroup.com publiquen un fitxer security.txt."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "El termini de deu anys és una obligació del marc del joc; el que l’AEPD va sancionar és com se n’informava la persona interessada. En canvi, la sanció de la DGOJ de novembre de 2025 sí que afecta directament el tractament: una de les tres infraccions és haver permès jugar a persones que ho tenien prohibit, cosa que implica una fallida en el contrast contra el registre d’autoexclosos. L’expedient sancionador de l’AEPD va acabar per pagament voluntari, amb les reduccions corresponents.",
+    "openQuestions": [
+      "La certificació ISO 27001 d’Entain cobreix ElectraWorks (Ceuta)?",
+      "Existeix una documentació oficial de la verificació en dos passos a bwin.es?"
+    ]
+  },
+  "appStoreBundleId": "com.bwin.sportsbook.es"
+}

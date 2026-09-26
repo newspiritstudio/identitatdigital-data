@@ -1,0 +1,537 @@
+{
+  "slug": "club-by",
+  "name": "Club by",
+  "company": "alsea-food-service-project",
+  "categories": [
+    "alimentacio-i-restauracio",
+    "repartiment-a-domicili"
+  ],
+  "tagline": "Un sol perfil de consum compartit per totes les societats d’Alsea: Foster’s Hollywood, VIPS, Ginos i Fridays",
+  "summary": "Club by és el programa de fidelització d’Alsea a Espanya i unifica en un perfil els consums a Foster’s Hollywood, VIPS, Ginos i Fridays. Les dades les tracten com a corresponsables diverses societats del grup, que les fan servir per perfilar i segmentar per interès legítim i les poden comunicar puntualment a la matriu de Mèxic. L’alta implica acceptar comunicacions comercials de totes les marques llevat que t’hi oposis, i l’etiqueta de l’App Store declara que les dades de contacte s’usen per rastrejar.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://clubby.es/",
+    "privacyPolicy": "https://www.fostershollywood.es/condiciones-programa-clubby.html",
+    "terms": "https://clubby.es/terminos-y-condiciones",
+    "appStore": "https://apps.apple.com/es/app/id981573839"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "club-by-terms",
+      "club-by-app-store"
+    ],
+    "detail": "Cal registrar-se com a soci del programa per acumular punts, demanar i fer servir les promocions.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "club-by-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "L’historial de consum de quatre cadenes de restauració, amb data de naixement, codi postal i geolocalització, mostra on i quan menja una persona i quant gasta. El grup en dedueix gustos i preferències per segmentar-la.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "club-by-members-privacy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "club-by-members-privacy",
+        "club-by-app-store"
+      ],
+      "note": "L’etiqueta declara «datos de contacto» utilitzats per rastrejar sense concretar quins."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "club-by-members-privacy",
+        "club-by-app-store"
+      ]
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "club-by-members-privacy"
+      ],
+      "note": "Serveix, entre altres coses, per al descompte d’aniversari."
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "club-by-members-privacy",
+        "club-by-app-store"
+      ],
+      "note": "La política parla del codi postal; les comandes a domicili requereixen, a més, l’adreça de lliurament, que s’envia al franquiciat que les prepara."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "club-by-members-privacy"
+      ],
+      "note": "Només si s’activa la geolocalització."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "club-by-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "club-by-members-privacy"
+      ],
+      "note": "Consums, reserves i consultes de la carta a totes les marques del programa."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "club-by-members-privacy"
+      ],
+      "note": "Gustos i preferències deduïts dels patrons de consum."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "club-by-members-privacy"
+      ],
+      "note": "Pagament des de l’aplicació (Pay & Go i comandes) a través de proveïdors de pagament."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "club-by-app-store",
+        "club-by-members-privacy"
+      ],
+      "note": "La política esmenta adreces MAC; l’etiqueta el declara no vinculat."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "club-by-members-privacy"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "club-by-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "club-by-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store declara que les dades de contacte es poden fer servir per rastrejar en aplicacions i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’etiqueta no declara l’identificador publicitari i la política no l’esmenta."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi independent dels SDK de l’aplicació."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "club-by-members-privacy",
+        "club-by-app-store"
+      ],
+      "detail": "La política preveu comunicacions comercials segmentades per correu, SMS i notificacions; no esmenta audiències a plataformes publicitàries, però l’etiqueta declara rastreig amb les dades de contacte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "club-by-members-privacy"
+      ],
+      "detail": "Perfilat i segmentació a partir dels patrons de consum per interès legítim, per personalitzar productes i ofertes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no en diu res."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "club-by-members-privacy"
+      ],
+      "detail": "Franquiciats i tercers que preparen comandes o reserves, amb accés limitat a les dades imprescindibles, i proveïdors de pagament i tecnològics com a encarregats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "club-by-members-privacy",
+        "alsea-europe-legal"
+      ],
+      "detail": "Diverses societats d’Alsea a Espanya tracten les dades com a corresponsables per gestionar el programa, perfilar i enviar comunicacions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no parla de venda de dades."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "club-by-members-privacy"
+      ],
+      "detail": "Comunicació puntual i aïllada a la matriu de Mèxic amb finalitats administratives, preferentment pseudonimitzada.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "club-by-members-privacy",
+        "club-by-terms"
+      ],
+      "detail": "Les dades es conserven mentre el compte és actiu i després fins a la prescripció de les accions; les targetes sense ús durant 12 mesos es poden cancel·lar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "club-by-members-privacy"
+      ],
+      "detail": "Després de la baixa es conserven bloquejades durant el termini de prescripció de les accions derivades de la relació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "historial-de-compres",
+        "period": "Mentre el compte és actiu i, després, fins a la prescripció de les accions",
+        "sources": [
+          "club-by-members-privacy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "club-by-terms",
+        "club-by-faq"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "club-by-faq",
+        "club-by-terms"
+      ],
+      "detail": "La baixa es pot fer des de l’apartat «Mi Cuenta» de l’aplicació o del web.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "easy",
+    "requiresSupportContact": false,
+    "steps": [
+      "Obre l’aplicació o el web i entra a «Mi Cuenta».",
+      "Tria l’opció de baixa del programa i confirma-la.",
+      "Com a alternativa, escriu a bajasclubby@alsea.net amb l’assumpte «Baja del Programa de Fidelización Club by», o envia una carta a Alsea, Camino de la Zarzuela 1, 28023 Madrid."
+    ],
+    "obstacles": "En donar-te de baixa, les recompenses vigents queden inactives.",
+    "dataRetained": "Dades bloquejades durant el termini de prescripció de les accions derivades de la relació.",
+    "sources": [
+      "club-by-faq",
+      "club-by-terms",
+      "club-by-members-privacy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "club-by-members-privacy"
+      ],
+      "detail": "La portabilitat es reconeix com a dret, però no hi ha cap eina de descàrrega.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "club-by-members-privacy",
+        "club-by-web-privacy"
+      ],
+      "detail": "Per correu a bajasclubby@alsea.net o per carta; delegat de protecció de dades a dpd@alsea.net.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:bajasclubby@alsea.net"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "club-by-terms",
+        "club-by-members-privacy"
+      ],
+      "detail": "A «Mi Cuenta» es poden triar les comunicacions de cada marca; per oposar-se al perfilat cal exercir el dret per correu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap control sobre les dades d’ús o de diagnòstic."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "club-by-terms"
+      ],
+      "detail": "Només hi ha preferències de comunicacions comercials per marca.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "yes",
+      "level": "editorial",
+      "sources": [
+        "club-by-faq"
+      ],
+      "detail": "Interpretació pròpia: l’alta al programa inclou per defecte l’autorització per rebre comunicacions comercials de totes les marques per qualsevol mitjà, i cal oposar-s’hi activament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "preselected",
+        "severity": "medium",
+        "description": "Registrar-se implica acceptar comunicacions comercials de totes les marques del programa per correu, SMS o notificacions, llevat que la persona s’hi oposi.",
+        "sources": [
+          "club-by-faq"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no transporta comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "editorial",
+      "sources": [],
+      "detail": "Comprovació pròpia: clubby.es redirigeix tot el trànsit a HTTPS. No hem trobat cap document oficial sobre seguretat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat informació sobre verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories ni certificacions publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap canal de notificació de vulnerabilitats; clubby.es no publica security.txt (comprovació pròpia)."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La política de privadesa enllaçada des de l’App Store (clubby.es/politica-privacidad) només cobreix el web; la política dels socis és la del programa, publicada al web de Foster’s Hollywood i citada per les condicions. El desenvolupador a l’App Store és SIGLA, S.A., però la responsable del programa és Food Service Project, S.A.",
+    "openQuestions": [
+      "Quines societats concretes d’Alsea actuen com a corresponsables i qui rep les dades de contacte que l’etiqueta declara per rastrejar?",
+      "Es pot eliminar el compte des de «Mi Cuenta» o només donar-se de baixa del programa?"
+    ]
+  },
+  "appStoreBundleId": "com.grupovips.clubvips"
+}

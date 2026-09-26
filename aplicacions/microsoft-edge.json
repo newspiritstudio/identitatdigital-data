@@ -1,0 +1,563 @@
+{
+  "slug": "microsoft-edge",
+  "name": "Microsoft Edge",
+  "company": "microsoft",
+  "categories": [
+    "navegadors",
+    "utilitats"
+  ],
+  "tagline": "Prevenció de seguiment activada per defecte en el nivell intermedi, i contingut declarat per a seguiment",
+  "summary": "Edge porta prevenció de seguiment activada de sèrie, però en el nivell «equilibrat», que bloqueja els rastrejadors de tercers de llocs que no has visitat i deixa passar la resta. L’etiqueta de l’App Store declara, a més, contingut de la persona usuària com a dada utilitzada per rastrejar-la entre aplicacions i llocs d’altres empreses. Els controls existeixen i estan ben documentats, però la configuració de fàbrica no és la més protectora.",
+  "platforms": [
+    "ios",
+    "android",
+    "windows",
+    "macos",
+    "linux"
+  ],
+  "businessModel": "advertising",
+  "jurisdiction": "Irlanda",
+  "userBase": "Centenars de milions de persones usuàries, amb quota molt superior a l’escriptori que al mòbil",
+  "links": {
+    "website": "https://www.microsoft.com/edge",
+    "privacyPolicy": "https://www.microsoft.com/en-us/privacy/privacystatement",
+    "privacyCenter": "https://account.microsoft.com/privacy/",
+    "appStore": "https://apps.apple.com/es/app/id1288723196"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "microsoft-edge-privacy-whitepaper"
+    ],
+    "detail": "Es pot navegar sense iniciar la sessió; el compte només cal per sincronitzar dades entre dispositius.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "microsoft-edge-privacy-whitepaper"
+    ],
+    "detail": "Es basa en el projecte lliure Chromium, però les capes pròpies de Microsoft són privatives.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa sobre base Chromium"
+  },
+  "dataSummary": "L’historial de navegació pot incloure consultes de salut, cerques de feina, creences i compres. Edge el vincula a la identitat quan s’inicia la sessió, i, si s’activa la personalització, l’envia a Microsoft per adaptar-hi els anuncis, les notícies i la cerca durant 180 dies.",
+  "dataCollection": [
+    {
+      "type": "historial-de-navegacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "microsoft-edge-app-store",
+        "microsoft-edge-privacy-whitepaper"
+      ],
+      "note": "Amb la personalització activada, l’activitat de navegació s’envia a Microsoft i es conserva fins a 180 dies per personalitzar Bing, Microsoft News, els anuncis i els resultats de cerca."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "microsoft-edge-privacy-whitepaper"
+      ],
+      "note": "Els caràcters escrits a la barra d’adreces s’envien per defecte al cercador predeterminat; amb Bing s’hi afegeix un identificador de navegador reinicialitzable."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "microsoft-edge-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "microsoft-edge-app-store",
+        "microsoft-edge-privacy-whitepaper"
+      ],
+      "note": "El diagnòstic opcional inclou els llocs visitats i es guarda fins a dos anys als servidors de Microsoft."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "microsoft-edge-app-store"
+      ],
+      "note": "L’etiqueta les declara com a dades no vinculades a la identitat."
+    },
+    {
+      "type": "contrasenya",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "microsoft-edge-privacy-whitepaper"
+      ],
+      "note": "El monitor de contrasenyes les compara xifrades amb llistes de credencials filtrades i no les conserva al servidor un cop feta la comprovació."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "microsoft-edge-privacy-whitepaper"
+      ],
+      "note": "La sincronització inclou la informació de pagament desada al navegador."
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "microsoft-edge-privacy-whitepaper"
+      ],
+      "note": "La prevenció de seguiment ve al nivell «equilibrat», que no bloqueja tots els rastrejadors."
+    },
+    {
+      "type": "fitxers-i-documents",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "microsoft-edge-app-store"
+      ],
+      "note": "El contingut de la persona usuària és la categoria que l’etiqueta declara com a utilitzada per rastrejar-la en aplicacions i llocs d’altres empreses."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "microsoft-edge-privacy-whitepaper"
+      ],
+      "note": "Només si s’inicia la sessió per sincronitzar."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-edge-app-store"
+      ],
+      "detail": "L’etiqueta declara contingut de la persona usuària com a dada utilitzada per rastrejar-la en aplicacions i llocs web propietat d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "microsoft-edge-privacy-whitepaper"
+      ],
+      "detail": "No s’hi declara l’identificador publicitari del sistema, però amb Bing com a cercador s’hi afegeix un identificador de navegador reinicialitzable.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "microsoft-edge-privacy-whitepaper"
+      ],
+      "detail": "El navegador bloqueja una part dels rastrejadors de tercers segons el nivell de prevenció de seguiment, que per defecte és l’intermedi.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-edge-privacy-whitepaper",
+        "microsoft-ad-settings"
+      ],
+      "detail": "Amb la personalització activada, l’activitat de navegació personalitza els anuncis, Bing i Microsoft News. Es desactiva des de la configuració del navegador o des del panell de publicitat del compte.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://account.microsoft.com/privacy/ad-settings"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-edge-privacy-whitepaper",
+        "microsoft-ad-settings"
+      ],
+      "detail": "L’historial de navegació alimenta un perfil d’interessos editable des del panell de publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap declaració específica sobre l’ús de les dades de navegació d’Edge per entrenar models d’IA."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-privacy-statement",
+        "microsoft-edge-privacy-whitepaper"
+      ],
+      "detail": "Els caràcters escrits a la barra d’adreces s’envien al cercador predeterminat, i la declaració del grup cita Xandr, Facebook, Media.net i Outbrain com a socis publicitaris.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-edge-privacy-whitepaper"
+      ],
+      "detail": "L’activitat de navegació es comparteix amb Bing i amb Microsoft News dins del grup.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "microsoft-ad-settings"
+      ],
+      "detail": "Microsoft ofereix un control per deixar de compartir dades amb tercers amb finalitat publicitària i declara que respecta el senyal Global Privacy Control.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-privacy-statement"
+      ],
+      "detail": "Transferències als Estats Units emparades en clàusules contractuals tipus i en el marc de privadesa de dades UE-EUA.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-law-enforcement-report"
+      ],
+      "detail": "Informe semestral de peticions d’autoritats del grup.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-edge-privacy-whitepaper"
+      ],
+      "detail": "El document tècnic dona terminis concrets: dos anys per al diagnòstic opcional i 180 dies per a l’activitat de navegació emprada en la personalització.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "microsoft-privacy-dashboard"
+      ],
+      "detail": "L’historial associat al compte es pot esborrar des del panell de privadesa; les dades locals es queden al dispositiu fins que se’n buida la memòria cau.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "dades-de-diagnostic",
+        "period": "Fins a 2 anys als servidors de Microsoft abans de l’agregació.",
+        "sources": [
+          "microsoft-edge-privacy-whitepaper"
+        ]
+      },
+      {
+        "dataType": "historial-de-navegacio",
+        "period": "180 dies quan s’envia a Microsoft per a la personalització.",
+        "sources": [
+          "microsoft-edge-privacy-whitepaper"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-close-account",
+        "microsoft-edge-privacy-whitepaper"
+      ],
+      "detail": "Es pot fer servir el navegador sense compte; si se n’ha iniciat la sessió, es tanca el compte de Microsoft.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-close-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://account.microsoft.com/closeaccount",
+    "difficulty": "easy",
+    "waitingPeriodDays": 60,
+    "steps": [
+      "Desactiva la sincronització des de Configuració, Perfils, Sincronització.",
+      "Esborra l’historial de navegació, de cerca i d’ubicació associat al compte des del panell de privadesa de Microsoft.",
+      "Tanca la sessió al navegador i desinstal·la l’aplicació.",
+      "Si vols eliminar també el compte, obre la pàgina de tancament del compte de Microsoft, marca les caselles i tria la finestra de reobertura de 30 o de 60 dies."
+    ],
+    "obstacles": "Cap obstacle rellevant: el navegador funciona sense compte i l’historial associat es pot esborrar des d’un panell públic.",
+    "dataRetained": "Les dades de diagnòstic opcionals ja recollides es conserven fins a dos anys abans d’agregar-se.",
+    "sources": [
+      "microsoft-close-account",
+      "microsoft-edge-privacy-whitepaper",
+      "microsoft-privacy-dashboard"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-privacy-dashboard"
+      ],
+      "detail": "El panell de privadesa permet veure i descarregar l’historial de navegació, de cerca i d’ubicació associat al compte.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://account.microsoft.com/privacy/"
+    },
+    "exportFormatQuality": "mixed",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-privacy-statement"
+      ],
+      "verifiedAt": "2026-09-22",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-edge-privacy-whitepaper",
+        "microsoft-ad-settings"
+      ],
+      "detail": "Interruptor a Configuració, Privadesa, cerca i serveis, Personalització i publicitat, i panell de publicitat del compte.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://account.microsoft.com/privacy/ad-settings"
+    },
+    "telemetryOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-edge-privacy-whitepaper"
+      ],
+      "detail": "Interruptor explícit per deixar d’enviar dades de diagnòstic opcionals; només es recullen amb permís de la persona.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-edge-privacy-whitepaper"
+      ],
+      "detail": "Controls separats per a la prevenció de seguiment, els suggeriments de la barra d’adreces, la sincronització, SmartScreen, les contrasenyes i la personalització.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [
+        "microsoft-edge-privacy-whitepaper"
+      ],
+      "detail": "La prevenció de seguiment ve al nivell intermedi i no a l’estricte, i els caràcters escrits a la barra d’adreces s’envien per defecte al cercador. Cap de les dues decisions s’explica en el primer arrencament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "preselected",
+        "severity": "medium",
+        "description": "La prevenció de seguiment arriba configurada al nivell «equilibrat» i els suggeriments de la barra d’adreces envien el que escrius al cercador predeterminat sense que calgui activar-ho.",
+        "sources": [
+          "microsoft-edge-privacy-whitepaper"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Un navegador no transporta comunicacions privades pròpies; la seguretat del transport la posa cada lloc web.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-edge-privacy-whitepaper"
+      ],
+      "detail": "L’activitat que s’envia a Microsoft viatja per HTTPS i les dades sincronitzades es xifren als servidors.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-edge-privacy-whitepaper"
+      ],
+      "detail": "Les dades de sincronització es xifren al servidor i les credencials desades es xifren al dispositiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-authenticator-method"
+      ],
+      "detail": "El compte de Microsoft que sincronitza el navegador admet claus d’accés i verificació en dos passos.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "passkey",
+        "app-push",
+        "totp",
+        "hardware-key",
+        "sms",
+        "email"
+      ]
+    },
+    "independentAudits": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-iso-27001"
+      ],
+      "detail": "Els serveis al núvol que hi ha al darrere estan certificats segons la norma ISO/IEC 27001.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-msrc-bounty"
+      ],
+      "detail": "Cobert pels programes de recompenses de Microsoft.",
+      "verifiedAt": "2026-09-22"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-msrc-cvd"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "firefox",
+      "comparability": "equivalent",
+      "rationale": "Navegador de codi obert amb protecció millorada contra el seguiment activada per defecte i sense negoci publicitari propi lligat a l’historial.",
+      "tradeOffs": "Menys integració amb l’ecosistema de Microsoft i amb la sincronització del compte corporatiu."
+    },
+    {
+      "app": "brave",
+      "comparability": "equivalent",
+      "rationale": "Bloqueig de rastrejadors i d’anuncis actiu de sèrie, sobre la mateixa base Chromium que Edge.",
+      "tradeOffs": "Incorpora funcions pròpies de publicitat i de criptomonedes que convé revisar."
+    },
+    {
+      "app": "duckduckgo",
+      "comparability": "partial",
+      "rationale": "Navegador orientat a la privadesa amb bloqueig de rastrejadors i cerca sense perfilat.",
+      "tradeOffs": "Menys extensions i funcions d’escriptori que Edge."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "El document tècnic de privadesa d’Edge és dels més detallats que hem vist en aquesta onada: dona terminis concrets i la ruta exacta de cada control. En canvi, la configuració de fàbrica deixa la prevenció de seguiment en el nivell intermedi.",
+    "openQuestions": [
+      "Quin contingut de la persona usuària declara exactament l’etiqueta de l’App Store com a dada utilitzada per rastrejar-la?"
+    ]
+  },
+  "appStoreBundleId": "com.microsoft.msedge"
+}

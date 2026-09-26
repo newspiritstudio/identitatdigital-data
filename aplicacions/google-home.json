@@ -1,0 +1,608 @@
+{
+  "slug": "google-home",
+  "name": "Google Home",
+  "company": "google-ireland",
+  "categories": [
+    "llar-connectada"
+  ],
+  "tagline": "Google promet no fer servir àudio, vídeo ni sensors per a publicitat, però el text del que li dius a l’Assistent sí que hi pot anar",
+  "summary": "Els compromisos de seguretat i privadesa de Google Nest són explícits: els dispositius només envien àudio quan detecten una interacció amb l’Assistent, les càmeres només transmeten si algú les ha activat, hi ha indicadors visuals i les dades dels sensors d’ambient i d’activitat no es fan servir per personalitzar anuncis. Ara bé, el text de les interaccions amb l’Assistent de veu sí que pot alimentar la personalització publicitària. A més, l’etiqueta de l’App Store declara historial de cerca i de navegació per a publicitat de tercers, cosa que els compromisos no expliquen.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Irlanda, per a persones usuàries de l’Espai Econòmic Europeu",
+  "links": {
+    "website": "https://home.google.com/",
+    "privacyPolicy": "https://policies.google.com/privacy",
+    "privacyCenter": "https://safety.google/nest/",
+    "appStore": "https://apps.apple.com/es/app/id680819774"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "google-home-nest-help"
+    ],
+    "detail": "Els compromisos s’apliquen als dispositius fets servir amb un compte de Google, que és el que gestiona la casa i els dispositius.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "google-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Recull dades de dins de casa: qui hi és i a quina hora, què es diu en veu alta, què veuen les càmeres, quina temperatura hi fa. Google en separa una part del negoci publicitari, però l’adreça física, la ubicació exacta, les dades de pagament i l’historial de navegació queden vinculats al mateix compte.",
+  "dataCollection": [
+    {
+      "type": "veu-i-audio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "google-home-nest-commitments",
+        "google-home-app-store"
+      ],
+      "note": "Google diu que el dispositiu només envia àudio quan detecta una interacció amb l’Assistent o una funció que el necessita, amb indicador visual."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "google-home-nest-commitments",
+        "google-home-app-store"
+      ],
+      "note": "Les càmeres només transmeten si algú les ha activat, amb un indicador lluminós visible."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus",
+        "entrenament-de-models-dia"
+      ],
+      "sources": [
+        "google-home-history"
+      ],
+      "note": "L’historial de la casa desa l’activitat dels dispositius i les consultes de veu; Google diu que el fa servir també per desenvolupar serveis i entrenar models."
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "google-home-app-store"
+      ],
+      "note": "L’adreça de la casa, per a rutines, automatitzacions i serveis locals."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "google-home-app-store"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "google-home-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "google-home-app-store"
+      ],
+      "note": "Declarada també per a màrqueting del desenvolupador."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "google-home-app-store"
+      ]
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "google-home-app-store"
+      ],
+      "note": "Per compartir la casa amb altres persones i per a trucades i missatges per veu."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "google-home-app-store"
+      ],
+      "note": "Subscripcions de Nest Aware i compres associades."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "google-home-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts",
+        "cessio-a-tercers"
+      ],
+      "sources": [
+        "google-home-app-store"
+      ],
+      "note": "L’etiqueta declara historial de cerca i de navegació per a publicitat de tercers."
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "cessio-a-tercers",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "google-home-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "google-home-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "google-home-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "google-home-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "google-home-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada utilitzada per rastrejar entre aplicacions i llocs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "google-home-app-store"
+      ],
+      "detail": "L’etiqueta declara identificadors i dades de contacte per a màrqueting propi, i historial de cerca i de navegació per a publicitat de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi independent de rastrejadors de l’aplicació."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "google-home-nest-commitments",
+        "google-home-app-store"
+      ],
+      "detail": "Google es compromet a mantenir el vídeo, l’àudio i les lectures dels sensors separats de la publicitat, però admet que el text de les interaccions de veu amb l’Assistent pot alimentar la personalització dels anuncis. L’etiqueta declara, a més, historial de cerca i de navegació per a publicitat de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-home-nest-commitments"
+      ],
+      "detail": "Les dades dels sensors d’ambient i d’activitat es fan servir per millorar el funcionament dels dispositius i dels serveis.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-home-history"
+      ],
+      "detail": "Google diu que fa servir l’historial de la casa per desenvolupar els seus serveis i entrenar models d’IA.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "google-home-nest-commitments"
+      ],
+      "detail": "Google diu que el vídeo i les dades dels sensors només es comparteixen amb tercers amb permís explícit d’un membre de la casa, per exemple amb una companyia elèctrica en programes d’eficiència energètica.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-privacy-policy"
+      ],
+      "detail": "Política única i un sol compte per a tots els serveis de Google.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "google-privacy-policy"
+      ],
+      "detail": "Google declara que no ven informació personal.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-privacy-policy"
+      ],
+      "detail": "Les dades es poden tractar en servidors de fora de l’Espai Econòmic Europeu sota els marcs de transferència que Google declara.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "adequacy"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-transparency-report"
+      ],
+      "detail": "Informe de transparència amb les peticions governamentals de dades.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://transparencyreport.google.com/"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-home-history"
+      ],
+      "detail": "L’historial de la casa s’esborra automàticament als 18 mesos per defecte, i es pot configurar a 3 o 36 mesos o desactivar l’esborrat automàtic.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "google-home-history"
+      ],
+      "detail": "Google diu que l’esborrat comença immediatament, primer treient l’activitat de la vista i després dels sistemes d’emmagatzematge, sense donar un termini final.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "interaccions-i-us",
+        "period": "18 mesos per defecte; configurable a 3 o 36 mesos o sense esborrat automàtic",
+        "sources": [
+          "google-home-history"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-home-history",
+        "google-delete-account"
+      ],
+      "detail": "L’historial de la casa s’esborra des de l’aplicació o des de My Activity; el compte s’elimina amb el procés general de Google.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-home-history"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://myactivity.google.com/product/home",
+    "difficulty": "medium",
+    "waitingPeriodDays": 0,
+    "requiresSupportContact": false,
+    "steps": [
+      "A l’aplicació Google Home, toca la foto de perfil i obre «Configuració de la casa».",
+      "A «Privadesa», entra a «Historial de la casa» i tria «Desactiva» o «Desactiva i esborra l’activitat».",
+      "També pots esborrar l’activitat per interval de temps o element a element des de myactivity.google.com/product/home.",
+      "Per marxar del tot, elimina els dispositius de la casa i després segueix el procés general d’eliminació del compte de Google."
+    ],
+    "obstacles": "Eliminar el compte de Google fa perdre alhora Gmail, Drive, Fotos, YouTube i les compres digitals. Aquest acoblament fa difícil marxar d’un sol servei sense tocar la resta.",
+    "dataRetained": "Les gravacions de càmera desades a subscripcions de vídeo i el que Google conservi per motius legals o de seguretat.",
+    "sources": [
+      "google-home-history",
+      "google-delete-account"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-takeout-help"
+      ],
+      "detail": "Google Takeout permet exportar les dades de cada servei per separat en formats estàndard.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://takeout.google.com/"
+    },
+    "exportFormatQuality": "open",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-privacy-policy"
+      ],
+      "detail": "La política preveu els drets del RGPD i un formulari per exercir-los.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://support.google.com/policies/troubleshooter/9009584",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-home-nest-commitments",
+        "google-ad-center"
+      ],
+      "detail": "Google diu que la personalització dels anuncis, inclosa la que es pot nodrir del text de les interaccions amb l’Assistent, es pot desactivar del tot a la configuració d’anuncis del compte.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://myadcenter.google.com/"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "google-home-history"
+      ],
+      "detail": "Es pot desactivar l’historial de la casa, però la política no diu quines dades de funcionament continuen recollint-se.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-home-nest-commitments",
+        "google-home-history"
+      ],
+      "detail": "Es pot consultar i esborrar l’àudio i el vídeo desats, configurar l’esborrat automàtic i revisar la guia de sensors de cada dispositiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi de patrons foscos a l’aplicació Google Home."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "google-home-nest-commitments"
+      ],
+      "detail": "Google conserva i pot accedir a l’àudio i al vídeo desats al compte; els compromisos de Nest parlen d’actualitzacions i d’avaluacions de seguretat, no de xifratge d’extrem a extrem.",
+      "verifiedAt": "2026-09-22",
+      "scope": "none"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-safety-center"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-safety-center"
+      ],
+      "detail": "Xifratge en repòs amb claus gestionades per Google.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-safety-center"
+      ],
+      "detail": "Verificació en dos passos del compte de Google amb claus d’accés, claus físiques, aplicació d’autenticació, notificació i SMS.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "passkey",
+        "hardware-key",
+        "totp",
+        "app-push",
+        "sms"
+      ]
+    },
+    "independentAudits": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-home-nest-commitments"
+      ],
+      "detail": "Google diu que sotmet els dispositius Nest a avaluacions de seguretat de tercers independents i que garanteix actualitzacions de seguretat durant almenys cinc anys.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-home-nest-commitments",
+        "google-home-kunze-2022"
+      ],
+      "detail": "Els dispositius Nest entren al programa de recompenses de Google; el 2022 es va pagar una recompensa de 107.500 dòlars per una cadena d’errors a l’altaveu Google Home.",
+      "verifiedAt": "2026-09-22"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-safety-center"
+      ],
+      "detail": "Canal públic de notificació de vulnerabilitats a través de Google Bug Hunters.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Els compromisos de Nest són dels documents més concrets que publica Google, però conviuen amb una etiqueta de l’App Store que declara historial de cerca i de navegació per a publicitat de tercers. La fitxa deixa la contradicció a la vista perquè totes dues fonts són oficials.",
+    "openQuestions": [
+      "Què hi ha exactament darrere de l’historial de cerca i de navegació que l’etiqueta declara per a publicitat de tercers?",
+      "Des de l’ordre de l’autoritat d’Hamburg del 2019, quin és el règim de revisió humana dels enregistraments de l’Assistent a la Unió Europea?"
+    ]
+  },
+  "appStoreBundleId": "com.google.Chromecast"
+}

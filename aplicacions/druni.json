@@ -1,0 +1,510 @@
+{
+  "slug": "druni",
+  "name": "DRUNI",
+  "company": "druni",
+  "categories": [
+    "comerc-electronic"
+  ],
+  "tagline": "Baixa del compte en quatre passos dins de l’aplicació, amb una política de privadesa que no explica el rastreig que sí que declara a l’App Store",
+  "summary": "DRUNI és una cadena valenciana de perfumeria i parafarmàcia amb botiga en línia. L’aplicació permet eliminar el compte des del menú «Compte», sense passar per atenció al client, i això la situa per damunt de bona part del comerç electrònic espanyol. En canvi, la política de privadesa és un text breu que diu que «les dades no se cediran a tercers llevat d’obligació legal», mentre l’etiqueta de l’App Store declara identificador de dispositiu i dades d’ús i de publicitat utilitzats per rastrejar. El juliol del 2025 el grup de ransomware Akira va publicar l’empresa com a víctima i va dir tenir-ne més de 40 GB de documents.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://www.druni.es/",
+    "privacyPolicy": "https://www.druni.es/politica-privacidad",
+    "appStore": "https://apps.apple.com/es/app/id1592321069"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "druni-privacy-policy"
+    ],
+    "detail": "Es pot navegar pel catàleg sense compte; per comprar i per fer el seguiment de comandes cal registrar-s’hi.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "editorial",
+    "sources": [],
+    "detail": "Aplicació comercial tancada; no consta cap codi publicat.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Les compres de perfumeria i parafarmàcia poden revelar l’estat de salut i moments vitals: tractaments dermatològics, productes d’higiene íntima, tests d’embaràs o complements alimentaris. L’historial de cerca hi afegeix el que s’ha mirat sense comprar, i l’adreça de lliurament vincula aquestes dades a un domicili.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "druni-app-store",
+        "druni-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "druni-app-store",
+        "druni-privacy-policy"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "druni-app-store"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "druni-app-store"
+      ],
+      "note": "L’etiqueta la declara com a «adreça física» vinculada a la persona, per a la funcionalitat de l’aplicació."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "druni-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "druni-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "druni-app-store"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "druni-app-store"
+      ],
+      "note": "Declarada per a la funcionalitat de l’aplicació, presumiblement per localitzar botigues; la política no l’esmenta."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "druni-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "druni-app-store"
+      ],
+      "note": "L’etiqueta hi inclou les «dades de publicitat», utilitzades per rastrejar."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "druni-privacy-policy"
+      ],
+      "note": "La política explica que l’aplicació demana permís per adjuntar fotos o vídeos en obrir una incidència."
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "druni-privacy-policy"
+      ],
+      "note": "La política de galetes parla de galetes pròpies i de tercers amb finalitats analítiques i de perfil de navegació, però no en publica la llista."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "druni-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "druni-app-store"
+      ],
+      "detail": "L’etiqueta declara identificador de dispositiu, interacció amb el producte i dades de publicitat «utilitzats per rastrejar-te».",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "druni-app-store"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "druni-privacy-policy"
+      ],
+      "detail": "La política de galetes reconeix galetes de tercers amb finalitats analítiques i de perfil, però no n’identifica els proveïdors.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "druni-app-store",
+        "druni-privacy-policy"
+      ],
+      "detail": "L’etiqueta declara dades de publicitat per a màrqueting propi i l’avís de galetes parla de publicitat segons els hàbits de navegació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "druni-privacy-policy"
+      ],
+      "detail": "La política de galetes esmenta «el teu perfil» i l’anàlisi d’hàbits de navegació, però no descriu cap perfilat de compres ni ofereix cap oposició específica.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu res sobre l’ús de dades per entrenar models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "druni-privacy-policy"
+      ],
+      "detail": "La política afirma que «les dades no se cediran a tercers llevat d’obligació legal», cosa difícil de conciliar amb les galetes de tercers i amb el reCAPTCHA de Google que protegeix els formularis.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap estructura de grup ni cap compartició interna a la política."
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap referència a la venda de dades."
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta transferències internacionals, tot i incrustar serveis de Google i vídeos de YouTube."
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "druni-privacy-policy"
+      ],
+      "detail": "La política només diu que les dades es conserven «mentre es mantingui la vinculació» i després durant els terminis legals de prescripció, sense cap termini concret.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "druni-privacy-policy"
+      ],
+      "detail": "Es conserven les dades quan hi ha una obligació legal de manteniment o un termini de prescripció d’accions judicials.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "druni-delete-guide",
+        "druni-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "druni-delete-guide"
+      ],
+      "detail": "La pàgina oficial descriu quatre passos dins de l’aplicació, sense contactar amb ningú.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://www.druni.es/eliminar-cuenta-app",
+    "difficulty": "easy",
+    "steps": [
+      "Obre l’aplicació i entra a «Cuenta» des del menú inferior.",
+      "Dins de «Cuenta», obre l’apartat «Datos personales».",
+      "Tria l’opció «Eliminar cuenta».",
+      "Confirma prement el botó «Eliminar cuenta»."
+    ],
+    "dataRetained": "Dades de facturació i comandes durant els terminis legals de prescripció.",
+    "sources": [
+      "druni-delete-guide",
+      "druni-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "druni-privacy-policy"
+      ],
+      "detail": "Es reconeix el dret de portabilitat «en determinats supòsits», amb lliurament en format estructurat, però no hi ha cap eina d’autoservei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "druni-privacy-policy"
+      ],
+      "detail": "Els drets s’exerceixen per escrit adreçat al delegat de protecció de dades, adjuntant fotocòpia del DNI i enviant-ho a una adreça postal de Carlet; la política no dona cap adreça electrònica de protecció de dades.",
+      "verifiedAt": "2026-09-22",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "druni-privacy-policy"
+      ],
+      "detail": "Hi ha un tauler de configuració de galetes al web, però la política no descriu cap control equivalent per als identificadors de l’aplicació més enllà del permís de rastreig d’iOS.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap manera de desactivar l’analítica dins de l’aplicació."
+    },
+    "granularControls": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "druni-privacy-policy"
+      ],
+      "detail": "No hi ha cap panell de privadesa per finalitat; només la baixa del butlletí i la configuració de galetes del web.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [],
+      "detail": "L’avís de galetes ofereix «Acceptar totes» i «Rebutjar» al mateix nivell. El problema és que per exercir drets cal una fotocòpia del DNI i una carta postal, mentre que la baixa del compte es resol amb un botó a l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "confusing-language",
+        "severity": "medium",
+        "description": "La política assegura que no hi ha cessions a tercers llevat d’obligació legal, mentre l’etiqueta de l’App Store declara dades utilitzades per rastrejar i el web incrusta serveis de Google.",
+        "sources": [
+          "druni-privacy-policy",
+          "druni-app-store"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no transporta comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "editorial",
+      "sources": [],
+      "detail": "El web i l’aplicació es publiquen exclusivament sobre HTTPS; comprovat en consultar les pàgines legals el setembre del 2026.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha informació pública sobre el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap opció de verificació en dos passos per al compte."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories de seguretat publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses ni pàgina de seguretat; el fitxer /.well-known/security.txt de druni.es retorna un error 404."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap canal públic documentat per notificar vulnerabilitats."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "DRUNI mostra un desajust habitual al comerç espanyol: l’aplicació permet donar-se de baixa fàcilment, però la política de privadesa és breu i antiquada. La política no explica el rastreig que declara l’etiqueta de l’App Store.",
+    "openQuestions": [
+      "Quins proveïdors publicitaris hi ha darrere dels identificadors declarats per rastrejar? La política de galetes no en publica la llista.",
+      "Va afectar l’atac d’Akira del juliol del 2025 dades de clients de la botiga en línia? DRUNI no ha publicat cap comunicació al respecte."
+    ]
+  },
+  "appStoreBundleId": "es.druni.druniapp"
+}

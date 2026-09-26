@@ -1,0 +1,571 @@
+{
+  "slug": "fgc",
+  "name": "FGC: horario, zonas, tarifas",
+  "company": "ferrocarrils-de-la-generalitat-de-catalunya",
+  "categories": [
+    "mobilitat-i-transport"
+  ],
+  "tagline": "L’app pública d’horaris declara dades de contacte per rastrejar en apps d’altres empreses",
+  "summary": "L’app d’FGC ofereix horaris, zones, tarifes i alertes de servei, i un compte opcional per desar trajectes i rebre avisos. De les apps de transport públic de l’àrea de Barcelona, és l’única que declara a l’App Store dades utilitzades per rastrejar en apps i webs d’altres empreses (les de contacte), mentre les condicions diuen que les dades no es cedeixen a tercers. El compte s’esborra des de la mateixa app. El registre d’activitats d’FGC és públic però no té cap entrada per a aquesta app.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "public-service",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://www.fgc.cat/",
+    "privacyPolicy": "https://www.fgc.cat/politica-de-privacitat/",
+    "terms": "https://www.fgc.cat/termes-i-condicions-fgc-persones-usuaries/",
+    "privacyCenter": "https://transparencia.fgc.cat/ca/informacio-publica/normativa-i-informacio-interes-public/registre-activitats-tractament-i-proteccio-de-dades/registre-d2019activitats-de-tractament",
+    "appStore": "https://apps.apple.com/es/app/id481225824",
+    "rightsRequest": "https://tramits.fgc.cat/Ciutadania/DetallTramit.aspx?IdTramit=4"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "fgc-termes-usuaris",
+      "fgc-app-store"
+    ],
+    "detail": "Els horaris i les tarifes es consulten sense compte; el registre només cal per desar trajectes, veure’n l’historial i activar alertes.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "fgc-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "publicService": {
+    "isPublicService": true,
+    "administrationLevel": "regional",
+    "legalBasis": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "fgc-termes-usuaris",
+        "fgc-rat"
+      ],
+      "detail": "Les condicions i el registre fonamenten el compte i les alertes en el consentiment, sense citar cap norma ni cap competència d’FGC.",
+      "verifiedAt": "2026-09-22"
+    },
+    "processingRegistry": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "fgc-rat"
+      ],
+      "detail": "FGC publica el registre, actualitzat el 28 d’abril de 2026, amb l’activitat «Servei d’alertes»; però no hi ha cap activitat per al compte de l’app de transport, i els destinataris i les transferències hi són en blanc.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://transparencia.fgc.cat/ca/informacio-publica/normativa-i-informacio-interes-public/registre-activitats-tractament-i-proteccio-de-dades/registre-d2019activitats-de-tractament"
+    },
+    "dpia": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap avaluació d’impacte publicada."
+    },
+    "ensConformity": {
+      "status": "partial",
+      "level": "regulator",
+      "sources": [
+        "apdcat-ip-14-2021"
+      ],
+      "detail": "L’única evidència és el que FGC va declarar a l’APDCAT el 2021: una anàlisi de riscos del 2018 dins d’un pla d’adequació a l’ENS. No publica cap declaració ni certificat de conformitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dpo": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fgc-politica-privadesa"
+      ],
+      "detail": "Delegada de protecció de dades amb nom i correu publicats.",
+      "verifiedAt": "2026-09-22",
+      "contact": "dpd@fgc.cat"
+    },
+    "offlineAlternative": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fgc-centres-atencio"
+      ],
+      "detail": "La informació i les consultes es poden fer als centres d’atenció presencial, i els horaris són als canals no digitals de l’empresa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "accessibilityStatement": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "fgc-accessibilitat",
+        "fgc-app-store"
+      ],
+      "detail": "Hi ha una declaració del web fgc.cat, parcialment conforme i revisada el 2022, però no de l’app, i la fitxa de l’App Store no declara prestacions d’accessibilitat.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.fgc.cat/accessibilitat/"
+    },
+    "mandatoryRetention": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "fgc-termes-usuaris"
+      ],
+      "detail": "El compte s’esborra des de l’app i les dades es conserven fins a la baixa, amb els terminis legals posteriors.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataSummary": "Amb compte, el correu, les fotos i l’identificador d’usuari queden vinculats a la persona. Les condicions permeten a FGC fer servir l’adreça IP, la SIM, la wifi o la latitud i longitud, i afegir-hi dades opcionals sobre hàbits i interessos.",
+  "dataCollection": [
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "fgc-app-store",
+        "fgc-termes-usuaris"
+      ],
+      "note": "L’etiqueta declara les «dades de contacte» com a utilitzades per rastrejar, sense concretar quines."
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "fgc-app-store",
+        "fgc-rat"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "fgc-rat",
+        "fgc-termes-usuaris"
+      ],
+      "note": "Per a les alertes per SMS."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "fgc-app-store"
+      ]
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "fgc-app-store"
+      ]
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "fgc-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "fgc-app-store"
+      ],
+      "note": "L’historial de trajectes consultats dels últims sis mesos."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "fgc-termes-usuaris"
+      ],
+      "note": "«Dades de qualificació» sobre hàbits i interessos, opcionals."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "fgc-app-store",
+        "fgc-termes-usuaris"
+      ],
+      "note": "Per trobar l’estació més propera."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "fgc-app-store"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "fgc-termes-usuaris"
+      ],
+      "note": "Juntament amb dades de la SIM i de la connexió wifi."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "fgc-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "fgc-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fgc-app-store"
+      ],
+      "detail": "L’etiqueta declara que les dades de contacte poden servir per rastrejar en apps i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La documentació no esmenta identificadors publicitaris."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El rastreig declarat implica algun tercer, però ni les condicions ni la política n’identifiquen cap."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "fgc-termes-usuaris"
+      ],
+      "detail": "El registre implica rebre informació «informativa i comercial»; les comunicacions comercials, només si es marca la casella.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "fgc-termes-usuaris"
+      ],
+      "detail": "Les condicions preveuen dades opcionals de qualificació sobre hàbits i interessos.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La documentació no en diu res."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "fgc-termes-usuaris",
+        "fgc-app-store"
+      ],
+      "detail": "Les condicions diuen que les dades no es cedeixen a tercers llevat d’obligació legal, amb proveïdors com a encarregats; l’etiqueta de l’App Store, en canvi, declara dades de contacte per rastrejar en apps d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política cita altres societats del grup FGC com a responsables, però no si reben dades de l’app."
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La documentació no en diu res."
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Ni les condicions ni el registre en diuen res."
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "fgc-termes-usuaris",
+        "fgc-rat"
+      ],
+      "detail": "Fins a la baixa del compte o la revocació del consentiment, i després els terminis legals, sense xifres.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "fgc-termes-usuaris"
+      ],
+      "detail": "Es conserven els terminis que fixa la llei.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fgc-termes-usuaris"
+      ],
+      "detail": "Les condicions descriuen la baixa des de l’app i per correu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fgc-termes-usuaris"
+      ],
+      "detail": "Des de l’app: «prement el botó de tancar la sessió i posteriorment el botó d’eliminar compte del popup emergent».",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "easy",
+    "steps": [
+      "A l’app, prem el botó de tancar la sessió.",
+      "A la finestra emergent, prem «eliminar compte»."
+    ],
+    "sources": [
+      "fgc-termes-usuaris"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut comprovar com s’exerceix la portabilitat."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fgc-politica-privadesa"
+      ],
+      "detail": "Per correu postal, per correu electrònic a la delegada o per un tràmit en línia, amb reclamació a l’APDCAT.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://tramits.fgc.cat/Ciutadania/DetallTramit.aspx?IdTramit=4"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fgc-termes-usuaris"
+      ],
+      "detail": "Les comunicacions comercials requereixen marcar una casella.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "fgc-termes-usuaris"
+      ],
+      "detail": "El servei d’alertes no s’activa per defecte i les dades de qualificació són opcionals.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És una aplicació d’informació de transport, sense comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap auditoria de seguretat publicada."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "fgc.cat respon amb un error 404 a /.well-known/security.txt."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "google-maps",
+      "comparability": "partial",
+      "rationale": "Mostra els horaris d’FGC i planifica trajectes sense compte d’FGC.",
+      "tradeOffs": "Google vincula la ubicació i les cerques al compte si hi has iniciat sessió."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "El bundle (com.iboomobile) apunta que l’app la va desenvolupar un tercer, però no ho hem pogut confirmar amb cap font. No hem trobat cap resolució sancionadora de l’APDCAT contra FGC; la IP 14/2021 és un arxivament sense relació amb l’app.",
+    "openQuestions": [
+      "Quin SDK o tercer rep les dades de contacte que l’etiqueta declara per rastrejar?",
+      "Per què el registre d’activitats no té cap entrada per a l’app de transport?"
+    ]
+  },
+  "appStoreBundleId": "com.iboomobile.FGC2"
+}

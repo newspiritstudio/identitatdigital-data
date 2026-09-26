@@ -1,0 +1,657 @@
+{
+  "slug": "randstad",
+  "name": "Randstad App - Buscar trabajo",
+  "company": "randstad-espana",
+  "categories": [
+    "feina-i-ocupacio"
+  ],
+  "tagline": "Entrevistes gravades i anàlisi del perfil amb intel·ligència artificial, sense cap termini de conservació concret a la política",
+  "summary": "La política de candidats de Randstad reconeix que recull vídeos de presentació i enregistraments d’entrevistes, i que fa servir sistemes d’intel·ligència artificial per obtenir el perfil professional i analitzar-ne les competències, tot i que assegura que la decisió final sempre és humana. La base legal de bona part del tractament és l’interès legítim, no el consentiment. No dona cap termini concret de conservació: parla de «terminis legals de prescripció». La baixa del compte es pot demanar des dels ajustos del perfil, però no esborra les dades de qui hi ha tingut relació laboral.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "unknown",
+  "jurisdiction": "Espanya (Randstad España, S.L.U.), dins del grup neerlandès Randstad N.V.",
+  "links": {
+    "website": "https://www.randstad.es/",
+    "privacyPolicy": "https://www.randstad.es/politica-de-privacidad-candidatos/",
+    "appStore": "https://apps.apple.com/es/app/id1238193866",
+    "playStore": "https://play.google.com/store/apps/details?id=es.randstad.candidate"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "randstad-candidate-privacy",
+      "randstad-account-settings"
+    ],
+    "detail": "Per inscriure’s a les ofertes cal un compte de candidat amb perfil professional i currículum.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "randstad-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Randstad recull el currículum, les titulacions, idiomes, disponibilitat horària, vehicle propi, salari desitjat, nacionalitat, gènere i data de naixement, més vídeos de presentació i enregistraments d’entrevistes. La política admet que també pot recollir informació de perfils públics de xarxes socials i de referències laborals demanades a antics ocupadors, és a dir, dades sobre la persona obtingudes sense que hi intervingui.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "cessio-a-tercers"
+      ],
+      "sources": [
+        "randstad-candidate-privacy",
+        "randstad-app-store"
+      ],
+      "note": "Es comunica a les empreses clientes en els processos de selecció externa."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "randstad-candidate-privacy",
+        "randstad-app-store"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "randstad-candidate-privacy",
+        "randstad-app-store"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "randstad-app-store"
+      ],
+      "note": "L’etiqueta de l’App Store declara l’adreça física entre les dades de contacte vinculades a la identitat."
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "randstad-candidate-privacy"
+      ]
+    },
+    {
+      "type": "genere",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "investigacio-i-estadistica"
+      ],
+      "sources": [
+        "randstad-candidate-privacy"
+      ]
+    },
+    {
+      "type": "origen-etnic-o-nacionalitat",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "randstad-candidate-privacy"
+      ],
+      "note": "La política recull la nacionalitat per comprovar l’habilitació per treballar; no és una dada d’origen ètnic, però s’hi acosta."
+    },
+    {
+      "type": "nivell-formatiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "randstad-candidate-privacy"
+      ]
+    },
+    {
+      "type": "ocupacio-i-carrec",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "randstad-candidate-privacy"
+      ],
+      "note": "Experiència, disponibilitat horària, vehicle i salari desitjat."
+    },
+    {
+      "type": "llengua",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "randstad-candidate-privacy"
+      ]
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "randstad-candidate-privacy",
+        "randstad-app-store"
+      ],
+      "note": "Vídeos de presentació i enregistraments d’entrevistes amb suport d’intel·ligència artificial."
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "randstad-candidate-privacy"
+      ],
+      "note": "Forma part dels enregistraments d’entrevistes que esmenta la política."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "randstad-candidate-privacy"
+      ],
+      "note": "Perfil professional i anàlisi de competències obtinguts amb sistemes d’intel·ligència artificial supervisats."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "randstad-app-store",
+        "randstad-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "randstad-app-store"
+      ],
+      "note": "L’etiqueta declara la ubicació exacta per a la funcionalitat de l’aplicació."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "randstad-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "randstad-app-store"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "randstad-privacy-policy"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "randstad-privacy-policy"
+      ],
+      "note": "La política general esmenta píxels de seguiment a les campanyes de correu."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "randstad-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "randstad-app-store"
+      ],
+      "note": "És l’única categoria que l’etiqueta declara com a utilitzada per rastrejar."
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "unknown",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "unknown",
+      "note": "La política de candidats no esmenta explícitament dades de salut ni de discapacitat, tot i que són habituals en els processos de selecció."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "randstad-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store declara les dades de diagnòstic entre les que poden servir per rastrejar la persona en aplicacions i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’etiqueta no declara cap identificador publicitari i la política de candidats no n’esmenta cap."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "randstad-privacy-policy"
+      ],
+      "detail": "La política general descriu analítica web, galetes i píxels de seguiment a les campanyes de correu electrònic.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "randstad-privacy-policy",
+        "randstad-candidate-privacy"
+      ],
+      "detail": "La política general preveu analítica i comunicacions de màrqueting; les circulars a candidats es basen en l’interès legítim, amb baixa disponible. No hem trobat publicitat de tercers dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "randstad-candidate-privacy"
+      ],
+      "detail": "Randstad elabora un perfil professional i una anàlisi de competències amb suport de sistemes d’intel·ligència artificial, i afirma que això «en ningún caso» constitueix una decisió basada únicament en el tractament automatitzat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política diu que fa servir intel·ligència artificial per analitzar els perfils, però no aclareix si les dades dels candidats serveixen per entrenar-ne els models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "randstad-candidate-privacy"
+      ],
+      "detail": "Empreses clientes i clients potencials en els processos de selecció externa, prestadors de serveis com a encarregats i autoritats públiques quan hi ha obligació legal.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "randstad-candidate-privacy",
+        "randstad-privacy-policy"
+      ],
+      "detail": "Comunicació a altres entitats del grup Randstad a escala global, incloent-hi la matriu neerlandesa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Cap de les dues polítiques esmenta la venda de dades a intermediaris."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "randstad-candidate-privacy",
+        "randstad-privacy-policy"
+      ],
+      "detail": "Hi ha transferències fora de l’Espai Econòmic Europeu; la política remet a una pàgina específica de transferències i parla de «marcos jurídicos adecuados» sense concretar-los al text principal.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "randstad-candidate-privacy"
+      ],
+      "detail": "La política no dona cap termini concret: diu que conserva les dades «el tiempo necesario» i després bloquejades durant els terminis legals de prescripció.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "randstad-account-settings",
+        "randstad-candidate-privacy"
+      ],
+      "detail": "Qui ha tingut una relació laboral amb Randstad no pot fer esborrar les dades de la contractació: es conserven degudament bloquejades per obligació legal.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "randstad-account-settings"
+      ],
+      "detail": "Hi ha un botó de baixa als ajustos del compte de candidat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "randstad-account-settings"
+      ],
+      "detail": "Autoservei des del web de candidats; la supressió de totes les dades dels sistemes, en canvi, s’ha de demanar al delegat de protecció de dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://www.randstad.es/candidatos/preguntas-frecuentes/ajustes-cuenta-baja-usuario/",
+    "difficulty": "medium",
+    "steps": [
+      "Inicia sessió a My Randstad amb el compte de candidat.",
+      "Obre els ajustos amb la icona de clau anglesa de la part superior dreta.",
+      "Prem el botó «solicitar baja» i confirma-ho.",
+      "Per esborrar totes les dades dels sistemes, i no només el compte i el perfil, escriu a proteccion.datos@randstad.es demanant la supressió."
+    ],
+    "obstacles": "La baixa del compte només elimina el compte i el perfil. Les inscripcions a ofertes ja enviades no es poden retirar i les dades de qui ha tingut contracte es conserven bloquejades.",
+    "dataRetained": "Dades de la relació laboral i les que calgui conservar durant els terminis legals de prescripció.",
+    "sources": [
+      "randstad-account-settings",
+      "randstad-candidate-privacy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "randstad-candidate-privacy"
+      ],
+      "detail": "La política reconeix el dret de portabilitat, però no hi ha cap eina d’autoservei: s’ha de demanar per correu al responsable de protecció de dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "randstad-candidate-privacy"
+      ],
+      "detail": "Per correu a proteccion.datos@randstad.es o per escrit a la seu de Madrid, amb reclamació posterior davant de l’Agencia Española de Protección de Datos.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "randstad-candidate-privacy"
+      ],
+      "detail": "Es pot donar de baixa de les circulars i oposar-se als tractaments basats en l’interès legítim, però la política no descriu cap control de personalització dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap opció documentada per desactivar l’analítica dins de l’aplicació."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu un panell de consentiments granular per al perfil de candidat."
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem analitzat els formularis de registre i consentiment de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És una aplicació de cerca de feina, sense comunicacions privades xifrades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació oficial sobre el xifratge en trànsit d’aquesta aplicació."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública sobre el xifratge de les dades en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap opció documentada de verificació en dos passos per als comptes de candidat."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat auditories ni certificacions de seguretat publicades per a aquest servei."
+    },
+    "bugBounty": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "randstad-responsible-disclosure"
+      ],
+      "detail": "Randstad té un programa de divulgació responsable gestionat a la plataforma Intigriti, però la pàgina oficial no promet cap recompensa econòmica.",
+      "verifiedAt": "2026-09-22"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "randstad-responsible-disclosure"
+      ],
+      "detail": "Política pública de divulgació responsable, amb resposta compromesa en tres dies hàbils i crèdit a qui informa.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "infojobs",
+      "comparability": "equivalent",
+      "rationale": "És l’altre gran portal de cerca de feina a Espanya i cobreix el mateix ús.",
+      "tradeOffs": "També recull el currículum complet i el cedeix a les empreses que publiquen les ofertes."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Randstad té dues polítiques: una de general per al web i l’aplicació, i una d’específica per a candidats, que és la que descriu el tractament rellevant. Aquesta segona reconeix explícitament que fa servir intel·ligència artificial per elaborar el perfil professional i no dona terminis concrets de conservació.",
+    "openQuestions": [
+      "Quant de temps es conserva el currículum d’una persona que no ha arribat a treballar per a Randstad?",
+      "Quins sistemes d’intel·ligència artificial s’utilitzen per analitzar les entrevistes gravades i qui els proporciona?",
+      "Les dades de diagnòstic que l’etiqueta declara com a utilitzades per rastrejar, a quin SDK corresponen?"
+    ]
+  },
+  "appStoreBundleId": "es.randstad.candidate"
+}

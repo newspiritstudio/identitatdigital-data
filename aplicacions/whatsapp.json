@@ -1,0 +1,581 @@
+{
+  "slug": "whatsapp",
+  "name": "WhatsApp",
+  "company": "whatsapp-ireland",
+  "categories": [
+    "missatgeria"
+  ],
+  "tagline": "Missatgeria xifrada d’extrem a extrem dins del grup Meta",
+  "summary": "WhatsApp és el servei de missatgeria més utilitzat als Països Catalans i xifra d’extrem a extrem els missatges, les trucades i, opcionalment, les còpies de seguretat. El contingut està molt ben protegit, però el servei exigeix un número de telèfon, llegeix l’agenda de contactes sencera i genera un volum considerable de metadades accessibles per a Meta, que les comparteix amb la resta del grup.",
+  "platforms": [
+    "ios",
+    "android",
+    "web",
+    "windows",
+    "macos"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Irlanda, per a persones usuàries de l’Espai Econòmic Europeu",
+  "userBase": "Més de 2.000 milions de persones usuàries mensuals a escala mundial",
+  "links": {
+    "website": "https://www.whatsapp.com/",
+    "privacyPolicy": "https://www.whatsapp.com/legal/privacy-policy-eea",
+    "terms": "https://www.whatsapp.com/legal/terms-of-service-eea",
+    "privacyCenter": "https://www.whatsapp.com/privacy"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "wa-privacy-policy-eea"
+    ],
+    "detail": "Cal un número de telèfon verificat per SMS o trucada. No hi ha cap manera de fer servir el servei sense número.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "wa-security"
+    ],
+    "detail": "El client i el servidor són privatius. El protocol de xifratge (Signal Protocol) sí que és obert i està documentat, però la implementació no es pot auditar públicament.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "WhatsApp no pot llegir el contingut dels missatges, però sí que sap qui parla amb qui, des de quin dispositiu, amb quina freqüència i des de quina adreça IP. També puja l’agenda de contactes, cosa que li dona informació de persones que no són usuàries del servei.",
+  "dataCollection": [
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "wa-privacy-policy-eea"
+      ],
+      "note": "És l’identificador principal del compte i el punt d’unió amb la resta del grup Meta."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "wa-privacy-policy-eea"
+      ]
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "wa-privacy-policy-eea"
+      ],
+      "note": "El nom de perfil és lliure i no es verifica."
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "wa-privacy-policy-eea"
+      ],
+      "note": "Si s’autoritza, WhatsApp puja periòdicament els números de l’agenda, incloent-hi els de persones que no fan servir el servei."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "wa-security"
+      ],
+      "note": "Xifrat d’extrem a extrem: els servidors el transporten però no el poden llegir ni el conserven un cop lliurat."
+    },
+    {
+      "type": "metadades-de-comunicacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "wa-privacy-policy-eea"
+      ],
+      "note": "Qui es comunica amb qui, quan i durant quant de temps. És la informació que el xifratge no protegeix."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "wa-privacy-policy-eea"
+      ],
+      "note": "Permet inferir la ubicació aproximada encara que no s’hagi compartit la ubicació."
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "wa-privacy-policy-eea"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "wa-privacy-policy-eea"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "wa-privacy-policy-eea"
+      ],
+      "note": "Només si es comparteix la ubicació en un xat, i llavors va xifrada d’extrem a extrem."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "wa-privacy-policy-eea"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "wa-privacy-policy-eea"
+      ],
+      "note": "El servei és gratuït a Europa i no demana mitjà de pagament."
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "wa-privacy-policy-eea"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "wa-privacy-policy-eea"
+      ],
+      "detail": "WhatsApp no incorpora rastrejadors publicitaris de tercers ni segueix l’activitat de la persona usuària fora de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "wa-privacy-policy-eea"
+      ],
+      "detail": "No fa servir l’identificador publicitari del dispositiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "wa-privacy-policy-eea"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "wa-privacy-policy-eea"
+      ],
+      "detail": "A l’Espai Econòmic Europeu WhatsApp no mostra publicitat dins de les converses. La política sí que preveu compartir informació amb Meta per a finalitats de producte i seguretat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "wa-privacy-policy-eea"
+      ],
+      "detail": "No hi ha perfilat publicitari del contingut, però sí anàlisi de patrons d’ús i de metadades per a seguretat, integritat i millora del producte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "wa-privacy-policy-eea"
+      ],
+      "detail": "Els missatges xifrats no es poden fer servir per entrenar models. Les interaccions amb Meta AI dins de WhatsApp sí que surten del xifratge i queden subjectes a les condicions de Meta AI.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "wa-privacy-policy-eea"
+      ],
+      "detail": "Proveïdors de serveis i, en compliment de requeriments legals, autoritats. No hi ha cessió comercial a anunciants.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "regulator",
+      "sources": [
+        "wa-privacy-policy-eea",
+        "dpc-whatsapp-2021"
+      ],
+      "detail": "WhatsApp comparteix informació de compte, dispositiu i ús amb la resta d’empreses de Meta. La manca de claredat sobre aquesta compartició va ser el nucli de la sanció de 225 milions d’euros de 2021.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "wa-privacy-policy-eea"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wa-privacy-policy-eea"
+      ],
+      "detail": "Transferències als Estats Units i a altres països on opera el grup.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "adequacy"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-transparency-center"
+      ],
+      "detail": "Queda cobert per l’informe conjunt de Meta, no per un informe propi de WhatsApp.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://transparency.meta.com/"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "wa-manage-info"
+      ],
+      "detail": "Es publiquen terminis concrets per a l’eliminació del compte, però no per a totes les categories de dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "wa-manage-info"
+      ],
+      "detail": "Es conserven còpies de la informació en registres i còpies de seguretat fins a 90 dies, i indefinidament la informació que altres persones han compartit sobre tu. Els missatges als dispositius dels altres participants no s’esborren.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "contingut-de-missatges",
+        "period": "No es conserva un cop lliurat; fins a 30 dies si no s’ha pogut lliurar",
+        "sources": [
+          "wa-privacy-policy-eea"
+        ]
+      },
+      {
+        "period": "Fins a 90 dies per esborrar la informació dels sistemes després de sol·licitar l’eliminació",
+        "sources": [
+          "wa-manage-info"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wa-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wa-delete-account"
+      ],
+      "detail": "Es fa íntegrament des de l’aplicació, sense contactar amb ningú.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "easy",
+    "waitingPeriodDays": 0,
+    "requiresSupportContact": false,
+    "steps": [
+      "Obre WhatsApp i ves a Configuració.",
+      "Entra a Compte i tria «Elimina el meu compte».",
+      "Introdueix el número de telèfon amb el prefix del país.",
+      "Tria el motiu i confirma l’eliminació."
+    ],
+    "obstacles": "Eliminar el compte és senzill, però desinstal·lar l’aplicació sense fer aquest pas no elimina res: el compte continua actiu i la informació es conserva.",
+    "dataRetained": "Els missatges que has enviat es conserven als dispositius de les persones destinatàries. La informació dels registres pot trigar fins a 90 dies a desaparèixer i la informació que altres han compartit sobre tu no s’elimina.",
+    "sources": [
+      "wa-delete-account",
+      "wa-manage-info"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wa-manage-info"
+      ],
+      "detail": "Es pot demanar un informe del compte des de la mateixa aplicació.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://faq.whatsapp.com/227626810186044"
+    },
+    "exportFormatQuality": "mixed",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wa-manage-info"
+      ],
+      "detail": "Formulari de drets del grup Meta.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.whatsapp.com/contact/",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "WhatsApp no mostra publicitat personalitzada dins de les converses a l’Espai Econòmic Europeu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "wa-privacy-policy-eea"
+      ],
+      "detail": "No hi ha cap opció per desactivar la recollida de dades d’ús i de diagnòstic.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "wa-privacy-policy-eea"
+      ],
+      "detail": "Hi ha controls detallats de visibilitat (última hora de connexió, foto, estats, confirmacions de lectura), però no de recollida de dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [
+        "wa-privacy-policy-eea"
+      ],
+      "detail": "La sol·licitud d’accés a l’agenda es presenta com a imprescindible per fer servir l’aplicació, tot i que es pot fer servir sense.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "confusing-language",
+        "severity": "medium",
+        "description": "L’aplicació presenta l’accés complet a l’agenda com un requisit per començar, tot i que és possible iniciar converses introduint números manualment.",
+        "sources": [
+          "wa-privacy-policy-eea"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wa-security",
+        "wa-backups-whitepaper"
+      ],
+      "detail": "Missatges, trucades, videotrucades i estats van xifrats d’extrem a extrem per defecte des de 2016. Les còpies de seguretat al núvol es poden xifrar, però cal activar-ho.",
+      "verifiedAt": "2026-09-22",
+      "scope": "metadata-excluded",
+      "protocol": "Signal Protocol"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wa-security"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wa-backups-whitepaper"
+      ],
+      "detail": "Les còpies de seguretat xifrades d’extrem a extrem són opcionals i requereixen una contrasenya o clau de 64 dígits.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wa-security"
+      ],
+      "detail": "Verificació en dos passos amb un PIN de sis dígits i, més recentment, claus d’accés.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "passkey",
+        "app-push"
+      ]
+    },
+    "independentAudits": {
+      "status": "partial",
+      "level": "independent",
+      "sources": [
+        "wa-security"
+      ],
+      "detail": "El protocol Signal ha estat àmpliament analitzat per la comunitat acadèmica, però no hi ha auditories publicades de la implementació de WhatsApp.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.whatsapp.com/security/advisories"
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wa-security"
+      ],
+      "detail": "Cobert pel programa de recompenses de Meta.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.facebook.com/whitehat"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wa-security"
+      ],
+      "detail": "WhatsApp publica avisos de seguretat amb identificadors CVE.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "signal",
+      "comparability": "equivalent",
+      "rationale": "Cobreix la mateixa necessitat (missatgeria, trucades i grups xifrats d’extrem a extrem) amb el mateix protocol criptogràfic, però sense agenda al servidor, sense metadades explotables i sense pertànyer a un grup publicitari.",
+      "tradeOffs": "La base d’usuaris és molt més petita, cosa que a la pràctica obliga a mantenir els dos serveis o a convèncer l’entorn."
+    },
+    {
+      "app": "telegram",
+      "comparability": "partial",
+      "rationale": "Cobreix la missatgeria i hi afegeix canals i grups massius, però els xats normals no estan xifrats d’extrem a extrem: només els xats secrets, que cal iniciar expressament i no funcionen en grup.",
+      "tradeOffs": "Protegeix menys el contingut que WhatsApp."
+    }
+  ],
+  "review": {
+    "researchStatus": "in-depth",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La puntuació separa contingut i metadades. Si només es mirés el xifratge, WhatsApp sortiria com un dels serveis més protectors del directori; el que penalitza la seva puntuació de privadesa és la compartició dins del grup, l’agenda i la impossibilitat de fer servir el servei sense número de telèfon.",
+    "openQuestions": [
+      "Quina informació concreta de WhatsApp arriba als sistemes publicitaris de Meta i quina es queda dins del servei?",
+      "Quin percentatge de comptes té activades les còpies de seguretat xifrades?"
+    ]
+  },
+  "appStoreBundleId": "net.whatsapp.WhatsApp"
+}

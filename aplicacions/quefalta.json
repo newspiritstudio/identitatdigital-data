@@ -1,0 +1,428 @@
+{
+  "slug": "quefalta",
+  "name": "QuéFalta",
+  "company": "ruben-ruiz-osma",
+  "categories": [
+    "alimentacio-i-restauracio"
+  ],
+  "tagline": "Llista de la compra compartida sense anuncis ni rastreig, amb esborrat immediat del compte",
+  "summary": "QuéFalta és una aplicació d’un desenvolupador independent espanyol per compartir la llista de la compra i comparar preus de supermercats. No té publicitat, l’etiqueta només declara les fotos i l’identificador d’usuari per al funcionament, i el compte s’esborra de manera immediata des de l’aplicació. Les dades es guarden a Supabase amb servidors a la Unió Europea.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "donations",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://quefalta.es/",
+    "privacyPolicy": "https://quefalta.es/privacidad/",
+    "appStore": "https://apps.apple.com/es/app/id6777720373"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "quefalta-privacy-policy",
+      "quefalta-app-store"
+    ],
+    "detail": "Cal iniciar la sessió amb Apple o Google.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": [],
+    "detail": "No hem trobat el codi publicat."
+  },
+  "dataSummary": "La llista de la compra i l’historial de compres revelen hàbits alimentaris i la composició de la llar. Els membres de cada grup veuen el nom, la foto i l’activitat de les llistes compartides.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "quefalta-privacy-policy"
+      ],
+      "note": "Obtingut d’Apple o de Google; visible per als membres dels grups."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "quefalta-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "quefalta-app-store",
+        "quefalta-privacy-policy"
+      ],
+      "note": "Inclou el nom d’usuari (@)."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "quefalta-app-store",
+        "quefalta-privacy-policy"
+      ],
+      "note": "Foto de perfil opcional."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "quefalta-privacy-policy"
+      ],
+      "note": "Llistes, productes, compres finalitzades i favorits; no apareix a l’etiqueta de l’App Store."
+    },
+    {
+      "type": "xarxa-de-contactes",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "quefalta-privacy-policy"
+      ],
+      "note": "Grups i relacions d’amistat dins de l’aplicació."
+    },
+    {
+      "type": "testimoni-d-autenticacio",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "quefalta-privacy-policy"
+      ],
+      "note": "Testimoni de notificacions, enviat a Expo, Apple o Google només si s’activen."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "quefalta-privacy-policy"
+      ],
+      "note": "La política diu que no hi ha publicitat."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "quefalta-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap dada utilitzada per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "quefalta-privacy-policy"
+      ],
+      "detail": "Sense publicitat ni ús publicitari de les dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "quefalta-privacy-policy"
+      ],
+      "detail": "La política no preveu analítica a l’aplicació; Google Analytics només es carrega al web si s’accepten les galetes.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "quefalta-privacy-policy"
+      ],
+      "detail": "La política diu que l’aplicació no té anuncis i que no fa servir les dades per a publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "quefalta-privacy-policy"
+      ],
+      "detail": "Les finalitats es limiten al servei, a les funcions opcionals i a la seguretat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no en parla."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "quefalta-privacy-policy"
+      ],
+      "detail": "Només encarregats del tractament: Supabase, Apple i Google per a l’inici de sessió i Expo per a les notificacions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha cap grup empresarial.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "quefalta-privacy-policy"
+      ],
+      "detail": "No ven ni cedeix dades a tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "quefalta-privacy-policy"
+      ],
+      "detail": "Base de dades a la Unió Europea; les notificacions passen per Expo, Apple o Google i poden implicar transferències.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Desenvolupador individual sense peticions d’autoritats publicades; un informe de transparència no s’espera d’un servei d’aquesta mida.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "quefalta-privacy-policy"
+      ],
+      "detail": "Les dades es conserven mentre existeix el compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "quefalta-delete-account"
+      ],
+      "detail": "Esborrat permanent i immediat; només es mantenen, desvinculats de la identitat, els productes afegits a llistes de grups compartits.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "quefalta-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "quefalta-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://quefalta.es/eliminar-cuenta/",
+    "difficulty": "easy",
+    "waitingPeriodDays": 0,
+    "requiresSupportContact": false,
+    "steps": [
+      "Obre QuéFalta i inicia la sessió.",
+      "Ves a Perfil > Privacitat i seguretat.",
+      "Toca «Eliminar cuenta» i confirma: l’esborrat és immediat i no es pot desfer.",
+      "Sense accés a l’aplicació, escriu a contacto@quefalta.es des de l’adreça del compte amb l’assumpte «Eliminar cuenta»; hi ha un termini màxim de 30 dies."
+    ],
+    "dataRetained": "Els productes afegits a llistes de grups compartits, desvinculats de la identitat.",
+    "sources": [
+      "quefalta-delete-account"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "quefalta-privacy-policy"
+      ],
+      "detail": "Portabilitat reconeguda; cal demanar-la per correu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "quefalta-privacy-policy"
+      ],
+      "detail": "Des de l’aplicació o per correu, amb reclamació davant l’AEPD.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:contacto@quefalta.es"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no té publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "La política no preveu analítica a l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "quefalta-privacy-policy"
+      ],
+      "detail": "Foto, visibilitat per nom d’usuari i notificacions s’activen i es retiren des de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "protective",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi de patrons foscos."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "quefalta-privacy-policy"
+      ],
+      "detail": "Les llistes es guarden a Supabase per sincronitzar-les; no hi ha cap promesa de xifratge d’extrem a extrem.",
+      "verifiedAt": "2026-09-22",
+      "scope": "none"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació tècnica sobre el xifratge."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha informació sobre el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "quefalta-privacy-policy"
+      ],
+      "detail": "No hi ha contrasenya pròpia: la seguretat depèn del compte d’Apple o de Google amb què s’entra.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap canal específic; hi ha una adreça de contacte general."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Aplicació publicada a mitjan 2026 per una sola persona. L’etiqueta de l’App Store no inclou les llistes ni l’historial de compres, que la política sí declara. El model de negoci és una suposició raonable a partir de l’apartat «Apoyar» del web.",
+    "openQuestions": [
+      "Com es finança l’aplicació a llarg termini i què passaria amb les dades si canviés de mans?"
+    ]
+  },
+  "appStoreBundleId": "com.quefalta.app"
+}

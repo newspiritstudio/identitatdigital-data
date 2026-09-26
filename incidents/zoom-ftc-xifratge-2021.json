@@ -1,0 +1,23 @@
+{
+  "slug": "zoom-ftc-xifratge-2021",
+  "title": "Acord amb la FTC per haver afirmat durant anys un xifratge d’extrem a extrem que no existia",
+  "type": "regulatory-order",
+  "severity": "high",
+  "apps": [
+    "zoom-workplace"
+  ],
+  "company": "zoom-communications",
+  "occurredAt": "2020-11-09",
+  "disclosedAt": "2021-01-19",
+  "description": "La Comissió Federal de Comerç dels Estats Units va concloure que des de 2016 Zoom afirmava oferir xifratge d’extrem a extrem de 256 bits quan en realitat feia servir TLS i conservava les claus criptogràfiques, de manera que podia accedir al contingut de les reunions; que desava gravacions al núvol sense xifrar fins a dos mesos; i que havia instal·lat a macOS un servidor web, ZoomOpener, que eludia les proteccions de Safari. L’ordre final, adoptada el gener de 2021 per tres vots contra dos, no va imposar cap sanció econòmica però obliga Zoom a un programa integral de seguretat, a avaluacions independents cada dos anys i a no interferir amb les proteccions de tercers.",
+  "affectedPeople": "Totes les persones que van utilitzar Zoom confiant en l’afirmació de xifratge d’extrem a extrem entre 2016 i 2020.",
+  "regulatory": {
+    "authority": "Federal Trade Commission (Estats Units)",
+    "legalBasis": "Secció 5 de la Llei de la Comissió Federal de Comerç",
+    "status": "final"
+  },
+  "sources": [
+    "zoom-ftc-2021",
+    "zoom-ftc-blog-2020"
+  ]
+}

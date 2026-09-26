@@ -1,0 +1,485 @@
+{
+  "slug": "emt-madrid",
+  "name": "EMT Madrid",
+  "company": "emt-madrid",
+  "categories": [
+    "mobilitat-i-transport"
+  ],
+  "tagline": "Temps d’arribada dels autobusos de Madrid, amb compte mPass opcional i conservació de sis anys",
+  "summary": "L’aplicació d’EMT dona informació de línies, parades i temps d’arribada, i amb un compte mPass permet rebre avisos de les línies que es fan servir. La política és curta i concreta: dades identificatives, geolocalització i dades de reclamacions, sense transferències fora de l’Espai Econòmic Europeu. Les dades d’ús s’anonimitzen i es conserven sis anys més després de deixar de ser persona usuària.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "public-service",
+  "jurisdiction": "Espanya (Ajuntament de Madrid)",
+  "links": {
+    "website": "https://www.emtmadrid.es/",
+    "privacyPolicy": "https://www.emtmadrid.es/PoliticaPrivacidadEMTBus",
+    "appStore": "https://apps.apple.com/es/app/id332237215"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "emt-madrid-privacy-policy"
+    ],
+    "detail": "La consulta de línies i parades és lliure; els avisos personalitzats requereixen un compte mPass.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": [],
+    "detail": "No hem trobat el codi publicat."
+  },
+  "publicService": {
+    "isPublicService": true,
+    "administrationLevel": "local",
+    "legalBasis": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "emt-madrid-privacy-policy"
+      ],
+      "detail": "La política legitima el tractament en el consentiment de la persona i, per a l’anonimització de les dades d’ús, en l’interès legítim d’EMT; no cita cap norma que empari la prestació del servei públic.",
+      "verifiedAt": "2026-09-22"
+    },
+    "processingRegistry": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat publicat el registre d’activitats de tractament d’EMT ni cap entrada identificable d’aquesta aplicació al de l’Ajuntament de Madrid."
+    },
+    "dpia": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat publicada cap avaluació d’impacte relativa a la protecció de dades."
+    },
+    "ensConformity": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "EMT és una societat mercantil municipal; no hem trobat cap declaració de conformitat amb l’Esquema Nacional de Seguretat dels seus sistemes."
+    },
+    "dpo": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "emt-madrid-privacy-policy"
+      ],
+      "detail": "La política identifica el delegat de protecció de dades d’EMT amb correu electrònic i adreça postal.",
+      "verifiedAt": "2026-09-22",
+      "contact": "dpd@emtmadrid.es"
+    },
+    "offlineAlternative": {
+      "status": "yes",
+      "level": "editorial",
+      "sources": [
+        "emt-madrid-privacy-policy"
+      ],
+      "detail": "Interpretació pròpia: l’aplicació és informativa i la política diu que la consulta de línies i parades no necessita compte; el servei d’autobús es pot fer servir sense instal·lar-la, amb la informació de les marquesines i el telèfon d’atenció.",
+      "verifiedAt": "2026-09-22"
+    },
+    "accessibilityStatement": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap declaració d’accessibilitat del Reial decret 1112/2018 al web d’EMT: el peu de pàgina només enllaça l’avís legal, la privadesa i una pàgina de responsabilitat social sobre l’accessibilitat dels vehicles."
+    },
+    "mandatoryRetention": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "emt-madrid-privacy-policy"
+      ],
+      "detail": "La política només preveu conservar les dades mentre duri la condició de persona usuària més un màxim de sis anys per a possibles responsabilitats; no invoca cap obligació legal de conservació que impedeixi esborrar el compte.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataSummary": "Les parades i línies preferides i els avisos d’arribada mostren els desplaçaments habituals: on viu i on treballa la persona i a quina hora es mou.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "emt-madrid-privacy-policy",
+        "emt-madrid-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "emt-madrid-privacy-policy",
+        "emt-madrid-app-store"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "emt-madrid-privacy-policy",
+        "emt-madrid-app-store"
+      ]
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "emt-madrid-privacy-policy"
+      ],
+      "note": "La política esmenta el DNI entre les dades identificatives."
+    },
+    {
+      "type": "adreca-postal",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "emt-madrid-app-store"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "emt-madrid-privacy-policy",
+        "emt-madrid-app-store"
+      ],
+      "note": "Només si s’hi dona permís; la base jurídica declarada és el consentiment."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "emt-madrid-privacy-policy"
+      ],
+      "note": "EMT diu que anonimitza les dades d’ús per millorar el servei."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "emt-madrid-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "emt-madrid-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada utilitzada per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "emt-madrid-app-store"
+      ],
+      "detail": "L’etiqueta no declara l’identificador publicitari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi independent dels kits de tercers que porta l’aplicació."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "emt-madrid-privacy-policy"
+      ],
+      "detail": "La clàusula de protecció de dades no preveu cap finalitat publicitària.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La informació publicada no en diu res."
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "emt-madrid-mpass-privacy"
+      ],
+      "detail": "El compte mPass preveu un perfil de mobilitat per adaptar serveis i avisos, només amb consentiment exprés.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "emt-madrid-privacy-policy"
+      ],
+      "detail": "Només proveïdors tecnològics que actuen per compte d’EMT i comunicacions per obligació legal.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "emt-madrid-mpass-privacy"
+      ],
+      "detail": "El compte mPass és comú a diversos serveis municipals de mobilitat (BiciMAD, aparcaments) i els seus operadors reben les dades quan la persona s’hi dona d’alta.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "emt-madrid-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "emt-madrid-privacy-policy"
+      ],
+      "detail": "Sense transferències fora de l’Espai Econòmic Europeu.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "none"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "emt-madrid-privacy-policy"
+      ],
+      "detail": "Mentre es manté la condició de persona usuària i fins a sis anys més.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "emt-madrid-mpass-privacy"
+      ],
+      "detail": "Després de la baixa les dades queden bloquejades fins a sis anys pel termini de prescripció d’accions legals.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "period": "Durada de la relació més un màxim de sis anys",
+        "sources": [
+          "emt-madrid-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "emt-madrid-privacy-policy",
+        "emt-madrid-mpass-privacy"
+      ],
+      "detail": "Es pot exercir el dret de supressió i tramitar la baixa del compte mPass.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut verificar si la baixa del compte mPass es pot fer des de l’aplicació d’EMT o cal escriure a protecció de dades."
+    },
+    "difficulty": "unknown",
+    "steps": [
+      "Escriu a proteccion.datos@emtmadrid.es demanant la supressió de les dades i la baixa del compte mPass.",
+      "Com a alternativa, envia una carta a EMT, Calle Cerro de la Plata 4, 28007 Madrid."
+    ],
+    "dataRetained": "Les dades del compte i dels pagaments queden bloquejades fins a sis anys.",
+    "sources": [
+      "emt-madrid-privacy-policy",
+      "emt-madrid-mpass-privacy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "emt-madrid-privacy-policy"
+      ],
+      "detail": "Es reconeixen l’accés i la portabilitat, però per sol·licitud, no amb una eina.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "emt-madrid-privacy-policy"
+      ],
+      "detail": "Per correu a proteccion.datos@emtmadrid.es o per carta; delegat de protecció de dades a dpd@emtmadrid.es.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:proteccion.datos@emtmadrid.es"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no mostra publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "emt-madrid-privacy-policy",
+        "emt-madrid-mpass-privacy"
+      ],
+      "detail": "La geolocalització es basa en el permís del dispositiu, i el màrqueting i el perfil de mobilitat de mPass requereixen consentiment separat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "protective",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No transporta comunicacions entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política de mPass esmenta verificacions per SMS, però no hem trobat si hi ha verificació en dos passos a l’inici de sessió."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat auditories ni certificacions publicades específicament sobre aquesta aplicació."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses per vulnerabilitats."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap canal públic de notificació de vulnerabilitats ni fitxer security.txt."
+    }
+  },
+  "review": {
+    "researchStatus": "initial",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "L’atac de 2019 a les estacions de BiciMAD es registra a la fitxa de BiciMAD, que és el servei afectat.",
+    "openQuestions": [
+      "Es pot donar de baixa el compte mPass des de l’aplicació d’EMT?"
+    ]
+  },
+  "appStoreBundleId": "es.emtmadrid.EMTMadrid"
+}

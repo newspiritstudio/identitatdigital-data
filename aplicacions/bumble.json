@@ -1,0 +1,639 @@
+{
+  "slug": "bumble",
+  "name": "Bumble",
+  "company": "badoo-trading",
+  "categories": [
+    "cites"
+  ],
+  "tagline": "Dades sensibles vinculades amb la identitat i ubicació utilitzada per rastrejar-te",
+  "summary": "Bumble declara a l’App Store onze categories de dades vinculades amb la identitat, incloses les sensibles i les de salut i forma física, i quatre utilitzades per rastrejar-te fora de l’aplicació, entre elles la ubicació. La política és de les poques del sector que dona terminis de conservació per categoria després d’eliminar el compte, i identifica els proveïdors de moderació, verificació i intel·ligència artificial. La responsabilitat és de dues societats, britànica i nord-americana, sense establiment principal declarat a la Unió Europea.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Regne Unit i Estats Units",
+  "userBase": "Una de les aplicacions de cites més descarregades a Espanya",
+  "links": {
+    "website": "https://bumble.com/",
+    "privacyPolicy": "https://bumble.com/es/privacy",
+    "appStore": "https://apps.apple.com/es/app/id930441707"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "bumble-privacy-policy"
+    ],
+    "detail": "La política diu que cal facilitar nom, adreça electrònica i data de naixement per registrar-se.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "bumble-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Una aplicació de cites treballa per definició amb dades que el RGPD protegeix especialment: orientació sexual, creences, origen ètnic i salut. Bumble hi afegeix la geolocalització contínua, el reconeixement facial de la verificació i el contingut de les converses, i declara que part d’aquest conjunt s’utilitza per rastrejar-te en aplicacions i webs d’altres empreses.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bumble-privacy-policy",
+        "bumble-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "bumble-privacy-policy",
+        "bumble-app-store"
+      ],
+      "note": "L’etiqueta declara les dades de contacte entre les utilitzades per rastrejar."
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "bumble-privacy-policy"
+      ],
+      "note": "La política diu que l’edat es comparteix amb proveïdors de màrqueting per segmentar anuncis."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "bumble-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "bumble-privacy-policy",
+        "bumble-app-store"
+      ],
+      "note": "La política declara la ubicació GPS com a dada obligatòria, i l’etiqueta declara la ubicació entre les dades utilitzades per rastrejar-te."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "bumble-privacy-policy"
+      ],
+      "note": "La política diu que la ubicació aproximada es comparteix amb proveïdors de màrqueting."
+    },
+    {
+      "type": "orientacio-sexual",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bumble-privacy-policy",
+        "bumble-app-store"
+      ],
+      "note": "Dada de categoria especial que la política tracta com a voluntària; l’etiqueta declara «datos sensibles» vinculats amb la identitat."
+    },
+    {
+      "type": "conviccions-i-opinions",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bumble-privacy-policy"
+      ],
+      "note": "Creences religioses declarades al perfil."
+    },
+    {
+      "type": "origen-etnic-o-nacionalitat",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bumble-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bumble-app-store"
+      ],
+      "note": "L’etiqueta declara la categoria «salud y forma física» vinculada amb la identitat."
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "bumble-privacy-policy"
+      ],
+      "note": "Reconeixement facial de la verificació de perfil, tractat per Veriff."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "bumble-privacy-policy",
+        "bumble-app-store"
+      ]
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "bumble-privacy-policy"
+      ],
+      "note": "La moderació passa per Cinder i, en algunes funcions, per OpenAI amb una conservació màxima de trenta dies."
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bumble-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bumble-app-store",
+        "bumble-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bumble-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "bumble-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "bumble-app-store",
+        "bumble-privacy-policy"
+      ],
+      "note": "La política diu que les dades de navegació es comparteixen amb proveïdors de màrqueting."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "bumble-privacy-policy"
+      ],
+      "note": "La política descriu algorismes que prediuen la compatibilitat entre persones."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "bumble-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bumble-app-store"
+      ],
+      "detail": "L’etiqueta declara ubicació, dades de contacte, identificadors i dades d’ús utilitzats per rastrejar-te en aplicacions i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bumble-app-store"
+      ],
+      "detail": "Identificadors declarats sota la secció de dades utilitzades per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bumble-privacy-policy",
+        "bumble-app-store"
+      ],
+      "detail": "La política declara la compartició de gènere, edat, ubicació aproximada i dades de navegació amb proveïdors de serveis de màrqueting.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bumble-privacy-policy"
+      ],
+      "detail": "Publicitat segmentada a partir de gènere, edat, ubicació aproximada i navegació, subjecta al consentiment segons la política.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bumble-privacy-policy"
+      ],
+      "detail": "Algorismes de predicció de compatibilitat que ordenen qui veus i qui et veu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bumble-privacy-policy"
+      ],
+      "detail": "La política declara l’ús d’OpenAI per a la moderació amb una conservació de trenta dies, però no diu si el contingut s’utilitza per entrenar models.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bumble-privacy-policy"
+      ],
+      "detail": "Proveïdors identificats pel nom: Cinder i Zendesk per a moderació i suport, Veriff per a la verificació d’identitat, OpenAI i Google Cloud per a infraestructura, i proveïdors de màrqueting.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bumble-privacy-policy"
+      ],
+      "detail": "Badoo Trading Limited i Bumble Trading LLC actuen com a responsables conjunts, i Bumble Trading Limited dona suport per exercir els drets.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no declara cap venda de dades a intermediaris."
+    },
+    "internationalTransfers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bumble-privacy-policy"
+      ],
+      "detail": "Els responsables són societats del Regne Unit i dels Estats Units i la infraestructura és de Google Cloud, però la política no detalla el mecanisme de transferència aplicat.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem localitzat cap informe de transparència sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bumble-privacy-policy"
+      ],
+      "detail": "La política dona terminis per categoria: vint-i-vuit dies per a les dades de perfil, noranta dies per als documents de verificació, sis anys per a les dades bàsiques i la correspondència de suport, i de noranta dies a quinze anys per als expedients de moderació segons la gravetat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bumble-privacy-policy"
+      ],
+      "detail": "Eliminar el compte esborra el perfil al cap de vint-i-vuit dies, però les dades bàsiques es conserven sis anys i els casos de moderació greus, fins a quinze anys.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "period": "Dades de perfil: 28 dies després d’eliminar el compte",
+        "sources": [
+          "bumble-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "dades-biometriques",
+        "period": "Documents i comprovacions de verificació: 90 dies",
+        "sources": [
+          "bumble-privacy-policy"
+        ]
+      },
+      {
+        "period": "Expedients de moderació: de 90 dies a 15 anys segons la gravetat",
+        "sources": [
+          "bumble-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bumble-privacy-policy"
+      ],
+      "detail": "La política dedica un apartat a què passa quan elimines el compte i fixa els terminis de supressió de cada categoria.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El centre d’ajuda de Bumble no s’ha deixat consultar i no hem pogut verificar els passos exactes dins de l’aplicació."
+    },
+    "difficulty": "unknown",
+    "obstacles": "Després d’eliminar el compte, el servei conserva les dades bàsiques sis anys i els expedients de moderació fins a quinze anys.",
+    "dataRetained": "Dades bàsiques del compte durant sis anys, correspondència de suport durant sis anys i expedients de moderació fins a quinze anys.",
+    "sources": [
+      "bumble-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bumble-privacy-policy"
+      ],
+      "detail": "La política reconeix el dret de portabilitat entre els vuit drets que enumera.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bumble-privacy-policy"
+      ],
+      "detail": "Contacte amb el delegat de protecció de dades a DPO@bumble.com i formulari de contacte.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:DPO@bumble.com",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bumble-privacy-policy"
+      ],
+      "detail": "La política supedita la publicitat segmentada al consentiment, però no descriu on es retira dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap control per desactivar l’analítica d’ús."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bumble-privacy-policy"
+      ],
+      "detail": "Les dades sensibles del perfil són voluntàries i es poden no declarar, però no hi ha un panell únic de privadesa documentat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem revisat els fluxos de consentiment ni el camí de sortida amb prou detall per afirmar-ho."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta cap xifratge d’extrem a extrem dels missatges, i la moderació per Cinder i OpenAI implica que el contingut és accessible al servei."
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem localitzat documentació tècnica sobre el xifratge del canal."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut consultar el centre d’ajuda per confirmar quins segons factors admet el compte."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories de seguretat independents publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut confirmar l’existència d’un programa de recompenses actiu."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem localitzat cap política pública de divulgació de vulnerabilitats."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "tinder",
+      "comparability": "equivalent",
+      "rationale": "L’altra gran aplicació de cites del mercat espanyol, amb una base d’usuaris comparable.",
+      "tradeOffs": "Tinder és del grup Match, que té les seves pròpies pràctiques de perfilat; canviar-hi no redueix per si sol l’exposició de dades sensibles."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Bumble publica terminis de conservació per categoria i anomena els proveïdors, cosa poc habitual al sector. En canvi, declara la ubicació entre les dades utilitzades per rastrejar en un servei que necessita la ubicació per funcionar.",
+    "openQuestions": [
+      "Quins són els passos exactes per eliminar el compte des de l’aplicació?",
+      "Quin és l’establiment principal a la Unió Europea i, per tant, l’autoritat de control competent?",
+      "Els missatges estan xifrats en trànsit i en repòs amb claus que el servei no pugui llegir?"
+    ]
+  },
+  "appStoreBundleId": "com.moxco.bumble"
+}

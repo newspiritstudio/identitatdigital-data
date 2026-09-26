@@ -1,0 +1,450 @@
+{
+  "slug": "meteored",
+  "name": "Meteored - El Tiempo 14 Días",
+  "company": "alpred",
+  "categories": [
+    "meteorologia"
+  ],
+  "tagline": "Previsió del temps amb la ubicació exacta declarada com a dada per rastrejar-te",
+  "summary": "Meteored, l’aplicació de tiempo.com, és el servei meteorològic espanyol més descarregat. La seva etiqueta de l’App Store declara que la ubicació exacta i aproximada, l’identificador de dispositiu i les dades de publicitat es poden fer servir per rastrejar-te en apps i webs d’altres empreses. La política ho confirma: descriu la precisió del GPS, els identificadors publicitaris GAID i IDFA i una plataforma de consentiment conforme a l’estàndard d’IAB Spain amb els seus socis publicitaris.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "advertising",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://www.tiempo.com/",
+    "privacyPolicy": "https://www.tiempo.com/privacy.html",
+    "appStore": "https://apps.apple.com/es/app/id543364901"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "editorial",
+    "sources": [
+      "meteored-app-store",
+      "meteored-privacy-policy"
+    ],
+    "detail": "L’etiqueta no declara cap dada vinculada a la identitat i la política només parla de compte per a funcions com les alertes i la comunitat: la previsió es consulta sense registre.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": [],
+    "detail": "No hem trobat el codi publicat."
+  },
+  "dataSummary": "Una aplicació del temps consulta la ubicació moltes vegades al dia, i això pot revelar on vius, on treballes i on vas de vacances. En aquest cas, la ubicació s’envia als socis publicitaris junt amb l’identificador del dispositiu.",
+  "dataCollection": [
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "meteored-app-store",
+        "meteored-privacy-policy"
+      ],
+      "note": "La política xifra la precisió entre 5 metres amb GPS i uns 2 km amb la xarxa mòbil."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "meteored-app-store",
+        "meteored-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "meteored-privacy-policy"
+      ],
+      "note": "GAID a Android i IDFA a iOS."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "meteored-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "meteored-app-store",
+        "meteored-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "meteored-app-store"
+      ]
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "meteored-privacy-policy"
+      ],
+      "note": "Dades tècniques i sensors del terminal, com l’altímetre."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "meteored-privacy-policy"
+      ],
+      "note": "Per al compte, les alertes subscrites i els butlletins."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "meteored-privacy-policy"
+      ],
+      "note": "Les gestiona Stripe; la facturació es conserva fins a sis anys."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meteored-app-store"
+      ],
+      "detail": "L’etiqueta declara ubicació, identificadors i dades de publicitat com a dades usades per rastrejar-te.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meteored-privacy-policy",
+        "meteored-app-store"
+      ],
+      "detail": "GAID i IDFA, amb renúncia des de la configuració del sistema operatiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meteored-privacy-policy"
+      ],
+      "detail": "Socis publicitaris i analítics gestionats amb una plataforma de consentiment conforme a l’estàndard d’IAB Spain.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meteored-privacy-policy",
+        "meteored-app-store"
+      ],
+      "detail": "Publicitat personalitzada amb consentiment previ a través de la plataforma de consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política parla d’anàlisi d’audiència i de personalització, però no descriu cap perfil individual."
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meteored-privacy-policy"
+      ],
+      "detail": "Socis publicitaris i proveïdors: Cloudflare, Google Cloud i Stripe.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta cap venda de dades ni la descarta expressament."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meteored-privacy-policy"
+      ],
+      "detail": "Transferències als Estats Units emparades en el marc de privadesa UE-EUA o en clàusules contractuals tipus.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "meteored-privacy-policy"
+      ],
+      "detail": "Concreta sis anys per a la facturació i un any per a les candidatures; per a la resta, «mentre duri la relació».",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "meteored-privacy-policy"
+      ],
+      "detail": "S’elimina el perfil i els accessos, però el contingut públic publicat es conserva anonimitzat i la facturació es manté sis anys.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meteored-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no documenta cap botó ni formulari de baixa dins de l’aplicació."
+    },
+    "difficulty": "medium",
+    "requiresSupportContact": true,
+    "steps": [
+      "Escriu al delegat de protecció de dades (dpd@meteored.com) i demana la supressió del compte.",
+      "Acredita la identitat si t’ho demanen.",
+      "Comprova que les publicacions públiques que hagis fet queden anonimitzades, no esborrades."
+    ],
+    "obstacles": "No hi ha cap camí d’autoservei documentat: la baixa passa per un correu.",
+    "dataRetained": "Contingut públic anonimitzat i dades de facturació fins a sis anys.",
+    "sources": [
+      "meteored-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "meteored-privacy-policy"
+      ],
+      "detail": "Reconeix el dret de portabilitat, però no documenta cap eina d’exportació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meteored-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dpd@meteored.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meteored-privacy-policy"
+      ],
+      "detail": "La plataforma de consentiment permet revocar el consentiment publicitari i el sistema operatiu, limitar l’identificador.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "meteored-privacy-policy"
+      ],
+      "detail": "L’analítica i la geolocalització es demanen per consentiment, dins del mateix diàleg que la publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "meteored-privacy-policy"
+      ],
+      "detail": "El control es fa per finalitats i socis de l’estàndard d’IAB, no per tipus de dada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut auditar el diàleg de consentiment de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Servei d’informació meteorològica: no hi ha comunicació privada entre persones que calgui xifrar d’extrem a extrem.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu les mesures tècniques."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha security.txt a tiempo.com ni a meteored.com, i la política no dona cap canal de seguretat."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "aemet",
+      "comparability": "equivalent",
+      "rationale": "L’agència estatal de meteorologia publica la seva pròpia aplicació amb les mateixes prediccions i avisos oficials, i no es finança amb publicitat.",
+      "tradeOffs": "Menys funcions visuals i menys detall a escala d’hores que els serveis comercials."
+    },
+    {
+      "app": "windy-com",
+      "comparability": "partial",
+      "rationale": "Mapes i previsions detallades amb una etiqueta de l’App Store que no declara cap dada per rastrejar.",
+      "tradeOffs": "Està pensat per a mapes i models, no per a la previsió local ràpida."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "No consten filtracions dels dominis tiempo.com ni meteored.com a la base de dades de Have I Been Pwned. El cercador de resolucions de l’AEPD no s’ha pogut consultar des d’aquí.",
+    "openQuestions": [
+      "Quins socis publicitaris concrets reben la ubicació i amb quina freqüència?",
+      "Hi ha alguna manera d’esborrar el compte des de la mateixa aplicació?"
+    ]
+  },
+  "appStoreBundleId": "ios.aplicacion.tiempo-com"
+}

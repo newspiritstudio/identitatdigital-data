@@ -1,0 +1,497 @@
+{
+  "slug": "sporttia",
+  "name": "Sporttia",
+  "company": "social-cloud",
+  "categories": [
+    "esports-i-resultats"
+  ],
+  "tagline": "Reserva d’instal·lacions municipals amb esborrat de compte autoservei i una política que no parla de l’aplicació",
+  "summary": "Sporttia és el programari amb què molts ajuntaments i patronats gestionen les pistes esportives, i per això sovint no es pot triar: per reservar, cal fer-lo servir. Té esborrat de compte autoservei verificable i declara la certificació ENS de nivell mitjà, però la política de privadesa és la genèrica del web corporatiu i no descriu ni les reserves, ni els pagaments, ni la ubicació, ni el control d’accés.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Espanya",
+  "userBase": "Més de 400 centres esportius, molts d’ells municipals",
+  "links": {
+    "website": "https://sporttia.com/",
+    "privacyPolicy": "https://sporttia.com/politica-de-privacidad",
+    "terms": "https://sporttia.com/terminos-y-condiciones",
+    "appStore": "https://apps.apple.com/es/app/id6744922343"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "sporttia-app-store"
+    ],
+    "detail": "Cal compte amb nom, correu i telèfon per reservar i per accedir a la instal·lació.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "sporttia-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Un calendari de reserves de pista mostra on és una persona, a quina hora, amb quina regularitat i amb qui. Quan la instal·lació és municipal, aquestes dades les tracten una empresa privada i l’ajuntament, i cap de les dues parts no ho explica a la política.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "sporttia-app-store",
+        "sporttia-play-data-safety"
+      ],
+      "note": "El centre esportiu, sovint municipal, també tracta aquestes dades."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "sporttia-app-store"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "sporttia-app-store"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "sporttia-play-data-safety"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "sporttia-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "sporttia-app-store",
+        "sporttia-integracions"
+      ],
+      "note": "L’etiqueta la declara com a dada no vinculada. El cobrament es fa amb Redsys, Stripe, Paycomet, CECA, Sipay o ZityCard, segons el centre."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "sporttia-play-data-safety"
+      ],
+      "note": "Reserves, quotes, bons i moneder virtual."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "sporttia-app-store"
+      ],
+      "note": "L’etiqueta de l’App Store declara ubicació exacta i aproximada per a la personalització del producte; la fitxa de Google Play no recull cap ubicació i la política tampoc no en parla."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "sporttia-play-data-safety"
+      ],
+      "note": "Google Play declara la categoria «Missatges»; l’etiqueta de l’App Store no la reflecteix."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "sporttia-play-data-safety"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "sporttia-app-store"
+      ],
+      "note": "L’etiqueta no declara cap dada utilitzada per rastrejar."
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "sporttia-cookies"
+      ],
+      "note": "Només al web corporatiu: galetes de Google AdSense i de Stripe, amb consentiment."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "sporttia-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada utilitzada per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "sporttia-app-store"
+      ],
+      "detail": "No es declara cap identificador publicitari a l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "sporttia-cookies"
+      ],
+      "detail": "El web corporatiu incorpora Google AdSense i Google Ads; l’aplicació no declara seguiment.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "sporttia-cookies"
+      ],
+      "detail": "Hi ha publicitat personalitzada al web corporatiu, amb consentiment; l’aplicació no en declara.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "sporttia-play-data-safety"
+      ],
+      "detail": "Google Play declara la personalització com a finalitat, però cap document explica en què consisteix.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Cap document en parla."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "sporttia-integracions",
+        "sporttia-privacy-policy"
+      ],
+      "detail": "La política diu que «únicament es cediran les dades per complir obligacions legals», però el servei integra sis passarel·les de pagament i és el centre esportiu qui gestiona l’activitat. No es publica cap llista d’encarregats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Social Cloud S.L. no té grup ni filials conegudes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no en diu res."
+    },
+    "internationalTransfers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "sporttia-privacy-policy"
+      ],
+      "detail": "La política afirma que no estan previstes transferències a tercers països, cosa difícil de conciliar amb l’ús declarat de Stripe i de Google al web.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "none"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No n’hi ha cap."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "sporttia-privacy-policy"
+      ],
+      "detail": "Només criteris genèrics: mentre es mantingui la relació comercial i el que exigeixin les obligacions legals.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Cap document diu què es conserva després d’eliminar el compte, tot i que la facturació de les reserves està subjecta a terminis fiscals."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "independent",
+      "sources": [
+        "sporttia-play-user-app"
+      ],
+      "detail": "L’aplicació web inclou una acció d’eliminació de compte que crida el punt final «DELETE /me» de l’API.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "independent",
+      "sources": [
+        "sporttia-play-user-app"
+      ],
+      "detail": "Hi ha un botó «Eliminar cuenta» a la zona de perfil, amb un diàleg que avisa que l’acció és definitiva i irreversible. Ho hem verificat al codi de l’aplicació web, no en cap pàgina d’ajuda.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "easy",
+    "requiresSupportContact": false,
+    "steps": [
+      "Entra al teu perfil a l’aplicació o a play.sporttia.com.",
+      "Tria «Eliminar cuenta» i confirma el diàleg, que adverteix que l’eliminació és definitiva."
+    ],
+    "obstacles": "No hi ha cap pàgina d’ajuda que documenti el procés, ni terminis, ni què es conserva per obligació fiscal.",
+    "sources": [
+      "sporttia-play-user-app",
+      "sporttia-play-data-safety"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "sporttia-privacy-policy"
+      ],
+      "detail": "La política no esmenta el dret de portabilitat i no hi ha cap eina d’exportació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "sporttia-privacy-policy"
+      ],
+      "detail": "Els drets s’exerceixen per correu a info@sporttia.com adjuntant còpia del document d’identitat, una exigència que l’AEPD desaconsella per defecte. No hi ha delegat de protecció de dades designat.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:info@sporttia.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "sporttia-cookies"
+      ],
+      "detail": "El web té un panell de galetes ben construït, amb «Rechazar todas» i quatre categories; a l’aplicació no hi ha res a desactivar perquè no declara publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap control de telemetria a l’aplicació."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "sporttia-cookies"
+      ],
+      "detail": "El consentiment granular existeix al web corporatiu, no dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi de patrons foscos."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no transporta comunicacions privades xifrades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "sporttia-play-data-safety"
+      ],
+      "detail": "Google Play confirma el xifratge en trànsit; el domini i l’API apliquen HSTS amb precàrrega.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública sobre el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "partial",
+      "level": "independent",
+      "sources": [
+        "sporttia-play-user-app"
+      ],
+      "detail": "L’aplicació web inclou un flux de verificació en dos passos amb un codi de sis xifres. No hem pogut determinar el canal ni si és opcional o obligatori, i no hi ha ni TOTP ni claus de seguretat.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "email",
+        "sms"
+      ]
+    },
+    "independentAudits": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "sporttia-ens"
+      ],
+      "detail": "Sporttia declara la certificació de l’Esquema Nacional de Seguretat de nivell mitjà i publica el certificat, però el document està allotjat a Google Drive i no n’hem pogut verificar l’entitat certificadora, l’abast ni la vigència.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El domini no publica cap fitxer security.txt ni cap canal de comunicació de vulnerabilitats."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Com passa sovint amb el programari municipal, qui vol reservar una pista pública no tria el proveïdor. Per això és més greu que la política sigui la genèrica del web i que no expliqui el repartiment de responsabilitats entre Social Cloud i l’ajuntament o el patronat. En canvi, l’esborrat de compte autoservei i la certificació ENS declarada són dos punts favorables. L’esborrat s’ha verificat llegint el codi de l’aplicació web, perquè no hi ha cap pàgina d’ajuda que el documenti.",
+    "openQuestions": [
+      "Qui és el responsable del tractament de les reserves: Social Cloud o el centre esportiu? Cap document ho aclareix.",
+      "Quina entitat ha emès el certificat ENS i quin abast i vigència té?",
+      "Per què l’etiqueta de l’App Store declara ubicació exacta si ni la política ni la fitxa de Google Play l’esmenten?"
+    ]
+  },
+  "appStoreBundleId": "com.sporttia.app"
+}

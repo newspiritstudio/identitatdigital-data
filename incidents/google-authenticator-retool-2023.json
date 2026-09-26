@@ -1,0 +1,16 @@
+{
+  "slug": "google-authenticator-retool-2023",
+  "title": "Atac a Retool facilitat per la sincronització de Google Authenticator",
+  "type": "breach",
+  "severity": "medium",
+  "apps": [
+    "google-authenticator"
+  ],
+  "company": "google",
+  "occurredAt": "2023-08-27",
+  "description": "Uns atacants van enganyar un empleat de Retool amb un SMS i una trucada, i en van obtenir el compte corporatiu. Com que els codis de Google Authenticator estaven sincronitzats amb el compte de Google, van accedir a tots els segons factors alhora i van entrar als comptes de 27 clients al núvol. Retool va criticar que la sincronització convertia la verificació en dos passos en un únic punt de fallada.",
+  "affectedPeople": "27 clients de Retool al núvol.",
+  "sources": [
+    "google-authenticator-retool-2023"
+  ]
+}

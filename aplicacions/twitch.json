@@ -1,0 +1,579 @@
+{
+  "slug": "twitch",
+  "name": "Twitch",
+  "company": "twitch-interactive",
+  "categories": [
+    "video-i-streaming",
+    "comunitats-i-forums"
+  ],
+  "tagline": "Directes amb rastreig publicitari, responsable als Estats Units i una filtració el 2021",
+  "summary": "Twitch declara a l’App Store dades utilitzades per rastrejar. El responsable del tractament és Twitch Interactive, Inc., a San Francisco, amb un representant a Alemanya; la política permet combinar les dades amb les de la clientela d’Amazon i fer-les servir per desenvolupar IA generativa. El 2021 una filtració de 125 GB va exposar el codi font i els pagaments a creadors, i Turquia la va sancionar el 2024.",
+  "platforms": [
+    "ios",
+    "android",
+    "web",
+    "other"
+  ],
+  "businessModel": "advertising",
+  "jurisdiction": "Estats Units (Twitch Interactive, Inc.), amb representant a la UE a Múnic",
+  "links": {
+    "website": "https://www.twitch.tv/",
+    "privacyPolicy": "https://www.twitch.tv/p/es-es/legal/privacy-notice/",
+    "privacyCenter": "https://www.twitch.tv/p/es-es/legal/privacy-choices/",
+    "appStore": "https://apps.apple.com/es/app/id460177396"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "twitch-privacy-notice"
+    ],
+    "detail": "Es poden veure emissions sense compte; xatejar, seguir canals o emetre el requereix.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "twitch-privacy-notice"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Els canals que se segueixen, els xats i les subscripcions revelen interessos i relacions; per a qui emet, s’hi afegeixen la veu, la imatge i les dades de pagament. Els xats són públics i els poden recollir tercers.",
+  "dataCollection": [
+    {
+      "type": "historial-de-visualitzacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "twitch-privacy-notice"
+      ]
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "twitch-privacy-notice"
+      ],
+      "note": "Xats públics i xiuxiuejos privats."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "twitch-privacy-notice"
+      ],
+      "note": "Emissions, clips i imatge de qui emet."
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "twitch-privacy-notice"
+      ]
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "twitch-privacy-notice"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "twitch-privacy-notice"
+      ],
+      "note": "Es pot compartir amb socis publicitaris perquè la comparin amb les seves dades."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "twitch-privacy-notice",
+        "twitch-2fa"
+      ],
+      "note": "En activar la verificació en dos passos es crea automàticament un compte d’Authy lligat al número."
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "compliment-legal"
+      ],
+      "sources": [
+        "twitch-privacy-notice"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "twitch-privacy-notice",
+        "twitch-app-store"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "twitch-privacy-notice",
+        "twitch-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "twitch-privacy-notice",
+        "twitch-app-store"
+      ],
+      "note": "Identificador de dispositiu reinicialitzable compartit amb socis publicitaris."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "twitch-privacy-notice"
+      ],
+      "note": "Els anunciants que serveixen anuncis directament al dispositiu la reben automàticament."
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "twitch-privacy-notice"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "sources": [
+        "twitch-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "twitch-privacy-notice",
+        "twitch-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "twitch-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "twitch-app-store",
+        "twitch-privacy-notice"
+      ],
+      "detail": "L’etiqueta declara identificadors utilitzats per rastrejar, i la política preveu anuncis fora de Twitch amb socis publicitaris.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "twitch-privacy-notice"
+      ],
+      "detail": "La política preveu compartir identificadors d’anuncis mòbils amb xarxes publicitàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "twitch-privacy-notice",
+        "twitch-privacy-choices"
+      ],
+      "detail": "Serveis d’analítica i xarxes publicitàries de tercers, i mesura de Nielsen.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "twitch-privacy-notice"
+      ],
+      "detail": "Anuncis personalitzats dins i fora de Twitch; la política no respon als senyals «Do Not Track».",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "twitch-privacy-notice"
+      ],
+      "detail": "Recomanacions de contingut i combinació amb dades de la clientela d’Amazon.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "twitch-privacy-notice"
+      ],
+      "detail": "La política preveu fer servir les dades per desenvolupar o implementar models i serveis d’IA generativa.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "twitch-privacy-notice"
+      ],
+      "detail": "Proveïdors, socis publicitaris i d’analítica, desenvolupadors d’extensions i serveis connectats com Discord, Steam o Riot.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "twitch-privacy-notice"
+      ],
+      "detail": "Les dades de Twitch es poden combinar amb les de la clientela d’Amazon, i totes dues les poden fer servir per als seus productes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "twitch-privacy-notice"
+      ],
+      "detail": "Twitch declara que no ven la informació personal de les persones usuàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "twitch-privacy-notice"
+      ],
+      "detail": "Les dades es poden tractar als Estats Units i en altres països; la política no n’indica el mecanisme.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "twitch-transparency"
+      ],
+      "detail": "Informes de seguretat, de peticions governamentals i policials, i els exigits per la Llei de serveis digitals.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://safety.twitch.tv/s/article/Twitch-Transparency-Reporting?language=en_US"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "twitch-privacy-notice",
+        "twitch-delete-account"
+      ],
+      "detail": "L’únic termini concret és el de l’eliminació (90 dies); la resta es conserva el temps necessari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "twitch-delete-account"
+      ],
+      "detail": "Llevat d’obligacions legals o reclamacions, no conserva el contingut, el contacte ni el nom d’usuari; pot conservar dades limitades per motius legals i de seguretat.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "twitch-delete-account",
+        "twitch-privacy-choices"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "twitch-delete-account"
+      ],
+      "detail": "Des de la pàgina «Delete Account»; indicar el motiu és opcional.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://www.twitch.tv/user/delete-account",
+    "difficulty": "easy",
+    "waitingPeriodDays": 90,
+    "requiresSupportContact": false,
+    "steps": [
+      "Inicia la sessió i ves a twitch.tv/user/delete-account.",
+      "Comprova que és el compte correcte i, si vols, indica’n el motiu.",
+      "Prem «Delete Account».",
+      "No tornis a iniciar la sessió durant els 90 dies de tramitació, perquè s’aturaria l’eliminació."
+    ],
+    "obstacles": "Els comptes de Partner o d’Afiliat s’han de desvincular primer amb atenció al client. Desactivar el compte no és el mateix que eliminar-lo.",
+    "dataRetained": "Dades limitades per obligacions legals, reclamacions o seguretat.",
+    "sources": [
+      "twitch-delete-account",
+      "twitch-privacy-choices"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "twitch-privacy-notice",
+        "twitch-privacy-choices"
+      ],
+      "detail": "L’accés i la portabilitat es demanen a atenció al client («Preguntas sobre privacidad»); els vídeos es poden descarregar des de l’Estudi de vídeo.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "twitch-privacy-notice"
+      ],
+      "detail": "Formulari de suport, privacy@twitch.tv (també DPO) i representant a la UE, Twitch Interactive Germany GmbH.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacy@twitch.tv",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "twitch-privacy-choices"
+      ],
+      "detail": "Preferències de galetes, configuració de seguiment del dispositiu i pàgines d’exclusió de la indústria publicitària; no hi ha un interruptor propi per a tots els anuncis personalitzats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "twitch-privacy-choices"
+      ],
+      "detail": "Bloqueig de xiuxiuejos de desconeguts, regals, connexions amb serveis de tercers i extensions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem documentat patrons foscos específics de Twitch."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "no",
+      "level": "editorial",
+      "sources": [
+        "twitch-privacy-notice"
+      ],
+      "detail": "Interpretació pròpia: la política inclou els xats i les comunicacions entre les dades que Twitch recull i modera, cosa incompatible amb un xifratge d’extrem a extrem.",
+      "verifiedAt": "2026-09-22",
+      "scope": "none"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no ho concreta."
+    },
+    "atRestEncryption": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "twitch-breach-2021-update"
+      ],
+      "detail": "Twitch va explicar el 2021 que les contrasenyes es desen amb hash bcrypt; no hi ha informació sobre la resta de dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "twitch-2fa"
+      ],
+      "detail": "Verificació en dos passos per SMS o aplicació TOTP, obligatòria per a Afiliats i Partners. Activar-la crea un compte d’Authy lligat al telèfon.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "sms",
+        "totp"
+      ]
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut verificar un programa de recompenses oficial vigent."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "twitch-security"
+      ],
+      "detail": "Formulari de divulgació responsable a la pàgina de seguretat.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La política espanyola indica una data de modificació ambigua («08/12/2026»); l’hem llegida el 22 de setembre de 2026.",
+    "openQuestions": [
+      "Quin mecanisme de transferència internacional fa servir Twitch per a les dades de persones de la UE?",
+      "Té Twitch un programa de recompenses oficial actiu?"
+    ]
+  },
+  "appStoreBundleId": "tv.twitch"
+}

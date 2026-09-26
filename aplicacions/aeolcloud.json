@@ -1,0 +1,352 @@
+{
+  "slug": "aeolcloud",
+  "name": "AeolCloud",
+  "company": "aeol-service",
+  "categories": [
+    "educacio"
+  ],
+  "tagline": "L’App Store enllaça un avís legal com si fos la política de privadesa",
+  "summary": "AeolCloud és el client d’alumnat de Visual AEOL Cloud, el programari amb què moltes autoescoles espanyoles gestionen els tests teòrics. Cal un número de llicència que dona l’autoescola, i els resultats se sincronitzen amb el centre, que és qui els analitza. L’etiqueta de l’App Store declara que no es recull cap dada, i l’enllaç a la política de privadesa del desenvolupador porta a un avís legal que no descriu cap tractament. Per tant, no hi ha cap document públic que expliqui què fa el servei amb les dades de l’alumnat.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "subscription",
+  "jurisdiction": "Espanya",
+  "userBase": "Més de vint mil valoracions a l’App Store espanyol (Apple, 2026)",
+  "links": {
+    "website": "https://aeolservice.es/",
+    "appStore": "https://apps.apple.com/es/app/id1057632699"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "aeolcloud-app-store-privacy"
+    ],
+    "detail": "La fitxa de l’App Store explica que cal que l’autoescola et doni d’alta i et faciliti un número de llicència per registrar-te.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "aeolcloud-legal-notice"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "La sincronització amb l’autoescola converteix cada test en informació de rendiment identificada: quantes preguntes es fallen, en quins temes i a quina hora s’estudia. Qui hi accedeix i durant quant de temps no consta enlloc.",
+  "dataCollection": [
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "aeolcloud-app-store-privacy"
+      ],
+      "note": "El número de llicència el dona l’autoescola i lliga el compte amb el centre."
+    },
+    {
+      "type": "nivell-formatiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "aeolcloud-app-store-privacy"
+      ],
+      "note": "Els resultats dels tests se sincronitzen amb l’autoescola perquè en faci el seguiment."
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "aeolcloud-app-store-privacy"
+      ],
+      "note": "L’historial de versions incorpora autenticació per empremta o cara; a iOS això es resol al dispositiu i no arriba al servei."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "aeolcloud-app-store-privacy"
+      ],
+      "note": "L’etiqueta declara que no es recull cap dada."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "aeolcloud-app-store-privacy"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "aeolcloud-app-store-privacy"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "aeolcloud-app-store-privacy"
+      ],
+      "detail": "L’etiqueta declara «no se recopilan datos».",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "aeolcloud-app-store-privacy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "aeolcloud-app-store-privacy"
+      ],
+      "detail": "Segons la declaració de la desenvolupadora; no hem pogut verificar-ho amb anàlisi de trànsit.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "aeolcloud-app-store-privacy"
+      ],
+      "detail": "El model és de subscripció pagada per l’autoescola; no hi ha publicitat declarada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El seguiment de resultats per part de l’autoescola és una anàlisi de rendiment, però no consta documentada enlloc."
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap document que hi faci referència."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "aeolcloud-app-store-privacy"
+      ],
+      "detail": "La descripció oficial diu que els tests se sincronitzen amb l’autoescola, que és un tercer respecte de l’alumnat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap estructura de grup."
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap document públic sobre cessions."
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap document públic sobre la ubicació de les dades."
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "aeolcloud-legal-notice"
+      ],
+      "detail": "L’únic document que l’App Store ofereix com a política de privadesa és un avís legal que no fixa cap termini.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap document que ho descrigui."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap document públic que descrigui com donar de baixa el compte."
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El compte depèn de l’alta que fa l’autoescola, de manera que probablement no sigui autoservei, però no ho hem pogut verificar."
+    },
+    "difficulty": "unknown",
+    "requiresSupportContact": true,
+    "obstacles": "L’App Store presenta un avís legal com a política de privadesa. Sense política, no hi ha ni canal de drets documentat ni terminis, i cal adreçar-se a l’autoescola o a l’empresa pel formulari del lloc corporatiu.",
+    "sources": [
+      "aeolcloud-legal-notice",
+      "aeolcloud-app-store-privacy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap document públic sobre portabilitat."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap adreça de protecció de dades ni delegat publicats."
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha publicitat dins del servei segons l’etiqueta de l’App Store.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap document que descrigui telemetria ni controls."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap documentació de configuració de privadesa."
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut revisar l’aplicació per dins."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei ha de sincronitzar els resultats amb l’autoescola.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha documentació tècnica pública."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha documentació tècnica pública."
+    },
+    "mfa": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "aeolcloud-app-store-privacy"
+      ],
+      "detail": "L’historial de versions publicat a l’App Store documenta l’autenticació biomètrica com a mètode d’accés a l’aplicació, no com a segon factor.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories independents."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap canal públic de comunicació de vulnerabilitats."
+    }
+  },
+  "review": {
+    "researchStatus": "initial",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Aquesta fitxa té molts desconeguts perquè l’únic document que l’empresa ofereix com a política de privadesa és un avís legal sobre propietat intel·lectual i responsabilitat per enllaços. La millora més senzilla i important que podria fer aquest servei és publicar una política de privadesa.",
+    "openQuestions": [
+      "Existeix alguna política de privadesa d’AeolCloud que no hàgim sabut trobar?",
+      "Qui és el responsable del tractament dels resultats dels tests: l’autoescola o AEOL Service?",
+      "Quant de temps es conserven els resultats després que l’alumnat obtingui el permís?"
+    ]
+  },
+  "appStoreBundleId": "aeol.aeolservice.AeolCloud"
+}

@@ -1,0 +1,480 @@
+{
+  "slug": "collectr",
+  "name": "Collectr",
+  "company": "collectr",
+  "categories": [
+    "utilitats",
+    "comunitats-i-forums"
+  ],
+  "tagline": "Un inventari de cartes col·leccionables que declara la ubicació exacta vinculada a la identitat",
+  "summary": "Collectr valora col·leccions de cartes de Pokémon, Magic o Yu-Gi-Oh a partir d’una base de dades de preus en temps real. L’etiqueta de l’App Store no declara cap dada de rastreig, però sí la ubicació exacta vinculada a la identitat per a «personalització del producte», cosa poc habitual en una aplicació d’inventari. La política, canadenca, cobreix alhora el web i l’aplicació i descriu galetes de segmentació, gravació de sessions i publicitat de tercers sense dir quina part correspon a cadascun.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Canadà",
+  "links": {
+    "website": "https://www.getcollectr.com/",
+    "privacyPolicy": "https://www.getcollectr.com/privacy-policy",
+    "appStore": "https://apps.apple.com/es/app/id1603892248"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "collectr-app-store",
+      "collectr-privacy-policy"
+    ],
+    "detail": "Cal un compte amb nom i correu per desar i sincronitzar la col·lecció.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "collectr-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Un inventari valorat de cartes és una llista d’objectes cars amb el seu preu al costat. Si s’hi vincula la ubicació exacta de qui el manté, l’aplicació sap on són aquestes col·leccions.",
+  "dataCollection": [
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "collectr-app-store"
+      ],
+      "note": "L’etiqueta la declara per a personalització del producte. La política no explica per a què cal en una aplicació d’inventari."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "collectr-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "collectr-app-store",
+        "collectr-privacy-policy"
+      ],
+      "note": "La política diu que el correu es pot compartir amb filials i empreses associades."
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "collectr-app-store",
+        "collectr-privacy-policy"
+      ]
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "compliment-legal"
+      ],
+      "sources": [
+        "collectr-privacy-policy"
+      ],
+      "note": "Es demana per fer servir les funcions socials."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "collectr-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "collectr-privacy-policy"
+      ],
+      "note": "Quan es compra alguna cosa a la botiga."
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "collectr-app-store",
+        "collectr-privacy-policy"
+      ],
+      "note": "Vitrines i publicacions de la part social."
+    },
+    {
+      "type": "contrasenya",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "collectr-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "collectr-privacy-policy"
+      ],
+      "note": "Recollida amb galetes, balises, Google Analytics i SDK de tercers."
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "collectr-privacy-policy"
+      ],
+      "note": "La política descriu galetes de segmentació i gravació de sessions al web."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "collectr-app-store",
+        "collectr-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "collectr-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "collectr-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap dada usada per rastrejar entre aplicacions i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "collectr-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap identificador publicitari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "collectr-privacy-policy"
+      ],
+      "detail": "Google Analytics, balises, gravació de sessions i SDK de tercers, segons la política conjunta del web i l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "collectr-privacy-policy"
+      ],
+      "detail": "La política es reserva mostrar anuncis segmentats de tercers i compartir informació amb xarxes i servidors publicitaris; l’etiqueta de l’aplicació, en canvi, no declara cap dada publicitària. El text no distingeix el web de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "collectr-privacy-policy"
+      ],
+      "detail": "Proveïdors de serveis, socis de publicitat i d’analítica i, si hi ha una operació societària, el comprador.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "collectr-privacy-policy"
+      ],
+      "detail": "La política diu que es pot compartir informació com el correu amb filials i empreses del grup.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "collectr-privacy-policy"
+      ],
+      "detail": "Les dades es desen al Canadà, però els proveïdors les poden processar fora, inclosos els Estats Units, amb obligacions contractuals. No s’invoca cap mecanisme del RGPD.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "collectr-privacy-policy"
+      ],
+      "detail": "La política diu «el temps necessari», sense terminis.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu què passa quan s’elimina un compte."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "collectr-privacy-policy"
+      ],
+      "detail": "La política reconeix el dret de supressió i dona una adreça de contacte, però no descriu cap procediment d’eliminació del compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut verificar si hi ha una opció d’eliminar el compte dins de l’aplicació. El web respon amb un error 403 a les consultes automàtiques."
+    },
+    "difficulty": "unknown",
+    "requiresSupportContact": true,
+    "steps": [
+      "Escriu a contact@getcollectr.com demanant la supressió del compte i de les dades.",
+      "Retira el permís d’ubicació a la configuració del sistema: l’aplicació el declara com a ubicació exacta vinculada a la teva identitat."
+    ],
+    "sources": [
+      "collectr-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "collectr-privacy-policy"
+      ],
+      "detail": "La política reconeix la portabilitat, sense cap eina descrita.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "collectr-privacy-policy"
+      ],
+      "detail": "La política enumera els drets del RGPD, esmenta un delegat de protecció de dades i informa del dret a reclamar davant d’una autoritat de control.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "collectr-privacy-policy"
+      ],
+      "detail": "Només es remet a la configuració de galetes del navegador i a les eines de baixa de Google Analytics.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "collectr-privacy-policy"
+      ],
+      "detail": "La política diu que no s’atenen els senyals automàtics de no-rastreig i no ofereix cap interruptor d’analítica.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No és un servei de comunicació: la col·lecció se sincronitza al servidor.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El domini no serveix cap fitxer security.txt."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "Hi ha una discrepància entre la política, que parla de publicitat segmentada, gravació de sessions i xarxes publicitàries, i l’etiqueta de l’App Store, que no declara cap dada publicitària ni de rastreig. La política cobreix el web i l’aplicació sense separar-los, i això fa que no es pugui saber què s’aplica a cadascun.",
+    "openQuestions": [
+      "Per a què necessita una aplicació d’inventari la ubicació exacta vinculada a la identitat?",
+      "Hi ha una opció d’eliminar el compte dins de l’aplicació?",
+      "Quines parts de la política de publicitat segmentada s’apliquen realment a l’aplicació mòbil?"
+    ]
+  },
+  "appStoreBundleId": "com.collectrinc.collectr"
+}

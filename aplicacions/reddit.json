@@ -1,0 +1,558 @@
+{
+  "slug": "reddit",
+  "name": "Reddit",
+  "company": "reddit",
+  "categories": [
+    "comunitats-i-forums"
+  ],
+  "tagline": "Comunitats temàtiques amb identitat pseudònima",
+  "summary": "Reddit és l’única plataforma social gran del directori que no exigeix nom real ni número de telèfon i que permet participar amb un pseudònim. Aquest disseny redueix molt el risc. En canvi, el que es publica no s’esborra en tancar el compte: només es desvincula del nom d’usuari.",
+  "platforms": [
+    "web",
+    "ios",
+    "android"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Irlanda, per a persones usuàries de l’Espai Econòmic Europeu",
+  "userBase": "Més de 100 milions de persones usuàries actives diàries",
+  "links": {
+    "website": "https://www.reddit.com/",
+    "privacyPolicy": "https://www.reddit.com/policies/privacy-policy",
+    "terms": "https://redditinc.com/policies/user-agreement",
+    "privacyCenter": "https://www.reddit.com/settings/privacy"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "reddit-privacy-policy"
+    ],
+    "detail": "Bona part del contingut es pot llegir sense compte. Publicar i votar el requereix, però només cal un nom d’usuari i una contrasenya: ni adreça electrònica verificada ni telèfon.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "reddit-privacy-policy"
+    ],
+    "detail": "Reddit va ser de codi obert fins al 2017 i encara manté part de les seves eines públiques, però la plataforma actual és privativa.",
+    "verifiedAt": "2026-09-22",
+    "repositoryUrl": "https://github.com/reddit",
+    "licence": "Privativa (històricament CPAL)"
+  },
+  "dataSummary": "Reddit recull sobretot activitat: què es publica, què es vota, a quines comunitats se subscriu. La subscripció a determinades comunitats pot revelar informació especialment sensible sobre salut, orientació sexual o conviccions, encara que el compte sigui pseudònim.",
+  "dataCollection": [
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "reddit-privacy-policy"
+      ],
+      "note": "És un pseudònim triat lliurement, no una identitat verificada."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "reddit-privacy-policy"
+      ],
+      "note": "És opcional, cosa poc habitual entre plataformes d’aquesta mida."
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "entrenament-de-models-dia"
+      ],
+      "sources": [
+        "reddit-privacy-policy"
+      ],
+      "note": "Reddit llicencia el contingut públic a empreses d’intel·ligència artificial."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "reddit-privacy-policy"
+      ]
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "reddit-privacy-policy"
+      ],
+      "note": "Les comunitats subscrites són el senyal d’interès principal."
+    },
+    {
+      "type": "conviccions-i-opinions",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "reddit-privacy-policy"
+      ],
+      "note": "No es demanen, però les comunitats subscrites en són un indicador directe."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "reddit-privacy-policy"
+      ],
+      "note": "Limita el pseudonimat, perquè Reddit sap des d’on es connecta cada compte."
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "reddit-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "reddit-privacy-policy"
+      ]
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "reddit-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "reddit-privacy-policy"
+      ]
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "reddit-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "reddit-privacy-policy"
+      ]
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "reddit-privacy-policy"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "reddit-privacy-policy"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "reddit-privacy-policy"
+      ],
+      "detail": "El píxel de Reddit recull activitat en llocs d’anunciants.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "reddit-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "reddit-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "reddit-privacy-policy"
+      ],
+      "detail": "Es pot desactivar la personalització basada en activitat i en dades de socis.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://www.reddit.com/settings/privacy"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "reddit-privacy-policy"
+      ],
+      "detail": "Hi ha perfilat, però parteix d’una identitat pseudònima, cosa que en limita l’abast fora de la plataforma.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "reddit-privacy-policy"
+      ],
+      "detail": "Reddit ha signat acords de llicència de contingut públic amb empreses d’intel·ligència artificial. No hi ha mecanisme d’oposició per a les persones usuàries.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "reddit-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Reddit no forma part de cap grup amb altres serveis de consum.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "reddit-privacy-policy"
+      ],
+      "detail": "La llicència massiva de contingut a tercers per a entrenament de models és una forma de comercialització de dades generades per les persones usuàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "reddit-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "mechanism": "adequacy"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "reddit-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://redditinc.com/policies/transparency"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "reddit-delete-data"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "reddit-delete-account"
+      ],
+      "detail": "Les publicacions i els comentaris no s’eliminen: es desvinculen del nom d’usuari i queden visibles com a contingut d’un compte suprimit.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "period": "L’eliminació del compte comença dins dels 90 dies posteriors a la sol·licitud",
+        "sources": [
+          "reddit-delete-account"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "reddit-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "reddit-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://www.reddit.com/settings/account",
+    "difficulty": "medium",
+    "waitingPeriodDays": 0,
+    "requiresSupportContact": false,
+    "steps": [
+      "Entra a la configuració del compte des del web.",
+      "Baixa fins al final i tria «Elimina el compte».",
+      "Escriu el nom d’usuari i la contrasenya per confirmar.",
+      "Si vols que desapareguin les publicacions, esborra-les abans una per una."
+    ],
+    "obstacles": "El procés és senzill, però el contingut publicat es queda. Qui vulgui eliminar-lo ha de fer-ho manualment abans de tancar el compte, i un cop tancat ja no hi ha manera de recuperar-ne el control.",
+    "dataRetained": "Totes les publicacions i comentaris resten visibles de manera anònima. Reddit conserva l’adreça electrònica associada per evitar la reutilització del nom d’usuari.",
+    "sources": [
+      "reddit-delete-account",
+      "reddit-delete-data"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "reddit-delete-data"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.reddit.com/settings/data-request"
+    },
+    "exportFormatQuality": "open",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "reddit-delete-data"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.reddit.com/settings/data-request",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "reddit-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.reddit.com/settings/privacy"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "reddit-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "reddit-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [
+        "reddit-delete-account"
+      ],
+      "detail": "El procés d’eliminació no adverteix amb prou claredat, abans de confirmar, que el contingut publicat es conservarà.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "confusing-language",
+        "severity": "medium",
+        "description": "L’opció s’anomena «eliminar el compte», però no elimina el contingut associat, cosa que només s’explica a la documentació d’ajuda.",
+        "sources": [
+          "reddit-delete-account"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "reddit-privacy-policy"
+      ],
+      "detail": "Els xats i els missatges privats no estan xifrats d’extrem a extrem.",
+      "verifiedAt": "2026-09-22",
+      "scope": "none"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "reddit-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "reddit-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "reddit-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "totp"
+      ]
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories de seguretat independents publicades."
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "techcrunch-reddit-2023"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://hackerone.com/reddit"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "techcrunch-reddit-2023"
+      ],
+      "detail": "Reddit va publicar un informe detallat de la intrusió de 2023 el mateix dia que la va detectar internament.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Reddit obté una puntuació de privadesa relativament alta pel pseudonimat i la mínima recollida d’identificadors, però una de control més baixa per la impossibilitat d’eliminar el contingut."
+  },
+  "appStoreBundleId": "com.reddit.Reddit"
+}

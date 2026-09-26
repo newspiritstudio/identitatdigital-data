@@ -1,0 +1,408 @@
+{
+  "slug": "vithas",
+  "name": "Vithas",
+  "company": "vithas-sanidad",
+  "categories": [
+    "salut-i-assistencia-sanitaria"
+  ],
+  "tagline": "Una etiqueta de privadesa breu i una política escrita per al web i no per a l’aplicació",
+  "summary": "L’aplicació del grup hospitalari Vithas serveix per demanar cita, consultar l’historial i comunicar-se amb els centres. L’etiqueta de l’App Store declara poques dades: dades de contacte i identificadors vinculats amb la identitat, dades d’ús i diagnòstics sense vincular, i cap seguiment. La política pública, en canvi, està pensada per als formularis del lloc web i no descriu el tractament de la informació clínica que mostra l’aplicació.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Espanya",
+  "userBase": "Pacients de la xarxa d’hospitals i centres Vithas a Espanya",
+  "links": {
+    "website": "https://www.vithas.es/",
+    "privacyPolicy": "https://www.vithas.es/politica-de-privacidad/",
+    "appStore": "https://apps.apple.com/es/app/id1489707682"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "vithas-app-store"
+    ],
+    "detail": "L’etiqueta declara dades de contacte i identificadors vinculats amb la identitat, propis d’un servei amb registre.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "editorial",
+    "sources": [],
+    "detail": "No consta cap publicació del codi font; és programari privatiu.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Encara que l’etiqueta sigui breu, saber en quin hospital i amb quina especialitat es demana cita continua sent informació de salut. La manca d’una política específica impedeix saber quant de temps es conserva aquesta informació i qui hi accedeix dins del grup.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "vithas-app-store",
+        "vithas-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "vithas-app-store",
+        "vithas-privacy-policy"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "vithas-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "vithas-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "editorial",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "note": "L’etiqueta no declara dades de salut, però una aplicació de cites i historial hospitalari en tracta per força. Ho anotem com a lectura editorial, no com a declaració oficial."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "vithas-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "vithas-app-store"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "vithas-privacy-policy"
+      ],
+      "note": "La política descriu galetes subjectes a consentiment exprés al lloc web."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "vithas-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap dada utilitzada per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "vithas-app-store"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "vithas-privacy-policy"
+      ],
+      "detail": "La política reconeix galetes i proveïdors de màrqueting al lloc web, sense dir si també hi ha components dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política esmenta proveïdors de màrqueting, però no descriu publicitat personalitzada dins de l’aplicació."
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap elaboració de perfils."
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "vithas-privacy-policy"
+      ],
+      "detail": "Autoritats competents quan la llei ho exigeix, i proveïdors de tecnologia, màrqueting i consultoria sota supervisió de Vithas.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "vithas-privacy-policy"
+      ],
+      "detail": "Compartició amb les entitats que formen el grup Vithas per a la gestió administrativa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta cap venda de dades."
+    },
+    "internationalTransfers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "vithas-privacy-policy"
+      ],
+      "detail": "La política diu que, si n’hi ha, s’empararan en decisions d’adequació de la Comissió Europea o en altres garanties del RGPD.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "adequacy"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "vithas-privacy-policy"
+      ],
+      "detail": "La política només diu que les dades es conserven «mentre sigui necessari» per gestionar la sol·licitud o la cita, sense cap termini numèric.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta què es conserva després de donar-se de baixa."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "vithas-privacy-policy"
+      ],
+      "detail": "El dret de supressió es reconeix a la política i s’exerceix davant del delegat de protecció de dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap pàgina que descrigui l’eliminació del compte des de dins de l’aplicació."
+    },
+    "difficulty": "unknown",
+    "requiresSupportContact": true,
+    "steps": [
+      "Escriu a proteccion.datos@vithas.es invocant el dret de supressió de l’article 17 del RGPD.",
+      "Si ets pacient d’un centre concret, adreça-t’hi també per als drets sobre la història clínica."
+    ],
+    "obstacles": "La història clínica hospitalària té un termini de conservació legal propi que la supressió del compte no afecta.",
+    "sources": [
+      "vithas-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "vithas-privacy-policy"
+      ],
+      "detail": "La portabilitat es reconeix entre els drets, però no hi ha cap eina d’autoservei descrita.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "vithas-privacy-policy"
+      ],
+      "detail": "Adreça electrònica del delegat de protecció de dades i adreça postal publicades.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:proteccion.datos@vithas.es"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap control de publicitat dins de l’aplicació."
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap control per desactivar les dades d’ús i de diagnòstic."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap panell de privadesa dins de l’aplicació."
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut revisar els fluxos de consentiment dins de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei ha de poder llegir les cites i els informes per mostrar-los.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "editorial",
+      "sources": [],
+      "detail": "Els serveis de Vithas es publiquen sobre HTTPS, comprovat en consultar-ne les pàgines.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta si el compte admet un segon factor."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories independents publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap security.txt al domini ni cap programa de recompenses documentat."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap canal públic de divulgació de vulnerabilitats."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "quironsalud",
+      "comparability": "partial",
+      "rationale": "Un altre grup hospitalari privat amb una política del portal del pacient més detallada, útil com a punt de comparació.",
+      "tradeOffs": "Només serveix si t’atens en centres del grup Quirónsalud, i hi ha perfilat per a bàners."
+    }
+  ],
+  "review": {
+    "researchStatus": "initial",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "L’etiqueta de privadesa és breu i coherent amb una aplicació de cites, però no hi ha cap document que cobreixi l’aplicació. Per això no se’n coneixen els terminis de conservació, els accessos dins del grup ni les mesures de seguretat.",
+    "openQuestions": [
+      "Hi ha una política de privadesa específica de l’aplicació o del portal del pacient de Vithas?",
+      "Quin tractament rep la informació clínica que es consulta des de l’aplicació?",
+      "Queda pendent la cerca sistemàtica d’incidents i sancions: les eines de cerca no eren disponibles durant aquesta revisió."
+    ]
+  },
+  "appStoreBundleId": "es.vithas.app.ios"
+}

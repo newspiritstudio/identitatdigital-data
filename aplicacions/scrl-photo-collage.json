@@ -1,0 +1,509 @@
+{
+  "slug": "scrl-photo-collage",
+  "name": "SCRL",
+  "company": "appostrophe",
+  "categories": [
+    "edicio-de-foto-i-video"
+  ],
+  "tagline": "Declara a Google Play que no recull cap dada mentre la seva política enumera sis SDK de publicitat",
+  "summary": "SCRL és una aplicació sueca per muntar collages i carrusels per a Instagram. La seva política de privadesa és concreta: diu qui és responsable, quins SDK fa servir i quants anys conserva cada categoria de dades. En canvi, a la declaració que la mateixa empresa fa a Google Play afirma que l’aplicació no recull cap dada i que les dades no es xifren.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "subscription",
+  "jurisdiction": "Suècia",
+  "links": {
+    "website": "https://scrl.com",
+    "privacyPolicy": "https://scrl.com/privacy-policy",
+    "terms": "https://scrl.com/terms-of-service",
+    "appStore": "https://apps.apple.com/es/app/id1289057196"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "scrl-privacy-policy"
+    ],
+    "detail": "Cal un compte amb adreça electrònica i codi d’un sol ús per desar els projectes i gestionar la subscripció.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "scrl-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Les imatges i els vídeos que s’hi pugen queden als servidors del proveïdor de núvol i, si es fan servir funcions d’intel·ligència artificial, hi romanen trenta dies. A això s’hi suma la connexió opcional amb Instagram, que lliga el compte d’SCRL amb un perfil públic de Meta.",
+  "dataCollection": [
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "scrl-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "scrl-privacy-policy"
+      ],
+      "note": "Nom visible i codis d’un sol ús per entrar."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "scrl-privacy-policy"
+      ],
+      "note": "S’allotgen a AWS i Google Cloud; les imatges processades amb IA es conserven trenta dies per a revisió de qualitat i desenvolupament."
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "scrl-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "scrl-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "scrl-privacy-policy"
+      ],
+      "note": "País o regió deduïts de l’adreça IP; no hi ha GPS."
+    },
+    {
+      "type": "llengua",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "scrl-privacy-policy"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "scrl-privacy-policy"
+      ],
+      "note": "Firebase Analytics i Crashlytics, més les eines de mesura de TikTok, Meta, Google i Apple."
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-publicitaria",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "scrl-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "scrl-privacy-policy"
+      ],
+      "note": "Estat de la subscripció a través d’Apple, Google o Paddle; les dades de la targeta no es conserven."
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "scrl-privacy-policy"
+      ],
+      "note": "Els textos d’indicació per a la IA i els carrusels programats cap a Instagram."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "scrl-privacy-policy"
+      ],
+      "detail": "Integra el píxel de Meta, TikTok Ads, Google Ads i Apple Search Ads per mesurar conversions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "scrl-privacy-policy"
+      ],
+      "detail": "La política remet a la configuració de privadesa d’iOS i Android per limitar-ne l’ús.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "scrl-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "scrl-privacy-policy"
+      ],
+      "detail": "No mostra publicitat dins de l’aplicació, però fa servir les plataformes publicitàries de tercers per captar persones usuàries i mesurar-ne les conversions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap elaboració de perfils més enllà de l’analítica d’ús."
+    },
+    "aiTraining": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "scrl-privacy-policy"
+      ],
+      "detail": "Les imatges enviades a les funcions d’IA es conserven trenta dies «per a revisió de qualitat i desenvolupament», sense concretar si s’utilitzen per entrenar models.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "scrl-privacy-policy"
+      ],
+      "detail": "Proveïdors de núvol (AWS i Google Cloud), analítica, passarel·les de pagament, eines d’atenció i plataformes publicitàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Appostrophe AB no forma part de cap grup empresarial amb altres serveis.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta cap venda de dades a intermediaris."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "scrl-privacy-policy"
+      ],
+      "detail": "Els proveïdors de fora de la UE operen sota clàusules contractuals tipus.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "scrl-privacy-policy"
+      ],
+      "detail": "La política dona terminis per categoria, cosa poc habitual en aplicacions d’aquesta mida.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "scrl-privacy-policy"
+      ],
+      "detail": "Els registres de pagament es conserven set anys per obligació comptable.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "fotografies-i-videos",
+        "period": "30 dies per a les imatges processades amb intel·ligència artificial",
+        "sources": [
+          "scrl-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "historial-de-compres",
+        "period": "7 anys, per obligació legal",
+        "sources": [
+          "scrl-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "interaccions-i-us",
+        "period": "3 anys",
+        "sources": [
+          "scrl-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "scrl-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "scrl-privacy-policy"
+      ],
+      "detail": "La política indica que el compte es pot esborrar des de la configuració de l’aplicació o escrivint a l’adreça de privadesa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "easy",
+    "steps": [
+      "Obre SCRL i entra a la configuració del compte.",
+      "Tria l’opció d’eliminar el compte i confirma-la.",
+      "Si no la trobes, escriu a scrl@appostrophe.com demanant la supressió; la política es compromet a respondre en un mes."
+    ],
+    "dataRetained": "Els registres de pagament, durant set anys, per obligació comptable sueca.",
+    "sources": [
+      "scrl-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "scrl-privacy-policy"
+      ],
+      "detail": "El dret de portabilitat es reconeix, però s’exerceix per correu electrònic i no hi ha cap eina d’autoservei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "scrl-privacy-policy"
+      ],
+      "detail": "Canal únic de correu electrònic amb compromís de resposta en un mes i menció de l’autoritat sueca com a via de reclamació.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:scrl@appostrophe.com",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "scrl-privacy-policy"
+      ],
+      "detail": "Es pot limitar el seguiment publicitari des de la configuració del sistema operatiu i des de les preferències de privadesa de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap manera de desactivar l’analítica de Firebase."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "scrl-privacy-policy"
+      ],
+      "detail": "Hi ha preferències de privadesa dins de l’aplicació, però la política no en detalla l’abast.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "scrl-privacy-policy"
+      ],
+      "detail": "No hem detectat obstacles per sortir-ne: la baixa és autoservei i els terminis són explícits.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei ha de processar les imatges als seus servidors per generar els carrusels i aplicar les funcions d’IA.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "scrl-play-data-safety"
+      ],
+      "detail": "A la fitxa de seguretat de Google Play, el mateix desenvolupador declara que «les dades no es xifren». En un servei que allotja imatges, caldria contrastar-ho amb una prova de trànsit.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "scrl-privacy-policy"
+      ],
+      "detail": "L’accés es fa amb un codi d’un sol ús enviat per correu, que substitueix la contrasenya en lloc de reforçar-la.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "email"
+      ]
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories independents publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses ni fitxer security.txt."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap canal específic per comunicar vulnerabilitats."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "canva",
+      "comparability": "partial",
+      "rationale": "Cobreix el mateix ús de muntar composicions per a xarxes socials, amb una política de privadesa més detallada i canals per exercir els drets.",
+      "tradeOffs": "És un servei molt més gran i recull més dades d’ús; la finalitat concreta dels carrusels d’Instagram hi està menys resolta."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La política de privadesa i la declaració a Google Play es contradiuen. Hem mantingut les dues fonts: o bé la fitxa de Play està mal omplerta, o bé la política descriu tractaments que l’aplicació no fa.",
+    "openQuestions": [
+      "L’etiqueta de privadesa de l’App Store no s’ha pogut consultar: Apple va respondre amb un error 429 durant tota la revisió.",
+      "Les imatges enviades a les funcions d’IA s’utilitzen per entrenar models propis o només per a control de qualitat?"
+    ]
+  },
+  "appStoreBundleId": "com.dopedevelopment.Panels"
+}

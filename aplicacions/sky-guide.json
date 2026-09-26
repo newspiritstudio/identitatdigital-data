@@ -1,0 +1,401 @@
+{
+  "slug": "sky-guide",
+  "name": "Sky Guide",
+  "company": "fifth-star-labs",
+  "categories": [
+    "educacio",
+    "utilitats"
+  ],
+  "tagline": "Sense comptes i amb la ubicació desdibuixada a cinc quilòmetres abans de sortir del telèfon",
+  "summary": "Sky Guide identifica estrelles, planetes i satèl·lits apuntant el telèfon al cel. L’estudi no crea comptes d’usuari (ho diu la política, i per això no pot atendre ni exportacions ni eliminacions), i la ubicació, que és imprescindible per calcular el cel, es queda al dispositiu llevat que s’activin les notificacions de pas de satèl·lits: llavors s’envia desdibuixada a un radi de cinc quilòmetres i acompanyada d’un testimoni anònim. L’etiqueta de l’App Store ho confirma: cap dada vinculada a la identitat i cap dada de rastreig.",
+  "platforms": [
+    "ios",
+    "macos"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Estats Units",
+  "links": {
+    "website": "https://www.fifthstarlabs.com/",
+    "privacyPolicy": "https://www.fifthstarlabs.com/privacy/",
+    "appStore": "https://apps.apple.com/es/app/id576588894"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "sky-guide-privacy-policy"
+    ],
+    "detail": "La política diu explícitament que l’estudi no genera ni desa comptes d’usuari.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "sky-guide-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Qui mira el cel ho sol fer des de casa, i per això la ubicació indica on viu. Aquí es fa servir al dispositiu i, quan n’ha de sortir, es desdibuixa a un radi de cinc quilòmetres i no es vincula a cap compte, perquè l’aplicació no en té.",
+  "dataCollection": [
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "sky-guide-app-store",
+        "sky-guide-privacy-policy"
+      ],
+      "note": "Només surt del dispositiu si s’activen les notificacions, desdibuixada a un radi de 5 km i amb un testimoni anònim."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "sky-guide-privacy-policy"
+      ],
+      "note": "La ubicació precisa es fa servir al dispositiu per calcular el cel; la política diu que no es transmet a l’estudi."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "sky-guide-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "sky-guide-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "sky-guide-privacy-policy"
+      ],
+      "note": "Només si escrius a l’estudi o t’apuntes al butlletí."
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "sky-guide-privacy-policy"
+      ]
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "sky-guide-privacy-policy"
+      ],
+      "note": "Si fas servir «Send Feedback», el correu porta el maquinari i les versions; es poden esborrar abans d’enviar-lo."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "sky-guide-privacy-policy"
+      ],
+      "note": "La política diu que el mode de realitat augmentada demana la càmera però que mai no se’n recullen dades."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "sky-guide-app-store"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "sky-guide-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap identificador publicitari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no inventaria els components de tercers de l’aplicació."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "sky-guide-privacy-policy"
+      ],
+      "detail": "La política diu que l’objectiu de les dades és fer millors productes, no monetitzar-les, i que les notificacions mai no es fan servir per a màrqueting.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "sky-guide-privacy-policy"
+      ],
+      "detail": "La política diu que no es combina informació no personal per identificar ningú.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "sky-guide-privacy-policy"
+      ],
+      "detail": "Només per requeriment legal o en cas de fusió o venda de l’empresa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "sky-guide-privacy-policy"
+      ],
+      "detail": "La política diu que la informació personal no es comparteix amb tercers fora dels casos legals i societaris.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu on són els servidors ni quin mecanisme empara les transferències des de la Unió Europea."
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "sky-guide-privacy-policy"
+      ],
+      "detail": "La política diu «el temps necessari», sense cap termini concret.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha comptes: l’estudi diu que no en genera ni en desa cap.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no crea cap compte. La política adverteix que, per això mateix, l’estudi no pot eliminar-ne cap ni facilitar-ne les dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha compte propi.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "unknown",
+    "requiresSupportContact": false,
+    "steps": [
+      "Retira el permís d’ubicació i desactiva les notificacions a la configuració del sistema operatiu si no vols que en surti res.",
+      "Si t’has apuntat al butlletí, dona’t de baixa amb l’enllaç del peu del correu.",
+      "Desinstal·la l’aplicació: les dades del cel i les preferències són al dispositiu."
+    ],
+    "dataRetained": "La ubicació desdibuixada associada al testimoni anònim de notificacions, si s’havien activat.",
+    "sources": [
+      "sky-guide-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Sense comptes no hi ha cap conjunt de dades personals a exportar; la política ho diu expressament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "sky-guide-privacy-policy"
+      ],
+      "detail": "La política, del 2018, no esmenta el RGPD ni cap termini de resposta; per exercir qualsevol dret remet al formulari de contacte.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no mostra publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "sky-guide-privacy-policy"
+      ],
+      "detail": "Les dades de maquinari del formulari de comentaris es poden esborrar abans d’enviar-lo; l’analítica d’ús no té interruptor descrit.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "sky-guide-privacy-policy"
+      ],
+      "detail": "El fet d’activar o no les notificacions és el que decideix si la ubicació surt del dispositiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "protective",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha missatgeria ni contingut sincronitzat: el càlcul del cel es fa al dispositiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "sky-guide-privacy-policy"
+      ],
+      "detail": "La política diu que es fa servir TLS tant per a la informació personal com per a les bases de dades astronòmiques externes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha comptes ni contrasenyes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El domini no publica cap fitxer security.txt."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "La política és del maig del 2018 i no s’ha actualitzat des de llavors: no esmenta el RGPD, ni terminis, ni un representant a la Unió Europea. Tot i això, el disseny del producte, sense comptes i amb la ubicació desdibuixada abans de sortir del telèfon, minimitza les dades, i l’etiqueta de l’App Store el corrobora.",
+    "openQuestions": [
+      "On són allotjats els servidors de notificacions i quin mecanisme empara les transferències des de la Unió Europea?",
+      "Quin servei d’analítica fa servir l’aplicació per a les dades d’ús i de diagnòstic que declara l’etiqueta?"
+    ]
+  },
+  "appStoreBundleId": "com.fifthstarlabs.skyguide"
+}

@@ -1,0 +1,336 @@
+{
+  "slug": "rfaf",
+  "name": "RFAF",
+  "company": "rfaf",
+  "categories": [
+    "esports-i-resultats"
+  ],
+  "tagline": "Accés mòbil a la intranet federativa que declara no recollir dades malgrat funcionar amb usuari i contrasenya",
+  "summary": "L’aplicació RFAF dona accés mòbil a la intranet de la federació andalusa amb l’usuari i la contrasenya de cada persona. L’etiqueta de l’App Store diu que no recull cap dada, tot i que el servei funciona amb credencials i dades federatives. La política enllaçada és la genèrica del web de la RFAF, que preveu perfils, publicitat personalitzada i Google Analytics.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://www.rfaf.es/",
+    "privacyPolicy": "https://www.rfaf.es/pnfg/NNws_ShwNewDup?codigo=57343&cod_primaria=5002399&cod_secundaria=5002399",
+    "appStore": "https://apps.apple.com/es/app/id1475876998"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "rfaf-app-store"
+    ],
+    "detail": "S’hi accedeix amb l’usuari i la clau de la intranet de la federació.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "rfaf-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "La intranet federativa conté llicències, clubs i dades de competició de jugadors, entrenadors i àrbitres, sovint menors. L’aplicació hi dona accés segons els permisos de cada persona.",
+  "dataCollection": [
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "rfaf-app-store"
+      ],
+      "note": "L’usuari de la intranet, tot i que l’etiqueta diu que no es recull cap dada."
+    },
+    {
+      "type": "contrasenya",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "rfaf-app-store"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "unknown",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "rfaf-privacy-policy"
+      ],
+      "note": "La política genèrica diu que fa servir l’identificador publicitari d’Android i d’iOS; no sabem si s’aplica a aquesta aplicació."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "unknown",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "rfaf-privacy-policy"
+      ],
+      "note": "La política preveu Google Analytics a l’«Entorn RFAF»."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "rfaf-app-store"
+      ],
+      "detail": "L’etiqueta diu que no es recull cap dada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política genèrica esmenta l’identificador publicitari, però l’etiqueta diu que no es recull res."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política genèrica esmenta Google Analytics; no sabem si l’aplicació l’integra."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política genèrica ho preveu per a l’«Entorn RFAF», però no hem pogut comprovar si s’aplica a aquesta aplicació."
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política genèrica preveu perfils; no sabem si s’aplica a la intranet."
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no en parla."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "rfaf-privacy-policy"
+      ],
+      "detail": "Proveïdors d’allotjament i analítica i xarxes publicitàries, segons la política genèrica.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta la Federación Española ni altres entitats federatives."
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "rfaf-privacy-policy"
+      ],
+      "detail": "Diu que les dades no se cedeixen a tercers per a finalitats pròpies.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "rfaf-privacy-policy"
+      ],
+      "detail": "Preveu transferències a proveïdors de fora de l’EEE, com Google, amb «garanties suficients».",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "rfaf-privacy-policy"
+      ],
+      "detail": "Mentre s’usi el servei o fins que es retiri el consentiment; 5 anys si es detecten conductes contra els drets de la RFAF.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no ho explica."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "rfaf-privacy-policy"
+      ],
+      "detail": "Es pot exercir el dret de supressió per correu, però el compte depèn de la llicència federativa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap opció d’eliminar el compte a l’aplicació."
+    },
+    "difficulty": "unknown",
+    "steps": [
+      "Escriu a calidad@rfaf.es demanant la supressió de les dades i adjunta una còpia del DNI.",
+      "Si no respon en un mes, pots reclamar a l’Agencia Española de Protección de Datos."
+    ],
+    "obstacles": "Les dades de la intranet estan lligades a la llicència federativa; la política no explica què passa amb elles si es demana la supressió.",
+    "sources": [
+      "rfaf-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "rfaf-privacy-policy"
+      ],
+      "detail": "La política reconeix la portabilitat, però cal demanar-la per correu amb una còpia del DNI.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "rfaf-privacy-policy"
+      ],
+      "detail": "Els drets s’exerceixen per escrit a calidad@rfaf.es amb una còpia del DNI. Hi ha un delegat de protecció de dades extern (Protection Report, S.L.).",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:calidad@rfaf.es"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No sabem si l’aplicació mostra publicitat."
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap opció."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut revisar l’aplicació per dins."
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut revisar l’aplicació per dins."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No és un servei de comunicació privada entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu res sobre les mesures de seguretat."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu res sobre les mesures de seguretat."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informació sobre la verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap auditoria publicada."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha fitxer security.txt a rfaf.es ni cap canal de notificació de vulnerabilitats."
+    }
+  },
+  "review": {
+    "researchStatus": "initial",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "Les ressenyes recents de l’App Store diuen que l’aplicació no connecta i que obliga a passar a una versió nova, probablement Universo RFAF. Si es retira, caldrà marcar-la com a discontinuada.",
+    "openQuestions": [
+      "La cerca d’incidents no s’ha pogut completar: s’havia esgotat el pressupost de cerques web de la sessió.",
+      "L’aplicació continua activa o l’ha substituïda Universo RFAF?"
+    ]
+  },
+  "appStoreBundleId": "es.rfaf.apprfaf"
+}

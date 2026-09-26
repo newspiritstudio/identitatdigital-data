@@ -1,0 +1,512 @@
+{
+  "slug": "amazon-kindle",
+  "name": "Amazon Kindle",
+  "company": "amazon-europe-core",
+  "categories": [
+    "llibres-i-lectura"
+  ],
+  "tagline": "Lectura lligada al compte d’Amazon: els llibres comprats es perden si el tanques",
+  "summary": "Kindle registra què llegeixes, fins on arribes, què subratlles i què cerques, i ho associa al compte d’Amazon. Els llibres són llicències lligades a aquell compte: des del febrer de 2025 ja no es poden descarregar per desar-los a l’ordinador, i tancar el compte vol dir perdre’ls tots.",
+  "platforms": [
+    "ios",
+    "android",
+    "web",
+    "other"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Luxemburg, per a persones usuàries de la Unió Europea",
+  "links": {
+    "website": "https://www.amazon.es/kindle",
+    "privacyPolicy": "https://www.amazon.es/gp/help/customer/display.html?nodeId=GX7NJQ4ZB8MHFRNJ",
+    "privacyCenter": "https://www.amazon.es/hz/privacy-central",
+    "appStore": "https://apps.apple.com/es/app/id302584613"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "amazon-close-account",
+      "amazon-kindle-app-store"
+    ],
+    "detail": "Les compres i la biblioteca van associades al compte d’Amazon.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "amazon-privacy-notice"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "L’historial de lectura pot revelar interessos polítics, religiosos, de salut o de sexualitat, i també el ritme i les hores en què es llegeix. Els subratllats i les notes afegeixen el que la persona ha trobat important de cada llibre.",
+  "dataCollection": [
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "amazon-kindle-app-store",
+        "amazon-privacy-notice"
+      ]
+    },
+    {
+      "type": "historial-de-visualitzacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "amazon-privacy-notice",
+        "audible-privacy-policy"
+      ],
+      "note": "Hàbits de lectura: pàgines, durada i sincronització entre dispositius. Audible reconeix que rep el comportament de lectura a Kindle per a WhisperSync for Voice."
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "amazon-kindle-app-store"
+      ],
+      "note": "L’etiqueta declara contingut de l’usuari: subratllats, notes i ressenyes."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "amazon-kindle-app-store"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "sources": [
+        "amazon-kindle-app-store"
+      ],
+      "note": "L’etiqueta declara «Ubicación» sense precisar-ne el grau."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "amazon-kindle-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "amazon-kindle-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "amazon-kindle-app-store",
+        "amazon-privacy-notice"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "amazon-kindle-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "amazon-kindle-app-store"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "amazon-privacy-notice"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "amazon-kindle-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara dades utilitzades per rastrejar entre aplicacions de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "detail": "L’avís general preveu compartir identificadors publicitaris amb empreses de publicitat per als anuncis d’Amazon; l’etiqueta de l’aplicació no ho declara com a rastreig.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi independent dels rastrejadors de l’aplicació."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "amazon-cross-service-consent"
+      ],
+      "detail": "L’activitat a Kindle només serveix per personalitzar anuncis en altres serveis d’Amazon si s’hi dona consentiment.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://www.amazon.es/adprefs"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "detail": "L’historial de compres i d’ús de continguts serveix per recomanar productes i continguts.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’avís parla de millorar els serveis, però no concreta si l’historial de lectura entrena models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "detail": "Amb proveïdors que tracten dades per compte d’Amazon, amb terceres empreses quan intervenen en una operació i amb empreses de publicitat, a les quals Amazon diu que dona un identificador publicitari i no el nom.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice",
+        "amazon-cross-service-consent"
+      ],
+      "detail": "Les dades es comparteixen amb Amazon.com, Inc. i les seves filials. Des del 6 de març de 2024, creuar-les entre la botiga, Alexa, els serveis d’entreteniment i els dispositius per recomanar i personalitzar anuncis requereix consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "detail": "Amazon declara que no ven la informació personal de la clientela a tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "detail": "Transferències fora de l’Espai Econòmic Europeu sota decisions d’adequació (Data Privacy Framework) o clàusules contractuals tipus.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "adequacy"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-law-enforcement-requests"
+      ],
+      "detail": "Amazon publica un informe semestral de peticions governamentals d’informació; no hem verificat si el desglossa per servei.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=GYSDRGWQ2C2CRYEF"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "detail": "L’avís fixa alguns terminis (dades de comandes 10 anys pel Codi de Comerç de Luxemburg, galetes 13 mesos), però la resta es conserva «el temps necessari» mentre el compte és actiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "detail": "En tancar el compte s’eliminen les dades, excepte les necessàries per a obligacions legals, reclamacions, frau i seguretat. Amazon diu que no les fa servir per a màrqueting.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-close-account",
+        "amazon-privacy-notice"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "amazon-close-account"
+      ],
+      "detail": "No hi ha manera d’eliminar només Kindle: cal tancar tot el compte d’Amazon amb el formulari en línia i confirmar-ho en cinc dies.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://www.amazon.es/privacy/data-deletion",
+    "difficulty": "medium",
+    "waitingPeriodDays": 5,
+    "requiresSupportContact": false,
+    "steps": [
+      "Ves a la pàgina «Cerrar mi cuenta de Amazon» i inicia la sessió amb el compte que vols tancar.",
+      "Revisa la llista de productes i serveis associats al compte.",
+      "Tria un motiu al desplegable i marca la casella «Sí, quiero cerrar permanentemente mi cuenta de Amazon y eliminar mis datos».",
+      "Prem «Cerrar mi cuenta».",
+      "Respon en cinc dies la confirmació que rebràs per correu electrònic o SMS."
+    ],
+    "obstacles": "El tancament és global: afecta totes les botigues d’Amazon del món que fan servir les mateixes credencials i és irreversible. Es perd l’accés a tots els llibres electrònics comprats, que són llicències lligades al compte. Des del 26 de febrer de 2025 ja no es poden descarregar per USB per guardar-ne una còpia abans.",
+    "dataRetained": "Dades de les comandes (nom, producte, data, adreça, forma de pagament, preu i IVA) durant 10 anys, i informació d’identificació limitada per atendre obligacions i reclamacions.",
+    "sources": [
+      "amazon-close-account",
+      "amazon-privacy-notice",
+      "amazon-kindle-usb-2025"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "detail": "Amb «Solicita tu información personal» es pot descarregar una còpia en un format llegible per màquina.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.amazon.es/hz/privacy-central/data-requests/preview.html"
+    },
+    "exportFormatQuality": "mixed",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "detail": "Formularis del compte, atenció al client («Consultas sobre privacidad de datos») i el delegat de protecció de dades a eu-privacy@amazon.es.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:eu-privacy@amazon.es",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-ad-preferences",
+        "amazon-cross-service-consent"
+      ],
+      "detail": "Es poden retirar el consentiment a les galetes publicitàries, les preferències de publicitat i el consentiment per creuar dades entre serveis.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.amazon.es/adprefs"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació oficial d’un control per desactivar la telemetria de lectura."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "detail": "Es poden gestionar recomanacions i l’historial de navegació, i els continguts des de «Gestionar tu contenido y dispositivos».",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem documentat patrons foscos específics de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Una aplicació de lectura no transporta comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "detail": "L’avís diu que la informació es protegeix durant la transmissió amb programari i protocols de xifratge.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’avís parla de mesures físiques, electròniques i procedimentals, però no concreta el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-2sv"
+      ],
+      "detail": "Verificació en dos passos del compte d’Amazon amb codi per SMS o aplicació d’autenticació.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "sms",
+        "totp"
+      ]
+    },
+    "independentAudits": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "detail": "Només declara el compliment de PCI DSS per a les dades de targeta; no hem trobat auditories publicades específiques del servei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-vrp-hackerone"
+      ],
+      "detail": "L’aplicació d’iOS (identificador 302584613) és dins de l’abast del programa de recompenses d’Amazon a HackerOne.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://hackerone.com/amazonvrp"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-security-txt"
+      ],
+      "detail": "Fitxer security.txt que adreça les notificacions al programa d’Amazon a HackerOne.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "kobo",
+      "comparability": "partial",
+      "rationale": "Botiga i lector de llibres electrònics que admet fitxers EPUB, cosa que permet llegir llibres que no depenen d’un sol compte.",
+      "tradeOffs": "Els llibres comprats a Kobo també porten sovint protecció anticòpia i el servei també recull dades de lectura."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La retirada de «Descargar y transferir vía USB» el 26 de febrer de 2025 (font de premsa especialitzada) reforça la dependència del compte, perquè ja no hi ha manera oficial de guardar una còpia pròpia dels llibres comprats.",
+    "openQuestions": [
+      "Quines dades de lectura concretes (pàgines, temps, subratllats) es conserven i durant quant de temps?"
+    ]
+  },
+  "appStoreBundleId": "com.amazon.Lassen"
+}

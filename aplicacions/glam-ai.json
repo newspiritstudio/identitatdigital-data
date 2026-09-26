@@ -1,0 +1,475 @@
+{
+  "slug": "glam-ai",
+  "name": "Glam AI",
+  "company": "glam-labs",
+  "categories": [
+    "edicio-de-foto-i-video"
+  ],
+  "tagline": "Conserva indefinidament les fotos de la teva cara i el model entrenat amb elles",
+  "summary": "Glam AI demana entre deu i vint selfies per entrenar un model personalitzat que després genera imatges de la persona. La política explica, cosa poc habitual, que tant les fotografies d’origen com els pesos del model (una representació matemàtica de la cara) es conserven per defecte als servidors, sense termini. L’empresa es compromet explícitament a no cedir ni vendre aquest material a xarxes d’IA de tercers.",
+  "platforms": [
+    "ios"
+  ],
+  "businessModel": "subscription",
+  "jurisdiction": "Estats Units",
+  "links": {
+    "website": "https://getglam.app/",
+    "privacyPolicy": "https://getglam.app/privacy",
+    "appStore": "https://apps.apple.com/es/app/id1545593132"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "glam-ai-privacy-policy"
+    ],
+    "detail": "Cal un compte amb adreça electrònica per generar i recuperar els models personalitzats.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "glam-ai-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Glam AI conserva un conjunt de fotografies de la cara, prou nombrós i variat per entrenar un model, i el model resultant. Junts permeten generar imatges noves de la persona indefinidament, i no hi ha establiment ni responsable a la Unió Europea que respongui de la custòdia.",
+  "dataCollection": [
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "entrenament-de-models-dia"
+      ],
+      "sources": [
+        "glam-ai-privacy-policy"
+      ],
+      "note": "Entre deu i vint fotografies d’origen que es conserven per defecte als servidors de DigitalOcean."
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "entrenament-de-models-dia",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "glam-ai-privacy-policy"
+      ],
+      "note": "Els punts facials es calculen al dispositiu amb Apple Vision, però els pesos del model personalitzat, derivats de la cara, es guarden al núvol de manera persistent i amb consentiment exprés."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "glam-ai-privacy-policy"
+      ]
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "glam-ai-privacy-policy"
+      ]
+    },
+    {
+      "type": "genere",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "glam-ai-privacy-policy"
+      ],
+      "note": "Se selecciona al perfil per ajustar la generació d’imatges."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "glam-ai-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "glam-ai-privacy-policy"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "glam-ai-privacy-policy"
+      ],
+      "note": "Mètriques d’Amplitude a l’aplicació i de Google Analytics al web."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "glam-ai-privacy-policy"
+      ],
+      "note": "Stripe, PayPal i l’App Store com a processadors."
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "glam-ai-privacy-policy"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política esmenta galetes d’anunciants tercers al web, però no descriu seguiment entre aplicacions."
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta l’identificador publicitari del dispositiu."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "glam-ai-privacy-policy"
+      ],
+      "detail": "Google Analytics, Amplitude i galetes d’anunciants tercers.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "glam-ai-privacy-policy"
+      ],
+      "detail": "La política reconeix galetes d’anunciants tercers, però no descriu publicitat personalitzada dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu l’elaboració de perfils comercials."
+    },
+    "aiTraining": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "glam-ai-privacy-policy"
+      ],
+      "detail": "Les fotografies s’utilitzen per entrenar i reentrenar un model personalitzat de la persona. L’empresa afirma que no comparteix ni ven les imatges ni les dades facials a xarxes d’IA externes com OpenAI o Midjourney.",
+      "verifiedAt": "2026-09-22",
+      "scope": "all-optin"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "glam-ai-privacy-policy"
+      ],
+      "detail": "Proveïdors de còmput amb GPU (RunPod i Fal AI), emmagatzematge a DigitalOcean Spaces i processadors de pagament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Glam Labs, Inc. no forma part de cap grup amb altres serveis.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "glam-ai-privacy-policy"
+      ],
+      "detail": "La política declara que no ven ni lloga la informació, les fotografies ni les dades facials.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "glam-ai-privacy-policy"
+      ],
+      "detail": "Les dades s’emmagatzemen als Estats Units. La política ho fonamenta en el consentiment de la persona usuària i no esmenta clàusules contractuals tipus.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "derogation"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "glam-ai-privacy-policy"
+      ],
+      "detail": "La política dona terminis per categoria, però el principal és «indefinit».",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "glam-ai-privacy-policy"
+      ],
+      "detail": "Les metadades del compte s’esborren al cap de trenta dies; les fotografies i els pesos del model poden persistir a les còpies de seguretat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "fotografies-i-videos",
+        "period": "indefinit per defecte",
+        "sources": [
+          "glam-ai-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "dades-biometriques",
+        "period": "indefinit per defecte (pesos del model personalitzat)",
+        "sources": [
+          "glam-ai-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "identificador-de-compte",
+        "period": "30 dies després de l’eliminació del compte",
+        "sources": [
+          "glam-ai-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "glam-ai-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "glam-ai-privacy-policy"
+      ],
+      "detail": "Es pot eliminar el compte des de la configuració de l’aplicació o per correu electrònic.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "waitingPeriodDays": 30,
+    "steps": [
+      "Obre la configuració de Glam i tria l’opció d’eliminar el compte.",
+      "Confirma l’eliminació; les metadades del compte s’esborren al cap de trenta dies.",
+      "Demana expressament, per correu, la supressió dels pesos del model personalitzat i de les fotografies d’origen."
+    ],
+    "obstacles": "La política admet que fotografies, pesos del model i imatges generades poden romandre temporalment a les còpies de seguretat, i sosté que en aquell estat ja no es poden associar a la persona.",
+    "dataRetained": "Tiquets d’atenció durant un o dos anys, anonimitzats, i restes a les còpies de seguretat.",
+    "sources": [
+      "glam-ai-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap eina ni procediment de portabilitat."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "glam-ai-privacy-policy"
+      ],
+      "detail": "Els drets s’exerceixen per correu electrònic o a través d’un representant designat als Estats Units, no d’un representant a la Unió Europea.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap control de publicitat dins de l’aplicació."
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap manera de desactivar l’analítica d’Amplitude."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "glam-ai-privacy-policy"
+      ],
+      "detail": "Hi ha control sobre el contingut generat i sobre l’eliminació del compte, però no sobre la conservació dels pesos del model, que és l’element més sensible.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [],
+      "detail": "La conservació indefinida és l’opció per defecte i s’obté amb un consentiment integrat al mateix flux de creació de l’avatar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "preselected",
+        "severity": "high",
+        "description": "La conservació persistent de les fotografies d’origen i dels pesos del model facial és el comportament per defecte del servei.",
+        "sources": [
+          "glam-ai-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei ha de processar les imatges als seus servidors amb GPU per entrenar el model.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu el xifratge en trànsit."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu el xifratge en repòs dels pesos del model."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta que el compte admeti verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories independents publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap canal específic de comunicació de vulnerabilitats."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La política és inusualment explícita i permet documentar amb font pròpia un tractament de dades biomètriques que altres aplicacions del mateix gènere no descriuen. Els problemes són de disseny: conservació indefinida per defecte i cap responsable a la Unió Europea.",
+    "openQuestions": [
+      "L’etiqueta de privadesa de l’App Store no s’ha pogut consultar: Apple va respondre amb un error 429 durant tota la revisió.",
+      "Quina base jurídica invoca Glam Labs per al tractament de dades biomètriques de persones residents a la Unió Europea?"
+    ]
+  },
+  "appStoreBundleId": "com.mynalabs.saidit"
+}

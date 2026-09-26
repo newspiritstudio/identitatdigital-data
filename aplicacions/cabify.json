@@ -1,0 +1,577 @@
+{
+  "slug": "cabify",
+  "name": "Cabify",
+  "company": "cabify-espana",
+  "categories": [
+    "mobilitat-i-transport"
+  ],
+  "tagline": "Baixa autoservei i esborrat automàtic als cinc anys, però ubicació precisa declarada com a dada de seguiment",
+  "summary": "Cabify diu explícitament què passa amb un compte que s’abandona: als seixanta mesos d’inactivitat s’elimina sol. D’altra banda, l’etiqueta de l’App Store declara la ubicació entre les dades que es fan servir per rastrejar, i la política reconeix que s’elabora un perfil a partir de l’historial de viatges i dels imports gastats per decidir quines promocions es mostren.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Espanya",
+  "userBase": "Present a Espanya i a diversos països de l’Amèrica Llatina",
+  "links": {
+    "website": "https://cabify.com/",
+    "privacyPolicy": "https://cabify.com/es/privacy",
+    "appStore": "https://apps.apple.com/es/app/id476087442"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "cabify-privacy-policy"
+    ],
+    "detail": "Cal registrar-se amb nom, correu, telèfon i mitjà de pagament per demanar un viatge.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "editorial",
+    "sources": [],
+    "detail": "Aplicació privativa: no consta cap publicació del codi font.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "L’historial de viatges mostra on vius, on treballes, a quina hora tornes a casa i a quins domicilis vas de nit. Amb els imports gastats, que la política diu que serveixen per perfilar, també permet deduir el nivell de renda.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "cabify-privacy-policy",
+        "cabify-app-store"
+      ],
+      "note": "Es comparteix amb la persona conductora que fa el servei."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "cabify-privacy-policy",
+        "cabify-app-store"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "cabify-privacy-policy",
+        "cabify-app-store"
+      ]
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "cabify-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "cabify-privacy-policy"
+      ],
+      "note": "Els punts de recollida i de destinació equivalen a adreces concretes."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "cabify-privacy-policy",
+        "cabify-app-store"
+      ],
+      "note": "La política diu que s’accedeix «a los sistemas de geoposicionamiento de tu dispositivo móvil» per seguir el viatge en temps real."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "cabify-privacy-policy",
+        "cabify-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "cabify-privacy-policy"
+      ],
+      "note": "La política parla del «histórico de viajes» i dels «importes incurridos» com a base del perfil."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "cabify-privacy-policy"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "cabify-app-store",
+        "cabify-play-data-safety"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "cabify-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "cabify-app-store"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "cabify-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "cabify-app-store"
+      ]
+    },
+    {
+      "type": "xarxa-de-contactes",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "cabify-privacy-policy"
+      ],
+      "note": "En els enviaments es demanen les dades de la persona destinatària, que la política assumeix comunicades amb el seu consentiment."
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "cabify-privacy-policy"
+      ],
+      "note": "La política no preveu cap tractament biomètric de les persones usuàries."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cabify-app-store"
+      ],
+      "detail": "L’etiqueta declara ubicació, identificadors, dades d’ús i diagnòstics sota «Datos utilizados para rastrearte».",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cabify-app-store"
+      ],
+      "detail": "Els identificadors de dispositiu i d’usuari es declaren com a dades de seguiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cabify-play-data-safety"
+      ],
+      "detail": "Google Play declara compartició de dades personals, d’activitat i de rendiment amb tercers.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cabify-privacy-policy"
+      ],
+      "detail": "La política diu que es mostren «noticias y promociones basadas en tu perfil» i que la personalització dels anuncis es pot desactivar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cabify-privacy-policy"
+      ],
+      "detail": "Es reconeix la creació d’un perfil a partir de l’historial de viatges i dels imports gastats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu si les dades s’utilitzen per entrenar models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cabify-privacy-policy",
+        "cabify-play-data-safety"
+      ],
+      "detail": "Persones conductores i les seves empreses, proveïdors de pagament i de prevenció del frau, i autoritats públiques.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cabify-privacy-policy"
+      ],
+      "detail": "La política enumera una vintena llarga d’entitats del grup Cabify que poden accedir a les dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap venda de dades a intermediaris ni cap desmentiment explícit."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cabify-privacy-policy"
+      ],
+      "detail": "Part de les entitats del grup són fora de l’Espai Econòmic Europeu, sobretot a l’Amèrica Llatina.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "cabify-privacy-policy"
+      ],
+      "detail": "Els terminis s’expressen sobretot per finalitat («hasta que elimines tu cuenta»), però n’hi ha un de concret: els comptes sense activitat durant més de seixanta mesos s’eliminen automàticament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no detalla quines dades sobreviuen a l’eliminació del compte més enllà de les obligacions fiscals implícites."
+    },
+    "periods": [
+      {
+        "period": "Els comptes inactius durant més de 60 mesos s’eliminen automàticament.",
+        "sources": [
+          "cabify-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cabify-privacy-policy",
+        "cabify-play-data-safety"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cabify-privacy-policy"
+      ],
+      "detail": "La política indica que el compte s’elimina des de l’apartat «Mi cuenta» del menú de l’aplicació o del web.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "easy",
+    "steps": [
+      "Obre l’aplicació i desplega el menú lateral.",
+      "Entra a «Mi cuenta».",
+      "Tria l’opció d’eliminar el compte i confirma-ho.",
+      "Si l’opció no apareix, escriu a dpo@cabify.com invocant el dret de supressió de l’article 17 del RGPD."
+    ],
+    "dataRetained": "La política no concreta què es conserva; cal comptar amb les dades de facturació dels viatges ja fets.",
+    "sources": [
+      "cabify-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "cabify-privacy-policy"
+      ],
+      "detail": "El dret de portabilitat es reconeix, però s’exerceix pel centre d’ajuda i cal adjuntar una còpia del document d’identitat: no hi ha descàrrega autoservei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cabify-privacy-policy"
+      ],
+      "detail": "Canal explícit al delegat de protecció de dades.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dpo@cabify.com",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cabify-privacy-policy"
+      ],
+      "detail": "La política diu que es pot «desactivar la personalización de los anuncios» i retirar el consentiment comercial.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap control per desactivar l’analítica d’ús."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "cabify-privacy-policy"
+      ],
+      "detail": "Hi ha control sobre les comunicacions comercials i la personalització, però no un panell de privadesa per finalitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem documentat cap patró fosc concret en el camí de sortida ni en el consentiment."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no transporta comunicacions privades; el contacte amb la persona conductora passa pel servidor.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cabify-play-data-safety"
+      ],
+      "detail": "Google Play declara que les dades es xifren en trànsit.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública sobre el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació sobre la verificació en dos passos del compte de passatger."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories de seguretat independents publicades."
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cabify-security-txt",
+        "cabify-bounty-policy"
+      ],
+      "detail": "Programa públic de recompenses amb política pròpia, matriu de risc i clau PGP per xifrar els informes.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://cabify.com/.well-known/bounty.txt"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cabify-security-txt"
+      ],
+      "detail": "security.txt signat amb PGP i amb data de caducitat vigent.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "renfe",
+      "comparability": "partial",
+      "rationale": "Per a desplaçaments interurbans, el tren declara molt menys seguiment: l’etiqueta de Renfe no inclou cap dada sota «Datos utilizados para rastrearte».",
+      "tradeOffs": "No serveix per a trajectes urbans porta a porta ni per a horaris nocturns."
+    },
+    {
+      "app": "blablacar",
+      "comparability": "partial",
+      "rationale": "Cobreix el desplaçament de llarga distància compartint cotxe, amb un cost menor.",
+      "tradeOffs": "L’etiqueta de l’App Store de BlaBlaCar declara més publicitat de tercers que la de Cabify."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La regla dels seixanta mesos d’inactivitat és poc habitual: limita la conservació sense que la persona hagi de fer res. En canvi, la política no quantifica cap altre termini.",
+    "openQuestions": [
+      "Quines dades sobreviuen exactament a l’eliminació del compte i durant quant de temps?",
+      "Ofereix Cabify verificació en dos passos per als comptes de passatger?"
+    ]
+  },
+  "appStoreBundleId": "com.cabify.iosrider"
+}

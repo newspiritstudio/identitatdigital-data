@@ -1,0 +1,663 @@
+{
+  "slug": "tiktok",
+  "name": "TikTok",
+  "company": "tiktok-technology",
+  "categories": [
+    "xarxes-socials",
+    "video-i-streaming"
+  ],
+  "tagline": "Vídeo curt amb recomanació algorítmica i dues sancions milionàries",
+  "summary": "TikTok ha rebut dues sancions de l’autoritat irlandesa en menys de dos anys, una pel tractament de dades de menors i l’altra per les transferències a la Xina. El seu sistema de recomanació aprèn del temps que la persona es queda mirant cada vídeo, un senyal que no controla conscientment i que revela molt sobre ella.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "advertising",
+  "jurisdiction": "Irlanda, per a persones usuàries de l’Espai Econòmic Europeu",
+  "userBase": "Més de 1.500 milions de persones usuàries mensuals",
+  "links": {
+    "website": "https://www.tiktok.com/",
+    "privacyPolicy": "https://www.tiktok.com/legal/page/eea/privacy-policy/en",
+    "terms": "https://www.tiktok.com/legal/page/eea/terms-of-service/en",
+    "privacyCenter": "https://www.tiktok.com/safety/en/privacy-and-security-on-tiktok/"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "tiktok-privacy-eea"
+    ],
+    "detail": "Es pot veure contingut sense compte, però l’aplicació insisteix constantment a registrar-se i les funcions bàsiques queden bloquejades.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "tiktok-privacy-eea"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "TikTok recull el contingut publicat, les interaccions, el temps de visualització vídeo a vídeo, informació del dispositiu i de la xarxa, i, si s’autoritza, contactes i ubicació. La política europea reconeix explícitament l’accés remot a dades des de la Xina, que va ser el nucli de la sanció de 2025.",
+  "dataCollection": [
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "tiktok-privacy-eea"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tiktok-privacy-eea"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tiktok-privacy-eea"
+      ]
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "entrenament-de-models-dia"
+      ],
+      "sources": [
+        "tiktok-privacy-eea"
+      ]
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tiktok-privacy-eea"
+      ]
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tiktok-privacy-eea"
+      ],
+      "note": "Els filtres facials processen característiques del rostre; la política europea nega que se’n derivin identificadors biomètrics únics."
+    },
+    {
+      "type": "historial-de-visualitzacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "publicitat-personalitzada",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "tiktok-privacy-eea"
+      ],
+      "note": "Inclou el temps exacte de permanència en cada vídeo, no només les interaccions explícites."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "tiktok-privacy-eea"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "tiktok-privacy-eea"
+      ]
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "tiktok-privacy-eea"
+      ]
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "tiktok-privacy-eea"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "tiktok-privacy-eea"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tiktok-privacy-eea"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "tiktok-privacy-eea"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "tiktok-privacy-eea"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "tiktok-privacy-eea"
+      ]
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "tiktok-privacy-eea"
+      ]
+    },
+    {
+      "type": "xarxa-i-connectivitat",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tiktok-privacy-eea"
+      ]
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "moderacio-de-continguts",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tiktok-privacy-eea"
+      ],
+      "note": "Els missatges directes no estan xifrats d’extrem a extrem."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tiktok-privacy-eea"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tiktok-privacy-eea"
+      ],
+      "detail": "El píxel de TikTok i el kit per a aplicacions recullen activitat fora de la plataforma amb finalitats publicitàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tiktok-privacy-eea"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tiktok-privacy-eea"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tiktok-privacy-eea"
+      ],
+      "detail": "Des de 2023, a Europa es pot optar per una experiència sense publicitat personalitzada, amb resultats molt menys ajustats.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://www.tiktok.com/setting/ads"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "regulator",
+      "sources": [
+        "tiktok-privacy-eea",
+        "dpc-tiktok-2023"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tiktok-privacy-eea"
+      ],
+      "detail": "La política preveu l’ús de contingut per desenvolupar i millorar tecnologies d’aprenentatge automàtic.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tiktok-privacy-eea"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "regulator",
+      "sources": [
+        "tiktok-privacy-eea",
+        "dpc-tiktok-2025"
+      ],
+      "detail": "Compartició amb entitats del grup ByteDance, incloent-hi personal a la Xina amb accés remot.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tiktok-privacy-eea"
+      ],
+      "detail": "La política preveu la recepció de dades de socis publicitaris i d’agregadors.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "regulator",
+      "sources": [
+        "dpc-tiktok-2025"
+      ],
+      "detail": "Transferències i accés remot des de la Xina, sancionats amb 530 milions d’euros el 2025. El Projecte Clover manté centres de dades a Europa.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tiktok-transparency"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.tiktok.com/transparency/en/"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tiktok-privacy-eea"
+      ],
+      "detail": "La política enumera criteris però pocs terminis numèrics.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tiktok-delete-account"
+      ],
+      "detail": "Després dels 30 dies de gràcia s’elimina el compte; part de la informació es conserva per obligacions legals i de seguretat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "period": "30 dies de desactivació abans de l’eliminació definitiva",
+        "sources": [
+          "tiktok-delete-account"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tiktok-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tiktok-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://www.tiktok.com/setting/deactivate-or-delete-account",
+    "difficulty": "easy",
+    "waitingPeriodDays": 30,
+    "requiresSupportContact": false,
+    "steps": [
+      "Obre el perfil i entra a Configuració i privadesa.",
+      "Ves a Compte i tria «Desactivar o eliminar el compte».",
+      "Tria «Eliminar el compte permanentment».",
+      "Verifica la identitat i confirma. El compte queda desactivat 30 dies."
+    ],
+    "obstacles": "Durant els 30 dies qualsevol inici de sessió reactiva el compte. Cal descarregar les dades abans, perquè després no s’hi pot accedir.",
+    "dataRetained": "Els missatges enviats resten a les bústies de les persones destinatàries i es conserven registres per a obligacions legals.",
+    "sources": [
+      "tiktok-delete-account"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tiktok-request-data"
+      ],
+      "detail": "Es pot demanar en format JSON o TXT des de la configuració.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.tiktok.com/setting/download-your-data"
+    },
+    "exportFormatQuality": "open",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tiktok-privacy-eea"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.tiktok.com/legal/report/privacy",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tiktok-privacy-eea"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.tiktok.com/setting/ads"
+    },
+    "telemetryOptOut": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "tiktok-privacy-eea"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tiktok-privacy-eea"
+      ],
+      "detail": "Hi ha controls de privadesa del compte i de publicitat, però no de la recollida de senyals que alimenten la recomanació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "yes",
+      "level": "regulator",
+      "sources": [
+        "dpc-tiktok-2023"
+      ],
+      "detail": "L’autoritat irlandesa va constatar l’ús de patrons enganyosos en les finestres emergents que empenyien cap a les opcions més públiques.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "preselected",
+        "severity": "high",
+        "description": "Els comptes de menors es creaven públics per defecte, amb comentaris i descàrregues obertes.",
+        "sources": [
+          "dpc-tiktok-2023"
+        ]
+      },
+      {
+        "type": "nagging",
+        "severity": "medium",
+        "description": "L’aplicació insisteix repetidament a registrar-se, a activar les notificacions i a donar accés als contactes.",
+        "sources": [
+          "tiktok-privacy-eea"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "tiktok-privacy-eea"
+      ],
+      "detail": "Els missatges directes no tenen xifratge d’extrem a extrem.",
+      "verifiedAt": "2026-09-22",
+      "scope": "none"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tiktok-privacy-eea"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tiktok-transparency"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tiktok-privacy-eea"
+      ],
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "totp",
+        "sms",
+        "email"
+      ]
+    },
+    "independentAudits": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tiktok-transparency"
+      ],
+      "detail": "El Projecte Clover incorpora supervisió d’una empresa de ciberseguretat europea, però els informes complets no són públics.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.tiktok.com/transparency/en/"
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tiktok-transparency"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://hackerone.com/tiktok"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tiktok-transparency"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "review": {
+    "researchStatus": "in-depth",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "TikTok va declarar incorrectament davant d’una autoritat de control que no emmagatzemava dades europees a la Xina, cosa que afecta la fiabilitat de la resta de les seves declaracions.",
+    "openQuestions": [
+      "Quin abast té el Projecte Clover un cop desplegat i quins accessos remots persisteixen?"
+    ]
+  },
+  "appStoreBundleId": "com.zhiliaoapp.musically"
+}

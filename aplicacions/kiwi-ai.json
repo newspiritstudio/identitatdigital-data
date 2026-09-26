@@ -1,0 +1,480 @@
+{
+  "slug": "kiwi-ai",
+  "name": "Kiwi AI",
+  "company": "blackboard-studio",
+  "categories": [
+    "educacio",
+    "assistents-d-ia"
+  ],
+  "tagline": "Grava classes senceres, però la política de privadesa no esmenta l’àudio enlloc",
+  "summary": "Kiwi AI converteix gravacions de classe, PDF i vídeos en apunts, fitxes i qüestionaris. L’etiqueta de l’App Store declara que recull dades d’àudio i fotografies vinculades a la identitat. La política de privadesa, generada amb una plantilla, no esmenta les gravacions, ni la transcripció, ni els models de llenguatge que generen els apunts. Només parla d’analítica amb PostHog, pagaments amb Stripe i inici de sessió amb Google o Apple. Cap document explica on s’envia l’àudio gravat.",
+  "platforms": [
+    "ios",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Itàlia; Blackboard Studio S.r.l. és la responsable del tractament",
+  "userBase": "Més de mil valoracions a l’App Store espanyol (Apple, 2026)",
+  "links": {
+    "website": "https://kiwi.app/",
+    "privacyPolicy": "https://www.iubenda.com/privacy-policy/20071187",
+    "appStore": "https://apps.apple.com/es/app/id6737851059"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "kiwi-ai-privacy-policy"
+    ],
+    "detail": "Cal crear un compte amb nom, cognoms, adreça electrònica i contrasenya, o bé amb Google o Apple.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "kiwi-ai-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Una gravació de classe conté la veu de qui la fa, la del professorat i la de la resta de l’aula, que no hi han donat el consentiment. S’hi sumen els apunts, les cerques dins dels apunts i l’historial de navegació que recull PostHog.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "kiwi-ai-privacy-policy",
+        "kiwi-ai-app-store-privacy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "kiwi-ai-privacy-policy"
+      ]
+    },
+    {
+      "type": "contrasenya",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "kiwi-ai-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "kiwi-ai-app-store-privacy"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "kiwi-ai-app-store-privacy"
+      ]
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "kiwi-ai-app-store-privacy"
+      ],
+      "note": "L’etiqueta declara dades d’àudio vinculades a la identitat. La política no descriu aquest tractament."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "kiwi-ai-app-store-privacy"
+      ]
+    },
+    {
+      "type": "fitxers-i-documents",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "kiwi-ai-app-store-privacy"
+      ],
+      "note": "Els PDF i els apunts generats consten com a «otro contenido del usuario»."
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "kiwi-ai-privacy-policy"
+      ],
+      "note": "PostHog registra pàgines vistes, clics i historial de navegació."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "kiwi-ai-privacy-policy",
+        "kiwi-ai-app-store-privacy"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "kiwi-ai-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "kiwi-ai-privacy-policy"
+      ],
+      "note": "Stripe, Apple Pay i les compres integrades de l’App Store."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "kiwi-ai-app-store-privacy"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "kiwi-ai-app-store-privacy"
+      ],
+      "detail": "L’etiqueta declara identificadors i dades d’ús com a utilitzats per rastrejar la persona a través d’altres empreses; la política no ho esmenta.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "kiwi-ai-app-store-privacy"
+      ],
+      "detail": "L’etiqueta declara «datos de publicidad» entre les dades no vinculades, tot i que no hi ha publicitat visible dins del producte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "kiwi-ai-privacy-policy"
+      ],
+      "detail": "PostHog, amb tractament als Estats Units, i galetes de Stripe.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Ni la política ni l’etiqueta declaren publicitat personalitzada, però l’etiqueta sí que declara «datos de publicidad»."
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta l’elaboració de perfils."
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu res sobre el tractament amb models d’IA ni sobre l’ús dels continguts per entrenar-los, tot i que és la funció central del producte."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "kiwi-ai-privacy-policy"
+      ],
+      "detail": "PostHog per a analítica, Stripe i Apple per a pagaments, Google i Apple per a l’inici de sessió.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap estructura de grup."
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta cessions comercials."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "kiwi-ai-privacy-policy"
+      ],
+      "detail": "Tots els encarregats declarats tracten les dades als Estats Units. La política no indica quin mecanisme de transferència s’aplica.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "kiwi-ai-privacy-policy"
+      ],
+      "detail": "La política només diu que les dades es conserven «mentre calgui per a la finalitat», sense cap termini concret.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No es descriu què passa amb les gravacions i els apunts en eliminar el compte."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "kiwi-ai-privacy-policy"
+      ],
+      "detail": "La política reconeix el dret de supressió davant del responsable.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut verificar si hi ha una opció d’eliminació dins de l’aplicació."
+    },
+    "difficulty": "unknown",
+    "requiresSupportContact": true,
+    "steps": [
+      "Escriu a help@kiwinote.ai demanant la supressió del compte i de tot el contingut associat.",
+      "Invoca l’article 17 del RGPD i demana confirmació per escrit."
+    ],
+    "obstacles": "No hi ha cap pàgina d’ajuda pública amb els passos ni cap adreça de baixa directa.",
+    "sources": [
+      "kiwi-ai-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "kiwi-ai-privacy-policy"
+      ],
+      "detail": "El dret de portabilitat es reconeix al text sobre el RGPD, sense eina d’autoservei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "kiwi-ai-privacy-policy"
+      ],
+      "detail": "L’únic canal és l’adreça del propietari; no hi ha delegat de protecció de dades designat.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:help@kiwinote.ai"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap control documentat."
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "kiwi-ai-privacy-policy"
+      ],
+      "detail": "La política de galetes permet gestionar les preferències de seguiment al web; no consta un control equivalent a l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "kiwi-ai-privacy-policy"
+      ],
+      "detail": "No hi ha cap panell de privadesa amb controls per finalitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut revisar les pantalles de consentiment ni l’embut de subscripció."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei ha de transcriure i resumir el contingut als seus servidors.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política només parla de «mesures de seguretat adequades», sense detall."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública sobre el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap informació sobre verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories independents."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap canal públic de comunicació de vulnerabilitats."
+    }
+  },
+  "review": {
+    "researchStatus": "initial",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La principal troballa és el buit documental: una aplicació que serveix per gravar l’aula té una política que no esmenta ni l’àudio ni la IA. Gairebé tots els indicadors queden com a desconeguts perquè, després de buscar-los, no hem trobat cap document on basar-los.",
+    "openQuestions": [
+      "A quins proveïdors s’envien les gravacions per transcriure-les i resumir-les?",
+      "Quant de temps es conserven les gravacions als servidors i què passa en eliminar el compte?",
+      "Com es tracta el consentiment de les altres persones que apareixen a la gravació d’una classe?"
+    ]
+  },
+  "appStoreBundleId": "studio.blackboard.Kiwinote"
+}

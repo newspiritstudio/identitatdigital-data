@@ -1,0 +1,513 @@
+{
+  "slug": "kahoot",
+  "name": "Kahoot!",
+  "company": "kahoot-as",
+  "categories": [
+    "educacio"
+  ],
+  "tagline": "Declara per escrit que no hi ha publicitat de tercers ni entrenament de models amb les dades de la plataforma, i publica subencarregats, certificacions i informe de transparència",
+  "summary": "La política de Kahoot! diu que el servei no inclou cap publicitat de tercers ni publicitat dirigida, i que no fa servir les dades personals recollides a la plataforma per entrenar ni afinar grans models de llenguatge. L’etiqueta de l’App Store ho confirma indirectament, perquè no declara cap dada utilitzada per rastrejar. Sí que declara l’historial de cerca i de navegació vinculats a la persona amb finalitats d’analítica, el punt més discutible d’una fitxa ben documentada.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Noruega",
+  "userBase": "Centenars de milions de participants anuals, sobretot en entorns escolars",
+  "links": {
+    "website": "https://kahoot.com/",
+    "privacyPolicy": "https://trust.kahoot.com/privacy-policy/",
+    "privacyCenter": "https://trust.kahoot.com/",
+    "appStore": "https://apps.apple.com/es/app/id1131203560"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "kahoot-privacy-policy"
+    ],
+    "detail": "Cal compte per crear i allotjar qüestionaris, però per participar-hi n’hi ha prou amb un sobrenom, sense compte ni adreça electrònica.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "kahoot-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Un qüestionari d’aula revela què sap i què no sap cada alumne, i a quina velocitat respon. Kahoot! permet jugar amb sobrenom i manté les dades de rendiment desvinculades tret que el centre activi l’identificador de jugador.",
+  "dataCollection": [
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "kahoot-privacy-policy",
+        "kahoot-app-store"
+      ],
+      "note": "Als comptes de menors només es fa servir per recordar la contrasenya i es converteix immediatament i permanentment en un resum criptogràfic."
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "kahoot-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "kahoot-app-store"
+      ],
+      "note": "Per a l’alumnat, el sobrenom pot ser l’única identificació si el centre no activa l’identificador de jugador."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "kahoot-app-store",
+        "kahoot-privacy-policy"
+      ],
+      "note": "Inclou l’activitat de joc: respostes, encerts i temps de reacció."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "kahoot-app-store"
+      ],
+      "note": "L’etiqueta de l’App Store el declara vinculat a la persona amb finalitats d’analítica."
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "kahoot-app-store"
+      ]
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "kahoot-app-store"
+      ],
+      "note": "Imatges afegides als qüestionaris creats."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "kahoot-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "kahoot-privacy-policy"
+      ],
+      "note": "Només per a les subscripcions de pagament."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "kahoot-app-store"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "kahoot-privacy-policy",
+        "kahoot-app-store"
+      ],
+      "note": "La política descarta la publicitat de tercers i l’etiqueta de l’App Store no declara cap dada utilitzada per rastrejar."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "kahoot-privacy-policy",
+        "kahoot-app-store"
+      ],
+      "detail": "La política diu que el servei, l’aplicació i el web no inclouen cap publicitat de tercers ni publicitat dirigida, i l’etiqueta de l’App Store no declara cap dada utilitzada per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "kahoot-app-store"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "kahoot-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "kahoot-privacy-policy"
+      ],
+      "detail": "Compromís escrit a la política: cap publicitat de tercers ni dirigida.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "kahoot-privacy-policy"
+      ],
+      "detail": "Hi ha personalització del producte i recomanacions de contingut, però no perfilat publicitari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "kahoot-privacy-policy"
+      ],
+      "detail": "La política afirma que Kahoot! no fa servir les dades personals recollides a la plataforma per entrenar ni afinar grans models de llenguatge.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "kahoot-subprocessors"
+      ],
+      "detail": "Només encarregats del tractament, amb llista pública: Amazon Web Services, Aiven, Google Cloud, OVH, Hetzner, Cloudflare, Zendesk i SendGrid.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "kahoot-privacy-policy",
+        "kahoot-adquisicio"
+      ],
+      "detail": "Les filials de Kahoot! AS actuen com a corresponsables. Des del gener de 2024 el grup és propietat d’un consorci d’inversió liderat per Goldman Sachs Asset Management.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "kahoot-privacy-policy"
+      ],
+      "detail": "La política descarta la publicitat dirigida i no preveu cap cessió comercial de dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "kahoot-privacy-policy",
+        "kahoot-security-measures"
+      ],
+      "detail": "Marc de Privadesa de Dades UE-EUA, clàusules contractuals tipus o decisions d’adequació segons el receptor.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "kahoot-transparency"
+      ],
+      "detail": "Publica un informe de transparència general i els informes anuals del Reglament de Serveis Digitals. No hem trobat, en canvi, un informe específic de requeriments governamentals d’accés a dades.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://trust.kahoot.com/transparency/"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "kahoot-privacy-policy"
+      ],
+      "detail": "S’expliquen els criteris (durada de la relació i terminis legals), però no hi ha terminis numèrics per categoria.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "kahoot-delete-account"
+      ],
+      "detail": "Es conserven els kahoots públics que s’han jugat més de cinc-centes vegades i el contingut públic dels perfils verificats, tret que s’esborrin manualment abans de donar-se de baixa.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "kahoot-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "kahoot-delete-account"
+      ],
+      "detail": "Opció dins de la configuració del perfil, amb un període de gràcia d’uns cinc dies per cancel·lar l’esborrat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://support.kahoot.com/hc/en-us/articles/115001597287-How-to-delete-my-account",
+    "difficulty": "easy",
+    "waitingPeriodDays": 5,
+    "steps": [
+      "Esborra manualment els kahoots públics que no vulguis que quedin al catàleg.",
+      "Obre l’avatar, entra a «Profile settings» i tria «Delete account».",
+      "Indica el motiu i confirma l’eliminació.",
+      "Durant uns cinc dies naturals pots revertir-ho des de «Having trouble logging in?» i la pestanya «Cancel deletion».",
+      "Cancel·la a banda la subscripció de pagament, si en tens."
+    ],
+    "obstacles": "Els comptes gestionats per una organització o un centre educatiu poden no tenir disponible l’opció d’eliminació.",
+    "dataRetained": "Kahoots públics amb més de cinc-centes partides i contingut públic de creadors verificats.",
+    "sources": [
+      "kahoot-delete-account",
+      "kahoot-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "kahoot-privacy-policy"
+      ],
+      "detail": "Els drets d’accés i portabilitat es reconeixen i s’exerceixen escrivint a l’adreça de privadesa; no hi ha una eina d’exportació d’autoservei documentada.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacy@kahoot.com"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "kahoot-privacy-policy"
+      ],
+      "detail": "Canal de privadesa explícit a la política.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacy@kahoot.com",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha publicitat personalitzada al servei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap control per desactivar l’analítica d’ús."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "kahoot-privacy-policy"
+      ],
+      "detail": "El centre educatiu decideix si activa l’identificador de jugador, que és el que lliga el rendiment amb una persona concreta; la persona participant no té aquest control.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "protective",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem identificat patrons enganyosos documentats."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El contingut dels qüestionaris és compartit dins d’una aula; el xifratge d’extrem a extrem no hi és aplicable.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "kahoot-security-measures"
+      ],
+      "detail": "TLS 1.2 o superior.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "kahoot-security-measures"
+      ],
+      "detail": "AES-256 o equivalent.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "kahoot-security-measures"
+      ],
+      "detail": "La verificació en dos passos s’ofereix on està disponible, però no és general per a tots els plans.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "kahoot-trust-center",
+        "kahoot-security-measures"
+      ],
+      "detail": "Certificacions ISO/IEC 27001:2022 i SOC 2 Type 2, i proves de penetració contínues per un tercer independent amb informe anual.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "kahoot-disclosure-policy"
+      ],
+      "detail": "Hi ha una política de divulgació responsable amb reconeixement públic, però no consta cap recompensa econòmica.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://kahoot.com/disclosure-policy.txt"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "kahoot-security-txt",
+        "kahoot-disclosure-policy"
+      ],
+      "detail": "Fitxer security.txt vigent amb adreça de contacte i clau PGP.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "google-classroom",
+      "comparability": "complementary",
+      "rationale": "Cobreix la gestió de l’aula i el lliurament de tasques, no el qüestionari en directe; en centres que ja el fan servir pot evitar afegir un proveïdor més.",
+      "tradeOffs": "El responsable passa a ser Google i el model de dades del centre és molt més ampli."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Kahoot! AS va deixar de cotitzar a la borsa d’Oslo el 23 de gener de 2024 després de l’adquisició per un consorci liderat per Goldman Sachs Asset Management, amb General Atlantic i KIRKBI. El canvi de propietat no ha alterat, de moment, els compromisos escrits sobre publicitat i entrenament de models. No hem localitzat cap sanció ni cap bretxa notificada.",
+    "openQuestions": [
+      "Per què l’etiqueta de l’App Store declara historial de cerca i de navegació vinculats a la persona si la política no els esmenta?",
+      "Quins terminis concrets de conservació s’apliquen a les dades de rendiment de l’alumnat?"
+    ]
+  },
+  "appStoreBundleId": "no.mobitroll.kahoot.controller"
+}

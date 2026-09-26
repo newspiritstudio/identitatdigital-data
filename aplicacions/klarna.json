@@ -1,0 +1,678 @@
+{
+  "slug": "klarna",
+  "name": "Klarna",
+  "company": "klarna-bank",
+  "categories": [
+    "banca-i-finances"
+  ],
+  "tagline": "Tot el que declara a l’App Store queda vinculat a la teva identitat, i res no hi consta com a no vinculat",
+  "summary": "Klarna decideix de manera automatitzada si et concedeix un crèdit, si ets un risc de frau i, quan hi ha una compra impugnada, qui en té la responsabilitat. A Espanya envia l’adreça, la data de naixement i el DNI a una agència de crèdit i avisa que la consulta afectarà la qualificació creditícia. L’etiqueta de l’App Store no té cap categoria «no vinculada amb tu»: tot el que recull queda lligat a la persona, i els identificadors i les dades d’ús es declaren per rastrejar.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Suècia",
+  "userBase": "Més de 100 milions de persones usuàries actives declarades per l’empresa",
+  "links": {
+    "website": "https://www.klarna.com/es/",
+    "privacyPolicy": "https://cdn.klarna.com/1.0/shared/content/legal/terms/0/es_es/privacy",
+    "appStore": "https://apps.apple.com/es/app/id1115120118"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "klarna-privacy-policy"
+    ],
+    "detail": "Pagar a terminis exigeix identificació i avaluació de solvència.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "klarna-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Klarna veu alhora què compres, a quines botigues, si pagues tard i quina és la teva situació financera. Amb les funcions de finances personals arriba als comptes bancaris externs, i amb el navegador propi, als llocs que visites. Cap botiga, per separat, disposa de tota aquesta informació.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "klarna-privacy-policy",
+        "klarna-app-store"
+      ]
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "klarna-privacy-policy"
+      ],
+      "note": "Fotos i vídeos del document d’identitat, signatures electròniques reconegudes i, a Espanya, enviament del DNI a l’agència de crèdit."
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "klarna-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "klarna-privacy-policy",
+        "klarna-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "klarna-privacy-policy",
+        "klarna-app-store"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "klarna-privacy-policy",
+        "klarna-app-store"
+      ]
+    },
+    {
+      "type": "nivell-d-ingressos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "klarna-privacy-policy"
+      ],
+      "note": "Ingressos, crèdits, historial de pagaments negatius i aprovacions de crèdit anteriors."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "klarna-privacy-policy",
+        "klarna-app-store"
+      ],
+      "note": "Número de targeta, caducitat, codi CVV, compte bancari i dades d’accés al banc per a les funcions d’agregació."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "klarna-privacy-policy",
+        "klarna-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "klarna-privacy-policy",
+        "klarna-app-store"
+      ],
+      "note": "Els llocs visitats amb el navegador intern de l’aplicació o amb l’extensió del navegador."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "klarna-app-store"
+      ]
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "klarna-privacy-policy"
+      ],
+      "note": "La funció de seguiment de comandes llegeix el correu electrònic que s’hi connecta."
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari",
+        "compliment-legal"
+      ],
+      "sources": [
+        "klarna-privacy-policy"
+      ],
+      "note": "Trucades enregistrades o transcrites, i converses amb l’assistent d’IA, que es conserven fins a sis mesos."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "klarna-app-store"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "klarna-privacy-policy",
+        "klarna-app-store"
+      ],
+      "note": "La política esmenta expressament l’identificador publicitari del mòbil."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "klarna-privacy-policy",
+        "klarna-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "klarna-app-store",
+        "klarna-privacy-policy"
+      ]
+    },
+    {
+      "type": "conviccions-i-opinions",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal"
+      ],
+      "sources": [
+        "klarna-privacy-policy"
+      ],
+      "note": "La política inclou les dades sensibles entre les categories que pot tractar, sobretot per les llistes de sancions i de persones políticament exposades."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "klarna-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "klarna-app-store"
+      ],
+      "detail": "L’etiqueta declara identificadors i dades d’ús utilitzats per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "klarna-privacy-policy"
+      ],
+      "detail": "La política esmenta l’identificador publicitari del mòbil entre les dades del dispositiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "klarna-privacy-policy"
+      ],
+      "detail": "Comparteix amb socis publicitaris per a la segmentació i l’activació d’audiències; alguns fan servir les dades per a finalitats pròpies, amb Klarna com a corresponsable.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "klarna-privacy-policy"
+      ],
+      "detail": "Màrqueting personalitzat a les plataformes pròpies i a les de tercers, basat en el consentiment, revocable a la configuració de tecnologia de seguiment de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "klarna-privacy-policy"
+      ],
+      "detail": "Perfilat comercial i decisions automatitzades sense intervenció humana: aprovació de crèdit, risc de frau, verificació d’identitat, risc de blanqueig i responsabilitat en compres impugnades. La consulta de crèdit a Espanya afecta la qualificació creditícia.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’avís no diu si les dades es fan servir per entrenar models; només que els models d’aprenentatge automàtic s’usen per decidir i personalitzar."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "klarna-privacy-policy"
+      ],
+      "detail": "Botigues, passarel·les i xarxes de targetes, agències d’informació creditícia i fitxers de morositat, agències antifrau, empreses de cobrament i compradors de deute, xarxes d’afiliats i socis publicitaris.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "klarna-privacy-policy"
+      ],
+      "detail": "Empreses del grup Klarna; en compres a botigues de fora de l’EEE, la cessió entre societats del grup és obligatòria per processar el pagament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "klarna-privacy-policy"
+      ],
+      "detail": "No ven dades com a tal, però les comparteix amb socis publicitaris que les tracten per a finalitats pròpies i les cedeix a compradors de deute, pràctiques properes a una venda.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "klarna-privacy-policy"
+      ],
+      "detail": "Decisions d’adequació, clàusules contractuals tipus amb avaluació del país receptor, el Marc de privadesa UE-EUA i normes corporatives vinculants d’alguns proveïdors. La política reconeix que hi ha països amb lleis que poden impedir que les clàusules siguin efectives.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "klarna-privacy-policy"
+      ],
+      "detail": "No publica cap informe de transparència sobre peticions d’autoritats; només informes financers i de sostenibilitat.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "klarna-privacy-policy"
+      ],
+      "detail": "La política dona terminis concrets per finalitat, cosa poc habitual.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "klarna-privacy-policy"
+      ],
+      "detail": "Les obligacions legals de conservació sobreviuen al tancament del compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "historial-de-compres",
+        "period": "Fins a 10 anys des de la fi de la relació contractual",
+        "sources": [
+          "klarna-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "document-identificatiu-oficial",
+        "period": "5 anys per les obligacions de prevenció del blanqueig",
+        "sources": [
+          "klarna-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "dades-de-pagament",
+        "period": "7 anys per la llei comptable sueca",
+        "sources": [
+          "klarna-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "veu-i-audio",
+        "period": "Fins a 6 mesos les converses amb l’assistent d’IA",
+        "sources": [
+          "klarna-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "klarna-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "klarna-delete-account"
+      ],
+      "detail": "El tancament del compte i la sol·licitud d’esborrament es fan des de l’aplicació, a «Seguridad y privacidad» i «Derechos de privacidad».",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "requiresSupportContact": false,
+    "steps": [
+      "Liquida els pagaments pendents: amb deute viu no es pot tancar el compte.",
+      "Obre el perfil de l’aplicació i entra a «Seguridad y privacidad».",
+      "Tria «Derechos de privacidad» i després «Eliminar información personal».",
+      "Confirma la sol·licitud; el que la llei obliga a conservar seguirà desat durant cinc, set o deu anys segons la categoria."
+    ],
+    "obstacles": "L’autoritat sueca té oberta des del 2022 una investigació sobre si Klarna exigeix requisits d’identificació desproporcionats per exercir els drets de supressió i d’accés.",
+    "dataRetained": "Documentació de prevenció del blanqueig cinc anys, comptabilitat set anys i dades de la relació contractual fins a deu anys.",
+    "sources": [
+      "klarna-delete-account",
+      "klarna-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "klarna-privacy-policy",
+        "klarna-delete-account"
+      ],
+      "detail": "L’extracte de dades i la portabilitat en format de lectura mecànica es demanen des de la mateixa aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "klarna-privacy-policy"
+      ],
+      "detail": "Equip de protecció de dades propi, amb adreça espanyola.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacidad@klarna.es"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "klarna-privacy-policy"
+      ],
+      "detail": "La configuració de tecnologia de seguiment de l’aplicació permet retirar el consentiment publicitari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "klarna-privacy-policy"
+      ],
+      "detail": "Es pot retirar el consentiment del seguiment, però no l’analítica basada en interès legítim.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "klarna-privacy-policy",
+        "klarna-delete-account"
+      ],
+      "detail": "L’aplicació reuneix drets de privadesa, configuració de seguiment, preferències de comunicació i de pagament en un sol lloc.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "regulator",
+      "sources": [
+        "klarna-imy-2022"
+      ],
+      "detail": "L’autoritat sueca va sancionar Klarna perquè la informació de privadesa no deia amb quina finalitat ni amb quina base jurídica tractava les dades d’un dels serveis, i era deficient sobre els drets de portabilitat i d’oposició.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "confusing-language",
+        "severity": "medium",
+        "description": "La informació de privadesa donada el 2020 no identificava la finalitat ni la base jurídica d’un dels serveis i explicava malament els drets de portabilitat i d’oposició, segons la resolució de la IMY.",
+        "sources": [
+          "klarna-imy-2022"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no transporta comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "klarna-security"
+      ],
+      "detail": "La pàgina de seguretat parla de xifratge d’alt nivell sense concretar-lo.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública sobre el xifratge de les dades en repòs."
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "klarna-security"
+      ],
+      "detail": "Verificació en dues fases, biometria i claus d’accés, amb alertes push i opció de congelar el compte.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "passkey",
+        "app-push"
+      ]
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten certificacions de seguretat publicades."
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "klarna-hackerone"
+      ],
+      "detail": "Programa públic a HackerOne des del maig de 2024, amb recompensa mínima de 50 dòlars i abast que inclou les aplicacions mòbils i les seves interfícies.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://hackerone.com/klarna"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "klarna-hackerone"
+      ],
+      "detail": "El canal és el programa de HackerOne; el domini klarna.com no publica cap fitxer security.txt.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La sanció de la IMY va passar per tres instàncies: 7,5 milions de corones, rebaixades a 6 pel tribunal administratiu i restablertes en apel·lació. L’autoritat principal de Klarna és la sueca: una reclamació presentada a l’AEPD s’acaba tramitant a Estocolm.",
+    "openQuestions": [
+      "Les dades de clientela es fan servir per entrenar els models d’aprenentatge automàtic, més enllà d’aplicar-los?",
+      "Quin és l’abast real de l’incident de novembre de 2025 que l’empresa atribueix a números de telèfon reciclats?"
+    ]
+  },
+  "appStoreBundleId": "com.klarna.app"
+}

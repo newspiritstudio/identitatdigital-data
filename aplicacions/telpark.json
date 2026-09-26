@@ -1,0 +1,472 @@
+{
+  "slug": "telpark",
+  "name": "Telpark",
+  "company": "maksu-espana",
+  "categories": [
+    "mobilitat-i-transport",
+    "utilitats"
+  ],
+  "tagline": "Per pagar la zona blava cal donar la matrícula i, per exercir els teus drets, una fotocòpia del DNI",
+  "summary": "Telpark, del grup Empark, permet pagar l’estacionament regulat i els aparcaments. La política de Maksu España preveu un perfilat comercial amb dades demogràfiques i del tipus de producte contractat, i la cessió de dades a la resta d’empreses del grup si s’hi consent. Per exercir els drets de protecció de dades demana un escrit amb fotocòpia del DNI o del passaport, una pràctica desaconsellada per l’AEPD. L’etiqueta de l’App Store declara l’identificador del dispositiu i la interacció amb el producte com a dades per rastrejar-te.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Espanya (UE)",
+  "links": {
+    "website": "https://www.telpark.com/es/",
+    "privacyPolicy": "https://www.telpark.com/es/centro-legal/maksu-politica-de-privacidad/",
+    "terms": "https://www.telpark.com/es/terms",
+    "appStore": "https://apps.apple.com/es/app/id658204860"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "telpark-terms",
+      "telpark-privacy-policy"
+    ],
+    "detail": "Cal registrar-se amb les dades identificatives, la matrícula i un mitjà de pagament per fer servir el servei.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "telpark-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "L’historial d’estacionaments és un registre de quan i on aparques: lloc, hora d’inici i durada, associat a una matrícula i a una targeta. La política hi afegeix un perfilat comercial fet amb dades demogràfiques.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "telpark-privacy-policy",
+        "telpark-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "telpark-privacy-policy",
+        "telpark-app-store"
+      ],
+      "note": "La política preveu comunicacions comercials de productes propis per interès legítim, amb casella per oposar-s’hi."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "telpark-app-store",
+        "telpark-terms"
+      ],
+      "note": "Els perfils d’abonat es fusionen de manera irreversible dins del compte de l’aplicació."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "telpark-privacy-policy"
+      ],
+      "note": "Gestionades per proveïdors de pagament i facturació."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "telpark-app-store",
+        "telpark-privacy-policy"
+      ],
+      "note": "L’etiqueta la declara com a dada no vinculada a la identitat, tot i que el servei es basa a saber on aparques."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "telpark-app-store"
+      ],
+      "note": "L’etiqueta declara la interacció amb el producte com a dada per rastrejar-te i com a dada vinculada a la identitat per al màrqueting del desenvolupador."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "telpark-app-store"
+      ]
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "compliment-legal"
+      ],
+      "sources": [
+        "telpark-privacy-policy"
+      ],
+      "note": "La política demana fotocòpia del DNI o del passaport per exercir els drets de protecció de dades."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "telpark-privacy-policy"
+      ],
+      "note": "Perfil comercial elaborat amb dades demogràfiques i el tipus de producte contractat."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "telpark-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "telpark-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "telpark-app-store"
+      ],
+      "detail": "L’etiqueta declara l’identificador del dispositiu i la interacció amb el producte com a dades utilitzades per rastrejar-te.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "telpark-app-store"
+      ],
+      "detail": "L’etiqueta declara l’identificador del dispositiu per rastrejar; no concreta si és l’identificador publicitari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no cita cap SDK ni cap proveïdor d’analítica concret."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "telpark-privacy-policy"
+      ],
+      "detail": "Comunicacions comercials de productes propis per interès legítim i, amb consentiment, de tercers i de la resta del grup Empark.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "telpark-privacy-policy"
+      ],
+      "detail": "La política descriu l’elaboració d’un perfil comercial a partir de dades demogràfiques i del tipus de producte contractat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no parla d’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "telpark-privacy-policy"
+      ],
+      "detail": "Autoritats i jutjats, encarregats del tractament, titulars dels aparcaments i proveïdors de pagament i facturació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "telpark-privacy-policy"
+      ],
+      "detail": "Cessió a les empreses del grup Empark, amb consentiment, per a finalitats comercials.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no parla de la venda de dades a corredors de dades."
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta cap transferència internacional."
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "no",
+      "level": "editorial",
+      "sources": [
+        "telpark-privacy-policy"
+      ],
+      "detail": "No hi ha cap informe de transparència.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "telpark-privacy-policy"
+      ],
+      "detail": "Les dades es conserven mentre siguin necessàries, després queden bloquejades durant el termini de prescripció de les accions legals i finalment es cancel·len; no hi ha xifres.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "telpark-privacy-policy"
+      ],
+      "detail": "Després de la supressió, les dades queden bloquejades a disposició de les autoritats durant el termini de prescripció.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "telpark-privacy-policy"
+      ],
+      "detail": "Com a exercici del dret de supressió.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Ni la política ni les condicions descriuen un botó per eliminar el compte des de l’aplicació."
+    },
+    "difficulty": "hard",
+    "requiresSupportContact": true,
+    "steps": [
+      "Escriu a dpo@telpark.com demanant la supressió de les dades i la baixa del compte.",
+      "Alternativament, envia un escrit signat per correu postal a Maksu España, S.L., avinguda del General Perón 36, 1a planta, 28020 Madrid.",
+      "La política demana adjuntar una fotocòpia del DNI o del passaport, tot i que l’AEPD desaconsella exigir-ho de manera sistemàtica.",
+      "Si no atenen la petició, pots reclamar davant l’Agència Espanyola de Protecció de Dades."
+    ],
+    "dataRetained": "Les dades queden bloquejades a disposició de les autoritats durant el termini de prescripció de les accions legals.",
+    "sources": [
+      "telpark-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política reconeix la portabilitat però no descriu cap eina d’exportació."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "telpark-privacy-policy"
+      ],
+      "detail": "A dpo@telpark.com o per correu postal, però exigint una fotocòpia del document d’identitat.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "telpark-privacy-policy"
+      ],
+      "detail": "Hi ha una casella per oposar-se a les comunicacions comercials pròpies i el consentiment per a les de tercers és opcional.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap opció per desactivar l’analítica."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "telpark-privacy-policy"
+      ],
+      "detail": "Els consentiments comercials i de cessió al grup són separats, però no hi ha controls sobre les dades d’ús.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem revisat el formulari de registre de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És un servei de pagament d’estacionament, sense comunicacions privades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "alternatives": [
+    {
+      "app": "elparking",
+      "comparability": "equivalent",
+      "rationale": "Cobreix el mateix servei de pagament de zona regulada i d’aparcaments a moltes ciutats espanyoles.",
+      "tradeOffs": "Pertany al grup Mutua Madrileña, amb un compte únic compartit amb la resta de serveis del grup i lectura automàtica de matrícula."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "La política no porta data de revisió. L’exigència de fotocòpia del DNI per exercir els drets és la troballa més rellevant. No hem pogut fer la cerca d’incidents perquè la sessió havia exhaurit el pressupost de cerques.",
+    "openQuestions": [
+      "Hi ha eliminació del compte dins de l’aplicació?",
+      "Quines empreses concretes del grup Empark reben les dades?"
+    ]
+  },
+  "appStoreBundleId": "com.delaware.Telpark"
+}

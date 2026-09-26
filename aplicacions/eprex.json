@@ -1,0 +1,402 @@
+{
+  "slug": "eprex",
+  "name": "ePrex",
+  "company": "fundacio-summa-humanitate",
+  "categories": [
+    "llibres-i-lectura"
+  ],
+  "tagline": "Una app de pregària gratuïta i sense anuncis que a l’App Store declara rastreig, amb una política que no parla de l’app",
+  "summary": "ePrex reuneix la litúrgia de les hores, l’evangeli del dia, el rosari i altres oracions, funciona sense connexió i la mantenen una trentena de persones voluntàries. El web promet que tot és «gratis y sin publicidad». L’etiqueta de l’App Store, en canvi, declara dades de contacte, contingut de l’usuari, identificadors, dades d’ús i diagnòstics com a dades utilitzades per rastrejar a través d’apps i llocs d’altres empreses. I la política que la fitxa enllaça és la del web de donacions de la fundació: parla de DNI i dades bancàries i no esmenta enlloc el tractament de l’aplicació.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "donations",
+  "jurisdiction": "Espanya (UE)",
+  "userBase": "Més de 5 milions de baixades i uns 50.000 usuaris nous cada mes, en més de 180 països, segons el projecte.",
+  "links": {
+    "website": "https://eprex.app/",
+    "privacyPolicy": "https://saints.es/privacidad/",
+    "terms": "https://saints.es/aviso-legal",
+    "appStore": "https://apps.apple.com/es/app/id954001499"
+  },
+  "accountRequired": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": [],
+    "detail": "Ni la fitxa de l’App Store ni el web diuen si cal registrar-se; l’etiqueta declara l’adreça electrònica, i les funcions de notes i plans de pregària fan pensar en un compte o una sincronització."
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "eprex-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "El que una persona resa, a quina hora i quines intencions apunta al quadern de l’app són conviccions religioses, una categoria especial de dades segons el RGPD. L’etiqueta de l’App Store declara el contingut de l’usuari i les dades d’ús entre les que es fan servir per rastrejar, i no hi ha cap document que expliqui per a què.",
+  "dataCollection": [
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "eprex-app-store"
+      ],
+      "note": "L’etiqueta la declara vinculada a la identitat i entre les dades utilitzades per rastrejar. La política enllaçada no l’esmenta en relació amb l’app."
+    },
+    {
+      "type": "conviccions-i-opinions",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "eprex-app-store",
+        "eprex-website"
+      ],
+      "note": "El simple ús de l’app revela la pertinença religiosa, i el web anuncia quaderns de notes i intencions de pregària. Cap document no diu com es tracten."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "eprex-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "eprex-app-store"
+      ]
+    },
+    {
+      "type": "fitxers-i-documents",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "eprex-app-store",
+        "eprex-website"
+      ],
+      "note": "L’etiqueta declara «contenido del usuario»: notes, intencions i probablement els subratllats de les lectures."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "eprex-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "eprex-privacy-policy"
+      ],
+      "note": "Només per a les donacions: la política parla de dades bancàries i mètodes de pagament, comunicats a bancs i entitats financeres."
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal"
+      ],
+      "sources": [
+        "eprex-privacy-policy"
+      ],
+      "note": "La política de la fundació demana nom, cognoms i DNI per a la gestió de les donacions."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "eprex-app-store"
+      ],
+      "detail": "L’etiqueta declara dades de contacte, contingut de l’usuari, identificadors, dades d’ús i diagnòstics com a dades utilitzades per rastrejar-te a través d’apps i llocs web d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’etiqueta declara «identificadores» sense concretar si inclouen l’identificador publicitari."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "eprex-app-store",
+        "eprex-website"
+      ],
+      "detail": "La declaració de rastreig implica la presència de components de tercers, però ni el web ni la política n’identifiquen cap, i el web insisteix que no hi ha publicitat.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "eprex-website",
+        "eprex-aciprensa"
+      ],
+      "detail": "Tant el web del projecte com el reportatge d’ACI Prensa afirmen que l’app és gratuïta i sense publicitat. Queda sense explicar per què l’etiqueta declara rastreig.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Cap document no descriu cap perfilat, però l’etiqueta declara dades per a «personalización del producto»."
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap document que en parli."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "eprex-app-store",
+        "eprex-privacy-policy"
+      ],
+      "detail": "L’etiqueta implica compartició amb tercers per al rastreig; la política només documenta comunicacions a administracions públiques i a entitats financeres, i només per a les donacions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "La Fundación Summa Humanitate no forma part de cap grup empresarial.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Cap document no ho tracta."
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no té cap apartat de transferències internacionals."
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència; en una fundació d’aquesta mida tampoc no és habitual."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "eprex-privacy-policy"
+      ],
+      "detail": "La política lliga els terminis a la vigència de la relació de donació, a la prescripció de les responsabilitats contractuals i a la revocació del consentiment. No diu res de les dades de l’app.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap document que expliqui què passa amb les dades de l’aplicació."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut confirmar si l’app té compte ni, per tant, si es pot eliminar."
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap document que ho descrigui."
+    },
+    "difficulty": "unknown",
+    "requiresSupportContact": true,
+    "steps": [
+      "Escriu a dpd@humanitate.org, l’adreça del delegat de protecció de dades de la fundació, i demana la supressió de les teves dades.",
+      "Indica-hi que et refereixes a l’aplicació ePrex, perquè la política publicada està escrita per a les donacions del web.",
+      "La política es compromet a respondre en el termini d’un mes."
+    ],
+    "obstacles": "No hi ha cap document que descrigui el tractament de l’app ni cap camí de baixa dins l’aplicació.",
+    "sources": [
+      "eprex-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "eprex-privacy-policy"
+      ],
+      "detail": "La política reconeix la portabilitat entre els drets, però no ofereix cap descàrrega i no es refereix a les dades de l’app.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "eprex-privacy-policy",
+        "eprex-legal-notice"
+      ],
+      "detail": "Per correu a dpd@humanitate.org o per escrit al carrer Villa de Marín 24 de Madrid, amb resposta en un mes.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dpd@humanitate.org"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’app no mostra publicitat, segons el web del projecte i la premsa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap document que descrigui un interruptor per desactivar l’analítica."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap document sobre la configuració de privadesa de l’app."
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut examinar el flux d’alta ni el de donació dins l’app."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És una app de lectura i pregària; no hi ha comunicacions privades entre persones que puguin anar xifrades d’extrem a extrem.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Cap document no descriu les mesures tècniques."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap canal per comunicar vulnerabilitats."
+    }
+  },
+  "review": {
+    "researchStatus": "initial",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "El projecte no té afany comercial (és gratuït, sense anuncis, mantingut per voluntariat i finançat amb donacions), però la documentació legal és deficient. La política que l’App Store dona com a política de privadesa de l’app és la del web de donacions i no esmenta l’aplicació en cap moment. A més, l’etiqueta declara rastreig de contingut de l’usuari i de dades de contacte en una app que, de fet, tracta conviccions religioses. També hi ha una incoherència d’editor: la fitxa de l’App Store surt a nom de «Saints App (FUNDACION EDUCATIO IMPRIMIS)» i l’avís legal del web identifica la Fundación Summa Humanitate. No hi consta cap domini del projecte a la llista de filtracions de Have I Been Pwned.",
+    "openQuestions": [
+      "Quins components de tercers fa servir l’app i per què l’etiqueta declara rastreig si no hi ha publicitat?",
+      "Cal registrar-se per fer servir les notes, les intencions i els plans de pregària, i on es desen?",
+      "Quina relació hi ha entre la Fundación Summa Humanitate, la Fundación Educatio Imprimis i la Fundación CARI FILII?",
+      "Hi ha alguna política de privadesa específica de l’aplicació que no hàgim sabut trobar?"
+    ]
+  },
+  "appStoreBundleId": "com.eprex.lo.es.ios"
+}

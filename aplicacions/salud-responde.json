@@ -1,0 +1,412 @@
+{
+  "slug": "salud-responde",
+  "name": "Salud Responde",
+  "company": "servicio-andaluz-de-salud",
+  "categories": [
+    "salut-i-assistencia-sanitaria",
+    "administracio-publica"
+  ],
+  "tagline": "Cita prèvia d’atenció primària sense actualitzacions des del 2023 i amb l’enllaç de privadesa trencat",
+  "summary": "Salud Responde serveix per demanar i canviar cites d’atenció primària del Servei Andalús de Salut. L’última versió és del gener del 2023 i l’enllaç a la política de privadesa de l’App Store porta a una pàgina que ja no existeix. L’etiqueta declara que no es recull cap dada, tot i que demanar cita implica identificar-se davant el sistema sanitari. Queda coberta per la política general del SAS.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "public-service",
+  "jurisdiction": "Espanya (Andalusia); autoritat de control: Consejo de Transparencia y Protección de Datos de Andalucía",
+  "links": {
+    "privacyPolicy": "https://www.sspa.juntadeandalucia.es/servicioandaluzdesalud/politica-de-privacidad",
+    "appStore": "https://apps.apple.com/es/app/id681103926"
+  },
+  "accountRequired": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": [],
+    "detail": "No hem pogut verificar com s’identifica la persona per demanar cita."
+  },
+  "openSource": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": [],
+    "detail": "No hem trobat cap repositori públic del codi."
+  },
+  "publicService": {
+    "isPublicService": true,
+    "administrationLevel": "regional",
+    "legalBasis": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "sas-privacy-policy"
+      ],
+      "detail": "La política del SAS no té cap apartat per a Salud Responde. L’aplicació queda sota el tractament genèric de dades «no especials» dels sistemes en línia, que la política empara només en l’article 6.1.e del RGPD, l’interès públic, sense concretar la norma sanitària que hi dona cobertura.",
+      "verifiedAt": "2026-09-22",
+      "norm": "RGPD, article 6.1.e"
+    },
+    "processingRegistry": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "junta-andalucia-rat-buscador",
+        "sas-privacy-policy"
+      ],
+      "detail": "El registre d’activitats de la Junta és públic i s’hi pot cercar per organisme, però no hi ha cap activitat que porti el nom de Salud Responde. La política només esmenta el «servicio de notificaciones de Salud Responde» dins d’un tractament genèric; les cites d’atenció primària formen part de l’activitat de la història de salut.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.juntadeandalucia.es/protecciondedatos/buscador.html"
+    },
+    "dpia": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat publicada cap avaluació d’impacte de l’aplicació."
+    },
+    "ensConformity": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "sas-privacy-policy",
+        "junta-andalucia-rat-historia-salut"
+      ],
+      "detail": "El SAS diu que aplica les mesures de l’annex II de l’Esquema Nacional de Seguretat, però cita el Reial decret 3/2010, derogat pel Reial decret 311/2022. No consta cap declaració de conformitat ni cap categoria per a aquesta aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dpo": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "sas-privacy-policy"
+      ],
+      "detail": "El SAS identifica el delegat de protecció de dades i en publica el correu com a canal de comunicació informal i de reclamació.",
+      "verifiedAt": "2026-09-22",
+      "contact": "dpd.sspa@juntadeandalucia.es"
+    },
+    "offlineAlternative": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "sas-salud-responde-servei"
+      ],
+      "detail": "Salud Responde és sobretot un servei telefònic: el 955 54 50 60 atén les 24 hores tots els dies de l’any i hi gestiona les mateixes cites que l’aplicació. També es poden demanar al taulell del centre de salut.",
+      "verifiedAt": "2026-09-22"
+    },
+    "accessibilityStatement": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "sas-accessibilitat"
+      ],
+      "detail": "El SAS declara el seu web «parcialment conforme» amb el Reial decret 1112/2018, amb una darrera revisió del 10 d’agost de 2020. La declaració s’aplica al portal sspa.juntadeandalucia.es i no esmenta les aplicacions mòbils.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.sspa.juntadeandalucia.es/servicioandaluzdesalud/accesibilidad"
+    },
+    "mandatoryRetention": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "junta-andalucia-rat-historia-salut",
+        "sas-privacy-policy"
+      ],
+      "detail": "Les cites d’atenció primària s’incorporen a la història de salut, i el registre d’activitats del SAS en fixa la conservació per l’article 17 de la Llei 41/2002, bàsica reguladora de l’autonomia del pacient, que obliga a conservar la documentació clínica com a mínim cinc anys des de l’alta de cada procés, a més del que disposa la normativa d’arxius. Per això les cites es conserven encara que la persona deixi d’usar l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataSummary": "Les cites mèdiques diuen quan i amb quina freqüència una persona va al metge o a infermeria, i en quin centre. Són dades de salut encara que no incloguin el diagnòstic.",
+  "dataCollection": [
+    {
+      "type": "dades-de-salut",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "salud-responde-app-store",
+        "sas-privacy-policy"
+      ],
+      "note": "Les cites d’atenció primària i d’infermeria formen part de la història de salut."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "salud-responde-app-store"
+      ],
+      "note": "Les versions del 2014 i el 2016 van afegir un xat amb un operador; no sabem si encara funciona."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "sas-privacy-policy"
+      ],
+      "note": "La política del SAS preveu tractar identificadors del dispositiu a les aplicacions que tracten informació de salut, i esmenta el servei de notificacions de Salud Responde."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "salud-responde-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "salud-responde-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store diu que el desenvolupador no recull cap dada, tot i que l’aplicació serveix per consultar informació personal guardada als servidors de la Junta.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política del SAS diu que alguns dels seus sistemes fan servir Google Analytics, sense concretar quins."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "sas-privacy-policy",
+        "salud-responde-app-store"
+      ],
+      "detail": "No hi ha cap finalitat publicitària ni a la política ni a l’etiqueta de l’App Store.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política general del SAS no concreta res per a aquesta aplicació."
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no ho diu."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "sas-privacy-policy"
+      ],
+      "detail": "Només per obligació legal o amb consentiment, a més dels proveïdors que actuen com a encarregats del tractament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no concreta res per a aquesta aplicació."
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "sas-privacy-policy"
+      ],
+      "detail": "La política diu que les dades mai no es vendran ni es compartiran amb tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no ho diu."
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "sas-privacy-policy"
+      ],
+      "detail": "Les dades de salut segueixen la Llei 41/2002 i la normativa d’arxius; les de les aplicacions es guarden mentre s’utilitzen.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "sas-privacy-policy"
+      ],
+      "detail": "Les cites queden a la història de salut, que es conserva pels terminis legals.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha compte propi: l’aplicació identifica la persona com a usuària del sistema sanitari públic.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha compte que eliminar; les dades de salut formen part de la història clínica.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "unknown",
+    "steps": [
+      "Desinstal·la l’aplicació.",
+      "Per exercir drets sobre les dades de salut, fes servir la sol·licitud electrònica del SAS o els formularis de les unitats d’atenció a la ciutadania."
+    ],
+    "sources": [
+      "sas-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no concreta com es poden obtenir les dades d’aquesta aplicació."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "sas-privacy-policy"
+      ],
+      "detail": "Sol·licitud electrònica o presencial; si no hi ha resposta en un mes, delegat de protecció de dades a dpd.sspa@juntadeandalucia.es.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dpd.sspa@juntadeandalucia.es",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no mostra publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No sabem si aquesta aplicació fa servir Google Analytics."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem verificat els ajustos de l’aplicació."
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem analitzat l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació gestiona cites; no transporta comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha informació pública específica de l’aplicació."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha informació pública."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat informació sobre els mètodes d’identificació."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories publicades de l’aplicació."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "junta-andalucia-security-txt"
+      ],
+      "detail": "El domini de la Junta publica un security.txt que remet a AndalucíaCERT; no és específic de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "salud-andalucia",
+      "comparability": "equivalent",
+      "rationale": "L’aplicació actual del SAS també gestiona cites, amb una política de privadesa pròpia i actualitzada."
+    }
+  ],
+  "review": {
+    "researchStatus": "initial",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "L’enllaç de privadesa de l’App Store (juntadeandalucia.es/SaludResponde/AppMovil/calidad.html) torna un error 404. Fem servir la política general del SAS, que esmenta el servei de notificacions de Salud Responde però no té un apartat propi per a l’aplicació.",
+    "openQuestions": [
+      "Quines dades demana l’aplicació per identificar la persona abans de donar-li cita?",
+      "L’aplicació continua mantinguda o l’ha substituïda Salud Andalucía?"
+    ]
+  },
+  "appStoreBundleId": "es.juntadeandalucia.saludresponde.citamovil"
+}

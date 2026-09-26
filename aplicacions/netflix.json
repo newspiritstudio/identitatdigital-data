@@ -1,0 +1,551 @@
+{
+  "slug": "netflix",
+  "name": "Netflix",
+  "company": "netflix",
+  "categories": [
+    "video-i-streaming"
+  ],
+  "tagline": "Vídeo per subscripció amb un pla amb publicitat des de 2022",
+  "summary": "Durant anys Netflix es va finançar només amb subscripcions, sense publicitat. El 2022 va introduir un pla amb anuncis, que va portar rastrejadors de tercers a un servei que no en tenia. La sanció neerlandesa de 2024 va constatar que la informació que donava sobre el tractament de dades no era prou clara.",
+  "platforms": [
+    "web",
+    "ios",
+    "android",
+    "other"
+  ],
+  "businessModel": "subscription",
+  "jurisdiction": "Països Baixos, per a persones usuàries de l’Espai Econòmic Europeu",
+  "userBase": "Més de 300 milions de subscripcions de pagament",
+  "links": {
+    "website": "https://www.netflix.com/",
+    "privacyPolicy": "https://help.netflix.com/legal/privacy",
+    "terms": "https://help.netflix.com/legal/termsofuse",
+    "privacyCenter": "https://www.netflix.com/account/privacy"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "netflix-privacy-statement"
+    ],
+    "detail": "El servei és de pagament i requereix compte i mitjà de pagament.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "netflix-privacy-statement"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "L’historial de visualització revela gustos, horaris, hàbits de son i, indirectament, orientació i conviccions. Netflix el conserva vinculat al perfil i, en el pla amb publicitat, l’aprofita per segmentar anuncis.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "netflix-privacy-statement"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "netflix-privacy-statement"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "netflix-privacy-statement"
+      ]
+    },
+    {
+      "type": "historial-de-visualitzacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "netflix-privacy-statement"
+      ],
+      "note": "Inclou què es mira, quan, durant quant de temps i on s’abandona."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "netflix-privacy-statement"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "netflix-privacy-statement"
+      ]
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "netflix-privacy-statement"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "netflix-privacy-statement"
+      ],
+      "note": "Es fa servir per aplicar restriccions territorials i detectar comptes compartits."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "compliment-legal"
+      ],
+      "sources": [
+        "netflix-privacy-statement"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "netflix-privacy-statement"
+      ],
+      "note": "Només al pla amb publicitat."
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "netflix-privacy-statement"
+      ]
+    },
+    {
+      "type": "xarxa-i-connectivitat",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "netflix-privacy-statement"
+      ]
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "netflix-privacy-statement"
+      ]
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "netflix-privacy-statement"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "netflix-privacy-statement"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "netflix-privacy-statement"
+      ],
+      "detail": "El pla amb publicitat incorpora socis de mesura que operen fora del servei; el pla sense anuncis, no.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "netflix-privacy-statement"
+      ],
+      "detail": "Només al pla amb publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "netflix-privacy-statement"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "netflix-privacy-statement"
+      ],
+      "detail": "Només al pla amb anuncis. Els plans de pagament sense publicitat no en mostren.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://www.netflix.com/account/privacy"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "netflix-privacy-statement"
+      ],
+      "detail": "El sistema de recomanació construeix un perfil de gustos molt detallat, tot i que d’ús intern.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La declaració de privadesa no detalla si les dades de visualització s’utilitzen per entrenar models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "regulator",
+      "sources": [
+        "netflix-privacy-statement",
+        "ap-netflix-2024"
+      ],
+      "detail": "Socis publicitaris al pla amb anuncis i proveïdors de serveis. La sanció de 2024 va constatar que la informació sobre aquests destinataris era insuficient.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Netflix no forma part d’un grup amb altres serveis de consum.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "netflix-privacy-statement"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "regulator",
+      "sources": [
+        "ap-netflix-2024"
+      ],
+      "detail": "La informació sobre les transferències fora de l’Espai Econòmic Europeu va ser un dels punts sancionats.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "adequacy"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "netflix-privacy-statement"
+      ],
+      "detail": "Publica informació sobre peticions governamentals dins de l’informe de sostenibilitat, no en un informe específic.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "netflix-deletion-retention"
+      ],
+      "detail": "Netflix publica una pàgina específica amb què elimina i quan, cosa poc habitual.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "netflix-deletion-retention"
+      ],
+      "detail": "Un cop cancel·lat el compte, la informació es conserva 10 mesos per facilitar la reactivació, i després s’elimina. Les dades de facturació es conserven pels terminis legals.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "period": "10 mesos de conservació després de la cancel·lació abans de l’eliminació automàtica",
+        "sources": [
+          "netflix-deletion-retention"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "netflix-deletion-retention"
+      ],
+      "detail": "Es pot cancel·lar la subscripció i sol·licitar l’eliminació immediata sense esperar els 10 mesos.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "netflix-cancel"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://www.netflix.com/cancelplan",
+    "difficulty": "easy",
+    "waitingPeriodDays": 0,
+    "requiresSupportContact": false,
+    "steps": [
+      "Entra al compte des del web i tria «Cancel·la la subscripció».",
+      "Confirma la cancel·lació; el servei continua fins al final del període pagat.",
+      "Per esborrar les dades sense esperar 10 mesos, demana-ho des de la pàgina de privadesa del compte."
+    ],
+    "obstacles": "La cancel·lació és senzilla, però l’eliminació de les dades no és automàtica: cal demanar-la expressament o esperar deu mesos.",
+    "dataRetained": "Registres de facturació durant els terminis fiscals obligatoris.",
+    "sources": [
+      "netflix-cancel",
+      "netflix-deletion-retention"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "netflix-privacy-statement"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.netflix.com/account/getmyinfo"
+    },
+    "exportFormatQuality": "open",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "regulator",
+      "sources": [
+        "netflix-privacy-statement",
+        "ap-netflix-2024"
+      ],
+      "detail": "El dret d’accés es va exercir amb resultats incomplets durant el període investigat per l’autoritat neerlandesa.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.netflix.com/account/privacy",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "netflix-privacy-statement"
+      ],
+      "detail": "Es pot limitar la personalització dels anuncis al pla corresponent; canviar a un pla sense publicitat és l’única sortida completa.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.netflix.com/account/privacy"
+    },
+    "telemetryOptOut": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "netflix-privacy-statement"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "netflix-privacy-statement"
+      ],
+      "detail": "Es pot ocultar l’historial de visualització títol a títol i gestionar perfils, però no aturar-ne la recollida.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "netflix-cancel"
+      ],
+      "detail": "El procés de cancel·lació és directe i sense pantalles d’intercepció, cosa que contrasta amb bona part del sector.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei distribueix contingut, no comunicacions privades entre persones usuàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "netflix-privacy-statement"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "netflix-privacy-statement"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "netflix-privacy-statement"
+      ],
+      "detail": "Netflix no ofereix verificació en dos passos clàssica; fa servir codis d’un sol ús per confirmar accessos sospitosos.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "email",
+        "sms"
+      ]
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories de seguretat independents publicades."
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "netflix-privacy-statement"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://bugcrowd.com/netflix"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "netflix-privacy-statement"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "L’absència de verificació en dos passos és una mancança rellevant per a un servei amb dades de pagament, tot i que la resta de la fitxa és relativament favorable."
+  },
+  "appStoreBundleId": "com.netflix.Netflix"
+}

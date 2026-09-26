@@ -1,0 +1,351 @@
+{
+  "slug": "objektiv",
+  "name": "Objektiv",
+  "company": "objektiv-doo",
+  "categories": [
+    "noticies-i-mitjans"
+  ],
+  "tagline": "Portal serbi amb una política de privadesa genèrica que no esmenta el RGPD ni el dret de supressió",
+  "summary": "Objektiv és un portal informatiu de Belgrad que figura entre les aplicacions més populars de «Notícies» de l’App Store espanyol. L’etiqueta declara les dades d’ús com a dades de rastreig i no vincula res a la identitat, cosa coherent amb una app sense compte. La política de privadesa del portal, però, és un text breu i genèric: no esmenta el RGPD, ni terminis de conservació, ni el dret de supressió, ni identifica cap responsable del tractament amb NIF ni adreça.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "advertising",
+  "jurisdiction": "Sèrbia",
+  "links": {
+    "website": "https://objektiv.rs/",
+    "privacyPolicy": "https://objektiv.rs/politika-privatnosti/",
+    "appStore": "https://apps.apple.com/es/app/objektiv/id1498466663"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "objektiv-app-store"
+    ],
+    "detail": "L’etiqueta no declara cap dada de contacte ni identificador d’usuari: l’aplicació es fa servir sense compte.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "objektiv-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Sense compte, l’aplicació recull l’activitat de lectura i l’identificador publicitari, que basten per situar-te en un segment d’anunciants encara que el portal digui que no t’identifica.",
+  "dataCollection": [
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "objektiv-app-store"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "objektiv-app-store"
+      ],
+      "note": "L’etiqueta declara «datos publicitarios» no vinculats a la identitat per a publicitat de tercers."
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "objektiv-privacy-policy"
+      ],
+      "note": "La política només diu que es poden esborrar o bloquejar des del navegador."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "objektiv-privacy-policy"
+      ],
+      "note": "Només si escrius al portal o omples un formulari al web."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "objektiv-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "objektiv-app-store"
+      ],
+      "detail": "L’etiqueta declara les dades d’ús com a dades que poden servir per rastrejar en apps i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "objektiv-app-store"
+      ],
+      "detail": "Dades publicitàries per a publicitat de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "objektiv-app-store"
+      ],
+      "detail": "L’etiqueta declara publicitat de tercers i analítica, però la política no en dona cap nom.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "objektiv-app-store"
+      ],
+      "detail": "L’etiqueta declara dades publicitàries per a publicitat de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política diu que no fa servir els registres per identificar persones, però no descriu cap perfilat publicitari."
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no en diu res."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "objektiv-privacy-policy"
+      ],
+      "detail": "La política diu que hi poden accedir col·laboradors, autoritats i encarregats, i que es poden transmetre dades d’ús no identificables a tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap grup empresarial."
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no ho aborda."
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no té cap apartat de transferències; l’editora és sèrbia, fora de l’Espai Econòmic Europeu."
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "objektiv-privacy-policy"
+      ],
+      "detail": "La política no fixa cap termini.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no aborda la supressió."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no crea cap compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no crea cap compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "unknown",
+    "steps": [
+      "Desinstal·la l’aplicació i restableix l’identificador de publicitat del sistema.",
+      "Si alguna vegada has escrit al portal, demana la supressió per correu al contacte que publica la política."
+    ],
+    "sources": [
+      "objektiv-privacy-policy",
+      "objektiv-app-store"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta el dret d’accés ni de portabilitat."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "objektiv-privacy-policy",
+        "objektiv-impressum"
+      ],
+      "detail": "La política no reconeix els drets del RGPD ni designa cap responsable ni delegat; només dona una adreça de correu genèrica, i l’impressum es limita a identificar l’editora i la direcció editorial.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política només parla d’esborrar les galetes des del navegador."
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "granularControls": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "objektiv-privacy-policy"
+      ],
+      "detail": "No hi ha cap panell de preferències descrit.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És una aplicació de lectura de notícies.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no té comptes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El domini no publica cap fitxer security.txt."
+    }
+  },
+  "review": {
+    "researchStatus": "initial",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "L’App Store dona com a política de privadesa la pàgina de condicions d’ús; la política real és a objektiv.rs/politika-privatnosti. El venedor declarat (Elektronski portal Objektiv d.o.o.) i l’editora que consta a l’impressum (OWP INFO d.o.o.) no coincideixen.",
+    "openQuestions": [
+      "Quina de les dues societats sèrbies és la responsable del tractament?",
+      "Quines xarxes publicitàries integra l’aplicació?",
+      "Hi ha una política adaptada al RGPD per a les persones usuàries de la Unió Europea?"
+    ]
+  },
+  "appStoreBundleId": "rs.objektiv.app"
+}

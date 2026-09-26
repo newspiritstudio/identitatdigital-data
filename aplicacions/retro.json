@@ -1,0 +1,569 @@
+{
+  "slug": "retro",
+  "name": "Retro",
+  "company": "lone-palm-labs",
+  "categories": [
+    "xarxes-socials"
+  ],
+  "tagline": "Fotos només per a amics, però la baixa del compte passa per escriure als fundadors",
+  "summary": "Retro és un diari fotogràfic privat entre amics fet per un equip petit que ve d’Instagram. La política de privadesa és nord-americana i genèrica: no té secció europea ni representant a la UE, i l’única manera que hi consta per esborrar el compte és escriure a founders@retro.app. L’etiqueta de l’App Store no declara cap dada utilitzada per rastrejar, a diferència de gairebé totes les altres aplicacions socials del catàleg.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Estats Units",
+  "userBase": "Aplicació petita, sense xifres d’ús publicades",
+  "links": {
+    "website": "https://retro.app/",
+    "privacyPolicy": "https://retro.app/privacy",
+    "terms": "https://retro.app/terms",
+    "appStore": "https://apps.apple.com/es/app/id6443709020"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "retro-privacy-policy"
+    ],
+    "detail": "El registre demana nom, nom d’usuari i número de telèfon.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "retro-terms"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Les fotos setmanals amb amics, amb la ubicació que la càmera hi afegeix i que es mostra als contactes per defecte, mostren amb qui es passa el temps i on. Quan s’usa la cerca d’amics, la llista de contactes puja al servidor, amb dades de persones que no han acceptat res.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "retro-privacy-policy",
+        "retro-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "retro-privacy-policy"
+      ],
+      "note": "El nom d’usuari és públic al perfil."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "retro-privacy-policy"
+      ],
+      "note": "És obligatori per crear el compte, però no es mostra al perfil si no es vol."
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "retro-privacy-policy",
+        "retro-app-store"
+      ],
+      "note": "La política demana que només es comparteixin contactes de persones properes o que hi hagin consentit, de manera que el consentiment de tercers queda en mans de qui instal·la l’aplicació."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "retro-privacy-policy",
+        "retro-app-store"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "retro-privacy-policy"
+      ],
+      "note": "La ubicació de les fotos i els vídeos, presa de la càmera del sistema, es mostra als amics per defecte."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "retro-privacy-policy"
+      ],
+      "note": "Geolocalització aproximada deduïda de l’adreça IP."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "retro-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "retro-privacy-policy"
+      ],
+      "note": "La subscripció Retro Premium es cobra amb Stripe, que rep les dades financeres; l’empresa diu que no en conserva cap."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "retro-privacy-policy"
+      ],
+      "note": "Els missatges directes entre persones usuàries no es tracten com a informació pública."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "retro-privacy-policy",
+        "retro-app-store"
+      ],
+      "note": "S’envien a Google Analytics."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "retro-privacy-policy",
+        "retro-app-store"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "retro-privacy-policy"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "seguretat-i-prevencio-del-frau",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "retro-privacy-policy"
+      ],
+      "note": "La política preveu galetes de socis de màrqueting, publicitat i xarxes socials."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "retro-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "retro-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada utilitzada per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "retro-privacy-policy"
+      ],
+      "detail": "La política preveu socis publicitaris i galetes d’atribució, però l’etiqueta no declara cap identificador publicitari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "retro-privacy-policy"
+      ],
+      "detail": "Google Analytics i socis de màrqueting i de xarxes socials.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "retro-privacy-policy"
+      ],
+      "detail": "L’aplicació no mostra publicitat, però la política reserva la compartició amb socis publicitaris per a atribució i mesura, i parla de personalització contextual d’anuncis.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "retro-privacy-policy"
+      ],
+      "detail": "Diu que tracta les dades per entendre millor els interessos, els comportaments i la demografia de les persones usuàries; no descriu perfils individuals per a publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu res sobre l’ús de les fotos per entrenar models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "retro-privacy-policy"
+      ],
+      "detail": "Allotjament al núvol (Amazon Web Services), pagaments amb Stripe, verificació d’identitat, analítica i socis publicitaris.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "retro-privacy-policy"
+      ],
+      "detail": "La política preveu compartir amb filials i societats matrius; l’empresa és petita i no consta que en tingui.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "retro-privacy-policy"
+      ],
+      "detail": "Diu que no comparteix dades personals amb tercers que vulguin promocionar els seus productes, tret que s’hi consenti.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "retro-privacy-policy"
+      ],
+      "detail": "El tractament es fa als Estats Units. La política no esmenta cap mecanisme de transferència del RGPD.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "retro-privacy-policy"
+      ],
+      "detail": "No hi ha cap termini concret: es conserva la informació mentre hi hagi compte i mentre calgui per a obligacions fiscals, legals o d’assegurança.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "retro-privacy-policy"
+      ],
+      "detail": "Després de la sol·licitud d’esborrament, una part de la informació pot quedar a còpies de seguretat i arxius, i es poden conservar dades de comptes tancats per frau o seguretat per impedir que se’n tornin a obrir.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "retro-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "retro-privacy-policy"
+      ],
+      "detail": "L’únic camí que documenta la política és escriure a founders@retro.app. No hem pogut verificar si l’aplicació ofereix l’opció a la configuració, com exigeixen les normes de l’App Store.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "requiresSupportContact": true,
+    "steps": [
+      "Escriu a founders@retro.app demanant l’eliminació del compte i de les dades personals.",
+      "Indica-hi el número de telèfon i el nom d’usuari amb què et vas registrar.",
+      "Guarda la resposta com a prova: no hi ha cap termini compromès."
+    ],
+    "obstacles": "La política no fixa cap termini de resposta i es reserva no esborrar el compte si hi ha deutes, disputes o investigacions obertes.",
+    "dataRetained": "Còpies de seguretat, dades de transaccions i informació necessària per a obligacions legals o per prevenir el frau.",
+    "sources": [
+      "retro-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "retro-privacy-policy"
+      ],
+      "detail": "El dret de portabilitat es reconeix per correu electrònic, sense cap eina d’autoservei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "retro-privacy-policy"
+      ],
+      "detail": "Hi ha un únic contacte, founders@retro.app. La política detalla els drets de Califòrnia i de Nevada, però no té secció del RGPD ni consta representant a la Unió Europea.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:founders@retro.app"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "retro-privacy-policy"
+      ],
+      "detail": "Remet als mecanismes genèrics del sector i a la configuració del navegador, no a un control dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "retro-privacy-policy"
+      ],
+      "detail": "Enllaça l’exclusió de Google Analytics; no hi ha cap control propi.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació sobre els controls de privadesa de l’aplicació."
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [],
+      "detail": "Mostrar per defecte als amics la ubicació d’on s’ha fet cada foto, i explicar-ho només a la política de privadesa, és una opció preseleccionada amb conseqüències que no es plantegen en el moment de publicar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "preselected",
+        "severity": "medium",
+        "description": "La ubicació de les fotos i els vídeos, presa de la càmera del sistema, es mostra als amics per defecte segons la política de privadesa.",
+        "sources": [
+          "retro-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "retro-privacy-policy"
+      ],
+      "detail": "La política descriu xifratge SSL en trànsit, però no xifratge d’extrem a extrem de les fotos ni dels missatges.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "retro-privacy-policy"
+      ],
+      "detail": "Xifratge SSL de la informació sensible en trànsit.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública sobre el xifratge de les dades en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’accés es fa amb el número de telèfon i un codi; no hem trobat documentació sobre cap segon factor addicional."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories ni certificacions publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "retro-security-txt"
+      ],
+      "detail": "El domini retro.app no publica cap fitxer security.txt: la consulta retorna un error 404.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "signal",
+      "comparability": "partial",
+      "rationale": "Per compartir fotos amb un grup reduït d’amics, un grup de Signal ofereix la mateixa funció bàsica amb xifratge d’extrem a extrem i sense servidors que conservin el contingut.",
+      "tradeOffs": "No hi ha diari fotogràfic, ni resums setmanals, ni descoberta d’amics."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "És una aplicació petita amb una política de privadesa de plantilla nord-americana. No hi hem trobat pràctiques agressives, però sí un desajust entre un producte pensat per a l’esfera privada i un text legal que preveu socis publicitaris, verificació d’identitat i cap garantia europea.",
+    "openQuestions": [
+      "L’aplicació ofereix l’eliminació del compte des de la configuració, com exigeix l’App Store des del 2022?",
+      "Hi ha representant a la Unió Europea segons l’article 27 del RGPD?"
+    ]
+  },
+  "appStoreBundleId": "io.lonepalm.Retro"
+}

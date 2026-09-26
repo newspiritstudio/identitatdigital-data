@@ -1,0 +1,490 @@
+{
+  "slug": "rac1",
+  "name": "RAC1",
+  "company": "radiocat-xxi",
+  "categories": [
+    "noticies-i-mitjans"
+  ],
+  "tagline": "Ràdio en català que ven perfils publicitaris compartits amb La Vanguardia i Mundo Deportivo",
+  "summary": "RAC1 no demana compte per escoltar la ràdio, però amb consentiment crea perfils publicitaris que comparteix amb La Vanguardia, Mundo Deportivo i anunciants. Els pot cedir a empreses triades perquè en facin les seves pròpies campanyes. La política és detallada: explica cada finalitat, la base legal i el termini segons el marc de consentiment de l’IAB. Algun soci pot fer geolocalització precisa o identificar el dispositiu per l’empremta digital.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "advertising",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://www.rac1.cat/",
+    "privacyPolicy": "https://www.rac1.cat/politica-privacitat",
+    "appStore": "https://apps.apple.com/es/app/id413261937"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "rac1-privacy-policy"
+    ],
+    "detail": "El registre és opcional; es pot escoltar i llegir sense identificar-se.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "rac1-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Els programes que escoltes, les notícies que llegeixes i la ubicació, si l’autoritzes, alimenten un perfil publicitari que el grup comparteix entre les seves capçaleres i pot cedir a tercers.",
+  "dataCollection": [
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "rac1-app-store",
+        "rac1-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "rac1-privacy-policy"
+      ],
+      "note": "Només si se n’autoritza l’ús."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "rac1-privacy-policy"
+      ],
+      "note": "Es comparteix amb anunciants i amb el grup si s’accepta a l’Àrea de Privacitat."
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "rac1-privacy-policy"
+      ]
+    },
+    {
+      "type": "xarxa-i-connectivitat",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "rac1-privacy-policy"
+      ],
+      "note": "Tipus de xarxa i operador de telefonia."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "rac1-privacy-policy"
+      ],
+      "note": "Latitud i longitud si s’autoritza; algun soci pot fer-ne geolocalització precisa."
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "rac1-privacy-policy"
+      ],
+      "note": "Els continguts visitats, identificats per l’URL."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "rac1-app-store"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "rac1-privacy-policy"
+      ]
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "rac1-privacy-policy"
+      ],
+      "note": "Perfils publicitaris amb consentiment, conservats fins a 12 mesos."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "rac1-privacy-policy"
+      ],
+      "note": "Només si et registres; les dades del registre poden enriquir el perfil publicitari."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "rac1-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "rac1-app-store",
+        "rac1-privacy-policy"
+      ],
+      "detail": "L’etiqueta declara identificadors per rastrejar, i la política preveu fer servir els perfils en portals i apps de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "rac1-privacy-policy"
+      ],
+      "detail": "Amb autorització prèvia.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "rac1-privacy-policy"
+      ],
+      "detail": "Proveïdors adherits al TCF de l’IAB, serveis de Google i la xarxa de distribució d’Akamai.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "rac1-privacy-policy"
+      ],
+      "detail": "També a la publicitat d’àudio del directe i dels pòdcasts.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "rac1-privacy-policy"
+      ],
+      "detail": "Perfils publicitaris i de continguts basats en el consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no en diu res."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "rac1-privacy-policy"
+      ],
+      "detail": "Anunciants, agències i serveis de publicitat, amb consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "rac1-privacy-policy"
+      ],
+      "detail": "Amb La Vanguardia i Mundo Deportivo, amb un identificador únic per a les persones registrades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "rac1-privacy-policy"
+      ],
+      "detail": "Amb consentiment, cedeix perfils publicitaris a empreses triades perquè els facin servir en les seves pròpies campanyes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "rac1-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "rac1-privacy-policy"
+      ],
+      "detail": "Cada finalitat té un termini: 38 mesos per a estadístiques, fins a 12 mesos per a perfils i 90 dies per a la xarxa de distribució.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "periods": [
+      {
+        "dataType": "interessos-inferits",
+        "period": "Fins a 12 mesos",
+        "sources": [
+          "rac1-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "interaccions-i-us",
+        "period": "38 mesos",
+        "sources": [
+          "rac1-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "rac1-privacy-policy"
+      ],
+      "detail": "El dret de supressió s’exerceix per correu; el registre és opcional.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política permet gestionar les dades del registre des de la capçalera del web, però no concreta si hi ha un botó d’eliminació."
+    },
+    "difficulty": "unknown",
+    "steps": [
+      "Per a les dades de navegació, obre l’Àrea de Privacitat al peu de la pàgina i retira els consentiments.",
+      "Per al registre, escriu a protecciodedades@rac1.cat i demana’n la supressió."
+    ],
+    "sources": [
+      "rac1-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "rac1-privacy-policy"
+      ],
+      "detail": "Portabilitat per correu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "rac1-privacy-policy"
+      ],
+      "detail": "Delegat de protecció de dades del grup a dpo@grupogodo.com.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:protecciodedades@rac1.cat"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "rac1-privacy-policy"
+      ],
+      "detail": "Àrea de Privacitat amb control per finalitat i per proveïdor.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "rac1-privacy-policy"
+      ],
+      "detail": "Es pot oposar a les estadístiques des de l’Àrea de Privacitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "rac1-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És una aplicació de ràdio i notícies.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El domini no publica cap fitxer security.txt."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La política és la del web i no distingeix l’app. La mesura d’audiència es fa per interès legítim, activa per defecte, i la resta de finalitats publicitàries amb consentiment. No hem trobat sancions ni filtracions.",
+    "openQuestions": [
+      "L’app mostra la mateixa Àrea de Privacitat que el web?"
+    ]
+  },
+  "appStoreBundleId": "org.rac1"
+}

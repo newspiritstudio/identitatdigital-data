@@ -1,0 +1,395 @@
+{
+  "slug": "gasall",
+  "name": "Gasall: Gasolineras España",
+  "company": "nunsys",
+  "categories": [
+    "mapes-i-navegacio",
+    "utilitats"
+  ],
+  "tagline": "La política diu que no recull dades personals i que la ubicació és anònima; l’etiqueta de l’App Store la declara com a dada per rastrejar-te",
+  "summary": "Gasall compara els preus dels carburants a partir de les dades obertes del Ministeri. La política de Nunsys afirma que l’aplicació no recull dades personals per defecte, que la ubicació és anònima i que no es mostren anuncis, tot i que admet que fa servir l’identificador publicitari. L’etiqueta de l’App Store, en canvi, declara la ubicació exacta, l’identificador d’usuari i la interacció amb el producte com a dades utilitzades per rastrejar-te i per a publicitat de tercers. L’analítica passa per Firebase, Amplitude i Mixpanel.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Espanya (UE)",
+  "links": {
+    "website": "https://www.gasallapp.com/",
+    "privacyPolicy": "https://gasallapp.com/politica-de-privacidad-app/",
+    "appStore": "https://apps.apple.com/es/app/id296739784"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "gasall-privacy-policy"
+    ],
+    "detail": "La política diu que l’aplicació funciona sense registre i que no recull dades personals per defecte, però l’etiqueta declara un identificador d’usuari.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "gasall-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Saber a quines gasolineres t’atures i quan revela les rutes habituals i el vehicle que condueixes. Segons l’etiqueta de l’App Store, aquesta ubicació exacta va associada a un identificador d’usuari i es fa servir per a publicitat de tercers.",
+  "dataCollection": [
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "gasall-app-store",
+        "gasall-privacy-policy"
+      ],
+      "note": "La política diu que només es tracta amb consentiment i de manera anonimitzada, i que els ginys en guarden l’última posició al dispositiu; l’etiqueta la declara com a dada per rastrejar-te i per a publicitat de tercers."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "gasall-app-store"
+      ],
+      "note": "L’etiqueta declara un identificador d’usuari; la política no n’esmenta cap."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "gasall-privacy-policy"
+      ],
+      "note": "La política admet que es fa servir l’identificador publicitari «encara que no mostrem anuncis», per interès legítim."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "gasall-app-store",
+        "gasall-privacy-policy"
+      ],
+      "note": "Analítica amb Firebase, Amplitude i Mixpanel."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "gasall-privacy-policy"
+      ],
+      "note": "Registres de connexió, per interès legítim."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "gasall-app-store",
+        "gasall-privacy-policy"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "gasall-app-store"
+      ],
+      "detail": "L’etiqueta declara la ubicació exacta, l’identificador d’usuari i la interacció amb el producte com a dades utilitzades per rastrejar-te, en contradicció amb el que diu la política.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "gasall-privacy-policy"
+      ],
+      "detail": "La mateixa política reconeix que l’aplicació fa servir l’identificador publicitari encara que no hi mostri anuncis.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "gasall-privacy-policy"
+      ],
+      "detail": "Firebase (Google), Amplitude i Mixpanel per a l’analítica.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "gasall-app-store",
+        "gasall-privacy-policy"
+      ],
+      "detail": "La política nega mostrar anuncis, però l’etiqueta declara la ubicació exacta i l’identificador d’usuari per a publicitat de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap elaboració de perfils."
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no parla d’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "gasall-privacy-policy"
+      ],
+      "detail": "Proveïdors d’analítica (Firebase, Amplitude i Mixpanel) i d’infraestructura.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cessions a altres empreses del grup Nunsys."
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no parla de la venda de dades."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "gasall-privacy-policy"
+      ],
+      "detail": "Els proveïdors d’analítica són nord-americans i la política invoca clàusules contractuals tipus.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "no",
+      "level": "editorial",
+      "sources": [
+        "gasall-privacy-policy"
+      ],
+      "detail": "No hi ha cap informe de transparència.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "gasall-privacy-policy"
+      ],
+      "detail": "La ubicació només es conserva mentre es fa servir activament i les dades analítiques anonimitzades mentre l’aplicació estigui instal·lada; no hi ha terminis numèrics.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu què passa en desinstal·lar l’aplicació."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació funciona sense compte, segons la política, tot i que l’etiqueta declara un identificador d’usuari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "unknown",
+    "requiresSupportContact": false,
+    "dataRetained": "La política diu que la ubicació es deixa de tractar quan s’atura l’ús actiu de l’aplicació.",
+    "sources": [
+      "gasall-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política enumera els drets del RGPD però no descriu cap eina d’exportació."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "gasall-privacy-policy"
+      ],
+      "detail": "A dpo@nunsys.com o soporte@gasallapp.com, amb menció del dret a reclamar davant l’AEPD.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no ofereix cap control sobre l’identificador publicitari més enllà de les opcions del sistema operatiu."
+    },
+    "telemetryOptOut": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "gasall-privacy-policy"
+      ],
+      "detail": "L’analítica i l’ús de l’identificador publicitari es basen en l’interès legítim, sense cap opció de desactivació descrita.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "gasall-privacy-policy"
+      ],
+      "detail": "Només el permís d’ubicació del sistema operatiu, que la política presenta com a consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem revisat les pantalles de permisos de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació només consulta preus públics de carburants.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "gasall-privacy-policy"
+      ],
+      "detail": "La política afirma que totes les comunicacions van per HTTPS amb TLS.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "gasall-privacy-policy"
+      ],
+      "detail": "La política diu que les contrasenyes es desen xifrades, però no parla de la resta de dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política enllaça la política de seguretat de Nunsys, però no hem verificat cap certificació aplicable a Gasall."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "alternatives": [
+    {
+      "app": "waylet",
+      "comparability": "partial",
+      "rationale": "També localitza gasolineres i n’indica els preus, amb pagament integrat.",
+      "tradeOffs": "Només cobreix una marca, exigeix compte i lliga el consum de carburant a un programa de fidelització."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "La contradicció entre la política («no recopilamos datos personales por defecto», ubicació «anonimizada», sense anuncis) i l’etiqueta de l’App Store (ubicació exacta, identificador d’usuari i interacció amb el producte com a dades per rastrejar i per a publicitat de tercers) és la troballa principal i mereix una revisió amb anàlisi del trànsit de l’aplicació. El domini gasall.com és un domini aparcat; el bo és gasallapp.com. No hem pogut fer la cerca d’incidents perquè la sessió havia exhaurit el pressupost de cerques.",
+    "openQuestions": [
+      "Quina xarxa publicitària rep la ubicació exacta que declara l’etiqueta?",
+      "Com es concilia la ubicació «anonimitzada» amb l’identificador d’usuari declarat a l’App Store?"
+    ]
+  },
+  "appStoreBundleId": "com.yourcompany.GasAll"
+}

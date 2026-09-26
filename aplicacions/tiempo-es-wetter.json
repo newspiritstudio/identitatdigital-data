@@ -1,0 +1,481 @@
+{
+  "slug": "tiempo-es-wetter",
+  "name": "tiempo.es",
+  "company": "wetter-com",
+  "categories": [
+    "meteorologia"
+  ],
+  "tagline": "Aplicació del temps amb la política de privadesa només en alemany i la ubicació exacta declarada per rastrejar",
+  "summary": "L’aplicació tiempo.es és de l’alemanya wetter.com, i l’App Store la vincula a una política redactada només en alemany. L’etiqueta declara la ubicació exacta i l’identificador del dispositiu com a dades per rastrejar. La publicitat personalitzada es comercialitza en corresponsabilitat amb Ströer, ProSiebenSat.1 i altres venedors d’espai, i hi ha una versió de pagament sense anuncis.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "advertising",
+  "jurisdiction": "Alemanya",
+  "links": {
+    "website": "https://www.app.tiempo.es/",
+    "privacyPolicy": "https://www.wetter.com/internal/news/datenschutzhinweise_aid_614ae65187629322ad0dd008.html",
+    "appStore": "https://apps.apple.com/es/app/id1020581825"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "tiempo-es-wetter-privacy"
+    ],
+    "detail": "La política preveu un registre opcional (Contentpass) i una compra sense anuncis, però no un compte obligatori.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "tiempo-es-wetter-privacy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "La ubicació exacta serveix per a les previsions i les alertes, però la política també la fa servir per a publicitat basada en interessos i ubicació, també de tercers, si s’hi consent.",
+  "dataCollection": [
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "tiempo-es-wetter-app-store",
+        "tiempo-es-wetter-privacy"
+      ],
+      "note": "La política preveu publicitat basada en la ubicació, també de tercers, amb consentiment."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "tiempo-es-wetter-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "tiempo-es-wetter-app-store",
+        "tiempo-es-wetter-privacy"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "tiempo-es-wetter-app-store"
+      ],
+      "note": "Inclou les dades de publicitat."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "tiempo-es-wetter-privacy"
+      ],
+      "note": "Els registres del servidor es conserven 30 dies."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "tiempo-es-wetter-privacy"
+      ],
+      "note": "La política parla de dades sociodemogràfiques per a publicitat."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tiempo-es-wetter-app-store"
+      ],
+      "note": "La compra de la versió sense anuncis."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tiempo-es-wetter-app-store"
+      ]
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "tiempo-es-wetter-app-store",
+        "tiempo-es-wetter-privacy"
+      ],
+      "note": "Consultes d’atenció al client, gestionades amb Zendesk."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tiempo-es-wetter-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tiempo-es-wetter-app-store"
+      ],
+      "detail": "L’etiqueta declara la ubicació exacta i aproximada, l’identificador del dispositiu i les dades de publicitat com a dades per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tiempo-es-wetter-privacy"
+      ],
+      "detail": "La política remet a la plataforma de consentiment per a la durada dels identificadors publicitaris.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tiempo-es-wetter-privacy"
+      ],
+      "detail": "Socis del marc IAB i corresponsables publicitaris com Ströer, ProSiebenSat.1, Seven.One Media, Goldbach i YOC.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tiempo-es-wetter-privacy"
+      ],
+      "detail": "Comercialització d’espais per a publicitat personalitzada en corresponsabilitat amb diversos venedors.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tiempo-es-wetter-privacy"
+      ],
+      "detail": "Publicitat basada en interessos i dades sociodemogràfiques, amb consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu res sobre l’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tiempo-es-wetter-privacy"
+      ],
+      "detail": "Corresponsables publicitaris, socis de la plataforma de consentiment i proveïdors com AWS, Zendesk, Usercentrics, Pushwoosh i MoEngage.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat informació sobre la compartició dins del grup."
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta la venda de dades a intermediaris."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tiempo-es-wetter-privacy"
+      ],
+      "detail": "Destinataris als Estats Units i a Singapur, amb el marc de privadesa UE-EUA o clàusules contractuals tipus.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "adequacy"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tiempo-es-wetter-privacy"
+      ],
+      "detail": "Terminis concrets: registres 30 dies, consentiments 13 mesos, dades de contacte i de notificacions tres anys, dades contractuals deu anys.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tiempo-es-wetter-privacy"
+      ],
+      "detail": "Les dades de registre es conserven tres anys després de donar-se de baixa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "adreca-ip",
+        "period": "30 dies (fitxers de registre)",
+        "sources": [
+          "tiempo-es-wetter-privacy"
+        ]
+      },
+      {
+        "period": "Consentiments de galetes: 13 mesos",
+        "sources": [
+          "tiempo-es-wetter-privacy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació es fa servir sense compte propi.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha compte per eliminar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "easy",
+    "requiresSupportContact": false,
+    "steps": [
+      "Obre el gestor de privadesa de l’aplicació i retira els consentiments de publicitat i d’ubicació.",
+      "Per exercir el dret de supressió, escriu a datenschutz@wetter.com."
+    ],
+    "obstacles": "La política, en alemany, és l’única que enllaça l’App Store per a l’aplicació espanyola.",
+    "sources": [
+      "tiempo-es-wetter-privacy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tiempo-es-wetter-privacy"
+      ],
+      "detail": "Portabilitat reconeguda, a petició.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tiempo-es-wetter-privacy"
+      ],
+      "detail": "Adreça de protecció de dades i delegat de protecció de dades extern.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:datenschutz@wetter.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tiempo-es-wetter-privacy"
+      ],
+      "detail": "Gestor de consentiments (IAB) i oposició a l’ús publicitari; també es pot pagar per treure els anuncis.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tiempo-es-wetter-privacy"
+      ],
+      "detail": "Les estadístiques basades en consentiment es poden rebutjar al gestor de privadesa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tiempo-es-wetter-privacy"
+      ],
+      "detail": "Consentiment per finalitat i per soci.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi de patrons foscos."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Servei d’informació meteorològica; no hi ha comunicació privada entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació sobre el xifratge en trànsit."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha informació sobre el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no té comptes propis.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap canal de notificació de vulnerabilitats; wetter.com no té security.txt."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "windy-com",
+      "comparability": "partial",
+      "rationale": "Previsions i radar sense cap dada declarada per rastrejar a l’App Store.",
+      "tradeOffs": "Interfície més tècnica."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "L’App Store atribueix l’aplicació a wetter.com GmbH, però la política designa com a responsable wetter.com Group GmbH. La política enllaçada parla de «l’aplicació wetter.com» i no esmenta tiempo.es pel nom.",
+    "openQuestions": [
+      "Hi ha una versió en castellà de la política de privadesa de l’aplicació tiempo.es?"
+    ]
+  },
+  "appStoreBundleId": "com.wetter.iosclient"
+}

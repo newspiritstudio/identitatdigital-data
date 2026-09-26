@@ -1,0 +1,487 @@
+{
+  "slug": "federacio-catalana-de-futbol",
+  "name": "Federació Catalana de Futbol",
+  "company": "federacio-catalana-de-futbol",
+  "categories": [
+    "esports-i-resultats"
+  ],
+  "tagline": "Una federació que tracta dades de salut i de menors amb un text legal que encara parla de «fitxers automatitzats» i de la desapareguda agpd.es",
+  "summary": "L’aplicació de la Federació Catalana de Futbol dona resultats i classificacions i integra el Portal del Federat. El document legal reconeix que es tracten categories especials de dades (de salut, biomètriques i altres) i que hi pot haver transferències internacionals a països sense decisió d’adequació ni garanties adequades, que la persona federada «assumeix i consent» en signar la sol·licitud de llicència. La redacció és antiga: parla de fitxers automatitzats, remet a l’adreça agpd.es i reprodueix un text de Google Analytics anterior al RGPD.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Catalunya",
+  "userBase": "Més de 200.000 persones federades a Catalunya",
+  "links": {
+    "website": "https://www.fcf.cat/",
+    "privacyPolicy": "https://www.fcf.cat/pdf/app-avis-legal",
+    "appStore": "https://apps.apple.com/es/app/id6738349239"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "fcf-legal"
+    ],
+    "detail": "Els resultats i les classificacions són d’accés lliure; el Portal del Federat i altres serveis demanen emplenar el formulari corresponent.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "editorial",
+    "sources": [],
+    "detail": "Aplicació institucional tancada.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "La llicència federativa inclou el nom, la data de naixement, el club, la categoria i l’aptitud mèdica. Com que una part important de les persones federades són menors d’edat, aquestes dades indiquen on juga cada infant, quin dia i amb quin equip.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "fcf-legal",
+        "fcf-app-store"
+      ],
+      "note": "Dades identificatives dels federats i usuaris dels serveis de la federació."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "fcf-legal",
+        "fcf-app-store"
+      ],
+      "note": "La finalitat declarada inclou l’enviament de comunicacions comercials sobre productes, serveis i esdeveniments de la federació."
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "fcf-legal"
+      ],
+      "note": "La política declara «adreces postals i electròniques» entre les categories tractades."
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "fcf-legal"
+      ],
+      "note": "El document afirma explícitament que es tracten categories especials de dades, incloent-hi dades relatives a la salut i dades biomètriques."
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal"
+      ],
+      "sources": [
+        "fcf-legal"
+      ],
+      "note": "Incloses a la llista de categories especials que la federació declara tractar, sense concretar-ne l’ús."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "fcf-app-store"
+      ],
+      "note": "L’etiqueta declara fotos o vídeos vinculats a la persona per a la funcionalitat de l’aplicació."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "fcf-app-store"
+      ],
+      "note": "Declarada com a no vinculada a la persona; el document legal no l’esmenta."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "fcf-app-store",
+        "fcf-legal"
+      ],
+      "note": "L’etiqueta declara dades de publicitat utilitzades per rastrejar; la política de galetes reconeix galetes de publicitat i d’analítica (AT Internet, Google Analytics)."
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "fcf-legal"
+      ]
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "fcf-legal"
+      ],
+      "note": "Implícita a la llicència federativa i al consentiment «del pare o tutor legal» que preveu la informació bàsica."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fcf-app-store"
+      ],
+      "detail": "L’etiqueta declara dades de publicitat utilitzades per rastrejar, malgrat que el document legal no esmenta cap publicitat a l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "fcf-app-store",
+        "fcf-legal"
+      ],
+      "detail": "L’etiqueta declara dades de publicitat; el document legal només parla de galetes de publicitat al web.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fcf-legal"
+      ],
+      "detail": "AT Internet per a l’analítica i Google Analytics, amb un text que descriu el servei en termes anteriors al RGPD.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "fcf-legal",
+        "fcf-app-store"
+      ],
+      "detail": "La política de galetes admet galetes de publicitat per mostrar «la publicitat més adequada a cada moment»; l’etiqueta declara dades de publicitat per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El document legal no descriu cap elaboració de perfils."
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No s’hi esmenta cap ús per entrenar models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fcf-legal"
+      ],
+      "detail": "La informació bàsica diu que no se cediran dades excepte obligació legal, però la informació completa amplia els destinataris a «tots aquells que hagin de ser-ho» com a conseqüència de l’activitat federativa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No es descriu cap estructura de grup."
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap referència a la venda de dades."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fcf-legal"
+      ],
+      "detail": "El document preveu transferències a països sense decisió d’adequació ni garanties adequades de l’article 46, per participar en competicions internacionals; els riscos els «assumeixen i consenten» les persones interessades en signar la sol·licitud de llicència.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "derogation"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap informe de transparència sobre peticions de dades."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fcf-legal"
+      ],
+      "detail": "Cinc anys, o fins que les dades deixin de ser necessàries per a la finalitat per la qual es van recollir.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El document no diu què es conserva després d’una supressió."
+    },
+    "periods": [
+      {
+        "period": "5 anys des de la recollida, o fins que deixin de ser necessàries",
+        "sources": [
+          "fcf-legal"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "fcf-legal"
+      ],
+      "detail": "Es reconeix el dret de supressió, però no hi ha cap procediment de baixa del compte descrit ni al document legal ni a l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap opció d’eliminació del compte dins de l’aplicació ni cap pàgina d’ajuda que l’expliqui."
+    },
+    "difficulty": "unknown",
+    "requiresSupportContact": true,
+    "steps": [
+      "Escriu a legal@fcf.cat indicant nom, cognoms, usuari i correu electrònic de registre, i adjunta-hi una fotocòpia del DNI.",
+      "Com a alternativa, envia la sol·licitud signada per correu postal a C/ Sicília 93-97, 1r pis, 08013 Barcelona.",
+      "Si no obtens resposta, reclama davant de l’Autoritat Catalana de Protecció de Dades o de l’Agència Espanyola de Protecció de Dades."
+    ],
+    "obstacles": "L’exercici de drets exigeix escrit signat i fotocòpia del DNI, un requisit que el RGPD no imposa i que complica el tràmit.",
+    "sources": [
+      "fcf-legal"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "fcf-legal"
+      ],
+      "detail": "La portabilitat es reconeix, però no hi ha cap eina d’exportació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "fcf-legal"
+      ],
+      "detail": "Adreça del delegat de protecció de dades a legal@fcf.cat, amb requisit de fotocòpia del DNI. El document remet encara a www.agpd.es, un domini que ja no és el de l’autoritat espanyola.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:legal@fcf.cat"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "fcf-legal"
+      ],
+      "detail": "L’únic mecanisme que proposa el document és configurar el navegador o instal·lar el complement d’exclusió de Google Analytics; no hi ha cap tauler de consentiment descrit.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "fcf-legal"
+      ],
+      "detail": "No es descriu cap manera de desactivar l’analítica dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "fcf-legal"
+      ],
+      "detail": "L’aplicació permet configurar notificacions per equip, però no hi ha cap control de privadesa per finalitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "yes",
+      "level": "editorial",
+      "sources": [
+        "fcf-legal"
+      ],
+      "detail": "El consentiment a transferències internacionals sense garanties s’obté agrupat amb la signatura de la llicència federativa, de manera que qui vol jugar no té cap alternativa pràctica a acceptar-lo.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "unbalanced-consent",
+        "severity": "high",
+        "description": "La transferència de dades a països sense nivell de protecció equiparable es dona per consentida en signar la sol·licitud de llicència, sense una casella separada ni una alternativa per a qui no hi participi.",
+        "sources": [
+          "fcf-legal"
+        ]
+      },
+      {
+        "type": "confusing-language",
+        "severity": "medium",
+        "description": "La informació bàsica assegura que «no se cediran dades a tercers, excepte obligació legal» mentre la informació completa obre els destinataris a tothom que hi hagi d’accedir per l’activitat federativa.",
+        "sources": [
+          "fcf-legal"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no transporta comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "editorial",
+      "sources": [],
+      "detail": "Els llocs de la federació es publiquen sobre HTTPS; comprovat el setembre del 2026.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha informació pública sobre el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap segon factor per al Portal del Federat."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses ni canal de seguretat."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap política pública de divulgació de vulnerabilitats."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "El document legal de l’aplicació combina un avís legal, una política de privadesa i una política de galetes que semblen de generacions normatives diferents. La clàusula que dona per consentides les transferències internacionals sense garanties amb la signatura de la llicència hauria de revisar-la l’autoritat catalana.",
+    "openQuestions": [
+      "Com s’articula el consentiment de mares, pares i tutors per als milers de federats menors d’edat?",
+      "Quines dades biomètriques i de salut tracta realment la federació, i amb quina base jurídica de l’article 9 del RGPD?",
+      "Hi ha alguna manera d’eliminar el compte del Portal del Federat sense escriure a legal@fcf.cat?"
+    ]
+  },
+  "appStoreBundleId": "com.example.resultados"
+}

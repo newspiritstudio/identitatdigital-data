@@ -1,0 +1,552 @@
+{
+  "slug": "hacoo",
+  "name": "Hacoo",
+  "company": "hacoo-tech",
+  "categories": [
+    "comerc-electronic"
+  ],
+  "tagline": "Una botiga de preus molt baixos amb una política de privadesa que no diu qui és el responsable ni des d’on tracta les dades",
+  "summary": "Hacoo ven productes molt barats amb mecàniques socials de descompte i recomanació. La seva política de privadesa és curta i genèrica: no dona adreça postal, ni representant a la Unió Europea, ni terminis de conservació, ni cap procediment per eliminar el compte, i remet l’exclusió de la publicitat a una pàgina del sector publicitari nord-americà. L’App Store hi afegeix un avís poc habitual: l’empresa no s’ha identificat com a comerciant, cosa que redueix la protecció de les persones consumidores europees.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "No declarada a la política",
+  "userBase": "Desconegut: l’empresa no en publica xifres.",
+  "links": {
+    "website": "https://www.hacoo.app/",
+    "privacyPolicy": "https://act.hacoo.app/privacy-policy02",
+    "appStore": "https://apps.apple.com/es/app/id1399907836"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "hacoo-privacy-policy"
+    ],
+    "detail": "Per comprar cal registrar-se amb nom, correu, telèfon i data de naixement, o bé amb una xarxa social.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "hacoo-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "L’historial de compres i de navegació d’una botiga generalista pot revelar la talla, la llar, les aficions i la capacitat de despesa de qui hi compra. Hacoo hi suma identificadors persistents del dispositiu (IP, adreça MAC, Android ID) i la ubicació aproximada, i els declara com a dades per rastrejar.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "hacoo-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "hacoo-privacy-policy"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "hacoo-privacy-policy"
+      ]
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "hacoo-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "hacoo-privacy-policy"
+      ],
+      "note": "Necessària per enviar les comandes; la política no diu amb quins transportistes es comparteix."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "hacoo-privacy-policy"
+      ],
+      "note": "La política parla d’informació de pagament per a les transaccions, sense identificar la passarel·la."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "hacoo-app-store",
+        "hacoo-privacy-policy"
+      ],
+      "note": "L’etiqueta declara identificadors com a dades per rastrejar; la política diu que genera identificadors interns anònims que es poden combinar amb altres dades."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "hacoo-app-store",
+        "hacoo-privacy-policy"
+      ],
+      "note": "La política esmenta l’adreça MAC i l’Android ID."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "hacoo-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "hacoo-app-store",
+        "hacoo-privacy-policy"
+      ],
+      "note": "L’etiqueta la declara com a dada no vinculada a la identitat."
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts",
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "hacoo-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "hacoo-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "hacoo-privacy-policy"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "hacoo-privacy-policy"
+      ],
+      "note": "La política cita Google Analytics i xarxes publicitàries entre els proveïdors."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "hacoo-app-store"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "hacoo-privacy-policy"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "hacoo-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store declara identificadors com a dades utilitzades per rastrejar-te.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "hacoo-app-store",
+        "hacoo-privacy-policy"
+      ],
+      "detail": "Identificadors declarats per al rastreig, i adreça MAC i Android ID a la política.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "hacoo-privacy-policy"
+      ],
+      "detail": "Google Analytics i xarxes publicitàries que, segons la política, poden recollir informació per a publicitat personalitzada.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "hacoo-privacy-policy"
+      ],
+      "detail": "La publicitat dirigida hi consta com a finalitat i la política remet l’exclusió a networkadvertising.org, una pàgina del sector publicitari nord-americà, en lloc d’oferir un control propi.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "hacoo-privacy-policy"
+      ],
+      "detail": "Diu que genera identificadors interns anònims que pot combinar amb altres dades i que personalitza el servei, però no descriu cap decisió automatitzada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no en parla."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "hacoo-privacy-policy"
+      ],
+      "detail": "Proveïdors com Google Analytics i xarxes publicitàries, autoritats i, en cas de fusió o adquisició, el comprador.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "hacoo-privacy-policy"
+      ],
+      "detail": "La política preveu la compartició amb empreses filials, sense anomenar-ne cap.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu si ven dades ni ho descarta."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "hacoo-privacy-policy"
+      ],
+      "detail": "Admet que les dades es poden tractar arreu del món i fora de l’Espai Econòmic Europeu, i ho fa dependre del consentiment de la persona usuària sense esmentar clàusules contractuals tipus.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "derogation"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "hacoo-privacy-policy"
+      ],
+      "detail": "Només diu que conserva les dades «mentre sigui necessari» per al servei, per a l’anàlisi interna o per complir la llei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu què passa amb les dades quan es tanca el compte."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "hacoo-privacy-policy"
+      ],
+      "detail": "Es reconeix el dret de supressió, però no hi ha cap procediment de baixa documentat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap opció d’eliminació del compte documentada ni a la política ni al centre de confiança."
+    },
+    "difficulty": "unknown",
+    "requiresSupportContact": true,
+    "steps": [
+      "Escriu al delegat de protecció de dades des de l’adreça electrònica del compte, amb l’adreça que consta a la política de privadesa.",
+      "Invoca el dret de supressió de l’article 17 del RGPD i demana també una còpia de les teves dades.",
+      "Si no reps resposta en un mes, pots reclamar davant de l’Agència Espanyola de Protecció de Dades."
+    ],
+    "obstacles": "La política no dona cap adreça postal, ni un responsable identificat, ni un representant a la Unió Europea, de manera que no queda clar davant de qui s’exerceix el dret ni quina autoritat hi és competent.",
+    "sources": [
+      "hacoo-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "hacoo-privacy-policy"
+      ],
+      "detail": "Reconeix el dret de portabilitat per a les persones de l’Espai Econòmic Europeu, però no hi ha cap eina d’autoservei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "hacoo-privacy-policy"
+      ],
+      "detail": "La política diu que cal contactar amb el delegat de protecció de dades, sense donar cap termini de resposta ni identificar l’entitat responsable.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "hacoo-privacy-policy"
+      ],
+      "detail": "L’única sortida que s’ofereix és la pàgina d’exclusió de la Network Advertising Initiative, que no cobreix les aplicacions mòbils.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap manera de desactivar l’analítica."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació d’un panell de privadesa."
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut revisar el flux de consentiment de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És una botiga en línia; no transporta comunicacions privades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "hacoo-privacy-policy"
+      ],
+      "detail": "La política diu que aplica xifratge i tallafoc, sense concretar quin protocol.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política parla de mesures físiques, tècniques i administratives en termes generals."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap segon factor per al compte."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat auditories ni certificacions."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [
+        "hacoo-trust-center"
+      ],
+      "detail": "El «centre de confiança» del web només parla de moderació d’anuncis enganyosos i de comptes retirats; no hi consta cap programa de recompenses ni cap canal de seguretat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat security.txt ni cap canal per comunicar vulnerabilitats."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "temu",
+      "comparability": "partial",
+      "rationale": "Ofereix el mateix tipus de catàleg de preu molt baix i, a diferència de Hacoo, identifica l’entitat responsable del tractament a la Unió Europea i publica un procediment d’eliminació del compte.",
+      "tradeOffs": "Fa publicitat personalitzada, forma part d’un grup xinès i ha estat objecte d’actuacions de les autoritats europees de consum."
+    }
+  ],
+  "review": {
+    "researchStatus": "initial",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "La fitxa queda incompleta perquè hi ha poca documentació pública: la política de privadesa és breu i no identifica el responsable del tractament amb el detall que exigeix l’article 13 del RGPD. L’avís de l’App Store que Hacoo Tech Limited no s’ha identificat com a comerciant és una dada verificable i poc habitual. El domini de l’aplicació (hacoo.app) i el de la botiga web de la marca (hacoo.com) conviuen amb webs de tercers que en reprodueixen el nom, i això complica la comprovació. No hem pogut completar la cerca d’incidents.",
+    "openQuestions": [
+      "Quina és l’entitat responsable del tractament, en quin país està constituïda i té representant a la Unió Europea?",
+      "Es pot eliminar el compte des de l’aplicació?",
+      "Quina passarel·la de pagament i quins transportistes reben les dades de les comandes?",
+      "Hi ha cap actuació d’una autoritat de protecció de dades o de consum contra Hacoo?"
+    ]
+  },
+  "appStoreBundleId": "com.sara.ios"
+}

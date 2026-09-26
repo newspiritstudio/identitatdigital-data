@@ -1,0 +1,619 @@
+{
+  "slug": "laliga-fantasy",
+  "name": "LALIGA Fantasy",
+  "company": "laliga-group-international",
+  "categories": [
+    "esports-i-resultats"
+  ],
+  "tagline": "Un identificador únic de LALIGA Ecosistema que segueix la persona per totes les aplicacions de la lliga i dels clubs",
+  "summary": "Per jugar a LALIGA Fantasy cal registrar-se a LALIGA Ecosistema, un inici de sessió únic compartit per les webs i aplicacions de la lliga i dels clubs afiliats. La política és detallada: enumera els identificadors (IDFA, IDFV, ID d’usuari), descriu «perfils exhaustius» amb consentiment i explica que, si et registres amb Facebook, la lliga infereix valors d’«engagement», «social», «promotion» i «fan value» a partir de les teves publicacions i els teus «m’agrada». La baixa és autoservei i esborra el compte de tot l’ecosistema alhora.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Espanya",
+  "userBase": "Milions de participants a Espanya i Amèrica Llatina",
+  "links": {
+    "website": "https://fantasy.laliga.com/",
+    "privacyPolicy": "https://www.laliga.com/informacion-legal-fantasy",
+    "appStore": "https://apps.apple.com/es/app/id968915185"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "laliga-fantasy-privacy-policy"
+    ],
+    "detail": "Cal registrar-se a LALIGA Ecosistema amb correu electrònic, àlies, regió i país, o bé amb Facebook, Google o Apple.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "editorial",
+    "sources": [],
+    "detail": "Producte comercial tancat.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "L’equip favorit, la regió i les lligues privades en què participes indiquen d’on ets i amb qui et relaciones. Si et registres amb Facebook, s’hi afegeixen les publicacions del mur, els «m’agrada» i les puntuacions que LALIGA en dedueix. El resultat és un perfil d’afició i d’influència compartit per totes les aplicacions de la lliga i dels clubs.",
+  "dataCollection": [
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "laliga-fantasy-privacy-policy",
+        "laliga-fantasy-app-store"
+      ],
+      "note": "Amb consentiment es comunica a l’equip favorit i a tercers amb acord amb LALIGA, i als patrocinadors de les lligues patrocinades."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "laliga-fantasy-privacy-policy"
+      ],
+      "note": "L’ID únic de LALIGA Ecosistema segueix la persona per totes les aplicacions i webs de la lliga i dels clubs."
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "laliga-fantasy-privacy-policy"
+      ],
+      "note": "Opcional a MyAccount; obligatori si es guanya un concurs, amb DNI i adreça postal per lliurar el premi."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "laliga-fantasy-app-store",
+        "laliga-fantasy-privacy-policy"
+      ]
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "laliga-fantasy-privacy-policy"
+      ],
+      "note": "Dada opcional de MyAccount, utilitzada per segmentar comunicacions comercials."
+    },
+    {
+      "type": "genere",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "laliga-fantasy-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "laliga-fantasy-privacy-policy"
+      ],
+      "note": "Adreça i codi postal opcionals a MyAccount; obligatoris per rebre un premi."
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "laliga-fantasy-privacy-policy"
+      ],
+      "note": "El DNI és una dada opcional de MyAccount i es demana als guanyadors de concursos."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "laliga-fantasy-app-store",
+        "laliga-fantasy-privacy-policy"
+      ],
+      "note": "Fotografia de perfil opcional."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "laliga-fantasy-privacy-policy",
+        "laliga-fantasy-app-store"
+      ],
+      "note": "IDFV per seguir l’activitat dins de l’ecosistema de LALIGA i IDFA per seguir-la entre aplicacions de tercers."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "laliga-fantasy-privacy-policy"
+      ],
+      "note": "L’IDFA requereix el permís de rastreig d’iOS; si es denega, LALIGA fa servir l’IDFV per a la mateixa finalitat de reportes interns."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "laliga-fantasy-privacy-policy",
+        "laliga-fantasy-app-store"
+      ],
+      "note": "Telemetria: clics, temps de permanència i interaccions amb cada comunicació rebuda."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "laliga-fantasy-privacy-policy"
+      ],
+      "note": "Amb consentiment: perfils exhaustius, retargeting fora de LALIGA i audiències xifrades compartides dins de cada xarxa social."
+    },
+    {
+      "type": "xarxa-de-contactes",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "laliga-fantasy-privacy-policy"
+      ],
+      "note": "Amb el registre per Facebook: «m’agrada» de pàgines i publicacions del mur, dels quals LALIGA infereix valors d’engagement, social, promotion i fan value."
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "laliga-fantasy-privacy-policy"
+      ],
+      "note": "Publicacions públiques i privades del mur de Facebook, si s’autoritza en el registre social."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "laliga-fantasy-app-store"
+      ],
+      "note": "Les compres dins del joc les tramiten Apple i Google; LALIGA no tracta les dades de pagament."
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "laliga-fantasy-privacy-policy"
+      ],
+      "note": "Model de dispositiu i sistema operatiu."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "laliga-fantasy-privacy-policy",
+        "laliga-fantasy-app-store"
+      ],
+      "detail": "La política descriu l’IDFA com l’identificador «que permet identificar el teu dispositiu per poder seguir la teva activitat entre aplicacions de LALIGA Ecosistema i terceres aplicacions», i l’etiqueta declara ID d’usuari, ID de dispositiu i dades de publicitat utilitzats per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "laliga-fantasy-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "laliga-fantasy-privacy-policy"
+      ],
+      "detail": "Xarxes de publicitat programàtica amb consentiment, Salesforce per al correu i els SMS i Pushologies per a les notificacions.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "laliga-fantasy-privacy-policy"
+      ],
+      "detail": "Publicitat programàtica i comunicacions comercials personalitzades, totes dues amb consentiment i revocables des del Centre de Preferències de Publicitat Programàtica del perfil.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://www.laliga.com/informacion-legal-fantasy"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "laliga-fantasy-privacy-policy"
+      ],
+      "detail": "Tres nivells: segmentacions senzilles per interès legítim, perfils exhaustius amb consentiment i «valoració d’usuaris» per identificar qui té més propensió a contractar productes de LALIGA.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta l’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "laliga-fantasy-privacy-policy"
+      ],
+      "detail": "Amb consentiment, les dades van als patrocinadors de les lligues patrocinades, a l’equip favorit i a la llista d’entitats i clubs amb acord amb LALIGA.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "laliga-fantasy-privacy-policy"
+      ],
+      "detail": "LALIGA Ecosistema comparteix el perfil amb els clubs afiliats dels quals siguis usuari registrat, per tenir un mateix perfil a tot l’entorn.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta la venda de dades a intermediaris; sí la comunicació a tercers amb consentiment."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "laliga-fantasy-privacy-policy"
+      ],
+      "detail": "Salesforce EMEA als Estats Units sota el Data Privacy Framework, Pushologies a l’Illa de Man i verificació de correu amb Neverbounce als Estats Units amb clàusules contractuals tipus.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "LALIGA publica informació de transparència institucional i econòmica, però no cap informe sobre peticions de dades d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "laliga-fantasy-privacy-policy"
+      ],
+      "detail": "La política desglossa la conservació per finalitat, però totes remeten al mateix criteri: mentre persisteixi la finalitat i, després, el termini de prescripció d’accions legals, sense xifres.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "laliga-fantasy-privacy-policy"
+      ],
+      "detail": "Un cop acabat el termini, les dades queden «degudament bloquejades» per atendre possibles responsabilitats abans de suprimir-se.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "laliga-fantasy-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "laliga-fantasy-privacy-policy"
+      ],
+      "detail": "La política indica que a les aplicacions d’Android i iOS es pot donar de baixa i eliminar el compte directament des de la secció «Perfil», apartat «Gestió de consentiments».",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "easy",
+    "steps": [
+      "Obre l’aplicació i ves a la secció «Perfil».",
+      "Entra a l’apartat «Gestió de consentiments».",
+      "Tria l’opció de donar-te de baixa i eliminar el compte.",
+      "Si et vas registrar amb una xarxa social, revoca a més el servei «LALIGA Ecosistema» des dels serveis connectats del teu perfil de Google, Facebook o Apple.",
+      "Com a alternativa, escriu a derechos@laliga.es exercint el dret de supressió."
+    ],
+    "obstacles": "La supressió afecta tot LALIGA Ecosistema alhora: esborrar el compte de Fantasy vol dir perdre també l’accés als altres actius de la lliga i dels clubs que hi estiguin connectats.",
+    "dataRetained": "Dades bloquejades durant el termini de prescripció d’accions legals.",
+    "sources": [
+      "laliga-fantasy-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "laliga-fantasy-privacy-policy"
+      ],
+      "detail": "El dret de portabilitat es reconeix «si el Joc ho permet», una condició que la política no aclareix, i no hi ha cap eina d’exportació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "laliga-fantasy-privacy-policy"
+      ],
+      "detail": "Adreça específica de drets i delegat de protecció de dades propi.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:derechos@laliga.es",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "laliga-fantasy-privacy-policy"
+      ],
+      "detail": "Centre de Preferències de Publicitat Programàtica dins del perfil del joc i Centre de Subscripcions al menú, tots dos amb revocació immediata.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "laliga-fantasy-privacy-policy"
+      ],
+      "detail": "Els reportes interns i la seguretat es basen en interès legítim: no hi ha cap interruptor i cal exercir el dret d’oposició per correu electrònic. Denegar el permís de rastreig d’iOS només fa que LALIGA canviï l’IDFA per l’IDFV.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "laliga-fantasy-privacy-policy"
+      ],
+      "detail": "Centre de notificacions, centre de subscripcions, centre de preferències de publicitat programàtica i MyAccount per a les dades declarades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [],
+      "detail": "Els consentiments són granulars i revocables, però quan la persona denega el permís de rastreig d’Apple, LALIGA substitueix l’IDFA per l’IDFV emparant-se en l’interès legítim, i la decisió presa al sistema operatiu queda sense efecte pràctic dins de l’ecosistema.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "confusing-language",
+        "severity": "medium",
+        "description": "La política diu que, si no es dona permís per a l’IDFA, LALIGA «podrà dur a terme aquesta finalitat utilitzant l’IDFV del dispositiu». Per tant, la negativa al rastreig no atura el seguiment dins de l’ecosistema.",
+        "sources": [
+          "laliga-fantasy-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El joc no transporta comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "editorial",
+      "sources": [],
+      "detail": "Els actius de LALIGA es publiquen exclusivament sobre HTTPS; comprovat el setembre del 2026.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha informació pública sobre el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "laliga-fantasy-privacy-policy"
+      ],
+      "detail": "El registre inclou un codi de verificació per correu electrònic per validar el compte, però la política no descriu cap segon factor per als inicis de sessió posteriors.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "email"
+      ]
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories de seguretat publicades."
+    },
+    "bugBounty": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "laliga-cvd"
+      ],
+      "detail": "La política de reporte de vulnerabilitats no ofereix cap recompensa: només el compromís de no emprendre accions legals contra qui la compleixi.",
+      "verifiedAt": "2026-09-22"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "laliga-cvd"
+      ],
+      "detail": "Política pública de divulgació coordinada per a totes les aplicacions web i mòbils de LALIGA, amb canal a cvd@laliga.es i possibilitat de notificar també a l’INCIBE-CERT.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.laliga.com/informacion-legal-reporte-vulnerabilidades"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "flashscore",
+      "comparability": "complementary",
+      "rationale": "Si el que es busca és seguir els partits i els resultats sense entrar a l’ecosistema d’identificació única de LALIGA, un marcador en directe funciona sense compte.",
+      "tradeOffs": "No hi ha joc de fantasia ni lligues amb amics, que és el que LALIGA fa servir per construir el perfil."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La política de LALIGA Fantasy és tècnicament bona: diu els noms dels identificadors, dels proveïdors i dels països. El que destaca és l’abast del tractament: un sol identificador reuneix l’activitat a la lliga, als clubs i als patrocinadors, i el registre social converteix el mur de Facebook en puntuacions de valor d’aficionat.",
+    "openQuestions": [
+      "Quines xarxes de publicitat programàtica concretes hi participen? La política remet a un enllaç extern que no reprodueix la llista dins del document.",
+      "Quin és el proveïdor tercer que estructura la informació obtinguda de Facebook i Google?"
+    ]
+  },
+  "appStoreBundleId": "com.lfp.laligafantasy"
+}

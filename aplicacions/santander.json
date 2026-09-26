@@ -1,0 +1,540 @@
+{
+  "slug": "santander",
+  "name": "Santander España",
+  "company": "banco-santander",
+  "categories": [
+    "banca-i-finances"
+  ],
+  "tagline": "Banca mòbil sense rastreig publicitari declarat, però amb perfilat comercial",
+  "summary": "L’etiqueta de l’App Store de Santander no declara cap dada utilitzada per rastrejar-te fora de l’aplicació, cosa poc habitual a la banca espanyola. Sí que hi ha perfilat comercial intern per oferir productes segmentats, i una filtració de 2024 en un proveïdor extern que va afectar la clientela d’Espanya, Xile i l’Uruguai i tota la plantilla del grup.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Espanya",
+  "userBase": "Banc amb més de 170 milions de clients al món i uns 10 milions a Espanya",
+  "links": {
+    "website": "https://www.bancosantander.es/",
+    "privacyPolicy": "https://www.bancosantander.es/politica-de-privacidad/app/",
+    "appStore": "https://apps.apple.com/es/app/id408043474"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "santander-app-privacy-policy"
+    ],
+    "detail": "L’aplicació només funciona amb les credencials d’un contracte bancari vigent.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "santander-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Un extracte bancari mostra on menges, on t’has tractat, a qui pagues cada mes i quant guanyes. Aquí s’hi afegeixen la geolocalització que demana l’aplicació, l’agenda de contactes que necessita Bizum i el perfil comercial que el banc elabora per decidir què t’ofereix.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "santander-app-privacy-policy"
+      ]
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "santander-app-privacy-policy"
+      ],
+      "note": "L’aplicació demana accés a la càmera per escanejar documents d’identitat."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "santander-app-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "santander-app-privacy-policy"
+      ],
+      "note": "Els moviments del compte alimenten tant la vigilància antifrau com el perfil comercial."
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "santander-app-privacy-policy"
+      ],
+      "note": "La política esmenta dades biomètriques per a l’autenticació. No detalla si la comprovació es fa només al dispositiu amb Face ID o Touch ID."
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "santander-app-privacy-policy",
+        "santander-app-store"
+      ],
+      "note": "L’etiqueta la declara com a dada no vinculada amb la identitat; el permís el demanen funcions com Bizum."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "santander-app-store"
+      ],
+      "note": "Declarada com a dada no vinculada, per a la funcionalitat de l’aplicació (cerca d’oficines i caixers)."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "santander-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "santander-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "santander-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "santander-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "santander-app-store"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "santander-app-privacy-policy"
+      ],
+      "note": "La política esmenta el seguiment del comportament de navegació amb galetes."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "santander-app-privacy-policy"
+      ],
+      "note": "El perfil comercial serveix per decidir quins productes es mostren a l’aplicació."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "santander-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada utilitzada per rastrejar-te en aplicacions i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "santander-app-store"
+      ],
+      "detail": "L’única finalitat publicitària declarada és la del mateix desenvolupador, amb l’identificador d’usuari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’etiqueta no declara publicitat de tercers, però no hem fet una anàlisi de trànsit de l’aplicació."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "santander-app-store",
+        "santander-app-privacy-policy"
+      ],
+      "detail": "Hi ha publicitat del mateix banc basada en el perfil comercial, però no publicitat de tercers declarada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "santander-app-privacy-policy"
+      ],
+      "detail": "El banc informa de productes «de forma general y segmentada o personalizada» segons el perfil comercial de cada persona.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu si les dades s’utilitzen per entrenar models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "santander-app-privacy-policy"
+      ],
+      "detail": "Proveïdors que tracten dades per compte del banc, amb contracte d’encarregat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "santander-app-privacy-policy"
+      ],
+      "detail": "La política esmenta el grup Santander, però no en detalla les societats ni les finalitats concretes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap venda de dades a intermediaris."
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política de l’aplicació no descriu les transferències internacionals ni el mecanisme aplicat."
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem localitzat cap informe de transparència sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "santander-app-privacy-policy"
+      ],
+      "detail": "La política diu que les dades es conserven «mientras sean necesarias» i remet a la informació de cada servei, sense terminis per categoria.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "santander-app-privacy-policy"
+      ],
+      "detail": "La normativa de prevenció del blanqueig obliga a conservar la documentació de la relació durant deu anys, de manera que tancar els productes no esborra l’expedient.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "santander-app-privacy-policy"
+      ],
+      "detail": "No hi ha un «compte» de l’aplicació separable del contracte bancari: cal cancel·lar els productes i exercir després el dret de supressió, limitat per les obligacions legals de conservació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "santander-app-privacy-policy"
+      ],
+      "detail": "El dret de supressió s’exerceix per escrit a privacidad@gruposantander.es o a l’oficina del delegat de protecció de dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "hard",
+    "requiresSupportContact": true,
+    "steps": [
+      "Cancel·la els comptes, les targetes i la resta de productes contractats a l’oficina o des de la banca en línia.",
+      "Escriu a privacidad@gruposantander.es invocant el dret de supressió de l’article 17 del RGPD.",
+      "Espera la resposta i tingues present que la documentació subjecta a la Llei 10/2010 de prevenció del blanqueig es conserva bloquejada durant deu anys.",
+      "Si no obtens resposta dins de termini, reclama davant de l’AEPD."
+    ],
+    "obstacles": "Com a tota la banca, les obligacions legals de conservació limiten el dret de supressió, i bona part de les dades queden bloquejades en lloc d’esborrar-se.",
+    "dataRetained": "Documentació de la relació contractual i de les operacions durant els terminis fiscals i de prevenció del blanqueig de capitals.",
+    "sources": [
+      "santander-app-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "santander-app-privacy-policy"
+      ],
+      "detail": "La política reconeix els drets del RGPD, inclosa la portabilitat, però per la via del correu al delegat de protecció de dades.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacidad@gruposantander.es"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "santander-app-privacy-policy"
+      ],
+      "detail": "Canal escrit del delegat de protecció de dades, amb reclamació posterior davant de l’AEPD.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacidad@gruposantander.es",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "santander-app-privacy-policy"
+      ],
+      "detail": "El tractament comercial «respetará las preferencias que el Usuario tenga configuradas», però la política no descriu on és aquest panell ni què abasta.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta cap opció per desactivar l’analítica d’ús."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "santander-app-privacy-policy"
+      ],
+      "detail": "Hi ha consentiments separables (geolocalització, notificacions, comunicacions comercials), però no un panell únic de privadesa per finalitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem revisat els fluxos de consentiment de l’aplicació amb prou detall per afirmar-ho."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no transporta comunicacions privades entre persones usuàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El banc no publica documentació tècnica sobre el xifratge del canal de l’aplicació."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública."
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "santander-app-privacy-policy"
+      ],
+      "detail": "L’aplicació admet autenticació biomètrica i la normativa de pagaments exigeix autenticació reforçada per a les operacions.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "app-push",
+        "sms"
+      ]
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories de seguretat independents publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La pàgina de HackerOne es presenta com a política de divulgació; no hem pogut confirmar si paga recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "santander-hackerone"
+      ],
+      "detail": "El grup manté una política de divulgació de vulnerabilitats publicada a HackerOne.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://hackerone.com/bancosantander"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "bbva",
+      "comparability": "equivalent",
+      "rationale": "Banca mòbil espanyola equivalent en funcions.",
+      "tradeOffs": "BBVA també arrossega una sanció de l’AEPD per bases jurídiques i informació insuficients."
+    },
+    {
+      "app": "bankinter",
+      "comparability": "equivalent",
+      "rationale": "Alternativa de banca mòbil amb una etiqueta de privadesa que convé comparar abans de decidir."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "L’etiqueta de l’App Store de Santander no declara cap rastreig, mentre que les de CaixaBankNow i imagin sí que en declaren. Dins d’un mateix sector regulat, rastrejar depèn de cada entitat i no és una necessitat tècnica.",
+    "openQuestions": [
+      "On és exactament el panell de preferències comercials dins de l’aplicació?",
+      "Les dades biomètriques d’autenticació surten del dispositiu?"
+    ]
+  },
+  "appStoreBundleId": "com.isban.bancosantander.es.public"
+}

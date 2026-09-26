@@ -1,0 +1,438 @@
+{
+  "slug": "mutuamas",
+  "name": "MutuaMás",
+  "company": "mutua-madrilena",
+  "categories": [
+    "mobilitat-i-transport",
+    "banca-i-finances"
+  ],
+  "tagline": "L’app d’una asseguradora per pagar l’aparcament i el peatge, amb una política de privadesa que sembla anterior al RGPD",
+  "summary": "MutuaMás paga el parquímetre, reserva aparcament, demana taxi i gestiona les pòlisses, però la política de privadesa que enllaça a l’App Store encara parla de drets «d’accés, rectificació, cancel·lació i oposició», la terminologia anterior al RGPD, i no identifica el delegat de protecció de dades. L’etiqueta de l’App Store no declara cap dada vinculada a la identitat, cosa difícil de quadrar amb una aplicació on es paga i es consulten assegurances.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://www.mutua.es/",
+    "privacyPolicy": "https://www.mutua.es/recursos/webmovil/politica_de_privacidadApp.html",
+    "appStore": "https://apps.apple.com/es/app/id464032312"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "editorial",
+    "sources": [],
+    "detail": "Els serveis de pagament, els bonus i la consulta de pòlisses requereixen identificar-se; no hem trobat cap ús rellevant sense compte.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "mutuamas-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "On aparques, quan, a quina ciutat i amb quin vehicle, sumat a la posició global de les pòlisses contractades, permet a una asseguradora conèixer els hàbits de conducció dels seus clients. La política ho admet per a «estudis de màrqueting i adaptació dels productes».",
+  "dataCollection": [
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "mutuamas-app-store"
+      ],
+      "note": "L’etiqueta la declara com a dada no vinculada a la identitat, cosa poc versemblant en una aplicació de client."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "mutuamas-app-store"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "mutuamas-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "mutuamas-app-store"
+      ],
+      "note": "És l’única categoria que l’etiqueta declara com a utilitzada per rastrejar en apps i webs d’altres empreses."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "mutuamas-privacy-policy"
+      ],
+      "note": "La política declara la geolocalització del dispositiu per localitzar tallers, oficines i assistència en carretera; l’etiqueta de l’App Store no la declara."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "mutuamas-app-store",
+        "mutuamas-privacy-policy"
+      ],
+      "note": "La política parla explícitament de «datos de hábito de uso de la aplicación»."
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "mutuamas-privacy-policy"
+      ],
+      "note": "Dispositiu, sistema operatiu i navegador."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "mutuamas-privacy-policy"
+      ],
+      "note": "Dades dels contractes i posició global de les cobertures contractades."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "mutuamas-privacy-policy"
+      ],
+      "note": "L’app cobra parquímetres, aparcaments i peatges; ni la política ni l’etiqueta detallen com es tracten les dades de la targeta."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "mutuamas-app-store"
+      ]
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "mutuamas-privacy-policy"
+      ],
+      "note": "La política declara «estudios de marketing, adaptación de los productos» a partir de les dades del client."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mutuamas-app-store"
+      ],
+      "detail": "L’etiqueta declara identificadors utilitzats per rastrejar en apps i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’etiqueta parla d’identificadors de dispositiu, però ni la política ni la fitxa concreten si es fa servir l’IDFA."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no enumera cap proveïdor d’analítica ni de publicitat."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "mutuamas-privacy-policy"
+      ],
+      "detail": "Comunicacions sobre productes i serveis propis i adaptació de l’oferta, basades en el consentiment; no hi consta publicitat de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "mutuamas-privacy-policy"
+      ],
+      "detail": "Estudis de màrqueting i adaptació dels productes a partir de les dades del client, sense més detall sobre la lògica.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no en diu res."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no identifica cap encarregat ni destinatari extern."
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mutuamas-privacy-policy"
+      ],
+      "detail": "Preveu la comunicació de dades a les empreses del Grup MM, sense anomenar-les.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta les transferències internacionals."
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "mutuamas-privacy-policy"
+      ],
+      "detail": "Fixa un màxim de dos anys per al tractament basat en el consentiment, però no diu res de la resta de dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no explica què passa amb les dades quan es deixa de fer servir l’aplicació."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política només parla de desinstal·lar l’aplicació o desactivar-ne funcionalitats; no descriu cap eliminació del compte."
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "difficulty": "unknown",
+    "steps": [
+      "Desinstal·la l’aplicació o desactiva les funcionalitats que no vulguis, que és l’única via que descriu la política.",
+      "Per suprimir les dades, escriu a la Unidad de Cumplimiento Normativo, calle Fortuny 18, 28010 Madrid, o truca al 900 102 711."
+    ],
+    "obstacles": "La política no dona cap adreça electrònica per exercir els drets ni identifica el delegat de protecció de dades, i les úniques vies documentades són el correu postal i el telèfon.",
+    "sources": [
+      "mutuamas-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta ni la portabilitat ni cap eina d’exportació."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "mutuamas-privacy-policy"
+      ],
+      "detail": "Només enumera accés, rectificació, cancel·lació i oposició, la terminologia anterior al RGPD, i els canalitza per correu postal o telèfon.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "mutuamas-privacy-policy"
+      ],
+      "detail": "Es pot revocar el consentiment de les comunicacions comercials, però la política no descriu on.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política parla de «desactivar funcionalitats» sense concretar quines ni on."
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És una aplicació de gestió de pòlisses i pagaments, sense comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El domini mutua.es no publica cap fitxer security.txt."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "telpark",
+      "comparability": "partial",
+      "rationale": "Cobreix el pagament de l’estacionament regulat i dels aparcaments sense lligar-lo a una asseguradora.",
+      "tradeOffs": "No gestiona pòlisses, taxi ni telepeatge."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "La política enllaçada des de l’App Store sembla anterior al RGPD: no té data, no identifica el delegat de protecció de dades i enumera els drets amb la terminologia de la LOPD del 1999. Pot existir una política més completa a l’àrea de clients que no hem pogut consultar. No hem pogut fer la cerca d’incidents.",
+    "openQuestions": [
+      "Hi ha una política de privadesa actualitzada per a l’app, amb bases jurídiques i terminis?",
+      "Les dades d’aparcament i de mobilitat s’utilitzen per tarificar les pòlisses?",
+      "Com s’elimina el compte de MutuaMás sense donar de baixa l’assegurança?"
+    ]
+  },
+  "appStoreBundleId": "es.mutua.mutuamadrilenaiphone"
+}

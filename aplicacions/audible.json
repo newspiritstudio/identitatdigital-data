@@ -1,0 +1,489 @@
+{
+  "slug": "audible",
+  "name": "Audible",
+  "company": "audible-gmbh",
+  "categories": [
+    "llibres-i-lectura",
+    "musica-i-audio"
+  ],
+  "tagline": "Audiollibres amb registre detallat d’escolta i publicitat basada en interessos",
+  "summary": "Audible registra quan escoltes, quant de temps i on t’atures, i també el comportament de lectura a Kindle per sincronitzar-lo amb l’audiollibre. La política europea reconeix l’ús de les dades per a anuncis basats en interessos i la corresponsabilitat amb altres empreses del grup Amazon.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "subscription",
+  "jurisdiction": "Alemanya (Audible GmbH, Berlín) per a audible.es",
+  "links": {
+    "website": "https://www.audible.es/",
+    "privacyPolicy": "https://www.audible.es/legal/privacy-policy",
+    "appStore": "https://apps.apple.com/es/app/id379693831"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "audible-privacy-policy"
+    ],
+    "detail": "Cal un compte per subscriure’s i escoltar els títols.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "audible-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Els títols escoltats i les hores d’escolta permeten deduir interessos, creences i rutines. Combinats amb el compte d’Amazon, completen el perfil de consum cultural.",
+  "dataCollection": [
+    {
+      "type": "historial-de-visualitzacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "audible-privacy-policy"
+      ],
+      "note": "Hores d’inici i de final, durada de l’escolta i comportament de lectura a Kindle."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "audible-app-store",
+        "audible-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "sources": [
+        "audible-app-store",
+        "audible-privacy-policy"
+      ],
+      "note": "La política parla de la ubicació del dispositiu; l’etiqueta no en precisa el grau."
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "audible-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "audible-app-store",
+        "audible-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "audible-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "audible-app-store"
+      ]
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "sources": [
+        "audible-app-store"
+      ],
+      "note": "Contingut de l’usuari: valoracions i ressenyes."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "audible-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "audible-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "audible-app-store"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "audible-privacy-policy"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "audible-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara dades utilitzades per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "audible-privacy-policy"
+      ],
+      "detail": "La política preveu donar a empreses de publicitat un identificador publicitari per als anuncis d’Amazon.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi independent dels rastrejadors de l’aplicació."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "audible-privacy-policy"
+      ],
+      "detail": "La política diu que tracta la informació personal per mostrar anuncis basats en interessos.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://www.amazon.es/adprefs"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "audible-privacy-policy"
+      ],
+      "detail": "Recomanacions a partir de l’historial de compres i d’escolta.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no concreta si l’historial d’escolta entrena models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "audible-privacy-policy"
+      ],
+      "detail": "Amb proveïdors de serveis i empreses de publicitat, a les quals diu que no dona dades que identifiquin directament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "audible-privacy-policy",
+        "amazon-cross-service-consent"
+      ],
+      "detail": "Corresponsabilitat amb altres empreses del grup Amazon per a determinats tractaments; creuar dades entre serveis per a anuncis requereix consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "audible-privacy-policy"
+      ],
+      "detail": "Audible declara que vendre informació personal no forma part del seu negoci.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "audible-privacy-policy"
+      ],
+      "detail": "Audible Inc. i altres societats del grup als Estats Units estan adherides al Data Privacy Framework.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "adequacy"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut confirmar si l’informe de peticions governamentals d’Amazon inclou Audible."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "audible-privacy-policy"
+      ],
+      "detail": "Només diu que conserva les dades el temps necessari o el que exigeix la llei, sense terminis concrets.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no explica què es conserva després de tancar el compte."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "audible-privacy-policy"
+      ],
+      "detail": "La política reconeix el dret de supressió i remet a atenció al client d’Audible per exercir-lo.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut llegir la pàgina d’ajuda d’Audible sobre el tancament del compte; la política remet a atenció al client."
+    },
+    "difficulty": "unknown",
+    "requiresSupportContact": true,
+    "obstacles": "Cancel·lar la subscripció no elimina el compte. Tancar-lo fa perdre l’accés als títols comprats.",
+    "sources": [
+      "audible-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "audible-privacy-policy"
+      ],
+      "detail": "L’opció «Solicitar mis datos» porta al formulari de sol·licitud de dades d’Amazon.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.amazon.es/hz/privacy-central/data-requests/preview.html"
+    },
+    "exportFormatQuality": "mixed",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "audible-privacy-policy"
+      ],
+      "detail": "Atenció al client d’Audible i eu-privacy@amazon.es.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:eu-privacy@amazon.es",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "audible-privacy-policy"
+      ],
+      "detail": "Es pot rebutjar la publicitat basada en interessos a les preferències de galetes i de publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "audible-privacy-policy"
+      ],
+      "detail": "Preferències de notificacions, de galetes i de publicitat; no hi ha un panell de privadesa per finalitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem documentat patrons foscos específics d’Audible."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Un servei d’audiollibres no transporta comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "audible-privacy-policy"
+      ],
+      "detail": "La política diu que protegeix la transmissió amb protocols de xifratge.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "audible-help-2sv"
+      ],
+      "detail": "L’ajuda d’Audible té un article sobre com activar la verificació en dos passos del compte d’Audible i d’Amazon.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "audible-privacy-policy"
+      ],
+      "detail": "Només declara el compliment de PCI DSS per a les dades de targeta.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "audible-hackerone"
+      ],
+      "detail": "Programa propi a HackerOne, obert i amb recompenses.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://hackerone.com/audible"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "audible-hackerone"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "storytel",
+      "comparability": "equivalent",
+      "rationale": "Servei de subscripció d’audiollibres amb catàleg en castellà i català, fora de l’ecosistema publicitari d’Amazon.",
+      "tradeOffs": "També registra l’historial d’escolta; no l’hem avaluat com a més protector sense la seva fitxa."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "openQuestions": [
+      "Quins són els passos reals per tancar un compte d’audible.es i si equival a tancar el compte d’Amazon?",
+      "L’informe de peticions governamentals d’Amazon inclou Audible?"
+    ]
+  },
+  "appStoreBundleId": "com.audible.iphone"
+}

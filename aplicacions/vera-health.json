@@ -1,0 +1,445 @@
+{
+  "slug": "vera-health",
+  "name": "Vera Health",
+  "company": "veracity-health",
+  "categories": [
+    "salut-i-assistencia-sanitaria",
+    "assistents-d-ia"
+  ],
+  "tagline": "Es promociona com a «conforme amb el RGPD» i declara a l’App Store que no recull cap dada, però la política parla de socis publicitaris",
+  "summary": "Vera Health és un motor de respostes clíniques amb intel·ligència artificial adreçat a professionals sanitaris, que cita les fonts de cada resposta. L’etiqueta de l’App Store diu que no es recull cap dada; la política de privadesa, en canvi, enumera nom i correu, historial d’ús, identificador de dispositiu, adreça IP, geolocalització per IP i les entrades i sortides de la IA, i diu que algunes d’aquestes categories es comparteixen amb socis publicitaris i d’analítica. L’empresa és de Delaware i allotja el servei als Estats Units. La política afirma que no fa servir les dades personals per entrenar els seus models.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Estats Units; responsable sense establiment declarat a la Unió Europea",
+  "userBase": "Més de 250.000 professionals sanitaris, segons la mateixa empresa a la fitxa de l’App Store.",
+  "links": {
+    "website": "https://www.verahealth.ai/",
+    "privacyPolicy": "https://www.verahealth.ai/privacy",
+    "appStore": "https://apps.apple.com/es/app/id6744374898"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "vera-health-privacy-policy"
+    ],
+    "detail": "La política descriu la creació i la gestió d’un compte com una de les finalitats principals, i el servei s’adreça a professionals sanitaris verificats.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "vera-health-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Les dades mostren la pràctica clínica de qui fa servir l’app: quines preguntes fa, sobre quines patologies i amb quina freqüència. La política reconeix que agrega i desidentifica aquesta activitat (inclosos els textos d’entrada i de sortida) i que en comparteix conclusions amb socis i organitzacions de recerca.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "vera-health-privacy-policy"
+      ],
+      "note": "L’etiqueta de l’App Store no declara cap dada."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "vera-health-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "vera-health-privacy-policy"
+      ],
+      "note": "La política declara que les dades de dispositiu i IP es comparteixen amb proveïdors, socis publicitaris i socis d’analítica."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "vera-health-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "vera-health-privacy-policy"
+      ],
+      "note": "Geolocalització deduïda de l’adreça IP, compartida també amb socis publicitaris i d’analítica."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte",
+        "investigacio-i-estadistica"
+      ],
+      "sources": [
+        "vera-health-privacy-policy"
+      ],
+      "note": "Historial d’ús dels productes i perfils de consum; la política parla d’agregar-ho per compartir conclusions amb socis i organitzacions de recerca."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "vera-health-privacy-policy"
+      ],
+      "note": "Les entrades i sortides de les consultes a la IA, que la política tracta com una categoria pròpia."
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "vera-health-privacy-policy"
+      ],
+      "note": "La política remet a un avís de galetes separat i reconeix eines de seguiment i publicitat."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "vera-health-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada, ni tan sols per rastrejar. La política, però, descriu compartició amb socis publicitaris.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política parla d’identificadors de dispositiu, però no aclareix si es fa servir l’identificador publicitari d’iOS."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "vera-health-privacy-policy"
+      ],
+      "detail": "La política identifica categories de destinataris de «socis publicitaris» i «socis d’analítica», i remet a un avís de galetes propi.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "vera-health-privacy-policy"
+      ],
+      "detail": "La política preveu mostrar publicitat basada en interessos o dirigida, amb base jurídica de consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "vera-health-privacy-policy"
+      ],
+      "detail": "Esmenta «perfils de consum» entre les dades comercials recollides i la personalització del servei, però no descriu cap decisió automatitzada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "vera-health-privacy-policy"
+      ],
+      "detail": "La política afirma explícitament: «No fem servir les teves dades personals per entrenar els nostres sistemes d’IA».",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "vera-health-privacy-policy"
+      ],
+      "detail": "Proveïdors d’allotjament, seguretat i suport, socis publicitaris, socis d’analítica i les parts que la persona usuària autoritzi.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "vera-health-privacy-policy"
+      ],
+      "detail": "Preveu comunicar dades a filials i en operacions corporatives com fusions o vendes, sense concretar quines societats hi ha al grup.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu explícitament que no vengui dades personals; sí que preveu compartir conclusions agregades amb socis comercials i organitzacions de recerca."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "vera-health-privacy-policy"
+      ],
+      "detail": "El servei s’allotja als Estats Units i la política diu que les transferències fora de l’Espai Econòmic Europeu es fan per decisió d’adequació o per clàusules contractuals tipus.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència sobre peticions de dades."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "vera-health-privacy-policy"
+      ],
+      "detail": "La política diu que conserva les dades «tant de temps com calgui» per prestar el servei o per finalitats de negoci, sense cap termini concret.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "vera-health-privacy-policy"
+      ],
+      "detail": "Pot conservar dades per complir obligacions legals o resoldre disputes, i manté indefinidament la informació agregada o desidentificada.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "vera-health-privacy-policy"
+      ],
+      "detail": "La política reconeix el dret de supressió i explica com demanar-lo.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "vera-health-privacy-policy"
+      ],
+      "detail": "Cal enviar un correu amb l’assumpte «User Rights Request»; no hi ha cap botó d’eliminació descrit.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "hard",
+    "requiresSupportContact": true,
+    "waitingPeriodDays": 30,
+    "steps": [
+      "Escriu a privacy@verahealth.ai amb l’assumpte «User Rights Request».",
+      "Inclou-hi el nom complet, l’adreça electrònica del compte i la informació que calgui per verificar la identitat.",
+      "Vera Health confirma la recepció i respon en el termini d’un mes, prorrogable si cal.",
+      "Les dades agregades o desidentificades es poden conservar igualment."
+    ],
+    "obstacles": "No hi ha autoservei i l’empresa pot demanar informació addicional per verificar la identitat. Si el compte l’ha creat un hospital o una empresa, determinats canvis els ha de demanar aquesta organització.",
+    "dataRetained": "Dades necessàries per complir obligacions legals o resoldre disputes i tota la informació agregada o desidentificada.",
+    "sources": [
+      "vera-health-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "vera-health-privacy-policy"
+      ],
+      "detail": "Reconeix la portabilitat en format estructurat i de lectura mecànica, però només per sol·licitud per correu i advertint que pot limitar la informació per protegir drets propis.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "vera-health-privacy-policy"
+      ],
+      "detail": "Per correu a privacy@verahealth.ai, amb resposta en un mes i possibilitat de designar un representant.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacy@verahealth.ai"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "vera-health-privacy-policy"
+      ],
+      "detail": "La publicitat dirigida es basa en el consentiment i l’avís de galetes permet acceptar-les o rebutjar-les, però la política no descriu cap ajust dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap manera de desactivar l’analítica d’ús."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut comprovar quins controls ofereix l’aplicació."
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut revisar les pantalles de registre i de consentiment de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És un servei de consulta documental amb un model d’IA; no hi ha comunicació entre persones usuàries que pugui anar xifrada d’extrem a extrem.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política parla de mesures «físiques, tècniques, organitzatives i administratives» sense concretar-ne cap."
+    },
+    "atRestEncryption": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "vera-health-privacy-policy"
+      ],
+      "detail": "L’apartat de minimització esmenta el xifratge, el control d’accés i la pseudonimització per a les dades que es fan servir per entrenar, sense concretar la resta.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no parla de verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap auditoria ni certificació publicada."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses per a vulnerabilitats."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El domini verahealth.ai no serveix cap fitxer security.txt."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "claude",
+      "comparability": "partial",
+      "rationale": "També és un assistent conversacional que pot ajudar a buscar i resumir literatura, amb una política de privadesa molt més detallada i un responsable amb establiment a la Unió Europea.",
+      "tradeOffs": "No està especialitzat en medicina basada en l’evidència ni cita automàticament les guies clíniques."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "La contradicció principal és entre l’etiqueta de l’App Store, que declara que no es recull cap dada, i la política de privadesa, que descriu categories de dades i destinataris publicitaris. La fitxa de l’App Store presenta l’aplicació com a «conforme amb el RGPD», però la política no identifica cap establiment ni cap representant a la Unió Europea, com exigeix l’article 27 del RGPD. El buscador de resolucions de l’AEPD no ens ha respost i no hem pogut completar la cerca d’incidents.",
+    "openQuestions": [
+      "Per què l’etiqueta de l’App Store diu que no es recull cap dada?",
+      "Qui és el representant de Veracity-Health a la Unió Europea?",
+      "Quins són els socis publicitaris i d’analítica amb qui es comparteixen l’IP i l’identificador de dispositiu?"
+    ]
+  },
+  "appStoreBundleId": "io.vera.app"
+}

@@ -1,0 +1,422 @@
+{
+  "slug": "el-periodico",
+  "name": "El Periódico",
+  "company": "prensa-iberica-media",
+  "categories": [
+    "noticies-i-mitjans"
+  ],
+  "tagline": "Etiqueta mínima a l’App Store i centenars de proveïdors publicitaris al web",
+  "summary": "L’app només declara identificadors, usats per rastrejar. La política és la de tot el grup Prensa Ibérica: comparteix el perfil de lector amb empreses tecnològiques, anunciants i agències, i amb consentiment cedeix dades a empreses del grup i a tercers. Al web, el bàner ofereix tots els proveïdors del marc de l’IAB i 85 de propis, entre els quals Utiq. Fixa terminis concrets: les dades es conserven fins a tres anys d’inactivitat i tres més de bloqueig.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "subscription",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://www.elperiodico.com/",
+    "privacyPolicy": "https://www.prensaiberica.es/politica-de-privacidad-resumida/",
+    "appStore": "https://apps.apple.com/es/app/id407970190"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "prensa-iberica-privacy-extended"
+    ],
+    "detail": "Per navegar no cal donar dades personals; alguns serveis demanen registre o subscripció.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "el-periodico-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Amb consentiment, el grup elabora un perfil a partir de la lectura i el comparteix amb anunciants i empreses tecnològiques per mostrar publicitat.",
+  "dataCollection": [
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "el-periodico-app-store"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "prensa-iberica-privacy-extended"
+      ]
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "prensa-iberica-privacy-summary"
+      ],
+      "note": "Amb consentiment."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "prensa-iberica-privacy-summary"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "prensa-iberica-privacy-summary",
+        "el-periodico-didomi-config"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "prensa-iberica-privacy-summary"
+      ],
+      "note": "Registre i butlletins; amb consentiment, cessió a empreses del grup i a tercers per a comunicacions comercials."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "prensa-iberica-privacy-extended"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "el-periodico-app-store"
+      ],
+      "detail": "L’etiqueta declara identificadors per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "el-periodico-app-store"
+      ],
+      "detail": "Identificadors declarats per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "el-periodico-didomi-config"
+      ],
+      "detail": "Tots els proveïdors del TCF de l’IAB i 85 de propis al web, amb Utiq i Foursquare.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "prensa-iberica-privacy-summary"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "prensa-iberica-privacy-summary"
+      ],
+      "detail": "Perfils amb els interessos i gustos de cada usuari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no en diu res."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "prensa-iberica-privacy-summary"
+      ],
+      "detail": "El perfil es comparteix amb empreses tecnològiques, anunciants i agències.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "prensa-iberica-privacy-summary"
+      ],
+      "detail": "Amb consentiment, per a comunicacions comercials.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "prensa-iberica-privacy-extended"
+      ],
+      "detail": "La política diu que no ven ni lloga les dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "prensa-iberica-privacy-extended"
+      ],
+      "detail": "Proveïdors als Estats Units.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "prensa-iberica-privacy-summary",
+        "prensa-iberica-privacy-extended"
+      ],
+      "detail": "Registre fins a la baixa o tres anys d’inactivitat; clients, tres anys després del contracte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "prensa-iberica-privacy-extended"
+      ],
+      "detail": "Després dels terminis, les dades queden bloquejades tres anys abans d’anonimitzar-les o destruir-les.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "adreca-electronica",
+        "period": "Fins a la baixa o tres anys d’inactivitat",
+        "sources": [
+          "prensa-iberica-privacy-summary"
+        ]
+      },
+      {
+        "dataType": "dades-de-pagament",
+        "period": "Durada del contracte més tres anys",
+        "sources": [
+          "prensa-iberica-privacy-summary"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "prensa-iberica-privacy-summary"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política parla de «donar-se de baixa de l’àrea privada», però no explica com."
+    },
+    "difficulty": "unknown",
+    "steps": [
+      "Escriu a protecciondatos@prensaiberica.es amb un document que acrediti la teva identitat i demana la supressió."
+    ],
+    "obstacles": "Cal acreditar la identitat amb un document.",
+    "dataRetained": "Dades bloquejades durant tres anys.",
+    "sources": [
+      "prensa-iberica-privacy-summary",
+      "prensa-iberica-privacy-extended"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "prensa-iberica-privacy-extended"
+      ],
+      "detail": "Drets per correu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "prensa-iberica-privacy-summary"
+      ],
+      "detail": "Delegat de protecció de dades del grup.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:protecciondatos@prensaiberica.es"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "prensa-iberica-privacy-summary"
+      ],
+      "detail": "Enllaç «preferències de privadesa» als webs i a les apps.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "el-periodico-didomi-config"
+      ],
+      "detail": "Al web, per finalitat i proveïdor.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És una aplicació de lectura de notícies.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "alternatives": [
+    {
+      "app": "la-vanguardia",
+      "comparability": "equivalent",
+      "rationale": "Diari generalista de Barcelona bilingüe, amb una política més detallada però perfils cedits a tercers."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "L’enllaç de privadesa de l’App Store porta a l’avís legal, i la política d’El Periódico es carrega des de la del grup. L’etiqueta declara molt menys del que descriuen la política i el bàner del web. No hem trobat sancions ni filtracions documentades.",
+    "openQuestions": [
+      "L’app integra Utiq com el web?",
+      "Hi ha un botó per esborrar el compte a l’àrea privada?"
+    ]
+  },
+  "appStoreBundleId": "com.zetadigital.elperiodico"
+}

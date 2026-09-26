@@ -1,0 +1,514 @@
+{
+  "slug": "mi-fitness",
+  "name": "Mi Fitness",
+  "company": "xiaomi-netherlands",
+  "categories": [
+    "benestar-i-activitat-fisica"
+  ],
+  "tagline": "Son, freqüència cardíaca, oxigen en sang i cicle menstrual, amb l’opció poc coneguda de desactivar la sincronització al núvol",
+  "summary": "Mi Fitness és l’aplicació que recull el que mesuren les polseres i els rellotges de Xiaomi. El llibre blanc de privadesa de l’Internet de les coses de l’empresa és molt més detallat que la política de l’aplicació: descriu les dades de son, freqüència cardíaca, saturació d’oxigen, estrès i cicle menstrual, diu que el cicle només es mostra al dispositiu i documenta que la sincronització al núvol es pot desactivar. Per a l’Espai Econòmic Europeu, el responsable és la filial neerlandesa.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Països Baixos, amb corresponsabilitat de la matriu xinesa",
+  "userBase": "Centenars de milions de dispositius vestibles Xiaomi venuts arreu del món",
+  "links": {
+    "website": "https://www.mi.com/global/",
+    "privacyPolicy": "https://privacy.mi.com/all/es_ES",
+    "appStore": "https://apps.apple.com/es/app/id1493500777"
+  },
+  "accountRequired": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": [],
+    "detail": "No hem trobat documentació oficial que digui si es pot fer servir l’aplicació sense compte Xiaomi; la sincronització al núvol i l’aparellament de dispositius sí que el necessiten."
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "xiaomi-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "L’aplicació registra de manera contínua quantes hores dorms i com, quines pulsacions tens en repòs, quin nivell d’estrès, quanta saturació d’oxigen i, si l’actives, en quin punt del cicle menstrual ets. Amb GPS s’hi afegeix el recorregut dels entrenaments, que mostra on vius i per on et mous cada dia.",
+  "dataCollection": [
+    {
+      "type": "dades-de-salut",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "xiaomi-iot-whitepaper",
+        "mi-fitness-app-store"
+      ],
+      "note": "Freqüència cardíaca, fases i durada del son, saturació d’oxigen, nivell d’estrès, passos, calories i pressió arterial introduïda a mà."
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "xiaomi-iot-whitepaper"
+      ],
+      "note": "Les mesures fisiològiques contínues del sensor òptic del dispositiu."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "mi-fitness-app-store",
+        "xiaomi-privacy-policy"
+      ],
+      "note": "Recorregut dels entrenaments amb GPS; l’etiqueta declara ubicació exacta vinculada amb la identitat."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "mi-fitness-app-store"
+      ]
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "xiaomi-iot-whitepaper"
+      ],
+      "note": "El perfil demana sexe, data de naixement, alçada i pes per calcular les mètriques."
+    },
+    {
+      "type": "genere",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "xiaomi-iot-whitepaper"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "mi-fitness-app-store"
+      ],
+      "note": "Dades de contacte del compte Xiaomi."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "mi-fitness-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "mi-fitness-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "mi-fitness-app-store"
+      ],
+      "note": "L’etiqueta declara informació de pagament vinculada amb la identitat."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "mi-fitness-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "mi-fitness-app-store"
+      ]
+    },
+    {
+      "type": "orientacio-sexual",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "xiaomi-iot-whitepaper"
+      ],
+      "note": "No es demana, però el seguiment del cicle menstrual és una dada de salut reproductiva que el llibre blanc diu que només es mostra al dispositiu i s’esborra en desaparellar-lo."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "mi-fitness-app-store"
+      ],
+      "detail": "L’etiqueta de l’aplicació no declara cap dada utilitzada per rastrejar, a diferència de la de Xiaomi Home.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Ni l’etiqueta ni el llibre blanc esmenten l’identificador publicitari en aquesta aplicació."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut llegir la política específica de l’aplicació, que és una pàgina generada amb JavaScript, i el llibre blanc no llista components de tercers."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política general de Xiaomi preveu serveis publicitaris al sistema operatiu, però no hem trobat cap evidència que s’apliquin a les dades d’aquesta aplicació."
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "xiaomi-iot-whitepaper"
+      ],
+      "detail": "Hi ha personalització: consells i plans d’entrenament calculats a partir de les mesures del cos. No consta elaboració de perfils per a finalitats comercials.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Cap document de Xiaomi que hàgim pogut llegir diu si les dades de salut s’utilitzen per entrenar models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El llibre blanc no llista destinataris tercers per a aquesta aplicació i no hem pogut llegir-ne la política específica."
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "xiaomi-privacy-policy"
+      ],
+      "detail": "La política general descriu el tractament dins del grup Xiaomi, amb corresponsabilitat entre la filial neerlandesa i la matriu xinesa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap declaració específica sobre venda de dades."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "xiaomi-privacy-policy"
+      ],
+      "detail": "Per a l’Espai Econòmic Europeu, el Regne Unit i Suïssa, el tractament és als Països Baixos, amb clàusules contractuals tipus i mesures suplementàries per a l’accés remot limitat des de la Xina continental. El llibre blanc no concreta on són els servidors d’aquesta aplicació.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "xiaomi-transparency-report"
+      ],
+      "detail": "Xiaomi publica informes anuals sobre sol·licituds governamentals d’informació, amb edicions del 2022, el 2023 i el 2024.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El llibre blanc no dona terminis concrets de conservació de les dades de salut al núvol."
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "xiaomi-account-delete"
+      ],
+      "detail": "Eliminar el compte Xiaomi esborra de manera irreversible les dades associades, inclosos els continguts del núvol; la política no detalla què es conserva per obligació legal.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "xiaomi-account-delete"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "xiaomi-account-delete"
+      ],
+      "detail": "Des del centre d’ajuda del compte Xiaomi; l’avís diu que l’acció no es pot desfer.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://account.xiaomi.com/helpcenter/service/cancelAccount",
+    "difficulty": "medium",
+    "steps": [
+      "Sincronitza o exporta abans el que vulguis conservar: l’esborrat inclou les dades del núvol.",
+      "Entra al centre d’ajuda del compte Xiaomi i obre el servei de cancel·lació del compte.",
+      "Identifica’t amb el compte i confirma la sol·licitud.",
+      "Si només vols deixar de pujar dades de salut sense tancar el compte, desactiva la sincronització al núvol des de l’aplicació."
+    ],
+    "obstacles": "Eliminar el compte Xiaomi afecta tot l’ecosistema alhora: fotos, contactes i dades d’altres aplicacions. No hem trobat cap eliminació selectiva de les dades de salut.",
+    "dataRetained": "Desconegut: la documentació només diu que es conserva el que exigeixi la llei.",
+    "sources": [
+      "xiaomi-account-delete"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "xiaomi-privacy-policy"
+      ],
+      "detail": "Els drets, inclosa la portabilitat, s’exerceixen per un formulari únic; no hem trobat cap descàrrega d’autoservei.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://privacy.mi.com/support"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "xiaomi-privacy-policy",
+        "xiaomi-home-privacy-policy"
+      ],
+      "detail": "Portal únic de sol·licituds i delegat de protecció de dades del grup.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://privacy.mi.com/support",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "xiaomi-privacy-policy"
+      ],
+      "detail": "Els serveis publicitaris del sistema operatiu es poden desactivar des dels ajustos de privadesa del telèfon.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "xiaomi-iot-whitepaper"
+      ],
+      "detail": "El llibre blanc documenta que es pot desactivar la sincronització al núvol i mantenir les dades només al dispositiu, però no un control separat de diagnòstics.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "xiaomi-iot-whitepaper"
+      ],
+      "detail": "Sincronització al núvol desactivable i esborrat de les dades de cicle menstrual en desaparellar el dispositiu o restaurar-lo de fàbrica.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [
+        "xiaomi-iot-whitepaper"
+      ],
+      "detail": "El control més protector, mantenir les dades de salut només al dispositiu, només està documentat en un llibre blanc tècnic en anglès, no a la política de l’aplicació ni a cap pantalla destacada.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "xiaomi-iot-whitepaper"
+      ],
+      "detail": "Les dades de salut es xifren en trànsit i en repòs, però amb claus del prestador: no hi ha xifratge d’extrem a extrem.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "xiaomi-iot-whitepaper"
+      ],
+      "detail": "HTTPS amb el núvol i Bluetooth de baixa energia amb el dispositiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "xiaomi-iot-whitepaper"
+      ],
+      "detail": "AES-128 per a les dades de salut i AES-256 per als registres d’informes d’incidències.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació oficial sobre la verificació en dos passos del compte Xiaomi."
+    },
+    "independentAudits": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "xiaomi-compliance"
+      ],
+      "detail": "ISO/IEC 27001 i ISO/IEC 27701 per a diverses societats del grup, SOC 2 i una atestació de privadesa de TÜV Rheinland.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "xiaomi-misrc"
+      ],
+      "detail": "Centre de seguretat propi amb programa de recompenses i un programa a HackerOne.",
+      "verifiedAt": "2026-09-22"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "xiaomi-misrc"
+      ],
+      "detail": "Hi ha procediment i adreça de contacte publicats, però no fitxer security.txt als dominis principals.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "strava",
+      "comparability": "partial",
+      "rationale": "Per registrar l’activitat esportiva sense dependre del núvol del fabricant del dispositiu.",
+      "tradeOffs": "No substitueix la gestió del rellotge ni les mesures contínues de son i freqüència cardíaca."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La política específica de l’aplicació és una pàgina generada amb JavaScript que no hem pogut llegir; tot el detall tècnic prové del llibre blanc de privadesa de l’Internet de les coses de Xiaomi, que és una font oficial però no substitueix una política. Cal no confondre aquesta aplicació amb «Xiaomi Health», l’aplicació xinesa, que declara expressament que desa les dades dins de la Xina. Els incidents documentats del grup afecten altres productes, no aquesta aplicació, però la reclamació de noyb del 2025 sobre transferències a la Xina sí que és del grup i és pertinent.",
+    "openQuestions": [
+      "On són els servidors que reben les dades de salut de Mi Fitness per a una persona de la Unió Europea?",
+      "Quant de temps es conserven les mesures del cos al núvol?",
+      "Es poden esborrar només les dades de salut sense eliminar el compte Xiaomi?"
+    ]
+  },
+  "appStoreBundleId": "com.xiaomi.miwatch.pro"
+}

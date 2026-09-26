@@ -1,0 +1,532 @@
+{
+  "slug": "reelshort",
+  "name": "ReelShort",
+  "company": "crazy-maple-studio",
+  "categories": [
+    "video-i-streaming"
+  ],
+  "tagline": "L’etiqueta de l’App Store és molt sòbria, però la política enumera identificadors de maquinari i una desena de xarxes publicitàries, i fixa una conservació mínima de cinc anys",
+  "summary": "ReelShort és l’aplicació de microdrames més gran del mercat occidental, editada per Crazy Maple Studio, una societat de Sunnyvale de la qual el grup pequinès COL Group té una participació del 49 %. L’etiqueta de l’App Store només declara l’identificador de dispositiu com a dada de rastreig, però la política, molt més àmplia, parla d’IDFA, GAID, adreça MAC i IMEI, enumera una desena de xarxes publicitàries i de mesura, i diu que conserva la informació un mínim de cinc anys per a finalitats legals. Per donar-se de baixa cal escriure al correu de suport.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Estats Units (Califòrnia)",
+  "userBase": "Més de cent milions de descàrregues acumulades a escala mundial",
+  "links": {
+    "website": "https://www.reelshort.com/",
+    "privacyPolicy": "https://www.reelshort.com/privacy-agreement.html",
+    "terms": "https://www.reelshort.com/user-agreement.html",
+    "appStore": "https://apps.apple.com/es/app/id1636235979"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "reelshort-privacy-policy"
+    ],
+    "detail": "Es pot començar a mirar sense compte, però cal registrar-se per conservar les monedes i el progrés entre dispositius.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "reelshort-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "El catàleg de microdrames s’organitza per temes molt concrets. L’historial de visualització i de compres dins d’aquest catàleg, combinat amb identificadors persistents del maquinari, permet construir un perfil comercial difícil de restablir canviant l’identificador publicitari.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "reelshort-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "reelshort-privacy-policy"
+      ]
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "compliment-legal"
+      ],
+      "sources": [
+        "reelshort-privacy-policy"
+      ]
+    },
+    {
+      "type": "genere",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "reelshort-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "reelshort-app-store",
+        "reelshort-privacy-policy"
+      ],
+      "note": "La política enumera IDFA, GAID, adreça MAC i IMEI, identificadors que no es poden restablir com el publicitari."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "reelshort-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "reelshort-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "reelshort-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-visualitzacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "reelshort-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "reelshort-privacy-policy"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "reelshort-app-store",
+        "reelshort-privacy-policy"
+      ]
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "reelshort-privacy-policy"
+      ],
+      "note": "La política parla d’inferències que reflecteixen «preferències, característiques i predisposicions»."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "reelshort-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "reelshort-privacy-policy"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "reelshort-app-store",
+        "reelshort-privacy-policy"
+      ],
+      "detail": "L’etiqueta de l’App Store declara l’identificador de dispositiu com a dada de rastreig i la política permet que els socis publicitaris recullin identificadors per servir anuncis més rellevants.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "reelshort-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "reelshort-privacy-policy"
+      ],
+      "detail": "La política anomena Google Analytics, Adjust, GameAnalytics i diverses xarxes de publicitat i de vídeo recompensat.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "reelshort-privacy-policy"
+      ],
+      "detail": "Publicitat basada en interessos amb cookies, SDK i píxels; l’exclusió es fa al dispositiu, no dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "reelshort-privacy-policy"
+      ],
+      "detail": "La política descriu la creació de perfils inferits.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu res sobre l’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "reelshort-privacy-policy"
+      ],
+      "detail": "Socis d’analítica i de publicitat, passarel·les de pagament, proveïdors d’atenció al client i empreses del grup.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "reelshort-privacy-policy"
+      ],
+      "detail": "La política preveu la compartició amb filials i societats afiliades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "reelshort-privacy-policy"
+      ],
+      "detail": "La política afirma que no ven informació personal, tot i que permet que els socis publicitaris recullin identificadors.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "reelshort-privacy-policy"
+      ],
+      "detail": "Transferències als Estats Units i a qualsevol altre país on operi l’empresa, amb clàusules contractuals tipus o acords de transferència internacional.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "reelshort-privacy-policy"
+      ],
+      "detail": "La política fixa una conservació mínima de cinc anys per a finalitats legals i de compliment, però no dona terminis per categoria.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "reelshort-privacy-policy"
+      ],
+      "detail": "La conservació mínima de cinc anys s’aplica encara que es desactivi el compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "period": "Mínim de 5 anys per a finalitats legals i de compliment",
+        "sources": [
+          "reelshort-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "reelshort-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "reelshort-privacy-policy"
+      ],
+      "detail": "La política indica que la desactivació del compte i l’esborrat del correu associat es demanen escrivint al suport; no descriu cap botó dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "hard",
+    "requiresSupportContact": true,
+    "steps": [
+      "Escriu a reelshort.support@crazymaplestudio.com demanant la desactivació del compte i l’esborrat de les dades.",
+      "Prepara’t per verificar la identitat: la política diu que pot ser necessari abans de tramitar la petició.",
+      "Cancel·la a banda la subscripció des de l’App Store: demanar la baixa no atura el cobrament."
+    ],
+    "obstacles": "La baixa i la cancel·lació del pagament són tràmits separats, i la conservació mínima de cinc anys segueix després de la sol·licitud.",
+    "dataRetained": "Registres conservats un mínim de cinc anys per a finalitats legals i de compliment.",
+    "sources": [
+      "reelshort-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "reelshort-privacy-policy"
+      ],
+      "detail": "Les persones de l’Espai Econòmic Europeu poden demanar accés i portabilitat en format estructurat, però només per correu.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:reelshort.support@crazymaplestudio.com"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "reelshort-privacy-policy"
+      ],
+      "detail": "Hi ha un apartat específic per a l’Espai Econòmic Europeu, el Regne Unit i Suïssa, però l’únic canal és el correu de suport i no s’identifica cap representant a la Unió Europea ni cap delegat de protecció de dades.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:reelshort.support@crazymaplestudio.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "reelshort-privacy-policy"
+      ],
+      "detail": "L’exclusió es fa restablint l’identificador publicitari del dispositiu; la política adverteix que se seguiran veient anuncis, només que menys personalitzats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap control per desactivar l’analítica."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap panell de privadesa dins de l’aplicació."
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [],
+      "detail": "Interpretació pròpia: el tall de l’episodi en el moment culminant, les monedes que caduquen i les ofertes amb compte enrere són el motor comercial del format, i per donar-se de baixa cal escriure un correu electrònic.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "hidden-exit",
+        "severity": "high",
+        "description": "No hi ha cap opció d’eliminació del compte dins de l’aplicació: cal escriure al correu de suport i passar una verificació d’identitat.",
+        "sources": [
+          "reelshort-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És un servei de difusió de vídeo; el xifratge d’extrem a extrem no hi és aplicable.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no documenta les mesures tècniques concretes."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació sobre el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap opció de verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories ni certificacions publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap canal de divulgació de vulnerabilitats."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La llista de socis publicitaris de la política té aspecte de plantilla de videojoc (hi apareixen xarxes com MoPub o AdColony, algunes ja desaparegudes), cosa que indica que el document no s’ha adaptat del tot al producte. Cal seguir la discrepància amb l’etiqueta de l’App Store, molt més sòbria. No hem pogut confirmar amb fonts fiables cap demanda ni cap actuació reguladora contra el servei.",
+    "openQuestions": [
+      "Per què l’etiqueta de l’App Store no declara les dades de contacte ni l’historial de visualització que descriu la política?",
+      "Qui és el representant a la Unió Europea previst a l’article 27 del RGPD?",
+      "La participació del 49 % de COL Group implica accés a dades des de la Xina?"
+    ]
+  },
+  "appStoreBundleId": "com.newleaf.app.ios.vic"
+}

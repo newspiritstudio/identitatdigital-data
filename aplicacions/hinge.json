@@ -1,0 +1,631 @@
+{
+  "slug": "hinge",
+  "name": "Hinge",
+  "company": "mtch-technology-services",
+  "categories": [
+    "cites"
+  ],
+  "tagline": "Cites amb dades sensibles declarades a l’App Store, geometria facial i una taula de conservació que arriba als deu anys",
+  "summary": "Hinge és l’aplicació de cites de Match Group pensada per «esborrar-se»: el perfil demana respostes obertes i l’algoritme decideix a qui et mostra. La política europea reconeix que el perfil pot contenir orientació sexual, salut, origen ètnic i creences, i que la verificació amb selfie tracta geometria facial. D’altra banda, publica una taula de terminis concrets de conservació després de tancar el compte, i l’eliminació és autoservei des de l’aplicació.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Irlanda (UE)",
+  "userBase": "No n’hem verificat cap xifra oficial de comptes a Espanya.",
+  "links": {
+    "website": "https://hinge.co/",
+    "privacyPolicy": "https://hinge.co/privacy",
+    "appStore": "https://apps.apple.com/es/app/id595287172"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "hinge-privacy-policy"
+    ],
+    "detail": "Cal registrar-se amb telèfon o correu i crear un perfil per veure res.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "hinge-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "En un perfil de Hinge declares qui t’atrau, què creus i com vius, i l’aplicació hi suma la ubicació, les converses i el registre de qui t’agrada i qui descartes. Són dades molt sensibles, i l’etiqueta de l’App Store ho reconeix amb la categoria «dades sensibles».",
+  "dataCollection": [
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "hinge-privacy-policy",
+        "hinge-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "hinge-privacy-policy"
+      ]
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "hinge-privacy-policy",
+        "hinge-profiling"
+      ],
+      "note": "L’edat alimenta l’algoritme de recomanació."
+    },
+    {
+      "type": "genere",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "hinge-profiling"
+      ]
+    },
+    {
+      "type": "orientacio-sexual",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "hinge-privacy-policy"
+      ],
+      "note": "La política adverteix que en completar el perfil es poden aportar dades d’orientació sexual i de vida sexual, categories especials de l’article 9 del RGPD."
+    },
+    {
+      "type": "conviccions-i-opinions",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "hinge-privacy-policy"
+      ],
+      "note": "Creences religioses i afiliació política declarades al perfil."
+    },
+    {
+      "type": "origen-etnic-o-nacionalitat",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "hinge-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "hinge-privacy-policy"
+      ],
+      "note": "La política la inclou entre les dades sensibles que es poden aportar al perfil."
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "hinge-privacy-policy"
+      ],
+      "note": "Geometria facial de la verificació amb selfie, que segons la política s’esborra al cap de 30 dies llevat d’obligació legal."
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "hinge-privacy-policy"
+      ]
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "hinge-privacy-policy",
+        "hinge-app-store"
+      ]
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "hinge-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "hinge-privacy-policy",
+        "hinge-app-store"
+      ],
+      "note": "Amb consentiment; és un dels criteris de l’algoritme de recomanació."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "hinge-app-store"
+      ],
+      "note": "Subscripcions Hinge+ i HingeX."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "recomanacions-algoritmiques",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "hinge-profiling",
+        "hinge-app-store"
+      ],
+      "note": "Qui t’agrada, qui descartes i amb qui intercanvies el telèfon alimenten directament l’algoritme."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "hinge-app-store",
+        "hinge-privacy-policy"
+      ]
+    },
+    {
+      "type": "xarxa-de-contactes",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "compartir-dins-del-grup"
+      ],
+      "sources": [
+        "hinge-privacy-policy"
+      ],
+      "note": "La política preveu recomanacions creuades i visibilitat a altres plataformes de Match Group."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "hinge-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "hinge-app-store",
+        "hinge-privacy-policy"
+      ],
+      "detail": "L’etiqueta declara identificadors per rastrejar i la política descriu la compartició amb socis publicitaris i la creació d’audiències semblants.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "hinge-app-store"
+      ],
+      "detail": "Identificadors declarats sota «dades utilitzades per rastrejar-te».",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "hinge-privacy-policy"
+      ],
+      "detail": "Proveïdors d’allotjament, analítica, atenció al client i publicitat.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "hinge-privacy-policy"
+      ],
+      "detail": "Comparteix informació amb socis publicitaris per millorar la rellevància dels anuncis i transforma les dades en identificadors per construir audiències semblants. L’exclusió es fa des de «Your Privacy Choices».",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "hinge-profiling"
+      ],
+      "detail": "L’algoritme de recomanació és perfilat declarat, i el mateix sistema automatitzat pot suspendre o tancar comptes en tasques de moderació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "hinge-privacy-policy"
+      ],
+      "detail": "La política parla d’aprenentatge automàtic per desenvolupar i millorar funcions, però no concreta si les dades alimenten models generatius.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "hinge-privacy-policy"
+      ],
+      "detail": "Proveïdors de servei, socis publicitaris i autoritats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "hinge-privacy-policy"
+      ],
+      "detail": "Amb la resta d’empreses de Match Group, per seguretat, operacions compartides, recomanacions creuades i visibilitat a altres plataformes del grup.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no parla de venda de dades a intermediaris."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "hinge-privacy-policy"
+      ],
+      "detail": "Transferències fora de l’Espai Econòmic Europeu emparades en clàusules contractuals tipus, amb còpia disponible a petició.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència específic de Hinge sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "hinge-privacy-policy"
+      ],
+      "detail": "La política publica una taula de terminis per a després de tancar el compte, cosa poc habitual.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "hinge-privacy-policy"
+      ],
+      "detail": "Es conserven dades transaccionals durant deu anys per obligacions fiscals, els consentiments i les converses amb atenció al client durant cinc, l’historial de comptes i subscripcions durant tres, els registres de trànsit un any i la geometria facial trenta dies. Hi ha a més una finestra de seguretat de tres mesos a dos anys per a investigacions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "dades-biometriques",
+        "period": "30 dies després de la verificació, llevat d’obligació legal",
+        "sources": [
+          "hinge-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "historial-de-compres",
+        "period": "10 anys, per obligacions fiscals",
+        "sources": [
+          "hinge-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "adreca-ip",
+        "period": "1 any per als registres de trànsit",
+        "sources": [
+          "hinge-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "hinge-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "hinge-delete-account"
+      ],
+      "detail": "Botó «Delete Account» al final dels ajustos del compte, dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://help.hinge.co/hc/en-us/articles/115004020968-How-do-I-delete-my-account",
+    "difficulty": "easy",
+    "requiresSupportContact": false,
+    "steps": [
+      "Si tens una subscripció Hinge+ o HingeX contractada per l’App Store, cancel·la-la abans des dels ajustos d’Apple: esborrar el compte no l’atura.",
+      "Descarrega’t les dades abans, si les vols: un cop tancat el compte ja no pots fer servir l’eina de l’aplicació.",
+      "Obre l’aplicació i toca la icona de la teva foto, a la dreta de la barra de navegació.",
+      "Entra als ajustos del compte amb la icona de l’engranatge.",
+      "Baixa fins al final i toca «Delete Account», i confirma."
+    ],
+    "obstacles": "Desinstal·lar l’aplicació no tanca el compte. Si la subscripció es va pagar per Stripe, esborrar el compte la cancel·la a l’instant i es perden els dies ja pagats.",
+    "dataRetained": "Dades transaccionals deu anys, historial de comptes tres anys, consentiments i atenció al client cinc anys, i una finestra de seguretat de fins a dos anys.",
+    "sources": [
+      "hinge-delete-account",
+      "hinge-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "hinge-privacy-requests"
+      ],
+      "detail": "Eina «Download My Data» dins de l’aplicació. L’exportació pot trigar fins a 30 dies i el fitxer només està disponible 48 hores; si es deixa passar, cal tornar a demanar-la.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://help.hinge.co/hc/en-us/articles/360004792234-How-can-I-make-a-Privacy-Request"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "hinge-privacy-policy",
+        "hinge-privacy-requests"
+      ],
+      "detail": "Delegat de protecció de dades a Dublín i formulari de sol·licituds de privadesa al centre d’ajuda.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://help.hinge.co/hc/en-us/articles/19577664626195-How-do-I-contact-Hinge-s-Data-Protection-Officer"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "hinge-privacy-policy"
+      ],
+      "detail": "Apartat «Your Privacy Choices» als ajustos i al peu del web per excloure’s de la publicitat dirigida.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap manera de desactivar l’analítica d’ús."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "hinge-privacy-policy",
+        "hinge-profiling"
+      ],
+      "detail": "Es pot retirar el consentiment de la ubicació i filtrar qui et veu des dels ajustos de descobriment, però el perfilat de l’algoritme no es pot desactivar: la mateixa empresa diu que sense ell el servei no funcionaria.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem revisat el flux d’alta ni el de cancel·lació de la subscripció dins de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "hinge-privacy-policy"
+      ],
+      "detail": "Els xats es conserven i es moderen, de manera que el servidor hi té accés.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no detalla els protocols de transport."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública específica sobre el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’accés habitual és amb un codi d’un sol ús al telèfon; no consta un segon factor addicional."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories de seguretat independents publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut verificar si Match Group manté un programa de recompenses que cobreixi Hinge."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat security.txt ni cap canal públic per comunicar vulnerabilitats."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "tinder",
+      "comparability": "equivalent",
+      "rationale": "És l’aplicació de cites més utilitzada i pertany al mateix grup, de manera que el marc de tractament és molt semblant.",
+      "tradeOffs": "Ser del mateix grup vol dir que canviar-hi no treu les dades de Match Group, i Tinder no publica una taula de terminis tan detallada."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "La taula de terminis de conservació i el document públic sobre perfilat i decisions automatitzades són bones pràctiques. En canvi, l’etiqueta de l’App Store declara «dades sensibles» vinculades a la identitat, i el perfil convida a aportar-ne de l’article 9 del RGPD sense que es pugui fer servir el servei sense perfilat. No hem pogut completar la cerca d’incidents; les actuacions conegudes contra Match Group s’han documentat a la fitxa de Tinder de la primera onada.",
+    "openQuestions": [
+      "Quina base jurídica concreta empara el tractament de les dades d’orientació sexual del perfil, més enllà del consentiment implícit en publicar-les?",
+      "Quin proveïdor fa la verificació amb selfie i on es tracta la geometria facial?",
+      "Cobreix cap programa de recompenses de Match Group l’aplicació de Hinge?"
+    ]
+  },
+  "appStoreBundleId": "co.hinge.mobile.ios"
+}

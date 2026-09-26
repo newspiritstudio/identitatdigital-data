@@ -1,0 +1,519 @@
+{
+  "slug": "fitness-park",
+  "name": "Fitness Park",
+  "company": "upgyms",
+  "categories": [
+    "benestar-i-activitat-fisica"
+  ],
+  "tagline": "App d’una cadena de gimnasos amb dues polítiques que no diuen el mateix",
+  "summary": "L’aplicació de Fitness Park la construeix Virtuagym, un proveïdor neerlandès de programari per a gimnasos, i la fitxa de l’App Store enllaça la política d’aquest proveïdor. A Espanya, però, qui respon de les dades és Upgyms, S.L., de Barcelona, amb una política pròpia que descriu la foto del soci, les dades bancàries i les hores d’entrada i sortida del club. La política espanyola afirma que no hi ha transferències fora de la Unió Europea tot i fer servir Google Analytics, i remet les reclamacions a la CNIL francesa en comptes de l’AEPD.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "subscription",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://www.fitnesspark.es/",
+    "privacyPolicy": "https://www.fitnesspark.es/datos-personales",
+    "appStore": "https://apps.apple.com/es/app/id1514794906"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "fitness-park-privacy"
+    ],
+    "detail": "L’aplicació és per als socis dels clubs: sense abonament no té funció.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "fitness-park-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Les hores d’entrada i sortida del gimnàs són un registre de presència que indica quan ets fora de casa i quina rutina tens. Amb el pes, els entrenaments, la foto i les dades bancàries, formen un expedient de client que inclou dades de salut.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "fitness-park-app-store",
+        "fitness-park-privacy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "fitness-park-app-store",
+        "fitness-park-privacy"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "fitness-park-privacy"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "fitness-park-privacy"
+      ]
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "fitness-park-app-store",
+        "fitness-park-privacy"
+      ],
+      "note": "La política inclou la fotografia entre les dades que es recullen en inscriure’s al club."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "fitness-park-privacy"
+      ],
+      "note": "Dades bancàries per a la domiciliació de la quota."
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "fitness-park-app-store",
+        "fitness-park-privacy"
+      ],
+      "note": "L’etiqueta declara salut i forma física vinculades amb la persona; la política esmenta les suspensions de l’abonament per raons de salut."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "fitness-park-app-store"
+      ],
+      "note": "L’etiqueta la declara per al funcionament de l’app, presumiblement per trobar el club més proper."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "fitness-park-app-store",
+        "fitness-park-privacy"
+      ],
+      "note": "Inclou la data i l’hora d’entrada i sortida del club."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "fitness-park-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "fitness-park-app-store"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "fitness-park-privacy"
+      ],
+      "note": "Es recull automàticament amb galetes al web."
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "fitness-park-privacy"
+      ],
+      "note": "El web fa servir Google Analytics i galetes de personalització de continguts i anuncis."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "fitness-park-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "fitness-park-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada utilitzada per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’etiqueta no esmenta identificadors publicitaris, però el web sí que fa servir galetes de personalització d’anuncis."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fitness-park-privacy"
+      ],
+      "detail": "Google Analytics i galetes de partners declarades al bàner de consentiment.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "fitness-park-privacy"
+      ],
+      "detail": "El bàner de galetes ofereix personalitzar continguts i anuncis, i la política preveu «incloure’t en activitats promocionals».",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "fitness-park-privacy"
+      ],
+      "detail": "Elaboració d’estadístiques comercials i enviament d’informació personalitzada, però la política afirma que no hi ha decisions automatitzades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no en diu res."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fitness-park-privacy"
+      ],
+      "detail": "Xplor Technologies com a propietari del programari de gestió, els proveïdors de cada club i «l’intercanvi de fitxers de clients i clients potencials amb els nostres socis».",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fitness-park-privacy"
+      ],
+      "detail": "Cada club de la xarxa, sigui franquiciat o sucursal, és destinatari de les dades del soci.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política parla d’intercanvi de fitxers de clients amb socis sense concretar-ne la naturalesa ni la contrapartida."
+    },
+    "internationalTransfers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "fitness-park-privacy"
+      ],
+      "detail": "La política afirma dues vegades que no hi ha transferències fora de la Unió Europea, tot i declarar l’ús de Google Analytics.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "none"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fitness-park-privacy"
+      ],
+      "detail": "Les dades es conserven mentre duri la relació contractual i s’arxiven quatre anys més.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fitness-park-privacy"
+      ],
+      "detail": "L’arxiu de quatre anys es manté per poder provar un dret o un contracte.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fitness-park-privacy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política només descriu la via del correu electrònic; no hem pogut verificar una opció de baixa dins de l’aplicació."
+    },
+    "difficulty": "hard",
+    "requiresSupportContact": true,
+    "steps": [
+      "Dona’t de baixa de l’abonament del club segons les condicions generals de venda.",
+      "Escriu a info@fitnesspark.es indicant la teva referència de client i demanant la supressió de les dades.",
+      "Compta amb una resposta d’entre un i tres mesos, segons la mateixa política."
+    ],
+    "obstacles": "La supressió es demana per correu i la política es dona fins a tres mesos per respondre, quan el RGPD fixa un mes prorrogable. A més, les dades s’arxiven quatre anys després del contracte.",
+    "dataRetained": "Les dades de la relació contractual, arxivades durant quatre anys.",
+    "sources": [
+      "fitness-park-privacy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "fitness-park-privacy"
+      ],
+      "detail": "La portabilitat es reconeix, però cal demanar-la per correu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "fitness-park-privacy"
+      ],
+      "detail": "Els drets s’exerceixen per correu, i la política remet la reclamació a la CNIL francesa tot i designar Upgyms, S.L. com a responsable a Espanya.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:info@fitnesspark.es"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fitness-park-privacy"
+      ],
+      "detail": "El web té panell de configuració de galetes i permet rebutjar-les.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "fitness-park-privacy"
+      ],
+      "detail": "Es poden rebutjar les galetes d’anàlisi del web; no consta cap control equivalent a l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "fitness-park-privacy"
+      ],
+      "detail": "Fora del panell de galetes, la política no descriu cap control de privadesa dins del producte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem documentat patrons enganyosos al bàner de consentiment."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És una aplicació de gestió del club, sense comunicacions privades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses ni de Fitness Park ni d’Upgyms."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "fitness-park-privacy"
+      ],
+      "detail": "El domini no publica cap fitxer security.txt i la política no dona cap canal de seguretat.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "basic-fit",
+      "comparability": "partial",
+      "rationale": "Cadena equivalent al mercat espanyol, amb una app de funcions similars.",
+      "tradeOffs": "L’app va lligada a l’abonament: triar-ne una altra vol dir canviar de gimnàs."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "No hem trobat sancions de l’AEPD ni de la CNIL contra Fitness Park ni contra Upgyms. La política espanyola té errors de fons que no hem corregit a la fitxa: remet a la CNIL, barreja el paper del grup francès i el de l’operador espanyol i nega transferències internacionals mentre declara Google Analytics.",
+    "openQuestions": [
+      "Quin paper juga exactament Virtuagym, la política del qual enllaça la fitxa de l’App Store: encarregat del tractament o corresponsable?",
+      "Es pot esborrar el compte des de l’aplicació sense escriure al club?",
+      "Què són els «fitxers de clients i clients potencials» que s’intercanvien amb els socis?"
+    ]
+  },
+  "appStoreBundleId": "eu.virtuagym.fitnessparkqsuperclub"
+}

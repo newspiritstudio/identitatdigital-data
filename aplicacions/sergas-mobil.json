@@ -1,0 +1,592 @@
+{
+  "slug": "sergas-mobil",
+  "name": "Sergas Móbil",
+  "company": "sergas",
+  "categories": [
+    "salut-i-assistencia-sanitaria",
+    "administracio-publica"
+  ],
+  "tagline": "Una aplicació pública de salut que demana permís de rastreig a iOS per fer estadístiques de navegació",
+  "summary": "Sergas Móbil és el punt d’entrada als serveis electrònics del Servizo Galego de Saúde: targeta sanitària virtual, cites, videoconsulta, torn d’espera al centre i trucada al 061 amb coordenades GPS. La política de privadesa és de les més detallades que hem llegit en una aplicació pública espanyola: enumera els permisos de cada sistema operatiu, els nivells d’identificació i les garanties aplicades, i diu que s’ha fet una avaluació d’impacte. Alhora, és de les poques aplicacions públiques que declaren a l’App Store dades usades per rastrejar-te, perquè a iOS demana el permís de rastreig per generar estadístiques d’hàbits de navegació.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "public-service",
+  "jurisdiction": "Espanya (UE); servei públic de la comunitat autònoma de Galícia",
+  "userBase": "Més de 1.600 valoracions a l’App Store espanyol, amb una nota mitjana d’1,9 sobre 5.",
+  "links": {
+    "website": "https://www.sergas.gal/A-nosa-organizacion/Aplicacion-mobil-Sergas-Mobil",
+    "privacyPolicy": "https://www.sergas.gal/A-nosa-organizacion/Sergas-Mobil-politica-de-privacidade",
+    "appStore": "https://apps.apple.com/es/app/id1154478913"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "sergas-mobil-privacy-policy"
+    ],
+    "detail": "Cal registrar-s’hi amb un dels tres nivells d’identificació: el codi CIP de la targeta sanitària, un codi numèric enviat per SMS o Chave365 o certificat digital.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "sergas-mobil-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "publicService": {
+    "isPublicService": true,
+    "administrationLevel": "regional",
+    "legalBasis": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "sergas-mobil-privacy-policy"
+      ],
+      "detail": "La política invoca la missió d’interès públic i cita la Llei 8/2008 de salut de Galícia com a norma sectorial, però sense concretar-ne cap article ni lligar cada funcionalitat a una base jurídica.",
+      "verifiedAt": "2026-09-22",
+      "norm": "Llei 8/2008, do 10 de xullo, de saúde de Galicia (citada sense article)"
+    },
+    "processingRegistry": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "sergas-mobil-rexistro-actividades",
+        "sergas-mobil-privacy-policy"
+      ],
+      "detail": "La Xunta publica el registre d’activitats de tractament per conselleries i la de Sanidade hi té una entrada, però el document no desglossa cap activitat identificable com a Sergas Móbil; la política de l’aplicació no hi enllaça directament.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.xunta.gal/rexistro-de-actividades"
+    },
+    "dpia": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "sergas-mobil-privacy-policy"
+      ],
+      "detail": "La política declara que el compliment del principi de responsabilitat proactiva s’ha documentat en una avaluació d’impacte relativa a la protecció de dades, que s’actualitzarà a mesura que evolucioni el sistema, però no en publica el document ni cap resum.",
+      "verifiedAt": "2026-09-22"
+    },
+    "ensConformity": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "sergas-mobil-privacy-policy"
+      ],
+      "detail": "La política diu que als tractaments s’hi apliquen les mesures que corresponguin segons l’Esquema Nacional de Seguretat, però encara el cita pel Reial decret 3/2010, derogat pel Reial decret 311/2022, i no publica cap declaració de conformitat ni la categoria del sistema.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dpo": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "sergas-mobil-privacy-policy",
+        "sergas-mobil-delegados-proteccion-datos"
+      ],
+      "detail": "La política remet al directori de delegats de protecció de dades de la Xunta, que confirma que n’hi ha un per conselleria però només n’ofereix un formulari de contacte, sense adreça electrònica ni postal publicades.",
+      "verifiedAt": "2026-09-22",
+      "contact": "https://www.xunta.gal/delegados-de-proteccion-de-datos"
+    },
+    "offlineAlternative": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut llegir cap pàgina oficial del Sergas que enumeri els canals no digitals per demanar cita o fer els tràmits que ofereix l’aplicació: les pàgines de cita prèvia i d’accessibilitat de sergas.gal es generen amb JavaScript i no n’hem obtingut el contingut."
+    },
+    "accessibilityStatement": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La pàgina d’accessibilitat de sergas.gal no ens ha retornat cap text: no hem pogut comprovar si hi ha declaració conforme al Reial decret 1112/2018 ni si cobreix l’aplicació."
+    },
+    "mandatoryRetention": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "boe-llei-41-2002",
+        "sergas-mobil-privacy-policy"
+      ],
+      "detail": "L’aplicació dona accés a la carpeta de salut del pacient, i l’article 17.1 de la Llei 41/2002 obliga a conservar la documentació clínica com a mínim cinc anys des de l’alta de cada procés assistencial: la supressió que es demana per la seu electrònica de la Xunta pot afectar el compte de l’aplicació, però no l’expedient clínic.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataSummary": "Les dades diuen qui és la persona, quines cites té, quines videoconsultes fa i on és quan truca al 061 o quan arriba al centre sanitari. L’ús del Bluetooth i de la Wi-Fi per guiar per dins dels hospitals hi afegeix un rastre de moviment dins de l’edifici.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "sergas-mobil-privacy-policy"
+      ],
+      "note": "Nom, cognoms, data de naixement i lloc de residència, per confirmar la identitat."
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "sergas-mobil-privacy-policy"
+      ],
+      "note": "DNI o NIE, codi CIP de la targeta sanitària i número de la Seguretat Social."
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "sergas-mobil-privacy-policy"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "sergas-mobil-privacy-policy",
+        "sergas-mobil-app-store"
+      ],
+      "note": "Per enviar les notificacions per SMS i per al nivell mitjà d’identificació."
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "sergas-mobil-privacy-policy"
+      ],
+      "note": "Dades de les cites, de les videoconsultes, de la carpeta de salut i de l’eina de teleassistència. L’etiqueta de l’App Store no declara dades de salut."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "sergas-mobil-privacy-policy",
+        "sergas-mobil-app-store"
+      ],
+      "note": "Per obtenir el torn quan s’arriba al centre, per la realitat augmentada dins dels edificis i per enviar la ubicació al servei d’emergències quan es truca al 061."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "sergas-mobil-app-store",
+        "sergas-mobil-privacy-policy"
+      ],
+      "note": "També per localitzar centres, farmàcies i desfibril·ladors propers."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "sergas-mobil-app-store",
+        "sergas-mobil-privacy-policy"
+      ],
+      "note": "Accés a la galeria per associar fotos als pacients i per pujar o descarregar documents."
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "sergas-mobil-privacy-policy"
+      ],
+      "note": "Micròfon i càmera per a les videoconsultes amb el metge."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "investigacio-i-estadistica"
+      ],
+      "sources": [
+        "sergas-mobil-app-store",
+        "sergas-mobil-privacy-policy"
+      ],
+      "note": "L’etiqueta declara la interacció amb el producte i altres dades d’ús com a dades usades per rastrejar; la política diu que a iOS es demana el permís de rastreig per generar estadístiques d’hàbits de navegació."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "sergas-mobil-app-store"
+      ],
+      "note": "Les dades d’errors també consten entre les dades usades per rastrejar."
+    },
+    {
+      "type": "xarxa-i-connectivitat",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "sergas-mobil-privacy-policy"
+      ],
+      "note": "Estat de la Wi-Fi i Bluetooth, per localitzar la persona dins dels centres i guiar-la."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "sergas-mobil-app-store",
+        "sergas-mobil-privacy-policy"
+      ],
+      "detail": "L’etiqueta declara dades d’ús i d’errors com a dades usades per rastrejar-te, i la política admet que a iOS es demana el permís de rastreig per generar estadístiques de navegació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu quin identificador es fa servir per a aquestes estadístiques ni si s’hi llegeix l’identificador publicitari del dispositiu."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no identifica cap eina d’analítica concreta ni cap encarregat del tractament."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "sergas-mobil-privacy-policy"
+      ],
+      "detail": "La política només preveu el tractament necessari per al funcionament de l’aplicació i per a estadístiques; no hi ha publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "sergas-mobil-privacy-policy"
+      ],
+      "detail": "La política reconeix el dret a no ser objecte de decisions automatitzades i no descriu cap elaboració de perfils.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no parla d’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "sergas-mobil-privacy-policy"
+      ],
+      "detail": "La política diu que no estan previstes comunicacions ni cessions de dades, tret de la ubicació que s’envia al servei d’emergències quan es truca al 061.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El Sergas és un servei públic autonòmic sense grup empresarial.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "sergas-mobil-privacy-policy"
+      ],
+      "detail": "No hi ha cap cessió prevista, i menys encara amb finalitat comercial.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta transferències internacionals."
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència sobre peticions de dades."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "sergas-mobil-privacy-policy"
+      ],
+      "detail": "La política diu que les dades es conserven «el temps necessari per a cada funcionalitat» i després se suprimeixen, s’anonimitzen o es bloquegen, sense cap termini concret.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "sergas-mobil-privacy-policy"
+      ],
+      "detail": "Preveu la conversió en anònim o el bloqueig de les dades segons la normativa vigent, sense concretar què queda ni durant quant de temps.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "sergas-mobil-privacy-policy"
+      ],
+      "detail": "El dret de supressió s’exerceix pel procediment PR004A de la seu electrònica de la Xunta; la política subratlla que desinstal·lar l’aplicació no comporta cap conseqüència negativa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "sergas-mobil-privacy-policy"
+      ],
+      "detail": "La supressió es tramita per la seu electrònica de la Xunta, no des de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://www.xunta.gal/exercicio-de-dereitos",
+    "difficulty": "medium",
+    "requiresSupportContact": true,
+    "steps": [
+      "Desactiva des de l’aplicació les funcionalitats que no vulguis: la política diu que es poden activar i desactivar per separat.",
+      "Desinstal·la l’aplicació del telèfon.",
+      "Per suprimir les dades, presenta el procediment PR004A a la seu electrònica de la Xunta de Galicia o en qualsevol registre administratiu.",
+      "La història clínica i les dades assistencials continuaran al sistema sanitari públic: no es poden esborrar."
+    ],
+    "obstacles": "Cal passar per un procediment administratiu amb identificació electrònica; no hi ha cap botó de baixa dins de l’app.",
+    "dataRetained": "Les dades de la història clínica i de l’activitat assistencial, que gestiona el Sergas al marge de l’aplicació.",
+    "sources": [
+      "sergas-mobil-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "sergas-mobil-privacy-policy"
+      ],
+      "detail": "La política reconeix la portabilitat en format estructurat i de lectura mecànica, però només per sol·licitud administrativa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "sergas-mobil-privacy-policy"
+      ],
+      "detail": "Pel procediment PR004A de la seu electrònica de la Xunta o pels registres administratius, amb el contacte del delegat de protecció de dades publicat.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.xunta.gal/exercicio-de-dereitos"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha publicitat al servei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "sergas-mobil-privacy-policy"
+      ],
+      "detail": "A iOS el permís de rastreig es pot denegar des del sistema, i la política explica com revocar cada permís, tot i advertir que pot afectar el funcionament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "sergas-mobil-privacy-policy"
+      ],
+      "detail": "Cada funcionalitat es pot activar i desactivar de manera independent, i la política detalla com revocar els permisos a Android i a iOS.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "no",
+      "level": "editorial",
+      "sources": [
+        "sergas-mobil-privacy-policy"
+      ],
+      "detail": "La política recomana triar l’opció «només quan l’aplicació està en ús» per als permisos i insisteix que no fer servir l’app no té cap conseqüència negativa. No hem revisat les pantalles reals de consentiment.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política parla de xifratge de dades personals i de pseudònims, però no diu si les videoconsultes van xifrades d’extrem a extrem."
+    },
+    "transportEncryption": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "sergas-mobil-privacy-policy"
+      ],
+      "detail": "La política diu que s’apliquen mesures de xifratge i les de l’Esquema Nacional de Seguretat, sense concretar el protocol de transport.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "sergas-mobil-privacy-policy"
+      ],
+      "detail": "Esmenta el xifratge de dades personals i l’ús de pseudònims entre les mesures aplicades, sense més detall.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "sergas-mobil-privacy-policy"
+      ],
+      "detail": "Hi ha tres nivells d’identificació; el més alt es fa amb Chave365 o amb certificat digital, i l’app llegeix el DNI electrònic per NFC.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "sms"
+      ]
+    },
+    "independentAudits": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "sergas-mobil-privacy-policy"
+      ],
+      "detail": "La política diu que s’ha documentat una avaluació d’impacte en protecció de dades i que s’apliquen les mesures de l’Esquema Nacional de Seguretat, però no publica ni l’avaluació ni cap auditoria.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses per a vulnerabilitats."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El domini sergas.gal no ens ha servit cap fitxer security.txt."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "salud-andalucia",
+      "comparability": "partial",
+      "rationale": "És l’equivalent andalús: cites, targeta sanitària i dades clíniques del servei públic de salut.",
+      "tradeOffs": "Només funciona per a qui té targeta sanitària andalusa."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "La política de l’aplicació és en gallec i la classifiquem amb l’idioma «other», perquè la taxonomia de fonts no el preveu. El punt més destacable és la coincidència entre el permís de rastreig que la política admet demanar a iOS i les dades que l’etiqueta declara com a usades per rastrejar. El buscador de resolucions de l’AEPD no ens ha respost i no hem pogut completar la cerca d’incidents.",
+    "openQuestions": [
+      "Quina eina d’analítica hi ha darrere de les «estadístiques d’hàbits de navegació» i amb quin identificador funciona?",
+      "Les videoconsultes van xifrades d’extrem a extrem?",
+      "Es publicarà l’avaluació d’impacte en protecció de dades que esmenta la política?"
+    ]
+  },
+  "appStoreBundleId": "es.sergas.appbox"
+}

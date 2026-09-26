@@ -1,0 +1,558 @@
+{
+  "slug": "mapfre",
+  "name": "Mapfre",
+  "company": "mapfre-espana",
+  "categories": [
+    "banca-i-finances"
+  ],
+  "tagline": "Assegurances amb dades de salut i normes corporatives vinculants aprovades per l’AEPD, però amb rastreig declarat a l’App Store",
+  "summary": "La política de Mapfre tracta dades de salut per gestionar sinistres i validar reemborsaments, i preveu demanar-ne els antecedents als metges i als centres sanitaris. És dels pocs serveis del catàleg amb normes corporatives vinculants aprovades per l’AEPD el 2024, un mecanisme de transferència internacional més exigent que les clàusules tipus. En canvi, l’etiqueta de l’App Store declara les dades de contacte com a utilitzades per rastrejar, cosa inusual en una asseguradora.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "subscription",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://www.mapfre.es/",
+    "privacyPolicy": "https://www.mapfre.es/privacidad",
+    "appStore": "https://apps.apple.com/es/app/id425349256"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "mapfre-privacy-policy"
+    ],
+    "detail": "L’aplicació és l’àrea de clients: cal tenir pòlissa o registrar-s’hi.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "mapfre-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Un expedient de sinistre d’assegurança de salut conté diagnòstics, proves i factures mèdiques. A més, les dades del cotxe i dels sinistres passen a fitxers comuns del sector gestionats per TIREA, que consulten totes les asseguradores, de manera que el que passa amb una companyia arriba a la resta del sector.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "mapfre-privacy-policy",
+        "mapfre-app-store"
+      ]
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "mapfre-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "mapfre-app-store",
+        "mapfre-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "mapfre-app-store",
+        "mapfre-privacy-policy"
+      ],
+      "note": "Les dades de contacte són les que l’etiqueta declara com a utilitzades per rastrejar."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "mapfre-app-store",
+        "mapfre-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "mapfre-privacy-policy"
+      ],
+      "note": "La política les qualifica de dades especialment protegides i preveu demanar les causes i els antecedents de salut als metges i als prestadors de serveis sanitaris."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "mapfre-privacy-policy"
+      ]
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "mapfre-app-store"
+      ],
+      "note": "Fotografies de sinistres i documentació aportada des de l’aplicació."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "mapfre-privacy-policy"
+      ],
+      "note": "La política parla d’elaborar un «perfil comercial global» comparant la persona amb grups agregats."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "mapfre-app-store"
+      ],
+      "note": "L’etiqueta la declara no vinculada a la persona, per a la personalització del producte. Les normes corporatives vinculants aprovades per l’AEPD inclouen les dades de geolocalització en el seu àmbit."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "mapfre-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "mapfre-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "mapfre-app-store"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "mapfre-aepd-galetes-2023"
+      ],
+      "note": "L’AEPD va constatar que el web carregava galetes de Google Analytics abans de poder gestionar-les."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "mapfre-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mapfre-app-store"
+      ],
+      "detail": "L’etiqueta declara les dades de contacte com a utilitzades per rastrejar en altres aplicacions i webs.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "mapfre-app-store"
+      ],
+      "detail": "L’etiqueta no declara identificadors publicitaris, però sí dades de contacte per a rastreig.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "regulator",
+      "sources": [
+        "mapfre-aepd-galetes-2023"
+      ],
+      "detail": "L’AEPD va verificar galetes de Google Analytics carregades abans del consentiment.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mapfre-privacy-policy"
+      ],
+      "detail": "Comunicacions comercials personalitzades per qualsevol mitjà, incloses ofertes creuades entre entitats del grup, amb consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mapfre-privacy-policy"
+      ],
+      "detail": "Perfil comercial global i càlculs estadístics o algorismes per avaluar el risc. La política afirma que «en cap moment es prenen decisions individuals automatitzades».",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta l’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mapfre-privacy-policy"
+      ],
+      "detail": "Professionals i centres sanitaris, i els sistemes comuns del sector assegurador gestionats per TIREA: SIHSA, SIAPTRI i el fitxer de prevenció del frau SIPFSRD.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mapfre-privacy-policy"
+      ],
+      "detail": "Corresponsabilitat entre entitats del grup Mapfre, amb ofertes creuades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu si cedeix dades a intermediaris de dades."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "regulator",
+      "sources": [
+        "mapfre-bcr-aepd",
+        "mapfre-privacy-policy"
+      ],
+      "detail": "L’AEPD va aprovar el 2024 les normes corporatives vinculants de responsable del grup Mapfre, amb dictamen previ del Comitè Europeu de Protecció de Dades. També preveu decisions d’adequació i clàusules contractuals tipus.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "bcrs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "mapfre-privacy-policy"
+      ],
+      "detail": "Els terminis són genèrics (la durada del contracte més els períodes legals i antifrau), tret dels fitxers comuns del sector, on són de cinc anys.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "mapfre-privacy-policy"
+      ],
+      "detail": "Un cop acabada la relació, les dades queden bloquejades durant els terminis legals de responsabilitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "dades-de-salut",
+        "period": "Durada del contracte més els terminis legals de responsabilitat, sense xifra concreta a la política",
+        "sources": [
+          "mapfre-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "historial-de-compres",
+        "period": "5 anys als sistemes comuns del sector assegurador des de l’anul·lació de la pòlissa o del sinistre",
+        "sources": [
+          "mapfre-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "mapfre-privacy-policy"
+      ],
+      "detail": "Es pot anul·lar la pòlissa i exercir el dret de supressió, amb les limitacions dels terminis legals i dels fitxers comuns del sector.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap opció documentada per eliminar el compte de l’àrea de clients des de l’aplicació ni des del web."
+    },
+    "difficulty": "hard",
+    "requiresSupportContact": true,
+    "steps": [
+      "Comunica l’anul·lació de la pòlissa amb un mes d’antelació al venciment, com preveu la llei del contracte d’assegurança.",
+      "Escriu a l’Oficina Corporativa de Privadesa, a ocppd@mapfre.com, o al delegat de protecció de dades, per exercir el dret de supressió.",
+      "Recorda que les dades dels sinistres es conserven cinc anys als fitxers comuns gestionats per TIREA, i que s’hi han d’exercir els drets a part."
+    ],
+    "obstacles": "Els fitxers comuns del sector són d’altres responsables: esborrar-se de Mapfre no esborra el que n’hagi arribat a SIHSA, SIAPTRI o al fitxer de prevenció del frau.",
+    "dataRetained": "Dades bloquejades durant els terminis legals i cinc anys als sistemes comuns del sector assegurador.",
+    "sources": [
+      "mapfre-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "mapfre-privacy-policy"
+      ],
+      "detail": "La portabilitat es reconeix i s’exerceix per escrit; no hem trobat cap eina d’autoservei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mapfre-privacy-policy"
+      ],
+      "detail": "Oficina Corporativa de Privadesa i Protecció de Dades, amb adreça de correu i postal.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:ocppd@mapfre.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mapfre-privacy-policy"
+      ],
+      "detail": "Les comunicacions comercials personalitzades i les ofertes creuades dins del grup es basen en el consentiment, revocable.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap control per desactivar l’analítica de l’aplicació."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap panell de preferències de privadesa documentat dins de l’aplicació."
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "regulator",
+      "sources": [
+        "mapfre-aepd-galetes-2023"
+      ],
+      "detail": "L’AEPD va apercebre l’asseguradora perquè el web carregava galetes analítiques abans que la persona les pogués gestionar, de manera que el consentiment arribava quan ja s’havien instal·lat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "preselected",
+        "severity": "medium",
+        "description": "Galetes de Google Analytics carregades abans de poder gestionar-les, amb transferència de dades als Estats Units, segons la resolució de l’AEPD de 2023.",
+        "sources": [
+          "mapfre-aepd-galetes-2023"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no transporta comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació oficial sobre el xifratge de les comunicacions de l’aplicació."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública sobre el xifratge de les dades en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació oficial sobre la verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten certificacions de seguretat publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Els dominis mapfre.es i mapfre.com no publiquen cap fitxer security.txt."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "El ciberatac de 2020 és un dels pocs casos documentats pas a pas per una autoritat: la resolució d’arxiu de l’AEPD recull l’hora exacta de cada moviment de l’atacant i conclou que no hi va haver evidències de fuita d’informació.",
+    "openQuestions": [
+      "Es pot eliminar el compte de l’àrea de clients sense passar per l’exercici del dret de supressió?",
+      "Quins són els terminis concrets de conservació de les dades de salut dels sinistres?"
+    ]
+  },
+  "appStoreBundleId": "com.mapfre.mapfreapp"
+}

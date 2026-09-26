@@ -1,0 +1,616 @@
+{
+  "slug": "discord",
+  "name": "Discord",
+  "company": "discord-netherlands",
+  "categories": [
+    "missatgeria",
+    "comunitats-i-forums"
+  ],
+  "tagline": "Veu i vídeo xifrats d’extrem a extrem, però text al servidor i documents d’identitat filtrats",
+  "summary": "Des del 2026, Discord xifra d’extrem a extrem totes les trucades de veu i vídeo amb el protocol DAVE, però els missatges de text continuen al servidor i s’escanegen. Els terminis de conservació són concrets. El 2025 un proveïdor d’atenció al client va perdre unes 70.000 imatges de documents d’identitat enviades per verificar l’edat. Els missatges es mantenen després d’eliminar el compte, anonimitzats.",
+  "platforms": [
+    "ios",
+    "android",
+    "web",
+    "windows",
+    "macos",
+    "linux"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Països Baixos (EEE) i Estats Units",
+  "links": {
+    "website": "https://discord.com/",
+    "privacyPolicy": "https://discord.com/privacy",
+    "appStore": "https://apps.apple.com/es/app/id985746746"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "discord-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "discord-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Els servidors on participa una persona, amb qui parla i què escriu mostren aficions, identitat i xarxa social. A més, la verificació d’edat ha portat Discord a tractar documents d’identitat.",
+  "dataCollection": [
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "discord-app-store",
+        "discord-privacy-policy"
+      ],
+      "note": "Es conserva 180 dies després de la baixa per seguretat."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "discord-app-store",
+        "discord-retention"
+      ]
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "compliment-legal"
+      ],
+      "sources": [
+        "discord-privacy-policy"
+      ]
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal"
+      ],
+      "sources": [
+        "discord-privacy-policy",
+        "discord-retention"
+      ],
+      "note": "Per verificar l’edat; si s’envia en una apel·lació, s’esborra 60 dies després de tancar el cas."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "discord-privacy-policy",
+        "discord-dave"
+      ],
+      "note": "El text no té xifratge d’extrem a extrem i s’escaneja per detectar contingut il·legal."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "discord-app-store",
+        "discord-privacy-policy"
+      ]
+    },
+    {
+      "type": "fitxers-i-documents",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "discord-privacy-policy"
+      ]
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "discord-privacy-policy",
+        "discord-dave"
+      ],
+      "note": "Els missatges de veu es desen; les trucades van xifrades d’extrem a extrem."
+    },
+    {
+      "type": "metadades-de-comunicacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "discord-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "discord-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "discord-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "discord-privacy-policy"
+      ],
+      "note": "Les processen Stripe i PayPal."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "discord-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "discord-app-store"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "discord-privacy-policy"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "discord-app-store",
+        "discord-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "discord-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "discord-app-store"
+      ],
+      "detail": "L’etiqueta declara identificadors per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Discord té una pàgina sobre la transparència del rastreig a iOS, però no hem pogut confirmar quin identificador fa servir."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "discord-privacy-policy"
+      ],
+      "detail": "Els continguts patrocinats, com les missions, es personalitzen amb dades d’ús, i es comparteix informació limitada amb plataformes publicitàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "discord-privacy-policy"
+      ],
+      "detail": "Personalització de recomanacions i continguts patrocinats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "discord-retention"
+      ],
+      "detail": "Les publicacions públiques es poden conservar de 180 dies a dos anys per entrenar models que detecten infraccions.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "discord-privacy-policy"
+      ],
+      "detail": "Proveïdors, plataformes publicitàries, desenvolupadors de bots i autoritats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "discord-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "discord-privacy-policy"
+      ],
+      "detail": "Data Privacy Framework i clàusules contractuals tipus.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "adequacy"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "discord-transparency"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://discord.com/safety-transparency-reports"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "discord-retention"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "discord-retention",
+        "discord-delete-account"
+      ],
+      "detail": "El compte s’anonimitza, però els missatges enviats continuen visibles. El correu i el telèfon es guarden 180 dies, dos anys si hi ha denúncies, i les consultes de suport, cinc anys.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "adreca-electronica",
+        "period": "180 dies després de la baixa; fins a 2 anys si hi ha denúncies",
+        "sources": [
+          "discord-retention"
+        ]
+      },
+      {
+        "dataType": "document-identificatiu-oficial",
+        "period": "60 dies després de tancar l’apel·lació d’edat",
+        "sources": [
+          "discord-retention"
+        ]
+      },
+      {
+        "dataType": "publicacions-i-comentaris",
+        "period": "De 180 dies a 2 anys per a publicacions públiques",
+        "sources": [
+          "discord-retention"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "discord-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "discord-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "waitingPeriodDays": 15,
+    "requiresSupportContact": false,
+    "steps": [
+      "Si vols que desaparegui el que has escrit, esborra abans els missatges: després de la baixa continuen visibles.",
+      "Transfereix o elimina tots els servidors dels quals siguis propietari.",
+      "A l’app, toca l’avatar, obre la configuració i ves a Compte.",
+      "Tria «Delete Account», escriu la contrasenya i el codi de verificació en dos passos si el tens, i confirma.",
+      "No tornis a iniciar sessió durant 15 dies o l’eliminació s’anul·larà."
+    ],
+    "obstacles": "Cal transferir els servidors propis i esperar 15 dies. Els missatges no s’esborren: només es desvinculen del compte.",
+    "dataRetained": "Missatges anonimitzats, correu i telèfon 180 dies, dades de transaccions per obligacions fiscals i consultes de suport durant cinc anys.",
+    "sources": [
+      "discord-delete-account",
+      "discord-retention"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "discord-data-request"
+      ],
+      "detail": "Des de Configuració > Dades i privadesa; pot trigar fins a 30 dies.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "discord-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacy@discord.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "discord-privacy-policy"
+      ],
+      "detail": "Opció per limitar la personalització, que també afecta els continguts patrocinats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "discord-privacy-policy"
+      ],
+      "detail": "Opció per limitar l’ús de dades per millorar el servei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "discord-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "discord-dave"
+      ],
+      "detail": "Les trucades de veu i vídeo, en privat, en grup i als canals de veu, van xifrades d’extrem a extrem per defecte. El text i els canals Stage no.",
+      "verifiedAt": "2026-09-22",
+      "scope": "partial-default",
+      "protocol": "DAVE"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "discord-mfa"
+      ],
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "passkey",
+        "hardware-key",
+        "totp",
+        "sms"
+      ]
+    },
+    "independentAudits": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "discord-dave"
+      ],
+      "detail": "El protocol DAVE ha tingut una auditoria externa; no consten auditories de la resta de la plataforma.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "discord-security"
+      ],
+      "detail": "Programa de recompenses privat a Bugcrowd, només per invitació.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://discord.com/security"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "discord-security"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "signal",
+      "comparability": "partial",
+      "rationale": "Cobreix els grups de xat i les trucades amb xifratge d’extrem a extrem també per al text i sense publicitat.",
+      "tradeOffs": "No té servidors públics amb canals, rols i bots, que són el nucli de les comunitats de Discord."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Els atacants de 5CA van afirmar que tenien moltes més dades que les reconegudes per Discord. Seguim les xifres del comunicat oficial.",
+    "openQuestions": [
+      "Quins SDK de tercers inclou l’app iOS i per a què fa servir l’identificador de rastreig declarat?"
+    ]
+  },
+  "appStoreBundleId": "com.hammerandchisel.discord"
+}

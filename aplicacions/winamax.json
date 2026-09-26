@@ -1,0 +1,618 @@
+{
+  "slug": "winamax",
+  "name": "Winamax",
+  "company": "winamax",
+  "categories": [
+    "apostes"
+  ],
+  "tagline": "Etiqueta de l’App Store que només declara interacció amb el producte, i una política que recull DNI, dades bancàries i patrons de joc durant deu anys",
+  "summary": "Winamax és un operador francès de pòquer i apostes amb llicència de la Direcció General d’Ordenació del Joc. La seva política descriu amb detall el que la llei espanyola del joc obliga a recollir: document d’identitat, residència fiscal, dades bancàries, geolocalització del dispositiu i categories especials de dades relatives a una possible addicció, si consta al Registre General d’Interdiccions. Tot plegat es conserva sis anys després de tancar el compte, deu si aplica la normativa de blanqueig i tres més bloquejat. L’etiqueta de l’App Store, en canvi, només declara interacció amb el producte i errors, molt menys del que descriu la política.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "França",
+  "userBase": "Operador amb llicència de la DGOJ a Espanya",
+  "links": {
+    "website": "https://www.winamax.es/",
+    "privacyPolicy": "https://www.winamax.es/terminos-y-condiciones_politica-de-privacidad",
+    "appStore": "https://apps.apple.com/es/app/id385720307"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "winamax-privacy-policy"
+    ],
+    "detail": "El joc amb diners reals exigeix registre, verificació d’identitat i comprovació al Registre General d’Interdiccions d’Accés al Joc.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "editorial",
+    "sources": [],
+    "detail": "Programari de joc tancat i certificat.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Un compte de joc en línia inclou la identitat oficial, la solvència, el patró horari de connexió i les quantitats jugades, guanyades i perdudes. La normativa de joc segur hi afegeix una classificació de la persona com a jugadora jove, intensiva o vulnerable, que és una inferència sobre el seu comportament i la seva salut.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "winamax-privacy-policy"
+      ]
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "winamax-privacy-policy"
+      ],
+      "note": "DNI, NIE o passaport, i també permís de conduir o targeta de la seguretat social per a la verificació."
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal"
+      ],
+      "sources": [
+        "winamax-privacy-policy"
+      ]
+    },
+    {
+      "type": "genere",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "winamax-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "winamax-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "winamax-privacy-policy"
+      ],
+      "note": "Es verifica amb un proveïdor tercer abans de l’activació del compte."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "winamax-privacy-policy"
+      ]
+    },
+    {
+      "type": "origen-etnic-o-nacionalitat",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal"
+      ],
+      "sources": [
+        "winamax-privacy-policy"
+      ],
+      "note": "Nacionalitat i país de residència, exigits per la normativa de joc; no hi ha cap tractament d’origen ètnic."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "winamax-privacy-policy"
+      ],
+      "note": "Dades bancàries i mètodes de pagament, comunicades a entitats financeres i agències d’informació creditícia."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "seguretat-i-prevencio-del-frau",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "winamax-privacy-policy"
+      ],
+      "note": "Quantitats jugades, premis, pèrdues i retirades: el patró de joc és la dada central del servei."
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal"
+      ],
+      "sources": [
+        "winamax-privacy-policy"
+      ],
+      "note": "La política les classifica com a categories especials: dades relacionades amb una possible addicció al joc si la persona figura al Registre General d’Interdiccions o s’ha autoprohibit."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "winamax-privacy-policy"
+      ],
+      "note": "La política adverteix que, si no es permet conèixer la localització, no es pot prestar el servei."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "seguretat-i-prevencio-del-frau",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "winamax-privacy-policy"
+      ]
+    },
+    {
+      "type": "contrasenya",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "winamax-privacy-policy"
+      ]
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari",
+        "compliment-legal"
+      ],
+      "sources": [
+        "winamax-privacy-policy"
+      ],
+      "note": "Les trucades del servei d’atenció i de lluita contra el joc excessiu es poden gravar amb l’aprovació de la persona."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "winamax-app-store",
+        "winamax-privacy-policy"
+      ],
+      "note": "És l’única dada que l’etiqueta de l’App Store declara utilitzada per rastrejar."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "winamax-privacy-policy"
+      ],
+      "note": "Perfils de màrqueting elaborats per interès legítim a partir del patró de joc, les hores de connexió i l’edat."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "winamax-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "winamax-app-store"
+      ],
+      "detail": "L’etiqueta declara només la interacció amb el producte com a dada utilitzada per rastrejar; no hi consten identificadors publicitaris.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’etiqueta no declara identificadors i la política no esmenta cap identificador publicitari del dispositiu."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "winamax-privacy-policy"
+      ],
+      "detail": "La política remet a una política de galetes pròpia i esmenta proveïdors financers, tecnològics i de suport, però no publica cap llista de rastrejadors.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "winamax-privacy-policy"
+      ],
+      "detail": "Comunicacions comercials i promocions basades en perfils elaborats amb el patró de joc, amb interès legítim per als usuaris registrats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "winamax-privacy-policy"
+      ],
+      "detail": "Perfils de màrqueting i, per obligació legal, classificació com a participant jove, de joc intensiu, vulnerable o de grup de risc.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta l’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "winamax-privacy-policy"
+      ],
+      "detail": "Reguladors i autoritats, entitats financeres, agències de verificació d’identitat i d’informació creditícia, empreses de cobrament i, amb consentiment, tercers amb finalitats de màrqueting.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "winamax-privacy-policy"
+      ],
+      "detail": "Amb treballadors d’altres societats del grup i amb els seus agents.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta la venda de dades; sí la cessió a tercers amb consentiment per a màrqueting."
+    },
+    "internationalTransfers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "winamax-privacy-policy"
+      ],
+      "detail": "La política afirma que les dades es tracten i s’emmagatzemen dins de la Unió Europea i que, excepcionalment, algunes podrien sortir-ne amb mesures contractuals i tècniques, sense concretar quines ni cap a on.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap informe de transparència sobre peticions d’autoritats, tot i que la política reconeix comunicacions obligatòries a reguladors."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "winamax-privacy-policy",
+        "winamax-faq-account"
+      ],
+      "detail": "Sis anys des del tancament del compte, deu en total per a les dades subjectes a la normativa de blanqueig i tres anys addicionals amb les dades bloquejades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "winamax-privacy-policy"
+      ],
+      "detail": "Tancar el compte no esborra res immediatament: la política detalla la conservació completa per obligacions legals i regulatòries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "period": "6 anys des del tancament del compte",
+        "sources": [
+          "winamax-privacy-policy",
+          "winamax-faq-account"
+        ]
+      },
+      {
+        "period": "10 anys per a les dades de prevenció del blanqueig de capitals",
+        "sources": [
+          "winamax-privacy-policy"
+        ]
+      },
+      {
+        "period": "3 anys addicionals amb les dades bloquejades",
+        "sources": [
+          "winamax-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "winamax-faq-account",
+        "winamax-privacy-policy"
+      ],
+      "detail": "Es pot tancar el compte, però no suprimir-ne les dades: la normativa de joc i de blanqueig obliga a conservar-les una dècada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "winamax-faq-account"
+      ],
+      "detail": "El tancament es fa des del perfil de Winamax, sense contactar amb atenció al client.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "steps": [
+      "Inicia sessió a Winamax i obre el teu perfil.",
+      "Tria l’opció de tancar el compte; perdràs milles, tiquets i bons acumulats.",
+      "Si el que vols és aturar el joc i no marxar del servei, considera l’autoexclusió temporal (màxim sis mesos) o la inscripció al Registre General d’Interdiccions d’Accés al Joc.",
+      "Per exercir drets sobre les dades conservades, escriu al servei d’atenció al client de winamax.es."
+    ],
+    "obstacles": "Les dades es conserven sis anys com a mínim i fins a deu per obligació legal; el tancament comporta perdre els saldos promocionals.",
+    "dataRetained": "Identitat, moviments econòmics i patró de joc durant 6 a 10 anys, i 3 anys més bloquejats.",
+    "sources": [
+      "winamax-faq-account",
+      "winamax-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap procediment ni eina de portabilitat."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "winamax-privacy-policy"
+      ],
+      "detail": "El canal indicat és el servei d’atenció al client; la política no publica cap adreça de protecció de dades ni identifica un delegat.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "winamax-privacy-policy",
+        "winamax-faq-account"
+      ],
+      "detail": "La baixa del butlletí es fa desmarcant la casella corresponent a les preferències de correu; per a la resta de perfils de màrqueting cal exercir el dret d’oposició.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "winamax-privacy-policy"
+      ],
+      "detail": "L’anàlisi estadística i la prevenció del frau es basen en interès legítim i obligació legal, sense opció de desactivació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "winamax-faq-account"
+      ],
+      "detail": "Els controls de joc responsable són granulars i ben documentats (límits de dipòsit, autoexclusió, RGIAJ), però no hi ha un panell de privadesa equivalent.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [
+        "winamax-faq-account"
+      ],
+      "detail": "Augmentar els límits de dipòsit exigeix esperar tres mesos, superar un test i passar una revisió del departament de joc responsable, una fricció que protegeix la persona jugadora. En sentit contrari, el tancament del compte fa perdre les milles i els bons acumulats.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no transporta comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "winamax-security"
+      ],
+      "detail": "TLS amb certificats de clau RSA de 2.048 bits i xifratge AES-256 entre el client de joc i la plataforma.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La pàgina de seguretat parla de tallafocs, còpies i xifratge, però no concreta el xifratge de la base de dades."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap segon factor per al compte de jugador."
+    },
+    "independentAudits": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "winamax-security"
+      ],
+      "detail": "El generador de nombres aleatoris i el codi font han estat auditats i certificats per la societat HSC, amb tests estadístics Dieharder i FIPS PUB 140-1, segons les exigències de la DGOJ.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap política pública de divulgació de vulnerabilitats."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La política de Winamax és completa perquè la normativa del joc l’obliga a ser-ho. En canvi, un servei que exigeix el DNI, les dades bancàries i la geolocalització només declara a l’etiqueta de l’App Store «interacció amb el producte» i «dades d’errors».",
+    "openQuestions": [
+      "Per què l’etiqueta de privadesa de l’App Store no declara les dades de contacte, financeres ni d’identitat que la política descriu com a obligatòries?",
+      "Hi ha un delegat de protecció de dades designat i una adreça específica per exercir drets?"
+    ]
+  },
+  "appStoreBundleId": "com.winamax.WinaClient"
+}

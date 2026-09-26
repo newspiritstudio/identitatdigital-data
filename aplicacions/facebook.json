@@ -1,0 +1,674 @@
+{
+  "slug": "facebook",
+  "name": "Facebook",
+  "company": "meta-platforms-ireland",
+  "categories": [
+    "xarxes-socials"
+  ],
+  "tagline": "La xarxa social amb més sancions de protecció de dades acumulades",
+  "summary": "Facebook és el servei amb l’historial regulador més extens del directori: transferències internacionals, base jurídica de la publicitat, recol·lecció massiva de dades públiques, bretxa de testimonis d’accés i galetes. La fitxa permet veure quins d’aquests problemes s’han corregit i quins no en una plataforma que acumula dades des de fa vint anys.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "advertising",
+  "jurisdiction": "Irlanda, per a persones usuàries de l’Espai Econòmic Europeu",
+  "userBase": "Més de 3.000 milions de persones usuàries actives mensuals",
+  "links": {
+    "website": "https://www.facebook.com/",
+    "privacyPolicy": "https://www.facebook.com/privacy/policy/",
+    "terms": "https://www.facebook.com/legal/terms",
+    "privacyCenter": "https://www.facebook.com/privacy/center/"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "meta-privacy-policy"
+    ],
+    "detail": "El contingut públic és accessible parcialment sense compte, però qualsevol interacció requereix registre amb nom real segons les condicions del servei.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "meta-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Facebook combina el que la persona publica, el que fa dins de la plataforma, el que fa fora a través del píxel de Meta i el que altres persones comparteixen sobre ella. Aquesta darrera categoria permet que existeixin perfils d’ombra de persones que no tenen compte.",
+  "dataCollection": [
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "meta-privacy-policy"
+      ]
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "meta-privacy-policy"
+      ],
+      "note": "Les condicions exigeixen el nom que es fa servir a la vida quotidiana."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "meta-privacy-policy"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "meta-privacy-policy",
+        "mit-facebook-leak-2021"
+      ]
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "entrenament-de-models-dia"
+      ],
+      "sources": [
+        "meta-privacy-policy",
+        "dpc-meta-ai-2025"
+      ]
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "entrenament-de-models-dia"
+      ],
+      "sources": [
+        "dpc-meta-ai-2025"
+      ]
+    },
+    {
+      "type": "xarxa-de-contactes",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "meta-privacy-policy"
+      ]
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "meta-privacy-policy",
+        "dpc-facebook-scraping-2022"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "meta-privacy-policy"
+      ]
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "meta-privacy-policy"
+      ]
+    },
+    {
+      "type": "conviccions-i-opinions",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "meta-privacy-policy"
+      ],
+      "note": "Els camps de religió i opinió política del perfil són opcionals, però les inferències a partir del comportament no ho són."
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "meta-privacy-policy"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "meta-privacy-policy",
+        "cnil-cookies-2021"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "meta-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "meta-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "meta-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "meta-privacy-policy"
+      ]
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "meta-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "meta-privacy-policy"
+      ],
+      "note": "Informació de compra rebuda de comerços associats a través de les eines de negoci de Meta."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "meta-privacy-policy"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "regulator",
+      "sources": [
+        "meta-privacy-policy",
+        "dpc-meta-ads-2023"
+      ],
+      "detail": "El píxel de Meta és present a una part molt gran del web comercial i envia informació d’activitat encara que no s’hi hagi iniciat sessió.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "regulator",
+      "sources": [
+        "dpc-meta-ads-2023"
+      ],
+      "detail": "Sancionada el 2023 per no tenir una base jurídica vàlida. Meta va passar a l’interès legítim i, després, al model de subscripció o consentiment.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://accountscenter.facebook.com/ad_preferences/"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "regulator",
+      "sources": [
+        "dpc-meta-ads-2023",
+        "meta-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "yes",
+      "level": "regulator",
+      "sources": [
+        "dpc-meta-ai-2025"
+      ],
+      "detail": "Contingut públic d’adults europeus des del maig de 2025, amb formulari d’oposició sense necessitat de justificació.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://www.facebook.com/privacy/genai"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "meta-privacy-policy"
+      ],
+      "detail": "Meta no ven dades, però n’adquireix i en rep de socis comercials per enriquir els perfils.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "regulator",
+      "sources": [
+        "dpc-meta-transfers-2023"
+      ],
+      "detail": "Objecte de la sanció més alta del RGPD el 2023.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "adequacy"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-transparency-center"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://transparency.meta.com/"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "meta-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "fb-delete-account"
+      ],
+      "detail": "Fins a 90 dies per esborrar-ho tot dels sistemes, i conservació indefinida del que altres persones han publicat sobre tu i dels missatges que has enviat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "period": "30 dies de període de gràcia abans d’iniciar l’eliminació",
+        "sources": [
+          "fb-delete-account"
+        ]
+      },
+      {
+        "period": "Fins a 90 dies des de l’inici del procés per esborrar totes les publicacions",
+        "sources": [
+          "fb-delete-account"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fb-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fb-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://www.facebook.com/help/delete_account",
+    "difficulty": "medium",
+    "waitingPeriodDays": 30,
+    "requiresSupportContact": false,
+    "steps": [
+      "Entra a la configuració i al Centre de comptes.",
+      "Obre Dades personals i després Propietat i control del compte.",
+      "Tria «Desactivació o eliminació» i selecciona el perfil.",
+      "Tria «Eliminar el compte», descarrega la informació si la vols conservar i confirma."
+    ],
+    "obstacles": "El procés mostra primer la desactivació, adverteix de la pèrdua de serveis vinculats i qualsevol inici de sessió dins dels 30 dies cancel·la l’eliminació.",
+    "dataRetained": "Els missatges enviats resten a les bústies de les persones destinatàries. Es conserven registres per a obligacions legals i informació publicada per altres persones.",
+    "sources": [
+      "fb-delete-account"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fb-download-info"
+      ],
+      "detail": "Es pot triar el format HTML o JSON i el període.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.facebook.com/dyi"
+    },
+    "exportFormatQuality": "mixed",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-privacy-center"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.facebook.com/help/contact/540977946302970",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "regulator",
+      "sources": [
+        "meta-privacy-center",
+        "dpc-meta-ads-2023"
+      ],
+      "detail": "Es poden limitar categories i dades de socis, però la publicitat personalitzada només es desactiva del tot pagant la subscripció.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://accountscenter.facebook.com/ad_preferences/"
+    },
+    "telemetryOptOut": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "meta-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "meta-privacy-center"
+      ],
+      "detail": "Existeix l’eina d’activitat fora de Facebook, que permet desvincular l’historial de tercers del compte, però està poc visible.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "yes",
+      "level": "regulator",
+      "sources": [
+        "cnil-cookies-2021"
+      ],
+      "detail": "La CNIL va sancionar l’asimetria entre acceptar i rebutjar galetes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "unbalanced-consent",
+        "severity": "high",
+        "description": "L’avís de galetes permetia acceptar-les amb un sol clic i obligava a diversos passos per rebutjar-les, cosa que va motivar una sanció de 60 milions d’euros.",
+        "sources": [
+          "cnil-cookies-2021"
+        ]
+      },
+      {
+        "type": "hidden-exit",
+        "severity": "medium",
+        "description": "L’eliminació del compte requereix travessar diverses pantalles que ofereixen alternatives menys definitives.",
+        "sources": [
+          "fb-delete-account"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "meta-privacy-policy"
+      ],
+      "detail": "Messenger té xifratge d’extrem a extrem per defecte des de finals de 2023; la resta de la plataforma no.",
+      "verifiedAt": "2026-09-22",
+      "scope": "partial-default",
+      "protocol": "Labyrinth"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-privacy-center"
+      ],
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "totp",
+        "sms",
+        "hardware-key",
+        "app-push"
+      ]
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories de seguretat independents publicades."
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-transparency-center"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.facebook.com/whitehat"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-transparency-center"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "review": {
+    "researchStatus": "in-depth",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Cinc incidents registrats, quatre dels quals amb sanció ferma. Per casos com aquest l’historial d’incidents té pes propi dins de la dimensió de seguretat: el que diuen les polítiques no coincideix amb el que mostren les actuacions dels reguladors.",
+    "openQuestions": [
+      "Quantes persones sense compte de Facebook tenen dades recollides pel píxel de Meta?"
+    ]
+  },
+  "appStoreBundleId": "com.facebook.Facebook"
+}

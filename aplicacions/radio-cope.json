@@ -1,0 +1,520 @@
+{
+  "slug": "radio-cope",
+  "name": "RADIO COPE",
+  "company": "radio-popular-cope",
+  "categories": [
+    "noticies-i-mitjans",
+    "musica-i-audio"
+  ],
+  "tagline": "Una ràdio que declara la ubicació entre les dades que serveixen per rastrejar-te",
+  "summary": "L’aplicació de la COPE declara a l’App Store que la ubicació, els identificadors, les dades d’ús i els diagnòstics poden servir per rastrejar en apps i webs d’altres empreses. La política de privadesa, en canvi, és breu, basa tot el tractament en el consentiment i diu que els drets s’exerceixen des del perfil d’usuari. L’enllaç que l’App Store dona com a política de privadesa apunta a l’avís legal.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "advertising",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://www.cope.es/",
+    "privacyPolicy": "https://www.cope.es/politica-privacidad.html",
+    "appStore": "https://apps.apple.com/es/app/id591046636"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "radio-cope-privacy-policy"
+    ],
+    "detail": "Escoltar la ràdio no demana compte; registrar-se serveix per comentar i rebre butlletins de totes les emissores del grup.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "radio-cope-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Escoltar una emissora d’ideari catòlic és una dada que pot revelar conviccions religioses, i la COPE la lliga a la ubicació i als identificadors publicitaris que declara com a dades de rastreig.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "radio-cope-privacy-policy"
+      ],
+      "note": "Camp necessari del registre, compartit amb la resta de marques del grup COPE."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "radio-cope-privacy-policy"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "radio-cope-privacy-policy"
+      ],
+      "note": "Camp opcional del registre."
+    },
+    {
+      "type": "adreca-postal",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "radio-cope-privacy-policy"
+      ],
+      "note": "Camp opcional del registre."
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "radio-cope-privacy-policy"
+      ],
+      "note": "Camp opcional del registre."
+    },
+    {
+      "type": "ocupacio-i-carrec",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "radio-cope-privacy-policy"
+      ],
+      "note": "La professió és un camp opcional per enviar comunicacions d’interès."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "radio-cope-app-store"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "radio-cope-app-store"
+      ],
+      "note": "L’etiqueta la declara com a dada no vinculada a la identitat, però inclou la ubicació entre les dades de rastreig."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "radio-cope-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "radio-cope-app-store"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "radio-cope-app-store"
+      ],
+      "note": "L’etiqueta declara «datos publicitarios» vinculats a la identitat."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "radio-cope-app-store"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "radio-cope-privacy-policy"
+      ],
+      "note": "La política remet al panell de configuració de galetes per retirar el consentiment."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "radio-cope-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "radio-cope-app-store"
+      ],
+      "detail": "Ubicació, identificadors, dades d’ús i diagnòstics declarats com a dades de rastreig.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "radio-cope-app-store"
+      ],
+      "detail": "Identificador de dispositiu i dades publicitàries vinculats a la identitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "radio-cope-privacy-policy"
+      ],
+      "detail": "Proveïdors de galetes i xarxes socials, alguns fora de l’Espai Econòmic Europeu.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "radio-cope-privacy-policy",
+        "radio-cope-app-store"
+      ],
+      "detail": "La política descriu l’anàlisi de les dades de navegació per oferir publicitat personalitzada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "radio-cope-privacy-policy"
+      ],
+      "detail": "Les preferències sobre la programació i la professió es recullen per enviar comunicacions d’interès.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no en diu res."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "radio-cope-privacy-policy"
+      ],
+      "detail": "La política diu que no comunica dades a tercers, però admet que les dades de navegació van a proveïdors de galetes i a xarxes socials.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "radio-cope-privacy-policy"
+      ],
+      "detail": "Un sol registre val per a COPE, Cadena 100, Rock FM i MegaStar, amb el mateix responsable.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no ho aborda."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "radio-cope-privacy-policy"
+      ],
+      "detail": "Reconeix que algunes dades de navegació surten de l’EEE perquè els proveïdors tenen la seu a tercers països, sense concretar cap garantia.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "radio-cope-privacy-policy"
+      ],
+      "detail": "Només el criteri del «temps mínim necessari», sense cap xifra.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no concreta què es conserva després de la supressió."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "radio-cope-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "radio-cope-privacy-policy"
+      ],
+      "detail": "La política diu que des del perfil d’usuari es poden eliminar dades concretes, interessos o el perfil sencer.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "easy",
+    "steps": [
+      "Entra al teu perfil a cope.es amb el compte registrat.",
+      "A la gestió de subscripcions, elimina les dades o els interessos que vulguis, o bé el perfil complet.",
+      "Si no ho aconsegueixes, escriu a datospersonales@cope.es demanant la supressió."
+    ],
+    "dataRetained": "Les dades necessàries per atendre responsabilitats derivades del servei i altres exigències legals.",
+    "sources": [
+      "radio-cope-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "radio-cope-privacy-policy"
+      ],
+      "detail": "La portabilitat es reconeix, però no hi ha cap eina descrita.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "radio-cope-privacy-policy",
+        "radio-cope-aviso-legal"
+      ],
+      "detail": "Des del perfil d’usuari o per correu a datospersonales@cope.es.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:datospersonales@cope.es"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "radio-cope-privacy-policy"
+      ],
+      "detail": "Panell de configuració de galetes al web, amb retirada del consentiment en qualsevol moment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap control equivalent dins de l’aplicació."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "radio-cope-privacy-policy"
+      ],
+      "detail": "Al perfil es poden gestionar subscripcions i interessos de manera segmentada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És una aplicació d’escolta de ràdio i pòdcasts.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "radio-cope-privacy-policy"
+      ],
+      "detail": "La política diu que s’aplica xifratge i accés restringit, sense concretar-ne l’abast.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El domini no publica cap fitxer security.txt."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "rac1",
+      "comparability": "partial",
+      "rationale": "Ràdio generalista amb una aplicació equivalent; també ven perfils publicitaris, però no declara la ubicació com a dada de rastreig."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "La política de privadesa és curta i no encaixa del tot amb l’etiqueta de l’App Store: diu que no comunica dades a tercers mentre l’etiqueta declara identificadors i ubicació per a publicitat de tercers. L’enllaç de privadesa de l’App Store apunta a l’avís legal, no a la política.",
+    "openQuestions": [
+      "Per a què fa servir exactament la ubicació precisa l’aplicació?",
+      "Quines garanties empara les transferències fora de l’EEE que reconeix la política?",
+      "Hi ha sancions o filtracions documentades? No hem pogut fer la cerca d’incidents."
+    ]
+  },
+  "appStoreBundleId": "com.cope.Cope"
+}

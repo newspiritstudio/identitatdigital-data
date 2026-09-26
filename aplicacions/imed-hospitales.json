@@ -1,0 +1,504 @@
+{
+  "slug": "imed-hospitales",
+  "name": "IMED Hospitales",
+  "company": "hospimar-2000",
+  "categories": [
+    "salut-i-assistencia-sanitaria"
+  ],
+  "tagline": "La política admet cedir dades a les empreses del grup «amb la finalitat d’elaborar perfils» amb procediments automatitzats",
+  "summary": "L’aplicació d’IMED Hospitales és el portal del pacient d’un grup hospitalari del País Valencià i Múrcia: cites, gestió del compte i consultes. L’etiqueta de l’App Store declara nom, correu, telèfon, identificador d’usuari i interacció, i el nom hi apareix també sota «analítica» i «personalització del producte». La política ho explica: el grup gestiona les dades dels pacients de manera centralitzada i les cedeix a les empreses del grup per elaborar perfils amb procediments automatitzats d’anàlisi, per oferir informació comercial i plans de salut personalitzats. La història clínica es conserva com a mínim cinc anys des de l’alta de cada procés assistencial.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Espanya (UE)",
+  "links": {
+    "website": "https://www.imedhospitales.com/",
+    "privacyPolicy": "https://www.imedhospitales.com/es/pagina/politica-privacidad-imed-pacientes/",
+    "appStore": "https://apps.apple.com/es/app/id920775562"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "imed-hospitales-privacy-policy",
+      "imed-hospitales-app-store"
+    ],
+    "detail": "Cal registrar-se al Portal del Pacient per gestionar cites i consultes.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "imed-hospitales-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Les dades van des de la identitat i el contacte fins a la història clínica, passant per dades socioeconòmiques i d’assegurances i per les preferències de serveis. La política preveu creuar-les entre les empreses del grup per anticipar necessitats i oferir serveis.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "imed-hospitales-app-store",
+        "imed-hospitales-privacy-policy"
+      ],
+      "note": "L’etiqueta declara el nom també per a analítica i per a personalització del producte."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "imed-hospitales-app-store",
+        "imed-hospitales-privacy-policy"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "imed-hospitales-app-store",
+        "imed-hospitales-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "imed-hospitales-privacy-policy"
+      ]
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "imed-hospitales-privacy-policy"
+      ],
+      "note": "La política inclou el document d’identitat entre les dades identificatives tractades."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "imed-hospitales-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal",
+        "investigacio-i-estadistica"
+      ],
+      "sources": [
+        "imed-hospitales-privacy-policy"
+      ],
+      "note": "Dades de salut, genètiques i biomètriques integrades a la història clínica. L’etiqueta de l’App Store no declara cap dada de salut."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "imed-hospitales-privacy-policy"
+      ],
+      "note": "Dades econòmiques, financeres i d’assegurances, compartides amb entitats de cobraments i pagaments i amb l’asseguradora."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada",
+        "compartir-dins-del-grup"
+      ],
+      "sources": [
+        "imed-hospitales-privacy-policy"
+      ],
+      "note": "La política parla de «dades de preferències» i d’anàlisi dels interessos i necessitats del pacient amb procediments automatitzats."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "imed-hospitales-app-store",
+        "imed-hospitales-privacy-policy"
+      ]
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "imed-hospitales-privacy-policy"
+      ],
+      "note": "Les trucades al centre d’atenció telefònica es poden gravar per control de qualitat, formació i resolució d’incidències."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "imed-hospitales-app-store"
+      ],
+      "note": "Dades d’errors i altres dades de diagnòstic, no vinculades a la identitat."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "imed-hospitales-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada usada per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "imed-hospitales-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap identificador de dispositiu ni publicitari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El web del grup carrega Google Tag Manager, però no hem pogut comprovar quins components incorpora l’aplicació."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "imed-hospitales-privacy-policy"
+      ],
+      "detail": "La política preveu enviar publicitat de productes i serveis propis, per interès legítim quan la persona es registra al Portal del Pacient i amb consentiment en la resta de casos i per a la publicitat de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "imed-hospitales-privacy-policy"
+      ],
+      "detail": "Cedeix dades a les empreses del grup «amb la finalitat d’elaborar perfils» i fa servir procediments automatitzats d’anàlisi per reconèixer els interessos i les necessitats del pacient.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no parla d’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "imed-hospitales-privacy-policy"
+      ],
+      "detail": "Asseguradores, laboratoris i serveis mèdics externs, entitats de cobraments i pagaments, centres assistencials triats pel pacient i administracions públiques.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "imed-hospitales-privacy-policy"
+      ],
+      "detail": "Cessió a les empreses del grup per al disseny i la millora del model assistencial, per a la investigació científica i per elaborar perfils.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu explícitament que no vengui dades personals."
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta transferències internacionals."
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència sobre peticions de dades."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "imed-hospitales-privacy-policy"
+      ],
+      "detail": "La història clínica es conserva com a mínim cinc anys des de l’alta de cada procés assistencial, o més si ho exigeix la normativa autonòmica; després es bloqueja fins que prescriguin les accions possibles.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "imed-hospitales-privacy-policy"
+      ],
+      "detail": "Un cop suprimides, les dades queden bloquejades i només són accessibles per a jutges, el ministeri fiscal o les administracions competents durant el termini de prescripció.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "dades-de-salut",
+        "period": "Mínim cinc anys des de l’alta de cada procés assistencial",
+        "sources": [
+          "imed-hospitales-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "imed-hospitales-privacy-policy"
+      ],
+      "detail": "Es pot exercir el dret de supressió, però la història clínica es conserva cinc anys com a mínim i després queda bloquejada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "imed-hospitales-privacy-policy"
+      ],
+      "detail": "La política diu que qui té compte al Portal del Pacient pot exercir els drets «de forma personal», sense sol·licitud; qui no en té ha d’enviar un formulari amb còpia del DNI.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "steps": [
+      "Si tens compte al Portal del Pacient, entra-hi i gestiona-hi les teves dades: la política diu que els drets s’hi poden exercir directament.",
+      "Si no en tens, omple el formulari d’exercici de drets del web i adjunta-hi una còpia del DNI o d’una identificació vàlida.",
+      "Envia la sol·licitud per un mitjà que permeti acreditar-ne l’enviament i la recepció, o escriu al delegat de protecció de dades.",
+      "La història clínica continuarà al grup: només es bloquejarà quan passin els terminis legals."
+    ],
+    "obstacles": "Si no es té compte, cal enviar una còpia del document d’identitat. La política no explica què vol dir exactament exercir els drets «de forma personal» des del portal.",
+    "dataRetained": "La història clínica i la documentació assistencial, com a mínim cinc anys, i després bloquejades.",
+    "sources": [
+      "imed-hospitales-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "imed-hospitales-privacy-policy"
+      ],
+      "detail": "La política reconeix el dret a rebre les dades en format electrònic i a transmetre-les on es vulgui.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "imed-hospitales-privacy-policy"
+      ],
+      "detail": "Des del Portal del Pacient o amb formulari i còpia del DNI, amb el delegat de protecció de dades com a contacte.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:delegadoprotecciondatos@imedhospitales.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "imed-hospitales-privacy-policy"
+      ],
+      "detail": "Es pot oposar en qualsevol moment a rebre comunicacions per mitjans electrònics i retirar els consentiments donats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no parla de telemetria de l’aplicació."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut comprovar quins controls ofereix el Portal del Pacient."
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut revisar els fluxos de registre i de consentiment de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no parla de xifratge d’extrem a extrem."
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no concreta les mesures tècniques."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no concreta el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut comprovar si el Portal del Pacient admet la verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap auditoria publicada."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses per a vulnerabilitats."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El domini imedhospitales.com no serveix cap fitxer security.txt."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "vithas",
+      "comparability": "equivalent",
+      "rationale": "És el portal del pacient d’un altre grup hospitalari privat espanyol, amb les mateixes funcions de cites i informes.",
+      "tradeOffs": "Només serveix si et tractes en un centre d’aquell grup."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "La política és del grup i cobreix web, portal del pacient i aplicació sense distingir-los; hem atribuït a l’app el que descriu per al Portal del Pacient i el servei de cites en línia. La frase sobre la cessió al grup «amb la finalitat d’elaborar perfils» és literal de la política. El buscador de resolucions de l’AEPD no ens ha respost i no hem pogut completar la cerca d’incidents.",
+    "openQuestions": [
+      "Quines empreses formen exactament el grup a efectes de la cessió per elaborar perfils?",
+      "Què es pot fer des del Portal del Pacient quan la política diu que els drets s’hi exerceixen «de forma personal»?",
+      "L’aplicació incorpora algun component d’analítica de tercers?"
+    ]
+  },
+  "appStoreBundleId": "com.intecsal.IMEDAPP"
+}

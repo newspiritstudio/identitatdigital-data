@@ -1,0 +1,574 @@
+{
+  "slug": "imagin",
+  "name": "imagin",
+  "company": "caixabank",
+  "categories": [
+    "banca-i-finances"
+  ],
+  "tagline": "La marca jove de CaixaBank, amb una etiqueta de rastreig encara més àmplia",
+  "summary": "imagin és una marca de CaixaBank: el responsable del tractament és la mateixa entitat i s’aplica la mateixa política de privadesa. Canvien el to i el públic, més jove, i l’etiqueta de l’App Store, que declara ubicació, identificadors i dades d’ús com a dades utilitzades per rastrejar-te, a més d’historial de compres i contingut fotogràfic com a dades no vinculades.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Espanya",
+  "userBase": "Marca digital de CaixaBank orientada al públic jove",
+  "links": {
+    "website": "https://imagin.com/",
+    "privacyPolicy": "https://www.caixabank.es/particular/general/privacy-policy.html",
+    "privacyCenter": "https://www.imaginbank.com/informacionlegal/tratamientodedatos_en.html",
+    "appStore": "https://apps.apple.com/es/app/id1069665204"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "imagin-data-treatment"
+    ],
+    "detail": "Cal ser client d’imagin, és a dir, tenir un contracte amb CaixaBank sota aquesta marca.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "imagin-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "A les dades bancàries habituals, imagin hi suma una capa d’oci i continguts pensada per a un públic jove. La combinació de moviments del compte, ubicació i interessos culturals fa que el perfil comercial d’aquesta aplicació sigui més detallat que el d’una banca convencional.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "caixabank-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "imagin-app-store"
+      ]
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "caixabank-privacy-policy"
+      ],
+      "note": "La marca s’adreça a un públic jove i la política inclou dades identificatives completes."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "imagin-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "imagin-app-store"
+      ],
+      "note": "L’etiqueta el declara entre les dades no vinculades amb la identitat, cosa poc intuïtiva en una aplicació bancària."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "imagin-app-store"
+      ],
+      "note": "L’etiqueta inclou la ubicació entre les dades utilitzades per rastrejar-te."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "imagin-app-store"
+      ]
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "imagin-app-store"
+      ],
+      "note": "Contingut de la persona usuària declarat com a dada no vinculada."
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "imagin-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "imagin-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "imagin-app-store"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "imagin-app-store",
+        "imagin-data-treatment"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "imagin-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "imagin-app-store"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "imagin-data-treatment"
+      ],
+      "note": "La pàgina legal reconeix galetes pròpies i de tercers per mostrar publicitat personalitzada a partir d’un perfil de navegació."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "imagin-data-treatment",
+        "caixabank-privacy-policy"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "imagin-app-store"
+      ],
+      "detail": "L’etiqueta declara ubicació, identificadors i dades d’ús com a dades que poden servir per rastrejar-te en aplicacions i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "imagin-app-store"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "imagin-data-treatment"
+      ],
+      "detail": "La pàgina legal reconeix galetes de tercers per a publicitat personalitzada.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "imagin-data-treatment"
+      ],
+      "detail": "Publicitat personalitzada a partir d’un perfil elaborat amb la navegació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "caixabank-privacy-policy",
+        "imagin-data-treatment"
+      ],
+      "detail": "S’aplica el perfil comercial del grup CaixaBank, basat en consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Ni la política del grup ni la pàgina legal d’imagin no esmenten l’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "caixabank-privacy-policy"
+      ],
+      "detail": "Els mateixos destinataris que la resta del grup: fitxers de solvència, serveis antifrau i proveïdors tecnològics.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "caixabank-privacy-policy"
+      ],
+      "detail": "imagin és una marca de CaixaBank, S.A.: les dades es tracten en corresponsabilitat amb les societats del grup.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "caixabank-privacy-policy"
+      ],
+      "detail": "Sense venda de dades, però amb comunicació als fitxers comuns de solvència en cas d’impagament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política del grup no descriu transferències internacionals ordinàries."
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem localitzat cap informe de transparència del grup CaixaBank sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "caixabank-privacy-policy"
+      ],
+      "detail": "S’aplica el règim de conservació del grup, amb pocs terminis concrets per categoria.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "caixabank-privacy-policy"
+      ],
+      "detail": "Les obligacions fiscals i de prevenció del blanqueig obliguen a conservar l’expedient després de la baixa.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "imagin-data-treatment",
+        "caixabank-privacy-policy"
+      ],
+      "detail": "Cal cancel·lar els productes i exercir el dret de supressió; les conservacions legals es mantenen.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "imagin-data-treatment"
+      ],
+      "detail": "L’aplicació té un camí propi per exercir drets: Menú General, Configuració i «Ejercicio de derechos». És un formulari de sol·licitud i no elimina el compte directament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "steps": [
+      "Cancel·la els productes contractats des de l’aplicació o contactant amb CaixaBank.",
+      "Obre el Menú General de l’aplicació, entra a Configuració i tria «Ejercicio de derechos».",
+      "Presenta la sol·licitud de supressió; com a alternativa, fes servir el formulari de www.caixabank.com/ejerciciodederechos.",
+      "Guarda la confirmació i reclama davant de l’AEPD si no hi ha resposta dins de termini."
+    ],
+    "obstacles": "El fet que imagin sigui una marca i no una entitat fa que la sol·licitud vagi a parar a CaixaBank i abasti tot el grup, cosa que no sempre és evident des de l’aplicació.",
+    "dataRetained": "Expedient contractual i operacions durant els terminis legals de conservació.",
+    "sources": [
+      "imagin-data-treatment",
+      "caixabank-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "caixabank-privacy-policy"
+      ],
+      "detail": "Dret de portabilitat reconegut pels canals del grup.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.caixabank.com/ejerciciodederechos"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "imagin-data-treatment"
+      ],
+      "detail": "Camí propi dins de l’aplicació, a més dels canals generals del grup.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.caixabank.com/ejerciciodederechos",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "imagin-data-treatment",
+        "caixabank-privacy-policy"
+      ],
+      "detail": "El consentiment comercial es pot retirar, i la publicitat basada en galetes es gestiona des del panell de galetes, però no hi ha un interruptor únic dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap control per desactivar l’analítica d’ús."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "imagin-data-treatment"
+      ],
+      "detail": "Hi ha un apartat d’exercici de drets dins de l’aplicació, però no un panell de privadesa amb interruptors per finalitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [],
+      "detail": "Declarar l’historial de compres i la ubicació precisa com a dades «no vinculades amb la identitat» en una aplicació bancària, on tot l’ús passa per un compte identificat, és difícil de justificar i pot confondre qui llegeix l’etiqueta.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no transporta comunicacions privades entre persones usuàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’entitat no publica documentació tècnica sobre el xifratge del canal."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública."
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "caixabank-privacy-policy"
+      ],
+      "detail": "Autenticació reforçada obligatòria per normativa de pagaments, amb suport de biometria.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "app-push",
+        "sms"
+      ]
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories independents publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses ni cap fitxer security.txt a imagin.com."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem localitzat cap política pública de divulgació de vulnerabilitats."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "caixabanknow",
+      "comparability": "equivalent",
+      "rationale": "És la mateixa entitat i la mateixa política: canviar d’una a l’altra no canvia el responsable del tractament.",
+      "tradeOffs": "CaixaBankNow declara una etiqueta de rastreig encara més àmplia."
+    },
+    {
+      "app": "revolut",
+      "comparability": "partial",
+      "rationale": "Alternativa digital per al dia a dia amb controls de privadesa dins de l’aplicació.",
+      "tradeOffs": "No és un banc universal espanyol ni substitueix una nòmina domiciliada amb totes les garanties."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "imagin no té personalitat jurídica pròpia: el responsable és CaixaBank, S.A., i per tant s’hi apliquen la política, la corresponsabilitat de grup i la sanció de l’AEPD de 2021. La fitxa s’ha escrit sobre aquesta base i sobre l’etiqueta de l’App Store, que és pròpia de l’aplicació.",
+    "openQuestions": [
+      "imagin té algun tractament diferenciat respecte de CaixaBankNow, més enllà de la marca?",
+      "Per què l’etiqueta declara l’historial de compres com a dada no vinculada amb la identitat?"
+    ]
+  },
+  "appStoreBundleId": "es.lacaixa.mobile.imaginBank"
+}

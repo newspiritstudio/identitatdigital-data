@@ -1,0 +1,596 @@
+{
+  "slug": "suno",
+  "name": "Suno",
+  "company": "suno",
+  "categories": [
+    "musica-i-audio",
+    "assistents-d-ia"
+  ],
+  "tagline": "Les cançons i les indicacions que hi escrius serveixen per entrenar els models, per interès legítim",
+  "summary": "Suno genera cançons senceres a partir d’una descripció escrita, d’un àudio gravat amb el telèfon o d’una fotografia. L’avís de privadesa diu que el contingut, les indicacions i les converses del xat de creació es fan servir per «entrenar i millorar els models» amb base en l’interès legítim, sense cap opció de negar-s’hi que hi consti. L’etiqueta de l’App Store declara fotografies, vídeos i l’identificador del dispositiu com a dades usades per rastrejar-te, i l’àudio i el contingut de l’usuari com a dades vinculades a la identitat que també serveixen per a publicitat i màrqueting. L’empresa és nord-americana, allotja les dades als Estats Units i només permet eliminar el compte enviant un correu.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Estats Units; responsable sense establiment declarat a la Unió Europea",
+  "userBase": "Més de 26.000 valoracions a l’App Store espanyol, amb una nota mitjana de 4,9 sobre 5.",
+  "links": {
+    "website": "https://suno.com/",
+    "privacyPolicy": "https://suno.com/privacy",
+    "terms": "https://suno.com/terms-of-service",
+    "appStore": "https://apps.apple.com/es/app/id6480136315"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "suno-help-accounts",
+      "suno-privacy-notice"
+    ],
+    "detail": "Cal crear un compte per generar cançons; també es pot entrar amb un compte d’Apple, de Google, de Discord o de Microsoft.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "suno-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Les indicacions que s’escriuen a un generador de cançons revelen gustos, estats d’ànim, persones estimades i, sovint, la veu de qui el fa servir. Suno ho ajunta amb l’historial de cerca, els «m’agrada», els comentaris i l’activitat d’ús, i en pot fer perfils de preferències i personalització.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "suno-app-store",
+        "suno-privacy-notice"
+      ],
+      "note": "L’etiqueta declara nom, correu i telèfon també per a «publicitat o màrqueting del desenvolupador»."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "suno-app-store",
+        "suno-privacy-notice"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "suno-app-store"
+      ]
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "entrenament-de-models-dia",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "suno-app-store",
+        "suno-privacy-notice"
+      ],
+      "note": "Les gravacions que es pugen per convertir en cançó. L’etiqueta declara les dades d’àudio per a funcionalitat, analítica, personalització i publicitat."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "suno-app-store"
+      ],
+      "note": "L’etiqueta les declara com a dades usades per rastrejar-te."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-publicitaria",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "suno-app-store",
+        "suno-privacy-notice"
+      ],
+      "note": "També declarat com a dada usada per rastrejar-te."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "suno-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "suno-app-store",
+        "suno-privacy-notice"
+      ],
+      "note": "La política parla dels termes de cerca més freqüents i de les col·leccions creades."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "suno-app-store",
+        "suno-privacy-notice"
+      ],
+      "note": "La política avisa que el seguiment s’aplica a tot l’ús del servei, tant pel web com per l’aplicació."
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "suno-privacy-notice"
+      ],
+      "note": "Els «m’agrada», els comentaris i les cançons compartides amb altres persones."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "suno-privacy-notice"
+      ],
+      "note": "La política diu que genera «perfils de preferències i personalització» que reflecteixen els gustos i les tendències creatives, visibles i desactivables des de la funció corresponent."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "suno-privacy-notice"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "suno-privacy-notice",
+        "suno-help-accounts"
+      ],
+      "note": "Les dades de targeta les recull directament Stripe; la política diu que Suno no les emmagatzema."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "suno-app-store"
+      ],
+      "note": "Dades d’errors i de rendiment, no vinculades a la identitat."
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "suno-privacy-notice"
+      ],
+      "note": "La política fixa un màxim de tres anys de conservació «si tractem informació biomètrica», sense dir en quins casos ho fa."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "suno-app-store"
+      ],
+      "detail": "L’etiqueta declara fotografies o vídeos i l’identificador del dispositiu com a dades que es poden fer servir per rastrejar-te en apps i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "suno-app-store"
+      ],
+      "detail": "L’etiqueta declara l’identificador del dispositiu tant entre les dades de rastreig com per a publicitat i analítica.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "suno-privacy-notice"
+      ],
+      "detail": "L’avís parla de galetes, píxels, balises web i SDK de tercers per a analítica i publicitat, i esmenta Google Analytics.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "suno-privacy-notice",
+        "suno-app-store"
+      ],
+      "detail": "Hi ha galetes de segmentació i publicitat, i l’etiqueta declara contacte, contingut, identificadors i ús per a «publicitat o màrqueting del desenvolupador».",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "suno-privacy-notice"
+      ],
+      "detail": "Genera perfils de preferències i personalització a partir de l’activitat i del contingut, que es poden veure, editar i desactivar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "suno-privacy-notice"
+      ],
+      "detail": "Fa servir l’activitat, les aportacions, les converses del xat de creació i altres continguts per «entrenar i millorar els models que fan funcionar els serveis», amb base en l’interès legítim.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "suno-privacy-notice"
+      ],
+      "detail": "Proveïdors d’allotjament i d’infraestructura, serveis d’IA i d’aprenentatge automàtic, proveïdors de publicitat, màrqueting i analítica, i altres persones usuàries quan es comparteix contingut.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "suno-privacy-notice"
+      ],
+      "detail": "L’avís es fa en nom de Suno, Inc. «i les nostres filials i societats dependents», sense concretar-les.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "suno-privacy-notice"
+      ],
+      "detail": "L’avís afirma en negreta que no ven informació a tercers i que no la «ven» ni la «comparteix» en el sentit de les lleis de privadesa dels estats nord-americans.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "suno-privacy-notice"
+      ],
+      "detail": "Les dades de l’Espai Econòmic Europeu es transfereixen i es tracten als Estats Units; l’avís diu que les transferències posteriors es fan a països amb decisió d’adequació o amb garanties adequades, sense concretar-les.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència sobre peticions de dades."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "suno-privacy-notice"
+      ],
+      "detail": "L’únic termini concret és el de les dades biomètriques: un màxim de tres anys des de l’última interacció. La resta es conserva «tant de temps com sigui raonablement necessari».",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "suno-privacy-notice"
+      ],
+      "detail": "Avisa que potser no podrà esborrar-ho tot: conserva el que calgui per mantenir el compte, per complir contractes o obligacions legals, i tot el que s’hagi desidentificat, anonimitzat o agregat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "dades-biometriques",
+        "period": "Màxim tres anys des de l’última interacció",
+        "sources": [
+          "suno-privacy-notice"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "suno-privacy-notice"
+      ],
+      "detail": "Es pot demanar la supressió, però l’avís enumera diverses excepcions i adverteix que potser no s’esborrarà tota la informació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "suno-privacy-notice",
+        "suno-help-accounts"
+      ],
+      "detail": "La supressió es demana per correu a privacy@suno.com; el centre d’ajuda no té cap article que expliqui com eliminar el compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "hard",
+    "requiresSupportContact": true,
+    "steps": [
+      "Descarrega les cançons que vulguis conservar: les subscripcions de pagament permeten baixar fitxers WAV des del web.",
+      "Si tens una subscripció activa, cancel·la-la a suno.com/account abans de res.",
+      "Escriu a privacy@suno.com demanant la supressió de la informació associada al compte.",
+      "Suno diu que hi respondrà «en un termini raonable», sense concretar-lo, i que pot conservar part de la informació."
+    ],
+    "obstacles": "No hi ha cap botó d’eliminació ni cap article d’ajuda: tot passa per un correu, i l’avís reserva excepcions àmplies per no esborrar-ho tot.",
+    "dataRetained": "La informació necessària per mantenir el compte o complir contractes i obligacions legals, i tota la informació desidentificada, anonimitzada o agregada.",
+    "sources": [
+      "suno-privacy-notice",
+      "suno-help-accounts"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’avís reconeix els drets de les persones residents a l’Espai Econòmic Europeu, però no descriu cap eina d’exportació de les dades ni del contingut generat."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "suno-privacy-notice"
+      ],
+      "detail": "Tot s’exerceix per correu a privacy@suno.com; no hi ha cap formulari ni cap panell de privadesa.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacy@suno.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "suno-privacy-notice"
+      ],
+      "detail": "Es pot cancel·lar la subscripció als correus de màrqueting i canviar la configuració de galetes del navegador, però l’avís diu expressament que el web no respon als senyals «Do Not Track» ni a les preferències d’exclusió.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "suno-privacy-notice"
+      ],
+      "detail": "L’avís no ofereix cap manera de desactivar la recollida d’activitat dins del servei, que s’aplica tant al web com a l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "suno-privacy-notice"
+      ],
+      "detail": "El perfil de personalització es pot veure, editar i desactivar des de la funció corresponent, i les cançons són d’enllaç privat per defecte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "suno-privacy-notice"
+      ],
+      "detail": "L’avís afirma que fer servir el servei i permetre les galetes equival a consentir-les, i que el web no atén els senyals d’exclusió del navegador.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "unbalanced-consent",
+        "severity": "medium",
+        "description": "Fer servir el servei es presenta com a consentiment a les galetes d’analítica i de publicitat, i el web no atén els senyals «Do Not Track» i les preferències d’exclusió.",
+        "sources": [
+          "suno-privacy-notice"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És un servei de generació de contingut al núvol: el servidor ha de poder llegir les indicacions i l’àudio per generar la cançó.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "suno-privacy-notice"
+      ],
+      "detail": "L’avís adverteix que la informació enviada electrònicament «pot no ser segura mentre viatja» i no afirma xifrar el trànsit.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’avís parla de «mesures de seguretat raonables des del punt de vista comercial» sense concretar-les."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap documentació sobre la verificació en dos passos; el registre es pot fer amb comptes d’Apple, Google, Discord o Microsoft, que sí que en tenen."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap auditoria ni certificació publicada."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses per a vulnerabilitats."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El domini suno.com no serveix cap fitxer security.txt."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "spotify",
+      "comparability": "complementary",
+      "rationale": "Si el que vols és escoltar música i no generar-ne, un servei de catàleg evita haver de cedir la teva veu i les teves indicacions per entrenar models.",
+      "tradeOffs": "No permet crear cançons noves, i també fa un perfil detallat dels teus gustos."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "L’avís de privadesa és el mateix per al web, l’aplicació i els conjunts de dades de Suno, i hi conviuen un llenguatge de producte empresarial i un de consum. No hem trobat cap establiment ni cap representant a la Unió Europea, tot i que el servei es ven a Espanya amb IVA. No hem tractat els litigis de drets d’autor contra Suno perquè no són incidents de privadesa. El buscador de resolucions de l’AEPD no ens ha respost i no hem pogut completar la cerca de sancions ni de filtracions.",
+    "openQuestions": [
+      "Es pot oposar una persona a l’ús de les seves cançons i indicacions per entrenar els models, si la base és l’interès legítim?",
+      "En quins casos tracta Suno dades biomètriques, si l’avís hi fixa un termini de conservació?",
+      "Qui és el representant de Suno, Inc. a la Unió Europea?"
+    ]
+  },
+  "appStoreBundleId": "ai.suno.ios"
+}

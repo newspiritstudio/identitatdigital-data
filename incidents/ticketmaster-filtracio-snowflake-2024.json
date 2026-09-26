@@ -1,0 +1,18 @@
+{
+  "slug": "ticketmaster-filtracio-snowflake-2024",
+  "title": "Filtració massiva de dades de clients de Ticketmaster a través d’una base de dades al núvol de tercers",
+  "type": "breach",
+  "severity": "critical",
+  "apps": [
+    "ticketmaster"
+  ],
+  "company": "live-nation-entertainment",
+  "occurredAt": "2024-05-20",
+  "disclosedAt": "2024-05-31",
+  "description": "Live Nation va comunicar a la Comissió de Valors dels Estats Units que el 20 de maig de 2024 havia detectat activitat no autoritzada en una base de dades allotjada en un entorn al núvol de tercers que contenia sobretot dades de Ticketmaster, i que el 27 de maig un actor criminal va posar les dades a la venda a la web fosca. L’accés es va fer amb credencials robades d’un compte de Snowflake sense verificació en dos passos. L’atacant, que es fa dir ShinyHunters, va oferir 1,3 TB amb dades de 560 milions de clients (noms, adreces, correus, telèfons, detalls de comandes i part de la informació de les targetes) per mig milió de dòlars; la xifra és l’al·legació de qui va posar les dades a la venda i l’empresa no l’ha confirmada.",
+  "affectedPeople": "Fins a centenars de milions de clients de Ticketmaster arreu del món, segons l’al·legació de l’atacant.",
+  "sources": [
+    "ticketmaster-8k-2024",
+    "ticketmaster-breach-premsa"
+  ]
+}

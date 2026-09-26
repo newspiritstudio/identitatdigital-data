@@ -1,0 +1,420 @@
+{
+  "slug": "surf-forecast",
+  "name": "Surf Forecast by Surf-Forecast",
+  "company": "meteo365",
+  "categories": [
+    "meteorologia"
+  ],
+  "tagline": "Ubicació exacta i correu vinculats a la identitat, i xarxes publicitàries entre els destinataris",
+  "summary": "Surf Forecast dona previsions d’onatge per a més de set mil platges. L’etiqueta de l’App Store declara que la ubicació exacta, l’adreça electrònica i els identificadors queden vinculats a la identitat i serveixen per a publicitat de tercers, màrqueting, analítica, personalització i «altres finalitats». El compte, en canvi, s’esborra des de la mateixa aplicació amb una opció explícita i irreversible.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Regne Unit",
+  "links": {
+    "website": "https://www.surf-forecast.com/",
+    "privacyPolicy": "https://www.surf-forecast.com/pages/privacy_policy",
+    "appStore": "https://apps.apple.com/es/app/id6450721636"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "surf-forecast-privacy-policy"
+    ],
+    "detail": "Les previsions es consulten sense registre; el compte serveix per desar llocs preferits i per a les subscripcions.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": []
+  },
+  "dataSummary": "Les platges i els horaris que consulta algú, lligats al correu electrònic i a la ubicació exacta, formen un perfil de mobilitat identificable.",
+  "dataCollection": [
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "surf-forecast-app-store",
+        "surf-forecast-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "surf-forecast-app-store",
+        "surf-forecast-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "surf-forecast-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "surf-forecast-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "surf-forecast-app-store"
+      ],
+      "note": "Declarada com a dada usada per rastrejar-te."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "surf-forecast-app-store"
+      ]
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "surf-forecast-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "surf-forecast-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "surf-forecast-privacy-policy"
+      ],
+      "note": "Les tracten Stripe, PayPal, Worldpay, Apple o Google."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "surf-forecast-app-store"
+      ],
+      "detail": "L’etiqueta declara la interacció amb el producte i els diagnòstics com a dades usades per rastrejar-te.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "surf-forecast-app-store"
+      ],
+      "detail": "L’identificador de dispositiu apareix vinculat a la identitat i associat a publicitat de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "surf-forecast-privacy-policy"
+      ],
+      "detail": "La política enumera xarxes publicitàries, eines d’analítica i de monitoratge de rendiment com a destinataris.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "surf-forecast-app-store",
+        "surf-forecast-privacy-policy"
+      ],
+      "detail": "Publicitat de tercers i màrqueting propi amb dades vinculades a la identitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "surf-forecast-privacy-policy"
+      ],
+      "detail": "Diu que analitza tendències d’ús i l’eficàcia de les campanyes, sense descriure perfils individuals.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "surf-forecast-privacy-policy"
+      ],
+      "detail": "Xarxes publicitàries, processadors de pagament i proveïdors d’analítica.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap descripció del tractament compartit amb Snow-Forecast."
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política reconeix drets a l’EEE, el Regne Unit, el Canadà, diversos estats dels EUA i la Xina, però no explica amb quines garanties transfereix les dades."
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "surf-forecast-privacy-policy"
+      ],
+      "detail": "Només el criteri general: mentre calgui per a les finalitats o mentre ho exigeixi la llei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "surf-forecast-privacy-policy"
+      ],
+      "detail": "En esborrar el compte se n’eliminen les dades associades, però les còpies de seguretat poden conservar-les temporalment.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "surf-forecast-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "surf-forecast-privacy-policy"
+      ],
+      "detail": "Hi ha una opció explícita «Delete the account irreversibly».",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "easy",
+    "requiresSupportContact": false,
+    "steps": [
+      "Entra al compte a l’aplicació o a surf-forecast.com.",
+      "Ves a la configuració del compte i tria «Delete the account irreversibly».",
+      "Si l’opció no apareix, escriu al correu de privadesa que dona la política."
+    ],
+    "dataRetained": "Còpies de seguretat durant un temps limitat.",
+    "sources": [
+      "surf-forecast-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "surf-forecast-privacy-policy"
+      ],
+      "detail": "Reconeix el dret de portabilitat per a l’EEE i el Regne Unit, sense eina d’autoservei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "surf-forecast-privacy-policy"
+      ],
+      "detail": "Per correu a l’adreça de privadesa o des del compte.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política remet a un avís de galetes separat i no documenta cap control dins de l’aplicació."
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Servei de previsió meteorològica: no hi ha comunicació privada entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha security.txt a surf-forecast.com."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "windfinder",
+      "comparability": "equivalent",
+      "rationale": "Cobreix les mateixes condicions de vent i onatge, el compte és opcional i s’esborra des de la mateixa aplicació.",
+      "tradeOffs": "Menys detall específic d’onatge per a platges de surf."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Cap filtració associada a surf-forecast.com ni a snow-forecast.com a Have I Been Pwned. L’etiqueta de l’App Store declara moltes més dades que la política, que amb prou feines parla de l’aplicació.",
+    "openQuestions": [
+      "Quines xarxes publicitàries reben la ubicació exacta i el correu?",
+      "Amb quines garanties transfereix Meteo365 les dades fora de l’EEE?"
+    ]
+  },
+  "appStoreBundleId": "com.snowfore.surfforecast.com"
+}

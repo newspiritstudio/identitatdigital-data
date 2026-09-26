@@ -1,0 +1,574 @@
+{
+  "slug": "uk-eta",
+  "name": "UK ETA",
+  "company": "uk-home-office",
+  "categories": [
+    "administracio-publica",
+    "viatges-i-allotjament"
+  ],
+  "tagline": "Passaport i imatge facial per al ministeri de l’Interior britànic, fins a quinze anys de conservació i una sol·licitud que potser no es pot retirar",
+  "summary": "L’aplicació del Home Office serveix per demanar l’autorització electrònica de viatge que ara necessiten els ciutadans de la Unió Europea per entrar al Regne Unit. Demana el passaport i una imatge facial, decideix de manera automatitzada i, un cop enviada la sol·licitud, el mateix avís de privadesa adverteix que potser ja no es pot retirar. També publica terminis de conservació exactes: tres anys els biomètrics facials i quinze anys la resta.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "public-service",
+  "jurisdiction": "Regne Unit",
+  "userBase": "Obligatòria per a la majoria de visitants de la Unió Europea des del 2025",
+  "links": {
+    "website": "https://www.gov.uk/guidance/apply-for-an-electronic-travel-authorisation-eta",
+    "privacyPolicy": "https://www.gov.uk/government/publications/electronic-travel-authorisation-eta-privacy-information-notice",
+    "appStore": "https://apps.apple.com/es/app/id6444912481"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "uk-eta-privacy-notice",
+      "uk-eta-gov-guidance"
+    ],
+    "detail": "No hi ha cap ús anònim: l’aplicació existeix per presentar una sol·licitud identificada davant del Home Office, que costa 20 lliures.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "uk-eta-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "publicService": {
+    "isPublicService": true,
+    "administrationLevel": "other",
+    "legalBasis": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "uk-eta-privacy-notice"
+      ],
+      "detail": "L’avís de privadesa cita els articles 6.1.e (missió d’interès públic) i 9.2.g (interès públic essencial) del RGPD britànic i concreta la norma d’immigració que empara el tràmit.",
+      "verifiedAt": "2026-09-22",
+      "norm": "Section 11C de la Immigration Act 1971 i apèndix «Electronic Travel Authorisations» de les Immigration Rules; articles 6.1.e i 9.2.g del RGPD britànic"
+    },
+    "processingRegistry": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "uk-home-office-charter",
+        "uk-eta-privacy-notice"
+      ],
+      "detail": "El Regne Unit no obliga a publicar el registre d’activitats de tractament: l’equivalent és el «personal information charter» del Home Office, que enumera les categories de dades que tracta el ministeri i remet als avisos específics, com el de l’ETA. Es pot resseguir el tractament, però no hi ha cap fitxa d’activitat identificable com la de l’article 31 de la LOPDGDD.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.gov.uk/government/organisations/home-office/about/personal-information-charter"
+    },
+    "dpia": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’avís de privadesa no esmenta cap avaluació d’impacte i no n’hem trobat cap de publicada per al programa ETA, tot i que hi ha tractament biomètric i decisions automatitzades."
+    },
+    "ensConformity": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’Esquema Nacional de Seguretat és espanyol i no s’aplica al Home Office britànic.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dpo": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "uk-home-office-charter"
+      ],
+      "detail": "El ministeri publica el delegat de protecció de dades amb adreça electrònica i postal, i hi afegeix el canal de sol·licituds d’accés i el dret de reclamar davant de l’ICO.",
+      "verifiedAt": "2026-09-22",
+      "contact": "dpo@homeoffice.gov.uk"
+    },
+    "offlineAlternative": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "uk-eta-apply",
+        "uk-eta-beta-assessment",
+        "uk-eta-gov-guidance"
+      ],
+      "detail": "Qui no pot instal·lar l’aplicació pot fer el tràmit al formulari web, que a més és l’única via per sol·licitar l’ETA per a una persona que no és present. No hi ha cap via fora d’internet: UKVI adverteix que no atén consultes d’ETA per telèfon i el panell d’avaluació del servei constata que no hi ha suport digital assistit oficial i que la navegació cap a la versió web s’ha dificultat expressament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "accessibilityStatement": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem localitzat cap declaració d’accessibilitat de l’aplicació, que és el que exigeix l’equivalent britànic del Reial decret 1112/2018, les Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018. L’avaluació beta del febrer del 2025 va deixar en àmbar el punt «make sure everyone can use the service» perquè les proves de cap a cap amb tecnologies d’assistència encara no s’havien completat."
+    },
+    "mandatoryRetention": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’avís fixa quinze anys de conservació de les dades biogràfiques i tres anys de la imatge facial, però no cita cap norma que obligui a conservar-les: no podem afirmar si és una obligació legal o una política interna del ministeri."
+    }
+  },
+  "dataSummary": "La imatge facial i el passaport, units a la nacionalitat i a l’adreça, formen un expedient d’immigració que el ministeri de l’Interior britànic conserva fins a quinze anys després de l’última actuació, sigui quina sigui la durada del viatge.",
+  "dataCollection": [
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "uk-eta-privacy-notice",
+        "uk-eta-app-store"
+      ],
+      "note": "Número de passaport i data de caducitat; l’etiqueta de l’App Store ho declara com a «datos sensibles»."
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "uk-eta-privacy-notice",
+        "uk-eta-app-store"
+      ],
+      "note": "Biometria facial tractada amb la base de l’article 9.2.g del RGPD britànic, interès públic essencial."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "uk-eta-app-store"
+      ],
+      "note": "L’etiqueta declara fotos o vídeos de la persona usuària per al funcionament de l’app."
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "uk-eta-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "uk-eta-app-store"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "uk-eta-app-store"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "uk-eta-app-store"
+      ]
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "compliment-legal"
+      ],
+      "sources": [
+        "uk-eta-privacy-notice"
+      ],
+      "note": "També es demana al servei web «check your ETA»."
+    },
+    {
+      "type": "origen-etnic-o-nacionalitat",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "compliment-legal"
+      ],
+      "sources": [
+        "uk-eta-privacy-notice"
+      ],
+      "note": "La nacionalitat és una dada imprescindible del tràmit i figura entre les que es tracten."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "uk-eta-privacy-notice"
+      ],
+      "note": "Als registres d’accés del servei «check your ETA», esborrats al cap de 30 dies."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "uk-eta-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "uk-eta-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "uk-eta-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "uk-eta-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap dada utilitzada per rastrejar en apps i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "uk-eta-app-store"
+      ],
+      "detail": "No hi ha cap categoria publicitària a l’etiqueta.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’avís de privadesa no esmenta cap proveïdor d’analítica ni cap rastrejador de tercers."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "uk-eta-privacy-notice",
+        "uk-eta-app-store"
+      ],
+      "detail": "És un tràmit administratiu sense finalitats comercials.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "uk-eta-privacy-notice"
+      ],
+      "detail": "La decisió d’atorgar l’ETA és automatitzada; només els casos complexos o desfavorables els revisa una persona. Qui no vulgui una decisió automatitzada ha de demanar un visat de visitant.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’avís no diu res sobre l’ús de les dades per entrenar models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’avís específic de l’ETA remet a l’avís general de fronteres, immigració i ciutadania, que no hem pogut revisar apartat per apartat."
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És un organisme públic, no un grup empresarial.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "editorial",
+      "sources": [],
+      "detail": "Un ministeri no ven dades d’immigració; ho donem per fet, però l’avís no ho afirma expressament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’avís de l’ETA no detalla transferències a altres països ni el mecanisme que s’hi aplicaria."
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència específic del programa ETA."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "uk-eta-privacy-notice"
+      ],
+      "detail": "Dona terminis numèrics explícits.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "uk-eta-privacy-notice"
+      ],
+      "detail": "Les dades biogràfiques es conserven quinze anys després de l’última actuació de l’expedient, encara que l’autorització hagi caducat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "dades-biometriques",
+        "period": "Normalment 3 anys, llevat que hi hagi motius per conservar la imatge facial més temps",
+        "sources": [
+          "uk-eta-privacy-notice"
+        ]
+      },
+      {
+        "period": "15 anys després de l’última actuació per a les dades biogràfiques i personals, en línia amb els terminis dels visats",
+        "sources": [
+          "uk-eta-privacy-notice"
+        ]
+      },
+      {
+        "period": "30 minuts des de l’última activitat per a les dades introduïdes al servei «check your ETA»",
+        "sources": [
+          "uk-eta-privacy-notice"
+        ]
+      },
+      {
+        "dataType": "adreca-ip",
+        "period": "30 dies als registres d’accés de «check your ETA»",
+        "sources": [
+          "uk-eta-privacy-notice"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "uk-eta-privacy-notice"
+      ],
+      "detail": "No hi ha cap compte que es pugui tancar: la sol·licitud es tramita a l’instant i l’avís adverteix que pot no ser possible retirar-la un cop enviada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "uk-eta-privacy-notice"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "impossible",
+    "requiresSupportContact": true,
+    "steps": [
+      "L’aplicació no conserva cap dada al telèfon un cop la sol·licitud s’ha enviat correctament; es pot desinstal·lar.",
+      "Per a qualsevol qüestió sobre l’expedient cal fer servir el xat d’assistència d’UK Visas and Immigration."
+    ],
+    "obstacles": "El tractament comença immediatament i l’avís diu que pot no ser possible retirar la sol·licitud. Les dades queden a l’expedient d’immigració durant quinze anys.",
+    "dataRetained": "Dades biogràfiques i personals durant 15 anys i biometria facial durant 3 anys.",
+    "sources": [
+      "uk-eta-privacy-notice",
+      "uk-eta-app-store"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’avís de l’ETA no descriu cap eina d’exportació; remet a l’avís general del Home Office."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’avís específic no hi dedica cap apartat i no hem pogut verificar el procediment concret."
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no fa publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’etiqueta declara analítica d’ús, però l’avís no diu si es pot desactivar."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És un formulari de tràmit, no un servei de comunicacions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha cap compte permanent que calgui protegir amb un segon factor.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses associat al servei ETA."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem comprovat cap fitxer security.txt al domini del servei."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "L’avís de privadesa és curt i remet a l’avís general de fronteres, immigració i ciutadania per a la compartició i els drets, que no hem revisat en aquesta onada. No hem pogut fer la cerca d’incidents.",
+    "openQuestions": [
+      "Amb qui comparteix el Home Office les dades de l’ETA: transportistes, aerolínies, altres governs?",
+      "Quin procediment concret hi ha per exercir els drets d’accés i supressió sobre un expedient d’ETA?"
+    ]
+  },
+  "appStoreBundleId": "uk.gov.HomeOffice.ho3"
+}

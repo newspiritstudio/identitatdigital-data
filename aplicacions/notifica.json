@@ -1,0 +1,481 @@
+{
+  "slug": "notifica",
+  "name": "Notifica App",
+  "company": "aead",
+  "categories": [
+    "administracio-publica"
+  ],
+  "tagline": "La bústia de notificacions oficials de l’Estat al mòbil, amb dades mínimes i sense publicitat",
+  "summary": "Notifica és l’aplicació de la Direcció Electrònica Habilitada Única (DEHú), on es reben i es recullen les notificacions de les administracions adherides. L’AEAD només és responsable de les dades de contacte i del dispositiu; el contingut de cada notificació és de l’organisme que l’envia. La política no preveu perfils, decisions automatitzades ni transferències fora de la UE. L’etiqueta de l’App Store, però, diu que no es recull cap dada.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "public-service",
+  "jurisdiction": "Espanya; servei públic de l’Administració General de l’Estat",
+  "links": {
+    "website": "https://dehu.redsara.es/",
+    "privacyPolicy": "https://dehu.redsara.es/es/privacity-app",
+    "appStore": "https://apps.apple.com/es/app/id6450259609"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "notifica-app-store"
+    ],
+    "detail": "Cal identificar-se amb algun dels sistemes de Cl@ve.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": [],
+    "detail": "No hem trobat publicat el codi de l’aplicació."
+  },
+  "publicService": {
+    "isPublicService": true,
+    "administrationLevel": "state",
+    "legalBasis": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "notifica-privacy"
+      ],
+      "detail": "La política diu que els tractaments es basen en el compliment d’una obligació legal «de conformitat amb l’article 6.1 del RGPD», sense dir quina lletra, i enumera després la Llei 39/2015, la Llei 40/2015 i el Reial decret 203/2021 sense concretar-ne cap article.",
+      "verifiedAt": "2026-09-22",
+      "norm": "RGPD, article 6.1 (sense lletra); Llei 39/2015 i Reial decret 203/2021, citades sense article"
+    },
+    "processingRegistry": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "aead-rat-sgad",
+        "notifica-privacy"
+      ],
+      "detail": "La política enllaça el registre del ministeri, que hi té dues fitxes identificables: «Envío de avisos sobre comunicaciones y notificaciones al ciudadano», amb l’AEAD com a responsable del correu i el telèfon dels avisos, i «Acceso del ciudadano a las notificaciones y comunicaciones administrativas emitidas por las Administraciones Públicas (encargado)», que és la de la DEHú i on el responsable és cada administració usuària.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://digital.gob.es/content/dam/portal-mtdfp/ministerio/proteccion-datos/RAT_SGAD.pdf"
+    },
+    "dpia": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat publicada cap avaluació d’impacte, tot i que el mateix registre d’activitats admet que el contingut de les notificacions pot incloure dades de salut o sancions."
+    },
+    "ensConformity": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "notifica-privacy",
+        "aead-rat-sgad"
+      ],
+      "detail": "La política i el registre d’activitats declaren que les mesures implantades són les de l’annex II del Reial decret 311/2022, però no hem trobat publicada ni la declaració de conformitat amb l’Esquema Nacional de Seguretat ni la categoria del sistema.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dpo": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "notifica-privacy"
+      ],
+      "detail": "La política identifica el delegat de protecció de dades amb correu i adreça postal, i el presenta com a via de reclamació prèvia i potestativa.",
+      "verifiedAt": "2026-09-22",
+      "contact": "dpd@digital.gob.es"
+    },
+    "offlineAlternative": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "boe-ley-39-2015",
+        "notifica-dehu-portal"
+      ],
+      "detail": "L’aplicació no és obligatòria, perquè el mateix servei és al portal web de la DEHú. La bústia electrònica, en canvi, només té alternativa en paper per a les persones físiques, que segons l’article 14.1 de la Llei 39/2015 poden triar el canal. L’article 14.2 obliga a relacionar-se electrònicament les persones jurídiques, les entitats sense personalitat i qui exerceix una professió col·legiada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "accessibilityStatement": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "notifica-accessibilitat"
+      ],
+      "detail": "L’aplicació DEHú-Notifica té declaració pròpia i s’hi declara «parcialment conforme» amb el Reial decret 1112/2018: ordre del focus, idioma del programari, etiquetes del formulari de contacte i documents descarregables. L’autoavaluació la va fer un tercer i la declaració es va preparar i revisar el 29 d’octubre de 2025.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://dehu.redsara.es/es/accesibility-app"
+    },
+    "mandatoryRetention": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "boe-ley-39-2015",
+        "notifica-dehu-portal"
+      ],
+      "detail": "La bústia de la DEHú no es pot eliminar perquè no és un compte voluntari: l’article 43 de la Llei 39/2015 estableix que les notificacions electròniques es practiquen per compareixença a la Direcció Electrònica Habilitada única, l’article 14.2 obliga bona part dels destinataris a rebre-les per aquesta via, i les notificacions i els justificants de compareixença formen part de l’expedient administratiu que l’article 70.1 obliga a conservar l’organisme emissor. El que sí que s’esborra a petició són les dades de contacte i els dispositius dels avisos.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataSummary": "Les notificacions poden contenir sancions, requeriments d’Hisenda, resolucions de prestacions o citacions judicials. El servei només hi fa d’intermediari, però un accés indegut al compte les exposaria totes.",
+  "dataCollection": [
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "notifica-dehu-portal"
+      ],
+      "note": "Les notificacions s’adrecen al NIF de la persona."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "notifica-privacy",
+        "aead-rat-sgad"
+      ],
+      "note": "Per rebre avisos de cortesia de noves notificacions."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "notifica-privacy",
+        "aead-rat-sgad"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "notifica-privacy",
+        "notifica-dehu-portal"
+      ],
+      "note": "Per als avisos push; el portal mostra un historial de dispositius."
+    },
+    {
+      "type": "fitxers-i-documents",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "aead-rat-sgad"
+      ],
+      "note": "El contingut de les notificacions. L’AEAD n’és encarregada; la responsable és l’administració que notifica."
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "notifica-privacy"
+      ],
+      "note": "L’accés biomètric opcional el gestiona el sistema operatiu dins del mòbil."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "aead-rat-sgad"
+      ],
+      "detail": "El registre d’activitats no preveu cap comunicació de dades a tercers ni cap finalitat publicitària.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap declaració sobre l’identificador publicitari del dispositiu."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi independent de rastrejadors de l’aplicació."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "aead-rat-sgad"
+      ],
+      "detail": "Cap de les finalitats inscrites al registre d’activitats és publicitària.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "notifica-privacy"
+      ],
+      "detail": "La política diu expressament que no es tracten dades per elaborar perfils ni hi ha decisions automatitzades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no en parla."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "notifica-privacy",
+        "aead-rat-sgad"
+      ],
+      "detail": "Només hi té accés la persona titular; el personal del servei hi pot accedir per resoldre una incidència.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "aead-rat-sgad"
+      ],
+      "detail": "El contingut de les notificacions procedeix dels organismes emissors, que en són els responsables.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "aead-rat-sgad"
+      ],
+      "detail": "No hi ha cap cessió prevista.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "notifica-privacy"
+      ],
+      "detail": "Tot el tractament es fa dins de la Unió Europea.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "none"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència del servei."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "notifica-privacy"
+      ],
+      "detail": "Només diu que les dades es conserven el temps necessari per a la finalitat i per determinar responsabilitats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "notifica-dehu-portal"
+      ],
+      "detail": "Quan s’esborren les dades de contacte, s’eliminen definitivament els correus i el dispositiu per als avisos. Les notificacions continuen a la DEHú, que és obligatòria per a qui ha de rebre-les.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "notifica-dehu-portal",
+        "notifica-privacy"
+      ],
+      "detail": "La bústia de la DEHú no es pot eliminar; sí que es poden esborrar les dades de contacte i els dispositius.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "notifica-dehu-portal"
+      ],
+      "detail": "El portal té l’opció «Eliminar todos mis datos de contacto», que esborra els correus i el dispositiu per als avisos push.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "easy",
+    "steps": [
+      "Entra a dehu.redsara.es o a l’aplicació amb Cl@ve.",
+      "Obre «Datos de contacto y avisos».",
+      "Tria «Eliminar todos mis datos de contacto» i confirma-ho.",
+      "Revisa l’«Historial de dispositivos» per treure els mòbils que ja no facis servir."
+    ],
+    "obstacles": "Les notificacions no es poden esborrar: la bústia existeix per obligació legal i el contingut és de cada organisme emissor.",
+    "dataRetained": "Les notificacions i els justificants de compareixença, sota la responsabilitat de l’administració que les ha emès.",
+    "sources": [
+      "notifica-dehu-portal",
+      "notifica-privacy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "notifica-privacy"
+      ],
+      "detail": "La política reconeix la portabilitat; cada notificació es pot descarregar amb el seu justificant, però no hi ha una exportació completa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "notifica-privacy"
+      ],
+      "detail": "Per a les dades de contacte, correu a la unitat de protecció de dades; per al contingut, davant de l’organisme emissor o a les oficines de registre. Es pot reclamar prèviament al delegat de protecció de dades.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:protecciondatos.sgad@correo.gob.es"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no mostra publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El portal web fa servir una instància pròpia de Matomo configurada sense galetes; no hem pogut comprovar què mesura l’aplicació."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "notifica-dehu-portal"
+      ],
+      "detail": "Es pot triar entre avisos per correu i avisos push, i treure dispositius un per un.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "protective",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi de patrons foscos."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No és un servei de comunicació entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "aead-rat-sgad"
+      ],
+      "detail": "El registre d’activitats remet a les mesures de l’annex II de l’Esquema Nacional de Seguretat (Reial decret 311/2022), que inclouen la protecció de les comunicacions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El registre remet a l’Esquema Nacional de Seguretat, però no hem trobat cap document que concreti el xifratge en repòs."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat publicada cap certificació de conformitat amb l’Esquema Nacional de Seguretat específica del servei."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses; no és habitual als serveis de l’Administració, però no ho hem pogut confirmar amb una font."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha fitxer security.txt als dominis del servei. La política només ofereix una adreça per comunicar bretxes de dades personals."
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "notifica-dehu-portal"
+      ],
+      "detail": "L’accés passa per Cl@ve i algunes notificacions exigeixen un nivell de seguretat reforçat (certificat, DNI electrònic o Cl@ve Mòbil).",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "app-push"
+      ]
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "L’etiqueta de l’App Store diu «No se recopilan datos», però la política del servei descriu dades de contacte, identificadors del dispositiu i dades que s’obtenen d’altres administracions. La política de l’aplicació és a dehu.redsara.es/es/privacity-app, una pàgina que carrega amb JavaScript i que el tallafocs del servidor bloqueja sovint; l’hem llegida al codi del portal.",
+    "openQuestions": [
+      "La cerca d’incidents no s’ha pogut completar: s’havia esgotat el pressupost de cerques web de la sessió.",
+      "Quant temps es conserven les notificacions ja compareixudes a la DEHú?"
+    ]
+  },
+  "appStoreBundleId": "es.gob.dehu"
+}

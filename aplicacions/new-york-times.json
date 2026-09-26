@@ -1,0 +1,578 @@
+{
+  "slug": "new-york-times",
+  "name": "The New York Times",
+  "company": "new-york-times-company",
+  "categories": [
+    "noticies-i-mitjans"
+  ],
+  "tagline": "Diari de subscripció que converteix el correu i el telèfon en identificadors publicitaris",
+  "summary": "L’etiqueta de l’App Store del New York Times declara més dades de rastreig que la majoria d’aplicacions de notícies: informació financera, ubicació, contacte, historial de cerca i de navegació. La política explica com ho fa: converteix el correu i el telèfon en identificadors publicitaris amb Unified ID 2.0 i LiveRamp. Pagar la subscripció no evita aquest tractament.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "subscription",
+  "jurisdiction": "Estats Units",
+  "links": {
+    "website": "https://www.nytimes.com/",
+    "privacyPolicy": "https://help.nytimes.com/hc/en-us/articles/10940941449492-The-New-York-Times-Company-Privacy-Policy-",
+    "appStore": "https://apps.apple.com/es/app/id284862083"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "editorial",
+    "sources": [],
+    "detail": "És un model de mur de pagament: es poden veure alguns continguts sense registre, però la lectura habitual exigeix compte i subscripció.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "new-york-times-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "El que llegeixes, cerques i jugues, sumat a la ubicació, a les dades de pagament i al correu convertit en identificador, permet fer un perfil d’interessos polítics i culturals que el diari pot vendre a anunciants dins i fora de les seves apps.",
+  "dataCollection": [
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "new-york-times-app-store",
+        "new-york-times-privacy-policy"
+      ],
+      "note": "Es converteix en identificador publicitari amb Unified ID 2.0 i LiveRamp ATS."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "new-york-times-app-store",
+        "new-york-times-privacy-policy"
+      ]
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "new-york-times-app-store"
+      ],
+      "note": "L’etiqueta el declara com a dada no vinculada, cosa estranya per a un compte de subscripció."
+    },
+    {
+      "type": "adreca-postal",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "new-york-times-app-store",
+        "new-york-times-privacy-policy"
+      ],
+      "note": "Adreça de facturació o de lliurament en paper."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "new-york-times-app-store"
+      ],
+      "note": "L’etiqueta inclou «informació financera» entre les dades de rastreig."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "new-york-times-app-store"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "new-york-times-app-store"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "new-york-times-privacy-policy"
+      ],
+      "note": "Només amb consentiment o si s’activa el GPS; s’usa per a contingut, ofertes i publicitat."
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "new-york-times-app-store",
+        "new-york-times-privacy-policy"
+      ],
+      "note": "Inclou els articles llegits i el temps de lectura."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "new-york-times-app-store"
+      ]
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "new-york-times-app-store"
+      ],
+      "note": "Comentaris, activitat als jocs i altres continguts de la persona usuària."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "new-york-times-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "new-york-times-app-store"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "new-york-times-privacy-policy"
+      ],
+      "note": "Es comparteix amb socis de mesura com AppsFlyer si no es limita des del sistema operatiu."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "new-york-times-app-store"
+      ]
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "new-york-times-privacy-policy"
+      ],
+      "note": "Segments d’interès associats a un identificador aleatori que es passa al servidor d’anuncis."
+    },
+    {
+      "type": "conviccions-i-opinions",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "investigacio-i-estadistica"
+      ],
+      "sources": [
+        "new-york-times-privacy-policy"
+      ],
+      "note": "Algunes enquestes pregunten per la tendència política o l’origen ètnic; la resposta és voluntària."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "new-york-times-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "new-york-times-app-store"
+      ],
+      "detail": "L’etiqueta declara vuit categories de dades que poden servir per rastrejar en apps i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "new-york-times-privacy-policy"
+      ],
+      "detail": "Fa servir l’identificador publicitari del mòbil i també identificadors derivats del correu i el telèfon.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "new-york-times-privacy-policy"
+      ],
+      "detail": "Esmenta AppsFlyer, LiveRamp, Unified ID 2.0 i Comscore.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "new-york-times-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "new-york-times-privacy-policy"
+      ],
+      "detail": "Crea segments d’interès i combina enquestes i ús amb aprenentatge automàtic propi o de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "new-york-times-privacy-policy"
+      ],
+      "detail": "Els missatges directes es poden escanejar i fer servir per entrenar models de moderació, i les converses amb l’atenció al client poden servir per entrenar models d’IA.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "new-york-times-privacy-policy"
+      ],
+      "detail": "Comparteix correu, IP i dades del navegador amb tercers per a màrqueting i per crear audiències personalitzades o similars.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Wirecutter i The Athletic actuen com a responsables independents; la política no detalla la compartició entre capçaleres."
+    },
+    "dataBrokerSales": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "new-york-times-privacy-policy"
+      ],
+      "detail": "La política reconeix «vendes o compartició» de dades en el sentit de la llei californiana i ofereix una opció per oposar-s’hi.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "new-york-times-privacy-policy"
+      ],
+      "detail": "Les dades es transfereixen als Estats Units amb clàusules contractuals tipus o a proveïdors adherits al Data Privacy Framework.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "new-york-times-privacy-policy"
+      ],
+      "detail": "Només enumera criteris, sense terminis concrets.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "new-york-times-privacy-policy"
+      ],
+      "detail": "La política adverteix que pot conservar dades després de tancar el compte.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "new-york-times-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "new-york-times-privacy-policy"
+      ],
+      "detail": "Es pot eliminar el compte des de les apps natives i des de nytimes.com/account.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://www.nytimes.com/account",
+    "difficulty": "medium",
+    "requiresSupportContact": false,
+    "steps": [
+      "Si tens una subscripció activa, cancel·la-la i espera que se n’acabin els avantatges.",
+      "Entra a nytimes.com/account o a la configuració del compte de l’app i tria l’opció d’eliminar el compte.",
+      "Si tens compte a The Athletic, elimina’l a part des de la seva app."
+    ],
+    "obstacles": "Cal esperar que venci la subscripció, i The Athletic pot haver creat un compte separat que no s’elimina amb el del diari.",
+    "dataRetained": "La política permet conservar dades després del tancament per obligacions legals o per possibles reclamacions.",
+    "sources": [
+      "new-york-times-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política reconeix el dret d’accés, però no descriu cap eina d’exportació."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "new-york-times-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacy@nytimes.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "new-york-times-privacy-policy"
+      ],
+      "detail": "Controls de galetes, senyal Global Privacy Control i opció per oposar-se a la publicitat segmentada i a la «venda o compartició».",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "new-york-times-privacy-policy"
+      ],
+      "detail": "Controls de galetes i de publicitat; l’app remet als controls de l’identificador publicitari del sistema.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És una aplicació de lectura de notícies sense comunicacions privades rellevants.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació d’un segon factor per als comptes de lectors."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "new-york-times-responsible-disclosure"
+      ],
+      "detail": "El programa de divulgació no paga recompenses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "new-york-times-responsible-disclosure"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://nytimes.responsibledisclosure.com/hc/en-us"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "No hem trobat sancions de protecció de dades ni filtracions que afectin lectors. La filtració de codi font del 2024 va afectar repositoris interns, no dades de persones usuàries, i no s’ha registrat com a incident.",
+    "openQuestions": [
+      "Quins són els passos exactes per eliminar el compte dins de l’app iOS?",
+      "Els controls de galetes del web s’apliquen també a l’app?"
+    ]
+  },
+  "appStoreBundleId": "com.nytimes.NYTimes"
+}

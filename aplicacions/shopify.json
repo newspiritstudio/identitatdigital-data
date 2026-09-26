@@ -1,0 +1,615 @@
+{
+  "slug": "shopify",
+  "name": "Shopify",
+  "company": "shopify-international",
+  "categories": [
+    "comerc-electronic"
+  ],
+  "tagline": "Gestió de botigues en línia que conserva les dades dos anys després de tancar-les",
+  "summary": "L’aplicació serveix per gestionar una botiga de Shopify: comandes, productes, pagaments i personal. Per verificar la identitat i complir la normativa contra el blanqueig, Shopify pot demanar documents d’identitat i una foto amb el document. En tancar la botiga, conserva la informació dos anys abans de començar a esborrar-la. En seguretat, publica la certificació PCI DSS de nivell 1 i informes SOC 2, i té verificació en dos passos amb claus físiques i un programa de recompenses.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "subscription",
+  "jurisdiction": "Irlanda (Shopify International Ltd.) per a l’Espai Econòmic Europeu; grup amb seu al Canadà",
+  "links": {
+    "website": "https://www.shopify.com/",
+    "privacyPolicy": "https://www.shopify.com/legal/privacy/merchants",
+    "privacyCenter": "https://privacy.shopify.com/en",
+    "appStore": "https://apps.apple.com/es/app/id371294472"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "shopify-pause-help"
+    ],
+    "detail": "L’aplicació s’usa amb el compte de la botiga.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "shopify-merchant-privacy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Qui obre una botiga hi posa la identitat, els comptes bancaris i els documents oficials, i la plataforma veu en temps real els ingressos del negoci. A més, l’aplicació dona accés a les dades de tota la clientela de la botiga, que són les que es van filtrar el 2020.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "shopify-app-store",
+        "shopify-merchant-privacy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "shopify-app-store",
+        "shopify-merchant-privacy"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "shopify-app-store",
+        "shopify-merchant-privacy"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "shopify-app-store",
+        "shopify-merchant-privacy"
+      ]
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "shopify-merchant-privacy"
+      ],
+      "note": "Per a la verificació d’identitat i les obligacions contra el blanqueig."
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "shopify-merchant-privacy"
+      ],
+      "note": "La política inclou dins de les dades biomètriques una foto de la persona sostenint el document d’identitat."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "shopify-app-store",
+        "shopify-merchant-privacy"
+      ],
+      "note": "Targetes, comptes bancaris i, per a Shopify Capital, altres dades financeres."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "shopify-app-store"
+      ]
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "shopify-app-store"
+      ],
+      "note": "Fotos de productes."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "shopify-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "shopify-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "shopify-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "shopify-app-store",
+        "shopify-merchant-privacy"
+      ],
+      "note": "La política esmenta Sift per a la detecció del frau."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "shopify-merchant-privacy"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "shopify-app-store"
+      ],
+      "note": "L’etiqueta inclou «dades de publicitat» per al màrqueting del desenvolupador."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "shopify-app-store"
+      ],
+      "note": "Converses amb atenció al client."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "shopify-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "shopify-app-store"
+      ],
+      "detail": "L’etiqueta no declara dades «utilitzades per rastrejar-te».",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap declaració sobre l’identificador publicitari del dispositiu."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi independent de rastrejadors de l’aplicació."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "shopify-merchant-privacy",
+        "shopify-app-store"
+      ],
+      "detail": "Fa servir les dades per anunciar els seus propis productes i funcions; la política de comerciants no esmenta socis publicitaris.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "shopify-privacy-policy"
+      ],
+      "detail": "Aprenentatge automàtic per millorar i personalitzar el servei, que la política diu que no produeix efectes significatius sense intervenció humana.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política de comerciants no diu si les dades de les botigues serveixen per entrenar els models de les eines d’IA de Shopify."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "shopify-merchant-privacy"
+      ],
+      "detail": "Proveïdors de pagament, Sift per al frau i les aplicacions de tercers que instal·li la botiga, sobre les quals Shopify diu que no té control.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "shopify-privacy-policy"
+      ],
+      "detail": "Entre les empreses del grup, sota normes corporatives vinculants.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "shopify-merchant-privacy"
+      ],
+      "detail": "Només preveu cedir dades en una venda d’actius de l’empresa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "shopify-privacy-policy"
+      ],
+      "detail": "Les dades de l’Espai Econòmic Europeu es transfereixen a altres empreses del grup amb normes corporatives vinculants, i a tercers amb clàusules contractuals tipus. Per al Canadà, on té la seu, hi ha una decisió d’adequació.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "bcrs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència de Shopify."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "shopify-merchant-privacy"
+      ],
+      "detail": "Fixa el termini posterior al tancament de la botiga, però no terminis per a cada tipus de dada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "shopify-merchant-privacy"
+      ],
+      "detail": "Si es demana la supressió, comença a esborrar o anonimitzar les dades al cap de 90 dies, excepte el que la llei obligui a conservar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "period": "Botiga tancada o impagada: 2 anys abans de començar a esborrar o anonimitzar",
+        "sources": [
+          "shopify-merchant-privacy"
+        ]
+      },
+      {
+        "period": "Després d’una petició de supressió: comença al cap de 90 dies",
+        "sources": [
+          "shopify-merchant-privacy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "shopify-merchant-privacy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "shopify-pause-help",
+        "shopify-merchant-privacy"
+      ],
+      "detail": "La botiga es tanca des de l’administració, però les dades només comencen a esborrar-se al cap de dos anys, o de 90 dies si es demana expressament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "waitingPeriodDays": 90,
+    "steps": [
+      "Inicia sessió com a propietari i ves a Configuració > Pla.",
+      "Tria «Cancel·la el pla» i torna-hi per veure totes les opcions: pausar o tancar la botiga.",
+      "Cancel·la abans les aplicacions de tercers, que continuen actives i facturant.",
+      "Demana la supressió de les dades al portal privacy.shopify.com: si no, es conserven dos anys."
+    ],
+    "obstacles": "Tancar la botiga no n’esborra les dades: sense una petició expressa, Shopify les conserva dos anys.",
+    "dataRetained": "Informació fiscal i la que la llei obligui a conservar.",
+    "sources": [
+      "shopify-pause-help",
+      "shopify-merchant-privacy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "shopify-merchant-privacy"
+      ],
+      "detail": "Accés i correcció des de l’administració o amb una petició al portal de privadesa.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://privacy.shopify.com/en"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "shopify-merchant-privacy",
+        "shopify-privacy-policy"
+      ],
+      "detail": "Portal de privadesa i delegat de protecció de dades a Dublín.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://privacy.shopify.com/en"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat com desactivar el màrqueting basat en dades d’ús dins de l’aplicació."
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap opció per desactivar l’analítica d’ús."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "shopify-2fa-help"
+      ],
+      "detail": "Controls de seguretat per a cada membre del personal; no hem trobat un panell de privadesa per finalitats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [
+        "shopify-merchant-privacy",
+        "shopify-pause-help"
+      ],
+      "detail": "Valoració editorial: el flux de cancel·lació passa primer per l’oferta de pausar la botiga, i tancar-la no n’esborra les dades si no es demana a part.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "hidden-exit",
+        "severity": "low",
+        "description": "Tancar la botiga no esborra les dades: cal una petició separada al portal de privadesa per no haver d’esperar dos anys.",
+        "sources": [
+          "shopify-merchant-privacy"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No és un servei de comunicació entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La pàgina de seguretat no detalla el xifratge en trànsit."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La pàgina de seguretat no detalla el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "shopify-2fa-help"
+      ],
+      "detail": "Verificació en dos passos amb SMS, aplicació d’autenticació, clau de seguretat, autenticador integrat, codis de recuperació i avisos a l’aplicació. És obligatòria per fer servir Shopify Payments.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "passkey",
+        "hardware-key",
+        "totp",
+        "app-push",
+        "sms"
+      ]
+    },
+    "independentAudits": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "shopify-security"
+      ],
+      "detail": "PCI DSS de nivell 1 i informes SOC 2 tipus II i SOC 3.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "shopify-security-txt"
+      ],
+      "detail": "Programa de recompenses a HackerOne.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://hackerone.com/shopify"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "shopify-security-txt"
+      ],
+      "detail": "Fitxer security.txt amb adreça, clau de xifratge i política.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "La fitxa descriu les dades de qui gestiona la botiga. Les dades de la clientela de cada botiga les tracta Shopify per compte del comerç, i són les que es van veure afectades per l’incident del 2020.",
+    "openQuestions": [
+      "La cerca d’incidents s’ha limitat a l’incident del 2020: s’havia esgotat el pressupost de cerques web de la sessió.",
+      "Les dades de les botigues s’utilitzen per entrenar Sidekick i les altres eines d’IA de Shopify?"
+    ]
+  },
+  "appStoreBundleId": "com.jadedpixel.shopify"
+}

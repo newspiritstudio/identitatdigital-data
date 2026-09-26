@@ -1,0 +1,722 @@
+{
+  "slug": "dice",
+  "name": "DICE",
+  "company": "dice-fm-holdings",
+  "categories": [
+    "musica-i-audio",
+    "comerc-electronic"
+  ],
+  "tagline": "Política específica per a Espanya, però la ubicació exacta i el DNI es comparteixen amb els promotors",
+  "summary": "DICE ven entrades de concerts com a agent dels promotors i recintes, i té una política de privadesa escrita expressament per a Espanya, en castellà, referida al RGPD i a la LOPDGDD i amb un delegat de protecció de dades extern identificat. L’etiqueta de l’App Store no declara cap dada de rastreig, però sí ubicació exacta, informació de pagament, adreça física i telèfon vinculats a la identitat. El document també reconeix la recollida del DNI, la sincronització opcional amb Spotify o Apple Music i que si et bloquegen el compte per frau poden negar-se a esborrar les dades identificatives.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Regne Unit, amb filial espanyola i dades allotjades a Irlanda",
+  "userBase": "No n’hem verificat cap xifra oficial.",
+  "links": {
+    "website": "https://dice.fm/",
+    "privacyPolicy": "https://dicefm.zendesk.com/hc/en-gb/articles/4417457241873-Spain-Privacy-Policy-for-DICE-Users",
+    "appStore": "https://apps.apple.com/es/app/id898358948"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "dice-privacy-policy-spain"
+    ],
+    "detail": "El compte es crea amb la primera compra a partir del telèfon i el correu; no hi ha contrasenya, s’entra amb un codi de quatre xifres.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "editorial",
+    "sources": [],
+    "detail": "No hi ha cap repositori públic del servei.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "L’historial d’entrades d’una persona mostra gustos, afinitats i moviments: on va, amb qui, a quina hora i quant s’hi gasta. DICE hi afegeix la ubicació exacta per recomanar, la biblioteca musical si l’hi connectes i, quan demanes una entrada d’accessibilitat, documentació mèdica que és categoria especial de dades.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "cessio-a-tercers"
+      ],
+      "sources": [
+        "dice-privacy-policy-spain",
+        "dice-app-store"
+      ],
+      "note": "Es comparteix amb el promotor de cada esdeveniment."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "dice-privacy-policy-spain",
+        "dice-app-store"
+      ],
+      "note": "La política admet la compartició del correu, el país i l’edat amb xarxes socials i cercadors per mostrar anuncis més rellevants."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "dice-privacy-policy-spain",
+        "dice-app-store"
+      ],
+      "note": "Qualsevol persona usuària que tingui el teu número pot veure que tens compte a DICE."
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "compliment-legal"
+      ],
+      "sources": [
+        "dice-privacy-policy-spain"
+      ],
+      "note": "La política enumera el DNI entre les dades de contacte i el fa servir per verificar la identitat a l’entrada del recinte."
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "dice-privacy-policy-spain"
+      ],
+      "note": "Es recull per interès legítim, per comprovar l’edat mínima dels esdeveniments."
+    },
+    {
+      "type": "genere",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "dice-privacy-policy-spain"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "cessio-a-tercers"
+      ],
+      "sources": [
+        "dice-privacy-policy-spain",
+        "dice-app-store"
+      ],
+      "note": "La política admet cedir adreces postals als promotors, per interès legítim, perquè entenguin la seva audiència."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "dice-privacy-policy-spain",
+        "dice-app-store"
+      ],
+      "note": "Stripe hi actua com a encarregat i, en certs casos, com a responsable propi."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "recomanacions-algoritmiques",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "dice-privacy-policy-spain",
+        "dice-app-store"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "dice-app-store",
+        "dice-privacy-policy-spain"
+      ],
+      "note": "Amb permís del dispositiu; l’etiqueta la declara vinculada a la identitat per a personalització i funcionalitat."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "dice-privacy-policy-spain"
+      ],
+      "note": "Derivada de l’adreça IP, sense necessitat de permís."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "dice-privacy-policy-spain"
+      ],
+      "note": "La funció Descobriment elabora un perfil de tendències individuals i demogràfiques."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "dice-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-visualitzacio",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "dice-privacy-policy-spain"
+      ],
+      "note": "Si hi connectes Spotify o Apple Music, DICE conserva informació sobre els teus interessos musicals."
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "dice-privacy-policy-spain"
+      ],
+      "note": "Per a entrades d’accessibilitat: certificats de discapacitat, informes mèdics i targetes d’acompanyament, tractats amb consentiment explícit com a categoria especial."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "dice-privacy-policy-spain"
+      ],
+      "note": "DICE es reserva el dret de fer i publicar fotografies i gravacions dels esdeveniments, per interès legítim."
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "dice-privacy-policy-spain"
+      ],
+      "note": "Amb consentiment, per a la funció de transferència limitada d’entrades."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "dice-privacy-policy-spain"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "dice-privacy-policy-spain"
+      ],
+      "note": "Galetes de segmentació i de màrqueting de Google, Meta i TikTok, incloent-hi l’API de conversions de Facebook; caduquen habitualment als sis mesos."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "dice-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "dice-app-store",
+        "dice-privacy-policy-spain"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "dice-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "dice-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada utilitzada per rastrejar en aplicacions i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "dice-app-store"
+      ],
+      "detail": "L’etiqueta no declara dades de publicitat ni identificador publicitari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dice-privacy-policy-spain"
+      ],
+      "detail": "Al web hi ha galetes de segmentació i de màrqueting de Google, Meta i TikTok, i l’API de conversions de Facebook; la política admet que classifica Google Analytics i les galetes d’atribució com a estrictament necessàries.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dice-privacy-policy-spain"
+      ],
+      "detail": "La política admet compartir correu, país i edat amb xarxes socials i cercadors per mostrar anuncis més rellevants a la persona usuària i a públics similars.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dice-privacy-policy-spain"
+      ],
+      "detail": "L’elaboració de perfils es declara expressament i es basa en l’interès legítim, amb una avaluació d’interès legítim prèvia.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "dice-privacy-policy-spain"
+      ],
+      "detail": "La política no preveu l’entrenament de models amb dades personals; només l’ús de funcions d’intel·ligència artificial per analitzar i agilitar l’atenció al client, sota interès legítim.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dice-privacy-policy-spain"
+      ],
+      "detail": "Socis dels esdeveniments (que són responsables autònoms i, segons la política, «posseeixen les teves dades»), Stripe, proveïdors de núvol, analítica i missatgeria, i Google, Meta i TikTok per a les galetes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dice-privacy-policy-spain",
+        "dice-fever-group-entities"
+      ],
+      "detail": "Les dades circulen dins del Grup DICE, que des del 2025 forma part del grup Fever.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "dice-privacy-policy-spain"
+      ],
+      "detail": "La política afirma expressament que no lloguen ni venen dades personals sense consentiment explícit.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dice-privacy-policy-spain"
+      ],
+      "detail": "Les dades s’allotgen actualment a centres de dades a Irlanda; per a les transferències fora de l’Espai Econòmic Europeu s’apliquen decisions d’adequació o clàusules contractuals tipus.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència de DICE."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dice-privacy-policy-spain"
+      ],
+      "detail": "La política fixa terminis concrets per a diverses categories, cosa poc habitual.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "dice-privacy-policy-spain"
+      ],
+      "detail": "Si el compte es bloqueja per frau o revenda comercial, es conserva un conjunt mínim de dades identificatives durant més temps i es pot denegar la supressió.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "period": "Dades dels acompanyants titulars d’entrada: un màxim de 30 dies després de l’esdeveniment",
+        "sources": [
+          "dice-privacy-policy-spain"
+        ]
+      },
+      {
+        "period": "Historial de compres: es pot demanar la supressió passats sis anys",
+        "sources": [
+          "dice-privacy-policy-spain"
+        ]
+      },
+      {
+        "period": "Galetes persistents: caducitat habitual de sis mesos",
+        "sources": [
+          "dice-privacy-policy-spain"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dice-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dice-delete-account"
+      ],
+      "detail": "Opció dins de l’aplicació; no hi ha cap via documentada des del web.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://dicefm.zendesk.com/hc/en-gb/articles/4409596582417-How-to-delete-your-DICE-account",
+    "difficulty": "medium",
+    "waitingPeriodDays": 15,
+    "steps": [
+      "Comprova que no tens entrades per a esdeveniments futurs: si en tens, la sol·licitud es rebutja. Transfereix-les, torna-les per la llista d’espera o espera que passi l’esdeveniment.",
+      "Obre l’aplicació i toca la icona de perfil, a baix a la dreta.",
+      "Entra a la configuració amb la icona de dalt a la dreta i tria «Delete account», al final de la pantalla.",
+      "El compte es desactiva immediatament i les dades s’eliminen de manera definitiva al cap de quinze dies; dins d’aquesta finestra pots demanar la reactivació a l’equip de suport."
+    ],
+    "obstacles": "Tenir una entrada per a un concert futur bloqueja la baixa, de manera que el dret de supressió queda condicionat al calendari d’esdeveniments. La política també preveu conservar dades identificatives contra la voluntat de la persona quan el compte s’ha bloquejat per frau o revenda.",
+    "dataRetained": "Si només desactives el compte es mantenen l’identificador d’usuari i l’historial d’entrades.",
+    "sources": [
+      "dice-delete-account",
+      "dice-privacy-policy-spain"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "dice-privacy-policy-spain"
+      ],
+      "detail": "La política reconeix que no hi ha cap eina de descàrrega i que, fins que no se’n desenvolupi una, la portabilitat s’exerceix escrivint a help@dice.fm.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dice-privacy-policy-spain"
+      ],
+      "detail": "Delegat de protecció de dades extern identificat, termini de trenta dies per a les sol·licituds d’accés i remissió expressa a l’AEPD per a les reclamacions.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:help@dice.fm",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "dice-privacy-policy-spain"
+      ],
+      "detail": "Al web hi ha bàner de galetes per categories, però no consta cap commutador de publicitat personalitzada dins de l’aplicació: el canvi s’ha de demanar per correu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "dice-privacy-policy-spain"
+      ],
+      "detail": "L’analítica dins de l’aplicació es basa en l’interès legítim i no hi ha cap control documentat per desactivar-la.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "dice-privacy-policy-spain"
+      ],
+      "detail": "Hi ha un centre de comunicacions dins de l’aplicació que permet donar-se de baixa dels correus de DICE i dels promotors, però no un panell de privadesa per finalitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [
+        "dice-privacy-policy-spain"
+      ],
+      "detail": "Classificar Google Analytics i les galetes d’atribució d’afiliats com a «estrictament necessàries» les exclou del consentiment, tot i que serveixen per mesurar i atribuir, no per fer funcionar el servei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "preselected",
+        "severity": "medium",
+        "description": "La política inclou Google Analytics i les galetes de seguiment d’atribució dins de les galetes estrictament necessàries, que no es poden rebutjar al bàner de consentiment.",
+        "sources": [
+          "dice-privacy-policy-spain"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no transporta comunicacions privades entre persones usuàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dice-security-txt"
+      ],
+      "detail": "Tot el domini es serveix per HTTPS.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "dice-privacy-policy-spain"
+      ],
+      "detail": "La política només concreta que el correu i el telèfon es comparteixen xifrats amb els promotors per a les galetes de màrqueting; no descriu el xifratge general en repòs.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "dice-privacy-policy-spain"
+      ],
+      "detail": "No hi ha contrasenya ni segon factor: s’entra amb un codi de quatre xifres enviat per correu, SMS o trucada, que és un factor únic de possessió.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories ni certificacions publicades."
+    },
+    "bugBounty": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "dice-security-txt"
+      ],
+      "detail": "El security.txt declara un programa de recompenses a HackerOne, però no hem trobat cap programa públic: sembla privat o no publicat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dice-security-txt"
+      ],
+      "detail": "Fitxer security.txt amb adreça de contacte, vigent fins al gener del 2027.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "ticketmaster",
+      "comparability": "equivalent",
+      "rationale": "És l’altra plataforma d’entrades amb presència comparable a Espanya i catàleg de grans recintes.",
+      "tradeOffs": "Forma part d’un grup molt més gran, amb un historial d’incidents de seguretat i de qüestionaments regulatoris més llarg."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Publicar una política específica per a Espanya, en castellà i actualitzada el febrer del 2026, és una bona pràctica poc freqüent. El contingut, però, inclou la recollida del DNI, cessió d’adreces postals als promotors per interès legítim, absència d’eina de portabilitat i possibilitat de denegar la supressió a qui hagin bloquejat per frau. El document legal es publica en un centre d’ajuda de Zendesk, que bloqueja els lectors automatitzats.",
+    "openQuestions": [
+      "El canvi de matriu cap al grup Fever modifica els fluxos de dades entre DICE i Kzemos Technologies a Madrid?",
+      "Per què el DNI figura entre les dades de contacte de recollida ordinària i no només a la verificació a la porta del recinte?",
+      "El programa de recompenses que declara el security.txt existeix i està obert?"
+    ]
+  },
+  "appStoreBundleId": "fm.dice.Dice"
+}

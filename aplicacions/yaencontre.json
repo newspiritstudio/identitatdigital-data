@@ -1,0 +1,544 @@
+{
+  "slug": "yaencontre",
+  "name": "yaencontre",
+  "company": "idealista",
+  "categories": [
+    "habitatge"
+  ],
+  "tagline": "Mateix responsable que idealista i una còpia més curta de la seva política, però sense procediment de baixa documentat",
+  "summary": "yaencontre és un portal immobiliari del grup idealista: el responsable del tractament és la mateixa societat, i la política de privadesa és una versió reduïda de la d’idealista. Hi falten les clàusules de veu, biometria i verificació d’anunciants, però es manté intacta la part de perfilat i de creació d’audiències a Google, Meta, TikTok i LinkedIn. A diferència d’idealista, no hem trobat cap pàgina d’autoservei per eliminar el compte.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "advertising",
+  "jurisdiction": "Espanya; autoritat de control: Agencia Española de Protección de Datos",
+  "links": {
+    "website": "https://www.yaencontre.com/",
+    "privacyPolicy": "https://www.yaencontre.com/politica-privacidad",
+    "appStore": "https://apps.apple.com/es/app/id860523137"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "yaencontre-politica-privacidad"
+    ],
+    "detail": "Mateixa estructura que idealista: es pot cercar sense registre, i cal donar dades per contactar un anunciant.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "yaencontre-politica-privacidad"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Com qualsevol portal d’habitatge, revela el pressupost, la zona, el tipus de casa i el moment vital. Aquestes dades queden sota el mateix responsable que idealista, el portal líder del sector, i la marca no ho fa evident.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "yaencontre-politica-privacidad"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "yaencontre-politica-privacidad",
+        "yaencontre-app-store"
+      ],
+      "note": "A l’anunciant se li dona tokenitzat; a les plataformes publicitàries, xifrat amb funció resum."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "yaencontre-politica-privacidad"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "yaencontre-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "yaencontre-app-store"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "yaencontre-app-store"
+      ],
+      "note": "L’etiqueta la declara tant sota analítica com sota funcionalitat de l’aplicació."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "yaencontre-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "yaencontre-app-store"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "yaencontre-politica-privacidad"
+      ]
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "yaencontre-politica-privacidad"
+      ],
+      "note": "La clàusula de perfilat és idèntica a la d’idealista."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "yaencontre-app-store"
+      ]
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "yaencontre-app-store"
+      ],
+      "note": "És l’única categoria que l’etiqueta declara com a dada no vinculada amb la identitat."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "yaencontre-app-store"
+      ]
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "yaencontre-politica-privacidad"
+      ],
+      "note": "A diferència d’idealista, aquesta política no inclou signatura electrònica amb dades biomètriques ni gravació de trucades."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "yaencontre-app-store"
+      ],
+      "detail": "L’etiqueta declara historial de cerca, historial de navegació, identificadors i dades d’ús com a dades utilitzades per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "yaencontre-app-store"
+      ],
+      "detail": "Dades de publicitat sota funcionalitat de l’aplicació, vinculades amb la identitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "yaencontre-politica-privacidad"
+      ],
+      "detail": "Google Ads, Meta, TikTok i LinkedIn per a audiències i conversions millorades, amb Google Consent Mode.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "yaencontre-politica-privacidad"
+      ],
+      "detail": "Mateixa clàusula que idealista, subjecta al consentiment de galetes.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://www.yaencontre.com/politica-cookies"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "yaencontre-politica-privacidad"
+      ],
+      "detail": "Elaboració de perfils per comportament per a recomanacions i promocions, sense decisions automatitzades amb efectes jurídics.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta ni intel·ligència artificial ni entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "yaencontre-politica-privacidad"
+      ],
+      "detail": "Anunciants, amb el correu tokenitzat, i tercers del sector immobiliari, energètic i assegurador amb consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "yaencontre-politica-privacidad"
+      ],
+      "detail": "Amb Inmovilla, Avaibook, idealista/seguros, idealista/hipotecas i la base de dades de morositat immobiliària del grup, amb consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu venda de dades a intermediaris."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "yaencontre-politica-privacidad",
+        "idealista-transferencias"
+      ],
+      "detail": "La política remet a la llista de transferències d’idealista: un proveïdor al Regne Unit i un a Colòmbia.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’informe de transparència del Reglament de Serveis Digitals del grup cobreix idealista.com, .it i .pt, però no hem trobat cap informe per a yaencontre."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "yaencontre-politica-privacidad"
+      ],
+      "detail": "Fins a quatre anys per prevenció del frau i bloqueig de fins a sis anys per prescripció legal; menys detall per finalitat que a idealista.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "yaencontre-politica-privacidad"
+      ],
+      "detail": "Les dades passen a bloqueig pels terminis de prescripció legal.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "yaencontre-politica-privacidad"
+      ],
+      "detail": "El dret de supressió es reconeix i s’exerceix pel canal de privadesa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap pàgina d’autoservei ni article d’ajuda sobre com eliminar el compte al domini de yaencontre, a diferència d’idealista."
+    },
+    "difficulty": "medium",
+    "requiresSupportContact": true,
+    "steps": [
+      "Escriu al canal de privadesa de yaencontre o al seu delegat de protecció de dades demanant la supressió del compte.",
+      "Identifica’t amb les dades del compte perquè puguin verificar qui ets.",
+      "Guarda la resposta: el termini legal de resposta és d’un mes."
+    ],
+    "obstacles": "La manca d’una opció de baixa dins del servei obliga a exercir formalment un dret que a idealista es resol des d’una pàgina de baixa.",
+    "dataRetained": "Bloqueig de fins a sis anys per prescripció legal i quatre per prevenció del frau.",
+    "sources": [
+      "yaencontre-politica-privacidad"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "yaencontre-politica-privacidad"
+      ],
+      "detail": "La portabilitat es reconeix i s’exerceix per correu; no hi ha eina d’autoservei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "yaencontre-politica-privacidad"
+      ],
+      "detail": "Canal de privadesa propi i delegat de protecció de dades de yaencontre.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dpo@yaencontre.com",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "yaencontre-politica-cookies"
+      ],
+      "detail": "Gestor de consentiment amb control per finalitat i per soci, i oposició a l’interès legítim dels socis.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "yaencontre-politica-cookies"
+      ],
+      "detail": "Les galetes analítiques es poden refusar; no hi ha control separat de la telemetria de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "yaencontre-politica-cookies"
+      ],
+      "detail": "Consentiment granular de galetes; la resta de controls no estan documentats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [
+        "yaencontre-politica-privacidad"
+      ],
+      "detail": "La marca no diu enlloc visible que el responsable del tractament és la societat d’idealista, de manera que qui fa servir yaencontre en lloc d’idealista dona les dades a la mateixa empresa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "confusing-language",
+        "severity": "medium",
+        "description": "La identitat del responsable, Idealista S.A.U., només apareix dins de la política de privadesa; la marca i l’aplicació es presenten com un portal independent.",
+        "sources": [
+          "yaencontre-politica-privacidad"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no transporta comunicacions privades xifrables d’extrem a extrem.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "yaencontre-politica-privacidad"
+      ],
+      "detail": "Esments genèrics de mesures tècniques, sense detall publicat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política de yaencontre no inclou la clàusula de verificació en dos passos que sí té idealista."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat certificacions ni auditories publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El canal de vulnerabilitats d’idealista parla de les seves webs i aplicacions, sense dir expressament si cobreix yaencontre."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut comprovar si hi ha security.txt: el domini bloqueja l’accés automatitzat."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "idealista",
+      "comparability": "equivalent",
+      "rationale": "El portal germà, del mateix responsable, té molt més inventari, baixa autoservei documentada i una política amb més terminis concrets.",
+      "tradeOffs": "També recull més dades: veu, biometria de la signatura i ingressos declarats."
+    },
+    {
+      "app": "fotocasa",
+      "comparability": "equivalent",
+      "rationale": "Portal d’un grup diferent, si el que es busca és no concentrar el rastre en un sol responsable."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La troballa d’aquesta fitxa és que dues marques que es presenten com a competidores comparteixen responsable del tractament, política i destinataris. La política de yaencontre porta data d’abril del 2025, un any més antiga que la d’idealista. El domini bloqueja l’accés automatitzat i el text s’ha llegit a través d’una còpia datada de l’Internet Archive.",
+    "openQuestions": [
+      "Hi ha alguna via de baixa autoservei a yaencontre que no estigui documentada públicament?",
+      "El canal de vulnerabilitats d’idealista cobreix també els dominis i les aplicacions de yaencontre?"
+    ]
+  },
+  "appStoreBundleId": "com.yaencontre.vivienda"
+}

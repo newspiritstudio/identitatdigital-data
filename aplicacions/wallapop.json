@@ -1,0 +1,610 @@
+{
+  "slug": "wallapop",
+  "name": "Wallapop - Vende y compra",
+  "company": "wallapop",
+  "categories": [
+    "compravenda-entre-particulars",
+    "comerc-electronic"
+  ],
+  "tagline": "Mercat de segona mà que declara ubicació, contactes i identificadors utilitzats per rastrejar, i que guarda dades fiscals fins a deu anys per la DAC7",
+  "summary": "Wallapop és un mercat entre particulars amb enviament i pagament integrats, de manera que combina l’historial de compravenda amb la ubicació, els mitjans de pagament i les converses. La política detalla els terminis per finalitat (cinc anys per a l’anàlisi de frau i les reclamacions, fins a deu anys per a les obligacions fiscals de la DAC7) i limita la publicitat de tercers al consentiment exprés, amb Meta, Google i LiveRamp com a destinataris. L’etiqueta de l’App Store, però, declara ubicació, dades de contacte, identificadors i dades d’ús utilitzats per rastrejar.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://es.wallapop.com/",
+    "privacyPolicy": "https://about.wallapop.com/politica-privacidad/",
+    "appStore": "https://apps.apple.com/es/app/id692753615",
+    "playStore": "https://play.google.com/store/apps/details?id=com.wallapop"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "wallapop-privacy-policy"
+    ],
+    "detail": "La política descriu el registre com el tractament de base per fer servir la plataforma, amb les dades identificatives conservades fins que s’elimina el compte.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "wallapop-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "El que una persona compra i ven de segona mà, sumat a la ubicació precisa, l’adreça d’enviament i les converses amb compradors, revela on viu, quina és la seva situació econòmica i quins canvis hi ha a la seva vida. Per a qui ven per damunt dels llindars de la DAC7, Wallapop hi afegeix dades fiscals identificatives que comunica a l’administració.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "wallapop-privacy-policy",
+        "wallapop-app-store",
+        "wallapop-play-data-safety"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "wallapop-app-store",
+        "wallapop-privacy-policy"
+      ],
+      "note": "L’etiqueta de l’App Store la declara per al màrqueting del desenvolupador i entre les dades de contacte utilitzades per rastrejar."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "wallapop-play-data-safety",
+        "wallapop-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "wallapop-play-data-safety",
+        "wallapop-privacy-policy"
+      ],
+      "note": "Es comunica a les empreses de logística per al lliurament dels enviaments."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "wallapop-app-store",
+        "wallapop-play-data-safety"
+      ],
+      "note": "L’etiqueta declara la ubicació entre les dades utilitzades per rastrejar; és central per mostrar anuncis propers."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "wallapop-play-data-safety",
+        "wallapop-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "wallapop-privacy-policy",
+        "wallapop-play-data-safety"
+      ],
+      "note": "Els pagaments els gestiona Mangopay S.A., entitat de diner electrònic luxemburguesa."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "wallapop-privacy-policy"
+      ],
+      "note": "Les transaccions alimenten també les obligacions d’informació fiscal de la DAC7."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "wallapop-privacy-policy"
+      ],
+      "note": "La política preveu el tractament de les converses per atendre reclamacions i analitzar el frau."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "wallapop-play-data-safety",
+        "wallapop-app-store"
+      ]
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "wallapop-privacy-policy"
+      ],
+      "note": "Dades fiscals identificatives que Wallapop ha de recollir i comunicar per la DAC7 quan es depassen els llindars de venda."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "wallapop-app-store",
+        "wallapop-play-data-safety"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-publicitaria",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "wallapop-app-store",
+        "wallapop-privacy-policy"
+      ],
+      "note": "Només amb consentiment exprés a través del gestor de consentiment, amb Meta Platforms Ireland, Google Ireland i LiveRamp France com a destinataris."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "recomanacions-algoritmiques",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "wallapop-app-store",
+        "wallapop-play-data-safety",
+        "wallapop-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "wallapop-app-store",
+        "wallapop-play-data-safety"
+      ]
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "wallapop-privacy-policy"
+      ],
+      "note": "Les recomanacions de productes es basen en l’interès legítim i s’hi pot fer oposició."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wallapop-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store declara ubicació, dades de contacte, identificadors i dades d’ús com a utilitzats per rastrejar-te entre aplicacions i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wallapop-privacy-policy",
+        "wallapop-app-store"
+      ],
+      "detail": "La política preveu la cessió d’identificadors a socis publicitaris amb consentiment exprés recollit pel gestor de consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wallapop-privacy-policy"
+      ],
+      "detail": "Meta Platforms Ireland, Google Ireland i LiveRamp France apareixen com a destinataris publicitaris.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wallapop-privacy-policy",
+        "wallapop-app-store"
+      ],
+      "detail": "Publicitat personalitzada basada en el consentiment exprés; l’etiqueta declara identificador d’usuari, interacció amb el producte i dades publicitàries per a «publicitat de tercers».",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wallapop-privacy-policy"
+      ],
+      "detail": "Recomanacions i ordenació de continguts a partir del comportament, amb l’interès legítim com a base i dret d’oposició; també anàlisi de frau, que es conserva cinc anys.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu l’ús de les dades per entrenar models d’intel·ligència artificial."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wallapop-privacy-policy",
+        "wallapop-play-data-safety"
+      ],
+      "detail": "Entitats financeres i el proveïdor de pagaments Mangopay, empreses de logística, proveïdors tecnològics i d’atenció al client, administracions i autoritats, i socis publicitaris amb consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu comunicacions a altres empreses d’un grup."
+    },
+    "dataBrokerSales": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "wallapop-privacy-policy"
+      ],
+      "detail": "No hi ha venda de dades, però amb consentiment exprés se’n cedeixen a LiveRamp France, una empresa d’identitat publicitària, i a Meta i Google.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wallapop-privacy-policy"
+      ],
+      "detail": "La política preveu transferències fora de l’Espai Econòmic Europeu emparades en el Data Privacy Framework o en clàusules contractuals tipus.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wallapop-privacy-policy"
+      ],
+      "detail": "La política fixa terminis per finalitat en una taula de bases jurídiques: dades de registre fins a l’eliminació del compte, anàlisi de frau cinc anys, reclamacions cinc anys, obligacions fiscals de la DAC7 fins a deu anys.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wallapop-privacy-policy"
+      ],
+      "detail": "Després de tancar el compte es conserven les dades necessàries per al frau, les reclamacions i les obligacions fiscals, i les de les persones usuàries professionals durant sis mesos per la normativa de serveis digitals.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "identificador-de-compte",
+        "period": "Fins que s’elimina el compte",
+        "sources": [
+          "wallapop-privacy-policy"
+        ]
+      },
+      {
+        "period": "Cinc anys per a l’anàlisi de frau i per a les reclamacions",
+        "sources": [
+          "wallapop-privacy-policy"
+        ]
+      },
+      {
+        "period": "Fins a deu anys per a les obligacions fiscals derivades de la DAC7",
+        "sources": [
+          "wallapop-privacy-policy"
+        ]
+      },
+      {
+        "period": "Sis mesos després del tancament per a les dades de persones usuàries professionals (Reglament de serveis digitals)",
+        "sources": [
+          "wallapop-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wallapop-privacy-policy"
+      ],
+      "detail": "La política reconeix el dret de supressió i lliga la conservació de les dades de registre a l’eliminació del compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut verificar en documentació oficial si l’opció d’eliminar el compte és dins de l’aplicació."
+    },
+    "difficulty": "unknown",
+    "requiresSupportContact": false,
+    "steps": [
+      "Escriu a privacidad@wallapop.com, o al delegat de protecció de dades a dpo.wallapop@wallapop.com, i demana la supressió del compte i de les dades.",
+      "Per correu postal, adreça’t a Wallapop, S.L.U., Avenida Meridiana 89, 6a planta, 08026 Barcelona.",
+      "Si no et responen dins del termini, pots reclamar davant de l’Agencia Española de Protección de Datos."
+    ],
+    "obstacles": "La política no descriu cap procediment d’autoservei dins de l’aplicació; els canals documentats són els de correu electrònic i postal.",
+    "dataRetained": "Dades d’anàlisi de frau i de reclamacions durant cinc anys i dades fiscals fins a deu anys.",
+    "sources": [
+      "wallapop-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "wallapop-privacy-policy"
+      ],
+      "detail": "La política reconeix el dret de portabilitat, però no descriu cap eina d’autoservei per descarregar les dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wallapop-privacy-policy"
+      ],
+      "detail": "Drets d’accés, rectificació, supressió, oposició, limitació i portabilitat a privacidad@wallapop.com o al delegat de protecció de dades dpo.wallapop@wallapop.com.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wallapop-privacy-policy"
+      ],
+      "detail": "La publicitat de tercers depèn del consentiment exprés recollit pel gestor de consentiment, que es pot retirar; les recomanacions basades en l’interès legítim es poden objectar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "wallapop-privacy-policy"
+      ],
+      "detail": "Part de l’analítica es basa en l’interès legítim, amb dret d’oposició, i la resta en el consentiment de galetes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wallapop-privacy-policy"
+      ],
+      "detail": "La política presenta una taula de finalitats amb la base jurídica i el termini de cada una, i consentiments separats per a la publicitat de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi independent dels formularis de consentiment actuals de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu xifratge d’extrem a extrem per a la missatgeria interna."
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap document oficial que descrigui el xifratge en trànsit."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no concreta les mesures tècniques de xifratge en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació oficial sobre la verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat auditories ni certificacions de seguretat publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Hi ha una pàgina a HackerOne amb el nom de Wallapop, però el contingut no es pot llegir sense JavaScript i no hem pogut verificar-ne l’abast ni si el programa és actiu."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap security.txt ni cap canal públic documentat per notificar vulnerabilitats."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "vinted",
+      "comparability": "partial",
+      "rationale": "Mercat de segona mà especialitzat en roba, amb eliminació del compte d’autoservei i descàrrega de dades des del centre de privadesa.",
+      "tradeOffs": "La política de privadesa no es deixa llegir i l’autoritat lituana l’ha sancionada per la gestió dels drets de supressió i d’accés."
+    },
+    {
+      "app": "milanuncios",
+      "comparability": "partial",
+      "rationale": "Anuncis classificats sense pagament ni enviament integrats: es comparteixen menys dades per completar una venda.",
+      "tradeOffs": "Sense protecció del comprador ni sistema de valoracions equivalent."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "La política de privadesa, revisada el 24 de febrer del 2026, és completa: presenta una taula amb la finalitat, la base jurídica i el termini de conservació de cada tractament, i identifica els socis publicitaris pel nom. En canvi, la política no reflecteix del tot el que declara l’etiqueta de l’App Store, que inclou ubicació, dades de contacte, identificadors i dades d’ús utilitzats per rastrejar. Els apartats de seguretat tècnica queden pràcticament sense documentar.",
+    "openQuestions": [
+      "Es pot eliminar el compte des de l’aplicació sense escriure a privacidad@wallapop.com?",
+      "El programa de HackerOne amb el nom de Wallapop és actiu i públic?",
+      "Wallapop ha rebut sancions o requeriments de l’AEPD? No hem pogut completar la cerca d’incidents perquè els cercadors no eren disponibles."
+    ]
+  },
+  "appStoreBundleId": "com.secondhanding.WallaPop"
+}

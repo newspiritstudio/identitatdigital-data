@@ -1,0 +1,566 @@
+{
+  "slug": "flashscore",
+  "name": "Flashscore",
+  "company": "livesport",
+  "categories": [
+    "esports-i-resultats"
+  ],
+  "tagline": "Resultats en directe finançats per dinou socis publicitaris i amb terminis de conservació concrets",
+  "summary": "Flashscore es pot fer servir sense compte i la política de Livesport és de les poques d’aquesta onada que posa números a cada termini de conservació: un mes per a les dades tècniques, quatre anys per al consentiment de màrqueting, cinc per a les enquestes. El servei es finança amb publicitat: hi ha una llista pública de dinou socis publicitaris i l’etiqueta de l’App Store declara identificadors utilitzats per rastrejar.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "advertising",
+  "jurisdiction": "República Txeca",
+  "userBase": "Una de les aplicacions de resultats esportius més descarregades d’Europa",
+  "links": {
+    "website": "https://www.flashscore.es/",
+    "privacyPolicy": "https://www.livesport.eu/privacy-policy/es/",
+    "appStore": "https://apps.apple.com/es/app/id766443283"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "flashscore-privacy-policy"
+    ],
+    "detail": "Els resultats i les notificacions funcionen sense compte; el compte només cal per sincronitzar favorits entre dispositius i es pot obrir amb Google, Apple o Meta.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "flashscore-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Els equips i les competicions que se segueixen, i les hores en què es consulten, formen un perfil d’aficionat útil per al mercat publicitari esportiu, que és el que interessa als socis programàtics. Si el compte s’ha obert amb Google, Apple o Meta, aquest perfil queda lligat també a una identitat real.",
+  "dataCollection": [
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "flashscore-privacy-policy",
+        "flashscore-app-store"
+      ],
+      "note": "Només si s’obre compte; el registre es pot fer amb Google, Apple o Meta, que en reben constància."
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "compliment-legal"
+      ],
+      "sources": [
+        "flashscore-privacy-policy"
+      ],
+      "note": "La política parla de l’edat, per complir els límits d’edat del servei."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "flashscore-app-store"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "flashscore-app-store",
+        "flashscore-third-parties"
+      ],
+      "note": "L’etiqueta declara identificadors utilitzats per rastrejar. Els socis inclouen Google, Criteo, Index Exchange, Magnite, Xandr, OpenX, PubMatic, Teads, InMobi, Smaato i A9 (Amazon)."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "flashscore-privacy-policy",
+        "flashscore-third-parties"
+      ],
+      "note": "L’analítica d’atribució es fa amb AppsFlyer."
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "flashscore-privacy-policy"
+      ],
+      "note": "El consentiment es gestiona amb la plataforma OneTrust."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "flashscore-privacy-policy"
+      ],
+      "note": "Les dades tècniques es conserven un mes si no hi ha compte."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "flashscore-app-store"
+      ],
+      "note": "L’etiqueta la declara com a dada no vinculada, utilitzada per publicitat de tercers."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "flashscore-app-store",
+        "flashscore-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "flashscore-privacy-policy"
+      ],
+      "note": "Els equips i les competicions seguits configuren el contingut de l’aplicació."
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "investigacio-i-estadistica",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "flashscore-privacy-policy"
+      ],
+      "note": "Respostes a enquestes, fetes amb Alchemer i conservades cinc anys."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "flashscore-app-store"
+      ],
+      "note": "Subscripció per treure la publicitat."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "flashscore-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "flashscore-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "flashscore-app-store"
+      ],
+      "note": "L’etiqueta només declara ubicació aproximada."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "flashscore-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store declara identificadors utilitzats per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "flashscore-third-parties"
+      ],
+      "detail": "La llista pública de tercers inclou intercanvis programàtics que treballen amb l’identificador publicitari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "flashscore-third-parties"
+      ],
+      "detail": "Dinou socis declarats, entre ells Google Ireland, Criteo, Index Exchange, Magnite, Xandr, Teads, OpenX, PubMatic, Smaato, Verve, InMobi i A9.com (Amazon), més AppsFlyer per a l’atribució.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "flashscore-privacy-policy",
+        "flashscore-third-parties"
+      ],
+      "detail": "La publicitat programàtica personalitzada depèn del consentiment recollit amb OneTrust.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "flashscore-privacy-policy"
+      ],
+      "detail": "La política descriu personalització de contingut i de màrqueting, però no reconeix explícitament l’elaboració de perfils com a tal.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu res sobre l’ús de dades per entrenar models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "flashscore-privacy-policy",
+        "flashscore-third-parties"
+      ],
+      "detail": "Socis publicitaris i d’analítica, proveïdors d’allotjament, serveis de registre de Google, Apple i Meta, autoritats i assessors.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "flashscore-privacy-policy"
+      ],
+      "detail": "Compartició amb altres entitats del grup Livesport.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu explícitament si ven dades personals a intermediaris."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "flashscore-privacy-policy"
+      ],
+      "detail": "Només a països amb decisió d’adequació o amb clàusules contractuals tipus.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "flashscore-privacy-policy"
+      ],
+      "detail": "La política dona terminis concrets per a gairebé totes les categories, cosa poc habitual.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "flashscore-privacy-policy"
+      ],
+      "detail": "Després de cancel·lar el compte es conserven dades per a la defensa de drets durant un mínim de tres anys.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "adreca-ip",
+        "period": "Un mes si no hi ha compte; mentre el compte sigui actiu, si n’hi ha",
+        "sources": [
+          "flashscore-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "adreca-electronica",
+        "period": "Quatre anys des del consentiment, per al màrqueting",
+        "sources": [
+          "flashscore-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "publicacions-i-comentaris",
+        "period": "Cinc anys per a les respostes a enquestes",
+        "sources": [
+          "flashscore-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "identificador-de-compte",
+        "period": "Esborrat automàtic després de tres anys d’inactivitat",
+        "sources": [
+          "flashscore-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "flashscore-privacy-policy"
+      ],
+      "detail": "El dret de supressió s’exerceix escrivint a privacy@livesport.eu, i hi ha esborrat automàtic per inactivitat de tres anys.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut verificar amb una font oficial que hi hagi un botó d’eliminació dins de l’aplicació."
+    },
+    "difficulty": "unknown",
+    "requiresSupportContact": true,
+    "steps": [
+      "Escriu a privacy@livesport.eu invocant el dret de supressió de l’article 17 del RGPD.",
+      "Si no en tens resposta, adreça’t al delegat de protecció de dades a dpo@livesport.eu.",
+      "Com a alternativa passiva, deixa d’utilitzar el compte: a partir de tres anys d’inactivitat les dades personals s’esborren."
+    ],
+    "dataRetained": "Dades necessàries per a la defensa de drets durant un mínim de tres anys des de la cancel·lació, i el que exigeixin les obligacions legals.",
+    "sources": [
+      "flashscore-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "flashscore-privacy-policy"
+      ],
+      "detail": "La portabilitat es reconeix a la política, però no hi ha cap eina d’autoservei documentada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "flashscore-privacy-policy"
+      ],
+      "detail": "Delegat de protecció de dades designat i identificat a la política.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dpo@livesport.eu"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "flashscore-privacy-policy"
+      ],
+      "detail": "Hi ha una «Configuración de privacidad» al web i a l’aplicació, gestionada amb OneTrust, que permet retirar el consentiment publicitari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "flashscore-privacy-policy"
+      ],
+      "detail": "L’analítica es pot rebutjar al tauler de consentiment, però el funcionament bàsic i la seguretat es tracten per interès legítim.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "flashscore-privacy-policy"
+      ],
+      "detail": "El tauler de consentiment separa les finalitats i els socis.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi independent de patrons foscos de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no transporta comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "flashscore-privacy-policy"
+      ],
+      "detail": "El servei i la política s’ofereixen exclusivament sobre HTTPS.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública sobre el xifratge de les dades en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap opció de verificació en dos passos documentada."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories ni certificacions publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses públic."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Ni flashscore.es ni livesport.eu publiquen un fitxer security.txt; tots dos retornen 404."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La política de Livesport dona terminis numèrics per categoria i una llista pública i nominal dels socis publicitaris, cosa que hauria de ser habitual. L’etiqueta declara rastreig, però el que diu la política es pot comprovar.",
+    "openQuestions": [
+      "Hi ha un botó d’eliminació del compte dins de l’aplicació o cal escriure sempre a privacy@livesport.eu?",
+      "Quines mesures tècniques de seguretat aplica Livesport? No en publica cap documentació."
+    ]
+  },
+  "appStoreBundleId": "eu.livesport.FlashScore-com"
+}

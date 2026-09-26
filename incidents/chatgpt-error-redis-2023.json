@@ -1,0 +1,17 @@
+{
+  "slug": "chatgpt-error-redis-2023",
+  "title": "Un error de ChatGPT va exposar títols de converses i dades de pagament parcials",
+  "type": "leak",
+  "severity": "medium",
+  "apps": [
+    "chatgpt"
+  ],
+  "company": "openai",
+  "occurredAt": "2023-03-20",
+  "disclosedAt": "2023-03-24",
+  "description": "Un error en una biblioteca de codi obert, redis-py, va fer que algunes persones veiessin títols de l’historial d’altres. Durant una finestra de nou hores, part dels subscriptors Plus van poder veure el nom, el correu, l’adreça de facturació, els quatre últims dígits i la caducitat de la targeta d’altres persones. OpenAI va aturar el servei per corregir-ho.",
+  "affectedPeople": "Un 1,2 % dels subscriptors de ChatGPT Plus actius durant la finestra de nou hores.",
+  "sources": [
+    "openai-march-2023-outage"
+  ]
+}

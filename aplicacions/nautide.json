@@ -1,0 +1,312 @@
+{
+  "slug": "nautide",
+  "name": "Nautide: Mareas, Viento, Olas+",
+  "company": "igoox",
+  "categories": [
+    "meteorologia"
+  ],
+  "tagline": "L’enllaç de «política de privadesa» porta a unes condicions d’ús que no parlen de dades personals",
+  "summary": "Nautide, l’aplicació oficial de Tabla de Mareas, dona marees, vent, onatge i activitat solunar de més de 25.000 estacions. L’adreça que l’App Store presenta com a política de privadesa conté un document de condicions d’ús del 2018 que no esmenta ni dades personals, ni el RGPD, ni cap dret. L’etiqueta de l’App Store, en canvi, declara que l’identificador de dispositiu i les dades de publicitat es fan servir per rastrejar-te.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://nautide.com/",
+    "terms": "https://nautide.com/privacy",
+    "appStore": "https://apps.apple.com/es/app/id1413108902"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "nautide-app-store",
+      "nautide-terms"
+    ],
+    "detail": "La fitxa descriu una descàrrega gratuïta amb subscripció opcional i l’etiqueta no declara cap dada vinculada a la identitat.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": []
+  },
+  "dataSummary": "Segons l’etiqueta, l’identificador del dispositiu i les dades publicitàries s’envien a tercers per rastrejar-te. Com que no hi ha política de privadesa, no sabem a quins.",
+  "dataCollection": [
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "nautide-app-store"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "nautide-app-store"
+      ],
+      "note": "L’etiqueta ho declara com a «datos de publicidad» dins dels identificadors usats per rastrejar."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "nautide-app-store"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "unknown",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "sources": [
+        "nautide-app-store"
+      ],
+      "note": "L’aplicació mostra l’estació més propera, però l’etiqueta no declara cap dada d’ubicació i no hi ha política que ho expliqui."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "nautide-app-store"
+      ],
+      "detail": "L’etiqueta declara l’identificador de dispositiu i les dades de publicitat com a dades usades per rastrejar-te.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "nautide-app-store"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "nautide-app-store"
+      ],
+      "detail": "L’etiqueta diu que hi ha publicitat de tercers, però no hi ha cap document que els identifiqui.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "nautide-app-store"
+      ],
+      "detail": "Publicitat de tercers com a única finalitat declarada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "nautide-app-store"
+      ],
+      "detail": "Publicitat de tercers; les condicions d’ús no descriuen cap destinatari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap document que ho expliqui."
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha política de privadesa."
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha compte documentat ni cap document que expliqui com esborrar les dades."
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "difficulty": "unknown",
+    "obstacles": "L’única via de contacte és el formulari de suport del web.",
+    "sources": [
+      "nautide-terms"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Les condicions d’ús no esmenten cap dret de protecció de dades ni cap responsable de contacte."
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Només la limitació del seguiment que ofereix el sistema operatiu."
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Servei d’informació meteorològica i marítima: no hi ha comunicació privada entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "nautide-terms"
+      ],
+      "detail": "Les condicions diuen que l’aplicació es connecta per SSL al servidor d’Igoox; no hi ha cap altra descripció tècnica.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha security.txt a nautide.com."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "windfinder",
+      "comparability": "partial",
+      "rationale": "Cobreix vent, onatge i marees amb una política de privadesa detallada i un esborrat de compte d’autoservei.",
+      "tradeOffs": "Les taules de marees i l’activitat solunar són menys completes."
+    }
+  ],
+  "review": {
+    "researchStatus": "initial",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Cap filtració associada a nautide.com a Have I Been Pwned. Hem comprovat que https://nautide.com/privacy i https://nautide.com/usage-terms serveixen el mateix document de condicions d’ús, sense cap apartat de privadesa: gairebé tota la fitxa depèn de l’etiqueta de l’App Store.",
+    "openQuestions": [
+      "Existeix en algun lloc una política de privadesa de Nautide?",
+      "Quina xarxa publicitària fa servir i quines dades li envia?",
+      "L’aplicació demana la ubicació del dispositiu o només la localitat triada?"
+    ]
+  },
+  "appStoreBundleId": "com.nautide.app"
+}

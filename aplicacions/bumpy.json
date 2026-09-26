@@ -1,0 +1,617 @@
+{
+  "slug": "bumpy",
+  "name": "Bumpy",
+  "company": "mv-bumpy-group",
+  "categories": [
+    "cites"
+  ],
+  "tagline": "Comparteix els perfils amb l’aplicació germana per a homes gais, activat per defecte",
+  "summary": "Bumpy és una aplicació de cites internacionals amb una política de privadesa inusualment detallada: corresponsabilitat de l’article 26 entre una societat de Delaware i una de Xipre, taula completa de bases jurídiques i de terminis i xifratge AES-256 en repòs. Però si dius que busques una parella del mateix sexe, el teu perfil també es mostra a Wonder, l’aplicació germana per a homes gais. Ve activat per defecte i només es desactiva enviant un correu.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Xipre (Unió Europea) i Estats Units",
+  "links": {
+    "website": "https://bumpy.app/",
+    "privacyPolicy": "https://bumpy.app/privacy-policy",
+    "appStore": "https://apps.apple.com/es/app/id1455336523"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "bumpy-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "bumpy-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Qui t’agrada, quina cara tens i on ets. Entre les dades que recull hi ha orientació sexual, conviccions religioses, origen ètnic i plantilles de geometria facial: categories especials de l’article 9 del RGPD.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bumpy-app-store",
+        "bumpy-privacy-policy"
+      ]
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "bumpy-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bumpy-privacy-policy"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bumpy-privacy-policy"
+      ]
+    },
+    {
+      "type": "orientacio-sexual",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "bumpy-app-store",
+        "bumpy-privacy-policy"
+      ],
+      "note": "La preferència de gènere que busques fa que el perfil es mostri també a Wonder, l’aplicació germana per a homes gais, per defecte."
+    },
+    {
+      "type": "conviccions-i-opinions",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bumpy-privacy-policy"
+      ],
+      "note": "Religió o creences filosòfiques, amb consentiment exprés."
+    },
+    {
+      "type": "origen-etnic-o-nacionalitat",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bumpy-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "bumpy-app-store",
+        "bumpy-privacy-policy"
+      ],
+      "note": "Plantilles de geometria facial generades a la verificació de la foto; el resum de la cara de qui és expulsat es guarda fins a sis anys."
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "bumpy-privacy-policy"
+      ],
+      "note": "S’esborra com a molt tard 72 hores després de la verificació."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bumpy-app-store",
+        "bumpy-privacy-policy"
+      ]
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "bumpy-privacy-policy"
+      ],
+      "note": "Xats, trucades de veu i vídeo; es tradueixen i es moderen amb eines d’intel·ligència artificial."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bumpy-app-store",
+        "bumpy-privacy-policy"
+      ],
+      "note": "Per defecte només ubicació aproximada per IP; el GPS només si actives la verificació d’ubicació o el mapa."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bumpy-app-store",
+        "bumpy-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "bumpy-app-store",
+        "bumpy-privacy-policy"
+      ],
+      "note": "Només amb consentiment: a l’EEE l’analítica i el màrqueting estan desactivats per defecte."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "bumpy-app-store",
+        "bumpy-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "bumpy-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bumpy-app-store"
+      ],
+      "detail": "L’etiqueta declara identificadors i dades d’ús com a dades utilitzades per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bumpy-privacy-policy"
+      ],
+      "detail": "Identificadors publicitaris, només amb consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bumpy-privacy-policy"
+      ],
+      "detail": "Els SDK d’analítica i de màrqueting estan desactivats per defecte a l’EEE, el Regne Unit i Suïssa.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bumpy-privacy-policy"
+      ],
+      "detail": "Només amb consentiment previ a l’EEE.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bumpy-privacy-policy"
+      ],
+      "detail": "Recomanacions i emparellaments, també entre Bumpy i Wonder.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bumpy-privacy-policy"
+      ],
+      "detail": "Fa servir eines d’IA per traduir els missatges i per moderar continguts; no diu que entreni models propis amb les converses.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bumpy-privacy-policy"
+      ],
+      "detail": "Allotjament, pagaments, verificació d’identitat i d’edat, antifrau, traducció i IA, cartografia i atenció a l’usuari, amb contracte d’encarregat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bumpy-privacy-policy"
+      ],
+      "detail": "Bumpy i Wonder comparteixen infraestructura i, en el cas descrit, la visibilitat dels perfils.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "bumpy-privacy-policy"
+      ],
+      "detail": "«We do not sell personal data for money», ni tampoc dades sensibles ni identificadors biomètrics per a publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bumpy-privacy-policy"
+      ],
+      "detail": "Clàusules contractuals tipus 2021/914, Data Privacy Framework quan el destinatari hi està certificat i, excepcionalment, l’article 49.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bumpy-privacy-policy"
+      ],
+      "detail": "Taula completa de terminis per a cada tipus de dada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bumpy-privacy-policy"
+      ],
+      "detail": "Vint-i-vuit dies de supressió suau, i després queden les dades de transaccions, els registres de consentiment i les proves de les expulsions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "document-identificatiu-oficial",
+        "period": "Fins a 72 hores després de la verificació",
+        "sources": [
+          "bumpy-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "ubicacio-precisa",
+        "period": "24-48 hores a la cua de supressió després de tancar el compte",
+        "sources": [
+          "bumpy-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "dades-biometriques",
+        "period": "El resum facial de les persones expulsades, fins a 6 anys",
+        "sources": [
+          "bumpy-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "historial-de-compres",
+        "period": "Fins a 10 anys per obligacions fiscals",
+        "sources": [
+          "bumpy-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "adreca-ip",
+        "period": "Registres de servidor i de seguretat, fins a 12 mesos",
+        "sources": [
+          "bumpy-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bumpy-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política descriu la supressió suau i els terminis, però no documenta el camí dins de l’aplicació."
+    },
+    "difficulty": "unknown",
+    "waitingPeriodDays": 28,
+    "dataRetained": "Transaccions fins a deu anys, registres de consentiment i de l’exclusió voluntària de la visibilitat creuada fins a sis anys, i proves de les expulsions fins a sis anys.",
+    "obstacles": "El compte queda vint-i-vuit dies en supressió suau abans d’esborrar-se, i les còpies dels perfils que ja s’han enviat a altres persones no es poden recuperar.",
+    "sources": [
+      "bumpy-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bumpy-privacy-policy"
+      ],
+      "detail": "Dret de portabilitat en format estructurat i llegible per màquina, a petició a legal@bumpy.app.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bumpy-privacy-policy"
+      ],
+      "detail": "Per correu a legal@bumpy.app o des de «Contact us» a la configuració, amb resposta en un mes.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:legal@bumpy.app"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bumpy-privacy-policy"
+      ],
+      "detail": "Interruptors separats al registre per al màrqueting i per a l’analítica i la publicitat, desactivats per defecte a l’EEE.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bumpy-privacy-policy"
+      ],
+      "detail": "L’analítica no essencial requereix consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bumpy-privacy-policy"
+      ],
+      "detail": "El consentiment és granular camp a camp per a les dades sensibles, però la visibilitat creuada amb Wonder no té interruptor: s’ha de demanar per correu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bumpy-privacy-policy"
+      ],
+      "detail": "La visibilitat creuada amb l’aplicació per a homes gais ve activada per defecte i l’única sortida és escriure un correu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "preselected",
+        "severity": "high",
+        "description": "Si la preferència de gènere indica que busques una parella del mateix sexe, el perfil es mostra també a Wonder sense demanar-ho. La política ho reconeix i diu que l’exclusió voluntària és provisional fins que hi hagi un flux de consentiment dins de l’aplicació.",
+        "sources": [
+          "bumpy-privacy-policy"
+        ]
+      },
+      {
+        "type": "hidden-exit",
+        "severity": "medium",
+        "description": "Per desactivar aquesta visibilitat creuada cal enviar un correu a support@bumpy.app: no hi ha cap opció a la configuració.",
+        "sources": [
+          "bumpy-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "bumpy-privacy-policy"
+      ],
+      "detail": "Els missatges es tradueixen i es moderen amb eines automàtiques, i el xifratge que es documenta és en trànsit i en repòs.",
+      "verifiedAt": "2026-09-22",
+      "scope": "none"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bumpy-privacy-policy"
+      ],
+      "detail": "TLS.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bumpy-privacy-policy"
+      ],
+      "detail": "AES-256.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha ni programa de recompenses ni fitxer security.txt."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bumpy-privacy-policy"
+      ],
+      "detail": "La política demana comunicar els problemes de seguretat a support@bumpy.app i descriu un procés de notificació de bretxes en 72 hores a l’autoritat xipriota.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "El web de Bumpy es genera al navegador; la política s’ha llegit del mòdul JavaScript que la conté, no d’una pàgina servida com a HTML.",
+    "openQuestions": [
+      "Quin és el camí exacte per eliminar el compte des de l’aplicació?",
+      "Quin tractament fa Bumpy de la preferència de gènere per no considerar-la una dada d’orientació sexual, tal com sosté la política?"
+    ]
+  },
+  "appStoreBundleId": "com.super-smash.bumpy"
+}

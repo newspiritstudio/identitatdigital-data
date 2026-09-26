@@ -1,0 +1,402 @@
+{
+  "slug": "taco-bell",
+  "name": "Taco Bell España",
+  "company": "restabell-franquicias",
+  "categories": [
+    "alimentacio-i-restauracio",
+    "repartiment-a-domicili"
+  ],
+  "tagline": "Fitxa curta perquè la política no es deixa llegir: l’App Store no declara rastreig i Google Play diu que no comparteix cap dada amb tercers",
+  "summary": "L’aplicació de Taco Bell a Espanya la publica Restabell Franquícias, el franquiciat principal de la marca de Yum! Brands, tot i que a Google Play el desenvolupador que hi consta és Taco Bell UK and Europe Limited. Les dues etiquetes de botiga són contingudes: cap dada utilitzada per rastrejar a l’App Store i cap compartició amb tercers a Google Play. La política de privadesa, en canvi, no es pot llegir perquè el web es carrega amb JavaScript.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://www.tacobell.es/",
+    "appStore": "https://apps.apple.com/es/app/id6477913043",
+    "playStore": "https://play.google.com/store/apps/details?id=es.tacobell.app"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "taco-bell-play-data-safety",
+      "taco-bell-app-store"
+    ],
+    "detail": "Les dues fitxes de botiga declaren la recollida de nom, correu i identificadors d’usuari per al funcionament de l’aplicació.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "taco-bell-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Les comandes de menjar ràpid, amb l’adreça de lliurament i la targeta de pagament, revelen els horaris, el barri i la despesa habitual d’una persona.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "taco-bell-app-store",
+        "taco-bell-play-data-safety"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "taco-bell-app-store",
+        "taco-bell-play-data-safety"
+      ],
+      "note": "Google Play declara que el correu es fa servir també per a publicitat i màrqueting."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "taco-bell-app-store",
+        "taco-bell-play-data-safety"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "taco-bell-play-data-safety"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "taco-bell-play-data-safety"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "taco-bell-app-store",
+        "taco-bell-play-data-safety"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "taco-bell-app-store"
+      ],
+      "note": "L’etiqueta la declara no vinculada a la identitat."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "taco-bell-app-store",
+        "taco-bell-play-data-safety"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "taco-bell-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada utilitzada per rastrejar-te entre aplicacions i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Les fitxes de botiga no declaren identificadors publicitaris, però Google Play indica que el correu es fa servir per a publicitat i màrqueting."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut llegir la política de privadesa, que és on constarien les tecnologies de seguiment."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "taco-bell-play-data-safety"
+      ],
+      "detail": "La fitxa de Google Play declara que l’adreça electrònica es fa servir per a publicitat i màrqueting, sense compartir-la amb tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut llegir la política de privadesa i les fitxes de botiga no declaren elaboració de perfils."
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap document oficial sobre l’ús de dades per entrenar models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "taco-bell-play-data-safety"
+      ],
+      "detail": "La fitxa de Google Play declara expressament que no es comparteix cap dada amb tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut llegir la política de privadesa, que és on constarien les comunicacions a Yum! Brands o a Taco Bell UK and Europe."
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap document oficial que ho descrigui ni que ho descarti."
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut llegir la política de privadesa, que és on constarien les transferències internacionals."
+    }
+  },
+  "transparency": {
+    "policyClarity": "unknown",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut llegir la política de privadesa, que és on hi hauria els terminis de conservació."
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació oficial sobre què es conserva després d’eliminar el compte."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "taco-bell-play-data-safety"
+      ],
+      "detail": "La fitxa de Google Play declara que es pot demanar l’eliminació de les dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut verificar si l’eliminació es fa des de l’aplicació ni quins són els passos reals."
+    },
+    "difficulty": "unknown",
+    "requiresSupportContact": false,
+    "steps": [],
+    "sources": [
+      "taco-bell-play-data-safety"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap eina ni cap document oficial sobre la descàrrega de les dades."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut llegir la política de privadesa, que és on constaria el canal per exercir els drets."
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació oficial sobre com retirar el consentiment per a les comunicacions comercials."
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació oficial sobre com desactivar l’analítica d’ús."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut verificar quins controls de privadesa ofereix l’aplicació."
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi independent dels formularis de consentiment de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És una aplicació de comanda de menjar, sense comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "taco-bell-play-data-safety"
+      ],
+      "detail": "La fitxa de Google Play declara que les dades es xifren en trànsit.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat informació pública sobre el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació oficial sobre la verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat auditories ni certificacions de seguretat publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa públic de recompenses per vulnerabilitats."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap security.txt ni cap canal públic documentat per notificar vulnerabilitats."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "burger-king",
+      "comparability": "equivalent",
+      "rationale": "Cadena de menjar ràpid amb comanda i lliurament a domicili del mateix grup operador a Espanya.",
+      "tradeOffs": "Comparteix bona part de l’estructura de tractament i de l’etiqueta de privadesa."
+    },
+    {
+      "app": "kfc",
+      "comparability": "equivalent",
+      "rationale": "Alternativa directa de comanda de menjar ràpid, amb una política de privadesa espanyola pròpia.",
+      "tradeOffs": "L’AEPD ja va sancionar KFC España per no tenir delegat de protecció de dades i per una política incompleta."
+    }
+  ],
+  "review": {
+    "researchStatus": "initial",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "El web de Taco Bell España està fet amb Angular i no serveix cap contingut sense JavaScript, de manera que no hem pogut llegir la política de privadesa ni per l’arxiu web. La fitxa es basa només en les dues etiquetes de botiga i queda com a «initial». L’editor no coincideix a les dues botigues: a l’App Store el venedor és Restabell Franquícias, S.L., i a Google Play, Taco Bell UK and Europe Limited.",
+    "openQuestions": [
+      "Qui és el responsable del tractament de l’aplicació: Restabell Franquícias o Taco Bell UK and Europe Limited?",
+      "Què diu la política de privadesa sobre terminis, destinataris i transferències internacionals?",
+      "Com s’elimina el compte i què es conserva després?"
+    ]
+  },
+  "appStoreBundleId": "es.tacobell.app"
+}

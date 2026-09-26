@@ -1,0 +1,594 @@
+{
+  "slug": "snapchat",
+  "name": "Snapchat",
+  "company": "snap",
+  "categories": [
+    "missatgeria",
+    "xarxes-socials"
+  ],
+  "tagline": "Missatgeria efímera amb ubicació compartida i publicitat",
+  "summary": "Snapchat es va construir sobre la promesa que els missatges desapareixen, i la promesa és parcialment certa: els Snaps s’esborren dels servidors quan es visualitzen. En canvi, es conserven les metadades, els Memories desats, la ubicació compartida al Snap Map i el perfil publicitari.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "advertising",
+  "jurisdiction": "Països Baixos, per a persones usuàries de l’Espai Econòmic Europeu",
+  "userBase": "Més de 850 milions de persones usuàries actives mensuals",
+  "links": {
+    "website": "https://www.snapchat.com/",
+    "privacyPolicy": "https://values.snap.com/privacy/privacy-policy",
+    "terms": "https://snap.com/en-US/terms",
+    "privacyCenter": "https://values.snap.com/privacy/privacy-by-product"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "snap-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "snap-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Els Snaps s’eliminen dels servidors després de ser vistos, però Snap conserva metadades de comunicació, contingut desat a Memories i, si s’activa el Snap Map, la ubicació precisa compartida amb la llista d’amistats.",
+  "dataCollection": [
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "snap-privacy-policy"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "snap-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "snap-privacy-policy"
+      ]
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "snap-your-account"
+      ],
+      "note": "Els Snaps s’esborren dels servidors quan es visualitzen; els Memories es conserven indefinidament."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "snap-your-account"
+      ],
+      "note": "Els xats es conserven fins que es visualitzen o fins a 31 dies en els grups."
+    },
+    {
+      "type": "metadades-de-comunicacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "snap-privacy-policy"
+      ],
+      "note": "Snap conserva registres de qui parla amb qui encara que el contingut hagi desaparegut."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "snap-privacy-policy"
+      ],
+      "note": "El Snap Map comparteix la ubicació en temps real amb les amistats si s’activa."
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "snap-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "snap-privacy-policy"
+      ],
+      "note": "Els filtres de realitat augmentada processen el rostre; Snap declara que no en crea plantilles identificatives."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "snap-privacy-policy"
+      ]
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "snap-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "snap-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "snap-privacy-policy"
+      ]
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "snap-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "snap-privacy-policy"
+      ],
+      "note": "El píxel de Snap recull activitat en llocs de tercers."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "snap-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "snap-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "snap-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "snap-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://accounts.snapchat.com/accounts/welcome"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "snap-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "yes",
+      "level": "regulator",
+      "sources": [
+        "ico-snap-myai-2024",
+        "snap-privacy-policy"
+      ],
+      "detail": "Les converses amb l’assistent My AI es conserven i es fan servir per millorar el servei. L’ICO va requerir Snap perquè avalués els riscos abans de continuar.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://help.snapchat.com/hc/en-us/articles/13964696211092"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "snap-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "snap-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "snap-privacy-policy"
+      ],
+      "detail": "Snap rep dades de socis de mesura i d’anunciants per associar les compres a la publicitat mostrada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "snap-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "mechanism": "adequacy"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "snap-transparency"
+      ],
+      "detail": "Snap publica una documentació de privadesa per producte que és de les més clares del directori.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://values.snap.com/privacy/transparency"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "snap-your-account"
+      ],
+      "detail": "Snap publica terminis concrets per tipus de contingut, cosa poc habitual en aquest sector.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "snap-delete-account"
+      ],
+      "detail": "Després dels 30 dies de desactivació s’elimina el compte; es conserven registres per a obligacions legals.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "fotografies-i-videos",
+        "period": "Els Snaps s’esborren dels servidors un cop vistos; els no oberts, als 30 dies",
+        "sources": [
+          "snap-your-account"
+        ]
+      },
+      {
+        "dataType": "contingut-de-missatges",
+        "period": "Els xats de grup no oberts s’esborren als 31 dies",
+        "sources": [
+          "snap-your-account"
+        ]
+      },
+      {
+        "dataType": "ubicacio-precisa",
+        "period": "La ubicació del Snap Map s’esborra al cap de poques hores",
+        "sources": [
+          "snap-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "snap-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "snap-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://accounts.snapchat.com/accounts/delete_account",
+    "difficulty": "easy",
+    "waitingPeriodDays": 30,
+    "requiresSupportContact": false,
+    "steps": [
+      "Entra a accounts.snapchat.com amb el nom d’usuari i la contrasenya.",
+      "Tria «Eliminar el meu compte».",
+      "Torna a introduir les credencials i confirma.",
+      "No iniciïs sessió durant 30 dies."
+    ],
+    "obstacles": "El compte queda desactivat 30 dies i qualsevol inici de sessió el reactiva. Cal descarregar les dades abans de començar.",
+    "dataRetained": "Els Snaps i els missatges que altres persones han desat es conserven als seus dispositius. Snap manté registres per a obligacions legals.",
+    "sources": [
+      "snap-delete-account",
+      "snap-your-account"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "snap-your-account"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://accounts.snapchat.com/accounts/downloadmydata"
+    },
+    "exportFormatQuality": "mixed",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "snap-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://support.snapchat.com/en-GB/i-need-help",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "snap-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://accounts.snapchat.com/accounts/welcome"
+    },
+    "telemetryOptOut": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "snap-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "snap-your-account"
+      ],
+      "detail": "Els controls per producte de Snap són detallats i el mode fantasma del Snap Map és accessible.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "regulator",
+      "sources": [
+        "ico-snap-myai-2024"
+      ],
+      "detail": "L’assistent My AI es va afegir al llistat de xats sense possibilitat de treure’l per als comptes gratuïts.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "nagging",
+        "severity": "medium",
+        "description": "L’assistent My AI apareix fixat a la part superior de la llista de converses i només es pot eliminar amb subscripció de pagament.",
+        "sources": [
+          "ico-snap-myai-2024"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "snap-privacy-policy"
+      ],
+      "detail": "Els Snaps d’imatge i vídeo entre persones usuàries van xifrats d’extrem a extrem; els missatges de text del xat, les històries i les converses amb My AI, no.",
+      "verifiedAt": "2026-09-22",
+      "scope": "partial-default"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "snap-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "snap-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "snap-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "totp",
+        "sms"
+      ]
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories de seguretat independents publicades."
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "snap-transparency"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://hackerone.com/snapchat"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "snap-transparency"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "signal",
+      "comparability": "partial",
+      "rationale": "Cobreix la missatgeria privada amb missatges temporals configurables i xifratge complet, però no els filtres de realitat augmentada, les històries ni el component de xarxa social.",
+      "tradeOffs": "Qui fa servir Snapchat per la part lúdica i visual no hi trobarà substitut."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La documentació de privadesa per producte de Snap és molt més clara i concreta que la de la majoria de plataformes. Això puja la claredat de la política i la confiança de l’anàlisi sense millorar-ne la puntuació de privadesa, que depèn de les pràctiques."
+  },
+  "appStoreBundleId": "com.toyopagroup.picaboo"
+}

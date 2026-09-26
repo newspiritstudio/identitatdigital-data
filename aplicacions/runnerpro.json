@@ -1,0 +1,503 @@
+{
+  "slug": "runnerpro",
+  "name": "RunnerPro",
+  "company": "runnerwellness",
+  "categories": [
+    "benestar-i-activitat-fisica"
+  ],
+  "tagline": "Entrenament de running amb dades de salut d’Apple, Garmin i Strava, i una política que no identifica el responsable",
+  "summary": "RunnerPro connecta amb Apple Health, Health Connect, Garmin i Strava per llegir passes, freqüència cardíaca, son i entrenaments, és a dir, dades de salut de categoria especial. La política ho reconeix i hi aplica el consentiment explícit de l’article 9.2.a del RGPD, però no identifica la raó social responsable, dona una adreça que no coincideix amb el registre mercantil i l’enllaç de privadesa declarat a la fitxa de l’App Store retorna un error. L’etiqueta de l’App Store, a més, només declara dades d’ús i diagnòstics.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "subscription",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://runnerpro.app/",
+    "privacyPolicy": "https://runnerpro.app/policies/privacy-policy",
+    "appStore": "https://apps.apple.com/es/app/id6474573887"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "runnerpro-privacy-policy"
+    ],
+    "detail": "El servei es basa en plans d’entrenament personalitzats amb entrenador, amb subscripció i prova gratuïta.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "runnerpro-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "La freqüència cardíaca, el son, el pes i el rastre dels entrenaments són dades de salut: revelen l’estat físic, les lesions, els períodes de malaltia i fins i tot els horaris i els recorreguts habituals de cada dia. RunnerPro les guarda amb les dades de pagament, i un entrenador humà en llegeix el registre.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "runnerpro-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "runnerpro-privacy-policy"
+      ]
+    },
+    {
+      "type": "contrasenya",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "runnerpro-privacy-policy"
+      ],
+      "note": "La política parla de credencials del compte."
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "runnerpro-privacy-policy"
+      ],
+      "note": "Passes, freqüència cardíaca, son, pes i entrenaments, llegits d’Apple HealthKit, Health Connect, Garmin i Strava o introduïts a mà. Consentiment explícit de l’article 9.2.a del RGPD."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "runnerpro-privacy-policy"
+      ],
+      "note": "La botiga funciona sobre Shopify, amb passarel·les de pagament externes."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "runnerpro-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "runnerpro-privacy-policy"
+      ]
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "runnerpro-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "runnerpro-privacy-policy"
+      ],
+      "note": "La política esmenta dades de navegació i publicitat personalitzada a través de Shopify."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "runnerpro-app-store"
+      ],
+      "note": "L’etiqueta les declara com a dades no vinculades."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "runnerpro-app-store"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "unknown",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "sources": [
+        "runnerpro-privacy-policy"
+      ],
+      "note": "Els entrenaments importats de Garmin i Strava solen portar el traçat GPS, però ni la política ni l’etiqueta ho diuen."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "unknown",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "sources": [
+        "runnerpro-app-store"
+      ],
+      "note": "L’etiqueta no declara cap dada utilitzada per rastrejar."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "runnerpro-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada utilitzada per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap referència a l’identificador publicitari."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "runnerpro-privacy-policy"
+      ],
+      "detail": "La política preveu compartir dades amb socis comercials i de màrqueting per a publicitat personalitzada a través de Shopify.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "runnerpro-privacy-policy"
+      ],
+      "detail": "La política reconeix el compartiment de dades per a publicitat personalitzada mitjançant Shopify i el dret a oposar-s’hi segons la residència.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "runnerpro-privacy-policy"
+      ],
+      "detail": "El servei personalitza el pla d’entrenament a partir de les dades de salut; la política no parla de perfilat publicitari propi.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu si les dades s’utilitzen per entrenar models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "runnerpro-privacy-policy"
+      ],
+      "detail": "Shopify, passarel·les de pagament, proveïdors de TI, núvol, analítica i atenció, integracions de Garmin i Strava, i els entrenadors.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "RUNNERWELLNESS és una empresa sense grup ni filials conegudes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu explícitament si ven dades personals."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "runnerpro-privacy-policy"
+      ],
+      "detail": "Fora de l’EEE i del Regne Unit amb clàusules contractuals tipus de la Comissió Europea o un contracte equivalent.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No n’hi ha cap, cosa esperable en una empresa petita."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "runnerpro-privacy-policy"
+      ],
+      "detail": "La política diu que la conservació «depèn de diversos factors» i només concreta que les dades de salut es guarden mentre el compte estigui actiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "runnerpro-privacy-policy"
+      ],
+      "detail": "En eliminar el compte, les dades de salut s’esborren o s’anonimitzen; no es diu què passa amb la facturació.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "runnerpro-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "runnerpro-privacy-policy"
+      ],
+      "detail": "La política diu textualment que el compte es pot eliminar des de l’aplicació, però no en documenta els passos ni hi ha cap pàgina d’ajuda que els expliqui.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "unknown",
+    "requiresSupportContact": false,
+    "steps": [
+      "Elimina el compte des de la mateixa aplicació, segons indica la política de privadesa.",
+      "Si no trobes l’opció, escriu a hola@runnerpro.app demanant la supressió de les dades.",
+      "Revoca també, des dels ajustos del telèfon, els permisos d’Apple Health o Health Connect, i la connexió amb Garmin i Strava."
+    ],
+    "obstacles": "La política no identifica la raó social responsable ni designa cap delegat de protecció de dades, i l’adreça postal que hi consta no coincideix amb la del registre mercantil. Si cal reclamar, s’ha de fer davant de l’AEPD contra RUNNERWELLNESS, S.L.",
+    "dataRetained": "No es concreta. Les obligacions fiscals obliguen a conservar la facturació encara que la política no ho digui.",
+    "sources": [
+      "runnerpro-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "runnerpro-privacy-policy"
+      ],
+      "detail": "El dret de portabilitat es reconeix, però no hi ha cap eina d’exportació documentada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "runnerpro-privacy-policy"
+      ],
+      "detail": "Hi ha adreces de contacte, però cap delegat de protecció de dades ni cap procediment descrit; per a les dades tractades per Shopify la política remet a Shopify.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:hola@runnerpro.app"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "runnerpro-privacy-policy"
+      ],
+      "detail": "La política reconeix el dret a oposar-se al compartiment per a publicitat personalitzada, però el condiciona al lloc de residència i no dona cap control dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap control de telemetria."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "runnerpro-privacy-policy"
+      ],
+      "detail": "El consentiment de les fonts de dades de salut és granular i revocable des del sistema operatiu; el web té un gestor de galetes de Shopify.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi de patrons foscos de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no ofereix comunicacions privades xifrades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "runnerpro-privacy-policy"
+      ],
+      "detail": "El servei s’ofereix sobre HTTPS, servit per la infraestructura de Shopify.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública sobre el xifratge de les dades en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap opció de verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories ni certificacions publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El domini no publica cap fitxer security.txt."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "strava",
+      "comparability": "partial",
+      "rationale": "Strava registra els mateixos entrenaments amb una política molt més detallada i amb controls de visibilitat i zones privades.",
+      "tradeOffs": "No ofereix plans d’entrenament amb entrenador humà i és una xarxa social, amb l’exposició pública que això comporta."
+    },
+    {
+      "app": "wikiloc",
+      "comparability": "complementary",
+      "rationale": "Per a qui només vulgui registrar el recorregut sense cedir dades de salut a un servei de subscripció.",
+      "tradeOffs": "No fa seguiment fisiològic ni planificació d’entrenaments."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "L’etiqueta de l’App Store i la política no coincideixen: l’etiqueta només declara dades d’ús i diagnòstics no vinculades, mentre que la política descriu dades de salut, de contacte i de pagament associades al compte. A més, l’enllaç de privadesa declarat a la fitxa de l’App Store (runnerpro.app/aviso-privacidad) retorna un error 404, i la política no identifica la raó social responsable.",
+    "openQuestions": [
+      "Per què l’etiqueta de privadesa no declara les dades de salut que la política descriu?",
+      "Es conserva el traçat GPS dels entrenaments importats de Garmin i Strava?",
+      "Quins són els terminis reals de conservació i d’esborrat?"
+    ]
+  },
+  "appStoreBundleId": "ios.runnerpro.cliente"
+}

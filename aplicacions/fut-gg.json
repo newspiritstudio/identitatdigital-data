@@ -1,0 +1,531 @@
+{
+  "slug": "fut-gg",
+  "name": "FUT.GG",
+  "company": "stormstrike",
+  "categories": [
+    "esports-i-resultats"
+  ],
+  "tagline": "Base de dades de cartes d’EA FC finançada amb subhastes publicitàries en temps real i sense representant a la UE",
+  "summary": "FUT.GG és una de les grans bases de dades de preus i d’evolucions d’EA Sports FC. La seva política, signada per Stormstrike Inc. des de Las Vegas, explica com es finança: publicitat programàtica dins de l’aplicació, amb identificadors compartits amb plataformes de compra i de venda que competeixen en temps real, i socis que fan seguiment entre dispositius i fingerprinting quan no hi ha ni galetes ni identificador publicitari. Reconeix el RGPD, però no designa cap representant a la Unió Europea.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "advertising",
+  "jurisdiction": "Estats Units",
+  "links": {
+    "website": "https://www.fut.gg/",
+    "privacyPolicy": "https://www.fut.gg/privacy/",
+    "appStore": "https://apps.apple.com/es/app/id6470957382"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "futgg-privacy-policy"
+    ],
+    "detail": "Consultar preus i cartes no demana compte; el compte, opcional, es crea amb correu electrònic o amb Google, Apple, Discord o Twitch.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "editorial",
+    "sources": [],
+    "detail": "Servei comercial tancat.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Les consultes de cartes mostren què busca cada persona, quin equip munta i quant s’hi vol gastar. Lligades a l’identificador publicitari i a la ubicació aproximada, permeten a la subhasta publicitària identificar un públic jove, que juga sovint i que tendeix a comprar dins del joc.",
+  "dataCollection": [
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "futgg-privacy-policy"
+      ],
+      "note": "Només si es crea compte; també arriba des del proveïdor OAuth escollit."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "futgg-app-store",
+        "futgg-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "futgg-app-store",
+        "futgg-privacy-policy"
+      ],
+      "note": "Identificadors propis de l’aplicació i identificadors publicitaris (IDFA i GAID)."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "futgg-privacy-policy"
+      ],
+      "note": "Compartits amb serveis de mediació, plataformes de venda i de compra i licitadors que competeixen en temps real."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "futgg-app-store",
+        "futgg-privacy-policy"
+      ],
+      "note": "Derivada de l’adreça IP; l’etiqueta la declara utilitzada per rastrejar."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "futgg-privacy-policy"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "futgg-app-store",
+        "futgg-privacy-policy"
+      ],
+      "note": "Pàgines visitades, temps de permanència i dades de publicitat, declarades com a utilitzades per rastrejar."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "futgg-app-store",
+        "futgg-privacy-policy"
+      ],
+      "note": "Subscripcions premium tramitades per Apple o Google; FUT.GG no guarda el número de targeta."
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "futgg-privacy-policy"
+      ],
+      "note": "Els continguts publicats poden quedar accessibles fins i tot després d’eliminar el compte; la política diu que només es dissociaran «quan sigui raonable»."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "futgg-privacy-policy"
+      ],
+      "note": "La notificació de recollida per a Califòrnia declara «inferències, com ara informació sobre els teus interessos, preferències i favorits»."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "futgg-app-store",
+        "futgg-privacy-policy"
+      ],
+      "note": "Les dades de rendiment consten entre les utilitzades per rastrejar."
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "futgg-privacy-policy"
+      ],
+      "note": "Tipus de dispositiu, sistema operatiu, navegador i versions; els socis poden fer fingerprinting amb aquests senyals passius."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "futgg-privacy-policy",
+        "futgg-app-store"
+      ],
+      "detail": "La política reconeix que els socis publicitaris fan seguiment entre dispositius i identificació passiva per empremta digital quan no hi ha galetes ni identificadors disponibles.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "futgg-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "futgg-privacy-policy"
+      ],
+      "detail": "Serveis publicitaris de Google (AdSense, Ad Manager, AdMob) i Raptive (CMI Marketing), més els SDK d’anàlisi i de notificació d’errors integrats a l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "futgg-privacy-policy"
+      ],
+      "detail": "Els serveis «es monetitzen principalment amb publicitat»; la subhasta programàtica dins de l’aplicació és el model.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "futgg-privacy-policy"
+      ],
+      "detail": "S’hi declaren inferències sobre interessos i preferències, i la compartició amb socis publicitaris que la llei californiana considera «venda».",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta l’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "futgg-privacy-policy"
+      ],
+      "detail": "Xarxes i plataformes publicitàries, analítica, registre d’errors, allotjament i passarel·les de pagament, a més de patrocinadors dels sortejos.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "futgg-privacy-policy"
+      ],
+      "detail": "Es preveu la compartició amb matrius, filials i afiliades, però no se n’identifica cap.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "futgg-privacy-policy"
+      ],
+      "detail": "La política admet que la compartició amb socis publicitaris «pot constituir una venda o cessió» segons la llei de Califòrnia, i es respecta el senyal Global Privacy Control només on la llei ho exigeix.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "futgg-privacy-policy"
+      ],
+      "detail": "El responsable és una societat dels Estats Units; per a les transferències des de l’EEE es diu que s’apliquen clàusules contractuals tipus o altres mecanismes.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "futgg-privacy-policy"
+      ],
+      "detail": "Criteri general de «mentre calgui», amb una única xifra concreta: set anys per als registres financers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "futgg-privacy-policy"
+      ],
+      "detail": "Els continguts publicats poden romandre visibles després d’eliminar el compte, i la política adverteix que els cercadors en poden conservar còpies.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "period": "7 anys per als registres financers",
+        "sources": [
+          "futgg-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "futgg-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política parla de «sol·licitar» l’eliminació, però no documenta cap botó dins de l’aplicació; no hem pogut verificar-ne l’existència."
+    },
+    "difficulty": "medium",
+    "requiresSupportContact": true,
+    "steps": [
+      "Escriu a privacy@stormstrike.gg demanant l’eliminació del compte i de les dades associades.",
+      "Indica el correu electrònic i el nom d’usuari amb què et vas registrar.",
+      "Tingues present que els comentaris i continguts publicats poden continuar sent visibles."
+    ],
+    "dataRetained": "Contingut públic publicat i registres financers durant set anys.",
+    "obstacles": "L’eliminació comporta perdre els elements associats al compte (punts, insígnies, títols), cosa que la política adverteix expressament.",
+    "sources": [
+      "futgg-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "futgg-privacy-policy"
+      ],
+      "detail": "Es reconeix la portabilitat, «per exemple com a fitxer CSV», però només per a dades facilitades directament i sense eina d’autoservei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "open",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "futgg-privacy-policy"
+      ],
+      "detail": "Els drets s’exerceixen escrivint a privacy@stormstrike.gg. La política no designa cap representant a la Unió Europea en el sentit de l’article 27 del RGPD i remet a «la teva autoritat local».",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacy@stormstrike.gg"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "futgg-privacy-policy"
+      ],
+      "detail": "Hi ha una plataforma de consentiment conforme al TCF d’IAB Europe i opcions dins de l’aplicació, però la política remet sobretot als programes d’autoregulació i a reiniciar l’identificador publicitari del dispositiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No es descriu cap manera de desactivar l’analítica ni la notificació d’errors."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "futgg-privacy-policy"
+      ],
+      "detail": "Els ajustos de privadesa i de consentiment dins de l’aplicació permeten veure la llista de socis publicitaris i modificar-ne les preferències.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [],
+      "detail": "No s’hi han detectat patrons agressius, però la política admet el fingerprinting com a alternativa quan la persona bloqueja els identificadors, cosa que permet continuar identificant-la malgrat aquesta decisió.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "other",
+        "severity": "medium",
+        "description": "Els socis publicitaris poden identificar el dispositiu amb senyals passius del navegador i del terminal «especialment quan les galetes o els identificadors publicitaris no estan disponibles».",
+        "sources": [
+          "futgg-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no transporta comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "editorial",
+      "sources": [],
+      "detail": "El lloc i l’API es publiquen sobre HTTPS; comprovat el setembre del 2026.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha informació pública sobre el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap segon factor; l’inici de sessió delegat a Google, Apple, Discord o Twitch n’hereta el que tinguin configurat."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "futgg-privacy-policy"
+      ],
+      "detail": "No hi ha una política de divulgació pròpia; l’únic canal documentat és l’adreça de privadesa, i la política es compromet a notificar les bretxes a les persones i als reguladors quan la llei ho exigeixi.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "futbin",
+      "comparability": "equivalent",
+      "rationale": "Cobreix la mateixa necessitat (preus, cartes i evolucions d’EA FC) i, a diferència de FUT.GG, el responsable és una societat europea amb delegat de protecció de dades designat.",
+      "tradeOffs": "A diferència de FUT.GG, FUTBIN declara a l’App Store la ubicació exacta com a dada utilitzada per rastrejar."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La política explica amb detall la cadena publicitària, incloent-hi el fingerprinting. El principal buit és que el responsable, establert als Estats Units, tracta dades de persones de la Unió sense haver-hi designat cap representant.",
+    "openQuestions": [
+      "Hi ha una opció d’eliminació del compte dins de l’aplicació, o cal escriure sempre a l’adreça de privadesa?",
+      "Quins són els socis concrets de la subhasta programàtica? La llista només és accessible des dels ajustos de l’aplicació."
+    ]
+  },
+  "appStoreBundleId": "com.futgg.futgg"
+}

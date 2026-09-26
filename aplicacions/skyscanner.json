@@ -1,0 +1,556 @@
+{
+  "slug": "skyscanner",
+  "name": "Skyscanner",
+  "company": "skyscanner-limited",
+  "categories": [
+    "viatges-i-allotjament"
+  ],
+  "tagline": "Un cercador que perfila els teus viatges i comparteix dades amb el grup Trip.com i amb socis publicitaris",
+  "summary": "Skyscanner és un cercador: per comprar, et porta a l’aerolínia o a l’agència, que passa a ser responsable independent de les teves dades. La política reconeix que combina el que li dones amb el que observa per deduir preferències i interessos, i personalitzar plataforma, serveis i publicitat. L’etiqueta de l’App Store declara identificadors i dades d’ús per rastrejar entre empreses, i publicitat de tercers amb ubicació precisa a l’analítica. En seguretat, té security.txt i un programa de recompenses actiu a Bugcrowd.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "advertising",
+  "jurisdiction": "Regne Unit, amb delegat de protecció de dades a Edimburg; forma part del grup Trip.com",
+  "links": {
+    "website": "https://www.skyscanner.es/",
+    "privacyPolicy": "https://www.skyscanner.net/media/privacy-policy",
+    "appStore": "https://apps.apple.com/es/app/id415458524"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "skyscanner-privacy-policy"
+    ],
+    "detail": "Es pot cercar i comparar sense compte; el compte serveix per desar cerques, alertes de preu i preferències.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "editorial",
+    "sources": [],
+    "detail": "Aplicació privativa; no hi ha cap repositori públic del client.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Les cerques de vols revelen plans que encara no s’han pres: on aniràs, amb qui, quan marxaràs de casa i quant pots gastar. Skyscanner ho combina amb la ubicació i amb els identificadors del dispositiu per deduir interessos, i ho fa servir tant per personalitzar la plataforma com per a la publicitat.",
+  "dataCollection": [
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "skyscanner-privacy-policy",
+        "skyscanner-app-store"
+      ],
+      "note": "Les cerques i les alertes de preu alimenten el perfil d’interessos."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "skyscanner-privacy-policy"
+      ],
+      "note": "La política parla obertament d’«informació de perfilat»: dedueixen preferències i interessos de les dades combinades."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "skyscanner-app-store",
+        "skyscanner-privacy-policy"
+      ],
+      "note": "Ubicació del dispositiu, només si es dona el permís; l’etiqueta la declara també per a analítica."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "skyscanner-privacy-policy"
+      ],
+      "note": "Deduïda de l’adreça IP, per endevinar l’aeroport de sortida."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "skyscanner-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "skyscanner-app-store",
+        "skyscanner-privacy-policy"
+      ]
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "skyscanner-privacy-policy"
+      ],
+      "note": "Només si es crea un compte o es completa una reserva a la plataforma."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "skyscanner-privacy-policy"
+      ],
+      "note": "Les gestionen processadors de pagament contractats, per a les reserves fetes dins de la plataforma."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "skyscanner-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria",
+        "cessio-a-tercers"
+      ],
+      "sources": [
+        "skyscanner-app-store"
+      ],
+      "note": "Declarat per a publicitat de tercers i per rastrejar entre empreses."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "cessio-a-tercers"
+      ],
+      "sources": [
+        "skyscanner-app-store"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "skyscanner-privacy-policy"
+      ],
+      "note": "Anunciants, xarxes de màrqueting i afiliats hi poden recollir informació amb galetes i tecnologies similars."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "skyscanner-app-store",
+        "skyscanner-privacy-policy"
+      ]
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "skyscanner-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "skyscanner-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "skyscanner-app-store"
+      ],
+      "detail": "L’etiqueta declara identificadors i dades d’ús utilitzats per rastrejar la persona entre aplicacions i llocs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "skyscanner-app-store",
+        "skyscanner-privacy-policy"
+      ],
+      "detail": "Identificadors d’usuari i de dispositiu declarats per a publicitat de tercers; la política descriu la creació d’audiències amb solucions publicitàries externes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "independent",
+      "sources": [
+        "skyscanner-pi-facebook-2019",
+        "skyscanner-privacy-policy"
+      ],
+      "detail": "Privacy International va documentar el 2018 que l’aplicació d’Android enviava dades a Facebook en obrir-se; en la comprovació del febrer de 2019 encara contactava amb Facebook, però ja sense enviar l’identificador publicitari.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "skyscanner-privacy-policy",
+        "skyscanner-app-store"
+      ],
+      "detail": "La política dedica un apartat a com es fan servir les dades personals per a publicitat, amb audiències similars i audiències personalitzades a plataformes de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "skyscanner-privacy-policy"
+      ],
+      "detail": "Skyscanner combina el que recull, genera i rep per deduir preferències i interessos i personalitzar plataforma, serveis i publicitat; diu que aquest perfilat no té efectes jurídics significatius.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política parla d’aprenentatge automàtic per a la personalització, però no diu si les dades s’utilitzen per entrenar models més enllà d’aquesta finalitat."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "skyscanner-privacy-policy"
+      ],
+      "detail": "Amb els proveïdors de viatge amb qui es reserva, que actuen com a responsables independents, i amb socis publicitaris, de prevenció del frau i de col·laboracions de marca.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "skyscanner-privacy-policy"
+      ],
+      "detail": "Amb la resta d’entitats del grup, incloses Trip.com, Beijing Skyscanner Technology, Shenzhen Skyscanner Technology i ExperienceOn Ventures.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu expressament si ven o no dades personals."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "skyscanner-privacy-policy"
+      ],
+      "detail": "Servidors a Irlanda, Frankfurt, Tòquio, el Canadà i Singapur; les transferències fora del Regne Unit i de l’Espai Econòmic Europeu es fan amb clàusules contractuals tipus o normes corporatives vinculants.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència de peticions governamentals de dades."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "skyscanner-privacy-policy"
+      ],
+      "detail": "La política diu que conserva les dades «només mentre calgui» i remet a un formulari de contacte per saber-ne els terminis, sense publicar-ne cap.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap termini publicat per a les dades que resten després d’eliminar el perfil."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "skyscanner-privacy-policy"
+      ],
+      "detail": "Es poden consultar, modificar, descarregar i esborrar les dades principals del perfil en qualsevol moment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "skyscanner-privacy-policy"
+      ],
+      "detail": "Des del perfil del compte; els altres drets s’exerceixen amb el formulari de sol·licitud de privadesa o escrivint al delegat de protecció de dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://www.skyscanner.net/trust/privacy-request",
+    "difficulty": "easy",
+    "requiresSupportContact": false,
+    "steps": [
+      "Inicia la sessió i obre el teu perfil de Skyscanner.",
+      "Revisa-hi les dades del compte i les preferències de màrqueting, i esborra les que vulguis.",
+      "Per a la resta de drets, fes servir la pàgina «Make a Data Privacy Request» o escriu a dpo@skyscanner.net."
+    ],
+    "obstacles": "Les dades ja transmeses a l’aerolínia o a l’agència on s’ha fet la reserva queden en mans d’aquesta empresa, que n’és responsable independent.",
+    "dataRetained": "La política no publica cap termini concret de conservació després de la supressió.",
+    "sources": [
+      "skyscanner-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "skyscanner-privacy-policy"
+      ],
+      "detail": "Dret a obtenir les dades facilitades en format estructurat i llegible per màquina, i descàrrega directa des del perfil.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "skyscanner-privacy-policy"
+      ],
+      "detail": "Formulari de sol·licitud de privadesa, correu a dpo@skyscanner.net o carta al delegat de protecció de dades a Edimburg.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.skyscanner.net/trust/privacy-request",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "skyscanner-privacy-policy"
+      ],
+      "detail": "Hi ha preferències de privadesa i de galetes i es pot gestionar el màrqueting des del perfil, però el perfilat per personalitzar la plataforma es basa en l’interès legítim i només s’hi pot oposar cas per cas.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "skyscanner-privacy-policy"
+      ],
+      "detail": "Les galetes i tecnologies similars depenen del consentiment quan cal; la recollida bàsica d’ús i de diagnòstic no és opcional.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "skyscanner-privacy-policy"
+      ],
+      "detail": "Configuració de privadesa i de galetes, preferències de màrqueting i edició del perfil.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi de patrons foscos de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És un cercador de viatges: no hi ha comunicacions privades entre persones que es puguin xifrar d’extrem a extrem.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "editorial",
+      "sources": [],
+      "detail": "Comprovació pròpia: el web i el fitxer security.txt es serveixen per HTTPS amb redirecció forçada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política parla de servidors segurs, però no descriu el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap documentació sobre verificació en dos passos del compte."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap auditoria ni certificació de seguretat publicada."
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "skyscanner-security-txt"
+      ],
+      "detail": "El fitxer security.txt remet a un programa actiu a Bugcrowd, amb saló de la fama públic.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://bugcrowd.com/engagements/skyscanner"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "skyscanner-security-txt"
+      ],
+      "detail": "security.txt amb contacte a security@skyscanner.net, política de divulgació pròpia i data de caducitat declarada.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "El lloc de Skyscanner bloqueja la lectura automatitzada de la política; hem consultat la versió arxivada a la Wayback Machine (agost de 2024) i hem verificat el fitxer security.txt directament al domini. És possible que la política vigent hagi canviat en detalls menors.",
+    "openQuestions": [
+      "Quins terminis de conservació aplica realment Skyscanner? La política remet a un formulari i no en publica cap.",
+      "Quin paper té Trip.com Group, propietari de Skyscanner, en el tractament de les dades europees?"
+    ]
+  },
+  "appStoreBundleId": "net.skyscanner.iphone"
+}

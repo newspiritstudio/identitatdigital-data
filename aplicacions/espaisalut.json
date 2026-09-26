@@ -1,0 +1,512 @@
+{
+  "slug": "espaisalut",
+  "name": "EspaiSalut",
+  "company": "ib-salut",
+  "categories": [
+    "salut-i-assistencia-sanitaria",
+    "administracio-publica"
+  ],
+  "tagline": "Dona accés a la història clínica i a la medicació, però l’etiqueta de l’App Store no declara cap dada de salut",
+  "summary": "EspaiSalut és l’aplicació oficial del Servei de Salut de les Illes Balears: targeta sanitària, cites d’atenció primària, informes, resultats de proves, al·lèrgies i full de medicació. L’accés a les dades clíniques es fa amb Cl@ve o un sistema equivalent, de manera que no hi ha cap contrasenya pròpia. L’etiqueta de privadesa només declara adreça postal, correu i identificadors, sense esmentar les dades de salut que l’aplicació mostra. No hi ha cap política de privadesa específica de l’aplicació: cal anar a la de la seu electrònica, que remet el detall de cada tractament al registre d’activitats.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "public-service",
+  "jurisdiction": "Espanya (UE); servei públic de la comunitat autònoma de les Illes Balears",
+  "links": {
+    "website": "https://www.ibsalut.es/",
+    "privacyPolicy": "https://ibsalut.es/es/politica-de-privacidad",
+    "appStore": "https://apps.apple.com/es/app/id6759250070"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "espaisalut-app-description"
+    ],
+    "detail": "Algunes consultes generals són obertes, però l’accés a la informació personal i a les dades clíniques exigeix autenticar-se amb Cl@ve o un sistema equivalent.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "espaisalut-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "publicService": {
+    "isPublicService": true,
+    "administrationLevel": "regional",
+    "legalBasis": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "espaisalut-privacy-policy",
+        "espaisalut-rat"
+      ],
+      "detail": "La política de privadesa només invoca el Reglament (UE) 2016/679 i la Llei orgànica 3/2018 i remet la base jurídica de cada tractament al registre d’activitats. El registre sí que cita normes sectorials, però sense article: la Llei 14/1986 general de sanitat i la Llei 41/2002 d’autonomia del pacient.",
+      "verifiedAt": "2026-09-22",
+      "norm": "Llei 14/1986, general de sanitat, i Llei 41/2002, d’autonomia del pacient (citades al RAT sense article)"
+    },
+    "processingRegistry": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "espaisalut-rat"
+      ],
+      "detail": "L’IB-Salut publica el registre d’activitats de tractament per unitats (direcció general, hospitals, gerències i SAMU 061), i el de la direcció general inclou els tractaments «Historia Clínica» i «Historia de clínica compartida», però no hi ha cap activitat identificable com a EspaiSalut.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.ibsalut.es/es/servicio-de-salud/proteccion-de-datos-personales/534-registro-de-actividades-de-tratamiento"
+    },
+    "dpia": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat publicada cap avaluació d’impacte relativa a la protecció de dades d’EspaiSalut ni de la història de salut electrònica."
+    },
+    "ensConformity": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "espaisalut-seguretat-informacio",
+        "espaisalut-privacy-policy"
+      ],
+      "detail": "L’IB-Salut publica una certificació de conformitat amb el Reial decret 311/2022, però només dels sistemes que donen suport als serveis de l’Oficina de Seguretat, no dels sistemes assistencials ni de l’aplicació, i no en declara la categoria.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dpo": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "espaisalut-dpd"
+      ],
+      "detail": "L’IB-Salut identifica el delegat de protecció de dades amb nom, adreça postal del Servei de Protecció de Dades i telèfon, però no en publica cap adreça electrònica ni cap formulari de contacte.",
+      "verifiedAt": "2026-09-22",
+      "contact": "Servei de Protecció de Dades, c/ de la Reina Esclarmunda, 9, 07003 Palma — tel. 971 175 600"
+    },
+    "offlineAlternative": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "espaisalut-cita-previa"
+      ],
+      "detail": "Les cites d’atenció primària es poden demanar pel telèfon INFOSALUT CONNECTA 971 220 000 o directament al centre de salut, sense passar per l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "accessibilityStatement": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "espaisalut-accessibilitat"
+      ],
+      "detail": "Hi ha declaració d’accessibilitat conforme al Reial decret 1112/2018, però és de l’octubre del 2021, declara que el web i el Portal del Pacient «aún no son conformes» i no cobreix l’aplicació mòbil.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://ibsalut.es/es/accesibilidad"
+    },
+    "mandatoryRetention": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "boe-llei-41-2002",
+        "espaisalut-rat"
+      ],
+      "detail": "L’aplicació dona accés a la història clínica, i l’article 17.1 de la Llei 41/2002 obliga els centres sanitaris a conservar la documentació clínica com a mínim cinc anys des de l’alta de cada procés assistencial. El registre d’activitats de l’IB-Salut cita la mateixa llei com a referència normativa dels tractaments de la història clínica.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataSummary": "Reunides, les dades diuen quines malalties té una persona, quins medicaments pren, quines al·lèrgies té registrades i quan i on visita el metge. L’IB-Salut ja les té com a servei sanitari; el que hi afegeix l’aplicació és un canal mòbil i els identificadors del dispositiu.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "espaisalut-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "espaisalut-app-store"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "espaisalut-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "espaisalut-app-store"
+      ],
+      "note": "L’etiqueta el declara com a identificador d’usuari; a la pràctica és la identitat de Cl@ve i el número de la targeta sanitària."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "espaisalut-app-store"
+      ]
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "espaisalut-app-description"
+      ],
+      "note": "La targeta sanitària i l’autenticació amb Cl@ve es basen en el DNI o el NIE."
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "espaisalut-privacy-policy",
+        "espaisalut-app-description"
+      ],
+      "note": "Informes, resultats de proves diagnòstiques, al·lèrgies i full de medicació. L’etiqueta de l’App Store no declara cap dada de salut."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "espaisalut-app-store"
+      ],
+      "note": "Dades d’errors, no vinculades a la identitat."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "espaisalut-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada usada per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "espaisalut-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap identificador publicitari; sí l’identificador del dispositiu, per a la funcionalitat de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut comprovar quins components de tercers incorpora l’aplicació."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "espaisalut-privacy-policy",
+        "espaisalut-app-store"
+      ],
+      "detail": "És un servei públic sanitari: ni la política ni l’etiqueta preveuen cap ús publicitari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "espaisalut-privacy-policy"
+      ],
+      "detail": "La política afirma que el Servei de Salut no pren decisions automatitzades ni elabora perfils amb les dades facilitades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu res sobre l’ús de les dades per entrenar models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "espaisalut-privacy-policy"
+      ],
+      "detail": "La política no llista destinataris: remet les possibles comunicacions a la fitxa de cada tractament publicada a la seu electrònica.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’IB-Salut és un ens públic autonòmic sense grup empresarial.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "editorial",
+      "sources": [
+        "espaisalut-privacy-policy"
+      ],
+      "detail": "Com a administració pública, no pot vendre dades personals; la política no preveu cap cessió amb finalitat comercial.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "espaisalut-privacy-policy"
+      ],
+      "detail": "La política diu que les possibles transferències internacionals estan identificades a cada tractament publicat a la seu electrònica, sense concretar-ne cap.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència sobre peticions de dades; el portal de transparència de l’IB-Salut no en publica cap d’aquest tipus."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "espaisalut-privacy-policy"
+      ],
+      "detail": "La política només diu que les dades es conserven «mentre resultin adequades, pertinents i limitades» i segons les obligacions legals, sense cap termini concret.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no explica què passa amb les dades quan es deixa de fer servir el servei."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha un compte propi de l’aplicació: s’hi entra amb Cl@ve o amb un sistema d’identificació equivalent, i les dades són les de la història clínica del servei públic de salut.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha cap opció de baixa dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "unknown",
+    "steps": [
+      "Desinstal·la l’aplicació: no hi ha cap compte propi que es pugui tancar.",
+      "Si vols exercir els drets de supressió, limitació o oposició, escriu a l’IB-Salut (c/ del Carme, 18, 07003 Palma) o fes servir el Registre Electrònic Comú de l’Administració General de l’Estat.",
+      "Tingues en compte que la història clínica no es pot esborrar: la llei obliga a conservar-la."
+    ],
+    "obstacles": "Els drets s’exerceixen pels canals administratius, no des de l’aplicació, i la resposta pot trigar fins a un mes, prorrogable dos mesos més.",
+    "dataRetained": "La història clínica i la resta de dades assistencials, que es conserven per obligació legal.",
+    "sources": [
+      "espaisalut-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "espaisalut-privacy-policy"
+      ],
+      "detail": "La política reconeix el dret a la portabilitat en format estructurat i de lectura mecànica, però només per sol·licitud i «en determinades circumstàncies».",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "espaisalut-privacy-policy"
+      ],
+      "detail": "Per correu postal a l’IB-Salut o pel Registre Electrònic Comú, amb resposta en un mes prorrogable.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://rec.redsara.es/registro/action/are/acceso.do"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha publicitat ni personalització publicitària al servei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta si es poden desactivar les dades d’errors que declara l’etiqueta."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut comprovar quins controls de privadesa ofereix l’aplicació."
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut revisar els fluxos de consentiment de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És un servei de consulta de dades sanitàries davant del mateix responsable; no hi ha comunicacions entre persones usuàries que puguin anar xifrades d’extrem a extrem.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "espaisalut-privacy-policy"
+      ],
+      "detail": "La política garanteix que tota transmissió de dades personals per xarxes de telecomunicacions es fa per un canal segur.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política parla de les mesures de l’Esquema Nacional de Seguretat, però no concreta el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "espaisalut-app-description"
+      ],
+      "detail": "L’accés a les dades clíniques es fa amb Cl@ve o un sistema equivalent, com el certificat digital, que porta les seves pròpies garanties d’identificació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "espaisalut-privacy-policy"
+      ],
+      "detail": "La política invoca l’Esquema Nacional de Seguretat, que comporta auditories periòdiques, però no en publica cap resultat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses per a vulnerabilitats."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El domini ibsalut.es no serveix cap fitxer security.txt."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "tarjeta-sanitaria",
+      "comparability": "partial",
+      "rationale": "També permet portar la targeta sanitària al mòbil sense obrir un compte comercial.",
+      "tradeOffs": "No dona accés a la història clínica ni a les cites de les Illes Balears."
+    }
+  ],
+  "review": {
+    "researchStatus": "initial",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "No hi ha cap política de privadesa específica de l’aplicació: la fitxa de l’App Store enllaça la política general del web de l’IB-Salut i hem fet servir la de la seu electrònica, que és la que descriu els tractaments d’EspaiSalut. El buscador de resolucions de l’AEPD no ens ha respost durant la consulta i no hem pogut completar la cerca d’incidents.",
+    "openQuestions": [
+      "Per què l’etiqueta de l’App Store no declara cap dada de salut si l’aplicació mostra informes, al·lèrgies i medicació?",
+      "Quins encarregats del tractament hi ha darrere de l’aplicació i on s’allotgen les dades?",
+      "Hi ha cap resolució de l’AEPD contra l’IB-Salut relacionada amb els serveis digitals?"
+    ]
+  },
+  "appStoreBundleId": "es.ibsalut.espaisalut.app"
+}

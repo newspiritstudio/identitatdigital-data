@@ -1,0 +1,570 @@
+{
+  "slug": "futbin",
+  "name": "FUTBIN",
+  "company": "better-collective",
+  "categories": [
+    "esports-i-resultats"
+  ],
+  "tagline": "Correu electrònic convertit en identificador xifrat i enviat a LiveRamp, amb ubicació exacta declarada per rastrejar",
+  "summary": "FUTBIN, propietat del grup danès Better Collective, és la base de dades de cartes d’EA FC més veterana. La política del juny del 2026 explica que el correu electrònic o altres identificadors de compte es converteixen en un identificador xifrat i es comparteixen amb socis de resolució d’identitat com LiveRamp per creuar el perfil amb campanyes publicitàries. L’etiqueta de l’App Store declara, a més, la ubicació exacta entre les dades utilitzades per rastrejar, cosa que la política no esmenta. Aquest ús es pot desactivar amb un interruptor als ajustos del compte, i els comptes inactius s’esborren als dotze mesos.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "advertising",
+  "jurisdiction": "Dinamarca",
+  "links": {
+    "website": "https://www.futbin.com/",
+    "privacyPolicy": "https://www.futbin.com/privacy",
+    "appStore": "https://apps.apple.com/es/app/id1080465358"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "futbin-privacy-policy"
+    ],
+    "detail": "La consulta de preus i cartes no demana compte; el compte desbloqueja fòrums, perfil i subscripcions sense publicitat.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "editorial",
+    "sources": [],
+    "detail": "Servei comercial tancat.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "El correu electrònic xifrat, els segments d’audiència i la ubicació permeten incorporar les consultes sobre cartes de futbol a un gràfic d’identitat publicitari, que les associa amb el mateix perfil en altres webs i aplicacions.",
+  "dataCollection": [
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "futbin-privacy-policy"
+      ],
+      "note": "Convertida en identificador xifrat i compartida amb socis de resolució d’identitat com LiveRamp; la política precisa que no es lliura en text pla."
+    },
+    {
+      "type": "contrasenya",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "futbin-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "futbin-app-store",
+        "futbin-privacy-policy"
+      ]
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "futbin-privacy-policy"
+      ],
+      "note": "Serveix per comprovar l’edat mínima i quines comunicacions es poden enviar."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "futbin-app-store",
+        "futbin-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "futbin-app-store"
+      ],
+      "note": "L’etiqueta de l’App Store la declara utilitzada per rastrejar i vinculada a la persona; la política escrita només parla de «ubicació aproximada»."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus",
+        "compliment-legal"
+      ],
+      "sources": [
+        "futbin-app-store",
+        "futbin-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "futbin-privacy-policy"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "futbin-app-store",
+        "futbin-privacy-policy"
+      ],
+      "note": "Pàgines vistes, clics, impressions i clics d’anunci, marques de temps i esdeveniments d’analítica."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "futbin-privacy-policy"
+      ],
+      "note": "Segments d’audiència creats a la plataforma de dades de clients a partir de preferències, activitat i interessos inferits."
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "futbin-privacy-policy"
+      ],
+      "note": "Fòrums, comentaris i la secció «about me» del perfil."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "futbin-privacy-policy"
+      ],
+      "note": "Subscripcions, punts, codis de joc i botigues associades; el número complet de targeta no arriba a FUTBIN."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "futbin-app-store"
+      ],
+      "note": "Les dades de rendiment consten entre les utilitzades per rastrejar; les d’errors, no vinculades."
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "futbin-privacy-policy"
+      ],
+      "note": "Tipus i versió de navegador i sistema operatiu, país, esdeveniments d’autenticació i registres de seguretat."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "futbin-app-store",
+        "futbin-privacy-policy"
+      ],
+      "detail": "L’etiqueta declara ubicació exacta i aproximada, ID d’usuari, ID de dispositiu i dades de rendiment utilitzats per rastrejar; la política ho lliga a la resolució d’identitat entre webs, aplicacions i entorns programàtics.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "futbin-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "futbin-privacy-policy"
+      ],
+      "detail": "LiveRamp, Livewire Group, Google Ad Manager i plataformes de dades de clients i de gestió de dades.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "futbin-privacy-policy"
+      ],
+      "detail": "Publicitat personalitzada i programàtica amb base jurídica de consentiment i interruptor als ajustos del compte.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://www.futbin.com/privacy"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "futbin-privacy-policy"
+      ],
+      "detail": "Segments d’audiència elaborats amb l’activitat combinada de les propietats del grup, utilitzats per a publicitat directa i programàtica.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta l’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "futbin-privacy-policy"
+      ],
+      "detail": "Socis publicitaris i de resolució d’identitat, proveïdors d’analítica i de comunicacions, botigues associades i autoritats públiques quan la llei ho exigeix.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "futbin-privacy-policy"
+      ],
+      "detail": "Amb els membres del grup empresarial de Better Collective, sota acords de tractament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "futbin-privacy-policy"
+      ],
+      "detail": "La política no parla de venda, però comparteix identificadors xifrats amb LiveRamp i amb plataformes de dades, i a la pràctica això alimenta un gràfic d’identitat publicitari de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "futbin-privacy-policy"
+      ],
+      "detail": "Transferències fora de l’EEE amb decisions d’adequació o clàusules contractuals tipus.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "futbin-privacy-policy"
+      ],
+      "detail": "Les dades personals dels comptes inactius s’esborren automàticament als dotze mesos; la resta, per finalitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "futbin-privacy-policy"
+      ],
+      "detail": "Es poden conservar dades d’identificació electrònica per interès legítim: millora del producte, prevenció d’abusos i defensa de drets.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "period": "12 mesos d’inactivitat abans de la supressió automàtica",
+        "sources": [
+          "futbin-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "futbin-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "futbin-privacy-policy"
+      ],
+      "detail": "La política indica que es pot sol·licitar l’eliminació del compte «mitjançant l’opció disponible als ajustos del compte».",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "easy",
+    "steps": [
+      "Inicia sessió a FUTBIN i obre els ajustos del compte («Account Settings»).",
+      "Fes servir l’opció d’eliminació del compte que hi ha en aquesta pantalla.",
+      "Si vols aturar abans la compartició publicitària, desactiva-hi també l’opció de publicitat personalitzada i perfilat d’audiències."
+    ],
+    "dataRetained": "Dades d’identificació electrònica conservades per interès legítim i registres exigits per llei.",
+    "sources": [
+      "futbin-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "futbin-privacy-policy"
+      ],
+      "detail": "Es reconeix la portabilitat en format estructurat i llegible per màquina, però no hi ha cap eina d’autoservei descrita.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "futbin-privacy-policy"
+      ],
+      "detail": "Delegat de protecció de dades extern (Bech-Bruun, Copenhaguen) amb canal de missatges xifrats, i autoritat de control de referència a Dinamarca.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "futbin-privacy-policy"
+      ],
+      "detail": "Interruptor als ajustos del compte: en desactivar-lo, FUTBIN deixa de fer servir el perfil per segmentar anuncis i de compartir l’identificador xifrat amb els socis publicitaris.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "futbin-privacy-policy"
+      ],
+      "detail": "El centre de preferències de galetes cobreix l’analítica del web; per a l’aplicació la política no descriu un control equivalent.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "futbin-privacy-policy"
+      ],
+      "detail": "Ajustos del compte, enllaços de baixa a cada comunicació i centre de preferències de galetes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [
+        "futbin-app-store",
+        "futbin-privacy-policy"
+      ],
+      "detail": "Els controls són clars, però la política parla d’«ubicació aproximada» i l’etiqueta de l’App Store declara ubicació exacta utilitzada per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "confusing-language",
+        "severity": "medium",
+        "description": "La política només esmenta la ubicació aproximada derivada de l’adreça IP, mentre l’etiqueta de l’App Store declara ubicació exacta vinculada a la persona i utilitzada per rastrejar.",
+        "sources": [
+          "futbin-privacy-policy",
+          "futbin-app-store"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no transporta comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "editorial",
+      "sources": [],
+      "detail": "El lloc es publica sobre HTTPS; comprovat el setembre del 2026.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha informació pública sobre el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política parla de registres d’autenticació però no documenta cap segon factor."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses del grup aplicable a FUTBIN."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "futbin-privacy-policy"
+      ],
+      "detail": "No hi ha una política de divulgació pròpia; el delegat de protecció de dades ofereix un canal de missatges xifrats per a comunicacions sensibles.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "fut-gg",
+      "comparability": "equivalent",
+      "rationale": "Mateixa funció de base de dades de cartes i preus, i la seva política no declara ubicació exacta.",
+      "tradeOffs": "El responsable és una societat dels Estats Units sense representant designat a la Unió Europea."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "FUTBIN té una política ben escrita, un delegat de protecció de dades designat i un interruptor efectiu per aturar la compartició publicitària, cosa poc habitual. Queda per aclarir la contradicció amb l’etiqueta de l’App Store sobre la ubicació exacta.",
+    "openQuestions": [
+      "Per què l’etiqueta de l’App Store declara ubicació exacta si la política només parla d’ubicació aproximada?",
+      "L’interruptor dels ajustos del compte atura també la compartició des de l’aplicació mòbil, o només des del web?"
+    ]
+  },
+  "appStoreBundleId": "com.futbin"
+}

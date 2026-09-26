@@ -1,0 +1,491 @@
+{
+  "slug": "onda-cero",
+  "name": "Onda Cero",
+  "company": "uniprex",
+  "categories": [
+    "noticies-i-mitjans",
+    "musica-i-audio"
+  ],
+  "tagline": "Tres corresponsables publicitaris (LiveRamp, ID5 i Utiq) que converteixen el correu i l’IP en identificadors persistents",
+  "summary": "La política d’Uniprex és de les poques que anomenen els socis publicitaris i n’assumeixen la corresponsabilitat: LiveRamp i ID5 creen codis d’identificació a partir del correu xifrat, l’identificador publicitari i l’adreça IP, i el servei Utiq afegeix senyals que venen de l’operadora de telefonia. Tot es basa en el consentiment i es pot rebutjar al panell de configuració, però per defecte l’ecosistema publicitari és més permissiu que protector.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "advertising",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://www.ondacero.es/",
+    "privacyPolicy": "https://statics.atresmedia.com/ondacero/assets/legal/politica-de-privacidad.html",
+    "appStore": "https://apps.apple.com/es/app/id437480425"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "onda-cero-privacy-policy"
+    ],
+    "detail": "Escoltar la ràdio no demana compte; el registre serveix per a concursos, promocions i votacions.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "onda-cero-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "El correu electrònic que dones per participar en un concurs pot acabar convertit, xifrat, en un identificador publicitari que et pot reconèixer a tots els serveis que fan servir LiveRamp i ID5.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "onda-cero-privacy-policy"
+      ],
+      "note": "Dades de registre de formularis, concursos i promocions."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "onda-cero-privacy-policy"
+      ],
+      "note": "Es comparteix xifrat amb LiveRamp i ID5 per crear codis d’identificació publicitària."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "onda-cero-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "onda-cero-app-store",
+        "onda-cero-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "onda-cero-app-store",
+        "onda-cero-privacy-policy"
+      ],
+      "note": "La política parla de l’identificador de publicitat mòbil compartit amb LiveRamp."
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "onda-cero-privacy-policy"
+      ],
+      "note": "Inclou el martechpass i l’adtechpass d’Utiq, que caduquen als 90 dies i les 24 hores."
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "onda-cero-privacy-policy"
+      ],
+      "note": "Navegador i sistema operatiu, compartits amb LiveRamp."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "onda-cero-app-store",
+        "onda-cero-privacy-policy"
+      ]
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "onda-cero-privacy-policy"
+      ],
+      "note": "Utiq permet analitzar els interessos en webs de tercers que integren el servei."
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "onda-cero-privacy-policy"
+      ],
+      "note": "Suggeriments, consultes i comentaris dels oients, tractats per interès legítim."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "onda-cero-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "onda-cero-app-store",
+        "onda-cero-privacy-policy"
+      ],
+      "detail": "Identificadors i dades d’ús declarats per rastrejar; els codis de LiveRamp i ID5 estan pensats per reconèixer la persona en diversos dispositius i webs.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "onda-cero-privacy-policy"
+      ],
+      "detail": "Identificador de publicitat mòbil compartit amb els corresponsables publicitaris.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "onda-cero-privacy-policy"
+      ],
+      "detail": "LiveRamp, ID5 i Utiq, tots tres declarats corresponsables del tractament.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "onda-cero-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "onda-cero-privacy-policy"
+      ],
+      "detail": "Els codis d’identitat permeten vincular informació demogràfica i d’interessos aportada per tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no en diu res."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "onda-cero-privacy-policy"
+      ],
+      "detail": "Corresponsables publicitaris (LiveRamp, ID5, Utiq) i encarregats d’atenció al client, pagaments, seguretat i comercialització publicitària.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "onda-cero-privacy-policy"
+      ],
+      "detail": "El responsable és la societat del grup Atresmedia que gestiona cada servei, amb un delegat de protecció de dades comú.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "onda-cero-privacy-policy"
+      ],
+      "detail": "No hi ha venda declarada, però els codis d’identitat es poden compartir amb socis publicitaris d’abast global.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "onda-cero-privacy-policy"
+      ],
+      "detail": "Admet transferències fora de la UE amb «compromisos contractuals», sense concretar quin mecanisme.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "onda-cero-privacy-policy"
+      ],
+      "detail": "Hi ha terminis per a concursos i consultes, però no per a les dades de navegació ni per al registre general.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "onda-cero-privacy-policy"
+      ],
+      "detail": "Les dades queden bloquejades durant el termini de prescripció de les accions derivades de la relació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "nom-i-cognoms",
+        "period": "6 mesos després d’acabar el concurs o la promoció, i després bloquejades",
+        "sources": [
+          "onda-cero-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "onda-cero-privacy-policy"
+      ],
+      "detail": "El dret de supressió es reconeix i les dades basades en consentiment se suprimeixen immediatament en retirar-lo.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política només documenta el correu i la via postal; no hem pogut verificar cap opció dins de l’aplicació."
+    },
+    "difficulty": "medium",
+    "steps": [
+      "Escriu a privacidad@atresmedia.com acreditant la identitat i indicant que vols suprimir les dades associades a Onda Cero.",
+      "Com a alternativa, envia la sol·licitud a l’Oficina de Protecció de Dades d’Atresmedia, Avda. Isla Graciosa 13, 28703 San Sebastián de los Reyes (Madrid).",
+      "Al panell de configuració de galetes, retira també el consentiment de LiveRamp, ID5 i Utiq.",
+      "Per esborrar del tot els identificadors d’Utiq, entra al seu consenthub i revoca-hi tots els consentiments."
+    ],
+    "dataRetained": "Dades bloquejades durant el termini de prescripció o per atendre requeriments d’autoritats públiques.",
+    "sources": [
+      "onda-cero-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "onda-cero-privacy-policy"
+      ],
+      "detail": "La política diu que la portabilitat es lliura en un format estructurat i de lectura mecànica.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "onda-cero-privacy-policy"
+      ],
+      "detail": "Canal centralitzat del grup Atresmedia amb delegat de protecció de dades.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacidad@atresmedia.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "onda-cero-privacy-policy"
+      ],
+      "detail": "Panell de configuració de galetes, amb oposició específica per a LiveRamp, ID5 i Utiq; Utiq està desactivat per defecte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "onda-cero-privacy-policy"
+      ],
+      "detail": "La política diu que els indicadors de les aplicacions es poden configurar en qualsevol moment, sense detallar com.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "onda-cero-privacy-policy"
+      ],
+      "detail": "Consentiments separats per a cada corresponsable publicitari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És una aplicació d’escolta de ràdio i pòdcasts.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses del grup."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El domini no publica cap fitxer security.txt."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "rac1",
+      "comparability": "partial",
+      "rationale": "Ràdio generalista equivalent en català, amb menys corresponsables publicitaris declarats."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "La política descriu amb detall la infraestructura publicitària: és clara, però el tractament que descriu és intrusiu. Té data de març del 2024 i cobreix tot el grup Atresmedia, no només Onda Cero.",
+    "openQuestions": [
+      "Quin mecanisme concret empara les transferències fora de la UE?",
+      "Els identificadors de LiveRamp i ID5 també s’apliquen dins de l’aplicació mòbil o només al web?",
+      "Hi ha sancions o filtracions documentades? No hem pogut fer la cerca d’incidents."
+    ]
+  },
+  "appStoreBundleId": "com.antena3.ondacero"
+}

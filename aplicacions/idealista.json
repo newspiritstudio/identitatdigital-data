@@ -1,0 +1,651 @@
+{
+  "slug": "idealista",
+  "name": "idealista",
+  "company": "idealista",
+  "categories": [
+    "habitatge"
+  ],
+  "tagline": "Els filtres de cerca es comparteixen amb l’anunciant, i el perfil d’inquilí inclou els ingressos declarats",
+  "summary": "idealista és el portal immobiliari de referència a Espanya, i la seva política de privadesa és detallada: hi consten la signatura electrònica amb dades biomètriques del traç, la gravació i transcripció automàtica de trucades i la qualificació del perfil d’inquilí amb dades econòmiques. Quan contactes un anunciant, la política diu que també rep els filtres de cerca que has aplicat. L’etiqueta de l’App Store no declara cap dada desvinculada de la identitat.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "advertising",
+  "jurisdiction": "Espanya; autoritat de control: Agencia Española de Protección de Datos",
+  "userBase": "Més de 23 milions de destinataris actius mensuals declarats entre idealista.com, .it i .pt",
+  "links": {
+    "website": "https://www.idealista.com/",
+    "privacyPolicy": "https://www.idealista.com/ayuda/articulos/politica-de-privacidad/",
+    "appStore": "https://apps.apple.com/es/app/id465958311"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "idealista-politica-privacidad"
+    ],
+    "detail": "Es pot cercar i desar cerques sense registrar-se; la política distingeix expressament entre «usuari» i «usuari registrat». Per contactar un anunciant cal donar dades de contacte.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "idealista-politica-privacidad"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Una cerca de pis revela quant pots pagar, amb qui vius, on vols viure i quan et mudes. idealista recull el pressupost, zona, preferències de convivència, ingressos declarats per qualificar el perfil d’inquilí i, si signes un contracte a la plataforma, el traç, la pressió i la velocitat de la teva signatura.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "idealista-politica-privacidad"
+      ]
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "idealista-politica-privacidad"
+      ],
+      "note": "DNI, NIE o passaport per verificar anunciants i per als contractes de lloguer."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "idealista-politica-privacidad",
+        "idealista-app-store"
+      ],
+      "note": "A l’anunciant se li pot donar un àlies tokenitzat; a Google, Meta, TikTok i LinkedIn s’hi envia xifrat amb funció resum per crear audiències."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "idealista-politica-privacidad"
+      ]
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "idealista-politica-privacidad"
+      ],
+      "note": "Les trucades es graven per interès legítim i es transcriuen i resumeixen amb eines d’intel·ligència artificial; es conserven un any."
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "idealista-politica-privacidad"
+      ],
+      "note": "El traç, la pressió i la velocitat de la signatura manuscrita electrònica dels contractes."
+    },
+    {
+      "type": "nivell-d-ingressos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "idealista-politica-privacidad"
+      ],
+      "note": "Els ingressos declarats en qualificar el perfil d’inquilí es comparteixen, amb consentiment, amb els anunciants que tries."
+    },
+    {
+      "type": "situacio-familiar",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "idealista-politica-privacidad"
+      ],
+      "note": "La política parla de preferències de convivència dins de les característiques personals."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "idealista-politica-privacidad"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "recomanacions-algoritmiques",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "idealista-app-store",
+        "idealista-politica-privacidad"
+      ],
+      "note": "Els filtres de cerca desats es comuniquen a l’anunciant amb qui contactes, segons la mateixa política."
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "idealista-app-store"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "idealista-app-store"
+      ],
+      "note": "L’etiqueta la declara sota funcionalitat de l’aplicació, vinculada amb la identitat."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "idealista-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "idealista-app-store"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "idealista-politica-privacidad"
+      ]
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "idealista-politica-privacidad"
+      ],
+      "note": "La política diu obertament que idealista pot elaborar perfils sobre la base del teu comportament."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "idealista-app-store"
+      ],
+      "note": "Fotografies dels anuncis i del perfil; la política esmenta el difuminat automàtic d’imatges."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "idealista-politica-privacidad"
+      ],
+      "note": "La missatgeria interna es modera amb aprenentatge automàtic i revisió humana; el xat amb intel·ligència artificial conserva les converses i crea un «perfil de context»."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "idealista-app-store"
+      ],
+      "detail": "L’etiqueta declara historial de cerca, historial de navegació, identificadors i dades d’ús com a dades utilitzades per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "idealista-app-store"
+      ],
+      "detail": "Dades de publicitat i identificadors vinculats amb la identitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "idealista-politica-privacidad"
+      ],
+      "detail": "Col·laboració amb Google Ads, Meta, TikTok i LinkedIn per crear audiències i mesurar conversions.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "idealista-politica-privacidad"
+      ],
+      "detail": "Publicitat pròpia i creació d’audiències en plataformes de tercers, subjecta al consentiment de galetes.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://www.idealista.com/info/politica-cookies"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "idealista-politica-privacidad"
+      ],
+      "detail": "Elaboració de perfils per comportament emparada en l’interès legítim, per a recomanacions i comunicacions promocionals. La política afirma que no hi ha decisions automatitzades amb efectes jurídics.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "idealista-politica-privacidad"
+      ],
+      "detail": "Es fa servir intel·ligència artificial per transcriure i resumir trucades, per moderar la missatgeria i per al xat, però la política no diu que les dades serveixin per entrenar models.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "idealista-politica-privacidad"
+      ],
+      "detail": "Anunciants particulars i professionals, agències, col·laboradors d’energia i reformes, portals agregadors i entitats de taxació, que reben dades dels anuncis per interès legítim propi.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "idealista-politica-privacidad"
+      ],
+      "detail": "Amb Inmovilla, Avaibook, idealista/seguros, idealista/hipotecas i la Base de Datos de Morosidad Inmobiliaria, entre altres societats del grup.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap venda de dades a intermediaris; tampoc no detalla si es consulten fitxers de morositat a través de la societat del grup que en gestiona un."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "idealista-transferencias"
+      ],
+      "detail": "Només dos proveïdors fora de l’Espai Econòmic Europeu: un al Regne Unit, emparat per la decisió d’adequació, i un a Colòmbia, amb clàusules contractuals tipus.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "idealista-informe-dsa"
+      ],
+      "detail": "Publica l’informe de transparència que exigeix el Reglament de Serveis Digitals, sobre moderació de continguts i nombre de destinataris actius. No és un informe de peticions d’autoritats sobre dades personals.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "idealista-politica-privacidad"
+      ],
+      "detail": "La política dona terminis concrets per finalitat, cosa poc habitual: un any les gravacions de trucades, dos anys de bloqueig per a anunciants particulars, quatre per a prevenció del frau, cinc per als contractes de lloguer i fins a sis de bloqueig legal.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "idealista-politica-privacidad"
+      ],
+      "detail": "Després de suprimir el compte, el correu i el telèfon dels anunciants particulars queden bloquejats dos anys, i altres dades fins a sis per prescripció legal.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "veu-i-audio",
+        "period": "Un any (gravacions de trucades)",
+        "sources": [
+          "idealista-politica-privacidad"
+        ]
+      },
+      {
+        "dataType": "adreca-electronica",
+        "period": "Dos anys de bloqueig després de suprimir el compte (anunciants particulars)",
+        "sources": [
+          "idealista-politica-privacidad"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "idealista-baixa"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "idealista-baixa"
+      ],
+      "detail": "Hi ha una pàgina de baixa dins del compte; l’ajuda adverteix que l’acció no es pot desfer i que es perd tota la informació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://www.idealista.com/eliminar-usuario",
+    "difficulty": "easy",
+    "steps": [
+      "Inicia la sessió amb el teu compte d’idealista.",
+      "Ves a la pàgina de baixa d’usuari des de l’àrea privada o des de l’article d’ajuda «com donar-se de baixa».",
+      "Confirma la baixa: no és reversible i es perd tota la informació del compte.",
+      "Si també vols limitar el bloqueig posterior de les dades, escriu al canal de privadesa o al delegat de protecció de dades."
+    ],
+    "obstacles": "La baixa és senzilla, però no esborra les dades immediatament: passen a bloqueig durant dos a sis anys segons la finalitat.",
+    "dataRetained": "Correu i telèfon bloquejats dos anys per a anunciants particulars, quatre anys per a prevenció del frau i clients professionals, cinc per a contractes de lloguer i fins a sis de bloqueig legal.",
+    "sources": [
+      "idealista-baixa",
+      "idealista-politica-privacidad"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "idealista-politica-privacidad"
+      ],
+      "detail": "La portabilitat es reconeix, però s’ha d’exercir per correu: l’àrea privada només permet donar-se de baixa i configurar comunicacions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "idealista-politica-privacidad"
+      ],
+      "detail": "Canal de privadesa i delegada de protecció de dades, gratuïts, amb reclamació davant l’Agència Espanyola de Protecció de Dades.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dpo@idealista.com",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "idealista-politica-privacidad"
+      ],
+      "detail": "Gestor de consentiment propi amb control per finalitat i per proveïdor, i possibilitat d’oposar-se al tractament per interès legítim dels socis.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.idealista.com/info/politica-cookies"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "idealista-politica-privacidad"
+      ],
+      "detail": "Les galetes analítiques es poden refusar des del gestor de consentiment; no hi ha un control separat per a la telemetria de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "idealista-politica-privacidad"
+      ],
+      "detail": "Consentiment per finalitat i per soci, baixa d’alertes i de comunicacions comercials des dels ajustos.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [
+        "idealista-politica-privacidad"
+      ],
+      "detail": "No hem trobat obstacles a la baixa, però sí una asimetria d’informació: que en contactar un anunciant també li arribin els filtres de cerca aplicats és a la política i no a la pantalla de contacte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "confusing-language",
+        "severity": "medium",
+        "description": "La cessió dels filtres de cerca a l’anunciant amb qui contactes consta a la política de privadesa, però no al formulari de contacte, on la persona creu que només envia un missatge.",
+        "sources": [
+          "idealista-politica-privacidad"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "La missatgeria interna es modera i, per tant, no pot ser xifrada d’extrem a extrem.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "idealista-politica-privacidad"
+      ],
+      "detail": "La política parla de xifratge, pseudonimització i tokenització de correus, sense detall tècnic publicat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "idealista-politica-privacidad"
+      ],
+      "detail": "Esment genèric de xifratge i pseudonimització, sense especificació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "idealista-politica-privacidad"
+      ],
+      "detail": "Verificació en dos passos per SMS quan es detecta un dispositiu inusual.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "sms"
+      ]
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat certificacions ni auditories de seguretat publicades."
+    },
+    "bugBounty": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "idealista-vulnerabilitats"
+      ],
+      "detail": "Hi ha canal de comunicació de vulnerabilitats amb regles clares, però la pàgina no ofereix cap recompensa: és un programa de divulgació, no un bug bounty.",
+      "verifiedAt": "2026-09-22"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "idealista-vulnerabilitats"
+      ],
+      "detail": "Política publicada amb adreça de contacte i regles d’actuació. No hi ha fitxer security.txt al domini.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "fotocasa",
+      "comparability": "equivalent",
+      "rationale": "L’altre gran portal immobiliari espanyol, útil per comparar declaracions sobre el mateix servei."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La política d’idealista és de les més completes que hem llegit en aquesta onada: dona terminis concrets per finalitat, anomena les societats del grup que reben dades i publica la llista de transferències internacionals. El tractament continua sent invasiu, però la política permet auditar-lo. Els dominis bloquegen l’accés automatitzat, i el text s’ha hagut de llegir a través d’una còpia datada de l’Internet Archive; les etiquetes de l’App Store sí que s’han llegit en directe. La cerca d’incidents no ha donat cap sanció ni filtració documentada.",
+    "openQuestions": [
+      "La qualificació del perfil d’inquilí comporta alguna consulta a la base de dades de morositat immobiliària del grup?",
+      "Quant de temps es conserven les converses del xat amb intel·ligència artificial i el «perfil de context» que en resulta?"
+    ]
+  },
+  "appStoreBundleId": "com.idealista.idealistaios"
+}

@@ -1,0 +1,612 @@
+{
+  "slug": "messenger",
+  "name": "Messenger",
+  "company": "meta-platforms-ireland",
+  "categories": [
+    "missatgeria"
+  ],
+  "tagline": "Missatgeria de Meta xifrada per defecte des del 2023, però amb l’etiqueta de dades de tot el grup",
+  "summary": "Des de desembre de 2023 els xats personals i les trucades de Messenger van xifrats d’extrem a extrem per defecte, amb el protocol Labyrinth de Meta. L’aplicació continua lligada a la infraestructura de Meta, i l’etiqueta de l’App Store declara pràcticament tots els tipus de dades per a publicitat de tercers. A l’Espai Econòmic Europeu, per la Llei de mercats digitals, es pot fer servir amb un compte de Messenger separat de Facebook.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "advertising",
+  "jurisdiction": "Irlanda, per a persones usuàries de l’Espai Econòmic Europeu",
+  "links": {
+    "website": "https://www.messenger.com/",
+    "privacyPolicy": "https://www.facebook.com/privacy/policy/",
+    "privacyCenter": "https://www.facebook.com/privacy/center/",
+    "appStore": "https://apps.apple.com/es/app/id454638411"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "messenger-without-facebook"
+    ],
+    "detail": "Cal un compte de Facebook, que es pot desactivar mantenint Messenger; a l’Espai Econòmic Europeu també es pot crear un compte de Messenger separat.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "meta-privacy-policy"
+    ],
+    "detail": "Client privatiu; el protocol Labyrinth està descrit en documents tècnics.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "El contingut dels xats personals està xifrat, però Meta veu amb qui parla cada persona, quan i des d’on, i pot unir-ho al perfil de Facebook i d’Instagram. Els xats de grups de comunitat i les converses amb empreses no sempre tenen el mateix xifratge.",
+  "dataCollection": [
+    {
+      "type": "contingut-de-missatges",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "messenger-e2ee-2023"
+      ],
+      "note": "Els xats personals van xifrats d’extrem a extrem per defecte des del desplegament de 2023-2024."
+    },
+    {
+      "type": "metadades-de-comunicacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "meta-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "messenger-app-store"
+      ]
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "messenger-app-store"
+      ]
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "messenger-without-facebook"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "messenger-app-store"
+      ]
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "messenger-app-store"
+      ]
+    },
+    {
+      "type": "xarxa-de-contactes",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "messenger-without-facebook"
+      ],
+      "note": "Els amics de Facebook, si es fa servir el compte de Facebook."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "messenger-app-store"
+      ]
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "messenger-app-store"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "messenger-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "messenger-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "messenger-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "messenger-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "messenger-app-store"
+      ],
+      "note": "Declarades a l’etiqueta, comuna a les aplicacions de Meta."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "messenger-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "messenger-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "messenger-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "messenger-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada «utilitzada per rastrejar-te», però sí dades vinculades a la identitat que es fan servir per a publicitat de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "messenger-app-store"
+      ],
+      "detail": "L’etiqueta declara identificadors i dades de publicitat per a publicitat de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-privacy-policy",
+        "messenger-app-store"
+      ],
+      "detail": "Messenger forma part de la infraestructura publicitària de Meta i l’etiqueta declara dades per a publicitat de tercers; el contingut xifrat no s’hi pot fer servir.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "meta-ai-eu-terms",
+        "messenger-e2ee-2023"
+      ],
+      "detail": "Els xats xifrats no són accessibles per a Meta; les converses amb Meta AI dins de Messenger sí que es fan servir per millorar la IA.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-privacy-policy"
+      ],
+      "detail": "Anunciants, socis de mesura, proveïdors de serveis i autoritats, segons la política comuna de Meta.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-privacy-policy"
+      ],
+      "detail": "La informació circula entre els productes de Meta, sobretot si els comptes estan units al Centre de comptes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "meta-privacy-policy"
+      ],
+      "detail": "Meta diu que no ven dades personals, però en rep de socis comercials i les incorpora al perfil.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "regulator",
+      "sources": [
+        "meta-privacy-policy",
+        "dpc-meta-transfers-2023"
+      ],
+      "detail": "Transferències als Estats Units, sancionades el 2023 abans del marc d’adequació actual.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "adequacy"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-transparency-center"
+      ],
+      "detail": "Informe conjunt del grup Meta sobre peticions governamentals i aplicació de normes.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://transparency.meta.com/"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "meta-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "fb-delete-account"
+      ],
+      "detail": "Fins a 90 dies per esborrar la informació dels sistemes; els missatges enviats es conserven a les bústies de les altres persones.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fb-delete-account",
+        "messenger-without-facebook"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fb-delete-account"
+      ],
+      "detail": "Si es fa servir el compte de Facebook, cal eliminar-lo des del Centre de comptes; desactivar Facebook no elimina Messenger.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://www.facebook.com/help/delete_account",
+    "difficulty": "medium",
+    "waitingPeriodDays": 30,
+    "requiresSupportContact": false,
+    "steps": [
+      "Entra al Centre de comptes des de la configuració de Messenger o de Facebook.",
+      "Obre Dades personals i després Propietat i control del compte.",
+      "Tria «Desactivació o eliminació», selecciona el perfil i tria «Eliminar el compte».",
+      "No tornis a iniciar sessió durant 30 dies."
+    ],
+    "obstacles": "Messenger va lligat al compte de Facebook: desactivar Facebook manté Messenger actiu, i eliminar Messenger implica eliminar també Facebook, llevat dels comptes de Messenger separats de l’Espai Econòmic Europeu.",
+    "dataRetained": "Els missatges enviats resten a les bústies de les persones destinatàries.",
+    "sources": [
+      "fb-delete-account",
+      "messenger-without-facebook"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fb-download-info"
+      ],
+      "detail": "Exportació des del Centre de comptes de Meta.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://accountscenter.meta.com/info_and_permissions/dyi/"
+    },
+    "exportFormatQuality": "mixed",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-privacy-center"
+      ],
+      "detail": "Formulari de drets del grup Meta i contacte amb el delegat de protecció de dades de Meta Platforms Ireland.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.facebook.com/help/contact/540977946302970",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "regulator",
+      "sources": [
+        "meta-privacy-center",
+        "dpc-meta-ads-2023"
+      ],
+      "detail": "Els ajustos d’anuncis són els del Centre de comptes; la personalització només es desactiva del tot amb la subscripció.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "meta-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "messenger-without-facebook"
+      ],
+      "detail": "Es pot fer servir Messenger amb Facebook desactivat o, a l’Espai Econòmic Europeu, amb un compte separat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-privacy-center"
+      ],
+      "detail": "Verificació en dos passos del Centre de comptes amb aplicació d’autenticació, SMS, claus de seguretat i claus d’accés.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "totp",
+        "sms",
+        "hardware-key",
+        "passkey"
+      ]
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat auditories de seguretat independents publicades sobre aquesta aplicació."
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-transparency-center"
+      ],
+      "detail": "Coberta pel programa de recompenses de Meta.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.facebook.com/whitehat"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-transparency-center"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "e2ee": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "messenger-e2ee-2023"
+      ],
+      "detail": "Xats personals i trucades xifrats d’extrem a extrem per defecte des de desembre de 2023, amb l’historial desat amb «Secure Storage» i un PIN de recuperació.",
+      "verifiedAt": "2026-09-22",
+      "scope": "partial-default",
+      "protocol": "Labyrinth, basat en el Signal Protocol"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "signal",
+      "comparability": "equivalent",
+      "rationale": "Missatgeria i trucades xifrades d’extrem a extrem sense perfil publicitari ni compte de xarxa social al darrere.",
+      "tradeOffs": "Cal que els contactes també el facin servir; no hi ha la integració amb amics de Facebook."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "El xifratge per defecte millora molt la protecció del contingut, però l’etiqueta de l’App Store és la comuna de Meta i declara gairebé totes les categories de dades per a publicitat. Els incidents del grup vinculats a Facebook són a la fitxa de Facebook.",
+    "openQuestions": [
+      "Quins xats (comunitats, empreses, Meta AI) queden fora del xifratge d’extrem a extrem per defecte?"
+    ]
+  },
+  "appStoreBundleId": "com.facebook.Messenger"
+}

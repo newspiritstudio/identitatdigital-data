@@ -1,0 +1,425 @@
+{
+  "slug": "windfinder",
+  "name": "Windfinder: Viento & Tiempo",
+  "company": "windfinder",
+  "categories": [
+    "meteorologia"
+  ],
+  "tagline": "La ubicació no es desa i el compte s’esborra des de l’aplicació, però l’identificador de dispositiu serveix per rastrejar-te",
+  "summary": "Windfinder dona previsions de vent per a vela, surf i kite. Segons la política, la ubicació només es determina quan la persona ho demana i no es desa. El compte és opcional, només serveix per sincronitzar llocs preferits i s’elimina des de la mateixa aplicació amb un botó «Delete Account». En canvi, l’etiqueta declara l’identificador de dispositiu i les dades de publicitat com a dades usades per rastrejar-te.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Alemanya",
+  "links": {
+    "website": "https://www.windfinder.com/",
+    "privacyPolicy": "https://www.windfinder.com/contact/privacy_policy",
+    "appStore": "https://apps.apple.com/es/app/id336829635"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "windfinder-account-help"
+    ],
+    "detail": "L’ajuda diu explícitament que crear un compte és opcional i que només serveix per sincronitzar els llocs preferits i les preferències.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": []
+  },
+  "dataSummary": "Segons la política, la ubicació no es desa. El rastreig es fa amb l’identificador del dispositiu i les dades publicitàries que alimenten AdSense i la xarxa SnigelWeb.",
+  "dataCollection": [
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "windfinder-app-store",
+        "windfinder-privacy-policy"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "windfinder-privacy-policy"
+      ],
+      "note": "Una vintena llarga de galetes, entre analítiques, de consentiment i publicitàries."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "windfinder-app-store",
+        "windfinder-privacy-policy"
+      ],
+      "note": "Google Analytics 4 amb perfils pseudònims i esborrat als dos mesos."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "windfinder-app-store",
+        "windfinder-privacy-policy"
+      ],
+      "note": "Sentry per als errors i Firebase Crashlytics a l’aplicació."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "windfinder-privacy-policy"
+      ],
+      "note": "A l’analítica s’escurça abans de desar-la."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "windfinder-privacy-policy",
+        "windfinder-account-help"
+      ],
+      "note": "Només si es crea compte; també s’hi pot entrar amb Google."
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "windfinder-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "windfinder-privacy-policy"
+      ],
+      "note": "La política diu que només es determina a petició expressa de la persona i que no es desa."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "windfinder-app-store"
+      ],
+      "detail": "L’etiqueta declara l’identificador de dispositiu i les dades de publicitat com a dades usades per rastrejar-te.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "windfinder-app-store",
+        "windfinder-privacy-policy"
+      ],
+      "detail": "Publicitat servida per Google AdSense, DoubleClick i SnigelWeb.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "windfinder-privacy-policy"
+      ],
+      "detail": "Google Analytics 4, AdSense, DoubleClick, Firebase, Sentry, SnigelWeb i els mapes d’OpenStreetMap i Thunderforest.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "windfinder-privacy-policy"
+      ],
+      "detail": "Anuncis basats en interessos amb galetes d’AdSense i DoubleClick, amb consentiment previ.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "windfinder-privacy-policy"
+      ],
+      "detail": "Google Analytics elabora perfils pseudònims d’ús.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "windfinder-privacy-policy"
+      ],
+      "detail": "Proveïdors d’analítica, publicitat, errors i mapes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Empresa independent, sense grup.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "windfinder-privacy-policy"
+      ],
+      "detail": "Transferències als Estats Units emparades en el marc transatlàntic per als proveïdors certificats i en clàusules contractuals tipus per a la resta.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "windfinder-privacy-policy"
+      ],
+      "detail": "Concreta dos mesos per a l’analítica i set dies de retenció màxima per a SnigelWeb; per a la resta, el criteri general.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "windfinder-account-help"
+      ],
+      "detail": "L’ajuda diu que en esborrar el compte s’elimina permanentment la informació desada.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "windfinder-account-help"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "windfinder-account-help"
+      ],
+      "detail": "Des de la mateixa aplicació, sense escriure a ningú.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://www.windfinder.com/help/usage/windfinder-account",
+    "difficulty": "easy",
+    "requiresSupportContact": false,
+    "steps": [
+      "Obre l’aplicació i entra a l’apartat del compte.",
+      "Prem «Delete Account».",
+      "Recorda que les subscripcions Plus o Pro es cancel·len a l’App Store o a Google Play, no aquí."
+    ],
+    "sources": [
+      "windfinder-account-help"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "windfinder-privacy-policy"
+      ],
+      "detail": "Reconeix el dret de portabilitat, però no documenta cap eina d’exportació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "windfinder-privacy-policy"
+      ],
+      "detail": "Per correu a info@windfinder.com; la política no nomena cap delegat de protecció de dades.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:info@windfinder.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "windfinder-privacy-policy"
+      ],
+      "detail": "El consentiment es pot revocar en qualsevol moment i hi ha l’enllaç «Manage Cookies» al peu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "windfinder-privacy-policy"
+      ],
+      "detail": "L’analítica es basa en el consentiment, però no hi ha un interruptor específic documentat dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "windfinder-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Servei de previsió meteorològica: no hi ha comunicació privada entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’ajuda descriu l’accés amb correu o amb Google, sense esmentar cap segon factor propi."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha security.txt a windfinder.com."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "windy-com",
+      "comparability": "equivalent",
+      "rationale": "Mapes i previsions de vent equivalents, amb una etiqueta de l’App Store que no declara cap dada per rastrejar.",
+      "tradeOffs": "Menys estacions de mesura reals a la costa."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Cap filtració associada a windfinder.com a Have I Been Pwned. La política enumera proveïdors, terminis i galetes un per un.",
+    "openQuestions": [
+      "Quines dades exactes envia l’aplicació a SnigelWeb i amb quin consentiment?"
+    ]
+  },
+  "appStoreBundleId": "net.windfinder.windfinderapp"
+}

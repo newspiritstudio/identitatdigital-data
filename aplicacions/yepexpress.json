@@ -1,0 +1,533 @@
+{
+  "slug": "yepexpress",
+  "name": "Yepexpress",
+  "company": "uwe-international",
+  "categories": [
+    "comerc-electronic"
+  ],
+  "tagline": "Botiga que diu que no et rastreja mentre declara a Apple que fa servir les dades d’ús per rastrejar-te",
+  "summary": "Yepexpress és una botiga en línia de productes barats amb una política de privadesa que sembla reaprofitada d’un altre producte: parla de l’«Android ID» i d’altres programes instal·lats al dispositiu en una aplicació d’iOS, i afirma que no rastreja les persones usuàries mentre l’etiqueta de l’App Store declara dades d’ús per rastrejar en apps i webs d’altres empreses. Del responsable només se’n publica el nom i el número de societat.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Desconeguda; la política no publica el domicili del responsable",
+  "links": {
+    "website": "https://www.yepexpress.com/",
+    "privacyPolicy": "https://www.yepexpress.com/pages/privacy-policy",
+    "appStore": "https://apps.apple.com/es/app/id6630366971"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "yepexpress-privacy-policy"
+    ],
+    "detail": "La política descriu un registre opcional amb nom, adreces, correu, telèfon, data de naixement i gènere.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "yepexpress-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Entre el registre i la informació tècnica del dispositiu, la botiga acumula prou dades per construir un perfil de consum, i la política reconeix que les comparteix amb xarxes publicitàries i cercadors.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "yepexpress-privacy-policy"
+      ],
+      "note": "L’etiqueta de l’App Store no declara cap dada vinculada amb la identitat, cosa que no encaixa amb el registre que descriu la política."
+    },
+    {
+      "type": "adreca-postal",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "yepexpress-privacy-policy"
+      ],
+      "note": "Adreça particular o de la feina, per al lliurament."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "yepexpress-privacy-policy"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "yepexpress-privacy-policy"
+      ]
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "yepexpress-privacy-policy"
+      ]
+    },
+    {
+      "type": "genere",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "yepexpress-privacy-policy"
+      ]
+    },
+    {
+      "type": "contrasenya",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "yepexpress-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "yepexpress-privacy-policy"
+      ],
+      "note": "La política també esmenta l’adreça MAC i identificadors anònims d’usuari."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "yepexpress-privacy-policy"
+      ]
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "yepexpress-privacy-policy"
+      ],
+      "note": "Tipus, nom i versió del sistema operatiu i configuració del dispositiu."
+    },
+    {
+      "type": "aplicacions-instal-lades",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "yepexpress-privacy-policy"
+      ],
+      "note": "La política parla d’«Other Software» instal·lat al dispositiu i de la seva interacció amb el servei, una clàusula estranya en una botiga d’iOS."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "yepexpress-app-store",
+        "yepexpress-privacy-policy"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "yepexpress-app-store"
+      ],
+      "note": "És l’única categoria que l’etiqueta declara com a dada de rastreig."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "yepexpress-privacy-policy"
+      ],
+      "note": "La política esmenta les cerques i les pàgines visitades dins del servei."
+    },
+    {
+      "type": "xarxa-de-contactes",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "yepexpress-privacy-policy"
+      ],
+      "note": "Només si s’activen les funcions de xarxes socials, que demanen accés a llistes d’amics o contactes."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "yepexpress-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "yepexpress-app-store"
+      ],
+      "detail": "L’etiqueta declara dades d’ús per rastrejar en apps i webs d’altres empreses, tot i que la política afirma que no es rastregen les persones usuàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política parla de publicitat personalitzada i remet a l’exclusió de la Network Advertising Initiative, però no identifica l’identificador publicitari d’iOS."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "yepexpress-privacy-policy"
+      ],
+      "detail": "Cita Google Analytics, xarxes i plataformes publicitàries, proveïdors de continguts i cercadors.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "yepexpress-privacy-policy"
+      ],
+      "detail": "La política diu expressament que es fan servir dades per oferir publicitat dirigida i que empreses publicitàries de tercers poden recollir informació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "yepexpress-privacy-policy"
+      ],
+      "detail": "Personalitza continguts i recomanacions a partir de l’ús, però no descriu cap perfil comercial detallat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no en diu res."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "yepexpress-privacy-policy"
+      ],
+      "detail": "Cercadors, proveïdors de continguts, xarxes publicitàries i Google Analytics, a més de les autoritats quan la llei ho exigeix.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap grup empresarial."
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap declaració sobre venda de dades."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "yepexpress-privacy-policy"
+      ],
+      "detail": "Reconeix emmagatzematge en diverses ubicacions del món i diu que per a les persones de l’Espai Econòmic Europeu demana consentiment explícit per a les transferències fora de la regió.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "derogation"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No n’hi ha cap."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "yepexpress-privacy-policy"
+      ],
+      "detail": "Només enumera criteris, sense cap xifra.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no explica què passa amb les dades quan algú deixa de fer servir el servei."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "yepexpress-privacy-policy"
+      ],
+      "detail": "Es reconeix el dret de supressió, però no es descriu cap procediment per tancar el compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política només dona una adreça de correu del delegat de protecció de dades."
+    },
+    "difficulty": "unknown",
+    "requiresSupportContact": true,
+    "steps": [
+      "Escriu a service@yepexpress.com identificant-te i demanant la supressió de les dades.",
+      "Si has fet comandes, demana també que es notifiqui la supressió als tercers amb qui s’hagin compartit les dades; la política adverteix que no en garanteix el resultat."
+    ],
+    "obstacles": "L’única via documentada és el correu electrònic, i la política reconeix que no pot garantir que els tercers esborrin les dades compartides.",
+    "sources": [
+      "yepexpress-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "yepexpress-privacy-policy"
+      ],
+      "detail": "Reconeix la portabilitat per a les persones de l’Espai Econòmic Europeu, però no ofereix cap eina d’exportació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "yepexpress-privacy-policy"
+      ],
+      "detail": "Només per correu electrònic al delegat de protecció de dades.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:service@yepexpress.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "yepexpress-privacy-policy"
+      ],
+      "detail": "Remet a l’eina d’exclusió de la Network Advertising Initiative, que no cobreix les apps mòbils.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No es descriu cap control sobre l’analítica."
+    },
+    "granularControls": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "yepexpress-privacy-policy"
+      ],
+      "detail": "No hi ha cap panell de preferències de privadesa descrit.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No n’hem documentat cap amb prou base."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És una botiga, no un servei de comunicacions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El domini no publica cap fitxer security.txt accessible."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "alternatives": [
+    {
+      "app": "temu",
+      "comparability": "equivalent",
+      "rationale": "Mateix model de botiga xinesa de preus baixos, però amb una política molt més detallada i un responsable identificat a la Unió Europea.",
+      "tradeOffs": "Temu té un historial de crítiques de reguladors i una recollida de dades més àmplia."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "La política de privadesa sembla una plantilla reaprofitada: descriu programari instal·lat al dispositiu, l’Android ID i regles per evitar recollir dades personals «sense voler», llenguatge propi d’un SDK publicitari i no d’una botiga. Ho fem constar perquè afecta la fiabilitat de tot el document. No hem pogut fer la cerca d’incidents.",
+    "openQuestions": [
+      "On està domiciliada UWE INTERNATIONAL LIMITED i quina autoritat de control li correspon?",
+      "Per què l’etiqueta de l’App Store no declara cap dada vinculada amb la identitat si la política descriu un registre complet?"
+    ]
+  },
+  "appStoreBundleId": "com.yepexpress.ios"
+}

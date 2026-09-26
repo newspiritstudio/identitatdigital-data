@@ -1,0 +1,571 @@
+{
+  "slug": "el-pais",
+  "name": "EL PAÍS",
+  "company": "ediciones-el-pais",
+  "categories": [
+    "noticies-i-mitjans"
+  ],
+  "tagline": "Perfil inferit amb la navegació per tot PRISA Media i cinc anys de conservació després de marxar",
+  "summary": "La política d’EL PAÍS declara dues responsables, l’editora i PRISA Media, i admet que el perfil de la persona lectora es pot inferir a partir de la navegació per altres webs del grup i de la geolocalització del terminal. Fixa un termini poc habitual de cinc anys de conservació després de deixar de ser usuari, i cinc anys més de bloqueig si exerceixes la supressió. D’altra banda, és dels pocs diaris que té una pàgina de baixa dins de l’àrea privada.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "subscription",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://elpais.com/",
+    "privacyPolicy": "https://elpais.com/info/politica-privacidad/",
+    "appStore": "https://apps.apple.com/es/app/id301049096"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "el-pais-privacy-policy"
+    ],
+    "detail": "Es pot llegir sense registre; la subscripció i els serveis personalitzats tenen condicions pròpies.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "el-pais-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "El que llegeixes en un diari generalista revela posició política, salut, economia i creences, i aquí queda associat a un codi d’usuari que es conserva cinc anys després que deixis de ser-ne usuari.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "el-pais-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "el-pais-app-store"
+      ],
+      "note": "L’etiqueta el declara per a publicitat i màrqueting del desenvolupador."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "el-pais-app-store",
+        "el-pais-privacy-policy"
+      ],
+      "note": "La política diu que s’assigna un codi d’usuari per dispositiu o navegador encara que no t’hi registris."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "el-pais-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "el-pais-privacy-policy"
+      ],
+      "note": "La política diu que el perfil també es dedueix de la localització geogràfica del terminal."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "el-pais-app-store"
+      ],
+      "note": "L’etiqueta declara correus i missatges de text com a contingut de l’usuari per al funcionament de l’app."
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "el-pais-privacy-policy"
+      ],
+      "note": "Inclou la navegació per altres webs de PRISA Media."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "el-pais-privacy-policy"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "el-pais-app-store",
+        "el-pais-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "el-pais-app-store"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "el-pais-app-store"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "el-pais-privacy-policy"
+      ],
+      "note": "La política esmenta també balises d’imatge transparents en webs i aplicacions."
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "el-pais-privacy-policy"
+      ]
+    },
+    {
+      "type": "xarxa-i-connectivitat",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "el-pais-privacy-policy"
+      ]
+    },
+    {
+      "type": "llengua",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "el-pais-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "el-pais-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "el-pais-app-store",
+        "el-pais-privacy-policy"
+      ],
+      "detail": "Identificadors i dades d’ús declarats per rastrejar, i perfil inferit amb la navegació per altres webs del grup.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "el-pais-app-store"
+      ],
+      "detail": "Identificador de dispositiu i dades publicitàries per a publicitat de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "el-pais-privacy-policy"
+      ],
+      "detail": "Proveïdors externs de mesura amb galetes i balises.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "el-pais-privacy-policy"
+      ],
+      "detail": "Informació editorial o comercial dissenyada per al perfil inferit, en serveis propis i de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "el-pais-privacy-policy"
+      ],
+      "detail": "La política parla de definir tipologies, segmentacions i perfils d’usuari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "el-pais-privacy-policy"
+      ],
+      "detail": "La política diu que les notícies queden a disposició de cercadors, agregadors i sistemes d’aprenentatge automàtic de tercers; no declara entrenament propi.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "el-pais-privacy-policy"
+      ],
+      "detail": "No cedeix sense base jurídica, però fa servir proveïdors externs de mesura amb galetes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "el-pais-privacy-policy"
+      ],
+      "detail": "PRISA Media és corresponsable i el perfil es construeix amb la navegació per altres webs del grup.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no ho aborda."
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no té cap apartat de transferències internacionals."
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "el-pais-privacy-policy"
+      ],
+      "detail": "Cinc anys des que es deixa de ser usuari; les dades de persones «noticiables» es tracten de manera indefinida.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "el-pais-privacy-policy"
+      ],
+      "detail": "Després de la supressió les dades queden bloquejades i a disposició de les autoritats durant 5 anys.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "identificador-de-compte",
+        "period": "5 anys després de deixar de ser usuari",
+        "sources": [
+          "el-pais-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "publicacions-i-comentaris",
+        "period": "Indefinit per a les persones amb rellevància pública citades a les notícies",
+        "sources": [
+          "el-pais-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "el-pais-privacy-policy",
+        "el-pais-baja"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "el-pais-baja"
+      ],
+      "detail": "L’àrea privada té una pàgina de baixa del perfil, al menú «Derechos y baja».",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "directUrl": "https://plus.elpais.com/perfil/baja/",
+    "steps": [
+      "Si tens subscripció, cancel·la-la primer des de «Mi suscripción» (o des de l’App Store si la vas contractar allà).",
+      "Entra a l’àrea d’usuari d’elpais.com i obre «Derechos y baja».",
+      "Confirma la baixa del perfil a plus.elpais.com/perfil/baja.",
+      "Si necessites una supressió més àmplia, escriu al delegat de protecció de dades del grup a dpo@prisa.com."
+    ],
+    "dataRetained": "Dades bloquejades durant 5 anys a disposició de les autoritats competents.",
+    "sources": [
+      "el-pais-privacy-policy",
+      "el-pais-baja"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "el-pais-privacy-policy"
+      ],
+      "detail": "La portabilitat es reconeix, però la via que documenta la política és el correu postal.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "el-pais-privacy-policy"
+      ],
+      "detail": "Correu postal al domicili de les responsables; el delegat de protecció de dades del grup atén consultes i reclamacions.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dpo@prisa.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "el-pais-privacy-policy"
+      ],
+      "detail": "La política remet a la política de galetes; el consentiment específic es demana abans de les finalitats que el requereixen.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "el-pais-baja"
+      ],
+      "detail": "L’àrea d’usuari permet gestionar activitat, butlletins, dades i baixa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És una aplicació de lectura de notícies.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses del grup."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El domini no publica cap fitxer security.txt."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "el-mundo",
+      "comparability": "equivalent",
+      "rationale": "Diari generalista espanyol amb un model comparable de registre únic de grup."
+    },
+    {
+      "app": "new-york-times",
+      "comparability": "partial",
+      "rationale": "Diari de referència internacional amb una política més detallada, però amb publicitat basada en el correu i el telèfon."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "La política publicada exclou expressament els serveis que exigeixen registre, que remeten a condicions pròpies que no hem pogut localitzar. El termini de cinc anys i el tractament indefinit de les persones «noticiables» són les dues dades més rellevants.",
+    "openQuestions": [
+      "On és la política específica dels serveis d’EL PAÍS amb registre i subscripció?",
+      "Quines transferències internacionals impliquen les galetes publicitàries, que la política no esmenta?",
+      "Hi ha sancions o filtracions documentades? No hem pogut fer la cerca d’incidents."
+    ]
+  },
+  "appStoreBundleId": "com.prisacom.ElPais"
+}

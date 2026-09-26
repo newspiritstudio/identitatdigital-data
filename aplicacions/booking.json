@@ -1,0 +1,608 @@
+{
+  "slug": "booking",
+  "name": "Booking.com",
+  "company": "booking-com-bv",
+  "categories": [
+    "viatges-i-allotjament"
+  ],
+  "tagline": "L’etiqueta de l’App Store només declara un identificador; la política descriu un perfil de viatger que s’envia a cada allotjament",
+  "summary": "Hi ha molta diferència entre el que Booking.com declara a la botiga i el que diu el document legal. A Apple hi consta un únic identificador no vinculat amb la identitat; a la política hi ha pagaments, acompanyants, gravacions de trucades, entrenament de models d’IA i un resum de conducta que s’envia a l’allotjament abans de l’arribada. No hi ha cap manera d’eliminar el compte sense passar pel formulari de drets.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Països Baixos",
+  "userBase": "Plataforma molt gran en línia segons la DSA, amb molt més de 45 milions de destinataris mensuals a la Unió Europea",
+  "links": {
+    "website": "https://www.booking.com/",
+    "privacyPolicy": "https://www.booking.com/content/privacy.es.html",
+    "privacyCenter": "https://www.booking.com/content/dsar.es.html",
+    "appStore": "https://apps.apple.com/es/app/id367003839"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "booking-privacy-policy"
+    ],
+    "detail": "Es pot reservar com a convidat, però el compte és necessari per gestionar les reserves i per als programes de fidelització.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "editorial",
+    "sources": [],
+    "detail": "Aplicació privativa: no consta cap publicació del codi font.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Una reserva d’allotjament diu on dorms, amb qui, quantes nits i quan la teva casa és buida. Booking hi afegeix la data de naixement, si viatges per feina i un historial de cancel·lacions i d’opinions amb què fa un perfil reputacional de la persona viatgera.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "booking-privacy-policy"
+      ],
+      "note": "Es comunica a l’allotjament o al proveïdor de transport reservat."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "booking-privacy-policy"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "booking-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "booking-privacy-policy"
+      ]
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "booking-privacy-policy"
+      ],
+      "note": "També es demanen els noms i les dates de naixement de les persones acompanyants."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "booking-privacy-policy"
+      ],
+      "note": "Les passarel·les citades a la política són Adyen i Stripe."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts",
+        "recomanacions-algoritmiques",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "booking-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "booking-privacy-policy"
+      ],
+      "note": "La política parla de la «ubicación actual» per mostrar resultats propers."
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari",
+        "entrenament-de-models-dia"
+      ],
+      "sources": [
+        "booking-privacy-policy"
+      ],
+      "note": "Gravacions i transcripcions de les trucades d’atenció al client, conservades trenta dies per defecte."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "booking-privacy-policy"
+      ],
+      "note": "La política declara una finalitat de personalització, rànquing i optimització."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "booking-app-store"
+      ],
+      "note": "És l’única categoria declarada a l’etiqueta de l’App Store, i hi consta com a no vinculada amb la identitat."
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "booking-privacy-policy"
+      ],
+      "note": "La política distingeix galetes funcionals, analítiques i de màrqueting, incloses les de xarxes socials."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "booking-privacy-policy"
+      ]
+    },
+    {
+      "type": "ocupacio-i-carrec",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "booking-privacy-policy"
+      ],
+      "note": "Es demana si el viatge és per feina."
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "booking-privacy-policy"
+      ],
+      "note": "Les opinions publicades formen part del resum que rep l’allotjament."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "booking-app-store"
+      ],
+      "detail": "L’etiqueta declara els identificadors sota «Datos usados para rastrearte».",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "booking-app-store"
+      ],
+      "detail": "L’identificador de dispositiu es declara per a publicitat i màrqueting de l’editora.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "booking-privacy-policy"
+      ],
+      "detail": "La política descriu galetes de màrqueting i de xarxes socials per mostrar anuncis en altres llocs web.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "booking-privacy-policy"
+      ],
+      "detail": "Finalitat F de la taula de la política: publicitat, màrqueting i promocions, amb contingut i anuncis personalitzats dins i fora de la plataforma.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://www.booking.com/content/dsar.es.html"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "booking-privacy-policy"
+      ],
+      "detail": "Finalitat E: personalització, rànquing i optimització. A més, l’allotjament rep un resum del viatger amb el nombre de reserves completades, el percentatge de cancel·lacions i si hi ha reports de mala conducta.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "booking-privacy-policy"
+      ],
+      "detail": "Finalitat H de la taula: entrenament i optimització de models d’intel·ligència artificial. La política admet fins i tot conservar dades de menors per entrenar sistemes de moderació.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "booking-privacy-policy"
+      ],
+      "detail": "Proveïdors de viatge, col·laboradors estratègics, passarel·les de pagament i autoritats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "booking-privacy-policy"
+      ],
+      "detail": "Amb la resta d’empreses de Booking Holdings, entre les quals la política cita Agoda i OpenTable, també per a ofertes personalitzades i màrqueting. S’hi pot oposar des del formulari de drets.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta cap venda de dades a intermediaris."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "booking-privacy-policy",
+        "booking-bcr-summary"
+      ],
+      "detail": "Clàusules contractuals tipus per als encarregats i normes corporatives vinculants per a les transferències dins del grup, amb resum públic en PDF.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "bcrs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "booking-dsa"
+      ],
+      "detail": "Publica els informes que exigeix el Reglament de serveis digitals (articles 15, 24 i 42, avaluació de riscos i auditoria independent), però cap informe sobre peticions de dades de les autoritats.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "booking-privacy-policy"
+      ],
+      "detail": "La regla general és oberta. Els dos únics terminis numèrics són els de les gravacions de trucades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "booking-privacy-policy"
+      ],
+      "detail": "Es conserven les dades necessàries per a la prevenció del frau, les obligacions comptables i fiscals i les reclamacions legals.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "veu-i-audio",
+        "period": "30 dies per a les gravacions i transcripcions de trucades.",
+        "sources": [
+          "booking-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "veu-i-audio",
+        "period": "Fins a 12 mesos per a les trucades relacionades amb assegurances.",
+        "sources": [
+          "booking-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "booking-dsar-form"
+      ],
+      "detail": "El formulari de drets inclou l’opció «Derecho al olvido — Quieres eliminar tus datos personales de nuestro sistema».",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "booking-dsar-form"
+      ],
+      "detail": "No hem trobat cap botó d’eliminació dins del compte: el camí documentat és el formulari de drets amb verificació d’identitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://www.booking.com/content/dsar.es.html",
+    "difficulty": "hard",
+    "requiresSupportContact": true,
+    "steps": [
+      "Obre el formulari de drets a booking.com/content/dsar.es.html.",
+      "Tria «Derecho al olvido — Quieres eliminar tus datos personales de nuestro sistema».",
+      "Omple nom, cognoms i adreça electrònica i continua amb la verificació d’identitat.",
+      "Respon les preguntes de comprovació sobre reserves anteriors si te les demanen."
+    ],
+    "obstacles": "El formulari no indica cap termini de resposta i la verificació pot incloure preguntes sobre reserves passades. A més, la baixa exigeix un exercici formal de drets, que afegeix passos.",
+    "dataRetained": "Dades comptables i fiscals i les necessàries per a la prevenció del frau i les reclamacions legals.",
+    "sources": [
+      "booking-dsar-form",
+      "booking-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "booking-dsar-form"
+      ],
+      "detail": "El dret d’accés i de portabilitat s’exerceix pel mateix formulari; no hi ha descàrrega autoservei ni format anunciat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "booking-privacy-policy",
+        "booking-dsar-form"
+      ],
+      "detail": "Formulari dedicat i delegat de protecció de dades amb adreça pròpia.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.booking.com/content/dsar.es.html"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "booking-privacy-policy"
+      ],
+      "detail": "Hi ha un interruptor per desactivar les recomanacions personalitzades, però la mateixa política adverteix que «la opción solo quedará desactivada en el dispositivo actual»: cal repetir-ho a cada telèfon i navegador.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "booking-privacy-policy"
+      ],
+      "detail": "Les galetes analítiques es poden desactivar des de la configuració de galetes; no consta cap control equivalent per a la telemetria de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "booking-privacy-policy",
+        "booking-dsar-form"
+      ],
+      "detail": "Configuració de galetes per categories, control de recomanacions i oposició específica a compartir dades amb Booking Holdings.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [
+        "booking-privacy-policy"
+      ],
+      "detail": "El control de recomanacions només s’aplica al dispositiu on es fa servir i cal repetir-lo a cada telèfon i navegador. No el considerem enganyós, però la feina recau en la persona usuària.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "hidden-exit",
+        "severity": "medium",
+        "description": "L’eliminació del compte no és una opció de la configuració: cal obrir un formulari d’exercici de drets i superar una verificació d’identitat.",
+        "sources": [
+          "booking-dsar-form"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no transporta comunicacions privades; els missatges amb l’allotjament passen pel servidor.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "booking-privacy-policy"
+      ],
+      "detail": "La política descriu xifratge, prevenció de fuites, gestió d’identitats i protocols de resposta a incidents.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "booking-privacy-policy"
+      ],
+      "detail": "Es parla de xifratge de manera genèrica, sense distingir el trànsit del repòs.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "booking-privacy-policy"
+      ],
+      "detail": "La política recomana protegir el compte amb contrasenya robusta i verificació en dos passos.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "booking-dsa"
+      ],
+      "detail": "Hi ha auditories independents obligatòries pel Reglament de serveis digitals, però no consta cap certificació de seguretat pública com ISO 27001 o PCI DSS.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "booking-security-txt"
+      ],
+      "detail": "Programa públic de recompenses a HackerOne, obert des del 2023.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://hackerone.com/bookingcom"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "booking-security-txt"
+      ],
+      "detail": "Hi ha fitxer security.txt amb contacte, però el camp Expires marca el 31 de desembre de 2025: està caducat i, per tant, no és conforme amb l’RFC 9116.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "airbnb",
+      "comparability": "equivalent",
+      "rationale": "Cobreix la mateixa necessitat i, a diferència de Booking, permet eliminar el compte i descarregar les dades sense formularis.",
+      "tradeOffs": "Declara moltes més categories de dades vinculades amb la identitat, incloses les biomètriques de verificació."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La política diu que s’envia a l’allotjament un perfil resumit del viatger: nombre de reserves completades, percentatge de cancel·lacions prèvies i absència de reports de mala conducta. És una puntuació reputacional que la persona no veu i que no apareix enlloc de l’etiqueta de l’App Store.",
+    "openQuestions": [
+      "Hi ha cap opció d’eliminació del compte dins de l’àrea autenticada, o el formulari és l’únic camí?",
+      "Per què l’etiqueta de l’App Store no declara cap dada vinculada amb la identitat si la política en descriu tantes?"
+    ]
+  },
+  "appStoreBundleId": "com.booking.BookingApp"
+}

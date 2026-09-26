@@ -1,0 +1,455 @@
+{
+  "slug": "cicla",
+  "name": "Cicla",
+  "company": "cicla",
+  "categories": [
+    "benestar-i-activitat-fisica"
+  ],
+  "tagline": "Calendari menstrual que es compromet a no vendre dades, amb una política massa breu per a les dades que tracta",
+  "summary": "Cicla és un projecte català de seguiment del cicle menstrual fet per un equip de dones i sostingut amb donacions. Afirma a la política i a la pàgina de compromisos que no ven ni comparteix dades, i l’etiqueta de l’App Store no declara cap dada de rastreig ni cap dada vinculada amb la persona. Però la política és de 2021, no identifica cap responsable del tractament amb raó social ni NIF, no cita l’article 9 del RGPD per a unes dades que inclouen el desig sexual, i situa la base de dades a Supabase, una empresa amb seu a Singapur, sense esmentar cap mecanisme de transferència internacional.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "donations",
+  "jurisdiction": "Espanya",
+  "userBase": "Més de 30.000 usuàries registrades segons el mateix projecte.",
+  "links": {
+    "website": "https://cicla.es/",
+    "privacyPolicy": "https://cicla.es/politica-de-privacidad",
+    "terms": "https://cicla.es/terminos-y-condiciones",
+    "appStore": "https://apps.apple.com/es/app/id1573281802"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "cicla-terms",
+      "cicla-privacy"
+    ],
+    "detail": "Cal crear compte amb nom, sexe, data de naixement i correu.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "cicla-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Les dades d’un calendari menstrual són dades de salut de categoria especial: diuen si hi ha embaràs, quan hi ha relacions sexuals i quin és l’estat físic i anímic dia a dia. Concentrades en un sol compte, són una de les informacions més sensibles que una persona pot confiar a una aplicació.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "cicla-app-store",
+        "cicla-privacy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "cicla-app-store",
+        "cicla-privacy"
+      ],
+      "note": "Si t’apuntes al butlletí, el correu passa a Mailchimp."
+    },
+    {
+      "type": "contrasenya",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "cicla-privacy"
+      ]
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "cicla-privacy",
+        "cicla-terms"
+      ]
+    },
+    {
+      "type": "genere",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "cicla-terms"
+      ],
+      "note": "Les condicions diuen que en crear el compte es pot demanar el sexe."
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "cicla-app-store",
+        "cicla-privacy"
+      ],
+      "note": "Dates i durada del cicle, símptomes, benestar i activitats relacionades. La política no invoca l’article 9 del RGPD."
+    },
+    {
+      "type": "orientacio-sexual",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "cicla-privacy"
+      ],
+      "note": "La política inclou el desig sexual entre els símptomes registrats; no és orientació en sentit estricte, però és vida sexual de l’article 9 del RGPD."
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "cicla-privacy"
+      ],
+      "note": "Model de maquinari i versió del sistema operatiu, recollits amb Google Analytics."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "cicla-app-store",
+        "cicla-privacy"
+      ],
+      "note": "Seccions visitades i patrons d’ús, recollits amb Google Analytics."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "cicla-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap dada utilitzada per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "cicla-app-store"
+      ],
+      "detail": "No apareix cap categoria publicitària a l’etiqueta.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cicla-privacy"
+      ],
+      "detail": "La política declara l’ús de Google Analytics.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "cicla-privacy",
+        "cicla-compromisos"
+      ],
+      "detail": "El projecte afirma que no ven ni comparteix dades i l’aplicació no mostra publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "cicla-privacy"
+      ],
+      "detail": "Les dades serveixen per fer prediccions i recomanacions personalitzades del cicle, no per a perfils comercials.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu si les dades serveixen per entrenar els models de predicció."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "cicla-privacy"
+      ],
+      "detail": "La política diu que no comparteix dades amb ningú, però declara alhora Supabase com a base de dades, Mailchimp per al butlletí i Google Analytics per a l’analítica.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No forma part de cap grup.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "cicla-privacy",
+        "cicla-compromisos"
+      ],
+      "detail": "Afirmació explícita i repetida de no vendre dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "cicla-privacy"
+      ],
+      "detail": "La base de dades és a Supabase, amb seu social a Singapur, i la política no esmenta cap mecanisme de transferència internacional ni cap garantia adequada.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "cicla-privacy"
+      ],
+      "detail": "El criteri és «mentre el compte estigui actiu o mentre estiguis subscrita al butlletí», sense terminis en dies.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu què es conserva després d’esborrar el compte."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cicla-privacy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cicla-privacy"
+      ],
+      "detail": "Hi ha un botó «eliminar cuenta» dins del Perfil de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "easy",
+    "requiresSupportContact": false,
+    "steps": [
+      "Obre el Perfil dins de l’aplicació i prem «eliminar cuenta».",
+      "Si vols esborrar només una part de les dades o tenir-ne constància per escrit, escriu a hola@cicla.es."
+    ],
+    "obstacles": "La política es reserva el dret de rebutjar peticions que consideri infundades o repetitives, i no diu en quin termini s’esborren les dades de la base de dades ni de les còpies de seguretat.",
+    "sources": [
+      "cicla-privacy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "cicla-privacy"
+      ],
+      "detail": "Es pot demanar per correu la descàrrega de la informació; no hi ha eina automàtica.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "cicla-privacy"
+      ],
+      "detail": "Tots els drets s’exerceixen escrivint a una sola adreça de correu; la política no identifica cap responsable del tractament amb raó social ni informa del dret a reclamar davant l’AEPD.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:hola@cicla.es"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El producte no mostra publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "cicla-privacy"
+      ],
+      "detail": "La política no ofereix cap manera de desactivar Google Analytics dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "cicla-privacy"
+      ],
+      "detail": "La política no descriu cap control de privadesa dins del producte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem documentat patrons enganyosos."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu si les dades del cicle es xifren d’extrem a extrem."
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "cicla-privacy"
+      ],
+      "detail": "La política demana que els incidents de seguretat es comuniquin a hola@cicla.es, sense cap programa ni recompensa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "cicla-privacy"
+      ],
+      "detail": "Hi ha una adreça de correu per denunciar incidents de seguretat, però no cap política de divulgació ni fitxer security.txt.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "flo",
+      "comparability": "equivalent",
+      "rationale": "Cobreix les mateixes funcions amb un producte molt més desenvolupat.",
+      "tradeOffs": "És una empresa amb model publicitari i de subscripció, amb un historial regulador molt més carregat."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "No hem trobat sancions de l’AEPD ni filtracions relacionades amb Cicla. Els informes generals sobre apps de menstruació (Privacy International, la UOC) no s’hi refereixen i no els hem atribuït a aquesta fitxa. La valoració baixa de la claredat no posa en dubte la intenció del projecte; la política és massa curta per a dades de l’article 9 del RGPD i no identifica el responsable del tractament.",
+    "openQuestions": [
+      "Quina és la raó social i el NIF del responsable del tractament?",
+      "Quin mecanisme empara l’ús de Supabase, amb seu social a Singapur?",
+      "Per què la política no invoca el consentiment explícit de l’article 9 per a les dades de salut?"
+    ]
+  },
+  "appStoreBundleId": "com.cicla.ciclaapp"
+}

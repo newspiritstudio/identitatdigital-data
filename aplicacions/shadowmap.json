@@ -1,0 +1,471 @@
+{
+  "slug": "shadowmap",
+  "name": "Shadowmap: Sol y Sombra",
+  "company": "shadowmap-technologies",
+  "categories": [
+    "meteorologia"
+  ],
+  "tagline": "Cap dada declarada per rastrejar i un model de subscripció sense publicitat, però l’esborrat del compte només per correu",
+  "summary": "Shadowmap simula on toca el sol i on hi ha ombra a qualsevol punt del món i a qualsevol hora. L’edita una empresa petita de Viena que es finança amb subscripcions i llicències professionals, sense publicitat. L’etiqueta de l’App Store no declara cap dada utilitzada per rastrejar i la política diu explícitament que no ven dades. En canvi, la política no anomena cap encarregat, no fixa terminis i l’esborrat del compte s’ha de demanar per correu.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Àustria",
+  "links": {
+    "website": "https://shadowmap.org/",
+    "privacyPolicy": "https://shadowmap.org/privacy-policy",
+    "appStore": "https://apps.apple.com/es/app/id1566789060"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "shadowmap-privacy",
+      "shadowmap-app-store"
+    ],
+    "detail": "Hi ha un nivell gratuït; el compte amb adreça electrònica i contrasenya cal per a les subscripcions Explorer, Home i Studio.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": [],
+    "detail": "No hem trobat publicat el codi de l’aplicació."
+  },
+  "dataSummary": "Les consultes de Shadowmap són adreces concretes: la casa que es vol comprar, el pis que es vol llogar, el terrat on es volen posar plaques. El conjunt de llocs consultats és una llista d’interessos immobiliaris molt precisa, encara que l’empresa no la vinculi amb publicitat.",
+  "dataCollection": [
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "shadowmap-privacy",
+        "shadowmap-app-store"
+      ],
+      "note": "L’etiqueta declara les dades de contacte vinculades a la identitat."
+    },
+    {
+      "type": "contrasenya",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "shadowmap-privacy"
+      ]
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "shadowmap-privacy"
+      ],
+      "note": "Opcional al perfil i obligatori a les dades de facturació."
+    },
+    {
+      "type": "adreca-postal",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "shadowmap-privacy"
+      ],
+      "note": "Dades de facturació."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "shadowmap-app-store",
+        "shadowmap-privacy"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "shadowmap-app-store"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "shadowmap-app-store",
+        "shadowmap-privacy"
+      ],
+      "note": "Amb consentiment; l’etiqueta la declara no vinculada a la identitat."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "shadowmap-app-store",
+        "shadowmap-privacy"
+      ],
+      "note": "La política parla de dades de comportament pseudonimitzades i recollides amb consentiment."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "shadowmap-privacy"
+      ],
+      "note": "Registres de servidor amb IP, agent d’usuari, sistema operatiu i pàgines visitades."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "shadowmap-privacy"
+      ],
+      "note": "La política inclou les cerques entre les dades dels registres."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "shadowmap-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "shadowmap-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap dada utilitzada per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "shadowmap-app-store",
+        "shadowmap-privacy"
+      ],
+      "detail": "No hi ha publicitat i l’etiqueta no declara cap dada publicitària.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política parla de proveïdors i consultors però no n’anomena cap, de manera que no sabem quines eines d’analítica hi ha."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "shadowmap-app-store",
+        "shadowmap-privacy"
+      ],
+      "detail": "El model és de subscripció; ni l’etiqueta ni la política declaren cap finalitat publicitària.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "shadowmap-privacy"
+      ],
+      "detail": "La política no descriu cap elaboració de perfils; les dades de comportament es declaren pseudonimitzades i subjectes a consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu res sobre l’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "shadowmap-privacy"
+      ],
+      "detail": "La política preveu compartir amb proveïdors i consultors, però no n’anomena cap.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hem trobat cap grup empresarial: l’empresa és una societat austríaca independent.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "shadowmap-privacy"
+      ],
+      "detail": "La política diu expressament que no ven dades a tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "shadowmap-privacy"
+      ],
+      "detail": "La política invoca clàusules contractuals tipus i normes corporatives vinculants, però també l’Escut de Privadesa, anul·lat pel Tribunal de Justícia de la Unió Europea el 2020, cosa que indica que el text no s’ha revisat.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "shadowmap-privacy"
+      ],
+      "detail": "La política només diu que conserva les dades mentre calgui, sense cap termini.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu què es conserva després d’esborrar el compte."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "shadowmap-privacy"
+      ],
+      "detail": "La política diu que es pot esborrar la informació del compte en qualsevol moment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "shadowmap-privacy"
+      ],
+      "detail": "L’únic camí que descriu la política és enviar un correu electrònic.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "requiresSupportContact": true,
+    "steps": [
+      "Cancel·la la subscripció des de Configuració > El teu nom > Subscripcions si la vas contractar dins de l’aplicació.",
+      "Escriu a aloha@shadowmap.org demanant l’eliminació del compte i de les dades associades.",
+      "Desinstal·la l’aplicació."
+    ],
+    "obstacles": "La política no dona cap termini de resposta ni indica si hi ha un botó equivalent dins de l’aplicació.",
+    "sources": [
+      "shadowmap-privacy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "shadowmap-privacy"
+      ],
+      "detail": "La secció per a l’Espai Econòmic Europeu reconeix la portabilitat, però no hi ha cap eina d’exportació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "shadowmap-privacy",
+        "shadowmap-imprint"
+      ],
+      "detail": "La política té una secció específica per a l’Espai Econòmic Europeu amb tots els drets i una adreça de contacte, tot i que no designa cap delegat de protecció de dades. L’avís legal identifica la societat amb registre mercantil i número d’IVA, de manera que el responsable és plenament identificable.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:aloha@shadowmap.org"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no mostra publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "shadowmap-privacy"
+      ],
+      "detail": "La política diu que les dades de comportament es recullen amb consentiment, però no descriu on es retira.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap panell de privadesa documentat."
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi de patrons foscos a l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Servei de visualització de mapes; no hi ha comunicació privada entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política parla de salvaguardes tècniques i operatives, sense concretar-ne cap."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu res sobre el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap documentació sobre doble factor."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap auditoria."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha fitxer security.txt a shadowmap.org."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "L’avís legal identifica la societat amb número de registre mercantil al Handelsgericht de Viena i número d’IVA, cosa que fa que el responsable sigui perfectament identificable. Com que l’aplicació permet crear compte, la directriu 5.1.1(v) de revisió de l’App Store exigeix que l’esborrat es pugui fer des de dins; la política només ofereix el correu i no hem pogut comprovar si el botó hi és.",
+    "openQuestions": [
+      "La cerca d’incidents no s’ha pogut completar: s’havia esgotat el pressupost de cerques web de la sessió. Cal repetir-la abans de donar per bo que no n’hi ha cap.",
+      "L’aplicació té un botó d’eliminació del compte dins de la interfície, com exigeix la directriu 5.1.1(v) de l’App Store?",
+      "Quins encarregats del tractament fa servir (analítica, pagaments, allotjament)? La política no n’anomena cap."
+    ]
+  },
+  "appStoreBundleId": "org.shadowmap.Shadowmap"
+}

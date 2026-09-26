@@ -1,0 +1,505 @@
+{
+  "slug": "adobe-scan",
+  "name": "Adobe Scan",
+  "company": "adobe-ireland",
+  "categories": [
+    "ofimatica-i-productivitat",
+    "utilitats"
+  ],
+  "tagline": "Escàner de documents que converteix el DNI o la factura en text al núvol i declara identificadors per a publicitat de tercers",
+  "summary": "Adobe Scan fotografia documents i els converteix en PDF amb reconeixement de text. A diferència d’escàners que treballen al dispositiu, el processament passa pel núvol d’Adobe i el contingut queda sota la mateixa política que analitza el material emmagatzemat amb aprenentatge automàtic. A diferència de la d’Acrobat Reader, l’etiqueta de l’App Store declara identificadors vinculats al compte per a publicitat de tercers.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Irlanda",
+  "links": {
+    "website": "https://www.adobe.com/es/acrobat/mobile/scanner-app.html",
+    "privacyPolicy": "https://www.adobe.com/privacy/policy.html",
+    "privacyCenter": "https://www.adobe.com/privacy/opt-out.html",
+    "appStore": "https://apps.apple.com/es/app/id1199564834"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "adobe-scan-app-store"
+    ],
+    "detail": "L’aplicació desa els escanejos al núvol d’Adobe i demana iniciar sessió amb un Adobe ID.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "adobe-scan-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Sovint s’escanegen documents per fer tràmits: documents d’identitat, receptes, nòmines o contractes de lloguer. Amb el reconeixement de text al núvol, aquest contingut es converteix en text indexable als servidors d’Adobe.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "adobe-scan-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "adobe-scan-app-store"
+      ]
+    },
+    {
+      "type": "fitxers-i-documents",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "adobe-scan-app-store",
+        "adobe-privacy-policy"
+      ],
+      "note": "Els escanejos es desen al Document Cloud i queden sotmesos a l’anàlisi automatitzada del contingut descrita a la política."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "adobe-scan-app-store"
+      ],
+      "note": "L’etiqueta ho declara com a «otro contenido del usuario»; són les captures de la càmera."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "adobe-scan-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "adobe-scan-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "adobe-scan-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "adobe-scan-app-store"
+      ],
+      "note": "Declarat explícitament per a publicitat de tercers, cosa que no passa a Acrobat Reader."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "adobe-scan-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "adobe-scan-app-store"
+      ]
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "editorial",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [],
+      "note": "Interpretació pròpia: Adobe no demana el document d’identitat, però escanejar-lo és un dels usos habituals de l’aplicació i el text reconegut acaba al núvol."
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "adobe-scan-app-store"
+      ],
+      "note": "A diferència d’Acrobat Reader, l’etiqueta d’Adobe Scan no declara contactes."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "adobe-scan-app-store"
+      ],
+      "detail": "Identificador d’usuari i de dispositiu declarats com a dades utilitzades per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "adobe-scan-app-store"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "adobe-scan-app-store"
+      ],
+      "detail": "L’etiqueta declara identificadors vinculats al compte per a «publicidad de terceros».",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "adobe-scan-app-store",
+        "adobe-privacy-choices"
+      ],
+      "detail": "Publicitat de tercers declarada a l’etiqueta i publicitat basada en interessos descrita a la política.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://www.adobe.com/privacy/opt-out.html"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "adobe-privacy-policy"
+      ],
+      "detail": "Personalització del producte i de les comunicacions a partir de les dades d’ús.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "adobe-privacy-policy",
+        "adobe-privacy-choices"
+      ],
+      "detail": "L’anàlisi del contingut amb aprenentatge automàtic per millorar els serveis s’aplica també als documents escanejats, amb exclusió disponible.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://www.adobe.com/privacy/opt-out.html"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "adobe-privacy-policy",
+        "adobe-scan-app-store"
+      ],
+      "detail": "Socis publicitaris, proveïdors tecnològics i plataformes socials.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "adobe-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Sense evidència de venda de dades a intermediaris."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "adobe-privacy-policy"
+      ],
+      "detail": "Transferències als Estats Units i a l’Índia sota el marc de privadesa de dades UE-EUA i garanties contractuals.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "adequacy"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "adobe-transparency-center"
+      ],
+      "detail": "Mateix centre de transparència que la resta de productes d’Adobe.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "adobe-privacy-policy"
+      ],
+      "detail": "Conservació mentre el compte és actiu i deu anys per a la informació de transaccions comercials; els escanejos es conserven fins que la persona els esborra.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "adobe-privacy-policy"
+      ],
+      "detail": "La informació comercial sobreviu al tancament del compte durant els terminis legals.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "adobe-privacy-policy"
+      ],
+      "detail": "El compte és el mateix Adobe ID d’Acrobat Reader i se li apliquen les mateixes vies de supressió.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut verificar el camí exacte d’eliminació dins del compte perquè les pàgines d’ajuda d’Adobe bloquegen l’accés automatitzat."
+    },
+    "difficulty": "unknown",
+    "steps": [
+      "Descarrega o exporta els escanejos que vulguis conservar: s’esborren amb el compte.",
+      "Cancel·la les subscripcions actives d’Adobe.",
+      "Demana la supressió amb el formulari de consultes de privadesa d’Adobe o a DPO@adobe.com."
+    ],
+    "sources": [
+      "adobe-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "adobe-privacy-policy"
+      ],
+      "detail": "Accés i portabilitat a través del formulari de privadesa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "adobe-privacy-policy"
+      ],
+      "detail": "Formulari de privadesa i DPO@adobe.com.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:DPO@adobe.com",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "adobe-privacy-choices"
+      ],
+      "detail": "Exclusió delegada a les eines sectorials DAA i EDAA.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La pàgina de preferències documenta la desactivació de les dades d’ús a les aplicacions d’escriptori, no a les mòbils."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "adobe-privacy-choices"
+      ],
+      "detail": "Els controls són els generals del compte d’Adobe, no específics de l’escàner.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [
+        "adobe-scan-app-store"
+      ],
+      "detail": "Interpretació pròpia: una aplicació per digitalitzar documents personals declara identificadors per a publicitat de tercers, un ús que la persona no espera en aquest context.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "adobe-privacy-policy"
+      ],
+      "detail": "El reconeixement de text i l’anàlisi del contingut al núvol exclouen el xifratge d’extrem a extrem.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "editorial",
+      "sources": [],
+      "detail": "Interpretació pròpia a partir de la navegació: els serveis d’Adobe només responen per HTTPS.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Sense font pública llegible."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Sense font pública llegible."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Sense font pública concreta."
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "adobe-security-txt"
+      ],
+      "detail": "Programa públic d’Adobe a Intigriti.",
+      "verifiedAt": "2026-09-22"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "adobe-security-txt"
+      ],
+      "detail": "Contacte psirt@adobe.com al fitxer security.txt.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "adobe-acrobat-reader",
+      "comparability": "complementary",
+      "rationale": "Acrobat Reader també escaneja i evita instal·lar una segona aplicació amb la seva pròpia etiqueta de rastreig.",
+      "tradeOffs": "El reconeixement de text i l’organització de documents són més limitats."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Adobe Scan i Acrobat Reader tenen la mateixa política i el mateix responsable, però només l’etiqueta d’Adobe Scan declara identificadors vinculats al compte per a publicitat de tercers.",
+    "openQuestions": [
+      "Adobe Scan processa el reconeixement de text al dispositiu o sempre al núvol?"
+    ]
+  },
+  "appStoreBundleId": "com.adobe.scan.ios"
+}

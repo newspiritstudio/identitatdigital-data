@@ -1,0 +1,471 @@
+{
+  "slug": "smartthings",
+  "name": "SmartThings",
+  "company": "samsung-electronics",
+  "categories": [
+    "llar-connectada"
+  ],
+  "tagline": "La configuració de la llar en mans de la matriu coreana, amb una etiqueta d’App Store que no vincula res a la identitat",
+  "summary": "SmartThings connecta electrodomèstics, sensors, llums i càmeres, també de marques que no són Samsung. L’avís de privadesa reconeix que recull la configuració de la llar, la ubicació per GPS, Bluetooth i wifi, les dades dels sensors, les rutines, les ordres de veu i, amb la funció Family Care, dades de son i de medicació. L’etiqueta de l’App Store, en canvi, no declara cap dada vinculada a la identitat. El responsable és la matriu coreana i l’avís que enllaça la fitxa espanyola és la versió dels Estats Units.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Corea del Sud, amb punt de contacte europeu al Regne Unit",
+  "userBase": "No n’hem verificat cap xifra oficial.",
+  "links": {
+    "website": "https://www.samsung.com/es/smartthings/app/",
+    "privacyPolicy": "https://www.samsung.com/es/info/privacy/",
+    "appStore": "https://apps.apple.com/es/app/id1222822904"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "smartthings-privacy-notice"
+    ],
+    "detail": "Cal un compte Samsung per vincular els dispositius i les rutines.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "smartthings-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "La configuració d’una llar connectada mostra quines estances hi ha, quan s’hi encén el llum, quan s’obre la porta i quan s’engega el forn. Amb les rutines i els sensors de presència, SmartThings sap quan la casa és buida.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "samsung-privacy-policy-es",
+        "smartthings-app-store"
+      ],
+      "note": "Ve del compte Samsung. L’etiqueta declara les dades de contacte com a no vinculades a la identitat."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "samsung-privacy-policy-es"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "smartthings-privacy-notice"
+      ],
+      "note": "La ubicació de la llar és necessària per a les rutines i la meteorologia."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "smartthings-privacy-notice",
+        "smartthings-app-store"
+      ],
+      "note": "Per GPS, Bluetooth i wifi. La fitxa de l’App Store avisa que l’aplicació pot fer servir la ubicació encara que no estigui oberta."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "smartthings-privacy-notice"
+      ],
+      "note": "Historial d’ús dels aparells, informació dels sensors i rutines configurades."
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "smartthings-privacy-notice",
+        "samsung-privacy-policy-es"
+      ],
+      "note": "Ordres de veu i contingut d’àudio dels dispositius connectats."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "smartthings-privacy-notice"
+      ],
+      "note": "Contingut de les càmeres i altres dispositius de gravació vinculats."
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "smartthings-privacy-notice"
+      ],
+      "note": "La funció Family Care tracta informació de son i horaris de medicació."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "smartthings-app-store",
+        "samsung-privacy-policy-es"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "samsung-privacy-policy-es"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "smartthings-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "smartthings-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada utilitzada per rastrejar-te.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "smartthings-app-store"
+      ],
+      "detail": "No consta cap identificador publicitari a l’etiqueta.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "samsung-privacy-policy-es"
+      ],
+      "detail": "La política general de Samsung esmenta serveis d’analítica com Google Analytics, però no en publica la llista per a SmartThings.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "smartthings-privacy-notice"
+      ],
+      "detail": "Cal un consentiment separat perquè les dades del compte Samsung millorin la publicitat personalitzada en altres serveis de la marca; no és el funcionament per defecte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "smartthings-privacy-notice"
+      ],
+      "detail": "L’avís parla d’informació generada o inferida a partir de l’ús del servei i de personalització, sense descriure decisions automatitzades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’avís no diu si les ordres de veu o les dades dels sensors serveixen per entrenar models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "smartthings-privacy-notice",
+        "samsung-privacy-policy-es"
+      ],
+      "detail": "Filials, socis comercials, proveïdors de servei i autoritats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "smartthings-privacy-notice"
+      ],
+      "detail": "Samsung Electronics Co., Ltd. i les seves filials.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Els documents no parlen de venda de dades a intermediaris."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "samsung-privacy-policy-es"
+      ],
+      "detail": "Transferències a Corea del Sud, els Estats Units, el Regne Unit, la Xina, Singapur i l’Índia, emparades en clàusules contractuals tipus.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència de SmartThings sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "smartthings-privacy-notice",
+        "samsung-privacy-policy-es"
+      ],
+      "detail": "Els dos documents es limiten a dir que no conserven la informació més enllà del que calgui, sense cap termini.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Els documents consultats no expliquen què es conserva després de tancar el compte Samsung."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "smartthings-privacy-notice",
+        "samsung-privacy-policy-es"
+      ],
+      "detail": "Es reconeix el dret de supressió i l’avís de SmartThings preveu sol·licitar l’eliminació de les dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut verificar si el compte Samsung es pot tancar sense passar pel portal de sol·licituds."
+    },
+    "difficulty": "unknown",
+    "requiresSupportContact": true,
+    "steps": [
+      "Exporta o anota les rutines i les automatitzacions que vulguis conservar: es perden amb el compte.",
+      "Entra al portal de sol·licituds de Samsung, a samsung.com/request-desk, amb el compte que vols tancar.",
+      "Demana la supressió de les dades i el tancament del compte Samsung.",
+      "Si no reps resposta en un mes, pots reclamar davant de l’Agència Espanyola de Protecció de Dades."
+    ],
+    "obstacles": "El compte Samsung és el mateix que fa servir el telèfon, el televisor i els electrodomèstics: tancar-lo per deixar SmartThings té conseqüències molt més àmplies.",
+    "sources": [
+      "samsung-privacy-policy-es",
+      "smartthings-privacy-notice"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "samsung-privacy-policy-es"
+      ],
+      "detail": "El dret de portabilitat es reconeix i s’exerceix pel portal de sol·licituds; no n’hem verificat cap eina d’autoservei.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.samsung.com/request-desk"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "samsung-privacy-policy-es"
+      ],
+      "detail": "Portal de sol·licituds de la persona interessada i telèfon d’atenció.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.samsung.com/request-desk"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "smartthings-privacy-notice"
+      ],
+      "detail": "La publicitat personalitzada amb les dades del compte Samsung requereix un consentiment separat que es pot no donar o retirar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem verificat si es pot desactivar l’enviament de dades d’ús dels dispositius."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut revisar el panell de privadesa de l’aplicació."
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem revisat el flux de consentiment de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei controla dispositius domèstics i no transporta comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Els documents consultats no detallen els protocols de transport."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública específica sobre el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem verificat quins segons factors admet el compte Samsung."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories de seguretat independents publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut verificar el programa de recompenses de Samsung ni si cobreix SmartThings."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut verificar el canal oficial de comunicació de vulnerabilitats."
+    }
+  },
+  "review": {
+    "researchStatus": "initial",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "La troballa documentada és que la fitxa espanyola de l’App Store enllaça la versió dels Estats Units de l’avís de privadesa de SmartThings, i no una d’europea: qui el llegeix des d’Espanya no troba ni les bases jurídiques ni els terminis del RGPD. La fitxa queda en estat inicial per això i perquè no hem pogut verificar ni el procediment de tancament del compte Samsung ni els controls de privadesa de l’aplicació. L’etiqueta no vincula res a la identitat, mentre que l’avís reconeix dades de son i de medicació de la funció Family Care.",
+    "openQuestions": [
+      "Hi ha una versió europea de l’avís de privadesa de SmartThings i per què no és la que enllaça l’App Store espanyol?",
+      "Es pot tancar el compte Samsung sense passar pel portal de sol·licituds i quins terminis hi ha?",
+      "Quins segons factors admet el compte Samsung i quin programa de vulnerabilitats cobreix SmartThings?"
+    ]
+  },
+  "appStoreBundleId": "com.samsung.oneconnect4ios"
+}

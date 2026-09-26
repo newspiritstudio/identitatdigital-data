@@ -1,0 +1,508 @@
+{
+  "slug": "sticker-ly",
+  "name": "Sticker.ly",
+  "company": "naver-z",
+  "categories": [
+    "edicio-de-foto-i-video",
+    "xarxes-socials"
+  ],
+  "tagline": "Extreu trets facials per a les funcions d’IA i enumera les dades que ha venut o cedit l’últim any",
+  "summary": "Sticker.ly fa paquets d’adhesius per a WhatsApp i Telegram a partir de fotos pròpies. La política reconeix que processa marques i trets facials (que en algunes jurisdiccions són dades biomètriques) per a les funcions d’IA, encara que els esborra un cop generat el resultat. També recull GPS precís amb l’aplicació en segon pla per a publicitat i atribució, i té un apartat que enumera les categories de dades venudes o cedides els dotze mesos anteriors. No esmenta el RGPD ni cap representant a la Unió Europea.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Corea del Sud, amb servidors als Estats Units",
+  "links": {
+    "website": "https://sticker.ly/",
+    "privacyPolicy": "https://sticker.ly/privacy-policy",
+    "appStore": "https://apps.apple.com/es/app/id1458740001"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "sticker-ly-privacy-policy"
+    ],
+    "detail": "El registre es fa amb un compte d’una xarxa social, del qual es recullen l’identificador i la imatge de perfil.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "sticker-ly-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Cares, adhesius fets amb fotos pròpies o d’altres persones, cerques i ubicació precisa. Els adhesius que es pengen són públics i no es poden esborrar un cop tancat el compte.",
+  "dataCollection": [
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "entrenament-de-models-dia"
+      ],
+      "sources": [
+        "sticker-ly-app-store",
+        "sticker-ly-privacy-policy"
+      ],
+      "note": "Les fotos originals per a les funcions d’IA es processen a servidors propis i de proveïdors de núvol."
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "sticker-ly-privacy-policy"
+      ],
+      "note": "Marques i trets facials extrets per generar avatars i imatges; s’esborren immediatament després de generar el resultat i calen consentiment exprés."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "sticker-ly-app-store"
+      ]
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "sticker-ly-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "sticker-ly-app-store",
+        "sticker-ly-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria",
+        "investigacio-i-estadistica"
+      ],
+      "sources": [
+        "sticker-ly-privacy-policy"
+      ],
+      "note": "Es pot recollir amb l’aplicació en segon pla i es comparteix amb tercers per a publicitat i atribució."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "sticker-ly-privacy-policy"
+      ],
+      "note": "IDFA a iOS i AAID a Android."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "sticker-ly-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "sticker-ly-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "sticker-ly-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "sticker-ly-app-store"
+      ]
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "brokers",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "sticker-ly-privacy-policy"
+      ],
+      "note": "L’apartat de dades venudes o cedides inclou les inferències sobre preferències, comportament i aptituds."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "sticker-ly-app-store",
+        "sticker-ly-privacy-policy"
+      ],
+      "detail": "L’etiqueta declara identificadors, ús i diagnòstics com a dades de rastreig.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "sticker-ly-privacy-policy"
+      ],
+      "detail": "IDFA i AAID.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "sticker-ly-privacy-policy"
+      ],
+      "detail": "SDK de tercers que recullen ubicació i activitat per a publicitat, analítica i atribució.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "sticker-ly-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "sticker-ly-privacy-policy"
+      ],
+      "detail": "Inferències sobre preferències, tendències psicològiques i comportament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "sticker-ly-privacy-policy"
+      ],
+      "detail": "Les fotos i els trets facials alimenten les funcions generatives, però la política diu que s’esborren just després de generar el resultat.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "sticker-ly-privacy-policy"
+      ],
+      "detail": "Xarxes publicitàries, proveïdors d’analítica i serveis de núvol que processen les dades biomètriques.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "sticker-ly-privacy-policy"
+      ],
+      "detail": "Amb filials i proveïdors de NAVER Z.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "sticker-ly-privacy-policy"
+      ],
+      "detail": "La política declara que els dotze mesos anteriors ha venut o cedit identificadors, activitat en línia, informació sensorial i inferències.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "sticker-ly-privacy-policy"
+      ],
+      "detail": "Les dades es tracten als Estats Units i on tingui instal·lacions el grup; l’únic mecanisme invocat és el consentiment en fer servir l’aplicació.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "derogation"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "sticker-ly-privacy-policy"
+      ],
+      "detail": "Hi ha terminis per a les dades biomètriques, els resultats d’IA, el perfil i les dades posteriors a la baixa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "sticker-ly-privacy-policy"
+      ],
+      "detail": "Catorze dies després d’eliminar el compte, però els adhesius que s’han publicat ja no es poden editar ni esborrar sense demanar-ho per correu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "dades-biometriques",
+        "period": "S’esborren immediatament després de generar el resultat d’IA",
+        "sources": [
+          "sticker-ly-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "fotografies-i-videos",
+        "period": "Els resultats generats amb IA, fins a un any des de l’última interacció",
+        "sources": [
+          "sticker-ly-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "identificador-de-compte",
+        "period": "Fins a la supressió del compte, i catorze dies més",
+        "sources": [
+          "sticker-ly-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "sticker-ly-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "sticker-ly-privacy-policy"
+      ],
+      "detail": "Des de la secció de perfil de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "requiresSupportContact": false,
+    "steps": [
+      "Esborra abans els adhesius que no vulguis deixar publicats: a «My Page» > «My stickers», tria l’adhesiu i elimina’l.",
+      "Des del perfil, obre la configuració del compte i tria l’opció d’eliminar el compte.",
+      "Si després vols retirar contingut ja publicat, escriu a support@sticker.ly indicant quin és i per què; poden demanar-te que acreditis la identitat i poden denegar-ho."
+    ],
+    "obstacles": "Un cop eliminat el compte ja no es poden editar ni esborrar els adhesius publicats. A l’apartat de preferències, la política encara recomana «esborrar l’aplicació» per donar de baixa el compte, cosa que no elimina res.",
+    "dataRetained": "La informació es conserva catorze dies després de la baixa, i més enllà si ho exigeix la llei o hi ha deutes pendents.",
+    "sources": [
+      "sticker-ly-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "sticker-ly-privacy-policy"
+      ],
+      "detail": "Es poden descarregar els resultats generats amb IA, però no hi ha exportació del compte sencer.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "sticker-ly-privacy-policy"
+      ],
+      "detail": "Consulta i correcció des del perfil, i la resta per correu; la política no enumera els drets del RGPD.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dl_stickerly_privacy@naverz-corp.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "sticker-ly-privacy-policy"
+      ],
+      "detail": "Remet a la limitació del seguiment publicitari del sistema operatiu i a les iniciatives del sector; no hi ha cap control propi.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "sticker-ly-privacy-policy"
+      ],
+      "detail": "El consentiment exprés per a les funcions biomètriques és separat, però la resta de tractaments no es poden ajustar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Els adhesius es publiquen en un catàleg públic; no hi ha comunicacions privades que xifrar d’extrem a extrem.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses propi de Sticker.ly."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "La política és d’abast global i està redactada pensant en la llei de Califòrnia. Per a les persones usuàries europees no hi ha ni bases jurídiques, ni representant, ni mecanisme de transferència diferent del consentiment.",
+    "openQuestions": [
+      "Qui és el representant de NAVER Z a la Unió Europea i quina autoritat de control hi és competent?",
+      "A quins tercers concrets s’han venut o cedit els identificadors i les inferències que declara la política?"
+    ]
+  },
+  "appStoreBundleId": "com.snowcorp.stickerly"
+}

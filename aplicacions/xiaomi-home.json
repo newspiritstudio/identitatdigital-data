@@ -1,0 +1,516 @@
+{
+  "slug": "xiaomi-home",
+  "name": "Xiaomi Home",
+  "company": "xiaomi-netherlands",
+  "categories": [
+    "llar-connectada"
+  ],
+  "tagline": "Declara «dades sensibles» a l’App Store, amb una política d’aplicació que no esmenta ni el vídeo ni els mapes de la casa",
+  "summary": "Xiaomi Home controla càmeres, aspiradores robot, sensors i bombetes. La seva etiqueta de l’App Store declara identificadors com a dada utilitzada per rastrejar i inclou una categoria de dades sensibles. La política enllaçada des de l’App Store no esmenta el vídeo de les càmeres ni els mapes de la casa que generen les aspiradores: això només es documenta al llibre blanc tècnic, que també explica que hi ha un mode local per no pujar el mapa al núvol. La mateixa política declara centres de dades a Pequín, els Estats Units, Rússia, Singapur i Alemanya.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Països Baixos, amb corresponsabilitat de la matriu xinesa",
+  "userBase": "Centenars de milions de dispositius connectats a l’ecosistema Xiaomi",
+  "links": {
+    "website": "https://www.mi.com/global/",
+    "privacyPolicy": "https://cnbj1.fds.api.xiaomi.com/html/en/mihome_privacy_policy.html",
+    "privacyCenter": "https://privacy.mi.com/all/es_ES",
+    "appStore": "https://apps.apple.com/es/app/id957323480"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "xiaomi-home-privacy-policy"
+    ],
+    "detail": "La política descriu la creació del compte Xiaomi com a pas de configuració, i els dispositius queden vinculats al compte.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "xiaomi-home-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Una aplicació de llar connectada registra quan hi ha algú a casa, a quina hora s’encenen els llums i quan es neteja el terra. Amb càmeres, té imatges de l’interior de la casa; amb una aspiradora robot, el plànol amb les parets i les zones. Són dades de la vida domèstica, i costen d’esborrar mentre el maquinari continua a casa.",
+  "dataCollection": [
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "xiaomi-home-privacy-policy",
+        "xiaomi-home-app-store"
+      ],
+      "note": "La política llista IMEI, IMSI, adreça MAC i identificador del dispositiu; l’etiqueta declara identificadors com a dada utilitzada per rastrejar."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "xiaomi-home-privacy-policy",
+        "xiaomi-home-app-store"
+      ],
+      "note": "Coordenades, regió i codi de ciutat, per vincular dispositius i automatitzacions."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "xiaomi-home-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "xiaomi-home-privacy-policy"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "xiaomi-home-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "xiaomi-home-privacy-policy"
+      ]
+    },
+    {
+      "type": "xarxa-i-connectivitat",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "xiaomi-home-privacy-policy"
+      ],
+      "note": "Estat de la xarxa i registres del dispositiu."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "xiaomi-iot-whitepaper"
+      ],
+      "note": "El vídeo de les càmeres només es documenta al llibre blanc, no a la política de l’aplicació: transmissió xifrada del flux en directe i AES-128 al núvol en els models amb xip de seguretat."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "xiaomi-home-app-store",
+        "xiaomi-home-privacy-policy"
+      ],
+      "note": "Els esdeveniments que reporta cada dispositiu descriuen les rutines de la casa."
+    },
+    {
+      "type": "fitxers-i-documents",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "xiaomi-iot-whitepaper"
+      ],
+      "note": "El mapa de la casa que genera l’aspiradora robot es puja xifrat després de cada neteja, tret que s’activi el mode local."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "xiaomi-home-app-store"
+      ]
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "unknown",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "unknown",
+      "note": "Ni la política de l’aplicació ni el llibre blanc descriuen el tractament de les dades de veu a Xiaomi Home."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "xiaomi-home-app-store"
+      ],
+      "detail": "L’etiqueta declara identificadors com a dada utilitzada per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política de l’aplicació no esmenta l’identificador publicitari del dispositiu."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap llista de components de tercers integrats a l’aplicació."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "xiaomi-home-privacy-policy",
+        "xiaomi-privacy-policy"
+      ],
+      "detail": "El màrqueting directe requereix consentiment exprés previ i la política diu que no transferirà dades a socis comercials per a màrqueting directe. Els serveis publicitaris del sistema operatiu es gestionen a banda.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://privacy.mi.com/all/es_ES"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu elaboració de perfils."
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta l’entrenament de models amb dades de persones usuàries."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "xiaomi-home-privacy-policy"
+      ],
+      "detail": "Proveïdors i socis per prestar el servei, i autoritats quan la llei ho exigeix; la política nega la cessió per a màrqueting directe de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "xiaomi-privacy-policy"
+      ],
+      "detail": "La política general declara corresponsabilitat entre la filial neerlandesa i Xiaomi Communications a la Xina.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "xiaomi-home-privacy-policy"
+      ],
+      "detail": "La política diu que no transferirà dades personals a socis comercials per al seu ús en màrqueting directe.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "xiaomi-home-privacy-policy"
+      ],
+      "detail": "La política de l’aplicació declara centres de dades a Pequín, els Estats Units, Rússia, Singapur i Alemanya, amb clàusules contractuals tipus de la Unió Europea o altres garanties del RGPD.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "xiaomi-transparency-report"
+      ],
+      "detail": "Informes anuals de sol·licituds governamentals d’informació, amb edicions del 2022 al 2024.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "xiaomi-home-privacy-policy"
+      ],
+      "detail": "La política no dona terminis concrets per categoria de dada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "xiaomi-account-delete"
+      ],
+      "detail": "L’eliminació del compte Xiaomi esborra de manera irreversible les dades associades, inclòs el que hi ha al núvol.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "xiaomi-account-delete"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "xiaomi-account-delete"
+      ],
+      "detail": "Des del centre d’ajuda del compte Xiaomi, sense passar per atenció al client.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://account.xiaomi.com/helpcenter/service/cancelAccount",
+    "difficulty": "medium",
+    "steps": [
+      "Desvincula abans els dispositius que vulguis continuar fent servir o revendre.",
+      "Entra al centre d’ajuda del compte Xiaomi i obre el servei de cancel·lació del compte.",
+      "Identifica’t i confirma: l’acció no es pot desfer i esborra també les dades del núvol.",
+      "Si tens una aspiradora robot, activa el mode local abans si vols que el mapa de la casa no torni a pujar-se."
+    ],
+    "obstacles": "Tancar el compte inutilitza l’ús connectat de tot el maquinari de la casa alhora.",
+    "dataRetained": "Desconegut: la documentació no concreta què es conserva.",
+    "sources": [
+      "xiaomi-account-delete",
+      "xiaomi-home-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "xiaomi-privacy-policy"
+      ],
+      "detail": "Els drets s’exerceixen per un portal únic de sol·licituds; no hem trobat cap eina de descàrrega automàtica.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://privacy.mi.com/support"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "xiaomi-home-privacy-policy"
+      ],
+      "detail": "Portal de sol·licituds i delegat de protecció de dades del grup, amb una adreça separada per retirar el consentiment.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://privacy.mi.com/support",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "xiaomi-privacy-policy"
+      ],
+      "detail": "Els serveis publicitaris es desactiven des dels ajustos de privadesa del sistema operatiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap control documentat per aturar els registres d’esdeveniments dels dispositius."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "xiaomi-iot-whitepaper"
+      ],
+      "detail": "El mode local de les aspiradores manté el mapa de la casa al dispositiu, i les imatges de la càmera de navegació es processen localment i es descarten.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [
+        "xiaomi-home-privacy-policy",
+        "xiaomi-iot-whitepaper"
+      ],
+      "detail": "La política que enllaça l’App Store no esmenta ni el vídeo de les càmeres ni els mapes de la casa, i situa el punt de contacte a Singapur en lloc de l’entitat responsable a la Unió Europea. Qui només llegeix aquell document no sap què s’està tractant ni davant de qui reclamar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "confusing-language",
+        "severity": "high",
+        "description": "La política enllaçada des de l’App Store no descriu les categories de dades més delicades del servei (vídeo domèstic i plànols de l’habitatge) i no identifica el responsable establert a la Unió Europea.",
+        "sources": [
+          "xiaomi-home-privacy-policy",
+          "xiaomi-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "xiaomi-iot-whitepaper"
+      ],
+      "detail": "Xiaomi afirma que la transmissió del flux en directe de les càmeres és xifrada d’extrem a extrem, però no hem trobat documentació que expliqui com s’activa ni cap verificació independent.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "xiaomi-iot-whitepaper"
+      ],
+      "detail": "Comunicacions xifrades entre l’aplicació, el dispositiu i el núvol.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "xiaomi-iot-whitepaper"
+      ],
+      "detail": "AES-128 per als mapes de les aspiradores i per al vídeo desat al núvol en els models amb xip de seguretat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació oficial sobre verificació en dos passos del compte Xiaomi."
+    },
+    "independentAudits": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "xiaomi-compliance"
+      ],
+      "detail": "ISO/IEC 27001 i 27701, SOC 2, PCI DSS i certificacions BSI Kitemark per a càmeres de seguretat i sistemes mesh.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "xiaomi-misrc"
+      ],
+      "detail": "Centre de resposta de seguretat propi amb recompenses i programa a HackerOne.",
+      "verifiedAt": "2026-09-22"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "xiaomi-misrc"
+      ],
+      "detail": "Procediment i contacte publicats, però sense fitxer security.txt als dominis principals.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "El desajust documental és greu perquè afecta les dades més sensibles de la casa: el vídeo i el plànol de l’habitatge no surten a la política de l’aplicació i només consten en un llibre blanc tècnic en anglès. L’incident del 2020, en què càmeres Xiaomi van mostrar fotogrames de cases alienes en altaveus amb pantalla de Google, és directament rellevant per a aquesta fitxa. La reclamació de noyb del 2025 per les transferències a la Xina és encara oberta.",
+    "openQuestions": [
+      "Com s’activa i com es comprova el xifratge d’extrem a extrem de les càmeres des de l’aplicació?",
+      "Quina autoritat de control és la principal per a Xiaomi a la Unió Europea?",
+      "Xiaomi Home tracta dades de veu, i amb quines garanties?"
+    ]
+  },
+  "appStoreBundleId": "com.xiaomi.mihome"
+}

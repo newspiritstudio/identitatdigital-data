@@ -1,0 +1,419 @@
+{
+  "slug": "proton-vpn",
+  "name": "Proton VPN",
+  "company": "proton",
+  "categories": [
+    "autenticacio-i-seguretat",
+    "utilitats"
+  ],
+  "tagline": "Una política de no registres verificada cinc anys seguits per un auditor extern",
+  "summary": "Proton VPN no declara cap dada de rastreig ni cap dada vinculada amb la identitat: a l’App Store només hi consten l’adreça electrònica i les dades d’errors, sense vincular. El que la distingeix de la resta de VPN és la verificació externa: Securitum ha examinat cinc anys consecutius la infraestructura de servidors i Proton en publica els informes sencers, sense acords de confidencialitat. Les aplicacions són de codi obert i els servidors, a Suïssa, Alemanya i Noruega.",
+  "platforms": [
+    "ios",
+    "android",
+    "windows",
+    "macos",
+    "linux"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Suïssa",
+  "links": {
+    "website": "https://protonvpn.com/",
+    "privacyPolicy": "https://protonvpn.com/privacy-policy",
+    "appStore": "https://apps.apple.com/es/app/id1437005085"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "proton-vpn-app-store",
+      "proton-vpn-privacy-policy"
+    ],
+    "detail": "Cal un compte de Proton, identificat per una adreça electrònica, també al pla gratuït.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "proton-vpn-no-logs",
+      "proton-vpn-no-logs-audit"
+    ],
+    "detail": "Totes les aplicacions són de codi obert i se’n publiquen les auditories de seguretat.",
+    "verifiedAt": "2026-09-22"
+  },
+  "dataSummary": "Tota la navegació passa per la VPN. Tant la política com les auditories diuen que Proton no en guarda res que permeti reconstruir l’activitat d’una persona.",
+  "dataCollection": [
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "proton-vpn-app-store"
+      ],
+      "note": "L’etiqueta la declara com a dada no vinculada amb la identitat, per al funcionament de l’app."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "proton-vpn-app-store"
+      ],
+      "note": "Només dades d’errors, sense vincular."
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "proton-vpn-privacy-policy",
+        "proton-vpn-no-logs"
+      ],
+      "note": "La política diu expressament que no es registren els llocs visitats ni el contingut de les comunicacions."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "proton-vpn-no-logs",
+        "proton-vpn-no-logs-audit"
+      ],
+      "note": "La pàgina d’ajuda i les auditories confirmen que no es registren les adreces IP ni la durada de les sessions."
+    },
+    {
+      "type": "metadades-de-comunicacio",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "proton-vpn-no-logs-audit"
+      ],
+      "note": "L’informe del 2026 conclou que no s’hi van trobar registres de consultes DNS, destinacions ni metadades de connexió identificables."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "proton-vpn-privacy-policy"
+      ],
+      "note": "Només per als plans de pagament; la política no en detalla el tractament en aquesta pàgina."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "proton-vpn-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap dada utilitzada per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "proton-vpn-app-store",
+        "proton-vpn-no-logs"
+      ],
+      "detail": "El servei no mostra anuncis ni fa servir identificadors publicitaris.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "proton-vpn-app-store",
+        "proton-vpn-no-logs-audit"
+      ],
+      "detail": "Cap categoria de rastreig a l’etiqueta i codi obert auditat.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "proton-vpn-no-logs",
+        "proton-vpn-privacy-policy"
+      ],
+      "detail": "El model és de subscripció; no hi ha publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "proton-vpn-privacy-policy",
+        "proton-vpn-no-logs-audit"
+      ],
+      "detail": "Sense registres d’activitat no hi ha perfil possible.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "proton-vpn-privacy-policy"
+      ],
+      "detail": "La política no preveu cap ús del trànsit, que no es registra.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "proton-vpn-privacy-policy"
+      ],
+      "detail": "La informació del compte es manté en servidors operats per Proton o les seves filials.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "proton-vpn-privacy-policy"
+      ],
+      "detail": "El compte és comú amb la resta de serveis de Proton i les dades es gestionen dins del grup.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "proton-vpn-no-logs"
+      ],
+      "detail": "El servei declara que no ven dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "proton-vpn-privacy-policy"
+      ],
+      "detail": "Els servidors d’infraestructura són a Suïssa, Alemanya i Noruega.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "adequacy"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "proton-transparency",
+        "proton-vpn-no-logs-audit"
+      ],
+      "detail": "Proton publica un informe de transparència; la política de no registres s’ha posat a prova en més de quatre-cents procediments judicials sense poder-hi aportar registres.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "proton-vpn-no-logs",
+        "proton-vpn-privacy-policy"
+      ],
+      "detail": "No hi ha registres d’activitat que calgui conservar; de les dades del compte no se’n publica cap termini concret.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política de Proton VPN no detalla què es conserva després de tancar el compte."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "proton-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "proton-delete-account"
+      ],
+      "detail": "El compte de Proton s’elimina des de la configuració del compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://proton.me/support/delete-account",
+    "difficulty": "easy",
+    "steps": [
+      "Cancel·la la subscripció si en tens una de pagament.",
+      "Entra a la configuració del compte de Proton i tria l’opció per eliminar-lo."
+    ],
+    "sources": [
+      "proton-delete-account"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política de Proton VPN no descriu cap exportació específica del servei."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La pàgina del servei no detalla el procediment d’exercici de drets."
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha publicitat que calgui desactivar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’etiqueta declara dades d’errors; la política no diu si es poden desactivar des de l’app."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "defaultPosture": "protective",
+    "darkPatterns": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "proton-vpn-app-store",
+        "proton-vpn-no-logs"
+      ],
+      "detail": "No hi ha publicitat, ni venda de dades, ni pantalles de consentiment que empenyin en cap direcció.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Una VPN xifra el túnel fins al servidor de sortida; no és xifratge d’extrem a extrem entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "proton-vpn-privacy-policy",
+        "proton-vpn-no-logs"
+      ],
+      "detail": "Tot el trànsit passa pel túnel xifrat de la VPN.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "proton-vpn-no-logs",
+        "proton-vpn-privacy-policy"
+      ],
+      "detail": "Els servidors funcionen amb xifratge de disc complet i la informació del compte es desa xifrada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Les pàgines consultades no detallen els mètodes de segon factor del compte de Proton."
+    },
+    "independentAudits": {
+      "status": "yes",
+      "level": "independent",
+      "sources": [
+        "proton-vpn-no-logs-audit"
+      ],
+      "detail": "Cinc auditories anuals consecutives de Securitum sobre la infraestructura de servidors, publicades senceres, a més de les auditories de seguretat de les aplicacions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "proton-vpn-no-logs-audit",
+        "proton-security-txt"
+      ],
+      "detail": "Proton té un programa públic de recompenses per a les seves aplicacions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "proton-security-txt"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://protonvpn.com/.well-known/security.txt"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "proton-mail",
+      "comparability": "complementary",
+      "rationale": "Mateix compte i mateixa jurisdicció suïssa, per a un problema diferent: el correu.",
+      "tradeOffs": "No substitueix la VPN; concentra encara més serveis en un sol proveïdor."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "L’empresa i algunes fonts (política general, eliminació del compte, informe de transparència) ja existien al conjunt de dades per a Proton Mail; aquí s’hi afegeixen les fonts específiques de la VPN. No hem pogut fer la cerca d’incidents en aquesta onada.",
+    "openQuestions": [
+      "Quins mètodes de segon factor admet el compte de Proton i quins són els predeterminats?",
+      "Quines dades del compte es conserven després de l’eliminació i durant quant de temps?"
+    ]
+  },
+  "appStoreBundleId": "ch.protonmail.vpn"
+}

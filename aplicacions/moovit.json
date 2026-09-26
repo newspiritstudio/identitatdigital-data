@@ -1,0 +1,487 @@
+{
+  "slug": "moovit",
+  "name": "Moovit: Transporte Público",
+  "company": "moovit-app-global",
+  "categories": [
+    "mobilitat-i-transport",
+    "mapes-i-navegacio"
+  ],
+  "tagline": "Et crea un identificador abans de registrar-te i recull la ubicació en segon pla, amb SDK publicitaris de Meta i Unity",
+  "summary": "Moovit, propietat d’Intel i integrada a Mobileye, planifica trajectes en transport públic sense demanar cap compte: assigna un identificador d’usuari en el moment de la instal·lació. Recull la ubicació detallada, amb dades del GPS i dels sensors, també en segon pla, tot i que la política diu en majúscules que es pot desactivar a la pantalla de privadesa. Integra els SDK publicitaris de Facebook Ireland i d’Unity i fa campanyes a Facebook i Instagram amb el correu o el telèfon xifrats. Les dades s’allotgen a Israel i a Irlanda.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "advertising",
+  "jurisdiction": "Israel (decisió d’adequació), amb representant a la UE a Alemanya",
+  "userBase": "Més de 1.700 milions de persones usuàries registrades al món, segons Moovit.",
+  "links": {
+    "website": "https://moovit.com/",
+    "privacyPolicy": "https://moovit.com/privacy-policy/",
+    "appStore": "https://apps.apple.com/es/app/id498477945"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "moovit-privacy-policy"
+    ],
+    "detail": "Es pot fer servir sense compte, però la política explica que en instal·lar l’aplicació ja s’hi crea un identificador d’usuari.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "moovit-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Els trajectes en transport públic diuen on vius, on treballes i a quina hora et mous. Moovit hi afegeix l’historial de cerques de línies i parades, l’identificador publicitari i les dades dels sensors del telèfon, i ho pot recollir també amb l’aplicació tancada.",
+  "dataCollection": [
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "moovit-privacy-policy",
+        "moovit-app-store"
+      ],
+      "note": "L’identificador d’usuari es crea en instal·lar l’aplicació, abans de qualsevol registre."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "moovit-app-store",
+        "moovit-privacy-policy"
+      ],
+      "note": "L’etiqueta el declara com a dada per rastrejar-te."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "moovit-privacy-policy"
+      ],
+      "note": "La política l’enumera entre les dades del dispositiu que recull."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "moovit-privacy-policy",
+        "moovit-app-store"
+      ],
+      "note": "Inclou dades del GPS i dels sensors, com el giroscopi, i la recollida en segon pla, que es pot desactivar a la pantalla de privadesa de l’aplicació."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "moovit-app-store",
+        "moovit-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "moovit-privacy-policy",
+        "moovit-app-store"
+      ],
+      "note": "Cerques de línies, parades i destinacions; l’etiqueta les declara com a no vinculades a la identitat."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "moovit-privacy-policy"
+      ]
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "moovit-privacy-policy"
+      ],
+      "note": "Tipus de dispositiu, sistema operatiu, resolució de pantalla, idioma del teclat i testimoni de notificacions."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "moovit-privacy-policy",
+        "moovit-app-store"
+      ],
+      "note": "Clics, visualitzacions i interacció amb els anuncis; la política esmenta eines de reproducció de sessions."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "moovit-privacy-policy"
+      ],
+      "note": "Si crees un compte; el correu o el telèfon es poden enviar xifrats a Facebook per fer campanyes personalitzades."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "moovit-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "moovit-app-store",
+        "moovit-privacy-policy"
+      ],
+      "detail": "L’etiqueta declara l’identificador del dispositiu com a dada per rastrejar-te, i la política descriu els SDK de Facebook Ireland i d’Unity.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "moovit-privacy-policy"
+      ],
+      "detail": "La política enumera l’identificador publicitari entre les dades del dispositiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "moovit-privacy-policy"
+      ],
+      "detail": "SDK de Facebook Ireland Limited i d’Unity Technologies SF, AppsFlyer per a l’atribució de campanyes i eines d’analítica amb reproducció de sessions.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "moovit-privacy-policy"
+      ],
+      "detail": "Els socis publicitaris serveixen anuncis dins de l’aplicació i Moovit fa campanyes a Facebook i Instagram amb el correu o el telèfon xifrats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "moovit-privacy-policy"
+      ],
+      "detail": "La política descriu la personalització del servei i de la publicitat a partir dels hàbits de mobilitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no parla d’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "moovit-privacy-policy"
+      ],
+      "detail": "Socis publicitaris, proveïdors com Amazon Web Services i AppsFlyer, i operadors i administracions que reben dades agregades de mobilitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "moovit-privacy-policy"
+      ],
+      "detail": "El representant a la Unió Europea és Mobileye Germany GmbH, del mateix grup.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no parla de la venda de dades personals a corredors de dades."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "moovit-privacy-policy"
+      ],
+      "detail": "Les dades es desen a Israel, que té decisió d’adequació (2011/61/UE), i a Irlanda.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "adequacy"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "no",
+      "level": "editorial",
+      "sources": [
+        "moovit-privacy-policy"
+      ],
+      "detail": "No hem trobat cap informe de transparència.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "moovit-privacy-policy"
+      ],
+      "detail": "Les dades es conserven mentre el compte és actiu i després s’esborren o s’anonimitzen; no hi ha terminis numèrics.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "moovit-privacy-policy"
+      ],
+      "detail": "Després de la baixa, la política preveu esborrar o anonimitzar les dades.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "moovit-privacy-policy"
+      ],
+      "detail": "La política reconeix el dret de supressió i indica el correu de privadesa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut comprovar si l’aplicació inclou una opció directa per eliminar el compte."
+    },
+    "difficulty": "medium",
+    "requiresSupportContact": true,
+    "steps": [
+      "Escriu a privacy@moovit.com des de l’adreça amb què et vas registrar i demana la supressió del compte i de les dades.",
+      "Si no tens compte, desinstal·la l’aplicació: l’identificador d’usuari creat en instal·lar-la deixa de rebre dades noves.",
+      "Abans de desinstal·lar, desactiva la recollida d’ubicació en segon pla a la pantalla de privadesa de l’aplicació."
+    ],
+    "dataRetained": "La política preveu esborrar o anonimitzar les dades un cop tancat el compte.",
+    "sources": [
+      "moovit-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política reconeix els drets del RGPD però no descriu cap eina d’exportació."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "moovit-privacy-policy"
+      ],
+      "detail": "Per correu a privacy@moovit.com, on també hi ha el delegat de protecció de dades; el representant a la UE és Mobileye Germany GmbH.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política remet als ajustos dels socis publicitaris, però no descriu cap control propi."
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "moovit-privacy-policy"
+      ],
+      "detail": "La política diu expressament que la recollida de dades en segon pla es pot desactivar a la pantalla de privadesa de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "moovit-privacy-policy"
+      ],
+      "detail": "Hi ha una pantalla de privadesa amb la ubicació en segon pla i els permisos del sistema operatiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem revisat les pantalles de permisos de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei consulta informació de transport públic; no hi ha comunicacions privades que xifrar d’extrem a extrem.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El web exhibeix un segell ISO 27001, però no n’hem pogut verificar l’abast."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "alternatives": [
+    {
+      "app": "citymapper",
+      "comparability": "equivalent",
+      "rationale": "Planifica els mateixos trajectes en transport públic a les grans ciutats.",
+      "tradeOffs": "Cobreix menys ciutats i també és una empresa fora de la Unió Europea."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "La política es carrega per país amb JavaScript: hem hagut de demanar la versió espanyola directament al servidor. Que l’identificador d’usuari es creï en instal·lar l’aplicació, sense registre, és el punt més rellevant. No hem pogut fer la cerca d’incidents perquè la sessió havia exhaurit el pressupost de cerques.",
+    "openQuestions": [
+      "Es pot eliminar el compte des de la mateixa aplicació?",
+      "Quines dades de mobilitat agregades es venen a operadors i administracions?"
+    ]
+  },
+  "appStoreBundleId": "com.tranzmate.tranzmate1"
+}

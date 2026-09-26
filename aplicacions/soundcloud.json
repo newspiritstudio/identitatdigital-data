@@ -1,0 +1,718 @@
+{
+  "slug": "soundcloud",
+  "name": "SoundCloud",
+  "company": "soundcloud-global",
+  "categories": [
+    "musica-i-audio",
+    "xarxes-socials"
+  ],
+  "tagline": "Una documentació de privadesa completa i una filtració de prop de trenta milions de comptes",
+  "summary": "SoundCloud ofereix alhora política de privadesa amb els articles del RGPD citats un per un, informes de transparència del Reglament de Serveis Digitals, verificació en dos passos amb aplicació d’autenticació, security.txt, eliminació del compte autoservei i un compromís escrit a les condicions d’ús de no entrenar models generatius amb la veu o la música d’una persona sense consentiment afirmatiu. El desembre del 2025 una filtració confirmada va exposar les dades de prop de trenta milions de comptes.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Alemanya",
+  "userBase": "Centenars de milions de comptes; la filtració del 2025 en va afectar 29,8 milions, que la companyia va xifrar en un 20 % del total",
+  "links": {
+    "website": "https://soundcloud.com/",
+    "privacyPolicy": "https://soundcloud.com/pages/privacy",
+    "terms": "https://soundcloud.com/terms-of-use",
+    "appStore": "https://apps.apple.com/es/app/id336353151"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "soundcloud-privacy-policy"
+    ],
+    "detail": "La política diu expressament que no cal compte per escoltar; el registre és necessari per pujar pistes, desar favorits i subscriure’s.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "soundcloud-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Una plataforma que és alhora reproductor i xarxa social registra què escoltes, què publiques i amb qui parles. A més, les estadístiques d’escolta es comparteixen amb els titulars dels drets: els artistes veuen qui els escolta més i si els segueixes.",
+  "dataCollection": [
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "soundcloud-privacy-policy",
+        "soundcloud-app-store"
+      ],
+      "note": "També s’utilitza per enviar contrasenyes d’un sol ús de la verificació en dos passos."
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "soundcloud-privacy-policy"
+      ],
+      "note": "El nom real és opcional al perfil públic; el nom d’usuari pot ser un pseudònim."
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "compliment-legal"
+      ],
+      "sources": [
+        "soundcloud-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "soundcloud-privacy-policy"
+      ],
+      "note": "Codi postal al registre i adreça de facturació en subscriure’s."
+    },
+    {
+      "type": "contrasenya",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "soundcloud-privacy-policy"
+      ]
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "soundcloud-app-store",
+        "soundcloud-privacy-policy"
+      ],
+      "note": "Les pistes pujades, els podcasts i les metadades associades es publiquen al perfil."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "soundcloud-app-store"
+      ]
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "soundcloud-privacy-policy"
+      ]
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "soundcloud-privacy-policy"
+      ],
+      "note": "La política reconeix l’anàlisi automàtica d’URL compartides per missatgeria privada per detectar enllaços maliciosos."
+    },
+    {
+      "type": "historial-de-visualitzacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "cessio-a-tercers"
+      ],
+      "sources": [
+        "soundcloud-privacy-policy"
+      ],
+      "note": "Les estadístiques d’escolta es comparteixen amb els titulars dels drets de cada pista, que veuen qui els escolta més."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "soundcloud-app-store"
+      ]
+    },
+    {
+      "type": "xarxa-de-contactes",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "soundcloud-privacy-policy"
+      ],
+      "note": "Seguidors, reposts i, amb consentiment, la llista d’amistats de Facebook."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "soundcloud-app-store"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "soundcloud-privacy-policy",
+        "soundcloud-app-store"
+      ],
+      "note": "IDFA a iOS i AAID a Android, subjectes a consentiment."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "soundcloud-app-store"
+      ]
+    },
+    {
+      "type": "aplicacions-instal-lades",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "soundcloud-privacy-policy"
+      ],
+      "note": "La secció d’informació del dispositiu esmenta expressament les aplicacions instal·lades."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "soundcloud-app-store",
+        "soundcloud-privacy-policy"
+      ],
+      "note": "La política la basa en el consentiment i diu que es pot denegar des del sistema operatiu."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "soundcloud-privacy-policy"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "soundcloud-privacy-policy"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "soundcloud-app-store",
+        "soundcloud-privacy-policy"
+      ],
+      "note": "La política admet que els contractes amb els proveïdors de contingut l’obliguen a mesurar l’ús de cada pista."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "soundcloud-app-store",
+        "soundcloud-privacy-policy"
+      ],
+      "note": "SoundCloud diu que només rep la verificació del pagament, no les dades completes de la targeta."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "soundcloud-app-store"
+      ]
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "soundcloud-privacy-policy"
+      ],
+      "note": "Verificació d’identitat i número d’identificació fiscal per al programa de monetització."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "soundcloud-app-store"
+      ],
+      "detail": "Ubicació aproximada, identificador d’usuari, identificador de dispositiu i dades de publicitat figuren com a dades utilitzades per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "soundcloud-privacy-policy"
+      ],
+      "detail": "La política descriu la recollida de l’IDFA i de l’AAID, subjecta al consentiment i al permís de seguiment d’iOS.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "soundcloud-privacy-policy"
+      ],
+      "detail": "Socis comercials amb SDK mòbils, widgets incrustats a webs de tercers i corresponsabilitat amb pàgines a Meta, LinkedIn, TikTok, Snap i Twitch.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "soundcloud-privacy-policy",
+        "soundcloud-ad-settings"
+      ],
+      "detail": "Publicitat basada en interessos a la versió gratuïta, amb un control per desactivar-ne la personalització.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://help.soundcloud.com/hc/en-us/articles/360004223094-Manage-Advertising-Settings"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "soundcloud-privacy-policy"
+      ],
+      "detail": "Recomanacions i publicitat personalitzada a partir de l’historial d’escolta i dels comptes vinculats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "soundcloud-terms",
+        "soundcloud-privacy-policy"
+      ],
+      "detail": "Les condicions d’ús prometen no entrenar models generatius que repliquin la veu, la música o la imatge d’una persona sense consentiment afirmatiu previ. La política, en canvi, reconeix l’ús de models de llenguatge de tercers a l’atenció al client.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "soundcloud-privacy-policy"
+      ],
+      "detail": "Proveïdors de serveis, socis publicitaris i els titulars dels drets de cada pista, que reben estadístiques sobre qui els escolta.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "soundcloud-privacy-policy"
+      ],
+      "detail": "Corresponsabilitat a l’empara de l’article 26 del RGPD entre la societat alemanya, SoundCloud, Inc. i Repost Network Inc.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta la venda de dades a intermediaris."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "soundcloud-privacy-policy"
+      ],
+      "detail": "Clàusules contractuals tipus aprovades per la Comissió Europea, consultables a petició.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "soundcloud-transparency-reports"
+      ],
+      "detail": "Informes semestrals del Reglament de Serveis Digitals des del 2024 i informes anuals del Reglament sobre continguts terroristes en línia.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://soundcloud.com/transparency-reports"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "soundcloud-privacy-policy"
+      ],
+      "detail": "Durant la vigència del contracte i tres anys més des de l’any de la cancel·lació, per obligacions legals.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "soundcloud-privacy-policy",
+        "soundcloud-delete-account"
+      ],
+      "detail": "Es conserven les còpies de seguretat i les dades necessàries per a obligacions fiscals i comercials, prevenció del frau i seguretat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "period": "Vigència del contracte i tres anys més des de l’any de la cancel·lació",
+        "sources": [
+          "soundcloud-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "soundcloud-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "soundcloud-delete-account"
+      ],
+      "detail": "Botó d’eliminació tant a la configuració del compte al web com a la configuració de les aplicacions mòbils.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://help.soundcloud.com/hc/en-us/articles/115003563188-How-can-I-delete-my-account",
+    "difficulty": "easy",
+    "steps": [
+      "Descarrega abans l’informe de dades personals si vols conservar l’historial: en eliminar el compte el perds.",
+      "Al web, entra a la configuració del compte i prem el botó d’eliminació al peu de la pàgina.",
+      "A l’aplicació, toca l’avatar a la pantalla Biblioteca, entra a Configuració, després a Compte i tria Eliminar compte.",
+      "Confirma la sol·licitud: el compte entra en una cua d’eliminació i, si la sol·licitud caduca, queda congelat i cal obrir un tiquet."
+    ],
+    "dataRetained": "Còpies de seguretat i dades exigides per obligacions fiscals, comercials i de seguretat.",
+    "sources": [
+      "soundcloud-delete-account",
+      "soundcloud-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "soundcloud-data-export"
+      ],
+      "detail": "Hi ha un informe de dades personals a petició, però l’historial d’escolta es limita als mil elements més recents i en queden excloses les pistes esborrades o fetes privades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "soundcloud-privacy-policy"
+      ],
+      "detail": "Canal específic de protecció de dades i drets enumerats amb els articles del RGPD corresponents.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dataprotection@soundcloud.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "soundcloud-ad-settings"
+      ],
+      "detail": "Pestanya de publicitat a la configuració i gestor de galetes amb llista de socis; l’ajuda adverteix que el nombre d’anuncis no baixa, només la rellevància.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://help.soundcloud.com/hc/en-us/articles/360004223094-Manage-Advertising-Settings"
+    },
+    "telemetryOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "soundcloud-privacy-policy"
+      ],
+      "detail": "El gestor de galetes de la pestanya de privadesa permet desactivar l’analítica, i a mòbil hi ha commutadors d’analítica i d’informes d’errors.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "soundcloud-privacy-policy"
+      ],
+      "detail": "Pestanyes separades de privadesa, publicitat, notificacions i permisos, amb control de qui pot enviar missatges, quines pistes són privades i quines aplicacions tenen accés a l’API.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "soundcloud-delete-account",
+        "soundcloud-ad-settings"
+      ],
+      "detail": "No hem trobat barreres de sortida ni consentiments desequilibrats: la baixa és autoservei i els controls de publicitat i d’analítica són accessibles.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "soundcloud-privacy-policy"
+      ],
+      "detail": "Els missatges privats s’analitzen automàticament per detectar URL malicioses, cosa que exclou el xifratge d’extrem a extrem.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "soundcloud-security-txt"
+      ],
+      "detail": "Tot el domini es serveix per HTTPS.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La secció de seguretat de la informació no detalla el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "soundcloud-two-factor"
+      ],
+      "detail": "Aplicació d’autenticació TOTP amb codis de recuperació i codis d’un sol ús per correu com a reserva. L’article indica expressament que no s’ofereix verificació per SMS.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "totp",
+        "email"
+      ]
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories ni certificacions ISO 27001 o SOC 2 publicades."
+    },
+    "bugBounty": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "soundcloud-security-txt"
+      ],
+      "detail": "El security.txt remet a una política de divulgació responsable pròpia; no consta cap programa de recompenses gestionat públicament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "soundcloud-security-txt"
+      ],
+      "detail": "Fitxer security.txt vigent fins al març del 2027 amb contacte i política de divulgació.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "audiomack",
+      "comparability": "partial",
+      "rationale": "També permet pujar i escoltar música d’artistes emergents sense cost.",
+      "tradeOffs": "El responsable és nord-americà, no designa representant a la Unió Europea i l’etiqueta de rastreig és més extensa."
+    }
+  ],
+  "review": {
+    "researchStatus": "in-depth",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Hi ha dos detalls poc coneguts: les estadístiques d’escolta arriben als titulars dels drets amb el detall de qui els escolta més, i el compromís de no entrenar models generatius amb la veu d’una persona és a les condicions d’ús, no a la política de privadesa.",
+    "openQuestions": [
+      "Quina autoritat de control actua com a principal? La política no ho diu, tot i que l’establiment principal és a Berlín.",
+      "Quant triga la cua d’eliminació de comptes? Cap font en publica el termini.",
+      "Les dades en repòs estan xifrades? La secció de seguretat no ho concreta."
+    ]
+  },
+  "appStoreBundleId": "com.soundcloud.TouchApp"
+}

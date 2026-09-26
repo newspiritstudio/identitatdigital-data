@@ -1,0 +1,682 @@
+{
+  "slug": "wizz-air",
+  "name": "Wizz Air",
+  "company": "wizz-air-hungary",
+  "categories": [
+    "viatges-i-allotjament"
+  ],
+  "tagline": "Publicitat de retorn a Google i Meta amb consentiment, i un compte que no deixa canviar el correu tu sol",
+  "summary": "L’avís de privadesa de Wizz Air és detallat: llista els terminis de conservació finalitat per finalitat, distingeix els tres responsables del grup (Hongria, Malta i el Regne Unit) i reconeix que tracta dades de salut quan es demana assistència especial o s’informa de l’aptitud per volar. La publicitat de retorn a Google i a les xarxes de Meta es fa amb consentiment, sobre un perfil construït amb les cerques i les reserves que no s’han acabat. En canvi, el correu electrònic del compte no es pot canviar des del perfil i cal passar pel xat o el centre de trucades, el mateix problema que va motivar una reclamació de noyb el 2020.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Hongria: l’autoritat principal és la NAIH; Wizz Air Malta i Wizz Air UK actuen com a responsables separats i, en màrqueting i fidelització, com a responsables conjunts",
+  "links": {
+    "website": "https://www.wizzair.com/",
+    "privacyPolicy": "https://www.wizzair.com/en-gb/legal/privacy-notice",
+    "appStore": "https://apps.apple.com/es/app/id583348801"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "wizz-air-privacy-notice"
+    ],
+    "detail": "Es pot reservar sense compte, però el compte WIZZ és el que gestiona els Wizz Credits, les reserves i les preferències.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "editorial",
+    "sources": [],
+    "detail": "Aplicació privativa; no hi ha cap repositori públic ni cap declaració de codi obert.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Una reserva d’avió conté el document d’identitat, la nacionalitat, amb qui viatges i quan no seràs a casa. Wizz Air hi afegeix un perfil comercial detallat (historial de vols, despesa anual, valoracions de l’atenció al client, companys de viatge) i, en alguns casos, dades de salut per a l’assistència a bord.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "wizz-air-privacy-notice"
+      ],
+      "note": "Ha de coincidir exactament amb el document de viatge."
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "wizz-air-privacy-notice"
+      ]
+    },
+    {
+      "type": "genere",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "wizz-air-privacy-notice"
+      ]
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "wizz-air-privacy-notice"
+      ],
+      "note": "Número i caducitat del document de viatge, dins del registre de nom del passatger (PNR)."
+    },
+    {
+      "type": "origen-etnic-o-nacionalitat",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal"
+      ],
+      "sources": [
+        "wizz-air-privacy-notice"
+      ],
+      "note": "La nacionalitat i el país de residència formen part del PNR i es comuniquen a les autoritats que ho exigeixen."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "wizz-air-privacy-notice",
+        "wizz-air-app-store"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "wizz-air-privacy-notice"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "wizz-air-privacy-notice"
+      ],
+      "note": "Adreça de facturació del compte."
+    },
+    {
+      "type": "contrasenya",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "wizz-air-privacy-notice"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "wizz-air-privacy-notice"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "wizz-air-privacy-notice"
+      ],
+      "note": "Historial de reserves, rutes, classe, equipatge, serveis addicionals i despesa anual."
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "wizz-air-privacy-notice"
+      ],
+      "note": "Categoria especial: assistència especial, oxigen, embaràs, al·lèrgies o aptitud per volar, amb consentiment explícit."
+    },
+    {
+      "type": "situacio-familiar",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "wizz-air-privacy-notice"
+      ],
+      "note": "L’avís cita l’estat civil i la informació sobre els companys de viatge dins del perfil de màrqueting."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "wizz-air-privacy-notice"
+      ],
+      "note": "Les destinacions cercades i no comprades passen a formar part del perfil d’interessos presumptes."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "wizz-air-privacy-notice"
+      ]
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "wizz-air-privacy-notice"
+      ],
+      "note": "Gravació de les trucades amb atenció al client, amb consentiment i conservada tres anys."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "wizz-air-app-store",
+        "wizz-air-privacy-notice"
+      ],
+      "note": "L’etiqueta de l’App Store declara identificadors per rastrejar entre aplicacions i llocs d’altres empreses."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "wizz-air-app-store"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "wizz-air-privacy-notice"
+      ],
+      "note": "Identificadors de galeta i de dispositiu enviats a les API de Google Ads i de Meta."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "wizz-air-app-store",
+        "wizz-air-privacy-notice"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "wizz-air-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wizz-air-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store declara identificadors utilitzats per rastrejar la persona entre aplicacions i llocs web d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wizz-air-app-store",
+        "wizz-air-privacy-notice"
+      ],
+      "detail": "L’avís descriu l’ús d’identificadors de galeta i de dispositiu per a la publicitat de retorn.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wizz-air-privacy-notice"
+      ],
+      "detail": "L’avís documenta la integració de l’API de Google Ads i de l’API de màrqueting de Meta per a Facebook i Instagram.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wizz-air-privacy-notice"
+      ],
+      "detail": "Missatges personalitzats i publicitat de retorn a Google, Facebook i Instagram, amb consentiment segons els articles 6.1.a i 22.2.c del RGPD.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wizz-air-privacy-notice"
+      ],
+      "detail": "L’avís descriu explícitament l’elaboració de perfils amb l’historial de vols, la despesa, el comportament de navegació, la fidelització i les valoracions de l’atenció rebuda.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap declaració sobre l’ús de les dades de clients per entrenar models, ni tan sols a l’avís de l’assistent virtual."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wizz-air-privacy-notice"
+      ],
+      "detail": "Amb agents de terra i serveis aeroportuaris, agències de màrqueting, proveïdors de productes de tercers (hotels, lloguer de cotxes, aparcament) i autoritats d’immigració i seguretat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wizz-air-privacy-notice"
+      ],
+      "detail": "Les societats del grup Wizz Air intercanvien dades i actuen com a responsables conjuntes en màrqueting i en el programa de fidelització.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’avís no diu expressament si ven o no dades personals."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wizz-air-privacy-notice"
+      ],
+      "detail": "Transferències fora de l’Espai Econòmic Europeu amb clàusules contractuals tipus o decisió d’adequació; l’avís llista els països de destinació, entre els quals Egipte, l’Aràbia Saudita, Israel, el Kazakhstan i Turquia.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència de peticions governamentals de dades de Wizz Air."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wizz-air-privacy-notice"
+      ],
+      "detail": "L’avís fixa terminis concrets per a cada finalitat: sis anys per al compte, un any i mig per al PNR, tres anys per a l’atenció al client i les gravacions de trucades, i cinc o sis anys per a la defensa de reclamacions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "wizz-air-privacy-notice"
+      ],
+      "detail": "Després d’eliminar el compte, les dades de gestió del compte es conserven sis anys per complir les obligacions legals de conservació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "identificador-de-compte",
+        "period": "6 anys des del compliment del contracte (eliminació del compte WIZZ)",
+        "sources": [
+          "wizz-air-privacy-notice"
+        ]
+      },
+      {
+        "dataType": "document-identificatiu-oficial",
+        "period": "1,5 anys per a les dades del viatge concret (PNR)",
+        "sources": [
+          "wizz-air-privacy-notice"
+        ]
+      },
+      {
+        "dataType": "veu-i-audio",
+        "period": "3 anys; un mes per esborrar-les si es retira el consentiment",
+        "sources": [
+          "wizz-air-privacy-notice"
+        ]
+      },
+      {
+        "dataType": "historial-de-compres",
+        "period": "6 anys per als serveis de tercers contractats",
+        "sources": [
+          "wizz-air-privacy-notice"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wizz-air-account-help"
+      ],
+      "detail": "El centre d’ajuda documenta l’eliminació permanent del compte WIZZ.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wizz-air-account-help"
+      ],
+      "detail": "Des de l’aplicació mòbil, al menú d’edició del perfil, o des del web amb la sessió iniciada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "easy",
+    "requiresSupportContact": false,
+    "steps": [
+      "A l’aplicació WIZZ d’iOS o Android, obre el menú «Edita el teu perfil».",
+      "Tria l’opció d’eliminar el compte i confirma-ho.",
+      "Alternativament, inicia la sessió al web i fes servir l’enllaç «Delete Account» que hi ha al final de la pàgina de felicitacions i reclamacions.",
+      "Si tens diversos comptes WIZZ i els vols fusionar en lloc d’esborrar-los, cal contactar amb l’empresa."
+    ],
+    "obstacles": "El correu electrònic del compte no es pot canviar des del perfil: cal passar pel xat en directe o pel centre de trucades. Els Wizz Credits associats al compte es perden en eliminar-lo.",
+    "dataRetained": "Les dades de gestió del compte es conserven sis anys, i les de les reserves i les reclamacions segons els terminis legals aplicables.",
+    "sources": [
+      "wizz-air-account-help",
+      "wizz-air-privacy-notice"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wizz-air-privacy-notice"
+      ],
+      "detail": "Dret de portabilitat en format estructurat i llegible per màquina, a sol·licitud a data.protection@wizzair.com o des del compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wizz-air-privacy-notice"
+      ],
+      "detail": "Sol·licituds a data.protection@wizzair.com o des de la secció corresponent del compte WIZZ; l’autoritat principal és la NAIH hongaresa.",
+      "verifiedAt": "2026-09-22",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wizz-air-privacy-notice"
+      ],
+      "detail": "La publicitat personalitzada i la de retorn es basen en el consentiment i es poden retirar en qualsevol moment, sense justificació i de manera gratuïta.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "wizz-air-privacy-notice"
+      ],
+      "detail": "Les dades d’ús de l’aplicació es tracten per contracte o per interès legítim; només les galetes no necessàries depenen del consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "wizz-air-privacy-notice"
+      ],
+      "detail": "Hi ha control sobre el màrqueting, les galetes i la gravació de trucades, però no sobre el perfil comercial que es construeix amb les reserves.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "independent",
+      "sources": [
+        "wizz-air-noyb-2020"
+      ],
+      "detail": "noyb va documentar que exercir el dret de rectificació obligava a trucar a una línia de pagament: 35,67 euros per una trucada de 32 minuts, i amb la correcció feta a mitges.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "hidden-exit",
+        "severity": "medium",
+        "description": "El correu electrònic del compte no es pot corregir des del perfil i cal passar pel xat o pel centre de trucades, el motiu central de la reclamació de noyb del 2020.",
+        "sources": [
+          "wizz-air-account-help",
+          "wizz-air-noyb-2020"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És una aplicació de reserves: no hi ha comunicacions privades entre persones que es puguin xifrar d’extrem a extrem.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "editorial",
+      "sources": [],
+      "detail": "Comprovació pròpia: el web i l’API de Wizz Air es serveixen exclusivament per HTTPS.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’avís de privadesa no descriu les mesures tècniques de xifratge en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap documentació sobre verificació en dos passos del compte WIZZ."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap auditoria ni certificació de seguretat publicada."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa públic de recompenses per vulnerabilitats."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "no",
+      "level": "editorial",
+      "sources": [],
+      "detail": "Comprovació pròpia: wizzair.com no publica cap fitxer /.well-known/security.txt ni cap política de divulgació de vulnerabilitats visible.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "L’avís per a clients i viatgers és molt complet i és la base de gairebé tota la fitxa. La part de seguretat, en canvi, gairebé no està documentada: no hi ha pàgina de seguretat, ni security.txt, ni informe de transparència.",
+    "openQuestions": [
+      "La reclamació de noyb davant de l’autoritat austríaca del 2020 va acabar amb alguna resolució?",
+      "Quines mesures de seguretat del compte WIZZ hi ha, més enllà de la contrasenya?"
+    ]
+  },
+  "appStoreBundleId": "com.wizzair.WizzAirApp"
+}

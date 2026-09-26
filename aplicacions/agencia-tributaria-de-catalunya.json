@@ -1,0 +1,608 @@
+{
+  "slug": "agencia-tributaria-de-catalunya",
+  "name": "Agència Tributària de Catalunya",
+  "company": "agencia-tributaria-de-catalunya",
+  "categories": [
+    "administracio-publica"
+  ],
+  "tagline": "La política diu que l’app «no recull cap dada» i dues línies després enumera nom, adreça, telèfon, ubicació i targeta bancària",
+  "summary": "L’app de l’ATC permet pagar tributs i deutes amb targeta o Bizum, demanar cita i, amb idCAT Mòbil, consultar els deutes en via executiva, el padró de l’impost sobre les emissions de CO₂ dels vehicles o l’adreça de notificacions. La base jurídica està documentada al registre d’activitats de l’ATC, que esmenta l’app expressament i cita la Llei general tributària i el Codi tributari de Catalunya. La política de l’app, en canvi, es contradiu: diu que no recull cap dada i alhora que emmagatzema nom, correu, adreça, telèfon, ubicació i dades bancàries, mentre l’etiqueta de l’App Store declara totes aquestes dades vinculades a la identitat.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "public-service",
+  "jurisdiction": "Catalunya; servei públic de l’Agència Tributària de Catalunya",
+  "links": {
+    "website": "https://atc.gencat.cat/ca/atencio/app/",
+    "privacyPolicy": "https://atc.gencat.cat/ca/atencio/app/app-privacitat/",
+    "rightsRequest": "https://atc.gencat.cat/ca/agencia/proteccio-dades/",
+    "appStore": "https://apps.apple.com/es/app/id6452755072"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "atc-app-store",
+      "atc-app-pagina",
+      "atc-app-privacitat"
+    ],
+    "detail": "Sense identificar-se es poden pagar tributs amb la carta de pagament, demanar cita i consultar oficines. Per consultar dades i deutes o canviar l’adreça cal identificar-se, i ara per ara l’únic mètode admès és l’idCAT Mòbil.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": [],
+    "detail": "No hem trobat publicat el codi de l’aplicació."
+  },
+  "publicService": {
+    "isPublicService": true,
+    "administrationLevel": "regional",
+    "legalBasis": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "atc-rat-finalitats-tributaries"
+      ],
+      "detail": "El registre de l’activitat amb finalitats tributàries inclou expressament l’accés «mitjançant l’app de l’ATC» a les dades tributàries i als expedients dels últims cinc anys, i la fonamenta en el compliment d’obligacions legals: la Llei 58/2003 general tributària, la Llei 17/2017 del Codi tributari de Catalunya i les lleis de creació de cada tribut. La política de l’app, per si sola, no cita cap base jurídica.",
+      "verifiedAt": "2026-09-22",
+      "norm": "Llei 58/2003, general tributària; Llei 17/2017, del Codi tributari de Catalunya"
+    },
+    "processingRegistry": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "atc-rat-finalitats-tributaries",
+        "atc-proteccio-dades"
+      ],
+      "detail": "L’ATC publica cada activitat en una pàgina pròpia amb responsable, delegat, finalitats, base jurídica, categories de dades, fonts, encarregats (entre ells el CTTI), actuacions automatitzades i terminis. L’app hi apareix citada.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://atc.gencat.cat/ca/agencia/proteccio-dades/finalitats-tributaries/"
+    },
+    "dpia": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat publicada cap avaluació d’impacte relativa a la protecció de dades de l’app ni de l’activitat tributària."
+    },
+    "ensConformity": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap declaració de conformitat amb l’Esquema Nacional de Seguretat. El registre d’activitats diu que les mesures es determinen amb el Marc de Ciberseguretat i Protecció de Dades del CESICAT, que no és l’ENS."
+    },
+    "dpo": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "atc-proteccio-dades",
+        "atc-rat-finalitats-tributaries"
+      ],
+      "detail": "L’ATC té delegat de protecció de dades amb adreça pròpia, on es poden presentar també les sol·licituds d’exercici de drets.",
+      "verifiedAt": "2026-09-22",
+      "contact": "dpd@atc.cat"
+    },
+    "offlineAlternative": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "atc-app-privacitat",
+        "atc-app-store",
+        "atc-proteccio-dades"
+      ],
+      "detail": "Els tràmits de l’app funcionen amb la lògica de la seu electrònica de l’ATC, on es poden fer igualment, i es pot demanar cita presencial a les oficines.",
+      "verifiedAt": "2026-09-22"
+    },
+    "accessibilityStatement": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "atc-app-accessibilitat-ios"
+      ],
+      "detail": "La declaració per a iOS, des de la versió 4.0.1, diu «parcialment conforme» amb el Reial decret 1112/2018 i enumera els incompliments. És una autoavaluació feta per Everycode, S.L. el 12 de desembre del 2025 i revisada el 15 de desembre del 2025.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://atc.gencat.cat/ca/atencio/app/declaracio-accessibilitat-ios/"
+    },
+    "mandatoryRetention": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "atc-rat-finalitats-tributaries",
+        "atc-proteccio-dades"
+      ],
+      "detail": "Les dades tributàries tenen terminis fixats per la normativa d’avaluació documental: cinc anys per a l’impost de transmissions patrimonials, sis anys i mig per als impostos propis, cent anys per a successions i donacions, i temps indefinit per al joc i per a les dades en suport informàtic. L’ATC diu expressament que, d’acord amb la normativa tributària, no pot autoritzar els drets de supressió, oposició ni limitació sobre aquestes dades.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataSummary": "Per l’app passen les dades de la relació amb Hisenda: deutes, impostos de vehicles, adreça de notificacions i mitjans de pagament. Són dades de l’Administració, que la llei obliga a conservar i a cedir a altres administracions tributàries i als tribunals quan ho demanin; per això no es poden esborrar.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "atc-app-store",
+        "atc-app-privacitat",
+        "atc-rat-finalitats-tributaries"
+      ],
+      "note": "Només quan hi ha identificació digital. Les cessions a altres administracions tributàries, jutjats i tribunals són les previstes per llei."
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "atc-rat-finalitats-tributaries",
+        "atc-app-privacitat"
+      ],
+      "note": "El NIF que identifica l’idCAT Mòbil i la clau de totes les dades tributàries."
+    },
+    {
+      "type": "adreca-postal",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "atc-app-store",
+        "atc-app-privacitat"
+      ],
+      "note": "L’adreça a efectes de notificacions, que es pot modificar des de l’app."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "atc-app-store",
+        "atc-app-privacitat"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "atc-app-store",
+        "atc-app-privacitat"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "atc-app-store",
+        "atc-app-privacitat",
+        "atc-rat-finalitats-tributaries"
+      ],
+      "note": "Targeta, Bizum o càrrec en compte. La política diu que les dades de la targeta o del compte s’esborren en tancar l’app o la sessió; el registre anota el pagador, el justificant i l’NRC de la plataforma de pagaments."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "atc-app-store",
+        "atc-app-privacitat"
+      ],
+      "note": "L’etiqueta la declara vinculada a la identitat. La política diu que només es recull amb permís i que serveix per a «l’enviament d’alertes sobre el territori», una funció que l’app no descriu enlloc; probablement serveix per al cercador d’oficines."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "atc-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "atc-app-store",
+        "atc-app-privacitat"
+      ],
+      "note": "L’etiqueta declara la interacció amb el producte vinculada a la identitat; la política diu que l’analítica es fa amb identificadors anònims."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "atc-app-store",
+        "atc-app-privacitat"
+      ]
+    },
+    {
+      "type": "testimoni-d-autenticacio",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "atc-app-privacitat"
+      ],
+      "note": "Identificador de notificacions push, si s’activen."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "atc-app-store"
+      ],
+      "note": "L’etiqueta no declara cap dada utilitzada per rastrejar."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "atc-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no té secció de dades utilitzades per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "atc-app-store",
+        "atc-app-privacitat"
+      ],
+      "detail": "Ni l’etiqueta ni la política esmenten cap identificador publicitari; la política diu que només hi ha galetes tècniques.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política parla d’analítica i detecció d’errors amb identificadors anònims, però no diu amb quina eina. No ho hem pogut comprovar."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "atc-app-privacitat"
+      ],
+      "detail": "No hi ha publicitat i la política diu que les dades no s’utilitzen per a cap altra finalitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "atc-rat-finalitats-tributaries",
+        "atc-proteccio-dades"
+      ],
+      "detail": "L’ATC fa actuacions administratives automatitzades aprovades per resolució (VEH/9/2020 i ECO/887/2024), que el registre enumera. En l’àmbit tributari no es pot exercir el dret a no ser objecte de decisions automatitzades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Ni la política ni el registre diuen res sobre l’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "atc-rat-finalitats-tributaries",
+        "atc-proteccio-dades"
+      ],
+      "detail": "Cessions previstes per llei a l’Agència Estatal d’Administració Tributària, a la xarxa Tributs de Catalunya, a jutjats i tribunals i a la GAIP. Els encarregats (CTTI, servei 012 i ajuntaments en conveni) estan enumerats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "atc-rat-finalitats-tributaries"
+      ],
+      "detail": "Xarxa Tributs de Catalunya i serveis de la Generalitat que actuen com a encarregats (CTTI, 012), segons el registre.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "atc-proteccio-dades"
+      ],
+      "detail": "Les dades tributàries tenen caràcter reservat i no es poden cedir fora dels casos previstos per llei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "atc-rat-finalitats-tributaries"
+      ],
+      "detail": "El registre diu que no hi ha prevista cap transferència internacional.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "none"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de peticions d’accés a les dades."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "atc-rat-finalitats-tributaries",
+        "atc-app-privacitat"
+      ],
+      "detail": "Terminis per tipus d’expedient al registre i esborrat de les dades locals de l’app en tancar la sessió o desinstal·lar-la.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "atc-rat-finalitats-tributaries",
+        "atc-app-privacitat"
+      ],
+      "detail": "El que desa el dispositiu s’esborra en tancar la sessió; les dades tributàries es conserven als sistemes de l’ATC segons els terminis legals, en molts casos indefinidament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "dades-de-pagament",
+        "period": "A l’app, fins que es tanca l’app o la sessió o es desinstal·la",
+        "sources": [
+          "atc-app-privacitat"
+        ]
+      },
+      {
+        "dataType": "document-identificatiu-oficial",
+        "period": "Dades tributàries en suport informàtic: temps indefinit",
+        "sources": [
+          "atc-rat-finalitats-tributaries"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "atc-app-privacitat",
+        "atc-proteccio-dades"
+      ],
+      "detail": "No hi ha un compte propi de l’app: l’accés és amb idCAT Mòbil. Les dades tributàries no es poden suprimir.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "atc-app-privacitat"
+      ],
+      "detail": "Tancar la sessió o desinstal·lar l’app n’esborra les dades locals; no hi ha res més a esborrar des de l’app.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "requiresSupportContact": false,
+    "steps": [
+      "Tanca la sessió o desinstal·la l’app: segons la política, s’esborren el nom, el correu, l’adreça, el telèfon, la ubicació i les dades bancàries que s’hi havien desat.",
+      "Si havies activat les notificacions per canal electrònic, dona-te’n de baixa a la seu electrònica de l’ATC.",
+      "Per a l’accés o la rectificació de dades tributàries, fes servir el formulari de l’ATC o escriu al delegat de protecció de dades, dpd@atc.cat."
+    ],
+    "obstacles": "La supressió de les dades tributàries no és possible perquè la Llei general tributària n’imposa la conservació.",
+    "dataRetained": "Totes les dades tributàries, amb terminis que van dels cinc anys a la conservació indefinida.",
+    "sources": [
+      "atc-app-privacitat",
+      "atc-proteccio-dades",
+      "atc-rat-finalitats-tributaries"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "atc-proteccio-dades"
+      ],
+      "detail": "L’ATC recorda que la portabilitat no s’aplica als tractaments fets en exercici de poders públics (article 20.3 del RGPD).",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "atc-proteccio-dades",
+        "atc-rat-finalitats-tributaries"
+      ],
+      "detail": "Formulari específic presentable a qualsevol oficina, per correu postal o per correu electrònic al delegat, i accés i rectificació directes des de l’app o «El meu espai» de la seu. Es pot reclamar a l’APDCAT.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dpd@atc.cat"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no mostra publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap manera de desactivar l’analítica."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "atc-app-privacitat",
+        "atc-app-store"
+      ],
+      "detail": "La ubicació i la càmera (per escanejar el codi de barres) es demanen amb permís del sistema, i les notificacions són opcionals. No hi ha altres controls.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "protective",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem analitzat la interfície de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No és un servei de comunicació entre particulars.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "atc-app-privacitat"
+      ],
+      "detail": "La política diu que s’han adoptat mesures per garantir la seguretat i la confidencialitat de les comunicacions, sense concretar-ne cap.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu res sobre el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "atc-app-privacitat",
+        "atc-identificacio-digital"
+      ],
+      "detail": "L’accés identificat és amb idCAT Mòbil, que envia una contrasenya d’un sol ús al telèfon mòbil registrat.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "sms"
+      ]
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap auditoria de seguretat publicada."
+    },
+    "bugBounty": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Administració pública: el bloc de servei públic substitueix aquest indicador per la conformitat amb l’ENS.",
+      "verifiedAt": "2026-09-22"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha fitxer security.txt a atc.gencat.cat."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "El registre d’activitats de l’ATC és dels més complets del bloc català: esmenta l’app, enumera encarregats, fonts, cessions i actuacions automatitzades amb la seva lògica. La política de l’app, en canvi, afirma que «no recull cap dada de l’usuari» i dues frases després que n’emmagatzema una llista llarga; i copia de la plantilla de la Generalitat la frase sobre «alertes sobre el territori», que no correspon a cap funció de l’ATC. La fitxa de l’App Store enllaça la política per http i en castellà. No hem trobat cap incident ni resolució de l’APDCAT sobre l’app; les notícies sobre una suposada filtració de dades fiscals del 2026 es referien a l’Agència Tributària estatal, que ho va desmentir.",
+    "openQuestions": [
+      "Per a què fa servir exactament l’app la ubicació, si la política parla d’alertes que no existeixen?",
+      "Quina eina d’analítica fa servir l’app, i per què l’etiqueta declara les dades d’ús vinculades a la identitat si la política diu que són anònimes?",
+      "Quan s’afegiran altres mètodes d’identificació a més de l’idCAT Mòbil, tal com anuncia la fitxa de l’App Store?"
+    ]
+  },
+  "appStoreBundleId": "cat.gencat.mobi.atc.apptributs"
+}

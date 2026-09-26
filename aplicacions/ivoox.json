@@ -1,0 +1,519 @@
+{
+  "slug": "ivoox",
+  "name": "iVoox",
+  "company": "ivoox",
+  "categories": [
+    "noticies-i-mitjans",
+    "musica-i-audio"
+  ],
+  "tagline": "L’historial d’escolta de pòdcasts alimenta la publicitat d’àudio, amb el correu declarat per a màrqueting",
+  "summary": "iVoox és l’agregador de pòdcasts més usat a Espanya i es finança inserint publicitat dins de l’àudio. L’etiqueta de l’App Store declara el correu electrònic i l’identificador d’usuari entre les dades vinculades a la identitat per a «publicitat o màrqueting del desenvolupador», i identificadors i dades d’ús com a dades de rastreig. La política és de les poques que fixen terminis concrets: 26 mesos per a l’analítica i 24 per a la plataforma publicitària d’àudio.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://www.ivoox.com/",
+    "privacyPolicy": "https://legal.ivoox.com/",
+    "appStore": "https://apps.apple.com/es/app/id542673545"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "ivoox-privacy-policy"
+    ],
+    "detail": "Es pot escoltar sense compte; per subscriure’s a programes, desar i sincronitzar cal registrar-s’hi.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "ivoox-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Què escoltes i durant quanta estona pot revelar les teves idees, la teva salut i les teves aficions; iVoox ho creua amb el correu per segmentar la publicitat inserida en l’àudio.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "ivoox-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "ivoox-app-store",
+        "ivoox-privacy-policy"
+      ],
+      "note": "L’etiqueta el declara per a publicitat i màrqueting del desenvolupador."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "ivoox-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "ivoox-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "ivoox-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-visualitzacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "ivoox-privacy-policy"
+      ],
+      "note": "La política parla de l’historial d’escolta i de les categories de contingut consumit."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "ivoox-privacy-policy"
+      ],
+      "note": "La política esmenta expressament la segmentació i la personalització de la publicitat."
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "ivoox-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "ivoox-app-store"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "ivoox-app-store"
+      ],
+      "note": "L’etiqueta agrupa aquestes dades com a «datos publicitarios» per a publicitat de tercers."
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "ivoox-privacy-policy"
+      ],
+      "note": "Marca, model, sistema operatiu i resolució de pantalla."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "ivoox-privacy-policy"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "ivoox-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "ivoox-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ivoox-app-store"
+      ],
+      "detail": "L’etiqueta declara identificadors i dades d’ús com a dades que poden servir per rastrejar en apps i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ivoox-app-store"
+      ],
+      "detail": "Identificador de dispositiu i dades publicitàries per a publicitat de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ivoox-privacy-policy"
+      ],
+      "detail": "AdsWizz/AudioEmotion, Google, Comscore i Batch.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ivoox-privacy-policy",
+        "ivoox-app-store"
+      ],
+      "detail": "Segmentació i personalització de la publicitat, i prospecció comercial.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ivoox-privacy-policy"
+      ],
+      "detail": "Perfils a partir de l’historial d’escolta i de les categories de contingut.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no en diu res."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ivoox-privacy-policy"
+      ],
+      "detail": "Plataformes publicitàries (AdsWizz/AudioEmotion, Google), analítica (Google Analytics, Comscore), notificacions (Batch) i identificació social (Facebook Connect, Google Sign-In).",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap grup empresarial."
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no ho aborda."
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no té cap apartat de transferències internacionals, tot i que els proveïdors citats són nord-americans."
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "ivoox-privacy-policy"
+      ],
+      "detail": "Hi ha terminis per als proveïdors publicitaris i d’analítica, però no per al compte, que es conserva mentre no en demanis la supressió.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no concreta què queda després de la supressió."
+    },
+    "periods": [
+      {
+        "dataType": "interaccions-i-us",
+        "period": "26 mesos (eina d’analítica)",
+        "sources": [
+          "ivoox-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "identificador-publicitari",
+        "period": "24 mesos (AdsWizz/AudioEmotion)",
+        "sources": [
+          "ivoox-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ivoox-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política només documenta la sol·licitud per correu o per carta; no hem pogut verificar cap botó d’eliminació dins del compte."
+    },
+    "difficulty": "medium",
+    "steps": [
+      "Cancel·la abans els plans de pagament (Premium, Plus o Pro) que tinguis contractats.",
+      "Escriu a legal@ivoox.com des de l’adreça del compte demanant la supressió de les dades, o envia la sol·licitud per carta al domicili de la societat a Sant Cugat del Vallès."
+    ],
+    "obstacles": "La via documentada és el correu electrònic, sense formulari ni termini de resposta publicat.",
+    "sources": [
+      "ivoox-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "ivoox-privacy-policy"
+      ],
+      "detail": "La portabilitat es reconeix, però cal demanar-la per correu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ivoox-privacy-policy"
+      ],
+      "detail": "Per correu a legal@ivoox.com; la política no designa cap delegat de protecció de dades.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:legal@ivoox.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "ivoox-privacy-policy"
+      ],
+      "detail": "El consentiment publicitari es pot retirar, i els plans de pagament eliminen els anuncis; no consta un control granular dins de l’app.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És una aplicació d’escolta de pòdcasts i ràdio.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El domini no publica cap fitxer security.txt."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "spotify",
+      "comparability": "partial",
+      "rationale": "També ofereix pòdcasts en català i castellà, amb una política més detallada, però amb un perfil publicitari molt més ampli.",
+      "tradeOffs": "El catàleg de pòdcasts independents espanyols és més reduït."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "L’etiqueta declara el correu i l’identificador d’usuari per a màrqueting del desenvolupador, cosa que lliga la identitat amb l’historial d’escolta. La política no té apartat de transferències internacionals tot i citar proveïdors nord-americans.",
+    "openQuestions": [
+      "Hi ha una opció d’eliminació del compte dins de l’aplicació, com exigeix Apple?",
+      "Quin mecanisme empara les transferències cap a Google, Comscore i AdsWizz?",
+      "Hi ha sancions o filtracions documentades? No hem pogut fer la cerca d’incidents."
+    ]
+  },
+  "appStoreBundleId": "com.ivoox.ivoox"
+}

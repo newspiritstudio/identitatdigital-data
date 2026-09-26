@@ -1,0 +1,450 @@
+{
+  "slug": "bump",
+  "name": "Bump",
+  "company": "amo",
+  "categories": [
+    "mapes-i-navegacio",
+    "xarxes-socials"
+  ],
+  "tagline": "Ubicació en directe entre amics, amb historial que només s’esborra quan es tanca el compte",
+  "summary": "Bump és el mapa d’amics de l’empresa francesa amo: mostra en temps real on és cadascú a les persones que has triat. La política està redactada tenint en compte el RGPD, amb bases jurídiques, clàusules contractuals tipus i un delegat de protecció de dades. L’historial d’ubicació, però, es conserva mentre facis servir el servei i només desapareix quan elimines el compte, i la baixa s’ha de demanar per correu.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "França (Unió Europea)",
+  "links": {
+    "website": "https://amo.co/",
+    "privacyPolicy": "https://amo.co/privacy-policy/",
+    "appStore": "https://apps.apple.com/es/app/id6471519217"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "bump-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "bump-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "On ets ara i on has estat, amb qui vas i quina és la teva agenda de contactes. És el rastre de moviments d’un públic majoritàriament adolescent.",
+  "dataCollection": [
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bump-app-store",
+        "bump-privacy-policy"
+      ],
+      "note": "GPS, xarxes sense fil, antenes i punts Wi-Fi; la comparteixen en directe les persones que tries com a amigues."
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bump-app-store",
+        "bump-privacy-policy"
+      ]
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bump-app-store",
+        "bump-privacy-policy"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "bump-app-store",
+        "bump-privacy-policy"
+      ]
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "compliment-legal"
+      ],
+      "sources": [
+        "bump-privacy-policy"
+      ],
+      "note": "La política parla de l’any de naixement."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bump-privacy-policy"
+      ],
+      "note": "Foto de perfil."
+    },
+    {
+      "type": "xarxa-de-contactes",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bump-privacy-policy"
+      ],
+      "note": "Amistats i historial de comunicacions dins de l’aplicació."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "bump-app-store"
+      ]
+    },
+    {
+      "type": "xarxa-i-connectivitat",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bump-privacy-policy"
+      ],
+      "note": "Inclou l’identificador BSSID de la xarxa Wi-Fi."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "bump-app-store",
+        "bump-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "bump-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bump-app-store"
+      ],
+      "detail": "L’etiqueta declara identificadors com a dades utilitzades per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no concreta quins identificadors publicitaris fa servir."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bump-privacy-policy"
+      ],
+      "detail": "Proveïdors d’analítica, de cartografia i de comunicacions.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu publicitat dirigida, tot i que l’etiqueta de l’App Store declara rastreig."
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bump-privacy-policy"
+      ],
+      "detail": "Allotjament, analítica, cartografia i ubicació, atenció a l’usuari i comunicacions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu explícitament si ven dades."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bump-privacy-policy"
+      ],
+      "detail": "Data Privacy Framework per als proveïdors certificats i clàusules contractuals tipus per a la resta.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bump-privacy-policy"
+      ],
+      "detail": "Diu que conserva les dades mentre calgui per prestar el servei i que les esborra després d’un període llarg d’inactivitat, però no dona cap xifra.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bump-privacy-policy"
+      ],
+      "detail": "Hi ha fins a trenta dies per restaurar el compte abans de la supressió definitiva.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bump-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "bump-privacy-policy"
+      ],
+      "detail": "Cal escriure a l’empresa o fer servir el xat d’assistència.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "waitingPeriodDays": 30,
+    "requiresSupportContact": true,
+    "steps": [
+      "Escriu a love@amo.co o obre el xat d’assistència des de l’aplicació i demana la supressió del compte.",
+      "Confirma la petició quan te la responguin.",
+      "No tornis a entrar durant els trenta dies següents: durant aquest període el compte encara es pot restaurar."
+    ],
+    "obstacles": "No hi ha cap botó documentat dins de l’aplicació i l’historial d’ubicació no es pot esborrar per separat: només desapareix amb el compte.",
+    "sources": [
+      "bump-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bump-privacy-policy"
+      ],
+      "detail": "Dret a obtenir les dades en un format estructurat i llegible per màquina, a petició.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bump-privacy-policy"
+      ],
+      "detail": "Per correu a dpo@amo.co o a privacy@amo.co.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dpo@amo.co"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bump-privacy-policy"
+      ],
+      "detail": "Es tria quines amistats veuen la ubicació en directe; la resta de persones només veuen un perfil limitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta xifratge d’extrem a extrem de la ubicació ni dels missatges."
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha ni programa de recompenses ni fitxer security.txt."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "alternatives": [
+    {
+      "app": "google-maps",
+      "comparability": "partial",
+      "rationale": "La compartició d’ubicació de Google Maps permet ensenyar on ets a qui triïs, amb durada limitada i sense historial visible per als altres.",
+      "tradeOffs": "No té el mapa social d’amics ni les notificacions d’arribada que són el sentit de Bump."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "openQuestions": [
+      "Quant de temps es guarda exactament l’historial d’ubicació i es pot esborrar sense donar de baixa el compte?",
+      "Per què l’etiqueta de l’App Store declara identificadors per rastrejar si la política no descriu publicitat dirigida?"
+    ]
+  },
+  "appStoreBundleId": "co.amo.ios.location"
+}

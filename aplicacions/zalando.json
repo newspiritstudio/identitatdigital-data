@@ -1,0 +1,604 @@
+{
+  "slug": "zalando",
+  "name": "Zalando",
+  "company": "zalando",
+  "categories": [
+    "comerc-electronic"
+  ],
+  "tagline": "Botiga de moda que declara rastreig amb compres, ubicació i navegació, i que admet entrenar IA amb dades de clients",
+  "summary": "Zalando declara a l’App Store set tipus de dades utilitzades per rastrejar, entre elles les compres, la ubicació i l’historial de navegació, i fa servir el perfil de compra per al seu negoci publicitari, Zalando Marketing Services. La política espanyola diu que pot fer servir les dades per entrenar sistemes d’aprenentatge automàtic i d’IA. En canvi, publica informes de transparència de la Llei de serveis digitals, fixa terminis concrets i permet eliminar el compte des del mateix compte.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Alemanya",
+  "links": {
+    "website": "https://www.zalando.es/",
+    "privacyPolicy": "https://www.zalando.es/zalando-proteccion-de-datos/",
+    "appStore": "https://apps.apple.com/es/app/id585629514"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "zalando-privacy-notice"
+    ],
+    "detail": "Cal un compte de client per comprar.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "zalando-privacy-notice"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Les talles, les marques, l’estil, les devolucions i els hàbits de compra de roba donen informació sobre el cos, el pressupost i el gènere de la roba que tria una persona. Zalando hi afegeix ubicació, navegació i avaluacions de solvència per decidir quins mètodes de pagament ofereix.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "zalando-app-store",
+        "zalando-privacy-notice"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "zalando-app-store",
+        "zalando-privacy-notice"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "zalando-app-store"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "zalando-privacy-notice"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "zalando-app-store",
+        "zalando-privacy-notice"
+      ],
+      "note": "Avaluació automatitzada del risc de frau i de solvència amb agències de crèdit per decidir els mètodes de pagament."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "recomanacions-algoritmiques",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "zalando-app-store",
+        "zalando-privacy-notice"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "personalitzacio-de-continguts",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "zalando-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "zalando-app-store"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "zalando-app-store",
+        "zalando-privacy-notice"
+      ]
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "zalando-privacy-notice"
+      ],
+      "note": "Dades d’interessos usades per Zalando Marketing Services; els anunciants reben informes agregats."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada",
+        "entrenament-de-models-dia"
+      ],
+      "sources": [
+        "zalando-app-store",
+        "zalando-privacy-notice"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "zalando-app-store"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "zalando-privacy-notice",
+        "zalando-app-store"
+      ],
+      "note": "Identificadors publicitaris d’Apple i Google."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "zalando-privacy-notice"
+      ]
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "entrenament-de-models-dia"
+      ],
+      "sources": [
+        "zalando-privacy-notice"
+      ],
+      "note": "Converses amb l’assistent de moda basat en IA, que fa servir proveïdors de fora de la UE."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "zalando-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "zalando-app-store"
+      ],
+      "detail": "L’etiqueta declara compres, ubicació, contacte, cerques, navegació, identificadors i ús utilitzats per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "zalando-privacy-notice"
+      ],
+      "detail": "Identificadors publicitaris de Google i d’Apple.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "zalando-privacy-notice"
+      ],
+      "detail": "Galetes i eines d’analítica i màrqueting de tercers, subjectes a consentiment.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "zalando-privacy-notice"
+      ],
+      "detail": "Publicitat personalitzada pròpia i de marques a través de Zalando Marketing Services, amb dades de perfil, interessos i compres.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "zalando-privacy-notice"
+      ],
+      "detail": "Recomanacions, segmentació publicitària i avaluació automatitzada del risc de frau i de solvència.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "zalando-privacy-policy-es"
+      ],
+      "detail": "La política diu que pot fer servir les dades per entrenar sistemes d’aprenentatge automàtic i d’IA.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "zalando-privacy-notice"
+      ],
+      "detail": "Transportistes, proveïdors de pagament, agències de crèdit, empreses de cobrament, proveïdors d’IA i socis del marketplace.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "zalando-privacy-notice"
+      ],
+      "detail": "Una trentena de societats del grup són responsables de diferents tractaments.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "zalando-privacy-notice"
+      ],
+      "detail": "Zalando diu que no ven dades personals i que els anunciants només reben informes anònims i agregats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "zalando-privacy-notice"
+      ],
+      "detail": "Proveïdors d’IA i serveis de fora de la UE; per a alguns esmenta les clàusules contractuals tipus, per a la resta la redacció és genèrica.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "zalando-transparency-hub"
+      ],
+      "detail": "Informes semestrals de la Llei de serveis digitals, amb avisos rebuts i ordres d’autoritats, a més d’auditories i informes de risc.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://corporate.zalando.com/en/investor-relations/corporate-governance/transparency-hub"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "zalando-privacy-notice"
+      ],
+      "detail": "El compte s’esborra a petició o després de cinc anys sense compres i tretze mesos sense cap altra activitat; les dades de comandes i pagaments queden bloquejades fins a deu anys.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "zalando-privacy-notice"
+      ],
+      "detail": "Les dades que no es poden esborrar per obligació legal queden bloquejades fins a deu anys.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "identificador-de-compte",
+        "period": "Fins a l’eliminació, o cinc anys sense compres i tretze mesos sense activitat",
+        "sources": [
+          "zalando-privacy-notice"
+        ]
+      },
+      {
+        "dataType": "historial-de-compres",
+        "period": "Bloquejat fins a deu anys per obligacions mercantils i fiscals",
+        "sources": [
+          "zalando-privacy-notice"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "zalando-privacy-notice"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "zalando-privacy-notice"
+      ],
+      "detail": "Des del compte, a l’apartat per sol·licitar o eliminar dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "easy",
+    "requiresSupportContact": false,
+    "steps": [
+      "Entra al compte de Zalando i obre l’apartat «Solicitar o eliminar datos».",
+      "Tria «Eliminar cuenta de cliente» i confirma-ho amb la contrasenya.",
+      "Com a alternativa, escriu a privacidad@zalando.es."
+    ],
+    "obstacles": "Si hi ha comandes recents, l’esborrat es pot endarrerir fins que venç el termini de devolució; l’autoritat de Berlín ho va considerar lícit.",
+    "dataRetained": "Dades de comandes i pagaments, bloquejades fins a deu anys.",
+    "sources": [
+      "zalando-privacy-notice",
+      "zalando-datatilsynet-2024"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "zalando-privacy-notice"
+      ],
+      "detail": "Sol·licitud de dades des del mateix compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "zalando-privacy-notice"
+      ],
+      "detail": "Des del compte o per correu al delegat de protecció de dades.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacidad@zalando.es"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "zalando-privacy-notice"
+      ],
+      "detail": "Configuració de galetes amb categories de màrqueting i un interruptor a l’aplicació per desactivar la personalització basada en el perfil.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "zalando-privacy-notice"
+      ],
+      "detail": "Les galetes analítiques es poden rebutjar; no consta un control per a tota la telemetria de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "zalando-privacy-notice"
+      ],
+      "detail": "Consentiments per categories i preferències de recomanació a l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi de patrons foscos de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no ofereix comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "zalando-privacy-notice"
+      ],
+      "detail": "La política descriu la transmissió xifrada de les dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública sobre el xifratge de les dades en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació oficial sobre verificació en dos passos per a clients."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Les auditories publicades són les de la Llei de serveis digitals, no de seguretat."
+    },
+    "bugBounty": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "zalando-vdp"
+      ],
+      "detail": "El programa d’Intigriti és de divulgació, sense recompenses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "zalando-vdp"
+      ],
+      "detail": "Programa de divulgació a Intigriti que inclou l’aplicació d’iOS.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://corporate.zalando.com/en/about-us/report-vulnerability"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "vinted",
+      "comparability": "partial",
+      "rationale": "La compravenda de roba de segona mà entre particulars no depèn d’un negoci publicitari basat en el perfil de compra.",
+      "tradeOffs": "No és una botiga i l’oferta depèn del que venen altres persones."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Bona part de la fitxa es basa en la versió europea completa de la política (setembre de 2025), perquè la versió espanyola d’agost de 2026 només s’ha pogut llegir parcialment. La designació com a plataforma molt gran de la Llei de serveis digitals, que Zalando ha recorregut, no és un incident de privadesa. Un anunci de venda de 21 milions de registres en un fòrum (agost de 2025) no està verificat i no l’hem registrat.",
+    "openQuestions": [
+      "Quines agències de crèdit consulta Zalando a Espanya?",
+      "Amb quin mecanisme es transfereixen dades als proveïdors d’IA de fora de la UE?"
+    ]
+  },
+  "appStoreBundleId": "de.zalando.iphone"
+}

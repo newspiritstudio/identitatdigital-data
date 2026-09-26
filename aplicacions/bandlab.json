@@ -1,0 +1,585 @@
+{
+  "slug": "bandlab",
+  "name": "BandLab",
+  "company": "bandlab-singapore",
+  "categories": [
+    "musica-i-audio",
+    "xarxes-socials"
+  ],
+  "tagline": "Un estudi de gravació al núvol on la baixa passa obligatòriament pel delegat de protecció de dades",
+  "summary": "BandLab combina un estudi multipista al navegador i al mòbil amb una xarxa social de músics. Tot el que graves puja als seus servidors: l’etiqueta de l’App Store confirma que el contingut de la persona usuària (fotos, vídeos i àudio) queda vinculat a la identitat. La política designa un delegat de protecció de dades amb nom i cognoms, però no ofereix cap camí d’autoservei per tancar el compte: cal escriure-li. Les dades es transfereixen a Singapur i als Estats Units i la política no cita cap mecanisme concret de transferència.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Singapur",
+  "userBase": "No n’hem verificat cap xifra oficial.",
+  "links": {
+    "website": "https://www.bandlab.com/",
+    "privacyPolicy": "https://bandlabtechnologies.com/policies/bandlab-privacy-policy/",
+    "appStore": "https://apps.apple.com/es/app/id968585775"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "bandlab-privacy-policy"
+    ],
+    "detail": "Cal registrar-se amb nom, correu i contrasenya o amb una identitat de xarxa social.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "editorial",
+    "sources": [],
+    "detail": "No hi ha cap repositori públic del servei.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Un projecte musical inacabat conté material personal: la veu, els assajos, lletres a mig fer. BandLab en guarda l’àudio vinculat a la identitat, i hi suma data de naixement, gènere, ubicació de perfil i la xarxa de col·laboracions entre músics aficionats.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bandlab-privacy-policy",
+        "bandlab-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "bandlab-privacy-policy",
+        "bandlab-app-store"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bandlab-app-store"
+      ]
+    },
+    {
+      "type": "contrasenya",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bandlab-privacy-policy"
+      ]
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "bandlab-privacy-policy"
+      ]
+    },
+    {
+      "type": "genere",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "bandlab-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "bandlab-privacy-policy"
+      ],
+      "note": "Camp de localització del perfil públic."
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bandlab-app-store",
+        "bandlab-privacy-policy"
+      ],
+      "note": "Les pistes gravades es guarden al núvol i, si el projecte és públic, es difonen."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bandlab-app-store"
+      ]
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "bandlab-privacy-policy"
+      ]
+    },
+    {
+      "type": "xarxa-de-contactes",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "bandlab-privacy-policy"
+      ],
+      "note": "Seguidors, col·laboracions i el servei Fan Reach."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "bandlab-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "bandlab-app-store",
+        "bandlab-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "bandlab-privacy-policy"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "bandlab-privacy-policy"
+      ],
+      "note": "La política cita Google Analytics."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "bandlab-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "bandlab-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bandlab-privacy-policy"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bandlab-app-store"
+      ],
+      "detail": "L’etiqueta declara els identificadors com a dades utilitzades per rastrejar en aplicacions i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bandlab-app-store",
+        "bandlab-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bandlab-privacy-policy"
+      ],
+      "detail": "La política cita eines d’analítica de tercers, entre elles Google Analytics, i anunciants.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bandlab-privacy-policy"
+      ],
+      "detail": "La publicitat figura entre les finalitats del tractament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bandlab-privacy-policy"
+      ],
+      "detail": "Personalització del contingut i recomanacions a partir de l’activitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "BandLab ofereix eines generatives, però la política no diu si el contingut pujat serveix per entrenar models. És el buit més rellevant de la fitxa."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bandlab-privacy-policy"
+      ],
+      "detail": "Proveïdors de serveis, anunciants, plataformes d’analítica i difusió pública del contingut.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bandlab-privacy-policy"
+      ],
+      "detail": "Compartició amb les entitats relacionades del grup BandLab Technologies.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta la venda de dades a intermediaris."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bandlab-privacy-policy"
+      ],
+      "detail": "Servidors a Singapur i als Estats Units; la política parla de garanties «d’acord amb la normativa aplicable» sense concretar-ne cap.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "bandlab-privacy-policy"
+      ],
+      "detail": "La política només diu que les dades es conserven mentre sigui «raonable» suposar que calen; no hi ha cap termini.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bandlab-privacy-policy"
+      ],
+      "detail": "Reconeix que el contingut eliminat pot romandre en pàgines a la memòria cau o arxivades.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bandlab-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "bandlab-privacy-policy"
+      ],
+      "detail": "La política remet a contactar amb el delegat de protecció de dades; no descriu cap botó d’eliminació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "hard",
+    "requiresSupportContact": true,
+    "steps": [
+      "Descarrega abans els projectes que vulguis conservar: en tancar el compte perds l’accés a l’estudi.",
+      "Escriu a privacy@bandlab.com des de l’adreça del compte i demana la supressió a l’empara de l’article 17 del RGPD.",
+      "Indica el nom d’usuari i confirma que vols eliminar també el contingut publicat.",
+      "Guarda la confirmació; el contingut ja republicat o desat en memòria cau pot continuar accessible."
+    ],
+    "obstacles": "En una plataforma amb milions de comptes gratuïts, cada baixa s’ha de demanar per correu com a exercici formal del dret de supressió.",
+    "dataRetained": "Contingut a la memòria cau o arxivat per tercers, segons reconeix la mateixa política.",
+    "sources": [
+      "bandlab-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bandlab-privacy-policy"
+      ],
+      "detail": "El dret de portabilitat es reconeix per a les persones de l’Espai Econòmic Europeu i del Regne Unit, però s’exerceix per correu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bandlab-privacy-policy"
+      ],
+      "detail": "Delegat de protecció de dades designat amb nom i adreça de contacte.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacy@bandlab.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap control per desactivar la publicitat personalitzada."
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap control d’analítica."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bandlab-privacy-policy"
+      ],
+      "detail": "Es pot triar si un projecte és públic o privat, però no hi ha controls per finalitat de tractament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "yes",
+      "level": "editorial",
+      "sources": [
+        "bandlab-privacy-policy"
+      ],
+      "detail": "L’absència de baixa autoservei en un servei de consum massiu és una barrera de sortida.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "hidden-exit",
+        "severity": "high",
+        "description": "Eliminar el compte exigeix escriure al delegat de protecció de dades; la política no descriu cap opció dins de l’aplicació ni del web.",
+        "sources": [
+          "bandlab-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "bandlab-privacy-policy"
+      ],
+      "detail": "L’edició col·laborativa al núvol requereix que el servei pugui llegir les pistes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació tècnica pública."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap segon factor d’autenticació."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap canal públic de comunicació de vulnerabilitats."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La política es publica al domini corporatiu del grup i no al del producte, cosa que dificulta trobar-la. La pregunta sobre l’entrenament de models amb l’àudio pujat queda oberta i és rellevant perquè el servei incorpora eines generatives.",
+    "openQuestions": [
+      "El contingut d’àudio pujat s’utilitza per entrenar les funcions generatives de BandLab?",
+      "Quin mecanisme empara les transferències a Singapur i als Estats Units?"
+    ]
+  },
+  "appStoreBundleId": "com.bandlab.bandlab.iphone"
+}

@@ -1,0 +1,483 @@
+{
+  "slug": "nextory",
+  "name": "Nextory",
+  "company": "nextory",
+  "categories": [
+    "llibres-i-lectura",
+    "musica-i-audio"
+  ],
+  "tagline": "Subscripció sueca d’audiollibres amb terminis escrits però amb una política espanyola que no s’ha actualitzat des del 2021",
+  "summary": "Nextory és una subscripció d’audiollibres i llibres electrònics amb versió espanyola pròpia. La política aplicable a Espanya és curta i llegible: té una taula de finalitats i bases jurídiques i xifres concretes de conservació (la subscripció més 36 mesos, 12 mesos per als registres incomplets i 6 anys per a les obligacions fiscals), però està datada el maig del 2021 i no diu res de transferències internacionals ni de mesures de seguretat. L’etiqueta de l’App Store no declara cap dada per rastrejar, però sí que declara el correu per a publicitat de tercers. La baixa és autoservei des de l’app, un cop cancel·lada la subscripció.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "subscription",
+  "jurisdiction": "Suècia i Espanya (UE)",
+  "links": {
+    "website": "https://nextory.com/es/",
+    "privacyPolicy": "https://nextory.com/es/privacy-policy",
+    "appStore": "https://apps.apple.com/es/app/id993578896"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "nextory-privacy-policy",
+      "nextory-cancel-subscription"
+    ],
+    "detail": "El servei és de subscripció i tot hi funciona amb un compte lligat a una adreça electrònica.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "nextory-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "L’historial de lectura i d’escolta d’anys de subscripció revela gustos, creences i a quines hores es llegeix o s’escolta. Nextory diu que el fa servir per recomanar i per millorar el servei a l’empara de l’interès legítim, i el conserva fins a 36 mesos després de donar-se de baixa.",
+  "dataCollection": [
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "nextory-app-store",
+        "nextory-privacy-policy"
+      ],
+      "note": "L’etiqueta la declara també sota «publicidad de terceros»."
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "nextory-app-store",
+        "nextory-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "nextory-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "nextory-app-store"
+      ],
+      "note": "L’etiqueta el declara sota «marketing del desarrollador»."
+    },
+    {
+      "type": "historial-de-visualitzacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "nextory-privacy-policy"
+      ],
+      "note": "Historial de lectura i d’escolta, base de les recomanacions personalitzades, a l’empara de l’interès legítim."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "nextory-privacy-policy"
+      ],
+      "note": "La política diu que no es guarda el número complet de la targeta."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "nextory-app-store",
+        "nextory-privacy-policy"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "nextory-privacy-policy"
+      ],
+      "note": "La política parla d’informació del dispositiu recollida amb galetes."
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "nextory-app-store"
+      ],
+      "note": "L’etiqueta declara «contenido del usuario» per a analítica i funcionament."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "nextory-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "nextory-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada utilitzada per rastrejar a través d’apps i llocs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’etiqueta no declara l’identificador publicitari i la política no l’esmenta."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "nextory-privacy-policy",
+        "nextory-app-store"
+      ],
+      "detail": "La política parla d’encarregats de màrqueting i telemàrqueting i de galetes, i l’etiqueta declara el correu per a publicitat de tercers, però no s’identifica cap proveïdor pel nom.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "nextory-privacy-policy",
+        "nextory-app-store"
+      ],
+      "detail": "La publicitat per correu, al web i a les xarxes socials es fa a l’empara de l’interès legítim, i l’etiqueta declara el correu per a publicitat de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "nextory-privacy-policy"
+      ],
+      "detail": "Recomanacions personalitzades a partir de l’historial de lectura i escolta, amb l’interès legítim com a base jurídica.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no en parla."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "nextory-privacy-policy"
+      ],
+      "detail": "Encarregats d’emmagatzematge, telemàrqueting i màrqueting, socis i llicenciataris de contingut, i autoritats quan la llei ho exigeix.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap estructura de grup ni cap cessió a filials."
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu si ven o cedeix dades a intermediaris."
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política espanyola no té cap apartat de transferències internacionals ni esmenta cap mecanisme de garantia."
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència de Nextory."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "nextory-privacy-policy"
+      ],
+      "detail": "Terminis numèrics: mentre la subscripció sigui activa i 36 mesos més, 12 mesos per als registres incomplets i 6 anys per a les obligacions fiscals.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "nextory-privacy-policy"
+      ],
+      "detail": "Les dades de facturació es queden pels 6 anys de l’obligació fiscal, i la resta pot romandre fins als 36 mesos posteriors a la subscripció.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "historial-de-visualitzacio",
+        "period": "Mentre duri la subscripció i 36 mesos més",
+        "sources": [
+          "nextory-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "dades-de-pagament",
+        "period": "6 anys per obligació fiscal",
+        "sources": [
+          "nextory-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "nextory-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "nextory-delete-account"
+      ],
+      "detail": "Hi ha un botó per eliminar el compte a l’app mòbil, dins els detalls del compte, un cop cancel·lada la subscripció.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://support.nextory.se/hc/es-es/articles/15527405871762",
+    "difficulty": "medium",
+    "requiresSupportContact": false,
+    "steps": [
+      "Entra a «Mis páginas» del web, ves a «Suscripciones y pagos» i cancel·la la subscripció; espera el correu de confirmació.",
+      "Obre l’app mòbil i ves als detalls del compte.",
+      "Baixa fins al final i prem el botó per eliminar el compte."
+    ],
+    "obstacles": "No es pot eliminar el compte sense cancel·lar abans la subscripció, i la cancel·lació s’ha de fer des del web (o a l’operadora, si es va contractar a través de Movistar).",
+    "dataRetained": "Les dades de facturació, pels 6 anys de l’obligació fiscal.",
+    "sources": [
+      "nextory-delete-account",
+      "nextory-cancel-subscription",
+      "nextory-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "nextory-privacy-policy"
+      ],
+      "detail": "La política reconeix la portabilitat entre els drets, però no descriu cap descàrrega automàtica.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "nextory-privacy-policy"
+      ],
+      "detail": "Per correu a ayuda@nextory.es, amb l’Agencia Española de Protección de Datos com a autoritat de reclamació.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:ayuda@nextory.es"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "nextory-privacy-policy"
+      ],
+      "detail": "La publicitat es basa en l’interès legítim, de manera que s’hi pot exercir el dret d’oposició, però la política no descriu cap interruptor dins l’app.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap panell de preferències de privadesa."
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut examinar el flux d’alta ni el de cancel·lació des de dins."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És un servei de catàleg per subscripció; no hi ha comunicacions privades que puguin anar xifrades d’extrem a extrem.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu les mesures tècniques de seguretat."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "vulnerabilityDisclosure": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "nextory-privacy-policy"
+      ],
+      "detail": "No hi ha security.txt a nextory.com (la petició redirigeix i acaba en un error 404) ni cap canal descrit a la política per comunicar vulnerabilitats.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "storytel",
+      "comparability": "equivalent",
+      "rationale": "És l’altre gran servei suec d’audiollibres per subscripció, amb una política molt més detallada i terminis de conservació més curts.",
+      "tradeOffs": "L’etiqueta de l’App Store de Storytel sí que declara dades per rastrejar, i el catàleg no és el mateix."
+    },
+    {
+      "app": "ebiblio",
+      "comparability": "partial",
+      "rationale": "Permet llegir llibres electrònics i escoltar audiollibres gratuïtament amb el carnet de la biblioteca pública.",
+      "tradeOffs": "El catàleg és molt més limitat i els préstecs tenen cua i durada màxima."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La política espanyola dona terminis numèrics, però té cinc anys i li falten apartats sencers: no hi ha transferències internacionals, ni mesures de seguretat, ni delegat de protecció de dades identificat com a tal. La barreja de domicilis també és confusa: hi consta el número de registre mercantil suec amb una adreça de Barcelona. L’etiqueta de l’App Store enllaça encara la versió sueca de la política. Cap domini de Nextory no consta a la llista de filtracions de Have I Been Pwned.",
+    "openQuestions": [
+      "On s’allotgen les dades i amb quin mecanisme es cobreixen les transferències fora de l’EEE?",
+      "Quins encarregats de màrqueting i de telemàrqueting fa servir Nextory?",
+      "Hi ha alguna versió posterior al 2021 de la política espanyola?"
+    ]
+  },
+  "appStoreBundleId": "com.nextory.nextoryapp"
+}

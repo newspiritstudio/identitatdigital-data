@@ -1,0 +1,612 @@
+{
+  "slug": "playstation-app",
+  "name": "PlayStation App",
+  "company": "sony-interactive-entertainment-europe",
+  "categories": [
+    "comunitats-i-forums",
+    "comerc-electronic"
+  ],
+  "tagline": "L’aplicació del compte de PlayStation, sense rastreig declarat però amb missatges, veu i pagaments lligats a la identitat",
+  "summary": "L’aplicació de PlayStation gestiona el compte de PlayStation Network des del mòbil: xat amb amics, missatges de veu, compres a la botiga i control remot de la consola. L’etiqueta de l’App Store no declara cap dada per rastrejar, però sí que vincula a la identitat els missatges, l’àudio, les fotos i les dades financeres. La baixa és autoservei des de la mateixa aplicació, amb trenta dies per fer-se enrere, i el compte admet claus d’accés. PlayStation Network va patir el 2011 una de les filtracions més grans de la història de la xarxa.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Regne Unit, per a les persones usuàries europees",
+  "userBase": "Complement de PlayStation Network, una de les xarxes de joc més grans del món; no n’hem verificat cap xifra oficial de comptes actius.",
+  "links": {
+    "website": "https://www.playstation.com/",
+    "privacyPolicy": "https://www.playstation.com/es-es/legal/privacy-policy/",
+    "appStore": "https://apps.apple.com/es/app/id410896080"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "playstation-privacy-policy"
+    ],
+    "detail": "L’aplicació és un complement del compte de PlayStation Network: sense compte no fa res.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "playstation-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "El compte de PlayStation Network acumula anys d’historial de joc, trofeus, compres i converses amb amics. Creuat amb les dades de facturació i amb els missatges de veu, descriu amb qui et relaciones, a quines hores, quant gastes i què t’agrada.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "playstation-app-store",
+        "playstation-privacy-policy"
+      ],
+      "note": "L’etiqueta el classifica com a dada no vinculada a la identitat, tot i que el compte en demana el nom real per a la facturació."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "playstation-app-store",
+        "playstation-privacy-policy"
+      ],
+      "note": "És l’identificador d’inici de sessió."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "playstation-app-store",
+        "playstation-2sv"
+      ],
+      "note": "Per rebre els codis del segon factor per SMS."
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "playstation-app-store",
+        "playstation-privacy-policy"
+      ]
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "compliment-legal"
+      ],
+      "sources": [
+        "playstation-privacy-policy"
+      ],
+      "note": "Determina el règim de comptes de menors i el control parental."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "playstation-app-store",
+        "playstation-privacy-policy"
+      ],
+      "note": "Es comparteix amb entitats financeres i proveïdors antifrau."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "recomanacions-algoritmiques",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "playstation-app-store",
+        "playstation-privacy-policy"
+      ],
+      "note": "Els editors de jocs en reben informació segons la política."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "playstation-app-store"
+      ],
+      "note": "L’etiqueta declara «correus electrònics o missatges de text» vinculats a la identitat."
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "playstation-app-store"
+      ],
+      "note": "Els missatges de veu i el xat de grup. La moderació de la veu a les partides és una funció documentada de la consola."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "playstation-app-store"
+      ],
+      "note": "Captures i clips compartits des de la consola."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "playstation-app-store"
+      ],
+      "note": "L’identificador en línia és públic per als altres jugadors."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "playstation-app-store",
+        "playstation-privacy-policy"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "playstation-app-store",
+        "playstation-privacy-policy"
+      ],
+      "note": "Inclou l’historial de joc i els trofeus, que la política esmenta expressament."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "playstation-privacy-policy"
+      ],
+      "note": "La política inclou dades d’ubicació entre les que recull; determinen la botiga i els continguts disponibles."
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "playstation-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "playstation-app-store"
+      ]
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "recomanacions-algoritmiques",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "playstation-privacy-policy"
+      ],
+      "note": "La política reconeix que combina informació per personalitzar recomanacions de compra i anuncis, també en plataformes de tercers."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "playstation-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada utilitzada per rastrejar-te. La política, en canvi, preveu anuncis personalitzats en plataformes de tercers a partir de dades pròpies.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’etiqueta no declara l’identificador publicitari i la política no concreta si l’aplicació el llegeix."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "playstation-privacy-policy"
+      ],
+      "detail": "La política esmenta socis publicitaris i promocionals i la gestió de galetes, però no publica la llista de proveïdors incrustats a l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "playstation-privacy-policy"
+      ],
+      "detail": "Es fa amb consentiment i es pot revocar des dels controls de «contingut i màrqueting personalitzats» del compte.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://www.playstation.com/es-es/legal/privacy-policy/"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "playstation-privacy-policy"
+      ],
+      "detail": "La política diu que combina la informació per personalitzar l’experiència, les recomanacions de compra i els anuncis.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu si les dades s’utilitzen per entrenar models d’intel·ligència artificial."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "playstation-privacy-policy"
+      ],
+      "detail": "Editors de jocs, entitats financeres, proveïdors antifrau, socis publicitaris, altres jugadors i autoritats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "playstation-privacy-policy"
+      ],
+      "detail": "Amb altres societats del grup Sony, segons la política quan cal per garantir la seguretat dels serveis.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "playstation-privacy-policy"
+      ],
+      "detail": "La política afirma que no accepta ni acceptarà diners a canvi de compartir adreces IP, però no descarta expressament altres cessions remunerades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "playstation-privacy-policy"
+      ],
+      "detail": "Transferències als Estats Units, el Regne Unit i el Japó amb clàusules contractuals tipus, i un avís explícit que els tribunals i els cossos de seguretat d’aquests països hi poden tenir accés.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència de PlayStation Network sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "playstation-privacy-policy"
+      ],
+      "detail": "La política diu que conserva les dades «el temps que sigui necessari» per a les finalitats descrites, sense terminis per categoria.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "playstation-privacy-policy",
+        "playstation-close-account"
+      ],
+      "detail": "Tancar el compte esborra permanentment el contingut associat, però la política preveu conservar informació per motius legals, comptables, de còpia de seguretat, antifrau i de comunitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "identificador-de-compte",
+        "period": "Suspensió reversible de 30 dies abans de l’esborrat definitiu",
+        "sources": [
+          "playstation-close-account"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "playstation-close-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "playstation-close-account"
+      ],
+      "detail": "Des de la mateixa aplicació de PlayStation, a Ajustos, amb l’opció «Tanca el teu compte».",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://www.playstation.com/es-es/support/account/close-account-for-psn/",
+    "difficulty": "easy",
+    "waitingPeriodDays": 30,
+    "requiresSupportContact": false,
+    "steps": [
+      "Gasta el saldo del moneder i cancel·la les subscripcions actives abans de començar: tancar el compte t’hi fa perdre l’accés.",
+      "Obre l’aplicació de PlayStation i inicia la sessió amb el compte que vols tancar.",
+      "Ves a Ajustos, a la part inferior, i tria «Tanca el teu compte».",
+      "Segueix les instruccions i confirma la sol·licitud.",
+      "El compte queda suspès 30 dies; si canvies d’opinió, has de demanar-ne la reactivació a atenció al client abans que s’acabi el termini."
+    ],
+    "obstacles": "Es perd l’accés a tots els jocs i continguts comprats i al saldo del moneder. Si ets l’administrador d’una família, tancar el teu compte tanca també els comptes dels menors associats.",
+    "dataRetained": "Informació necessària per a obligacions legals i comptables, còpies de seguretat, prevenció del frau i gestió de la comunitat.",
+    "sources": [
+      "playstation-close-account",
+      "playstation-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "playstation-privacy-policy"
+      ],
+      "detail": "El dret d’accés i de portabilitat s’exerceix pel formulari de sol·licituds de la persona interessada.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.playstation.com/data-subject-request"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "playstation-privacy-policy"
+      ],
+      "detail": "Formulari específic i delegat de protecció de dades amb adreça pròpia.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.playstation.com/data-subject-request"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "playstation-privacy-policy"
+      ],
+      "detail": "Hi ha interruptors separats per a «contingut i màrqueting personalitzats», comunicacions personalitzades i gestió de galetes als ajustos del compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "playstation-privacy-policy"
+      ],
+      "detail": "La configuració permet triar entre una recollida de dades limitada i una de completa, però no desactivar-la del tot.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "playstation-privacy-policy"
+      ],
+      "detail": "Els ajustos de privadesa cobreixen el contingut compartit, la visibilitat del perfil, les xarxes socials i el màrqueting per separat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem revisat el flux de consentiment de l’aplicació ni el de la consola."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "no",
+      "level": "editorial",
+      "sources": [
+        "playstation-privacy-policy"
+      ],
+      "detail": "Els missatges i la veu es moderen i es conserven segons la política, de manera que el servidor hi té accés.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política parla de mesures de seguretat en general i no detalla els protocols de transport."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública específica sobre el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "playstation-2sv"
+      ],
+      "detail": "Verificació en dos passos amb aplicació d’autenticació o SMS, i claus d’accés com a alternativa a la contrasenya. És opcional.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "totp",
+        "sms",
+        "passkey"
+      ]
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories de seguretat independents publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Sony manté un programa de recompenses de PlayStation a HackerOne, però no n’hem pogut llegir la pàgina per documentar-ne l’abast i les condicions."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut verificar el canal oficial de comunicació de vulnerabilitats."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "No hi ha cap categoria de videojocs a la taxonomia: classifiquem l’aplicació com a comunitat (el xat, els amics i els trofeus) i comerç electrònic (la botiga de PlayStation). L’etiqueta de l’App Store no declara cap dada per rastrejar, però la política preveu anuncis personalitzats en plataformes de tercers. El responsable és una societat britànica: després del Brexit, les dades de les persones usuàries espanyoles surten de la Unió a l’empara de la decisió d’adequació del Regne Unit, i la mateixa política remet les queixes al regulador local o a l’autoritat britànica.",
+    "openQuestions": [
+      "Quin abast té el programa de recompenses de PlayStation a HackerOne i cobreix l’aplicació mòbil?",
+      "Publica Sony Interactive Entertainment algun informe de peticions d’autoritats?",
+      "Quant de temps es conserven els missatges i els fragments de veu moderats?"
+    ]
+  },
+  "appStoreBundleId": "com.playstation.eu.playstationadhoc"
+}

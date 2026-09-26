@@ -1,0 +1,572 @@
+{
+  "slug": "vinted",
+  "name": "Vinted: tu app de segunda mano",
+  "company": "vinted",
+  "categories": [
+    "compravenda-entre-particulars",
+    "comerc-electronic"
+  ],
+  "tagline": "Mercat de roba de segona mà sancionat amb 2,4 milions d’euros a Lituània per no atendre supressions i accessos i per «bloquejos ombra»",
+  "summary": "Vinted combina un mercat entre particulars amb missatgeria interna, pagaments i enviaments, de manera que acumula converses, historial de compravenda i dades fiscals. L’etiqueta de l’App Store declara dades d’ús utilitzades per rastrejar i personalització de producte a partir de l’historial de compres, l’adreça postal i l’historial de cerca. El 2024 l’autoritat lituana la va multar amb 2.385.276 euros per la gestió dels drets de supressió i d’accés i pels «bloquejos ombra» de comptes.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Lituània",
+  "links": {
+    "website": "https://www.vinted.es/",
+    "privacyPolicy": "https://www.vinted.es/privacy",
+    "privacyCenter": "https://www.vinted.es/privacy",
+    "appStore": "https://apps.apple.com/es/app/id632064380",
+    "playStore": "https://play.google.com/store/apps/details?id=fr.vinted"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "vinted-platform-terms",
+      "vinted-delete-account"
+    ],
+    "detail": "Per comprar, vendre o parlar amb altres persones cal un compte registrat; la pàgina d’ajuda per eliminar-lo descriu el compte com a requisit del servei.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "vinted-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "L’armari d’una persona a Vinted, amb les converses privades, l’adreça d’enviament, l’historial de cerca i el de compres, revela la talla, els gustos, el poder adquisitiu, canvis vitals (un embaràs, criatures que creixen) i amb qui compra i ven. A partir d’un cert volum de vendes, la normativa DAC7 hi afegeix dades fiscals identificatives.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "vinted-app-store",
+        "vinted-play-data-safety"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "vinted-app-store",
+        "vinted-play-data-safety"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "vinted-app-store"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "vinted-app-store",
+        "vinted-play-data-safety"
+      ],
+      "note": "L’etiqueta de l’App Store la declara també per a la personalització del producte, no només per a l’enviament."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "vinted-play-data-safety"
+      ],
+      "note": "La fitxa de Google Play declara que la informació de pagament i l’historial de compres es comparteixen amb tercers."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "vinted-app-store",
+        "vinted-play-data-safety"
+      ]
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "vinted-play-data-safety"
+      ],
+      "note": "La fitxa de Google Play declara que els missatges dins de l’aplicació i els correus es recullen i es comparteixen."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "vinted-app-store",
+        "vinted-play-data-safety"
+      ],
+      "note": "Fotografies dels articles que es posen a la venda."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "vinted-app-store"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "vinted-play-data-safety"
+      ],
+      "note": "La fitxa de Google Play declara que la ubicació aproximada es comparteix per a publicitat i màrqueting."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "vinted-play-data-safety"
+      ],
+      "note": "Declarada com a opcional a la fitxa de Google Play."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "vinted-app-store",
+        "vinted-play-data-safety"
+      ],
+      "note": "Google Play declara que els identificadors de dispositiu es comparteixen per a publicitat i màrqueting."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "vinted-app-store",
+        "vinted-play-data-safety"
+      ],
+      "note": "És l’única categoria que l’etiqueta de l’App Store declara com a utilitzada per rastrejar."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "vinted-app-store"
+      ],
+      "note": "L’etiqueta declara dades de fallada, de rendiment i altres diagnòstics vinculades a la identitat."
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "unknown",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "sources": [],
+      "note": "No hem pogut llegir la política de privadesa, que és la que hauria de descriure les dades fiscals exigides per la DAC7 a qui ven per damunt dels llindars."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "vinted-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store declara les dades d’ús com a utilitzades per rastrejar-te entre aplicacions i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "vinted-play-data-safety",
+        "vinted-app-store"
+      ],
+      "detail": "La fitxa de Google Play declara que els identificadors de dispositiu o altres identificadors es comparteixen per a publicitat o màrqueting.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "vinted-app-store",
+        "vinted-privacy-centre"
+      ],
+      "detail": "L’etiqueta declara publicitat de tercers i analítica, i el centre de privadesa ofereix preferències de galetes i de personalització.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "vinted-app-store",
+        "vinted-play-data-safety"
+      ],
+      "detail": "L’etiqueta de l’App Store declara dades d’ús i dades publicitàries per a «publicitat de tercers», i Google Play declara compartició d’identificadors i d’ubicació aproximada per a publicitat i màrqueting.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "vinted-app-store",
+        "vinted-privacy-centre"
+      ],
+      "detail": "L’etiqueta declara historial de compres, adreça postal, telèfon, contingut i historial de cerca per a la «personalització de producte», i el centre de privadesa permet ajustar les opcions de personalització.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut llegir la política de privadesa i no hem trobat cap document oficial sobre l’ús de dades per entrenar models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "vinted-play-data-safety"
+      ],
+      "detail": "La fitxa de Google Play declara compartició de missatges dins de l’aplicació, identificadors de dispositiu, informació de pagament i historial de compres, interaccions, nom, correu, identificadors i ubicació aproximada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut llegir la política de privadesa, que és on constarien les comunicacions dins del grup Vinted."
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap document oficial que descrigui vendes de dades a intermediaris ni que les descarti."
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut llegir la política de privadesa i no hem trobat cap document oficial que detalli el mecanisme de transferència internacional."
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "vinted-delete-account"
+      ],
+      "detail": "L’única xifra que hem pogut verificar és que un compte eliminat es pot recuperar durant tres mesos; la política, que és on hi hauria els terminis per tipus de dada, no es deixa llegir.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "vinted-delete-account"
+      ],
+      "detail": "Després de demanar l’eliminació, el compte es desactiva immediatament però les dades es mantenen recuperables durant tres mesos.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "period": "Tres mesos de recuperació després de demanar l’eliminació del compte",
+        "sources": [
+          "vinted-delete-account"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "vinted-delete-account"
+      ],
+      "detail": "L’ajuda oficial descriu com eliminar el compte des de l’aplicació i des del web.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "vinted-delete-account"
+      ],
+      "detail": "L’opció és al mateix menú de configuració del compte, sense haver de contactar amb ningú.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "requiresSupportContact": false,
+    "steps": [
+      "Tanca les comandes pendents: no pots eliminar el compte si tens compres o vendes en curs.",
+      "Retira els diners del moneder de Vinted abans de començar.",
+      "Ves a «Perfil» → «Ajustes» → «Ajustes de cuenta».",
+      "Tria «Eliminar mi cuenta» i confirma-ho.",
+      "El compte es desactiva immediatament; si canvies d’opinió, el pots recuperar durant tres mesos."
+    ],
+    "obstacles": "Cal tancar totes les transaccions i buidar el moneder abans d’eliminar el compte, i els comptes bloquejats per Vinted no es poden eliminar.",
+    "dataRetained": "Les dades es mantenen recuperables durant tres mesos; no hem pogut verificar què es conserva després.",
+    "sources": [
+      "vinted-delete-account"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "vinted-privacy-centre"
+      ],
+      "detail": "El centre de privadesa permet demanar una còpia de les dades i descarregar-la en un fitxer ZIP.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "regulator",
+      "sources": [
+        "vinted-sdpi-decision",
+        "vinted-privacy-centre"
+      ],
+      "detail": "Hi ha un centre de privadesa per exercir drets, però la decisió de l’autoritat lituana del 2024 va concloure que Vinted no tractava correctament les peticions de supressió i d’accés.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "vinted-privacy-centre"
+      ],
+      "detail": "El centre de privadesa inclou preferències de personalització i de galetes, però l’abast exacte no es pot contrastar amb la política.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació oficial sobre com desactivar l’analítica d’ús."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "vinted-privacy-centre"
+      ],
+      "detail": "Configuració separada de notificacions, personalització i galetes al centre de privadesa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi independent dels formularis de consentiment actuals."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La missatgeria interna no consta com a xifrada d’extrem a extrem, però no hem trobat cap document oficial que ho digui explícitament."
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "vinted-play-data-safety"
+      ],
+      "detail": "La fitxa de Google Play declara que les dades es xifren en trànsit.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "vinted-privacy-centre"
+      ],
+      "detail": "El centre de privadesa diu que fa servir xifratge, tallafocs, controls d’accés i comprovacions periòdiques, sense concretar què es xifra en repòs.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació oficial sobre la verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat auditories ni certificacions de seguretat publicades."
+    },
+    "bugBounty": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "vinted-security-txt"
+      ],
+      "detail": "El fitxer security.txt només indica una adreça de contacte; no hi ha cap programa públic de recompenses i la pàgina de HackerOne no existeix.",
+      "verifiedAt": "2026-09-22"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "vinted-security-txt"
+      ],
+      "detail": "Vinted publica un security.txt amb l’adreça security@vinted.com per notificar vulnerabilitats.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "wallapop",
+      "comparability": "equivalent",
+      "rationale": "Mercat de compravenda entre particulars amb un catàleg molt més ample i una política de privadesa que sí que es pot llegir, amb els terminis de conservació detallats.",
+      "tradeOffs": "L’etiqueta de l’App Store de Wallapop declara més categories de dades utilitzades per rastrejar, entre elles la ubicació."
+    },
+    {
+      "app": "milanuncios",
+      "comparability": "partial",
+      "rationale": "Anuncis classificats entre particulars sense pagament ni enviament integrats, de manera que no cal donar-hi dades bancàries ni l’adreça postal.",
+      "tradeOffs": "No hi ha protecció del comprador ni gestió de l’enviament."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La política de privadesa de Vinted es renderitza amb JavaScript i no s’ha pogut llegir ni des del web ni des de l’arxiu ni per l’API pública, de manera que la fitxa es basa en l’etiqueta de l’App Store, la fitxa de Google Play, el centre de privadesa, l’ajuda d’eliminació del compte i la decisió de l’autoritat lituana. Els apartats de transferències internacionals, bases jurídiques i terminis queden com a desconeguts. La botiga d’Apple identifica el venedor com a Vinted Limited (Londres), mentre que les condicions de la plataforma indiquen Vinted UAB (Vílnius) com a responsable.",
+    "openQuestions": [
+      "Quina és la relació exacta entre Vinted UAB i Vinted Limited, i quina de les dues és responsable del tractament per a les persones usuàries espanyoles?",
+      "Quins terminis de conservació per tipus de dada fixa la política, i quines dades fiscals es guarden per la DAC7?",
+      "Va prosperar el recurs anunciat contra la sanció lituana del 2024?"
+    ]
+  },
+  "appStoreBundleId": "lt.manodrabuziai.fr"
+}

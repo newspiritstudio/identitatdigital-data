@@ -1,0 +1,517 @@
+{
+  "slug": "life360",
+  "name": "Life360",
+  "company": "life360",
+  "categories": [
+    "mapes-i-navegacio",
+    "utilitats"
+  ],
+  "tagline": "La política admet que cedeix la ubicació precisa a socis comercials perquè la monetitzin pel seu compte",
+  "summary": "Life360 comparteix en directe on són els membres d’una família i afegeix detecció d’accidents i informes de conducció. La mateixa política de privadesa reconeix que cedeix la geolocalització precisa i les dades de moviment a «socis comercials seleccionats» perquè les facin servir per a finalitats pròpies de monetització, i que ven estadístiques agregades a asseguradores, ajuntaments i cadenes de botigues. Tot plegat es pot desactivar, però ve activat de sèrie.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Estats Units, amb representant a la UE a Irlanda",
+  "userBase": "Més de 80 milions de persones usuàries declarades per l’empresa",
+  "links": {
+    "website": "https://www.life360.com/",
+    "privacyPolicy": "https://www.life360.com/privacy_policy/",
+    "appStore": "https://apps.apple.com/es/app/id384830320"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "life360-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "life360-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "On dorm cada membre de la família, a quina hora surt de casa, com condueix i a quines botigues entra. Una part d’aquestes dades es cedeix a tercers que les fan servir per al seu propi negoci.",
+  "dataCollection": [
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada",
+        "cessio-a-tercers"
+      ],
+      "sources": [
+        "life360-app-store",
+        "life360-privacy-policy"
+      ],
+      "note": "La política admet la cessió a socis comercials per a les seves pròpies finalitats de monetització, amb opció de desactivar-la."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "life360-app-store"
+      ]
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "life360-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "life360-app-store",
+        "life360-privacy-policy"
+      ],
+      "note": "Se’n comparteix una versió xifrada amb funció resum amb els socis publicitaris."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "life360-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "life360-app-store",
+        "life360-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "life360-app-store"
+      ],
+      "note": "L’etiqueta declara dades de forma física vinculades a la identitat i utilitzades per a publicitat de tercers."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "life360-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "life360-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "life360-app-store"
+      ]
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "life360-privacy-policy"
+      ],
+      "note": "El xat del Cercle i el contingut que s’hi comparteix."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "life360-privacy-policy"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "life360-app-store",
+        "life360-privacy-policy"
+      ],
+      "detail": "L’etiqueta declara identificadors per rastrejar i la política descriu publicitat dirigida fora del servei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "life360-privacy-policy"
+      ],
+      "detail": "Identificadors publicitaris i de dispositiu, més una versió del correu xifrada amb funció resum.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "life360-privacy-policy"
+      ],
+      "detail": "Proveïdors d’analítica i de publicitat integrats al servei.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "life360-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "life360-privacy-policy"
+      ],
+      "detail": "Informació derivada a partir de la ubicació i del comportament al volant.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política parla de recerca i desenvolupament, però no diu si les dades entrenen models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "life360-privacy-policy"
+      ],
+      "detail": "Proveïdors, socis publicitaris i «socis comercials seleccionats» que reben ubicació precisa per a les seves pròpies finalitats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "life360-privacy-policy"
+      ],
+      "detail": "Entre Life360 i Tile, que es presenten com a «Life360 Companies».",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "life360-privacy-policy"
+      ],
+      "detail": "La política admet la cessió d’ubicació precisa i de dades de moviment a tercers per a monetització pròpia i la comercialització d’estadístiques agregades a asseguradores, administracions locals i cadenes de botigues.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "life360-privacy-policy"
+      ],
+      "detail": "EU-US Data Privacy Framework i clàusules contractuals tipus.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "adequacy"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència publicat."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "life360-privacy-policy"
+      ],
+      "detail": "La secció de conservació és genèrica: «mentre facis servir els productes o serveis» i pel temps necessari per a cada finalitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no concreta què queda després de la baixa; la pàgina d’ajuda només diu que la supressió és irreversible."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "life360-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "life360-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://support.life360.com/hc/en-us/articles/23053748967319-Delete-My-Account",
+    "difficulty": "medium",
+    "requiresSupportContact": false,
+    "steps": [
+      "Cancel·la abans la subscripció: esborrar el compte o l’aplicació no la cancel·la.",
+      "A l’aplicació, obre «Settings» i després «Account».",
+      "Tria «Delete Account» i marca «Yes, I confirm the above».",
+      "Toca «Continue» i després «Send email» perquè t’enviïn l’enllaç de confirmació.",
+      "Obre el correu de Life360, segueix l’enllaç i resol el captcha per confirmar la baixa."
+    ],
+    "obstacles": "Cal tenir una adreça de correu al compte i confirmar per correu; cada membre del Cercle ha de fer la baixa pel seu compte. S’esborren l’historial i els esdeveniments de conducció, i no es pot desfer.",
+    "sources": [
+      "life360-delete-account"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política reconeix el dret a obtenir les dades en format estructurat, però no hem trobat cap eina d’autoservei d’exportació."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "life360-privacy-policy"
+      ],
+      "detail": "Per correu a privacy@life360.com o des de la secció de privadesa de l’aplicació.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacy@life360.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "life360-privacy-policy"
+      ],
+      "detail": "L’enllaç «Your Privacy Choices» dins de la secció de privadesa de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap control específic per a l’analítica interna."
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "life360-privacy-policy"
+      ],
+      "detail": "Controls separats per a socis publicitaris, «Trusted Partners», «Traffic & Retail Insights» i limitació de la ubicació compartida amb el Cercle.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [],
+      "detail": "La cessió d’ubicació precisa a socis comercials i les estadístiques agregades estan actives per defecte i només es desactiven des de menús secundaris de la secció de privadesa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "preselected",
+        "severity": "high",
+        "description": "La compartició d’ubicació precisa i de dades de moviment amb socis comercials per a les seves pròpies finalitats ve activada de sèrie i cal buscar «Your Privacy Choices» per desactivar-la.",
+        "sources": [
+          "life360-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política parla de xifratge en trànsit i en repòs, però no de xifratge d’extrem a extrem del xat ni de la ubicació."
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "life360-privacy-policy"
+      ],
+      "detail": "Mesures tècniques per protegir la confidencialitat durant la transmissió i l’emmagatzematge.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "life360-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació sobre verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "life360-security-txt"
+      ],
+      "detail": "Programa a HackerOne enllaçat des del security.txt, tot i que el fitxer té la data de caducitat vençuda des del 2022.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://hackerone.com/life360"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "life360-security-txt"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.life360.com/.well-known/security.txt"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "google-maps",
+      "comparability": "partial",
+      "rationale": "La compartició d’ubicació de Google Maps cobreix el cas d’ús bàsic de saber on és algú, sense cedir la ubicació precisa a socis comercials per a monetització.",
+      "tradeOffs": "No té detecció d’accidents, informes de conducció ni avisos d’arribada i sortida de llocs."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "El web de Life360 bloqueja les peticions automatitzades; la política s’ha llegit a través d’un servei de lectura de pàgines i s’ha contrastat amb el centre d’ajuda.",
+    "openQuestions": [
+      "Queda pendent documentar amb fonts les informacions periodístiques del 2021 sobre la venda de dades d’ubicació a intermediaris i el canvi de política posterior.",
+      "Hi ha manera d’esborrar o exportar l’historial d’ubicació i de conducció sense donar de baixa el compte?"
+    ]
+  },
+  "appStoreBundleId": "com.life360.safetymap"
+}

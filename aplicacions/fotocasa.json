@@ -1,0 +1,572 @@
+{
+  "slug": "fotocasa",
+  "name": "Fotocasa",
+  "company": "fotocasa-group",
+  "categories": [
+    "habitatge"
+  ],
+  "tagline": "Cerca d’habitatge amb ubicació precisa, xats revisats i identificadors compartits amb LiveRamp",
+  "summary": "Fotocasa declara a l’App Store que fa servir identificadors i dades d’ús per rastrejar entre aplicacions, i la política preveu compartir el correu en hash i l’identificador publicitari amb LiveRamp. Els missatges entre usuaris es revisen amb processos manuals i automàtics. La política no fixa cap termini de conservació concret. Des del 2025 és de l’alemanya Scout24, però la política encara preveu cedir dades a Adevinta Motor.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://www.fotocasa.es/",
+    "privacyPolicy": "https://www.fotocasa.es/es/politica-privacidad/p",
+    "appStore": "https://apps.apple.com/es/app/id332699841"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "fotocasa-privacy-policy"
+    ],
+    "detail": "Es pot cercar sense compte; cal per desar cerques, crear alertes, publicar o xatejar.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "editorial",
+    "sources": [],
+    "detail": "No hem trobat cap repositori públic del codi de l’aplicació; ho considerem programari privatiu.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Les cerques d’habitatge indiquen on vol viure una persona, amb quin pressupost i quan preveu canviar de casa. Amb la ubicació precisa i els contactes amb agències, donen informació sobre la seva situació econòmica i familiar.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "fotocasa-privacy-policy",
+        "fotocasa-app-store"
+      ],
+      "note": "Es comunica a l’anunciant quan el contactes."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "fotocasa-privacy-policy",
+        "fotocasa-app-store"
+      ],
+      "note": "Es comparteix en format hash amb LiveRamp si s’hi dona consentiment."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "fotocasa-privacy-policy",
+        "fotocasa-app-store"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "fotocasa-privacy-policy"
+      ],
+      "note": "L’adreça dels immobles que es publiquen."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts",
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "fotocasa-privacy-policy",
+        "fotocasa-app-store"
+      ],
+      "note": "Amb consentiment i només amb l’aplicació en primer pla, segons la política."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "fotocasa-app-store",
+        "fotocasa-privacy-policy"
+      ],
+      "note": "Fotos dels anuncis i foto de perfil."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "fotocasa-privacy-policy"
+      ],
+      "note": "Els missatges es revisen amb processos manuals i automàtics."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "fotocasa-privacy-policy"
+      ],
+      "note": "Informació bancària o de facturació quan es contracten productes de visibilitat."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts",
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "fotocasa-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "fotocasa-app-store"
+      ]
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "fotocasa-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "fotocasa-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "fotocasa-app-store"
+      ],
+      "note": "L’etiqueta el declara vinculat a la identitat per a publicitat de tercers."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "brokers",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "fotocasa-privacy-policy"
+      ],
+      "note": "Compartit amb LiveRamp."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "fotocasa-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fotocasa-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store declara identificadors i dades d’ús «utilitzats per rastrejar-te» en aplicacions i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fotocasa-app-store",
+        "fotocasa-privacy-policy"
+      ],
+      "detail": "L’identificador del dispositiu es declara per a publicitat de tercers i l’identificador publicitari es comparteix amb LiveRamp.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fotocasa-privacy-policy"
+      ],
+      "detail": "LiveRamp i proveïdors de serveis publicitaris.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fotocasa-privacy-policy"
+      ],
+      "detail": "Amb consentiment, el perfil comercial serveix per mostrar publicitat a Fotocasa, a altres webs del grup i a webs de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fotocasa-privacy-policy"
+      ],
+      "detail": "Perfil comercial amb dades de navegació i hàbits d’accés. La política diu que no hi ha decisions automatitzades amb efectes jurídics.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política esmenta un xatbot, però no diu si s’entrenen models amb les dades."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fotocasa-privacy-policy"
+      ],
+      "detail": "Anunciants, agències i experts immobiliaris (amb consentiment), portals de tercers, proveïdors i autoritats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fotocasa-privacy-policy"
+      ],
+      "detail": "Accés d’empreses del grup per a suport i comunicació de dades a Adevinta Motor, titular de Milanuncios.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "fotocasa-privacy-policy"
+      ],
+      "detail": "La política preveu compartir el correu en format hash, l’identificador publicitari del mòbil i l’adreça IP amb LiveRamp, com a corresponsable, per crear un identificador que es pot compartir amb anunciants de tot el món. No parla de venda de dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fotocasa-privacy-policy"
+      ],
+      "detail": "Proveïdors de fora de l’Espai Econòmic Europeu amb clàusules contractuals tipus.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política preveu informes de transparència sobre moderació, però no n’hem trobat cap sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "fotocasa-privacy-policy"
+      ],
+      "detail": "La política no concreta cap termini: les dades es guarden mentre duri la relació o fins que es retiri el consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "fotocasa-privacy-policy"
+      ],
+      "detail": "Les dades queden bloquejades durant els terminis de prescripció de cada finalitat, a disposició només de jutges, tribunals i autoritats, abans de l’esborrat definitiu.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fotocasa-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fotocasa-delete-account"
+      ],
+      "detail": "La baixa se sol·licita des de «Mi perfil», sense passar per atenció al client.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://ayuda.fotocasa.es/hc/es/articles/31569923744285-Dar-de-baja-mi-cuenta",
+    "difficulty": "easy",
+    "requiresSupportContact": false,
+    "steps": [
+      "Inicia la sessió amb el correu i la contrasenya.",
+      "A «Mi perfil», tria «Darme de baja de Fotocasa».",
+      "Marca la casella que confirma que perdràs els anuncis, les alertes i els favorits.",
+      "Toca «Solicitar la baja del servicio»."
+    ],
+    "dataRetained": "Les dades queden bloquejades durant els terminis de prescripció de cada finalitat, a disposició només de jutges, tribunals i autoritats, abans de l’esborrat definitiu.",
+    "sources": [
+      "fotocasa-delete-account",
+      "fotocasa-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "fotocasa-privacy-policy"
+      ],
+      "detail": "La portabilitat es reconeix, però no hem trobat cap eina d’exportació documentada.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacidad@fotocasa.es"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fotocasa-privacy-policy"
+      ],
+      "detail": "Delegat de protecció de dades a privacidad@fotocasa.es, accés des del perfil o correu postal.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacidad@fotocasa.es",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fotocasa-privacy-policy"
+      ],
+      "detail": "El perfil comercial i LiveRamp depenen del consentiment, que es pot retirar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "fotocasa-privacy-policy"
+      ],
+      "detail": "Les estadístiques d’ús es basen en l’interès legítim o en el consentiment, segons la política de galetes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "fotocasa-privacy-policy"
+      ],
+      "detail": "La política separa per consentiment la ubicació, el perfil comercial i les comunicacions de tercers. No hem verificat els controls dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem analitzat el bàner de consentiment ni el flux de registre."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "fotocasa-privacy-policy"
+      ],
+      "detail": "Els missatges es revisen manualment i automàticament.",
+      "verifiedAt": "2026-09-22",
+      "scope": "none"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "editorial",
+      "sources": [],
+      "detail": "Comprovació pròpia del web: redirigeix a HTTPS i envia la capçalera HSTS. No hem analitzat el trànsit de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha informació pública sobre el xifratge de les dades en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap opció de verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories ni certificacions publicades."
+    },
+    "bugBounty": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "fotocasa-security-txt",
+        "adevinta-vulnerability-disclosure"
+      ],
+      "detail": "Canal de divulgació responsable a HackerOne, sense recompenses anunciades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fotocasa-security-txt"
+      ],
+      "detail": "Fitxer security.txt i pàgina pròpia per informar de vulnerabilitats.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.fotocasa.es/.well-known/security.txt"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "idealista",
+      "comparability": "equivalent",
+      "rationale": "L’altre gran portal immobiliari, amb la mateixa funció de cerca i contacte amb anunciants."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La política és del gener del 2025, anterior a la compra per Scout24, i encara preveu comunicar dades a Adevinta Motor, que ara és d’un altre grup. La pàgina de divulgació responsable encara parla d’«Adevinta Real Estate». Cap expedient de l’AEPD té Fotocasa com a part sancionada.",
+    "openQuestions": [
+      "Scout24 actualitzarà la política i deixarà de cedir dades a Adevinta Motor?",
+      "Quant de temps conserva Fotocasa les cerques i els contactes amb anunciants?"
+    ]
+  },
+  "appStoreBundleId": "com.fotocasa.app"
+}

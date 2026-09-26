@@ -1,0 +1,599 @@
+{
+  "slug": "mi-movistar",
+  "name": "Mi Movistar",
+  "company": "telefonica-espana",
+  "categories": [
+    "telecomunicacions",
+    "utilitats"
+  ],
+  "tagline": "L’aplicació d’autogestió de l’operadora, amb patró biomètric opcional i dues sancions de l’AEPD per identificacions defectuoses",
+  "summary": "Mi Movistar és l’aplicació d’autogestió de l’operadora: factures, consum, contractació i suport. El tractament el fan com a corresponsables Telefónica de España i Telefónica Móviles España, amb terminis de conservació llargs i comunicació a fitxers de solvència en cas d’impagament. La política ofereix verificació avançada amb patró biomètric, sempre amb consentiment, i l’AEPD ha multat Telefónica Móviles España dues vegades per lliurar duplicats de SIM i canvis de titularitat sense comprovar bé qui ho demanava.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "subscription",
+  "jurisdiction": "Espanya",
+  "userBase": "Aplicació d’autogestió de la principal operadora espanyola, amb desenes de milions de línies",
+  "links": {
+    "website": "https://www.movistar.es/atencion-cliente/app-mi-movistar",
+    "privacyPolicy": "https://www.movistar.es/atencion-cliente/centro-de-privacidad/politica-de-privacidad-clientes",
+    "privacyCenter": "https://www.movistar.es/particulares/centro-de-privacidad",
+    "appStore": "https://apps.apple.com/es/app/id1246644017"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "movistar-privacy-policy"
+    ],
+    "detail": "Només hi poden entrar els clients identificats de Movistar.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "mi-movistar-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "L’operadora sap amb qui parles, quan i des d’on, perquè ho necessita per prestar el servei i la llei l’obliga a conservar-ho. L’aplicació hi afegeix dades comercials: consum, facturació, productes de la llar i, si s’hi consent, un patró biomètric per autenticar-te.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "mi-movistar-app-store"
+      ],
+      "note": "L’etiqueta el declara també per a publicitat i màrqueting del desenvolupador."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "mi-movistar-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "mi-movistar-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "mi-movistar-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "movistar-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "movistar-privacy-policy"
+      ],
+      "note": "Històric de productes, serveis i equipament contractat."
+    },
+    {
+      "type": "metadades-de-comunicacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "movistar-privacy-policy"
+      ],
+      "note": "Nombre de trucades, minuts i volum de dades; la Llei 25/2007 n’imposa la conservació per a requeriments judicials."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "mi-movistar-app-store"
+      ],
+      "note": "L’etiqueta la declara com a no vinculada a la identitat, per a analítica i funcionament de l’aplicació."
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "mi-movistar-app-store"
+      ]
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "mi-movistar-app-store"
+      ]
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "mi-movistar-app-store"
+      ]
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "movistar-privacy-policy"
+      ],
+      "note": "La verificació avançada genera un patró biomètric a partir de la foto del DNI i d’un selfie o de la veu, i només s’utilitza amb consentiment exprés."
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "compliment-legal"
+      ],
+      "sources": [
+        "movistar-privacy-policy"
+      ]
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "movistar-privacy-policy"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "mi-movistar-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "mi-movistar-app-store"
+      ]
+    },
+    {
+      "type": "nivell-d-ingressos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "compliment-legal"
+      ],
+      "sources": [
+        "movistar-privacy-policy"
+      ],
+      "note": "La comprovació de solvència pot comportar l’exigència d’una garantia de pagament i la consulta o comunicació a ASNEF i BADEXCUG."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mi-movistar-app-store"
+      ],
+      "detail": "Identificador d’usuari i de dispositiu declarats com a dades utilitzades per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mi-movistar-app-store"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "movistar-privacy-additional"
+      ],
+      "detail": "L’annex descriu el servei publicitari Utiq i la col·laboració amb socis d’Open Gateway.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "movistar-privacy-policy"
+      ],
+      "detail": "Recomanacions de Movistar i de socis per qualsevol mitjà, basades en els perfils comercials.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "movistar-privacy-policy"
+      ],
+      "detail": "Quatre nivells de perfil, del bàsic per interès legítim als perfils avançat i de la llar que requereixen consentiment i incorporen dades de trànsit, navegació i localització.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no parla d’entrenament de models amb dades de clients."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "movistar-privacy-policy",
+        "movistar-privacy-additional"
+      ],
+      "detail": "Proveïdors per categories, empreses de recobrament i, en cas d’impagament, els sistemes d’informació creditícia ASNEF (Equifax) i BADEXCUG (Experian).",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "movistar-privacy-policy"
+      ],
+      "detail": "Cessió de dades identificatives i del perfil bàsic a les empreses del grup Telefónica que presten serveis Movistar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "movistar-privacy-policy"
+      ],
+      "detail": "No es preveu la venda de dades; les comunicacions a tercers van lligades a bases jurídiques concretes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "movistar-privacy-additional"
+      ],
+      "detail": "Atenció telefònica des de Colòmbia i el Pakistan i serveis des de l’Índia amb clàusules tipus; facturació des d’Israel a l’empara de la decisió d’adequació.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem localitzat cap informe públic de Telefónica sobre peticions d’autoritats accessible en el moment de la revisió."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "movistar-privacy-policy"
+      ],
+      "detail": "Deu anys per a les dades del client i de facturació i dotze mesos per a les dades d’ús i les calculades, amb l’excepció de les obligacions de la Llei 25/2007.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "movistar-privacy-policy"
+      ],
+      "detail": "Després de la baixa es conserven les dades identificatives i de facturació fins a deu anys, i es poden tractar dades del perfil bàsic durant dos anys per fer ofertes a exclients.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "period": "Fins a 10 anys després de la baixa per a dades del client i de facturació",
+        "sources": [
+          "movistar-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "metadades-de-comunicacio",
+        "period": "12 mesos, amb les obligacions de conservació de la Llei 25/2007",
+        "sources": [
+          "movistar-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "movistar-privacy-policy"
+      ],
+      "detail": "Es pot demanar la supressió, però les obligacions legals de conservació la limiten durant anys.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "movistar-privacy-policy"
+      ],
+      "detail": "No hi ha eliminació del compte dins de l’aplicació: cal donar de baixa el contracte i exercir el dret de supressió.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "hard",
+    "requiresSupportContact": true,
+    "steps": [
+      "Dona de baixa els serveis contractats o porta el número a una altra operadora.",
+      "Escriu a TE_datos@telefonica.com identificant-te i indicant els números afectats per exercir la supressió.",
+      "Per aturar només les ofertes comercials, oposa-t’hi des del centre de privadesa o trucant gratuïtament al 224407.",
+      "Si la resposta no et satisfà, contacta amb DPO_movistar@telefonica.com o reclama a l’AEPD."
+    ],
+    "obstacles": "Els terminis legals de conservació de facturació i de dades de trànsit fan que la supressió sigui parcial, i durant dos anys Movistar pot seguir tractant el perfil bàsic per fer ofertes a exclients tret que t’hi oposis.",
+    "dataRetained": "Dades identificatives i de facturació fins a deu anys; dades de trànsit segons la Llei 25/2007.",
+    "sources": [
+      "movistar-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "movistar-privacy-policy"
+      ],
+      "detail": "Dret de portabilitat reconegut, amb lliurament en format estructurat i d’ús comú si es facilita una adreça electrònica vàlida.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "movistar-privacy-policy"
+      ],
+      "detail": "Correu electrònic, correu postal, àrea privada o la mateixa aplicació Mi Movistar; resposta en un mes, ampliable a tres, i mediació d’Autocontrol abans d’anar a l’AEPD.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:TE_datos@telefonica.com",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "movistar-privacy-policy"
+      ],
+      "detail": "Oposició al perfil bàsic i retirada dels consentiments des del centre de privadesa o per telèfon al 224407.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.movistar.es/particulares/centro-de-privacidad"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "movistar-privacy-policy"
+      ],
+      "detail": "Les galetes es poden rebutjar, però les dades de consum i facturació són inherents al servei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "movistar-privacy-policy"
+      ],
+      "detail": "Consentiments separats per nivell de perfil, per destinatari i per a la biometria.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [
+        "movistar-privacy-policy"
+      ],
+      "detail": "Interpretació pròpia: el perfil comercial bàsic i les recomanacions es basen en l’interès legítim i estan actius per defecte; cal buscar el centre de privadesa per aturar-los.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació és de gestió del contracte, no de missatgeria.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "editorial",
+      "sources": [],
+      "detail": "Interpretació pròpia a partir de la navegació: l’àrea de client només respon per HTTPS.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política parla de mesures rigoroses sense concretar el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "movistar-privacy-policy"
+      ],
+      "detail": "La verificació avançada amb patró biomètric s’ofereix com a reforç de la identitat digital, amb consentiment, però no consta una verificació en dos passos general del compte.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "sms"
+      ]
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories de seguretat publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha fitxer security.txt a movistar.es ni a telefonica.com i no hem trobat cap programa públic."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem localitzat cap política pública de divulgació de vulnerabilitats accessible."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Les dues sancions de l’AEPD que recull la fitxa són per errors d’identificació: un duplicat de SIM i un canvi de titularitat concedits a qui no era el titular, amb frau bancari al darrere. Són rellevants perquè l’aplicació ofereix verificació avançada de la identitat digital.",
+    "openQuestions": [
+      "Hi ha verificació en dos passos general per entrar a Mi Movistar, més enllà de la verificació avançada biomètrica?",
+      "Telefónica té un canal públic per comunicar vulnerabilitats?"
+    ]
+  },
+  "appStoreBundleId": "com.movistar.mimovistarios"
+}

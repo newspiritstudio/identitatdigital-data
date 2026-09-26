@@ -1,0 +1,451 @@
+{
+  "slug": "novelo",
+  "name": "NovelO",
+  "company": "kynix-group",
+  "categories": [
+    "llibres-i-lectura"
+  ],
+  "tagline": "Novel·la per capítols des de Hong Kong, amb una subscripció de 22,99 € a la setmana i una política de nou paràgrafs",
+  "summary": "NovelO és una aplicació de novel·la romàntica per capítols publicada per una societat de Hong Kong. La política és curta però detalla què es recull: nom d’usuari i contrasenya, estat VIP, llibres i progrés de lectura, transaccions d’Apple, model del dispositiu, adreça IP i identificadors publicitaris, amb Adjust per mesurar campanyes. L’etiqueta de l’App Store, en canvi, no declara cap dada vinculada a la identitat, tot i que la política descriu un compte. La baixa és autoservei des del menú de l’app, però la política avisa que no cancel·la la subscripció d’Apple, que és de 22,99 € setmanals o 99,90 € anuals.",
+  "platforms": [
+    "ios"
+  ],
+  "businessModel": "subscription",
+  "jurisdiction": "Hong Kong (fora de la UE)",
+  "links": {
+    "website": "https://novelooo.com/",
+    "privacyPolicy": "https://novelooo.com/privacy.html",
+    "terms": "https://novelooo.com/service.html",
+    "appStore": "https://apps.apple.com/es/app/id6801094167"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "novelo-privacy-policy"
+    ],
+    "detail": "La política descriu un compte amb nom d’usuari i contrasenya i la sincronització entre dispositius.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "novelo-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "La combinació de progrés de lectura, estat VIP i identificadors publicitaris permet saber quines històries enganxen una persona i fins on llegeix abans de pagar. La política admet que aquestes dades es poden transferir i emmagatzemar en servidors fora del país de residència, i no invoca cap mecanisme del RGPD.",
+  "dataCollection": [
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "novelo-privacy-policy",
+        "novelo-app-store"
+      ],
+      "note": "La política parla d’un nom d’usuari; l’etiqueta no declara cap dada vinculada a la identitat."
+    },
+    {
+      "type": "contrasenya",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "novelo-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-visualitzacio",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "novelo-privacy-policy"
+      ],
+      "note": "Llibres i progrés de lectura, sincronitzats entre dispositius."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "novelo-privacy-policy"
+      ],
+      "note": "Informació de transaccions d’Apple i estat VIP."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "novelo-privacy-policy"
+      ],
+      "note": "Adjust els fa servir per mesurar instal·lacions i el rendiment de les campanyes; la política esmenta l’avís d’App Tracking Transparency."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-publicitaria",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "novelo-app-store",
+        "novelo-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "novelo-privacy-policy"
+      ]
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "novelo-privacy-policy"
+      ],
+      "note": "Model i sistema operatiu."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "novelo-app-store",
+        "novelo-privacy-policy"
+      ],
+      "note": "Pàgines visitades, esdeveniments d’interacció i rendiment. L’etiqueta declara les dades d’ús com a dades per rastrejar."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "novelo-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "novelo-app-store",
+        "novelo-privacy-policy"
+      ],
+      "detail": "L’etiqueta declara les dades d’ús com a dades utilitzades per rastrejar, i la política reconeix que es demana el permís d’App Tracking Transparency quan Apple ho exigeix.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "novelo-privacy-policy"
+      ],
+      "detail": "La política enumera els identificadors publicitaris entre les dades del dispositiu que recull i les vincula a la mesura de campanyes amb Adjust.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "novelo-privacy-policy"
+      ],
+      "detail": "Adjust per a l’atribució de campanyes, més proveïdors d’allotjament, emmagatzematge i seguretat no identificats pel nom.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "novelo-privacy-policy"
+      ],
+      "detail": "La política només descriu la mesura de campanyes amb Adjust, no la personalització d’anuncis dins l’app; tanmateix, l’etiqueta declara «datos de publicidad».",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap perfilat, tot i que la fitxa de l’App Store parla d’una biblioteca personalitzada."
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no en parla."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "novelo-privacy-policy"
+      ],
+      "detail": "Apple per als pagaments i les compres integrades, Adjust per a l’atribució i proveïdors d’allotjament, emmagatzematge i seguretat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap estructura de grup."
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu si ven o cedeix dades a intermediaris."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "novelo-privacy-policy"
+      ],
+      "detail": "Diu que les dades es poden transferir, tractar i emmagatzemar en servidors fora del país de residència, sense invocar cap mecanisme de garantia del RGPD ni identificar els països.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "novelo-privacy-policy"
+      ],
+      "detail": "Diu que les dades es conserven mentre el compte sigui actiu i que després la conservació queda «limitada per registres, frau i obligacions legals», sense cap xifra.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "novelo-privacy-policy"
+      ],
+      "detail": "Reconeix que després d’eliminar el compte es conserven dades per a registres, prevenció del frau i obligacions legals.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "novelo-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "novelo-privacy-policy"
+      ],
+      "detail": "Hi ha un camí dins l’app: «Mine» > «About Us» > «Delete Account».",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "requiresSupportContact": false,
+    "steps": [
+      "Cancel·la abans la subscripció des dels Ajustos de l’iPhone: eliminar el compte no l’atura i es continuaria cobrant.",
+      "A l’app, ves a «Mine» > «About Us» > «Delete Account».",
+      "Confirma-ho: la política diu que l’esborrat és permanent."
+    ],
+    "obstacles": "La subscripció costa 22,99 € a la setmana i no es cancel·la amb la baixa del compte; la política avisa que cal fer-ho a Apple per separat.",
+    "dataRetained": "Les dades que l’empresa consideri necessàries per a registres, prevenció del frau i obligacions legals.",
+    "sources": [
+      "novelo-privacy-policy",
+      "novelo-app-store"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta cap descàrrega ni la portabilitat."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "novelo-privacy-policy"
+      ],
+      "detail": "L’únic canal és el correu o@novelooo.com, i els drets es reconeixen «segons la jurisdicció», sense identificar cap autoritat de control ni cap termini.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:o@novelooo.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "novelo-privacy-policy"
+      ],
+      "detail": "L’únic control documentat és l’avís d’App Tracking Transparency d’Apple, que la política diu que es mostra quan Apple ho exigeix.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap interruptor descrit per desactivar l’analítica."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap panell de preferències."
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut examinar el flux de subscripció des de dins, tot i que el preu setmanal i la conversió a monedes són els habituals d’aquest gènere d’aplicacions."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És un catàleg de lectura; no hi ha comunicacions privades entre persones que puguin anar xifrades d’extrem a extrem.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu les mesures tècniques de seguretat."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap canal per comunicar vulnerabilitats."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "wattpad",
+      "comparability": "partial",
+      "rationale": "Cobreix la mateixa necessitat de llegir novel·la per capítols, amb lectura gratuïta i una empresa amb representació a la Unió Europea.",
+      "tradeOffs": "També es finança amb publicitat i el catàleg és diferent."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "L’app és nova (la fitxa de l’App Store es va publicar el 2026) i la política, datada l’agost del 2026, és breu però clara sobre què es recull. En canvi, no indica la base jurídica, els terminis, el mecanisme de transferència ni l’autoritat de control, i no hi consta cap representant a la Unió Europea per a una empresa de Hong Kong que s’adreça al mercat espanyol. L’etiqueta contradiu la política: la política descriu un compte i l’etiqueta no declara cap dada vinculada a la identitat. Cap domini del servei no consta a la llista de filtracions de Have I Been Pwned.",
+    "openQuestions": [
+      "Quin és el preu real per capítol i com es converteixen les monedes?",
+      "Per què l’etiqueta de l’App Store no declara cap dada vinculada a la identitat si la política descriu un compte?",
+      "Qui és el representant de Kynix Group Limited a la Unió Europea, si n’hi ha cap?"
+    ]
+  },
+  "appStoreBundleId": "com.kynixgroup.novelo"
+}

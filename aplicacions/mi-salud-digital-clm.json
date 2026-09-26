@@ -1,0 +1,469 @@
+{
+  "slug": "mi-salud-digital-clm",
+  "name": "Mi Salud Digital CLM",
+  "company": "sescam",
+  "categories": [
+    "salut-i-assistencia-sanitaria",
+    "administracio-publica"
+  ],
+  "tagline": "Ensenya la carpeta de salut i la medicació, però declara a l’App Store que no recull cap dada",
+  "summary": "L’aplicació del Servei de Salut de Castella-la Manxa serveix per demanar, canviar o anul·lar cites, consultar la llista d’espera, buscar farmàcies de guàrdia i veure la carpeta de salut amb al·lèrgies, vacunes i medicació. Per a segons quins tràmits n’hi ha prou amb el codi d’identificació personal imprès a la targeta sanitària; per a d’altres cal DNI electrònic, certificat o Cl@ve. L’etiqueta de privadesa de l’App Store afirma que no es recull cap dada, tot i que l’aplicació mostra la història clínica. La política de privadesa és la general del SESCAM, sense cap apartat propi per a l’app.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "public-service",
+  "jurisdiction": "Espanya (UE); servei públic de la comunitat autònoma de Castella-la Manxa",
+  "links": {
+    "website": "https://sanidad.castillalamancha.es/",
+    "privacyPolicy": "https://sanidad.castillalamancha.es/content/politica-de-privacidad",
+    "appStore": "https://apps.apple.com/es/app/id824742584"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "mi-salud-digital-clm-app-store"
+    ],
+    "detail": "Buscar farmàcies no demana identificació; les cites i la carpeta de salut sí, amb el codi d’identificació personal de la targeta sanitària, el DNI electrònic, el certificat digital, Cl@ve o un usuari propi de Mi Salud Digital.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "mi-salud-digital-clm-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "publicService": {
+    "isPublicService": true,
+    "administrationLevel": "regional",
+    "legalBasis": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "mi-salud-digital-clm-privacy-policy"
+      ],
+      "detail": "La política invoca el compliment d’una obligació legal, la missió d’interès públic i l’exercici de poders públics, i concreta que les dades sanitàries es tracten pels fins de les lletres g), h) i i) de l’article 9.2 del Reglament (UE) 2016/679; com a norma sectorial només cita la Llei 8/2000 d’ordenació sanitària de Castella-la Manxa, sense article.",
+      "verifiedAt": "2026-09-22",
+      "norm": "Article 9.2 g), h) i i) del RGPD; Llei 8/2000, d’ordenació sanitària de Castella-la Manxa"
+    },
+    "processingRegistry": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mi-salud-digital-clm-privacy-policy",
+        "mi-salud-digital-clm-rat"
+      ],
+      "detail": "La política enllaça un a un més de cinquanta tractaments del registre públic de Castella-la Manxa, entre els quals «Historia Clínica del SESCAM», que és el que sosté la carpeta de salut de l’aplicació.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://rat.castillalamancha.es/info/1154"
+    },
+    "dpia": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat publicada cap avaluació d’impacte relativa a la protecció de dades de l’aplicació ni de la carpeta de salut."
+    },
+    "ensConformity": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "mi-salud-digital-clm-privacy-policy"
+      ],
+      "detail": "La política diu que les mesures de seguretat implantades es corresponen amb l’annex II del Reial decret 311/2022, però no publica cap declaració ni certificació de conformitat ni la categoria del sistema.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dpo": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mi-salud-digital-clm-privacy-policy"
+      ],
+      "detail": "La política identifica el delegat de protecció de dades del SESCAM amb adreça electrònica i adreça postal al Comitè Tècnic de Seguretat de la Informació de la Secretaria General, a Toledo.",
+      "verifiedAt": "2026-09-22",
+      "contact": "dpd@sescam.jccm.es"
+    },
+    "offlineAlternative": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "mi-salud-digital-clm-cita-previa"
+      ],
+      "detail": "La pàgina oficial de cita prèvia només ofereix el web i l’aplicació com a canals per demanar cita; els telèfons dels centres hi apareixen al cercador de centres, però no s’hi declaren com a via per citar-se.",
+      "verifiedAt": "2026-09-22"
+    },
+    "accessibilityStatement": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "mi-salud-digital-clm-accessibilitat"
+      ],
+      "detail": "La declaració d’accessibilitat a què remet el web sanitari és la del portal autonòmic, que es declara «parcialment conforme» amb el Reial decret 1112/2018 i acota l’abast a www.castillalamancha.es, sense esmentar cap aplicació mòbil.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.castillalamancha.es/accesibilidad"
+    },
+    "mandatoryRetention": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "boe-llei-41-2002",
+        "mi-salud-digital-clm-privacy-policy"
+      ],
+      "detail": "L’aplicació dona accés a la història clínica del SESCAM, i l’article 17.1 de la Llei 41/2002 obliga a conservar la documentació clínica com a mínim cinc anys des de l’alta de cada procés assistencial: es pot esborrar l’usuari propi de Mi Salud Digital, però no l’expedient clínic.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataSummary": "La carpeta de salut mostra al·lèrgies, vacunes, medicació dispensada i informes clínics, és a dir, l’estat de salut d’una persona i el seu calendari de visites. Com que el codi de la targeta sanitària serveix per identificar-se, una dada impresa en una targeta física dona accés a part d’aquesta informació.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "mi-salud-digital-clm-privacy-policy"
+      ]
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "mi-salud-digital-clm-app-store"
+      ],
+      "note": "Codi d’identificació personal de la targeta sanitària, DNI electrònic, certificat digital o Cl@ve."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "mi-salud-digital-clm-app-store"
+      ],
+      "note": "Per rebre l’SMS de recordatori de la cita."
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "mi-salud-digital-clm-app-store",
+        "mi-salud-digital-clm-privacy-policy"
+      ],
+      "note": "Al·lèrgies, vacunes, medicació i informes clínics de la carpeta de salut. L’etiqueta de l’App Store no declara cap dada."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [],
+      "sources": [
+        "mi-salud-digital-clm-app-store"
+      ],
+      "note": "L’aplicació és gratuïta i no té compres ni subscripcions."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "editorial",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "mi-salud-digital-clm-app-store"
+      ],
+      "note": "La cerca de farmàcies pròximes al domicili suggereix un ús de la ubicació, però l’etiqueta no en declara cap i no ho hem pogut confirmar."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "mi-salud-digital-clm-app-store"
+      ],
+      "detail": "L’etiqueta declara que no es recull cap dada, de manera que tampoc no n’hi ha cap per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "mi-salud-digital-clm-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap identificador.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut comprovar quins components de tercers incorpora l’aplicació."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "mi-salud-digital-clm-privacy-policy"
+      ],
+      "detail": "La política del SESCAM no preveu cap tractament publicitari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu res sobre l’elaboració de perfils ni sobre decisions automatitzades."
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no parla de cap ús de les dades per entrenar models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "mi-salud-digital-clm-privacy-policy"
+      ],
+      "detail": "La política diu que no se cedeixen dades a tercers llevat d’obligació legal o consentiment, però sí que hi accedeixen els prestadors de serveis que actuen com a encarregats del tractament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El SESCAM és un organisme públic autonòmic sense grup empresarial.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "mi-salud-digital-clm-privacy-policy"
+      ],
+      "detail": "La política descarta qualsevol cessió que no vingui d’una obligació legal o del consentiment de la persona interessada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta les transferències internacionals de dades."
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència sobre peticions de dades."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "mi-salud-digital-clm-privacy-policy"
+      ],
+      "detail": "La política remet els terminis a la fitxa de cada tractament publicada al web; el resum general no en concreta cap.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no explica què es conserva quan es deixa de fer servir el servei."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "mi-salud-digital-clm-app-store",
+        "mi-salud-digital-clm-privacy-policy"
+      ],
+      "detail": "Es pot demanar la supressió de l’usuari propi de Mi Salud Digital com a exercici del dret de supressió, però la història clínica i la targeta sanitària es conserven per obligació legal.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut comprovar si l’aplicació permet donar de baixa l’usuari de Mi Salud Digital sense passar pel procediment administratiu."
+    },
+    "difficulty": "unknown",
+    "steps": [
+      "Desinstal·la l’aplicació si només vols deixar de fer-la servir: la identificació amb la targeta sanitària no crea cap compte comercial.",
+      "Per exercir els drets d’accés, rectificació, supressió, limitació o oposició, escriu a datospersonales@sescam.jccm.es o al delegat de protecció de dades (dpd@sescam.jccm.es).",
+      "Recorda que la història clínica no es pot esborrar: la conserva el servei públic de salut per obligació legal."
+    ],
+    "obstacles": "No hi ha cap pàgina d’ajuda que expliqui com donar de baixa l’usuari de Mi Salud Digital; tot passa pel canal de protecció de dades.",
+    "dataRetained": "La història clínica i les dades de la targeta sanitària.",
+    "sources": [
+      "mi-salud-digital-clm-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política enumera els drets d’accés, rectificació, supressió, limitació i oposició, però no esmenta la portabilitat ni cap eina de descàrrega."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mi-salud-digital-clm-privacy-policy"
+      ],
+      "detail": "Per correu electrònic a datospersonales@sescam.jccm.es o al delegat de protecció de dades, amb adreça postal a Toledo.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dpd@sescam.jccm.es"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha publicitat al servei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’etiqueta no declara dades de diagnòstic i no hem trobat cap ajust de telemetria."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "mi-salud-digital-clm-app-store"
+      ],
+      "detail": "Es pot triar si es vol rebre un SMS de recordatori i si la cita s’afegeix al calendari; la resta de dades depenen del nivell d’identificació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut revisar els fluxos de consentiment de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha comunicacions entre persones usuàries que puguin anar xifrades d’extrem a extrem.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no concreta les mesures tècniques del canal."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no concreta el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "mi-salud-digital-clm-app-store"
+      ],
+      "detail": "Per a alguns tràmits n’hi ha prou amb el codi imprès a la targeta sanitària; per als més sensibles cal DNI electrònic, certificat digital o Cl@ve.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap auditoria publicada."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses per a vulnerabilitats."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El domini sanidad.castillalamancha.es no serveix cap fitxer security.txt."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "salud-responde",
+      "comparability": "partial",
+      "rationale": "També és una aplicació pública autonòmica per gestionar cites i consultar dades sanitàries, en aquest cas a Andalusia.",
+      "tradeOffs": "Només serveix per a qui té targeta sanitària andalusa."
+    }
+  ],
+  "review": {
+    "researchStatus": "initial",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "La política enllaçada des de l’App Store és la general del SESCAM, que cobreix el web i l’aplicació però remet el detall de cada tractament a fitxes separades que no hem revisat una per una. La contradicció principal és que l’etiqueta declari que no es recull cap dada quan l’aplicació mostra la carpeta de salut. El buscador de resolucions de l’AEPD no ens ha respost i no hem pogut completar la cerca d’incidents.",
+    "openQuestions": [
+      "Per què l’etiqueta de l’App Store diu que no es recull cap dada?",
+      "Quin nivell d’identificació cal per veure la carpeta de salut i què es pot fer només amb el codi imprès a la targeta?",
+      "Es pot donar de baixa l’usuari de Mi Salud Digital des de l’aplicació?"
+    ]
+  },
+  "appStoreBundleId": "es.sescam.app"
+}

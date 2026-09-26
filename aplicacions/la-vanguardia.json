@@ -1,0 +1,571 @@
+{
+  "slug": "la-vanguardia",
+  "name": "La Vanguardia",
+  "company": "la-vanguardia-ediciones",
+  "categories": [
+    "noticies-i-mitjans"
+  ],
+  "tagline": "Perfils publicitaris compartits amb el Grup Godó i cedits a tercers; al web, paga o accepta",
+  "summary": "L’etiqueta de l’App Store declara compres, contacte, identificadors, dades d’ús i diagnòstic per rastrejar. Amb consentiment, La Vanguardia crea perfils publicitaris que comparteix amb Mundo Deportivo i RAC1 i pot cedir a empreses triades per a les seves campanyes. Algun soci pot fer geolocalització precisa o identificar el dispositiu per l’empremta digital. Al web, qui rebutja les galetes ha de subscriure’s. L’AEPD la va sancionar el 2023 per instal·lar galetes de Google abans del consentiment.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "subscription",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://www.lavanguardia.com/",
+    "privacyPolicy": "https://www.lavanguardia.com/politica-privacidad.html",
+    "appStore": "https://apps.apple.com/es/app/id364587804"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "la-vanguardia-privacy-policy",
+      "la-vanguardia-didomi-config"
+    ],
+    "detail": "El registre és opcional, però al web l’accés sense acceptar galetes exigeix subscripció.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "la-vanguardia-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Els continguts llegits, la ubicació (si s’autoritza) i les compres formen part d’un perfil publicitari que el grup comparteix entre La Vanguardia, Mundo Deportivo i RAC1 i que pot deixar fer servir a altres empreses.",
+  "dataCollection": [
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "la-vanguardia-app-store",
+        "la-vanguardia-privacy-policy"
+      ],
+      "note": "Les dades del registre poden enriquir el perfil publicitari si hi consents."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "la-vanguardia-app-store",
+        "la-vanguardia-privacy-policy"
+      ],
+      "note": "Identificador únic per reconèixer l’usuari registrat en tots els dispositius."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "la-vanguardia-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "la-vanguardia-app-store",
+        "la-vanguardia-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "la-vanguardia-privacy-policy"
+      ],
+      "note": "Si se n’ha autoritzat l’ús."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "la-vanguardia-privacy-policy"
+      ]
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "la-vanguardia-privacy-policy"
+      ]
+    },
+    {
+      "type": "xarxa-i-connectivitat",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "la-vanguardia-privacy-policy"
+      ],
+      "note": "Tipus de xarxa i operador."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "la-vanguardia-app-store",
+        "la-vanguardia-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "la-vanguardia-privacy-policy"
+      ],
+      "note": "Latitud i longitud si s’autoritza; algun soci pot fer geolocalització precisa."
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "la-vanguardia-privacy-policy"
+      ],
+      "note": "Els continguts visitats, per URL, també a Mundo Deportivo i RAC1."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "la-vanguardia-app-store"
+      ]
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada",
+        "cessio-a-tercers"
+      ],
+      "sources": [
+        "la-vanguardia-privacy-policy"
+      ],
+      "note": "Perfils conservats fins a 12 mesos i cedibles a empreses triades."
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "la-vanguardia-privacy-policy",
+        "la-vanguardia-didomi-config"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "la-vanguardia-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "la-vanguardia-app-store",
+        "la-vanguardia-privacy-policy"
+      ],
+      "detail": "Cinc categories de dades declarades per rastrejar i perfils usats en portals i apps de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "la-vanguardia-privacy-policy"
+      ],
+      "detail": "Amb autorització.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "la-vanguardia-privacy-policy",
+        "la-vanguardia-didomi-config"
+      ],
+      "detail": "Tots els proveïdors del TCF de l’IAB i 87 de propis al web, amb Google, Akamai i Permutive.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "la-vanguardia-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "la-vanguardia-privacy-policy"
+      ],
+      "detail": "Perfils publicitaris i de continguts entre les capçaleres del grup.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no en diu res."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "la-vanguardia-privacy-policy"
+      ],
+      "detail": "Anunciants, agències i intermediaris publicitaris, amb consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "la-vanguardia-privacy-policy"
+      ],
+      "detail": "Mundo Deportivo i Radiocat XXI (RAC1).",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "la-vanguardia-privacy-policy"
+      ],
+      "detail": "Amb consentiment, cedeix perfils publicitaris a empreses triades perquè en facin les seves pròpies campanyes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "la-vanguardia-privacy-policy"
+      ],
+      "detail": "Proveïdors fora de l’EEE amb clàusules tipus o el Data Privacy Framework.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "la-vanguardia-privacy-policy"
+      ],
+      "detail": "Fins a 12 mesos per als perfils i 90 dies per a la xarxa de distribució de continguts.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "periods": [
+      {
+        "dataType": "interessos-inferits",
+        "period": "Fins a 12 mesos",
+        "sources": [
+          "la-vanguardia-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "historial-de-navegacio",
+        "period": "90 dies a la xarxa de distribució (CDN)",
+        "sources": [
+          "la-vanguardia-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "la-vanguardia-privacy-policy"
+      ],
+      "detail": "Dret de supressió per correu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap opció d’eliminació al perfil."
+    },
+    "difficulty": "unknown",
+    "steps": [
+      "Per a les dades de navegació, obre «Configuración de cookies» al menú de seccions de l’app i retira els consentiments.",
+      "Per al registre, escriu a protecciondedatos@lavanguardia.es i demana’n la supressió."
+    ],
+    "sources": [
+      "la-vanguardia-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "la-vanguardia-privacy-policy"
+      ],
+      "detail": "Portabilitat per correu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "la-vanguardia-privacy-policy"
+      ],
+      "detail": "Delegat de protecció de dades del grup a dpo@grupogodo.com.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:protecciondedatos@lavanguardia.es"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "la-vanguardia-privacy-policy",
+        "la-vanguardia-didomi-config"
+      ],
+      "detail": "Es pot configurar per finalitat i proveïdor, també des de l’app; però al web, rebutjar-ho tot porta a la subscripció.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "la-vanguardia-privacy-policy"
+      ],
+      "detail": "Les estadístiques es poden rebutjar a la configuració de galetes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "la-vanguardia-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "la-vanguardia-godo-didomix",
+        "la-vanguardia-didomi-config"
+      ],
+      "detail": "El botó de rebutjar del web és «Rechazar y suscribirse».",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "unbalanced-consent",
+        "severity": "medium",
+        "description": "Paga o accepta: l’avís diu que l’accés està subjecte a acceptar les galetes o a subscriure’s. No hem comprovat si l’app fa el mateix.",
+        "sources": [
+          "la-vanguardia-godo-didomix",
+          "la-vanguardia-didomi-config"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És una aplicació de lectura de notícies.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap fitxer security.txt al domini."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "el-periodico",
+      "comparability": "equivalent",
+      "rationale": "Diari generalista de Barcelona en castellà i català; l’etiqueta de l’app declara menys dades, però el web té tants proveïdors com La Vanguardia."
+    },
+    {
+      "app": "diari-ara",
+      "comparability": "partial",
+      "rationale": "Diari generalista en català; també condiciona el rebuig al web a la subscripció."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La política és la mateixa de RAC1 i molt detallada. L’enllaç de privadesa de l’App Store (politica-privacidad-app) dona error 404; hem fet servir la política general, que esmenta expressament l’app.",
+    "openQuestions": [
+      "L’app aplica el mateix paga o accepta que el web?"
+    ]
+  },
+  "appStoreBundleId": "es.lavanguardia"
+}

@@ -1,0 +1,567 @@
+{
+  "slug": "adobe-acrobat-reader",
+  "name": "Adobe Acrobat Reader",
+  "company": "adobe-ireland",
+  "categories": [
+    "ofimatica-i-productivitat"
+  ],
+  "tagline": "Lector de PDF que demana contactes i historial de cerca i declara identificadors utilitzats per rastrejar",
+  "summary": "Acrobat Reader és el lector de PDF més habitual al mòbil, i els documents que s’hi obren poden ser nòmines, informes mèdics o contractes. L’etiqueta de l’App Store declara contactes, contingut, historial de cerca i historial de compres vinculats al compte, i identificador d’usuari i de dispositiu utilitzats per rastrejar. Adobe analitza el contingut emmagatzemat al núvol amb aprenentatge automàtic per millorar els serveis, amb una exclusió que s’ha d’activar a mà.",
+  "platforms": [
+    "ios",
+    "android",
+    "web",
+    "windows",
+    "macos"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Irlanda",
+  "userBase": "Centenars de milions d’instal·lacions; és el lector de PDF de referència",
+  "links": {
+    "website": "https://www.adobe.com/es/acrobat/mobile/acrobat-reader.html",
+    "privacyPolicy": "https://www.adobe.com/privacy/policy.html",
+    "privacyCenter": "https://www.adobe.com/privacy/opt-out.html",
+    "appStore": "https://apps.apple.com/es/app/id469337564"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "adobe-acrobat-app-store"
+    ],
+    "detail": "Es poden obrir documents locals sense compte, però signar, emmagatzemar al núvol o fer servir les funcions de conversió demana un Adobe ID.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "adobe-acrobat-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Les dades més sensibles d’aquesta aplicació són els documents que obres, signes i emmagatzemes. Amb l’historial de cerca dins dels documents i la llista de contactes amb qui els comparteixes, mostren la vida administrativa i laboral d’una persona.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "adobe-acrobat-app-store"
+      ],
+      "note": "L’etiqueta el declara també per a publicitat i màrqueting del desenvolupador."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "adobe-acrobat-app-store"
+      ]
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "adobe-acrobat-app-store"
+      ],
+      "note": "Declarada per al funcionament de l’aplicació, presumiblement per compartir documents i demanar signatures."
+    },
+    {
+      "type": "fitxers-i-documents",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "adobe-acrobat-app-store",
+        "adobe-privacy-policy"
+      ],
+      "note": "Els documents desats al núvol d’Adobe s’analitzen amb tècniques automatitzades per detectar contingut il·lícit i per millorar els serveis."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "adobe-acrobat-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "adobe-acrobat-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "adobe-privacy-policy"
+      ],
+      "note": "Només si es contracta una subscripció."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "adobe-acrobat-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "adobe-acrobat-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "adobe-acrobat-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "adobe-acrobat-app-store"
+      ]
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "adobe-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "adobe-privacy-policy"
+      ],
+      "note": "La política global preveu identificadors biomètrics, com els patrons facials, en funcions concretes d’Adobe; no consta que Acrobat Reader en faci servir."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "adobe-acrobat-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "adobe-acrobat-app-store"
+      ],
+      "detail": "L’identificador d’usuari i el de dispositiu es declaren com a dades utilitzades per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "adobe-acrobat-app-store"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "adobe-privacy-policy"
+      ],
+      "detail": "La política preveu compartir informació amb socis publicitaris i xarxes socials per a publicitat dirigida.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "adobe-privacy-policy",
+        "adobe-privacy-choices"
+      ],
+      "detail": "Adobe fa publicitat basada en interessos i remet l’exclusió a les iniciatives sectorials DAA i EDAA.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://www.adobe.com/privacy/opt-out.html"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "adobe-privacy-policy"
+      ],
+      "detail": "La política descriu l’ús de dades d’ús i demogràfiques per personalitzar el producte i les comunicacions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "adobe-privacy-policy",
+        "adobe-privacy-choices"
+      ],
+      "detail": "Adobe analitza el contingut allotjat amb aprenentatge automàtic per millorar els serveis i ofereix una exclusió explícita, que s’ha d’activar compte per compte.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://www.adobe.com/privacy/opt-out.html"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "adobe-privacy-policy"
+      ],
+      "detail": "Filials, distribuïdors, socis publicitaris, processadors de pagament i proveïdors d’atenció al client.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "adobe-privacy-policy"
+      ],
+      "detail": "Compartició entre les entitats del grup Adobe.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu la venda de dades a intermediaris, però sí la compartició amb plataformes socials per a publicitat dirigida."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "adobe-privacy-policy"
+      ],
+      "detail": "Transferències als Estats Units i a l’Índia principalment, emparades en el marc de privadesa de dades UE-EUA i en garanties contractuals.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "adequacy"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "adobe-transparency-center"
+      ],
+      "detail": "Adobe publica informes sobre peticions governamentals i les directrius per a les autoritats al seu centre de transparència.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.adobe.com/trust/transparency.html"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "adobe-privacy-policy"
+      ],
+      "detail": "Les dades es conserven mentre el compte és actiu; la informació de transaccions comercials, fins a deu anys des de l’última interacció.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "adobe-privacy-policy"
+      ],
+      "detail": "La informació de facturació i transaccions sobreviu al tancament del compte durant el termini de deu anys.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "historial-de-compres",
+        "period": "Deu anys des de l’última interacció comercial",
+        "sources": [
+          "adobe-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "adobe-privacy-policy"
+      ],
+      "detail": "La política reconeix el dret de supressió i la desactivació de l’Adobe ID a través del formulari de privadesa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Les pàgines d’ajuda d’Adobe sobre l’eliminació del compte bloquegen l’accés automatitzat i no hem pogut verificar el camí exacte dins del compte."
+    },
+    "difficulty": "unknown",
+    "steps": [
+      "Cancel·la abans qualsevol subscripció activa: Adobe no tanca comptes amb pagaments pendents.",
+      "Descarrega els documents desats al núvol d’Adobe, perquè s’esborren amb el compte.",
+      "Envia la sol·licitud de supressió amb el formulari de consultes de privadesa d’Adobe o escriu a DPO@adobe.com."
+    ],
+    "dataRetained": "Informació de transaccions comercials durant deu anys des de l’última interacció.",
+    "sources": [
+      "adobe-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "adobe-privacy-policy"
+      ],
+      "detail": "El formulari de consultes de privadesa permet demanar l’accés i la portabilitat de les dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "adobe-privacy-policy"
+      ],
+      "detail": "Formulari de privadesa i delegat de protecció de dades a DPO@adobe.com.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:DPO@adobe.com",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "adobe-privacy-choices"
+      ],
+      "detail": "L’exclusió de la publicitat basada en interessos es delega a les eines sectorials (DAA, EDAA, AppChoices), no a un interruptor del compte.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.adobe.com/privacy/opt-out.html"
+    },
+    "telemetryOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "adobe-privacy-choices"
+      ],
+      "detail": "Les dades d’ús de les aplicacions d’escriptori es poden desactivar a les preferències de cada aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "adobe-privacy-choices"
+      ],
+      "detail": "Hi ha controls per a publicitat, anàlisi de contingut i dades d’ús, però estan repartits i s’han de repetir aplicació per aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [
+        "adobe-privacy-choices"
+      ],
+      "detail": "Interpretació pròpia: l’anàlisi automatitzada del contingut i la publicitat basada en interessos estan actives per defecte i l’exclusió s’ha de repetir per a cada aplicació i servei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "preselected",
+        "severity": "medium",
+        "description": "L’anàlisi del contingut amb aprenentatge automàtic està activada per defecte i cal desactivar-la manualment des de la pàgina de preferències.",
+        "sources": [
+          "adobe-privacy-choices"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "adobe-privacy-policy"
+      ],
+      "detail": "Adobe analitza el contingut allotjat al núvol per detectar material il·lícit, cosa que exclou el xifratge d’extrem a extrem.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "editorial",
+      "sources": [],
+      "detail": "Interpretació pròpia a partir de la navegació: els serveis d’Adobe només responen per HTTPS.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut verificar en una pàgina pública llegible el xifratge en repòs del Document Cloud."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut llegir la pàgina d’ajuda sobre la seguretat del compte per documentar la verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El centre de confiança parla de controls i certificacions del sector, però la pàgina consultada no en concreta cap."
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "adobe-security-txt"
+      ],
+      "detail": "El fitxer security.txt remet al programa públic d’Adobe a la plataforma Intigriti.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://app.intigriti.com/programs/adobe/adobepublic/detail"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "adobe-security-txt"
+      ],
+      "detail": "Contacte psirt@adobe.com i política publicada, signats amb PGP al fitxer security.txt.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "adobe-scan",
+      "comparability": "complementary",
+      "rationale": "És l’escàner del mateix ecosistema: si ja hi tens l’Adobe ID, les dades no es multipliquen.",
+      "tradeOffs": "Comparteix responsable, política i etiqueta de rastreig."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Les pàgines d’ajuda d’Adobe (helpx.adobe.com) responen amb un bloqueig d’accés als lectors automàtics, i això limita el que podem verificar sobre l’eliminació del compte i la verificació en dos passos. La política global i la pàgina de preferències, en canvi, són llegibles i donen el gruix de la fitxa.",
+    "openQuestions": [
+      "Hi ha un camí d’autoservei dins del compte d’Adobe per eliminar-lo, i quant triga a fer-se efectiu?",
+      "Quins mètodes de verificació en dos passos admet l’Adobe ID?"
+    ]
+  },
+  "appStoreBundleId": "com.adobe.Adobe-Reader"
+}

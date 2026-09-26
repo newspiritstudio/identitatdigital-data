@@ -1,0 +1,635 @@
+{
+  "slug": "airbnb",
+  "name": "Airbnb",
+  "company": "airbnb-ireland",
+  "categories": [
+    "viatges-i-allotjament"
+  ],
+  "tagline": "Baixa i exportació autoservei i esborrat dels comptes inactius als quatre anys, amb una etiqueta que ho declara gairebé tot vinculat a la identitat",
+  "summary": "Airbnb documenta bé el camí de sortida: es pot desactivar o eliminar el compte des de la configuració, descarregar les dades sense formularis i els comptes inactius s’esborren automàticament als quatre anys, amb dos avisos previs. D’altra banda, l’etiqueta de l’App Store declara onze categories de dades, totes vinculades amb la identitat, i el tractament inclou verificació biomètrica i anàlisi de les converses entre persones usuàries.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Irlanda",
+  "userBase": "Centenars de milions de comptes a tot el món",
+  "links": {
+    "website": "https://www.airbnb.es/",
+    "privacyPolicy": "https://www.airbnb.es/help/article/3175",
+    "privacyCenter": "https://www.airbnb.es/help/article/2860",
+    "appStore": "https://apps.apple.com/es/app/id401626263"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "airbnb-privacy-policy"
+    ],
+    "detail": "No es pot reservar ni contactar amb un amfitrió sense compte verificat.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "editorial",
+    "sources": [],
+    "detail": "Aplicació privativa, tot i que l’empresa publica biblioteques lliures sense relació amb el servei.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "L’historial d’estades és un registre d’on has dormit, amb qui i quan no eres a casa. A més, la plataforma verifica la identitat amb reconeixement facial i analitza les converses per detectar indicis de delictes. Poques aplicacions de consum combinen biometria, missatgeria i pagaments.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "airbnb-privacy-policy",
+        "airbnb-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "airbnb-privacy-policy",
+        "airbnb-app-store"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "airbnb-app-store"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "airbnb-app-store"
+      ]
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "compliment-legal"
+      ],
+      "sources": [
+        "airbnb-privacy-policy"
+      ],
+      "note": "Es fa servir per a la verificació d’identitat i per a les obligacions fiscals de la DAC 7."
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "airbnb-privacy-policy"
+      ],
+      "note": "Reconeixement facial per comparar la selfie amb el document d’identitat."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "airbnb-privacy-policy",
+        "airbnb-app-store"
+      ],
+      "note": "L’etiqueta declara també «Información sobre crédito»."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "airbnb-app-store"
+      ]
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "moderacio-de-continguts",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "airbnb-privacy-policy",
+        "airbnb-app-store"
+      ],
+      "note": "La política declara l’anàlisi de les comunicacions per detectar indicis d’explotació infantil."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "airbnb-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "airbnb-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "airbnb-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "airbnb-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "airbnb-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "airbnb-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "airbnb-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "airbnb-app-store"
+      ]
+    },
+    {
+      "type": "nivell-d-ingressos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal"
+      ],
+      "sources": [
+        "airbnb-privacy-policy"
+      ],
+      "note": "Per a les persones amfitriones, els ingressos es declaren a l’administració tributària en aplicació de la DAC 7."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "airbnb-app-store"
+      ],
+      "detail": "L’etiqueta no inclou cap categoria sota «Datos utilizados para rastrearte».",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "airbnb-app-store"
+      ],
+      "detail": "Es declaren identificadors de dispositiu i dades de publicitat, però no per a seguiment entre aplicacions de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "airbnb-cookies-policy"
+      ],
+      "detail": "La política de galetes cita píxels i SDK de Google i de Facebook i remet a l’autoregulació de la Digital Advertising Alliance.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "airbnb-privacy-policy"
+      ],
+      "detail": "La política preveu mostrar, personalitzar, mesurar i millorar la publicitat pròpia.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "airbnb-privacy-policy"
+      ],
+      "detail": "Recomanacions personalitzades, cribratge de seguretat i verificació d’antecedents, amb l’interès legítim com a base declarada al suplement europeu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "airbnb-privacy-policy",
+        "airbnb-ai-preferences"
+      ],
+      "detail": "S’utilitzen dades per desenvolupar models d’IA, però hi ha una preferència per excloure-se’n a Compte i després Privadesa.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://www.airbnb.es/help/article/4097"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "airbnb-privacy-policy"
+      ],
+      "detail": "Amfitrions i viatgers entre si, processadors de pagament, asseguradores, proveïdors de verificació d’antecedents, administradors d’edificis i autoritats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "airbnb-privacy-policy"
+      ],
+      "detail": "Amb les empreses afiliades del grup a escala global.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "airbnb-privacy-policy"
+      ],
+      "detail": "La política ofereix un mecanisme d’oposició a la venda o compartició només per als residents als Estats Units, i no declara cap venda a la Unió Europea.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "airbnb-eu-supplement"
+      ],
+      "detail": "El suplement europeu declara clàusules model de la Comissió Europea i decisions d’adequació. La política general no n’esmenta cap mecanisme.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "airbnb-transparency-reports"
+      ],
+      "detail": "Informes anuals de resposta a les peticions de les forces de seguretat des del 2016.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "airbnb-privacy-policy",
+        "airbnb-inactive-accounts"
+      ],
+      "detail": "La regla general no dona xifres, però la política de comptes inactius sí: quatre anys sense activitat, o un any si el compte no s’ha fet servir mai.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "airbnb-eu-supplement"
+      ],
+      "detail": "Es poden retenir dades per prevenció del frau, obligacions legals i fiscals; les ressenyes públiques poden continuar visibles i les còpies de seguretat es conserven temporalment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "period": "4 anys d’inactivitat abans de l’eliminació automàtica del compte, amb avisos 30 dies i 48 hores abans.",
+        "sources": [
+          "airbnb-inactive-accounts"
+        ]
+      },
+      {
+        "period": "1 any si el compte no s’ha utilitzat mai des de la creació.",
+        "sources": [
+          "airbnb-inactive-accounts"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "airbnb-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "airbnb-delete-account"
+      ],
+      "detail": "Es pot desactivar el compte de manera reversible o eliminar-lo definitivament des de la configuració, sense escriure a ningú.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://www.airbnb.es/account-delete/reasons",
+    "difficulty": "easy",
+    "steps": [
+      "Entra a Configuración de la cuenta i després a Privacidad.",
+      "Tria «Elimina tu cuenta».",
+      "Indica el país de residència i el motiu i confirma amb la verificació d’identitat.",
+      "Si només vols una pausa, fes servir «Desactivar» a Inicio de sesión y seguridad: és reversible."
+    ],
+    "obstacles": "Cal resoldre abans les reserves programades, les incidències obertes amb atenció al client i les sol·licituds de dades pendents.",
+    "dataRetained": "Informació retinguda per prevenció del frau i seguretat, obligacions legals i fiscals, ressenyes públiques i còpies de seguretat temporals.",
+    "sources": [
+      "airbnb-delete-account",
+      "airbnb-eu-supplement"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "airbnb-privacy-settings"
+      ],
+      "detail": "Descàrrega d’una còpia de les dades personals des de Compte i després Privadesa, sense formulari.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.airbnb.es/account-settings/privacy-and-sharing"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "airbnb-eu-supplement"
+      ],
+      "detail": "Delegat de protecció de dades propi i autoritat de control de referència a Irlanda.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:DPO@airbnb.com",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "airbnb-privacy-settings",
+        "airbnb-cookies-policy"
+      ],
+      "detail": "Es poden desactivar els consells i les ofertes comercials i configurar les galetes, però l’oposició a la venda o compartició de dades només s’ofereix als residents als Estats Units.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "airbnb-cookies-policy"
+      ],
+      "detail": "Les galetes analítiques es poden configurar; no consta cap control equivalent per a la telemetria de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "airbnb-privacy-settings"
+      ],
+      "detail": "Un mateix panell reuneix la descàrrega de dades, les preferències d’IA, les notificacions comercials i l’eliminació del compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem documentat cap patró fosc concret en el camí de sortida, que és curt i està ben senyalitzat."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "La missatgeria entre amfitrions i viatgers ha de poder ser moderada per la plataforma.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "airbnb-account-security"
+      ],
+      "detail": "La documentació de seguretat del compte descriu les connexions protegides i les alertes d’accés.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública sobre el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "airbnb-account-security"
+      ],
+      "detail": "Hi ha verificació addicional per codi quan s’inicia sessió des d’un dispositiu o lloc nou, però no una segona passa configurable sempre activa ni claus d’accés.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "sms",
+        "email"
+      ]
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap certificació de seguretat pública ni cap auditoria independent publicada."
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "airbnb-security-txt"
+      ],
+      "detail": "Programa públic de recompenses a HackerOne obert des del 2015, amb política pròpia enllaçada des del security.txt.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://hackerone.com/airbnb"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "airbnb-security-txt"
+      ],
+      "detail": "Fitxer security.txt complet, amb política, canònic i data de caducitat vigent fins al juny del 2027.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "booking",
+      "comparability": "equivalent",
+      "rationale": "Cobreix la mateixa necessitat i no exigeix verificació biomètrica per reservar.",
+      "tradeOffs": "No té baixa ni exportació autoservei: tot passa per un formulari d’exercici de drets."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La política d’Airbnb està partida en dues capes i el contingut que obliga el RGPD (bases jurídiques, transferències, drets) és al suplement per a fora dels Estats Units, no al document principal. Qui llegeixi només la política general no trobarà cap mecanisme de transferència internacional.",
+    "openQuestions": [
+      "En quin format i en quin termini es lliura la còpia de dades descarregada?",
+      "On publica Airbnb els informes de transparència que exigeix el Reglament de serveis digitals?"
+    ]
+  },
+  "appStoreBundleId": "com.airbnb.app"
+}

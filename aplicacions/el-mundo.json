@@ -1,0 +1,464 @@
+{
+  "slug": "el-mundo",
+  "name": "El Mundo",
+  "company": "unidad-editorial",
+  "categories": [
+    "noticies-i-mitjans"
+  ],
+  "tagline": "Diari amb registre únic compartit entre les capçaleres del grup i perfil comercial per consentiment",
+  "summary": "El registre a El Mundo és el registre únic d’Unidad Editorial, compartit amb Marca, Expansión i la resta de capçaleres del grup. Si s’hi dona el consentiment, el grup en fa un perfil comercial per oferir productes de sectors tan diversos com les finances o les apostes. La política diu que no transfereix dades fora de la UE, però l’etiqueta de l’App Store declara compres, identificadors i ús per rastrejar.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "advertising",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://www.elmundo.es/",
+    "privacyPolicy": "https://www.elmundo.es/registro/privacidad.html",
+    "appStore": "https://apps.apple.com/es/app/id324300162"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "el-mundo-privacy-policy"
+    ],
+    "detail": "El registre i la subscripció només calen per al contingut Premium i altres serveis.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "el-mundo-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Les compres, el registre i el comportament de lectura permeten al grup construir un perfil comercial que abasta totes les seves capçaleres i que es fa servir, amb consentiment, per a ofertes de tercers.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "el-mundo-app-store",
+        "el-mundo-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "el-mundo-app-store",
+        "el-mundo-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "el-mundo-app-store"
+      ],
+      "note": "L’etiqueta la declara per a publicitat i màrqueting del desenvolupador."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "el-mundo-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "el-mundo-app-store"
+      ]
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "el-mundo-app-store"
+      ],
+      "note": "L’etiqueta declara missatges de text de la persona usuària per al funcionament de l’app."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "el-mundo-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "el-mundo-app-store"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "el-mundo-cookies-policy"
+      ],
+      "note": "Galetes d’anàlisi i de publicitat comportamental, desactivables des del panell de configuració."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "el-mundo-privacy-policy"
+      ],
+      "note": "Perfil comercial que elabora Unidad Editorial, S.A. amb el consentiment de la persona registrada."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "el-mundo-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "el-mundo-app-store"
+      ],
+      "detail": "L’etiqueta declara compres, identificadors i dades d’ús per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’etiqueta parla de dades publicitàries, però no concreta l’ús de l’identificador publicitari del sistema."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "el-mundo-cookies-policy"
+      ],
+      "detail": "Galetes de publicitat comportamental i reproductors de tercers com YouTube.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "el-mundo-cookies-policy",
+        "el-mundo-app-store"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "el-mundo-privacy-policy"
+      ],
+      "detail": "Perfil comercial amb consentiment per a accions personalitzades sobre productes propis i de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no en diu res."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "el-mundo-privacy-policy"
+      ],
+      "detail": "Proveïdors tecnològics i agències de màrqueting com a encarregats; la política diu que no es comuniquen dades a altres tercers llevat d’obligació legal.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "el-mundo-privacy-policy"
+      ],
+      "detail": "Registre únic i perfil comercial gestionats per Unidad Editorial, S.A. per a totes les capçaleres.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "el-mundo-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "el-mundo-privacy-policy"
+      ],
+      "detail": "La política diu que no preveu transferències internacionals, tot i que les galetes publicitàries de tercers poden implicar-ne.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "none"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "el-mundo-privacy-policy"
+      ],
+      "detail": "Només criteris generals, sense terminis concrets.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "el-mundo-privacy-policy"
+      ],
+      "detail": "Es conserven dades per a obligacions legals i possibles responsabilitats.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "el-mundo-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut verificar una opció de baja dins del compte; la política remet al correu lopd@unidadeditorial.es."
+    },
+    "difficulty": "unknown",
+    "steps": [
+      "Si tens El Mundo Premium, cancel·la la subscripció des de «Mis suscripciones», o des de l’App Store si la vas contractar allà.",
+      "Escriu a lopd@unidadeditorial.es amb la referència «www.elmundo.es», el nom, els cognoms i l’adreça postal, i demana la supressió."
+    ],
+    "obstacles": "La via documentada a la política és el correu electrònic, i cal identificar les capçaleres del grup a què es refereix la sol·licitud.",
+    "dataRetained": "Dades necessàries per a obligacions legals derivades de la relació contractual.",
+    "sources": [
+      "el-mundo-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "el-mundo-privacy-policy"
+      ],
+      "detail": "La portabilitat es reconeix, però cal demanar-la per correu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "el-mundo-privacy-policy"
+      ],
+      "detail": "Per correu i amb delegat de protecció de dades a dpo@unidadeditorial.es.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:lopd@unidadeditorial.es"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "el-mundo-cookies-policy",
+        "el-mundo-privacy-policy"
+      ],
+      "detail": "Panell de galetes al web i preferències de publicitat al compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "el-mundo-cookies-policy"
+      ],
+      "detail": "Al web es poden desactivar les galetes d’anàlisi; no consta un control equivalent a l’app.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "el-mundo-cookies-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És una aplicació de lectura de notícies.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El domini no publica cap fitxer security.txt."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "No hem trobat sancions de l’AEPD contra Unidad Editorial ni filtracions documentades. Premsa general inclou El Mundo entre els diaris amb el model «acceptar o pagar», però la política de galetes vigent diu que les galetes publicitàries es poden rebutjar sense afectar el web i no ho afirmem a la fitxa.",
+    "openQuestions": [
+      "Hi ha una opció per eliminar el compte dins de l’àrea privada o de l’app?",
+      "Com s’explica la declaració de «no transferències internacionals» amb galetes de Google?"
+    ]
+  },
+  "appStoreBundleId": "com.elmundo"
+}

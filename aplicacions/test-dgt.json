@@ -1,0 +1,351 @@
+{
+  "slug": "test-dgt",
+  "name": "Test DGT 2026",
+  "company": "vavien-technology",
+  "categories": [
+    "educacio"
+  ],
+  "tagline": "Tests del carnet amb una etiqueta de privadesa mínima i una política que no signa l’empresa que publica l’app",
+  "summary": "Test DGT 2026 simula l’examen teòric de conduir. L’etiqueta de l’App Store és sòbria: només dades d’ús i diagnòstics, sense vincular amb la persona i sense rastreig. Les fonts no coincideixen. El desenvolupador declarat és una societat amb domicili a Dublín, però la política de privadesa és un text allotjat a Google Sites signat per una persona física, que cita AdMob i Firebase, no fixa terminis de conservació i no descriu cap dret del RGPD.",
+  "platforms": [
+    "ios"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Irlanda",
+  "links": {
+    "website": "https://sites.google.com/view/yigitapptech-privacy-policy/home",
+    "privacyPolicy": "https://sites.google.com/view/yigitapptech-privacy-policy/home",
+    "appStore": "https://apps.apple.com/es/app/id6756551956"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "test-dgt-app-store"
+    ],
+    "detail": "L’etiqueta no declara cap dada vinculada amb la persona, cosa que indica que no cal registre.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "test-dgt-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Les dades d’aquesta aplicació diuen poca cosa: quins temes falles i quantes vegades ho intentes. El que falta és transparència, perquè la política no diu qui en respon ni quant de temps conserva les dades.",
+  "dataCollection": [
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "test-dgt-app-store",
+        "test-dgt-privacy"
+      ],
+      "note": "Estadístiques d’ús recollides amb Google Analytics for Firebase."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "test-dgt-app-store",
+        "test-dgt-privacy"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "test-dgt-privacy"
+      ],
+      "note": "La política diu que es recull en cas d’error, juntament amb el nom del dispositiu i la versió del sistema."
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "test-dgt-privacy"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "unknown",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "unknown",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "note": "La política cita AdMob, però l’etiqueta de l’App Store no declara cap dada publicitària ni de rastreig: les dues fonts no encaixen."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "test-dgt-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap dada utilitzada per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’etiqueta no declara identificadors publicitaris, però la política cita AdMob."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "test-dgt-privacy"
+      ],
+      "detail": "Google Play Services, AdMob i Google Analytics for Firebase.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política cita AdMob sense explicar si la publicitat és segmentada; l’etiqueta no declara res de publicitari."
+    },
+    "profiling": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "test-dgt-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap dada vinculada amb la persona.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no en diu res."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "test-dgt-privacy"
+      ],
+      "detail": "Serveis de Google: Play Services, AdMob i Analytics for Firebase.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap estructura de grup ni la relació amb Vavien Technology Limited."
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no ho aclareix."
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta transferències internacionals, tot i que els serveis de Google que cita n’impliquen."
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "test-dgt-privacy"
+      ],
+      "detail": "La política no fixa cap termini de conservació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no en diu res."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació funciona sense compte segons l’etiqueta de l’App Store.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha compte per esborrar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "unknown",
+    "steps": [
+      "Cancel·la la subscripció Premium setmanal (3,99 €) des de l’App Store si en tens una activa.",
+      "Desinstal·la l’aplicació: sense compte, no hi ha cap perfil pendent d’esborrar.",
+      "Si vols que s’esborrin les dades tècniques associades, escriu a info@vavientech.com."
+    ],
+    "obstacles": "La política no descriu cap procediment de supressió per a persones adultes, només per a menors de 13 anys.",
+    "sources": [
+      "test-dgt-privacy",
+      "test-dgt-app-store"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu el dret d’accés ni cap eina d’exportació."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "test-dgt-privacy"
+      ],
+      "detail": "La política no detalla cap dret del RGPD ni cap procediment per exercir-los; només publica una adreça de correu personal.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap control de publicitat."
+    },
+    "telemetryOptOut": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "test-dgt-privacy"
+      ],
+      "detail": "No descriu cap manera de desactivar Firebase.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "test-dgt-privacy"
+      ],
+      "detail": "No hi ha cap control de privadesa documentat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem provat el flux de subscripció."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És una aplicació de tests sense comunicacions privades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no té comptes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap canal de divulgació de vulnerabilitats."
+    }
+  },
+  "review": {
+    "researchStatus": "initial",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "No hem trobat incidents documentats. La fitxa queda com a inicial perquè la política enllaçada no la signa l’empresa que consta com a desenvolupadora i no cobreix els mínims del RGPD: ni responsable identificat, ni terminis, ni drets. L’etiqueta de l’App Store, en canvi, no declara rastreig ni dades vinculades, i les dues fonts no es poden conciliar sense provar l’aplicació.",
+    "openQuestions": [
+      "Quina relació hi ha entre Vavien Technology Limited i la persona que signa la política?",
+      "L’aplicació mostra anuncis d’AdMob i, si ho fa, són segmentats?",
+      "Qui és el responsable del tractament a efectes del RGPD?"
+    ]
+  },
+  "appStoreBundleId": "com.yigit.dgt"
+}

@@ -1,0 +1,626 @@
+{
+  "slug": "x",
+  "name": "X",
+  "company": "x-corp",
+  "categories": [
+    "xarxes-socials"
+  ],
+  "tagline": "Xarxa pública de missatges curts integrada amb una empresa d’intel·ligència artificial",
+  "summary": "X, abans Twitter, ha canviat de propietari, de nom i de polítiques en pocs anys, i des de 2025 forma part de xAI. El contingut publicat alimenta l’entrenament de Grok, el model de xAI, amb una casella activada per defecte que ja va provocar la intervenció de l’autoritat irlandesa el 2024.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Irlanda, per a persones usuàries de l’Espai Econòmic Europeu",
+  "userBase": "Al voltant de 550 milions de persones usuàries mensuals",
+  "links": {
+    "website": "https://x.com/",
+    "privacyPolicy": "https://x.com/en/privacy",
+    "terms": "https://x.com/en/tos",
+    "privacyCenter": "https://x.com/settings/your_twitter_data"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "x-privacy-policy"
+    ],
+    "detail": "Des de 2023 la lectura sense compte està molt limitada.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "x-privacy-policy"
+    ],
+    "detail": "Una part de l’algoritme de recomanació es va publicar el 2023, però no s’ha mantingut al dia i la resta del sistema és privativa.",
+    "verifiedAt": "2026-09-22",
+    "repositoryUrl": "https://github.com/twitter/the-algorithm",
+    "licence": "AGPL-3.0 per a la part publicada"
+  },
+  "dataSummary": "El contingut d’X és públic. Les dades privades rellevants són els missatges directes, sense xifratge d’extrem a extrem per defecte, i el gràfic de qui segueix qui.",
+  "dataCollection": [
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "x-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "x-privacy-policy"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "x-privacy-policy"
+      ]
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "entrenament-de-models-dia"
+      ],
+      "sources": [
+        "x-privacy-policy",
+        "dpc-grok-2024"
+      ]
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "x-privacy-policy"
+      ],
+      "note": "Els missatges directes xifrats existeixen però requereixen subscripció i tenen limitacions reconegudes."
+    },
+    {
+      "type": "xarxa-de-contactes",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "x-privacy-policy"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "x-privacy-policy"
+      ]
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "x-privacy-policy"
+      ]
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "x-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "x-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "x-privacy-policy"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "x-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "x-privacy-policy"
+      ],
+      "note": "Els botons de compartir i el píxel d’X recullen activitat en llocs de tercers."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "x-privacy-policy"
+      ]
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "x-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "x-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "x-privacy-policy"
+      ],
+      "note": "La política preveu la recollida de dades biomètriques per a la verificació d’identitat de comptes de pagament."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "x-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "x-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "x-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "x-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://x.com/settings/ads_preferences"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "x-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "yes",
+      "level": "regulator",
+      "sources": [
+        "x-privacy-policy",
+        "dpc-grok-2024"
+      ],
+      "detail": "Les publicacions i les interaccions s’utilitzen per entrenar Grok. El 2024 l’autoritat irlandesa va haver d’acudir als tribunals perquè la casella venia activada per defecte i sense informació prèvia.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://x.com/settings/grok_settings"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "x-privacy-policy"
+      ],
+      "detail": "Anunciants, socis de dades i, mitjançant l’API, tercers amb accés a contingut públic.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "x-privacy-policy"
+      ],
+      "detail": "Compartició amb xAI després de la fusió de 2025.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "x-privacy-policy"
+      ],
+      "detail": "X comercialitza l’accés massiu al contingut públic a través de l’API i d’acords de llicència.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "x-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "mechanism": "adequacy"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "x-transparency"
+      ],
+      "detail": "La publicació dels informes s’ha tornat irregular des del canvi de propietat.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://transparency.x.com/"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "x-privacy-policy"
+      ],
+      "detail": "Es fixa un límit de 18 mesos per a les dades de registre, però pocs terminis més.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "x-deactivate-account"
+      ],
+      "detail": "Els 30 dies de desactivació precedeixen l’eliminació. El contingut ja indexat i les còpies fetes per tercers no s’eliminen.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "period": "30 dies de desactivació abans que comenci l’eliminació",
+        "sources": [
+          "x-deactivate-account"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "x-deactivate-account"
+      ],
+      "detail": "No hi ha un botó d’eliminació directa: cal desactivar el compte i deixar passar 30 dies sense iniciar sessió.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "x-deactivate-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://x.com/settings/deactivate",
+    "difficulty": "medium",
+    "waitingPeriodDays": 30,
+    "requiresSupportContact": false,
+    "steps": [
+      "Entra a Configuració i privadesa i obre El teu compte.",
+      "Tria «Desactiva el teu compte».",
+      "Llegeix les conseqüències i confirma amb la contrasenya.",
+      "No iniciïs sessió durant 30 dies perquè l’eliminació es completi."
+    ],
+    "obstacles": "La paraula «eliminar» no apareix enlloc del procés: només «desactivar». Qualsevol inici de sessió, fins i tot accidental des d’una aplicació amb la sessió oberta, reactiva el compte i reinicia el compte enrere.",
+    "dataRetained": "Les publicacions replicades, citades o arxivades per tercers resten en línia. Es conserven registres per a obligacions legals.",
+    "sources": [
+      "x-deactivate-account"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "x-your-data"
+      ],
+      "detail": "Arxiu descarregable amb publicacions, missatges i dades del compte.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://x.com/settings/download_your_data"
+    },
+    "exportFormatQuality": "mixed",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "x-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://privacy.x.com/",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "x-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://x.com/settings/ads_preferences"
+    },
+    "telemetryOptOut": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "x-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "x-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "yes",
+      "level": "regulator",
+      "sources": [
+        "dpc-grok-2024",
+        "x-deactivate-account"
+      ],
+      "detail": "La casella d’entrenament de Grok activada per defecte i l’absència de la paraula «eliminar» al procés de baixa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "preselected",
+        "severity": "high",
+        "description": "L’opció de permetre l’ús de les publicacions per entrenar Grok es va activar per defecte, sense informació prèvia, per a totes les persones usuàries europees.",
+        "sources": [
+          "dpc-grok-2024"
+        ]
+      },
+      {
+        "type": "hidden-exit",
+        "severity": "medium",
+        "description": "No existeix cap opció anomenada «eliminar el compte»: cal saber que la desactivació seguida de 30 dies d’inactivitat equival a l’eliminació.",
+        "sources": [
+          "x-deactivate-account"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "x-privacy-policy"
+      ],
+      "detail": "Els missatges xifrats només estan disponibles per a comptes de pagament i la mateixa empresa n’ha advertit les limitacions, entre altres l’absència de protecció contra atacs d’intermediari.",
+      "verifiedAt": "2026-09-22",
+      "scope": "partial-optin"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "x-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "x-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "x-privacy-policy"
+      ],
+      "detail": "Des de 2023 la verificació per SMS només està disponible per a comptes de pagament; l’aplicació d’autenticació i les claus de seguretat continuen sent gratuïtes.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "totp",
+        "hardware-key",
+        "passkey"
+      ]
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories de seguretat independents publicades després del canvi de propietat."
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "x-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://hackerone.com/x"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [
+        "x-privacy-policy"
+      ],
+      "detail": "Existeix un canal, però la comunicació pública sobre incidents s’ha reduït molt.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "reddit",
+      "comparability": "partial",
+      "rationale": "Cobreix la conversa pública i el seguiment de temes d’actualitat en comunitats obertes, amb identitat pseudònima i sense exigir telèfon ni nom real.",
+      "tradeOffs": "No hi ha el seguiment de comptes concrets ni la immediatesa d’una línia de temps, i el contingut publicat no es pot eliminar en tancar el compte."
+    }
+  ],
+  "review": {
+    "researchStatus": "in-depth",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Les polítiques d’X canvien sovint, i el que és cert avui pot no ser-ho d’aquí a sis mesos. Per això aquesta fitxa necessita una revisió més freqüent que la resta.",
+    "openQuestions": [
+      "Quin abast té la compartició de dades entre X i xAI després de la fusió?"
+    ]
+  },
+  "appStoreBundleId": "com.atebits.Tweetie2"
+}

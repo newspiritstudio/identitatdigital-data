@@ -1,0 +1,403 @@
+{
+  "slug": "alarma-de-lluvia",
+  "name": "Alarma de Lluvia - Radar Meteo",
+  "company": "aviles-software",
+  "categories": [
+    "meteorologia"
+  ],
+  "tagline": "Una política de privadesa de deu línies, però amb responsables identificats, dades a la UE i esborrat automàtic als 180 dies",
+  "summary": "Rain Alarm avisa quan s’acosta la pluja a partir del radar, i per fer-ho necessita la ubicació fins i tot amb l’aplicació tancada. La política és molt curta, però concreta: dos corresponsables identificats amb número d’IVA, dades pseudonimitzades i desades a la Unió Europea, i supressió automàtica 180 dies després de l’últim ús. La publicitat la serveix Google, i es pot treure amb una compra única.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Alemanya i Itàlia",
+  "links": {
+    "website": "https://rain-alarm.com/",
+    "privacyPolicy": "https://www.avilessoftware.com/privacy/rainalarm.pdf",
+    "appStore": "https://apps.apple.com/es/app/id397676100"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "alarma-de-lluvia-privacy"
+    ],
+    "detail": "La política no descriu cap compte; l’aplicació funciona amb la ubicació i un testimoni de notificacions.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": [],
+    "detail": "No hem trobat publicat el codi de l’aplicació."
+  },
+  "dataSummary": "Per avisar de la pluja abans que arribi, l’aplicació ha de saber on ets encara que no l’obris. Aquesta ubicació continuada és la dada més sensible del conjunt; que es desi pseudonimitzada a la UE i s’esborri als 180 dies en redueix molt l’abast.",
+  "dataCollection": [
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "alarma-de-lluvia-app-store",
+        "alarma-de-lluvia-privacy"
+      ],
+      "note": "L’etiqueta la declara sota «Funcionalidad de la app» i no vinculada a la identitat. La fitxa avisa que l’aplicació pot fer servir la ubicació encara que no estigui oberta."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "alarma-de-lluvia-app-store"
+      ],
+      "note": "L’etiqueta la declara sota «Publicidad de terceros», no vinculada a la identitat."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "alarma-de-lluvia-privacy",
+        "alarma-de-lluvia-app-store"
+      ],
+      "note": "La política diu que el responsable d’aquesta dada és Google i que es pot triar publicitat no personalitzada des de la configuració de l’aplicació."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "alarma-de-lluvia-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "alarma-de-lluvia-app-store"
+      ],
+      "note": "És l’única categoria que l’etiqueta declara vinculada a la identitat, juntament amb les dades de publicitat."
+    },
+    {
+      "type": "testimoni-d-autenticacio",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "alarma-de-lluvia-privacy"
+      ],
+      "note": "Testimoni de notificacions push, necessari per enviar l’avís de pluja."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "alarma-de-lluvia-app-store"
+      ],
+      "detail": "L’etiqueta declara les dades d’ús com a dades utilitzades per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "alarma-de-lluvia-privacy"
+      ],
+      "detail": "La política diu que es fa servir l’identificador de publicitat i que el responsable d’aquest tractament és Google.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "alarma-de-lluvia-privacy"
+      ],
+      "detail": "La publicitat la serveix Google; no s’anomena cap altra xarxa.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "alarma-de-lluvia-privacy"
+      ],
+      "detail": "Hi ha publicitat personalitzada per defecte, però la política indica que a la configuració de l’aplicació es pot triar publicitat no personalitzada o comprar l’opció de treure els anuncis.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap elaboració de perfils pròpia; el perfilat publicitari, si n’hi ha, seria de Google."
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu res sobre l’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "alarma-de-lluvia-privacy"
+      ],
+      "detail": "L’únic tercer que anomena la política és Google, com a responsable de l’identificador de publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "alarma-de-lluvia-privacy"
+      ],
+      "detail": "Hi ha dos corresponsables declarats: Michael Diener - Software e.K. i Carlos Avilés - Software.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta cap venda de dades."
+    },
+    "internationalTransfers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "alarma-de-lluvia-privacy"
+      ],
+      "detail": "La política diu que les dades es desen a la Unió Europea. No parla de cap transferència fora de l’Espai Econòmic Europeu, tot i que la publicitat de Google en podria implicar.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "none"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "alarma-de-lluvia-privacy"
+      ],
+      "detail": "La política fixa un termini únic i concret: 180 dies des de l’últim ús.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "alarma-de-lluvia-privacy"
+      ],
+      "detail": "Si es deixa de fer servir l’aplicació, les dades s’esborren automàticament als 180 dies. La política no diu què passa amb les dades que ja ha rebut Google.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "ubicacio-precisa",
+        "period": "180 dies des de l’últim ús, amb supressió automàtica",
+        "sources": [
+          "alarma-de-lluvia-privacy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "alarma-de-lluvia-privacy"
+      ],
+      "detail": "No hi ha compte. Les dades associades al dispositiu s’esborren soles i també es poden reclamar per correu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "alarma-de-lluvia-privacy"
+      ],
+      "detail": "No hi ha cap botó d’esborrat, però la supressió automàtica als 180 dies no exigeix cap gestió.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "easy",
+    "requiresSupportContact": false,
+    "steps": [
+      "Desinstal·la l’aplicació o deixa de fer-la servir: les dades s’esborren automàticament 180 dies després de l’últim ús.",
+      "Si vols que s’esborrin abans, escriu a rainalarm@avilessoftware.com invocant el dret de supressió de l’article 17 del RGPD.",
+      "Per deixar de veure publicitat personalitzada sense desinstal·lar res, canvia l’opció corresponent a la configuració de l’aplicació o compra «Rain Alarm Pro+»."
+    ],
+    "dataRetained": "Res passats els 180 dies, segons la política. Les dades que ja hagi rebut Google es regeixen per la política de Google.",
+    "sources": [
+      "alarma-de-lluvia-privacy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta el dret de portabilitat."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "alarma-de-lluvia-privacy"
+      ],
+      "detail": "Hi ha una adreça específica per a qüestions de privadesa, però la política no enumera els drets del RGPD ni els terminis de resposta.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:rainalarm@avilessoftware.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "alarma-de-lluvia-privacy"
+      ],
+      "detail": "La configuració de l’aplicació permet triar entre publicitat personalitzada i no personalitzada, i una compra única treu els anuncis.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap analítica pròpia ni cap manera de desactivar-la."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "alarma-de-lluvia-privacy"
+      ],
+      "detail": "El control sobre la publicitat és clar; no n’hi ha cap sobre la ubicació més enllà dels permisos del sistema operatiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi de patrons foscos a l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Servei d’informació meteorològica; no hi ha comunicació privada entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu el xifratge de les comunicacions."
+    },
+    "atRestEncryption": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "alarma-de-lluvia-privacy"
+      ],
+      "detail": "La política no parla de xifratge, però sí que diu que les dades es desen pseudonimitzades i dins de la Unió Europea.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha compte que calgui protegir.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap auditoria."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap canal publicat per notificar vulnerabilitats."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "El producte és d’origen italià (Michael Diener - Software, Merano) i el publica a iOS un desenvolupador independent establert a Berlín, amb corresponsabilitat declarada entre tots dos. La política fixa un termini de conservació concret i diu explícitament on es desen les dades. La contradicció pendent és que l’etiqueta de l’App Store declara dades de publicitat vinculades a la identitat mentre la política afirma que les dades són pseudonimitzades.",
+    "openQuestions": [
+      "La cerca d’incidents no s’ha pogut completar: s’havia esgotat el pressupost de cerques web de la sessió. Cal repetir-la abans de donar per bo que no n’hi ha cap.",
+      "Per què l’etiqueta declara dades de publicitat vinculades a la identitat si la política diu que les dades són pseudonimitzades?",
+      "La publicitat de Google implica transferències fora de l’Espai Econòmic Europeu que la política no esmenta?"
+    ]
+  },
+  "appStoreBundleId": "com.avilessoftware.RainAlarm"
+}

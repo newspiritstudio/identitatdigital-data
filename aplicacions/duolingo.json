@@ -1,0 +1,625 @@
+{
+  "slug": "duolingo",
+  "name": "Duolingo",
+  "company": "duolingo",
+  "categories": [
+    "educacio"
+  ],
+  "tagline": "Perfil públic per defecte, publicitat personalitzada i gravació de sessions dins l’aplicació",
+  "summary": "Duolingo és l’aplicació educativa més descarregada. El perfil és públic per defecte i indexable des d’internet, la política declara vuit famílies de dades utilitzades per rastrejar la persona a través d’altres empreses, i l’activitat dins l’aplicació es grava amb eines de reproducció de sessió. Les funcions de conversa amb IA envien text i àudio a OpenAI i a Google, i Duolingo en desa transcripcions per entrenar els seus propis models. A la Unió Europea la publicitat personalitzada està desactivada per defecte.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Estats Units; Duolingo, Inc. és la responsable del tractament també a la UE",
+  "userBase": "Més de cent milions de persones usuàries actives al mes (Duolingo, 2026)",
+  "links": {
+    "website": "https://www.duolingo.com/",
+    "privacyPolicy": "https://www.duolingo.com/privacy",
+    "appStore": "https://apps.apple.com/es/app/id570060128"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "duolingo-privacy-policy"
+    ],
+    "detail": "Cal registrar-se amb nom d’usuari, edat i adreça electrònica, o bé amb un compte de Google o de Facebook.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "duolingo-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "La ratxa diària, les hores de connexió, la llengua que s’aprèn, els contactes del telèfon i l’adreça IP permeten reconstruir amb precisió la rutina d’una persona. A més, el nom, la biografia i la xarxa de seguidors del perfil són visibles a tot internet si no es canvia la configuració.",
+  "dataCollection": [
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "duolingo-privacy-policy",
+        "duolingo-app-store-privacy"
+      ]
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "duolingo-privacy-policy"
+      ],
+      "note": "El nom forma part del perfil públic, visible per defecte a tot internet."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "duolingo-privacy-policy"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "duolingo-privacy-policy"
+      ],
+      "note": "A alguns països es demana durant el registre i permet que altres persones et trobin."
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "compliment-legal"
+      ],
+      "sources": [
+        "duolingo-privacy-policy"
+      ],
+      "note": "L’edat determina si el compte rep el tractament reforçat per a menors."
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "duolingo-privacy-policy"
+      ],
+      "note": "La sincronització de contactes desa només un resum criptogràfic dels telèfons, no els números."
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "entrenament-de-models-dia",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "duolingo-privacy-policy"
+      ],
+      "note": "L’àudio va a Google, Apple o Amazon per reconèixer la parla; es pot excloure de la millora del producte a la configuració."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "duolingo-app-store-privacy"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "duolingo-privacy-policy",
+        "duolingo-app-store-privacy"
+      ],
+      "note": "FullStory i Session Replay graven clics, desplaçaments i respostes; es poden desactivar amb el commutador «Tracking»."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "duolingo-app-store-privacy"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "duolingo-app-store-privacy"
+      ],
+      "note": "El cobrament passa per Stripe o per la botiga d’aplicacions."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "duolingo-app-store-privacy",
+        "duolingo-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "duolingo-privacy-policy"
+      ],
+      "note": "Es conserva un màxim de trenta dies, llevat de comptes amb mitjà de pagament."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "duolingo-app-store-privacy"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "duolingo-privacy-policy"
+      ],
+      "note": "Unity, Meta, LiftOff, Pangle, Moloco i Google figuren com a xarxes publicitàries."
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "duolingo-privacy-policy"
+      ],
+      "note": "La política reconeix galetes de segmentació de Google, Meta i Amazon."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "duolingo-app-store-privacy"
+      ]
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "duolingo-app-store-privacy"
+      ],
+      "note": "Fotografia de perfil i adjunts a l’atenció a l’usuari."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "duolingo-app-store-privacy",
+        "duolingo-privacy-policy"
+      ],
+      "detail": "L’etiqueta declara compres, ubicació, contacte, contingut d’usuari, identificadors, ús, diagnòstics i «altres dades» com a dades utilitzades per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "duolingo-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "duolingo-privacy-policy"
+      ],
+      "detail": "Xarxes publicitàries (Unity, Meta, LiftOff, Pangle, Moloco, Google), analítica (Google Analytics, Crashlytics) i reproducció de sessió (FullStory).",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "duolingo-privacy-policy"
+      ],
+      "detail": "A la Unió Europea i el Regne Unit la publicitat personalitzada està desactivada per defecte i cal activar-la expressament.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://www.duolingo.com/settings/account"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "duolingo-privacy-policy"
+      ],
+      "detail": "Les xarxes publicitàries elaboren perfils d’interessos a partir de l’ús del servei i d’altres llocs.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "duolingo-privacy-policy"
+      ],
+      "detail": "Duolingo desa gravacions i transcripcions de les funcions de conversa i les fa servir per entrenar models propis; les dades anonimitzades es poden reutilitzar sense límit.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "duolingo-privacy-policy"
+      ],
+      "detail": "Allotjament (AWS), reconeixement de veu (Google, Apple, AWS), models d’IA (OpenAI, Google), suport (Zendesk), pagaments (Stripe) i moderació de continguts.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Duolingo, Inc. no forma part de cap grup amb altres serveis de consum.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "duolingo-privacy-policy"
+      ],
+      "detail": "La política no preveu la venda de dades a intermediaris, però sí la compartició amb xarxes publicitàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "duolingo-privacy-policy"
+      ],
+      "detail": "Totes les dades es tracten als Estats Units a l’empara del Marc de Privadesa de Dades UE-EUA.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "adequacy"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe periòdic sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "duolingo-privacy-policy"
+      ],
+      "detail": "Només hi ha un termini concret: l’adreça IP es conserva un màxim de trenta dies. La resta es guarda «fins que s’elimina el compte».",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "duolingo-privacy-policy"
+      ],
+      "detail": "Es poden conservar dades per defensar interessos legítims o complir obligacions legals, i les dades anonimitzades s’hi queden indefinidament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "adreca-ip",
+        "period": "Trenta dies, excepte en comptes amb mitjà de pagament associat",
+        "sources": [
+          "duolingo-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "duolingo-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "duolingo-privacy-policy"
+      ],
+      "detail": "La supressió del compte i l’accés a les dades es fan des del Duolingo Data Vault, sense passar per atenció al client.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://drive-thru.duolingo.com/",
+    "difficulty": "easy",
+    "steps": [
+      "Entra al Duolingo Data Vault (drive-thru.duolingo.com) amb el compte que vols eliminar.",
+      "Tria si vols descarregar una còpia de les dades abans de suprimir-les.",
+      "Demana l’eliminació del compte i confirma-la.",
+      "Si tens una subscripció Super activa, cancel·la-la abans a l’App Store o a Google Play: eliminar el compte no atura el cobrament."
+    ],
+    "dataRetained": "Dades necessàries per complir obligacions legals o defensar reclamacions, i dades anonimitzades sense termini.",
+    "sources": [
+      "duolingo-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "duolingo-privacy-policy"
+      ],
+      "detail": "El Data Vault permet exportar les dades aportades en un format transferible electrònicament.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://drive-thru.duolingo.com/"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "duolingo-privacy-policy"
+      ],
+      "detail": "Delegat de protecció de dades amb adreça pròpia.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacy@duolingo.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "duolingo-privacy-policy"
+      ],
+      "detail": "Hi ha un control dins de la configuració; a la UE ja ve desactivat i cal optar-hi expressament.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.duolingo.com/settings/account"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "duolingo-privacy-policy"
+      ],
+      "detail": "El commutador «Tracking» de la configuració atura FullStory i Session Replay, i hi ha un control separat per no cedir l’àudio per a la millora del producte. L’analítica bàsica no es pot desactivar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "duolingo-privacy-policy"
+      ],
+      "detail": "Perfil públic o privat, sincronització de contactes, àudio, publicitat personalitzada i notificacions tenen controls separats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [
+        "duolingo-privacy-policy"
+      ],
+      "detail": "El perfil és públic per defecte i la política admet que qualsevol web o robot d’extracció en pot llegir el contingut. Per canviar-ho, cal saber-ho i entrar a la configuració.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "preselected",
+        "severity": "medium",
+        "description": "El perfil és públic i visible a tot internet per defecte; convertir-lo en privat exigeix entrar a la configuració del compte.",
+        "sources": [
+          "duolingo-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no transporta comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu les mesures tècniques de protecció."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública sobre el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació oficial sobre verificació en dos passos per als comptes."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories de seguretat independents publicades del servei de consum."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Les referències a un programa privat a HackerOne no estan confirmades per cap document de Duolingo."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "duolingo-privacy-policy"
+      ],
+      "detail": "No hi ha ni security.txt ni pàgina de seguretat; l’únic canal documentat és l’adreça de privadesa.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "knowunity",
+      "comparability": "complementary",
+      "rationale": "Cobreix estudi escolar amb IA en lloc d’idiomes, amb responsable establert a la Unió Europea.",
+      "tradeOffs": "Knowunity també fa publicitat personalitzada i té una xarxa de tercers més llarga."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La política és de les més clares que hem llegit en tota l’onada: diu els noms de les xarxes publicitàries, explica el resum criptogràfic dels contactes i reconeix la gravació de sessions. Tot i ser clara, declara molts tractaments.",
+    "openQuestions": [
+      "Duolingo ofereix verificació en dos passos als comptes normals? No hem trobat documentació oficial.",
+      "Quin percentatge de comptes europeus ha activat la publicitat personalitzada, que hi arriba desactivada?"
+    ]
+  },
+  "appStoreBundleId": "com.duolingo.DuolingoMobile"
+}

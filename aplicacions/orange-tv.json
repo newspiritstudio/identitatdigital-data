@@ -1,0 +1,456 @@
+{
+  "slug": "orange-tv",
+  "name": "Orange TV",
+  "company": "orange-espagne",
+  "categories": [
+    "video-i-streaming",
+    "telecomunicacions"
+  ],
+  "tagline": "Televisió d’operadora que declara identificadors per rastrejar fora d’Orange",
+  "summary": "Orange TV és per a la clientela d’Orange i el compte de televisió és el compte de la línia, de manera que el que mires queda al costat de les dades de facturació i de consum de l’operadora. L’etiqueta de l’App Store declara identificadors utilitzats per rastrejar-te en aplicacions i webs d’altres empreses, i publicitat de tercers, cosa poc habitual en una aplicació de televisió inclosa a la quota.",
+  "platforms": [
+    "ios",
+    "android",
+    "web",
+    "other"
+  ],
+  "businessModel": "subscription",
+  "jurisdiction": "Espanya",
+  "userBase": "Servei de televisió de MasOrange, el primer operador espanyol per nombre de línies",
+  "links": {
+    "website": "https://www.orange.es/television",
+    "privacyPolicy": "https://www.orange.es/politicaproteccionmiorange",
+    "appStore": "https://apps.apple.com/es/app/id690042828"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "orange-tv-app-store"
+    ],
+    "detail": "L’aplicació és per a la clientela d’Orange i cal identificar-se amb les credencials de la línia.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "orange-tv-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "L’historial de visualització televisiva pot indicar conviccions polítiques i religioses i hàbits domèstics. Aquí va lligat a un compte d’operadora que té la identitat, l’adreça, la facturació i el consum de la persona.",
+  "dataCollection": [
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "orange-tv-app-store",
+        "orange-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "orange-tv-app-store"
+      ],
+      "note": "L’etiqueta declara «otros datos de contacto del usuario» vinculats a la identitat."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "orange-tv-app-store"
+      ],
+      "note": "Declarat sota «publicidad de terceros»."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "orange-tv-app-store"
+      ],
+      "note": "L’etiqueta inclou identificadors a l’apartat de dades utilitzades per rastrejar-te."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "orange-tv-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-visualitzacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "orange-tv-app-store"
+      ],
+      "note": "L’etiqueta declara la personalització del producte a partir de les dades d’ús; en una aplicació de televisió, això és l’historial del que es mira."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "orange-tv-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "orange-privacy-policy"
+      ],
+      "note": "El servei es factura amb la línia; la política general parla de dades de facturació i de consum."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "unknown",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "sources": [
+        "orange-privacy-policy"
+      ],
+      "note": "La política general d’Orange preveu el tractament de dades d’ubicació amb consentiment, però no es pot confirmar si Orange TV les fa servir."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "unknown",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "note": "No hi ha cap document públic d’Orange TV que ho detalli."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "orange-tv-app-store"
+      ],
+      "detail": "L’etiqueta declara identificadors que poden fer-se servir per rastrejar-te en aplicacions i llocs web propietat d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "orange-tv-app-store"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "orange-tv-app-store"
+      ],
+      "detail": "L’etiqueta inclou una finalitat de «publicidad de terceros».",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "orange-tv-app-store"
+      ],
+      "detail": "L’etiqueta declara identificadors per a publicitat de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "orange-tv-app-store",
+        "orange-privacy-policy"
+      ],
+      "detail": "L’etiqueta declara una finalitat de personalització del producte; la política general parla de descomptes i promocions personalitzats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Cap document públic d’Orange no diu si les dades de visualització s’utilitzen per entrenar models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "orange-tv-app-store"
+      ],
+      "detail": "Publicitat de tercers declarada a l’etiqueta de l’App Store.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "orange-privacy-policy"
+      ],
+      "detail": "La política d’Orange preveu el tractament dins de l’organització, però no publica la llista de societats de MasOrange que hi accedeixen.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap venda de dades a intermediaris."
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política de Mi Orange no descriu transferències internacionals ni els mecanismes que hi aplicaria."
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem localitzat cap informe de transparència d’Orange España sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "orange-privacy-policy"
+      ],
+      "detail": "La política indica que les dades es conserven durant la relació contractual i, després, durant els terminis de prescripció, sense concretar-ne cap per categoria.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "orange-privacy-policy"
+      ],
+      "detail": "Un cop acabat el contracte, les dades es mantenen fins que prescriuen les possibles responsabilitats.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "orange-privacy-policy"
+      ],
+      "detail": "No hi ha un compte d’Orange TV independent: donar-se de baixa vol dir cancel·lar el servei de televisió o el contracte amb l’operadora, i exercir després el dret de supressió.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap opció documentada d’eliminació del compte dins de l’aplicació ni de l’àrea de client."
+    },
+    "difficulty": "unknown",
+    "requiresSupportContact": true,
+    "steps": [
+      "Cancel·la el servei de televisió o el contracte des de l’àrea de client d’Orange o per telèfon.",
+      "Exerceix el dret de supressió escrivint a orangeproteccion.datos@es.orange.com amb la referència «Oficina DPO» i una còpia del document identificatiu.",
+      "Guarda la confirmació; si no hi ha resposta dins de termini, es pot reclamar davant de l’AEPD."
+    ],
+    "obstacles": "L’aplicació no té un compte propi, de manera que la sortida passa sempre per la baixa contractual i pel canal escrit de protecció de dades.",
+    "sources": [
+      "orange-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "orange-privacy-policy"
+      ],
+      "detail": "La política reconeix el dret de portabilitat, però només per la via del correu a l’oficina de protecció de dades.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:orangeproteccion.datos@es.orange.com"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "orange-privacy-policy"
+      ],
+      "detail": "Canal escrit amb el delegat de protecció de dades, amb còpia del document identificatiu.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:orangeproteccion.datos@es.orange.com",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem localitzat cap panell de preferències publicitàries específic d’Orange TV."
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’aplicació no documenta cap opció per desactivar la telemetria."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap panell de privadesa per finalitat dins de l’aplicació."
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut revisar els fluxos de consentiment de l’aplicació amb prou detall."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei distribueix continguts audiovisuals; no transporta comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Orange no publica documentació tècnica sobre el xifratge del servei de televisió."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta si l’accés a Orange TV admet un segon factor."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories independents publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses ni cap fitxer security.txt a orange.es."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap política pública de divulgació de vulnerabilitats localitzable a orange.es."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "movistar-plus",
+      "comparability": "partial",
+      "rationale": "Televisió d’operadora equivalent en catàleg i funcionament, amb la mateixa lògica de compte lligat a la línia.",
+      "tradeOffs": "No millora la privadesa; només canvia l’operadora que acumula l’historial de visualització."
+    },
+    {
+      "app": "netflix",
+      "comparability": "partial",
+      "rationale": "Servei de vídeo sota demanda independent de l’operadora, amb un compte que es pot eliminar sense trencar cap contracte de telefonia.",
+      "tradeOffs": "No inclou canals en directe ni esdeveniments esportius."
+    }
+  ],
+  "review": {
+    "researchStatus": "initial",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La fitxa es basa sobretot en l’etiqueta de l’App Store, perquè Orange no publica cap política de privadesa específica d’Orange TV: l’enllaç que declara la mateixa fitxa de l’App Store (orange.es/politicaproteccion.html) no resol.",
+    "openQuestions": [
+      "Orange TV té una política de privadesa pròpia o es regeix per la de la línia?",
+      "Amb quins tercers publicitaris comparteix els identificadors del televisor i de l’aplicació?",
+      "Es pot desactivar la publicitat personalitzada des de l’àrea de client?"
+    ]
+  },
+  "appStoreBundleId": "com.orange.sp.tve"
+}

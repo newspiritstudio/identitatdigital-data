@@ -1,0 +1,717 @@
+{
+  "slug": "nextdoor",
+  "name": "Nextdoor",
+  "company": "nextdoor-emea",
+  "categories": [
+    "comunitats-i-forums",
+    "xarxes-socials",
+    "noticies-i-mitjans"
+  ],
+  "tagline": "Una xarxa social on el compte va lligat a una adreça postal verificada amb registres públics",
+  "summary": "Per fer servir Nextdoor cal verificar l’adreça, que l’empresa contrasta amb registres públics, dades de tercers, codis postals o geolocalització. La mateixa adreça serveix per al negoci publicitari, que segmenta per barri i per llar amb dades comprades a socis. La política admet també que es recullen dades de persones que no tenen compte, a partir de les agendes de contactes que hi sincronitzen els veïns.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "advertising",
+  "jurisdiction": "Irlanda (per a l’Espai Econòmic Europeu)",
+  "links": {
+    "website": "https://nextdoor.com/",
+    "privacyPolicy": "https://help.nextdoor.com/s/article/Privacy-Policy-2026",
+    "appStore": "https://apps.apple.com/es/app/id640360962"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "nextdoor-privacy-policy"
+    ],
+    "detail": "Cal registre i verificació de l’adreça per participar; sense compte només es veuen parts limitades del servei.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "nextdoor-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "L’adreça de casa, la llista de contactes i el que preguntes al barri componen un perfil de llar que Nextdoor pot creuar amb dades d’anunciants sobre compres i visites a botigues.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "nextdoor-app-store",
+        "nextdoor-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "nextdoor-app-store",
+        "nextdoor-privacy-policy"
+      ],
+      "note": "El correu xifrat es comparteix amb socis publicitaris per crear audiències similars."
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "nextdoor-app-store",
+        "nextdoor-privacy-policy"
+      ],
+      "note": "Es verifica contra registres públics, cadastres, dades de canvi de domicili i proveïdors de dades."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "nextdoor-app-store",
+        "nextdoor-privacy-policy"
+      ],
+      "note": "Es pot compartir amb operadores de telecomunicacions per confirmar la identitat."
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "nextdoor-app-store",
+        "nextdoor-privacy-policy"
+      ],
+      "note": "Si sincronitzes l’agenda, Nextdoor tracta dades de persones que no són membres."
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "compliment-legal"
+      ],
+      "sources": [
+        "nextdoor-privacy-policy"
+      ],
+      "note": "Obligatòria en algunes jurisdiccions per verificar l’edat."
+    },
+    {
+      "type": "genere",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "nextdoor-privacy-policy"
+      ]
+    },
+    {
+      "type": "origen-etnic-o-nacionalitat",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "investigacio-i-estadistica"
+      ],
+      "sources": [
+        "nextdoor-privacy-policy",
+        "nextdoor-app-store"
+      ],
+      "note": "L’etiqueta de l’App Store declara «datos sensibles» per a analítica; la política diu que només s’usen per detectar biaixos."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "nextdoor-app-store",
+        "nextdoor-privacy-policy"
+      ],
+      "note": "Serveix per confirmar l’adreça i per etiquetar publicacions."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "nextdoor-app-store",
+        "nextdoor-privacy-policy"
+      ],
+      "note": "Es dedueix de l’adreça IP quan no es concedeix la ubicació precisa."
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "nextdoor-app-store",
+        "nextdoor-privacy-policy"
+      ],
+      "note": "Les publicacions poden ser visibles per a empreses, administracions, visitants i cercadors."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "nextdoor-privacy-policy"
+      ]
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "nextdoor-app-store",
+        "nextdoor-privacy-policy"
+      ],
+      "note": "Les metadades dels fitxers poden quedar accessibles a qui hi tingui accés."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "nextdoor-app-store",
+        "nextdoor-privacy-policy"
+      ],
+      "note": "Una cerca de «lampista» pot activar anuncis del sector."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "nextdoor-app-store",
+        "nextdoor-privacy-policy"
+      ],
+      "note": "Els cobraments els tracta directament Stripe."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "nextdoor-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "nextdoor-app-store",
+        "nextdoor-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "nextdoor-privacy-policy"
+      ]
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "nextdoor-privacy-policy"
+      ],
+      "note": "Inclou memòria, ús de processador, bateria i operadora."
+    },
+    {
+      "type": "xarxa-i-connectivitat",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "nextdoor-privacy-policy"
+      ]
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "nextdoor-privacy-policy"
+      ],
+      "note": "Anunciants i socis poden aportar informació sobre compres anteriors o visites a botigues."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "nextdoor-app-store",
+        "nextdoor-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "nextdoor-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "nextdoor-app-store",
+        "nextdoor-privacy-policy"
+      ],
+      "detail": "L’etiqueta declara dades de contacte, identificadors i dades d’ús per rastrejar; la política descriu socis publicitaris que recullen dades al llarg del temps en altres serveis.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "nextdoor-privacy-policy"
+      ],
+      "detail": "Es comparteixen correus xifrats i identificadors publicitaris amb els socis.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "nextdoor-privacy-policy"
+      ],
+      "detail": "Xarxes publicitàries de tercers, amb la publicitat de Bing de Microsoft esmentada expressament.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "nextdoor-privacy-policy",
+        "nextdoor-eu-notice"
+      ],
+      "detail": "A la UE la publicitat personalitzada es basa en el consentiment i es pot revocar; sense consentiment continuen els anuncis no personalitzats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "nextdoor-privacy-policy"
+      ],
+      "detail": "Perfils de persona i de llar amb dades pròpies, de socis i de fonts públiques.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "nextdoor-privacy-policy"
+      ],
+      "detail": "La política cita proveïdors d’intel·ligència artificial generativa entre els encarregats, però no diu que s’entrenin models amb el contingut.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "nextdoor-privacy-policy"
+      ],
+      "detail": "Anunciants, socis de reserva de serveis, proveïdors de verificació, operadores, Stripe, assessors professionals i autoritats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "nextdoor-privacy-policy"
+      ],
+      "detail": "Entre Nextdoor Holdings, Nextdoor Inc. i les filials europees, canadenca i australiana.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "nextdoor-privacy-policy"
+      ],
+      "detail": "No descriu vendes, però sí la compra de dades a proveïdors i anunciants sobre membres i llars.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "nextdoor-eu-notice",
+        "nextdoor-privacy-policy"
+      ],
+      "detail": "Transferències als Estats Units a l’empara del Data Privacy Framework o de clàusules contractuals tipus.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "adequacy"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència periòdic."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "nextdoor-privacy-policy"
+      ],
+      "detail": "Només criteris generals: el temps necessari per prestar el servei o per complir obligacions legals.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "nextdoor-privacy-policy"
+      ],
+      "detail": "Es poden conservar dades per complir obligacions legals, resoldre disputes o aplicar les condicions.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "nextdoor-privacy-policy",
+        "nextdoor-eu-notice"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "nextdoor-privacy-policy"
+      ],
+      "detail": "La política diu que el compte s’elimina des de la configuració del compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "directUrl": "https://help.nextdoor.com/s/article/Privacy-Policy-2026",
+    "steps": [
+      "Abans d’esborrar res, demana la còpia de les teves dades des del web (Settings → Account Settings → «Request my information»).",
+      "A la mateixa pàgina de configuració del compte, tria l’opció d’eliminar el compte.",
+      "Recorda que les publicacions que hagin estat indexades per cercadors poden quedar en memòria cau de tercers durant un temps."
+    ],
+    "obstacles": "Les dades que altres veïns hagin compartit sobre tu, o que hagin pujat sincronitzant l’agenda, no desapareixen amb el teu compte.",
+    "dataRetained": "Dades necessàries per a obligacions legals, disputes i aplicació de les condicions.",
+    "sources": [
+      "nextdoor-privacy-policy",
+      "nextdoor-download-data"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "nextdoor-download-data"
+      ],
+      "detail": "Fitxer amb publicacions, comentaris, missatges directes, perfil i activitat; només des del web i amb un enllaç que caduca en 7 dies.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "nextdoor-eu-notice"
+      ],
+      "detail": "Nextdoor EMEA Limited (Cork) com a responsable, amb delegat de protecció de dades i reclamació a la Data Protection Commission irlandesa.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dpo@nextdoor.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "nextdoor-eu-notice"
+      ],
+      "detail": "El consentiment per a la publicitat personalitzada es pot retirar des dels ajustos; llavors es veuen anuncis no personalitzats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "nextdoor-privacy-policy"
+      ],
+      "detail": "El consentiment de galetes es gestiona des de la política de galetes; la política reconeix que no s’atén el senyal Do Not Track.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "nextdoor-privacy-policy"
+      ],
+      "detail": "Es pot triar la visibilitat de cada publicació (barri, barris propers, qualsevol o grups) i quanta informació del perfil es mostra.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "nextdoor-privacy-policy"
+      ],
+      "detail": "Els missatges directes es tracten als servidors de Nextdoor i es poden revisar per moderació i per requeriment legal.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "nextdoor-privacy-policy"
+      ],
+      "detail": "La política diu que s’usa HTTPS a totes les pàgines.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "nextdoor-2fa"
+      ],
+      "detail": "Verificació en dos passos per codi per correu o SMS; no hi ha aplicació d’autenticació ni clau física.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "email",
+        "sms"
+      ]
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "nextdoor-security-txt"
+      ],
+      "detail": "Programa a HackerOne que el mateix security.txt descriu com a privat i només accessible per invitació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "nextdoor-security-txt"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://nextdoor.com/.well-known/security.txt"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "eagora",
+      "comparability": "partial",
+      "rationale": "Cobreix la informació del municipi sense demanar una adreça verificada ni vendre publicitat segmentada.",
+      "tradeOffs": "No té conversa entre veïns ni mercat de segona mà."
+    },
+    {
+      "app": "wallapop",
+      "comparability": "complementary",
+      "rationale": "Per a la compravenda entre veïns, que és un dels usos habituals de Nextdoor."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "La política del 2026 i l’avís per a la UE i el Regne Unit són detallats. La combinació d’adreça verificada, agendes sincronitzades i dades comprades a anunciants dona un perfil de tota la llar, a més del de la persona.",
+    "openQuestions": [
+      "Quants dies es conserven les dades després d’eliminar el compte?",
+      "Quin és el procediment exacte d’eliminació dins de l’aplicació mòbil?",
+      "Hi ha sancions o filtracions documentades? No hem pogut fer la cerca d’incidents."
+    ]
+  },
+  "appStoreBundleId": "com.nextdoor.nextdoor"
+}

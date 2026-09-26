@@ -1,0 +1,609 @@
+{
+  "slug": "anystories",
+  "name": "AnyStories",
+  "company": "read-asap",
+  "categories": [
+    "llibres-i-lectura",
+    "comunitats-i-forums"
+  ],
+  "tagline": "Novel·la per capítols des de les Illes Verges Britàniques, amb la llei de Hong Kong com a norma aplicable i el contingut públic per defecte",
+  "summary": "AnyStories ofereix milers de novel·les romàntiques i fantàstiques que es desbloquegen amb monedes. La política reconeix sis societats diferents entre responsables i col·laboradores, situades a les Illes Verges Britàniques, Hong Kong i el Regne Unit, sotmet la relació als tribunals de Hong Kong i barreja referències a la llei britànica, al RGPD i a «England and Wales» sense cap responsable ni representant a la Unió Europea. Diu també que el valor per defecte és fer públic el que s’hi publica i que la baixa només es pot demanar per correu, amb sis mesos de desactivació abans de l’esborrat.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Illes Verges Britàniques i Hong Kong (fora de la UE)",
+  "links": {
+    "website": "https://www.anystories.app/",
+    "privacyPolicy": "https://www.anystories.app/protocol.html?packageName=write.read.story.webnovel.book.anystories&appName=AnyStories&os=ios&lang=en&keys=privacy-policy",
+    "appStore": "https://apps.apple.com/es/app/id1500217654"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "anystories-privacy-policy"
+    ],
+    "detail": "Es pot navegar sense compte («If you’re just browsing our Site, we don’t collect any Personal Information about you»), però cal correu, nom d’usuari, data de naixement i contrasenya per llegir i publicar.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "anystories-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "El catàleg és de romàntica, fantasia i temàtica LGBTIQ+, i el que s’hi llegeix i comenta pot revelar orientació sexual o interessos que la persona no faria públics. La política diu que el comportament per defecte és fer públic gairebé tot el que s’hi aporta i que amb els socis publicitaris es comparteixen l’adreça IP, l’identificador publicitari, la versió del dispositiu, el codi de país i el tipus de xarxa.",
+  "dataCollection": [
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "anystories-privacy-policy",
+        "anystories-app-store"
+      ],
+      "note": "Obligatòria per registrar-se. L’etiqueta de l’App Store la declara com a dada NO vinculada amb la identitat, cosa que contradiu la política."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "anystories-app-store",
+        "anystories-privacy-policy"
+      ],
+      "note": "Nom d’usuari, visible per a la resta de la comunitat."
+    },
+    {
+      "type": "contrasenya",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "anystories-privacy-policy"
+      ]
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "compliment-legal"
+      ],
+      "sources": [
+        "anystories-privacy-policy"
+      ],
+      "note": "La política prohibeix el servei als menors de 13 anys."
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "anystories-privacy-policy"
+      ],
+      "note": "El nom real és voluntari i es mostra al perfil."
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "anystories-privacy-policy"
+      ],
+      "note": "Històries i comentaris. «Our default is almost always to make the information you provide through AnyStories public.» Després de la baixa queden publicats, anonimitzats."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "anystories-privacy-policy"
+      ],
+      "note": "La política diu que amb els socis publicitaris es comparteixen «your IP, GAID, device version, country code, and network type»."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "anystories-app-store",
+        "anystories-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "anystories-privacy-policy"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "anystories-privacy-policy"
+      ],
+      "note": "Galetes, píxels i «clear gifs». La política admet que els anunciants hi posen galetes pròpies sobre les quals no té cap control."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "anystories-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "anystories-app-store",
+        "anystories-privacy-policy"
+      ],
+      "note": "Compres de monedes i de subscripcions."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "anystories-privacy-policy"
+      ],
+      "note": "La política diu que, si es paga amb un tercer, el número de targeta es dona directament a aquell proveïdor."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "anystories-app-store",
+        "anystories-privacy-policy"
+      ],
+      "note": "Pàgines visitades i esdeveniments; la política diu que se’n fan inferències «like what topics you may be interested in» per personalitzar també els anuncis."
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "anystories-privacy-policy"
+      ],
+      "note": "Tipus de navegador, sistema operatiu i versió del dispositiu."
+    },
+    {
+      "type": "xarxa-i-connectivitat",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "anystories-privacy-policy"
+      ],
+      "note": "El tipus de xarxa es cedeix als socis publicitaris."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "anystories-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "anystories-app-store",
+        "anystories-privacy-policy"
+      ],
+      "detail": "L’etiqueta declara els identificadors com a dades per rastrejar; la política admet anuncis personalitzats basats en l’activitat «over time and across other websites and online services».",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "anystories-privacy-policy"
+      ],
+      "detail": "La política cita el GAID entre les dades que es cedeixen als socis publicitaris; no anomena l’equivalent d’Apple.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "anystories-privacy-policy"
+      ],
+      "detail": "Socis publicitaris i d’analítica no identificats pel nom, amb galetes pròpies sobre les quals l’empresa diu no tenir «access to, or control over».",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "anystories-privacy-policy"
+      ],
+      "detail": "Anuncis personalitzats servits per tercers a partir de dades demogràfiques, d’ús i d’activitat, amb informes de rendiment per als anunciants.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "anystories-privacy-policy"
+      ],
+      "detail": "Diu que fa inferències sobre els temes que poden interessar per personalitzar el contingut i els anuncis, i per «optimize the algorithm».",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no en parla, tot i que la fitxa de l’App Store anuncia llistes de lectura personalitzades amb intel·ligència artificial."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "anystories-privacy-policy"
+      ],
+      "detail": "Proveïdors de correu i de servidors, socis publicitaris i d’analítica, i cessions per obligació legal o en cas de fusió o venda.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "anystories-privacy-policy"
+      ],
+      "detail": "La política presenta READ ASAP LTD i HONGKONG ZHONGHE CO., LIMITED com a entitats afiliades que presten el servei, i n’afegeix quatre més com a col·laboradores.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "anystories-privacy-policy"
+      ],
+      "detail": "Afirma «We do not sell any of your information to anyone» i que no lloga ni ven informació personal si no és anonimitzada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "anystories-privacy-policy"
+      ],
+      "detail": "Serveis prestats des de Singapur i servidors als Estats Units. No invoca cap mecanisme del RGPD: es basa en una autorització de la mateixa persona usuària i adverteix que les proteccions poden no ser equivalents.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "derogation"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "anystories-privacy-policy"
+      ],
+      "detail": "L’únic termini concret és la desactivació de sis mesos abans de l’esborrat definitiu; per a la resta invoca interessos legítims, prevenció del frau i obligacions fiscals sense xifres.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "anystories-privacy-policy"
+      ],
+      "detail": "Els comentaris i les aportacions públiques es queden al servei, anonimitzats, també després de l’esborrat definitiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "identificador-de-compte",
+        "period": "Sis mesos de desactivació abans de l’esborrat definitiu",
+        "sources": [
+          "anystories-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "anystories-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "anystories-privacy-policy"
+      ],
+      "detail": "La política diu alhora que es té «the ability to delete your Account» i que per tancar-lo cal escriure a legal@AnyStories.app; no descriu cap botó concret.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "hard",
+    "waitingPeriodDays": 180,
+    "requiresSupportContact": true,
+    "steps": [
+      "Escriu a legal@AnyStories.app des de l’adreça del compte i demana el tancament i la supressió de les dades.",
+      "El compte queda desactivat sis mesos: durant aquest temps es pot restaurar.",
+      "Passats els sis mesos, l’empresa diu que esborra les dades personals, però els comentaris i les històries publicades es queden al servei anonimitzats."
+    ],
+    "obstacles": "La baixa passa per un correu que s’avalua «case by case», i l’empresa es reserva conservar dades per prevenció del frau i obligacions legals.",
+    "dataRetained": "Comentaris i aportacions públiques anonimitzades, i les dades que l’empresa consideri necessàries per a la detecció del frau i les obligacions fiscals i comptables.",
+    "sources": [
+      "anystories-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política reconeix l’accés i la rectificació per correu, però no esmenta cap descàrrega ni la portabilitat."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "anystories-privacy-policy"
+      ],
+      "detail": "Per correu a legal@AnyStories.app o a support@anystories.app, que és alhora l’adreça del «Data Protection Officer». No hi ha cap formulari ni cap termini de resposta, i el text no identifica cap autoritat de control.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:support@anystories.app"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "anystories-privacy-policy"
+      ],
+      "detail": "La política no ofereix cap manera de desactivar la publicitat personalitzada: diu que qui no hi estigui d’acord no accepti la política i no faci servir el servei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No descriu cap control sobre l’analítica."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "anystories-privacy-policy"
+      ],
+      "detail": "Es pot fer pública o privada part de la informació del perfil des de la configuració i cancel·lar les subscripcions al correu, però els correus de sistema i els avisos legals continuen arribant.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "anystories-privacy-policy"
+      ],
+      "detail": "El consentiment és de tot o res: «By accessing or using the AnyStories website and application, you are consenting that you unconditionally accept this Privacy Policy.» A més, el valor per defecte és publicar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "unbalanced-consent",
+        "severity": "high",
+        "description": "L’únic camí per no acceptar la publicitat personalitzada i les transferències internacionals és deixar de fer servir el servei; la política ho diu explícitament.",
+        "sources": [
+          "anystories-privacy-policy"
+        ]
+      },
+      {
+        "type": "hidden-exit",
+        "severity": "medium",
+        "description": "La baixa no es documenta com a opció de l’app: cal escriure a una adreça de correu i esperar sis mesos de desactivació.",
+        "sources": [
+          "anystories-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És un catàleg de lectura i comentaris públics; no hi ha comunicacions privades que puguin anar xifrades d’extrem a extrem.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "anystories-privacy-policy"
+      ],
+      "detail": "Diu que s’aplica xifratge a totes les transmissions: «we support encryption on all transmissions to protect Personal Information submitted on our Site».",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Només parla de mesures físiques, organitzatives, contractuals i tecnològiques en termes generals."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap canal per comunicar vulnerabilitats."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "wattpad",
+      "comparability": "equivalent",
+      "rationale": "Cobreix la mateixa necessitat (llegir i publicar novel·la per capítols amb una comunitat al voltant) amb una empresa sotmesa a la legislació canadenca i amb representació europea.",
+      "tradeOffs": "També es finança amb publicitat i monedes, i el catàleg no és el mateix."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La política barreja marcs legals: invoca la Data Protection Act britànica del 2018 i el RGPD «until such time as it might cease to apply in the HK», parla de clients residents fora d’«England and Wales» i alhora sotmet tot el contracte a la llei de Hong Kong. No hi ha responsable ni representant a la Unió Europea, i el «Data Protection Officer» és la mateixa bústia d’atenció general. La pàgina web de la política es carrega per JavaScript des d’una API de tercers (api.novelago.vip); l’hem llegida des d’aquesta API. Cap dels dominis del servei no consta a la llista de filtracions de Have I Been Pwned.",
+    "openQuestions": [
+      "Quines xarxes publicitàries concretes integra l’app i com es demana el permís d’App Tracking Transparency?",
+      "Per què l’etiqueta de l’App Store declara el correu i l’identificador d’usuari com a dades no vinculades amb la identitat si la política descriu un compte?",
+      "Hi ha cap reclamació davant d’una autoritat europea contra READ ASAP LTD?"
+    ]
+  },
+  "appStoreBundleId": "write.read.story.webnovel.book.anystories"
+}

@@ -1,0 +1,527 @@
+{
+  "slug": "epic-games",
+  "name": "Epic Games",
+  "company": "epic-games-inc",
+  "categories": [
+    "utilitats"
+  ],
+  "tagline": "Botiga alternativa que diu que no ven dades ni fa publicitat segmentada, amb una condemna de la FTC del 2022",
+  "summary": "La botiga d’Epic va arribar a l’iPhone a la Unió Europea gràcies a la Llei de mercats digitals. La política és inusualment restrictiva per a una empresa d’aquesta mida: afirma que no ven dades personals ni les tracta per a publicitat segmentada, i l’etiqueta de l’App Store no declara cap dada de rastreig. El 2022, però, la FTC li va imposar 520 milions de dòlars per vulnerar la llei de protecció de la infància i per patrons enganyosos de cobrament a Fortnite.",
+  "platforms": [
+    "ios",
+    "android",
+    "windows",
+    "macos"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Estats Units; per a les persones no residents als Estats Units, entitats suïsses del grup",
+  "links": {
+    "website": "https://store.epicgames.com/",
+    "privacyPolicy": "https://www.epicgames.com/site/en-US/privacypolicy",
+    "appStore": "https://apps.apple.com/es/app/id6480077263"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "epic-privacy-policy",
+      "epic-games-app-store"
+    ],
+    "detail": "Cal un compte d’Epic per comprar i per jugar als seus títols.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "epic-games-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Els jocs que compres i les persones amb qui jugues revelen aficions i relacions. Epic fa servir aquestes dades per al servei i per a recomanacions, i diu que no en fa cap perfil publicitari.",
+  "dataCollection": [
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "epic-games-app-store"
+      ],
+      "note": "L’etiqueta la declara també per a publicitat o màrqueting del desenvolupador, que en aquest cas vol dir comunicacions pròpies."
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "epic-games-app-store"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "epic-games-app-store",
+        "epic-privacy-policy"
+      ],
+      "note": "La política diu que els números facilitats per seguretat no es comparteixen amb tercers ni amb filials per a màrqueting."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "epic-games-app-store",
+        "epic-privacy-policy"
+      ],
+      "note": "El nom públic i les estadístiques de joc poden ser visibles per a altres persones."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "epic-games-app-store"
+      ]
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "epic-games-app-store"
+      ],
+      "note": "El xat de veu és una de les funcions que la FTC va obligar a desactivar per defecte per a menors."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "epic-games-app-store"
+      ],
+      "note": "Per al funcionament de l’app, per exemple per mostrar la moneda local."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "epic-games-app-store",
+        "epic-privacy-policy"
+      ]
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "epic-games-app-store"
+      ],
+      "note": "Contingut creat o compartit que pot ser públic."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "epic-privacy-policy"
+      ],
+      "note": "Es comparteix amb els editors dels jocs comprats per completar la transacció."
+    },
+    {
+      "type": "xarxa-de-contactes",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "epic-privacy-policy"
+      ],
+      "note": "Llistes d’amistats i joc creuat si vincules el compte amb el d’un desenvolupador o una plataforma."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "epic-games-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "epic-games-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap dada utilitzada per rastrejar en apps i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "epic-games-app-store",
+        "epic-privacy-policy"
+      ],
+      "detail": "No hi ha cap categoria d’identificador publicitari i la política nega el tractament per a publicitat segmentada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "epic-privacy-policy"
+      ],
+      "detail": "Reconeix tecnologies automàtiques de tercers quan alguna funció la presta un tercer, i cita socis de màrqueting i publicitat entre els proveïdors.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "epic-privacy-policy"
+      ],
+      "detail": "La política afirma: «Epic does not sell personal data it collects or process it for targeted advertising».",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "epic-privacy-policy"
+      ],
+      "detail": "Fa recomanacions de continguts, però diu que no elabora perfils automatitzats amb efectes jurídics o similars, i encara menys de menors de 18 anys.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "epic-privacy-policy"
+      ],
+      "detail": "Cita proveïdors de grans models de llenguatge entre els destinataris, per habilitar funcions amb intel·ligència artificial; no diu que les dades serveixin per entrenar-los.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "epic-privacy-policy"
+      ],
+      "detail": "Editors dels jocs comprats, desenvolupadors amb qui vincules el compte, consoles i plataformes, xarxes socials, altres persones usuàries i autoritats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "epic-privacy-policy"
+      ],
+      "detail": "Filials i societats del grup, amb entitats diferents segons el servei i el país.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "epic-privacy-policy"
+      ],
+      "detail": "La política ho nega expressament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "epic-privacy-policy"
+      ],
+      "detail": "Tractament als Estats Units i a altres països on opera, amb clàusules contractuals tipus i decisions d’adequació.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "epic-privacy-policy"
+      ],
+      "detail": "Només criteris generals, sense cap termini numèric.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política remet als apartats de drets sense concretar què es conserva."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "epic-privacy-policy"
+      ],
+      "detail": "La política diu que es pot demanar la supressió de la informació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La pàgina d’ajuda sobre l’eliminació del compte no s’ha pogut llegir; no hem verificat si el procés és d’autoservei."
+    },
+    "difficulty": "unknown",
+    "steps": [
+      "Entra a la configuració del compte d’Epic i busca l’opció d’eliminació del compte.",
+      "Si no la trobes, escriu a privacy@support.epicgames.com o a dpo@support.epicgames.com demanant la supressió."
+    ],
+    "obstacles": "En eliminar el compte es perd l’accés als jocs comprats, que van lligats al compte i no a la persona.",
+    "sources": [
+      "epic-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "epic-privacy-policy"
+      ],
+      "detail": "Reconeix la portabilitat i el dret a rebre una còpia de les dades per a les persones de l’Espai Econòmic Europeu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "epic-privacy-policy"
+      ],
+      "detail": "Adreces específiques de privadesa i de delegat de protecció de dades.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dpo@support.epicgames.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "epic-privacy-policy"
+      ],
+      "detail": "Es poden canviar les preferències de màrqueting per correu i gestionar les galetes des del navegador o el dispositiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap control específic sobre l’analítica de l’aplicació."
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "epic-privacy-policy"
+      ],
+      "detail": "Comptes vinculats, preferències de màrqueting, revisió humana de decisions automatitzades i controls parentals.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "yes",
+      "level": "regulator",
+      "sources": [
+        "epic-ftc-2022"
+      ],
+      "detail": "La FTC va documentar patrons enganyosos de cobrament a Fortnite; l’acord del 2022 obliga Epic a no cobrar amb aquestes tècniques i a posar configuracions protectores per defecte per a menors.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "other",
+        "severity": "high",
+        "description": "Configuració de botons contradictòria que provocava compres no volgudes, fins i tot en despertar el joc o en previsualitzar un article.",
+        "sources": [
+          "epic-ftc-2022"
+        ]
+      },
+      {
+        "type": "hidden-exit",
+        "severity": "high",
+        "description": "Segons la FTC, Epic va enfosquir deliberadament les funcions de cancel·lació i de devolució perquè fossin més difícils de trobar.",
+        "sources": [
+          "epic-ftc-2022"
+        ]
+      },
+      {
+        "type": "preselected",
+        "severity": "high",
+        "description": "El xat de veu i de text estava activat per defecte per a la infància i l’adolescència; l’acord obliga a desactivar-lo si no hi ha consentiment.",
+        "sources": [
+          "epic-ftc-2022"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És una botiga i un llançador de jocs, no un servei de comunicacions privades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política parla de mantenir la confidencialitat de les credencials, però no documenta els mètodes de segon factor."
+    },
+    "independentAudits": {
+      "status": "partial",
+      "level": "regulator",
+      "sources": [
+        "epic-ftc-2022"
+      ],
+      "detail": "L’ordre de la FTC obliga Epic a mantenir un programa de privadesa amb auditories independents periòdiques; no se’n publiquen els informes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "epic-security-txt"
+      ],
+      "detail": "Programa de recompenses gestionat a HackerOne.",
+      "verifiedAt": "2026-09-22"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "epic-security-txt"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.epicgames.com/.well-known/security.txt"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La condemna de la FTC del 2022 és nord-americana i afecta Fortnite, no la botiga d’iOS, però marca la manera com l’empresa tracta els menors i els cobraments, i per això la registrem. No hem trobat cap resolució europea equivalent en les fonts consultades.",
+    "openQuestions": [
+      "Es pot eliminar el compte d’Epic sense escriure a l’assistència?",
+      "Quins proveïdors de models de llenguatge fa servir Epic i amb quines dades?"
+    ]
+  },
+  "appStoreBundleId": "com.epicgames.ega"
+}

@@ -1,0 +1,510 @@
+{
+  "slug": "gmail",
+  "name": "Gmail",
+  "company": "google-ireland",
+  "categories": [
+    "correu-electronic"
+  ],
+  "tagline": "Correu electrònic gratuït sense xifratge d’extrem a extrem",
+  "summary": "Google va deixar d’escanejar el contingut dels correus amb finalitats publicitàries el 2017. El contingut continua sent accessible per a Google: no hi ha xifratge d’extrem a extrem per als comptes de consum, de manera que el proveïdor pot llegir els missatges i lliurar-los davant d’un requeriment legal.",
+  "platforms": [
+    "web",
+    "ios",
+    "android"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Irlanda, per a persones usuàries de l’Espai Econòmic Europeu",
+  "userBase": "Més de 1.800 milions de comptes actius",
+  "links": {
+    "website": "https://mail.google.com/",
+    "privacyPolicy": "https://policies.google.com/privacy",
+    "privacyCenter": "https://myaccount.google.com/data-and-privacy"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "google-privacy-policy"
+    ],
+    "detail": "Cal un compte de Google, que sovint demana un número de telèfon per verificar-lo.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "google-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "El contingut dels correus es processa per a funcions com el filtre de brossa, la cerca i les respostes suggerides, i és accessible per a Google. Les metadades (qui escriu a qui i quan) són tan reveladores com el contingut i no estan protegides.",
+  "dataCollection": [
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "google-privacy-policy"
+      ],
+      "note": "Google no l’escaneja amb finalitats publicitàries des de 2017, però hi té accés tècnic."
+    },
+    {
+      "type": "metadades-de-comunicacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "google-privacy-policy"
+      ]
+    },
+    {
+      "type": "fitxers-i-documents",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "google-privacy-policy"
+      ],
+      "note": "Els fitxers adjunts es desen sense xifrar del costat del client."
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "google-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "google-privacy-policy"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "google-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "google-privacy-policy"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "google-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "google-privacy-policy"
+      ],
+      "note": "Google extreu automàticament comandes, reserves i vols dels correus per mostrar-los a altres serveis."
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "google-privacy-policy"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "google-privacy-policy"
+      ],
+      "detail": "Gmail no segueix l’activitat fora del servei, tot i que bloqueja només parcialment els píxels de seguiment dels correus rebuts.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "google-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "partial",
+      "level": "independent",
+      "sources": [
+        "google-privacy-policy"
+      ],
+      "detail": "Gmail encamina les imatges dels correus pels seus servidors, cosa que amaga l’adreça IP però no impedeix que la persona remitent sàpiga que s’ha obert el correu.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "google-privacy-policy"
+      ],
+      "detail": "Els anuncis de les pestanyes Promocions i Xarxes socials es basen en dades del compte de Google, no en el contingut dels correus.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://myadcenter.google.com/"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "google-privacy-policy"
+      ],
+      "detail": "La informació extreta dels correus alimenta funcions d’altres serveis de Google, com els recordatoris de viatge.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "google-privacy-policy"
+      ],
+      "detail": "Les funcions d’intel·ligència artificial de Workspace declaren no fer servir el contingut per entrenar models generals, però la política de consum és menys explícita.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "google-privacy-policy"
+      ],
+      "detail": "Aplicacions de tercers només amb autorització explícita per OAuth.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "google-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "mechanism": "adequacy"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-transparency-report"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://transparencyreport.google.com/"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "google-privacy-policy"
+      ],
+      "detail": "Els correus es conserven fins que la persona els esborra; la paperera es buida als 30 dies.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "google-delete-account"
+      ],
+      "detail": "Els correus enviats resten a les bústies de les persones destinatàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "contingut-de-missatges",
+        "period": "30 dies a la paperera abans de l’eliminació definitiva",
+        "sources": [
+          "google-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-delete-account"
+      ],
+      "detail": "Es pot eliminar només Gmail conservant la resta del compte de Google.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://myaccount.google.com/deleteservices",
+    "difficulty": "easy",
+    "waitingPeriodDays": 0,
+    "requiresSupportContact": false,
+    "steps": [
+      "Entra a myaccount.google.com i obre la secció Dades i privadesa.",
+      "Baixa fins a «Més opcions» i tria «Suprimeix el teu compte de Google» o el servei concret.",
+      "Descarrega les dades amb Takeout si les vols conservar.",
+      "Revisa la llista de serveis afectats i confirma amb la contrasenya."
+    ],
+    "obstacles": "Cal indicar una adreça electrònica alternativa i verificar-la. L’adreça de Gmail eliminada no la podrà tornar a fer servir ningú, tampoc tu.",
+    "dataRetained": "Els correus que has enviat continuen a les bústies de les persones destinatàries.",
+    "sources": [
+      "google-delete-account"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-takeout-help"
+      ],
+      "detail": "Google Takeout permet exportar cada servei per separat en formats oberts i estàndard. És una de les exportacions més completes del directori.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://takeout.google.com/"
+    },
+    "exportFormatQuality": "open",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://support.google.com/policies/troubleshooter/9009584",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-ad-center"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://myadcenter.google.com/"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "google-my-activity"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "google-privacy-policy"
+      ],
+      "detail": "Es poden desactivar les funcions intel·ligents i la personalització entre serveis, però no la recollida bàsica.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "no",
+      "level": "editorial",
+      "sources": [
+        "google-delete-account"
+      ],
+      "detail": "El procés d’eliminació de Gmail és clar i directe, i permet esborrar només aquest servei.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "google-privacy-policy"
+      ],
+      "detail": "No hi ha xifratge d’extrem a extrem als comptes de consum. Existeix xifratge del costat del client per a clients de Workspace amb determinades llicències.",
+      "verifiedAt": "2026-09-22",
+      "scope": "none"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-safety-center"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-safety-center"
+      ],
+      "detail": "Xifratge en repòs amb claus gestionades per Google.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-safety-center"
+      ],
+      "detail": "Verificació en dos passos amb claus d’accés, claus de seguretat físiques, aplicació d’autenticació, notificació i SMS.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "passkey",
+        "hardware-key",
+        "totp",
+        "app-push",
+        "sms"
+      ]
+    },
+    "independentAudits": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-safety-center"
+      ],
+      "detail": "Certificacions ISO 27001, ISO 27701 i informes SOC, auditats per tercers.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://safety.google/"
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-safety-center"
+      ],
+      "detail": "Programa de recompenses de llarga trajectòria i amb imports elevats.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://bughunters.google.com/"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-safety-center"
+      ],
+      "detail": "L’equip Project Zero publica una política de divulgació de 90 dies aplicada també als productes propis.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "proton-mail",
+      "comparability": "equivalent",
+      "rationale": "Cobreix la mateixa necessitat de correu electrònic amb aplicacions per a totes les plataformes, i hi afegeix xifratge de coneixement zero perquè el proveïdor no pugui llegir els missatges emmagatzemats.",
+      "tradeOffs": "La cerca dins dels correus és més limitada per raons criptogràfiques, l’espai gratuït és molt menor i els correus intercanviats amb proveïdors no xifrats no queden protegits en trànsit d’extrem a extrem."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "El tòpic que «Google llegeix els teus correus per posar-te anuncis» no és cert des del 2017, quan va deixar de fer-ho. Sense xifratge d’extrem a extrem, però, la confidencialitat depèn de la bona voluntat i de la resistència legal del proveïdor."
+  },
+  "appStoreBundleId": "com.google.Gmail"
+}

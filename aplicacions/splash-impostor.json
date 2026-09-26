@@ -1,0 +1,372 @@
+{
+  "slug": "splash-impostor",
+  "name": "Splash: El Juego del Impostor",
+  "company": "cranberry-apps",
+  "categories": [
+    "utilitats"
+  ],
+  "tagline": "Un joc de festa que no vincula cap dada amb la persona, però que declara compres, ús i diagnòstics com a dades utilitzades per rastrejar",
+  "summary": "Splash és un joc d’impostor per jugar en grup amb un sol telèfon, d’un estudi berlinès de dues persones. L’etiqueta de l’App Store no declara cap dada vinculada amb la identitat (ni correu, ni identificadors d’usuari), però sí tres categories utilitzades per rastrejar: historial de compres, interacció amb el producte i dades d’errors. La política de privadesa documenta amb detall el lloc web i els seus proveïdors, però no diu quins SDK d’analítica o d’atribució incorpora l’aplicació.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Alemanya",
+  "userBase": "Desconegut; els agregadors de mercat parlen de milions de descàrregues",
+  "links": {
+    "website": "https://cranberry.app/",
+    "privacyPolicy": "https://cranberry.app/privacy",
+    "terms": "https://cranberry.app/terms",
+    "appStore": "https://apps.apple.com/es/app/id6744290388"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "splash-app-store"
+    ],
+    "detail": "L’etiqueta de l’App Store no declara cap dada de contacte ni cap identificador d’usuari, coherent amb un joc que es juga en local amb un sol dispositiu. La política només descriu comptes en el context dels concursos del web.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "splash-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Els noms dels jugadors no surten a l’etiqueta de privadesa. El que sí que es recull és el patró de compres i d’ús: quantes partides, quan i si has pagat.",
+  "dataCollection": [
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "splash-app-store"
+      ],
+      "note": "És una de les tres categories que l’etiqueta declara com a utilitzades per rastrejar."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "splash-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "splash-app-store"
+      ]
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "unknown",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "sources": [
+        "splash-privacy-policy"
+      ],
+      "note": "El joc demana els noms dels participants per repartir els rols, però ni la política ni l’etiqueta de l’App Store diuen què se’n fa. Tot indica que es queden al dispositiu."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "splash-privacy-policy"
+      ],
+      "note": "Només per al butlletí i els concursos del web, no per jugar."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "unknown",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "sources": [
+        "splash-app-store"
+      ],
+      "note": "L’etiqueta declara rastreig, cosa que implica identificadors, però no els enumera ni la política identifica cap SDK publicitari."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "splash-app-store"
+      ],
+      "detail": "L’etiqueta declara compres, dades d’ús i diagnòstics com a dades que poden servir per rastrejar en aplicacions i llocs web d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Ni la política ni l’etiqueta especifiquen quins identificadors s’utilitzen per al rastreig declarat."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [],
+      "detail": "Interpretació pròpia: que l’etiqueta declari rastreig implica la presència d’alguna eina d’atribució o d’analítica de tercers, però la política no en documenta cap per a l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu publicitat dins de l’aplicació."
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap elaboració de perfils."
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta l’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "splash-privacy-policy"
+      ],
+      "detail": "La política enumera proveïdors del lloc web (Google Analytics, Framer, Cloudflare, Brevo), però no els de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap estructura de grup."
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta la venda de dades."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "splash-privacy-policy"
+      ],
+      "detail": "Clàusules contractuals tipus o decisions d’adequació per als proveïdors amb seu als Estats Units.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "splash-privacy-policy"
+      ],
+      "detail": "Hi ha terminis concrets per al web (registres 14 dies, dades de concursos 90 dies, identitat dels guanyadors 10 anys per dret mercantil alemany), però cap per a l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "splash-privacy-policy"
+      ],
+      "detail": "Com que el joc no requereix compte, la supressió s’exerceix com a dret davant del responsable; no hi ha cap procés d’autoservei i la ruta /delete-account del web no existeix.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "splash-privacy-policy"
+      ],
+      "detail": "No hi ha cap procediment d’eliminació documentat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "requiresSupportContact": true,
+    "steps": [
+      "Si només has jugat, desinstal·la l’aplicació: no hi ha cap compte associat.",
+      "Si t’has apuntat al butlletí o a un concurs, escriu a info@cranberry.app o al delegat de protecció de dades a datenschutz@heydata.eu.",
+      "Invoca l’article 17 del RGPD i demana confirmació escrita."
+    ],
+    "obstacles": "No hi ha cap pàgina d’eliminació de dades; l’adreça https://cranberry.app/delete-account retorna un error 404.",
+    "dataRetained": "Identitat dels guanyadors de concursos, durant 10 anys, per obligació mercantil alemanya.",
+    "sources": [
+      "splash-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "splash-privacy-policy"
+      ],
+      "detail": "La portabilitat es reconeix a la política, però només per petició per correu.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:info@cranberry.app"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "splash-privacy-policy"
+      ],
+      "detail": "La política enumera tots els drets del RGPD, identifica un delegat de protecció de dades extern i informa del dret a reclamar davant l’autoritat de control.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:datenschutz@heydata.eu",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap control dins de l’aplicació."
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap control per desactivar l’analítica de l’aplicació."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap panell de privadesa a l’aplicació; al web hi ha gestor de consentiment de galetes."
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem identificat patrons enganyosos documentats."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És un joc local en grup; el xifratge d’extrem a extrem no hi és aplicable.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no documenta les mesures tècniques del servei."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació sobre el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El joc no té comptes d’usuari, de manera que no hi ha cap autenticació a reforçar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories ni certificacions."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "no",
+      "level": "editorial",
+      "sources": [],
+      "detail": "Comprovació pròpia del 22 de setembre de 2026: https://cranberry.app/.well-known/security.txt retorna un error 404.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La taxonomia d’aquesta base de coneixement no té categoria per als jocs; s’ha classificat com a utilitat perquè el context de privadesa (desenvolupador petit amb SDK de tercers i permisos que la funció no justifica) és el que millor descriu el cas. L’estudi té una estructura de compliment alemanya sòlida, amb delegat de protecció de dades extern, però la política no cobreix l’aplicació que li dona tot el trànsit.",
+    "openQuestions": [
+      "Quins SDK d’analítica o d’atribució incorpora l’aplicació i justifiquen el rastreig declarat?",
+      "Els noms dels jugadors surten del dispositiu?",
+      "Splash Plus és una subscripció recurrent o una compra única?"
+    ]
+  },
+  "appStoreBundleId": "app.cranberry.splash"
+}

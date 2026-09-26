@@ -1,0 +1,472 @@
+{
+  "slug": "clickedu",
+  "name": "Clickedu",
+  "company": "clickart",
+  "categories": [
+    "educacio"
+  ],
+  "tagline": "El responsable és l’escola; l’app declara ubicació precisa vinculada a la identitat i l’enllaç de privadesa de l’App Store porta a una pàgina que no existeix",
+  "summary": "Clickedu és la plataforma de gestió escolar de Clickart, del grup Sanoma Learning: notes, faltes, missatges, fotos i pagaments d’alumnat i famílies. El responsable del tractament és cada centre educatiu i Clickart n’és l’encarregada, de manera que els drets s’exerceixen davant de l’escola. L’etiqueta de l’App Store declara la ubicació precisa, l’identificador del dispositiu i la interacció amb l’app vinculats a la identitat per a «altres finalitats» no especificades. L’enllaç de privadesa que declara retorna un error 404, i la política del web és del 2018 i s’adreça als centres clients, no a les famílies. L’empresa declara servidors a Europa i la certificació ISO 27001, i té un canal públic per notificar vulnerabilitats.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "unknown",
+  "jurisdiction": "Espanya; el responsable és cada centre educatiu i Clickart, Taller de Comunicació, S.L. hi actua com a encarregada del tractament",
+  "brandColor": "#e4032e",
+  "links": {
+    "website": "https://clickedu.net/",
+    "privacyPolicy": "https://clickedu.net/politica-de-privacidad/",
+    "appStore": "https://apps.apple.com/es/app/id691984809",
+    "security": "https://clickedu.net/declaracion-divulgacion-responsable/"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "clickedu-faqs",
+      "clickedu-app-store"
+    ],
+    "detail": "Les credencials les dona el centre educatiu; l’app només serveix per a clients de Clickedu (direcció, professorat, alumnat i famílies).",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "clickedu-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "L’app dona accés a l’expedient escolar de l’alumne: notes, faltes i retards, comportament, menjador, missatges amb el professorat, àlbums de fotos i rebuts. Són dades de menors que decideix i custodia l’escola. Segons l’etiqueta, l’app hi afegeix la ubicació precisa i l’activitat dins de l’app vinculades a la persona usuària, per a una finalitat que ni l’etiqueta ni cap política expliquen.",
+  "dataCollection": [
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "sources": [
+        "clickedu-app-store"
+      ],
+      "note": "L’etiqueta la declara vinculada a la identitat per a «altres finalitats», sense concretar-les; cap document públic explica per a què la fa servir l’app."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "sources": [
+        "clickedu-app-store"
+      ],
+      "note": "Declarat per a «altres finalitats»."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "sources": [
+        "clickedu-app-store"
+      ],
+      "note": "Declarades per a «altres finalitats»."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "clickedu-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "clickedu-faqs"
+      ],
+      "note": "Usuari i contrasenya proporcionats pel centre."
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "clickedu-app-store",
+        "clickedu-faqs"
+      ],
+      "note": "La fitxa de l’alumne i les dades personals de la família; els canvis els valida el centre."
+    },
+    {
+      "type": "nivell-formatiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "clickedu-app-store"
+      ],
+      "note": "Notes, deures, faltes, retards, comportament i menjador de l’alumnat, que el professorat registra des de l’app."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "clickedu-app-store"
+      ],
+      "note": "Missatgeria interna entre el centre, el professorat i les famílies."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "clickedu-app-store"
+      ],
+      "note": "Àlbums de fotos del centre, que solen mostrar menors."
+    },
+    {
+      "type": "fitxers-i-documents",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "clickedu-app-store"
+      ],
+      "note": "Carpeta de fitxers del centre."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "clickedu-faqs"
+      ],
+      "note": "Les famílies poden pagar rebuts des de l’app si el centre hi ha activat una passarel·la de pagament."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "clickedu-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap dada utilitzada per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’etiqueta declara l’identificador del dispositiu per a «altres finalitats» sense concretar si inclou l’identificador publicitari."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap política de l’app que enumeri SDK o proveïdors d’analítica."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "clickedu-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap dada per a publicitat, ni pròpia ni de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap document que descrigui si es fan perfils individuals de l’alumnat."
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Cap document públic diu si les dades de l’alumnat serveixen per entrenar models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "clickedu-privacy-policy",
+        "clickedu-faqs"
+      ],
+      "detail": "La política preveu comunicacions per obligació legal i als proveïdors d’allotjament de la plataforma. Si el centre activa una passarel·la de pagament, les dades de pagament hi passen.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El delegat de protecció de dades és el del grup Sanoma a Espanya (dpo.spain@sanoma.com), però la política no descriu comunicacions de dades dins del grup."
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "clickedu-privacy-policy"
+      ],
+      "detail": "La política es compromet a no comunicar dades a tercers sense el consentiment exprés del titular.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "clickedu-privacy-policy",
+        "clickedu-seguretat-2025"
+      ],
+      "detail": "La política diu que no transfereix dades fora de la UE, i l’empresa afirma que tots els servidors, a Amazon Web Services, són a Europa.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "none"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "clickedu-privacy-policy"
+      ],
+      "detail": "Les dades de la contractació es conserven mentre duri la relació i un màxim de cinc anys. Els terminis de les dades de l’alumnat els decideix cada centre i no consten enlloc.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat què fa Clickedu amb les dades d’un centre o d’un alumne quan s’acaba el contracte."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "clickedu-faqs",
+        "clickedu-escolapios-bilbao-rgpd",
+        "clickedu-aepd-responsable-centres"
+      ],
+      "detail": "El compte el crea i el gestiona el centre, que és el responsable del tractament; la supressió s’ha de demanar a l’escola, tenint en compte que part de l’expedient acadèmic s’ha de conservar per obligació legal.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap opció per eliminar el compte des de l’app."
+    },
+    "difficulty": "unknown",
+    "requiresSupportContact": true,
+    "steps": [
+      "Adreça’t a la secretaria o al delegat de protecció de dades del centre educatiu, que és el responsable del tractament.",
+      "Si el centre no respon, pots reclamar davant de l’APDCAT (centres públics de Catalunya) o de l’AEPD (centres privats i concertats).",
+      "Per a les dades que Clickart tracti com a responsable, escriu a dpo@clickedu.net."
+    ],
+    "sources": [
+      "clickedu-faqs",
+      "clickedu-privacy-policy",
+      "clickedu-aepd-responsable-centres"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap eina ni cap procediment de portabilitat per a les famílies."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "clickedu-privacy-policy",
+        "clickedu-aepd-responsable-centres"
+      ],
+      "detail": "Clickart dona un contacte de drets (dpo@clickedu.net) i un de delegat (dpo.spain@sanoma.com), però per a les dades escolars els drets s’exerceixen davant de cada centre.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’etiqueta no declara publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap opció per desactivar la recollida de dades d’ús."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació sobre controls de privadesa per a les famílies ni sobre com desactivar la ubicació dins de l’app, més enllà del permís del sistema operatiu."
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La missatgeria interna entre centre i famílies no documenta cap xifratge d’extrem a extrem."
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap document tècnic sobre el xifratge en trànsit."
+    },
+    "atRestEncryption": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "clickedu-privacy-policy"
+      ],
+      "detail": "La política es compromet genèricament a assegurar la seudonimització i el xifratge de les dades, sense detallar-ne l’abast.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "clickedu-seguretat-2025"
+      ],
+      "detail": "L’empresa diu que la verificació en dos passos és obligatòria per a tot el personal escolar; no consta per a les famílies ni per a l’alumnat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "clickedu-qui-som",
+        "clickedu-faqs"
+      ],
+      "detail": "Certificació ISO/IEC 27001:2022, dins la certificació multisite de Sanoma Learning, i ISO 9001. No hem vist els certificats ni l’abast.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La declaració de divulgació responsable no preveu recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "clickedu-divulgacio-responsable"
+      ],
+      "detail": "security.txt i declaració de divulgació responsable amb l’adreça security@clickedu.net i acusament de recepció en tres dies.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "google-classroom",
+      "comparability": "partial",
+      "rationale": "Plataforma d’aula de moltes escoles, amb un compte d’educació sense publicitat.",
+      "tradeOffs": "No gestiona l’expedient, les faltes ni els rebuts, i l’elecció la fa el centre, no la família."
+    },
+    {
+      "app": "educamos-familias",
+      "comparability": "equivalent",
+      "rationale": "Plataforma de gestió escolar amb app per a famílies i el mateix model de responsable (el centre) i encarregada (l’empresa).",
+      "tradeOffs": "Allotja les dades als Estats Units i l’etiqueta declara rastreig."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Com a Educamos, el responsable és el centre i l’empresa és l’encarregada: les famílies no trien l’app ni poden negociar-ne les condicions. La mancança principal és de transparència: l’App Store enllaça una política inexistent (clickartedu.com retorna 404) i la del web, del 2018, és per als centres que contracten la llicència. Hi ha una discrepància d’adreces: l’App Store situa Clickart al carrer de la Llacuna de Barcelona i la política, a l’Hospitalet de Llobregat. No hem trobat sancions ni incidents públics relacionats amb Clickedu.",
+    "openQuestions": [
+      "Per a què fa servir l’app la ubicació precisa vinculada a la identitat?",
+      "Què vol dir «altres finalitats» a l’etiqueta de l’App Store?",
+      "Quant de temps conserva Clickart les dades d’un centre o d’un alumne quan acaba el contracte?"
+    ]
+  },
+  "appStoreBundleId": "org.clickedu.Clickedu"
+}

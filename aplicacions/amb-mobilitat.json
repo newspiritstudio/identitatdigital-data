@@ -1,0 +1,451 @@
+{
+  "slug": "amb-mobilitat",
+  "name": "AMB Mobilitat (Picmi)",
+  "company": "amb-informacio-i-serveis",
+  "categories": [
+    "mobilitat-i-transport",
+    "mapes-i-navegacio"
+  ],
+  "tagline": "L’app metropolitana de mobilitat té un certificat ENS, però enllaça un avís legal genèric com a política",
+  "summary": "AMB Mobilitat, l’antiga Picmi, planifica trajectes amb el transport públic metropolità i permet demanar un taxi. L’etiqueta només declara l’ús i els errors com a dades no vinculades, però el servei de taxi exigeix un compte amb nom, correu i ubicació, que tracta l’Institut Metropolità del Taxi. No té una política de privadesa pròpia: l’App Store enllaça l’avís legal genèric de l’AMB. Els sistemes que la sostenen tenen un certificat de l’Esquema Nacional de Seguretat de categoria mitjana.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "public-service",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://www.amb.cat/s/web/mobilitat/gestio-i-organitzacio/amb-informacio.html",
+    "privacyPolicy": "https://www.amb.cat/web/amb/politica-de-privacitat",
+    "terms": "https://docs.amb.cat/alfresco/api/-default-/public/alfresco/versions/1/nodes/9fd4ff85-d607-4f3b-a818-6e482bf009c0/content/Condicions%20Generals%20Usuaris%20Picmi_CAT_20.04.23.pdf?attachment=false&mimeType=application/pdf&sizeInBytes=633932",
+    "appStore": "https://apps.apple.com/es/app/id588690805"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "ambmob-picmi-taxi-condicions"
+    ],
+    "detail": "La planificació de trajectes no demana compte; el servei de taxi, sí (correu validat i contrasenya).",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "ambmob-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "publicService": {
+    "isPublicService": true,
+    "administrationLevel": "local",
+    "legalBasis": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "amb-politica-privacitat",
+        "ambmob-picmi-taxi-condicions",
+        "amb-avis-legal"
+      ],
+      "detail": "L’App Store enllaça l’avís legal genèric de l’AMB, no una política de l’app. La política de l’AMB es basa en l’execució del servei o el consentiment i les competències de cada ens; per al taxi, el consentiment i les competències de l’Institut Metropolità del Taxi. No cita cap norma concreta.",
+      "verifiedAt": "2026-09-22"
+    },
+    "processingRegistry": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "ambinfo-rat",
+        "amb-rat"
+      ],
+      "detail": "AMB Informació i l’AMB publiquen els seus registres, però cap no conté una activitat per a l’app: el d’AMB Informació només té tractaments interns i atribueix els de mobilitat a l’AMB.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dpia": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap avaluació d’impacte publicada."
+    },
+    "ensConformity": {
+      "status": "yes",
+      "level": "independent",
+      "sources": [
+        "ambinfo-ens-certificat"
+      ],
+      "detail": "Certificat ENS-0820/25 emès per Applus+ el 30 d’abril de 2025 i vigent fins al 30 d’abril de 2027, de categoria mitjana, per als sistemes que donen suport als serveis de mobilitat i transport públic.",
+      "verifiedAt": "2026-09-22",
+      "category": "medium",
+      "url": "https://docs.amb.cat/alfresco/api/-default-/public/alfresco/versions/1/nodes/674184b0-2384-4776-90ec-4e74cbc484df/content/ENS%20CAT%20-%20AMB%20INFORMACI%C3%93%20I%20SERVEIS%20(%20MEDIA%20INI)_signed.pdf?attachment=false&mimeType=application/pdf&sizeInBytes=374238"
+    },
+    "dpo": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amb-politica-privacitat",
+        "ambinfo-rat"
+      ],
+      "detail": "L’AMB i AMB Informació tenen delegat de protecció de dades amb correu publicat.",
+      "verifiedAt": "2026-09-22",
+      "contact": "dpd@amb.cat"
+    },
+    "offlineAlternative": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ambinfo-qui-som"
+      ],
+      "detail": "La mateixa informació de mobilitat es pot obtenir pel telèfon 010 metropolità i pel web.",
+      "verifiedAt": "2026-09-22"
+    },
+    "accessibilityStatement": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap declaració d’accessibilitat de l’app, i la fitxa de l’App Store no en declara prestacions."
+    },
+    "mandatoryRetention": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "ambmob-picmi-taxi-condicions"
+      ],
+      "detail": "Després de la baixa, les dades es conserven el temps que fixi la llei, però res no impedeix donar-se de baixa.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataSummary": "Per consultar el transport, l’app declara només dades d’ús i d’errors no vinculades. Demanar un taxi afegeix el nom, el correu i la ubicació exacta del moment, que es comunica al taxista.",
+  "dataCollection": [
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "ambmob-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "ambmob-app-store"
+      ]
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "ambmob-picmi-taxi-condicions"
+      ],
+      "note": "Només per al servei de taxi, amb l’Institut Metropolità del Taxi com a responsable; l’etiqueta no ho declara."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "ambmob-picmi-taxi-condicions"
+      ]
+    },
+    {
+      "type": "contrasenya",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "ambmob-picmi-taxi-condicions"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "ambmob-picmi-taxi-condicions"
+      ],
+      "note": "La ubicació en el moment de demanar el taxi, que rep el taxista sense les dades identificatives."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "ambmob-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap dada utilitzada per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat quin servei d’analítica fa servir l’app."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La documentació no en diu res."
+    },
+    "profiling": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "amb-politica-privacitat"
+      ],
+      "detail": "«En cap cas es duran a terme decisions automatitzades».",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La documentació no en diu res."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "ambmob-picmi-taxi-condicions"
+      ],
+      "detail": "La ubicació de la petició de taxi es comunica al taxista, que només veu el codi de reserva.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ambmob-picmi-taxi-condicions",
+        "ambinfo-rat"
+      ],
+      "detail": "Les dades del taxi les tracta l’Institut Metropolità del Taxi, i AMB Informació atribueix a l’AMB els tractaments de mobilitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La documentació no en diu res."
+    },
+    "internationalTransfers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "amb-politica-privacitat",
+        "ambinfo-ens-certificat"
+      ],
+      "detail": "La política diu que tots els proveïdors són dins de l’Espai Econòmic Europeu, i el certificat ENS situa el centre de dades a la regió europea d’AWS.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "none"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Ni la política de l’AMB ni les condicions del taxi fixen terminis concrets."
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "ambmob-picmi-taxi-condicions"
+      ],
+      "detail": "Després de la baixa, les dades es conserven «per obligació legal» durant el temps màxim que fixi la legislació.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amb-politica-privacitat",
+        "ambmob-picmi-taxi-condicions"
+      ],
+      "detail": "Es reconeixen la baixa i el dret de supressió.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat com s’esborra el compte des de l’app."
+    },
+    "difficulty": "unknown",
+    "steps": [
+      "Adreça una sol·licitud per escrit, amb còpia del document d’identitat, als Serveis Jurídics de l’AMB o per instància genèrica, o escriu a dpd@amb.cat."
+    ],
+    "sources": [
+      "amb-politica-privacitat"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amb-politica-privacitat"
+      ],
+      "detail": "Per escrit amb document d’identitat o per instància genèrica, amb delegat de protecció de dades i APDCAT.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dpd@amb.cat"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És una aplicació d’informació de transport, sense comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "yes",
+      "level": "independent",
+      "sources": [
+        "ambinfo-ens-certificat"
+      ],
+      "detail": "Auditoria de certificació ENS d’Applus+, amb acreditació, vigent fins al 2027.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Ni amb.cat ni ambmobilitat.cat publiquen un fitxer security.txt."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "tmb-app",
+      "comparability": "partial",
+      "rationale": "Planificació del metro i el bus de Barcelona, també sense compte.",
+      "tradeOffs": "No inclou la petició de taxi."
+    },
+    {
+      "app": "citymapper",
+      "comparability": "partial",
+      "rationale": "Planificador de transport públic sense compte.",
+      "tradeOffs": "Empresa privada nord-americana."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "El bundle (com.Cetramsa) és l’únic rastre del nom antic de l’empresa; no l’hem trobat en cap font oficial. L’etiqueta de l’App Store no declara les dades del servei de taxi, que són de l’Institut Metropolità del Taxi. No hem trobat incidents.",
+    "openQuestions": [
+      "Per què l’app no té una política de privadesa pròpia?",
+      "Com s’esborra el compte del servei de taxi?"
+    ]
+  },
+  "appStoreBundleId": "com.Cetramsa.Temps-bus"
+}

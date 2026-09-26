@@ -1,0 +1,673 @@
+{
+  "slug": "storytel",
+  "name": "Storytel",
+  "company": "storytel",
+  "categories": [
+    "llibres-i-lectura",
+    "musica-i-audio"
+  ],
+  "tagline": "Una política amb terminis concrets, en una app que igualment declara identificadors i ús per rastrejar",
+  "summary": "Storytel és una subscripció sueca d’audiollibres i llibres electrònics. La seva política és la més treballada de la categoria: taules de categories de dades, finalitats i bases jurídiques, i terminis numèrics (24 mesos després de la subscripció, 12 per al màrqueting i 7 anys per a la comptabilitat). Té delegat de protecció de dades i un security.txt. Alhora, l’etiqueta de l’App Store declara identificadors i dades d’ús com a dades per rastrejar, i la política admet remàrqueting i publicitat basada en interessos amb proveïdors de màrqueting. La baixa és autoservei des de l’app, després de cancel·lar la subscripció.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "subscription",
+  "jurisdiction": "Suècia (UE)",
+  "links": {
+    "website": "https://www.storytel.com/",
+    "privacyPolicy": "https://www.storytel.com/sg/en/documents/privacy-policy",
+    "appStore": "https://apps.apple.com/es/app/id348177651"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "storytel-privacy-policy"
+    ],
+    "detail": "Hi ha un «preview mode» previ al registre en què ja es recullen preferències i els títols de la prestatgeria; per escoltar i llegir cal compte i subscripció.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "storytel-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "La política enumera explícitament «your choices of titles», l’historial de cerca, el temps passat a l’app i les prestatgeries que es creen. Aquest historial, sumat al gènere, la composició familiar i les preferències que la persona vulgui donar, alimenta les recomanacions i també la publicitat personalitzada, i es conserva fins a dos anys després de deixar el servei.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "storytel-app-store",
+        "storytel-privacy-policy"
+      ],
+      "note": "El nom o el sobrenom sempre és visible per a la resta de persones usuàries dins l’app."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "storytel-app-store",
+        "storytel-privacy-policy"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "storytel-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "storytel-privacy-policy"
+      ],
+      "note": "Adreça d’enviament si es compra maquinari, com el lector de Storytel."
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "storytel-privacy-policy"
+      ],
+      "note": "Voluntària, i obligatòria per verificar el descompte d’estudiant, juntament amb el nom de la universitat."
+    },
+    {
+      "type": "genere",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "storytel-privacy-policy"
+      ],
+      "note": "La política diu que el contingut suggerit es basa, entre altres coses, en l’idioma i el gènere."
+    },
+    {
+      "type": "situacio-familiar",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "storytel-privacy-policy"
+      ],
+      "note": "La política parla de «family composition» entre les dades que es poden facilitar voluntàriament."
+    },
+    {
+      "type": "nivell-formatiu",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "storytel-privacy-policy"
+      ],
+      "note": "Només per verificar la condició d’estudiant."
+    },
+    {
+      "type": "historial-de-visualitzacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "personalitzacio-de-continguts",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "storytel-privacy-policy"
+      ],
+      "note": "Títols triats, temps passat a l’app, prestatgeries creades i historial d’escolta; la política l’inclou entre les dades que alimenten la publicitat personalitzada."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "storytel-privacy-policy"
+      ]
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "storytel-privacy-policy"
+      ],
+      "note": "Ressenyes i comentaris. Amb el perfil privat deixen de veure’s al perfil, però continuen visibles a la fitxa del llibre."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "storytel-privacy-policy"
+      ],
+      "note": "Foto de perfil de les funcions socials."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "storytel-privacy-policy"
+      ],
+      "note": "La política inclou l’«advertising ID» entre les dades tècniques de navegació."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "storytel-app-store",
+        "storytel-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "storytel-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "storytel-privacy-policy"
+      ],
+      "note": "Deduïda de la moneda de pagament o del país d’alta, no del GPS; serveix per aplicar els drets geogràfics del catàleg."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "storytel-privacy-policy"
+      ],
+      "note": "Storytel diu que no tracta el número complet de la targeta, que queda en mans del proveïdor de pagament."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "storytel-app-store",
+        "storytel-privacy-policy"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "storytel-privacy-policy"
+      ],
+      "note": "Les galetes necessàries es basen en l’interès legítim i la resta, en el consentiment, gestionat amb un bàner."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "storytel-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "storytel-app-store"
+      ],
+      "detail": "L’etiqueta declara identificadors i dades d’ús com a dades utilitzades per rastrejar a través d’apps i llocs web d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "storytel-privacy-policy"
+      ],
+      "detail": "La política inclou l’«advertising ID» entre les dades tècniques que tracta.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "storytel-privacy-policy"
+      ],
+      "detail": "Proveïdors de màrqueting per a anuncis personalitzats i mesura de campanyes, plataformes de tercers com les xarxes socials i galetes analítiques, sense noms concrets a la política.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "storytel-privacy-policy"
+      ],
+      "detail": "Anuncis i ofertes personalitzats de Storytel i dels seus socis basats en preferències, historial d’escolta i comportament de navegació, amb el consentiment com a base jurídica i remàrqueting explícit.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "storytel-privacy-policy"
+      ],
+      "detail": "Suggeriments de contingut i mur personalitzat a partir de l’idioma, el gènere, les preferències i l’historial de navegació i escolta.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta l’entrenament de models amb dades de les persones usuàries."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "storytel-privacy-policy"
+      ],
+      "detail": "Socis de negoci i proveïdors de contingut i de pagament, proveïdors informàtics, d’atenció al client i de seguretat, i proveïdors de màrqueting per a publicitat personalitzada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "storytel-privacy-policy"
+      ],
+      "detail": "Les dades es poden compartir amb les empreses del grup Storytel per prestar el servei i per a les operacions diàries, i la responsabilitat es pot compartir amb una empresa del grup que faci màrqueting local.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu si ven dades; enumera els destinataris però no exclou expressament la venda."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "storytel-privacy-policy"
+      ],
+      "detail": "Diu que procura tractar les dades dins la UE i l’EEE, però que hi pot haver tractament on hi hagi empreses del grup o proveïdors. Per a fora de l’EEE invoca decisions d’adequació de l’article 45 i clàusules contractuals tipus de l’article 46.2.c del RGPD.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència de Storytel."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "storytel-privacy-policy",
+        "storytel-delete-account"
+      ],
+      "detail": "Terminis numèrics per a cada finalitat: 24 mesos després de la subscripció, 24 mesos des de l’última consulta al servei d’atenció, 12 mesos per al màrqueting i 7 anys per a la fiscalitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "storytel-privacy-policy"
+      ],
+      "detail": "Les dades administratives es queden els 7 anys de l’obligació fiscal, i les dades agregades i anonimitzades es poden conservar indefinidament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "historial-de-visualitzacio",
+        "period": "24 mesos després de la fi de la subscripció",
+        "sources": [
+          "storytel-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "adreca-electronica",
+        "period": "12 mesos després de la fi de la subscripció, per a màrqueting",
+        "sources": [
+          "storytel-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "dades-de-pagament",
+        "period": "7 anys per a obligacions fiscals i comptables",
+        "sources": [
+          "storytel-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "storytel-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "storytel-delete-account"
+      ],
+      "detail": "Des de l’app: Perfil > Configuració > Compte > Eliminar compte, sempre que abans s’hagi cancel·lat la subscripció.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://support.storytel.com/hc/es-es/articles/360010376360",
+    "difficulty": "medium",
+    "requiresSupportContact": false,
+    "steps": [
+      "Cancel·la la subscripció: al web, des de la pàgina del compte, o a l’App Store si la vas contractar des de l’app.",
+      "Inicia sessió a l’app amb el compte que vols eliminar.",
+      "Ves a Perfil > Configuració > Compte > Eliminar compte.",
+      "Si l’esborrat no es pot completar, envia la sol·licitud a privacy@storytel.com."
+    ],
+    "obstacles": "No es pot eliminar el compte amb una subscripció activa, i el dret de supressió es pot limitar si hi ha una incidència oberta o un pagament pendent.",
+    "dataRetained": "Les dades administratives i de facturació, durant els 7 anys de l’obligació fiscal, i les dades agregades ja no identificables.",
+    "sources": [
+      "storytel-delete-account",
+      "storytel-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "storytel-privacy-policy"
+      ],
+      "detail": "Reconeix la portabilitat i el lliurament de les dades «in an electronically readable format», per petició a privacy@storytel.com.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "storytel-dpo-contact",
+        "storytel-privacy-policy"
+      ],
+      "detail": "Per correu a privacy@storytel.com, afegint «Para DPO» a l’assumpte per arribar al delegat de protecció de dades; l’autoritat de reclamació de referència és la sueca IMY o la del país de residència.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacy@storytel.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "storytel-privacy-settings",
+        "storytel-privacy-policy"
+      ],
+      "detail": "A Configuració > Privadesa hi ha les preferències de màrqueting directe i de màrqueting basat en interessos, i el consentiment de les galetes es gestiona amb el bàner del web.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap interruptor per desactivar l’analítica d’ús dins l’app."
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "storytel-privacy-settings"
+      ],
+      "detail": "Es pot fer el perfil privat, editar el nom, canviar la contrasenya i separar les preferències de màrqueting directe de les de màrqueting personalitzat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "storytel-privacy-settings"
+      ],
+      "detail": "El perfil privat amaga les ressenyes del perfil, però les deixa visibles a la fitxa de cada llibre, de manera que el control no fa el que el nom fa esperar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "confusing-language",
+        "severity": "low",
+        "description": "L’opció de «perfil privat» no fa privades les ressenyes: continuen publicades a la pàgina de cada llibre.",
+        "sources": [
+          "storytel-privacy-settings"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És un servei de catàleg per subscripció; no hi ha comunicacions privades entre persones que puguin anar xifrades d’extrem a extrem.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política parla de mesures tècniques, administratives i físiques, però no detalla el xifratge del transport."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Ni la política ni els articles d’ajuda esmenten cap segon factor d’autenticació."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El security.txt remet a security.storytel.com, però no hem pogut confirmar si hi ha recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "storytel-security-txt"
+      ],
+      "detail": "Hi ha security.txt a storytel.com, amb security.storytel.com com a punt de contacte. La data de caducitat que hi consta, l’agost del 2025, ja ha passat.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "ebiblio",
+      "comparability": "partial",
+      "rationale": "Permet llegir i escoltar llibres gratuïtament amb el carnet de la biblioteca pública, sense publicitat.",
+      "tradeOffs": "El catàleg és molt menor i els préstecs tenen llista d’espera i durada limitada."
+    },
+    {
+      "app": "nextory",
+      "comparability": "equivalent",
+      "rationale": "El mateix model de subscripció d’audiollibres, amb una etiqueta de l’App Store que no declara dades per rastrejar.",
+      "tradeOffs": "La política de Nextory és molt més escarida i conserva les dades fins a 36 mesos després de la baixa."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La política és completa i inclou una taula de bases jurídiques per finalitat, però la versió que enllaça l’App Store és la del mercat de Singapur, en anglès i modificada per última vegada el novembre del 2022; no n’hem trobat cap versió en castellà ni en català. El centre d’ajuda en castellà és més recent i coincideix amb els terminis. El security.txt existeix però ha caducat. Cap domini de Storytel no consta a la llista de filtracions de Have I Been Pwned.",
+    "openQuestions": [
+      "Quins proveïdors de màrqueting i d’analítica fa servir Storytel, i quines dades els cedeix?",
+      "Hi ha una versió en castellà de la política, i és la mateixa que la de Singapur?",
+      "El compte admet algun segon factor d’autenticació?"
+    ]
+  },
+  "appStoreBundleId": "com.storytel.iphone"
+}

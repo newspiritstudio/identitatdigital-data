@@ -1,0 +1,316 @@
+{
+  "slug": "safety-tips",
+  "name": "Safety tips",
+  "company": "rc-solution",
+  "categories": [
+    "meteorologia"
+  ],
+  "tagline": "Alertes de terratrèmol i tsunami al Japó sense rastreig, però amb una política que no parla de l’aplicació",
+  "summary": "Safety tips avisa de terratrèmols, tsunamis, erupcions, avisos meteorològics i cops de calor al Japó, i està pensada per a visitants estrangers sota la supervisió de l’Agència de Turisme del Japó. L’etiqueta de l’App Store no declara cap dada per rastrejar i cap dada vinculada a la identitat: només ubicació aproximada, identificadors i interacció, sense vincular. L’única política disponible és la corporativa de RC Solution, en japonès i sense cap apartat sobre l’aplicació.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "unknown",
+  "jurisdiction": "Japó",
+  "links": {
+    "website": "https://www.rcsc.co.jp/",
+    "privacyPolicy": "https://www.rcsc.co.jp/privacy",
+    "appStore": "https://apps.apple.com/es/app/id858357174"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "editorial",
+    "sources": [
+      "safety-tips-app-store"
+    ],
+    "detail": "La fitxa descriu una aplicació gratuïta d’avisos que només demana triar zona i idioma, i l’etiqueta no declara cap dada vinculada a la identitat.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": []
+  },
+  "dataSummary": "L’aplicació necessita saber on ets per avisar-te del que et pot afectar. Ho fa amb ubicació aproximada i sense vincular-la a cap identitat, però la política del desenvolupador no explica què passa amb aquestes dades ni quant de temps es conserven.",
+  "dataCollection": [
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "safety-tips-app-store"
+      ],
+      "note": "Serveix per filtrar els avisos de la zona seleccionada."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "safety-tips-app-store"
+      ],
+      "note": "Necessari per enviar les notificacions d’emergència."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "safety-tips-app-store"
+      ],
+      "note": "L’etiqueta el declara com a «ID d’usuari» no vinculat a la identitat."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "safety-tips-app-store",
+        "safety-tips-rcsc-privacy"
+      ],
+      "note": "La política corporativa diu que fa servir Google Firebase i Analytics."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "safety-tips-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap dada usada per rastrejar-te.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "safety-tips-app-store"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "safety-tips-rcsc-privacy"
+      ],
+      "detail": "La política corporativa esmenta Firebase i Google Analytics per als productes de l’empresa, i AdMob per a la publicitat, sense dir quins fa servir aquesta aplicació.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "safety-tips-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap finalitat publicitària.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "safety-tips-rcsc-privacy"
+      ],
+      "detail": "La política només preveu cessions per obligació legal, per protegir la vida o en forma de dades estadístiques no identificables, i l’ús de serveis de Google.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’aplicació és japonesa i la política no diu on es tracten les dades."
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política corporativa no fixa cap termini."
+    },
+    "dataAfterDeletion": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha cap compte que es pugui eliminar; n’hi ha prou de desinstal·lar l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no crea cap compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "unknown",
+    "obstacles": "Per deixar de fer-la servir n’hi ha prou de desinstal·lar-la.",
+    "sources": [
+      "safety-tips-app-store"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "safety-tips-rcsc-privacy"
+      ],
+      "detail": "La política corporativa diu que atén les peticions de comunicació, rectificació, supressió i suspensió de l’ús a través del responsable de dades de l’empresa, sense procediment europeu.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no mostra publicitat, segons l’etiqueta de l’App Store.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Es poden triar zones i idioma, però no hem trobat controls de dades documentats."
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Servei d’avisos públics d’emergència: no hi ha comunicació privada entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha compte que calgui protegir.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha security.txt a rcsc.co.jp."
+    }
+  },
+  "review": {
+    "researchStatus": "initial",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Cap filtració associada a rcsc.co.jp a Have I Been Pwned. La política només existeix en japonès i és corporativa: gairebé tot el que sabem de l’aplicació surt de l’etiqueta de l’App Store.",
+    "openQuestions": [
+      "Quins serveis de Google fa servir exactament Safety tips i quina informació els envia?",
+      "Quant de temps conserva RC Solution els registres d’ús de l’aplicació?"
+    ]
+  },
+  "appStoreBundleId": "jp.co.rcsc.safetyTips.ios"
+}

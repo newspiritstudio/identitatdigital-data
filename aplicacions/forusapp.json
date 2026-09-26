@@ -1,0 +1,560 @@
+{
+  "slug": "forusapp",
+  "name": "ForusApp",
+  "company": "forus-deporte-y-ocio",
+  "categories": [
+    "benestar-i-activitat-fisica",
+    "esports-i-resultats"
+  ],
+  "tagline": "Dades de salut i geolocalització en una aplicació que enllaça la política de l’empresa desenvolupadora en lloc de la del responsable",
+  "summary": "Forus gestiona instal·lacions esportives, moltes de titularitat municipal. La seva política de privadesa diu obertament que l’aplicació la desenvolupa una tercera empresa amb contracte d’encarregat del tractament. La incoherència és a l’App Store, que enllaça la política de l’empresa desenvolupadora, MyVitale, on aquesta es presenta com a responsable i admet elaboració de perfils. La baixa de l’abonament, a diferència de la de VivaGym, s’ha de fer presencialment.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "subscription",
+  "jurisdiction": "Espanya; autoritat de control: Agencia Española de Protección de Datos",
+  "userBase": "Instal·lacions esportives gestionades pel grup Forus a Espanya",
+  "links": {
+    "website": "https://forus.es/",
+    "privacyPolicy": "https://forus.es/politica-de-privacidad",
+    "terms": "https://forus.es/terminos-condiciones",
+    "appStore": "https://apps.apple.com/es/app/id1357089462"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "forusapp-politica-privacidad"
+    ],
+    "detail": "L’aplicació és per a persones abonades a un centre Forus.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": [],
+    "detail": "No hem trobat cap repositori públic del codi."
+  },
+  "dataSummary": "Al nom, el DNI i el compte bancari s’hi sumen els interessos esportius, la geolocalització de l’aplicació i, amb consentiment exprés, dades de salut per als serveis de fisioteràpia i estètica. Com que moltes instal·lacions són municipals, l’ús del servei també diu on vius.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "forusapp-politica-privacidad",
+        "forusapp-app-store"
+      ]
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "forusapp-politica-privacidad"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "forusapp-politica-privacidad",
+        "forusapp-app-store"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "forusapp-politica-privacidad"
+      ]
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "forusapp-politica-privacidad"
+      ]
+    },
+    {
+      "type": "genere",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "forusapp-politica-privacidad"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "forusapp-politica-privacidad"
+      ]
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "forusapp-politica-privacidad",
+        "forusapp-app-store"
+      ],
+      "note": "Amb consentiment exprés, informat i previ, per als serveis de fisioteràpia i estètica; l’etiqueta declara «salud y forma física» per a personalització."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "forusapp-politica-privacidad"
+      ],
+      "note": "La política parla d’interessos esportius."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "forusapp-politica-privacidad"
+      ],
+      "note": "Geolocalització de l’aplicació amb consentiment revocable; la política diu que no se cedeix a tercers llevat de requeriment legal."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "forusapp-app-store"
+      ],
+      "note": "L’etiqueta declara fotos o vídeos vinculats amb la identitat."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "forusapp-politica-privacidad"
+      ],
+      "note": "Registres de servidor amb IP, navegador i sistema operatiu."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "forusapp-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "forusapp-app-store"
+      ]
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "forusapp-app-store"
+      ],
+      "note": "L’aplicació inclou xat, segons la fitxa de l’App Store."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "forusapp-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada utilitzada per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "forusapp-app-store"
+      ],
+      "detail": "L’etiqueta no declara dades de publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política parla de proveïdors com a encarregats, sense anomenar cap eina d’analítica."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "forusapp-politica-privacidad"
+      ],
+      "detail": "Comunicacions comercials basades en el consentiment o en l’interès legítim, amb baixa indicada a cada comunicació. No consta publicitat de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "forusapp-politica-privacidad",
+        "forusapp-myvitale-privacidad"
+      ],
+      "detail": "La política de Forus reconeix el dret d’oposar-se a l’elaboració de perfils automatitzats, i la de l’empresa desenvolupadora enumera l’elaboració de perfils entre les seves finalitats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Cap de les dues polítiques esmenta l’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "forusapp-politica-privacidad"
+      ],
+      "detail": "Proveïdors com a encarregats del tractament, entre ells l’empresa desenvolupadora de l’aplicació, i autoritats i jutjats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "forusapp-politica-privacidad"
+      ],
+      "detail": "Societats del grup Forus per a finalitats administratives.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "forusapp-politica-privacidad"
+      ],
+      "detail": "La política no preveu cap cessió comercial de dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "forusapp-politica-privacidad"
+      ],
+      "detail": "La política afirma que totes les entitats del grup són a l’Espai Econòmic Europeu i que no hi ha transferències internacionals.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "none"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "forusapp-politica-privacidad"
+      ],
+      "detail": "Criteri general de necessitat, amb un termini concret: les dades de màrqueting s’esborren automàticament als cinc anys d’inactivitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu què es conserva després d’una baixa."
+    },
+    "periods": [
+      {
+        "dataType": "adreca-electronica",
+        "period": "Cinc anys d’inactivitat per a finalitats de màrqueting",
+        "sources": [
+          "forusapp-politica-privacidad"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "forusapp-politica-privacidad"
+      ],
+      "detail": "La supressió s’ha de demanar al delegat de protecció de dades; no hem trobat cap eliminació de compte dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "forusapp-terminos"
+      ],
+      "detail": "Les condicions de contractació exigeixen comunicar la baixa presencialment a la recepció del centre, omplint un imprès.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "hard",
+    "requiresSupportContact": true,
+    "steps": [
+      "Passa per la recepció del teu centre Forus entre el dia 1 i el dia 25 del mes i omple l’imprès de baixa; a partir del dia 26 no s’admet fins al mes següent.",
+      "Comprova que estàs al corrent de pagament: la baixa no s’admet si hi ha rebuts pendents.",
+      "Per esborrar les dades, escriu al delegat de protecció de dades del grup invocant el dret de supressió.",
+      "Guarda còpia de l’imprès i del correu com a prova."
+    ],
+    "obstacles": "Cal anar físicament al centre per donar-se de baixa d’un servei que es contracta i es gestiona des d’una aplicació, i la finestra acaba el dia 25. A més, es perd la matrícula.",
+    "dataRetained": "La política no ho concreta més enllà dels terminis fiscals i comptables habituals.",
+    "sources": [
+      "forusapp-terminos",
+      "forusapp-politica-privacidad"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "forusapp-politica-privacidad"
+      ],
+      "detail": "La portabilitat es reconeix a la política i s’exerceix per correu electrònic; no hi ha eina d’autoservei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "forusapp-politica-privacidad"
+      ],
+      "detail": "Bústia del delegat de protecció de dades del grup i adreça postal, amb reclamació davant l’Agència Espanyola de Protecció de Dades.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dpo@forus.es",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "forusapp-politica-privacidad"
+      ],
+      "detail": "Baixa de les comunicacions comercials indicada a cada comunicació i al canal del delegat de protecció de dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap control d’analítica dins de l’aplicació."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "forusapp-politica-privacidad"
+      ],
+      "detail": "La geolocalització és revocable i el consentiment per a dades de salut és separat i exprés; no hi ha panell general de privadesa documentat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "yes",
+      "level": "editorial",
+      "sources": [
+        "forusapp-terminos"
+      ],
+      "detail": "Contractar i gestionar-ho tot des de l’aplicació però haver d’anar presencialment a recepció per donar-se de baixa, dins d’una finestra que acaba el dia 25, fa que sortir sigui molt més costós que entrar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "hidden-exit",
+        "severity": "high",
+        "description": "La baixa de l’abonament només s’admet presencialment a la recepció del centre, amb imprès i entre el dia 1 i el 25 del mes.",
+        "sources": [
+          "forusapp-terminos"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no ofereix comunicacions xifrables d’extrem a extrem.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació tècnica publicada."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació sobre verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories ni certificacions publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha fitxer security.txt ni als dominis de Forus ni als de l’empresa desenvolupadora, i no hem trobat cap canal publicat."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "vivagym",
+      "comparability": "equivalent",
+      "rationale": "Feta per la mateixa empresa desenvolupadora, permet la baixa de la quota en línia en lloc de presencialment.",
+      "tradeOffs": "La seva política fa descansar gairebé tot el tractament en el consentiment i no en l’execució del contracte."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La troballa principal és una incoherència documental: la política de Forus declara correctament que MyVitale és encarregat del tractament, però la fitxa de l’App Store enllaça la política de MyVitale, on aquesta empresa es presenta com a responsable, sense delegat de protecció de dades, sense llista de categories de dades i admetent l’elaboració de perfils. La cerca d’incidents no ha donat cap sanció ni filtració contra Forus ni contra l’empresa desenvolupadora.",
+    "openQuestions": [
+      "Quina de les dues polítiques s’aplica realment a les dades que es tracten dins de l’aplicació?",
+      "Els centres municipals que gestiona Forus tenen l’ajuntament com a corresponsable del tractament?"
+    ]
+  },
+  "appStoreBundleId": "com.myvitale.forus"
+}

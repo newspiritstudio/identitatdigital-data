@@ -1,0 +1,506 @@
+{
+  "slug": "trade-republic",
+  "name": "Trade Republic",
+  "company": "trade-republic-bank",
+  "categories": [
+    "banca-i-finances"
+  ],
+  "tagline": "Un banc que declara contacte, identificadors i ús com a dades per rastrejar-te",
+  "summary": "L’avís de privadesa de Trade Republic és un document de seixanta-quatre pàgines, bilingüe i actualitzat, que anomena els sis proveïdors integrats a l’aplicació i explica quina base jurídica s’aplica a cadascun. Alhora, l’etiqueta de l’App Store declara dades de contacte, identificadors i dades d’ús utilitzats per rastrejar-te fora del servei, cosa poc habitual en una entitat de crèdit. Les dades es conserven deu anys després de tancar el compte per obligació legal alemanya.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Alemanya",
+  "userBase": "Intermediari borsari mòbil amb presència a diversos països europeus",
+  "links": {
+    "website": "https://traderepublic.com/",
+    "privacyPolicy": "https://assets.traderepublic.com/assets/files/app_privacy_policy_es.pdf",
+    "appStore": "https://apps.apple.com/es/app/id1410703839"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "trade-republic-privacy-notice"
+    ],
+    "detail": "L’avís descriu l’obertura del compte bancari i l’execució d’ordres com a tractaments necessaris per al contracte.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "trade-republic-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "La cartera d’inversió mostra quant estalvies, quant risc acceptes i com reacciones quan el mercat baixa. Trade Republic hi suma la verificació d’identitat amb selfie, la ubicació i el contingut que la persona escriu a l’aplicació, i un conjunt de senyals d’ús que viatgen a Adjust i que poden alimentar publicitat personalitzada fora del servei.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "trade-republic-privacy-notice",
+        "trade-republic-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "trade-republic-privacy-notice",
+        "trade-republic-app-store"
+      ],
+      "note": "L’avís explica que les adreces xifrades es fan servir per casar audiències a les xarxes socials."
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "trade-republic-privacy-notice"
+      ],
+      "note": "Comprovacions d’identitat i edat exigides per la llei alemanya de blanqueig de capitals."
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "compliment-legal"
+      ],
+      "sources": [
+        "trade-republic-privacy-notice"
+      ],
+      "note": "L’avís cita l’autenticació per selfie entre els pocs casos de decisió automatitzada."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "trade-republic-privacy-notice",
+        "trade-republic-app-store"
+      ],
+      "note": "Adyen consta entre els proveïdors integrats a l’aplicació."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "trade-republic-app-store"
+      ],
+      "note": "Ordres de compra i de venda, i moviments del compte."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "trade-republic-app-store"
+      ]
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "trade-republic-app-store"
+      ],
+      "note": "L’etiqueta declara «contenido del usuario» vinculat amb la identitat; l’avís descriu Braze com a eina de comunicació amb la clientela."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-publicitaria",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "trade-republic-privacy-notice",
+        "trade-republic-app-store"
+      ],
+      "note": "Adjust atribueix les instal·lacions i reenvia dades als socis publicitaris; l’avís precisa que no hi circula el nom ni el correu en clar."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "trade-republic-privacy-notice",
+        "trade-republic-app-store"
+      ],
+      "note": "L’avís reconeix que les dades d’ús recollides per Adjust poden servir per mostrar anuncis personalitzats en línia."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "trade-republic-privacy-notice",
+        "trade-republic-app-store"
+      ],
+      "note": "Sentry s’allotja als servidors del mateix banc i, segons l’avís, no comparteix dades amb el proveïdor."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "trade-republic-app-store"
+      ],
+      "detail": "L’etiqueta declara dades de contacte, identificadors i dades d’ús utilitzats per rastrejar-te en aplicacions i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "trade-republic-privacy-notice"
+      ],
+      "detail": "L’avís descriu el casament d’identificadors publicitaris i adreces xifrades amb les dades de les xarxes socials per segmentar campanyes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "trade-republic-privacy-notice"
+      ],
+      "detail": "Sis proveïdors integrats a l’aplicació: Google Firebase, Adjust, Braze, Adyen, Sentry i GrowthBook.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "trade-republic-privacy-notice"
+      ],
+      "detail": "Xarxes de display, entre elles Google Display Network, publicitat a xarxes socials amb audiències casades i personalització a partir de les dades d’ús d’Adjust segons les preferències del perfil o el consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "trade-republic-privacy-notice"
+      ],
+      "detail": "Les decisions automatitzades es limiten al compliment legal, la lluita contra el blanqueig i el finançament del terrorisme i l’autenticació per selfie, amb dret a la intervenció humana.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’avís no esmenta l’entrenament de models d’intel·ligència artificial."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "trade-republic-privacy-notice"
+      ],
+      "detail": "Proveïdors anomenats un per un, amb la seva adreça i la finalitat: Firebase, Adjust, Braze, Adyen, Sentry i GrowthBook, a més de Visa per a les targetes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "trade-republic-privacy-notice"
+      ],
+      "detail": "L’avís preveu supòsits de corresponsabilitat i sucursals locals, i descriu la corresponsabilitat amb Meta pels perfils d’empresa a Instagram i Facebook.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’avís no declara cap venda de dades a intermediaris."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "trade-republic-privacy-notice"
+      ],
+      "detail": "Proveïdors amb seu als Estats Units, com Braze i Sentry, amb garanties contractuals per a les transferències fora de l’Espai Econòmic Europeu.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem localitzat cap informe de transparència sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "trade-republic-privacy-notice"
+      ],
+      "detail": "L’avís dedica un capítol sencer als terminis, derivats de la normativa bancària, fiscal i de blanqueig: deu anys com a regla general segons l’article 147 de l’ordenança tributària alemanya i la llei de blanqueig.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "trade-republic-privacy-notice"
+      ],
+      "detail": "Les dades del compte es conserven deu anys després del tancament, i el mateix termini s’aplica als comptes Junior.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "period": "Deu anys després de tancar el compte, per obligació bancària i fiscal alemanya",
+        "sources": [
+          "trade-republic-privacy-notice"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "trade-republic-privacy-notice"
+      ],
+      "detail": "Es pot exercir el dret de supressió de l’article 17, però l’avís adverteix que s’hi apliquen les limitacions de l’article 17.3 i les obligacions de conservació de deu anys.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’avís no descriu el procediment de tancament dins de l’aplicació i no hem pogut consultar el centre d’ajuda."
+    },
+    "difficulty": "hard",
+    "requiresSupportContact": true,
+    "steps": [
+      "Ven o traspassa les posicions i buida el saldo del compte.",
+      "Demana el tancament del compte al servei d’atenció al client de l’aplicació.",
+      "Escriu a dataprotection@traderepublic.com per exercir el dret de supressió sobre el que no estigui subjecte a conservació legal.",
+      "Tingues present que la documentació de la relació es conservarà deu anys i que pots reclamar davant de l’autoritat de protecció de dades alemanya."
+    ],
+    "obstacles": "El termini de deu anys l’imposa la llei alemanya, i vol dir que tancar el compte no esborra l’historial d’inversió.",
+    "dataRetained": "Nom, dades de contacte i documentació de les operacions durant deu anys.",
+    "sources": [
+      "trade-republic-privacy-notice"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "trade-republic-privacy-notice"
+      ],
+      "detail": "L’avís reconeix el dret de portabilitat de l’article 20 del RGPD dins del marc legal aplicable.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dataprotection@traderepublic.com"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "trade-republic-privacy-notice"
+      ],
+      "detail": "Equip de protecció de dades a dataprotection@traderepublic.com, contacte confidencial amb el delegat per carta i dret de reclamació segons l’article 77 del RGPD i l’article 19 de la llei federal alemanya.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dataprotection@traderepublic.com",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "trade-republic-privacy-notice"
+      ],
+      "detail": "Es pot rebutjar la personalització basada en dades pròpies des del perfil de l’aplicació, però l’avís adverteix que això no reduirà el nombre d’anuncis ni afectarà els que personalitzi la xarxa publicitària amb dades seves.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "trade-republic-privacy-notice"
+      ],
+      "detail": "L’aplicació té un avís de seguiment separat i un panell de perfil on es decideix el rastreig; l’avís garanteix que la decisió es respecta a tots els dispositius.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "trade-republic-privacy-notice"
+      ],
+      "detail": "Preferències de seguiment per finalitat dins del perfil, amb consentiment revocable en qualsevol moment sense efectes retroactius.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [],
+      "detail": "Advertir que oposar-se a la personalització «no tindrà necessàriament cap efecte sobre la quantitat d’anuncis» és una manera de desincentivar l’exercici del dret en el moment d’exercir-lo, encara que el que diu sigui cert.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no transporta comunicacions privades entre persones usuàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’avís no documenta el xifratge del canal."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública."
+    },
+    "mfa": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "trade-republic-privacy-notice"
+      ],
+      "detail": "L’avís descriu l’autenticació per selfie com a mitjà automatitzat de verificació; la normativa europea de pagaments exigeix autenticació reforçada, però no hem trobat el detall dels segons factors admesos.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories de seguretat independents publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses ni cap fitxer security.txt."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem localitzat cap canal públic de divulgació de vulnerabilitats."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "revolut",
+      "comparability": "partial",
+      "rationale": "Ofereix també inversió dins d’una aplicació financera, amb una etiqueta de l’App Store més continguda.",
+      "tradeOffs": "L’avís de privadesa de Revolut aplicable a l’EEE no és consultable amb eines automàtiques."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "L’avís de Trade Republic explica què fa cada proveïdor, i per això es pot afirmar amb font oficial que les dades d’ús d’un banc acaben alimentant publicitat personalitzada fora de l’aplicació.",
+    "openQuestions": [
+      "Quines dades exactes rep cada soci publicitari a través d’Adjust?",
+      "Quin és el procediment de tancament del compte dins de l’aplicació?"
+    ]
+  },
+  "appStoreBundleId": "de.traderepublic.app"
+}

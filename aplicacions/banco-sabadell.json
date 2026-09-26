@@ -1,0 +1,544 @@
+{
+  "slug": "banco-sabadell",
+  "name": "Banc Sabadell",
+  "company": "banco-sabadell",
+  "categories": [
+    "banca-i-finances"
+  ],
+  "tagline": "Consulta els fitxers de solvència per iniciativa pròpia i mira si tens una trucada en curs quan envies diners",
+  "summary": "L’annex de protecció de dades del Banc Sabadell diu que consulta ASNEF, BADEXCUG, la CIRBE i el RAI «sense que calgui una sol·licitud o autorització específica, prèvia i expressa» de la persona. El mecanisme antifrau de l’aplicació també és poc habitual: comprova si hi ha una trucada en curs mentre s’envia un Bizum o una transferència, accedeix a l’agenda i mira si hi ha aplicacions fraudulentes al telèfon. L’etiqueta de l’App Store, en canvi, no declara cap dada per rastrejar.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "subscription",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://www.bancsabadell.com/",
+    "privacyPolicy": "https://www.bancsabadell.com/bsnacional/es/anexo-informacion-detallada-proteccion-datos-caracter-particular/",
+    "appStore": "https://apps.apple.com/es/app/id347887638"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "banco-sabadell-app-privacy"
+    ],
+    "detail": "L’aplicació és la banca en línia del banc: cal ser-ne client.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "banco-sabadell-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "El banc tracta el detall de les operacions, els moviments i «els textos» de les transaccions per detectar necessitats de contractació. El concepte d’un moviment bancari indica a qui es paga i per què: una visita al fisioterapeuta, una quota sindical o les despeses d’una segona residència.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "banco-sabadell-privacy-policy"
+      ]
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "banco-sabadell-privacy-policy"
+      ],
+      "note": "Es comunica al Fitxer de Titularitats Financeres del SEPBLAC, per l’article 43 de la Llei 10/2010."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "banco-sabadell-app-privacy"
+      ]
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "banco-sabadell-app-privacy"
+      ],
+      "note": "L’aplicació accedeix a l’agenda per triar destinataris de Bizum."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "banco-sabadell-privacy-policy"
+      ],
+      "note": "El perfil comercial tracta el detall de les operacions, els moviments i els textos de les transaccions."
+    },
+    {
+      "type": "nivell-d-ingressos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "banco-sabadell-privacy-policy"
+      ],
+      "note": "Valoracions, seguiment i perfils de risc creditici i de capacitat de recuperació d’impagaments."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "banco-sabadell-privacy-policy",
+        "banco-sabadell-app-store"
+      ],
+      "note": "L’IBAN i la titularitat es comparteixen amb el fitxer comú de prevenció del frau d’Iberpay."
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "banco-sabadell-privacy-policy"
+      ],
+      "note": "Lectors de retina, veu, imatge facial, empremta i signatura digitalitzada, amb consentiment; si el procés només existeix en versió biomètrica, sense consentiment no es pot formalitzar."
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "banco-sabadell-privacy-policy"
+      ],
+      "note": "L’annex exclou expressament tractar dades de salut o d’origen ètnic amb finalitats comercials o d’enquesta."
+    },
+    {
+      "type": "aplicacions-instal-lades",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "banco-sabadell-app-privacy"
+      ],
+      "note": "L’aplicació comprova si hi ha programari fraudulent instal·lat al telèfon."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "banco-sabadell-app-privacy",
+        "banco-sabadell-app-store"
+      ],
+      "note": "La política de l’aplicació parla de capturar «el comportament a l’app»; també es comprova si hi ha una trucada en curs mentre s’envien diners."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "banco-sabadell-app-store"
+      ],
+      "note": "L’etiqueta la declara no vinculada a la persona."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "banco-sabadell-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "banco-sabadell-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "banco-sabadell-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada utilitzada per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "banco-sabadell-app-store"
+      ],
+      "detail": "L’etiqueta no declara identificadors per a publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut verificar quins rastrejadors incorpora l’aplicació."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "banco-sabadell-privacy-policy"
+      ],
+      "detail": "Comunicacions comercials basades en el perfil, amb consentiment, tret dels casos en què el banc invoca l’interès legítim.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "banco-sabadell-privacy-policy"
+      ],
+      "detail": "Perfils de risc creditici, de recuperació d’impagaments i comercials, amb consulta a ASNEF, BADEXCUG, la CIRBE i el RAI per iniciativa del banc.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’annex no esmenta en cap moment la intel·ligència artificial ni l’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "banco-sabadell-privacy-policy"
+      ],
+      "detail": "Sistemes d’informació creditícia, fitxer comú de prevenció del frau i servei de titularitat de comptes d’Iberpay, SEPBLAC, jutjats, cossos de seguretat i cessionaris en titulitzacions i vendes de cartera.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "banco-sabadell-privacy-policy"
+      ],
+      "detail": "Societats del grup i participades, amb consentiment o per interès legítim antifrau.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "banco-sabadell-privacy-policy"
+      ],
+      "detail": "No hi ha venda de dades per a màrqueting, però sí cessió a cessionaris en titulitzacions i vendes de cartera de crèdit.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "banco-sabadell-privacy-policy"
+      ],
+      "detail": "L’annex només preveu comunicacions a autoritats d’altres països, dins i fora de la Unió Europea, en matèria de blanqueig i terrorisme, i no identifica cap mecanisme de l’article 46.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "banco-sabadell-privacy-policy"
+      ],
+      "detail": "No hi ha una taula de terminis: l’annex remet a la prescripció de les accions dels articles 1962 a 1972 del Codi civil, que pot arribar als trenta anys, i al mínim de deu anys de la Llei 10/2010.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "banco-sabadell-privacy-policy"
+      ],
+      "detail": "Les dades es conserven un mínim de deu anys per prevenció del blanqueig i fins que prescriguin les accions contractuals.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "document-identificatiu-oficial",
+        "period": "Mínim 10 anys per la Llei 10/2010 de prevenció del blanqueig",
+        "sources": [
+          "banco-sabadell-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "dades-de-pagament",
+        "period": "30 dies al fitxer antifrau d’Iberpay per a operacions sospitoses i un any si el frau es confirma",
+        "sources": [
+          "banco-sabadell-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "banco-sabadell-app-privacy",
+        "banco-sabadell-privacy-policy"
+      ],
+      "detail": "Es pot donar de baixa l’usuari i cancel·lar els contractes, però l’esborrament efectiu xoca amb els terminis legals.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "banco-sabadell-app-privacy"
+      ],
+      "detail": "La política de l’aplicació ho diu expressament: per donar de baixa l’usuari cal trucar a atenció al client o escriure a infobs@bancsabadell.com.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "hard",
+    "requiresSupportContact": true,
+    "steps": [
+      "Cancel·la els productes i els contractes associats (targetes, rebuts, préstecs) a l’oficina o amb el gestor.",
+      "Truca al 963 085 000 o escriu a infobs@bancsabadell.com per donar de baixa l’usuari de la banca digital.",
+      "Per exercir els drets de protecció de dades, escriu a ejercicioderechosprotecdatos@bancsabadell.com.",
+      "Demana el justificant de la cancel·lació per escrit."
+    ],
+    "obstacles": "No hi ha cap opció de baixa dins de l’aplicació i el banc no publica terminis. La conservació fins a la prescripció de les accions, que pot arribar als trenta anys, fa que es doni de baixa el servei sense que s’esborrin les dades.",
+    "dataRetained": "Documentació contractual durant un mínim de deu anys i fins a la prescripció de les accions civils.",
+    "sources": [
+      "banco-sabadell-app-privacy",
+      "banco-sabadell-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "banco-sabadell-privacy-policy"
+      ],
+      "detail": "La portabilitat es reconeix i s’exerceix per correu a la unitat de drets; no hem trobat cap eina d’autoservei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "banco-sabadell-privacy-policy"
+      ],
+      "detail": "Delegat de protecció de dades i una unitat específica per a l’exercici de drets.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:ejercicioderechosprotecdatos@bancsabadell.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "banco-sabadell-privacy-policy"
+      ],
+      "detail": "El perfil comercial es basa en el consentiment, però el banc es reserva casos en què hi aplica l’interès legítim, que no es pot revocar sinó només oposar-s’hi.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap control per desactivar l’analítica de l’aplicació."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap panell de preferències de privadesa documentat dins de l’aplicació."
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi de patrons foscos de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no transporta comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El banc publica el certificat del web, però no hem trobat documentació sobre el xifratge de les comunicacions de l’aplicació."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública sobre el xifratge de les dades en repòs."
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "banco-sabadell-security"
+      ],
+      "detail": "Doble verificació amb contrasenya i codi d’un sol ús al mòbil, i entrada biomètrica a l’aplicació.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "sms",
+        "app-push"
+      ]
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten certificacions ni auditories publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El fitxer security.txt no es pot consultar: el servidor respon amb un accés denegat."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "El banc té dues polítiques: la que enllaça l’App Store és un text antic i curt, i la vigent és l’annex d’informació detallada, actualitzat el juny de 2026. Qui llegeixi la primera no sabrà que el banc consulta fitxers de solvència per iniciativa pròpia.",
+    "openQuestions": [
+      "Hi ha decisions individuals automatitzades de l’article 22 del RGPD? L’annex no en diu res, ni per afirmar-ho ni per negar-ho.",
+      "Quin mecanisme de transferència internacional s’aplica quan hi ha proveïdors fora de l’Espai Econòmic Europeu?"
+    ]
+  },
+  "appStoreBundleId": "com.bancosabadell.sabloc"
+}

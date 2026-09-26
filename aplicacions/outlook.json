@@ -1,0 +1,614 @@
+{
+  "slug": "outlook",
+  "name": "Microsoft Outlook",
+  "company": "microsoft",
+  "categories": [
+    "correu-electronic",
+    "ofimatica-i-productivitat"
+  ],
+  "tagline": "Declara seguiment entre aplicacions de tercers i publicitat amb el contingut del correu",
+  "summary": "L’etiqueta de l’App Store d’Outlook declara dades d’ús utilitzades per rastrejar-te en aplicacions i llocs d’altres empreses i publicitat de tercers amb dades d’ús i de publicitat. També declara que els correus, els missatges i l’historial de cerca s’utilitzen per a analítica i per personalitzar el producte, a més de desar-los.",
+  "platforms": [
+    "ios",
+    "android",
+    "web",
+    "windows",
+    "macos"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Irlanda",
+  "userBase": "Centenars de milions de bústies entre Outlook.com i Microsoft 365",
+  "links": {
+    "website": "https://www.microsoft.com/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook",
+    "privacyPolicy": "https://www.microsoft.com/en-us/privacy/privacystatement",
+    "privacyCenter": "https://account.microsoft.com/privacy/",
+    "appStore": "https://apps.apple.com/es/app/id951937596"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "microsoft-privacy-statement"
+    ],
+    "detail": "Cal un compte de correu; l’aplicació admet comptes de Microsoft i de tercers, com Gmail o IMAP.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "microsoft-privacy-statement"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "El correu sol contenir comunicacions amb bancs, metges i advocats, relacions personals, compres i desplaçaments. S’hi afegeixen els contactes, el calendari i l’historial de cerca dins de la bústia. L’etiqueta declara que aquest contingut s’utilitza per a analítica i per a personalització, a més de desar-lo.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "outlook-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "outlook-app-store"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "outlook-app-store"
+      ]
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "outlook-app-store"
+      ],
+      "note": "L’etiqueta declara els contactes també per a la personalització del producte, no només per fer funcionar el correu."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "outlook-app-store"
+      ],
+      "note": "Els correus i els missatges de text figuren a l’etiqueta sota «Análisis de datos» i «Personalización del producto»."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "outlook-app-store"
+      ],
+      "note": "Les cerques dins de la bústia s’utilitzen per a analítica i per personalitzar el producte."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "outlook-app-store"
+      ],
+      "note": "Fitxers adjunts i imatges enviats o rebuts."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "outlook-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "outlook-app-store"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "outlook-app-store"
+      ],
+      "note": "L’etiqueta declara «Datos de publicidad» vinculats a la identitat, tant per a publicitat de tercers com per al màrqueting de Microsoft."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "outlook-app-store"
+      ],
+      "note": "És l’única categoria que l’etiqueta declara com a utilitzada per rastrejar-te en aplicacions i llocs web d’altres empreses."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "outlook-app-store"
+      ],
+      "note": "L’etiqueta la declara com a dada no vinculada a la identitat, per a la funcionalitat de l’aplicació."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "outlook-app-store",
+        "microsoft-365-privacy-controls"
+      ]
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "microsoft-ad-settings",
+        "outlook-app-store"
+      ],
+      "note": "El panell de publicitat de Microsoft mostra i permet editar les categories d’interès associades al compte."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "outlook-app-store"
+      ],
+      "detail": "L’etiqueta declara dades d’ús utilitzades per rastrejar-te en aplicacions i llocs web propietat d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "outlook-app-store"
+      ],
+      "detail": "Dades de publicitat vinculades a la identitat, per a publicitat de tercers i per al màrqueting del mateix desenvolupador.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "outlook-app-store",
+        "microsoft-privacy-statement"
+      ],
+      "detail": "La declaració de Microsoft cita Xandr, Facebook, Media.net i Outbrain entre els socis publicitaris del grup.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "outlook-app-store",
+        "microsoft-ad-settings"
+      ],
+      "detail": "La versió gratuïta d’Outlook.com mostra publicitat i l’etiqueta declara la finalitat «Publicidad de terceros». Es pot desactivar la personalització des del panell de publicitat.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://account.microsoft.com/privacy/ad-settings"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-ad-settings",
+        "outlook-app-store"
+      ],
+      "detail": "Microsoft manté un perfil d’interessos editable des del panell de publicitat del compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "microsoft-privacy-statement",
+        "microsoft-copilot-privacy"
+      ],
+      "detail": "La declaració general preveu l’ús de dades per desenvolupar i entrenar models d’IA en els serveis de consum; als comptes amb protecció de dades empresarials, les indicacions i respostes de Copilot no entrenen els models de base.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-privacy-statement"
+      ],
+      "detail": "Proveïdors que actuen per compte de Microsoft i socis publicitaris com Xandr, Facebook, Media.net i Outbrain.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-privacy-statement"
+      ],
+      "detail": "Compartició amb filials i societats controlades pel grup.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "microsoft-trust-center-data-management"
+      ],
+      "detail": "Microsoft declara que no comparteix les dades de client amb serveis finançats amb publicitat, un compromís que s’aplica als serveis empresarials.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "microsoft-eu-data-boundary",
+        "microsoft-privacy-statement"
+      ],
+      "detail": "Els comptes empresarials europeus queden dins del perímetre de dades de la UE amb excepcions documentades; els comptes personals es regeixen per les clàusules contractuals tipus i el marc UE-EUA.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-law-enforcement-report"
+      ],
+      "detail": "A l’informe semestral, Microsoft separa les peticions de contingut (en el cas del correu, els missatges) de les de dades no de contingut.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "microsoft-privacy-statement",
+        "microsoft-trust-center-data-management"
+      ],
+      "detail": "Terminis concrets per a la baixa dels serveis empresarials, però criteris generals per al correu dels comptes personals.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "microsoft-close-account"
+      ],
+      "detail": "El correu i el contingut s’esborren un cop passada la finestra de reobertura de 30 o 60 dies triada en tancar el compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "period": "Finestra de reobertura de 30 o 60 dies abans de l’esborrat definitiu del contingut del compte personal.",
+        "sources": [
+          "microsoft-close-account"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "microsoft-close-account"
+      ],
+      "detail": "El compte personal es tanca un mateix; una bústia corporativa només la pot eliminar l’administrador de l’organització.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "microsoft-close-account"
+      ],
+      "detail": "Autoservei per al compte de Microsoft; cap control propi sobre una bústia de la feina.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://account.microsoft.com/closeaccount",
+    "difficulty": "medium",
+    "waitingPeriodDays": 60,
+    "steps": [
+      "Descarrega abans el correu que vulguis conservar: en tancar el compte perds la bústia.",
+      "Cancel·la les subscripcions actives i gasta els saldos pendents associats al compte.",
+      "Inicia la sessió i obre la pàgina de tancament del compte de Microsoft.",
+      "Verifica la identitat, comprova que el compte és el correcte i selecciona «Següent».",
+      "Marca les caselles que confirmen que has revisat cada punt de la llista.",
+      "Tria la finestra de reobertura de 30 o de 60 dies, selecciona un motiu i prem «Marcar el compte per tancar-lo»."
+    ],
+    "obstacles": "Tancar el compte de Microsoft no només esborra el correu: també desactiva Xbox, OneDrive, Skype i les llicències d’Office associades. La pàgina ho adverteix amb una llista de caselles que cal marcar una a una.",
+    "dataRetained": "Les dades de facturació de les subscripcions es conserven pels terminis fiscals obligatoris.",
+    "sources": [
+      "microsoft-close-account"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-privacy-dashboard",
+        "microsoft-privacy-statement"
+      ],
+      "detail": "El panell de privadesa permet descarregar les dades del compte; el correu també es pot exportar en fitxers PST des del client d’escriptori.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://account.microsoft.com/privacy/"
+    },
+    "exportFormatQuality": "mixed",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-privacy-statement"
+      ],
+      "detail": "Canal de privadesa del grup i contacte del delegat de protecció de dades a Irlanda.",
+      "verifiedAt": "2026-09-22",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-ad-settings"
+      ],
+      "detail": "El panell de publicitat permet desactivar els anuncis personalitzats i la compartició de dades amb tercers amb finalitat publicitària, i Microsoft declara que respecta el senyal Global Privacy Control.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://account.microsoft.com/privacy/ad-settings"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "microsoft-365-privacy-controls"
+      ],
+      "detail": "Les dades de diagnòstic opcionals es poden desactivar, però les obligatòries i les dades de servei necessàries s’envien sempre.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "microsoft-privacy-dashboard",
+        "microsoft-ad-settings"
+      ],
+      "detail": "Hi ha panells per a la publicitat i per a l’historial del compte, però no un control per finalitat sobre l’ús del contingut del correu en analítica i personalització.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [
+        "outlook-app-store"
+      ],
+      "detail": "La personalització publicitària i el seguiment per dades d’ús estan actius per defecte i el control viu en un panell web del compte, lluny de la configuració de l’aplicació de correu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "preselected",
+        "severity": "medium",
+        "description": "El seguiment amb dades d’ús i la publicitat personalitzada funcionen per defecte; cal anar al panell web de publicitat del compte de Microsoft per desactivar-los.",
+        "sources": [
+          "outlook-app-store",
+          "microsoft-ad-settings"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "microsoft-privacy-statement"
+      ],
+      "detail": "El correu es desa desxifrat al servidor perquè el servei el pugui indexar i cercar; no hi ha xifratge d’extrem a extrem per defecte.",
+      "verifiedAt": "2026-09-22",
+      "scope": "none"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-trust-center-data-management"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-trust-center-data-management"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-authenticator-method"
+      ],
+      "detail": "Verificació en dos passos amb claus d’accés, notificacions, codis OATH i claus de seguretat.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "passkey",
+        "app-push",
+        "totp",
+        "hardware-key",
+        "sms",
+        "email"
+      ]
+    },
+    "independentAudits": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-iso-27001"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-msrc-bounty"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-msrc-cvd"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "proton-mail",
+      "comparability": "partial",
+      "rationale": "Correu amb xifratge de la bústia al servidor, sense publicitat i sota jurisdicció suïssa.",
+      "tradeOffs": "La cerca dins del correu és més limitada i el pla gratuït ofereix molt menys espai."
+    },
+    {
+      "app": "gmail",
+      "comparability": "equivalent",
+      "rationale": "Cobreix les mateixes funcions de correu i calendari amb una aplicació mòbil comparable.",
+      "tradeOffs": "El tractament passa a un grup amb un negoci publicitari encara més central; no és una millora de privadesa."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "L’etiqueta d’Outlook declara el contingut dels correus i l’historial de cerca sota les finalitats d’analítica i de personalització del producte, i les dades d’ús com a dades de seguiment entre aplicacions de tercers.",
+    "openQuestions": [
+      "Quin tractament concret rep el contingut dels correus sota la finalitat «Análisis de datos» declarada a l’App Store?",
+      "El seguiment amb dades d’ús també s’aplica quan l’aplicació només gestiona comptes de tercers com Gmail o IMAP?"
+    ]
+  },
+  "appStoreBundleId": "com.microsoft.Office.Outlook"
+}

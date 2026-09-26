@@ -1,0 +1,574 @@
+{
+  "slug": "honest-greens",
+  "name": "Honest Greens",
+  "company": "honest-greens",
+  "categories": [
+    "alimentacio-i-restauracio"
+  ],
+  "tagline": "Política detallada amb proveïdors amb nom i terminis concrets, però amb perfilat comercial i rastreig declarat",
+  "summary": "Honest Greens publica una política més concreta que la mitjana: diu quins proveïdors tracten les dades, amb quins mecanismes de transferència i durant quants anys queden bloquejades les dades després de la baixa. Tot i això, elabora perfils comercials a partir dels hàbits de consum amb IA i l’etiqueta de l’App Store declara l’identificador del dispositiu com a dada usada per rastrejar. El compte es pot esborrar des de la mateixa aplicació.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Espanya (Honest Greens Barcelona, S.A.U. i societats del grup, corresponsables)",
+  "links": {
+    "website": "https://www.honestgreens.com/",
+    "privacyPolicy": "https://www.honestgreens.com/es/privacy-policy",
+    "terms": "https://www.honestgreens.com/es/terms-and-conditions",
+    "appStore": "https://apps.apple.com/es/app/id1236188773"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "honest-greens-privacy-policy"
+    ],
+    "detail": "Per demanar cal registrar-se amb nom, telèfon i correu, o amb un compte de Google o Apple.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "honest-greens-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "L’historial de comandes, els restaurants més visitats i la freqüència revelen la dieta, els horaris i la rutina laboral de la persona, sobretot amb el programa d’empresa Honest Base, que vincula el compte a l’empresa on treballa.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "honest-greens-app-store",
+        "honest-greens-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "honest-greens-app-store",
+        "honest-greens-privacy-policy"
+      ],
+      "note": "Sendgrid i CleverTap, als Estats Units, envien els codis d’accés i el màrqueting."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "honest-greens-app-store",
+        "honest-greens-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "honest-greens-app-store",
+        "honest-greens-privacy-policy"
+      ],
+      "note": "Adreces de casa o de la feina per als lliuraments, que fan Stuart, Uber Eats, Glovo, Deliveroo o Jelp."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "honest-greens-privacy-policy"
+      ],
+      "note": "Adyen i Apple Pay processen els pagaments."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "honest-greens-privacy-policy"
+      ]
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "honest-greens-privacy-policy"
+      ],
+      "note": "Preferències i hàbits de consum tractats amb IA; es poden compartir entre les societats del grup per oferir promocions."
+    },
+    {
+      "type": "genere",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "honest-greens-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "honest-greens-app-store",
+        "honest-greens-privacy-policy"
+      ]
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "honest-greens-privacy-policy"
+      ],
+      "note": "Xat i formularis d’atenció al client gestionats amb Zendesk."
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "honest-greens-privacy-policy"
+      ],
+      "note": "Valoracions i comentaris, compartits amb les societats que gestionen els restaurants."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "honest-greens-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "honest-greens-app-store"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "investigacio-i-estadistica"
+      ],
+      "sources": [
+        "honest-greens-privacy-policy"
+      ],
+      "note": "La política diu que les dades de connexió no es vinculen a la identitat."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "honest-greens-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "honest-greens-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "honest-greens-app-store"
+      ],
+      "detail": "L’etiqueta declara els identificadors com a dades usades per rastrejar en aplicacions i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "honest-greens-app-store"
+      ],
+      "detail": "L’identificador del dispositiu es declara per a publicitat del desenvolupador i per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi independent de rastrejadors de l’aplicació."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "honest-greens-app-store",
+        "honest-greens-privacy-policy"
+      ],
+      "detail": "Promocions a partir de les preferències i identificador del dispositiu declarat per a publicitat; les galetes no tècniques requereixen consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "honest-greens-privacy-policy"
+      ],
+      "detail": "Elabora perfils comercials amb interès legítim a partir de preferències, gènere, ubicació i hàbits de consum. Es pot desactivar al panell de configuració.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "honest-greens-privacy-policy"
+      ],
+      "detail": "Fa servir IA per a recomanacions i per analitzar patrons de comportament i millorar el servei, sense aclarir si entrena models propis.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "honest-greens-privacy-policy"
+      ],
+      "detail": "Proveïdors identificats amb nom: AWS, Stuart, Uber Eats, Glovo, Deliveroo, Jelp, Apple Pay, Adyen, Sendgrid, CleverTap i Zendesk.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "honest-greens-privacy-policy"
+      ],
+      "detail": "Les societats propietàries de cada restaurant són corresponsables i es cedeixen les preferències per oferir promocions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "honest-greens-privacy-policy"
+      ],
+      "detail": "La política diu que les dades de perfil no es comparteixen amb tercers sense consentiment exprés.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "honest-greens-privacy-policy"
+      ],
+      "detail": "Transferències als Estats Units, el Regne Unit i Mèxic amb clàusules contractuals tipus; Zendesk, amb el Marc de privadesa UE-EUA.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "honest-greens-privacy-policy"
+      ],
+      "detail": "Mentre el compte és actiu; després, bloquejades fins a la prescripció legal, amb terminis concrets per país. Els CV, com a màxim un any.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "honest-greens-privacy-policy"
+      ],
+      "detail": "Després d’esborrar el compte, les dades queden bloquejades (no esborrades) fins que prescriuen les responsabilitats legals.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "historial-de-compres",
+        "period": "Bloquejades després de la baixa: 4 anys (fiscal), 5 anys (contractual) i 6 anys (mercantil i comptable) a Espanya",
+        "sources": [
+          "honest-greens-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "honest-greens-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "honest-greens-privacy-policy"
+      ],
+      "detail": "Des del perfil d’usuari de l’aplicació o de la web de comandes, a la pestanya de configuració.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://app.honestgreens.com/user-profile",
+    "difficulty": "easy",
+    "requiresSupportContact": false,
+    "steps": [
+      "Inicia la sessió a l’aplicació o a app.honestgreens.com.",
+      "Obre el perfil d’usuari i entra a la pestanya de configuració.",
+      "Prem l’últim botó, «Borrar cuenta», i segueix els passos.",
+      "Si no pots accedir al compte, escriu a hello@honestgreens.com."
+    ],
+    "dataRetained": "Les dades queden bloquejades fins a la prescripció legal: 4 anys en matèria fiscal, 5 per a reclamacions contractuals i 6 per a obligacions mercantils a Espanya.",
+    "sources": [
+      "honest-greens-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "honest-greens-privacy-policy"
+      ],
+      "detail": "Reconeix la portabilitat i l’accés a les dades generades per l’aplicació segons el Reglament de dades (Data Act), en format estructurat, però cal demanar-ho per correu.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:hello@honestgreens.com"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "honest-greens-privacy-policy"
+      ],
+      "detail": "Per correu a hello@honestgreens.com i, segons la política, també des de l’apartat de privadesa de l’aplicació.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:hello@honestgreens.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "honest-greens-privacy-policy"
+      ],
+      "detail": "El perfilat de màrqueting es pot desactivar des del panell de configuració de l’aplicació o amb l’enllaç de baixa de cada comunicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap opció per desactivar l’analítica d’ús."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "honest-greens-privacy-policy"
+      ],
+      "detail": "Panell de configuració per a galetes no tècniques i perfilat de màrqueting.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem analitzat els fluxos de consentiment de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no ofereix comunicacions privades entre persones usuàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "editorial",
+      "sources": [],
+      "detail": "Comprovació pròpia: el web i la web de comandes funcionen amb HTTPS.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no parla del xifratge de les dades en repòs."
+    },
+    "mfa": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "honest-greens-privacy-policy"
+      ],
+      "detail": "L’accés es fa amb codis de seguretat enviats en el registre, que substitueixen la contrasenya més que no pas reforçar-la.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "email"
+      ]
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories de seguretat publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "honestgreens.com no publica un fitxer security.txt i no hem trobat cap canal de notificació de vulnerabilitats."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "L’etiqueta de l’App Store declara la ubicació, l’ús i el diagnòstic com a no vinculats, cosa coherent amb la política, que diu que les dades de connexió no es lliguen a la identitat. En canvi, declara l’identificador del dispositiu com a dada de rastreig, cosa que la política no explica. No hem trobat cap sanció ni filtració.",
+    "openQuestions": [
+      "A quines empreses arriba l’identificador del dispositiu que l’etiqueta declara per rastrejar?",
+      "Els codis d’accés s’envien per SMS, per correu o per tots dos?"
+    ]
+  },
+  "appStoreBundleId": "com.mgtdesign.HonestGreens"
+}

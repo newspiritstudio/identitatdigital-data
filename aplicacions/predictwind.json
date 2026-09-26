@@ -1,0 +1,506 @@
+{
+  "slug": "predictwind",
+  "name": "PredictWind — Marine Forecasts",
+  "company": "predictwind",
+  "categories": [
+    "meteorologia"
+  ],
+  "tagline": "Comparteix nom, embarcació i coordenades GPS amb altres persones usuàries, i cobra 49 dòlars per una còpia de les teves dades",
+  "summary": "PredictWind és el servei de previsió meteorològica marina que fan servir navegants i regatistes, amb seguiment del vaixell i missatgeria per satèl·lit. L’etiqueta de l’App Store és extensa: sis categories declarades com a dades per rastrejar i vuit vinculades a la identitat. La política és detallada i enumera una vintena de proveïdors, però encara invoca l’Escut de Privadesa i anuncia una taxa administrativa de 49 dòlars per lliurar una còpia de les dades, cosa que xoca amb la gratuïtat que exigeix l’article 12.5 del RGPD.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "subscription",
+  "jurisdiction": "Nova Zelanda",
+  "links": {
+    "website": "https://www.predictwind.com/",
+    "privacyPolicy": "https://www.predictwind.com/about-us/privacy-policy/",
+    "appStore": "https://apps.apple.com/es/app/id477048487"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "predictwind-privacy",
+      "predictwind-app-store"
+    ],
+    "detail": "Cal compte per accedir a les previsions i als plans de subscripció.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": [],
+    "detail": "No hem trobat publicat el codi de l’aplicació."
+  },
+  "dataSummary": "La posició GPS d’una embarcació, amb el nom del vaixell i de la persona, és especialment sensible, perquè indica on és algú enmig del mar i qui hi ha a bord. La política preveu, a més, que aquestes dades es puguin mostrar a altres persones usuàries segons la configuració.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "predictwind-privacy",
+        "predictwind-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "predictwind-privacy"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "predictwind-app-store",
+        "predictwind-privacy"
+      ],
+      "note": "La política parla de «tracking data» amb nom, embarcació i coordenades GPS, i preveu mostrar-les a altres persones usuàries segons la configuració."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "predictwind-app-store",
+        "predictwind-privacy"
+      ],
+      "note": "Els pagaments per web passen per Stripe i PayPal."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "predictwind-privacy"
+      ],
+      "note": "La política diu que a iOS l’aplicació pot accedir a l’IDFA i compartir-lo amb proveïdors tercers per a atribució publicitària."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "predictwind-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "predictwind-app-store"
+      ]
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "predictwind-app-store",
+        "predictwind-privacy"
+      ],
+      "note": "La política parla de «publication data» i adverteix que el contingut publicat es manté encara que es desactivi el compte."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "predictwind-app-store",
+        "predictwind-privacy"
+      ],
+      "note": "La política anomena Google Analytics, Mixpanel, Segment i FullStory, aquest últim d’enregistrament de sessions."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "predictwind-privacy"
+      ],
+      "note": "Inclou la geolocalització deduïda de l’adreça IP."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "predictwind-app-store"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "predictwind-privacy"
+      ],
+      "note": "La política de galetes inclou una categoria de galetes publicitàries que es comparteixen amb tercers com Adwords i Bing."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "predictwind-app-store",
+        "predictwind-privacy"
+      ],
+      "detail": "L’etiqueta declara sis categories utilitzades per rastrejar, i la política reconeix l’accés a l’IDFA i la compartició amb proveïdors d’atribució.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "predictwind-privacy"
+      ],
+      "detail": "La política esmenta expressament l’identificador per a anunciants d’iOS.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "predictwind-privacy"
+      ],
+      "detail": "La política enumera, entre altres, Google Analytics, Google Tag Manager, Firebase, Mixpanel, Segment, FullStory, Intercom i etiquetes de Facebook i Twitter.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "predictwind-privacy"
+      ],
+      "detail": "El model és de subscripció, però la política declara galetes publicitàries compartides amb Adwords i Bing i l’ús de l’IDFA per a atribució.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap elaboració de perfils amb efectes sobre la persona."
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu res sobre l’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "predictwind-privacy"
+      ],
+      "detail": "La política llista nominalment una vintena de proveïdors d’analítica, suport, correu, pagaments i publicitat, i preveu mostrar ubicació, nom i embarcació a altres persones usuàries segons la configuració.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap grup empresarial."
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta cap venda de dades."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "predictwind-privacy"
+      ],
+      "detail": "Nova Zelanda té decisió d’adequació de la Comissió Europea, però l’allotjament és a AWS i DigitalOcean als Estats Units i Austràlia, i la política empara aquestes transferències en l’Escut de Privadesa, invalidat el 2020.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "adequacy"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "predictwind-privacy"
+      ],
+      "detail": "Les dades comptables es conserven un mínim de set anys per llei neozelandesa; la resta, mentre el compte és actiu «i un període raonable després», sense concretar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "predictwind-privacy"
+      ],
+      "detail": "La política adverteix que el contingut publicat es manté encara que es desactivi el compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "historial-de-compres",
+        "period": "Mínim 7 anys, per obligació comptable de la legislació de Nova Zelanda",
+        "sources": [
+          "predictwind-privacy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "predictwind-privacy",
+        "predictwind-cancel-help"
+      ],
+      "detail": "La política reconeix el dret de supressió i s’exerceix per escrit, però el centre d’ajuda només documenta com es cancel·la la subscripció, no com s’elimina el compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "predictwind-cancel-help"
+      ],
+      "detail": "El centre d’ajuda no té cap article sobre l’eliminació del compte; només explica la cancel·lació de les subscripcions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "hard",
+    "requiresSupportContact": true,
+    "steps": [
+      "Cancel·la la subscripció: si la vas contractar al web, des del teu compte a predictwind.com; si la vas contractar dins de l’aplicació, a Configuració > El teu nom > Subscripcions.",
+      "Desactiva el seguiment de l’embarcació perquè deixi de transmetre les coordenades.",
+      "Escriu a privacy@predictwind.com o a support@predictwind.com invocant el dret de supressió de l’article 17 del RGPD.",
+      "Si no hi ha resposta, adreça’t al representant a la Unió Europea, a Marsella, que la mateixa política identifica."
+    ],
+    "obstacles": "La política anuncia una taxa administrativa de 49 dòlars per lliurar una còpia de les dades. L’article 12.5 del RGPD exigeix que la primera còpia sigui gratuïta i només permet cobrar davant de peticions manifestament infundades o excessives.",
+    "dataRetained": "Dades comptables durant un mínim de set anys i contingut publicat, que segons la política es manté encara que es desactivi el compte.",
+    "sources": [
+      "predictwind-privacy",
+      "predictwind-cancel-help"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "predictwind-privacy"
+      ],
+      "detail": "La política reconeix l’accés i la portabilitat, però hi associa una taxa de 49 dòlars i no ofereix cap eina d’autoservei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "predictwind-privacy"
+      ],
+      "detail": "Té delegat de protecció de dades designat i representant a la Unió Europea identificat amb nom i adreça. La taxa de 49 dòlars per a la còpia de les dades en rebaixa el valor pràctic.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacy@predictwind.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "predictwind-privacy"
+      ],
+      "detail": "La política de galetes distingeix les publicitàries de la resta, però no descriu cap control equivalent dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "predictwind-privacy"
+      ],
+      "detail": "La política no ofereix cap manera de desactivar l’analítica ni l’enregistrament de sessions de FullStory.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "predictwind-privacy"
+      ],
+      "detail": "Hi ha configuració sobre què es mostra a altres persones usuàries, però no un panell de privadesa per finalitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi de patrons foscos a l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El servei inclou missatgeria per satèl·lit, però la política no diu si el contingut va xifrat d’extrem a extrem."
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "predictwind-privacy"
+      ],
+      "detail": "La política diu que les dades sensibles i les de targeta es transmeten xifrades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "predictwind-privacy"
+      ],
+      "detail": "La política descriu controls d’accés lògics i físics als centres de dades i diu que no desa les dades de targeta als seus servidors, però no parla de xifratge en repòs.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap documentació sobre doble factor."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap auditoria ni certificació."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha fitxer security.txt a predictwind.com."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "La política és detallada, però planteja problemes: enumera els proveïdors amb nom, designa delegat de protecció de dades i representant a la Unió Europea, però cobra per exercir el dret d’accés i empara les transferències als Estats Units en un mecanisme anul·lat el 2020. Si la taxa de 49 dòlars s’aplica a una persona resident a la Unió Europea, contradiu l’article 12.5 del RGPD.",
+    "openQuestions": [
+      "La cerca d’incidents no s’ha pogut completar: s’havia esgotat el pressupost de cerques web de la sessió. Cal repetir-la abans de donar per bo que no n’hi ha cap.",
+      "La taxa de 49 dòlars per una còpia de les dades s’aplica també a les sol·licituds emparades en el RGPD?",
+      "La missatgeria per satèl·lit va xifrada d’extrem a extrem?",
+      "Quina és la data de l’última revisió de la política? No consta enlloc."
+    ]
+  },
+  "appStoreBundleId": "com.predictwind.app"
+}

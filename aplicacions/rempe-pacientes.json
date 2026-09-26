@@ -1,0 +1,356 @@
+{
+  "slug": "rempe-pacientes",
+  "name": "REMPe Pacientes",
+  "company": "digital-prescription-services",
+  "categories": [
+    "salut-i-assistencia-sanitaria"
+  ],
+  "tagline": "La recepta privada electrònica, amb una política que parla de registres i no de medicaments",
+  "summary": "REMPe és el sistema de recepta mèdica privada electrònica que connecta la prescripció del metge amb la dispensació a la farmàcia, i aquesta és l’aplicació per a pacients. La medicació prescrita és una dada de salut. La política pública és breu: identifica el responsable (Digital Prescription Services, S.A.) i el canal de drets i afirma que, com a regla general, no se cedeixen dades a tercers, però descriu el tractament en termes de registre d’usuari i no detalla què passa amb les prescripcions.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Espanya",
+  "userBase": "Pacients amb receptes privades electròniques emeses per professionals adherits a REMPe",
+  "links": {
+    "website": "https://rempe.es/",
+    "privacyPolicy": "https://resources.rempe.es/pages/citizen/privacy-policies.html",
+    "appStore": "https://apps.apple.com/es/app/id1632200425"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "rempe-web-privacy-policy"
+    ],
+    "detail": "El tractament descrit es basa en el consentiment explícit atorgat en registrar-se com a usuari.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "editorial",
+    "sources": [],
+    "detail": "No consta cap publicació del codi font; és programari privatiu.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "La llista de medicaments prescrits a una persona permet deduir-ne els diagnòstics amb molta precisió: tractaments crònics, salut mental, fertilitat o VIH. La política no diu durant quant de temps es conserva la prescripció ni qui hi té accés a banda de la farmàcia que dispensa.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "rempe-app-store",
+        "rempe-privacy-policy"
+      ],
+      "note": "L’etiqueta declara dades de contacte vinculades amb la identitat."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "rempe-app-store",
+        "rempe-web-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "rempe-web-privacy-policy"
+      ],
+      "note": "El sistema gestiona «prescripciones y dispensaciones de los medicamentos»; la medicació és una dada de salut de l’article 9 del RGPD."
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "editorial",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "note": "La dispensació a la farmàcia exigeix identificar el pacient; la política no ho detalla, ho anotem com a lectura editorial."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "rempe-app-store"
+      ],
+      "note": "L’etiqueta declara diagnòstics tècnics vinculats amb la identitat."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "rempe-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap dada utilitzada per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "rempe-app-store"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no enumera components de tercers."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "rempe-web-privacy-policy"
+      ],
+      "detail": "La política no preveu cap tractament publicitari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap elaboració de perfils."
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "rempe-web-privacy-policy"
+      ],
+      "detail": "La regla declarada és que «no se cederán datos a terceros, salvo autorización previa, obligación legal o que sea estrictamente necesario para cumplir con el fin»; la dispensació a la farmàcia entra en aquest últim supòsit.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap estructura de grup."
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "rempe-web-privacy-policy"
+      ],
+      "detail": "La política no preveu cap venda de dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no tracta les transferències internacionals."
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "rempe-web-privacy-policy"
+      ],
+      "detail": "Es conserven «mientras permanezca de alta como Usuario o durante el tiempo estipulado por la legislación vigente», sense cap termini numèric per a les prescripcions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta què es conserva després de donar-se de baixa."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "rempe-web-privacy-policy"
+      ],
+      "detail": "El dret de supressió es reconeix i s’exerceix davant del delegat de protecció de dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap procediment de baixa des de dins de l’aplicació."
+    },
+    "difficulty": "unknown",
+    "requiresSupportContact": true,
+    "steps": [
+      "Escriu a dpd@rxdps.com invocant el dret de supressió de l’article 17 del RGPD.",
+      "Com a alternativa, envia la sol·licitud per correu postal a Calle Velázquez, 27, 1a planta, 28001 Madrid."
+    ],
+    "obstacles": "Les receptes dispensades formen part de la traçabilitat del medicament i tenen terminis de conservació regulats, de manera que la baixa de l’usuari no les esborra.",
+    "dataRetained": "Les prescripcions i dispensacions, durant el temps que estableixi la legislació sanitària.",
+    "sources": [
+      "rempe-web-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap eina d’exportació ni menció explícita de la portabilitat."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "rempe-web-privacy-policy"
+      ],
+      "detail": "Delegat de protecció de dades amb adreça electrònica i postal publicades.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dpd@rxdps.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no fa publicitat personalitzada segons la seva política.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap control sobre els diagnòstics tècnics que declara l’etiqueta."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap panell de privadesa."
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut revisar els fluxos de consentiment dins de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "La farmàcia ha de poder llegir la prescripció per dispensar-la.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "editorial",
+      "sources": [],
+      "detail": "Els serveis de REMPe es publiquen sobre HTTPS, comprovat en consultar-ne les pàgines.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta si el compte admet un segon factor."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories independents publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses ni security.txt."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap canal públic de divulgació de vulnerabilitats."
+    }
+  },
+  "review": {
+    "researchStatus": "initial",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "La base jurídica declarada és el consentiment del registre, quan un sistema de recepta electrònica reconegut pels col·legis professionals sembla més aviat un tractament necessari per a l’assistència sanitària. Caldria contrastar-ho amb documentació addicional.",
+    "openQuestions": [
+      "Quant de temps es conserven les prescripcions i les dispensacions?",
+      "Quina base jurídica empara el tractament de la medicació, a banda del consentiment del registre?",
+      "Quines mesures de seguretat protegeixen un repositori nacional de receptes privades?",
+      "Queda pendent la cerca sistemàtica d’incidents i sancions: les eines de cerca no eren disponibles durant aquesta revisió."
+    ]
+  },
+  "appStoreBundleId": "dps.citizen.app"
+}

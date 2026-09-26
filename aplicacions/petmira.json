@@ -1,0 +1,392 @@
+{
+  "slug": "petmira",
+  "name": "PetMira",
+  "company": "pawnese",
+  "categories": [
+    "assistents-d-ia",
+    "utilitats"
+  ],
+  "tagline": "Un traductor de miols que envia l’àudio del micròfon a serveis d’IA de tercers",
+  "summary": "PetMira grava el que fa el gat i en tradueix les vocalitzacions amb models d’intel·ligència artificial que no són seus: la política reconeix que l’aplicació crida interfícies de tercers, entre elles les de Google. L’etiqueta de l’App Store declara identificadors utilitzats per rastrejar-te, i la política enumera SDK d’analítica i de publicitat de Sensors Analytics, ByteDance, AppsFlyer, Firebase i Tencent. El responsable és una societat de Hong Kong que no declara cap establiment europeu.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Hong Kong",
+  "userBase": "Aplicació d’estil de vida present al top gratuït de l’App Store espanyol",
+  "links": {
+    "privacyPolicy": "https://legal.pawnese.com/pet/en/privacy-policy.html",
+    "appStore": "https://apps.apple.com/es/app/id6776477513"
+  },
+  "accountRequired": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": [],
+    "detail": "La política no descriu cap registre i l’etiqueta de l’App Store no declara cap dada vinculada amb la identitat, però no hem pogut confirmar si l’aplicació funciona sense compte."
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "petmira-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "L’àudio del micròfon i les fotografies de la casa viatgen a serveis d’intel·ligència artificial de tercers per ser interpretats, i els identificadors del dispositiu van a plataformes d’atribució publicitària. Amb aquestes dades es pot fer un perfil publicitari de la persona que cuida l’animal.",
+  "dataCollection": [
+    {
+      "type": "veu-i-audio",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "petmira-privacy-policy"
+      ],
+      "note": "La política declara que l’àudio del micròfon s’utilitza per traduir les vocalitzacions i que l’aplicació crida interfícies de serveis d’IA de tercers per fer-ho."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "petmira-privacy-policy"
+      ],
+      "note": "Imatges de la càmera i de l’àlbum, per a l’anàlisi d’estat de l’animal."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "petmira-privacy-policy"
+      ],
+      "note": "Registres de diàleg amb l’assistent i historial de traduccions. No són missatges entre persones, però sí el contingut que la persona escriu a l’aplicació."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "petmira-privacy-policy",
+        "petmira-app-store"
+      ],
+      "note": "La política esmenta l’IDFA i l’IDFV compartits amb AppsFlyer, ByteDance i Tencent per a serveis publicitaris."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "petmira-app-store",
+        "petmira-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "petmira-app-store",
+        "petmira-privacy-policy"
+      ],
+      "note": "Registres de l’assistent i dades de caiguda de l’aplicació."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "petmira-privacy-policy"
+      ],
+      "note": "La política diu que de la subscripció només se’n tracta l’estat i la validesa."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "petmira-app-store"
+      ],
+      "detail": "L’etiqueta declara identificadors utilitzats per rastrejar-te en aplicacions i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "petmira-privacy-policy"
+      ],
+      "detail": "La política cita expressament l’IDFA i l’IDFV entre la informació del dispositiu que es comparteix amb proveïdors publicitaris.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "petmira-privacy-policy"
+      ],
+      "detail": "SDK de Sensors Analytics, ByteDance, AppsFlyer, Firebase i Tencent integrats a l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "petmira-privacy-policy"
+      ],
+      "detail": "La política declara que els identificadors del dispositiu es comparteixen amb tercers «for advertising services».",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap elaboració de perfils més enllà de la compartició amb plataformes publicitàries."
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política diu que l’aplicació crida models de tercers, però no si les gravacions i els diàlegs s’utilitzen per entrenar-los."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "petmira-privacy-policy"
+      ],
+      "detail": "Serveis d’IA de tercers per a la traducció i el diàleg, i SDK d’analítica i publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap estructura de grup."
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap venda de dades a intermediaris."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "petmira-privacy-policy"
+      ],
+      "detail": "La política adverteix que, fora de la Xina continental i de Hong Kong, l’ús de l’aplicació pot implicar transferències transfrontereres, sense identificar cap mecanisme del RGPD.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem localitzat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "petmira-privacy-policy"
+      ],
+      "detail": "La política diu que el període d’emmagatzematge el determina la persona usuària, que pot esborrar l’aplicació o les dades locals quan vulgui. La política no fixa cap termini propi.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu què passa amb les dades que ja han arribat als proveïdors d’IA, d’analítica i de publicitat."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "petmira-privacy-policy"
+      ],
+      "detail": "No hi ha cap procediment d’eliminació de compte: la política només ofereix esborrar manualment els perfils de mascota, els registres de traducció i els de diàleg, o desinstal·lar l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "petmira-privacy-policy"
+      ],
+      "detail": "L’esborrat és manual i local, element per element.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "hard",
+    "steps": [
+      "Esborra des de l’aplicació els perfils de mascota, els registres de traducció i els de diàleg que vulguis eliminar.",
+      "Desinstal·la l’aplicació per eliminar les dades locals.",
+      "Escriu a support@petmira.ai per demanar la supressió de les dades que quedin als servidors, invocant l’article 17 del RGPD."
+    ],
+    "obstacles": "Sense compte identificable i sense responsable establert a la Unió Europea, exercir el dret de supressió depèn que l’empresa respongui a una adreça de correu.",
+    "sources": [
+      "petmira-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta cap dret de portabilitat ni cap manera d’exportar les dades."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "petmira-privacy-policy"
+      ],
+      "detail": "La política enumera accés, rectificació, supressió i retirada del consentiment, amb un únic canal de contacte per correu electrònic.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:support@petmira.ai"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap control per desactivar la publicitat personalitzada."
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap control sobre els SDK d’analítica."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem localitzat cap panell de privadesa dins de l’aplicació."
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem revisat els fluxos de consentiment de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no transporta comunicacions privades entre persones usuàries, i l’àudio s’ha de poder desxifrar per processar-lo.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no documenta el xifratge del canal."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap sistema d’autenticació."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories independents."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses ni cap fitxer security.txt."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap canal de divulgació de vulnerabilitats."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "L’aplicació es presenta com un joc per a gats, però envia àudio de l’habitatge a proveïdors d’intel·ligència artificial i identificadors publicitaris a plataformes d’atribució, i la política no cita el RGPD.",
+    "openQuestions": [
+      "L’aplicació funciona sense compte o en crea un d’implícit lligat al dispositiu?",
+      "Quin és el proveïdor exacte del model que tradueix les vocalitzacions i quant de temps en conserva els àudios?",
+      "Hi ha representant a la Unió Europea segons l’article 27 del RGPD?"
+    ]
+  },
+  "appStoreBundleId": "com.pawnese.petmira"
+}

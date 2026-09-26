@@ -1,0 +1,506 @@
+{
+  "slug": "firefox",
+  "name": "Firefox",
+  "company": "mozilla-corporation",
+  "categories": [
+    "navegadors"
+  ],
+  "tagline": "Navegador independent amb sincronització xifrada d’extrem a extrem",
+  "summary": "Firefox és l’únic navegador majoritari que no pertany a una empresa que també ven publicitat o dispositius. La protecció contra el rastreig ve activada per defecte i la sincronització està xifrada d’extrem a extrem. Pel que fa al finançament, la major part dels ingressos de Mozilla prové de l’acord perquè Google sigui el cercador predeterminat.",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "android",
+    "ios"
+  ],
+  "businessModel": "donations",
+  "jurisdiction": "Estats Units, amb filial europea a Alemanya",
+  "userBase": "Al voltant de 180 milions de persones usuàries mensuals",
+  "links": {
+    "website": "https://www.mozilla.org/firefox/",
+    "privacyPolicy": "https://www.mozilla.org/en-US/privacy/firefox/",
+    "terms": "https://www.mozilla.org/about/legal/terms/firefox/"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "firefox-privacy-notice"
+    ],
+    "detail": "El navegador funciona sense compte; només cal per sincronitzar entre dispositius.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "mozilla-source"
+    ],
+    "detail": "Tot el codi és públic i auditable, i el desenvolupament es fa en obert.",
+    "verifiedAt": "2026-09-22",
+    "repositoryUrl": "https://github.com/mozilla-firefox/firefox",
+    "licence": "MPL-2.0"
+  },
+  "dataSummary": "Firefox recull dades tècniques i d’interacció per defecte, però es poden desactivar del tot, i Mozilla es compromet a esborrar les ja recollides quan algú ho fa. L’historial de navegació no surt del dispositiu si no s’activa la sincronització, i si s’activa va xifrat.",
+  "dataCollection": [
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "firefox-telemetry-settings"
+      ],
+      "note": "Es pot desactivar completament, i llavors Mozilla esborra les dades ja recollides."
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "mozilla-accounts-privacy"
+      ],
+      "note": "Només surt del dispositiu si s’activa la sincronització, i llavors va xifrat d’extrem a extrem."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "mozilla-accounts-privacy"
+      ],
+      "note": "Només si es crea un compte de Mozilla per sincronitzar."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "firefox-privacy-notice"
+      ],
+      "note": "Es fa servir per a actualitzacions i navegació segura, i es descarta ràpidament."
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "firefox-privacy-notice"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "firefox-telemetry-settings"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "firefox-privacy-notice"
+      ],
+      "note": "Les cerques van al motor triat, no a Mozilla."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "firefox-privacy-notice"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "firefox-privacy-notice"
+      ],
+      "note": "Només amb permís explícit per a un lloc concret."
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "firefox-privacy-notice"
+      ],
+      "note": "Les galetes de tercers estan aïllades per lloc amb la protecció total contra galetes."
+    },
+    {
+      "type": "fitxers-i-documents",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "firefox-privacy-notice"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "firefox-privacy-notice"
+      ],
+      "detail": "La protecció millorada contra el rastreig bloqueja rastrejadors, criptomineria i empremtes digitals per defecte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "firefox-privacy-notice"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "firefox-privacy-notice"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "firefox-privacy-notice"
+      ],
+      "detail": "Les tessel·les patrocinades de la pàgina d’inici i les mesures d’atribució de privadesa preservada són publicitat, tot i que sense perfil individual. Es poden desactivar.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "about:preferences#privacy"
+    },
+    "profiling": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "firefox-privacy-notice"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "firefox-privacy-notice"
+      ],
+      "detail": "Les funcions d’intel·ligència artificial del navegador s’executen localment i el contingut no s’envia a Mozilla.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "firefox-privacy-notice"
+      ],
+      "detail": "Socis de la pàgina d’inici i proveïdors d’infraestructura, amb dades agregades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "mozilla-accounts-privacy"
+      ],
+      "detail": "Compartició entre Mozilla Corporation i la fundació matriu per a finalitats de producte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "firefox-privacy-notice"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "firefox-privacy-notice"
+      ],
+      "verifiedAt": "2026-09-22",
+      "mechanism": "adequacy"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "firefox-privacy-notice"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.mozilla.org/about/policy/transparency/"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "firefox-telemetry-settings"
+      ],
+      "detail": "Mozilla documenta els terminis de conservació de les dades tècniques i permet sol·licitar-ne l’esborrat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "firefox-telemetry-settings"
+      ],
+      "detail": "Desactivar la telemetria es tracta com una sol·licitud d’esborrat de les dades ja recollides.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mozilla-accounts-privacy"
+      ],
+      "detail": "El compte de Mozilla, si se n’ha creat un, es pot eliminar des de la configuració.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mozilla-accounts-privacy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://accounts.firefox.com/settings",
+    "difficulty": "easy",
+    "waitingPeriodDays": 0,
+    "requiresSupportContact": false,
+    "steps": [
+      "Entra a accounts.firefox.com amb el compte de Mozilla.",
+      "Ves a la configuració del compte.",
+      "Tria «Suprimeix el compte» i confirma amb la contrasenya."
+    ],
+    "obstacles": "Cap. El navegador continua funcionant sense compte.",
+    "dataRetained": "Les dades locals resten al dispositiu fins que s’esborren des del mateix navegador.",
+    "sources": [
+      "mozilla-accounts-privacy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mozilla-accounts-privacy"
+      ],
+      "detail": "Les dades locals es poden exportar des del mateix navegador; les del compte, sol·licitant-ho.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.mozilla.org/privacy/"
+    },
+    "exportFormatQuality": "open",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "firefox-privacy-notice"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:compliance@mozilla.com",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "firefox-privacy-notice"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "about:preferences#privacy"
+    },
+    "telemetryOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "firefox-telemetry-settings"
+      ],
+      "detail": "Desactivable amb una sola casella, amb esborrat retroactiu de les dades ja recollides.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "firefox-privacy-notice"
+      ],
+      "detail": "Nivells de protecció contra el rastreig, contenidors, permisos per lloc i esborrat automàtic en tancar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "protective",
+    "darkPatterns": {
+      "status": "no",
+      "level": "independent",
+      "sources": [
+        "firefox-privacy-notice"
+      ],
+      "detail": "Els paràmetres de privadesa són accessibles i no hi ha pantalles que empenyin a desactivar-los.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mozilla-accounts-privacy"
+      ],
+      "detail": "La sincronització està xifrada d’extrem a extrem amb una clau derivada de la contrasenya del compte, de manera que Mozilla no pot llegir l’historial ni les contrasenyes desades.",
+      "verifiedAt": "2026-09-22",
+      "scope": "all-default",
+      "protocol": "onepw amb scrypt i PBKDF2"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "firefox-privacy-notice"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mozilla-accounts-privacy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mozilla-accounts-privacy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "totp"
+      ]
+    },
+    "independentAudits": {
+      "status": "yes",
+      "level": "independent",
+      "sources": [
+        "mozilla-source"
+      ],
+      "detail": "El codi és auditable per qualsevol persona i Mozilla encarrega revisions externes de components crítics.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://blog.mozilla.org/security/"
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mozilla-source"
+      ],
+      "detail": "Un dels programes de recompenses més antics del sector.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.mozilla.org/security/bug-bounty/"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mozilla-source"
+      ],
+      "detail": "Avisos de seguretat publicats amb cada versió.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "brave",
+      "comparability": "equivalent",
+      "rationale": "Navegador complet amb bloqueig de rastrejadors per defecte i sincronització xifrada, basat en Chromium, de manera que la compatibilitat amb aplicacions web és màxima.",
+      "tradeOffs": "Fer servir Chromium reforça el domini del motor de Google al web, cosa que Firefox contraresta."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La dependència econòmica de Google és un risc estructural, però no és una pràctica de tractament de dades i, per tant, no penalitza cap indicador. S’explica a la descripció i no compta a la puntuació."
+  },
+  "appStoreBundleId": "org.mozilla.ios.Firefox"
+}

@@ -1,0 +1,538 @@
+{
+  "slug": "foilsnap",
+  "name": "FoilSnap",
+  "company": "next-vision",
+  "categories": [
+    "traduccio-i-referencia"
+  ],
+  "tagline": "Escàner de cartes col·leccionables que rastreja entre aplicacions i envia dades als Estats Units i a la Xina",
+  "summary": "FoilSnap identifica cartes de Pokémon, Magic o Yu-Gi-Oh! amb una foto i en calcula el preu. És de Next Vision Limited, de Hong Kong, que declara a l’App Store que fa servir compres, identificadors i dades d’ús per rastrejar entre aplicacions. La política diu que l’aplicació s’allotja als Estats Units, que les dades es transfereixen a empreses vinculades de Hangzhou i que recull identificadors com l’IMEI, l’IMSI o l’adreça MAC.",
+  "platforms": [
+    "ios"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Hong Kong; sense representant a la UE identificat",
+  "links": {
+    "website": "https://tcgcardworth.com/",
+    "privacyPolicy": "https://app-service.tcgcardworth.com/static/EuropeanUnion/privacy_policy.html",
+    "appStore": "https://apps.apple.com/es/app/id6752642525"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "foilsnap-privacy-policy"
+    ],
+    "detail": "Crear un perfil és opcional.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "foilsnap-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Les fotos i el valor de la col·lecció diuen poc sobre la salut o les opinions, però combinats amb identificadors del mòbil i de la línia (IMEI, IMSI, número de telèfon) permeten reconèixer la persona entre serveis i vincular-hi hàbits de compra.",
+  "dataCollection": [
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "foilsnap-app-store",
+        "foilsnap-privacy-policy"
+      ],
+      "note": "Les fotos de les cartes i les seves metadades."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-publicitaria",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "foilsnap-app-store",
+        "foilsnap-privacy-policy"
+      ],
+      "note": "Les compres, descàrregues i cancel·lacions s’envien a Adjust."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "foilsnap-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "foilsnap-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-publicitaria",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "foilsnap-app-store",
+        "foilsnap-privacy-policy"
+      ],
+      "note": "La política esmenta l’IMEI, l’IMSI i l’adreça MAC, a més de l’identificador del dispositiu."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "unknown",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "sources": [
+        "foilsnap-privacy-policy"
+      ],
+      "note": "La política diu que «requereix» el número de telèfon (MSISDN), però l’etiqueta de l’App Store no el declara."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "foilsnap-app-store",
+        "foilsnap-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "foilsnap-privacy-policy"
+      ]
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "foilsnap-privacy-policy"
+      ]
+    },
+    {
+      "type": "xarxa-i-connectivitat",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "foilsnap-privacy-policy"
+      ],
+      "note": "Operadora i intensitat del senyal mòbil i wifi."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "foilsnap-app-store",
+        "foilsnap-privacy-policy"
+      ],
+      "note": "Google Analytics, que pot combinar-les amb el compte de Google per a finalitats pròpies."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "foilsnap-app-store"
+      ],
+      "note": "Consultes a atenció al client."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "foilsnap-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "foilsnap-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store declara compres, identificadors i dades d’ús «utilitzats per rastrejar-te» entre aplicacions i llocs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "foilsnap-app-store",
+        "foilsnap-privacy-policy"
+      ],
+      "detail": "L’etiqueta declara identificadors per rastrejar i la política remet a la configuració del mòbil per desactivar els anuncis basats en interessos.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "foilsnap-privacy-policy"
+      ],
+      "detail": "Google Analytics i Adjust, i «xarxes publicitàries» sense nom.",
+      "verifiedAt": "2026-09-22",
+      "trackers": [
+        {
+          "name": "Google Analytics",
+          "purpose": "Analítica d’ús",
+          "sources": [
+            "foilsnap-privacy-policy"
+          ]
+        },
+        {
+          "name": "Adjust",
+          "purpose": "Atribució de campanyes i mesura de compres",
+          "sources": [
+            "foilsnap-privacy-policy"
+          ]
+        }
+      ]
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "foilsnap-privacy-policy"
+      ],
+      "detail": "La política permet que xarxes publicitàries recullin informació per mostrar anuncis personalitzats a l’aplicació i fora, amb consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "foilsnap-privacy-policy"
+      ],
+      "detail": "Personalització amb consentiment, i perfils que Google pot fer amb les dades d’Analytics per a finalitats pròpies.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu si les fotos serveixen per entrenar el model de reconeixement."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "foilsnap-privacy-policy"
+      ],
+      "detail": "Proveïdors com Amazon Web Services, Google, Adjust i xarxes publicitàries; també possibles compradors de l’empresa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "foilsnap-privacy-policy"
+      ],
+      "detail": "Amb empreses vinculades de Next Vision, entre elles a Hangzhou.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "foilsnap-privacy-policy"
+      ],
+      "detail": "Declara que no ven informació personal a tercers per als seus propis usos comercials.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "foilsnap-privacy-policy"
+      ],
+      "detail": "Allotjament als Estats Units i transferència a empreses vinculades de Hangzhou (Xina), amb clàusules contractuals tipus o mecanismes similars.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "foilsnap-privacy-policy"
+      ],
+      "detail": "Només diu que avisarà la persona afectada d’una petició d’autoritats si la llei ho permet.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "foilsnap-privacy-policy"
+      ],
+      "detail": "Només fixa els 13 mesos de les galetes de Google Analytics; per a la resta, criteris generals.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no explica què es conserva després d’eliminar el perfil."
+    },
+    "periods": [
+      {
+        "dataType": "galetes-i-identificadors-web",
+        "period": "Galetes de Google Analytics: 13 mesos",
+        "sources": [
+          "foilsnap-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "foilsnap-privacy-policy"
+      ],
+      "detail": "Es pot demanar la supressió per correu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat pàgina d’ajuda de FoilSnap. Les altres aplicacions de Next Vision tenen una opció «Delete Account», però no l’hem pogut comprovar en aquesta."
+    },
+    "difficulty": "unknown",
+    "steps": [
+      "Escriu a support@foilsnap.com demanant la supressió de les dades (article 17 del RGPD).",
+      "Cancel·la la subscripció des de la configuració de l’Apple ID: eliminar el perfil no l’atura."
+    ],
+    "sources": [
+      "foilsnap-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "foilsnap-privacy-policy"
+      ],
+      "detail": "La política reconeix el dret de portabilitat, però només per correu electrònic; no hi ha cap eina d’exportació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "foilsnap-privacy-policy"
+      ],
+      "detail": "Els drets s’exerceixen per correu a l’adreça de suport; l’empresa pot demanar un document d’identitat i respon en un mes, prorrogable dos mesos més. No hi ha delegat de protecció de dades ni representant a la UE identificats.",
+      "verifiedAt": "2026-09-22",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "foilsnap-privacy-policy"
+      ],
+      "detail": "Remet a l’eina de galetes de l’aplicació, a la configuració del mòbil i a la pàgina d’Adjust per excloure el dispositiu.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.adjust.com/forget-device/"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "foilsnap-privacy-policy"
+      ],
+      "detail": "Google Analytics es basa en el consentiment, però no hem vist com es gestiona dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut veure l’eina de gestió de galetes que esmenta la política."
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut revisar el flux de subscripció ni el de consentiment de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No és un servei de comunicació entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "foilsnap-privacy-policy"
+      ],
+      "detail": "La política parla genèricament de xifratge, tallafocs i autenticació de servidors, però adverteix que no pot garantir que les dades no s’interceptin en trànsit.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política esmenta el xifratge de manera genèrica, sense dir si s’aplica a les dades emmagatzemades."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap opció de verificació en dos passos; el compte opcional es lliga a l’identificador d’Apple o de Google."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap auditoria ni certificació publicada."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap canal de notificació de vulnerabilitats ni fitxer security.txt."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "Política de la UE del 26 de gener de 2026, idèntica a la d’AntiqSnap llevat del nom. La llista d’identificadors de xarxa (IMEI, IMSI, MSISDN) és genèrica i iOS no els dona a les aplicacions; la reproduïm perquè és el que l’empresa diu que pot recollir.",
+    "openQuestions": [
+      "La cerca d’incidents no s’ha pogut completar: s’havia esgotat el pressupost de cerques web de la sessió.",
+      "Quina relació té Next Vision Limited amb les empreses vinculades de Hangzhou que rep les dades?",
+      "Les fotos s’utilitzen per entrenar el model de reconeixement?"
+    ]
+  },
+  "appStoreBundleId": "com.tcgworth.identifier"
+}

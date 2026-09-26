@@ -1,0 +1,484 @@
+{
+  "slug": "coinin",
+  "name": "CoinIn",
+  "company": "vortemol",
+  "categories": [
+    "traduccio-i-referencia"
+  ],
+  "tagline": "Identifica monedes amb la càmera i reparteix l’identificador publicitari entre set xarxes d’anuncis i d’analítica",
+  "summary": "CoinIn fotografia una moneda i te’n diu el valor. Per fer-ho recull l’IDFA, l’identificador de maquinari, l’identificador de Facebook, l’adreça IP i, opcionalment, la geolocalització «per entendre millor d’on és la moneda». La política enumera els destinataris: Facebook, Apple, AppsFlyer, Amplitude, Firebase, IronSource i Appodeal. Té una política completa i verificable, però el que hi explica és un repartiment ampli de dades amb la indústria publicitària.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Xipre",
+  "links": {
+    "website": "https://coininapp.com/",
+    "privacyPolicy": "https://legal.coininapp.com/privacy-policy.html",
+    "appStore": "https://apps.apple.com/es/app/id1672111368"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "coinin-privacy-policy"
+    ],
+    "detail": "Es comença sense registre, tot i que la política parla d’un compte i d’una funció d’eliminació dins de la configuració.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "coinin-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Una col·lecció de monedes és patrimoni. Amb la geolocalització de les troballes i un identificador estable compartit amb xarxes publicitàries, el perfil que en resulta indica què tens, quant val i on ets.",
+  "dataCollection": [
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "coinin-app-store",
+        "coinin-privacy-policy"
+      ],
+      "note": "Fotografies de les monedes, fetes amb la càmera."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "coinin-privacy-policy"
+      ],
+      "note": "La política diu que es demana per «entendre millor la localitat de la moneda» i que la base jurídica és el consentiment."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "coinin-app-store",
+        "coinin-privacy-policy"
+      ],
+      "note": "IDFA a iOS i AAID a Android, compartits amb Facebook Custom Audience, IronSource i Appodeal."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "coinin-app-store",
+        "coinin-privacy-policy"
+      ],
+      "note": "Identificador de maquinari i identificador de Facebook."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "coinin-app-store"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "coinin-privacy-policy"
+      ]
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "coinin-privacy-policy"
+      ],
+      "note": "Idioma, zona horària, tipus i model, configuració, sistema operatiu, proveïdor d’Internet i operador mòbil."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "coinin-app-store",
+        "coinin-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "coinin-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "coinin-app-store",
+        "coinin-privacy-policy"
+      ],
+      "note": "La política inclou un consentiment per compartir dades de consum amb Apple."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "coinin-privacy-policy"
+      ],
+      "note": "Només si s’escriu al servei d’atenció."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "coinin-app-store",
+        "coinin-privacy-policy"
+      ],
+      "note": "Firebase Performance Monitoring i Firebase Crash Reporting."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "coinin-app-store",
+        "coinin-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "coinin-privacy-policy"
+      ],
+      "detail": "IDFA i AAID, recollits expressament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "coinin-privacy-policy"
+      ],
+      "detail": "Facebook, AppsFlyer, Amplitude, Firebase, IronSource i Appodeal.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "coinin-privacy-policy"
+      ],
+      "detail": "Públics personalitzats de Facebook a partir de l’IDFA i anuncis servits per Appodeal.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "coinin-privacy-policy"
+      ],
+      "detail": "La política diu que s’ajusta el contingut a les preferències i que es generen recomanacions de col·lecció.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No s’esmenta cap ús de les fotografies per entrenar models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "coinin-privacy-policy"
+      ],
+      "detail": "Amazon Web Services com a allotjament, i Facebook, AppsFlyer, Amplitude, Firebase, IronSource i Appodeal com a analítica i publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta cap venda de dades, però tampoc no la descarta expressament."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "coinin-privacy-policy"
+      ],
+      "detail": "Transferències fora de l’EEE emparades en clàusules contractuals tipus o en decisions d’adequació.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "coinin-privacy-policy"
+      ],
+      "detail": "La política només diu «el temps raonablement necessari», sense cap termini concret.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "coinin-privacy-policy"
+      ],
+      "detail": "Es conserven les dades que calguin per complir obligacions legals i resoldre disputes.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "coinin-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "coinin-privacy-policy"
+      ],
+      "detail": "La política diu que hi ha una funció d’eliminació a la configuració de l’aplicació; també s’accepta la petició per correu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "requiresSupportContact": false,
+    "steps": [
+      "Obre la configuració de l’aplicació i busca-hi l’opció d’eliminar el compte.",
+      "Si no la trobes, escriu a support@coininapp.com demanant la supressió.",
+      "Cancel·la la subscripció des de la configuració d’Apple o de Google: no s’anul·la sola."
+    ],
+    "sources": [
+      "coinin-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "coinin-privacy-policy"
+      ],
+      "detail": "Es pot demanar una còpia i, per a l’EEE, la portabilitat en format llegible per una màquina.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "coinin-privacy-policy"
+      ],
+      "detail": "Els drets s’exerceixen per correu; la política informa del dret a reclamar davant de l’autoritat de control.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "coinin-privacy-policy"
+      ],
+      "detail": "La política remet als portals sectorials de baixa publicitària (NAI, DAA, Your Online Choices) i als controls de Facebook i d’Appodeal, no a un interruptor dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "coinin-privacy-policy"
+      ],
+      "detail": "Es pot retirar el permís de geolocalització i desactivar les notificacions des del sistema operatiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha comunicació entre persones: les fotografies es processen al servei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El domini no publica cap fitxer security.txt."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "coinsnap",
+      "comparability": "equivalent",
+      "rationale": "Fa la mateixa feina d’identificar monedes amb la càmera del telèfon.",
+      "tradeOffs": "Cal comprovar-ne per separat la política: pertànyer a la mateixa categoria no vol dir recollir menys."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "La política és del febrer del 2023 i encara esmenta «Facebook Analytics», un servei discontinuat, cosa que indica que fa temps que no s’actualitza. Tot i així, identifica el responsable, les bases jurídiques i els destinataris amb noms i cognoms.",
+    "openQuestions": [
+      "Hi ha realment una opció d’eliminar el compte dins de l’aplicació, com diu la política?",
+      "Quant de temps es conserven les fotografies de les monedes i la geolocalització associada?"
+    ]
+  },
+  "appStoreBundleId": "com.coininapp"
+}

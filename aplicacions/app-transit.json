@@ -1,0 +1,553 @@
+{
+  "slug": "app-transit",
+  "name": "App Trànsit",
+  "company": "servei-catala-de-transit",
+  "categories": [
+    "mobilitat-i-transport",
+    "administracio-publica"
+  ],
+  "tagline": "Pagar multes amb un codi QR i unes condicions del 2017 que encara citen la LOPD del 1999 i diuen que el mapa no recull cap dada",
+  "summary": "App Trànsit mostra el mapa continu del trànsit, les càmeres i les restriccions de mercaderies, i permet consultar expedients sancionadors, identificar el conductor, presentar al·legacions i pagar multes amb targeta llegint el codi QR de la notificació. La fitxa de l’App Store no enllaça cap política de privadesa. L’únic text legal és unes condicions d’ús actualitzades el 28 de febrer del 2017 que invoquen la Llei orgànica 15/1999 i el seu reglament, derogats des del 2018, i que asseguren que el mapa «no suposa la recollida de cap dada», mentre l’etiqueta de l’App Store declara ubicació, dades d’ús i diagnòstics.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "public-service",
+  "jurisdiction": "Catalunya; servei públic del Servei Català de Trànsit",
+  "links": {
+    "website": "https://transit.gencat.cat/",
+    "terms": "https://transit.gencat.cat/ca/el_servei/condicions_d_us/app_transit/catala/",
+    "appStore": "https://apps.apple.com/es/app/id1137525216"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "app-transit-condicions-us"
+    ],
+    "detail": "No hi ha compte ni contrasenya: el mapa és obert i els tràmits sancionadors s’obren llegint el codi QR de la notificació de l’expedient.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": [],
+    "detail": "No hem trobat publicat el codi. Les condicions diuen que l’ha desenvolupat el CTTI i que és propietat de l’SCT."
+  },
+  "publicService": {
+    "isPublicService": true,
+    "administrationLevel": "regional",
+    "legalBasis": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "app-transit-condicions-us",
+        "sct-tractament-expedients-sancionadors"
+      ],
+      "detail": "Les condicions de l’app citen la Llei orgànica 15/1999 i el Reial decret 1720/2007, derogats per l’entrada en aplicació del RGPD i per la Llei orgànica 3/2018. La fitxa del tractament «Expedients sancionadors» de l’SCT sí que està al dia: article 6.1.c) del RGPD, Llei 14/1997 de creació de l’SCT i text refós de la Llei de trànsit.",
+      "verifiedAt": "2026-09-22",
+      "norm": "RGPD, article 6.1.c); Llei 14/1997; Reial decret legislatiu 6/2015"
+    },
+    "processingRegistry": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "sct-tractament-expedients-sancionadors"
+      ],
+      "detail": "L’SCT publica un registre d’activitats i una fitxa per tractament. La dels expedients sancionadors, actualitzada el 16 de maig del 2023, cobreix els tràmits que es fan des de l’app, però cap fitxa no esmenta l’aplicació ni les dades d’ús i d’ubicació que declara l’etiqueta.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://transit.gencat.cat/ca/el_servei/proteccio_dades/informacio-detallada-dels-tractaments/expedients-sancionadors-transit/"
+    },
+    "dpia": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat publicada cap avaluació d’impacte relativa a la protecció de dades de l’app."
+    },
+    "ensConformity": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap declaració de conformitat amb l’Esquema Nacional de Seguretat. Les condicions de l’app remeten encara a les mesures del Reial decret 1720/2007, derogat."
+    },
+    "dpo": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "sct-tractament-expedients-sancionadors"
+      ],
+      "detail": "La fitxa del tractament dona el delegat de protecció de dades del Departament d’Interior. Les condicions de l’app no l’esmenten.",
+      "verifiedAt": "2026-09-22",
+      "contact": "dpd.interior@gencat.cat"
+    },
+    "offlineAlternative": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "app-transit-pagament-sancions"
+      ],
+      "detail": "Les multes es poden pagar al web amb o sense certificat digital, a les oficines de CaixaBank, a les oficines de l’SCT amb cita prèvia o per telèfon al 012.",
+      "verifiedAt": "2026-09-22"
+    },
+    "accessibilityStatement": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "app-transit-accessibilitat"
+      ],
+      "detail": "Declaració «parcialment conforme» amb el Reial decret 1112/2018, feta el 23 de juny del 2021 a partir d’una auditoria de T-Systems i revisada per última vegada el 29 de març del 2022. S’aplica a la versió 1.2.0 per a iOS; l’App Store ja és a la 1.3.6.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://transit.gencat.cat/ca/menu_ajuda/accessibilitat/accessibilitat-app-transit/"
+    },
+    "mandatoryRetention": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "sct-tractament-expedients-sancionadors"
+      ],
+      "detail": "Les dades dels expedients sancionadors es conserven d’un a cinc anys segons l’Ordre CMC/300/2008 (annex 2, codi 29), una taula d’avaluació documental que no depèn de la voluntat de la persona.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataSummary": "Les condicions diuen que el mapa no recull cap dada, però l’etiqueta declara la ubicació exacta per a analítica. Les dades més delicades són les de la part sancionadora: infraccions, matrícula, document d’identitat i targeta bancària, que es comuniquen als òrgans que executen la sanció.",
+  "dataCollection": [
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "app-transit-app-store",
+        "app-transit-condicions-us"
+      ],
+      "note": "L’etiqueta la declara per a analítica i per a la funcionalitat de l’app. Les condicions diuen que el mapa no recull cap dada personal ni cap dada sobre el dispositiu."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "app-transit-app-store"
+      ],
+      "note": "Declarades a l’etiqueta; les condicions no en parlen."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "app-transit-app-store"
+      ],
+      "note": "Errors, rendiment i altres dades de diagnòstic."
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "app-transit-condicions-us",
+        "app-transit-app-store",
+        "sct-tractament-expedients-sancionadors"
+      ],
+      "note": "Només als tràmits sancionadors."
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "app-transit-condicions-us",
+        "sct-tractament-expedients-sancionadors"
+      ],
+      "note": "NIF, NIE o passaport, amb la matrícula i les infraccions comeses. Les dades de conductors i vehicles arriben també del registre de la DGT."
+    },
+    {
+      "type": "adreca-postal",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "app-transit-condicions-us",
+        "app-transit-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "app-transit-condicions-us",
+        "app-transit-app-store"
+      ],
+      "note": "Obligatòria per rebre la confirmació dels tràmits."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "app-transit-condicions-us",
+        "app-transit-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "app-transit-condicions-us",
+        "app-transit-app-store"
+      ],
+      "note": "El número de la targeta, només per pagar la sanció."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "app-transit-app-store"
+      ],
+      "note": "L’etiqueta declara fotos i altre contingut de l’usuari; les condicions parlen dels escrits que es presenten en les al·legacions."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "app-transit-app-store"
+      ],
+      "note": "L’etiqueta no declara cap dada utilitzada per rastrejar."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "app-transit-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no té secció de dades utilitzades per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "app-transit-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap identificador publicitari i l’app no té publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’etiqueta declara analítica, però cap document diu amb quina eina es fa."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "app-transit-condicions-us"
+      ],
+      "detail": "Les condicions diuen que l’app és gratuïta i no té cap objectiu comercial.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "sct-tractament-expedients-sancionadors"
+      ],
+      "detail": "La finalitat del tractament és gestionar els expedients sancionadors; no se’n descriu cap altra.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Cap document no en diu res."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "sct-tractament-expedients-sancionadors"
+      ],
+      "detail": "Les dades sancionadores es comuniquen als òrgans competents en trànsit, a l’òrgan que executa la sanció per via de constrenyiment i als jutjats i tribunals que ho demanin.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "sct-tractament-expedients-sancionadors",
+        "apdcat-ps-41-2020"
+      ],
+      "detail": "Els deutes de les sancions no pagades es traspassen a l’Agència Tributària de Catalunya per cobrar-los en via executiva.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "app-transit-condicions-us"
+      ],
+      "detail": "Les condicions diuen que les dades no es cediran a tercers sense consentiment, fora dels casos legals.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Ni les condicions ni la fitxa del tractament parlen de transferències internacionals."
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe sobre les dades de l’aplicació."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "sct-tractament-expedients-sancionadors"
+      ],
+      "detail": "D’un a cinc anys per als expedients sancionadors, segons la taula d’avaluació documental. Les condicions de l’app no en fixen cap per a les dades d’ús i d’ubicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "app-transit-condicions-us"
+      ],
+      "detail": "Les condicions diuen que al mòbil només queden el visor, la configuració i els recursos gràfics, i que la documentació presentada queda als sistemes de l’SCT.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "document-identificatiu-oficial",
+        "period": "D’un a cinc anys (Ordre CMC/300/2008, annex 2, codi 29)",
+        "sources": [
+          "sct-tractament-expedients-sancionadors"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha compte que es pugui esborrar: l’accés als expedients es fa amb el codi QR de cada notificació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "app-transit-condicions-us"
+      ],
+      "detail": "Desinstal·lar l’app n’elimina la configuració local; les dades dels expedients es conserven als sistemes de l’SCT.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "requiresSupportContact": true,
+    "steps": [
+      "Desinstal·la l’aplicació: segons les condicions, al mòbil només hi queden el visor i la configuració.",
+      "Per exercir drets sobre les dades d’un expedient, envia una sol·licitud en paper al Servei Català de Trànsit (Diputació, 355, 08009 Barcelona) o per la petició genèrica de tràmits gencat amb certificat o idCAT Mòbil.",
+      "Per a qualsevol dubte, escriu al delegat de protecció de dades del Departament d’Interior, dpd.interior@gencat.cat."
+    ],
+    "obstacles": "Les condicions de l’app parlen encara dels drets «ARCO» de la LOPD del 1999 i només donen una adreça postal.",
+    "dataRetained": "Les dades dels expedients sancionadors, d’un a cinc anys.",
+    "sources": [
+      "app-transit-condicions-us",
+      "sct-tractament-expedients-sancionadors"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Ni les condicions ni la fitxa del tractament esmenten la portabilitat."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "sct-tractament-expedients-sancionadors",
+        "app-transit-condicions-us"
+      ],
+      "detail": "La fitxa del tractament explica com exercir els drets, en paper o electrònicament, i remet a l’APDCAT. Les condicions de l’app, en canvi, només enumeren accés, rectificació, cancel·lació i oposició i donen una adreça postal.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://transit.gencat.cat/ca/el_servei/proteccio_dades/informacio-detallada-dels-tractaments/expedients-sancionadors-transit/"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no mostra publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap manera de desactivar l’analítica declarada a l’etiqueta."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Les condicions no descriuen cap control de privadesa dins de l’app."
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem analitzat la interfície. Les condicions diuen que, si no s’accepten, l’app no s’activa."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No és un servei de comunicació entre particulars.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Les condicions no diuen res sobre el xifratge de les comunicacions."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Les condicions no diuen res sobre el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "app-transit-condicions-us"
+      ],
+      "detail": "No hi ha cap identificació: qui llegeix el codi QR de la notificació pot consultar l’expedient, presentar al·legacions o pagar, i les condicions el consideren persona autoritzada per la persona interessada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’única auditoria publicada és la d’accessibilitat, del 2021."
+    },
+    "bugBounty": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Administració pública: el bloc de servei públic substitueix aquest indicador per la conformitat amb l’ENS.",
+      "verifiedAt": "2026-09-22"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha fitxer security.txt a transit.gencat.cat."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "És la fitxa amb el text legal més antic del bloc: unes condicions del 2017 que no s’han adaptat al RGPD i que la fitxa de l’App Store no enllaça, perquè no declara cap política de privadesa. Amb l’accés per codi QR, la notificació en paper fa de credencial: qualsevol persona que la tingui pot actuar en nom de la interessada. L’APDCAT va amonestar l’SCT el 2020 (PS 41/2020) per no haver comunicat a l’ATC l’adreça actualitzada d’una persona sancionada, cosa que va acabar en una notificació per edicte al BOE; afecta el tractament d’expedients sancionadors que l’app fa servir, no l’app en si.",
+    "openQuestions": [
+      "Hi ha una política de privadesa de l’app adaptada al RGPD que no hem trobat?",
+      "Amb quina eina es fa l’analítica que declara l’etiqueta, i per què es recull la ubicació exacta per a analítica si les condicions diuen que el mapa no recull cap dada?",
+      "Es comunica la ubicació al 112 quan es fa la trucada d’emergència des de l’app?"
+    ]
+  },
+  "appStoreBundleId": "cat.gencat.mobi.transit"
+}

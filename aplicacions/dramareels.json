@@ -1,0 +1,526 @@
+{
+  "slug": "dramareels",
+  "name": "DramaReels",
+  "company": "skywork-ai",
+  "categories": [
+    "video-i-streaming"
+  ],
+  "tagline": "La mateixa plantilla que DramaWave, amb una altra marca al document legal i una adreça de Gmail com a contacte de privadesa",
+  "summary": "DramaReels és l’altra aplicació de microdrames de SKYWORK AI. La política que enllaça des de l’App Store parla en tot moment de «FreeReels», el nom del domini on s’allotja, i el contacte per exercir drets és una adreça de Gmail. La política cobreix les mateixes dades que la de DramaWave (historial de visualització, compres de monedes, porta-retalls i calendari), però sense les funcions d’IA facial, i l’eliminació del compte també es fa des de l’aplicació.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Singapur",
+  "links": {
+    "website": "https://free-reels.com/",
+    "privacyPolicy": "https://free-reels.com/rules/privacy.html",
+    "appStore": "https://apps.apple.com/es/app/id6738081517"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "dramareels-privacy-policy"
+    ],
+    "detail": "Es pot mirar contingut sense registre, amb les dades lligades a un identificador del dispositiu.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "dramareels-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Com a DramaWave, les dades principals són les de consum: quins capítols mires, quan pares i quantes monedes compres per continuar. Són la base del model de pagament per capítol i de la publicitat.",
+  "dataCollection": [
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "dramareels-privacy-policy",
+        "dramareels-app-store"
+      ]
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "dramareels-app-store"
+      ],
+      "note": "Àlies i avatar del perfil."
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "dramareels-privacy-policy"
+      ]
+    },
+    {
+      "type": "genere",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "dramareels-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-visualitzacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "dramareels-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "dramareels-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "dramareels-privacy-policy",
+        "dramareels-app-store"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "dramareels-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "dramareels-app-store"
+      ],
+      "note": "A diferència de DramaWave, aquí l’etiqueta la declara vinculada al compte."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "dramareels-app-store"
+      ]
+    },
+    {
+      "type": "fitxers-i-documents",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "dramareels-privacy-policy"
+      ],
+      "note": "Contingut del porta-retalls recollit amb permís i desat a l’aplicació per a màrqueting i personalització."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "dramareels-app-store"
+      ]
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "dramareels-privacy-policy"
+      ],
+      "note": "Aquesta política no inclou l’apartat de funcions d’IA facial que sí que té DramaWave."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dramareels-app-store"
+      ],
+      "detail": "L’identificador de dispositiu es declara com a dada utilitzada per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dramareels-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dramareels-privacy-policy"
+      ],
+      "detail": "Servidors i xarxes publicitàries de tercers poden servir anuncis dins de l’aplicació i reben automàticament l’adreça IP.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dramareels-privacy-policy"
+      ],
+      "detail": "Compartició amb anunciants i empreses de mesura per a publicitat personalitzada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dramareels-privacy-policy"
+      ],
+      "detail": "Recomanacions i publicitat basades en l’historial i en les dades del perfil.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Aquesta política no diu res sobre l’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dramareels-privacy-policy"
+      ],
+      "detail": "Proveïdors de núvol i de pagament, anunciants i empreses de mesura.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dramareels-privacy-policy"
+      ],
+      "detail": "Transferència a entitats afiliades en altres jurisdiccions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "dramareels-privacy-policy"
+      ],
+      "detail": "La secció per a Califòrnia admet que l’ús d’eines publicitàries es pot considerar una «venda» o «compartició» de dades segons aquella llei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dramareels-privacy-policy"
+      ],
+      "detail": "Transferències a les jurisdiccions de les entitats afiliades amb garanties descrites de manera genèrica.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "dramareels-privacy-policy"
+      ],
+      "detail": "Només criteris generals, sense terminis per categoria de dada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "dramareels-privacy-policy"
+      ],
+      "detail": "Les dades s’esborren o s’anonimitzen quan s’exhaureix la finalitat o el termini legal.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dramareels-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dramareels-privacy-policy"
+      ],
+      "detail": "L’eliminació del compte es fa des de Perfil, Configuració i Eliminar el compte dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "easy",
+    "steps": [
+      "Obre Perfil i entra a Configuració.",
+      "Tria Eliminar el compte i confirma; les monedes i el contingut desbloquejat es perden.",
+      "Per a qualsevol dubte o per exercir la resta de drets, escriu a contact.freereels@gmail.com o al representant a la UE indicant «FreeReels»."
+    ],
+    "sources": [
+      "dramareels-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "dramareels-privacy-policy"
+      ],
+      "detail": "Es pot demanar una còpia de les dades per correu, sense eina automàtica.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "dramareels-privacy-policy"
+      ],
+      "detail": "El canal per exercir drets és una adreça de Gmail, amb un representant a la UE a Alemanya com a alternativa. Un correu gratuït fa més difícil deixar constància de les sol·licituds.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:contact.freereels@gmail.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "dramareels-privacy-policy"
+      ],
+      "detail": "Retirada del consentiment i remissió a les polítiques dels servidors publicitaris de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap control per desactivar l’analítica."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "dramareels-privacy-policy"
+      ],
+      "detail": "Permisos separats per al porta-retalls i el calendari, revocables des del sistema.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [
+        "dramareels-privacy-policy"
+      ],
+      "detail": "Interpretació pròpia: la política que regeix l’aplicació DramaReels parla sempre de «FreeReels», i això dificulta que una persona identifiqui quin document s’aplica al servei que té instal·lat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "confusing-language",
+        "severity": "medium",
+        "description": "El nom de l’aplicació a l’App Store (DramaReels) no coincideix amb el nom del servei a la política de privadesa (FreeReels).",
+        "sources": [
+          "dramareels-privacy-policy",
+          "dramareels-app-store"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No transporta comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dramareels-privacy-policy"
+      ],
+      "detail": "Xifratge en trànsit amb TLS 1.2.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "dramareels-privacy-policy"
+      ],
+      "detail": "Xifratge en repòs de les dades d’usuari, incloses les còpies de seguretat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’autenticació multifactor que descriu la política és per als accessos interns."
+    },
+    "independentAudits": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "dramareels-privacy-policy"
+      ],
+      "detail": "Proves periòdiques de vulnerabilitats i revisió de codi, sense auditories externes publicades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha fitxer security.txt ni programa públic conegut."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap canal públic específic."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "dramawave",
+      "comparability": "equivalent",
+      "rationale": "Mateix grup i mateix model de negoci, amb una política per a l’EEE més detallada i un contacte corporatiu en lloc d’una adreça de Gmail.",
+      "tradeOffs": "Hi afegeix funcions d’IA que tracten dades facials."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Les dues aplicacions de SKYWORK AI comparteixen plantilla, però la política de DramaReels té una marca diferent, un contacte a Gmail i cap menció a l’entrenament de models.",
+    "openQuestions": [
+      "Per què la política parla de FreeReels i l’aplicació es diu DramaReels a l’App Store?",
+      "Quin mecanisme empara les transferències internacionals?"
+    ]
+  },
+  "appStoreBundleId": "com.freereels.app"
+}

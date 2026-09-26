@@ -1,0 +1,601 @@
+{
+  "slug": "zoom-workplace",
+  "name": "Zoom Workplace",
+  "company": "zoom-communications",
+  "categories": [
+    "videoconferencia-i-feina"
+  ],
+  "tagline": "Sense establiment principal a la UE, de manera que l’AEPD hi és plenament competent, i amb un xifratge d’extrem a extrem que desactiva bona part de les funcions",
+  "summary": "Després de la crisi de 2020, Zoom va signar un acord amb la FTC per haver dit durant anys que xifrava d’extrem a extrem quan no ho feia, i té una llista llarga de certificacions. Ofereix xifratge d’extrem a extrem des de finals de 2020, però activar-lo desactiva la gravació al núvol, la transcripció, les sales de treball i el xat privat. La clàusula de 2023 que permetia entrenar models amb el contingut dels clients es va rectificar i la política actual ho descarta sense condicions.",
+  "platforms": [
+    "ios",
+    "android",
+    "web",
+    "windows",
+    "macos",
+    "linux"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Estats Units",
+  "userBase": "Centenars de milions de participants en reunions",
+  "links": {
+    "website": "https://www.zoom.com/",
+    "privacyPolicy": "https://www.zoom.com/es/trust/privacy/privacy-statement/",
+    "terms": "https://www.zoom.com/es/trust/terms/",
+    "privacyCenter": "https://trust.zoom.com/",
+    "appStore": "https://apps.apple.com/es/app/id546505307"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "zoom-privacy-policy"
+    ],
+    "detail": "Es pot entrar en una reunió amb un enllaç sense compte, però per convocar-ne cal registrar-se.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "zoom-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "El contingut d’una reunió és tot el que s’hi diu i s’hi mostra, més les gravacions i les transcripcions. A l’etiqueta de l’App Store, Zoom declara que àudio, vídeo i missatges s’utilitzen per a «anàlisi de dades» i que queden vinculats a la identitat. Quan el compte és de feina o d’escola, l’administrador decideix què s’hi grava.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "zoom-privacy-policy",
+        "zoom-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "zoom-privacy-policy",
+        "zoom-app-store"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "zoom-app-store"
+      ]
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "zoom-app-store",
+        "zoom-privacy-policy"
+      ],
+      "note": "L’etiqueta declara les dades d’àudio sota «Análisis de datos», vinculades a la persona."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "zoom-app-store"
+      ],
+      "note": "Vídeo de la reunió, pantalla compartida i adjunts."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "zoom-app-store",
+        "zoom-privacy-policy"
+      ],
+      "note": "Xat de la reunió, Team Chat i metadades de Zoom Mail i del calendari."
+    },
+    {
+      "type": "metadades-de-comunicacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "zoom-privacy-policy"
+      ],
+      "note": "Durada, participants i qualitat de la connexió es registren fins i tot amb xifratge d’extrem a extrem activat."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "zoom-app-store"
+      ],
+      "note": "L’etiqueta declara ubicació exacta i aproximada sota «Funcionalidad de la app»."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "zoom-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "zoom-app-store",
+        "zoom-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "zoom-privacy-policy"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "zoom-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "zoom-app-store"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "zoom-privacy-policy"
+      ],
+      "note": "Les galetes i l’analítica del web es basen en el consentiment."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "zoom-app-store"
+      ],
+      "note": "L’etiqueta no declara cap dada utilitzada per rastrejar."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "zoom-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada utilitzada per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "zoom-app-store"
+      ],
+      "detail": "No es declara cap identificador publicitari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "zoom-privacy-policy"
+      ],
+      "detail": "Hi ha analítica i màrqueting al web, basats en el consentiment; dins del client de reunions no consten.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "zoom-privacy-policy",
+        "zoom-app-store"
+      ],
+      "detail": "L’etiqueta declara correu, nom i identificador d’usuari per a màrqueting del desenvolupador; el contingut de les reunions no s’hi utilitza.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "zoom-privacy-policy"
+      ],
+      "detail": "Hi ha analítica d’ús i funcions d’AI Companion, però la política no descriu perfilat publicitari sobre el contingut.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "zoom-privacy-policy"
+      ],
+      "detail": "La política vigent diu literalment que Zoom no utilitza àudio, vídeo, xat, pantalla compartida, adjunts ni altre contingut de comunicacions del client per entrenar models propis ni de tercers. És la redacció definitiva després de la polèmica de la clàusula 10.4 de 2023, que ja s’havia rectificat l’agost d’aquell any.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "zoom-privacy-policy"
+      ],
+      "detail": "Proveïdors de servei, i l’administrador del compte corporatiu, que té accés a la configuració i a les gravacions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "zoom-privacy-policy"
+      ],
+      "detail": "Filials de Zoom, entre elles Workvivo Limited, que és a més el representant a la UE segons l’article 27 del RGPD.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "zoom-privacy-policy"
+      ],
+      "detail": "La política no preveu la venda de dades personals.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "zoom-privacy-policy",
+        "zoom-gdpr"
+      ],
+      "detail": "Clàusules contractuals tipus i participació al Marc de privadesa de dades UE-EUA. Els comptes de pagament poden triar residència de dades a la UE.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "adequacy"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "zoom-transparency-report"
+      ],
+      "detail": "Informe semestral de peticions de dades de forces de seguretat i governs, amb desglossament per jurisdicció i tipus.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.zoom.com/en/trust/transparency/"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "zoom-privacy-policy"
+      ],
+      "detail": "La política es queda en el criteri genèric de necessitat; els terminis concrets que circulen per a Team Chat, AI Companion o suport no els hem pogut confirmar en documentació oficial.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "zoom-privacy-policy",
+        "zoom-delete-account"
+      ],
+      "detail": "Es conserva el que exigeixen les obligacions legals i de compliment; no se’n publiquen els terminis.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "zoom-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "zoom-delete-account"
+      ],
+      "detail": "Qui és propietari o administrador del compte el pot tancar sol des del web; qui és membre d’un compte corporatiu depèn de l’administrador i no es pot donar de baixa pel seu compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "requiresSupportContact": false,
+    "steps": [
+      "Cancel·la abans la subscripció de pagament: eliminar el compte no atura la facturació.",
+      "Exporta les transcripcions i els resums d’AI Companion que vulguis conservar, perquè es perden.",
+      "Inicia sessió a zoom.us i ves a Admin, després a Account Management i a Account Profile.",
+      "Al final de la pàgina, tria «Terminate My Account» i confirma-ho."
+    ],
+    "obstacles": "Si el compte el gestiona una empresa o un centre educatiu, la baixa no depèn de la persona usuària. La supressió tampoc no afecta les gravacions que l’organització hagi desat pel seu compte.",
+    "dataRetained": "El que exigeixen les obligacions legals i de compliment. Els terminis no es publiquen.",
+    "sources": [
+      "zoom-delete-account",
+      "zoom-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "zoom-privacy-policy"
+      ],
+      "detail": "Hi ha eina d’autoservei d’accés, correcció i supressió, i un formulari de privadesa gestionat amb OneTrust. El format de lliurament no es concreta.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "zoom-privacy-policy"
+      ],
+      "detail": "Adreça de privadesa i representant a la UE segons l’article 27 del RGPD.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacy@zoom.us"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "zoom-privacy-policy"
+      ],
+      "detail": "El màrqueting i les galetes del web depenen del consentiment i es poden retirar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "zoom-privacy-policy"
+      ],
+      "detail": "Les dades de diagnòstic i de qualitat del servei es tracten per interès legítim i no hi ha cap interruptor per desactivar-les.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "zoom-trust-center"
+      ],
+      "detail": "El centre de confiança i el panell d’administració permeten controlar la gravació, l’AI Companion, la residència de dades, el xifratge de les gravacions al núvol i el xifratge d’extrem a extrem. Són controls d’administrador, no de participant.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi recent i independent de patrons foscos a la interfície."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "zoom-e2ee-blog",
+        "zoom-e2ee-rollout"
+      ],
+      "detail": "El xifratge d’extrem a extrem existeix des de finals d’octubre de 2020 i és disponible també per als comptes gratuïts prèvia verificació, però no està activat per defecte i, quan s’activa, desactiva la gravació al núvol, la transcripció en directe, les sales de treball, les enquestes i el xat privat. Per defecte el que hi ha és xifratge de transport AES-256 GCM, que no és d’extrem a extrem.",
+      "verifiedAt": "2026-09-22",
+      "scope": "partial-optin"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "zoom-privacy-policy"
+      ],
+      "detail": "Xifratge AES-256 GCM per defecte en totes les reunions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "zoom-trust-center"
+      ],
+      "detail": "El centre de confiança documenta el xifratge de les gravacions al núvol i les certificacions que el cobreixen.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "zoom-trust-center"
+      ],
+      "detail": "Verificació en dos passos amb aplicació d’autenticació o SMS, i inici de sessió únic SAML per a organitzacions.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "totp",
+        "sms"
+      ]
+    },
+    "independentAudits": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "zoom-trust-center"
+      ],
+      "detail": "SOC 2 de tipus II, ISO/IEC 27001, 27017, 27018 i 27701, HIPAA, HITRUST, FedRAMP, PCI DSS i CSA STAR. L’acord amb la FTC hi va afegir avaluacions independents de seguretat cada dos anys.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "zoom-hackerone",
+        "zoom-bug-bounty-2024"
+      ],
+      "detail": "Programa públic a HackerOne, amb un programa privat associat; el 2024 hi van participar prop d’un miler d’investigadors.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://hackerone.com/zoom"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "zoom-vulnerability-reporting"
+      ],
+      "detail": "Hi ha pàgina de comunicació de vulnerabilitats, tot i que zoom.com no publica cap fitxer security.txt.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "signal",
+      "comparability": "partial",
+      "rationale": "Les trucades de grup de Signal són xifrades d’extrem a extrem per defecte i sense metadades d’assistència.",
+      "tradeOffs": "No té gravació, ni sales de treball, ni administració corporativa, i el nombre de participants és molt menor."
+    },
+    {
+      "app": "microsoft-teams",
+      "comparability": "equivalent",
+      "rationale": "Cobreix la mateixa necessitat de reunions i coordinació d’equips en entorns corporatius.",
+      "tradeOffs": "El tractament queda dins de l’ecosistema de Microsoft, amb més integració i més dades creuades."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Zoom no declara establiment principal a la Unió Europea, només un representant de l’article 27 a Irlanda, i l’autoritat neerlandesa ja ha dit que no n’és l’autoritat principal. Per tant, no hi ha finestreta única i l’AEPD és plenament competent per a les reclamacions des d’Espanya. Sobre l’entrenament de models, la clàusula 10.4 de 2023 es va rectificar en pocs dies i la redacció actual és una negativa sense condicions, més forta que la de l’agost de 2023.",
+    "openQuestions": [
+      "Quins són els terminis oficials de conservació de Team Chat, d’AI Companion i dels tiquets de suport?",
+      "L’abast de les certificacions cobreix també la residència de dades a la UE?"
+    ]
+  },
+  "appStoreBundleId": "us.zoom.videomeetings"
+}

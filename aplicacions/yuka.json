@@ -1,0 +1,499 @@
+{
+  "slug": "yuka",
+  "name": "Yuka",
+  "company": "yuca",
+  "categories": [
+    "benestar-i-activitat-fisica",
+    "alimentacio-i-restauracio"
+  ],
+  "tagline": "Una etiqueta de privadesa que només declara interacció i errors, i un botó d’eliminació que esborra tot el compte",
+  "summary": "Yuka escaneja el codi de barres d’aliments i cosmètics i en dona una nota. El model de negoci és una subscripció premium i la companyia publica els comptes anuals per demostrar que no cobra de cap marca. L’etiqueta de l’App Store només declara interacció amb el producte i dades d’errors, i cap dada utilitzada per rastrejar-te. Cal registrar-s’hi, i la política reconeix que les noves funcions d’intel·ligència artificial poden enviar dades a OpenAI o a Google Cloud AI.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "França; autoritat de control: Commission nationale de l’informatique et des libertés",
+  "userBase": "Desenes de milions de comptes a França, Espanya i altres mercats",
+  "links": {
+    "website": "https://yuka.io/es",
+    "privacyPolicy": "https://help.yuka.io/l/es/article/jcejovibd3",
+    "appStore": "https://apps.apple.com/es/app/id1092799236"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "yuka-registre"
+    ],
+    "detail": "Cal registrar-s’hi per dos motius que la companyia explica: assegurar la qualitat de les contribucions a la base de dades i lligar l’historial d’escanejos a un compte.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "editorial",
+    "sources": [],
+    "detail": "L’aplicació és privativa, tot i que la base de dades d’aliments que fa servir prové en bona part de projectes col·laboratius.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "L’historial d’escanejos diu què menges, què t’apliques a la pell i amb quina freqüència; creuat amb les alertes personalitzades, revela restriccions alimentàries, al·lèrgies i, indirectament, condicions de salut. La política afirma que aquestes dades no es tracten com a categories especials i que no es venen.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "yuka-politica-privacidad"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "yuka-politica-privacidad"
+      ],
+      "note": "Mailchimp, Mandrill i Brevo per als correus del servei i el butlletí."
+    },
+    {
+      "type": "contrasenya",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "yuka-politica-privacidad"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "yuka-politica-privacidad",
+        "yuka-registre"
+      ],
+      "note": "L’historial d’escanejos queda lligat al compte perquè el puguis recuperar."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "yuka-app-store",
+        "yuka-politica-privacidad"
+      ],
+      "note": "Google Analytics i Firebase Analytics."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "yuka-politica-privacidad"
+      ],
+      "note": "Els pagaments de la subscripció els processen Apple Pay, Google Pay i Stripe."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "yuka-politica-privacidad"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "yuka-politica-privacidad"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "yuka-politica-privacidad"
+      ],
+      "note": "La política enumera dades d’ubicació entre les recollides, sense concretar-ne la finalitat."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "yuka-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "yuka-politica-privacidad"
+      ],
+      "note": "La política afirma que no tracta dades personals sensibles; les preferències alimentàries, però, permeten inferir intoleràncies i conviccions."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "yuka-app-store",
+        "yuka-politica-privacidad"
+      ],
+      "note": "L’etiqueta no declara cap dada de publicitat i la política nega la publicitat segmentada."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "yuka-app-store",
+        "yuka-politica-privacidad"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada utilitzada per rastrejar-te i la política afirma que no ha venut ni compartit dades amb finalitats comercials en els darrers dotze mesos.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "yuka-app-store"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "yuka-politica-privacidad"
+      ],
+      "detail": "Hi ha analítica de Google Analytics i Firebase, però no components publicitaris.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "yuka-politica-privacidad",
+        "yuka-financament"
+      ],
+      "detail": "La política nega la publicitat segmentada amb les dades recollides i el finançament ve de la subscripció premium, no de les marques.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "yuka-politica-privacidad"
+      ],
+      "detail": "Hi ha personalització (alertes segons les preferències alimentàries), però no elaboració de perfils amb finalitats comercials.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "yuka-politica-privacidad"
+      ],
+      "detail": "La política reconeix funcions basades en intel·ligència artificial amb proveïdors com OpenAI o Google Cloud AI i diu que s’hi poden compartir dades amb aquesta finalitat; no aclareix si serveixen per entrenar models.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "yuka-politica-privacidad"
+      ],
+      "detail": "Google Analytics i Firebase per a l’analítica, Mailchimp, Mandrill i Brevo per al correu, Google Cloud, Firebase, Algolia i DigitalOcean per a la infraestructura, Apple Pay, Google Pay i Stripe per als pagaments, i OpenAI o Google Cloud AI per a les funcions d’intel·ligència artificial.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Yuca SAS és una societat única, sense grup empresarial conegut.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "yuka-dades-usuari",
+        "yuka-politica-privacidad"
+      ],
+      "detail": "La companyia diu textualment que, per raons ètiques, Yuka no ven ni explota cap dada personal.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "yuka-politica-privacidad"
+      ],
+      "detail": "Servidors als Estats Units, als Països Baixos i a França, amb clàusules contractuals tipus de la Unió Europea per a les transferències.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "yuka-financament"
+      ],
+      "detail": "No hi ha un informe de transparència sobre peticions d’autoritats, però la companyia publica els seus comptes anuals per acreditar la independència econòmica.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "yuka-politica-privacidad"
+      ],
+      "detail": "La política diu que les dades es conserven només el temps necessari per a les finalitats o per obligació legal, sense terminis concrets per categoria.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "yuka-politica-privacidad",
+        "yuka-eliminar-compte"
+      ],
+      "detail": "En eliminar el compte s’esborren totes les dades associades, però la política reconeix que se’n poden mantenir còpies de seguretat per a la prevenció del frau i el compliment legal.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "yuka-eliminar-compte"
+      ],
+      "detail": "Segons la pàgina d’ajuda, en suprimir el compte s’esborren també totes les dades associades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "yuka-eliminar-compte"
+      ],
+      "detail": "L’eliminació es fa des de la configuració de l’aplicació al mòbil, o amb l’enllaç directe que dona la mateixa pàgina d’ajuda.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://app.yuka.io/deleteAccount",
+    "difficulty": "easy",
+    "steps": [
+      "Obre l’aplicació al mòbil i entra a la configuració del compte.",
+      "Tria l’opció d’eliminar el compte, o obre https://app.yuka.io/deleteAccount des del mateix telèfon.",
+      "Confirma: en suprimir el compte s’esborra tota la informació associada, inclòs l’historial d’escanejos.",
+      "Si vols exercir algun altre dret, escriu a equipo@yuka.io des de l’adreça del compte o fes servir el formulari de contacte."
+    ],
+    "dataRetained": "Còpies de seguretat per a la prevenció del frau i el compliment de les obligacions legals.",
+    "sources": [
+      "yuka-eliminar-compte",
+      "yuka-gestionar-dades",
+      "yuka-politica-privacidad"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "yuka-gestionar-dades"
+      ],
+      "detail": "El dret d’accés s’exerceix per correu o amb un formulari, però no hi ha cap eina d’autoservei per descarregar l’historial.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://yuka.io/contact/user/form/"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "yuka-gestionar-dades",
+        "yuka-politica-privacidad"
+      ],
+      "detail": "Hi ha dues vies documentades (correu a equipo@yuka.io i formulari) i un delegat de protecció de dades identificat.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dpo@yuka.io"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha publicitat al servei: la política nega la publicitat segmentada i el finançament ve de la subscripció.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap control per desactivar l’analítica de Google Analytics i Firebase."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "yuka-gestionar-dades"
+      ],
+      "detail": "La configuració permet canviar el nom, el correu i la contrasenya i eliminar el compte, però no hi ha controls per finalitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "protective",
+    "darkPatterns": {
+      "status": "no",
+      "level": "editorial",
+      "sources": [
+        "yuka-eliminar-compte",
+        "yuka-financament"
+      ],
+      "detail": "No hem trobat patrons enganyosos: la sortida és un botó, el model de negoci està explicat i els comptes són públics.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no transporta comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no detalla les mesures tècniques de xifratge."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública sobre el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap documentació sobre verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories de seguretat independents publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "yuka-app-store"
+      ],
+      "detail": "El domini yuka.io no serveix cap fitxer .well-known/security.txt i no hem trobat cap política de divulgació publicada.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Yuka és una aplicació de salut amb una etiqueta de privadesa de dues línies i una eliminació del compte d’un clic. El punt que caldrà revisar és el de la intel·ligència artificial, que la política ha incorporat recentment i encara descriu de manera vaga.",
+    "openQuestions": [
+      "Quines dades concretes s’envien a OpenAI o a Google Cloud AI i per a quina funció de l’aplicació?",
+      "Per a què es fan servir les dades d’ubicació que enumera la política?"
+    ]
+  },
+  "appStoreBundleId": "yuca.scanner"
+}

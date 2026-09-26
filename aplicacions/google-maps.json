@@ -1,0 +1,509 @@
+{
+  "slug": "google-maps",
+  "name": "Google Maps",
+  "company": "google-ireland",
+  "categories": [
+    "mapes-i-navegacio"
+  ],
+  "tagline": "Mapes i navegació amb historial d’ubicació",
+  "summary": "Google Maps necessita la ubicació per funcionar. La cronologia d’ubicacions, desactivada per defecte als comptes nous i emmagatzemada al dispositiu des de 2024, conserva un registre històric de per on has passat, una de les dades més sensibles que pot generar una persona.",
+  "platforms": [
+    "web",
+    "ios",
+    "android"
+  ],
+  "businessModel": "advertising",
+  "jurisdiction": "Irlanda, per a persones usuàries de l’Espai Econòmic Europeu",
+  "userBase": "Més de 1.000 milions de persones usuàries mensuals",
+  "links": {
+    "website": "https://www.google.com/maps",
+    "privacyPolicy": "https://policies.google.com/privacy",
+    "privacyCenter": "https://myaccount.google.com/data-and-privacy"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "google-privacy-policy"
+    ],
+    "detail": "Es pot consultar i navegar sense compte; les ressenyes, els llocs desats i la cronologia el requereixen.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "google-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "La ubicació precisa i continuada permet deduir on vius, on treballes, quin metge visites, a quina església o seu política entres i amb qui coincideixes. És la categoria de dades amb més potencial de dany del directori.",
+  "dataCollection": [
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "google-privacy-policy",
+        "ag-google-location-2022"
+      ],
+      "note": "Necessària per a la navegació. La cronologia històrica és opcional i, des de 2024, es desa al dispositiu."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "google-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "google-my-activity"
+      ],
+      "note": "Les adreces cercades revelen destinacions i intencions."
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "google-privacy-policy"
+      ],
+      "note": "Ressenyes i fotografies de llocs, públiques i associades al nom del perfil."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "google-privacy-policy"
+      ]
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "google-ad-center"
+      ],
+      "note": "Els llocs visitats permeten inferir categories comercials molt precises."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "google-privacy-policy"
+      ]
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "google-privacy-policy"
+      ]
+    },
+    {
+      "type": "xarxa-i-connectivitat",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "google-privacy-policy"
+      ],
+      "note": "Les xarxes sense fil properes s’utilitzen per afinar la ubicació."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "google-privacy-policy"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "google-privacy-policy"
+      ],
+      "detail": "Les dades d’ubicació alimenten la mesura de visites a establiments físics dins de l’ecosistema publicitari de Google.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "google-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-ad-center"
+      ],
+      "detail": "Els anuncis de llocs propers i la mesura de visites a botigues es basen en la ubicació.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://myadcenter.google.com/"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-ad-center"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta si les dades de cronologia s’utilitzen per entrenar models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "google-privacy-policy"
+      ],
+      "detail": "Les ressenyes són públiques; les dades agregades de trànsit es comparteixen amb administracions i socis.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "google-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "mechanism": "adequacy"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-transparency-report"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://transparencyreport.google.com/"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-my-activity"
+      ],
+      "detail": "La cronologia té esborrat automàtic per defecte i configurable; des de 2024 s’emmagatzema principalment al dispositiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "google-delete-account"
+      ],
+      "detail": "Les ressenyes publicades es poden eliminar per separat; les còpies indexades poden trigar a desaparèixer.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "ubicacio-precisa",
+        "period": "Cronologia amb esborrat automàtic per defecte, configurable entre 3 i 36 mesos",
+        "sources": [
+          "google-my-activity"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-delete-account"
+      ],
+      "detail": "La cronologia i l’activitat de Maps es poden esborrar sense tocar el compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://myactivity.google.com/product/maps",
+    "difficulty": "easy",
+    "waitingPeriodDays": 0,
+    "requiresSupportContact": false,
+    "steps": [
+      "Entra a myaccount.google.com i obre la secció Dades i privadesa.",
+      "Baixa fins a «Més opcions» i tria «Suprimeix el teu compte de Google» o el servei concret.",
+      "Descarrega les dades amb Takeout si les vols conservar.",
+      "Revisa la llista de serveis afectats i confirma amb la contrasenya."
+    ],
+    "obstacles": "Durant anys, desactivar l’historial d’ubicacions no aturava la recollida perquè continuava per la via de l’activitat web i d’aplicacions, cosa que va acabar en un acord de 391,5 milions de dòlars als Estats Units.",
+    "dataRetained": "Ressenyes i fotografies publicades, si no s’eliminen expressament.",
+    "sources": [
+      "google-delete-account",
+      "ag-google-location-2022"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-takeout-help"
+      ],
+      "detail": "Google Takeout permet exportar cada servei per separat en formats oberts i estàndard. És una de les exportacions més completes del directori.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://takeout.google.com/"
+    },
+    "exportFormatQuality": "open",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://support.google.com/policies/troubleshooter/9009584",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-ad-center"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://myadcenter.google.com/"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "google-my-activity"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-my-activity"
+      ],
+      "detail": "Es pot desactivar la cronologia, esborrar-la per trams i activar el mode d’incògnit dins de Maps.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "yes",
+      "level": "regulator",
+      "sources": [
+        "ag-google-location-2022"
+      ],
+      "detail": "La separació entre «historial d’ubicacions» i «activitat web i d’aplicacions» va induir a error de manera sistemàtica sobre quines dades es deixaven de recollir.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "confusing-language",
+        "severity": "high",
+        "description": "Dos paràmetres amb noms diferents controlaven la mateixa dada, de manera que desactivar-ne un donava una falsa sensació de protecció.",
+        "sources": [
+          "ag-google-location-2022"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Un servei de mapes no transporta comunicacions privades entre persones usuàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-safety-center"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-safety-center"
+      ],
+      "detail": "Xifratge en repòs amb claus gestionades per Google.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-safety-center"
+      ],
+      "detail": "Verificació en dos passos amb claus d’accés, claus de seguretat físiques, aplicació d’autenticació, notificació i SMS.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "passkey",
+        "hardware-key",
+        "totp",
+        "app-push",
+        "sms"
+      ]
+    },
+    "independentAudits": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-safety-center"
+      ],
+      "detail": "Certificacions ISO 27001, ISO 27701 i informes SOC, auditats per tercers.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://safety.google/"
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-safety-center"
+      ],
+      "detail": "Programa de recompenses de llarga trajectòria i amb imports elevats.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://bughunters.google.com/"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-safety-center"
+      ],
+      "detail": "L’equip Project Zero publica una política de divulgació de 90 dies aplicada també als productes propis.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "El trasllat de la cronologia al dispositiu, iniciat el 2024, és una millora substantiva. Convé revisar aquesta fitxa quan el desplegament s’hagi completat a totes les plataformes per comprovar què queda als servidors.",
+    "openQuestions": [
+      "Un cop completat el trasllat de la cronologia al dispositiu, quina informació d’ubicació continua arribant als servidors de Google?"
+    ]
+  },
+  "appStoreBundleId": "com.google.Maps"
+}

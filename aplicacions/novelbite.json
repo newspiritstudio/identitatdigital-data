@@ -1,0 +1,448 @@
+{
+  "slug": "novelbite",
+  "name": "NovelBite",
+  "company": "nexten-labs",
+  "categories": [
+    "llibres-i-lectura"
+  ],
+  "tagline": "Novel·les per capítols d’una editora que no publica ni domicili ni identificació fiscal",
+  "summary": "NovelBite ofereix novel·les per capítols amb un model de micropagaments. La política de privadesa és força detallada: reconeix la recollida d’identificadors publicitaris IDFA i GAID i de la geolocalització, les clàusules contractuals tipus per a les transferències i un termini de 30 dies per esborrar el compte. En canvi, no identifica el responsable del tractament: no hi ha ni raó social completa, ni domicili, ni identificació fiscal, i l’únic contacte és una adreça d’Outlook. Per a un servei adreçat a la Unió Europea, això és un problema de compliment normatiu.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Desconeguda",
+  "userBase": "Aplicació recent, entre les més descarregades de la categoria de llibres a Espanya",
+  "links": {
+    "website": "https://novel-bite.com/",
+    "privacyPolicy": "https://novel-bite.com/en/privacy-policy",
+    "appStore": "https://apps.apple.com/es/app/id6762946357"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "novelbite-privacy-policy"
+    ],
+    "detail": "La política descriu informació de compte i de perfil i dades de pagament; la lectura inicial pot no exigir registre.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "editorial",
+    "sources": [],
+    "detail": "No consta cap publicació del codi font; és programari privatiu.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Què llegeix una persona i fins on arriba en cada capítol revela els seus interessos, i aquí s’hi afegeixen identificadors publicitaris i geolocalització. Sense saber qui és el responsable ni on és establert, exercir-hi qualsevol dret és difícil.",
+  "dataCollection": [
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "novelbite-privacy-policy",
+        "novelbite-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "novelbite-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "novelbite-privacy-policy",
+        "novelbite-app-store"
+      ],
+      "note": "La política esmenta l’IDFA d’iOS i el GAID d’Android."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "novelbite-privacy-policy"
+      ],
+      "note": "La política inclou la geolocalització entre les dades recollides automàticament."
+    },
+    {
+      "type": "historial-de-visualitzacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "novelbite-privacy-policy"
+      ],
+      "note": "Dades d’ús i de navegació dins de l’aplicació: quines novel·les es llegeixen i fins on."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "novelbite-privacy-policy"
+      ],
+      "note": "Es processen amb Stripe, Apple Pay i Google Pay."
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "novelbite-privacy-policy"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "novelbite-privacy-policy"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "novelbite-app-store",
+        "novelbite-privacy-policy"
+      ],
+      "detail": "L’etiqueta declara identificadors utilitzats per rastrejar i la política reconeix la recollida d’IDFA i GAID.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "novelbite-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "novelbite-privacy-policy"
+      ],
+      "detail": "Google Analytics entre els proveïdors enumerats, a més de Stripe, AWS, Cloudflare i Zendesk.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "novelbite-privacy-policy"
+      ],
+      "detail": "La política inclou la publicitat entre les finalitats i recull identificadors publicitaris per a aquest ús.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "novelbite-privacy-policy"
+      ],
+      "detail": "La personalització de continguts i les recomanacions són finalitats declarades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu si les dades s’utilitzen per entrenar models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "novelbite-privacy-policy"
+      ],
+      "detail": "Processadors de pagament (Stripe, Apple Pay, Google Pay) i proveïdors com AWS, Cloudflare, Google Analytics i Zendesk.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap estructura de grup."
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta cap venda de dades a intermediaris."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "novelbite-privacy-policy"
+      ],
+      "detail": "Transferències fora del país de residència, amb clàusules contractuals tipus de la UE per a l’Espai Econòmic Europeu.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "novelbite-privacy-policy"
+      ],
+      "detail": "La política dona terminis numèrics tant per al compte com per a les dades recollides automàticament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "novelbite-privacy-policy"
+      ],
+      "detail": "Les dades s’esborren dins dels 30 dies següents a l’eliminació del compte, amb excepcions legals no detallades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "period": "Dades del compte: esborrades dins dels 30 dies posteriors a l’eliminació",
+        "sources": [
+          "novelbite-privacy-policy"
+        ]
+      },
+      {
+        "period": "Dades recollides automàticament: 12 mesos des de l’últim ús",
+        "sources": [
+          "novelbite-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "novelbite-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política reconeix el dret a l’eliminació, però no descriu si hi ha un botó dins de l’aplicació."
+    },
+    "difficulty": "medium",
+    "waitingPeriodDays": 30,
+    "requiresSupportContact": true,
+    "steps": [
+      "Busca l’opció d’eliminar el compte a la configuració de l’aplicació.",
+      "Si no hi és, escriu a novelbite@outlook.com amb l’assumpte «Privacy Rights Request» demanant la supressió.",
+      "Les dades s’han d’esborrar dins dels 30 dies següents."
+    ],
+    "obstacles": "L’única via de contacte és una adreça de correu gratuïta, sense cap responsable identificat ni cap representant a la Unió Europea a qui reclamar.",
+    "sources": [
+      "novelbite-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "novelbite-privacy-policy"
+      ],
+      "detail": "La portabilitat consta entre els drets reconeguts, sense eina d’autoservei descrita.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "novelbite-privacy-policy"
+      ],
+      "detail": "Hi ha una adreça de correu per a les sol·licituds, però no un delegat de protecció de dades ni un representant a la UE identificats.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:novelbite@outlook.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "novelbite-privacy-policy"
+      ],
+      "detail": "La política reconeix la retirada del consentiment, però l’única opció efectiva documentada és denegar el permís de seguiment del sistema operatiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap control per desactivar l’analítica."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap panell de privadesa dins de l’aplicació."
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut revisar els fluxos de consentiment ni el model de micropagaments dins de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei distribueix contingut editorial, no comunicacions privades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "editorial",
+      "sources": [],
+      "detail": "El lloc del servei es publica sobre HTTPS i la política esmenta Cloudflare com a proveïdor.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta si el compte admet un segon factor."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories independents publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses ni canal de seguretat."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap canal públic de divulgació de vulnerabilitats."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "slowread",
+      "comparability": "partial",
+      "rationale": "Per a qui només vol portar el registre del que llegeix, una aplicació sense publicitat ni identificadors de rastreig.",
+      "tradeOffs": "No distribueix continguts: és un seguiment de lectures, no un catàleg de novel·les."
+    },
+    {
+      "app": "storytel",
+      "comparability": "partial",
+      "rationale": "Catàleg de lectura per subscripció d’una empresa europea identificable.",
+      "tradeOffs": "És de pagament i no té el format de novel·la per capítols."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "La política és més completa que la de la majoria d’aplicacions d’aquest tipus, però no identifica el responsable. Sense raó social, domicili ni representant a la UE, els drets que s’hi reconeixen són difícils d’exercir.",
+    "openQuestions": [
+      "Qui és exactament Nexten Labs Limited i on està establerta?",
+      "Té un representant a la Unió Europea segons l’article 27 del RGPD?",
+      "Amb quines xarxes publicitàries es comparteixen l’IDFA i el GAID?",
+      "Queda pendent la cerca sistemàtica d’incidents i sancions: les eines de cerca no eren disponibles durant aquesta revisió."
+    ]
+  },
+  "appStoreBundleId": "com.novelbite.novel"
+}

@@ -1,0 +1,402 @@
+{
+  "slug": "revolut",
+  "name": "Revolut",
+  "company": "revolut",
+  "categories": [
+    "banca-i-finances"
+  ],
+  "tagline": "Controls de privadesa dins de l’aplicació i un avís per a l’EEE que no es deixa llegir",
+  "summary": "La pàgina legal de Revolut diu que les dades personals són de la persona usuària i descriu controls de seguretat i privadesa dins de l’aplicació. L’etiqueta de l’App Store és moderada per a una entitat financera, però hi consten identificadors utilitzats per rastrejar-te fora del servei. L’avís de privadesa aplicable a l’Espai Econòmic Europeu no s’ha deixat consultar amb eines automàtiques, i això deixa sense documentar la conservació, les transferències i el perfilat.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Regne Unit, amb entitat bancària europea a Lituània",
+  "userBase": "Una de les aplicacions financeres més descarregades a Espanya",
+  "links": {
+    "website": "https://www.revolut.com/",
+    "privacyPolicy": "https://www.revolut.com/privacy-policy/",
+    "appStore": "https://apps.apple.com/es/app/id932493382"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "revolut-privacy-hub"
+    ],
+    "detail": "Tot el servei es presta sobre un compte de client; la pàgina legal distingeix els avisos per tipus de client i per edat.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "revolut-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Un compte de Revolut concentra els moviments quotidians, els canvis de divisa, els viatges i, si s’hi contracta, la inversió i els criptoactius. L’etiqueta declara compres, contacte, identificadors, ús i diagnòstics vinculats amb la identitat, és a dir, tota la despesa d’una persona, i segons Apple els identificadors s’utilitzen també per rastrejar-la fora de l’aplicació.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "revolut-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "revolut-app-store"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "revolut-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "revolut-app-store"
+      ],
+      "note": "L’etiqueta declara la categoria «compras» vinculada amb la identitat."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "revolut-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "revolut-app-store"
+      ],
+      "note": "Els identificadors són l’única categoria declarada com a utilitzada per rastrejar."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "revolut-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "revolut-app-store"
+      ],
+      "note": "Declarada tant com a dada vinculada com a no vinculada."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "revolut-app-store"
+      ],
+      "detail": "L’etiqueta declara identificadors utilitzats per rastrejar-te en aplicacions i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "revolut-app-store"
+      ],
+      "detail": "Hi ha identificadors sota la secció de rastreig, però l’etiqueta no especifica quins.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut llegir l’avís de privadesa aplicable a l’EEE, que és on constarien els proveïdors publicitaris."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’avís de privadesa per a clients particulars no s’ha deixat consultar."
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La normativa de pagaments obliga a l’anàlisi antifrau, però no hem pogut documentar l’abast del perfilat amb una font oficial."
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública consultable."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut llegir l’avís de privadesa complet."
+    },
+    "intraGroupSharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "revolut-privacy-hub"
+      ],
+      "detail": "La pàgina legal identifica diverses societats del grup (Revolut Bank UK Ltd, Revolut Ltd i Revolut Trading Ltd) com a responsables segons el producte, però no en detalla els fluxos.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública consultable."
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’avís de privadesa aplicable a l’EEE no s’ha deixat consultar."
+    }
+  },
+  "transparency": {
+    "policyClarity": "unknown",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem localitzat cap informe de transparència sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut llegir l’apartat de conservació de l’avís aplicable."
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut documentar què es conserva després de tancar el compte."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El centre d’ajuda de Revolut no s’ha deixat consultar amb eines automàtiques."
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut verificar si el tancament del compte es fa íntegrament des de l’aplicació."
+    },
+    "difficulty": "unknown",
+    "obstacles": "Com a tota entitat financera, la normativa de prevenció del blanqueig obliga a conservar la documentació de la relació encara que es tanqui el compte."
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut documentar el procediment d’exportació de dades."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "revolut-privacy-hub"
+      ],
+      "detail": "La pàgina legal dona un canal directe: «If you want to exercise your rights over your personal data, you can contact us any time at dpo@revolut.com».",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dpo@revolut.com",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut documentar quins controls publicitaris ofereix l’aplicació."
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública consultable."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "revolut-privacy-hub"
+      ],
+      "detail": "La pàgina legal remet a les seccions «Security & privacy» i «Notification settings» de l’aplicació per ajustar les preferències de dades, sense detallar-ne l’abast.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem revisat els fluxos de consentiment de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no transporta comunicacions privades entre persones usuàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem localitzat documentació tècnica pública sobre el xifratge del canal."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública consultable."
+    },
+    "mfa": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "revolut-privacy-hub"
+      ],
+      "detail": "La pàgina legal descriu sistemes de seguretat que vigilen els comptes contínuament i controls dins de l’aplicació, però no detalla els segons factors admesos; la normativa europea de pagaments exigeix autenticació reforçada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories de seguretat independents publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut confirmar si el programa de recompenses és públic ni quin abast té."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem localitzat cap política pública de divulgació de vulnerabilitats consultable."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "openbank",
+      "comparability": "partial",
+      "rationale": "Banc digital establert a Espanya, amb una política de privadesa que explica la lògica del perfilat amb un detall poc habitual.",
+      "tradeOffs": "Openbank declara identificadors utilitzats per rastrejar-te i publicitat de tercers a la seva etiqueta de l’App Store."
+    },
+    {
+      "app": "bbva",
+      "comparability": "partial",
+      "rationale": "Banca tradicional espanyola per a qui vulgui una entitat amb oficines i supervisió de l’AEPD com a autoritat principal."
+    }
+  ],
+  "review": {
+    "researchStatus": "initial",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La fitxa és incompleta. La pàgina que Revolut enllaça des de l’App Store és un índex d’avisos, i els avisos concrets (el de clients particulars, que és el que s’aplica aquí) bloquegen les consultes automatitzades. Que la política només es pugui llegir amb un navegador interactiu també és una decisió que afecta la transparència.",
+    "openQuestions": [
+      "Quina entitat del grup és la responsable del tractament per a la clientela de l’Espai Econòmic Europeu i quina n’és l’autoritat de control principal?",
+      "Quant de temps es conserven les dades després de tancar el compte?",
+      "Quins tercers reben els identificadors que l’etiqueta declara com a utilitzats per rastrejar?"
+    ]
+  },
+  "appStoreBundleId": "com.revolut.revolut"
+}

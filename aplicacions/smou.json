@@ -1,0 +1,583 @@
+{
+  "slug": "smou",
+  "name": "SMOU",
+  "company": "barcelona-serveis-municipals",
+  "categories": [
+    "mobilitat-i-transport",
+    "administracio-publica"
+  ],
+  "tagline": "L’app municipal de mobilitat declara el correu per a màrqueting i enllaça un avís legal genèric com a política de privadesa",
+  "summary": "SMOU concentra el Bicing, el parquímetre, els aparcaments, el taxi i la grua de Barcelona en una sola aplicació, amb la matrícula del vehicle i una targeta bancària per compte. L’enllaç de privadesa que declara a l’App Store és l’avís legal genèric de l’Ajuntament, no una política específica del servei, i l’etiqueta declara el correu electrònic per a «publicitat o màrqueting del desenvolupador», cosa poc habitual en un servei públic.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "public-service",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://www.smou.cat/",
+    "privacyPolicy": "https://bsmsa.cat/avis-legal-i-privacitat",
+    "terms": "https://www.smou.cat/condicions-dus",
+    "appStore": "https://apps.apple.com/es/app/id1439898721"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "smou-terms"
+    ],
+    "detail": "Sense iniciar sessió es pot veure el mapa, les estacions de Bicing i la previsió de places; activar qualsevol servei de pagament exigeix registre i verificació del correu.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "smou-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "publicService": {
+    "isPublicService": true,
+    "administrationLevel": "local",
+    "legalBasis": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "bsm-privacy-policy",
+        "bsm-registre-tractament"
+      ],
+      "detail": "La política de B:SM no declara cap base jurídica: remet la licitud de cada finalitat al registre d’activitats de tractament. I l’activitat «Gestió d’usuaris SMOU» del registre té la casella de la base jurídica amb el text «En revisió». Per tant, B:SM no diu quina norma empara el tractament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "processingRegistry": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bsm-registre-tractament"
+      ],
+      "detail": "B:SM publica el registre al portal de transparència, en full de càlcul, PDF i CSV, i s’hi localitza l’activitat «Gestió d’usuaris SMOU». Però la finalitat, la base jurídica, les categories d’interessats, els destinataris i els terminis de conservació hi consten com a «En revisió».",
+      "verifiedAt": "2026-09-22",
+      "url": "https://transparencia.bsmsa.cat/coneix-BSM/registre-dactivitats-de-tractament"
+    },
+    "dpia": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "B:SM no publica cap avaluació d’impacte relativa a la protecció de dades, ni al portal de transparència ni al registre d’activitats de tractament."
+    },
+    "ensConformity": {
+      "status": "yes",
+      "level": "independent",
+      "sources": [
+        "bsm-ens-certificat"
+      ],
+      "detail": "Certificat de conformitat amb el Reial decret 311/2022 emès per DNV, número C849967-ENS amb acreditació ENAC, vigent del 10 de febrer de 2026 al 10 de febrer de 2028. L’abast cita expressament els sistemes que sostenen «los servicios digitales para la movilidad urbana ofrecidos por Barcelona de Serveis Municipals a través de la aplicación SMOU», amb 68 mesures de categoria mitjana.",
+      "verifiedAt": "2026-09-22",
+      "category": "medium",
+      "url": "https://transparencia.bsmsa.cat/sites/default/files/Media/Files/2026-03/ENS%20certificate_BSM_signedDNV.pdf"
+    },
+    "dpo": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bsm-privacy-policy",
+        "bsm-registre-tractament"
+      ],
+      "detail": "B:SM ha nomenat delegada de protecció de dades, Núria Furquet Suàrez, amb contacte publicat tant a l’avís legal com a cada fitxa del registre d’activitats de tractament.",
+      "verifiedAt": "2026-09-22",
+      "contact": "dpo@bsmsa.cat"
+    },
+    "offlineAlternative": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "areaverda-parquimetre",
+        "smou-terms"
+      ],
+      "detail": "Els parquímetres del carrer expedeixen tiquets d’àrea Blava, Verda, Resident, DUM i gremis i permeten anul·lar una denúncia sense instal·lar l’aplicació: només cal la matrícula i pagar-hi. L’alta al Bicing també es pot fer presencialment a l’oficina d’atenció al client.",
+      "verifiedAt": "2026-09-22"
+    },
+    "accessibilityStatement": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "smou-accessibilitat"
+      ],
+      "detail": "smou.cat té una pàgina d’accessibilitat que diu haver seguit les WCAG 2.0 nivell AA i ofereix el correu accessibilitat@bsmsa.cat, però no és una declaració del Reial decret 1112/2018: no hi consta el grau de conformitat, ni la data de revisió, ni el resultat d’una auditoria, ni la via de reclamació. I es refereix al web, no a l’aplicació mòbil.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.smou.cat/accessibilitat"
+    },
+    "mandatoryRetention": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "bsm-privacy-policy"
+      ],
+      "detail": "Cap norma obliga a conservar el compte: la política només preveu el bloqueig posterior a la supressió que estableix l’article 32 de la Llei orgànica 3/2018, que limita l’ús de les dades però no impedeix donar-se de baixa.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataSummary": "La matrícula, els inicis i les aturades d’estacionament i els trajectes de Bicing indiquen on és el teu cotxe i a quina hora et mous per la ciutat. B:SM diu que la localització es tracta de manera anònima, però l’etiqueta de l’App Store declara la ubicació precisa vinculada a la identitat.",
+  "dataCollection": [
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "smou-app-store",
+        "smou-terms"
+      ],
+      "note": "És la clau del compte i cal verificar-la; l’etiqueta la declara també sota «publicitat o màrqueting del desenvolupador»."
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "smou-app-store"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "smou-app-store"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "smou-app-store"
+      ],
+      "note": "Necessària per a serveis com el distintiu de resident."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "smou-app-store",
+        "smou-terms"
+      ],
+      "note": "Les condicions d’ús diuen que la localització es tracta «de forma anònima» per millorar els serveis; l’etiqueta la declara vinculada a la identitat."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "smou-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "smou-app-store",
+        "smou-terms"
+      ],
+      "note": "Les condicions reconeixen la recollida automàtica de l’identificador del dispositiu, el sistema operatiu i el navegador."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "smou-app-store",
+        "smou-terms"
+      ],
+      "note": "Els tiquets digitals de parquímetre, les recàrregues i els aparcaments, consultables per períodes i per vehicle."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "smou-app-store",
+        "smou-terms"
+      ],
+      "note": "Una única targeta per compte, verificada amb un càrrec de comprovació; l’etiqueta la declara com a dada no vinculada a la identitat."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "smou-app-store"
+      ]
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "smou-app-store"
+      ],
+      "note": "Les consultes i reclamacions enviades al servei d’atenció."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "smou-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "smou-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "smou-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap dada utilitzada per rastrejar en apps i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Ni les condicions ni la política de B:SM esmenten identificadors publicitaris."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap llista de proveïdors d’analítica integrats a l’aplicació."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "smou-app-store"
+      ],
+      "detail": "L’etiqueta declara el correu electrònic sota «publicitat o màrqueting del desenvolupador»; la política de B:SM no descriu aquesta finalitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "bsm-privacy-policy"
+      ],
+      "detail": "B:SM declara que no preveu la presa de decisions automatitzades ni l’elaboració de perfils.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La documentació no en diu res."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bsm-privacy-policy",
+        "smou-terms"
+      ],
+      "detail": "Proveïdors que actuen com a encarregats i, quan hi ha obligació legal, tercers públics o privats; el detall es remet al registre d’activitats de tractament. Els serveis de mobilitat de tercers integrats a l’app es contracten directament amb el proveïdor.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "smou-terms"
+      ],
+      "detail": "Els serveis de parquímetre i aparcament els presta B:SM juntament amb Iniciatives Tecnològiques de Mobilitat (ITM).",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "bsm-privacy-policy"
+      ],
+      "detail": "La política només preveu comunicacions per obligació legal o a encarregats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "bsm-privacy-policy"
+      ],
+      "detail": "B:SM declara que no preveu transferències internacionals de dades.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "none"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El detall de les finalitats es remet a un registre d’activitats de tractament que no hem pogut consultar."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "bsm-privacy-policy"
+      ],
+      "detail": "Només el criteri general del temps necessari per a la finalitat, amb el bloqueig posterior que preveu la LOPDGDD.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bsm-privacy-policy"
+      ],
+      "detail": "Un cop se’n demana la supressió, les dades queden bloquejades el temps que calgui per a les obligacions legals.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bsm-privacy-policy"
+      ],
+      "detail": "El dret de supressió es reconeix i s’exerceix davant del delegat de protecció de dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut verificar si hi ha una opció d’eliminació del compte dins de l’app o a la zona d’usuari: les preguntes freqüents de smou.cat es carreguen amb JavaScript i no s’han deixat llegir."
+    },
+    "difficulty": "unknown",
+    "steps": [
+      "Comprova que no tinguis operacions obertes ni pendents de cobrament.",
+      "Escriu a protecciodades@bsmsa.cat, o per carta a Barcelona de Serveis Municipals, carrer de Calàbria 66, 08015 Barcelona, a l’atenció del delegat de protecció de dades, i acredita la teva identitat."
+    ],
+    "dataRetained": "Les dades queden bloquejades el temps necessari per a les obligacions legals, especialment les de facturació.",
+    "sources": [
+      "bsm-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bsm-privacy-policy"
+      ],
+      "detail": "La portabilitat es reconeix en format electrònic, però s’ha de demanar per escrit.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bsm-privacy-policy"
+      ],
+      "detail": "Amb delegat de protecció de dades propi i reclamació davant de l’Autoritat Catalana de Protecció de Dades.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:protecciodades@bsmsa.cat"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’etiqueta declara màrqueting amb el correu, però no hem trobat on es desactiva."
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "smou-terms"
+      ],
+      "detail": "La localització es pot revocar des del sistema operatiu, tot i que les condicions adverteixen que llavors l’app queda incompleta.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És una aplicació de serveis municipals de mobilitat, sense comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El registre verifica el correu electrònic, però no hem trobat cap segon factor per iniciar sessió."
+    },
+    "independentAudits": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bsm-privacy-policy"
+      ],
+      "detail": "B:SM publica un certificat de l’Esquema Nacional de Seguretat a la seva web; no hem pogut comprovar-ne l’abast ni si cobreix SMOU.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Ni bsmsa.cat ni smou.cat publiquen un fitxer security.txt."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "telpark",
+      "comparability": "partial",
+      "rationale": "Permet pagar l’estacionament regulat de moltes ciutats sense passar per l’app municipal.",
+      "tradeOffs": "No dona accés al Bicing ni als serveis propis de Barcelona."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "El responsable del tractament és B:SM, tot i que l’App Store presenta l’Ajuntament de Barcelona com a desenvolupador i enllaça l’avís legal genèric del consistori. Les condicions d’ús diuen que la localització es tracta de manera anònima, però l’etiqueta declara ubicació precisa vinculada a la identitat. No hem pogut fer la cerca d’incidents.",
+    "openQuestions": [
+      "Per què l’etiqueta declara el correu per a màrqueting si B:SM no documenta aquesta finalitat?",
+      "Quina activitat del registre de tractaments de B:SM empara SMOU i amb quina base jurídica?",
+      "Hi ha una opció d’eliminar el compte dins de l’aplicació?"
+    ]
+  },
+  "appStoreBundleId": "cat.bcn.smoubcn"
+}

@@ -1,0 +1,564 @@
+{
+  "slug": "wechat",
+  "name": "WeChat",
+  "company": "tencent-international-service-europe",
+  "categories": [
+    "missatgeria",
+    "xarxes-socials"
+  ],
+  "tagline": "Els fitxers que s’envien entre comptes no xinesos també passen per l’anàlisi de continguts",
+  "summary": "WeChat és la versió internacional de Weixin i funciona com a missatgeria, xarxa social i mitjà de pagament. La política diu que les converses no es conserven permanentment als servidors, però no hi ha xifratge d’extrem a extrem: el Citizen Lab va demostrar el 2020 que els documents i les imatges intercanviats només entre comptes no xinesos s’analitzen i serveixen per entrenar el sistema de censura política que WeChat aplica a la Xina. Per a l’EEE, el responsable és una societat neerlandesa.",
+  "platforms": [
+    "ios",
+    "android",
+    "windows",
+    "macos",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Països Baixos per a l’EEE; servidors a Singapur i Hong Kong",
+  "userBase": "Més de mil milions de comptes actius a Weixin i WeChat",
+  "links": {
+    "website": "https://www.wechat.com/",
+    "privacyPolicy": "https://www.wechat.com/en/privacy_policy.html",
+    "appStore": "https://apps.apple.com/es/app/id414478124"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "wechat-privacy-policy"
+    ],
+    "detail": "Cal un número de telèfon i un àlies.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "wechat-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Qui ets, amb qui parles, què publiques i què pagues, amb els fitxers que envies passant per un sistema d’anàlisi de continguts. És l’aplicació principal per comunicar-se amb la Xina, i el Citizen Lab n’ha documentat l’ús per a la vigilància.",
+  "dataCollection": [
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "wechat-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "wechat-app-store",
+        "wechat-privacy-policy"
+      ]
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "wechat-privacy-policy",
+        "wechat-citizen-lab-2020"
+      ],
+      "note": "La política diu que no es conserven permanentment als servidors, però el Citizen Lab va documentar l’anàlisi de fitxers i imatges en trànsit."
+    },
+    {
+      "type": "fitxers-i-documents",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "wechat-citizen-lab-2020"
+      ]
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "wechat-app-store",
+        "wechat-citizen-lab-2020"
+      ]
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "wechat-app-store"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "wechat-app-store",
+        "wechat-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "wechat-app-store"
+      ],
+      "note": "L’etiqueta declara informació financera vinculada a la identitat i utilitzada per a anàlisi."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "wechat-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "wechat-app-store"
+      ],
+      "note": "L’etiqueta declara dades de salut per al funcionament de l’aplicació, com el comptador de passos."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "wechat-app-store"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "wechat-privacy-policy"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "wechat-app-store"
+      ]
+    },
+    {
+      "type": "metadades-de-comunicacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "wechat-privacy-policy"
+      ],
+      "note": "Les dades d’inici de sessió es conserven fins a noranta dies."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "wechat-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’etiqueta de l’App Store declara publicitat de tercers, però no hem pogut confirmar la secció de dades utilitzades per rastrejar."
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wechat-app-store"
+      ],
+      "detail": "L’etiqueta declara una categoria de publicitat de tercers amb compres, ubicació, identificadors i ús.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wechat-app-store",
+        "wechat-delete-account"
+      ],
+      "detail": "L’etiqueta declara publicitat de tercers i el centre d’ajuda explica com desactivar els anuncis personalitzats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "aiTraining": {
+      "status": "partial",
+      "level": "independent",
+      "sources": [
+        "wechat-citizen-lab-2020"
+      ],
+      "detail": "El Citizen Lab va documentar que els fitxers i les imatges de comptes no xinesos serveixen per entrenar el sistema de classificació de continguts censurables.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "wechat-privacy-policy"
+      ],
+      "detail": "La política diu que només comparteix dades amb tercers quan cal per prestar el servei o quan ho exigeix una autoritat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wechat-privacy-policy"
+      ],
+      "detail": "Quan una persona usuària de WeChat interactua amb una de Weixin, la informació necessària es comparteix amb Weixin i queda subjecta a les seves normes, que són les de la Xina continental.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wechat-privacy-policy"
+      ],
+      "detail": "Cap a Hong Kong, Malàisia, Singapur i la Xina continental. No hi ha decisió d’adequació: s’invoquen les clàusules contractuals tipus de l’article 46.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència de WeChat per a les persones usuàries internacionals."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "wechat-privacy-policy"
+      ],
+      "detail": "Hi ha terminis per a alguns tipus de dades, com les d’inici de sessió o les de les notificacions, però no per a tot.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "wechat-privacy-policy",
+        "wechat-delete-account"
+      ],
+      "detail": "Després de cancel·lar el compte es conserven dades de registre agregades per prevenir el correu brossa i per seguretat dels sistemes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "metadades-de-comunicacio",
+        "period": "Dades d’inici de sessió, fins a 90 dies",
+        "sources": [
+          "wechat-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "identificador-de-dispositiu",
+        "period": "Dades de les notificacions, fins a 3 mesos després de la baixa",
+        "sources": [
+          "wechat-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "veu-i-audio",
+        "period": "Les dades de veu de WeChat Out s’esborren en acabar la trucada",
+        "sources": [
+          "wechat-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wechat-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wechat-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "requiresSupportContact": false,
+    "steps": [
+      "Buida el saldo de WeChat Pay i deixa d’administrar comptes oficials o miniprogrames: amb saldo positiu o amb administracions actives no es pot tancar el compte.",
+      "A l’aplicació, ves a «Jo» > «Configuració» > «Seguretat del compte».",
+      "Obre el «Centre de seguretat de WeChat» i tria «Cancel·lació del compte».",
+      "Confirma: l’acció és irreversible i esborra el compte i les dades associades."
+    ],
+    "obstacles": "No es pot tancar el compte si hi ha saldo a WeChat Pay o si s’administra un compte oficial o un miniprograma. Els missatges ja descarregats continuen als dispositius de les altres persones.",
+    "dataRetained": "Dades de registre agregades per prevenir el correu brossa i per a la seguretat dels sistemes.",
+    "sources": [
+      "wechat-privacy-policy",
+      "wechat-delete-account"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wechat-privacy-policy"
+      ],
+      "detail": "Per mitjà del formulari de sol·licituds de drets del centre d’assistència.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wechat-privacy-policy"
+      ],
+      "detail": "Formulari de sol·licituds i delegat de protecció de dades a dataprotection@wechat.com.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dataprotection@wechat.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wechat-delete-account"
+      ],
+      "detail": "El centre d’ajuda documenta els controls de màrqueting i de publicitat personalitzada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "wechat-delete-account"
+      ],
+      "detail": "Es poden esborrar publicacions de Moments i retirar un missatge fins a dos minuts després d’enviar-lo.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "no",
+      "level": "independent",
+      "sources": [
+        "wechat-citizen-lab-2020",
+        "wechat-privacy-policy"
+      ],
+      "detail": "Les converses passen pels servidors i el Citizen Lab va documentar l’anàlisi de continguts de comptes internacionals. La política només parla de xifratge en trànsit i en repòs.",
+      "verifiedAt": "2026-09-22",
+      "scope": "none"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wechat-privacy-policy"
+      ],
+      "detail": "Mesures tècniques de xifratge durant la transmissió i l’emmagatzematge.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wechat-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut verificar quin programa de recompenses de Tencent cobreix WeChat."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "alternatives": [
+    {
+      "app": "signal",
+      "comparability": "partial",
+      "rationale": "Cobreix la missatgeria i les trucades amb xifratge d’extrem a extrem per defecte i sense anàlisi de continguts.",
+      "tradeOffs": "No serveix per parlar amb persones de la Xina continental ni té pagaments, miniprogrames ni comptes oficials."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Aquesta fitxa descriu WeChat, la versió per a números de fora de la Xina continental. Weixin, la versió xinesa, es regeix per unes altres normes i no és objecte d’aquesta fitxa.",
+    "openQuestions": [
+      "Quines dades exactes declara l’App Store a l’apartat «Datos utilizados para rastrearte»?",
+      "Tencent publica algun informe de transparència sobre les peticions d’autoritats que afectin les persones usuàries de WeChat a Europa?"
+    ]
+  },
+  "appStoreBundleId": "com.tencent.xin"
+}

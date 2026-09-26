@@ -1,0 +1,618 @@
+{
+  "slug": "temu",
+  "name": "Temu",
+  "company": "whaleco-technology",
+  "categories": [
+    "comerc-electronic"
+  ],
+  "tagline": "Mercat de PDD amb perfilat per interès legítim, terminis «cas per cas» i demandes als EUA per accés il·legal a dades",
+  "summary": "Temu és el mercat internacional de PDD Holdings. La política europea fa servir l’interès legítim per a les recomanacions i els productes promocionats personalitzats per defecte, i no fixa cap termini concret de conservació. L’autoritat coreana la va sancionar el 2025 per transferir dades a la Xina sense informar-ne, i diversos estats dels EUA l’han demandat acusant l’aplicació de recollir dades de manera encoberta, acusacions que Temu nega.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Irlanda, per a persones usuàries de l’Espai Econòmic Europeu",
+  "links": {
+    "website": "https://www.temu.com/es/",
+    "privacyPolicy": "https://www.temu.com/es/privacy-and-cookie-policy.html",
+    "appStore": "https://apps.apple.com/es/app/id1641486558"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "temu-privacy-policy"
+    ],
+    "detail": "Cal un compte, amb correu, telèfon o inici de sessió de Google o Facebook, per comprar.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "temu-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Compres, cerques, llista de desitjos, cistella i obertura de correus serveixen per construir un perfil de consum detallat. S’hi afegeixen la ubicació, les converses amb el xatbot i els venedors, i de vegades el passaport o l’identificador fiscal per a la duana.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "temu-privacy-policy",
+        "temu-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "temu-privacy-policy",
+        "temu-app-store"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "temu-privacy-policy",
+        "temu-app-store"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "temu-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "temu-privacy-policy",
+        "temu-app-store"
+      ]
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal"
+      ],
+      "sources": [
+        "temu-privacy-policy"
+      ],
+      "note": "Número de passaport o identificador fiscal quan cal per a la duana."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "temu-privacy-policy",
+        "temu-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "temu-privacy-policy",
+        "temu-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "elaboracio-de-perfils",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "temu-privacy-policy",
+        "temu-app-store"
+      ],
+      "note": "Navegació, llista de desitjos, cistella i obertura de correus."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "temu-app-store"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "temu-privacy-policy",
+        "temu-app-store"
+      ]
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "temu-privacy-policy"
+      ],
+      "note": "Converses amb atenció al client, el xatbot i els venedors; s’usen per millorar l’assistent virtual."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "temu-privacy-policy",
+        "temu-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "temu-privacy-policy",
+        "temu-app-store"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "temu-privacy-policy"
+      ],
+      "note": "La política el recull «quan hi ha fonament jurídic», és a dir, amb consentiment."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "temu-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "temu-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "temu-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara dades utilitzades per rastrejar, tot i que la política preveu publicitat basada en interessos fora de la plataforma amb consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "temu-privacy-policy"
+      ],
+      "detail": "Identificadors publicitaris recollits només quan hi ha base legal, és a dir, amb consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "temu-privacy-policy"
+      ],
+      "detail": "Socis publicitaris i de màrqueting que reben dades a través de galetes i SDK.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "temu-privacy-policy"
+      ],
+      "detail": "Publicitat basada en interessos fora de la plataforma amb consentiment; productes promocionats personalitzats per defecte dins l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "temu-privacy-policy"
+      ],
+      "detail": "Recomanacions personalitzades i perfilat de màrqueting per interès legítim, amb dret d’oposició.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "temu-privacy-policy"
+      ],
+      "detail": "Les converses amb atenció al client i els venedors es poden fer servir per millorar les respostes de l’assistent virtual.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "temu-privacy-policy"
+      ],
+      "detail": "Venedors, proveïdors, processadors de pagament, socis publicitaris i de màrqueting, autoritats i investigadors acreditats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "temu-privacy-policy"
+      ],
+      "detail": "Amb filials del grup per a suport organitzatiu, tècnic, legal i de despatx de comandes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política europea no diu explícitament si ven dades personals."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "temu-privacy-policy",
+        "temu-pipc-2025"
+      ],
+      "detail": "Les dades s’emmagatzemen al Regne Unit i l’EEE, però filials de fora de l’EEE hi tenen accés sota clàusules contractuals tipus. La política no n’anomena els països; a Corea, la PIPC va constatar transferències a la Xina, Singapur i el Japó.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Hi ha un centre de transparència de la Llei de serveis digitals, però no n’hem pogut consultar els informes."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "temu-privacy-policy"
+      ],
+      "detail": "La política diu que el termini es decideix «cas per cas» i no en dona cap de concret.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "temu-privacy-policy"
+      ],
+      "detail": "Es conserven dades per obligacions legals, reclamacions en curs i investigacions de seguretat o d’ús indegut.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "temu-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "independent",
+      "sources": [
+        "temu-delete-guide"
+      ],
+      "detail": "Es pot eliminar des de «Seguridad de la cuenta», amb verificació d’identitat i un període de desactivació previ.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "requiresSupportContact": false,
+    "steps": [
+      "A l’aplicació, obre «Tú» i entra a la configuració.",
+      "Tria «Seguridad de la cuenta» i després «Eliminar tu cuenta de Temu».",
+      "Indica el motiu i verifica la identitat.",
+      "No tornis a iniciar sessió durant el període de desactivació, perquè cancel·la la baixa."
+    ],
+    "obstacles": "Cal passar per diverses pantalles i verificar la identitat, i tornar a entrar durant el període de desactivació anul·la la sol·licitud. BEUC va denunciar el 2024 que Temu dificultava tancar el compte.",
+    "dataRetained": "Dades necessàries per a obligacions legals, reclamacions i investigacions de seguretat.",
+    "sources": [
+      "temu-delete-guide",
+      "temu-privacy-policy",
+      "temu-beuc-2024"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "temu-privacy-policy"
+      ],
+      "detail": "Formulari de sol·licitud de dades per a l’accés i la portabilitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "temu-privacy-policy"
+      ],
+      "detail": "El delegat de protecció de dades només es pot contactar per formulari web o per correu postal.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "temu-privacy-policy"
+      ],
+      "detail": "Pàgina de controls de personalització per al feed, les promocions i els productes promocionats, i preferències de galetes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap control documentat per desactivar l’analítica de l’aplicació."
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "temu-privacy-policy"
+      ],
+      "detail": "Controls separats per a les recomanacions, les promocions, els productes promocionats i la publicitat fora de la plataforma.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "yes",
+      "level": "independent",
+      "sources": [
+        "temu-beuc-2024"
+      ],
+      "detail": "BEUC i 17 associacions de consumidors van denunciar patrons foscos, com ara jocs, pressió per comprar i dificultats per tancar el compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "hidden-exit",
+        "severity": "medium",
+        "description": "Segons BEUC, tancar el compte era més difícil del que calia; l’autoritat coreana va criticar que la baixa requerís set passos.",
+        "sources": [
+          "temu-beuc-2024",
+          "temu-pipc-2025"
+        ]
+      },
+      {
+        "type": "nagging",
+        "severity": "medium",
+        "description": "Jocs, comptes enrere i missatges de pressió per comprar denunciats per BEUC.",
+        "sources": [
+          "temu-beuc-2024"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no ofereix comunicacions privades entre persones, més enllà dels xats amb venedors i atenció al client.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació oficial sobre el xifratge en trànsit."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública sobre el xifratge de les dades en repòs."
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "press",
+      "sources": [
+        "temu-bug-bounty-2023"
+      ],
+      "detail": "Temu va anunciar la verificació en dos passos el 2023.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "temu-privacy-policy"
+      ],
+      "detail": "La política declara el compliment de PCI DSS per als pagaments; no consten altres auditories publicades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "temu-hackerone"
+      ],
+      "detail": "Programa de recompenses a HackerOne des de finals de 2023.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://hackerone.com/temu"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "temu-hackerone"
+      ],
+      "detail": "Canal a HackerOne i centre de resposta de seguretat propi (tsrc.temu.com); no hi ha security.txt.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "wallapop",
+      "comparability": "complementary",
+      "rationale": "Per a molts objectes barats, la segona mà entre particulars a Espanya evita un mercat amb transferències de dades fora de l’EEE i terminis de conservació indefinits.",
+      "tradeOffs": "L’oferta és limitada i depèn del que venen altres persones."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La multa de 200 milions d’euros de la Comissió Europea (maig de 2026) i l’acció de la xarxa CPC tracten de productes il·legals i pràctiques comercials, no de dades personals, i no les hem comptat com a incidents de privadesa. Les acusacions de programari espia de Grizzly Research (2023) venen d’un inversor en curt i no les hem fet servir com a fet. L’etiqueta de l’App Store no declara rastreig; la contradicció amb la publicitat fora de la plataforma que preveu la política queda oberta.",
+    "openQuestions": [
+      "Quines filials de fora de l’EEE, i de quins països, accedeixen a les dades de les persones usuàries europees?",
+      "En quin estat són les demandes d’Arkansas, Nebraska, Texas i Oklahoma?"
+    ]
+  },
+  "appStoreBundleId": "com.einnovation.temu"
+}

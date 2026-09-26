@@ -1,0 +1,472 @@
+{
+  "slug": "goodreads",
+  "name": "Goodreads",
+  "company": "goodreads-llc",
+  "categories": [
+    "llibres-i-lectura",
+    "comunitats-i-forums"
+  ],
+  "tagline": "Xarxa social de lectura que pot creuar les dades amb el compte d’Amazon",
+  "summary": "Goodreads és una xarxa pública de lectura: les ressenyes i els prestatges es veuen per defecte. La política, breu i dels Estats Units, avisa que la informació es pot correlacionar amb la que té Amazon si hi tens compte, i remet a l’avís de privadesa d’Amazon per a gairebé tota la resta. Eliminar el compte, en canvi, és senzill i es fa des de l’aplicació.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "advertising",
+  "jurisdiction": "Estats Units (Goodreads LLC)",
+  "links": {
+    "website": "https://www.goodreads.com/",
+    "privacyPolicy": "https://www.goodreads.com/about/privacy",
+    "appStore": "https://apps.apple.com/es/app/id355833469"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "goodreads-privacy-policy"
+    ],
+    "detail": "Es pot consultar el web sense compte, però prestatges, ressenyes i amistats el requereixen.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "goodreads-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Els llibres que algú llegeix, valora i vol llegir revelen ideologia, religió, salut o orientació sexual, i aquí són públics per defecte. L’etiqueta de l’App Store declara també dades sensibles i la llista de contactes.",
+  "dataCollection": [
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "goodreads-privacy-policy",
+        "goodreads-app-store"
+      ],
+      "note": "Les ressenyes i els comentaris són públics i en poden quedar còpies en memòries cau."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "goodreads-privacy-policy"
+      ],
+      "note": "Prestatges, valoracions i gèneres preferits."
+    },
+    {
+      "type": "conviccions-i-opinions",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "sources": [
+        "goodreads-app-store"
+      ],
+      "note": "L’etiqueta declara «Datos sensibles»; els llibres llegits poden revelar conviccions."
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "goodreads-app-store",
+        "goodreads-privacy-policy"
+      ],
+      "note": "Per convidar persones i trobar amistats."
+    },
+    {
+      "type": "xarxa-de-contactes",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "goodreads-privacy-policy"
+      ]
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "goodreads-privacy-policy"
+      ],
+      "note": "Missatges privats entre membres; la política adverteix que en poden quedar còpies."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "goodreads-privacy-policy",
+        "goodreads-app-store"
+      ]
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "goodreads-privacy-policy"
+      ],
+      "note": "Es pot amagar el cognom al perfil."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "sources": [
+        "goodreads-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "sources": [
+        "goodreads-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "sources": [
+        "goodreads-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "goodreads-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "goodreads-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "goodreads-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara dades utilitzades per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política remet a l’avís d’anuncis basats en interessos d’Amazon sense detallar-ho."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi independent dels rastrejadors de l’aplicació."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "goodreads-privacy-policy"
+      ],
+      "detail": "La política diu que fa servir la informació personal per mostrar anuncis basats en interessos.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "goodreads-privacy-policy"
+      ],
+      "detail": "Les dades de Goodreads es poden correlacionar amb les d’Amazon per millorar els serveis de totes dues.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no en diu res."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política remet a l’avís d’Amazon i no enumera destinataris propis."
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "goodreads-privacy-policy"
+      ],
+      "detail": "La informació es pot correlacionar amb la que té Amazon.com i fer-se servir per Goodreads i Amazon.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política de Goodreads no ho diu expressament; remet a l’avís d’Amazon."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "goodreads-privacy-policy"
+      ],
+      "detail": "L’entitat responsable és als Estats Units; la política no n’indica el mecanisme de transferència.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "goodreads-privacy-policy"
+      ],
+      "detail": "La política no fixa cap termini de conservació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "goodreads-privacy-policy",
+        "goodreads-delete-account"
+      ],
+      "detail": "Els prestatges i les amistats s’eliminen, però en poden quedar còpies en memòries cau i el perfil d’autor no desapareix.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "goodreads-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "goodreads-delete-account"
+      ],
+      "detail": "Es pot fer des de l’aplicació, el web mòbil o l’escriptori.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "easy",
+    "requiresSupportContact": false,
+    "steps": [
+      "A l’aplicació d’iOS, obre el menú «More» i toca «Settings».",
+      "Toca «Account Settings» i després «Account».",
+      "Toca «Delete my account».",
+      "Confirma-ho a la pàgina que apareix."
+    ],
+    "obstacles": "L’eliminació és irreversible. Si vols conservar la biblioteca, cal exportar-la abans.",
+    "dataRetained": "El perfil d’autor i els registres i ressenyes dels llibres propis, si ets autor; còpies de contingut públic en memòries cau o en mans d’altres persones.",
+    "sources": [
+      "goodreads-delete-account",
+      "goodreads-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "goodreads-privacy-policy"
+      ],
+      "detail": "La política remet a la pestanya de configuració per sol·licitar l’accés a les dades «en la mesura que ho exigeixi la llei».",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "goodreads-privacy-policy"
+      ],
+      "detail": "Configuració del compte o formulari de contacte; no s’identifica cap representant a la UE.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política remet a l’avís d’anuncis basats en interessos d’Amazon sense un control propi."
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "goodreads-privacy-policy"
+      ],
+      "detail": "Es pot decidir quines accions surten al feed, si es mostra l’adreça electrònica o el cognom, i les notificacions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "no",
+      "level": "editorial",
+      "sources": [
+        "goodreads-privacy-policy"
+      ],
+      "detail": "Interpretació pròpia: la política diu que pren mesures «raonables» perquè els missatges siguin privats, sense cap menció al xifratge d’extrem a extrem.",
+      "verifiedAt": "2026-09-22",
+      "scope": "none"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació oficial sobre la verificació en dos passos a Goodreads."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Goodreads té una pàgina a HackerOne, però sense programa de recompenses públic visible."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "review": {
+    "researchStatus": "initial",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "No hem trobat sancions ni filtracions documentades de Goodreads.",
+    "openQuestions": [
+      "Goodreads té entitat responsable o representant a la UE?",
+      "Ofereix verificació en dos passos o un canal de notificació de vulnerabilitats propi?"
+    ]
+  },
+  "appStoreBundleId": "com.goodreads.Goodreads"
+}

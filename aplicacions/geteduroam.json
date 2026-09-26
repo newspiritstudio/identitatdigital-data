@@ -1,0 +1,401 @@
+{
+  "slug": "geteduroam",
+  "name": "geteduroam",
+  "company": "surf-bv",
+  "categories": [
+    "utilitats",
+    "autenticacio-i-seguretat"
+  ],
+  "tagline": "Codi obert, cap dada recollida per l’app i una xarxa dissenyada per no haver de saber qui ets",
+  "summary": "geteduroam configura el perfil de la xarxa wifi acadèmica eduroam al telèfon. L’aplicació declara a Apple que no recull cap dada i el codi és públic amb llicència BSD. Les dades les tracta la infraestructura d’eduroam, coordinada per GÉANT: quan et connectes des d’un altre país, els servidors intermediaris europeus registren el domini de la teva institució i l’adreça MAC, i el nom d’usuari només si la institució no l’ha anonimitzat. Les dades d’itinerància es guarden sis mesos.",
+  "platforms": [
+    "ios",
+    "android",
+    "macos",
+    "windows",
+    "linux"
+  ],
+  "businessModel": "unknown",
+  "jurisdiction": "Països Baixos",
+  "userBase": "Estudiantat i personal d’universitats i centres de recerca",
+  "links": {
+    "website": "https://www.geteduroam.app/",
+    "privacyPolicy": "https://www.eduroam.org/privacy/",
+    "appStore": "https://apps.apple.com/es/app/id1504076137"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "eduroam-privacy-notice"
+    ],
+    "detail": "No hi ha cap compte de geteduroam: cal el compte de la institució d’origen, que és qui autentica la persona.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "geteduroam-source"
+    ],
+    "detail": "El codi de l’aplicació per a iOS i macOS és públic.",
+    "verifiedAt": "2026-09-22",
+    "licence": "BSD-3-Clause"
+  },
+  "dataSummary": "El disseny d’eduroam separa la identitat del lloc de connexió: la institució d’origen sap qui s’autentica i la institució visitada només sap que algú d’aquell domini té permís per connectar-se.",
+  "dataCollection": [
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "eduroam-privacy-notice"
+      ],
+      "note": "El «realm» identifica la institució i la federació; el nom d’usuari només arriba als servidors europeus si la institució no l’ha anonimitzat."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "eduroam-privacy-notice"
+      ],
+      "note": "Adreça MAC registrada pels servidors intermediaris europeus quan et connectes des d’un altre país."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "investigacio-i-estadistica"
+      ],
+      "sources": [
+        "eduroam-privacy-notice"
+      ],
+      "note": "País i institució visitats, amb el resultat de l’autenticació, per a supervisió i estadístiques."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "eduroam-privacy-notice"
+      ],
+      "note": "Als registres dels llocs web de suport, no a l’aplicació."
+    },
+    {
+      "type": "testimoni-d-autenticacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "geteduroam-app-store",
+        "eduroam-privacy-notice"
+      ],
+      "note": "El perfil i les credencials es queden al dispositiu; el desenvolupador declara que l’app no recull cap dada."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "geteduroam-app-store"
+      ],
+      "detail": "El desenvolupador declara que l’aplicació no recull cap dada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "geteduroam-app-store"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "geteduroam-app-store",
+        "geteduroam-source"
+      ],
+      "detail": "L’etiqueta no declara cap recollida i el codi és públic i verificable.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "eduroam-privacy-notice",
+        "geteduroam-app-store"
+      ],
+      "detail": "eduroam és un servei del sector públic acadèmic, sense publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "eduroam-privacy-notice"
+      ],
+      "detail": "L’avís diu que el servei està dissenyat per no haver de saber qui és la persona usuària.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "eduroam-privacy-notice"
+      ],
+      "detail": "L’avís només preveu supervisió, estadística i resolució d’incidents.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "eduroam-privacy-notice"
+      ],
+      "detail": "Les dades només les tracten l’equip operatiu d’eduroam i els operadors nacionals de itinerància.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "eduroam-privacy-notice"
+      ],
+      "detail": "La informació de contacte de la base de dades es comparteix entre l’equip operatiu i els operadors nacionals per resoldre incidents.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "eduroam-privacy-notice"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "eduroam-privacy-notice"
+      ],
+      "detail": "La itinerància internacional implica que les dades d’autenticació passin pels servidors intermediaris europeus, gestionats per GÉANT als Països Baixos.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "none"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No n’hi ha cap de peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "eduroam-privacy-notice"
+      ],
+      "detail": "Sis mesos per a les dades de itinerància i vint-i-sis mesos per a l’estadística web anonimitzada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha cap compte del servei que es pugui tancar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "period": "6 mesos per a totes les dades relacionades amb la itinerància, llevat que la llei d’un país europeu n’imposi un altre termini",
+        "sources": [
+          "eduroam-privacy-notice"
+        ]
+      },
+      {
+        "period": "26 mesos per a les dades analítiques anonimitzades dels llocs web",
+        "sources": [
+          "eduroam-privacy-notice"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "geteduroam no crea cap compte propi: les credencials són les de la institució d’origen.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El perfil de xarxa es pot eliminar des de la configuració del dispositiu, sense cap tràmit amb el servei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "easy",
+    "steps": [
+      "Esborra el perfil de configuració d’eduroam a Ajustaments > General > VPN i gestió de dispositius.",
+      "Per rectificar o eliminar les dades del compte acadèmic, adreça’t a la teva institució, que n’és la responsable."
+    ],
+    "dataRetained": "Els registres de itinerància de GÉANT es conserven sis mesos encara que desinstal·lis l’aplicació.",
+    "sources": [
+      "eduroam-privacy-notice"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’avís reconeix el dret d’accés, però no descriu cap eina d’exportació."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "eduroam-privacy-notice"
+      ],
+      "detail": "GÉANT té delegat de protecció de dades i l’autoritat de control és l’Autoriteit Persoonsgegevens neerlandesa.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:gdpr@geant.org"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no fa publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "eduroam-privacy-notice"
+      ],
+      "detail": "Els registres de itinerància són necessaris per al servei i no es poden desactivar des del client; l’anonimització depèn de la institució d’origen.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "geteduroam-app-store"
+      ],
+      "detail": "L’aplicació només configura el perfil de xarxa; no té panell de privadesa perquè no recull dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "protective",
+    "darkPatterns": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "geteduroam-app-store",
+        "geteduroam-source"
+      ],
+      "detail": "No hi ha registre, publicitat ni pantalles de consentiment; l’app només configura la xarxa.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És un configurador de xarxa wifi, no un servei de missatgeria.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’avís no descriu els protocols concrets de l’autenticació."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’autenticació la fa la institució d’origen amb el seu propi mètode.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses; el domini eduroam.org no serveix cap fitxer security.txt."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "Cal distingir dues capes: l’aplicació, de SURF, que declara no recollir cap dada, i el servei eduroam, la infraestructura europea del qual la gestiona GÉANT com a responsable. L’avís de privadesa d’eduroam.org porta data del 2018 i no s’ha pogut llegir directament pel bloqueig del servidor; el contingut s’ha obtingut a través d’un servei de lectura de text. No hem pogut fer la cerca d’incidents.",
+    "openQuestions": [
+      "Quines institucions espanyoles anonimitzen el nom d’usuari («anonymous outer identity») i quines no?",
+      "Hi ha un avís de privadesa específic de l’aplicació geteduroam, més enllà del d’eduroam.org?"
+    ]
+  },
+  "appStoreBundleId": "app.eduroam.geteduroam"
+}

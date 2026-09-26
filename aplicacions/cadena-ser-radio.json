@@ -1,0 +1,519 @@
+{
+  "slug": "cadena-ser-radio",
+  "name": "Cadena SER Radio",
+  "company": "sociedad-espanola-de-radiodifusion",
+  "categories": [
+    "noticies-i-mitjans",
+    "musica-i-audio"
+  ],
+  "tagline": "El perfil es dedueix també de la navegació per les altres webs de PRISA Media",
+  "summary": "La política de la Cadena SER diu que el perfil de la persona usuària es pot inferir a partir de la navegació per altres webs de PRISA Media, és a dir, d’EL PAÍS, AS o Los40. Dues societats hi consten com a responsables: la SER i PRISA Media, que comercialitza la publicitat. A l’App Store, l’aplicació declara identificadors i dades d’ús com a dades de rastreig i la ubicació precisa com a dada no vinculada a la identitat.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "advertising",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://cadenaser.com/",
+    "privacyPolicy": "https://cadenaser.com/politica-privacidad/",
+    "appStore": "https://apps.apple.com/es/app/id401987596"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "cadena-ser-privacy-policy"
+    ],
+    "detail": "La política s’aplica a qui navega sense registre; els serveis que demanen compte tenen condicions pròpies.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "cadena-ser-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "El codi d’usuari que la SER assigna a cada dispositiu permet unir el que escoltes amb el que llegeixes a la resta de mitjans del grup, i amb això es construeix el perfil publicitari.",
+  "dataCollection": [
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "cadena-ser-app-store",
+        "cadena-ser-privacy-policy"
+      ],
+      "note": "La política diu que s’assigna un codi d’usuari per dispositiu o navegador, encara que no t’hi registris."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "cadena-ser-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "cadena-ser-app-store"
+      ],
+      "note": "L’etiqueta la declara com a dada no vinculada a la identitat per personalitzar el producte."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts",
+        "compliment-legal"
+      ],
+      "sources": [
+        "cadena-ser-privacy-policy"
+      ],
+      "note": "El territori de connexió serveix per verificar els drets d’emissió d’alguns continguts."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "cadena-ser-app-store"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "cadena-ser-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "cadena-ser-app-store",
+        "cadena-ser-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "cadena-ser-privacy-policy"
+      ],
+      "note": "Inclou la navegació per altres webs de PRISA Media."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "cadena-ser-privacy-policy"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "cadena-ser-privacy-policy"
+      ],
+      "note": "La política esmenta també imatges transparents inserides a webs i aplicacions."
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "cadena-ser-privacy-policy"
+      ]
+    },
+    {
+      "type": "xarxa-i-connectivitat",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "cadena-ser-privacy-policy"
+      ],
+      "note": "La política cita dades sobre la xarxa mòbil."
+    },
+    {
+      "type": "llengua",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "cadena-ser-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "cadena-ser-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cadena-ser-app-store",
+        "cadena-ser-privacy-policy"
+      ],
+      "detail": "Identificadors i dades d’ús declarats per rastrejar, i perfil inferit a partir de la navegació per altres webs del grup.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cadena-ser-app-store"
+      ],
+      "detail": "Identificador de dispositiu i dades publicitàries per a publicitat de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cadena-ser-privacy-policy"
+      ],
+      "detail": "Proveïdors externs d’analítica amb galetes i balises transparents.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cadena-ser-privacy-policy"
+      ],
+      "detail": "Informació editorial o comercial dissenyada per al perfil inferit, en serveis propis i de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cadena-ser-privacy-policy"
+      ],
+      "detail": "La política parla de definir tipologies, segmentacions i perfils d’usuari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política només diu que les notícies queden a disposició de sistemes d’aprenentatge automàtic de tercers, no que la SER n’entreni cap."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "cadena-ser-privacy-policy"
+      ],
+      "detail": "La política diu que no cedeix dades sense base jurídica, però admet proveïdors externs de mesura amb galetes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cadena-ser-privacy-policy"
+      ],
+      "detail": "PRISA Media és corresponsable i el perfil es construeix amb la navegació per altres webs del grup.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no ho aborda."
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no té cap apartat de transferències internacionals."
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cadena-ser-privacy-policy"
+      ],
+      "detail": "Cinc anys des que es deixa de ser usuari, i cinc anys més de bloqueig si s’exerceix la supressió.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "cadena-ser-privacy-policy"
+      ],
+      "detail": "Després de la supressió les dades queden bloquejades i a disposició de les autoritats durant 5 anys.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "identificador-de-compte",
+        "period": "5 anys després de deixar de ser usuari",
+        "sources": [
+          "cadena-ser-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cadena-ser-privacy-policy"
+      ],
+      "detail": "El dret de supressió es reconeix; la política general no regula els serveis amb registre.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política remet al correu postal; no hem pogut verificar cap opció d’eliminació dins de l’app."
+    },
+    "difficulty": "hard",
+    "steps": [
+      "Envia una carta al domicili de Sociedad Española de Radiodifusión (Gran Vía 32, 28013 Madrid) acreditant la identitat i indicant el dret que vols exercir.",
+      "Detalla quins serveis de la SER fas servir o has fet servir, perquè la política ho demana per poder atendre la sol·licitud.",
+      "Si no obtens resposta, escriu al delegat de protecció de dades del grup a dpo@prisa.com."
+    ],
+    "obstacles": "La política només documenta el correu postal com a via d’exercici de drets, una barrera notable per a un servei digital.",
+    "dataRetained": "Dades bloquejades durant 5 anys a disposició de les autoritats.",
+    "sources": [
+      "cadena-ser-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "cadena-ser-privacy-policy"
+      ],
+      "detail": "La portabilitat es reconeix, però cal demanar-la per correu postal.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "cadena-ser-privacy-policy"
+      ],
+      "detail": "Correu postal al domicili de les responsables; el delegat de protecció de dades del grup atén consultes a dpo@prisa.com.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dpo@prisa.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "cadena-ser-privacy-policy"
+      ],
+      "detail": "La política remet a la política de galetes per gestionar el consentiment; no descriu cap control dins de l’app.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És una aplicació d’escolta de ràdio i pòdcasts.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses del grup."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El domini no publica cap fitxer security.txt."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "rac1",
+      "comparability": "partial",
+      "rationale": "Ràdio generalista equivalent en català, amb una política pròpia i un grup editorial més petit."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "La política publicada només cobreix la navegació sense registre; els serveis amb compte remeten a condicions específiques que no hem pogut localitzar. L’App Store encara atribueix l’aplicació a «Union Radio», el nom comercial antic de la societat.",
+    "openQuestions": [
+      "On és la política dels serveis SER amb registre?",
+      "Hi ha alguna via digital per exercir els drets, més enllà del correu postal?",
+      "Hi ha sancions o filtracions documentades? No hem pogut fer la cerca d’incidents."
+    ]
+  },
+  "appStoreBundleId": "com.ericsson.cadenaser"
+}

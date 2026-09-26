@@ -1,0 +1,522 @@
+{
+  "slug": "doctoralia",
+  "name": "Doctoralia",
+  "company": "doctoralia-internet",
+  "categories": [
+    "salut-i-assistencia-sanitaria"
+  ],
+  "tagline": "Reservar visita deixa un rastre de sis anys i una opinió que pot reaparèixer",
+  "summary": "Doctoralia és el directori mèdic i el motor de reserva de visites més gran d’Espanya, i pertany al grup Docplanner, que el gestiona conjuntament amb la seva germana polonesa ZnanyLekarz. La combinació de cerques d’especialistes, visites reservades i opinions publicades és un historial mèdic indirecte. La política reconeix que les dades es conserven la vida del compte més sis anys i que, si es demana l’eliminació, el perfil deixa de ser públic però es manté internament.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "subscription",
+  "jurisdiction": "Espanya",
+  "userBase": "Desenes de milions de visites mensuals al grup Docplanner",
+  "links": {
+    "website": "https://www.doctoralia.es/",
+    "privacyPolicy": "https://www.doctoralia.es/privacidad",
+    "appStore": "https://apps.apple.com/es/app/id1444682103"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "doctoralia-privacy-policy"
+    ],
+    "detail": "Es pot consultar el directori sense compte, però per reservar visita o publicar una opinió cal identificar-se.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "editorial",
+    "sources": [],
+    "detail": "No consta cap publicació del codi font; és programari privatiu.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Els especialistes consultats i les dates de visita poden revelar una malaltia sense que s’hagi escrit enlloc. Doctoralia acumula aquesta seqüència durant anys i hi afegeix les opinions signades, que són públiques i poden tornar a aparèixer si el professional es torna a donar d’alta.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "doctoralia-privacy-policy"
+      ],
+      "note": "Es comunica al professional o al centre per gestionar la cita."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "doctoralia-privacy-policy"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "doctoralia-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "doctoralia-privacy-policy"
+      ],
+      "note": "L’especialitat reservada i el motiu de la consulta revelen informació de salut encara que no s’etiqueti com a tal."
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "doctoralia-privacy-policy"
+      ],
+      "note": "Les opinions són públiques i poden tornar a publicar-se si el professional crea un perfil nou."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "doctoralia-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "doctoralia-privacy-policy"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "doctoralia-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "doctoralia-app-store"
+      ],
+      "note": "L’etiqueta de l’App Store classifica els identificadors com a no vinculats amb la identitat."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "doctoralia-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "doctoralia-app-store"
+      ]
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "doctoralia-privacy-policy"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "doctoralia-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap dada utilitzada per rastrejar entre aplicacions i llocs web d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "doctoralia-app-store"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "doctoralia-privacy-policy"
+      ],
+      "detail": "La política reconeix l’ús de galetes i tecnologies similars i de proveïdors d’autenticació externs com Google i Apple.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "doctoralia-privacy-policy"
+      ],
+      "detail": "La política descriu publicitat «sin realizar perfiles de usuarios», emparada en l’interès legítim.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "doctoralia-privacy-policy"
+      ],
+      "detail": "Hi ha anàlisi automatitzada per classificar oportunitats comercials amb els professionals, però la política afirma que no produeix efectes jurídics sobre les persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu si les dades s’utilitzen per entrenar models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "doctoralia-privacy-policy"
+      ],
+      "detail": "Professionals i centres per gestionar la reserva, proveïdors d’allotjament, pagaments i suport, i possibles adquirents en cas de fusió.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "doctoralia-privacy-policy"
+      ],
+      "detail": "Corresponsabilitat amb ZnanyLekarz sp. z o.o. per als tractaments centralitzats del grup Docplanner.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "doctoralia-privacy-policy"
+      ],
+      "detail": "No hi figura cap venda de dades a intermediaris.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "doctoralia-privacy-policy"
+      ],
+      "detail": "Transferències als Estats Units, el Regne Unit i Austràlia, amb clàusules contractuals tipus o el marc de privadesa UE-EUA.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència del grup Docplanner."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "doctoralia-privacy-policy"
+      ],
+      "detail": "La política dona terminis numèrics per a cada categoria de tractament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "doctoralia-privacy-policy"
+      ],
+      "detail": "Després d’eliminar el perfil públic, les dades es mantenen internament fins a completar la vida del compte més sis anys.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "period": "Dades del compte: la vida útil del compte més 6 anys",
+        "sources": [
+          "doctoralia-privacy-policy"
+        ]
+      },
+      {
+        "period": "Visitants del web: 1 any",
+        "sources": [
+          "doctoralia-privacy-policy"
+        ]
+      },
+      {
+        "period": "Prospecció comercial: 3 anys des de l’últim contacte",
+        "sources": [
+          "doctoralia-privacy-policy"
+        ]
+      },
+      {
+        "period": "Gravacions: 3 anys",
+        "sources": [
+          "doctoralia-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "doctoralia-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut verificar si hi ha un botó d’eliminació dins de l’aplicació: les pàgines d’ajuda del servei no responien durant la revisió."
+    },
+    "difficulty": "medium",
+    "requiresSupportContact": true,
+    "steps": [
+      "Escriu a contacto-es@doctoralia.es o a dpdes@docplanner.com invocant el dret de supressió de l’article 17 del RGPD.",
+      "Indica l’adreça electrònica del compte i si vols que es retiri també el perfil públic.",
+      "El grup es compromet a respondre en el termini màxim d’un mes."
+    ],
+    "obstacles": "La supressió no és completa: la política diu que el perfil deixa de ser públic però es conserva internament, i que les opinions poden tornar a publicar-se si es crea un perfil nou.",
+    "dataRetained": "Dades del compte durant sis anys després de la vida útil i opinions publicades.",
+    "sources": [
+      "doctoralia-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "doctoralia-privacy-policy"
+      ],
+      "detail": "La política reconeix el dret a rebre les dades en un format estructurat, però no descriu cap eina d’autoservei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "doctoralia-privacy-policy"
+      ],
+      "detail": "Adreça de contacte del país i delegat de protecció de dades del grup, amb un mes de termini de resposta.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dpdes@docplanner.com",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "doctoralia-privacy-policy"
+      ],
+      "detail": "Com que la publicitat es declara no personalitzada, l’única opció és oposar-se al màrqueting basat en interès legítim o retirar el consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap control per desactivar l’analítica dins de l’aplicació."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "doctoralia-privacy-policy"
+      ],
+      "detail": "Hi ha consentiments separats per a màrqueting i galetes, però no un panell de privadesa per finalitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut revisar els fluxos de consentiment dins de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei ha de poder llegir les reserves i les opinions per prestar el servei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "editorial",
+      "sources": [],
+      "detail": "El lloc i l’aplicació es publiquen sobre HTTPS, comprovat en consultar-ne les pàgines.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública sobre el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta si el compte de pacient admet un segon factor."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories de seguretat independents publicades."
+    },
+    "bugBounty": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "doctoralia-security-txt"
+      ],
+      "detail": "Hi ha un security.txt amb una adreça per reportar vulnerabilitats, però cap política publicada ni programa de recompenses.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:bugreporting@docplanner.com"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "doctoralia-security-txt"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "booksy",
+      "comparability": "complementary",
+      "rationale": "Per a serveis de benestar i estètica que no impliquen dades de salut, una plataforma de reserves genèrica evita crear un historial mèdic indirecte.",
+      "tradeOffs": "No serveix per a consultes mèdiques ni per accedir al quadre mèdic d’una asseguradora."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "La política del grup és clara i detallada, però parla sobretot dels professionals subscriptors. No diu de manera explícita que la seqüència d’especialistes consultats per un pacient és informació de salut.",
+    "openQuestions": [
+      "Es pot eliminar el compte de pacient des de dins de l’aplicació?",
+      "Quin és exactament l’abast de la retenció interna del perfil després de demanar-ne l’eliminació?",
+      "Queda pendent la cerca sistemàtica d’incidents i sancions: les eines de cerca no eren disponibles durant aquesta revisió."
+    ]
+  },
+  "appStoreBundleId": "es.doctoralia"
+}

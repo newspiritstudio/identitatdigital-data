@@ -1,0 +1,447 @@
+{
+  "slug": "inshot",
+  "name": "InShot",
+  "company": "shantanu-pte",
+  "categories": [
+    "edicio-de-foto-i-video"
+  ],
+  "tagline": "Edició local i quatre SDK de publicitat, amb una política que no diu qui és la responsable",
+  "summary": "InShot edita al mateix telèfon: els esborranys es queden al dispositiu i només l’àudio dels subtítols automàtics puja al servidor. D’altra banda, la versió gratuïta incorpora AdMob i AppLovin, i la política, vigent des del 2023, no identifica la societat responsable del tractament, no fixa cap termini de conservació i no esmenta ni les transferències internacionals ni els drets del RGPD més enllà d’una adreça de contacte.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "No declarada a la política; l’editora de l’App Store és una societat de Singapur",
+  "links": {
+    "website": "https://inshot.cc",
+    "privacyPolicy": "https://inshot.cc/privacy.html",
+    "appStore": "https://apps.apple.com/es/app/id997362197"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "inshot-privacy-policy"
+    ],
+    "detail": "L’edició funciona sense compte; l’adreça electrònica només es demana per a l’atenció a l’usuari.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "inshot-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "El contingut que s’edita amb InShot no acostuma a sortir del telèfon, cosa que redueix molt l’exposició. Sí que en surten el perfil publicitari que AdMob i AppLovin construeixen a partir dels identificadors del dispositiu i l’àudio que es processa al servidor quan es generen subtítols automàtics.",
+  "dataCollection": [
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "inshot-privacy-policy",
+        "inshot-play-data-safety"
+      ],
+      "note": "Els esborranys es guarden localment fins que s’esborren; la fitxa de Google Play declara fotografies i vídeos amb finalitat d’anàlisi."
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "inshot-privacy-policy",
+        "inshot-play-data-safety"
+      ],
+      "note": "L’àudio dels subtítols automàtics es puja al servidor i, segons la política, s’esborra un cop processat."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "inshot-privacy-policy",
+        "inshot-play-data-safety"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "inshot-privacy-policy"
+      ],
+      "note": "La política esmenta explícitament l’identificador d’Android."
+    },
+    {
+      "type": "aplicacions-instal-lades",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "inshot-privacy-policy"
+      ]
+    },
+    {
+      "type": "xarxa-i-connectivitat",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "inshot-privacy-policy"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "inshot-play-data-safety"
+      ],
+      "note": "Firebase per a l’anàlisi."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "inshot-play-data-safety"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "inshot-privacy-policy"
+      ],
+      "note": "AdMob i AppLovin."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "inshot-privacy-policy"
+      ],
+      "detail": "Els SDK d’AdMob i AppLovin fan publicitat i mesura entre aplicacions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "inshot-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "inshot-privacy-policy"
+      ],
+      "detail": "AdMob, AppLovin, Firebase i Giphy.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "inshot-privacy-policy"
+      ],
+      "detail": "La versió gratuïta es finança amb publicitat servida per AdMob i AppLovin.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu l’elaboració de perfils propis."
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu si l’àudio dels subtítols automàtics serveix per entrenar models de reconeixement de veu."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "inshot-privacy-policy"
+      ],
+      "detail": "Socis publicitaris i proveïdors de suport tècnic.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu la circulació de dades dins del grup InShot."
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta la venda de dades a intermediaris."
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no tracta les transferències internacionals, tot i que l’editora és una societat de Singapur."
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "inshot-privacy-policy"
+      ],
+      "detail": "La política no fixa cap termini de conservació, llevat que els esborranys es queden al dispositiu fins que s’esborren.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu què passa amb les dades després d’una sol·licitud d’esborrat."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "inshot-play-data-safety"
+      ],
+      "detail": "No hi ha compte pròpiament dit. El desenvolupador declara a Google Play que es pot demanar l’eliminació de les dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "inshot-privacy-policy"
+      ],
+      "detail": "La política no descriu cap procediment d’eliminació dins de l’aplicació: cal escriure a l’adreça de contacte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "requiresSupportContact": true,
+    "steps": [
+      "Esborra els esborranys des de la mateixa aplicació: es guarden al dispositiu.",
+      "Per a les dades del servidor, escriu a contactus@inshot.com demanant-ne la supressió.",
+      "Restableix l’identificador publicitari del telèfon per tallar el perfil d’AdMob i AppLovin."
+    ],
+    "dataRetained": "La política no ho concreta.",
+    "sources": [
+      "inshot-privacy-policy",
+      "inshot-play-data-safety"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta el dret de portabilitat."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "inshot-privacy-policy"
+      ],
+      "detail": "Només hi ha una adreça de contacte general; la política no descriu els drets del RGPD ni els terminis de resposta.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:contactus@inshot.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap control de publicitat dins de l’aplicació; només la subscripció de pagament en treu els anuncis."
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap manera de desactivar Firebase."
+    },
+    "granularControls": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "inshot-privacy-policy"
+      ],
+      "detail": "L’aplicació no ofereix cap panell de privadesa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [
+        "inshot-privacy-policy"
+      ],
+      "detail": "Una política que no identifica la responsable del tractament impedeix saber a qui s’han d’adreçar les reclamacions i les sol·licituds de drets.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "confusing-language",
+        "severity": "medium",
+        "description": "La política no identifica la societat responsable del tractament ni el país on s’allotgen les dades.",
+        "sources": [
+          "inshot-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’edició es fa al dispositiu; no hi ha comunicacions entre persones usuàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "inshot-play-data-safety"
+      ],
+      "detail": "El desenvolupador declara a Google Play que les dades es xifren en trànsit.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no té comptes amb contrasenya.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories independents publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap canal específic de comunicació de vulnerabilitats."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "capcut",
+      "comparability": "equivalent",
+      "rationale": "Mateixes funcions d’edició de vídeo per a xarxes socials.",
+      "tradeOffs": "Pertany al grup ByteDance i la seva recollida de dades és més àmplia; InShot, en canvi, edita en local."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La política d’InShot està escrita pensant en Android i en la normativa xinesa d’aplicacions, no en el RGPD: parla de l’identificador d’Android, no anomena cap responsable i no esmenta les transferències internacionals. L’arquitectura local, però, fa que el contingut editat quedi poc exposat.",
+    "openQuestions": [
+      "L’etiqueta de privadesa de l’App Store no s’ha pogut consultar: Apple va respondre amb un error 429 durant tota la revisió.",
+      "Quina societat és la responsable del tractament i on s’allotgen les dades?"
+    ]
+  },
+  "appStoreBundleId": "com.camerasideas.InstaShot"
+}

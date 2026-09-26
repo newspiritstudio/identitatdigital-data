@@ -1,0 +1,560 @@
+{
+  "slug": "tinder",
+  "name": "Tinder",
+  "company": "match-group",
+  "categories": [
+    "cites"
+  ],
+  "tagline": "Cites en línia amb dades sensibles i compartició dins del grup Match",
+  "summary": "Tinder tracta categories especials de dades de l’article 9 del RGPD (orientació sexual i, en alguns perfils, salut o creences) i les combina amb ubicació precisa i fotografies. La pertinença al grup Match, que concentra bona part del mercat, significa que aquesta informació pot circular entre diverses aplicacions de cites de la mateixa empresa.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Irlanda, per a persones usuàries de l’Espai Econòmic Europeu",
+  "userBase": "Al voltant de 50 milions de persones usuàries mensuals",
+  "links": {
+    "website": "https://tinder.com/",
+    "privacyPolicy": "https://policies.tinder.com/privacy",
+    "terms": "https://policies.tinder.com/terms"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "tinder-privacy-policy"
+    ],
+    "detail": "Cal un compte verificat amb telèfon i, sovint, fotografies.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "tinder-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "És la fitxa amb més dades de categories especials del directori. L’orientació sexual és inherent al servei, la ubicació precisa és necessària per al seu funcionament i les converses queden desades sense xifratge d’extrem a extrem.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tinder-privacy-policy"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "tinder-privacy-policy"
+      ]
+    },
+    {
+      "type": "orientacio-sexual",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "tinder-privacy-policy"
+      ],
+      "note": "És una dada de l’article 9 del RGPD i és inherent al funcionament del servei."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tinder-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "tinder-privacy-policy"
+      ],
+      "note": "La verificació facial compara un vídeo en directe amb les fotografies del perfil."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tinder-privacy-policy"
+      ],
+      "note": "Sense ubicació no hi ha servei, però es conserva històricament."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "tinder-privacy-policy"
+      ],
+      "note": "Sense xifratge d’extrem a extrem; es processen per detectar comportaments abusius."
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tinder-privacy-policy"
+      ],
+      "note": "Alguns camps opcionals del perfil poden revelar informació de salut."
+    },
+    {
+      "type": "conviccions-i-opinions",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tinder-privacy-policy"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "tinder-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tinder-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "tinder-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "tinder-privacy-policy"
+      ]
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "tinder-privacy-policy"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tinder-privacy-policy"
+      ],
+      "detail": "Ús d’eines publicitàries i d’anàlisi de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tinder-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tinder-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tinder-privacy-policy"
+      ],
+      "detail": "El pla gratuït mostra publicitat basada en dades del perfil i del comportament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tinder-privacy-policy"
+      ],
+      "detail": "L’algoritme de recomanació de perfils és un sistema de perfilat intensiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tinder-privacy-policy"
+      ],
+      "detail": "La política preveu l’ús de dades per desenvolupar i millorar els serveis, incloent-hi eines automatitzades de moderació i recomanació.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tinder-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tinder-privacy-policy"
+      ],
+      "detail": "Compartició amb les altres marques del grup Match, entre les quals Hinge, OkCupid i Meetic.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tinder-privacy-policy"
+      ],
+      "detail": "La política preveu la compartició amb socis publicitaris, que en algunes jurisdiccions es considera venda.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tinder-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "mechanism": "adequacy"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "tinder-privacy-policy"
+      ],
+      "detail": "No publica informe de transparència sobre peticions d’autoritats.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tinder-privacy-policy"
+      ],
+      "detail": "S’indica una conservació de fins a tres mesos després de l’eliminació per permetre la recuperació, i més enllà per a finalitats legals.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tinder-delete-account"
+      ],
+      "detail": "Es conserva informació relacionada amb denúncies de comportament abusiu de manera prolongada, cosa que la mateixa política justifica per protegir altres persones usuàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "period": "Fins a 3 mesos de conservació després de l’eliminació del compte",
+        "sources": [
+          "tinder-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tinder-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tinder-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://tinder.com/app/settings/account",
+    "difficulty": "easy",
+    "waitingPeriodDays": 0,
+    "requiresSupportContact": false,
+    "steps": [
+      "Obre el perfil i entra a Configuració.",
+      "Baixa fins al final i tria «Elimina el compte».",
+      "Tria «Eliminar el compte» en lloc de «Pausar el compte».",
+      "Cancel·la abans la subscripció des de la botiga d’aplicacions, perquè eliminar el compte no la cancel·la."
+    ],
+    "obstacles": "L’aplicació ofereix primer la pausa. Cal saber que la subscripció de pagament és independent i que cal cancel·lar-la per separat a l’App Store o Google Play, o continuarà cobrant-se.",
+    "dataRetained": "Els missatges enviats resten a les converses de les altres persones. La informació vinculada a denúncies es conserva més temps.",
+    "sources": [
+      "tinder-delete-account",
+      "tinder-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tinder-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://account.gotinder.com/data"
+    },
+    "exportFormatQuality": "open",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tinder-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.help.tinder.com/hc/en-us/requests/new",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tinder-privacy-policy"
+      ],
+      "detail": "Els controls publicitaris són limitats i depenen en bona part de la configuració del sistema operatiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "tinder-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tinder-privacy-policy"
+      ],
+      "detail": "Es pot controlar la visibilitat del perfil i la distància, però no la recollida de dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "yes",
+      "level": "editorial",
+      "sources": [
+        "tinder-delete-account"
+      ],
+      "detail": "La pausa del compte es presenta abans que l’eliminació, i la subscripció continua activa si no es cancel·la per separat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "hidden-exit",
+        "severity": "medium",
+        "description": "L’opció de pausar el compte es mostra de manera destacada abans de la d’eliminar-lo, i eliminar el compte no cancel·la la subscripció de pagament.",
+        "sources": [
+          "tinder-delete-account"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "tinder-privacy-policy"
+      ],
+      "detail": "Les converses no tenen xifratge d’extrem a extrem, en part perquè es processen per detectar assetjament.",
+      "verifiedAt": "2026-09-22",
+      "scope": "none"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tinder-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tinder-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tinder-privacy-policy"
+      ],
+      "detail": "L’accés es fa amb codi d’un sol ús per SMS o amb comptes vinculats; no hi ha segon factor addicional.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "sms",
+        "email"
+      ]
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories de seguretat independents publicades."
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tinder-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://hackerone.com/tinder"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tinder-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "És la fitxa on l’absència de xifratge d’extrem a extrem té més conseqüències potencials, perquè les converses contenen dades de l’article 9. La moderació justifica aquest tractament, però no elimina el risc.",
+    "openQuestions": [
+      "Quina informació concreta es comparteix entre Tinder i la resta d’aplicacions del grup Match?"
+    ]
+  },
+  "appStoreBundleId": "com.cardify.tinder"
+}

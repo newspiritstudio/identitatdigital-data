@@ -1,0 +1,448 @@
+{
+  "slug": "duckduckgo",
+  "name": "DuckDuckGo",
+  "company": "duckduckgo",
+  "categories": [
+    "cercadors",
+    "navegadors"
+  ],
+  "tagline": "Cerca sense perfil, finançada amb publicitat contextual",
+  "summary": "DuckDuckGo es finança amb publicitat sense perfilar: els anuncis es basen només en la paraula cercada, sense dades de qui la cerca. El 2022 es va descobrir que el seu navegador permetia rastrejadors de Microsoft per un acord contractual; l’incident consta a la fitxa.",
+  "platforms": [
+    "web",
+    "ios",
+    "android",
+    "windows",
+    "macos"
+  ],
+  "businessModel": "advertising",
+  "jurisdiction": "Estats Units",
+  "userBase": "Al voltant de 3.000 milions de cerques mensuals",
+  "links": {
+    "website": "https://duckduckgo.com/",
+    "privacyPolicy": "https://duckduckgo.com/privacy",
+    "terms": "https://duckduckgo.com/terms"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "ddg-privacy-policy"
+    ],
+    "detail": "No hi ha comptes. La sincronització opcional del navegador funciona amb una clau, no amb una identitat.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "ddg-privacy-policy"
+    ],
+    "detail": "Les extensions i les aplicacions són de codi obert; l’índex de cerca i part de la infraestructura, no.",
+    "verifiedAt": "2026-09-22",
+    "repositoryUrl": "https://github.com/duckduckgo",
+    "licence": "Apache-2.0"
+  },
+  "dataSummary": "DuckDuckGo declara no recollir ni compartir informació personal. La cerca es fa sense identificador persistent i els resultats locals es calculen a partir d’una ubicació aproximada que es descarta immediatament.",
+  "dataCollection": [
+    {
+      "type": "historial-de-cerca",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "ddg-privacy-policy"
+      ],
+      "note": "Les consultes es desen de manera agregada i no associades a cap persona ni dispositiu."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "ddg-anonymous-local"
+      ],
+      "note": "Es fa servir per estimar el país i es descarta immediatament; no es registra."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "ddg-anonymous-local"
+      ],
+      "note": "Els resultats locals es demanen a través d’un intermediari que impedeix associar la consulta a la ubicació."
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "ddg-privacy-policy"
+      ],
+      "note": "Només galetes de preferències que no identifiquen."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "ddg-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "ddg-privacy-policy"
+      ]
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "ddg-privacy-policy"
+      ]
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "ddg-privacy-policy"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "ddg-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "ddg-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "ddg-anonymous-local"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "independent",
+      "sources": [
+        "ddg-privacy-policy",
+        "bleeping-ddg-microsoft-2022"
+      ],
+      "detail": "El navegador bloqueja rastrejadors de tercers. El 2022 es va descobrir una excepció contractual per als de Microsoft, que la companyia va reconèixer i posteriorment va eliminar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "ddg-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "ddg-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "ddg-privacy-policy"
+      ],
+      "detail": "Els anuncis són contextuals: es basen únicament en la paraula cercada en aquell moment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "ddg-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "ddg-privacy-policy"
+      ],
+      "detail": "Les converses amb l’assistent no es fan servir per entrenar models i s’eliminen als 30 dies.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "independent",
+      "sources": [
+        "bleeping-ddg-microsoft-2022"
+      ],
+      "detail": "Els resultats provenen en part de Bing, cosa que implica una relació contractual amb Microsoft, tot i que les consultes s’encaminen sense identificar la persona.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "DuckDuckGo no forma part de cap grup empresarial.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "ddg-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "ddg-privacy-policy"
+      ],
+      "detail": "La infraestructura és als Estats Units, però no s’hi transfereixen dades personals identificables.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "none"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "ddg-privacy-policy"
+      ],
+      "detail": "No publica un informe periòdic estructurat, però documenta cada funció i el seu tractament de dades.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ddg-privacy-policy"
+      ],
+      "detail": "No hi ha històric personal a retenir.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha compte ni dades associades a eliminar.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "DuckDuckGo no crea comptes de persona usuària.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "unknown",
+    "requiresSupportContact": false,
+    "dataRetained": "Cap dada personal, perquè no se’n desa cap associada a una persona.",
+    "sources": [
+      "ddg-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha dades personals emmagatzemades per exportar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ddg-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacy@duckduckgo.com",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "La publicitat no és personalitzada, de manera que no hi ha res a desactivar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ddg-privacy-policy"
+      ],
+      "detail": "Les mètriques anònimes es poden desactivar a la configuració de les aplicacions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ddg-privacy-policy"
+      ],
+      "detail": "Bloqueig de rastrejadors, protecció del correu electrònic, botó de neteja de dades i xifratge forçat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "protective",
+    "darkPatterns": {
+      "status": "no",
+      "level": "independent",
+      "sources": [
+        "ddg-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Un cercador no transporta comunicacions privades entre persones usuàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ddg-privacy-policy"
+      ],
+      "detail": "Força les connexions xifrades sempre que el lloc de destinació ho permet.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ddg-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha comptes que calgui protegir amb un segon factor.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories de seguretat independents publicades del cercador."
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ddg-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://hackerone.com/duckduckgo"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ddg-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "brave",
+      "comparability": "equivalent",
+      "rationale": "Brave Search cobreix la mateixa necessitat de cerca general sense perfilat i amb un índex propi, cosa que redueix la dependència d’un tercer per als resultats.",
+      "tradeOffs": "L’índex propi encara té menys cobertura en consultes molt específiques i en llengües minoritzades."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "L’episodi de Microsoft de 2022 mostra que una promesa de privadesa pot tenir excepcions contractuals que no es veuen. L’empresa ho va reconèixer i corregir, i per això l’incident té una gravetat baixa."
+  },
+  "appStoreBundleId": "com.duckduckgo.mobile.ios"
+}

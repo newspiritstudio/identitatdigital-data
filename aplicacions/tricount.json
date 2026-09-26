@@ -1,0 +1,428 @@
+{
+  "slug": "tricount",
+  "name": "Tricount",
+  "company": "bunq",
+  "categories": [
+    "banca-i-finances",
+    "utilitats"
+  ],
+  "tagline": "Si esborres el compte, les despeses es conserven i només s’anonimitza qui les va fer",
+  "summary": "Tricount és una llibreta de despeses compartides que des del 2022 pertany al banc neerlandès bunq. Segons la política, si demanes la supressió, les dades dels tricounts (les despeses) no s’esborren, perquè són compartides amb altres persones; el que es fa és anonimitzar el teu identificador. També anuncia que la versió 8 de l’aplicació no contindrà cap publicitat ni recollirà dades amb aquesta finalitat, mentre que l’etiqueta actual declara identificadors utilitzats per rastrejar-te.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Països Baixos",
+  "userBase": "Aplicació de despeses compartides amb presència a tot Europa",
+  "links": {
+    "website": "https://www.tricount.com/",
+    "privacyPolicy": "https://tricount.com/documents/privacy-policy",
+    "appStore": "https://apps.apple.com/es/app/id349866256"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "tricount-privacy-policy"
+    ],
+    "detail": "La política descriu comptes d’usuari i la seva supressió, però el repartiment de despeses es pot compartir amb persones que hi participen per enllaç.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "tricount-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Un tricount registra qui va a sopar amb qui, qui paga el lloguer de la casa de vacances i qui deu diners a qui. La política hi afegeix la recollida automàtica d’adreça IP, tipus de dispositiu, identificadors únics i navegador, i, mentre hi hagi publicitat, finalitats publicitàries basades en l’interès legítim i el consentiment.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tricount-privacy-policy",
+        "tricount-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "tricount-privacy-policy",
+        "tricount-app-store"
+      ],
+      "note": "La política preveu l’enviament de correus que promocionen serveis de Tricount i de bunq per interès legítim."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tricount-privacy-policy",
+        "tricount-app-store"
+      ],
+      "note": "Les despeses apuntades són el contingut de l’usuari que l’etiqueta declara com a no vinculat amb la identitat."
+    },
+    {
+      "type": "xarxa-de-contactes",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tricount-privacy-policy"
+      ],
+      "note": "Qui participa a cada repartiment i qui deu diners a qui: dades de terceres persones que potser no han obert mai l’aplicació."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "tricount-privacy-policy"
+      ],
+      "note": "La política declara la recollida automàtica d’adreça IP, tipus de dispositiu, identificadors únics i navegador."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "tricount-app-store",
+        "tricount-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tricount-privacy-policy"
+      ],
+      "note": "La política preveu afegir els pagaments amb targeta de bunq com a despeses d’un tricount."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "tricount-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tricount-app-store"
+      ],
+      "detail": "L’etiqueta declara identificadors utilitzats per rastrejar-te en aplicacions i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tricount-app-store"
+      ],
+      "detail": "Identificadors declarats sota la secció de dades utilitzades per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tricount-privacy-policy"
+      ],
+      "detail": "La política declara finalitats de publicitat i publicitat personalitzada amb proveïdors, però no els anomena.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tricount-privacy-policy"
+      ],
+      "detail": "Hi ha publicitat i publicitat personalitzada amb recollida de consentiment, però la mateixa política anuncia que «Version 8 of the tricount will contain no general or personalized advertising content».",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap elaboració de perfils més enllà de les finalitats publicitàries."
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta l’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tricount-privacy-policy"
+      ],
+      "detail": "Proveïdors i socis que tracten dades per compte de Tricount, autoritats i reguladors, assessors i possibles compradors o inversors en cas d’operació corporativa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tricount-privacy-policy"
+      ],
+      "detail": "bunq B.V. és el responsable del tractament i propietari de l’aplicació, i la política preveu comunicacions dins del grup.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no declara cap venda de dades a intermediaris."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tricount-privacy-policy"
+      ],
+      "detail": "Transferències a països diferents del de residència, protegides amb un acord basat en les clàusules contractuals tipus de la Comissió Europea, que es facilita a petició.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem localitzat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "tricount-privacy-policy"
+      ],
+      "detail": "La política no dona cap termini: conserva les dades «for as long as we have a legitimate business need» i després les esborra o les anonimitza.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tricount-privacy-policy"
+      ],
+      "detail": "Les despeses dels tricounts no s’esborren quan demanes la supressió, perquè són compartides; el que es fa és anonimitzar els identificadors de la persona que ho demana.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tricount-privacy-policy"
+      ],
+      "detail": "Es pot demanar la supressió en qualsevol moment, però amb l’excepció explícita de les dades dels repartiments.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "tricount-privacy-policy"
+      ],
+      "detail": "La supressió es demana per correu a privacy@tricount.com; la política no descriu cap botó dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "requiresSupportContact": true,
+    "steps": [
+      "Escriu a privacy@tricount.com demanant la supressió de les teves dades personals.",
+      "Tingues present que les despeses dels tricounts no s’esborraran: el que es fa és anonimitzar el teu identificador dins de cada repartiment.",
+      "Si el grup encara és actiu, demana a la resta de participants que esborrin el tricount abans si voleu que desaparegui sencer."
+    ],
+    "obstacles": "Les despeses apuntades també són dades de les altres persones del grup, i el servei les anonimitza en lloc d’esborrar-les.",
+    "dataRetained": "Les despeses, els imports i els deutes de cada tricount, amb els identificadors de la persona anonimitzats.",
+    "sources": [
+      "tricount-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tricount-privacy-policy"
+      ],
+      "detail": "La política reconeix el dret de portabilitat entre els drets exercibles.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacy@tricount.com"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tricount-privacy-policy"
+      ],
+      "detail": "Accés, correcció, supressió, oposició, limitació, portabilitat i reclamació, per la via de privacy@tricount.com.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacy@tricount.com",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tricount-privacy-policy"
+      ],
+      "detail": "La publicitat personalitzada es basa en el consentiment, i la política conserva la documentació d’aquest consentiment; però la publicitat no personalitzada s’empara en l’interès legítim.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap control sobre la recollida automàtica de dades del dispositiu."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem localitzat cap panell de privadesa dins de l’aplicació."
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem revisat els fluxos de consentiment de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no transporta comunicacions privades entre persones usuàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no documenta el xifratge del canal."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu el sistema d’autenticació del compte."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories independents publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses propi de Tricount."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem localitzat cap canal públic de divulgació de vulnerabilitats."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Tricount és una de les poques polítiques que tracta el problema de la dada compartida i diu què no esborrarà. Això no canvia el resultat, però permet saber-ho abans d’apuntar-hi despeses.",
+    "openQuestions": [
+      "Quins proveïdors publicitaris hi ha integrats mentre no arribi la versió 8 sense publicitat?",
+      "Quin tracte reben les persones que participen en un tricount sense tenir-hi compte?"
+    ]
+  },
+  "appStoreBundleId": "com.tribab.tricount.test"
+}

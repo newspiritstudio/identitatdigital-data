@@ -1,0 +1,543 @@
+{
+  "slug": "galatea",
+  "name": "Galatea",
+  "company": "inkitt",
+  "categories": [
+    "llibres-i-lectura"
+  ],
+  "tagline": "Una editorial berlinesa que envia dades de lectura de novel·la romàntica a una vintena de xarxes de publicitat i atribució",
+  "summary": "Galatea serveix novel·la popular per capítols, amb àudio i efectes, dins una aplicació que es paga amb subscripció. La política d’Inkitt és detallada i està al dia, i inclou una llista llarga de proveïdors: Google Analytics, Firebase, AdMob, AppLovin, Taboola, Adjust, Branch, Meta i RevenueCat, entre d’altres, tots amb l’identificador publicitari i l’adreça IP. L’etiqueta de l’App Store ho confirma declarant compres, identificadors i dades d’ús per rastrejar. El compte serveix també per a una altra app del grup, i el document no diu enlloc com es dona de baixa.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "subscription",
+  "jurisdiction": "Alemanya (UE)",
+  "links": {
+    "website": "https://galatea.com/",
+    "privacyPolicy": "https://galatea.com/privacy",
+    "appStore": "https://apps.apple.com/es/app/id1380362212"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "galatea-privacy-policy"
+    ],
+    "detail": "El registre demana correu i contrasenya com a dades obligatòries, i opcionalment nom d’usuari i data de naixement; també es pot entrar amb un compte d’Apple o de Google.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "galatea-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "El que es llegeix en una app de novel·la romàntica (gènere, ritme, hora del dia, fins a quin capítol s’arriba abans de pagar) és una dada íntima. Galatea mesura aquesta activitat amb identificadors publicitaris que Google, Meta, AppLovin, Taboola, Adjust i Branch comparteixen amb la resta del seu inventari, de manera que el perfil no es queda dins l’aplicació.",
+  "dataCollection": [
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "galatea-privacy-policy",
+        "galatea-app-store"
+      ],
+      "note": "Obligatòria per registrar-se. La política la inclou entre les dades que poden processar Google Analytics i Firebase."
+    },
+    {
+      "type": "contrasenya",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "galatea-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "galatea-app-store",
+        "galatea-privacy-policy"
+      ],
+      "note": "El mateix compte dona accés a CandyJar, l’altra aplicació d’Inkitt."
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "compliment-legal"
+      ],
+      "sources": [
+        "galatea-privacy-policy"
+      ],
+      "note": "La política reconeix que l’oferta s’adreça també a joves i menors de 16 anys i que en aquest cas cal el consentiment dels pares."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "galatea-privacy-policy"
+      ],
+      "note": "IDFA o GAID, tractat per AdMob, AppLovin, Adjust, Branch, Firebase i Google Analytics."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-publicitaria",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "galatea-app-store",
+        "galatea-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-publicitaria",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "galatea-privacy-policy"
+      ],
+      "note": "Al web s’anonimitza després de la visita; a l’app la reben els proveïdors de publicitat i atribució."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "galatea-privacy-policy"
+      ],
+      "note": "Deduïda de l’idioma del sistema i de la zona horària, no del GPS; AdMob també pot rebre informació de localització."
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "galatea-privacy-policy"
+      ],
+      "note": "Model, sistema operatiu, versió i xarxa."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "galatea-app-store",
+        "galatea-privacy-policy"
+      ],
+      "note": "RevenueCat processa els rebuts, l’estat de la subscripció i els reemborsaments."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "galatea-privacy-policy"
+      ],
+      "note": "Stripe, PayPal i Klarna per a les compres fetes fora de les botigues d’aplicacions."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "galatea-app-store",
+        "galatea-privacy-policy"
+      ],
+      "note": "Pantalles vistes, durada de la sessió, esdeveniments dins l’app i interaccions, tractats per Google Analytics i Firebase."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "galatea-app-store"
+      ],
+      "note": "L’etiqueta el declara com a dada no vinculada amb la identitat."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "galatea-privacy-policy"
+      ],
+      "note": "La política diu que Firebase s’utilitza també per «storing of chat messages»."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "galatea-app-store",
+        "galatea-privacy-policy"
+      ],
+      "note": "Errors vinculats a la identitat segons l’etiqueta; rendiment, no."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "galatea-app-store",
+        "galatea-privacy-policy"
+      ],
+      "detail": "L’etiqueta declara compres, identificadors i dades d’ús com a dades utilitzades per rastrejar a través d’apps i llocs web d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "galatea-privacy-policy"
+      ],
+      "detail": "La política cita expressament l’identificador publicitari IDFA o GAID per a AdMob, AppLovin, Adjust, Branch, Firebase i Google Analytics.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "galatea-privacy-policy"
+      ],
+      "detail": "Google Analytics, Firebase, AdMob, Axon AI d’AppLovin, Taboola, Podscribe, Adjust, Branch, Meta, RevenueCat, Zendesk, Cloudflare, Iterable i OneTrust, entre d’altres.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "galatea-privacy-policy"
+      ],
+      "detail": "AdMob serveix publicitat dins l’app amb l’identificador publicitari, i Taboola, Meta i AppLovin hi afegeixen mesura de conversions i remàrqueting.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "galatea-privacy-policy"
+      ],
+      "detail": "La política té un apartat sobre decisions automatitzades i perfilat al web i diu que l’avaluació de les dades d’ús de l’app es fa «exclusively on a statistical basis and is not personalized», però al mateix temps descriu publicitat basada en interessos.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no parla d’entrenament de models amb les dades de les persones usuàries."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "galatea-privacy-policy"
+      ],
+      "detail": "Llista nominal de prop de vint destinataris, amb l’adreça de cada empresa i les categories de dades que reben.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "galatea-privacy-policy"
+      ],
+      "detail": "El compte de Galatea serveix per entrar a CandyJar, l’altra aplicació d’Inkitt, i a partir d’aquell moment s’hi apliquen els termes d’aquell servei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu si ven dades; els proveïdors de publicitat que hi apareixen tenen models de negoci basats en dades de tercers."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "galatea-privacy-policy"
+      ],
+      "detail": "Bona part dels proveïdors són als Estats Units. La política diu que s’hi han signat clàusules contractuals tipus i que cada proveïdor es revisa amb el delegat de protecció de dades.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència d’Inkitt."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "galatea-privacy-policy"
+      ],
+      "detail": "L’apartat de terminis només diu que les dades s’esborren o s’anonimitzen «as soon as it is no longer needed» i que els terminis legals de conservació poden allargar-ho. No hi ha cap xifra.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu què passa amb el compte ni amb el contingut després d’una baixa."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "galatea-privacy-policy"
+      ],
+      "detail": "Reconeix el dret de supressió de l’article 17 del RGPD i convida a adreçar-s’hi per correu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap opció per eliminar el compte des de l’app ni des del web, i no l’hem poguda comprovar sense registrar-nos-hi."
+    },
+    "difficulty": "unknown",
+    "requiresSupportContact": true,
+    "steps": [
+      "Si tens una subscripció activa, cancel·la-la abans a l’App Store o al Google Play, perquè la baixa del compte no l’atura.",
+      "Escriu a privacy@inkitt.com des de l’adreça del compte i demana la supressió a l’empara de l’article 17 del RGPD.",
+      "Si no obtens resposta, adreça’t al delegat de protecció de dades d’Inkitt a dsb@freshcompliance.de."
+    ],
+    "obstacles": "La política no publica cap camí d’autoservei ni cap termini de resposta.",
+    "sources": [
+      "galatea-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "galatea-privacy-policy"
+      ],
+      "detail": "Reconeix la portabilitat de l’article 20 del RGPD i esmenta el lliurament de les dades en un fitxer comprimit, sempre per petició.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "galatea-privacy-policy",
+        "galatea-imprint"
+      ],
+      "detail": "Per correu a privacy@inkitt.com o al delegat de protecció de dades, FreshCompliance GmbH, a dsb@freshcompliance.de.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacy@inkitt.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El peu del web enllaça «Your Privacy Choices», però no n’hem pogut comprovar el contingut dins l’app."
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap interruptor per desactivar l’analítica dins l’app."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "galatea-privacy-policy"
+      ],
+      "detail": "Els permisos del sistema, com les notificacions, són opcionals i revocables, i el butlletí funciona amb doble confirmació; l’analítica i la publicitat, en canvi, no tenen cap control descrit.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut examinar el flux d’alta ni el de la subscripció dins l’app."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’app serveix un catàleg de lectura; no hi ha comunicacions privades entre persones que puguin anar xifrades d’extrem a extrem.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política parla de mesures tècniques i organitzatives i de «strong encryption of data» per als proveïdors, però no detalla el transport."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta cap segon factor d’autenticació."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "vulnerabilityDisclosure": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "galatea-privacy-policy"
+      ],
+      "detail": "No hi ha cap canal específic per a investigadors, però la política demana avisar per l’adreça de contacte si se sospita d’un accés no autoritzat.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "wattpad",
+      "comparability": "partial",
+      "rationale": "També publica novel·la per capítols escrita per la comunitat, amb lectura gratuïta.",
+      "tradeOffs": "És d’un grup coreà-canadenc i també es finança amb publicitat; no té l’àudio ni els efectes de Galatea."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Tècnicament, la política d’Inkitt és sòlida: està datada, identifica cada proveïdor amb adreça i categories de dades, i cita els articles del RGPD. Aquest detall permet veure l’abast del rastreig. L’apartat de menors diu que l’oferta «is also aimed at young people and children» i que no se’n fan perfils publicitaris, en una aplicació de romàntica que integra AdMob, AppLovin i Taboola. Cap domini d’Inkitt o de Galatea no consta a la llista de filtracions de Have I Been Pwned.",
+    "openQuestions": [
+      "L’app té un botó per eliminar el compte o cal escriure a privacy@inkitt.com?",
+      "Què inclou el panell «Your Privacy Choices» i quin efecte té sobre AdMob i Taboola?",
+      "Hi ha alguna resolució d’una autoritat europea de protecció de dades sobre Inkitt?"
+    ]
+  },
+  "appStoreBundleId": "org.reactjs.native.Inkitt.App.Colt"
+}

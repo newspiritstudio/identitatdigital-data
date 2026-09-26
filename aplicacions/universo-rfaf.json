@@ -1,0 +1,491 @@
+{
+  "slug": "universo-rfaf",
+  "name": "Universo RFAF",
+  "company": "rfaf",
+  "categories": [
+    "esports-i-resultats"
+  ],
+  "tagline": "La nova aplicació del futbol federat andalús amb dades de jugadors menors i una política genèrica pensada per al web",
+  "summary": "Universo RFAF és l’aplicació oficial de la Real Federación Andaluza de Fútbol per a jugadors, entrenadors, àrbitres i famílies: estadístiques personals, calendaris i pagaments. La política és la mateixa que la del web: fixa l’edat mínima en 14 anys, preveu perfils i publicitat personalitzada i esmenta l’identificador publicitari del mòbil. L’etiqueta de l’App Store declara nom, correu i telèfon vinculats a la identitat, però no rastreig, i qualifica l’aplicació per a totes les edats.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://www.universorfaf.es/",
+    "privacyPolicy": "https://www.universorfaf.es/legal",
+    "appStore": "https://apps.apple.com/es/app/id6753349325"
+  },
+  "accountRequired": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": [],
+    "detail": "L’etiqueta declara un identificador d’usuari, però no hem pogut comprovar quines funcions requereixen compte."
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "universo-rfaf-privacy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Les estadístiques de cada partit, el club i el calendari permeten saber on serà un jugador, sovint menor, cada cap de setmana. La política admet imatges i enregistraments dels esdeveniments amb dret a cedir-los a tercers per temps il·limitat.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "universo-rfaf-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "universo-rfaf-app-store"
+      ],
+      "note": "La descripció de l’aplicació esmenta campanyes de correu amb MailRelay."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "universo-rfaf-app-store"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "universo-rfaf-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "universo-rfaf-app-store"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "universo-rfaf-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "universo-rfaf-app-store"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "unknown",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "universo-rfaf-privacy"
+      ],
+      "note": "La política diu que fa servir l’identificador publicitari d’Android i d’iOS per servir anuncis, i que es pot associar a l’IMEI o l’adreça MAC. L’etiqueta no ho declara."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "unknown",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "universo-rfaf-app-store"
+      ],
+      "note": "La descripció esmenta pagaments amb Redsys; l’etiqueta no declara dades financeres."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "universo-rfaf-privacy"
+      ],
+      "note": "Imatges i enregistraments dels esdeveniments, que la RFAF es reserva el dret d’usar i cedir per temps il·limitat."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "universo-rfaf-app-store",
+        "universo-rfaf-privacy"
+      ],
+      "note": "Google Analytics, segons la política."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "universo-rfaf-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "universo-rfaf-app-store"
+      ],
+      "detail": "L’etiqueta no declara dades «utilitzades per rastrejar-te», tot i que la política parla d’identificadors publicitaris i xarxes de publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "universo-rfaf-privacy"
+      ],
+      "detail": "La política diu que fa servir l’identificador publicitari d’Android i d’iOS per analitzar i servir anuncis.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "universo-rfaf-privacy"
+      ],
+      "detail": "Google Analytics i etiquetes de seguiment de campanyes.",
+      "verifiedAt": "2026-09-22",
+      "trackers": [
+        {
+          "name": "Google Analytics",
+          "purpose": "Analítica d’ús",
+          "sources": [
+            "universo-rfaf-privacy"
+          ]
+        }
+      ]
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "universo-rfaf-privacy"
+      ],
+      "detail": "Publicitat personalitzada amb consentiment, comunicacions comercials amb patrocinadors i xarxes publicitàries de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "universo-rfaf-privacy"
+      ],
+      "detail": "Perfils a partir de la navegació amb consentiment; on no es demana, la política l’empara en l’interès legítim.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no en parla."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "universo-rfaf-privacy",
+        "universo-rfaf-app-store"
+      ],
+      "detail": "Proveïdors d’allotjament i analítica, xarxes publicitàries, Google, i segons la descripció Redsys i MailRelay.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta la Federación Española ni altres entitats federatives."
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "universo-rfaf-privacy"
+      ],
+      "detail": "Diu que les dades no se cedeixen a tercers per a finalitats pròpies.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "universo-rfaf-privacy"
+      ],
+      "detail": "Google Analytics desa les dades als Estats Units; la política només diu que les transferències tenen «garanties suficients».",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "universo-rfaf-privacy"
+      ],
+      "detail": "Mentre s’usi el servei o fins que es retiri el consentiment; 5 anys si es detecten conductes contra els drets de la RFAF.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no ho explica."
+    },
+    "periods": [
+      {
+        "period": "Conductes que vulnerin els drets de la RFAF: 5 anys",
+        "sources": [
+          "universo-rfaf-privacy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "universo-rfaf-privacy"
+      ],
+      "detail": "Es pot exercir el dret de supressió per correu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut comprovar si l’aplicació té una opció d’eliminar el compte."
+    },
+    "difficulty": "unknown",
+    "steps": [
+      "Escriu a calidad@rfaf.es demanant la supressió de les dades i adjunta una còpia del DNI.",
+      "Si no respon en un mes, pots reclamar a l’Agencia Española de Protección de Datos."
+    ],
+    "sources": [
+      "universo-rfaf-privacy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "universo-rfaf-privacy"
+      ],
+      "detail": "La política reconeix la portabilitat, però cal demanar-la per correu amb una còpia del DNI.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "universo-rfaf-privacy"
+      ],
+      "detail": "Els drets s’exerceixen per escrit a calidad@rfaf.es amb una còpia del DNI. Hi ha un delegat de protecció de dades extern (Protection Report, S.L.).",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:calidad@rfaf.es"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "universo-rfaf-privacy"
+      ],
+      "detail": "El perfilat i les comunicacions comercials depenen d’una casella opcional; per a les galetes, remet a la configuració del navegador.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap opció dins de l’aplicació."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "universo-rfaf-privacy"
+      ],
+      "detail": "Caselles separades per al perfilat i per a les comunicacions comercials.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut revisar el registre ni el pagament dins de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No és un servei de comunicació privada entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu res sobre les mesures de seguretat."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu res sobre les mesures de seguretat."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informació sobre la verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap auditoria publicada."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha fitxer security.txt a rfaf.es ni cap canal de notificació de vulnerabilitats."
+    }
+  },
+  "review": {
+    "researchStatus": "initial",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "La política és la genèrica de l’«Entorn RFAF» i no parla de l’aplicació, de les dades esportives ni dels menors, tot i que l’aplicació va adreçada a jugadors federats i la política fixa l’edat mínima en 14 anys. Les ressenyes de l’App Store es queixen d’un pagament de 25 euros per seguir un jugador, que no hem pogut verificar en cap document oficial.",
+    "openQuestions": [
+      "La cerca d’incidents no s’ha pogut completar: s’havia esgotat el pressupost de cerques web de la sessió.",
+      "Com es tracten les dades dels jugadors menors de 14 anys, que la política exclou?",
+      "L’aplicació té una opció d’eliminar el compte?"
+    ]
+  },
+  "appStoreBundleId": "com.universo.rfaf.universoRfafApp"
+}

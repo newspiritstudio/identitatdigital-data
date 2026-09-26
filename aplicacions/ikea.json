@@ -1,0 +1,596 @@
+{
+  "slug": "ikea",
+  "name": "IKEA",
+  "company": "ikea-iberica",
+  "categories": [
+    "comerc-electronic"
+  ],
+  "tagline": "Botiga de mobles amb rastreig declarat, publicitat basada en l’historial de compres i terminis de conservació de fins a deu anys",
+  "summary": "L’aplicació la publica Inter IKEA Systems, però a Espanya el responsable de les dades és IKEA Ibérica, del grup Ingka. L’etiqueta de l’App Store declara identificadors, dades d’ús i diagnòstics utilitzats per rastrejar, i la política preveu publicitat personalitzada amb l’historial de compres i audiències personalitzades a les xarxes. La política és concreta en terminis, però alguns són llargs: deu anys per a les consultes d’atenció al client. L’AEPD la va sancionar el 2019 per instal·lar galetes sense consentiment.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://www.ikea.com/es/es/",
+    "privacyPolicy": "https://www.ikea.com/es/es/customer-service/privacy-policy/",
+    "appStore": "https://apps.apple.com/es/app/id1452164827"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "ikea-app-privacy-policy"
+    ],
+    "detail": "Es pot navegar pel catàleg sense compte; per comprar, desar llistes o fer servir IKEA Family cal registrar-se.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "ikea-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "L’historial de compres de mobles i articles per a la llar, l’adreça de lliurament, els plànols i dissenys de l’habitatge i l’escaneig de l’entorn per a la realitat augmentada permeten deduir com és la casa d’una persona, qui hi viu i quan s’hi ha mudat.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "ikea-app-store",
+        "ikea-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "ikea-app-store",
+        "ikea-privacy-policy"
+      ],
+      "note": "Es fa servir per a audiències personalitzades a les xarxes socials."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "ikea-app-store"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "ikea-app-store",
+        "ikea-privacy-policy"
+      ],
+      "note": "Es comparteix amb els proveïdors de logística per al lliurament."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "ikea-app-store",
+        "ikea-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada",
+        "personalitzacio-de-continguts",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "ikea-app-store",
+        "ikea-privacy-policy"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "ikea-app-store"
+      ],
+      "note": "L’etiqueta declara les dades d’ús per a publicitat de tercers i per rastrejar."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "ikea-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "ikea-app-store",
+        "ikea-app-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "ikea-app-store"
+      ],
+      "note": "L’etiqueta declara «dades de publicitat» per a publicitat de tercers."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "ikea-app-store",
+        "ikea-privacy-policy"
+      ],
+      "note": "Amb consentiment, per a serveis basats en la ubicació."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "ikea-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "ikea-app-store"
+      ]
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "ikea-app-store"
+      ],
+      "note": "L’etiqueta declara també l’escaneig de l’entorn, propi de les funcions de realitat augmentada."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "ikea-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "ikea-app-store"
+      ],
+      "note": "L’etiqueta declara diagnòstics utilitzats per rastrejar."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ikea-app-store"
+      ],
+      "detail": "L’etiqueta declara identificadors, dades d’ús i diagnòstics utilitzats per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ikea-app-store"
+      ],
+      "detail": "Dades de publicitat i identificador d’usuari declarats per a publicitat de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ikea-privacy-policy"
+      ],
+      "detail": "Google Analytics, píxels als correus i audiències personalitzades.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ikea-privacy-policy"
+      ],
+      "detail": "Publicitat personalitzada amb l’historial de compres i de navegació, basada en l’interès legítim, amb dret d’oposició.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ikea-privacy-policy"
+      ],
+      "detail": "Segmentació per a publicitat i comunicacions; la política diu que no pren decisions automatitzades amb efectes sobre la persona.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política esmenta assistents virtuals i anàlisi automatitzada de xats i trucades, però no diu si les dades serveixen per entrenar models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ikea-privacy-policy"
+      ],
+      "detail": "Proveïdors de pagament, logística, programari, màrqueting, analítica i IA.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ikea-privacy-policy"
+      ],
+      "detail": "Amb empreses del grup Ingka (IKEA IT AB, IKEA Services B.V. i altres); Inter IKEA Systems només en rep dades pseudonimitzades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "ikea-privacy-policy"
+      ],
+      "detail": "La política diu que no cedeix les dades a tercers amb finalitats comercials.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ikea-privacy-policy"
+      ],
+      "detail": "Decisions d’adequació o clàusules contractuals tipus; WhatsApp implica transferències al grup Meta.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ikea-privacy-policy",
+        "ikea-app-privacy-policy"
+      ],
+      "detail": "Terminis concrets per categoria: sis anys per a compres, deu per a dades fiscals i consultes d’atenció al client, trenta dies per a la videovigilància i fins a cinc anys per a l’analítica de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "ikea-privacy-policy"
+      ],
+      "detail": "Després de la baixa es conserven les dades fiscals i l’historial d’atenció al client durant deu anys.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "historial-de-compres",
+        "period": "Sis anys",
+        "sources": [
+          "ikea-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "dades-de-pagament",
+        "period": "Deu anys, per obligació fiscal",
+        "sources": [
+          "ikea-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "interaccions-i-us",
+        "period": "Fins a cinc anys l’analítica de l’aplicació",
+        "sources": [
+          "ikea-app-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ikea-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "ikea-delete-account"
+      ],
+      "detail": "La pàgina d’ajuda diu que es pot cancel·lar la subscripció a IKEA Family des del perfil, però per eliminar el perfil i les dades remet al formulari de drets ARSOPOL.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "requiresSupportContact": true,
+    "steps": [
+      "Per donar-te de baixa d’IKEA Family, entra al perfil i cancel·la la subscripció.",
+      "Per eliminar el compte i les dades, omple el formulari de drets ARSOPOL i demana el dret de supressió.",
+      "Com a alternativa, escriu a tusdatos@ikea.com.",
+      "Guarda la confirmació de la sol·licitud."
+    ],
+    "obstacles": "La pàgina d’ajuda barreja la cancel·lació de la subscripció amb l’eliminació de les dades, que requereix una sol·licitud formal. No s’indica cap termini de tramitació.",
+    "dataRetained": "Dades fiscals i consultes d’atenció al client durant deu anys.",
+    "sources": [
+      "ikea-delete-account",
+      "ikea-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "ikea-privacy-policy"
+      ],
+      "detail": "La portabilitat es reconeix i s’exerceix amb el formulari de drets, sense eina d’autoservei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ikea-privacy-policy"
+      ],
+      "detail": "Formulari de drets ARSOPOL i delegat de protecció de dades.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:tusdatos@ikea.com",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "ikea-privacy-policy"
+      ],
+      "detail": "La publicitat personalitzada es basa en l’interès legítim: cal exercir l’oposició en lloc de donar consentiment. Les galetes es gestionen al web.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap control documentat per desactivar l’analítica dins de l’aplicació."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "ikea-app-privacy-policy"
+      ],
+      "detail": "Permís d’ubicació revocable i gestor de galetes; la resta de tractaments s’han de gestionar per oposició.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi de patrons foscos de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no ofereix comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap documentació oficial sobre el xifratge en trànsit."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública sobre el xifratge de les dades en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap opció de verificació en dos passos per al compte de client."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories ni certificacions publicades."
+    },
+    "bugBounty": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "ikea-bug-bounty"
+      ],
+      "detail": "Programa a HackerOne que inclou les aplicacions mòbils; només les vulnerabilitats crítiques i altes resoltes «poden» rebre recompensa.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://bugs.ikea.com/"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ikea-bug-bounty",
+        "ikea-security-txt"
+      ],
+      "detail": "Fitxer security.txt amb contacte i clau PGP, i divulgació pública trenta dies després de la correcció. El security.txt tenia data de caducitat del 20 de setembre de 2026.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La condemna penal d’IKEA France per espiar treballadors i clients no és una sanció del RGPD ni afecta l’aplicació, però l’hem inclosa com a context sobre el grup. Hi ha dues sancions menors a IKEA Romania (2021 i 2022) i una bretxa interna a IKEA Canada (2022) que no hem registrat com a incidents perquè no afecten el tractament a Espanya.",
+    "openQuestions": [
+      "Hi ha un botó d’autoservei per eliminar el compte a l’aplicació, o sempre cal el formulari de drets?",
+      "Es va recórrer la sanció de l’AEPD de 2019?"
+    ]
+  },
+  "appStoreBundleId": "com.ingka.ikea.app"
+}

@@ -1,0 +1,520 @@
+{
+  "slug": "clave",
+  "name": "Cl@ve",
+  "company": "agencia-tributaria",
+  "categories": [
+    "administracio-publica",
+    "autenticacio-i-seguretat"
+  ],
+  "tagline": "Identificació amb l’Administració que guarda poques dades i fa l’analítica només amb permís",
+  "summary": "L’app Cl@ve serveix per identificar-se i signar tràmits amb les administracions. Tracta dades molt sensibles, com el DNI o el NIE, el telèfon i el correu, però la política diu que només les fa servir per a aquest sistema. L’analítica de Firebase només s’activa si la persona ho autoritza. Es pot renunciar al servei des de la mateixa app, i l’app està disponible en català.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "public-service",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://sede.agenciatributaria.gob.es/",
+    "privacyPolicy": "https://sede.agenciatributaria.gob.es/Sede/politicaprivacidadappclave.html",
+    "appStore": "https://apps.apple.com/es/app/id842624380"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "clave-privacy-policy"
+    ],
+    "detail": "Cal estar registrat a Cl@ve i activar el dispositiu amb el DNI o el NIE i un codi per SMS.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": [],
+    "detail": "No hem trobat el codi publicat."
+  },
+  "publicService": {
+    "isPublicService": true,
+    "administrationLevel": "state",
+    "legalBasis": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "clave-privacy-policy",
+        "aeat-rat-clave",
+        "aeat-rat-apps-moviles"
+      ],
+      "detail": "La política diu que el tractament es basa en el consentiment i enumera les normes del servei (l’Ordre HAP/2142/2014, que crea el fitxer Cl@ve, l’Ordre PRE/1838/2014 i la Resolució de 14 de desembre del 2015) sense concretar-ne cap article. El registre d’activitats hi afegeix que l’Agència hi actua com a encarregada del tractament, i per a les aplicacions mòbils invoca l’article 6.1.a del RGPD.",
+      "verifiedAt": "2026-09-22",
+      "norm": "Ordre PRE/1838/2014, de 8 d’octubre, que publica l’Acord del Consell de Ministres de 19 de setembre del 2014 pel qual s’aprova Cl@ve"
+    },
+    "processingRegistry": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "aeat-rat-clave",
+        "aeat-rat-apps-moviles"
+      ],
+      "detail": "El registre d’activitats de tractament de l’Agència és públic i hi consten les activitats 5.13 «Registro del Sistema de Identificación Cl@ve», 5.24 «Aplicaciones móviles de la AEAT» i 5.97 «Autenticación del Sistema de Identificación Cl@ve PIN».",
+      "verifiedAt": "2026-09-22",
+      "url": "https://sede.agenciatributaria.gob.es/Sede/todas-gestiones/procedimientos-no-tributarios/tratamiento-datos-personales/tratamiento-datos-personales/informacion-interesado-sobre-proteccion-datos/5-registro-actividades-tratamiento.html"
+    },
+    "dpia": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat publicada cap avaluació d’impacte relativa a la protecció de dades del sistema Cl@ve ni de l’app."
+    },
+    "ensConformity": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "clave-privacy-policy",
+        "aeat-medidas-seguridad"
+      ],
+      "detail": "La política de l’app diu que s’apliquen les mesures que exigeix el Reial decret 311/2022 i la informació de protecció de dades descriu un sistema de gestió de la seguretat conforme a l’ENS, però no hem trobat publicada cap declaració ni certificació de conformitat amb la categoria del sistema.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dpo": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "clave-privacy-policy"
+      ],
+      "detail": "La política identifica el delegat de protecció de dades de l’Agència amb adreça de contacte.",
+      "verifiedAt": "2026-09-22",
+      "contact": "dpd@correo.aeat.es"
+    },
+    "offlineAlternative": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "clave-privacy-policy",
+        "clave-renunciar"
+      ],
+      "detail": "Les gestions de Cl@ve es presten igual des de la seu electrònica de l’Agència o de la Seguretat Social sense l’app, i el registre a Cl@ve i la renúncia també es poden fer presencialment a les oficines de registre.",
+      "verifiedAt": "2026-09-22"
+    },
+    "accessibilityStatement": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "aeat-declaracion-accesibilidad"
+      ],
+      "detail": "La seu electrònica es declara parcialment conforme amb el Reial decret 1112/2018, amb declaració del 23 de gener del 2025 revisada el 6 d’octubre del 2025, però només cobreix els webs: no hi ha declaració d’accessibilitat de l’app.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://sede.agenciatributaria.gob.es/Sede/condiciones-uso-sede-electronica/accesibilidad/declaracion-accesibilidad.html"
+    },
+    "mandatoryRetention": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "clave-renunciar",
+        "clave-privacy-policy"
+      ],
+      "detail": "Cap norma obliga a mantenir-se registrat a Cl@ve: s’hi pot renunciar des de l’app o des de la seu electrònica, i les dades desades al mòbil s’esborren amb «desactivar dispositivo».",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataSummary": "Les dades identifiquen la persona de manera inequívoca i donen accés a les seves gestions amb l’Administració: impostos, Seguretat Social, salut. El risc principal és la usurpació d’identitat, més que la publicitat.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "clave-privacy-policy"
+      ]
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "clave-privacy-policy"
+      ],
+      "note": "DNI o NIE amb la data de validesa o el número de suport. Es desa al dispositiu fins que es desactiva."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "clave-privacy-policy",
+        "clave-app-store"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "clave-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "clave-app-store"
+      ]
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "clave-privacy-policy"
+      ],
+      "note": "Sistema operatiu i model."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "clave-privacy-policy",
+        "clave-app-store"
+      ],
+      "note": "Per a les notificacions de Firebase Cloud Messaging (Google), si s’activen."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "clave-privacy-policy"
+      ],
+      "note": "Firebase Analytics, només si s’autoritza en obrir l’app o a «Condiciones y políticas»."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "clave-privacy-policy"
+      ],
+      "note": "Registres d’errors a Firebase Crashlytics."
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "clave-privacy-policy"
+      ],
+      "note": "L’app exigeix un factor de desbloqueig del dispositiu, com l’empremta o la cara, però el gestiona el sistema operatiu."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "clave-app-store"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "clave-app-store",
+        "clave-privacy-policy"
+      ],
+      "detail": "L’app no demana permisos addicionals i l’etiqueta no declara rastreig.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "clave-privacy-policy"
+      ],
+      "detail": "Firebase Analytics, opcional, i Crashlytics, de Google.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "clave-privacy-policy"
+      ],
+      "detail": "Les dades s’utilitzen exclusivament per al sistema Cl@ve.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "clave-privacy-policy"
+      ],
+      "detail": "No es cedeixen llevat d’obligació legal; Google intervé com a proveïdor de Firebase.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Organisme públic sense grup empresarial. Algunes gestions passen per la Gerència d’Informàtica de la Seguretat Social.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "clave-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu on tracta Google les dades de Firebase."
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "clave-privacy-policy"
+      ],
+      "detail": "Al dispositiu, mentre el DNI o el NIE hi estigui actiu; per a la resta remet a la informació general de l’Agència.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta què conserva l’Agència després de renunciar a Cl@ve."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "clave-renunciar"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "clave-renunciar"
+      ],
+      "detail": "Des de l’app o des de la seu electrònica amb certificat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "easy",
+    "requiresSupportContact": false,
+    "steps": [
+      "Obre l’app i ves a Gestiones > Mis datos en Cl@ve.",
+      "Tria «Renunciar a Cl@ve» i desbloqueja amb el factor del dispositiu.",
+      "Accepta les condicions i desa el justificant en PDF.",
+      "Per esborrar només les dades del mòbil, fes servir «Desactivar dispositivo»."
+    ],
+    "obstacles": "Per tornar-s’hi a registrar cal videoidentificació, certificat electrònic o anar-hi en persona.",
+    "sources": [
+      "clave-renunciar",
+      "clave-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "clave-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dpd@correo.aeat.es"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’app no mostra publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "clave-privacy-policy"
+      ],
+      "detail": "L’analítica és opcional i es pot canviar a «Condiciones y políticas».",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "clave-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "protective",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No és un servei de comunicacions entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "clave-privacy-policy"
+      ],
+      "detail": "L’activació exigeix un codi per SMS i l’ús, el factor de desbloqueig del dispositiu. L’app és en si mateixa un segon factor per a Cl@ve.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "sms"
+      ]
+    },
+    "independentAudits": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "aeat-medidas-seguridad",
+        "clave-privacy-policy"
+      ],
+      "detail": "Sistema de gestió de la seguretat conforme a l’Esquema Nacional de Seguretat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap canal públic de comunicació de vulnerabilitats."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "El desembre del 2024 un grup de ransomware va afirmar que havia robat dades de l’Agència Tributària, i el febrer del 2026 va circular una altra suposada filtració. L’Agència ho va desmentir i no hi ha confirmació independent, de manera que no ho registrem com a incident.",
+    "openQuestions": [
+      "Quines dades conserva l’Agència després de renunciar a Cl@ve, i durant quant de temps?"
+    ]
+  },
+  "appStoreBundleId": "es.aeat.pin24h"
+}

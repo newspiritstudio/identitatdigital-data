@@ -1,0 +1,482 @@
+{
+  "slug": "wetteronline",
+  "name": "Tiempo & Radar (WetterOnline)",
+  "company": "wetteronline",
+  "categories": [
+    "meteorologia"
+  ],
+  "tagline": "Aplicació del temps amb més de dos-cents socis publicitaris i un procediment sancionador obert per l’ús de la ubicació",
+  "summary": "És la versió espanyola de l’aplicació alemanya WetterOnline. La versió gratuïta mostra publicitat i la política llista més de dos-cents socis que poden rebre l’adreça IP, l’identificador publicitari i dades del dispositiu. L’autoritat de protecció de dades de Rin del Nord-Westfàlia ha obert un procediment sancionador per haver fet servir durant anys la ubicació per a publicitat sense un consentiment vàlid.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "advertising",
+  "jurisdiction": "Alemanya",
+  "links": {
+    "website": "https://www.tiempoyradar.es/",
+    "privacyPolicy": "https://www.tiempoyradar.es/apps/ios/privacy",
+    "terms": "https://www.tiempoyradar.es/apps/ios/terms-of-use",
+    "appStore": "https://apps.apple.com/es/app/id545993260"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "wetteronline-privacy-app-es"
+    ],
+    "detail": "La política no preveu cap registre; la versió sense anuncis només guarda un identificador del dispositiu i la data de compra.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "wetteronline-privacy-app-es"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "La ubicació de la cel·la mòbil o del GPS i l’identificador publicitari, compartits amb centenars d’empreses de publicitat, permeten reconstruir desplaçaments. Segons netzpolitik.org, dades de localització vinculades a l’aplicació van aparèixer en conjunts de dades venuts per intermediaris.",
+  "dataCollection": [
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "wetteronline-app-store",
+        "wetteronline-privacy-app-es"
+      ],
+      "note": "Si es dona permís, s’envien la cel·la mòbil i les coordenades GPS. L’etiqueta la declara només per al funcionament i no vinculada."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts",
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "wetteronline-app-store"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "wetteronline-privacy-app-es"
+      ],
+      "note": "Els socis publicitaris, Google Analytics, Firebase i l’SDK de Facebook reben l’identificador publicitari."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "wetteronline-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "wetteronline-app-store"
+      ],
+      "note": "L’etiqueta declara un «ID d’usuari» per rastrejar, tot i que no hi ha compte."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "wetteronline-app-store",
+        "wetteronline-privacy-app-es"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "wetteronline-privacy-app-es"
+      ]
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "wetteronline-privacy-app-es"
+      ],
+      "note": "Sistema operatiu, versió, codi de dispositiu i idioma."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "wetteronline-privacy-app-es"
+      ],
+      "note": "Firebase recull edat, gènere i interessos; Google Analytics hi afegeix dades sociodemogràfiques."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "wetteronline-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "wetteronline-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wetteronline-app-store"
+      ],
+      "detail": "L’etiqueta declara identificadors, dades d’ús i de rendiment com a dades per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wetteronline-privacy-app-es"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wetteronline-privacy-app-es"
+      ],
+      "detail": "Google Analytics, Firebase, SDK de Facebook, AppsFlyer, Batch i més de dos-cents socis publicitaris del marc IAB.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wetteronline-privacy-app-es"
+      ],
+      "detail": "La versió gratuïta mostra publicitat basada en l’ús.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wetteronline-privacy-app-es"
+      ],
+      "detail": "Dades sociodemogràfiques i d’interessos a través de Firebase i de les funcions publicitàries de Google Analytics.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu res sobre l’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wetteronline-privacy-app-es"
+      ],
+      "detail": "Llista de més de dos-cents socis publicitaris i proveïdors d’analítica.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap grup empresarial."
+    },
+    "dataBrokerSales": {
+      "status": "partial",
+      "level": "press",
+      "sources": [
+        "wetteronline-netzpolitik-2026"
+      ],
+      "detail": "L’empresa no diu que vengui dades, però l’autoritat investiga la cessió de la ubicació a tercers per a publicitat, i dades de localització vinculades a l’aplicació van aparèixer en conjunts d’intermediaris.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wetteronline-privacy-app-es"
+      ],
+      "detail": "Google Analytics i AppsFlyer, als Estats Units. La política encara esmenta l’Escut de Privadesa, anul·lat el 2020.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "wetteronline-privacy-app-es"
+      ],
+      "detail": "La política de l’aplicació no fixa terminis de conservació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha compte; no consta què passa amb les dades que tenen els socis publicitaris."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no té comptes d’usuari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha compte per eliminar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "easy",
+    "requiresSupportContact": false,
+    "steps": [
+      "Al final de la declaració de privadesa dins de l’aplicació, desactiva «Enviar datos de uso anónimos» per aturar Google Analytics, Firebase, Facebook i AppsFlyer.",
+      "Revoca els anuncis personalitzats des de la configuració de privadesa de l’aplicació.",
+      "Per esborrar dades, escriu a datenschutz@wetteronline.de."
+    ],
+    "obstacles": "Les dades cedides als socis publicitaris s’han de reclamar a cadascun d’ells.",
+    "sources": [
+      "wetteronline-privacy-app-es"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "wetteronline-privacy-app-es"
+      ],
+      "detail": "Portabilitat reconeguda, a petició.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wetteronline-privacy-app-es"
+      ],
+      "detail": "Adreça de protecció de dades i reclamació davant l’autoritat de Rin del Nord-Westfàlia.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:datenschutz@wetteronline.de"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wetteronline-privacy-app-es"
+      ],
+      "detail": "Es pot revocar la publicitat personalitzada des de la configuració de privadesa de l’aplicació (plataforma de consentiment de l’IAB).",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wetteronline-privacy-app-es"
+      ],
+      "detail": "Opció «Enviar datos de uso anónimos» per aturar l’analítica i l’atribució publicitària.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "wetteronline-privacy-app-es"
+      ],
+      "detail": "Consentiment per soci publicitari i interruptor d’analítica.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "press",
+      "sources": [
+        "wetteronline-netzpolitik-2026"
+      ],
+      "detail": "Segons l’autoritat, durant anys l’empresa no va obtenir un consentiment vàlid per a l’ús publicitari de la ubicació.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Servei d’informació meteorològica; no hi ha comunicació privada entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació tècnica sobre el xifratge en trànsit de l’aplicació."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha informació sobre el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no té comptes d’usuari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap canal de notificació de vulnerabilitats."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "windy-com",
+      "comparability": "partial",
+      "rationale": "Previsions i radar amb una etiqueta de l’App Store que no declara cap dada vinculada ni cap rastreig.",
+      "tradeOffs": "Interfície més tècnica i menys pensada per a una consulta ràpida."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "L’etiqueta de l’App Store declara la ubicació exacta com a no vinculada i només per al funcionament, mentre que l’autoritat alemanya investiga l’ús publicitari de la ubicació. Segons netzpolitik.org, l’empresa va deixar de recollir la ubicació precisa per a publicitat després de la intervenció de l’autoritat.",
+    "openQuestions": [
+      "Quin serà l’import i el resultat del procediment sancionador de l’autoritat de Rin del Nord-Westfàlia?"
+    ]
+  },
+  "appStoreBundleId": "de.wetteronline.WetterApp"
+}

@@ -1,0 +1,409 @@
+{
+  "slug": "yobalia",
+  "name": "Yobalia",
+  "company": "mama-marketing",
+  "categories": [
+    "feina-i-ocupacio"
+  ],
+  "tagline": "Portal d’ofertes amb publicitat i una política de privadesa de mitja pàgina que admet anuncis segons l’historial de navegació",
+  "summary": "Yobalia és un portal d’ofertes de feina d’una petita empresa de màrqueting de Móstoles. L’App Store declara la categoria «Otros datos» entre les dades utilitzades per rastrejar i indica que l’aplicació conté publicitat. La política de privadesa és molt breu: diu que mostra publicitat adaptada als gustos segons l’historial de navegació i que cedeix les dades a les empreses que publiquen les ofertes, però no identifica cap tercer, cap termini ni cap mecanisme de transferència internacional.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "advertising",
+  "jurisdiction": "Espanya (Mama Marketing, S.L., Móstoles)",
+  "links": {
+    "website": "https://www.yobalia.com/",
+    "privacyPolicy": "https://www.yobalia.com/es/politica-de-privacidad",
+    "appStore": "https://apps.apple.com/es/app/id1555711021",
+    "playStore": "https://play.google.com/store/apps/details?id=com.mamamarketing.yobalia"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "yobalia-privacy-policy"
+    ],
+    "detail": "Cal un compte amb zona privada per inscriure’s a les ofertes i per exercir els drets.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "yobalia-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Les dades que demana un portal d’ofertes (identificació, contacte i perfil professional) i, segons la mateixa política, l’historial de navegació per adaptar-hi la publicitat. L’etiqueta de l’App Store no declara ni el nom ni el correu, tot i que el servei els necessita per funcionar, de manera que és incompleta.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "cessio-a-tercers"
+      ],
+      "sources": [
+        "yobalia-privacy-policy"
+      ],
+      "note": "Es comunica a les empreses que publiquen les ofertes. L’etiqueta de l’App Store no declara aquesta dada."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "cessio-a-tercers"
+      ],
+      "sources": [
+        "yobalia-privacy-policy"
+      ]
+    },
+    {
+      "type": "ocupacio-i-carrec",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "cessio-a-tercers"
+      ],
+      "sources": [
+        "yobalia-privacy-policy"
+      ],
+      "note": "El perfil professional és el que es fa arribar a les empreses ofertants."
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "yobalia-privacy-policy"
+      ],
+      "note": "La política diu literalment que mostra publicitat adaptada als gustos segons l’historial de navegació."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "yobalia-app-store"
+      ],
+      "note": "L’etiqueta el declara com a dada no vinculada amb la identitat, per a la funcionalitat de l’aplicació."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "yobalia-privacy-policy"
+      ],
+      "note": "La política diu que estudia el comportament dels usuaris per millorar els serveis."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "yobalia-app-store",
+        "yobalia-privacy-policy"
+      ],
+      "note": "L’etiqueta declara la categoria «Otros datos» entre les dades utilitzades per rastrejar; és la que correspon a aquesta publicitat per gustos."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "yobalia-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store declara «Otros datos» entre les dades que poden servir per rastrejar en aplicacions i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’etiqueta no declara l’identificador publicitari i la política no l’esmenta, tot i que l’aplicació conté publicitat."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "yobalia-app-store",
+        "yobalia-privacy-policy"
+      ],
+      "detail": "La fitxa de l’App Store indica que l’aplicació conté publicitat i la política parla de publicitat segons l’historial de navegació, però no identifica cap xarxa publicitària.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "yobalia-privacy-policy"
+      ],
+      "detail": "La política declara que mostra publicitat adaptada als gustos de la persona a partir de l’historial de navegació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "yobalia-privacy-policy"
+      ],
+      "detail": "Estudia el comportament dels usuaris i n’infereix gustos per a la publicitat, però no descriu cap perfilat formal ni decisions automatitzades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta cap ús de les dades per entrenar models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "yobalia-privacy-policy"
+      ],
+      "detail": "Empreses que publiquen les ofertes, proveïdors tecnològics i autoritats competents per obligació legal. No n’identifica cap.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta cap grup empresarial ni societats vinculades."
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta la venda de dades a intermediaris."
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu res sobre transferències internacionals ni sobre on són els servidors."
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència; és una empresa petita i no seria habitual."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "yobalia-privacy-policy"
+      ],
+      "detail": "La política no dona cap termini: conserva les dades mentre duri la relació, fins que se’n demani la supressió i mentre calgui per obligacions legals.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "yobalia-privacy-policy"
+      ],
+      "detail": "Després de la supressió es conserven les dades necessàries per complir obligacions legals, sense concretar quines ni durant quant de temps.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "yobalia-privacy-policy"
+      ],
+      "detail": "La política reconeix el dret de supressió i descriu una opció de baixa definitiva.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "yobalia-privacy-policy"
+      ],
+      "detail": "Des de la secció «Mi cuenta» de la zona privada, amb una opció de supressió definitiva.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "easy",
+    "steps": [
+      "Inicia sessió a la zona privada de Yobalia amb l’usuari i la contrasenya.",
+      "Obre la secció «Mi cuenta».",
+      "Prem l’opció de supressió definitiva del compte i confirma-ho.",
+      "Si l’opció no funciona, escriu a info@yobalia.com demanant la supressió."
+    ],
+    "dataRetained": "Les dades que calgui conservar per obligacions legals, no especificades.",
+    "sources": [
+      "yobalia-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "yobalia-privacy-policy"
+      ],
+      "detail": "La política reconeix el dret de portabilitat, però no hi ha cap eina d’exportació: cal demanar-ho per correu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "yobalia-privacy-policy"
+      ],
+      "detail": "Des de la zona privada o per correu a info@yobalia.com. La política no designa cap delegat de protecció de dades.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap manera de desactivar la publicitat adaptada als gustos."
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap opció per desactivar l’anàlisi de comportament."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap panell de preferències de privadesa."
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem analitzat els formularis de registre i consentiment de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És un portal d’ofertes de feina, sense comunicacions privades xifrades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap mesura tècnica concreta."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública sobre el xifratge de les dades en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap opció de verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat auditories ni certificacions de seguretat."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa públic de recompenses per vulnerabilitats."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap canal públic per notificar vulnerabilitats."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "infojobs",
+      "comparability": "equivalent",
+      "rationale": "Portal d’ofertes generalista amb una política de privadesa molt més detallada.",
+      "tradeOffs": "Pertany a un grup més gran i amb més capacitat de creuament de dades."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La política de privadesa de Yobalia ocupa poc més d’una pantalla i no identifica destinataris, terminis ni transferències. L’etiqueta de l’App Store tampoc declara el nom ni el correu, que el servei necessita per funcionar. Per això la fitxa s’ha construït sobretot a partir de la política, i l’etiqueta serveix per confirmar el rastreig i la presència de publicitat. No hem trobat cap incident documentat.",
+    "openQuestions": [
+      "Quina xarxa publicitària serveix els anuncis de l’aplicació i quines dades hi arriben?",
+      "Per què l’etiqueta de l’App Store no declara el nom ni el correu electrònic si el registre els demana?",
+      "On són allotjades les dades i hi ha transferències fora de l’Espai Econòmic Europeu?"
+    ]
+  },
+  "appStoreBundleId": "com.mamamarketing.yobalia"
+}

@@ -1,0 +1,586 @@
+{
+  "slug": "myinvestor",
+  "name": "MyInvestor",
+  "company": "myinvestor-banco",
+  "categories": [
+    "banca-i-finances"
+  ],
+  "tagline": "Cap dada declarada per rastrejar, però trenta anys de conservació i cap explicació de les decisions automàtiques",
+  "summary": "MyInvestor és el banc digital del grup Andbank. L’etiqueta de l’App Store no declara cap dada utilitzada per rastrejar. En canvi, la política de protecció de dades no té cap apartat sobre decisions individuals automatitzades, tot i que consulta la CIRBE i ASNEF per avaluar la solvència, i fixa terminis de conservació que arriben als trenta anys.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "subscription",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://myinvestor.es/",
+    "privacyPolicy": "https://cdn.myinvestor.es/public/legal/politica-de-proteccion-de-datos.pdf",
+    "appStore": "https://apps.apple.com/es/app/id1587906669"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "myinvestor-legal"
+    ],
+    "detail": "És un banc supervisat pel Banc d’Espanya i la CNMV: cal obrir-hi compte.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "myinvestor-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Un banc d’inversió veu la nòmina, el perfil inversor, els deutes, les despeses i fins i tot on es retira efectiu o es paga amb targeta. Les dades de localització de les operacions mostren per on es mou la persona, i poques aplicacions les demanen de manera explícita.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "myinvestor-privacy-policy",
+        "myinvestor-app-store"
+      ]
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "myinvestor-privacy-policy"
+      ]
+    },
+    {
+      "type": "origen-etnic-o-nacionalitat",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal"
+      ],
+      "sources": [
+        "myinvestor-privacy-policy"
+      ],
+      "note": "La nacionalitat es recull per a les obligacions fiscals i de prevenció del blanqueig, no per a cap finalitat comercial."
+    },
+    {
+      "type": "situacio-familiar",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "myinvestor-privacy-policy"
+      ]
+    },
+    {
+      "type": "ocupacio-i-carrec",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "myinvestor-privacy-policy"
+      ],
+      "note": "Informació laboral, professional i acadèmica, contrastada amb la Seguretat Social i l’Agència Tributària."
+    },
+    {
+      "type": "nivell-d-ingressos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "myinvestor-privacy-policy"
+      ],
+      "note": "Perfil inversor, historial creditici, deutes i despeses; es consulta la CIRBE i ASNEF."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "myinvestor-privacy-policy",
+        "myinvestor-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "myinvestor-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "myinvestor-privacy-policy"
+      ],
+      "note": "La política enumera expressament les dades de localització de les retirades d’efectiu i dels pagaments amb targeta."
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari",
+        "compliment-legal"
+      ],
+      "sources": [
+        "myinvestor-privacy-policy"
+      ],
+      "note": "Converses telefòniques enregistrades i videovigilància."
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "myinvestor-privacy-policy"
+      ],
+      "note": "Per a la signatura i l’obertura de comptes a distància."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "myinvestor-app-store"
+      ]
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "myinvestor-privacy-policy"
+      ],
+      "note": "Perfils comercials i de risc de crèdit estimat, per interès legítim."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "myinvestor-privacy-policy",
+        "myinvestor-app-store"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "myinvestor-privacy-policy"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "myinvestor-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "myinvestor-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "myinvestor-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada utilitzada per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "myinvestor-app-store"
+      ],
+      "detail": "Hi ha «dades de publicitat» declarades com a no vinculades a la persona, però cap identificador publicitari per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "myinvestor-privacy-policy"
+      ],
+      "detail": "La política esmenta galetes i identificadors de dispositiu entre les categories tractades.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "myinvestor-privacy-policy"
+      ],
+      "detail": "Comunicacions comercials pròpies i cessió a societats del grup Andbank per a ofertes personalitzades, amb consentiment o interès legítim segons el cas.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "myinvestor-privacy-policy"
+      ],
+      "detail": "Perfilat amb dades facilitades, generades, comportament transaccional històric i risc de crèdit estimat, per a finalitats comercials i d’anàlisi de risc.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta la intel·ligència artificial ni l’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "myinvestor-privacy-policy"
+      ],
+      "detail": "CIRBE del Banc d’Espanya, ASNEF, Bizum, sistemes comuns d’intercanvi de conductes fraudulentes i el registre de pagaments fraudulents d’EBA Clearing, administracions i autoritats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "myinvestor-privacy-policy"
+      ],
+      "detail": "Societats del grup Andbank, també per enviar comunicacions comercials personalitzades d’altres entitats del grup.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu si cedeix dades a intermediaris de dades."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "myinvestor-privacy-policy"
+      ],
+      "detail": "Cessions al grup Andbank en països sense nivell de protecció equivalent, amb anàlisi de risc i clàusules contractuals tipus de la Comissió Europea, la còpia de les quals es pot demanar al delegat de protecció de dades.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "myinvestor-privacy-policy"
+      ],
+      "detail": "La política dona terminis concrets: deu anys per prevenció del blanqueig, vint per a operacions amb garantia hipotecària en escriptura pública i fins a trenta per la prescripció de les accions civils.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "myinvestor-privacy-policy"
+      ],
+      "detail": "Un cop acabada la relació, les dades es conserven bloquejades durant aquests terminis, i el banc es reserva tractar-les per tornar a oferir productes si s’hi ha consentit.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "document-identificatiu-oficial",
+        "period": "10 anys des de la fi de la relació de negoci, per prevenció del blanqueig",
+        "sources": [
+          "myinvestor-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "historial-de-compres",
+        "period": "20 anys per a operacions amb garantia hipotecària formalitzades en escriptura pública",
+        "sources": [
+          "myinvestor-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "identificador-de-compte",
+        "period": "Fins a 30 anys segons la prescripció de les accions del Codi civil",
+        "sources": [
+          "myinvestor-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "myinvestor-privacy-policy"
+      ],
+      "detail": "Es pot cancel·lar la relació i exercir el dret de supressió, però les dades queden bloquejades durant els terminis legals.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap document oficial que descrigui com es tanca el compte; les preguntes freqüents es carreguen amb JavaScript i no s’han pogut llegir."
+    },
+    "difficulty": "unknown",
+    "requiresSupportContact": true,
+    "steps": [
+      "Traspassa o ven les posicions d’inversió i deixa els comptes a zero.",
+      "Demana la cancel·lació per l’atenció al client del banc.",
+      "Escriu a dpo@myinvestor.es per exercir el dret de supressió i, si vols, oposar-te a rebre ofertes posteriors."
+    ],
+    "obstacles": "La política preveu expressament seguir tractant les dades per tornar a oferir productes propis, del grup o de tercers col·laboradors un cop acabada la relació.",
+    "dataRetained": "Dades bloquejades durant deu, vint o fins a trenta anys segons la categoria i el producte.",
+    "sources": [
+      "myinvestor-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "myinvestor-privacy-policy"
+      ],
+      "detail": "La portabilitat es reconeix, però la política adverteix, citant el criteri de l’AEPD, que les dades inferides i derivades no en són objecte: els resultats dels seus algorismes queden fora.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "myinvestor-privacy-policy"
+      ],
+      "detail": "Delegat de protecció de dades propi, amb adreça electrònica i postal.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dpo@myinvestor.es"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "myinvestor-privacy-policy"
+      ],
+      "detail": "L’oposició a les comunicacions comercials es pot fer en el moment de signar el contracte o en qualsevol altre moment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap control per desactivar l’analítica de l’aplicació."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap panell de preferències de privadesa documentat dins de l’aplicació."
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi de patrons foscos de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no transporta comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "myinvestor-privacy-policy"
+      ],
+      "detail": "La política cita la pseudonimització i el xifratge de dades personals com a mesures de l’article 32, sense concretar-ne la implementació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública sobre el xifratge de les dades en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació oficial sobre la verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten certificacions de seguretat publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El domini no publica cap fitxer security.txt vàlid: la consulta acaba en una pàgina d’error."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La política adverteix, citant l’AEPD, que el dret de portabilitat exclou les dades «inferides» i «derivades». Per tant, el perfil que el banc construeix sobre una persona no és una dada que aquesta es pugui emportar.",
+    "openQuestions": [
+      "Hi ha decisions individuals automatitzades de l’article 22 del RGPD? La política no en documenta cap, tot i que hi ha avaluació de solvència.",
+      "Com es tanca el compte i quant triga?"
+    ]
+  },
+  "appStoreBundleId": "com.myinvestor.es"
+}

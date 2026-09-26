@@ -1,0 +1,605 @@
+{
+  "slug": "cetelem",
+  "name": "Cetelem",
+  "company": "banco-cetelem",
+  "categories": [
+    "banca-i-finances"
+  ],
+  "tagline": "Una denegació de crèdit pot ser definitiva sense que hi intervingui cap persona",
+  "summary": "Cetelem és la marca de crèdit al consum de BNP Paribas Personal Finance a Espanya. L’avís de protecció de dades és explícit: diu que, si el sistema de puntuació respon amb un rebuig directe, l’operació es dona per rebutjada sense intervenció humana posterior. Consulta la CIRBE, ASNEF i BADEXCUG, i fins a cinc fitxers antifrau, i el perfil comercial avançat pot arribar a set anys d’històric.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "subscription",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://www.cetelem.es/",
+    "privacyPolicy": "https://www.cetelem.es/proteccion-de-datos",
+    "appStore": "https://apps.apple.com/es/app/id1246674535"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "cetelem-privacy-policy"
+    ],
+    "detail": "L’aplicació és l’espai de client d’un contracte de crèdit o d’una targeta ja signats.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "cetelem-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Les dades transaccionals inclouen l’import, la data, l’hora, el tipus d’operació i qui n’és el beneficiari, és a dir, què es compra, quan i a qui es paga. Amb aquestes dades es construeix un perfil comercial de fins a set anys d’històric, que es fa servir per oferir productes de socis de sectors aliens al crèdit.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "cetelem-privacy-policy"
+      ]
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "cetelem-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "cetelem-privacy-policy",
+        "cetelem-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "cetelem-privacy-policy",
+        "cetelem-app-store"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "cetelem-privacy-policy",
+        "cetelem-app-store"
+      ],
+      "note": "La política preveu comunicacions comercials per SMS, MMS, correu, WhatsApp o xarxes socials."
+    },
+    {
+      "type": "situacio-familiar",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "cetelem-privacy-policy"
+      ]
+    },
+    {
+      "type": "ocupacio-i-carrec",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "cetelem-privacy-policy"
+      ]
+    },
+    {
+      "type": "nivell-d-ingressos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "cetelem-privacy-policy"
+      ],
+      "note": "Les dades econòmiques es contrasten amb la CIRBE del Banc d’Espanya, ASNEF i BADEXCUG."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "cetelem-privacy-policy",
+        "cetelem-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "cetelem-privacy-policy"
+      ],
+      "note": "Moviments, saldos, imports, dates, hores i dades de les persones beneficiàries de cada operació."
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "cetelem-privacy-policy"
+      ],
+      "note": "Només si es contracten assegurances vinculades al crèdit."
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari",
+        "compliment-legal"
+      ],
+      "sources": [
+        "cetelem-privacy-policy"
+      ],
+      "note": "Converses telefòniques enregistrades, xats i converses amb el chat-bot."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "cetelem-app-store"
+      ],
+      "note": "L’etiqueta declara fotos o vídeos vinculats a la persona per a la funcionalitat de l’aplicació."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "cetelem-app-store"
+      ],
+      "note": "És l’única categoria declarada com a utilitzada per rastrejar."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "cetelem-app-store",
+        "cetelem-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "cetelem-app-store"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "cetelem-privacy-policy"
+      ],
+      "note": "Les dades de navegació es cedeixen a xarxes socials perquè mostrin anuncis segons el perfil."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "cetelem-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cetelem-app-store"
+      ],
+      "detail": "L’etiqueta declara els identificadors com a dades utilitzades per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cetelem-privacy-policy",
+        "cetelem-app-store"
+      ],
+      "detail": "Cessió de dades de navegació a xarxes socials per mostrar anuncis segons el perfil.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cetelem-privacy-policy"
+      ],
+      "detail": "La política de cookies preveu rastrejadors publicitaris de tercers.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cetelem-privacy-policy"
+      ],
+      "detail": "Ofertes pròpies i de «socis de confiança» de sectors tan diversos com l’automoció, l’energia, el tèxtil o les reformes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cetelem-privacy-policy"
+      ],
+      "detail": "Perfil comercial avançat amb fins a set anys d’històric, puntuació de risc creditici i puntuació automàtica de prevenció del blanqueig.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’avís de protecció de dades no esmenta l’entrenament de models ni l’aprenentatge automàtic."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cetelem-privacy-policy"
+      ],
+      "detail": "Sistemes d’informació creditícia (CIRBE, ASNEF, BADEXCUG), fitxers antifrau (Confirma, Hunter, FraudNet, Redsys, Iberpay), asseguradores, concessionaris, contact centers i compradors de carteres de deute.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cetelem-privacy-policy"
+      ],
+      "detail": "Entitats del grup BNP Paribas, també per a l’intercanvi d’informació de prevenció del blanqueig, anticorrupció i sancions internacionals.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "cetelem-privacy-policy"
+      ],
+      "detail": "No hi ha venda de dades per a màrqueting, però sí cessió a empreses de compra de carteres de deute.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cetelem-privacy-policy"
+      ],
+      "detail": "Decisió d’adequació quan n’hi ha; si no, clàusules contractuals tipus, normes corporatives vinculants o les excepcions de l’article 49.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cetelem-privacy-policy"
+      ],
+      "detail": "Durada del contracte més deu anys per a les dades de les operacions, vint anys si hi ha dipòsits abandonats en comptes tancats, i deu anys de bloqueig per la Llei 10/2010.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cetelem-privacy-policy"
+      ],
+      "detail": "Les dades queden bloquejades i només es tracten per atendre autoritats durant els terminis legals.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "historial-de-compres",
+        "period": "10 anys des de la fi de la relació contractual",
+        "sources": [
+          "cetelem-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "document-identificatiu-oficial",
+        "period": "10 anys de bloqueig per la Llei 10/2010 de prevenció del blanqueig",
+        "sources": [
+          "cetelem-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "cetelem-privacy-policy"
+      ],
+      "detail": "Es pot resoldre el contracte, però l’esborrament de les dades està limitat pels terminis legals i el dret d’accés a les dades de prevenció del blanqueig s’ha d’exercir a través de l’AEPD.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "cetelem-contacte"
+      ],
+      "detail": "No hi ha cap opció de baixa a l’aplicació: cal fer servir el formulari de sol·licituds de la zona de client, el telèfon o el correu registrat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "hard",
+    "requiresSupportContact": true,
+    "steps": [
+      "Liquida el saldo pendent del crèdit o de la targeta.",
+      "Entra a la zona de client, a l’aplicació o al web, i envia la sol·licitud de baixa pel formulari de sol·licituds.",
+      "La petició ha d’arribar des de la mateixa adreça electrònica registrada al contracte.",
+      "Per exercir els drets de protecció de dades, escriu a dpo@cetelem.es adjuntant còpia del document d’identitat."
+    ],
+    "obstacles": "Cal adjuntar còpia del DNI per exercir qualsevol dret, i l’accés a les dades tractades per prevenció del blanqueig només es pot demanar a través de l’Agència Espanyola de Protecció de Dades.",
+    "dataRetained": "Dades de les operacions durant deu anys, vint si hi ha dipòsits abandonats, i impagaments als fitxers de solvència segons la LOPDGDD.",
+    "sources": [
+      "cetelem-privacy-policy",
+      "cetelem-contacte"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "cetelem-privacy-policy"
+      ],
+      "detail": "La portabilitat es reconeix en format estructurat i de lectura mecànica, però s’ha de demanar per correu i amb còpia del document d’identitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "cetelem-privacy-policy"
+      ],
+      "detail": "Hi ha delegat de protecció de dades, però l’exigència de còpia del DNI i el desviament del dret d’accés a l’AEPD per a les dades de blanqueig hi posen fricció.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dpo@cetelem.es"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "cetelem-privacy-policy"
+      ],
+      "detail": "Les comunicacions comercials i la cessió a socis depenen del consentiment i es poden revocar, però no hi ha cap panell dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap control per desactivar l’analítica de l’aplicació."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’avís no documenta cap panell de preferències de privadesa dins de l’aplicació."
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi de patrons foscos de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no transporta comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap documentació oficial sobre el xifratge en trànsit de l’aplicació."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública sobre el xifratge de les dades en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació oficial sobre la verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories ni certificacions publicades per a Cetelem Espanya."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses de Cetelem Espanya."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha fitxer security.txt a cetelem.es ni cap canal públic documentat."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "L’annex de puntuació diu que el rebuig directe es dona per definitiu «sense intervenció humana posterior»; poques entitats espanyoles ho escriuen tan clarament. El cas sancionat el 2024, en què van cobrar mesos el deute d’un desconegut al compte d’una altra persona, mostra el cost pràctic d’aquesta automatització.",
+    "openQuestions": [
+      "Quina és la data de vigència de l’avís de protecció de dades? El document no en porta cap.",
+      "Quin és el procediment oficial i el termini per donar de baixa una targeta?"
+    ]
+  },
+  "appStoreBundleId": "com.cetelem.HomeBanking"
+}

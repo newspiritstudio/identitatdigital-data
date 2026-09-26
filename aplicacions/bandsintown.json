@@ -1,0 +1,518 @@
+{
+  "slug": "bandsintown",
+  "name": "Bandsintown Concerts",
+  "company": "bandsintown-group",
+  "categories": [
+    "musica-i-audio",
+    "xarxes-socials"
+  ],
+  "tagline": "Per avisar-te dels concerts connecta l’Spotify, el calendari i la ubicació exacta, i deixa que els artistes facin servir les teves dades",
+  "summary": "Bandsintown avisa dels concerts dels artistes que escoltes. Per fer-ho vincula comptes de Spotify o de Facebook, llegeix els gustos musicals, demana la ubicació per filtrar els concerts a un radi de milles i, si confirmes assistència, es pot sincronitzar amb el calendari. La política diu que els artistes i els seus equips poden fer servir les dades personals de qui els segueix. Les dades s’allotgen als Estats Units sota el Data Privacy Framework i els drets s’exerceixen amb un formulari.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "advertising",
+  "jurisdiction": "Estats Units (Data Privacy Framework)",
+  "links": {
+    "website": "https://www.bandsintown.com/",
+    "privacyPolicy": "https://corp.bandsintown.com/privacy-policy",
+    "appStore": "https://apps.apple.com/es/app/id471394851"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "bandsintown-privacy-policy"
+    ],
+    "detail": "Cal registrar-se amb correu o amb un compte de Facebook o Spotify per seguir artistes i rebre avisos.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "bandsintown-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "El conjunt mostra el gust musical d’una persona, on viu, a quins concerts va i amb qui els comparteix. La combinació d’ubicació exacta, calendari i artistes seguits és especialment sensible perquè arriba també als mateixos artistes i a les empreses d’entrades.",
+  "dataCollection": [
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "bandsintown-privacy-policy",
+        "bandsintown-app-store"
+      ],
+      "note": "L’etiqueta el declara vinculat a la identitat per al màrqueting del desenvolupador."
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "bandsintown-privacy-policy",
+        "bandsintown-app-store"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "bandsintown-app-store",
+        "bandsintown-privacy-policy"
+      ],
+      "note": "La política explica que la ubicació serveix per mostrar els concerts d’un radi de milles al voltant teu; l’etiqueta la declara també per a màrqueting del desenvolupador i analítica."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "bandsintown-privacy-policy"
+      ],
+      "note": "Preferències musicals pròpies i les importades dels comptes connectats."
+    },
+    {
+      "type": "xarxa-de-contactes",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bandsintown-privacy-policy"
+      ],
+      "note": "Si vincules Facebook, la política preveu accedir a la informació dels amics segons els permisos donats."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "bandsintown-app-store"
+      ],
+      "note": "L’etiqueta declara les dades d’ús com a dades per rastrejar-te."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "bandsintown-app-store",
+        "bandsintown-privacy-policy"
+      ]
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "bandsintown-privacy-policy"
+      ],
+      "note": "Contingut dels missatges enviats dins del servei i al suport."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bandsintown-app-store",
+        "bandsintown-privacy-policy"
+      ],
+      "note": "Entrades i esdeveniments de pagament per visió."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bandsintown-privacy-policy"
+      ],
+      "note": "Només per als concerts en directe de pagament."
+    },
+    {
+      "type": "metadades-de-comunicacio",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bandsintown-privacy-policy"
+      ],
+      "note": "Dades del calendari quan es confirma l’assistència a un concert i se sincronitza l’esdeveniment."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bandsintown-privacy-policy"
+      ],
+      "note": "Foto de perfil dels comptes connectats i contingut de les emissions en directe."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bandsintown-app-store"
+      ],
+      "detail": "L’etiqueta declara les dades d’ús com a dades utilitzades per rastrejar-te.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bandsintown-app-store"
+      ],
+      "detail": "L’etiqueta declara dades de publicitat no vinculades a la identitat; no en concreta l’identificador.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bandsintown-privacy-policy"
+      ],
+      "detail": "La política cita Amazon Web Services, Google, SendGrid i Meta com a encarregats, i campanyes personalitzades a Facebook i Instagram amb el correu o el telèfon xifrats.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bandsintown-privacy-policy",
+        "bandsintown-app-store"
+      ],
+      "detail": "Campanyes publicitàries pròpies a xarxes socials a partir de les dades del compte, i dades d’ús declarades per a publicitat de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bandsintown-privacy-policy"
+      ],
+      "detail": "El servei es basa a perfilar els gustos musicals per recomanar concerts i artistes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no parla d’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bandsintown-privacy-policy"
+      ],
+      "detail": "Artistes i els seus equips, xarxes socials i musicals connectades, empreses d’entrades com Ticketmaster, proveïdors de contingut i encarregats tècnics.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bandsintown-privacy-policy"
+      ],
+      "detail": "Les dades les allotja Bandsintown LLC als Estats Units per compte de Bandsintown Group Inc.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "bandsintown-privacy-policy"
+      ],
+      "detail": "La política afirma expressament que no ven ni vendrà dades personals a tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bandsintown-privacy-policy"
+      ],
+      "detail": "Les dades europees es traslladen als Estats Units a l’empara de la certificació al Data Privacy Framework i, quan cal, de clàusules contractuals tipus.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "adequacy"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "no",
+      "level": "editorial",
+      "sources": [
+        "bandsintown-privacy-policy"
+      ],
+      "detail": "No hem trobat cap informe de transparència sobre peticions d’autoritats.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bandsintown-privacy-policy"
+      ],
+      "detail": "Les dades del perfil es conserven mentre es fa servir el servei i les de màrqueting, tres anys des de l’últim contacte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no concreta què es conserva després d’eliminar el compte."
+    },
+    "periods": [
+      {
+        "dataType": "adreca-electronica",
+        "period": "Tres anys des de l’últim contacte, per a finalitats de màrqueting",
+        "sources": [
+          "bandsintown-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bandsintown-privacy-policy"
+      ],
+      "detail": "A través del formulari de peticions de privadesa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "bandsintown-privacy-policy"
+      ],
+      "detail": "La política només ofereix el formulari «GDPR/CCPA Privacy Request»; no descriu cap botó dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://bandsintown.com/privacy_request",
+    "difficulty": "medium",
+    "requiresSupportContact": true,
+    "steps": [
+      "Obre el formulari de peticions de privadesa a bandsintown.com/privacy_request.",
+      "Indica el correu amb què et vas registrar i tria la petició d’eliminació de dades.",
+      "Si vols, escriu també a privacy@bandsintown.com o a dpo@bandsintown.com.",
+      "Desvincula els comptes de Spotify o Facebook des d’aquests serveis, perquè la petició no ho fa automàticament."
+    ],
+    "dataRetained": "La política no concreta quines dades es conserven; les de màrqueting caduquen als tres anys de l’últim contacte.",
+    "sources": [
+      "bandsintown-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bandsintown-privacy-policy"
+      ],
+      "detail": "El dret d’accés i de portabilitat s’exerceix pel mateix formulari; no hi ha cap eina d’autoservei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bandsintown-privacy-policy"
+      ],
+      "detail": "Formulari específic de RGPD i CCPA, més les adreces privacy@bandsintown.com i dpo@bandsintown.com.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://bandsintown.com/privacy_request"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bandsintown-privacy-policy"
+      ],
+      "detail": "Es pot deixar de rebre comunicacions comercials, però la política no ofereix cap control específic per a les campanyes a xarxes socials.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap opció per desactivar l’analítica."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bandsintown-privacy-policy"
+      ],
+      "detail": "Hi ha opcions de privadesa del perfil i de visibilitat davant d’altres persones usuàries, i els permisos d’ubicació i calendari es donen al sistema operatiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut revisar el procés de registre i de connexió de comptes des de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "no",
+      "level": "editorial",
+      "sources": [
+        "bandsintown-privacy-policy"
+      ],
+      "detail": "La política descriu l’accés al contingut dels missatges per part del servei, cosa incompatible amb el xifratge d’extrem a extrem.",
+      "verifiedAt": "2026-09-22",
+      "scope": "none"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "alternatives": [
+    {
+      "app": "ticketmaster",
+      "comparability": "partial",
+      "rationale": "Permet trobar i comprar entrades de concerts sense connectar-hi els comptes de música ni el calendari.",
+      "tradeOffs": "És una empresa de venda d’entrades amb un rastre publicitari propi i no recomana concerts a partir dels teus gustos."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "El web de Bandsintown bloqueja les peticions automatitzades i hem llegit la política a través d’un servei intermediari de lectura. La clàusula que permet als artistes i als seus equips fer servir les dades personals de qui els segueix és poc habitual i mereix una revisió. No hem pogut fer la cerca d’incidents perquè la sessió havia exhaurit el pressupost de cerques.",
+    "openQuestions": [
+      "Amb quina base jurídica es comparteixen les dades amb els artistes?",
+      "Hi ha eliminació del compte dins de l’aplicació o només pel formulari?"
+    ]
+  },
+  "appStoreBundleId": "com.bandsintown.bit"
+}

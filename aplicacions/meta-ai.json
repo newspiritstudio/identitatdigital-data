@@ -1,0 +1,605 @@
+{
+  "slug": "meta-ai",
+  "name": "Meta AI",
+  "company": "meta-platforms-ireland",
+  "categories": [
+    "assistents-d-ia"
+  ],
+  "tagline": "Assistent d’IA que recorda coses de tu, fa servir el teu perfil de Meta i pot revisar les converses amb persones",
+  "summary": "L’aplicació Meta AI, també companya de les ulleres de Meta, està pensada per «conèixer-te»: recorda detalls, fa servir el perfil i els interessos d’Instagram i Facebook si els comptes estan units i té un feed «Discover» per publicar converses. Les condicions europees avisen que Meta pot revisar les converses de manera automàtica o humana, que les comparteix amb cercadors associats i que esborrar-les no sempre esborra la còpia de Meta. El 2025 es van documentar publicacions de converses privades fetes sense adonar-se’n i una fallada que exposava les d’altres persones.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "advertising",
+  "jurisdiction": "Irlanda, per a persones usuàries de l’Espai Econòmic Europeu",
+  "links": {
+    "website": "https://www.meta.ai/",
+    "privacyPolicy": "https://www.facebook.com/privacy/policy/",
+    "terms": "https://www.facebook.com/legal/eu-ai-terms",
+    "privacyCenter": "https://www.facebook.com/privacy/genai/",
+    "appStore": "https://apps.apple.com/es/app/id1558240027"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "meta-ai-app-launch-2025",
+      "meta-ai-discover-techcrunch-2025"
+    ],
+    "detail": "S’hi entra amb un compte de Meta, Facebook o Instagram; si s’entra amb Instagram, el perfil condiciona la visibilitat del que es publica.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "meta-ai-app-launch-2025"
+    ],
+    "detail": "Funciona amb Llama 4, un model amb pesos publicats sota llicència pròpia de Meta; l’aplicació i el servei són privatius.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa (models Llama amb llicència comunitària de Meta)"
+  },
+  "dataSummary": "Les preguntes a un assistent sovint revelen preocupacions de salut, relacions, feina o finances. Meta hi afegeix la memòria de l’assistent, el perfil i els interessos dels altres productes del grup i la ubicació.",
+  "dataCollection": [
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "entrenament-de-models-dia",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "meta-ai-eu-terms",
+        "meta-ai-app-store"
+      ],
+      "note": "Les indicacions i respostes; es poden revisar per persones i compartir amb cercadors associats."
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "meta-ai-eu-terms",
+        "meta-ai-app-store"
+      ]
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "meta-ai-eu-terms",
+        "meta-ai-app-store"
+      ]
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "meta-ai-help-chat",
+        "meta-ai-app-launch-2025"
+      ],
+      "note": "Interessos deduïts de l’activitat als productes de Meta, inclosos els anuncis que es miren."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "meta-ai-help-chat",
+        "meta-ai-app-store"
+      ]
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "meta-ai-help-chat"
+      ],
+      "note": "L’edat i el gènere del perfil es fan servir per personalitzar les respostes."
+    },
+    {
+      "type": "genere",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "meta-ai-help-chat"
+      ]
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "meta-ai-app-store"
+      ],
+      "note": "L’etiqueta declara dades de salut i forma física, i també «dades sensibles»."
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "meta-ai-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "meta-ai-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "meta-ai-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "meta-ai-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "meta-ai-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "meta-ai-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "meta-ai-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "meta-ai-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada «utilitzada per rastrejar-te», però sí dades vinculades a la identitat que es fan servir per a publicitat de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "meta-ai-app-store"
+      ],
+      "detail": "L’etiqueta declara identificadors de dispositiu i dades de publicitat per a publicitat de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi independent de l’aplicació."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "meta-ai-help-chat",
+        "meta-ai-ads-personalization-2025"
+      ],
+      "detail": "Des del 16 de desembre de 2025 Meta fa servir les interaccions amb la IA per personalitzar continguts i anuncis «a la majoria de regions»; l’ajuda diu que depèn de la regió i no hem pogut confirmar si s’aplica a l’Espai Econòmic Europeu. Meta diu que no fa servir temes sensibles per als anuncis.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-ai-help-chat",
+        "meta-ai-app-launch-2025"
+      ],
+      "detail": "Personalització basada en la memòria de l’assistent, el perfil, els interessos i l’activitat a tots els productes del Centre de comptes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "yes",
+      "level": "regulator",
+      "sources": [
+        "meta-ai-eu-terms",
+        "dpc-meta-ai-2025"
+      ],
+      "detail": "Meta fa servir les interaccions amb les IA per millorar la IA de Meta. Es pot presentar una objecció.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://www.facebook.com/privacy/genai"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-ai-eu-terms",
+        "meta-ai-help-chat"
+      ],
+      "detail": "Meta comparteix els missatges enviats a la IA i informació general com la regió amb socis seleccionats, com cercadors, quan la IA no pot respondre sola; també hi pot haver proveïdors externs que revisen contingut.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-privacy-policy"
+      ],
+      "detail": "La informació circula entre els productes de Meta, sobretot si els comptes estan units al Centre de comptes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "meta-privacy-policy"
+      ],
+      "detail": "Meta diu que no ven dades personals, però en rep de socis comercials i les incorpora al perfil.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "regulator",
+      "sources": [
+        "meta-privacy-policy",
+        "dpc-meta-transfers-2023"
+      ],
+      "detail": "Transferències als Estats Units, sancionades el 2023 abans del marc d’adequació actual.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "adequacy"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-transparency-center"
+      ],
+      "detail": "Informe conjunt del grup Meta sobre peticions governamentals i aplicació de normes.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://transparency.meta.com/"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "meta-ai-eu-terms"
+      ],
+      "detail": "Les condicions no fixen terminis per a les converses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "meta-ai-eu-terms"
+      ],
+      "detail": "Les condicions avisen que esborrar missatges, fils o fins i tot el compte pot no esborrar la còpia de Meta, i remeten al Centre de privadesa.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-ai-eu-terms",
+        "fb-delete-account",
+        "ig-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "meta-ai-eu-terms",
+        "fb-delete-account"
+      ],
+      "detail": "Si s’entra amb Facebook o Instagram, el compte és el d’aquests serveis i s’elimina des del Centre de comptes; les condicions avisen que esborrar converses no garanteix esborrar la còpia de Meta.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "waitingPeriodDays": 30,
+    "requiresSupportContact": false,
+    "steps": [
+      "Esborra les converses des de l’historial de l’aplicació, sabent que això no garanteix que Meta n’esborri la còpia.",
+      "Per eliminar el compte, entra al Centre de comptes, a Dades personals i després a Propietat i control del compte.",
+      "Tria «Desactivació o eliminació», selecciona el compte i tria «Eliminar el compte».",
+      "No tornis a iniciar sessió durant els 30 dies de període de gràcia."
+    ],
+    "obstacles": "Si el compte és el de Facebook o Instagram, eliminar-lo per sortir de Meta AI implica perdre també aquests serveis.",
+    "dataRetained": "Les condicions reconeixen que Meta pot conservar la seva còpia de les interaccions encara que s’esborrin les converses o el compte.",
+    "sources": [
+      "meta-ai-eu-terms",
+      "fb-delete-account"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fb-download-info"
+      ],
+      "detail": "Exportació des del Centre de comptes de Meta.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://accountscenter.meta.com/info_and_permissions/dyi/"
+    },
+    "exportFormatQuality": "mixed",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-privacy-center"
+      ],
+      "detail": "Formulari de drets del grup Meta i contacte amb el delegat de protecció de dades de Meta Platforms Ireland.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.facebook.com/help/contact/540977946302970",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "meta-privacy-center"
+      ],
+      "detail": "Es poden limitar alguns usos als ajustos d’anuncis del Centre de comptes, però no desactivar la personalització del tot sense pagar la subscripció dels serveis de Meta.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "meta-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "meta-ai-app-launch-2025",
+        "meta-ai-eu-terms"
+      ],
+      "detail": "Hi ha memòria editable i objecció a l’entrenament, però els controls són repartits entre l’aplicació, el Centre de comptes i el Centre de privadesa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "yes",
+      "level": "press",
+      "sources": [
+        "meta-ai-discover-techcrunch-2025"
+      ],
+      "detail": "El botó de compartir publicava converses al feed «Discover» sense deixar clar on ni amb quina visibilitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "confusing-language",
+        "severity": "high",
+        "description": "El 2025 moltes persones van publicar converses privades amb l’assistent, amb dades de salut o legals, perquè l’aplicació no indicava clarament que el botó de compartir les feia públiques.",
+        "sources": [
+          "meta-ai-discover-techcrunch-2025"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-privacy-center"
+      ],
+      "detail": "Verificació en dos passos del Centre de comptes amb aplicació d’autenticació, SMS, claus de seguretat i claus d’accés.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "totp",
+        "sms",
+        "hardware-key",
+        "passkey"
+      ]
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat auditories de seguretat independents publicades sobre aquesta aplicació."
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-transparency-center"
+      ],
+      "detail": "Coberta pel programa de recompenses de Meta.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.facebook.com/whitehat"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "meta-transparency-center"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "e2ee": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "meta-ai-eu-terms"
+      ],
+      "detail": "Meta pot llegir i revisar les converses. El «Private Processing» que esmenten les condicions s’aplica a xats concrets, com els de WhatsApp, no a l’aplicació en general.",
+      "verifiedAt": "2026-09-22",
+      "scope": "none"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "claude",
+      "comparability": "partial",
+      "rationale": "Assistent conversacional que no forma part d’un grup publicitari ni es connecta amb perfils de xarxes socials per personalitzar respostes.",
+      "tradeOffs": "No fa de companya de les ulleres de Meta i també tracta les converses als seus servidors."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "L’etiqueta de l’App Store és gairebé idèntica a la de Messenger i Threads: Meta declara el mateix catàleg de dades per a totes les aplicacions, cosa que en redueix el valor informatiu. Les condicions europees són la font més útil perquè reconeixen la revisió humana i la conservació de còpies.",
+    "openQuestions": [
+      "S’aplica a l’Espai Econòmic Europeu l’ús de les converses amb la IA per personalitzar anuncis anunciat per al desembre de 2025?",
+      "Durant quant de temps conserva Meta les converses i la memòria de l’assistent?"
+    ]
+  },
+  "appStoreBundleId": "com.facebook.stellaapp"
+}

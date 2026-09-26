@@ -1,0 +1,584 @@
+{
+  "slug": "trip-com",
+  "name": "Trip.com",
+  "company": "trip-com-travel-singapore",
+  "categories": [
+    "viatges-i-allotjament"
+  ],
+  "tagline": "Cap dada declarada com a desvinculada de la identitat i cap país de destinació anomenat a les transferències",
+  "summary": "Trip.com declara a l’App Store dotze categories de dades, totes vinculades amb la identitat o utilitzades per rastrejar, sense cap categoria desvinculada: ubicació exacta, contactes, àudio, missatges i salut. La política, en canvi, no anomena cap país de destinació de les transferències internacionals, ni tan sols la Xina, tot i que el grup té la seu administrativa a Xangai i la política preveu compartir dades amb les filials.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Singapur",
+  "userBase": "Agència en línia global del grup Trip.com, que també opera Ctrip, Qunar i Skyscanner",
+  "links": {
+    "website": "https://es.trip.com/",
+    "privacyPolicy": "https://es.trip.com/contents/service-guideline/privacy-policy.html?locale=es-ES",
+    "appStore": "https://apps.apple.com/es/app/id681752345"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "trip-com-privacy-policy"
+    ],
+    "detail": "El registre amb correu o telèfon és necessari per reservar i per gestionar les reserves.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "editorial",
+    "sources": [],
+    "detail": "Aplicació privativa: no consta cap publicació del codi font.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Recull passaport i fotografia del passaport, nacionalitat, número de document per als trens de la Xina continental, informació mèdica per a l’assistència d’emergència i documents sanitaris per justificar reemborsaments. La informació mèdica és una categoria especial de l’article 9 del RGPD, i la tracta un responsable establert fora de la Unió Europea.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "trip-com-privacy-policy",
+        "trip-com-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "trip-com-privacy-policy",
+        "trip-com-app-store"
+      ],
+      "note": "La política declara que es comparteixen correus i telèfons xifrats amb Google, Facebook, TikTok i Bing per a publicitat."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "brokers",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "trip-com-privacy-policy",
+        "trip-com-app-store"
+      ]
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "trip-com-privacy-policy"
+      ],
+      "note": "Passaport i fotografia del passaport, nacionalitat, permís de conduir i, per als trens de la Xina continental, tipus i número de document."
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "trip-com-privacy-policy",
+        "trip-com-app-store"
+      ],
+      "note": "Informació mèdica per a l’assistència d’emergència i documentació sanitària per justificar reemborsaments."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "trip-com-privacy-policy",
+        "trip-com-app-store"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "trip-com-app-store"
+      ]
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "trip-com-app-store"
+      ],
+      "note": "L’etiqueta declara l’accés als contactes com a dada vinculada, sense que la política ho expliqui."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "trip-com-privacy-policy",
+        "trip-com-app-store"
+      ]
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "trip-com-privacy-policy"
+      ],
+      "note": "Gravació de trucades i de xats amb atenció al client."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "trip-com-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "trip-com-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "trip-com-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "brokers",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "trip-com-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "trip-com-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "trip-com-app-store"
+      ]
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "trip-com-privacy-policy"
+      ],
+      "note": "La verificació biomètrica es fa al dispositiu: la política declara que no es recullen, tracten ni emmagatzemen dades biomètriques."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "trip-com-app-store"
+      ],
+      "detail": "L’etiqueta declara ubicació, dades de contacte i identificadors sota «Datos usados para rastrearte».",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "trip-com-app-store"
+      ],
+      "detail": "Identificadors declarats tant per a publicitat de tercers com per a la de l’editora.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "trip-com-privacy-policy"
+      ],
+      "detail": "La política identifica Google, Facebook, TikTok i Bing com a socis publicitaris.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "trip-com-privacy-policy"
+      ],
+      "detail": "Es comparteixen correus i telèfons xifrats i identificadors d’usuari amb les plataformes publicitàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "trip-com-privacy-policy"
+      ],
+      "detail": "La política reconeix el dret d’oposició al perfilat per a màrqueting directe, i per tant que es fa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "trip-com-personalization"
+      ],
+      "detail": "Hi ha recomanacions personalitzades generades amb intel·ligència artificial i perfils compartits amb socis d’IA de tercers, desactivables des d’una pàgina de configuració.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://www.trip.com/pages/personalization-settings"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "trip-com-privacy-policy"
+      ],
+      "detail": "Hotels, aerolínies, creuers, ferrocarrils, autobusos, lloguer de cotxes, asseguradores, processadors de pagament, socis publicitaris, autoritats i agències antifrau.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "trip-com-privacy-policy"
+      ],
+      "detail": "Compartició amb les filials del grup, sense identificar-les ni dir on són establertes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap venda de dades, tot i la compartició amb socis publicitaris."
+    },
+    "internationalTransfers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "trip-com-privacy-policy"
+      ],
+      "detail": "Es declaren decisions d’adequació i les clàusules contractuals tipus de la Decisió (UE) 2021/914, però la política no anomena cap país de destinació. Per a un grup amb seu administrativa a Xangai i filials xineses, l’article 13.1.f del RGPD demanaria identificar el tercer país.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe sobre peticions de dades de les autoritats, tot i que la política preveu compartir-ne amb governs, forces de seguretat i reguladors."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "trip-com-privacy-policy"
+      ],
+      "detail": "La política no dona cap termini numèric: es limita a dir que les dades es conserven mentre siguis usuari i el que permeti la llei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "trip-com-privacy-policy"
+      ],
+      "detail": "Es conserva el que exigeixi la llei o les reclamacions i, indefinidament, el registre de l’oposició al màrqueting.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "trip-com-account-cancellation"
+      ],
+      "detail": "Hi ha una pàgina dedicada a la cancel·lació del compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "trip-com-account-cancellation"
+      ],
+      "detail": "La pàgina existeix i és pública, però el contingut es carrega per JavaScript i no n’hem pogut verificar els passos, els requisits ni els terminis.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://www.trip.com/m/passport/cancelaccount",
+    "difficulty": "unknown",
+    "dataRetained": "El que exigeixi la llei o una reclamació, i el registre de l’oposició al màrqueting de manera indefinida.",
+    "sources": [
+      "trip-com-account-cancellation",
+      "trip-com-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap eina ni cap procediment de portabilitat."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "trip-com-privacy-policy"
+      ],
+      "detail": "Hi ha una bústia per a Espanya i un representant a la Unió Europea segons l’article 27 del RGPD, però cap delegat de protecció de dades anomenat.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:es_dataprotection@trip.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "trip-com-personalization"
+      ],
+      "detail": "Pàgina de configuració per desactivar el contingut personalitzat generat amb IA, amb la garantia declarada que no limita la resta de funcions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap control sobre l’analítica."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "trip-com-personalization",
+        "trip-com-privacy-policy"
+      ],
+      "detail": "Hi ha configuració de personalització, de notificacions i de galetes, i l’autenticació biomètrica local és desactivable, però no un panell per finalitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem documentat cap patró fosc concret."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no transporta comunicacions privades entre persones usuàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "trip-com-privacy-policy"
+      ],
+      "detail": "La política declara xifratge SSL en trànsit, xifratge en repòs i emmascarament de dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "trip-com-privacy-policy"
+      ],
+      "detail": "La política declara explícitament el xifratge de les dades emmagatzemades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "trip-com-privacy-policy"
+      ],
+      "detail": "Hi ha autenticació biomètrica local per als pagaments, però no consta una segona passa per a l’inici de sessió.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "trip-com-privacy-policy"
+      ],
+      "detail": "La política declara les certificacions ISO 27001, PCI DSS i SOC 2 Tipus 2, però no en publica els certificats: és una autodeclaració.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "trip-com-src"
+      ],
+      "detail": "El grup manté un centre de resposta de seguretat propi i un programa a HackerOne.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://src.trip.com/"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "trip-com-src"
+      ],
+      "detail": "El centre de resposta de seguretat és el canal públic per comunicar vulnerabilitats.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "booking",
+      "comparability": "equivalent",
+      "rationale": "Cobreix la mateixa necessitat amb un responsable establert a la Unió Europea i normes corporatives vinculants per a les transferències.",
+      "tradeOffs": "La baixa del compte només s’aconsegueix per un formulari d’exercici de drets."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "L’etiqueta de l’App Store no declara cap dada desvinculada de la identitat (tot el que recull ho lliga a la persona) i la política no diu a quin país van les dades. La persona usuària no pot saber quines dades se separen del seu nom ni on s’acaben tractant.",
+    "openQuestions": [
+      "A quins tercers països es transfereixen les dades, i en particular a la Xina continental?",
+      "Quins són els passos i els terminis reals de la pàgina de cancel·lació del compte?"
+    ]
+  },
+  "appStoreBundleId": "com.ctrip.EBooking"
+}

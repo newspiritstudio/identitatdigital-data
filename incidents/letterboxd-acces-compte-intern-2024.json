@@ -1,0 +1,17 @@
+{
+  "slug": "letterboxd-acces-compte-intern-2024",
+  "title": "Accés no autoritzat a un compte del personal de Letterboxd",
+  "type": "breach",
+  "severity": "medium",
+  "apps": [
+    "letterboxd"
+  ],
+  "company": "letterboxd",
+  "occurredAt": "2024-02-15",
+  "disclosedAt": "2024-03-15",
+  "description": "Letterboxd va detectar activitat sospitosa en un compte del seu personal i el va bloquejar. Durant aquesta finestra, algú va poder fer servir l’eina interna que exporta la informació d’una persona membre. Les dades afectades incloïen l’adreça electrònica, les llistes privades, la llista de pendents si era privada i el contingut esborrat. No es va entrar a cap compte, no es van modificar dades i no es van veure contrasenyes ni informació financera. L’empresa va reconèixer que no podia determinar quins comptes havien estat consultats.",
+  "affectedPeople": "Bastant menys de l’1 % dels comptes, segons l’empresa.",
+  "sources": [
+    "letterboxd-security-notices"
+  ]
+}

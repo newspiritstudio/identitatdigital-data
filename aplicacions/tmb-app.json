@@ -1,0 +1,535 @@
+{
+  "slug": "tmb-app",
+  "name": "TMB App (Metro Bus Barcelona)",
+  "company": "transports-metropolitans-de-barcelona",
+  "categories": [
+    "mobilitat-i-transport",
+    "mapes-i-navegacio"
+  ],
+  "tagline": "L’app del metro i el bus funciona sense compte, però l’etiqueta no declara la targeta desada ni l’historial de compres",
+  "summary": "La TMB App planifica trajectes, mostra el temps d’arribada dels autobusos i ven i recarrega títols de la T-mobilitat. Sense compte es poden fer servir gairebé totes les funcions d’informació; comprar exigeix el compte TMB, que es pot crear amb Facebook, Google, Apple o l’AMB. L’etiqueta de l’App Store només declara el correu com a dada vinculada, tot i que l’app permet desar la targeta i guarda l’historial de compres. TMB publica un registre d’activitats amb terminis concrets i un delegat de protecció de dades, però no cap certificació de l’Esquema Nacional de Seguretat, i té obert un expedient sancionador de l’APDCAT per una bretxa que va exposar dades del seu personal.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "public-service",
+  "jurisdiction": "Espanya",
+  "brandColor": "#E4002B",
+  "links": {
+    "website": "https://www.tmb.cat/",
+    "privacyPolicy": "https://www.tmb.cat/es/politica-de-privacidad",
+    "privacyCenter": "https://www.tmb.cat/es/registro-actividades-tratamiento-datos-personales",
+    "appStore": "https://apps.apple.com/es/app/id387847254"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "tmb-app-faq"
+    ],
+    "detail": "No cal compte per a la «gran majoria» de funcions de cerca i planificació; sí per operar amb la T-mobilitat, comprar títols, desar favorits al núvol i rebre alertes.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "tmb-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "publicService": {
+    "isPublicService": true,
+    "administrationLevel": "local",
+    "legalBasis": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tmb-app-faq",
+        "tmb-registre-tractament"
+      ],
+      "detail": "La clàusula del registre declara «ejecución del contrato y consentimiento», i el registre d’activitats assigna a cada tractament una lletra de l’article 6.1 del RGPD (consentiment per al compte, contracte per a la venda de bitllets, interès legítim per als avisos). No s’hi cita cap norma que atribueixi a TMB la competència sobre el tractament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "processingRegistry": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tmb-registre-tractament"
+      ],
+      "detail": "Registre publicat al web, amb finalitat, base jurídica, categories de dades i termini de conservació per activitat. N’hi ha un altre per als tractaments en què TMB actua com a encarregada.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.tmb.cat/es/registro-actividades-tratamiento-datos-personales"
+    },
+    "dpia": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap avaluació d’impacte publicada sobre la TMB App ni sobre la venda de títols."
+    },
+    "ensConformity": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "tmb-certificacions"
+      ],
+      "detail": "La pàgina de certificacions de TMB enumera ISO 9001, UNE-EN 13816, ISO 14001, ISO 50001 i ISO 45001, però cap de seguretat de la informació ni cap declaració o certificació de l’Esquema Nacional de Seguretat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dpo": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tmb-politica-privadesa"
+      ],
+      "detail": "Delegat de protecció de dades amb correu propi, que diu respondre en un «plazo prudencial de dos meses».",
+      "verifiedAt": "2026-09-22",
+      "contact": "dpd@tmb.cat"
+    },
+    "offlineAlternative": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tmb-app-faq",
+        "tmb-genbeta-maquines"
+      ],
+      "detail": "Els títols es poden comprar a les màquines de venda i als Punts TMB, on també es demanen les factures que l’app encara no emet. TMB ha anunciat la retirada d’unes 700 màquines antigues, de les quals només en substituirà una part.",
+      "verifiedAt": "2026-09-22"
+    },
+    "accessibilityStatement": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tmb-accessibilitat",
+        "tmb-app-faq"
+      ],
+      "detail": "El web té una declaració provisional pendent d’auditoria externa. De l’app, les preguntes freqüents només diuen que TMB «está trabajando» per fer-la accessible d’acord amb el Reial decret 1112/2018; no hi ha declaració amb grau de conformitat.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.tmb.cat/es/accesibilidad"
+    },
+    "mandatoryRetention": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "tmb-registre-tractament"
+      ],
+      "detail": "El registre fixa deu anys per als justificants de venda (article 121-20 del Codi civil de Catalunya), però cap norma impedeix tancar el compte TMB.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataSummary": "Sense compte, l’app només fa servir la ubicació en temps real per trobar parades i no la desa, segons TMB. Amb compte, el correu, la targeta desada i l’historial de compres de títols queden lligats a la persona, i el compte TMB es vincula al de la T-mobilitat de l’ATM.",
+  "dataCollection": [
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "tmb-app-store",
+        "tmb-app-faq"
+      ],
+      "note": "Clau del compte TMB; la clàusula de registre preveu també la prospecció comercial amb consentiment."
+    },
+    {
+      "type": "contrasenya",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tmb-app-faq"
+      ],
+      "note": "Llevat que s’entri amb Facebook, Google, Apple o el compte de l’AMB."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tmb-app-faq"
+      ],
+      "note": "El compte TMB es vincula al compte T-mobilitat de l’ATM."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tmb-app-faq"
+      ],
+      "note": "Es pot desar la targeta per a compres futures; l’etiqueta de l’App Store no ho declara."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "tmb-app-faq",
+        "tmb-registre-tractament"
+      ],
+      "note": "L’historial de compra dins de l’app; el registre fixa deu anys de conservació per a la venda de bitllets."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tmb-app-store",
+        "tmb-app-faq"
+      ],
+      "note": "Les preguntes freqüents parlen de GPS i Bluetooth i diuen que l’app no emmagatzema ni rastreja la ubicació."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "tmb-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "tmb-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "tmb-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap dada utilitzada per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Ni la política ni les preguntes freqüents esmenten identificadors publicitaris."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política de galetes diu que les apps «no instalan cookies», però no enumera els SDK d’analítica de l’app."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tmb-app-faq",
+        "tmb-politica-galetes"
+      ],
+      "detail": "El registre inclou la «prospección comercial» amb consentiment i el compte rep comunicacions de promocions, configurables al menú personal. La política de galetes diu que les apps de TMB «no instalan cookies» i que els webs no tenen espais publicitaris.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política reconeix el dret a no ser objecte de decisions automatitzades, però no diu si se’n prenen."
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El registre esmenta un assistent virtual amb IA, però no diu si les converses serveixen per entrenar models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tmb-politica-privadesa",
+        "tmb-app-faq"
+      ],
+      "detail": "La política limita les cessions a les obligacions legals. Donar-se d’alta a la T-mobilitat des de l’app crea un compte a la base de dades de l’ATM.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tmb-politica-privadesa"
+      ],
+      "detail": "Cinc entitats del grup TMB en són corresponsables per acord de l’article 26 del RGPD.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "tmb-politica-privadesa"
+      ],
+      "detail": "La política només preveu comunicacions per obligació legal.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "tmb-politica-privadesa",
+        "tmb-registre-tractament"
+      ],
+      "detail": "Amb caràcter general «no están previstas». El registre en preveu als Estats Units per a elMeuBus, que és un altre servei.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "none"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tmb-registre-tractament"
+      ],
+      "detail": "El registre fixa terminis per activitat: tres anys per al compte i les comunicacions, deu anys per a la venda de bitllets i un mes per a la videovigilància.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tmb-politica-privadesa"
+      ],
+      "detail": "Un cop acabada la finalitat, les dades es bloquegen fins que prescriuen les responsabilitats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "adreca-electronica",
+        "period": "Tres anys després d’acabar la finalitat",
+        "sources": [
+          "tmb-registre-tractament"
+        ]
+      },
+      {
+        "dataType": "historial-de-compres",
+        "period": "Deu anys (article 121-20 del Codi civil de Catalunya)",
+        "sources": [
+          "tmb-registre-tractament"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tmb-politica-privadesa",
+        "tmb-app-faq"
+      ],
+      "detail": "El dret de supressió es reconeix, i l’àrea personal del web inclou un diàleg per eliminar el compte d’usuari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tmb-app-faq"
+      ],
+      "detail": "El web de TMB conté l’opció «eliminar tu cuenta de usuario», però les preguntes freqüents de l’app no expliquen com fer-ho des del telèfon.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "unknown",
+    "steps": [
+      "Inicia sessió a l’àrea personal de tmb.cat i busca l’opció d’eliminar el compte.",
+      "Si no la trobes, escriu a dpd@tmb.cat demanant la supressió del compte TMB.",
+      "El compte T-mobilitat vinculat és de l’ATM i s’ha de tancar a part."
+    ],
+    "dataRetained": "Els justificants de compra es conserven deu anys.",
+    "sources": [
+      "tmb-app-faq",
+      "tmb-politica-privadesa",
+      "tmb-registre-tractament"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tmb-politica-privadesa"
+      ],
+      "detail": "La portabilitat figura entre els drets, però s’ha de demanar al delegat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tmb-politica-privadesa"
+      ],
+      "detail": "Per correu al delegat de protecció de dades, amb reclamació a l’APDCAT.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dpd@tmb.cat"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tmb-app-faq"
+      ],
+      "detail": "Les comunicacions comercials es gestionen a «Preferencias de comunicación» del menú personal.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tmb-app-faq"
+      ],
+      "detail": "Ubicació, Bluetooth, càmera i notificacions es demanen per separat, i les preferències de comunicació es poden ajustar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És una aplicació de transport sense comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El formulari d’accés només demana una contrasenya de vuit caràcters com a mínim; no hem trobat cap segon factor."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Les certificacions publicades són de qualitat, medi ambient, energia i salut laboral, no de seguretat."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "tmb.cat respon amb un error 403 a /.well-known/security.txt."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "citymapper",
+      "comparability": "partial",
+      "rationale": "Planifica trajectes amb metro i bus de Barcelona sense compte TMB.",
+      "tradeOffs": "No ven títols ni recarrega la T-mobilitat."
+    },
+    {
+      "app": "moovit",
+      "comparability": "partial",
+      "rationale": "Horaris i arribades en temps real del transport públic de Barcelona.",
+      "tradeOffs": "Model publicitari, amb més dades compartides amb tercers."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "L’expedient sancionador de l’APDCAT (desembre del 2025) i la multa de l’Oficina Antifrau (setembre del 2026) tracten dades del personal de TMB, no de les persones usuàries de l’app; per això l’incident es lliga a l’empresa i no a la fitxa. L’etiqueta de l’App Store omet la targeta desada i l’historial de compres, que l’app sí tracta.",
+    "openQuestions": [
+      "Quins SDK d’analítica integra l’app?",
+      "Es pot eliminar el compte TMB des de la mateixa app?",
+      "Com s’ha resolt l’expedient sancionador de l’APDCAT contra TMB?"
+    ]
+  },
+  "appStoreBundleId": "com.tmb.TMBVirtual"
+}

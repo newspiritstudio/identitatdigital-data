@@ -1,0 +1,561 @@
+{
+  "slug": "telegram",
+  "name": "Telegram",
+  "company": "telegram",
+  "categories": [
+    "missatgeria",
+    "comunitats-i-forums"
+  ],
+  "tagline": "Missatgeria al núvol sense xifratge d’extrem a extrem per defecte",
+  "summary": "Telegram té fama de servei privat, però els xats normals, els grups i els canals no estan xifrats d’extrem a extrem. Es desen als servidors de Telegram, que hi té accés tècnic. El xifratge complet només existeix als xats secrets, que cal iniciar expressament, no funcionen en grup i no se sincronitzen entre dispositius.",
+  "platforms": [
+    "ios",
+    "android",
+    "web",
+    "windows",
+    "macos",
+    "linux"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Illes Verges Britàniques, amb operació als Emirats Àrabs Units",
+  "userBase": "Més de 1.000 milions de persones usuàries mensuals",
+  "links": {
+    "website": "https://telegram.org/",
+    "privacyPolicy": "https://telegram.org/privacy",
+    "terms": "https://telegram.org/tos"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "telegram-privacy-policy"
+    ],
+    "detail": "Cal un número de telèfon. Existeixen números anònims de pagament comprats amb criptomoneda, però no és el camí habitual.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "telegram-faq"
+    ],
+    "detail": "Els clients són de codi obert i publicats amb llicència GPL, però el codi del servidor és privatiu. Com que els xats no secrets es desxifren al servidor, no es pot verificar què passa amb els missatges.",
+    "verifiedAt": "2026-09-22",
+    "repositoryUrl": "https://github.com/telegramdesktop/tdesktop",
+    "licence": "GPL-3.0 per als clients; servidor privatiu"
+  },
+  "dataSummary": "Telegram declara poques dades (número, contactes, nom), però conserva al núvol tot el contingut dels xats no secrets i hi té accés.",
+  "dataCollection": [
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "telegram-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "telegram-privacy-policy"
+      ]
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "telegram-privacy-policy",
+        "telegram-faq"
+      ],
+      "note": "Els xats normals es desen xifrats al núvol, però amb claus que Telegram controla. Només els xats secrets tenen xifratge d’extrem a extrem."
+    },
+    {
+      "type": "fitxers-i-documents",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "telegram-privacy-policy"
+      ]
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "telegram-privacy-policy"
+      ]
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "telegram-privacy-policy"
+      ]
+    },
+    {
+      "type": "metadades-de-comunicacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "telegram-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "telegram-privacy-policy"
+      ],
+      "note": "Es conserva fins a 12 mesos i es pot lliurar a autoritats en casos de terrorisme confirmats per ordre judicial."
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "telegram-privacy-policy"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "unknown",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "none",
+      "level": "unknown",
+      "sources": [
+        "telegram-privacy-policy"
+      ],
+      "note": "La política no detalla quines dades d’ús del producte es recullen."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "telegram-privacy-policy"
+      ],
+      "note": "Només si es fa servir la funció de persones properes o es comparteix la ubicació."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "telegram-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "telegram-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "telegram-privacy-policy"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "telegram-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "telegram-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "telegram-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "telegram-privacy-policy"
+      ],
+      "detail": "La publicitat en canals públics grans es basa en el tema del canal, no en dades personals. Existeix un sistema opcional que sí que fa servir dades del compte, amb consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "telegram-privacy-policy"
+      ],
+      "detail": "Telegram declara que no elabora perfils publicitaris de les persones usuàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu res sobre l’ús de contingut per entrenar models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "telegram-privacy-policy"
+      ],
+      "detail": "Proveïdors de pagament i, en supòsits taxats, autoritats judicials.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Telegram no forma part d’un grup amb altres serveis de consum.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "telegram-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "telegram-privacy-policy"
+      ],
+      "detail": "Els centres de dades estan distribuïts en diverses jurisdiccions i la política no en detalla els mecanismes de garantia per a l’Espai Econòmic Europeu.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "telegram-faq"
+      ],
+      "detail": "Telegram publica dades de peticions ateses a través d’un bot, no d’un informe estructurat.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "telegram-privacy-policy"
+      ],
+      "detail": "Es fixa un límit de 12 mesos per a les adreces IP i els identificadors de dispositiu, però el contingut es conserva indefinidament al núvol.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "telegram-account-deletion-api"
+      ],
+      "detail": "L’eliminació del compte esborra tots els missatges, grups i contactes de manera immediata i irreversible, incloent-hi els missatges enviats a altres persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "adreca-ip",
+        "period": "Fins a 12 mesos",
+        "sources": [
+          "telegram-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "telegram-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "telegram-delete-account"
+      ],
+      "detail": "Es pot fer des de l’aplicació o des del web my.telegram.org.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://my.telegram.org/auth?to=delete",
+    "difficulty": "easy",
+    "waitingPeriodDays": 0,
+    "requiresSupportContact": false,
+    "steps": [
+      "Entra a my.telegram.org amb el número de telèfon i el codi que rebràs a l’aplicació.",
+      "Tria «Delete account».",
+      "Escriu el motiu, si vols, i confirma."
+    ],
+    "obstacles": "L’eliminació és immediata i irreversible, sense període de gràcia. Cal exportar abans el que es vulgui conservar. Telegram també elimina automàticament els comptes inactius, amb un termini configurable.",
+    "dataRetained": "Segons la documentació, els missatges enviats també s’esborren dels dispositius de les altres persones, cosa poc habitual.",
+    "sources": [
+      "telegram-delete-account",
+      "telegram-account-deletion-api"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "telegram-faq"
+      ],
+      "detail": "L’aplicació d’escriptori permet exportar tot l’historial en HTML o JSON.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://telegram.org/faq"
+    },
+    "exportFormatQuality": "open",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "telegram-privacy-policy"
+      ],
+      "detail": "Hi ha una adreça de contacte per a protecció de dades, però no un procediment documentat.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dpo@telegram.org"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "telegram-privacy-policy"
+      ],
+      "detail": "La publicitat basada en dades del compte és opcional i està desactivada per defecte a Europa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Telegram no declara recollida de telemetria de producte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "telegram-privacy-policy"
+      ],
+      "detail": "Controls detallats de visibilitat del número, de l’última connexió, de qui pot afegir-te a grups i temporitzadors d’autodestrucció.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [
+        "telegram-faq"
+      ],
+      "detail": "La interfície presenta el servei com a segur sense advertir que els xats normals no tenen xifratge d’extrem a extrem, i el xat secret està amagat en un submenú.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "confusing-language",
+        "severity": "high",
+        "description": "La comunicació del servei associa Telegram amb la privadesa sense deixar clar que el xifratge d’extrem a extrem només s’aplica als xats secrets, que no són el comportament per defecte ni funcionen en grups.",
+        "sources": [
+          "telegram-faq"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "telegram-faq"
+      ],
+      "detail": "Només als xats secrets individuals, que cal iniciar expressament i no se sincronitzen entre dispositius. Els xats normals, els grups i els canals es desxifren al servidor.",
+      "verifiedAt": "2026-09-22",
+      "scope": "partial-optin",
+      "protocol": "MTProto 2.0"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "telegram-faq"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "telegram-faq"
+      ],
+      "detail": "Telegram afirma que les claus i les dades es reparteixen entre jurisdiccions perquè cap sol·licitud d’un sol estat hi doni accés complet. Es tracta d’una garantia organitzativa, sense base criptogràfica.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "telegram-faq"
+      ],
+      "detail": "Verificació en dos passos amb contrasenya addicional.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "app-push"
+      ]
+    },
+    "independentAudits": {
+      "status": "partial",
+      "level": "independent",
+      "sources": [
+        "telegram-faq"
+      ],
+      "detail": "MTProto ha estat analitzat per la comunitat acadèmica amb resultats desiguals, i el servidor no és auditable perquè el codi no és públic.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "telegram-faq"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://core.telegram.org/bug-bounty"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "telegram-faq"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "signal",
+      "comparability": "partial",
+      "rationale": "Cobreix la missatgeria individual i de grup amb xifratge d’extrem a extrem sempre actiu, que Telegram no ofereix per defecte.",
+      "tradeOffs": "No té canals massius, ni bots, ni emmagatzematge al núvol il·limitat, que són els motius pels quals molta gent fa servir Telegram."
+    }
+  ],
+  "review": {
+    "researchStatus": "in-depth",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La reputació de privadesa de Telegram no es correspon amb el seu comportament per defecte, i un resum superficial no ho detecta. La puntuació de privadesa és moderada perquè recull poques dades, però la de seguretat baixa pel xifratge parcial.",
+    "openQuestions": [
+      "Quantes peticions d’autoritats ha atès Telegram des del canvi de política de 2024?"
+    ]
+  },
+  "appStoreBundleId": "ph.telegra.Telegraph"
+}

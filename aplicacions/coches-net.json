@@ -1,0 +1,577 @@
+{
+  "slug": "coches-net",
+  "name": "coches.net",
+  "company": "adevinta-motor",
+  "categories": [
+    "compravenda-entre-particulars",
+    "mobilitat-i-transport"
+  ],
+  "tagline": "Compravenda de cotxes amb exportació de dades en JSON i xat d’IA que s’esborra en 48 hores",
+  "summary": "coches.net té una eina d’exportació documentada: des de l’àrea d’usuari s’obté un fitxer JSON en un termini de 30 dies. L’assistent de cerca Net AI esborra les converses al cap de 48 hores i, segons la política, no s’entrenen models propis amb aquestes converses. En canvi, les dades de contacte arriben a concessionaris, marques i entitats de finançament, i l’App Store declara rastreig entre aplicacions.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://www.coches.net/",
+    "privacyPolicy": "https://www.coches.net/condiciones-de-uso/",
+    "terms": "https://www.coches.net/condiciones-de-uso/",
+    "appStore": "https://apps.apple.com/es/app/id333895109"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "coches-net-privacy-policy"
+    ],
+    "detail": "Els anuncis es poden consultar sense compte; cal per publicar, desar favorits o crear alertes.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "editorial",
+    "sources": [],
+    "detail": "No hem trobat cap repositori públic del codi de l’aplicació; ho considerem programari privatiu.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Qui busca cotxe deixa rastre del pressupost, la zona on viu i, si demana finançament, la seva capacitat de pagament. Qui ven hi posa la matrícula i fotos del vehicle. Aquestes dades arriben a concessionaris i marques, que poden trucar per oferir-te altres cotxes.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "coches-net-privacy-policy",
+        "coches-net-app-store"
+      ],
+      "note": "Es comunica a l’anunciant, al concessionari o a la marca que contactes."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "coches-net-privacy-policy",
+        "coches-net-app-store"
+      ],
+      "note": "Es comparteix en format hash amb LiveRamp si s’hi dona consentiment."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "coches-net-privacy-policy",
+        "coches-net-app-store"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "coches-net-privacy-policy"
+      ],
+      "note": "El codi postal serveix per passar les dades al concessionari més proper."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "coches-net-app-store",
+        "coches-net-privacy-policy"
+      ],
+      "note": "Fotos dels anuncis, amb la matrícula del vehicle."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "coches-net-privacy-policy",
+        "coches-net-app-store"
+      ],
+      "note": "Els xats es poden revisar manualment i automàticament. Les converses amb Net AI s’esborren al cap de 48 hores."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "coches-net-privacy-policy"
+      ],
+      "note": "Facturació i, si es demana finançament, dades que es passen a l’entitat que el concedeix."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "coches-net-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "coches-net-app-store"
+      ]
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "coches-net-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "coches-net-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "coches-net-app-store"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "brokers",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "coches-net-privacy-policy"
+      ],
+      "note": "Compartit amb LiveRamp."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "coches-net-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "coches-net-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store declara identificadors i dades d’ús «utilitzats per rastrejar-te» en aplicacions i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "coches-net-privacy-policy",
+        "coches-net-app-store"
+      ],
+      "detail": "L’identificador publicitari del mòbil es comparteix amb LiveRamp.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "coches-net-privacy-policy"
+      ],
+      "detail": "LiveRamp i galetes publicitàries de tercers, com les d’AppNexus que descriu la política de galetes.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "coches-net-privacy-policy"
+      ],
+      "detail": "Amb consentiment, el perfil comercial serveix per mostrar publicitat a coches.net, a altres webs del grup i a webs de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "coches-net-privacy-policy"
+      ],
+      "detail": "Perfil comercial amb dades de navegació i hàbits d’accés. La política diu que no hi ha decisions automatitzades amb efectes jurídics.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "coches-net-privacy-policy"
+      ],
+      "detail": "La política diu que el contingut de les converses amb el xatbot no s’utilitza per entrenar models d’IA de desenvolupament propi. No diu res dels proveïdors externs del model.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "coches-net-privacy-policy"
+      ],
+      "detail": "Anunciants, concessionaris (també el més proper al teu codi postal), marques fabricants i la seva xarxa, entitats de finançament, compradors de «venda ràpida», proveïdors i autoritats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "coches-net-privacy-policy"
+      ],
+      "detail": "Multipublicació a Milanuncios i accés d’empreses del grup per a suport.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "coches-net-privacy-policy"
+      ],
+      "detail": "La política preveu compartir el correu en format hash, l’identificador publicitari del mòbil i l’adreça IP amb LiveRamp, com a corresponsable, per crear un identificador que es pot compartir amb anunciants de tot el món. No parla de venda de dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "coches-net-privacy-policy"
+      ],
+      "detail": "Proveïdors de fora de l’Espai Econòmic Europeu amb clàusules contractuals tipus.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política preveu informes de transparència sobre moderació, però no n’hem trobat cap sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "coches-net-privacy-policy",
+        "coches-net-data-retention"
+      ],
+      "detail": "Hi ha terminis concrets per al xat d’IA (48 hores), les dades de navegació (12 mesos) i els comptes inactius (tres anys). La resta es conserva mentre duri la relació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "coches-net-data-rights"
+      ],
+      "detail": "Les dades queden bloquejades durant els terminis de prescripció de cada finalitat, a disposició només de jutges, tribunals i autoritats, abans de l’esborrat definitiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "contingut-de-missatges",
+        "period": "48 hores per a les converses amb l’assistent Net AI",
+        "sources": [
+          "coches-net-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "historial-de-navegacio",
+        "period": "12 mesos per a les dades de navegació",
+        "sources": [
+          "coches-net-data-retention"
+        ]
+      },
+      {
+        "period": "El compte es pot eliminar, amb avís previ, després de tres anys sense iniciar sessió",
+        "sources": [
+          "coches-net-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "coches-net-data-rights"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "coches-net-data-rights"
+      ],
+      "detail": "La supressió es demana des de l’àrea d’usuari; el procés és el mateix a Android, iPhone i web.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "easy",
+    "requiresSupportContact": false,
+    "steps": [
+      "Entra a l’àrea d’usuari de coches.net.",
+      "Si vols conservar les dades, fes servir primer l’opció «Exportar».",
+      "Sol·licita la supressió del compte des de la mateixa àrea d’usuari.",
+      "Si també tens compte a Milanuncios, cal eliminar-lo a part."
+    ],
+    "obstacles": "Esborrar el compte de coches.net no afecta els altres portals del grup, on cal repetir el procés.",
+    "dataRetained": "Les dades queden bloquejades durant els terminis de prescripció de cada finalitat, a disposició només de jutges, tribunals i autoritats, abans de l’esborrat definitiu.",
+    "sources": [
+      "coches-net-data-rights"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "coches-net-data-rights"
+      ],
+      "detail": "Des de l’àrea d’usuari: en un termini de 30 dies arriba un correu amb un enllaç a un fitxer ZIP amb les dades en JSON.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "open",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "coches-net-privacy-policy"
+      ],
+      "detail": "Delegat de protecció de dades a privacidad@coches.net i drets d’accés, portabilitat i supressió des de l’àrea d’usuari.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacidad@coches.net",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "coches-net-privacy-policy"
+      ],
+      "detail": "El perfil comercial i LiveRamp depenen del consentiment, que es pot retirar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "coches-net-privacy-policy"
+      ],
+      "detail": "Les estadístiques d’ús es basen en l’interès legítim o en el consentiment, segons la política de galetes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "coches-net-privacy-policy"
+      ],
+      "detail": "La política separa per consentiment el perfil comercial, el finançament, les alertes i les comunicacions de tercers. No hem verificat els controls dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem analitzat el bàner de consentiment ni el flux de registre."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "coches-net-privacy-policy"
+      ],
+      "detail": "Els xats es poden revisar manualment i automàticament.",
+      "verifiedAt": "2026-09-22",
+      "scope": "none"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "editorial",
+      "sources": [],
+      "detail": "Comprovació pròpia del web: redirigeix a HTTPS i envia la capçalera HSTS. No hem analitzat el trànsit de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha informació pública sobre el xifratge de les dades en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap opció de verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories ni certificacions publicades."
+    },
+    "bugBounty": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "coches-net-security-txt",
+        "adevinta-vulnerability-disclosure"
+      ],
+      "detail": "Canal de divulgació responsable a HackerOne, sense recompenses anunciades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "coches-net-security-txt",
+        "adevinta-vulnerability-disclosure"
+      ],
+      "detail": "Fitxer security.txt amb adreça de contacte i política de divulgació responsable.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.coches.net/.well-known/security.txt"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "wallapop",
+      "comparability": "partial",
+      "rationale": "També s’hi venen cotxes entre particulars, amb xat i sense cedir les dades a concessionaris."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La política és del 19 de febrer de 2026 i regula l’ús de l’IA. L’ajuda encara parla del grup «Adevinta Spain». Els expedients de l’AEPD que la citen són contra tercers.",
+    "openQuestions": [
+      "Quin proveïdor fa funcionar Net AI i quines dades de la conversa rep?"
+    ]
+  },
+  "appStoreBundleId": "com.cochesnet.app"
+}

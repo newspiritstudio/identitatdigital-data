@@ -1,0 +1,515 @@
+{
+  "slug": "google-calendar",
+  "name": "Google Calendar",
+  "company": "google-ireland",
+  "categories": [
+    "ofimatica-i-productivitat"
+  ],
+  "tagline": "Agenda privada per defecte i sense ús publicitari del contingut, però sense xifratge d’extrem a extrem",
+  "summary": "Google diu que no fa servir el contingut de Calendar per a publicitat i que el calendari d’un compte personal és privat fins que es comparteix. Els esdeveniments es xifren en trànsit i en repòs amb claus de Google, que hi pot accedir tècnicament. Amb un compte de feina o d’escola, l’administració pot veure’l.",
+  "platforms": [
+    "web",
+    "ios",
+    "android"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Irlanda, per a persones usuàries de l’Espai Econòmic Europeu",
+  "links": {
+    "website": "https://calendar.google.com/",
+    "privacyPolicy": "https://policies.google.com/privacy",
+    "privacyCenter": "https://myaccount.google.com/data-and-privacy",
+    "appStore": "https://apps.apple.com/es/app/id909319292"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "google-privacy-policy"
+    ],
+    "detail": "Cal un compte de Google.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "google-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Una agenda diu on serà una persona, amb qui i quan: visites mèdiques, reunions, viatges, rutines familiars. Les invitacions afegeixen dades de terceres persones que no han triat el servei.",
+  "dataCollection": [
+    {
+      "type": "fitxers-i-documents",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "google-calendar-privacy-basics",
+        "google-calendar-app-store"
+      ],
+      "note": "Esdeveniments, descripcions i adjunts; l’etiqueta ho declara com a «altre contingut de l’usuari»."
+    },
+    {
+      "type": "metadades-de-comunicacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "google-calendar-privacy-basics"
+      ],
+      "note": "Qui convida qui i quan, a través de les invitacions."
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "google-calendar-app-store"
+      ]
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "google-calendar-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "google-calendar-app-store"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "google-calendar-app-store"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "google-calendar-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "google-calendar-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "google-calendar-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "google-calendar-app-store"
+      ],
+      "note": "L’etiqueta declara identificadors per a publicitat o màrqueting del desenvolupador."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "google-calendar-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "google-calendar-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "google-calendar-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada utilitzada per rastrejar entre aplicacions i llocs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap declaració sobre l’ús de l’identificador publicitari del dispositiu."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi independent de rastrejadors de l’aplicació."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "google-calendar-privacy-basics"
+      ],
+      "detail": "Google diu que Calendar no fa servir el contingut per a publicitat. L’etiqueta declara identificadors per a màrqueting propi.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "google-calendar-app-store"
+      ],
+      "detail": "Ubicació, contactes i cerques es fan servir per personalitzar el producte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "google-docs-gemini-data"
+      ],
+      "detail": "Google diu que no fa servir les dades de Workspace, Calendar inclòs, per entrenar els models de Gemini.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "google-calendar-privacy-basics"
+      ],
+      "detail": "Google accedeix al contingut privat només amb permís o per obligació legal. Les aplicacions de tercers autoritzades poden llegir el calendari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-privacy-policy"
+      ],
+      "detail": "Política única i un sol compte per a tots els serveis de Google.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "google-privacy-policy"
+      ],
+      "detail": "Google declara que no ven informació personal.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-privacy-policy"
+      ],
+      "detail": "Les dades es poden tractar en servidors de fora de l’Espai Econòmic Europeu sota els marcs de transferència que Google declara.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "adequacy"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-transparency-report"
+      ],
+      "detail": "Informe de transparència amb les peticions governamentals de dades.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://transparencyreport.google.com/"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat terminis específics de conservació dels esdeveniments més enllà de la política general."
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "google-delete-account"
+      ],
+      "detail": "Les invitacions enviades continuen als calendaris de les persones convidades.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://myaccount.google.com/deleteservices",
+    "difficulty": "easy",
+    "waitingPeriodDays": 0,
+    "requiresSupportContact": false,
+    "steps": [
+      "Entra a myaccount.google.com i obre «Dades i privadesa».",
+      "A «Més opcions», tria «Suprimeix un servei de Google» o «Suprimeix el teu compte de Google».",
+      "Si vols conservar les dades, descarrega-les abans amb Google Takeout.",
+      "Revisa què es perdrà, confirma amb la contrasenya i accepta l’eliminació."
+    ],
+    "obstacles": "Eliminar el compte de Google fa perdre alhora Gmail, Drive, Fotos, YouTube i les compres digitals. Aquest acoblament fa difícil marxar d’un sol servei sense tocar la resta.",
+    "dataRetained": "Les invitacions i els esdeveniments compartits que consten als calendaris d’altres persones.",
+    "sources": [
+      "google-delete-account"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-takeout-help"
+      ],
+      "detail": "Google Takeout permet exportar les dades de cada servei per separat en formats estàndard.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://takeout.google.com/"
+    },
+    "exportFormatQuality": "open",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-privacy-policy"
+      ],
+      "detail": "La política preveu els drets del RGPD i un formulari per exercir-los.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://support.google.com/policies/troubleshooter/9009584",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-ad-center"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://myadcenter.google.com/"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap opció per desactivar les dades d’ús i de diagnòstic de l’aplicació."
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-calendar-privacy-basics"
+      ],
+      "detail": "El calendari és privat per defecte i es pot compartir calendari per calendari i esdeveniment per esdeveniment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "protective",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi de patrons foscos a Calendar."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "google-calendar-privacy-basics"
+      ],
+      "detail": "Xifratge en trànsit i en repòs amb claus de Google.",
+      "verifiedAt": "2026-09-22",
+      "scope": "none"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-safety-center"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-safety-center"
+      ],
+      "detail": "Xifratge en repòs amb claus gestionades per Google.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-safety-center"
+      ],
+      "detail": "Verificació en dos passos del compte de Google amb claus d’accés, claus físiques, aplicació d’autenticació, notificació i SMS.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "passkey",
+        "hardware-key",
+        "totp",
+        "app-push",
+        "sms"
+      ]
+    },
+    "independentAudits": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-safety-center"
+      ],
+      "detail": "Certificacions ISO 27001, ISO 27701 i informes SOC auditats per tercers.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://safety.google/"
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-safety-center"
+      ],
+      "detail": "Els serveis de Google entren al programa de recompenses per vulnerabilitats de Google.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://bughunters.google.com/"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-safety-center"
+      ],
+      "detail": "Canal públic de notificació de vulnerabilitats a través de Google Bug Hunters.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "openQuestions": [
+      "Quins terminis de conservació s’apliquen als esdeveniments i a les invitacions rebudes?"
+    ]
+  },
+  "appStoreBundleId": "com.google.calendar"
+}

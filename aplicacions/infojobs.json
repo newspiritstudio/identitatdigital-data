@@ -1,0 +1,648 @@
+{
+  "slug": "infojobs",
+  "name": "InfoJobs",
+  "company": "adevinta-jobs",
+  "categories": [
+    "feina-i-ocupacio"
+  ],
+  "tagline": "Currículums visibles per a les empreses per defecte i una filtració de perfils el 2025",
+  "summary": "InfoJobs guarda el currículum complet de milions de persones i, per defecte, el deixa consultar a les empreses que cerquen candidats, amb base en l’interès legítim. El 2025 uns atacants van entrar amb credencials robades a comptes del servei i en van extreure dades de contacte i, en alguns casos, experiència laboral, número d’identificació i data de naixement. El perfil comercial per a publicitat depèn del consentiment, i la baixa es pot fer des de l’aplicació.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://www.infojobs.net/",
+    "privacyPolicy": "https://www.infojobs.net/privacy-policy/extended.xhtml",
+    "appStore": "https://apps.apple.com/es/app/id382581206"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "infojobs-privacy-policy"
+    ],
+    "detail": "Les ofertes es poden consultar sense compte; cal registrar-se per inscriure’s, desar el currículum o rebre alertes.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "editorial",
+    "sources": [],
+    "detail": "No hem trobat cap repositori públic del codi de l’aplicació; ho considerem programari privatiu.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Un currículum a InfoJobs recull la trajectòria laboral, la formació, les competències, la data de naixement i sovint el document d’identitat. Afegit a les inscripcions i les cerques, mostra quan i on una persona busca feina, i és el tipus de dada que va exposar la filtració del 2025, després de la qual InfoJobs va alertar del risc d’estafes amb ofertes de feina falses.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "infojobs-privacy-policy",
+        "infojobs-app-store"
+      ],
+      "note": "Es comunica a l’empresa de cada oferta on t’inscrius."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "infojobs-privacy-policy",
+        "infojobs-app-store"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "infojobs-privacy-policy",
+        "infojobs-app-store"
+      ]
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "infojobs-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "infojobs-app-store",
+        "infojobs-breach-2025-data"
+      ],
+      "note": "L’etiqueta la declara per a publicitat pròpia; la filtració va exposar el codi postal i la ciutat."
+    },
+    {
+      "type": "fitxers-i-documents",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "infojobs-privacy-policy"
+      ],
+      "note": "El currículum, visible per a les empreses de les ofertes i, per defecte, per a les que cerquen a la base de dades de candidats."
+    },
+    {
+      "type": "ocupacio-i-carrec",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "infojobs-privacy-policy",
+        "infojobs-breach-2025-data"
+      ]
+    },
+    {
+      "type": "nivell-formatiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "infojobs-privacy-policy"
+      ],
+      "note": "Inclòs a les «dades curriculars», juntament amb competències i habilitats."
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "infojobs-breach-2025-data"
+      ],
+      "note": "Només si s’afegeix al perfil; la filtració del 2025 el va poder exposar."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "infojobs-privacy-policy",
+        "infojobs-profile-visibility"
+      ],
+      "note": "Fotografia de perfil, que pot quedar indexada a Google si el perfil és públic."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "infojobs-privacy-policy"
+      ],
+      "note": "Xat amb les empreses que inicien una conversa."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "infojobs-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "infojobs-app-store",
+        "infojobs-privacy-policy"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "infojobs-app-store"
+      ],
+      "note": "L’etiqueta declara dades d’interacció amb el producte per a publicitat de tercers."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "infojobs-privacy-policy"
+      ],
+      "note": "Perfil comercial amb consentiment, que altres webs del grup o tercers poden fer servir per mostrar publicitat."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "infojobs-app-store"
+      ]
+    },
+    {
+      "type": "contrasenya",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "infojobs-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "infojobs-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "infojobs-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store declara identificadors utilitzats per rastrejar entre aplicacions i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "infojobs-app-store"
+      ],
+      "detail": "L’identificador del dispositiu es declara per a publicitat de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "infojobs-privacy-policy",
+        "infojobs-app-store"
+      ],
+      "detail": "La política esmenta proveïdors de serveis publicitaris i l’etiqueta, publicitat de tercers.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "infojobs-privacy-policy"
+      ],
+      "detail": "Amb consentiment, el perfil comercial serveix per mostrar publicitat personalitzada a InfoJobs, a altres webs del grup i a webs de tercers, també amb audiències similars.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "infojobs-privacy-policy"
+      ],
+      "detail": "Perfil comercial amb dades de navegació i hàbits d’accés, i alertes d’ofertes calculades amb el currículum i les cerques. La política diu que no hi ha decisions automatitzades amb efectes jurídics.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política parla de xatbot i de desenvolupar funcionalitats «mitjançant l’estudi de les dades», però no diu si s’entrenen models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "infojobs-privacy-policy"
+      ],
+      "detail": "Empreses de les ofertes (també les de «perfil cec», que no revelen la seva identitat), empreses que cerquen a la base de candidats, proveïdors i autoritats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "infojobs-privacy-policy"
+      ],
+      "detail": "Accés d’empreses del grup per a suport i comunicació de dades a Adevinta Motor, que gestiona Milanuncios i coches.net.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta cap venda de dades ni cap acord amb intermediaris."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "infojobs-privacy-policy"
+      ],
+      "detail": "Proveïdors de fora de l’Espai Econòmic Europeu amb clàusules contractuals tipus.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política preveu informes de transparència sobre moderació de contingut, però no n’hem trobat cap sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "infojobs-privacy-policy"
+      ],
+      "detail": "Hi ha dos terminis concrets: el test de competències (dos anys) i els comptes inactius, que es poden eliminar al cap de set anys. La resta es conserva mentre duri la relació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "infojobs-privacy-policy"
+      ],
+      "detail": "Les dades queden bloquejades durant els terminis de prescripció de cada finalitat, a disposició només de jutges, tribunals i autoritats, abans de l’esborrat definitiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "period": "Set anys sense activitat: el compte es considera inactiu i es pot eliminar",
+        "sources": [
+          "infojobs-privacy-policy"
+        ]
+      },
+      {
+        "period": "Dos anys per al resultat del test de competències",
+        "sources": [
+          "infojobs-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "infojobs-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "infojobs-delete-account"
+      ],
+      "detail": "L’opció «Tancar compte» és als ajustos del web i de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://ayuda.infojobs.net/hc/es/articles/40722361925393",
+    "difficulty": "easy",
+    "requiresSupportContact": false,
+    "steps": [
+      "A l’aplicació, obre «CV» i toca la icona d’ajustos (a baix a la dreta a l’iPhone, a dalt a la dreta a Android).",
+      "Tria «Tancar compte» i indica’n un motiu.",
+      "Confirma la contrasenya i toca «Tancar compte». Al web, el camí és menú del compte, «Ajustos» i «Tancar compte».",
+      "L’esborrat pot trigar uns quants dies a completar-se."
+    ],
+    "obstacles": "L’ajuda d’InfoJobs respon «No cal!» a qui pregunta si s’ha de donar de baja quan troba feina, i proposa amagar el currículum en lloc d’eliminar-lo.",
+    "dataRetained": "Les dades queden bloquejades durant els terminis de prescripció de cada finalitat, a disposició només de jutges, tribunals i autoritats, abans de l’esborrat definitiu.",
+    "sources": [
+      "infojobs-delete-account",
+      "infojobs-found-job",
+      "infojobs-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "infojobs-privacy-policy"
+      ],
+      "detail": "La portabilitat es reconeix, però no hem trobat cap eina d’exportació; cal demanar-la per correu o des del perfil.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacidad@infojobs.net"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "infojobs-privacy-policy"
+      ],
+      "detail": "Delegat de protecció de dades a privacidad@infojobs.net, enllaços als correus i accés des del perfil.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacidad@infojobs.net",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "infojobs-privacy-policy"
+      ],
+      "detail": "El perfil comercial i la publicitat personalitzada depenen del consentiment, que es pot retirar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "infojobs-privacy-policy"
+      ],
+      "detail": "Les estadístiques d’ús es basen en l’interès legítim; només s’hi pot oposar exercint el dret d’oposició.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "infojobs-found-job",
+        "infojobs-profile-visibility"
+      ],
+      "detail": "Als ajustos es pot amagar el currículum a les empreses que cerquen candidats, fer invisible el perfil a Internet i desactivar els correus d’ofertes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [
+        "infojobs-found-job"
+      ],
+      "detail": "L’ajuda desaconsella la baixa a qui ha trobat feina i recorda que el currículum continuarà visible per a les empreses. No hem analitzat el bàner de consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "other",
+        "severity": "low",
+        "description": "L’article d’ajuda sobre la baixa respon «No cal!» i empeny a mantenir el compte i el currículum visibles en lloc d’eliminar-los.",
+        "sources": [
+          "infojobs-found-job"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "infojobs-privacy-policy"
+      ],
+      "detail": "El xat amb les empreses passa pels servidors d’InfoJobs, que poden revisar-lo.",
+      "verifiedAt": "2026-09-22",
+      "scope": "none"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "editorial",
+      "sources": [],
+      "detail": "Comprovació pròpia del web: redirigeix a HTTPS i envia la capçalera HSTS. No hem analitzat el trànsit de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha informació pública sobre el xifratge de les dades en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap opció de verificació en dos passos; l’ajuda de seguretat només dona consells de contrasenyes."
+    },
+    "independentAudits": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "infojobs-security-measures"
+      ],
+      "detail": "InfoJobs diu que cada any contracta proves d’intrusió externes; no en publica els resultats ni certificacions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "infojobs-security-measures"
+      ],
+      "detail": "Diu que participa en programes on persones expertes detecten vulnerabilitats a canvi de recompenses. No n’hem trobat la pàgina pública.",
+      "verifiedAt": "2026-09-22"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "infojobs-security-txt",
+        "adevinta-vulnerability-disclosure"
+      ],
+      "detail": "Fitxer security.txt amb adreça de contacte i política de divulgació responsable d’Adevinta a HackerOne.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://adevinta.com/security-vulnerability/"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "linkedin",
+      "comparability": "partial",
+      "rationale": "També permet que les empreses trobin candidats pel perfil, amb més pes de xarxa professional.",
+      "tradeOffs": "El perfil és públic per defecte i LinkedIn fa servir les dades per a publicitat i IA."
+    },
+    {
+      "app": "indeed",
+      "comparability": "equivalent",
+      "rationale": "Cercador d’ofertes amb currículum i candidatures en línia."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La política és del setembre del 2024, anterior a la venda a EQT, i encara parla del «grup Adevinta» i de comunicar dades a Adevinta Motor. Hem cercat sancions a la base de resolucions de l’AEPD i no n’hem trobat cap contra Adevinta Jobs.",
+    "openQuestions": [
+      "Quantes persones va afectar la filtració del 2025 i què en va concloure l’AEPD?",
+      "Quin programa de recompenses fa servir InfoJobs i on es publica?"
+    ]
+  },
+  "appStoreBundleId": "net.infojobs.ijiphone"
+}

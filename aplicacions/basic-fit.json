@@ -1,0 +1,591 @@
+{
+  "slug": "basic-fit",
+  "name": "Basic-Fit",
+  "company": "basic-fit",
+  "categories": [
+    "benestar-i-activitat-fisica"
+  ],
+  "tagline": "Una cadena que publica terminis concrets i que conserva les dades dos anys després de la baixa de la quota",
+  "summary": "Basic-Fit té una política detallada: una taula de terminis categoria per categoria, la promesa que les dades de les persones abonades no surten de la Unió Europea tret de Google Analytics, i la negativa explícita a prendre decisions automatitzades. En canvi, les dades generals es conserven dos anys després de la baixa, i per eliminar el compte no hi ha cap botó: cal escriure a una adreça de correu.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "subscription",
+  "jurisdiction": "Països Baixos; l’aplicació opera a Espanya amb la política de l’entitat neerlandesa",
+  "userBase": "Present als Països Baixos, Bèlgica, Luxemburg, França, Espanya, Alemanya i Àustria",
+  "links": {
+    "website": "https://www.basic-fit.com/es-es/fitness/basic-fit-app",
+    "privacyPolicy": "https://www.basic-fit.com/es-es/acerca-de/declaracion-de-privacidad",
+    "appStore": "https://apps.apple.com/es/app/id1588263601"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "basic-fit-declaracion-privacidad"
+    ],
+    "detail": "L’aplicació és per a persones abonades: el compte My Basic-Fit es crea en contractar la quota.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "editorial",
+    "sources": [],
+    "detail": "No hem trobat cap repositori públic del codi.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "El registre dels torns d’entrada al club mostra a quina hora surts de casa, quants dies a la setmana i amb quina regularitat. Si fas servir el Body Analyzer, s’hi afegeix la composició corporal (greix, múscul, aigua i os), que és una dada de salut en sentit estricte.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "basic-fit-declaracion-privacidad",
+        "basic-fit-app-store"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "basic-fit-declaracion-privacidad",
+        "basic-fit-app-store"
+      ],
+      "note": "La política adverteix que, en cas d’impagament, les agències de cobrament passen a ser responsables independents del tractament."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "basic-fit-declaracion-privacidad",
+        "basic-fit-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "basic-fit-declaracion-privacidad",
+        "basic-fit-app-store"
+      ]
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "basic-fit-declaracion-privacidad"
+      ]
+    },
+    {
+      "type": "genere",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "basic-fit-declaracion-privacidad"
+      ],
+      "note": "La política l’enumera entre les dades de l’abonament."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "basic-fit-declaracion-privacidad"
+      ],
+      "note": "Compte bancari i dades de la targeta per a la quota; es conserven segons la normativa fiscal de cada país."
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "basic-fit-declaracion-privacidad",
+        "basic-fit-app-store"
+      ],
+      "note": "Alçada, pes, índex de massa corporal, objectius i, si fas servir el Body Analyzer, composició corporal. La base jurídica és el consentiment; les dades de l’app Salut d’Apple es queden al dispositiu i no entren als sistemes de Basic-Fit."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "basic-fit-declaracion-privacidad",
+        "basic-fit-app-store"
+      ],
+      "note": "Fotografia de perfil i videovigilància del club, amb finalitats limitades de seguretat i sense càmeres a vestidors ni lavabos."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "basic-fit-declaracion-privacidad",
+        "basic-fit-app-store"
+      ],
+      "note": "Inclou els registres dels torns d’entrada al club i l’historial de pagaments."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "basic-fit-declaracion-privacidad",
+        "basic-fit-app-store"
+      ],
+      "note": "Es fa servir per lligar el codi QR d’accés a un sol telèfon i evitar que se’n comparteixi; també arriba a Google Analytics."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "basic-fit-declaracion-privacidad"
+      ],
+      "note": "Només per al cercador de clubs; la política diu que Basic-Fit no l’emmagatzema."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "basic-fit-declaracion-privacidad"
+      ],
+      "note": "Xat amb l’entrenador dins del programa d’entrenament: es conserva dos mesos després d’acabar-lo."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "basic-fit-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "basic-fit-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada utilitzada per rastrejar-te a través d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "basic-fit-app-store"
+      ],
+      "detail": "L’etiqueta no declara identificadors publicitaris, tot i que sí que declara que les dades vinculades es fan servir per a «publicidad o marketing».",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "basic-fit-declaracion-privacidad"
+      ],
+      "detail": "La política anomena Google Analytics, que rep identificadors de dispositiu i els tracta als Estats Units, i esmenta els components de les xarxes socials.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "basic-fit-declaracion-privacidad",
+        "basic-fit-app-store"
+      ],
+      "detail": "La segmentació es fa amb dades agregades i anonimitzades per país, regió, club habitual i tipus d’abonament, no amb perfils individuals; la publicitat de tercers requereix consentiment. L’etiqueta de l’App Store, en canvi, declara «publicidad o marketing» entre els usos de les dades vinculades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "basic-fit-declaracion-privacidad"
+      ],
+      "detail": "La política diu textualment que Basic-Fit no fa perfilat que porti a decisions automatitzades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "basic-fit-declaracion-privacidad"
+      ],
+      "detail": "La política no preveu cap ús de les dades per entrenar models; tampoc no esmenta la intel·ligència artificial.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "basic-fit-declaracion-privacidad"
+      ],
+      "detail": "Google Analytics, agències de cobrament (com a responsables independents), entrenadors personals i monitors de classes col·lectives, i les plataformes on Basic-Fit té presència.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "basic-fit-declaracion-privacidad"
+      ],
+      "detail": "La responsable única és Basic-Fit International B.V., que gestiona els clubs dels set països on opera.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "basic-fit-declaracion-privacidad"
+      ],
+      "detail": "La política no preveu cap venda de dades; la publicitat de tercers només és possible amb consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "basic-fit-declaracion-privacidad"
+      ],
+      "detail": "La política afirma que les dades de les persones abonades no es tracten ni s’emmagatzemen fora de la Unió Europea, amb l’excepció de Google Analytics, emparada en clàusules contractuals tipus.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "basic-fit-declaracion-privacidad"
+      ],
+      "detail": "La política publica una taula de terminis per categoria, cosa infreqüent en aquest sector.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "basic-fit-declaracion-privacidad"
+      ],
+      "detail": "Les dades generals es conserven dos anys després de la baixa i les fiscals, el que marqui la llei de cada país.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "period": "Dades generals de la persona abonada: 2 anys des de la baixa",
+        "sources": [
+          "basic-fit-declaracion-privacidad"
+        ]
+      },
+      {
+        "period": "Accés a My Basic-Fit: 1 any des de la baixa",
+        "sources": [
+          "basic-fit-declaracion-privacidad"
+        ]
+      },
+      {
+        "dataType": "dades-de-salut",
+        "period": "2 mesos després d’esborrar-les a l’aplicació",
+        "sources": [
+          "basic-fit-declaracion-privacidad"
+        ]
+      },
+      {
+        "dataType": "fotografies-i-videos",
+        "period": "28 dies (imatges de videovigilància per frau)",
+        "sources": [
+          "basic-fit-declaracion-privacidad"
+        ]
+      },
+      {
+        "dataType": "contingut-de-missatges",
+        "period": "2 mesos després del programa d’entrenament",
+        "sources": [
+          "basic-fit-declaracion-privacidad"
+        ]
+      },
+      {
+        "dataType": "veu-i-audio",
+        "period": "1 mes com a màxim (trucades per l’intercomunicador del club)",
+        "sources": [
+          "basic-fit-declaracion-privacidad"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "basic-fit-declaracion-privacidad"
+      ],
+      "detail": "El dret de supressió s’exerceix escrivint al departament de privadesa; les dades s’esborren automàticament dos anys després de la baixa de l’abonament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "basic-fit-declaracion-privacidad"
+      ],
+      "detail": "Des de l’aplicació i de My Basic-Fit es poden esborrar les dades de salut, la foto de perfil i els objectius, i canviar les preferències de màrqueting, però no eliminar el compte sencer.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "requiresSupportContact": true,
+    "steps": [
+      "Dona de baixa l’abonament pel procediment del teu contracte; l’accés a My Basic-Fit es manté un any més.",
+      "Des de l’aplicació o de My Basic-Fit, esborra manualment les dades de salut, la fotografia de perfil i els objectius que hi hagis introduït.",
+      "Escriu a requestprivacy@basic-fit.com demanant la supressió de les dades personals; la política es compromet a respondre en quatre setmanes.",
+      "Si la resposta no et convenç, adreça’t al delegat de protecció de dades a privacy@basic-fit.com."
+    ],
+    "obstacles": "No hi ha cap botó per eliminar el compte. Encara que no demanis res, les dades generals es conserven dos anys des de la baixa, i les de pagament, el que marqui la normativa fiscal.",
+    "dataRetained": "Dades generals durant dos anys des de la baixa, dades fiscals segons la llei nacional i la llista de persones expulsades durant dos anys.",
+    "sources": [
+      "basic-fit-declaracion-privacidad"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "basic-fit-declaracion-privacidad"
+      ],
+      "detail": "Els drets d’accés i portabilitat es reconeixen i s’exerceixen per correu electrònic; no hi ha cap eina d’autoservei per descarregar les dades.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:requestprivacy@basic-fit.com"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "basic-fit-declaracion-privacidad"
+      ],
+      "detail": "Hi ha una adreça específica de peticions i un delegat de protecció de dades, amb un compromís de resposta de quatre setmanes.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacy@basic-fit.com",
+      "responseTimeDays": 28
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "basic-fit-declaracion-privacidad"
+      ],
+      "detail": "Les preferències de màrqueting es canvien en qualsevol moment des de My Basic-Fit, des de l’aplicació o amb l’enllaç de baixa dels correus.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap manera de desactivar l’analítica de l’aplicació."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "basic-fit-declaracion-privacidad"
+      ],
+      "detail": "Es poden esborrar dades concretes (salut, foto i objectius) i gestionar el consentiment publicitari, però no hi ha un panell de privadesa per finalitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "no",
+      "level": "editorial",
+      "sources": [
+        "basic-fit-declaracion-privacidad"
+      ],
+      "detail": "No hem trobat patrons enganyosos a la documentació; l’objecció és que no hi ha cap botó per eliminar el compte.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no transporta comunicacions privades més enllà del xat amb l’entrenador.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no detalla les mesures tècniques de xifratge en trànsit."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública sobre el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap documentació sobre verificació en dos passos a My Basic-Fit."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories ni certificacions de seguretat publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "basic-fit-app-store"
+      ],
+      "detail": "El domini basic-fit.com no serveix cap fitxer .well-known/security.txt i no hem trobat cap política de divulgació publicada.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "vivagym",
+      "comparability": "equivalent",
+      "rationale": "Cadena de quota baixa comparable amb una política espanyola que també publica terminis concrets i identifica les societats del grup.",
+      "tradeOffs": "La baixa de VivaGym depèn d’un dia límit mensual que varia segons el club."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La taula de terminis de Basic-Fit diu quant de temps es conserva cada categoria i per què. La contradicció principal és que l’etiqueta de l’App Store declara «publicidad o marketing» com a ús de dades vinculades mentre la política insisteix que la segmentació és agregada.",
+    "openQuestions": [
+      "Quines dades vinculades es fan servir exactament per a «publicidad o marketing», segons l’etiqueta de l’App Store?",
+      "Hi ha alguna sanció o requeriment de l’Autoriteit Persoonsgegevens neerlandesa o de l’AEPD contra la cadena?"
+    ]
+  },
+  "appStoreBundleId": "com.basicfit.bfa"
+}

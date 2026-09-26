@@ -1,0 +1,491 @@
+{
+  "slug": "brave",
+  "name": "Brave",
+  "company": "brave-software",
+  "categories": [
+    "navegadors",
+    "cercadors"
+  ],
+  "tagline": "Navegador basat en Chromium amb bloqueig de rastrejadors per defecte",
+  "summary": "Brave ofereix la compatibilitat de Chromium amb el bloqueig de rastrejadors i anuncis activat de sèrie, i incorpora un cercador amb índex propi. També inclou un sistema publicitari propi i funcions de criptomoneda que cal desactivar, cosa que complica la configuració inicial.",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "android",
+    "ios"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Estats Units",
+  "userBase": "Al voltant de 90 milions de persones usuàries mensuals",
+  "links": {
+    "website": "https://brave.com/",
+    "privacyPolicy": "https://brave.com/privacy/browser/",
+    "terms": "https://brave.com/terms-of-use/"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "brave-browser-privacy"
+    ],
+    "detail": "El navegador i el cercador funcionen sense compte.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "brave-github"
+    ],
+    "detail": "Codi obert i públic, basat en Chromium amb modificacions documentades.",
+    "verifiedAt": "2026-09-22",
+    "repositoryUrl": "https://github.com/brave/brave-browser",
+    "licence": "MPL-2.0"
+  },
+  "dataSummary": "Brave declara que el navegador està dissenyat per no saber qui ets ni quins llocs visites. Les mètriques que envia són agregades i, en el cas del sistema publicitari, es processen amb tècniques que impedeixen associar-les a una persona.",
+  "dataCollection": [
+    {
+      "type": "historial-de-navegacio",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "brave-browser-privacy"
+      ],
+      "note": "No surt del dispositiu; la sincronització opcional va xifrada amb una clau que Brave no coneix."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "brave-search-privacy"
+      ],
+      "note": "El cercador no desa consultes associades a persones ni dispositius."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "brave-browser-privacy"
+      ],
+      "note": "Mètriques agregades i anònimes, desactivables."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "brave-browser-privacy"
+      ],
+      "note": "Necessària per a les connexions; no es registra associada a l’activitat."
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "brave-browser-privacy"
+      ],
+      "note": "Les galetes de tercers estan bloquejades per defecte."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "brave-browser-privacy"
+      ]
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "brave-browser-privacy"
+      ],
+      "note": "El sistema Brave Ads, desactivat per defecte, calcula els interessos localment sense enviar-los."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "brave-browser-privacy"
+      ]
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "brave-browser-privacy"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "brave-browser-privacy"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "brave-browser-privacy"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "brave-browser-privacy"
+      ],
+      "detail": "L’escut de Brave bloqueja rastrejadors, anuncis i empremtes digitals per defecte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "brave-browser-privacy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "brave-browser-privacy"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "brave-browser-privacy"
+      ],
+      "detail": "Brave Ads existeix però ve desactivat i, quan s’activa, la selecció d’anuncis es fa al dispositiu sense enviar el perfil.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "brave://settings/rewards"
+    },
+    "profiling": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "brave-browser-privacy"
+      ],
+      "detail": "Els senyals d’interès, si n’hi ha, no surten del dispositiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "brave-browser-privacy"
+      ],
+      "detail": "L’assistent Leo té una modalitat que no conserva les converses; algunes consultes s’encaminen a proveïdors externs de manera anònima.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "brave-browser-privacy"
+      ],
+      "detail": "Proveïdors de models per a l’assistent i xarxes de distribució de contingut, sense identificació de la persona.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Brave no forma part de cap grup empresarial.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "brave-browser-privacy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "brave-browser-privacy"
+      ],
+      "detail": "La infraestructura és als Estats Units; les dades transferides no permeten identificar la persona.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "none"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "brave-browser-privacy"
+      ],
+      "detail": "Documenta el tractament funció a funció amb molt detall, però no publica un informe periòdic de peticions d’autoritats.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "brave-browser-privacy"
+      ],
+      "detail": "Els pocs registres que hi ha tenen terminis curts i documentats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha compte ni perfil de servidor a eliminar.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Brave no crea comptes de persona usuària per fer servir el navegador o el cercador.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "unknown",
+    "requiresSupportContact": false,
+    "dataRetained": "Les dades locals resten al dispositiu i es poden esborrar des del mateix navegador.",
+    "sources": [
+      "brave-browser-privacy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha dades personals emmagatzemades al servidor per exportar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "brave-browser-privacy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacy@brave.com",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "brave-browser-privacy"
+      ],
+      "detail": "Brave Ads està desactivat per defecte i es pot mantenir així indefinidament.",
+      "verifiedAt": "2026-09-22",
+      "url": "brave://settings/rewards"
+    },
+    "telemetryOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "brave-browser-privacy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "brave-browser-privacy"
+      ],
+      "detail": "Escuts configurables per lloc, finestres privades amb Tor, bloqueig d’empremtes digitals i esborrat en tancar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "protective",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [
+        "brave-browser-privacy"
+      ],
+      "detail": "Les funcions de criptomoneda i el moneder apareixen a la interfície sense haver-los demanat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "other",
+        "severity": "low",
+        "description": "El navegador mostra per defecte accessos al moneder de criptomonedes i al sistema de recompenses, funcions no relacionades amb la navegació que cal desactivar manualment.",
+        "sources": [
+          "brave-browser-privacy"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "brave-browser-privacy"
+      ],
+      "detail": "La sincronització entre dispositius es xifra amb una frase de recuperació que només té la persona usuària; Brave no en guarda cap còpia.",
+      "verifiedAt": "2026-09-22",
+      "scope": "all-default"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "brave-browser-privacy"
+      ],
+      "detail": "Força les connexions xifrades sempre que és possible.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "brave-browser-privacy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha comptes de persona usuària que calgui protegir amb un segon factor.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "partial",
+      "level": "independent",
+      "sources": [
+        "brave-github"
+      ],
+      "detail": "El codi és auditable públicament i hi ha revisions externes de components concrets, però no cap auditoria completa publicada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "brave-github"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://hackerone.com/brave"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "brave-github"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "firefox",
+      "comparability": "equivalent",
+      "rationale": "Cobreix la mateixa necessitat amb un motor propi i independent, protecció contra el rastreig per defecte i sense funcions de criptomoneda.",
+      "tradeOffs": "Algunes aplicacions web es proven només amb motors basats en Chromium i poden funcionar pitjor."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Brave ha tingut episodis passats de reputació discutida, com la substitució d’enllaços d’afiliació el 2020, però queden fora de la finestra temporal de la primera onada i no s’han inclòs com a incidents registrats. Convé revisar-ho en la propera actualització.",
+    "openQuestions": [
+      "Cal incorporar l’episodi de 2020 de substitució d’enllaços d’afiliació com a incident documentat?"
+    ]
+  },
+  "appStoreBundleId": "com.brave.ios.browser"
+}

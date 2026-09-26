@@ -1,0 +1,522 @@
+{
+  "slug": "letterboxd",
+  "name": "Letterboxd",
+  "company": "letterboxd",
+  "categories": [
+    "xarxes-socials",
+    "comunitats-i-forums"
+  ],
+  "tagline": "Exportació completa en CSV i 2FA, a canvi de publicitat amb un identificador comú si no pagues",
+  "summary": "Letterboxd és el diari de pel·lícules i la xarxa social de cinema. Hi ha exportació sencera del compte en un zip de CSV (amb el contingut esborrat inclòs), verificació en dos passos amb codis TOTP, representants a la UE i al Regne Unit i clàusules contractuals tipus. En canvi, els comptes gratuïts veuen publicitat servida amb Playwire i una galeta «Common ID» que desa un identificador únic accessible als socis publicitaris.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Nova Zelanda, amb representants a Irlanda i al Regne Unit",
+  "links": {
+    "website": "https://letterboxd.com/",
+    "privacyPolicy": "https://letterboxd.com/legal/privacy-policy/",
+    "appStore": "https://apps.apple.com/es/app/id1054271011"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "letterboxd-privacy-policy"
+    ],
+    "detail": "Cal compte per portar el diari; el catàleg de pel·lícules es pot consultar sense registrar-s’hi.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "letterboxd-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Què has vist, quan, com ho has puntuat i què n’has escrit. El diari de pel·lícules mostra gustos, hàbits i estats d’ànim, i per defecte és públic.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "letterboxd-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "letterboxd-privacy-policy"
+      ]
+    },
+    {
+      "type": "contrasenya",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "letterboxd-privacy-policy"
+      ]
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "letterboxd-privacy-policy"
+      ],
+      "note": "Ressenyes, llistes i comentaris, públics per defecte."
+    },
+    {
+      "type": "historial-de-visualitzacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "letterboxd-privacy-policy"
+      ],
+      "note": "El diari de pel·lícules vistes, amb dates i puntuacions."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "letterboxd-privacy-policy"
+      ],
+      "note": "Avatar i imatges de fons."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "letterboxd-privacy-policy"
+      ],
+      "note": "Les processen Paddle, Apple, Google i Stripe; Letterboxd no desa les dades completes de la targeta."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "letterboxd-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "letterboxd-privacy-policy"
+      ],
+      "note": "Deduïda de l’adreça IP."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "letterboxd-app-store",
+        "letterboxd-privacy-policy"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "letterboxd-privacy-policy"
+      ],
+      "note": "La galeta «Common ID» desa un identificador únic al domini propi que els socis publicitaris poden llegir."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "letterboxd-app-store",
+        "letterboxd-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "letterboxd-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "letterboxd-app-store"
+      ],
+      "detail": "L’etiqueta declara identificadors i dades d’ús com a dades utilitzades per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "letterboxd-app-store",
+        "letterboxd-privacy-policy"
+      ],
+      "detail": "Identificador del dispositiu i galeta Common ID al web.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "letterboxd-privacy-policy"
+      ],
+      "detail": "Playwire per a la publicitat, més Vimeo, Zendesk i Cloudflare.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "letterboxd-privacy-policy",
+        "letterboxd-faq"
+      ],
+      "detail": "Només per als comptes gratuïts: les subscripcions Pro i Patron treuen la publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "letterboxd-privacy-policy"
+      ],
+      "detail": "Personalització de continguts i de campanyes de màrqueting.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta l’entrenament de models amb les ressenyes."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "letterboxd-privacy-policy"
+      ],
+      "detail": "Playwire, Vimeo, Zendesk, Cloudflare i les passarel·les de pagament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "letterboxd-privacy-policy"
+      ],
+      "detail": "Entre les societats del grup a Nova Zelanda i als Estats Units.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no parla de venda de dades a intermediaris."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "letterboxd-privacy-policy"
+      ],
+      "detail": "Decisions d’adequació i clàusules contractuals tipus de la Comissió Europea del 4 de juny del 2021.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha informe de transparència, però sí una pàgina pública d’avisos de seguretat."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "letterboxd-privacy-policy"
+      ],
+      "detail": "La conservació es descriu per finalitat, sense terminis concrets.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "letterboxd-privacy-policy",
+        "letterboxd-account-deactivation"
+      ],
+      "detail": "La supressió permanent es programa a noranta dies (trenta com a mínim) i la política preveu conservar dades per motius legals després de la baixa.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "letterboxd-account-deactivation"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "letterboxd-account-deactivation"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://letterboxd.com/about/account-deactivation/",
+    "difficulty": "medium",
+    "waitingPeriodDays": 30,
+    "requiresSupportContact": false,
+    "steps": [
+      "Exporta abans el compte des de la pàgina de configuració del web si vols conservar el diari i les ressenyes.",
+      "Des de la configuració del web o de l’aplicació d’iOS o Android, tria desactivar el compte i escriu la contrasenya.",
+      "Durant el procés, marca l’opció de supressió permanent de totes les dades associades.",
+      "Obre el segon correu que t’enviaran i fes servir l’enllaç per reduir el termini de noranta a trenta dies.",
+      "No reactivis el compte durant aquest període: l’enllaç de reactivació que has rebut anul·laria la baixa."
+    ],
+    "obstacles": "La desactivació simple no esborra res i allibera el nom d’usuari perquè el prengui una altra persona. La supressió definitiva no es pot fer en menys de trenta dies.",
+    "sources": [
+      "letterboxd-account-deactivation",
+      "letterboxd-faq"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "letterboxd-faq"
+      ],
+      "detail": "Opció d’exportació a la configuració del web: un fitxer zip amb els CSV de tot el compte, incloent-hi el contingut esborrat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "open",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "letterboxd-privacy-policy"
+      ],
+      "detail": "Accés, rectificació i supressió des de la pàgina de configuració; la resta de drets, per correu.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "letterboxd-faq",
+        "letterboxd-privacy-policy"
+      ],
+      "detail": "La manera documentada de no veure publicitat és pagar la subscripció Pro o Patron.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "letterboxd-faq"
+      ],
+      "detail": "Cada entrada del diari té mode de privadesa: pública, només per a les amistats properes o només per a tu, i es pot fixar un valor per defecte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És una xarxa social de contingut públic; no hi ha comunicacions privades que xifrar d’extrem a extrem.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "letterboxd-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "letterboxd-faq"
+      ],
+      "detail": "Verificació en dos passos amb codis TOTP. No admet SMS ni correu i no dona codis de recuperació.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "totp"
+      ]
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat ni programa de recompenses ni fitxer security.txt."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "letterboxd-security-notices"
+      ],
+      "detail": "Hi ha una pàgina pública d’avisos de seguretat amb un contacte de l’equip de seguretat, però no una política de divulgació.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "filmaffinity",
+      "comparability": "partial",
+      "rationale": "Cobreix la fitxa de pel·lícules, les puntuacions i les crítiques en castellà, amb un ús de dades més convencional.",
+      "tradeOffs": "No té el diari de visionats ni la xarxa social de llistes i seguidors que és el nucli de Letterboxd."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "openQuestions": [
+      "Quant de temps es conserven les dades de publicitat i les galetes Common ID?"
+    ]
+  },
+  "appStoreBundleId": "com.letterboxd.LetterboxdApp"
+}

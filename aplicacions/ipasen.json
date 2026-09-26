@@ -1,0 +1,426 @@
+{
+  "slug": "ipasen",
+  "name": "iPasen",
+  "company": "consejeria-desarrollo-educativo-andalucia",
+  "categories": [
+    "educacio",
+    "administracio-publica"
+  ],
+  "tagline": "Notes, faltes i missatges de l’alumnat andalús amb una política de privadesa anterior al RGPD",
+  "summary": "iPasen és l’aplicació mòbil de Séneca, el sistema de gestió escolar de la Junta: famílies i alumnat hi veuen notes, faltes d’assistència i missatges del professorat, i hi signen documents. La política de privadesa es limita a dir que l’aplicació no afegeix dades a les que ja té la Conselleria i remet a drets de l’antiga llei (accés, rectificació, cancel·lació i oposició). L’App Store diu que no recull cap dada.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "public-service",
+  "jurisdiction": "Espanya (Andalusia); autoritat de control: Consejo de Transparencia y Protección de Datos de Andalucía",
+  "links": {
+    "website": "https://www.juntadeandalucia.es/educacion/portales/web/educacion/ipasen",
+    "privacyPolicy": "https://www.juntadeandalucia.es/educacion/portales/web/educacion/ipasen/politica-privacidad",
+    "appStore": "https://apps.apple.com/es/app/id511127024"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "ipasen-privacy-policy"
+    ],
+    "detail": "Només hi poden entrar tutors legals i alumnat matriculat en centres de la Conselleria.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": [],
+    "detail": "No hem trobat cap repositori públic del codi."
+  },
+  "publicService": {
+    "isPublicService": true,
+    "administrationLevel": "regional",
+    "legalBasis": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "junta-andalucia-rat-educacio"
+      ],
+      "detail": "El registre d’activitats de la Conselleria empara el seguiment acadèmic de l’alumnat en l’article 6.1.e del RGPD i, per a les dades de salut i de discapacitat, en els apartats a), c) i g) de l’article 9.2, amb la Llei orgànica 2/2006 i la Llei 17/2007 d’educació d’Andalusia. La política de l’aplicació, en canvi, no cita cap norma vigent: encara parla de fitxers declarats i de drets ARCO.",
+      "verifiedAt": "2026-09-22",
+      "norm": "RGPD, articles 6.1.e i 9.2 a), c) i g); Llei orgànica 2/2006, de 3 de maig, d’educació; Llei 17/2007, de 10 de desembre, d’educació d’Andalusia"
+    },
+    "processingRegistry": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "junta-andalucia-rat-educacio"
+      ],
+      "detail": "L’activitat «CE-Gestión de actividades educativas y seguimiento académico del alumnado» consta al registre públic de la Junta, amb finalitats, categories de dades, cessions i terminis. No hi anomena ni iPasen ni Séneca, però és l’activitat que dona cobertura a l’aplicació.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.juntadeandalucia.es/protecciondedatos/detalle/231565.html"
+    },
+    "dpia": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat publicada cap avaluació d’impacte sobre Séneca ni sobre iPasen, tot i que hi ha dades de menors i categories especials."
+    },
+    "ensConformity": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "junta-andalucia-rat-educacio",
+        "junta-andalucia-ens-certificat"
+      ],
+      "detail": "El registre diu que s’apliquen les mesures de l’annex II del Reial decret 311/2022, però no hi ha cap declaració de conformitat ni categoria publicada per a Séneca. El certificat d’ENS que publica la Junta és de l’Agència Digital d’Andalusia i cobreix el portal institucional, el punt d’accés general i la seu electrònica, no l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dpo": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "junta-andalucia-rat-educacio"
+      ],
+      "detail": "El registre d’activitats publica el correu del delegat de protecció de dades de la Conselleria de Desenvolupament Educatiu i Formació Professional.",
+      "verifiedAt": "2026-09-22",
+      "contact": "dpd.ced@juntadeandalucia.es"
+    },
+    "offlineAlternative": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "ipasen-portal-pasen"
+      ],
+      "detail": "El portal PASEN manté un accés web amb usuari i clau o amb certificat (l’accés amb codi QR sí que demana l’aplicació) i, per a qualsevol dubte, remet al centre educatiu. No hem trobat cap document que reguli una via presencial, telefònica o per correu per consultar notes, faltes i comunicacions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "accessibilityStatement": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "junta-andalucia-accessibilitat"
+      ],
+      "detail": "La Junta declara el seu web «parcialment conforme» amb el Reial decret 1112/2018, per autoavaluació segons la UNE-EN 301-549:2022 i amb revisió del 16 de setembre de 2025. La declaració cobreix juntadeandalucia.es; no n’hi ha cap d’específica per a l’aplicació mòbil.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.juntadeandalucia.es/informacion/accesibilidad.html"
+    },
+    "mandatoryRetention": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "junta-andalucia-rat-educacio"
+      ],
+      "detail": "El registre d’activitats diu que els documents oficials d’avaluació (expedient acadèmic, actes d’avaluació, historial acadèmic i informe personal per trasllat) «se conservarán permanentemente», i la resta de dades, mentre l’alumnat estigui escolaritzat i pels terminis de la normativa d’arxius. La conservació la imposa la normativa educativa (Llei orgànica 2/2006 i Llei 17/2007 d’educació d’Andalusia), i l’expedient escolar no es pot esborrar.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataSummary": "iPasen conté dades escolars d’infants i adolescents: qualificacions, absències, incidències, comunicacions amb el professorat i documents signats. Són dades de menors que acompanyen tota l’escolarització i que el centre i les famílies consulten en temps real.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "ipasen-privacy-policy"
+      ],
+      "note": "Dades de l’alumnat i de les famílies que ja són a Séneca."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "ipasen-privacy-policy"
+      ]
+    },
+    {
+      "type": "nivell-formatiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "ipasen-app-store"
+      ],
+      "note": "Qualificacions i faltes d’assistència; és el tipus més proper del catàleg per al rendiment escolar."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "ipasen-app-store"
+      ],
+      "note": "Missatgeria amb el tutor o la tutora i sol·licitud de tutories."
+    },
+    {
+      "type": "fitxers-i-documents",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "ipasen-app-store"
+      ],
+      "note": "Documents adjunts, escàner amb la càmera i safata de signatures, amb signatura manuscrita."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "ipasen-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "ipasen-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store diu que el desenvolupador no recull cap dada, tot i que l’aplicació serveix per consultar informació personal guardada als servidors de la Junta.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi independent de rastrejadors de l’aplicació."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "ipasen-app-store",
+        "ipasen-privacy-policy"
+      ],
+      "detail": "No hi ha cap finalitat publicitària ni a la política ni a l’etiqueta de l’App Store.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no ho diu."
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no ho diu."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no detalla destinataris; remet a l’inventari d’activitats de tractament de la Junta."
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ipasen-privacy-policy"
+      ],
+      "detail": "Les dades són les de Séneca, compartides entre la Conselleria i els centres educatius.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no ho diu."
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no ho diu."
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència sobre l’accés a les dades."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no indica terminis."
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no ho diu."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "ipasen-privacy-policy"
+      ],
+      "detail": "Es poden exercir els drets per escrit davant la Conselleria, però les dades formen part de l’expedient escolar que gestiona l’administració.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap opció per eliminar el compte des de l’aplicació."
+    },
+    "difficulty": "unknown",
+    "steps": [
+      "Desinstal·la l’aplicació per deixar de fer-la servir.",
+      "Per exercir els drets sobre les dades, escriu a la Consejería de Desarrollo Educativo y Formación Profesional (C/ Juan Antonio de Vizarrón s/n, Edificio Torretriana, 41092 Sevilla) amb la referència «Protección de Datos», o fes servir la sol·licitud en línia de la Junta."
+    ],
+    "obstacles": "Les dades escolars no desapareixen en deixar d’usar l’aplicació perquè pertanyen a l’expedient del centre.",
+    "sources": [
+      "ipasen-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta la portabilitat."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "ipasen-privacy-policy"
+      ],
+      "detail": "Sol·licitud en línia amb certificat digital, formulari en PDF o escrit a la Conselleria; reclamació davant el Consejo de Transparencia y Protección de Datos de Andalucía.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no mostra publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat informació sobre analítica d’ús."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem verificat els ajustos de l’aplicació."
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem analitzat l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "no",
+      "level": "editorial",
+      "sources": [],
+      "detail": "La missatgeria és un canal del centre dins de Séneca, no una comunicació xifrada d’extrem a extrem.",
+      "verifiedAt": "2026-09-22",
+      "scope": "none"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha informació pública específica de l’aplicació."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha informació pública."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat informació sobre els mètodes d’accés."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories publicades de l’aplicació."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "junta-andalucia-security-txt"
+      ],
+      "detail": "El domini de la Junta publica un security.txt que remet a AndalucíaCERT; no és específic de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "review": {
+    "researchStatus": "initial",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "La pàgina de la política no responia el 22 de setembre de 2026 (servei en manteniment) i l’hem consultada a l’arxiu d’Internet (còpia del 15 de novembre de 2025). Encara parla de «ficheros declarados» i drets ARCO, terminologia anterior al RGPD.",
+    "openQuestions": [
+      "Per què l’etiqueta de l’App Store diu que no es recull cap dada si l’aplicació tracta notes, faltes i missatges de menors?",
+      "Hi ha resolucions del Consejo de Transparencia y Protección de Datos de Andalucía sobre Séneca o iPasen? No hem pogut consultar-ne el cercador."
+    ]
+  },
+  "appStoreBundleId": "JA.CED.iPASEN"
+}

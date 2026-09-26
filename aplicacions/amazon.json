@@ -1,0 +1,627 @@
+{
+  "slug": "amazon",
+  "name": "Amazon",
+  "company": "amazon-europe-core",
+  "categories": [
+    "comerc-electronic"
+  ],
+  "tagline": "Comerç electrònic amb una xarxa publicitària pròpia molt gran",
+  "summary": "L’historial de compres mostra què menja una persona, què llegeix, quina medicació compra, quins regals fa i a qui. Amazon el conserva indefinidament i des de fa anys el fa servir per a la seva xarxa publicitària, que és la tercera del món.",
+  "platforms": [
+    "web",
+    "ios",
+    "android",
+    "other"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Luxemburg, per a persones usuàries de la Unió Europea",
+  "userBase": "Més de 300 milions de comptes de clientela activa",
+  "links": {
+    "website": "https://www.amazon.es/",
+    "privacyPolicy": "https://www.amazon.es/gp/help/customer/display.html?nodeId=GX7NJQ4ZB8MHFRNJ",
+    "terms": "https://www.amazon.es/gp/help/customer/display.html?nodeId=508088",
+    "privacyCenter": "https://www.amazon.es/hz/privacy-central"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "amazon-privacy-notice"
+    ],
+    "detail": "Es pot navegar pel catàleg sense compte, però qualsevol compra el requereix.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "amazon-privacy-notice"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Amazon vincula en un sol compte el que compres, el que mires sense comprar, el que cerques, el que llegeixes amb Kindle, el que mires amb Prime Video i el que dius a Alexa. Per això el perfil és tan detallat.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "amazon-privacy-notice"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "note": "Es comparteix amb les empreses de transport i, en el cas del marketplace, amb els venedors."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "amazon-privacy-notice"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "recomanacions-algoritmiques",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "note": "Es conserva indefinidament i no es pot esborrar sense tancar el compte."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "amazon-privacy-notice"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "note": "Inclou els productes que es miren sense comprar i el temps que s’hi dedica."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "amazon-ad-preferences"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "amazon-privacy-notice"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "amazon-privacy-notice"
+      ]
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "note": "Interaccions amb Alexa, associades al mateix compte."
+    },
+    {
+      "type": "historial-de-visualitzacio",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "note": "Prime Video i Kindle formen part del mateix compte."
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "amazon-privacy-notice"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "amazon-privacy-notice"
+      ]
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "note": "La xarxa publicitària d’Amazon és present fora del seu propi web."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "amazon-privacy-notice"
+      ]
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "amazon-privacy-notice"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "amazon-privacy-notice"
+      ]
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "note": "Deduïbles de la compra de productes de farmàcia, dietètica o material sanitari."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "detail": "Amazon Advertising opera fora del domini d’Amazon i vincula l’activitat al compte de compra.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-ad-preferences"
+      ],
+      "detail": "Es pot desactivar la personalització, però l’ús de l’historial de compres per a recomanacions dins de la botiga continua.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://www.amazon.es/adprefs"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "regulator",
+      "sources": [
+        "amazon-privacy-notice",
+        "cnpd-amazon-annulled"
+      ],
+      "detail": "El perfilat comercial va ser l’objecte de la sanció luxemburguesa de 746 milions d’euros, posteriorment anul·lada per motius processals.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "detail": "Les gravacions d’Alexa i les ressenyes s’utilitzen per millorar els serveis. La política no detalla l’ús per a models generatius.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "detail": "Venedors del marketplace, transportistes i socis publicitaris.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "detail": "Un sol compte cobreix la botiga, Prime Video, Kindle, Alexa, Audible i Ring.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "detail": "Amazon declara que no ven informació personal a tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "verifiedAt": "2026-09-22",
+      "mechanism": "adequacy"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=GYSDRGWQ2C2CRYEF"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "detail": "La política no fixa terminis de conservació per a l’historial de compres, que a la pràctica és indefinit.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "amazon-close-account"
+      ],
+      "detail": "Es conserven les dades exigides per la legislació fiscal i mercantil, i les ressenyes publicades no s’eliminen automàticament.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-close-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "amazon-close-account"
+      ],
+      "detail": "Hi ha un formulari en línia, però Amazon envia una verificació que cal respondre en cinc dies i, en alguns casos, deriva a atenció al client.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://www.amazon.es/privacyprefs/retrieveData",
+    "difficulty": "medium",
+    "waitingPeriodDays": 5,
+    "requiresSupportContact": false,
+    "steps": [
+      "Ves a la pàgina de sol·licitud de tancament del compte des de la secció de privadesa.",
+      "Tria «Tanca el meu compte» i el motiu.",
+      "Confirma que has entès que perdràs l’accés a les compres digitals.",
+      "Respon dins de cinc dies el missatge de verificació que rebràs per correu o SMS."
+    ],
+    "obstacles": "Tancar el compte fa perdre l’accés a tots els llibres, pel·lícules i continguts digitals comprats, que estan lligats al compte i no al dispositiu. Aquesta pèrdua desincentiva l’exercici del dret de supressió.",
+    "dataRetained": "Registres de comandes exigits per la normativa fiscal. Les ressenyes i les llistes públiques poden persistir si no s’esborren abans.",
+    "sources": [
+      "amazon-close-account"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.amazon.es/hz/privacy-central/data-requests/preview.html"
+    },
+    "exportFormatQuality": "mixed",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.amazon.es/hz/privacy-central/data-requests/preview.html",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-ad-preferences"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.amazon.es/adprefs"
+    },
+    "telemetryOptOut": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "detail": "Es pot esborrar l’historial de navegació dins de la botiga i desactivar les recomanacions per producte, però no l’historial de compres.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "yes",
+      "level": "regulator",
+      "sources": [
+        "amazon-close-account"
+      ],
+      "detail": "La Comissió Federal de Comerç dels Estats Units ha documentat el disseny del procés de cancel·lació de Prime, conegut internament com a projecte Ilíada per la seva llargada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "hidden-exit",
+        "severity": "high",
+        "description": "El procés de cancel·lació de la subscripció Prime va ser dissenyat amb múltiples pantalles d’intercepció, cosa que va motivar una demanda de l’autoritat de consum nord-americana.",
+        "sources": [
+          "amazon-close-account"
+        ]
+      },
+      {
+        "type": "confirmshaming",
+        "severity": "medium",
+        "description": "Els avisos de tancament del compte emfatitzen la pèrdua de contingut digital comprat abans de permetre continuar.",
+        "sources": [
+          "amazon-close-account"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Una botiga en línia no transporta comunicacions privades entre persones usuàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "totp",
+        "sms",
+        "passkey"
+      ]
+    },
+    "independentAudits": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "detail": "Certificacions ISO i informes SOC en el marc dels serveis del grup.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://aws.amazon.com/compliance/programs/"
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://hackerone.com/amazonvrp"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La sanció de 746 milions es va anul·lar en apel·lació i, per tant, no compta com a sanció ferma. L’anul·lació es va fer per motius processals i no valida les pràctiques sancionades.",
+    "openQuestions": [
+      "Quin és el termini de conservació de l’historial de compres després de tancar el compte?"
+    ]
+  },
+  "appStoreBundleId": "com.amazon.AmazonUK"
+}

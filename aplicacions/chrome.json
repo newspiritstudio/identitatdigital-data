@@ -1,0 +1,487 @@
+{
+  "slug": "chrome",
+  "name": "Google Chrome",
+  "company": "google-ireland",
+  "categories": [
+    "navegadors"
+  ],
+  "tagline": "El navegador majoritari, desenvolupat per una empresa publicitària",
+  "summary": "Chrome és el navegador més utilitzat del món i el desenvolupa l’empresa que més ingressos obté de la publicitat digital. Aquest conflicte d’interessos explica que el bloqueig de rastrejadors de tercers hi hagi arribat molt més tard i de manera molt més limitada que en navegadors independents. La sincronització és opcional però, si s’activa, l’historial de navegació complet arriba als servidors de Google.",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "android",
+    "ios"
+  ],
+  "businessModel": "advertising",
+  "jurisdiction": "Irlanda, per a persones usuàries de l’Espai Econòmic Europeu",
+  "userBase": "Al voltant del 65 % del mercat mundial de navegadors",
+  "links": {
+    "website": "https://www.google.com/chrome/",
+    "privacyPolicy": "https://www.google.com/chrome/privacy/",
+    "privacyCenter": "https://myaccount.google.com/data-and-privacy"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "chrome-privacy-notice"
+    ],
+    "detail": "Chrome funciona sense iniciar sessió. La sincronització i les funcions de compte són opcionals.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "chrome-privacy-notice"
+    ],
+    "detail": "Chrome es basa en Chromium, que és de codi obert, però la versió distribuïda per Google hi afegeix components privatius de sincronització, actualització i reproducció de contingut protegit.",
+    "verifiedAt": "2026-09-22",
+    "repositoryUrl": "https://chromium.googlesource.com/chromium/src",
+    "licence": "BSD de 3 clàusules per a Chromium; Chrome és privatiu"
+  },
+  "dataSummary": "Sense sincronització, Chrome envia dades de diagnòstic i de navegació segura. Amb sincronització activada, envia historial, marcadors, contrasenyes, extensions i pestanyes obertes al compte de Google.",
+  "dataCollection": [
+    {
+      "type": "historial-de-navegacio",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "chrome-privacy-notice"
+      ],
+      "note": "Només s’envia a Google si s’activa la sincronització."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "chrome-privacy-notice"
+      ],
+      "note": "Es pot desactivar a la configuració."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "chrome-privacy-notice"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "chrome-privacy-notice"
+      ],
+      "note": "Chrome continua acceptant galetes de tercers per defecte, a diferència de Firefox, Safari i Brave."
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "chrome-privacy-notice"
+      ]
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "chrome-privacy-notice"
+      ],
+      "note": "Les API de publicitat de Privacy Sandbox calculen temes d’interès dins del navegador."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "chrome-privacy-notice"
+      ]
+    },
+    {
+      "type": "fitxers-i-documents",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "chrome-privacy-notice"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "chrome-privacy-notice"
+      ],
+      "note": "Només amb permís explícit per a un lloc concret."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "partial",
+      "level": "independent",
+      "sources": [
+        "chrome-privacy-notice"
+      ],
+      "detail": "Chrome no bloqueja les galetes de tercers per defecte, cosa que permet el rastreig entre llocs que altres navegadors ja impedeixen.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "chrome-privacy-notice"
+      ],
+      "detail": "Les API de Privacy Sandbox substitueixen l’identificador únic per senyals d’interès calculats localment, però continuen alimentant la publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "independent",
+      "sources": [
+        "chrome-privacy-notice"
+      ],
+      "detail": "El navegador no en porta, però tampoc no els bloqueja per defecte.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "chrome-privacy-notice"
+      ],
+      "detail": "El navegador en si no mostra publicitat, però habilita les API que la fan possible i les activa per defecte.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "chrome://settings/adPrivacy"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "chrome-privacy-notice"
+      ],
+      "detail": "Els temes d’interès es calculen al dispositiu i es comparteixen amb els llocs que ho sol·liciten.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta si les dades de navegació sincronitzades s’utilitzen per entrenar models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "chrome-privacy-notice"
+      ],
+      "detail": "Els senyals de Privacy Sandbox es comparteixen amb els llocs visitats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "chrome-privacy-notice"
+      ],
+      "detail": "Les dades sincronitzades formen part del compte de Google.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "google-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "mechanism": "adequacy"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-transparency-report"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://transparencyreport.google.com/"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "chrome-privacy-notice"
+      ],
+      "detail": "Els terminis depenen del compte de Google, no del navegador.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "google-delete-account"
+      ],
+      "detail": "Les dades sincronitzades s’eliminen amb el compte; les dades locals es queden al dispositiu fins que s’esborren manualment.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Chrome es pot fer servir sense compte; el que s’elimina és el compte de Google associat, no el navegador.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha compte propi del navegador.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "unknown",
+    "requiresSupportContact": false,
+    "dataRetained": "Les dades de sincronització es poden esborrar des de chrome://settings/syncSetup sense eliminar el compte de Google.",
+    "sources": [
+      "chrome-privacy-notice"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-takeout-help"
+      ],
+      "detail": "Google Takeout permet exportar cada servei per separat en formats oberts i estàndard. És una de les exportacions més completes del directori.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://takeout.google.com/"
+    },
+    "exportFormatQuality": "open",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://support.google.com/policies/troubleshooter/9009584",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "chrome-privacy-notice"
+      ],
+      "detail": "La configuració de privadesa dels anuncis permet desactivar els temes, els anuncis suggerits pel lloc i la mesura.",
+      "verifiedAt": "2026-09-22",
+      "url": "chrome://settings/adPrivacy"
+    },
+    "telemetryOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "chrome-privacy-notice"
+      ],
+      "detail": "Es pot desactivar l’enviament d’estadístiques d’ús i informes d’error.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "chrome-privacy-notice"
+      ],
+      "detail": "Controls de galetes, permisos per lloc, navegació segura i sincronització selectiva.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [
+        "chrome-privacy-notice"
+      ],
+      "detail": "Iniciar sessió a qualsevol servei de Google inicia sessió també al navegador, cosa que va generar confusió quan es va introduir i encara facilita activar la sincronització sense adonar-se’n.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "chrome-privacy-notice"
+      ],
+      "detail": "Les dades de sincronització es poden xifrar amb una frase de contrasenya pròpia, però no és el comportament per defecte.",
+      "verifiedAt": "2026-09-22",
+      "scope": "all-optin",
+      "protocol": "Xifratge del costat del client amb frase de contrasenya"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-safety-center"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-safety-center"
+      ],
+      "detail": "Xifratge en repòs amb claus gestionades per Google.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-safety-center"
+      ],
+      "detail": "Verificació en dos passos amb claus d’accés, claus de seguretat físiques, aplicació d’autenticació, notificació i SMS.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "passkey",
+        "hardware-key",
+        "totp",
+        "app-push",
+        "sms"
+      ]
+    },
+    "independentAudits": {
+      "status": "partial",
+      "level": "independent",
+      "sources": [
+        "chrome-privacy-notice"
+      ],
+      "detail": "Chromium rep escrutini públic constant, però no hi ha auditories formals publicades de la versió de Google.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://bughunters.google.com/"
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-safety-center"
+      ],
+      "detail": "Programa de recompenses de llarga trajectòria i amb imports elevats.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://bughunters.google.com/"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-safety-center"
+      ],
+      "detail": "L’equip Project Zero publica una política de divulgació de 90 dies aplicada també als productes propis.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "firefox",
+      "comparability": "equivalent",
+      "rationale": "Navegador complet amb suport d’extensions, sincronització xifrada d’extrem a extrem i protecció contra el rastreig activada per defecte. Cobreix la mateixa necessitat sense pertànyer a una empresa publicitària.",
+      "tradeOffs": "Algunes aplicacions web molt específiques es proven només amb motors basats en Chromium."
+    },
+    {
+      "app": "brave",
+      "comparability": "equivalent",
+      "rationale": "Comparteix el motor Chromium, de manera que la compatibilitat és pràcticament idèntica, i hi afegeix bloqueig de rastrejadors i d’anuncis per defecte.",
+      "tradeOffs": "Incorpora funcions de criptomoneda i un sistema publicitari propi que cal desactivar si no interessen."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La privadesa d’un navegador depèn del que recull i també del que deixa fer als altres. Chrome recull relativament poc per si mateix i és el navegador que menys protegeix contra el rastreig de tercers.",
+    "openQuestions": [
+      "Quin efecte ha tingut Privacy Sandbox sobre el volum de rastreig entre llocs?"
+    ]
+  },
+  "appStoreBundleId": "com.google.chrome.ios"
+}

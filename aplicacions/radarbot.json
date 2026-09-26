@@ -1,0 +1,630 @@
+{
+  "slug": "radarbot",
+  "name": "Radarbot",
+  "company": "iteration-mobile",
+  "categories": [
+    "mapes-i-navegacio",
+    "mobilitat-i-transport"
+  ],
+  "tagline": "Avisador de radars que finança el servei amb publicitat i puntua la fiabilitat de qui avisa",
+  "summary": "Radarbot té una política de privadesa detallada: anomena un a un els catorze proveïdors que hi intervenen, des d’AdMob i Meta fins a Braze i Intercom, i distingeix la publicitat personalitzada (només amb consentiment) de la contextual. També recull la trajectòria de conducció (posicions, velocitat aproximada i rumb) i aplica un sistema de reputació, el Trust Score, que pot limitar funcions o suspendre el compte.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://www.radarbot.com/",
+    "privacyPolicy": "https://www.radarbot.com/politica-de-privacidad/",
+    "terms": "https://www.radarbot.com/terminos-y-condiciones-de-uso/",
+    "appStore": "https://apps.apple.com/es/app/id1099797635"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "radarbot-privacy-policy"
+    ],
+    "detail": "La política tracta el correu com una dada que l’usuari pot facilitar o no; el compte serveix per a la subscripció premium i la sincronització.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "radarbot-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "La combinació de posicions GPS contínues, destinacions desades i velocitat aproximada mostra els desplaçaments habituals de qui condueix. La política diu que aquestes dades es pseudonimitzen i que després s’anonimitzen, però mentre duren van lligades a un identificador d’instal·lació.",
+  "dataCollection": [
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "radarbot-app-store",
+        "radarbot-privacy-policy"
+      ],
+      "note": "Es comparteix amb Braze per a les comunicacions i amb RevenueCat per a la facturació; la política diu que no se cedeix a tercers amb finalitat publicitària."
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "radarbot-app-store",
+        "radarbot-privacy-policy"
+      ],
+      "note": "Dins del perfil voluntari, amb àlies, nom i cognoms."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "radarbot-privacy-policy"
+      ],
+      "note": "Només si l’usuari el facilita per rebre SMS o WhatsApp a través de Braze."
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "radarbot-privacy-policy"
+      ],
+      "note": "Camp voluntari del perfil."
+    },
+    {
+      "type": "genere",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "radarbot-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "radarbot-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-publicitaria",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "radarbot-app-store",
+        "radarbot-privacy-policy"
+      ],
+      "note": "L’etiqueta el declara per a la «publicitat de tercers»; la política hi afegeix Play Integrity i App Check per a la prevenció d’abusos."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "radarbot-privacy-policy"
+      ],
+      "note": "L’IDFA d’iOS només es tracta si s’autoritza; sense consentiment la publicitat és contextual."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "radarbot-app-store",
+        "radarbot-privacy-policy"
+      ],
+      "note": "Posicions GPS, velocitat aproximada, rumb i marques de temps lligades a un identificador de sessió o d’instal·lació, compartides amb proveïdors de mapes i trànsit."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "radarbot-privacy-policy"
+      ],
+      "note": "Els socis publicitaris deriven el país o la ciutat a partir de l’adreça IP."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "radarbot-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "radarbot-privacy-policy"
+      ],
+      "note": "Les destinacions desades com «Casa» o «Feina» són adreces postals."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "radarbot-privacy-policy"
+      ],
+      "note": "Rutes, viatges i destinacions introduïdes o desades."
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "radarbot-privacy-policy"
+      ],
+      "note": "Els avisos que la comunitat reporta, amb les dades tècniques mínimes per validar-los."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "radarbot-app-store",
+        "radarbot-privacy-policy"
+      ]
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "radarbot-privacy-policy"
+      ],
+      "note": "Model, fabricant, versió del sistema i idioma."
+    },
+    {
+      "type": "xarxa-i-connectivitat",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "radarbot-privacy-policy"
+      ],
+      "note": "Intensitat de senyal, latència, velocitat i tipus de xarxa; la política diu que es tracten de manera agregada i anònima."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "radarbot-privacy-policy"
+      ],
+      "note": "RevenueCat processa els identificadors de transacció i l’estat de la subscripció premium."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "radarbot-app-store",
+        "radarbot-privacy-policy"
+      ],
+      "note": "Crashlytics només s’activa amb consentiment."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "radarbot-privacy-policy"
+      ],
+      "note": "Només si s’ha consentit la publicitat personalitzada al panell de Didomi."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "radarbot-app-store",
+        "radarbot-privacy-policy"
+      ],
+      "detail": "L’etiqueta declara identificadors per rastrejar i la política reconeix que alguns socis publicitaris actuen com a responsables independents.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "radarbot-privacy-policy"
+      ],
+      "detail": "Fa servir el GAID i l’IDFA només quan la persona els autoritza; si no, mostra publicitat no personalitzada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "radarbot-privacy-policy"
+      ],
+      "detail": "Google AdMob, Meta Platforms Ireland, AppsFlyer, Firebase, Braze, Intercom i RevenueCat.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "radarbot-privacy-policy"
+      ],
+      "detail": "Només amb consentiment explícit al panell de privadesa; sense consentiment, la publicitat és contextual.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "radarbot-privacy-policy"
+      ],
+      "detail": "El Trust Score puntua la fiabilitat dels avisos i pot limitar funcions o suspendre el compte; la política admet que hi ha decisions automatitzades o semiautomatitzades revisables.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu res sobre l’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "radarbot-privacy-policy"
+      ],
+      "detail": "Dades de mobilitat pseudonimitzades a proveïdors de mapes i trànsit, i identificadors tècnics a socis publicitaris i de mesura.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Iteration Mobile no forma part d’un grup empresarial amb altres serveis de consum.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "radarbot-privacy-policy"
+      ],
+      "detail": "La política diu que no ven dades identificables ni cedeix perfils sensibles per a campanyes de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "radarbot-privacy-policy"
+      ],
+      "detail": "Google, AWS, Braze, Intercom, AppsFlyer i RevenueCat poden tractar dades fora de l’Espai Econòmic Europeu, amb clàusules contractuals tipus o el Data Privacy Framework.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "radarbot-privacy-policy"
+      ],
+      "detail": "Descriu criteris per a cada categoria (dades de compte mentre hi hagi compte, mobilitat «per períodes limitats»), però no dona cap xifra.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "radarbot-privacy-policy"
+      ],
+      "detail": "En casos de frau o abús, conserva identificadors tècnics i registres mínims; la resta s’elimina o s’anonimitza.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "radarbot-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "radarbot-privacy-policy"
+      ],
+      "detail": "Hi ha un botó dins de l’aplicació, a «Perfil d’usuari > Eliminar compte».",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "easy",
+    "requiresSupportContact": false,
+    "steps": [
+      "Obre el perfil d’usuari dins de l’aplicació.",
+      "Tria «Eliminar compte».",
+      "Si prefereixes fer-ho per escrit, escriu a dpd@iteration-mobile.com.",
+      "Si tens una subscripció premium activa, cancel·la-la abans des de l’App Store."
+    ],
+    "dataRetained": "Les dades associades s’eliminen o s’anonimitzen, llevat que hi hagi una obligació legal o una investigació de frau oberta.",
+    "sources": [
+      "radarbot-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "radarbot-privacy-policy"
+      ],
+      "detail": "La portabilitat es reconeix, però cal demanar-la per correu al delegat de protecció de dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "radarbot-privacy-policy"
+      ],
+      "detail": "Resposta en un màxim d’un mes, ampliable, i menció expressa del dret a reclamar a l’AEPD.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dpd@iteration-mobile.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "radarbot-privacy-policy"
+      ],
+      "detail": "Panell de preferències gestionat amb Didomi, revocable en qualsevol moment des de la configuració de l’app.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "radarbot-privacy-policy"
+      ],
+      "detail": "Crashlytics i la contribució a la millora de mapes i trànsit es poden desactivar; la telemetria tècnica bàsica, no.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "radarbot-privacy-policy"
+      ],
+      "detail": "Permisos d’ubicació, contribució al mapa, comunicacions comercials i publicitat personalitzada per separat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem examinat el flux de consentiment dins de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És un servei de navegació i avisos, sense comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "radarbot-privacy-policy"
+      ],
+      "detail": "La política declara xifratge de les comunicacions amb TLS.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política parla de controls d’accés i monitoratge, però no del xifratge en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació d’un segon factor; l’accés es pot fer amb comptes de Google o Facebook."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El domini radarbot.com no publica cap fitxer security.txt i la política no descriu cap canal de notificació de vulnerabilitats."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "waze",
+      "comparability": "partial",
+      "rationale": "També avisa de radars i incidències amb aportacions de la comunitat, però és de Google i integra el compte en un ecosistema publicitari molt més gran."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "La política de febrer del 2026 és una de les més explícites que hem llegit en aquesta categoria: anomena els proveïdors, distingeix les bases jurídiques i descriu el Trust Score com a decisió semiautomatitzada. No hem pogut fer la cerca d’incidents.",
+    "openQuestions": [
+      "Quant de temps es conserven exactament les dades de mobilitat abans d’anonimitzar-se?",
+      "El Trust Score pot arribar a bloquejar un compte de pagament?"
+    ]
+  },
+  "appStoreBundleId": "com.iteration-mobile.radarbot-free-ww"
+}

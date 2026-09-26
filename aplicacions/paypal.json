@@ -1,0 +1,618 @@
+{
+  "slug": "paypal",
+  "name": "PayPal",
+  "company": "paypal-europe",
+  "categories": [
+    "banca-i-finances",
+    "comerc-electronic"
+  ],
+  "tagline": "Deu anys de conservació, decisions automatitzades de solvència i sense atendre el senyal «Do Not Track»",
+  "summary": "La declaració de privadesa de PayPal és exhaustiva, en part per obligació: el mateix document explica que la llei luxemburguesa a què està subjecte exigeix més transparència que la resta de normatives europees. Hi consten catorze categories de dades, entre elles les inferides (gènere, ingressos, hàbits de compra i solvència), decisions automatitzades que poden denegar el servei, conservació de deu anys després d’acabar la relació i l’avís, poc habitual, que no atén la configuració «Do Not Track» del navegador.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Luxemburg, per a l’Espai Econòmic Europeu",
+  "userBase": "Un dels serveis de pagament en línia més utilitzats del món",
+  "links": {
+    "website": "https://www.paypal.com/es/",
+    "privacyPolicy": "https://www.paypal.com/es/legalhub/privacy-full",
+    "appStore": "https://apps.apple.com/es/app/id283646709"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "paypal-privacy-statement"
+    ],
+    "detail": "La declaració preveu expressament l’ús dels serveis sense compte, i adverteix que si després en crees un, la informació de la transacció s’hi pot vincular.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "paypal-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "PayPal registra què compres, a qui, per quant i des d’on. Hi suma els contactes que importes, l’historial de cerca i de navegació que declara l’etiqueta, dades biomètriques d’autenticació i dades inferides: gènere, ingressos, hàbits de compra i solvència, que la persona no ha declarat i que el sistema dedueix.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "paypal-privacy-statement",
+        "paypal-app-store"
+      ]
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "paypal-privacy-statement"
+      ],
+      "note": "La declaració inclou la identificació emesa pel govern i la signatura entre els identificadors personals."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "paypal-privacy-statement",
+        "paypal-app-store"
+      ],
+      "note": "Números de compte, IBAN, dades de targeta i fins i tot el CVV consten entre els registres financers."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "paypal-privacy-statement",
+        "paypal-app-store"
+      ],
+      "note": "Saldos, historial i detalls de transacció, contingut del carretó i béns o serveis considerats als llocs dels socis i venedors."
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "paypal-privacy-statement",
+        "paypal-app-store"
+      ],
+      "note": "La declaració reconeix que compartir els contactes facilita trobar a qui enviar diners, i que sense fer-ho el servei continua funcionant."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "paypal-privacy-statement",
+        "paypal-app-store"
+      ],
+      "note": "GPS amb consentiment per a comptes de serveis financers, i geolocalització per IP en la resta de casos."
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "paypal-privacy-statement"
+      ],
+      "note": "Identificació per veu, foto o escaneig facial amb consentiment, per verificar la identitat en operacions sensibles."
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "paypal-privacy-statement"
+      ],
+      "note": "La declaració inclou les gravacions de les trucades amb l’atenció al client."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "paypal-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "paypal-app-store",
+        "paypal-privacy-statement"
+      ],
+      "note": "La declaració esmenta els llocs visitats abans d’arribar als seus, recollits amb galetes."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "paypal-privacy-statement",
+        "paypal-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "paypal-app-store"
+      ],
+      "note": "Única categoria declarada com a utilitzada per rastrejar-te en aplicacions i webs d’altres empreses."
+    },
+    {
+      "type": "nivell-d-ingressos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "paypal-privacy-statement"
+      ],
+      "note": "Els ingressos consten tant entre els registres financers com entre les dades inferides."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "paypal-privacy-statement"
+      ],
+      "note": "La declaració enumera com a dades inferides el gènere, els ingressos, els hàbits de navegació i compra, la solvència i l’avaluació de frau i risc."
+    },
+    {
+      "type": "origen-etnic-o-nacionalitat",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal"
+      ],
+      "sources": [
+        "paypal-privacy-statement"
+      ],
+      "note": "La declaració inclou nacionalitat, ciutadania, discapacitat i situació militar entre les «características de las clasificaciones protegidas»."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "paypal-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "paypal-app-store"
+      ],
+      "detail": "L’etiqueta declara dades d’ús utilitzades per rastrejar-te en aplicacions i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "paypal-privacy-statement"
+      ],
+      "detail": "La declaració parla de galetes i altres tecnologies de seguiment per oferir publicitat basada en interessos, però no identifica els identificadors concrets de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "paypal-privacy-statement"
+      ],
+      "detail": "La declaració reconeix que comparteix informació amb plataformes de publicitat «siguiendo sus indicaciones» i que utilitza tercers per mostrar anuncis i mesurar-ne les interaccions.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "paypal-privacy-statement"
+      ],
+      "detail": "Publicitat adaptada als interessos dins i fora dels seus serveis, amb plataformes publicitàries i socis de màrqueting.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "paypal-privacy-statement"
+      ],
+      "detail": "Decisions automatitzades amb tècniques d’elaboració de perfils per avaluar risc, frau i solvència, que poden denegar serveis nous, aturar els que s’utilitzen o imposar-hi límits; es pot demanar revisió humana.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La declaració no esmenta l’entrenament de models d’intel·ligència artificial."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "paypal-privacy-statement"
+      ],
+      "detail": "Altres titulars de comptes, socis i venedors i els seus proveïdors, plataformes de publicitat, proveïdors de seguretat i serveis de Google com reCAPTCHA i l’emplenament automàtic d’adreces.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "paypal-privacy-statement"
+      ],
+      "detail": "La declaració tracta com un sol conjunt els serveis del grup PayPal, inclosos Braintree, Xoom, Hyperwallet i Fastlane.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La declaració no descriu cap venda de dades a intermediaris, però sí la comunicació a agències de crèdit fora del seu abast."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "paypal-privacy-statement"
+      ],
+      "detail": "Tractament als Estats Units i a altres països, només quan el destinatari és en un país amb decisió d’adequació o amb les garanties equivalents que descriu la declaració.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "paypal-privacy-statement"
+      ],
+      "detail": "No hi ha un informe de transparència a l’ús, però la declaració remet a una «Lista de proveedores externos» amb les parts que reben dades, una publicació que la mateixa empresa atribueix a l’exigència de transparència de la llei luxemburguesa.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "paypal-privacy-statement"
+      ],
+      "detail": "La informació de la relació es conserva mentre dura, «más un período de 10 años», i les dades biomètriques com a màxim tres anys després de tancar el compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "paypal-privacy-statement"
+      ],
+      "detail": "Tancar el compte o demanar la supressió no impedeix conservar part de la informació durant aquests terminis, per obligació legal i per defensa davant de reclamacions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "period": "Durada de la relació més deu anys",
+        "sources": [
+          "paypal-privacy-statement"
+        ]
+      },
+      {
+        "dataType": "dades-biometriques",
+        "period": "Com a màxim tres anys després de tancar el compte",
+        "sources": [
+          "paypal-privacy-statement"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "paypal-privacy-statement"
+      ],
+      "detail": "Es pot tancar el compte des del portal de gestió del perfil, però la declaració adverteix que part de la informació es conserva igualment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "paypal-privacy-statement"
+      ],
+      "detail": "La declaració indica iniciar sessió al compte o al portal de gestió del perfil i enviar la sol·licitud per exercir els drets, inclòs el tancament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "steps": [
+      "Liquida el saldo i espera que no quedin transaccions ni disputes obertes.",
+      "Inicia sessió al compte de PayPal o al portal de gestió del perfil i demana el tancament.",
+      "Des del mateix lloc pots esborrar abans la informació que hi hagis afegit, com les adreces que no siguin la principal.",
+      "Tingues present que les dades de la relació es conservaran deu anys, i les biomètriques fins a tres anys."
+    ],
+    "obstacles": "El tancament no atura la conservació: el termini de deu anys s’aplica igualment, i la declaració diu expressament que no s’atén la configuració «Do Not Track» del navegador.",
+    "dataRetained": "Informació de la relació durant deu anys i dades biomètriques fins a tres anys després del tancament.",
+    "sources": [
+      "paypal-privacy-statement"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "paypal-privacy-statement"
+      ],
+      "detail": "Els drets, inclosa la portabilitat, s’exerceixen iniciant sessió al compte o al portal de gestió del perfil i enviant la sol·licitud.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "paypal-privacy-statement"
+      ],
+      "detail": "Sol·licituds des del compte, i dret de reclamació davant de la Commission Nationale pour la Protection des Données de Luxemburg, que és l’autoritat de control principal.",
+      "verifiedAt": "2026-09-22",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "paypal-privacy-statement"
+      ],
+      "detail": "Algunes funcions publicitàries s’ofereixen amb exclusió voluntària o exigeixen consentiment revocable, però la declaració adverteix que no atén el senyal «Do Not Track» perquè molts serveis no funcionen sense dades de seguiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "paypal-privacy-statement"
+      ],
+      "detail": "«Como muchos de nuestros servicios no funcionan sin los datos de seguimiento, no atendemos la configuración de DNT».",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "paypal-privacy-statement"
+      ],
+      "detail": "El perfil es pot marcar com a privat i es poden esborrar dades afegides, però no hi ha un panell únic de consentiments per finalitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [],
+      "detail": "La declaració diu obertament que no atén el senyal «Do Not Track», de manera que una preferència que la persona ja ha expressat al navegador queda sense efecte per decisió unilateral del servei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "confusing-language",
+        "severity": "medium",
+        "description": "La declaració descriu la sincronització de contactes i la personalització com a «funciones que pueden ser de su interés», quan comporten la cessió de dades de terceres persones que no han acceptat res.",
+        "sources": [
+          "paypal-privacy-statement"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no transporta comunicacions privades entre persones usuàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "paypal-privacy-statement"
+      ],
+      "detail": "La declaració enumera tallafocs, xifratge de dades i controls d’accés físic als centres de dades, sense detall tècnic del protocol.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "paypal-privacy-statement"
+      ],
+      "detail": "La declaració esmenta el xifratge de dades entre les mesures de seguretat, sense concretar-ne l’abast.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "paypal-app-store"
+      ],
+      "detail": "La fitxa de l’App Store descriu l’inici de sessió amb clau d’accés (passkey), resistent al pesciolisme.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "passkey",
+        "sms",
+        "app-push"
+      ]
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories de seguretat independents publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut confirmar l’abast ni les condicions del programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut consultar la pàgina de notificació de vulnerabilitats."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "bizum-pay",
+      "comparability": "partial",
+      "rationale": "Per enviar diners entre particulars a Espanya, amb una etiqueta de privadesa molt més continguda.",
+      "tradeOffs": "Bizum no serveix per pagar compres internacionals ni ofereix protecció al comprador."
+    },
+    {
+      "app": "revolut",
+      "comparability": "partial",
+      "rationale": "Alternativa per a pagaments i enviaments internacionals amb controls de privadesa dins de l’aplicació.",
+      "tradeOffs": "L’avís de privadesa aplicable a l’EEE no és consultable amb eines automàtiques."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La política és detallada, i el detall permet documentar que el servei dedueix la solvència i els ingressos, que hi ha decisions automatitzades que poden deixar una persona sense servei i que la preferència de no ser rastrejat expressada al navegador no es respecta.",
+    "openQuestions": [
+      "Quines plataformes publicitàries concretes reben dades i amb quines finalitats?",
+      "Quin és l’abast del programa de recompenses de seguretat i on es notifiquen les vulnerabilitats?"
+    ]
+  },
+  "appStoreBundleId": "com.yourcompany.PPClient"
+}

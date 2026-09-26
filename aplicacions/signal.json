@@ -1,0 +1,516 @@
+{
+  "slug": "signal",
+  "name": "Signal",
+  "company": "signal-foundation",
+  "categories": [
+    "missatgeria"
+  ],
+  "tagline": "Missatgeria xifrada amb minimització de metadades",
+  "summary": "Signal està dissenyat per conservar el mínim de dades de qui l’utilitza. No té model publicitari, no desa l’agenda al servidor, amaga fins i tot qui envia cada missatge i publica tot el codi, del client i del servidor. Quan el 2022 van accedir a Twilio, el seu proveïdor d’SMS, gairebé no hi havia dades per robar.",
+  "platforms": [
+    "ios",
+    "android",
+    "windows",
+    "macos",
+    "linux"
+  ],
+  "businessModel": "donations",
+  "jurisdiction": "Estats Units",
+  "userBase": "Al voltant de 100 milions de persones usuàries",
+  "links": {
+    "website": "https://signal.org/",
+    "privacyPolicy": "https://signal.org/legal/",
+    "terms": "https://signal.org/legal/"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "signal-privacy-policy"
+    ],
+    "detail": "Cal un número de telèfon, tot i que des de 2024 es pot amagar darrere d’un nom d’usuari.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "signal-github"
+    ],
+    "detail": "Client i servidor són de codi obert i auditables. El protocol Signal és l’estàndard de facto del xifratge de missatgeria i l’han adoptat WhatsApp i Meta.",
+    "verifiedAt": "2026-09-22",
+    "repositoryUrl": "https://github.com/signalapp",
+    "licence": "AGPL-3.0 i GPL-3.0"
+  },
+  "dataSummary": "Signal declara conservar només el número de telèfon, la data de creació del compte i la data de darrera connexió. Aquesta llista s’ha pogut comprovar públicament diverses vegades a través de les respostes judicials que la fundació publica.",
+  "dataCollection": [
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "signal-privacy-policy"
+      ],
+      "note": "És l’única dada identificativa que Signal desa. Des de 2024 es pot ocultar a la resta de persones usuàries amb un nom d’usuari."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "signal-docs"
+      ],
+      "note": "Xifrat d’extrem a extrem. Signal no hi té accés en cap moment."
+    },
+    {
+      "type": "metadades-de-comunicacio",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "signal-docs"
+      ],
+      "note": "El remitent segellat amaga a Signal qui envia cada missatge."
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "signal-docs"
+      ],
+      "note": "El descobriment de contactes es fa amb enclavaments segurs i resums criptogràfics; l’agenda no arriba mai en clar al servidor."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "signal-privacy-policy"
+      ]
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "signal-docs"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "signal-privacy-policy"
+      ],
+      "note": "Necessària per encaminar el trànsit, però no es desa associada al compte. Les trucades es poden encaminar pel servidor per amagar-la."
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "signal-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "signal-privacy-policy"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "signal-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "signal-privacy-policy"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "signal-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "signal-privacy-policy"
+      ],
+      "note": "Les donacions es processen per separat i no es vinculen al compte."
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "signal-privacy-policy"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "signal-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "signal-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "no",
+      "level": "independent",
+      "sources": [
+        "signal-github"
+      ],
+      "detail": "El codi és públic i s’ha verificat repetidament que no incorpora biblioteques de rastreig.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Signal no té publicitat: es finança amb donacions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "signal-privacy-policy"
+      ],
+      "detail": "No hi ha dades suficients al servidor per elaborar cap perfil.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "signal-privacy-policy"
+      ],
+      "detail": "El contingut és inaccessible per a Signal, de manera que no es pot fer servir per entrenar models.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "signal-privacy-policy"
+      ],
+      "detail": "Les respostes a requeriments judicials publicades mostren que Signal només pot lliurar la data d’alta i la de darrera connexió.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Signal no forma part de cap grup empresarial.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "signal-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "signal-privacy-policy"
+      ],
+      "detail": "La infraestructura és als Estats Units, però el que s’hi transfereix és contingut xifrat que el proveïdor no pot llegir.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "derogation"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "signal-privacy-policy"
+      ],
+      "detail": "Signal publica les respostes íntegres als requeriments judicials que rep.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://signal.org/bigbrother/"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "signal-privacy-policy"
+      ],
+      "detail": "No hi ha res a retenir més enllà del número, la data d’alta i la de darrera connexió.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "signal-delete-account"
+      ],
+      "detail": "L’eliminació és immediata i completa. Els comptes inactius s’eliminen automàticament als 120 dies.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "period": "Eliminació automàtica als 120 dies d’inactivitat",
+        "sources": [
+          "signal-delete-account"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "signal-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "signal-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://support.signal.org/hc/en-us/articles/360007061192-Delete-Account",
+    "difficulty": "easy",
+    "waitingPeriodDays": 0,
+    "requiresSupportContact": false,
+    "steps": [
+      "Obre Signal i entra a Configuració.",
+      "Ves a Compte i tria «Suprimeix el compte».",
+      "Introdueix el número de telèfon i confirma."
+    ],
+    "obstacles": "Cap. Si has perdut l’accés al dispositiu, el compte s’elimina sol al cap de 120 dies d’inactivitat.",
+    "dataRetained": "Els missatges que has enviat resten als dispositius de les altres persones fins que els esborrin o expirin.",
+    "sources": [
+      "signal-delete-account"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "signal-docs"
+      ],
+      "detail": "L’aplicació d’escriptori permet fer còpies locals; no hi ha exportació des del servidor perquè no hi ha res desat.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://support.signal.org/"
+    },
+    "exportFormatQuality": "mixed",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "signal-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://support.signal.org/hc/en-us/requests/new",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "signal-privacy-policy"
+      ],
+      "detail": "La recollida opcional de dades d’ús està desactivada per defecte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "signal-docs"
+      ],
+      "detail": "Missatges temporals, bloqueig de pantalla, ocultació del número, relé de trucades i bloqueig de registre.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "protective",
+    "darkPatterns": {
+      "status": "no",
+      "level": "independent",
+      "sources": [
+        "signal-github"
+      ],
+      "detail": "La interfície no empeny cap a cap opció menys protectora; les opcions més segures són les predeterminades.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "signal-docs"
+      ],
+      "detail": "Xifratge d’extrem a extrem sempre actiu per a missatges, trucades, grups i còpies de seguretat, amb secret cap endavant i el remitent segellat per protegir també les metadades.",
+      "verifiedAt": "2026-09-22",
+      "scope": "all-default",
+      "protocol": "Signal Protocol (Double Ratchet i X3DH)"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "signal-docs"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "signal-docs"
+      ],
+      "detail": "Les còpies de seguretat es xifren amb una clau que només té la persona usuària.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "signal-docs"
+      ],
+      "detail": "PIN de registre que impedeix el segrest del compte per part de qui controli el número.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "app-push"
+      ]
+    },
+    "independentAudits": {
+      "status": "yes",
+      "level": "independent",
+      "sources": [
+        "signal-docs"
+      ],
+      "detail": "El protocol Signal ha estat objecte de múltiples anàlisis formals acadèmiques, i el codi complet és auditable per qualsevol persona.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://signal.org/docs/"
+    },
+    "bugBounty": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "signal-github"
+      ],
+      "detail": "Hi ha un canal de comunicació de vulnerabilitats, però no un programa de recompenses formal i permanent.",
+      "verifiedAt": "2026-09-22"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "signal-github"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "review": {
+    "researchStatus": "in-depth",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "L’incident de Twilio de 2022 puntua com a incident real, però la seva gravetat és baixa i el disseny del servei en va limitar l’abast. Queda registrat perquè mostra que un servei ben dissenyat no evita els atacs, però en redueix les conseqüències."
+  },
+  "appStoreBundleId": "org.whispersystems.signal"
+}

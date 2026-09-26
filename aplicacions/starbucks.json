@@ -1,0 +1,559 @@
+{
+  "slug": "starbucks",
+  "name": "Starbucks España",
+  "company": "starbucks-emea",
+  "categories": [
+    "alimentacio-i-restauracio"
+  ],
+  "tagline": "Fidelització amb ubicació per GPS i balises Bluetooth, i una baixa que s’ha de demanar per correu",
+  "summary": "L’aplicació de Starbucks Rewards a Espanya la gestionen dues empreses alhora: Starbucks EMEA, al Regne Unit, i Starbucks Coffee España, del grup Alsea. La política preveu recollir la ubicació per GPS i per balises Bluetooth a les botigues, perfilar la clientela per interès legítim i compartir dades amb Starbucks Corporation, i l’etiqueta de l’App Store declara que les dades d’ús i de diagnòstic s’usen per rastrejar. L’únic camí documentat per eliminar el compte és escriure a atenció al client.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Regne Unit (Starbucks EMEA) i Espanya (Starbucks Coffee España, corresponsable)",
+  "links": {
+    "website": "https://www.starbucks.es/",
+    "privacyPolicy": "https://www.starbucks.es/politica-de-privacidad",
+    "appStore": "https://apps.apple.com/es/app/id6447769086"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "starbucks-privacy-policy"
+    ],
+    "detail": "Les dades d’usuari són necessàries per participar al programa de fidelització i per comprar des de l’aplicació.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "starbucks-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "L’historial de compres, les cerques i la ubicació precisa mostren la rutina diària: a quina hora i a quina botiga es pren el cafè cada dia. Si s’importen els contactes o se segueix la marca a les xarxes, el perfil també inclou relacions i publicacions.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "starbucks-app-store",
+        "starbucks-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "starbucks-app-store",
+        "starbucks-privacy-policy"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "starbucks-app-store",
+        "starbucks-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "starbucks-app-store",
+        "starbucks-privacy-policy"
+      ]
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "starbucks-privacy-policy"
+      ],
+      "note": "Només el dia i el mes, per al regal d’aniversari."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "starbucks-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "starbucks-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "starbucks-app-store",
+        "starbucks-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "starbucks-app-store",
+        "starbucks-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "starbucks-app-store"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "starbucks-app-store",
+        "starbucks-privacy-policy"
+      ],
+      "note": "La política esmenta GPS i balises iBeacon amb Bluetooth, amb consentiment; l’etiqueta la declara no vinculada. Els serveis de mapes són destinataris."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "starbucks-app-store"
+      ]
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "starbucks-privacy-policy"
+      ],
+      "note": "Noms i correus dels contactes, només si es decideix importar-los."
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "starbucks-privacy-policy"
+      ],
+      "note": "La política preveu recollir el que es publiqui sobre la marca en blocs o xarxes socials."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "starbucks-app-store"
+      ],
+      "note": "L’etiqueta declara les dades d’ús com a utilitzades per rastrejar."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "starbucks-app-store"
+      ],
+      "note": "L’etiqueta declara els diagnòstics com a utilitzats per rastrejar."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "starbucks-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store declara que les dades d’ús i de diagnòstic es poden fer servir per rastrejar en aplicacions i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’etiqueta no declara l’identificador publicitari."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "starbucks-privacy-policy"
+      ],
+      "detail": "La política preveu proveïdors d’analítica i de màrqueting i remet a la política de galetes per a la mesura publicitària.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "starbucks-privacy-policy",
+        "starbucks-app-store"
+      ],
+      "detail": "Ofertes i continguts personalitzats per correu i mesura de l’eficàcia publicitària; els correus promocionals depenen del consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "starbucks-privacy-policy"
+      ],
+      "detail": "Segmentació amb procediments automatitzats a partir de l’ús del servei, per interès legítim; la persona s’hi pot oposar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no en diu res."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "starbucks-privacy-policy"
+      ],
+      "detail": "Processadors de pagament, allotjament, atenció al client, correu, mapes, prevenció del frau, analítica, màrqueting i establiments amb llicència Starbucks.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "starbucks-privacy-policy"
+      ],
+      "detail": "Starbucks EMEA i Starbucks Coffee España (grup Alsea) són corresponsables, i es comparteix informació amb filials i amb Starbucks Corporation.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no parla de venda de dades."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "starbucks-privacy-policy"
+      ],
+      "detail": "Transferències fora de l’Espai Econòmic Europeu, sobretot als Estats Units.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "starbucks-privacy-policy"
+      ],
+      "detail": "Només diu que les dades es conserven el temps necessari o el que exigeixi la llei, sense terminis concrets.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "starbucks-privacy-policy"
+      ],
+      "detail": "Algunes dades es poden conservar més temps per obligacions legals o per respectar les exclusions de màrqueting.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "starbucks-delete-rewards"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’únic procediment documentat és una sol·licitud per correu; no hem pogut verificar si l’aplicació té un botó d’eliminació."
+    },
+    "directUrl": "https://www.starbucks.es/eliminar-cuenta-rewards",
+    "difficulty": "medium",
+    "waitingPeriodDays": 30,
+    "requiresSupportContact": true,
+    "steps": [
+      "Escriu a atencionalcliente@starbucks.es des del correu associat al compte.",
+      "Indica nom, cognoms, correu del compte, data de naixement i que demanes l’eliminació de les dades.",
+      "Respon a la verificació d’identitat que et demanin.",
+      "La sol·licitud es tramita en un termini de 30 dies des de la recepció, prorrogable en casos complexos."
+    ],
+    "obstacles": "Cal passar per atenció al client i verificar la identitat. Les estrelles i l’historial del compte es perden i no es poden recuperar.",
+    "dataRetained": "Les dades que calgui conservar per obligacions legals i per respectar les exclusions de màrqueting.",
+    "sources": [
+      "starbucks-delete-rewards",
+      "starbucks-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "starbucks-privacy-policy",
+        "starbucks-delete-rewards"
+      ],
+      "detail": "Es pot demanar l’accés i la portabilitat per correu; no hi ha cap eina de descàrrega.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "starbucks-privacy-policy"
+      ],
+      "detail": "Per correu a atencionalcliente@starbucks.es o privacy@starbucks.com, o per carta; delegat de protecció de dades a Espanya: dpd@alsea.net.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:atencionalcliente@starbucks.es",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "starbucks-privacy-policy"
+      ],
+      "detail": "Es pot retirar el consentiment als correus promocionals i oposar-se al perfilat, però per correu, no amb un control dins l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap control sobre les dades d’ús o de diagnòstic."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut verificar quins controls de privadesa ofereix l’aplicació."
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi de patrons foscos a l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no transporta comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "starbucks-privacy-policy"
+      ],
+      "detail": "La política diu que les transmissions de dades sensibles es xifren amb SSL.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat informació sobre verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories publicades per a l’aplicació espanyola."
+    },
+    "bugBounty": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "starbucks-security-txt",
+        "starbucks-hackerone"
+      ],
+      "detail": "El security.txt de starbucks.es remet al programa de recompenses de Starbucks a HackerOne, però l’abast publicat no cita expressament el web ni l’aplicació d’Espanya.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://hackerone.com/starbucks"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "starbucks-security-txt"
+      ],
+      "detail": "El domini publica un security.txt amb la política de divulgació.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "El desenvolupador a l’App Store és Starbucks Coffee Company, però la política identifica Starbucks EMEA Limited com a responsable i Starbucks Coffee España, S.L.U. (grup Alsea) com a corresponsable. Les filtracions de Starbucks que hem trobat afecten personal dels Estats Units, no la clientela espanyola, i no s’hi inclouen.",
+    "openQuestions": [
+      "L’aplicació té una opció «Eliminar tu cuenta» dins del perfil, com diuen algunes guies, o només el procediment per correu?",
+      "Des de la sortida del Regne Unit de la UE, quina autoritat de control és la principal per a Starbucks EMEA?"
+    ]
+  },
+  "appStoreBundleId": "com.starbucks.es"
+}

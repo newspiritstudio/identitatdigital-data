@@ -1,0 +1,400 @@
+{
+  "slug": "tarjeta-transporte",
+  "name": "Tarjeta Transporte",
+  "company": "crtm",
+  "categories": [
+    "mobilitat-i-transport"
+  ],
+  "tagline": "Recàrrega de l’abonament de Madrid per NFC, del mateix consorci que va patir una filtració el 2023",
+  "summary": "L’aplicació del Consorci Regional de Transports de Madrid serveix per consultar el saldo i carregar títols a la Tarjeta Transporte Público acostant-la a l’iPhone. Segons el consorci, només recull el model del telèfon i la versió del sistema. El principal incident documentat afecta els sistemes del consorci: el novembre de 2023 un atac va extreure noms, adreces, correus i telèfons dels titulars de la targeta i informació de vendes de títols.",
+  "platforms": [
+    "ios"
+  ],
+  "businessModel": "public-service",
+  "jurisdiction": "Espanya (Comunitat de Madrid)",
+  "links": {
+    "website": "https://www.crtm.es/app-tarjeta-transporte",
+    "privacyPolicy": "https://www.crtm.es/proteccion-de-datos",
+    "appStore": "https://apps.apple.com/es/app/id1619770175"
+  },
+  "accountRequired": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": [],
+    "detail": "La documentació no parla de cap registre; per carregar cal donar d’alta una targeta bancària a l’aplicació."
+  },
+  "openSource": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": [],
+    "detail": "No hem trobat el codi publicat."
+  },
+  "publicService": {
+    "isPublicService": true,
+    "administrationLevel": "regional",
+    "legalBasis": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "crtm-proteccion-datos"
+      ],
+      "detail": "La clàusula invoca el Reglament general de protecció de dades com a marc, però no cita cap norma amb rang ni article que empari el tractament de les dades de la targeta de transport.",
+      "verifiedAt": "2026-09-22"
+    },
+    "processingRegistry": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "crtm-proteccion-datos",
+        "comunidad-madrid-rat"
+      ],
+      "detail": "La clàusula remet al registre d’activitats de tractament de la Comunitat, que inclou la Conselleria de Vivienda, Transportes e Infraestructuras i els organismes adscrits, entre els quals el consorci; no hi hem localitzat de manera identificable l’activitat de l’aplicació.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.comunidad.madrid/proteccion-datos/registro-actividades-tratamiento-rat"
+    },
+    "dpia": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat publicada cap avaluació d’impacte, tampoc després de l’atac del 2023."
+    },
+    "ensConformity": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap declaració ni certificació de conformitat amb l’Esquema Nacional de Seguretat dels sistemes del consorci."
+    },
+    "dpo": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "crtm-proteccion-datos",
+        "comunidad-madrid-dpd"
+      ],
+      "detail": "El consorci publica el correu del seu delegat de protecció de dades, que també consta a la llista de delegats de la Comunitat.",
+      "verifiedAt": "2026-09-22",
+      "contact": "crtm_protecciondatos@madrid.org"
+    },
+    "offlineAlternative": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "tarjeta-transporte-crtm-app"
+      ],
+      "detail": "El consorci diu que l’aplicació carrega títols «en las mismas condiciones que cualquier otra red de distribución (Metro, estancos, etc.)»: la recàrrega presencial continua disponible.",
+      "verifiedAt": "2026-09-22"
+    },
+    "accessibilityStatement": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "crtm-accessibilitat"
+      ],
+      "detail": "El consorci publica la declaració d’accessibilitat del portal web (preparada el maig del 2025 i revisada el setembre del 2025), que es declara «no conforme» amb el Reial decret 1112/2018 i que no esmenta l’aplicació mòbil.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.crtm.es/accesibilidad"
+    },
+    "mandatoryRetention": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La clàusula no fixa terminis de conservació i no hem trobat cap norma que obligui a conservar les dades de la targeta de transport."
+    }
+  },
+  "dataSummary": "L’aplicació en si revela poc, però la targeta de transport personal està vinculada a nom, adreça i telèfon als sistemes del consorci, i les recàrregues diuen quin títol es fa servir i amb quina freqüència.",
+  "dataCollection": [
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tarjeta-transporte-crtm-app"
+      ],
+      "note": "El consorci diu que només recull el model de telèfon i la versió del sistema operatiu."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tarjeta-transporte-instruccions-ios",
+        "tarjeta-transporte-faq-ios"
+      ],
+      "note": "Cal registrar una targeta Visa o Mastercard, que es pot esborrar després de cada compra. No consta quina passarel·la de pagament s’utilitza."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tarjeta-transporte-ciberataque-2023"
+      ],
+      "note": "Les vendes de títols es registren als sistemes del consorci; van ser part de la informació extreta el 2023."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "tarjeta-transporte-crtm-app"
+      ],
+      "note": "Número de la targeta de transport llegit per NFC."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "tarjeta-transporte-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada utilitzada per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "tarjeta-transporte-app-store"
+      ],
+      "detail": "L’etiqueta no declara l’identificador publicitari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi independent dels kits de tercers que porta l’aplicació."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "crtm-proteccion-datos"
+      ],
+      "detail": "La clàusula de protecció de dades no preveu cap finalitat publicitària.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La informació publicada no en diu res."
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La informació del consorci no en parla."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "crtm-proteccion-datos"
+      ],
+      "detail": "Sense cessions llevat d’obligació legal (jutjats, fiscalia, Defensor del Poble). El pagament passa necessàriament per entitats bancàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "crtm-proteccion-datos"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "crtm-proteccion-datos"
+      ],
+      "detail": "El consorci declara que no fa transferències internacionals.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "none"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La pàgina de protecció de dades remet al registre d’activitats de tractament de la Conselleria sense terminis concrets."
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no té compte propi documentat; les targetes bancàries s’esborren lliscant cap a l’esquerra.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha compte propi documentat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "unknown",
+    "steps": [
+      "Obre l’aplicació i ves a la llista de targetes bancàries registrades.",
+      "Llisca cap a l’esquerra sobre la targeta i confirma’n l’eliminació."
+    ],
+    "dataRetained": "Les dades de la targeta de transport personal i de les vendes queden als sistemes del consorci.",
+    "sources": [
+      "tarjeta-transporte-instruccions-ios",
+      "tarjeta-transporte-faq-ios"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "crtm-proteccion-datos"
+      ],
+      "detail": "Per correu al delegat de protecció de dades, per registre electrònic o presencialment.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:crtm_protecciondatos@madrid.org"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no mostra publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "tarjeta-transporte-faq-ios"
+      ],
+      "detail": "No cal deixar la targeta bancària desada un cop feta la recàrrega.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No transporta comunicacions entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha inici de sessió documentat; la verificació dels pagaments la fa cada banc.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat auditories ni certificacions publicades específicament sobre aquesta aplicació."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses per vulnerabilitats."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap canal públic de notificació de vulnerabilitats ni fitxer security.txt."
+    }
+  },
+  "review": {
+    "researchStatus": "initial",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "L’incident de 2023 afecta la base de dades de titulars de la targeta, no l’aplicació. L’associem a la fitxa perquè és el mateix responsable i les mateixes dades que l’aplicació fa servir.",
+    "openQuestions": [
+      "Quina passarel·la de pagament desa les targetes bancàries i qui n’és el responsable?",
+      "Quantes persones van quedar afectades per l’atac de 2023?"
+    ]
+  },
+  "appStoreBundleId": "com.crtm.recarga"
+}

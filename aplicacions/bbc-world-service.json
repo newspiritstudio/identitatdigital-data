@@ -1,0 +1,494 @@
+{
+  "slug": "bbc-world-service",
+  "name": "BBC World Service",
+  "company": "bbc",
+  "categories": [
+    "noticies-i-mitjans"
+  ],
+  "tagline": "Una etiqueta de l’App Store molt més limitada que la de l’aplicació en anglès, amb rastreig només de dades d’ús i cap ubicació vinculada amb la identitat",
+  "summary": "L’aplicació dels serveis en altres llengües de la BBC, inclòs BBC Mundo, es regeix per l’avís de privadesa del servei públic, no per la política comercial de BBC Studios. Invoca la missió d’interès públic i les exempcions periodístiques, i la seva etiqueta de l’App Store és molt menys invasiva que la de l’aplicació de notícies en anglès. Ara bé, la publicitat que es mostra fora del Regne Unit la segueix gestionant BBC Studios com a responsable independent.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "advertising",
+  "jurisdiction": "Regne Unit; autoritat de control: Information Commissioner’s Office",
+  "userBase": "Serveis del World Service en desenes de llengües",
+  "links": {
+    "website": "https://www.bbc.com/mundo",
+    "privacyPolicy": "https://www.bbc.com/mundo/institucional-36400009",
+    "appStore": "https://apps.apple.com/es/app/id6761256736"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "bbc-world-service-aviso-privacidad"
+    ],
+    "detail": "L’avís diu que moltes pàgines del World Service es poden fer servir sense iniciar la sessió.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "bbc-security-disclosure"
+    ],
+    "detail": "La BBC publica codi a GitHub, però aquesta aplicació no és de codi obert.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "En un servei informatiu internacional, la dada més delicada és el que llegeixes: en quina llengua, sobre quin país i amb quina insistència. L’avís reconeix que recull identificadors de dispositiu i de publicitat, però l’etiqueta de l’App Store els declara majoritàriament com a dades no vinculades amb la identitat.",
+  "dataCollection": [
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bbc-world-service-app-store",
+        "bbc-world-service-aviso-privacidad"
+      ],
+      "note": "Butlletins i contacte amb la redacció."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bbc-world-service-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "bbc-world-service-app-store"
+      ],
+      "note": "És l’única categoria que l’etiqueta declara com a dada utilitzada per rastrejar."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bbc-world-service-app-store",
+        "bbc-world-service-aviso-privacidad"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "bbc-world-service-aviso-privacidad"
+      ],
+      "note": "L’avís esmenta identificadors de publicitat; l’etiqueta els situa entre les dades no vinculades amb la identitat."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "bbc-world-service-app-store"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "bbc-world-service-aviso-privacidad"
+      ]
+    },
+    {
+      "type": "llengua",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "bbc-world-service-aviso-privacidad"
+      ],
+      "note": "Idioma i regió: en un servei internacional, diu força sobre qui ets i on ets."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "bbc-world-service-aviso-privacidad"
+      ],
+      "note": "Missatges, fotos, vídeos i àudio que s’envien a la redacció o a les enquestes."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "bbc-world-service-app-store"
+      ]
+    },
+    {
+      "type": "conviccions-i-opinions",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "moderacio-de-continguts",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bbc-world-service-aviso-privacidad"
+      ],
+      "note": "L’avís invoca les exempcions periodístiques i de llibertat d’expressió també per a categories especials de dades quan hi ha finalitat editorial."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bbc-world-service-app-store"
+      ],
+      "detail": "L’etiqueta declara només dades d’ús com a dades utilitzades per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bbc-world-service-aviso-privacidad"
+      ],
+      "detail": "L’avís esmenta identificadors de dispositiu i de publicitat entre les dades recollides automàticament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bbc-world-service-aviso-privacidad",
+        "bbc-world-service-app-store"
+      ],
+      "detail": "Socis publicitaris i proveïdors de mesura d’audiència; l’etiqueta declara publicitat de tercers com a dada no vinculada.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bbc-world-service-aviso-privacidad"
+      ],
+      "detail": "Els serveis del World Service poden incloure publicitat fora del Regne Unit: contextual i, quan la llei ho permet, personalitzada limitada, gestionada per BBC Studios com a responsable independent.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’avís del servei públic no descriu elaboració de perfils; remet a la política de BBC Studios per a la part publicitària."
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’avís no esmenta l’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bbc-world-service-aviso-privacidad"
+      ],
+      "detail": "Proveïdors de tecnologia, allotjament i núvol, xarxes de distribució, analítica i mesura d’audiència, socis publicitaris, plataformes socials, reguladors i auditors.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bbc-world-service-aviso-privacidad"
+      ],
+      "detail": "Amb la resta del grup BBC, inclosa BBC Studios per a la publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’avís no parla de compra ni de venda de dades a intermediaris; la política de BBC Studios, que regeix la publicitat, sí que descriu la compra de segments."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bbc-world-service-aviso-privacidad"
+      ],
+      "detail": "Reconeix el tractament fora del país de residència amb salvaguardes contractuals genèriques, sense citar ni les clàusules tipus ni el marc de transferències amb els Estats Units.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència de la BBC."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "bbc-world-service-aviso-privacidad"
+      ],
+      "detail": "L’avís només dona criteris (finalitats, obligacions legals, seguretat i auditoria, fins editorials i d’arxiu), sense cap termini concret.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bbc-account-delete"
+      ],
+      "detail": "El compte BBC és compartit: s’esborra immediatament, però queda el registre d’ús desvinculat i el contingut publicat.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bbc-account-delete"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bbc-account-delete"
+      ],
+      "detail": "Pel mateix camí que la resta de serveis de la BBC, des dels ajustos del compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://account.bbc.com/account",
+    "difficulty": "easy",
+    "steps": [
+      "Inicia la sessió amb el teu compte BBC.",
+      "Obre «Your account» i entra a «Settings».",
+      "A «Delete your account», tria «I want to delete my account» i torna a escriure la contrasenya.",
+      "Confirma amb «Delete account»; l’operació no es pot desfer."
+    ],
+    "dataRetained": "Registre d’ús desvinculat i contingut publicat o comentat.",
+    "sources": [
+      "bbc-account-delete"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bbc-data-request",
+        "bbc-world-service-aviso-privacidad"
+      ],
+      "detail": "L’avís reconeix la portabilitat i la BBC permet demanar la informació des dels ajustos del compte, amb excepcions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bbc-world-service-aviso-privacidad"
+      ],
+      "detail": "Delegat de protecció de dades de la BBC, amb adreça postal a Broadcasting House i reclamació davant l’autoritat local o l’ICO.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dataprotection.officer@bbc.co.uk",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bbc-world-service-aviso-privacidad",
+        "bbc-studios-privacy-policy"
+      ],
+      "detail": "Els controls publicitaris viuen a la política de BBC Studios i al compte BBC, no a l’avís del World Service.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bbc-world-service-aviso-privacidad"
+      ],
+      "detail": "Consentiment per a galetes i analítica quan la llei ho exigeix, sense un panell propi documentat dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bbc-world-service-aviso-privacidad"
+      ],
+      "detail": "Configuració de butlletins i de consentiment; la resta depèn del compte BBC.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "no",
+      "level": "editorial",
+      "sources": [],
+      "detail": "No hem trobat patrons enganyosos en aquesta aplicació. La possible confusió és saber quina de les tres polítiques de la BBC t’aplica.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació distribueix continguts públics.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’avís només parla de mesures adequades, sense detall tècnic."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació sobre verificació en dos passos del compte BBC."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories ni certificacions publicades."
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bbc-security-disclosure"
+      ],
+      "detail": "El mateix programa de recompenses del grup BBC.",
+      "verifiedAt": "2026-09-22"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bbc-security-disclosure"
+      ],
+      "detail": "security.txt vàlid a bbc.com i bbc.co.uk amb contacte a security@bbc.co.uk.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "bbc",
+      "comparability": "partial",
+      "rationale": "L’aplicació de notícies en anglès té molt més contingut i personalització, si el que pesa és l’oferta informativa.",
+      "tradeOffs": "A canvi, té una etiqueta de privadesa molt més invasiva: rastreig amb ubicació, historial de navegació i identificadors publicitaris."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "L’interès d’aquesta fitxa és la comparació amb la de l’aplicació de notícies: la mateixa organització, el mateix periodisme i dues declaracions de privadesa molt diferents segons quina societat del grup publiqui l’aplicació. L’avís del World Service és l’únic dels documents de la BBC redactat en castellà.",
+    "openQuestions": [
+      "Quin mecanisme concret empara les transferències internacionals d’aquest servei? L’avís no cita ni clàusules tipus ni el marc amb els Estats Units.",
+      "Quins terminis de conservació s’apliquen als missatges que s’envien a la redacció?"
+    ]
+  },
+  "appStoreBundleId": "uk.co.bbc.worldservice"
+}

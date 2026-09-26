@@ -1,0 +1,470 @@
+{
+  "slug": "microsoft-authenticator",
+  "name": "Microsoft Authenticator",
+  "company": "microsoft",
+  "categories": [
+    "autenticacio-i-seguretat",
+    "utilitats"
+  ],
+  "tagline": "Una aplicació de seguretat que declara ubicació exacta vinculada a la teva identitat",
+  "summary": "Authenticator guarda les claus d’accés al Secure Enclave del telèfon i no les deixa sortir del dispositiu, de manera que funciona com a segon factor resistent a la suplantació. També declara ubicació exacta vinculada a la identitat, perquè les notificacions d’inici de sessió mostren des d’on s’intenta entrar. Acumulada, aquesta dada registra on eres cada vegada que t’has autenticat.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Irlanda",
+  "userBase": "Més de cent milions de descàrregues declarades a les botigues d’aplicacions",
+  "links": {
+    "website": "https://www.microsoft.com/security/mobile-authenticator-app",
+    "privacyPolicy": "https://www.microsoft.com/en-us/privacy/privacystatement",
+    "appStore": "https://apps.apple.com/es/app/id983156458"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "microsoft-authenticator-method"
+    ],
+    "detail": "Per als codis OATH de serveis de tercers no cal cap compte; per a les claus d’accés, l’inici de sessió sense contrasenya i la còpia de seguretat al núvol, sí.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "microsoft-privacy-statement"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Un registre d’autenticacions indica a quina hora comences a treballar, quan viatges i des de quin dispositiu entres a cada servei. Com que l’etiqueta declara ubicació exacta vinculada a la identitat, el registre també recull on era la persona en cada autenticació.",
+  "dataCollection": [
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "microsoft-authenticator-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "microsoft-authenticator-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "microsoft-authenticator-app-store"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "microsoft-authenticator-app-store"
+      ],
+      "note": "L’etiqueta la declara com a funcionalitat de l’aplicació. Les sol·licituds d’inici de sessió mostren la ubicació de l’intent per detectar accessos anòmals."
+    },
+    {
+      "type": "testimoni-d-autenticacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "microsoft-authenticator-method"
+      ],
+      "note": "Les claus d’accés es creen al Secure Enclave d’iOS i no surten del dispositiu on s’han generat."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "microsoft-authenticator-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "microsoft-authenticator-app-store"
+      ],
+      "note": "L’etiqueta declara dades de diagnòstic vinculades i, a més, dades d’error no vinculades a la identitat."
+    },
+    {
+      "type": "contrasenya",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "microsoft-authenticator-app-store"
+      ],
+      "note": "L’aplicació pot fer de gestor de contrasenyes i desar-les al compte de Microsoft."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "microsoft-authenticator-app-store"
+      ],
+      "note": "L’etiqueta no declara cap dada utilitzada per rastrejar-te."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "microsoft-authenticator-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap dada utilitzada per rastrejar-te en aplicacions i llocs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "microsoft-authenticator-app-store"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Microsoft no publica quins components de tercers incorpora l’aplicació."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "microsoft-authenticator-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap dada de publicitat ni finalitat publicitària.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "microsoft-privacy-statement"
+      ],
+      "detail": "Els senyals d’inici de sessió, inclosa la ubicació, alimenten la detecció de riscos i d’accessos anòmals, que és una forma d’avaluació automatitzada amb finalitat de seguretat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap declaració específica sobre l’ús de les dades d’Authenticator per entrenar models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "microsoft-authenticator-method",
+        "microsoft-privacy-statement"
+      ],
+      "detail": "L’atestació de les claus d’accés fa servir els serveis d’Apple i de Google per verificar la legitimitat de l’aplicació; la resta de cessions són a proveïdors que actuen per compte de Microsoft.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-privacy-statement"
+      ],
+      "detail": "Compartició amb les filials del grup Microsoft.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "microsoft-trust-center-data-management"
+      ],
+      "detail": "Microsoft declara que no comparteix dades amb serveis finançats amb publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-privacy-statement"
+      ],
+      "detail": "Transferències als Estats Units emparades en clàusules contractuals tipus i en el marc de privadesa de dades UE-EUA.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-law-enforcement-report"
+      ],
+      "detail": "Cobert per l’informe semestral de peticions d’autoritats del grup.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat terminis concrets de conservació dels registres d’autenticació de l’aplicació de consum."
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "microsoft-close-account"
+      ],
+      "detail": "En tancar el compte de Microsoft, les dades associades s’esborren un cop passada la finestra de reobertura de 30 o 60 dies.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-close-account"
+      ],
+      "detail": "Es pot desinstal·lar l’aplicació i tancar el compte de Microsoft; per als comptes corporatius, el registre del mètode el retira l’administrador.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-close-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://account.microsoft.com/closeaccount",
+    "difficulty": "medium",
+    "waitingPeriodDays": 60,
+    "steps": [
+      "Abans de res, registra un altre mètode de verificació als serveis on facis servir Authenticator: sense ell pots quedar-te fora del compte.",
+      "Elimina cada compte de la llista de l’aplicació lliscant-lo i confirmant la supressió.",
+      "Desactiva la còpia de seguretat al núvol des de Configuració de l’aplicació si l’havies activat.",
+      "Si també vols tancar el compte de Microsoft, obre la pàgina de tancament del compte, verifica la identitat, marca les caselles de comprovació i tria la finestra de reobertura de 30 o de 60 dies."
+    ],
+    "obstacles": "Desinstal·lar l’aplicació sense haver registrat un altre segon factor pot deixar-te sense accés als comptes que en depenen. És un risc pràctic, que no classifiquem com a patró enganyós.",
+    "dataRetained": "Els registres d’inici de sessió de l’organització es conserven segons les polítiques de Microsoft Entra ID de cada empresa.",
+    "sources": [
+      "microsoft-close-account",
+      "microsoft-authenticator-method"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-privacy-dashboard"
+      ],
+      "detail": "Les dades associades al compte personal es poden descarregar des del panell de privadesa.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://account.microsoft.com/privacy/"
+    },
+    "exportFormatQuality": "mixed",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-privacy-statement"
+      ],
+      "detail": "Canal de privadesa del grup, amb Microsoft Ireland Operations Limited com a responsable per a l’Espai Econòmic Europeu.",
+      "verifiedAt": "2026-09-22",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no mostra publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap control dins de l’aplicació per desactivar l’enviament de dades d’ús i de diagnòstic."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "microsoft-authenticator-method"
+      ],
+      "detail": "Es poden gestionar els comptes registrats i la còpia de seguretat, però no el detall del tractament de la telemetria.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "no",
+      "level": "editorial",
+      "sources": [],
+      "detail": "No hem detectat patrons enganyosos en la configuració de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no transporta comunicacions entre persones; el que protegeix són credencials, i ho fa amb claus lligades al dispositiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-trust-center-data-management"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-authenticator-method"
+      ],
+      "detail": "Les claus d’accés es generen i es guarden al Secure Enclave d’iOS o a l’element segur d’Android i no en surten.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-authenticator-method"
+      ],
+      "detail": "L’aplicació és, ella mateixa, el segon factor: claus d’accés resistents a la suplantació, notificacions amb coincidència de número i codis OATH.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "passkey",
+        "app-push",
+        "totp"
+      ]
+    },
+    "independentAudits": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-authenticator-method",
+        "microsoft-iso-27001"
+      ],
+      "detail": "Criptografia validada segons la norma FIPS 140 a iOS i a Android, i certificació ISO/IEC 27001 dels serveis que hi ha al darrere.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-msrc-bounty"
+      ],
+      "detail": "Cobert pels programes de recompenses de Microsoft.",
+      "verifiedAt": "2026-09-22"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-msrc-cvd"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "google-authenticator",
+      "comparability": "equivalent",
+      "rationale": "Genera els mateixos codis OATH estàndard per a qualsevol servei compatible.",
+      "tradeOffs": "El tractament passa a un altre grup amb un negoci publicitari central, i no resol la qüestió de la telemetria."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "L’aplicació de seguretat declara ubicació exacta vinculada a la identitat. Té una justificació raonable (mostrar des d’on prové un intent d’inici de sessió), però acumulada deixa un registre geogràfic associat a cada autenticació.",
+    "openQuestions": [
+      "Quant de temps conserva Microsoft la ubicació associada a cada sol·licitud d’inici de sessió en comptes personals?",
+      "Hi ha cap manera de desactivar la telemetria opcional des de l’aplicació?"
+    ]
+  },
+  "appStoreBundleId": "com.microsoft.azureauthenticator"
+}

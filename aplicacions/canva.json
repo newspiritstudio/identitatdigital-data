@@ -1,0 +1,620 @@
+{
+  "slug": "canva",
+  "name": "Canva",
+  "company": "canva",
+  "categories": [
+    "edicio-de-foto-i-video"
+  ],
+  "tagline": "Els dissenys serveixen per entrenar els models d’IA si no ho desactives a la configuració",
+  "summary": "Canva analitza l’activitat, el contingut i els fitxers pujats per entrenar els seus algorismes, i deixa l’exclusió a un interruptor de la pàgina de preferències de privadesa que cal anar a buscar. L’etiqueta de l’App Store declara compres, ubicació, historial de cerca, contingut i identificadors vinculats a la persona, i publicitat de tercers entre les finalitats. La seguretat està ben documentada: ISO 27001, SOC 2 Type II, PCI DSS, xifratge AES256 en repòs i un programa de recompenses a Bugcrowd.",
+  "platforms": [
+    "ios",
+    "android",
+    "web",
+    "windows",
+    "macos"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Austràlia",
+  "userBase": "Més de 200 milions de persones usuàries actives mensuals declarades per l’empresa",
+  "links": {
+    "website": "https://www.canva.com/",
+    "privacyPolicy": "https://www.canva.com/policies/privacy-policy/",
+    "appStore": "https://apps.apple.com/es/app/id897446215"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "canva-privacy-policy"
+    ],
+    "detail": "Cal un compte amb adreça electrònica, o amb un identificador de Google, Facebook o Apple, per desar cap disseny.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "canva-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Els dissenys poden ser el currículum d’una persona, el cartell d’una manifestació, la invitació d’un bateig o la presentació d’una empresa abans de fer-se pública. Aquest contingut es fa servir per defecte per entrenar algorismes.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "canva-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "canva-privacy-policy",
+        "canva-app-store"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "canva-privacy-policy"
+      ]
+    },
+    {
+      "type": "ocupacio-i-carrec",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "canva-privacy-policy"
+      ],
+      "note": "La política esmenta la professió entre les dades del compte; serveix per triar les plantilles que es recomanen."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "entrenament-de-models-dia"
+      ],
+      "sources": [
+        "canva-privacy-policy",
+        "canva-app-store"
+      ],
+      "note": "Els fitxers pujats es poden analitzar per entrenar els algorismes si no es desactiva a les preferències de privadesa."
+    },
+    {
+      "type": "fitxers-i-documents",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "entrenament-de-models-dia"
+      ],
+      "sources": [
+        "canva-privacy-policy"
+      ],
+      "note": "Els dissenys, els documents i les presentacions són el contingut principal del servei."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "personalitzacio-de-continguts",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "canva-app-store"
+      ],
+      "note": "L’etiqueta declara l’historial de cerca vinculat a la persona i utilitzat també per a publicitat de tercers."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "canva-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "canva-privacy-policy",
+        "canva-app-store"
+      ],
+      "note": "Les subscripcions i la impressió es cobren mitjançant passarel·les de pagament externes."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "canva-app-store",
+        "canva-privacy-policy"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "canva-app-store"
+      ],
+      "note": "És l’única categoria declarada com a utilitzada per rastrejar."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "canva-privacy-policy",
+        "canva-app-store"
+      ],
+      "note": "La política reconeix xarxes publicitàries com Google i Facebook."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte",
+        "entrenament-de-models-dia",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "canva-privacy-policy",
+        "canva-app-store"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "canva-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "canva-app-store"
+      ]
+    },
+    {
+      "type": "contrasenya",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "canva-incident-2019"
+      ],
+      "note": "Les contrasenyes es desen amb bcrypt; així consta a la comunicació de l’incident del 2019."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "canva-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store declara els identificadors com a dades utilitzades per rastrejar en altres aplicacions i webs.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "canva-privacy-policy",
+        "canva-app-store"
+      ],
+      "detail": "La política preveu publicitat mesurada i personalitzada amb xarxes com Facebook i Google.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "canva-app-store"
+      ],
+      "detail": "L’etiqueta inclou la «publicitat de tercers» entre les finalitats de la ubicació, el contacte, la cerca, els identificadors i l’ús.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "canva-privacy-policy"
+      ],
+      "detail": "Es pot desactivar a la pàgina de preferències de privadesa o escrivint a l’assistència.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://www.canva.com/settings/privacy-preferences"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "canva-privacy-policy"
+      ],
+      "detail": "La personalització de continguts i de publicitat es basa en el perfil d’activitat i d’interessos.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "canva-privacy-policy"
+      ],
+      "detail": "La política diu que pot analitzar l’activitat, el contingut i els fitxers pujats per entrenar els seus algorismes; l’exclusió és un interruptor de les preferències de privadesa. El contingut de l’alumnat de Canva Education en queda exclòs.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://www.canva.com/settings/privacy-preferences"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "canva-privacy-policy"
+      ],
+      "detail": "Proveïdors de facturació, allotjament i analítica, xarxes publicitàries, aplicacions integrades i, si s’usa un correu corporatiu, l’organització titular del domini.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "canva-privacy-policy"
+      ],
+      "detail": "Compartició amb les filials del grup, que inclou Affinity i Flourish.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "canva-privacy-policy"
+      ],
+      "detail": "La política no preveu vendre dades a intermediaris, però sí que les transferiria com a actiu en una fusió o adquisició.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "canva-privacy-policy"
+      ],
+      "detail": "Tractament als Estats Units, Austràlia, Singapur, les Filipines, Nova Zelanda, la UE i el Regne Unit, amb el Marc de privadesa de dades UE-EUA i clàusules contractuals tipus per als països sense decisió d’adequació.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "canva-privacy-policy"
+      ],
+      "detail": "La política parla d’un «termini comercialment raonable» per al perfil i el contingut després de tancar el compte; només concreta terminis per als comptes educatius inactius.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "canva-privacy-policy",
+        "canva-delete-account"
+      ],
+      "detail": "L’eliminació és definitiva als 14 dies, però la política es reserva conservar dades pels terminis legals i comptables.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "identificador-de-compte",
+        "period": "14 dies des de la sol·licitud d’eliminació, període durant el qual encara es pot cancel·lar",
+        "sources": [
+          "canva-delete-account"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "canva-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "canva-delete-account"
+      ],
+      "detail": "Es fa des de la configuració del compte, amb confirmació per contrasenya o per codi enviat al correu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://www.canva.com/settings/login-and-security",
+    "difficulty": "easy",
+    "waitingPeriodDays": 14,
+    "requiresSupportContact": false,
+    "steps": [
+      "Si tens una subscripció de pagament, cancel·la-la primer perquè no es continuï cobrant.",
+      "Descarrega els dissenys que vulguis conservar: no es podran recuperar.",
+      "Entra al teu perfil, a «Your account» i després a «Account & security».",
+      "A «Account Actions», tria «Delete account» i confirma amb la contrasenya o amb el codi que rebràs per correu.",
+      "El compte s’elimina al cap de 14 dies; si tornes a entrar-hi abans, la sol·licitud es cancel·la."
+    ],
+    "obstacles": "Qui té un equip de creadors amb contingut publicat a la biblioteca no pot eliminar el compte sol i ha de passar per l’assistència.",
+    "dataRetained": "El contingut i el perfil es conserven durant un «termini comercialment raonable» i la documentació de facturació, pels terminis legals.",
+    "sources": [
+      "canva-delete-account",
+      "canva-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "canva-delete-account",
+        "canva-privacy-policy"
+      ],
+      "detail": "Es poden baixar els dissenys i els fitxers pujats des del compte, però no hi ha una exportació completa de les dades del perfil sense demanar-la.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "mixed",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "canva-privacy-policy"
+      ],
+      "detail": "Canva no té establiment a la Unió Europea: els drets s’exerceixen davant del seu representant, European Data Protection Office (EDPO), a Dublín.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://edpo.com/gdpr-data-request/"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "canva-privacy-policy"
+      ],
+      "detail": "Hi ha una pàgina de preferències de privadesa amb l’exclusió de la publicitat personalitzada.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.canva.com/settings/privacy-preferences"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap control per desactivar l’analítica d’ús."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "canva-privacy-policy"
+      ],
+      "detail": "Les preferències de privadesa separen la publicitat de l’entrenament de models, però no hi ha controls per finalitat més enllà d’això.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [],
+      "detail": "Que l’ús del contingut per entrenar algorismes estigui actiu per defecte i s’hagi de desactivar en una pàgina separada de la configuració és un consentiment desequilibrat, perquè la decisió es pren sense que es plantegi a la persona.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "unbalanced-consent",
+        "severity": "medium",
+        "description": "L’ús de l’activitat i del contingut per entrenar els algorismes és la posició per defecte i només es desactiva anant a la pàgina de preferències de privadesa.",
+        "sources": [
+          "canva-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Els dissenys s’editen i es rendereixen als servidors de Canva, de manera que el xifratge d’extrem a extrem no hi és aplicable.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "canva-security"
+      ],
+      "detail": "Els dissenys només són accessibles per TLS/SSL.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "canva-security"
+      ],
+      "detail": "Xifratge AES256 en repòs.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "canva-security"
+      ],
+      "detail": "Ofereix verificació en dos passos i inici de sessió únic per a organitzacions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "canva-security"
+      ],
+      "detail": "ISO 27001, SOC 2 Type II, SOC 3, PCI DSS i adhesió al Marc de privadesa de dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "canva-security-txt",
+        "canva-security"
+      ],
+      "detail": "Programa de recompenses a Bugcrowd, amb saló de la fama públic.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://bugcrowd.com/engagements/canva"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "canva-security-txt"
+      ],
+      "detail": "Fitxer security.txt amb política de divulgació, contacte i idioma preferit.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La filtració del 2019 és de les més grans del catàleg per nombre de comptes i, set mesos després, quatre milions de contrasenyes ja s’havien desxifrat. La resposta de l’empresa va ser pública i detallada.",
+    "openQuestions": [
+      "Quant dura exactament el «termini comercialment raonable» de conservació del contingut després de tancar el compte?",
+      "L’exclusió de l’entrenament de models s’aplica retroactivament al contingut ja processat?"
+    ]
+  },
+  "appStoreBundleId": "com.canva.canvaeditor"
+}

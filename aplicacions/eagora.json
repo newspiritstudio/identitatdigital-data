@@ -1,0 +1,392 @@
+{
+  "slug": "eagora",
+  "name": "eAgora",
+  "company": "eagora",
+  "categories": [
+    "administracio-publica",
+    "noticies-i-mitjans",
+    "comunitats-i-forums"
+  ],
+  "tagline": "L’app de bans municipals que declara totes les dades com a no vinculades a la identitat, la ubicació exacta inclosa",
+  "summary": "eAgora connecta la ciutadania amb el seu ajuntament, les associacions i els centres educatius: avisos, notícies i agenda de més de cinc-centes «àgores». L’etiqueta de l’App Store no declara cap dada de rastreig ni cap dada vinculada a la identitat, tot i recollir la ubicació exacta, el correu i fotografies. La política de privadesa és curta i orientada al web corporatiu, però especifica que les dades es xifren i es guarden en servidors de la Unió Europea, sobretot a Irlanda, cosa poc habitual.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "subscription",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://www.eagora.app/",
+    "privacyPolicy": "https://www.eagora.app/es/politica-de-privacidad/",
+    "appStore": "https://apps.apple.com/es/app/id717604307"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "eagora-privacy-policy"
+    ],
+    "detail": "Es pot consultar la informació del municipi; per registrar-se a una àgora i rebre avisos cal donar nom i correu.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "eagora-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Les àgores a què estàs subscrit indiquen a quin poble vius, a quina escola van els teus fills i a quines associacions pertanys, encara que l’etiqueta declari que cap dada no es vincula a la teva identitat.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "eagora-privacy-policy"
+      ],
+      "note": "La política diu que als formularis de registre cal donar nom i correu."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "eagora-app-store",
+        "eagora-privacy-policy"
+      ],
+      "note": "L’etiqueta el declara com a dada no vinculada a la identitat, per al funcionament de l’app."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "eagora-app-store"
+      ],
+      "note": "Declarada com a dada no vinculada a la identitat; probablement per proposar l’àgora del municipi."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "eagora-app-store"
+      ],
+      "note": "Les incidències que es comuniquen a l’ajuntament poden portar fotografia."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "eagora-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "eagora-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "eagora-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap dada utilitzada per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "eagora-app-store"
+      ],
+      "detail": "L’etiqueta no declara dades publicitàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut analitzar el trànsit de l’aplicació."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "eagora-app-store",
+        "eagora-privacy-policy"
+      ],
+      "detail": "Ni l’etiqueta ni la política descriuen publicitat segmentada; el servei el paguen els ajuntaments.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "eagora-privacy-policy"
+      ],
+      "detail": "La política no descriu cap elaboració de perfils.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no en diu res."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "eagora-privacy-policy"
+      ],
+      "detail": "La política diu que no cedeix dades sense consentiment, tot i que els proveïdors hi accedeixen com a encarregats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’empresa no forma part de cap grup declarat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "eagora-privacy-policy"
+      ],
+      "detail": "La política no preveu cap cessió comercial.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "eagora-privacy-policy"
+      ],
+      "detail": "La política diu que les dades es guarden en servidors de la Unió Europea, principalment a Irlanda, amb còpies a Europa.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "none"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Les empreses proveïdores d’administracions locals no acostumen a publicar-ne."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "eagora-privacy-policy"
+      ],
+      "detail": "La política no fixa cap termini.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no ho concreta."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "eagora-privacy-policy"
+      ],
+      "detail": "La política reconeix el dret de supressió.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política només documenta la sol·licitud per correu; no hem pogut verificar cap opció dins de l’aplicació."
+    },
+    "difficulty": "medium",
+    "steps": [
+      "Escriu a privacidad@eagora.app des de l’adreça del compte demanant la supressió.",
+      "La política demana adjuntar còpia d’un document identificatiu per acreditar la identitat."
+    ],
+    "obstacles": "Demanar el document d’identitat per exercir un dret és una pràctica que l’AEPD només admet quan hi ha dubtes raonables sobre qui fa la sol·licitud.",
+    "sources": [
+      "eagora-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "eagora-privacy-policy"
+      ],
+      "detail": "La portabilitat es reconeix, però cal demanar-la per correu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "eagora-privacy-policy"
+      ],
+      "detail": "Per correu a privacidad@eagora.app, amb telèfon de contacte publicat.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacidad@eagora.app"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no mostra publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "eagora-app-store"
+      ],
+      "detail": "A l’aplicació es tria a quines àgores i categories et subscrius.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "protective",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És un canal de comunicació pública dels ajuntaments.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "eagora-privacy-policy"
+      ],
+      "detail": "La política diu que la informació es xifra i es guarda en servidors de la Unió Europea.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El domini no publica cap fitxer security.txt."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "bandomovil",
+      "comparability": "equivalent",
+      "rationale": "Mateixa funció de ban municipal electrònic, amb una etiqueta de privadesa que sí que vincula les dades a la identitat."
+    }
+  ],
+  "review": {
+    "researchStatus": "initial",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "La política publicada és la del web corporatiu i parla sobretot de formularis i butlletins, no del funcionament de l’aplicació. Declarar la ubicació exacta com a dada «no vinculada» és coherent amb un ús puntual, però mereixeria una explicació dins de l’app.",
+    "openQuestions": [
+      "Quin paper juga l’ajuntament: és responsable o encarregat del tractament?",
+      "Per a què s’utilitza la ubicació exacta i amb quina freqüència es demana?",
+      "Hi ha una política específica per a l’aplicació mòbil?"
+    ]
+  },
+  "appStoreBundleId": "es.ebando.app"
+}

@@ -1,0 +1,605 @@
+{
+  "slug": "waiis",
+  "name": "WAIIS",
+  "company": "waiis-solutions-iberia",
+  "categories": [
+    "mobilitat-i-transport"
+  ],
+  "tagline": "Cotxe compartit que segueix la ubicació de tothom durant el trajecte perquè ho exigeix el programa de certificats d’estalvi",
+  "summary": "WAIIS organitza els desplaçaments diaris compartint cotxe i tramita per als seus usuaris els Certificats d’Estalvi Energètic. Per justificar-los davant del ministeri ha de seguir la ubicació exacta del conductor i dels passatgers durant tot el trajecte, vinculada al compte de cadascú, i sense aquest permís no hi ha bo. La política també és concreta en terminis (seixanta dies per esborrar un compte tancat, cinc anys d’inactivitat) i en encarregats, que anomena un a un.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://waiis.com/",
+    "privacyPolicy": "https://waiis.com/politica-de-privacidad/",
+    "appStore": "https://apps.apple.com/es/app/id1636462490"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "waiis-privacy-policy"
+    ],
+    "detail": "Hi ha un únic tipus de compte, personal i intransferible, que serveix tant per conduir com per viatjar de passatger.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "waiis-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "El seguiment del trajecte, la matrícula, el document identificatiu i les dades bancàries fan que WAIIS sàpiga qui va amb qui, per on i a quina hora, cada dia laborable. La política ho justifica en un requisit legal del programa de certificats d’estalvi energètic.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "waiis-privacy-policy",
+        "waiis-app-store"
+      ],
+      "note": "Obligatori per registrar-se i necessari per tramitar els certificats d’estalvi amb el soci Delcae."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "waiis-privacy-policy",
+        "waiis-app-store"
+      ],
+      "note": "Obligatori; es pot comunicar a l’empresa o institució que ofereix promocions a la comunitat."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "waiis-privacy-policy",
+        "waiis-app-store"
+      ],
+      "note": "Voluntària; es tracta amb Customer.io i Intercom."
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "waiis-privacy-policy",
+        "waiis-app-store"
+      ],
+      "note": "Origen, destí i adreces favorites dels trajectes habituals; i, per retirar saldo, l’adreça completa amb ciutat, país i codi postal."
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "waiis-privacy-policy"
+      ],
+      "note": "DNI, NIE o passaport, amb verificació d’identitat (KYC) de Mangopay per retirar diners."
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "waiis-privacy-policy"
+      ]
+    },
+    {
+      "type": "origen-etnic-o-nacionalitat",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "waiis-privacy-policy"
+      ],
+      "note": "El perfil té camps voluntaris de país de naixement i nacionalitat."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "waiis-privacy-policy",
+        "waiis-app-store"
+      ],
+      "note": "Fotografia de perfil."
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "waiis-app-store"
+      ],
+      "note": "L’etiqueta declara els contactes vinculats a la identitat; la política no n’explica l’ús."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "waiis-privacy-policy",
+        "waiis-app-store"
+      ],
+      "note": "Seguiment en temps real del conductor i dels passatgers mentre dura el trajecte, vinculat als comptes respectius. L’etiqueta la declara com a no vinculada a la identitat, cosa que no encaixa amb la política."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "waiis-app-store"
+      ]
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "waiis-privacy-policy"
+      ],
+      "note": "Els missatges entre persones usuàries es gestionen amb CometChat i es poden conservar anonimitzats amb finalitats estadístiques."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "waiis-privacy-policy"
+      ],
+      "note": "Número de targeta o IBAN, processats per Mangopay a Irlanda i Alemanya."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "waiis-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "waiis-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "waiis-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "waiis-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "waiis-app-store",
+        "waiis-privacy-policy"
+      ],
+      "note": "És l’única categoria que l’etiqueta declara com a utilitzada per rastrejar. La política identifica Segment, Amplitude i Microsoft Clarity, aquest últim amb servidors als Estats Units."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "waiis-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "waiis-app-store"
+      ],
+      "detail": "L’etiqueta declara les dades d’ús com a utilitzades per rastrejar en apps i webs d’altres empreses, tot i que la política no ho explica.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta cap identificador publicitari."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "waiis-privacy-policy"
+      ],
+      "detail": "Segment (Twilio), Amplitude i Microsoft Clarity, que enregistra sessions i patrons de navegació des de servidors dels Estats Units.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "waiis-privacy-policy"
+      ],
+      "detail": "La política no preveu publicitat i declara que les dades no es venen mai.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "waiis-privacy-policy"
+      ],
+      "detail": "Reconeix el dret a no ser sotmès a decisions automatitzades i no descriu cap perfilat propi.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no en diu res, tot i que l’aplicació es presenta com a assistida per intel·ligència artificial."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "waiis-privacy-policy"
+      ],
+      "detail": "Google Cloud, Mangopay, Segment, Intercom, Customer.io, CometChat, Amplitude i Clarity com a encarregats, i Delcae per tramitar els certificats d’estalvi davant del ministeri.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "WAIIS Solutions Iberia no forma part d’un grup amb altres serveis de consum.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "waiis-privacy-policy"
+      ],
+      "detail": "La política diu expressament que les dades no es vendran mai.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "waiis-privacy-policy"
+      ],
+      "detail": "Declara que evita les transferències i que allotja les dades a Google Cloud als Països Baixos, amb clàusules contractuals tipus per als accessos possibles des dels Estats Units; Microsoft Clarity, però, té els servidors als Estats Units.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "waiis-privacy-policy"
+      ],
+      "detail": "Cinc anys des de l’última activitat si no es tanca el compte, seixanta dies per esborrar-lo si es tanca, i almenys tres anys per a la documentació dels certificats d’estalvi.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "waiis-privacy-policy"
+      ],
+      "detail": "Es conserven les dades de pagament pels terminis comptables i fiscals, i la informació dels perfils reportats o bloquejats per depurar responsabilitats.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "waiis-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política parla de «cerrar la cuenta de forma voluntaria», però no diu si es fa des de l’app o cal escriure."
+    },
+    "difficulty": "medium",
+    "waitingPeriodDays": 60,
+    "steps": [
+      "Tanca el compte des de l’aplicació o demana-ho a rgpd@waiis.com.",
+      "Si tens saldo pendent, retira’l abans: la retirada exigeix una verificació d’identitat amb Mangopay.",
+      "Les dades personals s’eliminen en un termini de seixanta dies des del tancament."
+    ],
+    "obstacles": "Si el perfil ha rebut queixes o valoracions negatives, WAIIS es reserva conservar la informació més temps. Els documents dels certificats d’estalvi es guarden almenys tres anys per a la verificació de les autoritats.",
+    "dataRetained": "Moviments financers pel termini de l’article 66 de la Llei General Tributària, documentació dels certificats d’estalvi i contingut anonimitzat amb finalitats estadístiques.",
+    "sources": [
+      "waiis-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "waiis-privacy-policy"
+      ],
+      "detail": "La portabilitat es reconeix; cal demanar-la per correu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "waiis-privacy-policy"
+      ],
+      "detail": "Llista completa de drets, inclosa l’oposició al tractament dels certificats d’estalvi abans de tramitar-los.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:rgpd@waiis.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no mostra publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap manera de desactivar Segment, Amplitude o Clarity."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "waiis-privacy-policy"
+      ],
+      "detail": "El seguiment de la ubicació l’inicia i l’atura manualment la persona usuària amb botons explícits, i s’atura sol si es passa el doble del temps previst del trajecte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "waiis-privacy-policy"
+      ],
+      "detail": "Per activar el bo dels certificats d’estalvi és imprescindible donar permís d’ubicació exacta: qui el nega no pot accedir a l’incentiu econòmic.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "unbalanced-consent",
+        "severity": "medium",
+        "description": "L’accés a l’incentiu econòmic dels Certificats d’Estalvi Energètic està condicionat a autoritzar la ubicació exacta durant tot el trajecte. La política ho presenta com un requisit legal del ministeri, però la persona no pot triar.",
+        "sources": [
+          "waiis-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "waiis-privacy-policy"
+      ],
+      "detail": "El xat intern es gestiona amb CometChat i els missatges es poden conservar anonimitzats, de manera que no són xifrats d’extrem a extrem.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política parla d’«estàndards de seguretat d’última generació» sense concretar-los."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació d’un segon factor."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El domini waiis.com no publica cap fitxer security.txt."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "La política del 12 de maig del 2026 és molt detallada per a una empresa d’aquesta mida: anomena tots els encarregats amb la seva ubicació, dona terminis concrets i explica quan comença i quan acaba el seguiment de la ubicació. En canvi, l’etiqueta de l’App Store declara la ubicació com a dada no vinculada a la identitat, mentre que la política diu que es vincula al compte. No hem pogut fer la cerca d’incidents.",
+    "openQuestions": [
+      "Per què l’etiqueta de l’App Store declara els contactes del telèfon si la política no els esmenta?",
+      "Quina és la funció d’intel·ligència artificial que anuncia l’app i amb quines dades s’entrena?"
+    ]
+  },
+  "appStoreBundleId": "eco.waiis.app"
+}

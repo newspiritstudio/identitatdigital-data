@@ -1,0 +1,622 @@
+{
+  "slug": "microsoft-teams",
+  "name": "Microsoft Teams",
+  "company": "microsoft",
+  "categories": [
+    "videoconferencia-i-feina",
+    "missatgeria"
+  ],
+  "tagline": "Cap dada per a seguiment; amb un compte de feina o d’escola, l’organització decideix què es conserva",
+  "summary": "Teams no declara cap dada per a rastrejar-te entre aplicacions de tercers, i les dades de client dels plans empresarials queden fora de qualsevol explotació publicitària. Quan hi entres amb el compte de la feina o del centre educatiu, Microsoft actua com a encarregat i és l’organització qui decideix què es conserva, qui hi accedeix i quan es revisa. Els xats, les reunions i els fitxers es conserven i es poden auditar segons les polítiques que fixa l’administrador.",
+  "platforms": [
+    "ios",
+    "android",
+    "web",
+    "windows",
+    "macos",
+    "linux"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Irlanda",
+  "userBase": "Més de 300 milions de persones usuàries actives mensuals declarades per Microsoft",
+  "links": {
+    "website": "https://www.microsoft.com/microsoft-teams/",
+    "privacyPolicy": "https://www.microsoft.com/en-us/privacy/privacystatement",
+    "privacyCenter": "https://account.microsoft.com/privacy/",
+    "appStore": "https://apps.apple.com/es/app/id1113153706"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "microsoft-privacy-statement"
+    ],
+    "detail": "Cal un compte de Microsoft personal o un compte d’empresa o de centre educatiu de Microsoft Entra ID.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "microsoft-privacy-statement"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "L’etiqueta de l’App Store declara ubicació exacta, contactes, fotografies, àudio i altres continguts vinculats a la identitat. En conjunt mostren amb qui parles, quan i des d’on, i el calendari de reunions reflecteix la jornada i els contactes professionals de cada persona. En els comptes corporatius, l’organització hi pot accedir amb les eines de retenció i de descoberta electrònica.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "microsoft-teams-app-store",
+        "microsoft-privacy-statement"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "microsoft-teams-app-store"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "microsoft-teams-app-store"
+      ]
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "microsoft-teams-app-store"
+      ],
+      "note": "L’aplicació demana accés a l’agenda del telèfon per trobar-hi contactes; no és imprescindible per fer servir el servei."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "microsoft-teams-app-store",
+        "microsoft-trust-center-data-management"
+      ],
+      "note": "Als plans empresarials són dades de client: l’organització en fixa la retenció i hi pot accedir amb eines de descoberta electrònica."
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "microsoft-teams-app-store"
+      ],
+      "note": "Àudio de les trucades i de les reunions, i enregistraments i transcripcions quan s’activen."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "microsoft-teams-app-store"
+      ]
+    },
+    {
+      "type": "fitxers-i-documents",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "microsoft-teams-app-store"
+      ],
+      "note": "Els fitxers d’un equip es desen a SharePoint i a OneDrive de l’organització."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "microsoft-teams-app-store"
+      ],
+      "note": "L’etiqueta la declara com a funcionalitat de l’aplicació; s’associa a funcions com compartir la ubicació o les trucades d’emergència."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "microsoft-teams-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "microsoft-teams-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "microsoft-teams-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "microsoft-teams-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "microsoft-teams-app-store",
+        "microsoft-365-privacy-controls"
+      ],
+      "note": "El nivell obligatori no es pot desactivar; l’opcional depèn de la configuració de la persona o de l’administrador."
+    },
+    {
+      "type": "metadades-de-comunicacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "microsoft-privacy-statement"
+      ],
+      "note": "Durada, participants i hora de les trucades i reunions."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "microsoft-teams-app-store"
+      ],
+      "note": "L’etiqueta no declara cap dada utilitzada per rastrejar-te."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "microsoft-teams-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap categoria de dades utilitzada per rastrejar-te en aplicacions i llocs web d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "microsoft-teams-app-store"
+      ],
+      "detail": "No es declaren dades de publicitat ni identificadors publicitaris.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Microsoft no publica la llista de components de tercers integrats a l’aplicació mòbil de Teams."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "microsoft-trust-center-data-management",
+        "microsoft-teams-app-store"
+      ],
+      "detail": "Microsoft es compromet a no explotar les dades de client dels serveis empresarials per a màrqueting ni publicitat, i l’etiqueta no declara dades publicitàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "microsoft-privacy-statement",
+        "microsoft-365-privacy-controls"
+      ],
+      "detail": "No hi ha perfilat publicitari, però les dades de diagnòstic opcionals es poden fer servir agregades per entrenar funcions com les accions recomanades o les prediccions de text.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "microsoft-copilot-privacy",
+        "microsoft-privacy-statement"
+      ],
+      "detail": "Les indicacions i respostes de Copilot dins de Teams no entrenen els models de base als plans amb protecció de dades empresarials; la declaració general de Microsoft sí que preveu l’ús de dades personals per desenvolupar i entrenar models d’IA en els serveis de consum.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-privacy-statement"
+      ],
+      "detail": "Proveïdors i agents que treballen per compte de Microsoft, i tercers quan ho exigeix la llei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-privacy-statement"
+      ],
+      "detail": "Compartició amb filials i societats controlades pel grup Microsoft.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "microsoft-trust-center-data-management"
+      ],
+      "detail": "Microsoft declara que no comparteix les dades de client amb serveis finançats amb publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "microsoft-eu-data-boundary",
+        "microsoft-teams-data-location",
+        "microsoft-privacy-statement"
+      ],
+      "detail": "Les dades de client i les dades personals pseudonimitzades de les organitzacions europees es guarden i es tracten dins del perímetre de dades de la UE, amb excepcions documentades; per a la resta regeixen les clàusules contractuals tipus.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-law-enforcement-report"
+      ],
+      "detail": "Informe semestral de peticions d’autoritats, amb desglossament de divulgacions de contingut i de dades no de contingut.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "microsoft-trust-center-data-management",
+        "microsoft-privacy-statement"
+      ],
+      "detail": "Hi ha terminis concrets per a la baixa del servei empresarial, però la retenció ordinària dels xats i les reunions la fixa cada organització.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "microsoft-trust-center-data-management"
+      ],
+      "detail": "En acabar la subscripció, les dades queden 90 dies disponibles per extreure-les i s’esborren en els 90 dies següents.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "period": "90 dies per recuperar les dades després de la baixa i 90 dies més fins a l’esborrat definitiu.",
+        "sources": [
+          "microsoft-trust-center-data-management"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "microsoft-close-account"
+      ],
+      "detail": "El compte personal de Microsoft es pot tancar un mateix; el compte d’empresa o de centre educatiu només el pot eliminar l’administrador de l’organització.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "microsoft-close-account"
+      ],
+      "detail": "Autoservei complet per al compte personal, i cap control propi si l’accés és amb un compte corporatiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://account.microsoft.com/closeaccount",
+    "difficulty": "medium",
+    "waitingPeriodDays": 60,
+    "steps": [
+      "Inicia la sessió amb el compte de Microsoft que vols tancar i obre la pàgina de tancament del compte.",
+      "Verifica la identitat si el sistema t’ho demana.",
+      "Comprova que el compte que apareix és el correcte i selecciona «Següent».",
+      "Marca les caselles que confirmen que has revisat cada punt: subscripcions actives, saldos pendents i fitxers que cal desar en un altre lloc.",
+      "Tria la finestra de reobertura de 30 o de 60 dies.",
+      "Selecciona un motiu del desplegable i prem «Marcar el compte per tancar-lo»."
+    ],
+    "obstacles": "Si hi entres amb un compte de la feina o del centre educatiu, no hi ha cap camí de sortida al teu abast: el compte és de l’organització i la sol·licitud ha d’anar al seu administrador o al seu delegat de protecció de dades.",
+    "dataRetained": "Els xats, els fitxers i les reunions d’un compte corporatiu es conserven segons la política de retenció de l’organització, encara que la persona hi deixi de treballar.",
+    "sources": [
+      "microsoft-close-account",
+      "microsoft-trust-center-data-management"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-privacy-dashboard",
+        "microsoft-privacy-statement"
+      ],
+      "detail": "El panell de privadesa permet descarregar les dades associades al compte personal; en els comptes corporatius l’exportació la canalitza l’organització.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://account.microsoft.com/privacy/"
+    },
+    "exportFormatQuality": "mixed",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-privacy-statement"
+      ],
+      "detail": "Microsoft Ireland Operations Limited és el responsable per a l’Espai Econòmic Europeu i publica un canal de privadesa i el contacte del delegat de protecció de dades.",
+      "verifiedAt": "2026-09-22",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Teams no mostra publicitat ni personalitza anuncis amb les dades del servei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "microsoft-365-privacy-controls"
+      ],
+      "detail": "Les dades de diagnòstic opcionals es poden desactivar, però les obligatòries i les dades de servei necessàries s’envien sempre; en un compte corporatiu qui tria és l’administrador.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "microsoft-365-privacy-controls",
+        "microsoft-privacy-dashboard"
+      ],
+      "detail": "Hi ha controls per nivell de diagnòstic i experiències connectades, però la majoria són a mans de l’administrador de l’organització.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "no",
+      "level": "editorial",
+      "sources": [],
+      "detail": "No hem detectat patrons enganyosos rellevants en la configuració de privadesa de l’aplicació mòbil.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "microsoft-privacy-statement"
+      ],
+      "detail": "El xifratge d’extrem a extrem existeix només per a les trucades individuals i s’ha d’activar expressament; els xats, els canals i les reunions no el tenen.",
+      "verifiedAt": "2026-09-22",
+      "scope": "partial-optin"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-trust-center-data-management"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-trust-center-data-management"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-authenticator-method"
+      ],
+      "detail": "Verificació en dos passos amb claus d’accés, notificacions amb coincidència de número, codis OATH i claus de seguretat.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "passkey",
+        "app-push",
+        "totp",
+        "hardware-key",
+        "sms",
+        "email"
+      ]
+    },
+    "independentAudits": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-iso-27001"
+      ],
+      "detail": "Certificació ISO/IEC 27001 auditada per un tercer acreditat, amb els certificats publicats al Service Trust Portal.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-msrc-bounty"
+      ],
+      "detail": "Programa de recompenses amb premis de fins a 250.000 dòlars.",
+      "verifiedAt": "2026-09-22"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "microsoft-msrc-cvd"
+      ],
+      "detail": "Política de divulgació coordinada i canal privat de notificació del MSRC.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "signal",
+      "comparability": "partial",
+      "rationale": "Per als xats i les trucades de grup, Signal ofereix xifratge d’extrem a extrem per defecte i recull metadades mínimes.",
+      "tradeOffs": "No substitueix les reunions grans, els canals, els fitxers compartits ni la integració amb el calendari corporatiu."
+    },
+    {
+      "app": "google-meet",
+      "comparability": "partial",
+      "rationale": "Cobreix la part de videoconferència amb un model equivalent de compte corporatiu.",
+      "tradeOffs": "El tractament passa a un altre grup amb un negoci publicitari més central i no aporta cap millora de privadesa substancial."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Que Teams no faci seguiment publicitari no vol dir que la persona usuària controli les seves dades: en un compte corporatiu no decideix la retenció, ni l’accés, ni la baixa. La fitxa separa aquest cas del compte personal perquè són dos règims diferents.",
+    "openQuestions": [
+      "Quins components de tercers incorpora exactament l’aplicació mòbil de Teams?",
+      "Per què el xifratge d’extrem a extrem continua limitat a les trucades individuals i no s’estén als xats?"
+    ]
+  },
+  "appStoreBundleId": "com.microsoft.skype.teams"
+}

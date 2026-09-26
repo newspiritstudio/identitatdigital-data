@@ -1,0 +1,568 @@
+{
+  "slug": "amazon-alexa",
+  "name": "Amazon Alexa",
+  "company": "amazon-europe-core",
+  "categories": [
+    "llar-connectada",
+    "assistents-d-ia"
+  ],
+  "tagline": "Gravacions de veu al núvol, revisades per persones i sense opció de processament local",
+  "summary": "Tot el que es diu a Alexa després de la paraula d’activació es grava i s’envia al núvol d’Amazon, on es transcriu i pot servir per entrenar models amb revisió humana d’una mostra. Des del març de 2025 els Echo ja no permeten processar la veu al dispositiu. Als Estats Units, Amazon va pagar 25 milions de dòlars el 2023 per haver conservat indefinidament les gravacions d’infants.",
+  "platforms": [
+    "ios",
+    "android",
+    "other"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Luxemburg, per a persones usuàries de la Unió Europea",
+  "links": {
+    "website": "https://www.amazon.es/alexa",
+    "privacyPolicy": "https://www.amazon.es/gp/help/customer/display.html?nodeId=GX7NJQ4ZB8MHFRNJ",
+    "privacyCenter": "https://www.amazon.es/configuraciondeprivacidaddealexa",
+    "appStore": "https://apps.apple.com/es/app/id944011620"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "amazon-alexa-privacy-faq"
+    ],
+    "detail": "Les gravacions i la configuració s’associen al compte d’Amazon.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "amazon-privacy-notice"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Les peticions de veu, els dispositius de la llar, els contactes importats i les rutines descriuen la vida domèstica amb molt detall: horaris, qui hi viu, què es compra i com sona cada veu. L’etiqueta declara també dades de salut i dades sensibles.",
+  "dataCollection": [
+    {
+      "type": "veu-i-audio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "millora-del-producte",
+        "entrenament-de-models-dia"
+      ],
+      "sources": [
+        "amazon-alexa-privacy-faq"
+      ],
+      "note": "Inclou una fracció de segon anterior a la paraula d’activació i les activacions falses."
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "amazon-alexa-privacy-faq"
+      ],
+      "note": "ID de veu (model acústic al núvol) i ID visual (a l’Echo Show, desat al dispositiu), amb consentiment."
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "amazon-alexa-privacy-faq",
+        "amazon-alexa-app-store"
+      ],
+      "note": "Importació per a Alexa Comunicaciones, que es pot desactivar."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "amazon-alexa-privacy-faq"
+      ],
+      "note": "Els missatges d’Alexa Comunicaciones es processen al núvol per convertir veu i text."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "amazon-alexa-privacy-faq",
+        "amazon-alexa-app-store"
+      ],
+      "note": "Es comparteix amb les skills a les quals s’hi dona permís."
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "sources": [
+        "amazon-alexa-app-store"
+      ],
+      "note": "L’etiqueta declara «Salud y forma física»."
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "amazon-alexa-privacy-faq"
+      ],
+      "note": "Tipus i estat dels dispositius de la llar connectada."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "amazon-alexa-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "amazon-alexa-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "sources": [
+        "amazon-alexa-app-store",
+        "amazon-alexa-privacy-faq"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "amazon-alexa-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "sources": [
+        "amazon-alexa-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "amazon-alexa-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "amazon-alexa-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "amazon-alexa-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara dades utilitzades per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "detail": "L’avís general preveu compartir identificadors publicitaris amb empreses de publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi independent dels rastrejadors de l’aplicació."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "amazon-cross-service-consent"
+      ],
+      "detail": "Les interaccions amb Alexa personalitzen anuncis en altres serveis d’Amazon només amb consentiment.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://www.amazon.es/adprefs"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-alexa-privacy-faq"
+      ],
+      "detail": "Alexa s’adapta a la manera de parlar, el vocabulari i les preferències de cada persona.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-alexa-privacy-faq"
+      ],
+      "detail": "Les interaccions entrenen els models d’aprenentatge automàtic d’Amazon, amb revisió humana d’una petita mostra; es pot gestionar a la configuració de privadesa. Els sistemes entrenats es conserven encara que s’esborrin les dades.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-alexa-privacy-faq"
+      ],
+      "detail": "Les skills de tercers reben el contingut de la petició (no la gravació) i, amb permís, la ubicació; cada desenvolupador aplica la seva política.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice",
+        "amazon-cross-service-consent"
+      ],
+      "detail": "Les dades es comparteixen amb Amazon.com, Inc. i les seves filials. Des del 6 de març de 2024, creuar-les entre la botiga, Alexa, els serveis d’entreteniment i els dispositius per recomanar i personalitzar anuncis requereix consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "detail": "Amazon declara que no ven la informació personal de la clientela a tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "detail": "Transferències fora de l’Espai Econòmic Europeu sota decisions d’adequació (Data Privacy Framework) o clàusules contractuals tipus.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "adequacy"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-law-enforcement-requests"
+      ],
+      "detail": "Amazon publica un informe semestral de peticions governamentals d’informació; no hem verificat si el desglossa per servei.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=GYSDRGWQ2C2CRYEF"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-alexa-privacy-faq"
+      ],
+      "detail": "Es pot triar esborrar les gravacions als 3 o 18 mesos o no desar-les; les transcripcions es conserven 30 dies en aquest darrer cas, i l’ID de veu s’esborra si no es reconeix en 18 mesos.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "amazon-alexa-privacy-faq"
+      ],
+      "detail": "Esborrar les gravacions no elimina els registres d’accions, les dades en poder de les skills ni els models ja entrenats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "veu-i-audio",
+        "period": "3 mesos, 18 mesos o sense desar, segons la configuració triada",
+        "sources": [
+          "amazon-alexa-privacy-faq"
+        ]
+      },
+      {
+        "dataType": "dades-biometriques",
+        "period": "L’ID de veu i l’ID visual s’esborren si no reconeixen la persona en 18 mesos",
+        "sources": [
+          "amazon-alexa-privacy-faq"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-close-account",
+        "amazon-privacy-notice"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "amazon-close-account"
+      ],
+      "detail": "No hi ha manera d’eliminar només Alexa: cal tancar tot el compte d’Amazon amb el formulari en línia i confirmar-ho en cinc dies.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://www.amazon.es/privacy/data-deletion",
+    "difficulty": "medium",
+    "waitingPeriodDays": 5,
+    "requiresSupportContact": false,
+    "steps": [
+      "Ves a la pàgina «Cerrar mi cuenta de Amazon» i inicia la sessió amb el compte que vols tancar.",
+      "Revisa la llista de productes i serveis associats al compte.",
+      "Tria un motiu al desplegable i marca la casella «Sí, quiero cerrar permanentemente mi cuenta de Amazon y eliminar mis datos».",
+      "Prem «Cerrar mi cuenta».",
+      "Respon en cinc dies la confirmació que rebràs per correu electrònic o SMS."
+    ],
+    "obstacles": "El tancament és global: afecta totes les botigues d’Amazon del món que fan servir les mateixes credencials i és irreversible. Es perden també les compres digitals i l’accés als dispositius Echo associats.",
+    "dataRetained": "Dades de les comandes (nom, producte, data, adreça, forma de pagament, preu i IVA) durant 10 anys, i informació d’identificació limitada per atendre obligacions i reclamacions.",
+    "sources": [
+      "amazon-close-account",
+      "amazon-privacy-notice"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "detail": "Amb «Solicita tu información personal» es pot descarregar una còpia en un format llegible per màquina.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.amazon.es/hz/privacy-central/data-requests/preview.html"
+    },
+    "exportFormatQuality": "mixed",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "detail": "Formularis del compte, atenció al client («Consultas sobre privacidad de datos») i el delegat de protecció de dades a eu-privacy@amazon.es.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:eu-privacy@amazon.es",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-ad-preferences",
+        "amazon-cross-service-consent"
+      ],
+      "detail": "Es poden retirar el consentiment a les galetes publicitàries, les preferències de publicitat i el consentiment per creuar dades entre serveis.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.amazon.es/adprefs"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "amazon-alexa-privacy-faq"
+      ],
+      "detail": "Es pot gestionar l’ús de les gravacions per millorar els serveis, però no evitar que s’enviïn al núvol.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-alexa-privacy-faq"
+      ],
+      "detail": "Revisar i esborrar gravacions, triar-ne la conservació, desactivar la importació de contactes, eliminar l’ID de veu i apagar el micròfon amb un botó físic.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem documentat patrons foscos específics de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "amazon-alexa-privacy-faq"
+      ],
+      "detail": "Les gravacions i els missatges d’Alexa Comunicaciones es processen i es transcriuen al núvol d’Amazon.",
+      "verifiedAt": "2026-09-22",
+      "scope": "none"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "detail": "L’avís diu que la informació es protegeix durant la transmissió amb programari i protocols de xifratge.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’avís parla de mesures físiques, electròniques i procedimentals, però no concreta el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-2sv"
+      ],
+      "detail": "Verificació en dos passos del compte d’Amazon amb codi per SMS o aplicació d’autenticació.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "sms",
+        "totp"
+      ]
+    },
+    "independentAudits": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "detail": "Només declara el compliment de PCI DSS per a les dades de targeta; no hem trobat auditories publicades específiques del servei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-vrp-hackerone"
+      ],
+      "detail": "L’aplicació d’iOS (identificador 944011620) és dins de l’abast del programa de recompenses d’Amazon a HackerOne.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://hackerone.com/amazonvrp"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-security-txt"
+      ],
+      "detail": "Fitxer security.txt que adreça les notificacions al programa d’Amazon a HackerOne.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La retirada de l’opció «No enviar grabaciones de voz» el 28 de març de 2025 afectava uns quants models d’Echo en anglès als Estats Units; l’hem recollit com a incident perquè canvia el que és possible, no perquè hi hagi constància que s’apliqués a Espanya.",
+    "openQuestions": [
+      "Quina proporció d’interaccions revisen persones i es pot desactivar del tot aquesta revisió a la UE?"
+    ]
+  },
+  "appStoreBundleId": "com.amazon.echo"
+}

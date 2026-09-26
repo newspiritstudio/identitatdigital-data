@@ -1,0 +1,454 @@
+{
+  "slug": "fc-barcelona-oficial",
+  "name": "FC Barcelona Oficial",
+  "company": "futbol-club-barcelona",
+  "categories": [
+    "esports-i-resultats"
+  ],
+  "tagline": "Declara dades d’ús per rastrejar, segmenta totes les comunicacions i té una política única per a trenta tractaments diferents",
+  "summary": "L’app oficial del Barça declara a l’App Store que fa servir les dades d’ús i els diagnòstics per rastrejar en apps i webs d’altres empreses, i que vincula a la identitat la ubicació precisa, el nom, el correu i l’activitat. L’enllaç de privadesa que declara és l’avís legal del web; la política vigent, del 2023, cobreix en un sol document socis, penyes, entrades, botiga i subscripcions, i diu que el Club no envia mai comunicacions sense segmentar, de manera que qui no vulgui ser perfilat ha de renunciar a rebre-les. Per esborrar el compte Culer cal escriure a la Comissió de Protecció de Dades. El 2026 l’AEPD va multar el Club amb 500.000 euros per la biometria del cens de socis.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Espanya",
+  "brandColor": "#a50044",
+  "links": {
+    "website": "https://www.fcbarcelona.com/",
+    "privacyPolicy": "https://www.fcbarcelona.com/ca/politica-privacitat",
+    "terms": "https://www.fcbarcelona.es/ficha/nota-legal",
+    "appStore": "https://apps.apple.com/es/app/id343196080",
+    "deleteAccount": "https://www.fcbarcelona.es/es/como-borrar-o-eliminar-la-cuenta-de-culer"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "fcb-app-store",
+      "fcb-privacy-policy"
+    ],
+    "detail": "Les notícies i els resultats són oberts; el compte Culer, gratuït, o la subscripció Culers Premium desbloquegen continguts i avantatges. L’avís legal fixa l’edat mínima de 14 anys per donar dades personals.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "fcb-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "La política diu que el Barça segmenta totes les comunicacions segons el comportament a la web, les galetes i els moviments del cursor, que busca els perfils dels seus usuaris a les xarxes socials per enviar-los publicitat del Club i dels patrocinadors, i que, si el registre es fa amb Google o Facebook, en pot obtenir la data de naixement, la ubicació i els «m’agrada».",
+  "dataCollection": [
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "fcb-app-store",
+        "fcb-privacy-policy"
+      ],
+      "note": "L’etiqueta les declara vinculades a la identitat per a l’analítica i, alhora, utilitzades per rastrejar en apps i webs d’altres empreses."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "fcb-app-store"
+      ],
+      "note": "Declarades com a no vinculades a la identitat però utilitzades per rastrejar."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "fcb-app-store"
+      ],
+      "note": "L’etiqueta la declara vinculada a la identitat per a la funcionalitat de l’app; la política no explica per a què la necessita."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "fcb-app-store",
+        "fcb-privacy-policy"
+      ],
+      "note": "En crear el compte Culer, el Club hi envia comunicacions comercials pròpies i dels patrocinadors com a part del contracte."
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "fcb-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "fcb-app-store",
+        "fcb-privacy-policy"
+      ],
+      "note": "És el «Compte Barça», un identificador únic per a tots els serveis del Club i de les seves societats."
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "fcb-privacy-policy"
+      ],
+      "note": "La política diu que l’obté del registre amb Google o Facebook, juntament amb la ubicació geogràfica."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "fcb-privacy-policy"
+      ],
+      "note": "Amb el registre social i el consentiment, el Club tracta els «m’agrada» de les xarxes socials per personalitzar l’experiència."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fcb-app-store"
+      ],
+      "detail": "L’etiqueta declara les dades d’ús i els diagnòstics com a dades que es poden fer servir per rastrejar en apps i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’etiqueta no inclou identificadors entre les dades de rastreig i la política no esmenta l’identificador publicitari del dispositiu."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fcb-app-store",
+        "fcb-privacy-policy",
+        "fcb-cookies"
+      ],
+      "detail": "Declarar dades per rastrejar implica compartir-les amb tercers. La política esmenta les Conversions millorades de Google i la de galetes, tercers corresponsables d’analítica i publicitat comportamental; cap de les dues no enumera els SDK de l’app.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fcb-privacy-policy"
+      ],
+      "detail": "La política diu que fa publicitat segmentada amb el comportament a la web, les galetes, els moviments del cursor, l’obertura de butlletins i les enquestes, i que busca els perfils dels usuaris a les xarxes socials per enviar-los publicitat del Club i dels patrocinadors per interès legítim.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fcb-privacy-policy"
+      ],
+      "detail": "Reconeix decisions automatitzades per segmentar els usuaris: el Club fixa els paràmetres i la plataforma tecnològica genera les característiques de segmentació de cada persona. Diu que no envia cap comunicació sense segmentar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no en diu res."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fcb-privacy-policy"
+      ],
+      "detail": "A més dels encarregats, comunica dades a Findirect (finançament de quotes), a les penyes, a bancs i passarel·les de pagament, a empreses de logística i a Riskified, que les tracta com a responsable per prevenir el frau.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fcb-privacy-policy"
+      ],
+      "detail": "El Club és responsable en nom propi i de Barça Licensing & Merchandising, Barça Produccions, la Fundació Barça i Barça Innovation Hub, que poden tractar les dades de manera independent o com a corresponsables.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta la venda de dades a intermediaris."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fcb-privacy-policy"
+      ],
+      "detail": "Les dades de compra es comuniquen a Riskified fora de l’Espai Econòmic Europeu, i el Club reconeix proveïdors internacionals (butlletins, emmagatzematge) que poden tractar dades fora de la UE amb les garanties oportunes.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "fcb-privacy-policy"
+      ],
+      "detail": "Cada tractament té un criteri de conservació, però gairebé sempre és «mentre duri la relació i els terminis legals». Només hi ha xifres per a les gravacions de trucades (un any) i els currículums (un any).",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "fcb-privacy-policy"
+      ],
+      "detail": "El compte Culer es conserva fins que se’n demana la baixa i, després, durant els terminis legalment previstos.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fcb-delete-account"
+      ],
+      "detail": "El Club té una pàgina específica per eliminar el compte Culer.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "fcb-delete-account"
+      ],
+      "detail": "La pàgina oficial diu que la supressió s’ha d’iniciar amb una comunicació escrita a la Comissió de Protecció de Dades; no hi ha cap botó a l’app.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://www.fcbarcelona.es/es/como-borrar-o-eliminar-la-cuenta-de-culer",
+    "difficulty": "medium",
+    "requiresSupportContact": true,
+    "steps": [
+      "Si tens Culers Premium o Barça TV+ comprats dins de l’app, cancel·la primer la subscripció des dels ajustos del compte d’Apple.",
+      "Escriu a proteccio.dades@fcbarcelona.cat, o per carta a la Comissió de Protecció de Dades, carrer d’Arístides Maillol s/n, 08028 Barcelona, i demana la supressió del compte.",
+      "Si en dos mesos no et responen, el Club mateix indica que pots reclamar davant de l’AEPD."
+    ],
+    "dataRetained": "Les dades es conserven durant els terminis legals posteriors a la baixa; si ets soci o penyista, aquestes relacions continuen i tenen els seus propis tractaments.",
+    "sources": [
+      "fcb-delete-account",
+      "fcb-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "fcb-privacy-policy"
+      ],
+      "detail": "Reconeix la portabilitat en els casos que preveu la normativa, per petició escrita.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "fcb-privacy-policy",
+        "fcb-legal-notice"
+      ],
+      "detail": "Drets per correu electrònic a proteccio.dades@fcbarcelona.cat o per carta, i delegat de protecció de dades a dpo@fcbarcelona.cat.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "fcb-privacy-policy"
+      ],
+      "detail": "La política diu que qui no vulgui ser segmentat s’ha d’oposar a les comunicacions o donar-se de baixa comercial: no es pot rebre informació del Club sense perfilat. L’enviament comercial es pot rebutjar a cada correu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap opció per desactivar l’analítica de l’app."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "fcb-cookies",
+        "fcb-privacy-policy"
+      ],
+      "detail": "Al web es poden rebutjar les galetes per categories; a l’app, iOS permet refusar el rastreig. No hem trobat controls propis dins de l’app.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi independent de la interfície de l’app."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És una app de continguts i serveis per a aficionats, sense missatgeria privada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap document oficial sobre el xifratge en trànsit."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política només parla genèricament de mesures tècniques i organitzatives."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació sobre la verificació en dos passos del compte Culer."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat auditories ni certificacions publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "fcbarcelona.com no publica cap security.txt."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "flashscore",
+      "comparability": "partial",
+      "rationale": "Resultats i estadístiques en directe dels partits del Barça sense compte.",
+      "tradeOffs": "No té els continguts exclusius del Club i també es finança amb publicitat."
+    },
+    {
+      "app": "besoccer",
+      "comparability": "partial",
+      "rationale": "Notícies i resultats de futbol de tots els equips.",
+      "tradeOffs": "Aplicació amb publicitat de tercers."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "L’App Store enllaça l’avís legal com a política de privadesa. La política vigent és un document únic per a tots els tractaments del Club, sense cap apartat per a l’app, i data del 2023. L’afirmació que el Club no envia comunicacions sense segmentar converteix el perfilat en condició per rebre informació. La sanció de l’AEPD del 2026 és per la campanya del cens de socis, feta pel web i per l’App Socis, i no per aquesta app, però el responsable del tractament és el mateix.",
+    "openQuestions": [
+      "Per a què fa servir l’app la ubicació precisa vinculada a la identitat?",
+      "Quins proveïdors reben les dades d’ús que l’app declara per rastrejar?",
+      "Quines garanties empara la transferència de dades a Riskified i als proveïdors de fora de la UE?"
+    ]
+  },
+  "appStoreBundleId": "cat.fcbarcelona.FCBMobile"
+}

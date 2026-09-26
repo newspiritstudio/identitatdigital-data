@@ -1,0 +1,506 @@
+{
+  "slug": "amazon-photos",
+  "name": "Amazon Photos",
+  "company": "amazon-europe-core",
+  "categories": [
+    "emmagatzematge-al-nuvol",
+    "edicio-de-foto-i-video"
+  ],
+  "tagline": "Còpia de fotos al núvol amb reconeixement de cares i objectes",
+  "summary": "Amazon Photos analitza les fotos i els vídeos amb reconeixement d’imatges per etiquetar-los per objectes, accions i ambients, i per agrupar-los per persones. Les etiquetes es conserven fins que es desactiva la funció o es tanca el compte. Com que el servei va lligat al compte d’Amazon, no es pot donar de baixa per separat.",
+  "platforms": [
+    "ios",
+    "android",
+    "web",
+    "windows",
+    "macos",
+    "other"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Luxemburg, per a persones usuàries de la Unió Europea",
+  "links": {
+    "website": "https://www.amazon.es/photos",
+    "privacyPolicy": "https://www.amazon.es/gp/help/customer/display.html?nodeId=GX7NJQ4ZB8MHFRNJ",
+    "privacyCenter": "https://www.amazon.es/hz/privacy-central",
+    "appStore": "https://apps.apple.com/es/app/id621574163"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "amazon-photos-image-recognition",
+      "amazon-close-account"
+    ],
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "amazon-privacy-notice"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Una fototeca completa conté cares de familiars i amistats, llocs, dates, documents fotografiats i situacions íntimes. El reconeixement de persones converteix aquestes imatges en dades biomètriques organitzades.",
+  "dataCollection": [
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "amazon-photos-app-store",
+        "amazon-privacy-notice"
+      ]
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "amazon-photos-image-recognition"
+      ],
+      "note": "La funció «Agrupar personas» agrupa les fotos per cares; es pot desactivar i pot no estar disponible a tots els països."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "note": "L’avís esmenta les metadades de les imatges (noms de fitxer, dates, hores i ubicació)."
+    },
+    {
+      "type": "fitxers-i-documents",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "amazon-privacy-notice"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "amazon-photos-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "amazon-photos-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "amazon-photos-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "sources": [
+        "amazon-photos-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "sources": [
+        "amazon-photos-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "amazon-photos-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "amazon-photos-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "amazon-photos-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara dades utilitzades per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "detail": "L’avís general preveu compartir identificadors publicitaris amb empreses de publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi independent dels rastrejadors de l’aplicació."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "amazon-cross-service-consent"
+      ],
+      "detail": "L’ús d’Amazon Photos és dins dels serveis de dispositius que només personalitzen anuncis amb consentiment.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://www.amazon.es/adprefs"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "amazon-photos-image-recognition"
+      ],
+      "detail": "Les fotos s’etiqueten automàticament per persones, objectes, accions i ambients; a més, amb l’icona «Lente» es poden cercar productes a partir d’una foto.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap afirmació oficial sobre si les fotos s’utilitzen per entrenar models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "detail": "Amb proveïdors que tracten dades per compte d’Amazon, amb terceres empreses quan intervenen en una operació i amb empreses de publicitat, a les quals Amazon diu que dona un identificador publicitari i no el nom.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice",
+        "amazon-cross-service-consent"
+      ],
+      "detail": "Les dades es comparteixen amb Amazon.com, Inc. i les seves filials. Des del 6 de març de 2024, creuar-les entre la botiga, Alexa, els serveis d’entreteniment i els dispositius per recomanar i personalitzar anuncis requereix consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "detail": "Amazon declara que no ven la informació personal de la clientela a tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "detail": "Transferències fora de l’Espai Econòmic Europeu sota decisions d’adequació (Data Privacy Framework) o clàusules contractuals tipus.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "adequacy"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-law-enforcement-requests"
+      ],
+      "detail": "Amazon publica un informe semestral de peticions governamentals d’informació; no hem verificat si el desglossa per servei.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=GYSDRGWQ2C2CRYEF"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "detail": "L’avís fixa alguns terminis (dades de comandes 10 anys pel Codi de Comerç de Luxemburg, galetes 13 mesos), però la resta es conserva «el temps necessari» mentre el compte és actiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "detail": "En tancar el compte s’eliminen les dades, excepte les necessàries per a obligacions legals, reclamacions, frau i seguretat. Amazon diu que no les fa servir per a màrqueting.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "dades-biometriques",
+        "period": "Fins que es desactiva la funció d’etiquetatge o es tanca el compte",
+        "sources": [
+          "amazon-photos-image-recognition"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-close-account",
+        "amazon-privacy-notice"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "amazon-close-account"
+      ],
+      "detail": "No hi ha manera d’eliminar només Amazon Photos: cal tancar tot el compte d’Amazon amb el formulari en línia i confirmar-ho en cinc dies.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://www.amazon.es/privacy/data-deletion",
+    "difficulty": "medium",
+    "waitingPeriodDays": 5,
+    "requiresSupportContact": false,
+    "steps": [
+      "Ves a la pàgina «Cerrar mi cuenta de Amazon» i inicia la sessió amb el compte que vols tancar.",
+      "Revisa la llista de productes i serveis associats al compte.",
+      "Tria un motiu al desplegable i marca la casella «Sí, quiero cerrar permanentemente mi cuenta de Amazon y eliminar mis datos».",
+      "Prem «Cerrar mi cuenta».",
+      "Respon en cinc dies la confirmació que rebràs per correu electrònic o SMS."
+    ],
+    "obstacles": "El tancament és global: afecta totes les botigues d’Amazon del món que fan servir les mateixes credencials i és irreversible. Cal descarregar abans totes les fotos i vídeos, perquè es perden amb la resta de continguts del compte.",
+    "dataRetained": "Dades de les comandes (nom, producte, data, adreça, forma de pagament, preu i IVA) durant 10 anys, i informació d’identificació limitada per atendre obligacions i reclamacions.",
+    "sources": [
+      "amazon-close-account",
+      "amazon-privacy-notice"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "detail": "Amb «Solicita tu información personal» es pot descarregar una còpia en un format llegible per màquina.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.amazon.es/hz/privacy-central/data-requests/preview.html"
+    },
+    "exportFormatQuality": "mixed",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "detail": "Formularis del compte, atenció al client («Consultas sobre privacidad de datos») i el delegat de protecció de dades a eu-privacy@amazon.es.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:eu-privacy@amazon.es",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-ad-preferences",
+        "amazon-cross-service-consent"
+      ],
+      "detail": "Es poden retirar el consentiment a les galetes publicitàries, les preferències de publicitat i el consentiment per creuar dades entre serveis.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.amazon.es/adprefs"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "amazon-photos-image-recognition"
+      ],
+      "detail": "Es poden activar i desactivar per separat «Etiquetar fotos» i «Agrupar personas».",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "no",
+      "level": "editorial",
+      "sources": [
+        "amazon-photos-image-recognition"
+      ],
+      "detail": "Interpretació pròpia: el reconeixement d’imatges s’aplica a les fotos emmagatzemades, cosa que requereix que Amazon hi pugui accedir.",
+      "verifiedAt": "2026-09-22",
+      "scope": "none"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "detail": "L’avís diu que la informació es protegeix durant la transmissió amb programari i protocols de xifratge.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’avís parla de mesures físiques, electròniques i procedimentals, però no concreta el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-2sv"
+      ],
+      "detail": "Verificació en dos passos del compte d’Amazon amb codi per SMS o aplicació d’autenticació.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "sms",
+        "totp"
+      ]
+    },
+    "independentAudits": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "amazon-privacy-notice"
+      ],
+      "detail": "Només declara el compliment de PCI DSS per a les dades de targeta; no hem trobat auditories publicades específiques del servei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-vrp-hackerone"
+      ],
+      "detail": "L’aplicació d’iOS (identificador 621574163) és dins de l’abast del programa de recompenses d’Amazon a HackerOne.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://hackerone.com/amazonvrp"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "amazon-security-txt"
+      ],
+      "detail": "Fitxer security.txt que adreça les notificacions al programa d’Amazon a HackerOne.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "openQuestions": [
+      "L’agrupació per cares ve activada per defecte a Espanya o cal activar-la?",
+      "Les fotos o les etiquetes serveixen per entrenar models d’Amazon?"
+    ]
+  },
+  "appStoreBundleId": "com.amazon.CloudDrivePhotos"
+}

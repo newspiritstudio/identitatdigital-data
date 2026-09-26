@@ -1,0 +1,452 @@
+{
+  "slug": "bbva",
+  "name": "BBVA España",
+  "company": "bbva",
+  "categories": [
+    "banca-i-finances"
+  ],
+  "tagline": "Etiqueta sense rastreig i una sanció de cinc milions per com demanava el consentiment",
+  "summary": "L’etiqueta de l’App Store de BBVA no declara cap dada utilitzada per rastrejar-te, i deixa com a no vinculades amb la identitat la ubicació, els contactes i el contingut. El 2020, una resolució de l’AEPD li va imposar cinc milions d’euros per informar malament i per demanar el consentiment amb una pantalla dins de la mateixa aplicació que portava la cessió de dades a tercers activada per defecte. BBVA va publicar una política nova el juliol del 2020.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Espanya",
+  "userBase": "Més de 10 milions de clients a Espanya, segons la resolució de l’AEPD",
+  "links": {
+    "website": "https://www.bbva.es/",
+    "appStore": "https://apps.apple.com/es/app/id325813155"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "bbva-app-store"
+    ],
+    "detail": "L’aplicació és el canal de banca en línia d’una entitat de crèdit: sense contracte bancari no hi ha servei.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "bbva-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "La resolució de l’AEPD descriu un tractament que barreja la informació de la relació bancària amb finalitats comercials, i retreu que la informació que es donava als clients no permetia saber quines dades es tractaven ni per a què. L’etiqueta actual és sòbria: informació financera, contacte i identificadors vinculats amb la identitat, i la resta sense vincular.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "bbva-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "bbva-app-store"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "bbva-app-store",
+        "bbva-aepd-2020"
+      ],
+      "note": "La reclamació que va obrir l’expedient de l’AEPD era per un SMS promocional a una persona inscrita a la Llista Robinson."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "bbva-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bbva-app-store"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "bbva-app-store"
+      ],
+      "note": "Declarada com a dada no vinculada amb la identitat."
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bbva-app-store"
+      ],
+      "note": "El permís el demanen funcions com Bizum; l’etiqueta la declara com a no vinculada."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "bbva-app-store"
+      ],
+      "note": "L’etiqueta declara «contenido del usuario» sense vincular amb la identitat."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "bbva-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "bbva-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "bbva-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap dada utilitzada per rastrejar-te en aplicacions i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "bbva-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap identificador publicitari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut consultar la política de privadesa del banc, que és on constarien els proveïdors."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "regulator",
+      "sources": [
+        "bbva-aepd-2020"
+      ],
+      "detail": "La resolució documenta l’enviament de comunicacions comercials i l’obtenció de consentiment per al tractament amb finalitats comercials a través de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut consultar la política vigent, i la resolució se centra en la informació i el consentiment, no en el perfilat."
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública consultable."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "regulator",
+      "sources": [
+        "bbva-aepd-2020"
+      ],
+      "detail": "La resolució descriu una pantalla de l’aplicació on l’opció de cessió de dades a tercers apareixia activada per defecte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut consultar la política vigent."
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública consultable."
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut consultar la política vigent."
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem localitzat cap informe de transparència sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política de privadesa de bbva.es no s’ha deixat consultar amb eines automàtiques."
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [],
+      "detail": "Com a tota la banca espanyola, la Llei 10/2010 de prevenció del blanqueig obliga a conservar la documentació de la relació durant deu anys; no hem pogut confirmar-ho amb la política del banc.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [],
+      "detail": "No hi ha un compte d’aplicació separable del contracte bancari: cal cancel·lar els productes i exercir després el dret de supressió, limitat per les obligacions legals de conservació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut consultar la documentació del banc sobre el procediment de baixa."
+    },
+    "difficulty": "hard",
+    "obstacles": "Com a la resta d’entitats, les obligacions legals de conservació limiten el dret de supressió, i les dades queden bloquejades en lloc d’esborrar-se."
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut consultar la política de privadesa del banc."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "regulator",
+      "sources": [
+        "bbva-aepd-2020"
+      ],
+      "detail": "La resolució acredita que el banc va reconèixer per escrit el dret d’oposició d’un reclamant, i li requereix adequar en sis mesos la informació als clients i el procediment de consentiment.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "regulator",
+      "sources": [
+        "bbva-aepd-2020"
+      ],
+      "detail": "La resolució descriu caselles d’oposició al tractament comercial dins de l’aplicació, però retreu que el tractament fos per defecte i que la informació no permetés entendre’n l’abast.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública consultable."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut consultar la política ni el centre de privadesa del banc."
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "yes",
+      "level": "regulator",
+      "sources": [
+        "bbva-aepd-2020"
+      ],
+      "detail": "L’AEPD va sancionar el procediment de consentiment de l’aplicació: una finestra emergent que remetia a una altra pàgina on la cessió de dades a tercers apareixia activada per defecte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "preselected",
+        "severity": "high",
+        "description": "La pantalla de consentiment de l’aplicació portava activada per defecte l’opció de cessió de dades a tercers, i l’abast només es podia conèixer seguint un enllaç a una altra pàgina.",
+        "sources": [
+          "bbva-aepd-2020"
+        ]
+      },
+      {
+        "type": "nagging",
+        "severity": "medium",
+        "description": "La resolució recull que es va tornar a demanar el consentiment a una persona que ja havia exercit per escrit el dret d’oposició al tractament comercial.",
+        "sources": [
+          "bbva-aepd-2020"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no transporta comunicacions privades entre persones usuàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem localitzat documentació tècnica pública consultable."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública consultable."
+    },
+    "mfa": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [],
+      "detail": "La normativa europea de serveis de pagament exigeix autenticació reforçada per a les operacions, però no hem pogut documentar amb una font del banc quins segons factors admet l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories de seguretat independents publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut confirmar l’existència d’un programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem localitzat cap política pública de divulgació de vulnerabilitats consultable."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "santander",
+      "comparability": "equivalent",
+      "rationale": "Banca mòbil espanyola equivalent, amb una etiqueta de l’App Store que tampoc no declara rastreig."
+    },
+    {
+      "app": "openbank",
+      "comparability": "partial",
+      "rationale": "Banc digital que explica la lògica del perfilat creditici amb un detall poc habitual.",
+      "tradeOffs": "Declara identificadors utilitzats per rastrejar-te i publicitat de tercers."
+    }
+  ],
+  "review": {
+    "researchStatus": "initial",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La fitxa es recolza sobretot en una resolució de l’AEPD perquè bbva.es bloqueja les consultes automatitzades: no hem pogut llegir ni la política de privadesa vigent ni les pàgines d’ajuda. Queda pendent completar-la amb les fonts pròpies del banc.",
+    "openQuestions": [
+      "Com és la política de privadesa publicada el juliol del 2020, que l’AEPD va exigir revisar?",
+      "Quins controls de privadesa ofereix avui l’aplicació i on són?",
+      "Quins terminis de conservació aplica el banc per categoria de dada?"
+    ]
+  },
+  "appStoreBundleId": "com.bbva.BBVAMovil"
+}

@@ -1,0 +1,386 @@
+{
+  "slug": "compartir-ubicacion-gps",
+  "name": "Compartir Ubicacion GPS",
+  "company": "alphalogy-studio",
+  "categories": [
+    "mapes-i-navegacio",
+    "utilitats"
+  ],
+  "tagline": "Comparteix la teva ubicació en temps real amb una política escrita en primera persona que no esmenta el RGPD",
+  "summary": "L’aplicació serveix per compartir la posició en temps real amb amics i família, una de les dades més sensibles que hi ha. El desenvolupador publica a l’App Store com a persona física i la política enllaçada, d’un estudi vietnamita anomenat Alphalogy, és una plantilla genèrica: no esmenta el RGPD, no enumera cap dret, no dona cap termini de conservació i l’única manera de deixar de ser rastrejat que proposa és desinstal·lar l’app.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "advertising",
+  "jurisdiction": "Vietnam",
+  "links": {
+    "website": "https://van-hoa-nguyen.netlify.app/",
+    "privacyPolicy": "https://www.alphalogy.net/privacy",
+    "appStore": "https://apps.apple.com/es/app/id6496686696"
+  },
+  "accountRequired": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": [],
+    "detail": "Ni la fitxa de l’App Store ni la política aclareixen si cal registrar-se per compartir la ubicació."
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "compartir-ubicacion-gps-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "La ubicació precisa i contínua és l’objecte mateix de l’aplicació. Cap document no diu qui la guarda, on, quant de temps ni amb qui la comparteix.",
+  "dataCollection": [
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "compartir-ubicacion-gps-app-store",
+        "compartir-ubicacion-gps-privacy-policy"
+      ],
+      "note": "L’etiqueta la declara per al funcionament de l’app i com a dada no vinculada a la identitat. La política admet que pot transmetre dades de localització anonimitzades a serveis externs."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "compartir-ubicacion-gps-app-store"
+      ],
+      "note": "Declarada per a «publicitat de tercers» i utilitzada per rastrejar en apps i webs d’altres empreses."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "compartir-ubicacion-gps-app-store"
+      ],
+      "note": "Correspon a la categoria «Datos de publicidad» de l’etiqueta, declarada per a publicitat de tercers."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "compartir-ubicacion-gps-privacy-policy"
+      ],
+      "note": "La política esmenta l’adreça IP, el nom del dispositiu i la versió del sistema operatiu dins de les dades de registre."
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "compartir-ubicacion-gps-privacy-policy"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "compartir-ubicacion-gps-privacy-policy"
+      ],
+      "note": "La política reconeix que hi ha codi de tercers que fa servir galetes."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "compartir-ubicacion-gps-app-store",
+        "compartir-ubicacion-gps-privacy-policy"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "compartir-ubicacion-gps-app-store"
+      ],
+      "detail": "L’etiqueta declara les dades d’ús com a utilitzades per rastrejar en apps i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "compartir-ubicacion-gps-app-store"
+      ],
+      "detail": "L’etiqueta declara «dades de publicitat» amb la finalitat de publicitat de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "compartir-ubicacion-gps-privacy-policy"
+      ],
+      "detail": "La política només anomena Google Play Services i Firebase Analytics, però l’etiqueta declara publicitat de tercers.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "compartir-ubicacion-gps-app-store"
+      ],
+      "detail": "L’etiqueta declara dades d’ús i de publicitat per a la finalitat «publicitat de tercers».",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no en diu res."
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no en diu res."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "compartir-ubicacion-gps-privacy-policy"
+      ],
+      "detail": "Serveis externs de Google i, segons l’etiqueta, socis publicitaris que la política no identifica.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut determinar si Alphalogy Studio forma part de cap grup."
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no en diu res."
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta les transferències internacionals, tot i que el responsable declarat té la seu al Vietnam."
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "compartir-ubicacion-gps-privacy-policy"
+      ],
+      "detail": "La política no fixa cap termini de conservació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no explica què passa amb les dades quan es deixa de fer servir l’aplicació."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap procediment d’eliminació de dades ni de compte."
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "difficulty": "unknown",
+    "steps": [
+      "L’única via que documenta la política és desinstal·lar l’aplicació per aturar la recollida de dades.",
+      "Per demanar la supressió de dades, escriu a alphalogy.tk@gmail.com, tot i que la política no en garanteix cap termini."
+    ],
+    "obstacles": "La política no reconeix cap dret de supressió i l’única adreça de contacte és un compte de correu genèric de Gmail.",
+    "sources": [
+      "compartir-ubicacion-gps-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "compartir-ubicacion-gps-privacy-policy"
+      ],
+      "detail": "La política no preveu cap exportació ni cap dret d’accés.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "compartir-ubicacion-gps-privacy-policy"
+      ],
+      "detail": "No enumera cap dret del RGPD ni cap autoritat de control; només dona una adreça de correu.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "compartir-ubicacion-gps-privacy-policy"
+      ],
+      "detail": "La política diu que l’única manera d’aturar la recollida és desinstal·lar l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "compartir-ubicacion-gps-privacy-policy"
+      ],
+      "detail": "No descriu cap control per desactivar l’analítica.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "compartir-ubicacion-gps-privacy-policy"
+      ],
+      "detail": "Els únics controls són els permisos del sistema operatiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem examinat el flux de consentiment dins de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "no",
+      "level": "editorial",
+      "sources": [],
+      "detail": "La política descriu que la informació es processa i es manté als seus sistemes, de manera que la ubicació compartida no és xifrada d’extrem a extrem.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política només parla de «mitjans comercialment acceptables» de protecció."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El domini alphalogy.net no publica cap fitxer security.txt."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "La política és una plantilla generada, redactada en primera persona del singular («the information that I request»), sense data ni versió. Hi ha un desajust entre el nom del venedor a l’App Store, Van Hoa Nguyen, i el responsable que declara la política, Alphalogy Studio, de manera que no queda clar qui respon de les dades d’una aplicació que comparteix la ubicació en temps real. No hem pogut fer la cerca d’incidents.",
+    "openQuestions": [
+      "Qui és el responsable del tractament als efectes del RGPD, la persona física o Alphalogy Studio?",
+      "On s’emmagatzemen les ubicacions compartides i quant de temps?",
+      "Quins són els socis publicitaris que declara l’etiqueta de l’App Store?"
+    ]
+  },
+  "appStoreBundleId": "com.location.sharing.fwhere.mapswithme.android"
+}

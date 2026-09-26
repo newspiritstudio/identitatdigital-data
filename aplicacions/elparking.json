@@ -1,0 +1,579 @@
+{
+  "slug": "elparking",
+  "name": "ElParking-App para conductores",
+  "company": "mutuamad-digital",
+  "categories": [
+    "mobilitat-i-transport",
+    "utilitats"
+  ],
+  "tagline": "Aparcar amb el compte únic del grup Mutua Madrileña, amb lectura automàtica de la matrícula com a mètode d’obertura per defecte",
+  "summary": "ElParking és de MutuaMad Digital, del grup Mutua Madrileña, i el compte és compartit amb la resta de serveis del grup: donar-se de baixa cancel·la el compte únic. Quan registres un vehicle, la lectura de la matrícula per càmera passa a ser el mètode d’obertura per defecte als aparcaments adherits, encara que es pot canviar a l’aplicació. La política és del juny del 2023 i descriu categories de dades molt àmplies, fins i tot dades de salut «quan siguin estrictament necessàries», amb cessions dins del grup i a asseguradores.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Espanya (UE)",
+  "links": {
+    "website": "https://elparking.com/",
+    "privacyPolicy": "https://elparking.com/politica-privacidad-cookies",
+    "terms": "https://elparking.com/terminos-legales",
+    "appStore": "https://apps.apple.com/es/app/id1120207710"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "elparking-terms",
+      "elparking-privacy-cookies"
+    ],
+    "detail": "Cal un compte, que és l’únic del grup Mutua Madrileña i serveix per a la resta d’aplicacions de l’ecosistema.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "elparking-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Al registre d’estacionaments i a la matrícula, el grup hi pot sumar dades d’identitat, característiques personals i fins i tot de salut. El perfil bàsic de client es fa amb la relació contractual, i la ubicació i la matrícula circulen per l’ecosistema del grup Mutua.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "elparking-privacy-cookies",
+        "elparking-app-store"
+      ]
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "elparking-privacy-cookies"
+      ],
+      "note": "NIF, NIE o passaport, dins de les dades identificatives."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "elparking-privacy-cookies",
+        "elparking-app-store"
+      ],
+      "note": "La política preveu màrqueting personalitzat per SMS, correu i WhatsApp per interès legítim, amb possibilitat d’oposar-s’hi."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "elparking-privacy-cookies"
+      ]
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "elparking-privacy-cookies"
+      ],
+      "note": "Dins de les «característiques personals», amb l’estat civil, el sexe, la nacionalitat i la professió."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "elparking-app-store",
+        "elparking-privacy-cookies"
+      ],
+      "note": "La geolocalització es tracta per executar el contracte; l’etiqueta la declara també per al màrqueting del desenvolupador."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "elparking-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "elparking-privacy-cookies"
+      ],
+      "note": "Dades bancàries i de targeta; els pagaments internacionals passen per Stripe."
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "elparking-privacy-cookies"
+      ],
+      "note": "La política inclou categories especials de dades «quan siguin estrictament necessàries», per la vinculació amb el grup assegurador."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "elparking-terms",
+        "elparking-app-store"
+      ],
+      "note": "És el compte únic del grup Mutua Madrileña."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "elparking-app-store"
+      ],
+      "note": "L’etiqueta el declara com a dada utilitzada per rastrejar-te."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "elparking-privacy-cookies"
+      ],
+      "note": "El perfil bàsic de client exclou les dades d’ús d’estacionament regulat i d’aparcaments privats, que requereixen consentiment."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "elparking-privacy-cookies"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "elparking-privacy-cookies"
+      ],
+      "note": "Google Tag Manager i Analytics, galetes de Facebook i galetes publicitàries de doubleclick.net, a més de Stripe."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "elparking-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "elparking-app-store"
+      ],
+      "detail": "L’etiqueta declara l’identificador del dispositiu com a dada utilitzada per rastrejar-te.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "elparking-app-store",
+        "elparking-privacy-cookies"
+      ],
+      "detail": "L’etiqueta declara l’identificador del dispositiu per rastrejar i el web fa servir galetes publicitàries de DoubleClick.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "elparking-privacy-cookies"
+      ],
+      "detail": "Google Tag Manager i Analytics, Facebook (fr, datr, sb), doubleclick.net (__gads, IDE, DSID) i Stripe.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "elparking-privacy-cookies"
+      ],
+      "detail": "Màrqueting personalitzat per SMS, correu electrònic i WhatsApp basat en l’interès legítim, i galetes publicitàries al web.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "elparking-privacy-cookies"
+      ],
+      "detail": "La política descriu un perfil bàsic de client elaborat amb l’execució del contracte; les dades d’ús dels aparcaments hi entren només amb consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no parla d’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "elparking-privacy-cookies"
+      ],
+      "detail": "Asseguradores, reasseguradores, entitats financeres, immobiliàries, tallers i empreses d’automoció i d’assistència, a més de les entitats del grup Mutua i la Fundación MM.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "elparking-privacy-cookies",
+        "elparking-terms"
+      ],
+      "detail": "L’«Ecosistema» del grup Mutua Madrileña comparteix el compte únic i les dades del client.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no parla de la venda de dades a corredors de dades."
+    },
+    "internationalTransfers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "elparking-privacy-cookies"
+      ],
+      "detail": "La política només preveu transferències internacionals per al pagament, amb Stripe Inc., a l’empara dels articles 44 i 46 del RGPD.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "no",
+      "level": "editorial",
+      "sources": [
+        "elparking-privacy-cookies"
+      ],
+      "detail": "No hi ha cap informe de transparència.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "elparking-privacy-cookies"
+      ],
+      "detail": "Les credencials es conserven fins que se’n demana la supressió i la resta, mentre duri la relació i els terminis legals; no hi ha xifres concretes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "elparking-privacy-cookies"
+      ],
+      "detail": "Es conserven les dades exigides per obligacions legals i durant el termini de prescripció de les accions.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "elparking-terms",
+        "elparking-privacy-cookies"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "elparking-terms"
+      ],
+      "detail": "Les condicions diuen que la baixa es pot fer des de les funcionalitats de baixa dins de les aplicacions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "requiresSupportContact": false,
+    "steps": [
+      "Comprova que no tens cap estacionament en curs ni cap abonament actiu.",
+      "Obre l’aplicació i busca la funcionalitat de baixa a la configuració del compte.",
+      "Tingues present que la baixa cancel·la el compte únic del grup Mutua Madrileña i afecta la resta d’aplicacions del grup.",
+      "Si no la trobes, escriu a ayuda@mutuamas.es, a privacidad@elparking.com o truca al 914 500 600."
+    ],
+    "dataRetained": "Les dades exigides per obligacions legals i les bloquejades durant el termini de prescripció de les accions.",
+    "sources": [
+      "elparking-terms",
+      "elparking-privacy-cookies"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política reconeix la portabilitat però no descriu cap eina d’exportació."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "elparking-privacy-cookies"
+      ],
+      "detail": "Al delegat de protecció de dades dpo@mutua.es, a privacidad@elparking.com o pel telèfon gratuït 900 102 711.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "elparking-privacy-cookies"
+      ],
+      "detail": "Es pot exercir el dret d’oposició al màrqueting personalitzat i les galetes publicitàries i analítiques es basen en el consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "elparking-privacy-cookies"
+      ],
+      "detail": "Les galetes d’analítica del web són consentides; la política no descriu cap opció equivalent dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "elparking-privacy-cookies",
+        "elparking-terms"
+      ],
+      "detail": "Els consentiments per a les dades d’ús dels aparcaments són separats i el mètode d’obertura per matrícula es pot canviar a l’aplicació, però hi està activat per defecte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "elparking-terms"
+      ],
+      "detail": "La lectura automàtica de la matrícula per càmera queda activada per defecte com a mètode d’obertura quan es registra un vehicle.",
+      "verifiedAt": "2026-09-22",
+      "patterns": [
+        {
+          "type": "preselected",
+          "description": "L’obertura per reconeixement de matrícula s’activa per defecte en registrar un vehicle.",
+          "severity": "medium",
+          "sources": [
+            "elparking-terms"
+          ]
+        }
+      ]
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És un servei de pagament d’estacionament, sense comunicacions privades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "elparking-security"
+      ],
+      "detail": "La pàgina de seguretat afirma que les dades es xifren en trànsit.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "elparking-security"
+      ],
+      "detail": "La pàgina de seguretat afirma que les dades es xifren també en repòs.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La pàgina de seguretat no esmenta la verificació en dos passos per als comptes."
+    },
+    "independentAudits": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "elparking-security"
+      ],
+      "detail": "Declara la certificació ISO/IEC 27001:2022 i auditories periòdiques.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "alternatives": [
+    {
+      "app": "telpark",
+      "comparability": "equivalent",
+      "rationale": "Ofereix el mateix pagament de zona regulada i d’aparcaments, amb una cobertura similar a Espanya.",
+      "tradeOffs": "També fa perfilat comercial i, a més, exigeix fotocòpia del DNI per exercir els drets."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "Les condicions legals són de juliol del 2026, però la política de privadesa i galetes encara és la versió 17 del juny del 2023: el desfasament fa que algunes dades hi apareguin amb categories heretades del negoci assegurador. No hem pogut fer la cerca d’incidents perquè la sessió havia exhaurit el pressupost de cerques.",
+    "openQuestions": [
+      "La política de privadesa s’ha actualitzat després del 2023?",
+      "Quines dades exactes comparteix ElParking amb les asseguradores del grup?"
+    ]
+  },
+  "appStoreBundleId": "com.elparking.elparking"
+}

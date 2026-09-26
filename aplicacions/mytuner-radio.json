@@ -1,0 +1,542 @@
+{
+  "slug": "mytuner-radio",
+  "name": "myTuner Radio",
+  "company": "appgeneration-software",
+  "categories": [
+    "musica-i-audio"
+  ],
+  "tagline": "Una ràdio gratuïta que documenta en una pàgina pròpia l’enviament de la ubicació precisa a un corredor de dades",
+  "summary": "myTuner Radio agrega emissores de ràdio de tot el món i no demana cap compte per escoltar-les. Té una pàgina pròpia, «Third Party Data Recipients», on la companyia portuguesa detalla que comparteix ubicació precisa, senyals de wifi i Bluetooth i identificadors publicitaris amb X-Mode Social, també quan l’aplicació està en segon pla. L’FTC va prohibir a aquesta empresa, el gener del 2024, vendre dades sensibles d’ubicació. La política enumera a més Outlogic, UXCam, Firebase i diversos proveïdors d’anàlisi de xarxa.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Portugal",
+  "userBase": "No n’hem verificat cap xifra oficial.",
+  "links": {
+    "website": "https://mytuner-radio.com/",
+    "privacyPolicy": "https://mytuner-radio.com/privacy-policy/",
+    "appStore": "https://apps.apple.com/es/app/id520502858"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "mytuner-privacy-policy"
+    ],
+    "detail": "Es pot escoltar la ràdio sense compte; el registre amb Google, Apple o Facebook només serveix per sincronitzar favorits.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "editorial",
+    "sources": [],
+    "detail": "No hi ha cap repositori públic del client ni del servei.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "La combinació d’ubicació precisa recollida en segon pla i identificador publicitari és el tipus de dada que es compra i es ven al mercat de dades de localització, i indica on és una persona a cada hora del dia. Les emissores que segueixes hi afegeixen informació sobre llengua, territori i, sovint, orientació política o religiosa.",
+  "dataCollection": [
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "mytuner-privacy-policy",
+        "mytuner-app-store"
+      ],
+      "note": "Només si es crea un compte amb Google, Apple o Facebook."
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "mytuner-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "brokers",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "cessio-a-tercers",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "mytuner-privacy-policy",
+        "mytuner-third-party-recipients",
+        "mytuner-app-store"
+      ],
+      "note": "La pàgina de destinataris admet la recollida quan l’aplicació funciona en segon pla."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "mytuner-app-store"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "brokers",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "mytuner-privacy-policy",
+        "mytuner-third-party-recipients"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "mytuner-app-store",
+        "mytuner-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "mytuner-privacy-policy"
+      ]
+    },
+    {
+      "type": "xarxa-i-connectivitat",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "cessio-a-tercers"
+      ],
+      "sources": [
+        "mytuner-privacy-policy",
+        "mytuner-third-party-recipients"
+      ],
+      "note": "Senyals de wifi i Bluetooth i mesures de rendiment de la xarxa, compartides amb socis d’anàlisi de connectivitat."
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "mytuner-privacy-policy"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "mytuner-privacy-policy",
+        "mytuner-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-visualitzacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "mytuner-privacy-policy"
+      ],
+      "note": "Les emissores escoltades i els favorits, sota la categoria d’estadístiques d’ús de la política."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "mytuner-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "mytuner-privacy-policy"
+      ],
+      "note": "Les subscripcions es cobren a través de l’App Store."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mytuner-app-store",
+        "mytuner-third-party-recipients"
+      ],
+      "detail": "L’etiqueta declara ubicació i identificadors com a dades utilitzades per rastrejar en aplicacions i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mytuner-privacy-policy",
+        "mytuner-third-party-recipients"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mytuner-privacy-policy"
+      ],
+      "detail": "La política cita Outlogic, Low Lag Labs, Wavebrook Analytics, Case on it, UXCam i Google Analytics/Firebase.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mytuner-privacy-policy"
+      ],
+      "detail": "La personalització de la publicitat és una de les finalitats declarades; la subscripció Radio Pro elimina els anuncis.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mytuner-privacy-policy",
+        "mytuner-third-party-recipients"
+      ],
+      "detail": "L’ubicació precisa es cedeix per a publicitat personalitzada i anàlisi de patrons de mobilitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu res sobre l’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mytuner-privacy-policy"
+      ],
+      "detail": "Llista nominal de socis d’analítica, de publicitat i de mesura de qualitat de xarxa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap grup empresarial per sobre d’AppGeneration."
+    },
+    "dataBrokerSales": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mytuner-third-party-recipients",
+        "mytuner-privacy-policy"
+      ],
+      "detail": "La pàgina de destinataris descriu la cessió d’ubicació precisa a X-Mode Social, un corredor de dades de localització; la política cita el seu successor, Outlogic.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mytuner-privacy-policy"
+      ],
+      "detail": "Els socis publicitaris i d’analítica són majoritàriament nord-americans.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mytuner-privacy-policy"
+      ],
+      "detail": "Cinc anys per defecte, i eliminació automàtica dels comptes inactius al cap de tres anys.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no detalla què es conserva després de la supressió."
+    },
+    "periods": [
+      {
+        "period": "Cinc anys des de la recollida, llevat que se’n demani la supressió",
+        "sources": [
+          "mytuner-privacy-policy"
+        ]
+      },
+      {
+        "period": "Els comptes inactius s’eliminen automàticament al cap de tres anys",
+        "sources": [
+          "mytuner-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mytuner-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "mytuner-privacy-policy"
+      ],
+      "detail": "Cal escriure a help@mytuner.mobi indicant l’identificador d’accés; no hi ha cap botó d’eliminació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "requiresSupportContact": true,
+    "steps": [
+      "Escriu a help@mytuner.mobi des de l’adreça amb què vas registrar-te.",
+      "Indica l’identificador d’accés (Google, Apple o Facebook) associat al compte.",
+      "Demana expressament la supressió de les dades a l’empara de l’article 17 del RGPD.",
+      "Guarda la confirmació; si no arriba dins d’un mes, pots reclamar davant de la CNPD portuguesa o de l’AEPD."
+    ],
+    "obstacles": "Com que escoltar la ràdio no requereix compte, la baixa no atura la recollida d’ubicació i d’identificadors: per a això cal revocar els permisos al sistema operatiu i activar «Demana a les apps que no facin seguiment».",
+    "sources": [
+      "mytuner-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "mytuner-privacy-policy"
+      ],
+      "detail": "La política reconeix el dret de portabilitat, però no hi ha cap eina d’autoservei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mytuner-privacy-policy"
+      ],
+      "detail": "Canal per correu electrònic i menció explícita del dret a reclamar davant de la CNPD.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:help@mytuner.mobi"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "mytuner-third-party-recipients"
+      ],
+      "detail": "La pàgina de destinataris remet a la política d’X-Mode i a la configuració del sistema operatiu, no a cap control dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap manera de desactivar l’analítica sense pagar la subscripció."
+    },
+    "granularControls": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "mytuner-privacy-policy"
+      ],
+      "detail": "No hi ha cap panell de privadesa amb controls per finalitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "yes",
+      "level": "editorial",
+      "sources": [
+        "mytuner-third-party-recipients"
+      ],
+      "detail": "La cessió d’ubicació precisa a un corredor de dades no s’explica a la política, sinó en una pàgina separada que cal buscar i que consta actualitzada el juny del 2020.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "confusing-language",
+        "severity": "high",
+        "description": "La cessió d’ubicació precisa a un corredor de dades s’explica en una pàgina apart, desactualitzada des del 2020, mentre que la política principal parla només de «socis especials».",
+        "sources": [
+          "mytuner-third-party-recipients",
+          "mytuner-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació reprodueix emissions públiques; no hi ha comunicacions privades a xifrar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap documentació tècnica sobre el transport."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’accés es fa amb identitats de tercers; la política no descriu cap segon factor propi."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses ni security.txt."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap canal específic de comunicació de vulnerabilitats."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "radio-cope",
+      "comparability": "partial",
+      "rationale": "Aplicació d’un sol grup radiofònic: molt menys catàleg, però una cadena de cessions més curta i un responsable espanyol sotmès a l’AEPD.",
+      "tradeOffs": "Perds l’agregació internacional d’emissores."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La pàgina «Third Party Data Recipients» és una font primària poc habitual: molt poques aplicacions documenten per escrit la cessió d’ubicació precisa a un corredor. Que consti actualitzada el 2020 i que la política actual citi Outlogic (el nom posterior d’X-Mode) indica que la pràctica no s’ha aturat.",
+    "openQuestions": [
+      "La cessió a Outlogic continua vigent per a les persones usuàries de la Unió Europea o s’ha limitat als Estats Units?",
+      "Quin mecanisme empara les transferències internacionals? La política no en cita cap."
+    ]
+  },
+  "appStoreBundleId": "mobi.digitalminds.itunerfree"
+}

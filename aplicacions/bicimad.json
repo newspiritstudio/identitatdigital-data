@@ -1,0 +1,570 @@
+{
+  "slug": "bicimad",
+  "name": "BiciMAD",
+  "company": "ayuntamiento-de-madrid",
+  "categories": [
+    "mobilitat-i-transport"
+  ],
+  "tagline": "Bicicleta pública de Madrid amb GPS que no es pot desconnectar i mapatge de cada trajecte",
+  "summary": "BiciMAD és un servei de l’Ajuntament de Madrid que gestiona EMT com a encarregada del tractament. El registre demana DNI, data de naixement, adreça i dades bancàries a través del compte mPass. La política diu que el GPS de la bicicleta no es pot desconnectar i que serveix per fer un mapatge dels trajectes de cada persona. El 2019 un atac a diverses estacions va exposar noms i saldos de persones usuàries.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "public-service",
+  "jurisdiction": "Espanya (Ajuntament de Madrid)",
+  "links": {
+    "website": "https://www.bicimad.com/",
+    "privacyPolicy": "https://www.emtmadrid.es/PoliticaPrivacidadBiciMAD",
+    "terms": "https://www.bicimad.com/sites/default/files/2023-03/T%C3%A9rminos%20y%20condiciones%20bicimad.pdf",
+    "appStore": "https://apps.apple.com/es/app/id1263402487"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "bicimad-privacy-policy"
+    ],
+    "detail": "Cal registrar-se amb dades identificatives i donar-se d’alta a mPass, obligatori per als pagaments.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": [],
+    "detail": "No hem trobat el codi publicat."
+  },
+  "publicService": {
+    "isPublicService": true,
+    "administrationLevel": "local",
+    "legalBasis": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bicimad-privacy-policy"
+      ],
+      "detail": "La política legitima el tractament en la relació contractual o precontractual (article 6.1.b del RGPD), però no cita cap norma del servei públic de bicicleta ni l’ordenança que l’empara.",
+      "verifiedAt": "2026-09-22",
+      "norm": "RGPD, article 6.1.b"
+    },
+    "processingRegistry": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem localitzat al registre d’activitats de tractament de l’Ajuntament de Madrid cap entrada identificable del servei BiciMAD."
+    },
+    "dpia": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat publicada cap avaluació d’impacte, tot i que el GPS de la bicicleta fa un mapatge dels trajectes de cada persona."
+    },
+    "ensConformity": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap declaració ni certificació de conformitat amb l’Esquema Nacional de Seguretat d’aquest servei."
+    },
+    "dpo": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bicimad-privacy-policy"
+      ],
+      "detail": "La política identifica l’Oficina de Protecció de Dades de l’Ajuntament de Madrid amb correu electrònic i adreça postal.",
+      "verifiedAt": "2026-09-22",
+      "contact": "oficprotecciondatos@madrid.es"
+    },
+    "offlineAlternative": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bicimad-servei"
+      ],
+      "detail": "El servei es pot fer servir sense l’aplicació: amb la targeta vinculada passada per la base o pel candau de la bicicleta.",
+      "verifiedAt": "2026-09-22"
+    },
+    "accessibilityStatement": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El web de BiciMAD no enllaça cap declaració d’accessibilitat i no n’hem trobat cap que cobreixi l’aplicació."
+    },
+    "mandatoryRetention": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "bicimad-privacy-policy"
+      ],
+      "detail": "La política preveu conservar les dades durant la relació contractual i mantenir-les bloquejades un màxim de sis anys per a possibles responsabilitats; no invoca cap obligació legal de conservació que impedeixi donar de baixa el compte.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataSummary": "El mapatge dels trajectes, lligat al DNI i al compte bancari, mostra rutines diàries amb molta precisió: d’on surt i on arriba cada persona i a quina hora. En els comptes de menors, a més, queda vinculat qui en té la tutela.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bicimad-privacy-policy",
+        "bicimad-app-store"
+      ]
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bicimad-privacy-policy"
+      ],
+      "note": "DNI o NIF."
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bicimad-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "bicimad-privacy-policy",
+        "bicimad-app-store"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bicimad-privacy-policy",
+        "bicimad-app-store"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bicimad-privacy-policy",
+        "bicimad-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "bicimad-privacy-policy"
+      ],
+      "note": "Dades bancàries gestionades per EMT a través de mPass i comunicades a bancs per cobrar."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "bicimad-privacy-policy"
+      ],
+      "note": "El GPS de la bicicleta registra els trajectes i no es pot desconnectar."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bicimad-privacy-policy",
+        "bicimad-app-store"
+      ],
+      "note": "La ubicació del mòbil per mostrar bicicletes properes."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bicimad-privacy-policy"
+      ],
+      "note": "Número de la targeta de transport públic si s’hi vincula."
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "bicimad-privacy-policy"
+      ],
+      "note": "Només en reclamacions per accidents o lesions."
+    },
+    {
+      "type": "situacio-familiar",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bicimad-privacy-policy"
+      ],
+      "note": "Tutela dels comptes de menors per part de progenitors."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "bicimad-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "bicimad-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada utilitzada per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "bicimad-app-store"
+      ],
+      "detail": "L’etiqueta no declara l’identificador publicitari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi independent dels kits de tercers que porta l’aplicació."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "bicimad-privacy-policy"
+      ],
+      "detail": "La clàusula de protecció de dades no preveu cap finalitat publicitària.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La informació publicada no en diu res."
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bicimad-privacy-policy"
+      ],
+      "detail": "No hi ha perfilat publicitari, però sí mapatge individual dels trajectes i estadístiques agregades anònimes per a dades obertes.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bicimad-privacy-policy"
+      ],
+      "detail": "EMT i les seves subcontractades com a encarregades, bancs per als cobraments, i forces de seguretat i jutjats quan ho exigeix la llei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bicimad-privacy-policy",
+        "emt-madrid-mpass-privacy"
+      ],
+      "detail": "L’Ajuntament és el responsable i EMT, empresa municipal, hi accedeix com a encarregada i gestiona el compte mPass.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "bicimad-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "bicimad-privacy-policy"
+      ],
+      "detail": "Sense transferències fora de l’Espai Econòmic Europeu.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "none"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bicimad-privacy-policy"
+      ],
+      "detail": "Durant la relació contractual i, després, bloquejades fins a sis anys; no hi ha un termini específic per als trajectes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bicimad-privacy-policy"
+      ],
+      "detail": "Les dades es conserven bloquejades fins a sis anys després de la baixa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "period": "Bloqueig fins a sis anys després de finalitzar la relació",
+        "sources": [
+          "bicimad-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bicimad-terms"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bicimad-terms"
+      ],
+      "detail": "Les condicions diuen que la baixa es fa a l’àrea d’usuari de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "requiresSupportContact": false,
+    "steps": [
+      "Obre l’aplicació de BiciMAD i entra a l’àrea d’usuari.",
+      "Tria l’opció de baixa del sistema i confirma-la.",
+      "Per esborrar també el compte mPass o exercir la supressió, escriu a protecció de dades d’EMT o a la seu electrònica de l’Ajuntament."
+    ],
+    "obstacles": "La baixa no retorna el saldo ni els abonaments prepagats que no s’hagin fet servir.",
+    "dataRetained": "Dades del compte, trajectes i pagaments bloquejats fins a sis anys.",
+    "sources": [
+      "bicimad-terms",
+      "bicimad-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bicimad-privacy-policy"
+      ],
+      "detail": "La portabilitat es reconeix, però per sol·licitud.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bicimad-privacy-policy"
+      ],
+      "detail": "Presencialment o a la seu electrònica de l’Ajuntament; delegat de protecció de dades a oficprotecciondatos@madrid.es.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://sede.madrid.es/"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no mostra publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "bicimad-privacy-policy"
+      ],
+      "detail": "La geolocalització de la bicicleta no es pot desconnectar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bicimad-privacy-policy"
+      ],
+      "detail": "La ubicació del mòbil depèn del permís del dispositiu; la de la bicicleta no.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No transporta comunicacions entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat si el compte mPass admet verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat auditories ni certificacions publicades específicament sobre aquesta aplicació."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses per vulnerabilitats."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap canal públic de notificació de vulnerabilitats ni fitxer security.txt."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "L’aplicació la publica EMT, però el responsable del tractament és l’Ajuntament de Madrid; per això la fitxa penja de l’Ajuntament. La política és clara sobre el mapatge de trajectes, cosa poc habitual.",
+    "openQuestions": [
+      "Quant de temps es conserven els trajectes individuals i quan s’anonimitzen?"
+    ]
+  },
+  "appStoreBundleId": "com.emtmadrid.BiciMad"
+}

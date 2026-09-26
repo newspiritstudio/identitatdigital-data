@@ -1,0 +1,611 @@
+{
+  "slug": "mi-carpeta-ciudadana",
+  "name": "Mi Carpeta Ciudadana",
+  "company": "aead",
+  "categories": [
+    "administracio-publica"
+  ],
+  "tagline": "Reuneix dades de desenes d’administracions en una sola aplicació, però l’etiqueta de l’App Store diu que no en recull cap",
+  "summary": "Mi Carpeta Ciudadana mostra en un sol lloc dades que guarden altres administracions: partida de naixement, prestacions, béns immobles, títols, certificats de discapacitat, vehicles i expedients oberts. L’Agència Estatal d’Administració Digital diu que no les desa i que només les consulta quan les demanes, però sí que conserva preferències, un resum personal i els justificants generats. No hi ha publicitat ni transferències fora de la UE. L’etiqueta de l’App Store, però, afirma que l’aplicació no recull cap dada.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "public-service",
+  "jurisdiction": "Espanya; servei públic de l’Administració General de l’Estat",
+  "links": {
+    "website": "https://carpetaciudadana.gob.es/",
+    "privacyPolicy": "https://masinformacioncarpeta.carpetaciudadana.gob.es/infocc/en/politica-privacidad-carpeta-ciudadana",
+    "appStore": "https://apps.apple.com/es/app/id1555943725"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "carpeta-ciudadana-app-store"
+    ],
+    "detail": "L’accés es fa amb les credencials de la plataforma Cl@ve; no hi ha un compte propi amb contrasenya.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": [],
+    "detail": "No hem trobat publicat el codi de l’aplicació."
+  },
+  "publicService": {
+    "isPublicService": true,
+    "administrationLevel": "state",
+    "legalBasis": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "carpeta-ciudadana-privacy",
+        "aead-rat-sgad"
+      ],
+      "detail": "La política invoca el consentiment (article 6.1.a del RGPD) per a la configuració de privadesa, els avisos i el resum personal, i el compliment d’una missió d’interès públic (article 6.1.e) per a la resta. De la normativa habilitant, però, només en dona el nom: Llei 39/2015, Llei 40/2015 i Reial decret 203/2021, sense cap article. El registre d’activitats hi inscriu només el consentiment.",
+      "verifiedAt": "2026-09-22",
+      "norm": "RGPD, article 6.1.a i 6.1.e; Llei 39/2015 i Llei 40/2015, citades sense article"
+    },
+    "processingRegistry": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "aead-rat-sgad",
+        "carpeta-ciudadana-privacy"
+      ],
+      "detail": "El registre del ministeri conté dues fitxes identificables del servei: «Mi Carpeta Ciudadana», per a les dades de contacte i les preferències de la persona usuària, i «Mi Carpeta Ciudadana (encargado)», per a les dades que la Carpeta consulta a altres administracions.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://digital.gob.es/content/dam/portal-mtdfp/ministerio/proteccion-datos/RAT_SGAD.pdf"
+    },
+    "dpia": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat publicada cap avaluació d’impacte relativa a la protecció de dades, tot i que el servei reuneix dades de salut, laborals i patrimonials de desenes d’administracions."
+    },
+    "ensConformity": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "carpeta-ciudadana-privacy",
+        "aead-rat-sgad"
+      ],
+      "detail": "Tant la política com el registre d’activitats declaren que les mesures aplicades són les de l’annex II del Reial decret 311/2022, però no hem trobat publicada ni la declaració de conformitat amb l’Esquema Nacional de Seguretat ni la categoria del sistema.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dpo": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "carpeta-ciudadana-privacy"
+      ],
+      "detail": "La política identifica el delegat de protecció de dades del Ministeri per a la Transformació Digital i de la Funció Pública, amb correu electrònic i adreça postal.",
+      "verifiedAt": "2026-09-22",
+      "contact": "dpd@digital.gob.es"
+    },
+    "offlineAlternative": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "boe-ley-39-2015",
+        "carpeta-ciudadana-privacy"
+      ],
+      "detail": "La Carpeta no té dades pròpies: només ensenya el que continua guardant cada administració d’origen, on es pot demanar pels canals de sempre. L’article 14.1 de la Llei 39/2015 garanteix a les persones físiques que puguin triar no relacionar-s’hi per mitjans electrònics.",
+      "verifiedAt": "2026-09-22"
+    },
+    "accessibilityStatement": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "carpeta-ciudadana-accessibilitat"
+      ],
+      "detail": "L’aplicació mòbil té declaració d’accessibilitat pròpia i s’hi declara «parcialment conforme» amb el Reial decret 1112/2018, sobretot pels documents PDF que es descarreguen des de l’aplicació. És una autoavaluació de l’AEAD preparada el 12 de setembre de 2022, i no s’ha revisat des d’aleshores.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://masinformacioncarpeta.carpetaciudadana.gob.es/infocc/accesibilidad-app"
+    },
+    "mandatoryRetention": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "carpeta-ciudadana-privacy"
+      ],
+      "detail": "Cap norma obliga a conservar el que desa la Carpeta: el consentiment del resum personal es pot retirar i la política fixa terminis de supressió per inactivitat. Les dades que no es poden esborrar són les de les administracions d’origen, que la Carpeta no guarda.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataSummary": "L’aplicació pot mostrar gairebé tota la relació d’una persona amb l’Estat: identitat, família, feina i pensió, salut i discapacitat, patrimoni, vehicles i tràmits pendents. Que aquestes dades no es desin a la Carpeta redueix el risc, però qui accedeixi al compte Cl@ve les pot veure totes.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "carpeta-ciudadana-privacy",
+        "aead-rat-sgad"
+      ]
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "carpeta-ciudadana-privacy"
+      ],
+      "note": "El DNI o NIE és la clau amb què es consulten les dades a la resta d’administracions."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "carpeta-ciudadana-privacy",
+        "aead-rat-sgad"
+      ],
+      "note": "Per rebre avisos de cites i caducitats, si s’activen."
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "carpeta-ciudadana-privacy"
+      ],
+      "note": "Procedeix d’altres administracions i només es consulta quan es demana."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "carpeta-ciudadana-privacy"
+      ],
+      "note": "Per enviar notificacions a l’aplicació."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "aead-rat-sgad"
+      ],
+      "note": "Una foto de perfil opcional."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "aead-rat-sgad"
+      ],
+      "note": "Serveis consultats i favorits."
+    },
+    {
+      "type": "fitxers-i-documents",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "carpeta-ciudadana-app-store"
+      ],
+      "note": "Els justificants generats queden a «Mis documentos»; es poden compartir amb un enllaç i esborrar en qualsevol moment."
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "carpeta-ciudadana-privacy"
+      ],
+      "note": "Certificats de discapacitat i situació de dependència. Es consulten a l’administració que els té i, segons la política, no es desen."
+    },
+    {
+      "type": "ocupacio-i-carrec",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "carpeta-ciudadana-privacy"
+      ],
+      "note": "Vida laboral, prestacions i jubilació, consultades a demanda."
+    },
+    {
+      "type": "nivell-formatiu",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "carpeta-ciudadana-privacy"
+      ],
+      "note": "Títols i beques, consultats a demanda."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "carpeta-ciudadana-privacy"
+      ],
+      "note": "Les consultes a l’assistent conversacional s’esborren en tancar la sessió o després de 30 minuts d’inactivitat. La política no diu quina tecnologia hi ha al darrere."
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "carpeta-ciudadana-privacy"
+      ],
+      "note": "L’accés amb cara o empremta el gestiona el sistema operatiu i les dades biomètriques no surten del mòbil."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "aead-rat-sgad"
+      ],
+      "detail": "El registre d’activitats no preveu cap comunicació de dades a tercers ni cap finalitat publicitària.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap declaració sobre l’identificador publicitari del dispositiu."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi independent de rastrejadors de l’aplicació."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "aead-rat-sgad"
+      ],
+      "detail": "Cap de les finalitats inscrites al registre d’activitats és publicitària.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "carpeta-ciudadana-privacy"
+      ],
+      "detail": "La política no preveu elaboració de perfils ni decisions automatitzades; el resum personal el configura la mateixa persona.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política descriu un assistent conversacional, però no diu si fa servir un model d’IA ni si les consultes serveixen per entrenar-lo."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "aead-rat-sgad"
+      ],
+      "detail": "El registre d’activitats diu que no hi ha previstes comunicacions de dades. Les dades que es mostren les té l’administració d’origen, que és qui en respon.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "carpeta-ciudadana-privacy"
+      ],
+      "detail": "La Carpeta fa d’intermediària: consulta dades de moltes administracions, que en són les responsables, i l’AEAD n’és l’encarregada del tractament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "aead-rat-sgad"
+      ],
+      "detail": "No hi ha cap cessió prevista.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "carpeta-ciudadana-privacy",
+        "aead-rat-sgad"
+      ],
+      "detail": "La política diu que l’emmagatzematge i la resta del tractament són sempre dins de la Unió Europea.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "none"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe sobre peticions d’accés a les dades per part d’altres autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "carpeta-ciudadana-privacy"
+      ],
+      "detail": "La política fixa terminis per a cada bloc de dades que conserva el servei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "carpeta-ciudadana-privacy"
+      ],
+      "detail": "Les preferències i els esdeveniments es conserven fins a dos anys des de l’últim accés; la política no explica què passa si es demana la supressió abans.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "interaccions-i-us",
+        "period": "Resum personal: s’esborra després de 3 mesos sense entrar a la Carpeta",
+        "sources": [
+          "carpeta-ciudadana-privacy"
+        ]
+      },
+      {
+        "dataType": "adreca-electronica",
+        "period": "Configuració, preferències i propers esdeveniments: fins a 2 anys des de l’últim accés",
+        "sources": [
+          "carpeta-ciudadana-privacy"
+        ]
+      },
+      {
+        "dataType": "contingut-de-missatges",
+        "period": "Assistent conversacional: en tancar la sessió o als 30 minuts d’inactivitat",
+        "sources": [
+          "carpeta-ciudadana-privacy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "carpeta-ciudadana-privacy"
+      ],
+      "detail": "No hi ha un compte propi que s’hagi d’eliminar: les dades de les altres administracions no es desen. El que conserva el servei s’esborra per inactivitat o retirant el consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "carpeta-ciudadana-privacy",
+        "carpeta-ciudadana-app-store"
+      ],
+      "detail": "Es pot retirar el consentiment del resum personal i esborrar els justificants des de l’aplicació. Per a la resta, cal escriure a l’adreça de protecció de dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "steps": [
+      "A «Mis documentos», esborra els justificants que hagis generat.",
+      "A la configuració, desactiva el resum personal i els avisos per correu i al mòbil.",
+      "Per suprimir la resta de dades que conserva el servei, escriu a protecciondatos.sgad@correo.gob.es.",
+      "Si no hi tornes a entrar, el resum personal s’esborra als 3 mesos i les preferències als 2 anys."
+    ],
+    "obstacles": "La política no descriu cap botó per esborrar-ho tot d’una vegada; cal combinar les opcions de l’aplicació amb una petició per correu.",
+    "dataRetained": "Preferències i esdeveniments fins a dos anys des de l’últim accés. Les dades consultades continuen a l’administració d’origen.",
+    "sources": [
+      "carpeta-ciudadana-privacy",
+      "carpeta-ciudadana-app-store"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "carpeta-ciudadana-privacy",
+        "carpeta-ciudadana-app-store"
+      ],
+      "detail": "La política reconeix la portabilitat. A la pràctica, l’aplicació genera justificants descarregables de les dades de cada administració.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "carpeta-ciudadana-privacy"
+      ],
+      "detail": "Drets per correu a la unitat de protecció de dades, amb un delegat de protecció de dades identificat. Les dades d’altres administracions s’hi han de demanar a elles.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:protecciondatos.sgad@correo.gob.es"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no mostra publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat si l’aplicació recull dades d’ús o de rendiment ni si es poden desactivar."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "carpeta-ciudadana-privacy",
+        "carpeta-ciudadana-app-store"
+      ],
+      "detail": "El resum personal, els avisos i el biomètric són opcionals i es configuren per separat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "protective",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi de patrons foscos a l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No és un servei de comunicació entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "aead-rat-sgad"
+      ],
+      "detail": "El registre d’activitats remet a les mesures de l’annex II de l’Esquema Nacional de Seguretat (Reial decret 311/2022), que inclouen la protecció de les comunicacions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El registre remet a l’Esquema Nacional de Seguretat, però no hem trobat cap document que concreti el xifratge en repòs."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat publicada cap certificació de conformitat amb l’Esquema Nacional de Seguretat específica del servei."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses; no és habitual als serveis de l’Administració, però no ho hem pogut confirmar amb una font."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha fitxer security.txt als dominis del servei. La política només ofereix una adreça per comunicar bretxes de dades personals."
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "carpeta-ciudadana-app-store",
+        "notifica-dehu-portal"
+      ],
+      "detail": "L’accés passa per Cl@ve, que admet certificat electrònic, DNI electrònic, Cl@ve PIN i Cl@ve Mòbil, amb confirmació a l’aplicació.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "app-push"
+      ]
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "L’etiqueta de l’App Store diu «No se recopilan datos», però la política del servei descriu dades de contacte, identificadors del dispositiu i dades que s’obtenen d’altres administracions. La contradicció és de transparència, no necessàriament de pràctica: Apple només compta com a «recollides» les dades que surten del dispositiu i es conserven, i la Carpeta en conserva algunes (preferències, resum personal, justificants). A l’App Store l’aplicació encara figura a nom del Ministeri d’Afers Econòmics i Transformació Digital, però la responsable és l’AEAD.",
+    "openQuestions": [
+      "La cerca d’incidents no s’ha pogut completar: s’havia esgotat el pressupost de cerques web de la sessió.",
+      "Quina tecnologia fa servir l’assistent conversacional i on es processen les consultes?"
+    ]
+  },
+  "appStoreBundleId": "es.gob.carpeta"
+}

@@ -1,0 +1,580 @@
+{
+  "slug": "iberia",
+  "name": "Iberia",
+  "company": "iberia-lineas-aereas",
+  "categories": [
+    "viatges-i-allotjament"
+  ],
+  "tagline": "Reconeixement facial voluntari als aeroports d’Aena i una filtració del 2025 a través d’un proveïdor",
+  "summary": "La política d’Iberia preveu dades compartides amb tot el grup IAG, cessions obligatòries a duanes i immigració (fins i tot per sobrevolar els Estats Units), i categories especials de dades quan hi ha assistència mèdica, menús o reconeixement facial. La identificació biomètrica als aeroports gestionats per Aena és voluntària i el responsable n’és Aena, amb Iberia com a encarregada. Iberia declara que no ven dades personals, però no publica cap termini de conservació. El novembre de 2025 va notificar una filtració de dades de clients originada als sistemes d’un proveïdor.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Espanya; responsable: Iberia Líneas Aéreas de España S.A. Operadora, amb responsabilitat conjunta amb Avios Group per a Iberia Club",
+  "links": {
+    "website": "https://www.iberia.com/",
+    "privacyPolicy": "https://www.iberia.com/es/privacy-information/",
+    "appStore": "https://apps.apple.com/es/app/id434825954"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "iberia-privacy-policy"
+    ],
+    "detail": "Es pot reservar sense registre, però la gestió de les reserves, Iberia Club i la majoria de drets s’exerceixen des de l’àrea privada.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "editorial",
+    "sources": [],
+    "detail": "Aplicació privativa; no hi ha cap repositori públic del client.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Iberia recull el document d’identitat, els itineraris, la targeta de fidelització, la despesa i, si s’hi accedeix, la cara. Una part important d’aquestes dades va a les autoritats de frontera dels països de l’itinerari i als socis del grup IAG i de l’aliança oneworld.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "iberia-privacy-policy"
+      ]
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "iberia-privacy-policy"
+      ],
+      "note": "Comunicat a duanes i immigració dels països d’origen, trànsit, destinació i sobrevol."
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "iberia-privacy-policy"
+      ],
+      "note": "Categoria especial. Reconeixement facial a la xarxa d’aeroports d’Aena: voluntari, amb consentiment, i amb Aena com a responsable i Iberia com a encarregada."
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "iberia-privacy-policy"
+      ],
+      "note": "Categoria especial: proves mèdiques, assistència especial i comunicacions a autoritats sanitàries en cas de malaltia contagiosa a bord."
+    },
+    {
+      "type": "conviccions-i-opinions",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "iberia-privacy-policy"
+      ],
+      "note": "La política admet que un menú especial pot revelar la religió o l’estat de salut sense ser, en si, una dada sensible."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "iberia-privacy-policy",
+        "iberia-app-store"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "iberia-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "iberia-app-store",
+        "iberia-privacy-policy"
+      ],
+      "note": "Es comparteixen amb Riskified, empresa israeliana de prevenció del frau que hi fa tractament automatitzat com a responsable independent."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "iberia-privacy-policy",
+        "iberia-app-store"
+      ]
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "iberia-privacy-policy"
+      ],
+      "note": "La política parla d’enriquir el perfilat de la base de clients amb segments de mercat i graus de vinculació, per interès legítim i amb dret d’oposició."
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "iberia-privacy-policy"
+      ],
+      "note": "Galetes i tecnologies similars, inclosos els bàners i enllaços dels socis de màrqueting."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "iberia-app-store"
+      ],
+      "note": "L’etiqueta la declara sense vincular al compte."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "iberia-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "iberia-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "iberia-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "iberia-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "iberia-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "iberia-app-store"
+      ],
+      "detail": "L’etiqueta declara dades de contacte, identificadors i dades d’ús utilitzats per rastrejar la persona entre aplicacions i llocs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "iberia-app-store"
+      ],
+      "detail": "Identificador d’usuari i de dispositiu declarats per a publicitat o màrqueting del desenvolupador.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "iberia-privacy-policy"
+      ],
+      "detail": "La política descriu galetes i tecnologies similars i la recollida d’informació sobre bàners i enllaços de socis de màrqueting, sense enumerar-ne els proveïdors.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "iberia-privacy-policy",
+        "iberia-app-store"
+      ],
+      "detail": "Comunicacions comercials personalitzades segons les preferències deduïdes; l’etiqueta declara correu i identificadors per a màrqueting del desenvolupador.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "iberia-privacy-policy"
+      ],
+      "detail": "Iberia elabora segments de mercat i graus de vinculació dels clients per interès legítim, amb dret d’oposició expressa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap declaració sobre l’ús de dades de clients per entrenar models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "iberia-privacy-policy"
+      ],
+      "detail": "Amb autoritats de duanes i immigració, aerolínies i operadors de transport de l’itinerari, agències, entitats financeres, Riskified per al control del frau, Aena per al reconeixement facial i proveïdors de màrqueting i enquestes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "iberia-privacy-policy"
+      ],
+      "detail": "Amb les aerolínies del grup IAG (British Airways, Iberia Express, Vueling, Aer Lingus, LEVEL, Avios Group i altres) per conèixer millor les preferències de viatge.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "iberia-privacy-policy"
+      ],
+      "detail": "La política diu expressament que Iberia no ven dades personals a tercers i que només permet comunicacions comercials de tercers amb consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "iberia-privacy-policy"
+      ],
+      "detail": "Transferències habituals fora de l’Espai Econòmic Europeu per prestar el servei i complir obligacions legals com a aerolínia, incloses les autoritats de frontera dels països de destinació i de sobrevol.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "derogation"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència de peticions governamentals de dades."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "iberia-privacy-policy"
+      ],
+      "detail": "La política diu que conserva les dades «tant de temps com calgui» per a la finalitat, amb exemples però sense cap termini concret.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "iberia-privacy-policy"
+      ],
+      "detail": "En exercir el dret de supressió o retirar el consentiment, la informació pot quedar bloquejada a disposició de jutjats, tribunals i autoritats durant el termini mínim que fixi la llei.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "iberia-privacy-policy"
+      ],
+      "detail": "Es pot exercir el dret de supressió, però la política no documenta cap botó d’eliminació del compte ni d’Iberia Club.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "iberia-privacy-policy"
+      ],
+      "detail": "Els clients registrats i els membres d’Iberia Club poden exercir la majoria de drets des de l’àrea privada; la resta, amb un formulari de gestió de drets.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "medium",
+    "requiresSupportContact": true,
+    "steps": [
+      "Inicia la sessió a iberia.com i obre l’àrea privada o «El meu perfil / Preferències» d’Iberia Club.",
+      "Revisa-hi i modifica les dades i les preferències de comunicacions comercials.",
+      "Per a la supressió i la resta de drets, omple el formulari de gestió de drets individuals del web.",
+      "Si no ets client registrat ni membre d’Iberia Club, escriu a OficinaDPO@iberia.es."
+    ],
+    "obstacles": "Iberia Club és de responsabilitat compartida amb Avios Group, i les dades del programa poden dependre també de British Airways i d’American Airlines a On Business. Les cessions a autoritats de frontera no es poden revocar.",
+    "dataRetained": "Dades bloquejades a disposició de jutjats i autoritats pel termini mínim legal, i el que calgui per a obligacions fiscals i de transport aeri.",
+    "sources": [
+      "iberia-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "iberia-privacy-policy"
+      ],
+      "detail": "Dret de portabilitat previst a la política i exercible pels mateixos canals que la resta de drets.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "iberia-privacy-policy"
+      ],
+      "detail": "Des de l’àrea privada, amb el formulari de gestió de drets individuals o escrivint a l’Oficina de Protecció de Dades d’Iberia.",
+      "verifiedAt": "2026-09-22",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "iberia-privacy-policy"
+      ],
+      "detail": "Es pot deixar de rebre comunicacions comercials en qualsevol moment; Iberia diu que tramita les baixes en un màxim de 30 dies i que continuarà enviant les comunicacions operatives de la reserva.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "iberia-privacy-policy"
+      ],
+      "detail": "Hi ha gestió de galetes, però la recollida d’ús i de diagnòstic de l’aplicació no és opcional.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "iberia-privacy-policy"
+      ],
+      "detail": "Preferències de comunicacions i de galetes, i consentiment revocable per al reconeixement facial amb Aena.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi de patrons foscos de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És una aplicació de reserves i de fidelització: no hi ha comunicacions privades entre persones que es puguin xifrar d’extrem a extrem.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "editorial",
+      "sources": [],
+      "detail": "Comprovació pròpia: iberia.com es serveix exclusivament per HTTPS.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu les mesures tècniques de xifratge en repòs."
+    },
+    "mfa": {
+      "status": "partial",
+      "level": "press",
+      "sources": [
+        "iberia-filtracio-bleeping-2025"
+      ],
+      "detail": "Arran de la filtració del 2025, Iberia va afegir codis de verificació per als canvis de compte lligats al correu electrònic.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap auditoria ni certificació de seguretat publicada."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa públic de recompenses per vulnerabilitats."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "no",
+      "level": "editorial",
+      "sources": [],
+      "detail": "Comprovació pròpia: iberia.com no publica cap fitxer /.well-known/security.txt ni cap política de divulgació de vulnerabilitats visible.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La política vigent des del 26 de juny de 2026 és molt extensa i explícita en les cessions, però evita qualsevol termini de conservació. La responsabilitat conjunta amb Avios Group i amb British Airways fa que el programa de fidelització tingui un règim diferent del de la reserva.",
+    "openQuestions": [
+      "Quants clients va afectar la filtració del proveïdor notificada el novembre de 2025 i quin proveïdor era?",
+      "Iberia aplica algun termini màxim de conservació de l’historial de vols i del perfil comercial?"
+    ]
+  },
+  "appStoreBundleId": "mobi.iberia"
+}

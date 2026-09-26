@@ -1,0 +1,466 @@
+{
+  "slug": "asisa",
+  "name": "ASISA",
+  "company": "asisa",
+  "categories": [
+    "salut-i-assistencia-sanitaria",
+    "banca-i-finances"
+  ],
+  "tagline": "Una aplicació de salut que declara la ubicació com a dada per rastrejar-te",
+  "summary": "L’aplicació de l’asseguradora ASISA dona accés a l’àrea privada de la pòlissa, al quadre mèdic i a les autoritzacions. L’etiqueta de l’App Store declara la ubicació com a dada utilitzada per rastrejar entre aplicacions i llocs web d’altres empreses, i hi afegeix historial de navegació sense vincular. La política de l’asseguradora enumera els destinataris (reasseguradores, xarxes assistencials, Europ Assistance i Teladoc Health), però no explica aquest rastreig.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "subscription",
+  "jurisdiction": "Espanya",
+  "userBase": "Assegurats d’ASISA a Espanya",
+  "links": {
+    "website": "https://www.asisa.es/",
+    "privacyPolicy": "https://www.asisa.es/politica-de-proteccion-de-datos",
+    "appStore": "https://apps.apple.com/es/app/id444680982"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "asisa-privacy-policy"
+    ],
+    "detail": "La política descriu l’accés a l’àrea privada com un dels tractaments; l’aplicació és per a persones assegurades.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "editorial",
+    "sources": [],
+    "detail": "No consta cap publicació del codi font; és programari privatiu.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Una asseguradora de salut acumula alhora l’historial d’ús assistencial i la informació econòmica de la pòlissa. A més, l’aplicació declara la ubicació com a dada utilitzada per rastrejar.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "asisa-privacy-policy",
+        "asisa-app-store"
+      ]
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "asisa-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "asisa-privacy-policy"
+      ],
+      "note": "La política preveu la comunicació a proveïdors sanitaris, reasseguradores i empreses de vigilància de la salut."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "asisa-privacy-policy"
+      ],
+      "note": "Gestió del pagament de primes."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "asisa-app-store"
+      ],
+      "note": "L’etiqueta la declara com a dada utilitzada per rastrejar; és l’única categoria d’aquest tipus a la fitxa."
+    },
+    {
+      "type": "fitxers-i-documents",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "asisa-app-store"
+      ],
+      "note": "L’etiqueta declara contingut de l’usuari vinculat amb la identitat."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "asisa-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "asisa-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "asisa-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "asisa-app-store"
+      ]
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "asisa-privacy-policy"
+      ],
+      "note": "La política inclou el tractament de les interaccions amb el xatbot."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "asisa-app-store"
+      ],
+      "detail": "L’etiqueta declara la ubicació com a dada utilitzada per rastrejar entre aplicacions i llocs web propietat d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’etiqueta no declara identificadors publicitaris, però tampoc explica amb quina tècnica es fa el rastreig de la ubicació."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "asisa-app-store"
+      ],
+      "detail": "El rastreig declarat implica components de tercers, però ni l’etiqueta ni la política els enumeren.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "asisa-privacy-policy",
+        "asisa-app-store"
+      ],
+      "detail": "La política esmenta activitats promocionals, i l’etiqueta declara rastreig; no hi ha cap descripció pública que lligui les dues coses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap elaboració de perfils."
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política esmenta un xatbot, però no diu si les converses entrenen models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "asisa-privacy-policy"
+      ],
+      "detail": "Proveïdors sanitaris, reasseguradores, xarxes assistencials, empreses de vigilància de la salut, administracions públiques i socis com Europ Assistance i Teladoc Health.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "asisa-privacy-policy"
+      ],
+      "detail": "Compartició amb les empreses del grup ASISA.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta cap venda de dades."
+    },
+    "internationalTransfers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "asisa-privacy-policy"
+      ],
+      "detail": "Només quan són contractualment necessàries o amb consentiment explícit, complint els requisits del RGPD; no es concreta el mecanisme.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "asisa-privacy-policy"
+      ],
+      "detail": "Es descriu el bloqueig de les dades després de la fi del contracte durant els terminis de responsabilitat legal, sense xifres concretes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "asisa-privacy-policy"
+      ],
+      "detail": "Les dades queden bloquejades, no esborrades, mentre puguin derivar-se responsabilitats legals.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "asisa-privacy-policy"
+      ],
+      "detail": "El dret de supressió es reconeix i s’exerceix davant del delegat de protecció de dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap pàgina que descrigui l’eliminació del compte des de l’aplicació."
+    },
+    "difficulty": "unknown",
+    "requiresSupportContact": true,
+    "steps": [
+      "Escriu a DPO@grupoasisa.com invocant el dret de supressió de l’article 17 del RGPD.",
+      "Indica si la sol·licitud afecta només l’accés a l’àrea privada o tot el tractament."
+    ],
+    "obstacles": "Mentre hi hagi pòlissa, l’asseguradora manté bases jurídiques pròpies i les dades queden bloquejades en comptes d’esborrades.",
+    "dataRetained": "Dades contractuals i assistencials bloquejades durant els terminis de prescripció.",
+    "sources": [
+      "asisa-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "asisa-privacy-policy"
+      ],
+      "detail": "La portabilitat es reconeix entre els drets, sense cap eina d’autoservei descrita.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "asisa-privacy-policy"
+      ],
+      "detail": "Delegat de protecció de dades amb adreça publicada i menció expressa del dret a reclamar davant de l’AEPD.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:DPO@grupoasisa.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap control documentat per desactivar el rastreig de la ubicació que declara l’etiqueta."
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap control per desactivar l’analítica."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [],
+      "detail": "L’única opció efectiva documentada és denegar el permís d’ubicació des del sistema operatiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut revisar els fluxos de consentiment dins de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei ha de poder llegir les autoritzacions i els documents per tramitar-los.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "editorial",
+      "sources": [],
+      "detail": "Els serveis d’ASISA es publiquen sobre HTTPS, comprovat en consultar-ne les pàgines.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta si l’àrea privada admet un segon factor."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories independents publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses ni security.txt al domini."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap canal públic de divulgació de vulnerabilitats."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "mi-sanitas",
+      "comparability": "equivalent",
+      "rationale": "És l’aplicació equivalent d’una altra asseguradora de salut, útil per comparar declaracions de privadesa.",
+      "tradeOffs": "També declara identificadors utilitzats per rastrejar i té una política que no cobreix l’aplicació."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "L’aplicació d’una assegurança de salut declara la ubicació com a dada de rastreig. La política enumera amb detall els destinataris, però no diu res d’aquest tractament.",
+    "openQuestions": [
+      "Quin component fa el rastreig de la ubicació declarat a l’App Store i amb quina finalitat?",
+      "Hi ha alguna manera de desactivar-lo des de dins de l’aplicació?",
+      "Queda pendent la cerca sistemàtica d’incidents i sancions: les eines de cerca no eren disponibles durant aquesta revisió."
+    ]
+  },
+  "appStoreBundleId": "com.Babel.Asisa"
+}

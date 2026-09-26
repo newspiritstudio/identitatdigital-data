@@ -1,0 +1,590 @@
+{
+  "slug": "mediamarkt",
+  "name": "MediaMarkt",
+  "company": "mediamarkt-saturn-espana",
+  "categories": [
+    "comerc-electronic"
+  ],
+  "tagline": "Botiga d’electrònica que perfila per interès legítim les compres a botiga i a l’app, amb rastreig declarat i eliminació del compte en autoservei",
+  "summary": "A Espanya el responsable és Media Markt Saturn, S.A.U., del grup Ceconomy, tot i que l’aplicació la publica MMS E-Commerce GmbH. El programa miMediaMarkt combina, per interès legítim, les compres a botiga i en línia, els clics a la web i l’aplicació, les obertures de butlletins i les trucades a atenció al client. La prevenció del frau passa per Forter, al Regne Unit, i la persona usuària no s’hi pot oposar. L’etiqueta de l’App Store declara sis categories de dades utilitzades per rastrejar. El compte es pot eliminar des del perfil.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://www.mediamarkt.es/",
+    "privacyPolicy": "https://www.mediamarkt.es/es/legal/politica-de-privacidad",
+    "appStore": "https://apps.apple.com/es/app/id1438532508"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "mediamarkt-privacy-policy"
+    ],
+    "detail": "El catàleg es pot consultar sense compte; per comprar amb historial, fer servir miMediaMarkt o gestionar comandes cal registrar-se.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "mediamarkt-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Les compres d’electrònica i electrodomèstics, amb data, hora, botiga i mètode de pagament, es combinen amb la navegació per l’aplicació i les trucades a atenció al client. La política hi afegeix el DNI, les dades bancàries per al finançament, els ingressos i les converses amb un assistent d’IA a botiga.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "mediamarkt-app-store",
+        "mediamarkt-privacy-policy"
+      ],
+      "note": "L’etiqueta declara les dades de contacte utilitzades per rastrejar."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "mediamarkt-app-store",
+        "mediamarkt-privacy-policy"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "mediamarkt-app-store",
+        "mediamarkt-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "mediamarkt-privacy-policy"
+      ]
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "mediamarkt-privacy-policy"
+      ],
+      "note": "La política esmenta el DNI o NIE entre les dades identificatives."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "mediamarkt-app-store",
+        "mediamarkt-privacy-policy"
+      ],
+      "note": "Les dades de la compra i de la sessió es comparteixen amb Forter per prevenir el frau."
+    },
+    {
+      "type": "nivell-d-ingressos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "mediamarkt-privacy-policy"
+      ],
+      "note": "La política inclou «ingresos y rentas» entre les dades econòmiques."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "mediamarkt-app-store",
+        "mediamarkt-mimediamarkt-policy"
+      ],
+      "note": "miMediaMarkt combina les compres a botiga física i en línia."
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "mediamarkt-app-store",
+        "mediamarkt-mimediamarkt-policy"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "mediamarkt-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "mediamarkt-app-store",
+        "mediamarkt-mimediamarkt-policy"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "mediamarkt-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "mediamarkt-app-store"
+      ]
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "mediamarkt-privacy-policy"
+      ],
+      "note": "Converses amb l’assistent virtual d’IA per WhatsApp Business a botiga, amb consentiment; es conserven tretze mesos."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "mediamarkt-app-store"
+      ],
+      "note": "L’etiqueta declara la ubicació com a dada no vinculada."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "mediamarkt-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mediamarkt-app-store"
+      ],
+      "detail": "L’etiqueta declara compres, contacte, historial de cerca i de navegació, identificadors i dades d’ús utilitzats per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mediamarkt-app-store"
+      ],
+      "detail": "Identificadors declarats per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mediamarkt-privacy-policy"
+      ],
+      "detail": "Galetes publicitàries en corresponsabilitat amb les dues societats de MediaMarktSaturn Platform Services, i proveïdors d’analítica.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mediamarkt-privacy-policy"
+      ],
+      "detail": "Màrqueting propi per interès legítim a clients i, amb consentiment, publicitat personalitzada i de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mediamarkt-mimediamarkt-policy",
+        "mediamarkt-privacy-policy"
+      ],
+      "detail": "El perfil de miMediaMarkt es basa en l’interès legítim i combina botiga, web, aplicació, butlletins i atenció telefònica; a més, hi ha perfilat amb fonts de tercers amb consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política descriu un assistent d’IA per WhatsApp, però no diu si les dades serveixen per entrenar models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mediamarkt-privacy-policy"
+      ],
+      "detail": "Forter (prevenció del frau), proveïdors de pagament, logística, tecnologia i publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mediamarkt-privacy-policy",
+        "mediamarkt-mimediamarkt-policy"
+      ],
+      "detail": "Amb empreses del grup per interès legítim; MediaMarktSaturn Retail Group GmbH i Platform Services España hi tenen accés.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu si ven dades personals."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mediamarkt-privacy-policy",
+        "mediamarkt-mimediamarkt-policy"
+      ],
+      "detail": "Clàusules contractuals tipus o decisions d’adequació, com la del Regne Unit per a Forter. La política de miMediaMarkt reconeix el risc d’accés d’autoritats de països tercers.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "mediamarkt-privacy-policy"
+      ],
+      "detail": "Només hi ha un termini concret: tretze mesos per a les converses amb l’assistent d’IA. La resta es conserva el temps necessari més els terminis de prescripció.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "mediamarkt-mimediamarkt-policy"
+      ],
+      "detail": "Les dades es bloquegen durant el termini de prescripció i després se suprimeixen.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "contingut-de-missatges",
+        "period": "Tretze mesos, converses amb l’assistent d’IA",
+        "sources": [
+          "mediamarkt-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mediamarkt-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mediamarkt-delete-account"
+      ],
+      "detail": "Botó «Eliminar Cuenta» a les dades personals del compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "easy",
+    "requiresSupportContact": false,
+    "steps": [
+      "Inicia sessió i obre «Mi Cuenta».",
+      "Ves a «Datos Personales».",
+      "Toca «Eliminar Cuenta» i confirma-ho."
+    ],
+    "obstacles": "L’ajuda no indica cap termini ni quines dades es conserven.",
+    "dataRetained": "La política preveu bloquejar les dades durant els terminis de prescripció legal.",
+    "sources": [
+      "mediamarkt-delete-account",
+      "mediamarkt-mimediamarkt-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "mediamarkt-privacy-policy"
+      ],
+      "detail": "La portabilitat es reconeix, però cal demanar-la per escrit o per correu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mediamarkt-privacy-policy"
+      ],
+      "detail": "Per escrit o per correu al delegat de protecció de dades; inclou el dret a intervenció humana davant decisions automatitzades.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dpo@mediamarkt.es"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "mediamarkt-privacy-policy",
+        "mediamarkt-mimediamarkt-policy"
+      ],
+      "detail": "La publicitat de tercers requereix consentiment, però el màrqueting propi a clients i el perfilat de miMediaMarkt es basen en l’interès legítim i cal oposar-s’hi.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "mediamarkt-privacy-policy"
+      ],
+      "detail": "L’analítica depèn del consentiment de galetes al web; a l’aplicació no hem trobat un control equivalent.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "mediamarkt-privacy-policy"
+      ],
+      "detail": "Galetes per categories i consentiments separats per a butlletí, perfilat i màrqueting de tercers; la prevenció del frau amb Forter no admet oposició.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi de patrons foscos de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no ofereix comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap documentació oficial sobre el xifratge en trànsit."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública sobre el xifratge de les dades en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap opció de verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories ni certificacions publicades."
+    },
+    "bugBounty": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "mediamarkt-security"
+      ],
+      "detail": "El programa de divulgació a HackerOne no declara recompenses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mediamarkt-security",
+        "mediamarkt-security-txt"
+      ],
+      "detail": "Programa de divulgació de vulnerabilitats a HackerOne i fitxer security.txt que remet a vdp.mediamarktsaturn.com.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "wallapop",
+      "comparability": "complementary",
+      "rationale": "Comprar electrònica de segona mà entre particulars evita crear un compte en un programa de fidelització que perfila les compres per interès legítim.",
+      "tradeOffs": "Sense garantia de botiga ni servei tècnic, i l’oferta depèn del que venen altres persones."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Hem revisat tots els procediments sancionadors de l’AEPD que surten amb «media markt». Els paquets lliurats a una altra persona (PS/00280/2022, AI/00110/2024, PS/00473/2024) van acabar amb multa al transportista o arxivats, i no els comptem com a incidents de MediaMarkt. La sentència del TJUE C-687/21 (2024), sobre MediaMarktSaturn a Alemanya, no l’hem registrada perquè no n’hem pogut verificar els fets. L’atac de ransomware Hive de 2021 va afectar sobretot els Països Baixos i Alemanya, sense robatori confirmat de dades de clients. JD.com té pendent la compra de Ceconomy.",
+    "openQuestions": [
+      "Què es conserva després d’eliminar el compte, i durant quant de temps?",
+      "L’atac de 2021 va afectar dades de clients d’Espanya?",
+      "Si JD.com compra Ceconomy, canviaran les transferències de dades?"
+    ]
+  },
+  "appStoreBundleId": "es.mediamarkt.app.ios"
+}

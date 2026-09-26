@@ -1,0 +1,444 @@
+{
+  "slug": "sewpal",
+  "name": "Sewpal",
+  "company": "pixelcell",
+  "categories": [
+    "traduccio-i-referencia"
+  ],
+  "tagline": "Guia de costura amb assistent d’IA que declara les teves fotos entre les dades de rastreig",
+  "summary": "Sewpal ensenya a cosir, genera patrons a partir de fotos i porta un assistent d’IA. L’etiqueta de l’App Store declara com a dades de rastreig les compres, els identificadors, l’ús i el contingut de la persona usuària, que aquí vol dir les fotos que hi puges. La política, però, és un text genèric d’un estudi de Singapur que no esmenta ni l’assistent d’IA ni què se’n fa dels patrons generats, admet que no respecta el senyal «Do Not Track» i adverteix que les dades viatgen als Estats Units amb una protecció que pot no ser equivalent.",
+  "platforms": [
+    "ios"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Singapur",
+  "links": {
+    "website": "https://www.getsewpal.com/",
+    "privacyPolicy": "https://app-service.getsewpal.com/static/privacy_policy.html",
+    "appStore": "https://apps.apple.com/es/app/id6754315885"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "sewpal-privacy"
+    ],
+    "detail": "La política descriu un perfil amb correu, nom d’usuari i contrasenya.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "sewpal-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Les fotos que puges per generar un patró són contingut teu i, segons l’etiqueta, poden servir per rastrejar-te en apps i webs d’altres empreses. La política, a més, adverteix que altres persones poden descarregar les imatges que comparteixis públicament.",
+  "dataCollection": [
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "sewpal-privacy"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "sewpal-app-store"
+      ]
+    },
+    {
+      "type": "contrasenya",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "sewpal-privacy"
+      ]
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "sewpal-app-store",
+        "sewpal-privacy"
+      ],
+      "note": "L’etiqueta les posa entre les dades de rastreig; la política adverteix que les imatges compartides públicament les poden descarregar altres persones."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "sewpal-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "sewpal-app-store",
+        "sewpal-privacy"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "sewpal-privacy"
+      ],
+      "note": "Recollida amb Google Analytics."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "sewpal-app-store",
+        "sewpal-privacy"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "sewpal-privacy"
+      ],
+      "note": "La política reconeix galetes i tecnologia de seguiment de tercers per mostrar anuncis adaptats als interessos dins i fora de l’aplicació."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "sewpal-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "sewpal-app-store",
+        "sewpal-privacy"
+      ],
+      "detail": "L’etiqueta declara quatre categories de dades de rastreig i la política admet que no atén el senyal «Do Not Track».",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "sewpal-app-store"
+      ],
+      "detail": "Identificadors de dispositiu i de compte declarats entre les dades de rastreig.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "sewpal-privacy"
+      ],
+      "detail": "Google Analytics i tecnologia de seguiment de tercers per a publicitat.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "sewpal-privacy"
+      ],
+      "detail": "La política permet que proveïdors mostrin anuncis adaptats als interessos dins de l’aplicació i «en altres llocs en línia».",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "sewpal-privacy"
+      ],
+      "detail": "La publicitat per interessos implica segmentació, però la política no descriu com es construeix el perfil.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La fitxa de l’App Store anuncia un assistent d’IA i un generador de patrons a partir de fotos, però la política no esmenta l’IA ni què es fa amb les imatges enviades."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "sewpal-privacy"
+      ],
+      "detail": "Apple i Google per a pagaments i analítica, Amazon Web Services per a l’allotjament i xarxes publicitàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap estructura de grup."
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no ho aclareix; parla de proveïdors de publicitat sense dir si hi ha venda."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "sewpal-privacy"
+      ],
+      "detail": "Les dades es transfereixen als Estats Units i la política adverteix que la transferència «pot no oferir un nivell de protecció similar», sense citar cap garantia adequada.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "none"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "sewpal-privacy"
+      ],
+      "detail": "El criteri és «mentre sigui necessari i rellevant per al nostre negoci», sense cap termini.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu què es conserva un cop esborrat el compte."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "sewpal-privacy"
+      ],
+      "detail": "La política reconeix el dret a demanar-ne la supressió.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu on és l’opció dins de l’aplicació; cal contrastar-ho amb l’ús real."
+    },
+    "difficulty": "unknown",
+    "steps": [
+      "Cancel·la la subscripció SewPal Premium des de l’App Store si en tens una activa.",
+      "Escriu a support@pixelcell.com demanant la supressió del compte i de les dades."
+    ],
+    "obstacles": "La política adverteix que en esborrar les dades es pot perdre l’accés a parts de l’aplicació, i no fixa cap termini de resposta.",
+    "sources": [
+      "sewpal-privacy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "sewpal-privacy"
+      ],
+      "detail": "La política enumera la portabilitat entre els drets, però no descriu cap eina.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "sewpal-privacy"
+      ],
+      "detail": "Tots els drets s’exerceixen per una sola adreça de correu de suport.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:support@pixelcell.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "sewpal-privacy"
+      ],
+      "detail": "Hi ha exclusió del màrqueting, però la política diu que no respecta el senyal «Do Not Track» del navegador.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "sewpal-privacy"
+      ],
+      "detail": "No descriu cap manera de desactivar Google Analytics.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "sewpal-privacy"
+      ],
+      "detail": "La política no descriu cap control de privadesa dins del producte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem provat el flux de subscripció; la fitxa ofereix compres de 3,99 € i 34,99 €."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És una aplicació de contingut i patrons, sense comunicacions privades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El domini no publica cap fitxer security.txt."
+    }
+  },
+  "review": {
+    "researchStatus": "initial",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "No hem trobat incidents documentats. És una aplicació nova d’un estudi petit: la política és un text de plantilla que no descriu el producte publicat a l’App Store, i per això molts apartats queden com a desconeguts.",
+    "openQuestions": [
+      "Què fa exactament l’assistent d’IA amb les fotos i amb les preguntes que se li fan?",
+      "Hi ha opció d’esborrar el compte dins de l’aplicació?",
+      "Quins socis publicitaris reben el contingut declarat com a dada de rastreig?"
+    ]
+  },
+  "appStoreBundleId": "com.sewpal.sewing"
+}

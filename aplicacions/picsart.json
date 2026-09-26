@@ -1,0 +1,648 @@
+{
+  "slug": "picsart",
+  "name": "Picsart",
+  "company": "picsart",
+  "categories": [
+    "edicio-de-foto-i-video",
+    "xarxes-socials"
+  ],
+  "tagline": "Editor gratuït finançat amb publicitat basada en interessos i tres anys de conservació després de la baixa",
+  "summary": "Picsart admet a la seva política que el servei es finança, en part, amb publicitat basada en interessos «sense la qual no podria oferir una experiència gratuïta». L’aplicació combina l’edició amb una xarxa social pública, cosa que fa que les creacions puguin quedar-se al servei encara que se’n tanqui el compte. Les condicions d’ús li atorguen una llicència mundial i sublicenciable sobre el contingut.",
+  "platforms": [
+    "ios",
+    "android",
+    "web",
+    "windows"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Estats Units",
+  "userBase": "Centenars de milions de descàrregues acumulades",
+  "links": {
+    "website": "https://picsart.com",
+    "privacyPolicy": "https://picsart.com/privacy-policy/",
+    "terms": "https://picsart.com/terms-and-conditions/",
+    "appStore": "https://apps.apple.com/es/app/id587366035"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "picsart-privacy-policy"
+    ],
+    "detail": "Cal registrar-se per desar projectes, publicar creacions i gestionar la subscripció.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "picsart-terms"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Les fotografies, els vídeos i l’àudio que s’editen es combinen amb l’historial de cerca dins de l’aplicació, la llista de contactes i les aplicacions instal·lades. Amb aquestes dades es construeix el perfil d’interessos del model publicitari que la política reconeix.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "picsart-privacy-policy",
+        "picsart-play-data-safety"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "picsart-privacy-policy",
+        "picsart-play-data-safety"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "picsart-play-data-safety"
+      ]
+    },
+    {
+      "type": "contrasenya",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "picsart-privacy-policy"
+      ]
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "picsart-privacy-policy",
+        "picsart-play-data-safety"
+      ],
+      "note": "Inclou la fotografia de perfil i les imatges amb cara que alimenten els efectes facials."
+    },
+    {
+      "type": "dades-biometriques",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "picsart-privacy-policy"
+      ],
+      "note": "La política esmenta dades facials derivades dels efectes d’imatge; no en detalla la conservació."
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "picsart-play-data-safety"
+      ]
+    },
+    {
+      "type": "fitxers-i-documents",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "picsart-play-data-safety"
+      ]
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "picsart-privacy-policy",
+        "picsart-play-data-safety"
+      ],
+      "note": "Només amb permís, per trobar-hi coneguts."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "picsart-play-data-safety"
+      ]
+    },
+    {
+      "type": "aplicacions-instal-lades",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "picsart-play-data-safety"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "picsart-play-data-safety"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "picsart-privacy-policy"
+      ],
+      "note": "També serveix per deduir la ubicació aproximada."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "picsart-privacy-policy"
+      ]
+    },
+    {
+      "type": "genere",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "picsart-privacy-policy"
+      ]
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts",
+        "compliment-legal"
+      ],
+      "sources": [
+        "picsart-privacy-policy"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "picsart-privacy-policy",
+        "picsart-play-data-safety"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "picsart-play-data-safety"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "picsart-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "picsart-play-data-safety"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "picsart-privacy-policy"
+      ],
+      "detail": "La política remet a les eines de baixa sectorials de la Digital Advertising Alliance per a aplicacions mòbils, la qual cosa implica seguiment entre aplicacions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "picsart-play-data-safety"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "picsart-privacy-policy"
+      ],
+      "detail": "Xarxes publicitàries per a la publicitat basada en interessos.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "picsart-privacy-policy"
+      ],
+      "detail": "La política diu: «l’ús de Picsart se sosté, en part, amb publicitat basada en interessos, sense la qual Picsart no podria oferir una experiència gratuïta o econòmica».",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://www.aboutads.info/appchoices"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "picsart-privacy-policy"
+      ],
+      "detail": "Perfila interessos per personalitzar contingut i publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Ni la política ni les condicions d’ús declaren si el contingut de les persones usuàries serveix per entrenar els models generatius de Picsart, tot i que el producte n’ofereix molts."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "picsart-privacy-policy"
+      ],
+      "detail": "Proveïdors de servei, xarxes publicitàries i autoritats quan la llei ho exigeix.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no detalla la circulació de dades entre societats del grup."
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta la venda de dades a intermediaris."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "picsart-privacy-policy"
+      ],
+      "detail": "Les transferències es fan a l’empara dels contractes tipus de la Comissió Europea.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap informe de transparència sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "picsart-privacy-policy"
+      ],
+      "detail": "Hi ha un termini concret per a la conservació posterior a la baixa, però no per categoria de dada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "picsart-privacy-policy",
+        "picsart-terms"
+      ],
+      "detail": "Certa informació es conserva fins a tres anys després de tancar el compte, i el contingut publicat pot romandre al servei de manera indefinida si altres persones l’han utilitzat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "period": "fins a 3 anys després de tancar el compte, per a compliment legal i peticions d’autoritats",
+        "sources": [
+          "picsart-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "picsart-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "picsart-privacy-policy"
+      ],
+      "detail": "La política remet al perfil de l’aplicació per accedir i actualitzar les dades, i al portal privacy.picsart.com per a les sol·licituds formals de supressió de les persones residents a la UE.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://privacy.picsart.com",
+    "difficulty": "medium",
+    "steps": [
+      "Entra al teu perfil des de l’aplicació de Picsart i revisa la configuració del compte.",
+      "Per a una supressió formal, obre https://privacy.picsart.com i presenta la sol·licitud com a persona resident a la Unió Europea.",
+      "Com a alternativa, escriu a privacy@picsart.com invocant l’article 17 del RGPD.",
+      "Esborra abans les creacions públiques que no vulguis que quedin al servei."
+    ],
+    "obstacles": "Les condicions d’ús adverteixen que el contingut compartit públicament «pot romandre al servei a perpetuïtat» si altres persones l’han reutilitzat, i que passar-lo a privat o esborrar-lo pot no ser suficient.",
+    "dataRetained": "Informació conservada fins a tres anys per a compliment legal i peticions d’autoritats.",
+    "sources": [
+      "picsart-privacy-policy",
+      "picsart-terms"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "picsart-privacy-policy"
+      ],
+      "detail": "Les persones de la UE i el Regne Unit poden demanar una còpia en format llegible per màquina, però no hi ha cap eina d’exportació automàtica.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://privacy.picsart.com"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "picsart-privacy-policy"
+      ],
+      "detail": "Portal de privadesa específic i adreça del delegat de protecció de dades.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://privacy.picsart.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "picsart-privacy-policy"
+      ],
+      "detail": "La baixa de la publicitat basada en interessos es delega a eines sectorials externes (DAA AppChoices i NAI) i a la configuració del navegador, no a un control propi.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.aboutads.info/appchoices"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap manera de desactivar l’analítica d’ús."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "picsart-privacy-policy"
+      ],
+      "detail": "Hi ha un gestor de galetes al web i controls de visibilitat al perfil, però no un panell per finalitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [
+        "picsart-terms"
+      ],
+      "detail": "Fer dependre la baixa de la publicitat d’eines sectorials de tercers i advertir que el contingut públic pot quedar-se «a perpetuïtat» són friccions afegides a la sortida.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "confusing-language",
+        "severity": "medium",
+        "description": "La baixa de la publicitat personalitzada s’explica remetent a tres mecanismes externs diferents en lloc d’un control dins de l’aplicació.",
+        "sources": [
+          "picsart-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei allotja i publica el contingut, de manera que l’ha de poder desxifrar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "picsart-play-data-safety"
+      ],
+      "detail": "El desenvolupador declara a Google Play que les dades es xifren en trànsit.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta la verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories independents ni certificacions publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses ni fitxer security.txt al domini."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap canal específic de comunicació de vulnerabilitats."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "canva",
+      "comparability": "partial",
+      "rationale": "Cobreix bona part de l’edició i el disseny sense la xarxa social pública on el contingut pot quedar-se indefinidament.",
+      "tradeOffs": "Té menys eines d’edició fotogràfica avançada i també recull dades d’ús per personalitzar el servei."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La política admet literalment que el model de negoci depèn de la publicitat basada en interessos. En canvi, no diu res sobre l’entrenament de models, tot i que el producte es ven com a «editor de fotos amb IA»; per això aquest punt consta com a desconegut i com a pregunta oberta.",
+    "openQuestions": [
+      "L’etiqueta de privadesa de l’App Store no s’ha pogut consultar: Apple va respondre amb un error 429 durant tota la revisió.",
+      "El contingut de les persones usuàries s’utilitza per entrenar els models generatius de Picsart?"
+    ]
+  },
+  "appStoreBundleId": "com.picsart.studio"
+}

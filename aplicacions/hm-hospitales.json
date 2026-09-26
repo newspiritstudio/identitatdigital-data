@@ -1,0 +1,476 @@
+{
+  "slug": "hm-hospitales",
+  "name": "HM Hospitales",
+  "company": "hm-hospitales",
+  "categories": [
+    "salut-i-assistencia-sanitaria"
+  ],
+  "tagline": "El portal del pacient comparteix la història clínica amb una vintena de societats del grup per interès legítim",
+  "summary": "L’aplicació d’HM Hospitales és el portal del pacient del grup: cites, història clínica i gestió de familiars associats. L’etiqueta de l’App Store declara dades molt sensibles: salut, ubicació exacta, adreça postal, correu, nom i telèfon, tots vinculats a la identitat. La política de privadesa és del grup sencer i llista una vintena de societats que comparteixen les dades dels pacients «per interès legítim, per mantenir una gestió integral i centralitzada». També hi consta que el grup fa servir eines d’intel·ligència artificial com a suport al diagnòstic, amb la decisió mèdica final sempre en mans del facultatiu.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Espanya (UE)",
+  "links": {
+    "website": "https://www.hmhospitales.com/",
+    "privacyPolicy": "https://www.hmhospitales.com/politica-de-privacidad/",
+    "appStore": "https://apps.apple.com/es/app/id1260901154"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "hm-hospitales-app-store",
+      "hm-hospitales-privacy-policy"
+    ],
+    "detail": "Cal registrar-se com a Usuari HM per accedir a les cites i a la història clínica.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "hm-hospitales-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "El conjunt uneix la identitat, el contacte, la ubicació i la història clínica sencera d’una persona i dels familiars que hi associï. La política hi afegeix un perfil sanitari per enviar informació assistencial i, amb consentiment, un perfil comercial per oferir serveis del grup.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compartir-dins-del-grup"
+      ],
+      "sources": [
+        "hm-hospitales-app-store",
+        "hm-hospitales-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "hm-hospitales-app-store",
+        "hm-hospitales-privacy-policy"
+      ],
+      "note": "També per als recordatoris de cita i, amb consentiment, per a la informació comercial."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "hm-hospitales-app-store",
+        "hm-hospitales-privacy-policy"
+      ],
+      "note": "La política preveu recordatoris per SMS i per missatgeria instantània."
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "hm-hospitales-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal",
+        "compartir-dins-del-grup"
+      ],
+      "sources": [
+        "hm-hospitales-app-store",
+        "hm-hospitales-privacy-policy"
+      ],
+      "note": "Història clínica completa: alta, seguiment i evolució. L’etiqueta la declara com a dada de salut vinculada a la identitat."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "hm-hospitales-app-store"
+      ],
+      "note": "L’etiqueta la declara per a la funcionalitat de l’app; la política no explica per a què."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "hm-hospitales-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "hm-hospitales-app-store"
+      ]
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "hm-hospitales-privacy-policy"
+      ],
+      "note": "La política preveu elaborar un perfil sanitari per a les comunicacions assistencials i, amb consentiment, un perfil comercial per enviar informació de productes i serveis del grup."
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "hm-hospitales-privacy-policy"
+      ],
+      "note": "La política avisa que les trucades telefòniques es poden gravar per millorar la qualitat."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "hm-hospitales-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada usada per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "hm-hospitales-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap identificador de dispositiu ni publicitari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no identifica cap eina d’analítica dins de l’aplicació."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "hm-hospitales-privacy-policy"
+      ],
+      "detail": "La política preveu enviar informació comercial personalitzada, amb un perfil elaborat a partir de les dades facilitades, però sempre amb consentiment i limitada als serveis del grup i del sector sanitari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "hm-hospitales-privacy-policy"
+      ],
+      "detail": "Elabora un perfil sanitari per als recordatoris i la informació assistencial i, amb consentiment, un perfil comercial. Afirma que no pren decisions exclusivament automatitzades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "hm-hospitales-privacy-policy"
+      ],
+      "detail": "La política diu que el grup fa servir eines d’intel·ligència artificial com a suport al diagnòstic i per optimitzar processos, amb base en l’execució del contracte i l’interès legítim, però no diu si les dades dels pacients serveixen per entrenar models.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "hm-hospitales-privacy-policy"
+      ],
+      "detail": "Companyies asseguradores, laboratoris i serveis mèdics externs, ambulàncies, proveïdors de material sanitari, empreses de formació i administracions públiques.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "hm-hospitales-privacy-policy"
+      ],
+      "detail": "La política llista prop de trenta societats del grup i diu que les dades es comparteixen «per interès legítim, per mantenir una gestió integral i centralitzada».",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu explícitament que no vengui dades personals."
+    },
+    "internationalTransfers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "hm-hospitales-privacy-policy"
+      ],
+      "detail": "Només les preveu quan l’entitat asseguradora és fora de l’Espai Econòmic Europeu, i diu que es fan «amb garanties adequades» sense concretar el mecanisme.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència sobre peticions de dades."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "hm-hospitales-privacy-policy"
+      ],
+      "detail": "La política dona una taula de terminis per finalitat, però gairebé tots remeten a «mentre no prescriguin les possibles accions legals». Només concreta un any per a les candidatures d’ocupació i un mes per a la videovigilància.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no explica què es conserva després d’exercir el dret de supressió."
+    },
+    "periods": [
+      {
+        "dataType": "fotografies-i-videos",
+        "period": "Un mes per a les imatges de videovigilància, tret que calgui conservar-les per acreditar fets",
+        "sources": [
+          "hm-hospitales-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "hm-hospitales-privacy-policy"
+      ],
+      "detail": "Es pot exercir el dret de supressió, però la història clínica es conserva per obligació legal sanitària.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "hm-hospitales-privacy-policy"
+      ],
+      "detail": "Cal descarregar un formulari i enviar-lo per correu postal o electrònic, o bé anar a l’Atenció al Pacient d’un centre.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "hard",
+    "requiresSupportContact": true,
+    "steps": [
+      "Descarrega el formulari de sol·licitud d’exercici de drets que enllaça la política de privadesa.",
+      "Envia’l a HM Hospitales 1989, S.A., Plaza del Conde del Valle de Suchil 2, 28015 Madrid, o al correu de protecció de dades que hi consta.",
+      "També es pot presentar presencialment a l’Atenció al Pacient de qualsevol centre del grup.",
+      "Si hi ha dubtes sobre la identitat, el grup pot demanar documentació addicional."
+    ],
+    "obstacles": "No hi ha cap opció de baixa dins de l’aplicació ni del portal: tot passa per un formulari en paper o per correu, i la història clínica no es pot esborrar.",
+    "dataRetained": "La història clínica i la documentació assistencial, durant els terminis que fixa la normativa sanitària.",
+    "sources": [
+      "hm-hospitales-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "hm-hospitales-privacy-policy"
+      ],
+      "detail": "Reconeix la portabilitat en format estructurat i de lectura mecànica, però només per als tractaments automatitzats basats en el consentiment o el contracte i sempre per sol·licitud.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "hm-hospitales-privacy-policy"
+      ],
+      "detail": "Amb formulari descarregable, per correu postal o electrònic, o presencialment a l’Atenció al Pacient.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.hmhospitales.com/politica-de-privacidad/"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "hm-hospitales-privacy-policy"
+      ],
+      "detail": "La informació comercial i el butlletí es basen en el consentiment, que es pot retirar en qualsevol moment, i es pot exercir el dret d’oposició a la mercadotecnia directa i a l’elaboració de perfils.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’etiqueta no declara dades de diagnòstic i la política no parla de telemetria de l’aplicació."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut comprovar quins controls ofereix el portal del pacient."
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut revisar els fluxos de registre i de consentiment de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no parla de xifratge d’extrem a extrem."
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política només parla de mesures tècniques i organitzatives en termes generals."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no concreta el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut comprovar si el portal del pacient admet la verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política esmenta auditors de comptes com a destinataris, però no cap auditoria de seguretat o de protecció de dades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses per a vulnerabilitats."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El domini hmhospitales.com no serveix cap fitxer security.txt."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "quironsalud",
+      "comparability": "equivalent",
+      "rationale": "És el portal del pacient d’un altre grup hospitalari privat espanyol, amb cites i informes clínics.",
+      "tradeOffs": "Només serveix si et tractes en un centre d’aquell grup, i el grup també és gran i centralitza dades."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "La política de privadesa és del grup sencer i no distingeix el tractament de l’aplicació del de la resta de canals; hem atribuït a l’app el que descriu per a l’Usuari HM i el portal del pacient. L’etiqueta de l’App Store declara ubicació exacta i aproximada que la política no justifica enlloc. El buscador de resolucions de l’AEPD no ens ha respost i no hem pogut completar la cerca d’incidents.",
+    "openQuestions": [
+      "Per a què demana l’aplicació la ubicació exacta?",
+      "Les dades dels pacients s’han fet servir mai per entrenar les eines d’intel·ligència artificial de suport al diagnòstic?",
+      "Hi ha cap manera d’eliminar el compte d’Usuari HM sense presentar el formulari en paper?"
+    ]
+  },
+  "appStoreBundleId": "com.grupotrc.HMHospitales"
+}

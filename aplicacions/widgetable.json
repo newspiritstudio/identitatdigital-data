@@ -1,0 +1,413 @@
+{
+  "slug": "widgetable",
+  "name": "Widgetable",
+  "company": "happeny-technology",
+  "categories": [
+    "utilitats",
+    "xarxes-socials"
+  ],
+  "tagline": "Ginys per a la pantalla d’inici amb ubicació i son, i una política de privadesa que no esmenta el RGPD",
+  "summary": "Widgetable posa ginys compartits amb amics o parella a la pantalla d’inici: distància entre tots dos, mascotes virtuals, estat d’ànim i hores de son. Demana permís de fotos, Bluetooth, ubicació i salut. La política de privadesa és del 2024, no diu quina societat és responsable del tractament, no esmenta el RGPD ni cap base jurídica, no dona cap termini de conservació i remet qualsevol supressió a un correu electrònic.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Singapur, sense establiment declarat a la Unió Europea",
+  "links": {
+    "website": "https://widgetable.net/",
+    "privacyPolicy": "https://widgetable.net/privacy",
+    "appStore": "https://apps.apple.com/es/app/id1641107226"
+  },
+  "accountRequired": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": [],
+    "detail": "La política parla d’«usuaris registrats», però no diu si cal compte per fer servir els ginys."
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "widgetable-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "La distància amb una altra persona, les hores que dorm i la ubicació al llarg del dia. La política no identifica el responsable del tractament d’aquestes dades de parella i de son.",
+  "dataCollection": [
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "widgetable-app-store",
+        "widgetable-privacy-policy"
+      ],
+      "note": "Per al giny del temps i per calcular la distància amb una altra persona."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "widgetable-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "widgetable-app-store",
+        "widgetable-privacy-policy"
+      ],
+      "note": "Llegeix les dades de son; la política diu que no es comparteixen amb tercers."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "widgetable-privacy-policy"
+      ],
+      "note": "Accés a l’àlbum per posar una foto de fons al giny."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "widgetable-app-store",
+        "widgetable-privacy-policy"
+      ],
+      "note": "Firebase i altres eines d’estadística."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "widgetable-privacy-policy"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "widgetable-app-store"
+      ],
+      "note": "L’etiqueta declara les dades d’ús com a dades de rastreig."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "widgetable-app-store"
+      ]
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "widgetable-privacy-policy"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "widgetable-app-store"
+      ],
+      "detail": "L’etiqueta declara les dades d’ús com a dades utilitzades per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política parla d’identificadors del dispositiu, però no diu si fa servir l’identificador publicitari."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "widgetable-privacy-policy"
+      ],
+      "detail": "Cita Firebase per a estadístiques i empreses de publicitat que fan servir galetes i tecnologies similars.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "widgetable-privacy-policy"
+      ],
+      "detail": "La política esmenta publicitat personalitzada i empreses publicitàries amb tecnologies de seguiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "widgetable-privacy-policy"
+      ],
+      "detail": "Proveïdors d’estadística i socis publicitaris.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "widgetable-privacy-policy"
+      ],
+      "detail": "Diu que no ven ni intercanvia dades d’usuari, tot i que l’afirmació apareix a l’apartat de dades de salut.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu on es tracten les dades ni amb quin mecanisme es transfereixen."
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "widgetable-privacy-policy"
+      ],
+      "detail": "L’únic termini és «només el temps necessari» per a les dades de salut.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "widgetable-privacy-policy"
+      ],
+      "detail": "Diu que la informació esborrada pot quedar a les còpies de seguretat i que es pot denegar la supressió per motius de seguretat o legals.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "widgetable-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "widgetable-privacy-policy"
+      ],
+      "detail": "La política només preveu demanar-ho per correu electrònic.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "hard",
+    "requiresSupportContact": true,
+    "steps": [
+      "Escriu a service@widgetable.net demanant la supressió del compte i de les dades personals.",
+      "Respon a les preguntes d’identificació que et facin per confirmar que el compte és teu.",
+      "Un cop processada la petició, perds l’accés al compte i al servei."
+    ],
+    "obstacles": "No hi ha cap opció documentada dins de l’aplicació i la política admet que poden denegar la petició.",
+    "dataRetained": "La informació pot quedar a les còpies de seguretat i la que calgui per seguretat, compliment o reclamacions.",
+    "sources": [
+      "widgetable-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta el dret de portabilitat ni cap eina d’exportació."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "widgetable-privacy-policy"
+      ],
+      "detail": "L’únic canal és el correu service@widgetable.net; no s’hi enumeren els drets del RGPD.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:service@widgetable.net"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap control documentat per desactivar la publicitat personalitzada."
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "widgetable-privacy-policy"
+      ],
+      "detail": "Els permisos de fotos, Bluetooth, ubicació i salut es poden concedir o denegar per separat des del sistema operatiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta cap xifratge d’extrem a extrem dels continguts compartits entre amics."
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "widgetable-privacy-policy"
+      ],
+      "detail": "Només parla de xifratge i d’emmagatzematge segur per a les dades de son.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap programa de recompenses documentat ni fitxer security.txt."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "review": {
+    "researchStatus": "initial",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "openQuestions": [
+      "Quina societat és exactament la responsable del tractament i qui és el representant a la Unió Europea?",
+      "Quins SDK publicitaris incorpora l’aplicació i amb qui comparteix l’identificador de dispositiu?",
+      "Es pot eliminar el compte des de dins de l’aplicació?"
+    ]
+  },
+  "appStoreBundleId": "com.widgetable.theme"
+}

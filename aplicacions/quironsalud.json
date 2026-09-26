@@ -1,0 +1,550 @@
+{
+  "slug": "quironsalud",
+  "name": "Quirónsalud",
+  "company": "idcq-hospitales-y-sanidad",
+  "categories": [
+    "salut-i-assistencia-sanitaria"
+  ],
+  "tagline": "La història clínica de tot el grup en una aplicació que també demana la ubicació en segon pla",
+  "summary": "L’aplicació dona accés al Portal del Paciente, que mostra en un sol lloc la història clínica repartida per tots els hospitals i centres del grup Quirónsalud. La política específica del portal reconeix dues coses: que es fa perfilat dels usuaris per mostrar bàners de promoció de la salut i que, si s’hi consent, la ubicació es recull en segon pla «incluso cuando no se utilice el servicio». En canvi, detalla els terminis de conservació fins al minut, i el dret d’accés a la història clínica queda cobert pel mateix portal.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Espanya",
+  "userBase": "Pacients de més de 130 hospitals i centres del grup a Espanya",
+  "links": {
+    "website": "https://www.quironsalud.com/",
+    "privacyPolicy": "https://www.quironsalud.com/es/politica-proteccion-datos",
+    "privacyCenter": "https://www.quironsalud.es/idcsalud-client/cm/portal-paciente/condiciones",
+    "appStore": "https://apps.apple.com/es/app/id983560647"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "quironsalud-portal-paciente"
+    ],
+    "detail": "Cal registrar-se al Portal del Paciente; les credencials són gestionades per IDCQ Hospitales y Sanidad, S.L.U.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "editorial",
+    "sources": [],
+    "detail": "No consta cap publicació del codi font ni cap llicència lliure; és programari privatiu distribuït només per les botigues d’aplicacions.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Una història clínica completa inclou diagnòstics, proves d’imatge, medicació i el calendari de visites. L’aplicació hi suma la ubicació dins de l’hospital i, si se sincronitza, l’activitat física i el son del rellotge o del telèfon.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "quironsalud-portal-paciente"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "quironsalud-portal-paciente"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "quironsalud-privacy-policy"
+      ]
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "quironsalud-privacy-policy"
+      ],
+      "note": "Les dades identificatives del pacient són necessàries per lligar la història clínica de centres diferents."
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "investigacio-i-estadistica"
+      ],
+      "sources": [
+        "quironsalud-privacy-policy",
+        "quironsalud-portal-paciente"
+      ],
+      "note": "La política admet el tractament amb fins d’investigació científica i de docència, amb anonimització o pseudonimització prèvia."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "quironsalud-portal-paciente"
+      ],
+      "note": "Amb consentiment explícit: GPS, Bluetooth i Wi-Fi, i «en segundo plano en el dispositivo, incluso cuando no se utilice el servicio»."
+    },
+    {
+      "type": "contrasenya",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "quironsalud-portal-paciente"
+      ]
+    },
+    {
+      "type": "fitxers-i-documents",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "quironsalud-portal-paciente"
+      ],
+      "note": "El portal té un espai on la persona pot pujar informació per compartir-la amb els centres."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "quironsalud-app-store"
+      ]
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "quironsalud-portal-paciente"
+      ],
+      "note": "La política parla de «perfilado de los usuarios» per mostrar bàners i notificacions de promoció de la salut."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "quironsalud-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "quironsalud-privacy-policy"
+      ],
+      "note": "Les dades transaccionals es comuniquen a l’asseguradora o mútua que ha de pagar l’assistència."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "quironsalud-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada utilitzada per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "quironsalud-app-store"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Les polítiques no enumeren els components de tercers incrustats a l’aplicació."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "quironsalud-portal-paciente",
+        "quironsalud-privacy-policy"
+      ],
+      "detail": "No hi ha publicitat de tercers, però sí promoció comercial del grup amb consentiment i bàners personalitzats dins del portal.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "quironsalud-portal-paciente"
+      ],
+      "detail": "Perfilat dels usuaris per mostrar bàners i notificacions, amb el consentiment del registre o l’interès legítim com a base.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política preveu transcriure i anonimitzar consultes gravades, però no diu si el resultat s’utilitza per entrenar models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "quironsalud-privacy-policy"
+      ],
+      "detail": "Asseguradores i mútues per validar el pagament, proveïdors de material sanitari i ambulàncies, i encarregats del tractament informàtics.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "quironsalud-privacy-policy",
+        "quironsalud-portal-paciente"
+      ],
+      "detail": "Les dades del pacient són visibles per la resta de centres del grup sobre la base de l’interès legítim.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "quironsalud-privacy-policy"
+      ],
+      "detail": "La política limita les comunicacions als supòsits legals i als destinataris que enumera; no preveu cap venda de dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "quironsalud-privacy-policy"
+      ],
+      "detail": "Alguns tractaments mèdics i d’investigació poden comportar transferències, sempre amb clàusules contractuals tipus o decisió d’adequació.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "quironsalud-privacy-policy",
+        "quironsalud-portal-paciente"
+      ],
+      "detail": "Dona terminis concrets per a cada finalitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "quironsalud-portal-paciente",
+        "quironsalud-privacy-policy"
+      ],
+      "detail": "Donar-se de baixa del portal fa perdre l’accés, però la història clínica es conserva als centres pel termini legal.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "dades-de-salut",
+        "period": "Mínim 5 anys des de l’alta de cada procés assistencial, i fins als 15 anys de prescripció legal",
+        "sources": [
+          "quironsalud-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "veu-i-audio",
+        "period": "Gravació de la consulta: màxim 4 hores fins a la transcripció; la transcripció, 14 dies",
+        "sources": [
+          "quironsalud-privacy-policy"
+        ]
+      },
+      {
+        "period": "Gravació de trucades: 6 mesos",
+        "sources": [
+          "quironsalud-privacy-policy"
+        ]
+      },
+      {
+        "period": "Imatges de videovigilància: 30 dies",
+        "sources": [
+          "quironsalud-privacy-policy"
+        ]
+      },
+      {
+        "period": "Registres d’accés a la informació del portal: 5 anys",
+        "sources": [
+          "quironsalud-portal-paciente"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "quironsalud-portal-paciente"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "quironsalud-portal-paciente"
+      ],
+      "detail": "La política reconeix la baixa del portal i la supressió de les credencials, però el camí documentat passa pel formulari de contacte del portal, no per un botó dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://www.quironsalud.com/es/portal-paciente/contactar",
+    "difficulty": "medium",
+    "requiresSupportContact": true,
+    "steps": [
+      "Entra al Portal del Paciente amb les teves credencials.",
+      "Obre el formulari de contacte del portal a https://www.quironsalud.com/es/portal-paciente/contactar.",
+      "Demana la baixa com a usuari del portal o la supressió de les dades de les credencials.",
+      "Si vols exercir drets sobre la història clínica, adreça’t al Servicio de Atención al Paciente del centre o escriu a DPO@quironsalud.es."
+    ],
+    "obstacles": "Donar-se de baixa del portal no esborra la història clínica, que té un termini de conservació legal propi. La política ho separa, però l’aplicació no ho explica.",
+    "dataRetained": "La història clínica als centres sanitaris i els registres d’accés al portal, durant els terminis legals.",
+    "sources": [
+      "quironsalud-portal-paciente",
+      "quironsalud-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "quironsalud-portal-paciente"
+      ],
+      "detail": "El portal permet consultar, guardar, imprimir i descarregar tot l’historial, encara que estigui repartit en diversos centres.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.quironsalud.com/es/portal-paciente"
+    },
+    "exportFormatQuality": "mixed",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "quironsalud-privacy-policy"
+      ],
+      "detail": "Formulari descarregable, atenció presencial al centre i delegat de protecció de dades amb adreça pròpia.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:DPO@quironsalud.es",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "quironsalud-privacy-policy"
+      ],
+      "detail": "Les comunicacions comercials depenen d’un consentiment addicional revocable, però el perfilat per a bàners dins del portal s’empara també en l’interès legítim.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap control per desactivar la recollida de dades d’ús i de diagnòstic."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "quironsalud-portal-paciente"
+      ],
+      "detail": "Hi ha preferències per decidir amb quins centres es comparteix la informació pujada i consentiments separats per a la geolocalització i la sincronització amb les aplicacions de salut.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut revisar els fluxos de consentiment dins de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei ha de poder llegir la història clínica per mostrar-la; el xifratge d’extrem a extrem no és aplicable a aquest model.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "editorial",
+      "sources": [],
+      "detail": "El portal i l’aplicació només es publiquen sobre HTTPS, comprovat en consultar-ne les pàgines.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública sobre el xifratge de les dades en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta si el portal ofereix un segon factor; el Face ID o el Touch ID de l’aplicació només desbloquegen el dispositiu."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories de seguretat independents publicades."
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "quironsalud-security-txt"
+      ],
+      "detail": "El security.txt del domini remet al programa de Fresenius a HackerOne, tot i que el fitxer té la data de caducitat vençuda.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://hackerone.com/fresenius"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "quironsalud-security-txt"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "salud-andalucia",
+      "comparability": "partial",
+      "rationale": "Per a qui s’atén per la sanitat pública, l’aplicació autonòmica cobreix cita, recepta i informes sense perfilat comercial.",
+      "tradeOffs": "Només val per a la població atesa pel Servicio Andaluz de Salud i no mostra l’activitat als centres privats."
+    },
+    {
+      "app": "tarjeta-sanitaria",
+      "comparability": "partial",
+      "rationale": "Dona accés a la targeta i a part de la informació clínica pública sense crear un compte comercial.",
+      "tradeOffs": "No substitueix l’accés a la història clínica d’un grup privat."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "L’etiqueta de l’App Store no coincideix amb la política: classifica les dades de salut com a «no vinculades amb la teva identitat», tot i que l’aplicació mostra la història clínica amb el nom del pacient. La política del Portal del Paciente és més precisa que la majoria de les del sector.",
+    "openQuestions": [
+      "Per què l’etiqueta de l’App Store declara les dades de salut com a no vinculades amb la identitat?",
+      "Ofereix el Portal del Paciente un segon factor d’autenticació?",
+      "Queda pendent la cerca sistemàtica d’incidents i sancions: les eines de cerca no eren disponibles durant aquesta revisió."
+    ]
+  },
+  "appStoreBundleId": "com.divisait.quironsalud"
+}

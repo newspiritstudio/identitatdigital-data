@@ -1,0 +1,500 @@
+{
+  "slug": "mi-sanitas",
+  "name": "Mi Sanitas",
+  "company": "sanitas",
+  "categories": [
+    "salut-i-assistencia-sanitaria",
+    "banca-i-finances"
+  ],
+  "tagline": "L’etiqueta declara dades sensibles i identificadors de rastreig; la política enllaçada parla de cotitzar una assegurança",
+  "summary": "Mi Sanitas concentra el quadre mèdic, les cites, els informes, les receptes, els reemborsaments i els rebuts de l’assegurança, i hi afegeix serveis de medicina digital com la videoconsulta, l’avaluador de símptomes i la mesura de constants vitals. La descripció oficial confirma que fa servir HealthKit, la càmera, el micròfon i la ubicació. La política enllaçada des de l’App Store, en canvi, està escrita per al web de contractació: no esmenta l’aplicació, ni HealthKit, ni les dades de salut.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "subscription",
+  "jurisdiction": "Espanya",
+  "userBase": "Clients de l’assegurança de salut de Sanitas a Espanya",
+  "links": {
+    "website": "https://www.sanitas.es/",
+    "privacyPolicy": "https://www.sanitas.es/sanitas/seguros/es/politica-privacidad/index.html",
+    "appStore": "https://apps.apple.com/es/app/id1079001524"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "mi-sanitas-app-store"
+    ],
+    "detail": "L’aplicació és per a clients amb pòlissa; cal identificar-se per veure’n les gestions.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "editorial",
+    "sources": [],
+    "detail": "No consta cap publicació del codi font; és programari privatiu.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Reuneix dades clíniques, dades econòmiques de la pòlissa i dades de sensors del telèfon. Els informes mèdics, els copagaments i les constants vitals junts descriuen tant l’estat de salut com el cost que té per a l’asseguradora.",
+  "dataCollection": [
+    {
+      "type": "dades-de-salut",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "mi-sanitas-app-store"
+      ],
+      "note": "L’etiqueta declara «Salud y forma física» vinculada amb la identitat; la descripció confirma l’ús d’HealthKit i de l’avaluador de símptomes."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "mi-sanitas-app-store"
+      ],
+      "note": "Reemborsaments, rebuts i copagaments."
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "sanitas-privacy-policy",
+        "mi-sanitas-app-store"
+      ]
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "sanitas-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "sanitas-privacy-policy"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "sanitas-privacy-policy"
+      ]
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "mi-sanitas-app-store"
+      ],
+      "note": "La càmera i la galeria serveixen per adjuntar documents; el micròfon, per a la videoconsulta."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "mi-sanitas-app-store"
+      ],
+      "note": "L’etiqueta declara identificadors com a dades utilitzades per rastrejar."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "sanitas-privacy-policy",
+        "mi-sanitas-app-store"
+      ],
+      "note": "La política del web esmenta l’identificador de publicitat entre les dades de navegació."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "mi-sanitas-app-store"
+      ],
+      "note": "Per mostrar els metges i els centres més propers."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "mi-sanitas-app-store"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "sanitas-privacy-policy"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mi-sanitas-app-store"
+      ],
+      "detail": "L’etiqueta declara identificadors utilitzats per rastrejar entre aplicacions i llocs web d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "sanitas-privacy-policy"
+      ],
+      "detail": "La política enumera l’identificador de publicitat entre les dades de navegació que es tracten.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "sanitas-privacy-policy"
+      ],
+      "detail": "La política descriu galetes i tecnologies similars de tercers subjectes a consentiment.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "sanitas-privacy-policy"
+      ],
+      "detail": "Les comunicacions comercials depenen del consentiment exprés, però la política admet el tractament de l’identificador de publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap elaboració de perfils ni decisions automatitzades."
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu si les dades alimenten els serveis de medicina digital basats en models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "sanitas-privacy-policy"
+      ],
+      "detail": "Encarregats del tractament que presten serveis i administracions públiques quan ho exigeix la llei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "sanitas-privacy-policy"
+      ],
+      "detail": "Les dades es poden comunicar a altres entitats del grup Sanitas amb finalitats administratives.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta cap venda de dades."
+    },
+    "internationalTransfers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "sanitas-privacy-policy"
+      ],
+      "detail": "La política admet destinataris dins o fora de l’Espai Econòmic Europeu i remet el detall a una pàgina separada, sense concretar el mecanisme al document principal.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència del grup."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "sanitas-privacy-policy"
+      ],
+      "detail": "Hi ha terminis concrets per a la cotització (10 dies) i per a les comunicacions comercials, però cap per a les dades clíniques de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu què es conserva quan s’abandona l’aplicació o es dona de baixa la pòlissa."
+    },
+    "periods": [
+      {
+        "period": "Dades de cotització d’una assegurança: 10 dies",
+        "sources": [
+          "sanitas-privacy-policy"
+        ]
+      },
+      {
+        "period": "Comunicacions comercials: fins a la retirada del consentiment",
+        "sources": [
+          "sanitas-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "sanitas-privacy-policy"
+      ],
+      "detail": "El dret de supressió es reconeix a la política, sense cap eina d’autoservei documentada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap pàgina que descrigui l’eliminació del compte de Mi Sanitas des de l’aplicació."
+    },
+    "difficulty": "unknown",
+    "requiresSupportContact": true,
+    "steps": [
+      "Escriu a lopd@sanitas.es o a dpo@sanitas.es indicant que vols exercir el dret de supressió.",
+      "Especifica si vols donar de baixa només l’accés a Mi Sanitas o tot el tractament associat a la pòlissa."
+    ],
+    "obstacles": "La baixa de l’aplicació no es pot separar fàcilment de la relació contractual: mentre hi ha pòlissa, l’asseguradora manté una base jurídica pròpia per tractar les dades.",
+    "dataRetained": "Dades contractuals i de facturació durant els terminis legals.",
+    "sources": [
+      "sanitas-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "sanitas-privacy-policy"
+      ],
+      "detail": "El dret de portabilitat es reconeix, però no hi ha cap eina d’exportació descrita.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "sanitas-privacy-policy"
+      ],
+      "detail": "Dues adreces publicades: lopd@sanitas.es per a l’exercici de drets i dpo@sanitas.es per al delegat de protecció de dades.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dpo@sanitas.es"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "sanitas-privacy-policy"
+      ],
+      "detail": "El consentiment per a comunicacions comercials i per a galetes es pot retirar, però no hi ha cap control equivalent dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap control per desactivar l’analítica de l’aplicació."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "mi-sanitas-app-store"
+      ],
+      "detail": "L’aplicació demana permisos separats per a calendari, ubicació, fotos, càmera, micròfon i HealthKit, que es poden revocar des del sistema operatiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut revisar els fluxos de consentiment dins de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta si la videoconsulta utilitza xifratge d’extrem a extrem."
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "editorial",
+      "sources": [],
+      "detail": "Els serveis de Sanitas es publiquen sobre HTTPS, comprovat en consultar-ne les pàgines.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública sobre el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta si el compte admet un segon factor."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories de seguretat independents publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses ni security.txt al domini."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap canal públic de divulgació de vulnerabilitats."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "salud-andalucia",
+      "comparability": "partial",
+      "rationale": "Per a les gestions clíniques bàsiques, els serveis públics autonòmics no declaren identificadors utilitzats per rastrejar.",
+      "tradeOffs": "No gestionen la pòlissa privada, els reemborsaments ni el quadre mèdic."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "L’etiqueta de l’App Store declara dades de salut, financeres i sensibles vinculades amb la identitat i identificadors usats per rastrejar, però el document que la fitxa enllaça com a política de privadesa és el del web de contractació i no esmenta ni l’aplicació ni cap d’aquestes dades.",
+    "openQuestions": [
+      "Quin document regula el tractament de les dades clíniques dins de Mi Sanitas?",
+      "Què són les «dades sensibles» que declara l’etiqueta de l’App Store?",
+      "Amb quin mecanisme es fan les transferències fora de l’Espai Econòmic Europeu?",
+      "Queda pendent la cerca sistemàtica d’incidents i sancions: les eines de cerca no eren disponibles durant aquesta revisió."
+    ]
+  },
+  "appStoreBundleId": "com.sanitas.misanitas"
+}

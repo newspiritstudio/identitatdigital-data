@@ -1,0 +1,405 @@
+{
+  "slug": "cita-sanitaria-madrid",
+  "name": "Cita Sanitaria Madrid",
+  "company": "comunidad-de-madrid",
+  "categories": [
+    "salut-i-assistencia-sanitaria",
+    "administracio-publica"
+  ],
+  "tagline": "Cita prèvia del Servei Madrileny de Salut amb el codi de la targeta, la data de naixement i el DNI",
+  "summary": "L’aplicació permet demanar, canviar i anul·lar cites d’atenció primària i de primera consulta hospitalària del Servei Madrileny de Salut. No té compte propi: la persona s’identifica cada vegada amb el codi de la targeta sanitària, la data de naixement i el DNI o NIE. L’etiqueta de l’App Store diu que no recull cap dada, però no hem trobat cap clàusula de protecció de dades pròpia de l’aplicació, i les cites revelen per si mateixes el vincle amb serveis sanitaris concrets.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "public-service",
+  "jurisdiction": "Espanya (Comunitat de Madrid)",
+  "links": {
+    "website": "https://www.comunidad.madrid/salud/cita-sanitaria",
+    "privacyPolicy": "https://www.comunidad.madrid/gobierno/informacion-juridica-legislacion/proteccion-datos",
+    "appStore": "https://apps.apple.com/es/app/id798785132"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "cita-sanitaria-madrid-servei",
+      "cita-sanitaria-madrid-tsv-2023"
+    ],
+    "detail": "No hi ha registre: cada cita es demana amb el codi de la targeta sanitària, la data de naixement i el DNI o NIE. Per als menors de 16 anys s’introdueix el DNI de la persona adulta responsable.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": [],
+    "detail": "No hem trobat el codi publicat."
+  },
+  "publicService": {
+    "isPublicService": true,
+    "administrationLevel": "regional",
+    "legalBasis": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap clàusula de protecció de dades pròpia de l’aplicació ni del servei de cita prèvia que citi la norma que empara el tractament."
+    },
+    "processingRegistry": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "comunidad-madrid-rat",
+        "comunidad-madrid-proteccion-datos"
+      ],
+      "detail": "La Comunitat publica el registre d’activitats de tractament amb un cercador per conselleries, però no hi hem localitzat de manera identificable l’activitat de la cita sanitària.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.comunidad.madrid/proteccion-datos/registro-actividades-tratamiento-rat"
+    },
+    "dpia": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat publicada cap avaluació d’impacte relativa a la protecció de dades d’aquest servei."
+    },
+    "ensConformity": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap declaració ni certificació de conformitat amb l’Esquema Nacional de Seguretat d’aquest sistema."
+    },
+    "dpo": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "comunidad-madrid-dpd"
+      ],
+      "detail": "Comitè Delegat de Protecció de Dades de la Conselleria de Sanitat, amb adreça de contacte publicada al portal de la Comunitat.",
+      "verifiedAt": "2026-09-22",
+      "contact": "protecciondedatos.sanidad@madrid.org"
+    },
+    "offlineAlternative": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "cita-sanitaria-madrid-servei"
+      ],
+      "detail": "La cita es pot demanar també per web, pel telèfon del centre de salut, als quioscos digitals dels centres i presencialment; a l’atenció hospitalària hi ha el Centre de Gestió de Cites.",
+      "verifiedAt": "2026-09-22"
+    },
+    "accessibilityStatement": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "comunidad-madrid-accessibilitat"
+      ],
+      "detail": "La declaració d’accessibilitat del portal de la Comunitat es declara «no conforme» amb el Reial decret 1112/2018 (abril del 2024, revisada el maig del 2025) i no cobreix les aplicacions mòbils; no n’hem trobat cap de pròpia de l’aplicació.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.comunidad.madrid/atencion-ciudadano/declaracion-accesibilidad"
+    },
+    "mandatoryRetention": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentat quina norma obliga a conservar les cites ni durant quant de temps; l’aplicació no té compte que es pugui eliminar."
+    }
+  },
+  "dataSummary": "El codi de la targeta, el DNI i la data de naixement identifiquen la persona sense ambigüitat. Les cites diuen amb quin servei sanitari es relaciona i quan, i en el cas dels menors vinculen la criatura amb la persona adulta que la cita.",
+  "dataCollection": [
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "cita-sanitaria-madrid-servei"
+      ],
+      "note": "DNI o NIE; no s’accepta el passaport."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "cita-sanitaria-madrid-servei"
+      ],
+      "note": "Codi de la targeta sanitària (CIPA), que fa de clau d’accés a la història del pacient."
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "cita-sanitaria-madrid-servei"
+      ]
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "editorial",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "cita-sanitaria-madrid-servei"
+      ],
+      "note": "Interpretació pròpia: l’especialitat i el tipus de cita són informació de salut encara que no es demani cap diagnòstic."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "unknown",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "sources": [
+        "cita-sanitaria-madrid-app-store"
+      ],
+      "note": "L’etiqueta no declara dades d’ús ni de diagnòstic."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "cita-sanitaria-madrid-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada utilitzada per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "cita-sanitaria-madrid-app-store"
+      ],
+      "detail": "L’etiqueta no declara l’identificador publicitari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi independent dels kits de tercers que porta l’aplicació."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "comunidad-madrid-proteccion-datos"
+      ],
+      "detail": "La clàusula de protecció de dades no preveu cap finalitat publicitària.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La informació publicada no en diu res."
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat una clàusula de protecció de dades específica de l’aplicació."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat una clàusula específica. La de la carpeta de salut del mateix sistema diu que les dades no se cedeixen llevat d’obligació legal, però no consta que s’apliqui a aquesta aplicació."
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Les cites s’integren amb la Tarjeta Sanitaria Virtual, però no consta amb quins altres òrgans de la Comunitat es comparteixen les dades."
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat informació sobre transferències ni sobre els proveïdors tecnològics."
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència sobre peticions d’accés a aquestes dades."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat terminis de conservació de les cites."
+    },
+    "dataAfterDeletion": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha compte que es pugui eliminar; les cites formen part del sistema d’informació sanitària.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no té comptes: no hi ha res a eliminar a part de desinstal·lar-la.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha compte propi.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "unknown",
+    "requiresSupportContact": false,
+    "dataRetained": "Les cites queden registrades als sistemes del Servei Madrileny de Salut; la supressió s’ha de demanar per la via general de drets de la Comunitat de Madrid.",
+    "sources": [
+      "cita-sanitaria-madrid-servei",
+      "comunidad-madrid-proteccion-datos"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha una exportació pròpia de l’aplicació."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "comunidad-madrid-proteccion-datos"
+      ],
+      "detail": "Drets per registre electrònic o presencial i formulari general de la Comunitat de Madrid; cada conselleria té delegat de protecció de dades.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.comunidad.madrid/proteccion-datos/proteccion-datos-mis-derechos-su-ejercicio"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no mostra publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No n’hem detectat, però no hem fet una revisió de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No transporta comunicacions entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació tècnica pública."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "cita-sanitaria-madrid-servei"
+      ],
+      "detail": "L’accés es fa només amb dades que coneixen moltes persones de l’entorn (codi de la targeta, data de naixement i DNI), sense cap segon factor.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat auditories ni certificacions publicades específicament sobre aquesta aplicació."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses per vulnerabilitats."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap canal públic de notificació de vulnerabilitats ni fitxer security.txt."
+    }
+  },
+  "review": {
+    "researchStatus": "initial",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Hem cercat incidents de seguretat de Cita Sanitaria i de la Tarjeta Sanitaria Virtual sense trobar-ne cap de documentat. La debilitat principal és l’autenticació: qualsevol persona que conegui aquestes tres dades pot veure i anul·lar les cites d’una altra.",
+    "openQuestions": [
+      "Quina clàusula de protecció de dades s’aplica exactament a l’aplicació i quins encarregats del tractament hi intervenen?",
+      "Com és compatible l’etiqueta «no es recullen dades» amb l’enviament del DNI i del codi de la targeta als servidors?"
+    ]
+  },
+  "appStoreBundleId": "org.madrid.CitaSanitaria"
+}

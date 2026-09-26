@@ -1,0 +1,585 @@
+{
+  "slug": "strava",
+  "name": "Strava",
+  "company": "strava-ireland",
+  "categories": [
+    "benestar-i-activitat-fisica",
+    "xarxes-socials"
+  ],
+  "tagline": "Xarxa social d’esport en què els ajustos de privadesa s’han d’activar a mà",
+  "summary": "Strava és un registre d’entrenaments i una xarxa social on cada sortida inclou el traçat GPS, l’hora i el ritme. L’etiqueta de l’App Store declara ubicació exacta, salut, contactes i fotos vinculades amb la persona, i compres i identificadors per rastrejar. La política designa Strava Ireland com a responsable a Europa i demana consentiment per a les dades de salut i per a les funcions d’IA. Els incidents coneguts vénen del que l’app mostra per defecte: en dues ocasions, els traçats dels usuaris han revelat bases militars i els moviments d’escortes de caps d’estat.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Irlanda (responsable a la UE), Estats Units",
+  "links": {
+    "website": "https://www.strava.com/",
+    "privacyPolicy": "https://www.strava.com/legal/privacy",
+    "appStore": "https://apps.apple.com/es/app/id426826309"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "strava-privacy-policy"
+    ],
+    "detail": "El servei és una xarxa social: tot passa dins d’un compte amb perfil.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "strava-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Juntes, aquestes dades revelen on vius, a quina hora surts de casa, quins recorreguts fas cada dia, amb qui entrenes i quina forma física tens. Formen un historial de moviments amb marca de temps lligat a un nom i a una freqüència cardíaca, una de les combinacions més delicades del directori.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "strava-app-store",
+        "strava-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "strava-app-store"
+      ],
+      "note": "L’etiqueta la declara també per a publicitat i màrqueting del desenvolupador."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "strava-app-store"
+      ],
+      "note": "L’etiqueta la posa entre les dades de rastreig i entre les de publicitat de tercers."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "strava-app-store"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "strava-app-store",
+        "strava-privacy-policy"
+      ],
+      "note": "És el traçat GPS de cada activitat, amb hora d’inici i de final. L’etiqueta la declara per a anàlisi, funcionament i «altres fins»."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "strava-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "strava-app-store",
+        "strava-privacy-policy"
+      ],
+      "note": "Freqüència cardíaca i mètriques de forma física; la política diu que les tracta amb consentiment."
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "strava-app-store"
+      ],
+      "note": "Per buscar coneguts a la plataforma; l’etiqueta la declara com a dada vinculada."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "strava-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "strava-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "strava-privacy-policy"
+      ],
+      "note": "Només per a la subscripció; el cobrament el fa un processador."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "strava-app-store"
+      ],
+      "note": "L’etiqueta posa les compres entre les dades que poden servir per rastrejar."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "strava-app-store"
+      ]
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "strava-privacy-policy"
+      ],
+      "note": "Inclou les dades dels rellotges i sensors connectats."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "strava-app-store"
+      ]
+    },
+    {
+      "type": "xarxa-de-contactes",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "strava-privacy-policy"
+      ],
+      "note": "Seguidors, clubs i companys d’activitat."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "strava-app-store"
+      ],
+      "detail": "L’etiqueta declara compres i identificadors com a dades que poden servir per rastrejar en apps i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "strava-app-store"
+      ],
+      "detail": "L’etiqueta inclou «datos de publicidad» i identificadors de dispositiu dins de la publicitat del desenvolupador i de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "strava-privacy-policy"
+      ],
+      "detail": "La política descriu galetes i tecnologies similars per a publicitat segmentada i xarxes d’anuncis, sense enumerar els socis.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "strava-privacy-policy"
+      ],
+      "detail": "Publicitat segmentada amb galetes i contingut patrocinat, amb enllaç d’exclusió.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "strava-privacy-policy"
+      ],
+      "detail": "Anàlisi del rendiment i recomanacions personalitzades a partir de l’activitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "strava-privacy-policy"
+      ],
+      "detail": "Les funcions d’IA fan servir sobretot dades agregades i desidentificades, però la política admet que poden tractar dades personals de salut i ubicació amb consentiment.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "strava-privacy-policy"
+      ],
+      "detail": "Proveïdors de serveis, socis d’integració, patrocinadors d’esdeveniments i xarxes publicitàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Strava no forma part de cap grup amb altres serveis de consum.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política parla d’exclusió de la «venda o compartició» en el sentit de les lleis nord-americanes, però no descriu vendes a intermediaris de dades."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "strava-privacy-policy"
+      ],
+      "detail": "Les dades de l’EEE es transfereixen als Estats Units amb clàusules contractuals tipus.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "strava-privacy-policy",
+        "strava-delete-account"
+      ],
+      "detail": "La regla general és «mentre calgui», però la política fixa un màxim de 45 dies per esborrar la informació personal dels sistemes un cop demanada la baixa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "strava-delete-account"
+      ],
+      "detail": "Els segments i les rutes públiques que hagis creat es queden a la plataforma, i els clubs que hagis fundat continuen sense propietari.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "strava-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "strava-delete-account"
+      ],
+      "detail": "Es pot fer tant des del web com des de l’aplicació, sense passar per atenció al client.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://www.strava.com/settings/account",
+    "difficulty": "easy",
+    "waitingPeriodDays": 45,
+    "requiresSupportContact": false,
+    "steps": [
+      "Si tens subscripció, cancel·la-la abans des de la configuració del compte o des de l’App Store.",
+      "Entra a Configuració > El meu compte i tria «Delete your account».",
+      "Demana l’arxiu amb totes les teves dades dins del mateix procés, si el vols conservar.",
+      "Obre el correu de confirmació i segueix l’enllaç: la supressió és definitiva i l’equip no pot recuperar el compte."
+    ],
+    "obstacles": "Els segments, les rutes públiques i els clubs creats no s’esborren amb el compte, i la política es dona fins a 45 dies per treure les dades dels sistemes.",
+    "dataRetained": "Segments i rutes públiques, clubs fundats i les dades que calgui conservar per obligació legal.",
+    "sources": [
+      "strava-delete-account",
+      "strava-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "strava-delete-account",
+        "strava-privacy-policy"
+      ],
+      "detail": "Hi ha una exportació massiva de l’arxiu del compte, que es pot demanar també dins del procés de baixa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "open",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "strava-privacy-policy"
+      ],
+      "detail": "La política reconeix accés, rectificació, supressió i portabilitat, i publica el contacte del delegat de protecció de dades.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dpo@strava.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "strava-privacy-policy"
+      ],
+      "detail": "Controls de galetes i enllaç per oposar-se a compartir informació personal amb finalitats publicitàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "strava-activity-privacy"
+      ],
+      "detail": "Desmarcar «Millora del producte» treu les activitats del mapa de calor global, però no atura la resta d’analítica.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "strava-activity-privacy"
+      ],
+      "detail": "Cada activitat es pot publicar per a tothom, només per a seguidors o només per a tu, i hi ha una preferència per defecte per a les noves.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [],
+      "detail": "No hem documentat patrons enganyosos al consentiment, però el valor per defecte de les activitats és visible i alimenta el mapa de calor global si no es canvia.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "preselected",
+        "severity": "medium",
+        "description": "Les activitats amb visibilitat «tothom» contribueixen automàticament al mapa de calor global; per evitar-ho cal desactivar «Millora del producte» a Controls de privadesa.",
+        "sources": [
+          "strava-activity-privacy"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei és una xarxa social pública per disseny; no hi ha comunicacions xifrades d’extrem a extrem.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat una pàgina tècnica que ho documenti."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut verificar un article d’ajuda vigent sobre el segon factor."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "strava-security-txt"
+      ],
+      "detail": "Programa privat a HackerOne: cal enviar primer un informe vàlid per correu per ser-hi admès.",
+      "verifiedAt": "2026-09-22"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "strava-security-txt"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.strava.com/.well-known/security.txt"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "wikiloc",
+      "comparability": "partial",
+      "rationale": "Permet enregistrar i compartir rutes amb GPS sense la capa de xarxa social competitiva ni les classificacions per segments.",
+      "tradeOffs": "No té la comunitat ni les mètriques d’entrenament de Strava."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "No hem trobat cap sanció del RGPD ni de l’AEPD contra Strava. Els dos incidents registrats no van ser bretxes de seguretat, sinó dades que la gent publicava amb la configuració per defecte creient que no revelaven res.",
+    "openQuestions": [
+      "Strava ofereix segon factor d’autenticació i amb quins mètodes?",
+      "Quins socis publicitaris concrets hi ha darrere de les galetes de la web i de l’app?"
+    ]
+  },
+  "appStoreBundleId": "com.strava.stravaride"
+}

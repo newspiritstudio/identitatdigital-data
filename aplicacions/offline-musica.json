@@ -1,0 +1,361 @@
+{
+  "slug": "offline-musica",
+  "name": "Offline Musica sin internet",
+  "company": "offline-music-player",
+  "categories": [
+    "musica-i-audio"
+  ],
+  "tagline": "Promet que la música no surt del dispositiu, però l’etiqueta de l’App Store declara l’identificador del dispositiu com a dada per rastrejar-te",
+  "summary": "Offline Musica reprodueix música desada al telèfon. La política de privadesa és breu i diu explícitament que els fitxers importats es queden al dispositiu i que no s’hi accedeix, ni es venen ni es comparteixen. Ara bé, no identifica cap responsable del tractament, no esmenta el RGPD ni els drets, no fixa terminis i no parla de publicitat, mentre que l’etiqueta de l’App Store declara l’identificador del dispositiu com a dada per rastrejar-te i per a publicitat de tercers.",
+  "platforms": [
+    "ios"
+  ],
+  "businessModel": "advertising",
+  "jurisdiction": "No declarada",
+  "links": {
+    "website": "https://musicplayeroffline.com/",
+    "privacyPolicy": "https://musicplayeroffline.com/privacy",
+    "appStore": "https://apps.apple.com/es/app/id1259949354"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "offline-musica-privacy-policy"
+    ],
+    "detail": "La política no descriu cap registre; només es recullen dades de contacte si escrius al suport.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "offline-musica-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Segons la política, la biblioteca musical no surt del telèfon. L’identificador del dispositiu sí que en surt: l’etiqueta el declara com a dada per rastrejar-te i per a publicitat de tercers, i serveix per associar l’ús d’aquesta aplicació amb el teu perfil publicitari.",
+  "dataCollection": [
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "offline-musica-app-store"
+      ],
+      "note": "L’etiqueta el declara com a dada per rastrejar i per a publicitat de tercers. La política no en diu res."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "offline-musica-app-store",
+        "offline-musica-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "offline-musica-app-store",
+        "offline-musica-privacy-policy"
+      ],
+      "note": "Informes de fallada i diagnòstics de rendiment."
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "offline-musica-privacy-policy"
+      ],
+      "note": "Model, sistema operatiu, versió de l’aplicació, idioma i regió."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "offline-musica-privacy-policy"
+      ],
+      "note": "Només si escrius al formulari de contacte."
+    },
+    {
+      "type": "fitxers-i-documents",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [],
+      "sources": [
+        "offline-musica-privacy-policy"
+      ],
+      "note": "La política afirma que els fitxers de música importats es queden al dispositiu i que no es pugen, no s’escanegen, no es venen ni es comparteixen."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "offline-musica-app-store"
+      ],
+      "detail": "L’etiqueta declara l’identificador del dispositiu com a dada utilitzada per rastrejar-te, tot i que la política no esmenta cap publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "offline-musica-app-store"
+      ],
+      "detail": "L’etiqueta declara l’identificador del dispositiu per a publicitat de tercers; no concreta si és l’identificador publicitari d’Apple.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "offline-musica-app-store",
+        "offline-musica-privacy-policy"
+      ],
+      "detail": "L’ús publicitari declarat a l’etiqueta implica SDK de tercers, però la política no en cita cap.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "offline-musica-app-store"
+      ],
+      "detail": "L’etiqueta declara l’identificador del dispositiu per a publicitat de tercers; la política no en diu res.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Ni la política ni l’etiqueta descriuen cap perfilat."
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no parla d’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "offline-musica-app-store",
+        "offline-musica-privacy-policy"
+      ],
+      "detail": "La política només parla de proveïdors genèrics de serveis, però l’etiqueta declara publicitat de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No es coneix cap grup empresarial darrere de l’aplicació."
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "offline-musica-privacy-policy"
+      ],
+      "detail": "La política afirma que no venen la biblioteca musical ni les dades personals.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu on es tracten les dades ni qui n’és el responsable."
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "no",
+      "level": "editorial",
+      "sources": [
+        "offline-musica-privacy-policy"
+      ],
+      "detail": "No hi ha cap informe de transparència ni cap identificació de l’editor.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no fixa cap termini de conservació."
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap procés d’eliminació de dades."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació funciona sense compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "unknown",
+    "requiresSupportContact": false,
+    "dataRetained": "La política no diu què es conserva dels missatges de suport.",
+    "sources": [
+      "offline-musica-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta el dret de portabilitat."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "offline-musica-privacy-policy"
+      ],
+      "detail": "La política no reconeix cap dret del RGPD ni indica cap canal per exercir-los; només hi ha un formulari de contacte general.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://musicplayeroffline.com/contact"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta la publicitat, de manera que tampoc no n’ofereix cap control."
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "La música no es puja a cap servidor, segons la política.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "review": {
+    "researchStatus": "initial",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "La fitxa queda en estat inicial perquè la política no identifica el responsable del tractament, no esmenta el RGPD i contradiu l’etiqueta de l’App Store en matèria de publicitat. No hem pogut fer la cerca d’incidents perquè la sessió havia exhaurit el pressupost de cerques.",
+    "openQuestions": [
+      "Qui és el responsable del tractament i on està establert?",
+      "Quina xarxa publicitària llegeix l’identificador del dispositiu?",
+      "Com es pot exercir el dret de supressió?"
+    ]
+  },
+  "appStoreBundleId": "com.offlinemusic"
+}

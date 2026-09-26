@@ -1,0 +1,537 @@
+{
+  "slug": "wikiloc",
+  "name": "Wikiloc - Rutas del Mundo",
+  "company": "wikiloc-outdoor",
+  "categories": [
+    "mapes-i-navegacio",
+    "benestar-i-activitat-fisica"
+  ],
+  "tagline": "Una comunitat de rutes feta a Girona que no rastreja, però que publica els teus recorreguts per defecte",
+  "summary": "Wikiloc és una empresa gironina que manté la comunitat de rutes a l’aire lliure més gran en català i castellà. L’etiqueta de l’App Store no declara cap dada per rastrejar-te i la política és clara, però les rutes que graves són públiques per defecte, amb el punt d’inici, els horaris i les fotografies. Les dades de salut d’HealthKit no es desen ni es fan servir mai per a publicitat. El web fa servir Google Analytics i el píxel de Meta, i la baixa és autoservei des del compte.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Espanya (UE)",
+  "links": {
+    "website": "https://www.wikiloc.com/",
+    "privacyPolicy": "https://www.wikiloc.com/wikiloc/privacy.html?v=4.3",
+    "appStore": "https://apps.apple.com/es/app/id432102730"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "wikiloc-privacy-policy"
+    ],
+    "detail": "Cal registrar-se amb nom d’usuari, contrasenya i adreça electrònica per gravar i desar rutes. El servei només s’ofereix a majors de 16 anys.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "wikiloc-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Una ruta gravada explica on comença i acaba un recorregut, quin dia i a quina hora, a quin ritme i amb quines fotografies. Com que per defecte les rutes són públiques, aquesta informació és visible per a qualsevol; el punt d’inici sovint coincideix amb el domicili.",
+  "dataCollection": [
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "wikiloc-privacy-policy",
+        "wikiloc-app-store"
+      ],
+      "note": "El nom d’usuari és públic."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "wikiloc-privacy-policy",
+        "wikiloc-app-store"
+      ],
+      "note": "No es publica llevat que la persona usuària ho marqui expressament."
+    },
+    {
+      "type": "contrasenya",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "wikiloc-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "wikiloc-privacy-policy",
+        "wikiloc-app-store"
+      ],
+      "note": "Els punts de la ruta, amb data, durada i dificultat. Les rutes són públiques per defecte i es poden marcar com a privades."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "wikiloc-privacy-policy",
+        "wikiloc-app-store"
+      ],
+      "note": "Fotos i vídeos associats a la ruta, amb la seva geolocalització; també la foto de perfil."
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "wikiloc-privacy-policy"
+      ],
+      "note": "Comentaris i valoracions de les rutes, públics."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "wikiloc-privacy-policy"
+      ],
+      "note": "Activitats d’interès declarades al perfil."
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "wikiloc-privacy-policy"
+      ],
+      "note": "Les dades d’HealthKit no es desen ni es comparteixen i no es poden fer servir mai per a publicitat, segons la política."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "wikiloc-privacy-policy",
+        "wikiloc-app-store"
+      ],
+      "note": "Identificador únic del dispositiu i, per a la integració amb Garmin Connect IQ, un identificador anònim."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "wikiloc-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "wikiloc-app-store",
+        "wikiloc-privacy-policy"
+      ],
+      "note": "Subscripció premium i donacions; l’estat de donant és visible al perfil."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "wikiloc-privacy-policy"
+      ],
+      "note": "Per a les donacions i la subscripció."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "wikiloc-app-store"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "wikiloc-privacy-policy"
+      ],
+      "note": "Al web: galetes tècniques pròpies, Google Analytics i el píxel de Meta, a més de Cloudflare."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "wikiloc-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "wikiloc-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada utilitzada per rastrejar-te.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "wikiloc-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap dada de publicitat ni identificador publicitari.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "wikiloc-privacy-policy"
+      ],
+      "detail": "Al web hi ha Google Analytics i les galetes del píxel de Meta; la política no cita cap SDK publicitari dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "wikiloc-privacy-policy"
+      ],
+      "detail": "La política descriu el píxel de Meta al web, però no publicitat personalitzada dins de l’aplicació; les dades d’HealthKit en queden excloses expressament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "wikiloc-privacy-policy"
+      ],
+      "detail": "La política no descriu cap decisió automatitzada ni cap elaboració de perfils més enllà de les preferències declarades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no parla d’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "wikiloc-privacy-policy"
+      ],
+      "detail": "Proveïdors tecnològics, el blog allotjat a Blogger i les integracions amb rellotges; les rutes públiques són visibles per a tothom.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Wikiloc Outdoor, S.L. és una empresa independent sense grup empresarial.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no parla de la venda de dades."
+    },
+    "internationalTransfers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "wikiloc-privacy-policy"
+      ],
+      "detail": "La política admet que alguns proveïdors poden estar fora de l’Espai Econòmic Europeu, amb les garanties adequades, però no en detalla el mecanisme.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "no",
+      "level": "editorial",
+      "sources": [
+        "wikiloc-privacy-policy"
+      ],
+      "detail": "No hem trobat cap informe de transparència.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "wikiloc-privacy-policy"
+      ],
+      "detail": "La política lliga la conservació a la vigència del compte i a les obligacions legals, sense terminis numèrics.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no concreta què es conserva després de cancel·lar el compte."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wikiloc-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wikiloc-privacy-policy"
+      ],
+      "detail": "Des de l’apartat «El meu compte», o bé escrivint a support@wikiloc.com.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "easy",
+    "requiresSupportContact": false,
+    "steps": [
+      "Si vols conservar les teves rutes, descarrega-les abans en format GPX des del teu perfil.",
+      "Inicia sessió a wikiloc.com i entra a «El meu compte».",
+      "Tria l’opció de cancel·lar el compte.",
+      "Si no la trobes, escriu a support@wikiloc.com des de l’adreça registrada."
+    ],
+    "dataRetained": "La política no detalla què es conserva; les dades exigides per obligacions legals es mantenen el temps corresponent.",
+    "sources": [
+      "wikiloc-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wikiloc-privacy-policy"
+      ],
+      "detail": "Les rutes es poden descarregar en formats estàndard de traça (GPX, KML), que són oberts.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "open",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wikiloc-privacy-policy"
+      ],
+      "detail": "Des de «El meu compte» o escrivint a support@wikiloc.com, amb menció del dret a reclamar davant l’AEPD.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "wikiloc-privacy-policy"
+      ],
+      "detail": "Les galetes opcionals del web es basen en el consentiment i es poden rebutjar; dins de l’aplicació no hi ha publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap opció per desactivar l’analítica de l’aplicació."
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "wikiloc-privacy-policy"
+      ],
+      "detail": "Cada ruta es pot marcar com a privada, el correu es publica només si es vol i la ubicació en temps real només es comparteix per invitació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem revisat la finestra de galetes ni el registre des de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei es basa a publicar rutes; no hi ha comunicacions privades que xifrar d’extrem a extrem.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "alternatives": [
+    {
+      "app": "strava",
+      "comparability": "partial",
+      "rationale": "També grava rutes i activitats a l’aire lliure amb una comunitat gran al darrere.",
+      "tradeOffs": "És una empresa nord-americana amb més recollida de dades socials i un historial de problemes de privadesa amb els mapes de calor."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "El web bloqueja les peticions automatitzades i hem llegit la política a través d’un servei intermediari de lectura; l’enllaç antic privacy.do ja no funciona. El fet que les rutes siguin públiques per defecte és la troballa principal. No hem pogut fer la cerca d’incidents perquè la sessió havia exhaurit el pressupost de cerques.",
+    "openQuestions": [
+      "Wikiloc ofereix verificació en dos passos?",
+      "Quant de temps es conserven les rutes després de cancel·lar el compte?"
+    ]
+  },
+  "appStoreBundleId": "com.wikiloc.wikiloc"
+}

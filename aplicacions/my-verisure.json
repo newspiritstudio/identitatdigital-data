@@ -1,0 +1,570 @@
+{
+  "slug": "my-verisure",
+  "name": "My Verisure",
+  "company": "securitas-direct-espana",
+  "categories": [
+    "llar-connectada",
+    "utilitats"
+  ],
+  "tagline": "El compte de la persona titular no es pot esborrar des de l’app: va lligat al contracte d’alarma",
+  "summary": "My Verisure controla l’alarma de casa i, si es contracta GUARDIAN, la ubicació de les persones de la família. La política ho explica amb detall poc habitual: dos tipus de compte, ubicació compartida amb altres usuaris, dades de contactes d’emergència facilitades per la persona titular i màrqueting digital amb Meta, TikTok, Snapchat i Google. El compte de la persona titular no es pot eliminar des de l’aplicació perquè va lligat al contracte.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "subscription",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://www.verisure.es/",
+    "privacyPolicy": "https://customers.verisure.es/media_contents/app/myverisure/ios/terms_es_verisure.html",
+    "appStore": "https://apps.apple.com/es/app/id1473822730"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "my-verisure-privacy-policy"
+    ],
+    "detail": "L’app només funciona amb un contracte de Verisure i un compte de titular o de persona autoritzada.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "my-verisure-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Les connexions i desconnexions de l’alarma indiquen quan hi ha algú a casa, i GUARDIAN hi afegeix la ubicació en temps real de cada membre de la família.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "my-verisure-privacy-policy"
+      ]
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "my-verisure-privacy-policy"
+      ],
+      "note": "DNI o NIF de la persona titular del contracte."
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "my-verisure-privacy-policy"
+      ],
+      "note": "Adreça completa i número d’instal·lació."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "my-verisure-privacy-policy"
+      ],
+      "note": "Amb consentiment exprés, es facilita xifrat de manera irreversible a Meta, TikTok, Snapchat i Google per mesurar el màrqueting."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "my-verisure-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "my-verisure-privacy-policy"
+      ],
+      "note": "Dades de facturació i bancàries."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "my-verisure-privacy-policy"
+      ],
+      "note": "La política inclou les imatges entre les dades identificatives i l’app permet fer foto peticions als dispositius de la instal·lació."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "my-verisure-app-store",
+        "my-verisure-privacy-policy"
+      ],
+      "note": "Imprescindible per a GUARDIAN; altres persones usuàries hi poden accedir i, en una emergència confirmada, es facilita als serveis públics d’emergència."
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "my-verisure-privacy-policy"
+      ],
+      "note": "Només si es demana exportar l’agenda del dispositiu per designar el pla d’acció o d’emergència."
+    },
+    {
+      "type": "situacio-familiar",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "my-verisure-privacy-policy"
+      ],
+      "note": "Vincle o afinitat de les persones de contacte del pla d’acció, facilitat per la persona titular."
+    },
+    {
+      "type": "contrasenya",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "my-verisure-privacy-policy"
+      ],
+      "note": "La política cita expressament les credencials i contrasenyes d’ús de l’aplicació entre les dades tractades."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "my-verisure-privacy-policy"
+      ]
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "my-verisure-privacy-policy"
+      ],
+      "note": "Marca, model, sistema operatiu i fins i tot el percentatge de bateria per al servei GUARDIAN."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "my-verisure-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "my-verisure-app-store",
+        "my-verisure-privacy-policy"
+      ],
+      "note": "Les dades tècniques associades al dispositiu es comparteixen amb plataformes publicitàries per interès legítim, sense dades personals."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "millora-del-producte"
+      ],
+      "sources": [
+        "my-verisure-app-store",
+        "my-verisure-privacy-policy"
+      ],
+      "note": "S’hi fan models de propensió sobre l’ús dels serveis."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "my-verisure-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "my-verisure-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap dada utilitzada per rastrejar en apps i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "my-verisure-privacy-policy"
+      ],
+      "detail": "Es comparteixen dades tècniques associades al dispositiu amb Meta, TikTok, Snapchat i Google per a campanyes de màrqueting digital.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "my-verisure-privacy-policy"
+      ],
+      "detail": "Quatre plataformes publicitàries citades pel nom a la política.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "my-verisure-privacy-policy"
+      ],
+      "detail": "No hi ha publicitat dins de l’app; el que hi ha és màrqueting digital de Verisure a plataformes de tercers, amb dades tècniques per interès legítim i amb correu o telèfon xifrats si hi ha consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "my-verisure-privacy-policy"
+      ],
+      "detail": "Models de propensió sobre l’ús dels serveis i definició del tipus d’oferta comercial segons el perfil.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no en diu res."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "my-verisure-privacy-policy"
+      ],
+      "detail": "Amb caràcter general no es comuniquen dades a tercers; les excepcions són els serveis públics d’emergència, els encarregats del tractament i les plataformes publicitàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu la compartició amb la resta del grup Verisure."
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "my-verisure-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "my-verisure-privacy-policy"
+      ],
+      "detail": "No en preveu de manera habitual; si n’hi hagués, per exemple per al màrqueting digital, seria amb garanties equivalents a les de la Unió Europea.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No n’hi ha cap."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "my-verisure-privacy-policy"
+      ],
+      "detail": "Remet a polítiques internes de conservació que només es poden consultar escrivint al delegat de protecció de dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "my-verisure-privacy-policy"
+      ],
+      "detail": "Després de la finalitat, les dades queden bloquejades durant el termini de prescripció de les accions derivades de la relació.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "my-verisure-privacy-policy"
+      ],
+      "detail": "El compte de la persona titular no es pot eliminar des de l’aplicació: queda lligat a l’extinció del contracte. Els comptes secundaris sí que els pot eliminar la persona titular.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "my-verisure-privacy-policy"
+      ],
+      "detail": "Autoservei només per als usuaris secundaris, des de l’app o el web; per al titular cal trucar a atenció al client.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "hard",
+    "requiresSupportContact": true,
+    "steps": [
+      "Si ets usuari secundari, demana a la persona titular que elimini el teu compte des de l’app o des del web d’usuari.",
+      "Si ets la persona titular, contacta amb atenció al client pels canals habituals: l’eliminació del compte va lligada a l’extinció del contracte.",
+      "Per a la supressió de les dades, escriu a dpo@verisure.es acreditant la identitat."
+    ],
+    "obstacles": "El compte principal no es pot tancar mentre hi hagi contracte d’alarma vigent, i la política no publica els terminis de conservació posteriors.",
+    "dataRetained": "Dades bloquejades durant el termini de prescripció de les accions derivades del contracte.",
+    "sources": [
+      "my-verisure-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "my-verisure-privacy-policy"
+      ],
+      "detail": "Es reconeix la portabilitat, però només per sol·licitud al delegat de protecció de dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "my-verisure-privacy-policy"
+      ],
+      "detail": "Delegat de protecció de dades propi i via postal.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dpo@verisure.es"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "my-verisure-privacy-policy"
+      ],
+      "detail": "Les comunicacions comercials es basen en el consentiment i s’hi pot renunciar en qualsevol moment; també es pot oposar a les enquestes.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "my-verisure-privacy-policy"
+      ],
+      "detail": "L’analítica d’ús i els models de propensió es fan per interès legítim, sense cap control dins de l’app.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "my-verisure-privacy-policy"
+      ],
+      "detail": "Permisos per usuari secundari i activació voluntària de la geolocalització, però sense un panell general de privadesa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No n’hem documentat cap amb prou base."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És una app de control d’alarma connectada a una central receptora, no un servei de comunicacions privades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política parla de credencials i contrasenyes, però no de segon factor."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El domini verisure.es no publica cap fitxer security.txt."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap fitxer security.txt a verisure.es."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "La política de l’app s’ha de llegir juntament amb la clàusula de privadesa de les condicions generals del servei d’alarma, que no hem revisat. Si la persona titular convida menors al servei GUARDIAN, és ella qui ha de garantir el consentiment. No hem pogut fer la cerca d’incidents.",
+    "openQuestions": [
+      "Quins terminis concrets de conservació aplica Verisure a les dades de clients?",
+      "Què passa amb les imatges de les foto peticions: quant de temps es conserven i qui hi té accés?"
+    ]
+  },
+  "appStoreBundleId": "com.securitas-direct.verisure.south"
+}

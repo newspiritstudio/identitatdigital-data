@@ -1,0 +1,516 @@
+{
+  "slug": "idealo",
+  "name": "idealo",
+  "company": "idealo",
+  "categories": [
+    "comerc-electronic"
+  ],
+  "tagline": "Comparador de preus que es pot fer servir sense compte, però amb compres i identificadors declarats per rastrejar",
+  "summary": "idealo, filial d’Axel Springer, cobra dels comerços pels clics que hi redirigeix i per això registra quines ofertes consulta cada persona. La llista de desitjos i les alertes de preu funcionen sense compte, però l’etiqueta de l’App Store declara compres, identificadors i dades d’ús utilitzats per rastrejar. Amb consentiment, la política preveu perfils individuals vinculats entre dispositius i una llarga llista de socis publicitaris.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "advertising",
+  "jurisdiction": "Alemanya",
+  "links": {
+    "website": "https://www.idealo.es/",
+    "privacyPolicy": "https://www.idealo.es/legal/proteccion-de-datos",
+    "appStore": "https://apps.apple.com/es/app/id454415640"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "idealo-privacy-policy"
+    ],
+    "detail": "La comparació, la llista de desitjos i les alertes de preu es poden fer servir a l’aplicació sense compte.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "idealo-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Les cerques i les ofertes consultades mostren què vol comprar una persona abans que ho compri: electrodomèstics, medicaments sense recepta, articles per a nadons. Combinades amb perfils entre dispositius i amb els socis publicitaris del grup Axel Springer, aquestes dades permeten preveure decisions de compra i canvis en la vida de la persona.",
+  "dataCollection": [
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "idealo-privacy-policy"
+      ],
+      "note": "Només per al compte «Mi idealo», el butlletí o les ressenyes de botigues."
+    },
+    {
+      "type": "contrasenya",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "idealo-privacy-policy"
+      ]
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "idealo-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "idealo-app-store"
+      ],
+      "note": "L’etiqueta declara les compres vinculades a la persona i utilitzades per rastrejar."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "idealo-app-store",
+        "idealo-privacy-policy"
+      ],
+      "note": "Adjust, Google, Meta, Criteo, TikTok i altres socis, amb consentiment."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "idealo-app-store",
+        "idealo-privacy-policy"
+      ],
+      "note": "Els clics cap a les botigues es registren per facturar-los als comerços."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "idealo-app-store"
+      ]
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "idealo-privacy-policy"
+      ],
+      "note": "Amb consentiment, perfils individuals que es poden vincular entre dispositius."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "idealo-privacy-policy"
+      ]
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "idealo-privacy-policy"
+      ],
+      "note": "Media Impact, del grup Axel Springer, fa servir un identificador pseudònim propi per creuar perfils."
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "idealo-privacy-policy"
+      ],
+      "note": "Ressenyes de botigues; el número de client o de comanda es passa a la botiga valorada."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "idealo-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "idealo-app-store"
+      ],
+      "detail": "L’etiqueta declara compres, identificadors i dades d’ús utilitzats per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "idealo-privacy-policy"
+      ],
+      "detail": "Adjust transmet dades a Google Ads; Meta Custom Audiences, Criteo, TikTok i Microsoft Advertising, amb consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "idealo-privacy-policy"
+      ],
+      "detail": "La política enumera més d’una dotzena de socis d’analítica i publicitat.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "idealo-privacy-policy"
+      ],
+      "detail": "Remàrqueting i publicitat personalitzada en llocs de tercers, amb consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "idealo-privacy-policy"
+      ],
+      "detail": "La política diu que crea perfils individuals i que pot vincular dades entre dispositius; nega decisions automatitzades de l’article 22 del RGPD.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "idealo-privacy-policy"
+      ],
+      "detail": "Les dades d’ús poden servir per crear models de càlcul i algorismes amb aprenentatge automàtic, i les ressenyes es revisen amb aquestes eines.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "idealo-privacy-policy"
+      ],
+      "detail": "Socis publicitaris i d’analítica, i les botigues valorades, que reben el número de client o de comanda.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "idealo-privacy-policy"
+      ],
+      "detail": "Filials comparado i Ladenzeile, i socis publicitaris del grup Axel Springer.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu explícitament si ven dades personals."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "idealo-privacy-policy"
+      ],
+      "detail": "Decisions d’adequació, el Marc de privadesa UE-EUA i clàusules contractuals tipus.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "adequacy"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "idealo-privacy-policy"
+      ],
+      "detail": "Hi ha alguns terminis concrets: el compte s’esborra després de 13 mesos sense iniciar sessió, les ressenyes es conserven tres anys després d’esborrar-les i la correspondència comercial, sis anys.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "idealo-privacy-policy"
+      ],
+      "detail": "Es conserven les ressenyes tres anys i la documentació comercial i fiscal durant els terminis legals.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "identificador-de-compte",
+        "period": "Fins que s’elimina el compte o després de 13 mesos sense iniciar sessió",
+        "sources": [
+          "idealo-privacy-policy"
+        ]
+      },
+      {
+        "dataType": "publicacions-i-comentaris",
+        "period": "Mentre són visibles i tres anys després d’esborrar-les",
+        "sources": [
+          "idealo-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "idealo-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "idealo-privacy-policy"
+      ],
+      "detail": "El compte s’elimina des dels ajustos amb l’opció «Eliminar cuenta».",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "easy",
+    "requiresSupportContact": false,
+    "steps": [
+      "Obre els ajustos del compte «Mi idealo».",
+      "Tria l’opció «Eliminar cuenta» i confirma-ho."
+    ],
+    "obstacles": "No hem trobat una pàgina d’ajuda amb el procés detallat ni terminis.",
+    "dataRetained": "Ressenyes durant tres anys i documentació comercial durant els terminis legals.",
+    "sources": [
+      "idealo-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "idealo-privacy-policy"
+      ],
+      "detail": "La portabilitat es reconeix i s’exerceix per correu, sense eina d’autoservei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "idealo-privacy-policy"
+      ],
+      "detail": "Correu al delegat de protecció de dades o per carta a Berlín.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacy@idealo.es"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "idealo-privacy-policy"
+      ],
+      "detail": "La publicitat personalitzada i el seguiment depenen del consentiment, revocable al tauler de privadesa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "idealo-privacy-policy"
+      ],
+      "detail": "L’analítica de tercers depèn del consentiment; la mesura bàsica del servei es fa per interès legítim.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "idealo-privacy-policy"
+      ],
+      "detail": "Tauler de consentiment amb els socis de seguiment un per un.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi de patrons foscos de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no ofereix comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap documentació oficial sobre el xifratge en trànsit."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública sobre el xifratge de les dades en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap opció de verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories ni certificacions publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses públic."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "idealo-security-txt"
+      ],
+      "detail": "Fitxer security.txt amb el contacte security@idealo.de i clau PGP, vigent fins al juliol de 2027.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "La cerca d’incidents no s’ha pogut completar en aquesta onada. El conflicte judicial entre idealo i Google per competència no és un incident de privadesa.",
+    "openQuestions": [
+      "Té idealo sancions o filtracions documentades?",
+      "L’autoritat de control principal és la de Berlín? La política no ho diu."
+    ]
+  },
+  "appStoreBundleId": "de.idealo.Idealo"
+}

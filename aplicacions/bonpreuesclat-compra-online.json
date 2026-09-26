@@ -1,0 +1,544 @@
+{
+  "slug": "bonpreuesclat-compra-online",
+  "name": "BonpreuEsclat (compra en línia)",
+  "company": "bon-preu",
+  "categories": [
+    "alimentacio-i-restauracio",
+    "comerc-electronic"
+  ],
+  "tagline": "Sense rastreig declarat, però l’etiqueta diu que el nom i l’adreça de lliurament no es vinculen a la identitat, i per esborrar el compte cal escriure amb el DNI",
+  "summary": "És l’app de la botiga en línia del grup Bon Preu, diferent de l’app de fidelització «Bonpreu i Esclat» que ja té fitxa pròpia, tot i que totes dues comparteixen el mateix compte client. L’etiqueta de l’App Store no declara cap dada per rastrejar i presenta el nom, el telèfon, l’adreça de lliurament i l’historial de compres com a dades no vinculades a la identitat, tot i que el servei porta la compra a casa del client. La política, en català, reconeix que l’historial de compres serveix per personalitzar ofertes. No hi ha cap botó per eliminar el compte: les preguntes freqüents remeten a una petició per correu electrònic, carta o telèfon, amb una còpia del DNI.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Espanya",
+  "brandColor": "#e30613",
+  "links": {
+    "website": "https://www.compraonline.bonpreuesclat.cat/",
+    "privacyPolicy": "https://www.compraonline.bonpreuesclat.cat/content/politica-de-privacitat",
+    "terms": "https://www.compraonline.bonpreuesclat.cat/content/condicions-dus",
+    "appStore": "https://apps.apple.com/es/app/id1337694968",
+    "deleteAccount": "https://www.compraonline.bonpreuesclat.cat/content/preguntes-frequents",
+    "security": "https://www.compraonline.bonpreuesclat.cat/.well-known/security.txt"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "bonpreu-online-terms"
+    ],
+    "detail": "Les condicions diuen que per fer la compra en línia cal ser major d’edat i estar registrat.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "bonpreu-online-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "L’historial de compres pot indicar els hàbits alimentaris d’una llar, quantes persones hi viuen, si hi ha infants o persones grans i quin pressupost té, i l’adreça i la franja de lliurament indiquen quan hi ha algú a casa. Bon Preu fa servir l’historial de compres per personalitzar les ofertes, i envia comunicacions comercials de productes similars per interès legítim, sense demanar consentiment, per correu, SMS, carta o notificació.",
+  "dataCollection": [
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "bonpreu-online-app-store",
+        "bonpreu-online-privacy-policy"
+      ],
+      "note": "És l’única dada que l’etiqueta declara vinculada a la identitat, per a la funcionalitat i per a «publicitat o màrqueting del desenvolupador»."
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bonpreu-online-app-store",
+        "bonpreu-online-privacy-policy"
+      ],
+      "note": "L’etiqueta el declara no vinculat a la identitat, tot i que les comandes es fan a nom del titular del compte."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bonpreu-online-app-store",
+        "bonpreu-online-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bonpreu-online-app-store",
+        "bonpreu-online-privacy-policy"
+      ],
+      "note": "L’adreça de lliurament. La política esmenta que alguns aspectes de la compra fan servir l’API de Google Maps."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "bonpreu-online-app-store",
+        "bonpreu-online-privacy-policy"
+      ],
+      "note": "La política diu que l’historial de compres serveix per personalitzar les ofertes i promocions; l’etiqueta, en canvi, el declara no vinculat a la identitat."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "bonpreu-online-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "bonpreu-online-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "bonpreu-online-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "bonpreu-online-app-store"
+      ],
+      "note": "L’etiqueta hi inclou «dades de publicitat» per al màrqueting del desenvolupador."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "bonpreu-online-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "bonpreu-online-privacy-policy",
+        "bonpreu-online-pagament"
+      ],
+      "note": "Cal indicar les dades bancàries per validar la compra; el pagament passa per 3D Secure i PayPal. L’etiqueta de l’App Store no declara cap dada financera."
+    },
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "compliment-legal",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "bonpreu-online-privacy-policy",
+        "bonpreu-online-terms"
+      ],
+      "note": "La política demana una còpia del DNI per exercir qualsevol dret, i al lliurament poden demanar el document original per comprovar que qui rep la compra és el titular de la targeta."
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "unknown",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "bonpreu-online-privacy-policy"
+      ],
+      "note": "La política enumera el DNI, la data de naixement i el gènere entre les dades identificadores que tracta per interès legítim, però no diu si l’app els demana."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "bonpreu-online-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap dada utilitzada per rastrejar en apps i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’etiqueta declara l’identificador del dispositiu per a analítica i personalització, però no concreta si inclou l’identificador publicitari."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política de galetes del web preveu galetes publicitàries i de xarxes socials de tercers, però ni aquesta ni la de privadesa enumeren els SDK integrats a l’app."
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bonpreu-online-privacy-policy",
+        "bonpreu-online-app-store",
+        "bonpreu-online-cookies"
+      ],
+      "detail": "Per interès legítim, sense demanar consentiment, envia ofertes de productes i serveis similars per correu, SMS, carta i notificacions de l’app. Amb consentiment, hi afegeix productes d’altres empreses i personalitza les comunicacions amb dades de fonts externes. Al web, la política de galetes preveu galetes publicitàries i de xarxes socials.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bonpreu-online-privacy-policy"
+      ],
+      "detail": "Fa servir l’historial de compres per personalitzar les ofertes i reconeix que pot elaborar perfils de comportament, amb dret a demanar intervenció humana si són íntegrament automatitzats.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política diu que el web fa servir eines d’intel·ligència artificial que processen les interaccions de manera anònima per optimitzar la navegació, però no aclareix si aquestes dades serveixen per entrenar models ni si passa el mateix a l’app."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bonpreu-online-privacy-policy"
+      ],
+      "detail": "Com a regla general no comunica dades a tercers, però treballa amb encarregats del tractament i integra Google Maps i PayPal, als quals remet per a les seves pròpies polítiques.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bonpreu-online-terms",
+        "bonpreu-online-faq"
+      ],
+      "detail": "Un únic usuari serveix per a totes les webs i apps del grup Bon Preu, i el compte en línia queda associat a la targeta client de fidelització.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta la venda de dades a intermediaris ni la descarta expressament."
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no té cap apartat sobre transferències internacionals, tot i que integra serveis de Google i PayPal."
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "bonpreu-online-privacy-policy"
+      ],
+      "detail": "Només el criteri general del temps necessari per a la finalitat o mentre duri el consentiment, sense cap termini concret.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bonpreu-online-privacy-policy"
+      ],
+      "detail": "Un cop complerta la finalitat, les dades queden bloquejades durant els terminis legals.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bonpreu-online-faq",
+        "bonpreu-online-privacy-policy"
+      ],
+      "detail": "Les preguntes freqüents responen «Com puc cancel·lar el meu compte?» amb l’exercici del dret de supressió.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "bonpreu-online-faq"
+      ],
+      "detail": "La resposta oficial a com cancel·lar el compte remet a una petició per correu electrònic, carta o telèfon; no descriu cap opció dins de l’app ni al web.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://www.compraonline.bonpreuesclat.cat/content/preguntes-frequents",
+    "difficulty": "hard",
+    "requiresSupportContact": true,
+    "steps": [
+      "Escriu a seguretatlopd@bonpreu.cat, o per carta a Bon Preu, S.A.U., Ctra. C-17 km 73, les Masies de Voltregà, o truca al 900 500 005.",
+      "Demana la supressió del compte i adjunta una còpia del DNI, que la política exigeix per acreditar la identitat.",
+      "Recorda que el compte en línia és el mateix que el de la targeta client: esborrar-lo afecta també l’app de fidelització."
+    ],
+    "obstacles": "Cal enviar una còpia del document d’identitat i no hi ha cap procediment d’autoservei.",
+    "dataRetained": "Les dades queden bloquejades durant els terminis legals, que la política no concreta.",
+    "sources": [
+      "bonpreu-online-faq",
+      "bonpreu-online-privacy-policy",
+      "bonpreu-online-terms"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bonpreu-online-privacy-policy"
+      ],
+      "detail": "La política reconeix la portabilitat, però només per petició escrita i amb còpia del DNI.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bonpreu-online-privacy-policy"
+      ],
+      "detail": "Hi ha delegat de protecció de dades (seguretatlopd@bonpreu.cat) i tres canals, però cal adjuntar una còpia del DNI a qualsevol petició. La política remet a l’AEPD per reclamar.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bonpreu-online-faq",
+        "bonpreu-online-privacy-policy"
+      ],
+      "detail": "Les comunicacions comercials es desactiven des de «El meu compte» > «Comunicacions», però la personalització d’ofertes amb l’historial de compres es basa en l’interès legítim i no hi ha cap interruptor documentat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap opció per desactivar l’analítica de l’app."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Més enllà de l’interruptor de comunicacions comercials, no hem trobat controls de privadesa separats."
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi independent dels formularis de registre i de consentiment."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És una botiga en línia sense comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bonpreu-online-pagament"
+      ],
+      "detail": "La botiga declara xifratge SSL per a les dades bancàries i les contrasenyes en trànsit.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no concreta les mesures tècniques de seguretat."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El pagament exigeix autenticació reforçada del banc (3D Secure), però no hem trobat cap segon factor per iniciar sessió al compte."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat auditories ni certificacions publicades."
+    },
+    "bugBounty": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bonpreu-online-security-txt"
+      ],
+      "detail": "El security.txt diu que la botiga la proporciona un proveïdor extern amb un programa privat de recompenses, al qual cal demanar invitació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bonpreu-online-security-txt"
+      ],
+      "detail": "La botiga en línia publica un security.txt amb un formulari de contacte i data de caducitat del 2027.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "bonpreu-i-esclat",
+      "comparability": "complementary",
+      "rationale": "L’app de fidelització del mateix grup, amb el mateix compte client, per consultar ofertes i tiquets sense fer la compra en línia.",
+      "tradeOffs": "Tampoc no té cap opció d’autoservei per eliminar el compte."
+    },
+    {
+      "app": "mercadona",
+      "comparability": "equivalent",
+      "rationale": "Compra en línia de supermercat amb lliurament a domicili.",
+      "tradeOffs": "Cobertura geogràfica diferent i sense programa de fidelització."
+    },
+    {
+      "app": "carrefour",
+      "comparability": "equivalent",
+      "rationale": "Supermercat amb compra en línia d’abast estatal."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "El grup té dues apps a l’App Store: «Bonpreu i Esclat» (fidelització, amb fitxa pròpia) i «BonpreuEsclat» (compra en línia, aquesta fitxa), amb més valoracions. Les dues les publica com a comerciant Bonpreu Holding S.L., mentre que la política identifica com a responsable Bon Preu, S.A.U.; l’etiqueta de privadesa la signa «Bon Preu SAU». L’etiqueta declara com a no vinculades a la identitat dades que no poden ser anònimes en un servei de lliurament a domicili (nom, adreça, historial de compres) i no declara cap dada de pagament. No hem trobat sancions de l’AEPD ni de l’APDCAT contra Bon Preu.",
+    "openQuestions": [
+      "Com pot ser que el nom, l’adreça de lliurament i l’historial de compres no es vinculin a la identitat del client?",
+      "Quin és el proveïdor extern de la botiga en línia i quines dades hi tracta?",
+      "Quant de temps es conserva l’historial de compres un cop tancat el compte?"
+    ]
+  },
+  "appStoreBundleId": "com.bonpreu.grocery.release"
+}

@@ -1,0 +1,432 @@
+{
+  "slug": "mando-universal-tv",
+  "name": "Mando a distancia universal TV",
+  "company": "kraftwerk9",
+  "categories": [
+    "utilitats",
+    "llar-connectada"
+  ],
+  "tagline": "Un comandament a distància que declara la ubicació entre les dades amb què et rastreja",
+  "summary": "Per controlar un televisor n’hi ha prou amb la xarxa local, però aquesta aplicació declara a Apple quatre categories de dades, ubicació inclosa, utilitzades per rastrejar en apps i webs d’altres empreses, i les vincula amb la identitat per a publicitat de tercers. La política confirma la xarxa publicitària Appodeal i l’analítica de Google i Firebase, no fixa cap termini de conservació i diu que no admet el senyal Do Not Track.",
+  "platforms": [
+    "ios"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Xipre",
+  "links": {
+    "website": "https://kraftwerk9.com/",
+    "privacyPolicy": "https://kraftwerk9.com/privacy",
+    "appStore": "https://apps.apple.com/es/app/id1439422220"
+  },
+  "accountRequired": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": [],
+    "detail": "La política parla d’un compte amb correu i nom, però no hem pogut verificar si l’aplicació n’exigeix cap per funcionar."
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "mando-universal-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "La ubicació aproximada lligada a l’identificador del dispositiu i a les dades de publicitat permet a una xarxa publicitària seguir-te d’una app a una altra, i no és necessària per fer de comandament.",
+  "dataCollection": [
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "mando-universal-app-store",
+        "kraftwerk9-privacy-policy"
+      ],
+      "note": "Declarada per a publicitat de tercers i per a analítica, i inclosa entre les dades de rastreig."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "mando-universal-app-store"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "kraftwerk9-privacy-policy"
+      ],
+      "note": "La política esmenta expressament els identificadors publicitaris i l’exclusió a través de la configuració del dispositiu."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "mando-universal-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "mando-universal-app-store"
+      ],
+      "note": "Les dades de rendiment es declaren també per a publicitat de tercers."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "kraftwerk9-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "kraftwerk9-privacy-policy"
+      ],
+      "note": "La política preveu enviar butlletins i material promocional amb opció de donar-se de baixa."
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "kraftwerk9-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "kraftwerk9-privacy-policy"
+      ],
+      "note": "Les subscripcions es cobren a través de l’App Store, que no comparteix les dades de la targeta."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mando-universal-app-store"
+      ],
+      "detail": "Ubicació, identificadors, dades d’ús i diagnòstics declarats per rastrejar en apps i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "kraftwerk9-privacy-policy"
+      ],
+      "detail": "La política descriu l’ús d’identificadors publicitaris i remet a la configuració del dispositiu per limitar-los.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "kraftwerk9-privacy-policy"
+      ],
+      "detail": "Appodeal com a xarxa publicitària i Google Analytics i Firebase com a analítica.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mando-universal-app-store",
+        "kraftwerk9-privacy-policy"
+      ],
+      "detail": "L’etiqueta té una categoria sencera de «publicidad de terceros».",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "kraftwerk9-privacy-policy"
+      ],
+      "detail": "Galetes publicitàries per mostrar anuncis rellevants segons els interessos; no es descriu cap perfil més elaborat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no en diu res."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "kraftwerk9-privacy-policy"
+      ],
+      "detail": "Proveïdors de serveis, xarxes publicitàries i autoritats quan la llei ho exigeix.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No es descriu cap grup empresarial."
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu res sobre la venda de dades."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "kraftwerk9-privacy-policy"
+      ],
+      "detail": "Reconeix transferències a països amb lleis de protecció diferents sense concretar cap garantia del RGPD.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No n’hi ha cap."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "kraftwerk9-privacy-policy"
+      ],
+      "detail": "Només diu que conserva les dades «el temps necessari».",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no ho explica."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "kraftwerk9-privacy-policy"
+      ],
+      "detail": "Reconeix el dret de supressió i diu que, «sempre que sigui possible», es pot fer des de la configuració del compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut verificar que l’aplicació tingui cap opció d’eliminació."
+    },
+    "difficulty": "unknown",
+    "requiresSupportContact": true,
+    "steps": [
+      "Cancel·la la subscripció des d’Ajustaments > Apple Account > Subscripcions, si en tens cap d’activa.",
+      "Desactiva el seguiment publicitari a Ajustaments > Privadesa i seguretat > Seguiment i exclou-te d’Appodeal a appodeal.com/sdk_opt_out.",
+      "Demana la supressió de les dades escrivint a l’assistència a través del formulari del web de Kraftwerk 9."
+    ],
+    "obstacles": "La política no dona cap adreça electrònica directa de contacte per a privadesa ni cap termini de resposta.",
+    "sources": [
+      "kraftwerk9-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "kraftwerk9-privacy-policy"
+      ],
+      "detail": "Reconeix la portabilitat per a les persones de l’Espai Econòmic Europeu, sense cap eina.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "kraftwerk9-privacy-policy"
+      ],
+      "detail": "Només a través del contacte general del web.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "kraftwerk9-privacy-policy"
+      ],
+      "detail": "Remet a la configuració publicitària del dispositiu i a l’exclusió d’Appodeal, no a cap control dins de l’app.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "kraftwerk9-privacy-policy"
+      ],
+      "detail": "Només a través de la configuració de Firebase del dispositiu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "kraftwerk9-privacy-policy"
+      ],
+      "detail": "No hi ha cap panell de preferències de privadesa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No n’hem documentat cap amb prou base."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És un comandament a distància.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El domini no publica cap fitxer security.txt."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "kraftwerk9-privacy-policy"
+      ],
+      "detail": "No hi ha cap canal de divulgació de vulnerabilitats i el domini no serveix cap fitxer security.txt.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": false,
+    "editorialNotes": "La política és una plantilla genèrica de l’empresa, no de l’aplicació, i no esmenta ni el país del responsable ni l’autoritat de control; el domicili a Nicòsia surt de la fitxa del venedor a l’App Store. No hem pogut fer la cerca d’incidents.",
+    "openQuestions": [
+      "Per què una aplicació de comandament a distància necessita la ubicació per a publicitat de tercers?",
+      "L’aplicació demana consentiment de rastreig conforme al marc de transparència d’Apple abans de carregar Appodeal?"
+    ]
+  },
+  "appStoreBundleId": "com.kraftwerk9.universal"
+}

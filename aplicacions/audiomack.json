@@ -1,0 +1,568 @@
+{
+  "slug": "audiomack",
+  "name": "Audiomack",
+  "company": "audiomack",
+  "categories": [
+    "musica-i-audio",
+    "xarxes-socials"
+  ],
+  "tagline": "Diu «no venem les teves dades», però l’etiqueta declara vuit categories utilitzades per rastrejar-te",
+  "summary": "Audiomack distribueix música d’artistes emergents sense cost i viu de la publicitat. La política afirma que la companyia no ven dades personals, però reconeix la compartició amb LiveRamp (una plataforma d’identitat publicitària) de correu xifrat, adreça IP i dades del navegador, i l’etiqueta de l’App Store declara compres, ubicació, dades de contacte, contingut de la persona usuària, historial de cerca, identificadors, dades d’ús i diagnòstics com a dades utilitzades per rastrejar. En canvi, el compte s’elimina amb un botó del tauler.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Estats Units",
+  "userBase": "No n’hem verificat cap xifra oficial.",
+  "links": {
+    "website": "https://audiomack.com/",
+    "privacyPolicy": "https://www.audiomack.com/about/privacy-policy",
+    "appStore": "https://apps.apple.com/es/app/id921765888"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "audiomack-privacy-policy"
+    ],
+    "detail": "El registre demana correu, nom, edat i gènere.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "editorial",
+    "sources": [],
+    "detail": "No hi ha cap repositori públic del servei.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "L’historial d’escolta d’una plataforma dominada per un gènere musical concret dona molta informació demogràfica i cultural. Afegir-hi l’edat i el gènere declarats al registre, la geolocalització i un identificador publicitari resolt per LiveRamp permet reconèixer la mateixa persona en altres webs.",
+  "dataCollection": [
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "audiomack-privacy-policy",
+        "audiomack-app-store"
+      ],
+      "note": "La política descriu la compartició d’un correu xifrat amb LiveRamp."
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "audiomack-privacy-policy",
+        "audiomack-app-store"
+      ]
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "audiomack-privacy-policy"
+      ],
+      "note": "El registre demana l’edat."
+    },
+    {
+      "type": "genere",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "audiomack-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "audiomack-app-store",
+        "audiomack-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "audiomack-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "audiomack-app-store",
+        "audiomack-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-visualitzacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "audiomack-privacy-policy"
+      ],
+      "note": "L’activitat d’escolta també alimenta les estadístiques que veuen els artistes."
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "audiomack-app-store",
+        "audiomack-privacy-policy"
+      ]
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "audiomack-privacy-policy"
+      ],
+      "note": "Foto de perfil i portades pujades pels artistes."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "audiomack-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "audiomack-app-store",
+        "audiomack-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "audiomack-privacy-policy"
+      ],
+      "note": "Es comparteix amb LiveRamp juntament amb dades del navegador."
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "audiomack-privacy-policy"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "audiomack-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "audiomack-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "audiomack-app-store"
+      ],
+      "detail": "Vuit categories declarades com a dades utilitzades per rastrejar en aplicacions i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "audiomack-app-store",
+        "audiomack-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "audiomack-privacy-policy"
+      ],
+      "detail": "Xarxes publicitàries, proveïdors d’analítica i LiveRamp com a soci d’identitat.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "audiomack-privacy-policy"
+      ],
+      "detail": "La publicitat és el model de negoci de la versió gratuïta; la subscripció Premium la retira.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "audiomack-privacy-policy"
+      ],
+      "detail": "Personalització i estadístiques per a creadors a partir de l’activitat d’escolta.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta l’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "audiomack-privacy-policy"
+      ],
+      "detail": "Socis d’analítica, xarxes publicitàries i LiveRamp.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Audiomack, Inc. no forma part de cap grup empresarial més ampli que ens consti.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "audiomack-privacy-policy"
+      ],
+      "detail": "La política nega la venda de dades personals, però la compartició amb LiveRamp de correu xifrat i adreça IP és funcionalment una cessió a la cadena publicitària.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "audiomack-privacy-policy"
+      ],
+      "detail": "Les dades es tracten als Estats Units; la política no cita cap mecanisme del RGPD.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "audiomack-privacy-policy"
+      ],
+      "detail": "La política no fixa cap termini concret de conservació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no detalla què es conserva després d’eliminar el compte."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "audiomack-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "audiomack-privacy-policy"
+      ],
+      "detail": "Hi ha un botó «Delete account» al tauler del compte; també s’accepta la sol·licitud per correu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "easy",
+    "steps": [
+      "Entra al compte des del web o l’aplicació i obre el tauler de configuració.",
+      "Tria l’opció «Delete account» i confirma-la.",
+      "Si no la trobes, escriu a privacy@audiomack.com o obre un tiquet de suport demanant la supressió.",
+      "Recorda que la música que hagis publicat i els comentaris poden continuar visibles si altres persones els han republicat."
+    ],
+    "sources": [
+      "audiomack-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap eina d’exportació ni cap descripció del format."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "audiomack-privacy-policy"
+      ],
+      "detail": "Hi ha una adreça de privadesa i el compromís de respondre «sense dilació indeguda», però no es designa cap representant a la Unió Europea ni s’esmenta el RGPD amb detall.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacy@audiomack.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "audiomack-privacy-policy"
+      ],
+      "detail": "La política reconeix el dret a retirar el consentiment, però la via pràctica per aturar la publicitat és pagar la subscripció.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap control d’analítica."
+    },
+    "granularControls": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "audiomack-privacy-policy"
+      ],
+      "detail": "No hi ha cap panell de privadesa amb controls per finalitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [
+        "audiomack-privacy-policy",
+        "audiomack-app-store"
+      ],
+      "detail": "L’afirmació rotunda «no venem les teves dades, punt» conviu amb la compartició amb un soci d’identitat publicitària i amb una etiqueta de rastreig molt extensa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "confusing-language",
+        "severity": "medium",
+        "description": "La negativa categòrica a vendre dades contrasta amb la cessió a LiveRamp de correu xifrat, adreça IP i dades del navegador per a finalitats publicitàries.",
+        "sources": [
+          "audiomack-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha comunicacions privades xifrades entre persones usuàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació tècnica pública."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació sobre la verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap canal públic de comunicació de vulnerabilitats."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "soundcloud",
+      "comparability": "equivalent",
+      "rationale": "També distribueix música d’artistes emergents amb pujada lliure, però amb un responsable establert a la Unió Europea i sotmès a una autoritat de control europea.",
+      "tradeOffs": "El catàleg d’afrobeats i de hip-hop africà, l’especialitat d’Audiomack, hi és menys present."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La fitxa mostra la distància entre una afirmació de màrqueting («no venem les teves dades, punt») i el que descriu la mateixa política dues seccions més avall.",
+    "openQuestions": [
+      "Qui és el representant d’Audiomack a la Unió Europea, si n’hi ha cap?",
+      "Quin és el termini de conservació després d’eliminar el compte?"
+    ]
+  },
+  "appStoreBundleId": "com.audiomack.iphone"
+}

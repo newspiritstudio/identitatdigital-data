@@ -1,0 +1,18 @@
+{
+  "slug": "twitch-filtracio-2021",
+  "title": "Filtració de 125 GB del codi font i dels pagaments a creadors de Twitch",
+  "type": "breach",
+  "severity": "high",
+  "apps": [
+    "twitch"
+  ],
+  "company": "twitch-interactive",
+  "occurredAt": "2021-10-04",
+  "disclosedAt": "2021-10-06",
+  "description": "Un canvi de configuració d’un servidor va permetre accedir a un repositori intern. Es van publicar el codi font de Twitch i tres anys d’informes de pagaments a creadors. Twitch va afirmar que no es van exposar contrasenyes, desades amb bcrypt, ni números de targeta complets, i va restablir totes les claus d’emissió.",
+  "affectedPeople": "Creadors amb pagaments inclosos a la filtració; segons Twitch, una petita fracció de les persones usuàries.",
+  "sources": [
+    "twitch-breach-2021-update",
+    "twitch-breach-techcrunch-2021"
+  ]
+}

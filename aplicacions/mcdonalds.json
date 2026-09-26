@@ -1,0 +1,602 @@
+{
+  "slug": "mcdonalds",
+  "name": "McDonald’s",
+  "company": "restaurantes-mcdonalds-espana",
+  "categories": [
+    "alimentacio-i-restauracio"
+  ],
+  "tagline": "El programa de punts elabora un perfil a partir de les comandes, que també serveix per fer anuncis a Google, Meta i Netflix",
+  "summary": "L’aplicació MyMcDonald’s combina comandes, pagament i un programa de fidelització que, segons la política, elabora perfils amb decisions automatitzades a partir dels hàbits de consum. Amb el consentiment de la persona, el correu xifrat i el comportament a l’aplicació serveixen per crear audiències a Google, Meta i Netflix. L’etiqueta de l’App Store declara que les compres, la ubicació i els identificadors s’usen per rastrejar, mentre que la política parla només de galetes analítiques anonimitzades a l’aplicació. Es pot eliminar el compte des del perfil, però les dades es conserven bloquejades dos anys més.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Espanya (Restaurantes McDonald’s, S.A.U.); als restaurants franquiciats, el franquiciat és responsable de les dades que es donen al seu restaurant",
+  "links": {
+    "website": "https://mcdonalds.es/",
+    "privacyPolicy": "https://mcdonalds.es/documentos/politica-privacidad-clientes",
+    "privacyCenter": "https://promos.mcdonalds.es/my-personal-data-request",
+    "appStore": "https://apps.apple.com/es/app/id1217507712",
+    "playStore": "https://play.google.com/store/apps/details?id=com.mcdonalds.mobileapp"
+  },
+  "accountRequired": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "mcdonalds-privacy-policy"
+    ],
+    "detail": "La instal·lació ja tracta l’identificador del dispositiu; per a les ofertes, el programa de punts i «Pide y Paga» cal registrar-se amb correu, nom i cognom.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "mcdonalds-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "L’historial de transaccions del programa de punts recull restaurant, servei, data, hora, mitjà de pagament i import de cada consum. Amb la ubicació i la freqüència d’ús, mostra rutines diàries i hàbits alimentaris, i la mateixa informació alimenta els perfils per a publicitat en altres plataformes.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "mcdonalds-privacy-policy",
+        "mcdonalds-app-store"
+      ],
+      "note": "Obligatori per registrar-se."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "mcdonalds-privacy-policy",
+        "mcdonalds-app-store"
+      ],
+      "note": "Xifrada amb hash, s’usa per crear audiències a Google, Meta i Netflix si s’hi consent."
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "mcdonalds-privacy-policy",
+        "mcdonalds-app-store"
+      ]
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "mcdonalds-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "mcdonalds-app-store",
+        "mcdonalds-play-data-safety"
+      ],
+      "note": "Per als premis amb lliurament a domicili i el repartiment."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "mcdonalds-privacy-policy",
+        "mcdonalds-app-store"
+      ],
+      "note": "Amb permís, per trobar el restaurant més proper; l’etiqueta la declara també per a publicitat de tercers i es pot compartir amb Sift per prevenir el frau."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "mcdonalds-privacy-policy",
+        "mcdonalds-play-data-safety"
+      ],
+      "note": "Només per a «Pide y Paga»; les targetes les tracten proveïdors PCI DSS i McDonald’s diu que no les emmagatzema."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "mcdonalds-privacy-policy",
+        "mcdonalds-app-store"
+      ],
+      "note": "Restaurant, data, hora, import, productes i punts de cada transacció del programa MyMcDonald’s."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "mcdonalds-privacy-policy",
+        "mcdonalds-app-store",
+        "mcdonalds-play-data-safety"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-publicitaria",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "mcdonalds-privacy-policy",
+        "mcdonalds-app-store"
+      ],
+      "note": "La política esmenta Kochava a Android amb consentiment; l’etiqueta d’iOS declara identificadors usats per rastrejar."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "mcdonalds-privacy-policy"
+      ],
+      "note": "Es pot compartir amb Sift, responsable independent del tractament, per prevenir el frau."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "personalitzacio-de-continguts",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "mcdonalds-app-store",
+        "mcdonalds-play-data-safety"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "mcdonalds-privacy-policy",
+        "mcdonalds-app-store",
+        "mcdonalds-play-data-safety"
+      ]
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "mcdonalds-privacy-policy"
+      ],
+      "note": "Segments de clientela a partir dels hàbits de consum i de l’activitat a l’aplicació."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "mcdonalds-privacy-policy",
+        "mcdonalds-app-store"
+      ],
+      "note": "Consultes a atenció al client, gestionades per un proveïdor extern."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "mcdonalds-app-store",
+        "mcdonalds-play-data-safety"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mcdonalds-app-store"
+      ],
+      "detail": "L’etiqueta declara que les compres, la ubicació, les dades de contacte, els identificadors, les dades d’ús i els diagnòstics s’usen per rastrejar entre aplicacions i llocs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mcdonalds-privacy-policy",
+        "mcdonalds-app-store"
+      ],
+      "detail": "Kochava a Android, amb consentiment, i identificadors declarats per rastrejar a iOS.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mcdonalds-privacy-policy"
+      ],
+      "detail": "La política esmenta Google Analytics 4, Kochava i Sift a l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mcdonalds-privacy-policy",
+        "mcdonalds-app-store"
+      ],
+      "detail": "Amb el consentiment, el correu xifrat i el comportament serveixen per mostrar anuncis i crear audiències similars a Google, Meta i Netflix.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://mcdonalds.es/documentos/politica-privacidad-clientes"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mcdonalds-privacy-policy"
+      ],
+      "detail": "El programa MyMcDonald’s «conlleva la elaboración de perfiles de acuerdo con decisiones automatizadas» a partir dels hàbits de consum, les preferències i l’activitat a l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu res sobre l’entrenament de models d’IA."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mcdonalds-privacy-policy"
+      ],
+      "detail": "Proveïdors com Plexure, Twilio, Adyen, Braze i diverses agències de màrqueting; Sift com a responsable independent per prevenir el frau; Netflix per a campanyes, i els franquiciats quan cal.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mcdonalds-privacy-policy"
+      ],
+      "detail": "Les dades es poden transferir a McDonald’s Corporation i a McDonald’s Global Markets LLC.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "mcdonalds-privacy-policy"
+      ],
+      "detail": "La declaració global diu que McDonald’s no ven informació personal a canvi d’una contraprestació econòmica.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mcdonalds-privacy-policy"
+      ],
+      "detail": "Cap a McDonald’s Corporation i McDonald’s Global Markets, adherides al Marc de privadesa de dades UE-EUA, i cap a proveïdors amb clàusules contractuals tipus.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "adequacy"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "mcdonalds-privacy-policy"
+      ],
+      "detail": "Per als comptes de l’aplicació hi ha un termini concret: mentre el compte és actiu i dos anys més, bloquejades. Per a la resta, només criteris generals.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "mcdonalds-privacy-policy"
+      ],
+      "detail": "Després de la baixa, les dades queden bloquejades a disposició de jutges i autoritats pels terminis de prescripció.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "identificador-de-compte",
+        "period": "Mentre el compte és actiu i fins a dos anys més, bloquejades",
+        "sources": [
+          "mcdonalds-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mcdonalds-privacy-policy",
+        "mcdonalds-play-data-safety"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mcdonalds-privacy-policy"
+      ],
+      "detail": "La política explica com eliminar el compte des del perfil de l’aplicació. També es pot demanar la supressió al portal de drets.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://promos.mcdonalds.es/my-personal-data-request",
+    "difficulty": "medium",
+    "steps": [
+      "Obre l’aplicació i entra a «Mi cuenta».",
+      "Segons la política, cal tancar la sessió, triar «Visitar el sitio» i seleccionar «Eliminar cuenta».",
+      "Com a alternativa, demana la supressió a promos.mcdonalds.es/my-personal-data-request o escriu a dpd.mcdonaldsspain@es.mcd.com.",
+      "Desinstal·lar l’aplicació no elimina les dades: cal fer un dels dos passos anteriors."
+    ],
+    "obstacles": "El camí que descriu la política (tancar la sessió i passar pel lloc web) és poc intuïtiu, i els punts i premis acumulats es perden.",
+    "dataRetained": "Les dades del compte queden bloquejades fins a dos anys després que el compte deixi d’estar actiu, per atendre possibles responsabilitats legals.",
+    "sources": [
+      "mcdonalds-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "mcdonalds-privacy-policy"
+      ],
+      "detail": "Es reconeix el dret de portabilitat en format estructurat, però s’ha de demanar; no hi ha eina de descàrrega.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://promos.mcdonalds.es/my-personal-data-request"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mcdonalds-privacy-policy"
+      ],
+      "detail": "Portal de drets per a les persones usuàries de l’aplicació i delegat de protecció de dades per correu.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://promos.mcdonalds.es/my-personal-data-request"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mcdonalds-privacy-policy"
+      ],
+      "detail": "Els consentiments per a comunicacions i anuncis a plataformes de tercers es poden retirar modificant els permisos del compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "mcdonalds-privacy-policy"
+      ],
+      "detail": "La política remet a la configuració de privadesa del dispositiu per a les galetes analítiques de l’aplicació, sense un control propi.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "mcdonalds-privacy-policy"
+      ],
+      "detail": "Permisos separats per a notificacions, correu, SMS i anuncis a plataformes de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi de patrons foscos a l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no transporta comunicacions privades entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mcdonalds-play-data-safety"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política només parla de mesures tècniques i organitzatives genèriques."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat informació pública sobre verificació en dos passos al compte de l’aplicació espanyola."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Els proveïdors de pagament compleixen PCI DSS, però no consten auditories de l’aplicació."
+    },
+    "bugBounty": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "mcdonalds-bugcrowd-vdp"
+      ],
+      "detail": "Hi ha un programa de divulgació de vulnerabilitats a Bugcrowd, però no un programa de recompenses.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://bugcrowd.com/engagements/mcdonalds"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "mcdonalds-bugcrowd-vdp"
+      ],
+      "detail": "La política cobreix McDonald’s Corporation, les filials i els franquiciats; no hem comprovat si l’aplicació espanyola és expressament dins de l’abast.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Hi ha una contradicció entre fonts: la política diu que les galetes analítiques de l’aplicació són anonimitzades i que Kochava només és a Android, mentre que l’etiqueta d’iOS declara rastreig amb compres, ubicació i identificadors. No hem inclòs incidents: la filtració del xatbot de contractació McHire (2025) i la del 2021 a Corea del Sud i Taiwan no afecten l’aplicació ni la clientela espanyola, i no hem trobat cap sanció de l’AEPD. La política va ser llegida a través d’un servei intermediari perquè el web bloqueja les descàrregues automàtiques.",
+    "openQuestions": [
+      "El camí d’eliminació que descriu la política («cerrar sesión», «Visitar el sitio», «Eliminar cuenta») coincideix amb l’aplicació actual?",
+      "L’aplicació espanyola és dins de l’abast del programa de divulgació de Bugcrowd?"
+    ]
+  },
+  "appStoreBundleId": "com.mcdonalds.mobileapp"
+}

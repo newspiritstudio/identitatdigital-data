@@ -1,0 +1,555 @@
+{
+  "slug": "kobo",
+  "name": "Kobo Books",
+  "company": "rakuten-kobo",
+  "categories": [
+    "llibres-i-lectura",
+    "comerc-electronic"
+  ],
+  "tagline": "Una botiga de llibres del grup Rakuten amb una política de privadesa que no s’ha actualitzat des del 2018",
+  "summary": "Kobo ven llibres electrònics i audiollibres i és l’alternativa principal a la botiga de Kindle. L’etiqueta de l’App Store no declara cap dada per rastrejar, i les transferències dins del grup es cobreixen amb les normes corporatives vinculants de Rakuten aprovades a Luxemburg. En canvi, la política porta la data d’1 de març del 2018 i la de galetes, del setembre del 2017: no parla de dades de lectura, ni de bases jurídiques per a l’analítica de l’aparell, ni de terminis més enllà de «fins que tanquis el compte». El centre d’ajuda sí que admet que «Kobo tracks your data, activity, and preferences» i explica que els comptes inactius durant tres anys es poden esborrar.",
+  "platforms": [
+    "ios",
+    "android",
+    "web",
+    "windows",
+    "macos"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Canadà i Luxemburg (UE)",
+  "links": {
+    "website": "https://www.kobo.com/",
+    "privacyPolicy": "https://es.kobo.com/privacypolicy",
+    "appStore": "https://apps.apple.com/es/app/id301259483"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "kobo-privacy-policy",
+      "kobo-deactivate-account"
+    ],
+    "detail": "Cal un compte de Kobo per comprar, sincronitzar la biblioteca i llegir als aparells; la política també diu que cal tenir com a mínim 16 anys.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "kobo-app-store"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Una biblioteca de Kobo és un historial de compra i de lectura acumulat durant anys, sincronitzat entre el lector, el mòbil i l’ordinador. La política del 2018 no descriu què es recull mentre es llegeix; el centre d’ajuda sí que reconeix el seguiment de l’activitat i ofereix un interruptor per desactivar-lo, dispositiu per dispositiu.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "kobo-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "kobo-app-store",
+        "kobo-privacy-policy"
+      ],
+      "note": "La política diu que Rakuten Inc. emmagatzema l’adreça i la contrasenya xifrada perquè altres serveis del grup hi puguin accedir."
+    },
+    {
+      "type": "contrasenya",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "kobo-privacy-policy"
+      ],
+      "note": "Emmagatzemada xifrada per Rakuten Inc. com a part del sistema d’identificació del grup."
+    },
+    {
+      "type": "adreca-postal",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "kobo-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "kobo-privacy-policy"
+      ],
+      "note": "La política l’associa també a la verificació d’identitat, la solvència i la capacitat de pagament."
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "kobo-privacy-policy"
+      ],
+      "note": "Serveix també per aplicar els drets geogràfics i les limitacions d’ús del contingut."
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "kobo-app-store"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "kobo-app-store",
+        "kobo-privacy-settings"
+      ],
+      "note": "El centre d’ajuda reconeix que Kobo segueix les dades, l’activitat i les preferències, i ofereix desactivar-ho a «Help Improve our App»."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "kobo-app-store"
+      ],
+      "note": "L’etiqueta el declara com a dada no vinculada amb la identitat."
+    },
+    {
+      "type": "fitxers-i-documents",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "kobo-app-store"
+      ],
+      "note": "L’etiqueta declara «contenido del usuario» per al funcionament de l’app."
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "kobo-privacy-policy"
+      ],
+      "note": "La taula de la política de galetes inclou Google Analytics, Optimizely, Facebook, Google AdWords, Criteo, Bing i Crashlytics."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "kobo-app-store",
+        "kobo-privacy-policy"
+      ],
+      "note": "Crashlytics consta entre les tecnologies de seguiment declarades."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "kobo-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store no declara cap dada utilitzada per rastrejar. Al web, en canvi, la política de galetes descriu galetes de focalització de Criteo, Facebook, Google AdWords i Bing.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Ni l’etiqueta ni la política esmenten l’identificador publicitari del dispositiu."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "kobo-privacy-policy"
+      ],
+      "detail": "La política de galetes llista Google Analytics, Optimizely, Facebook, Google AdWords, Criteo, Bing i Crashlytics, i adverteix que la taula no es manté actualitzada.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "kobo-privacy-policy"
+      ],
+      "detail": "La política descriu galetes «relacionadas con la focalización» per servir anuncis segons els interessos, i butlletins personalitzats del grup Rakuten amb consentiment; l’etiqueta de l’app no declara dades per a publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "kobo-privacy-policy",
+        "kobo-privacy-settings"
+      ],
+      "detail": "La política parla d’ofertes personalitzades i d’anàlisis estadístiques, i el centre d’ajuda admet que es fa seguiment de l’activitat i les preferències per fer «Kobo services more useful to you». No descriu com es construeix el perfil.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política, del 2018, no en parla."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "kobo-privacy-policy"
+      ],
+      "detail": "Proveïdors de serveis i socis comercials de màrqueting, pagaments i analítica, socis minoristes del país de residència, autoritats i eventuals compradors del negoci.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "kobo-privacy-policy"
+      ],
+      "detail": "Kobo forma part del grup Rakuten i les dades del compte (correu i contrasenya xifrada) les emmagatzema Rakuten Inc., que permet que altres serveis del grup hi accedeixin.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu si ven o cedeix dades a intermediaris."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "kobo-privacy-policy"
+      ],
+      "detail": "Transferències al grup Rakuten als Estats Units, al Japó i al Canadà. Dins del grup s’apliquen les normes corporatives vinculants de Rakuten, aprovades amb l’autoritat luxemburguesa com a autoritat principal; per al Canadà s’invoca la decisió d’adequació 2002/2/CE.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "bcrs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència de Rakuten Kobo."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "kobo-privacy-policy",
+        "kobo-dormancy"
+      ],
+      "detail": "La política només diu que les dades es conserven fins que es tanca el compte. El centre d’ajuda hi afegeix un termini concret: els comptes sense activitat durant més de tres anys es poden esborrar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "kobo-privacy-policy"
+      ],
+      "detail": "Després de tancar el compte, Kobo diu que pot anonimitzar les dades, agregar-les i conservar-les així amb finalitats estadístiques.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "identificador-de-compte",
+        "period": "Esborrat possible després de tres anys sense activitat, tret que hi hagi contingut comprat o crèdits",
+        "sources": [
+          "kobo-dormancy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "kobo-deactivate-account",
+        "kobo-privacy-policy"
+      ],
+      "detail": "El camí d’autoservei és una desactivació reversible, no un esborrat: «you won’t lose any items you purchased» i el compte es pot reobrir iniciant sessió. Per suprimir les dades cal exercir el dret per correu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "kobo-deactivate-account"
+      ],
+      "detail": "Des de Kobo.com, a «My Account» > «Account Settings» > «Account Status» > «Deactivate Account».",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://help.kobo.com/hc/en-us/articles/360044668774-Deactivate-and-reactivate-your-Kobo-account",
+    "difficulty": "medium",
+    "requiresSupportContact": false,
+    "steps": [
+      "Recorda que en tancar el compte deixaràs de poder sincronitzar la biblioteca entre aparells i de comprar a la botiga.",
+      "Entra a Kobo.com amb el teu compte i obre «My Account» > «Account Settings».",
+      "Baixa fins a «Account Status» i prem «Deactivate Account», i confirma-ho.",
+      "Si el que vols és que s’esborrin les dades i no només tancar el compte, demana la supressió per correu a l’adreça de privadesa de la política."
+    ],
+    "obstacles": "La desactivació és reversible: el compte es reobre iniciant-hi sessió, de manera que les dades no desapareixen. Els llibres comprats porten protecció anticòpia i no es poden traslladar lliurement a un altre servei.",
+    "dataRetained": "Dades anonimitzades i agregades amb finalitats estadístiques; la política no concreta res més.",
+    "sources": [
+      "kobo-deactivate-account",
+      "kobo-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "kobo-privacy-policy"
+      ],
+      "detail": "La política reconeix el dret a traslladar la informació personal, però no descriu cap descàrrega automàtica: cal demanar-ho per correu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "kobo-privacy-policy"
+      ],
+      "detail": "Per correu a l’adreça de privadesa que dona la política, advertint que potser caldrà aportar informació addicional. No hi ha formulari ni terminis, i no s’identifica cap delegat de protecció de dades.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "kobo-privacy-policy",
+        "kobo-privacy-settings"
+      ],
+      "detail": "Es poden cancel·lar els butlletins des de la configuració del compte i, a Europa, ajustar el seguiment a kobo.com/privacy; les galetes de focalització només es poden aturar esborrant-les al navegador.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "kobo-privacy-settings"
+      ],
+      "detail": "A l’app d’iOS, a Més > Configuració, l’interruptor «Help Improve our App» desactiva la compartició de dades d’ús. Al lector hi ha l’equivalent a «Estalvi d’energia i privadesa».",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "kobo-privacy-settings"
+      ],
+      "detail": "L’interruptor de dades s’ha de desactivar en cada aparell per separat i es reinicia si es tanca la sessió o es restaura el lector.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "permissive",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "kobo-deactivate-account",
+        "kobo-privacy-settings"
+      ],
+      "detail": "L’única sortida d’autoservei és una desactivació que es desfà simplement tornant a iniciar sessió, i el control de les dades s’ha de repetir aparell per aparell i després de cada tancament de sessió.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "hidden-exit",
+        "severity": "medium",
+        "description": "El botó que el centre d’ajuda presenta com a manera de tancar el compte només el desactiva: es reactiva iniciant-hi sessió i les dades es conserven.",
+        "sources": [
+          "kobo-deactivate-account"
+        ]
+      },
+      {
+        "type": "nagging",
+        "severity": "low",
+        "description": "La preferència de no compartir dades d’ús no se sincronitza: cal tornar-la a posar a cada aparell i cada vegada que es tanca la sessió.",
+        "sources": [
+          "kobo-privacy-settings"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És una botiga i un lector de llibres; no hi ha comunicacions privades entre persones que puguin anar xifrades d’extrem a extrem.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política parla de garanties administratives, tècniques i físiques, però no detalla el xifratge."
+    },
+    "atRestEncryption": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "kobo-privacy-policy"
+      ],
+      "detail": "L’únic xifratge que la política concreta és el de la contrasenya emmagatzemada per Rakuten Inc.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "kobo-account-security"
+      ],
+      "detail": "L’article d’ajuda sobre seguretat del compte només parla de contrasenyes i d’avisos d’activitat sospitosa; no esmenta cap segon factor d’autenticació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut comprovar si el programa de recompenses de Rakuten cobreix Kobo; kobo.com bloqueja les peticions automatitzades i no n’hem pogut llegir el security.txt."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut accedir a kobo.com/.well-known/security.txt ni hem trobat cap canal documentat."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "ebiblio",
+      "comparability": "partial",
+      "rationale": "Permet llegir llibres electrònics de franc amb el carnet de la biblioteca pública, sense comprar-los.",
+      "tradeOffs": "El catàleg és més limitat, els préstecs caduquen i també fan servir protecció anticòpia."
+    },
+    {
+      "app": "readera",
+      "comparability": "partial",
+      "rationale": "Si els llibres ja es tenen en EPUB o PDF sense protecció, ReadEra els llegeix sense compte ni connexió.",
+      "tradeOffs": "No té botiga ni sincronització pròpia i no pot obrir els llibres amb protecció anticòpia comprats a Kobo."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La documentació de Kobo és antiga: la política vigent és del març del 2018 i la de galetes, del setembre del 2017, i cap de les dues no descriu el tractament de les dades de lectura que el centre d’ajuda sí que reconeix. La botiga bloqueja les peticions automatitzades amb Cloudflare; hem llegit la política a l’Internet Archive (còpia del març del 2026 d’es.kobo.com) i els articles d’ajuda directament a help.kobo.com. L’article de seguretat del compte afirma que «There are no known data breaches on Rakuten Kobo», i cap domini de Kobo no consta a la llista de filtracions de Have I Been Pwned.",
+    "openQuestions": [
+      "Quines dades de lectura recull el lector i l’app (progrés, temps de lectura, subratllats) i amb quina base jurídica?",
+      "Què hi ha exactament a kobo.com/privacy per a les persones residents a la Unió Europea?",
+      "El programa de recompenses de Rakuten a HackerOne cobreix els dominis de Kobo?",
+      "Hi ha alguna versió posterior al 2018 de la política, o continua sent la vigent el 2026?"
+    ]
+  },
+  "appStoreBundleId": "com.shortcovers.shortcovers"
+}

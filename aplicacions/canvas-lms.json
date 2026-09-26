@@ -1,0 +1,555 @@
+{
+  "slug": "canvas-lms",
+  "name": "Canvas by Instructure",
+  "company": "instructure",
+  "categories": [
+    "educacio"
+  ],
+  "tagline": "Sense rastreig publicitari, però amb la filtració educativa més gran documentada",
+  "summary": "Canvas és l’aula virtual d’universitats i instituts de mig món. No declara cap dada utilitzada per rastrejar, l’avís diu expressament que no es fa publicitat a l’alumnat ni perfilat, el codi de Canvas LMS és lliure i hi ha certificacions ISO 27001 i SOC 2. Però el maig de 2026 una intrusió va exposar dades de prop de nou mil institucions, incloses universitats europees, i l’empresa va acabar pagant els extorsionadors. El risc principal ve de concentrar les dades acadèmiques de tantes institucions en un sol proveïdor.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "subscription",
+  "jurisdiction": "Estats Units, amb el centre educatiu com a responsable del tractament a la UE",
+  "userBase": "Desenes de milions d’estudiants i docents; el 41 % de l’educació superior dels Estats Units",
+  "links": {
+    "website": "https://www.instructure.com/canvas",
+    "privacyPolicy": "https://www.instructure.com/policies/privacy",
+    "appStore": "https://apps.apple.com/es/app/id480883488"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "canvas-lms-privacy-notice"
+    ],
+    "detail": "El compte el crea el centre educatiu o s’hi associa; l’aplicació no té servei propi.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "canvas-lms-repository"
+    ],
+    "detail": "El codi de Canvas LMS és públic amb llicència AGPL-3.0. El repositori de les aplicacions iOS és visible però no porta fitxer de llicència, i el servei allotjat és propietari.",
+    "verifiedAt": "2026-09-22",
+    "licence": "AGPL-3.0",
+    "url": "https://github.com/instructure/canvas-lms"
+  },
+  "dataSummary": "Canvas conté els lliuraments, les qualificacions, les converses amb el professorat i el registre de quan entra cadascú a cada recurs. Són dades acadèmiques de menors i de joves adults, i tenir-les centralitzades les converteix en un objectiu per als atacants, com va mostrar la intrusió de 2026.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "canvas-lms-privacy-notice",
+        "canvas-lms-app-store-privacy"
+      ],
+      "note": "Es comparteix amb el centre educatiu, que és el responsable del tractament."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "canvas-lms-app-store-privacy"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "canvas-lms-app-store-privacy"
+      ],
+      "note": "Inclou el número d’expedient que aporta la institució."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "canvas-lms-app-store-privacy"
+      ],
+      "note": "La missatgeria interna amb el professorat va ser una de les dades exfiltrades el 2026."
+    },
+    {
+      "type": "fitxers-i-documents",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "canvas-lms-privacy-notice"
+      ],
+      "note": "Treballs, exàmens i lliuraments de classe."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "canvas-lms-app-store-privacy"
+      ],
+      "note": "Canvas Studio permet lliurar vídeo."
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "canvas-lms-app-store-privacy"
+      ]
+    },
+    {
+      "type": "nivell-formatiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "canvas-lms-privacy-notice"
+      ],
+      "note": "Qualificacions i dades de rendiment acadèmic."
+    },
+    {
+      "type": "genere",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "canvas-lms-privacy-notice"
+      ],
+      "note": "L’avís esmenta gènere o pronoms preferits entre les dades de perfil."
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "canvas-lms-privacy-notice"
+      ],
+      "note": "Només en alguns productes (Portfolium, Mastery Connect, Elevate)."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "canvas-lms-privacy-notice"
+      ],
+      "note": "Només amb consentiment i revocable des del sistema operatiu."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "canvas-lms-app-store-privacy"
+      ],
+      "note": "L’etiqueta les situa entre les dades no vinculades a la identitat."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "canvas-lms-app-store-privacy"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "canvas-lms-app-store-privacy",
+        "canvas-lms-privacy-notice"
+      ],
+      "note": "L’avís afirma expressament que no es fa publicitat a l’alumnat."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "canvas-lms-privacy-notice"
+      ],
+      "note": "L’avís declara que no s’elaboren perfils ni es prenen decisions automatitzades."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "canvas-lms-app-store-privacy"
+      ],
+      "detail": "L’etiqueta no declara cap dada utilitzada per rastrejar la persona a través d’aplicacions o webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "canvas-lms-app-store-privacy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "canvas-lms-privacy-notice"
+      ],
+      "detail": "Hi ha encarregats i integracions (API de Google i de YouTube), però l’avís prohibeix que facin servir les dades per a publicitat pròpia.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "canvas-lms-privacy-notice"
+      ],
+      "detail": "L’avís diu literalment que no es fa publicitat a l’alumnat ni elaboració de perfils.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "canvas-lms-privacy-notice"
+      ],
+      "detail": "S’exclouen tant el perfilat com les decisions automatitzades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’avís esmenta assistents d’IA de suport i remet a una pàgina sobre l’ús d’eines d’IA, però no diu si les dades de l’alumnat entrenen models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "canvas-lms-privacy-notice"
+      ],
+      "detail": "Amb el centre educatiu i el seu professorat, amb les famílies quan escau, i amb encarregats tecnològics que no poden fer-ne un ús propi. L’avís nega la venda i el lloguer de dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "canvas-lms-privacy-notice"
+      ],
+      "detail": "Instructure integra Parchment i altres productes dins del mateix grup.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "canvas-lms-privacy-notice"
+      ],
+      "detail": "L’avís declara expressament que no es venen ni es lloguen dades personals a tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "canvas-lms-privacy-notice"
+      ],
+      "detail": "Instructure i Parchment estan certificades al Marc de Privadesa de Dades UE-EUA, amb TRUSTe com a mecanisme de resolució de conflictes.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "adequacy"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe periòdic sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "canvas-lms-privacy-notice"
+      ],
+      "detail": "L’avís no fixa terminis: els decideix cada institució, i avisa que hi ha dades als arxius que potser no es poden esborrar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "canvas-lms-privacy-notice"
+      ],
+      "detail": "Instructure adverteix que pot no poder esborrar la informació que resideix als seus arxius.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "canvas-lms-privacy-notice"
+      ],
+      "detail": "La decisió és del centre educatiu. Instructure atén sol·licituds de modificació o supressió per correu, en trenta dies i amb excepcions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "canvas-lms-privacy-notice"
+      ],
+      "detail": "No hi ha cap botó d’eliminació: només es pot editar el perfil i demanar la supressió per correu o per tiquet de suport.",
+      "verifiedAt": "2026-09-22"
+    },
+    "difficulty": "hard",
+    "waitingPeriodDays": 30,
+    "requiresSupportContact": true,
+    "steps": [
+      "Adreça primer la sol·licitud al teu centre educatiu, que és qui decideix sobre les teves dades acadèmiques.",
+      "Per a les dades que tracta Instructure, escriu a privacy@instructure.com o obre un tiquet des del producte.",
+      "Compta amb trenta dies de resposta i amb excepcions: l’avís adverteix que pot no poder esborrar el que hi ha als arxius."
+    ],
+    "obstacles": "Com a la resta de plataformes de centre, no ets tu qui decideix: les dades acadèmiques tenen terminis de conservació que fixa la institució i, sovint, la normativa educativa.",
+    "dataRetained": "Informació arxivada que l’avís reconeix que pot no ser eliminable.",
+    "sources": [
+      "canvas-lms-privacy-notice"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "canvas-lms-privacy-notice"
+      ],
+      "detail": "Els drets de les persones de la UE es reconeixen a l’addenda europea i s’exerceixen per correu; no hi ha eina d’autoservei d’exportació completa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "canvas-lms-privacy-notice"
+      ],
+      "detail": "Delegat de protecció de dades amb adreça pròpia i compromís de resposta en trenta dies.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:privacy@instructure.com",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No hi ha publicitat dins del servei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "canvas-lms-privacy-notice"
+      ],
+      "detail": "L’avís descriu registres de seguretat i analítica de producte sense cap control per a la persona usuària; Instructure se’n declara responsable.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "canvas-lms-privacy-notice"
+      ],
+      "detail": "Es poden desactivar les notificacions i revocar la ubicació precisa des del sistema operatiu, però la resta de la configuració la decideix el centre.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "no",
+      "level": "editorial",
+      "sources": [],
+      "detail": "No hi ha embut comercial ni pantalles de consentiment enganyoses: la persona usuària no és la clienta del servei.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "La plataforma ha de poder llegir els continguts per avaluar-los.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El centre de confiança descriu controls d’accés i infraestructura, però no publica el detall criptogràfic fora dels documents sota petició."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "El detall és als documents de diligència deguda, que no són públics."
+    },
+    "mfa": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "canvas-lms-trust-center"
+      ],
+      "detail": "L’accés del personal d’Instructure exigeix reautenticació amb Okta; per a l’alumnat, l’autenticació la decideix el centre.",
+      "verifiedAt": "2026-09-22"
+    },
+    "independentAudits": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "canvas-lms-trust-center"
+      ],
+      "detail": "Auditories SOC 2 Type 2, certificació ISO 27001, NIST 800-53 i Cyber Essentials Plus, amb avaluació anual dels proveïdors.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "canvas-lms-vulnerability-disclosure"
+      ],
+      "detail": "Hi ha programa de recompenses a Bugcrowd, però és privat: cal demanar l’alta escrivint a security@instructure.com.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.instructure.com/trust-center/vulnerability-disclosure"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "canvas-lms-vulnerability-disclosure"
+      ],
+      "detail": "Política de divulgació responsable pública amb formulari d’enviament.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "moodle",
+      "comparability": "equivalent",
+      "rationale": "Mateixa funció d’aula virtual, amb codi lliure i possibilitat d’allotjar-la al servidor del mateix centre.",
+      "tradeOffs": "Moodle exigeix que la institució assumeixi l’operació i la seguretat, cosa que no sempre millora el resultat."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "Té bones garanties documentals, però ha patit un incident greu. Les certificacions i l’absència de publicitat no eliminen el risc de concentrar tantes dades en un sol proveïdor.",
+    "openQuestions": [
+      "Quines institucions espanyoles van quedar afectades per la intrusió de maig de 2026 i què van comunicar a l’alumnat?",
+      "Les dades de l’alumnat s’utilitzen per entrenar les funcions d’IA del producte?"
+    ]
+  },
+  "appStoreBundleId": "com.instructure.icanvas"
+}

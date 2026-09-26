@@ -1,0 +1,537 @@
+{
+  "slug": "youtube",
+  "name": "YouTube",
+  "company": "google-ireland",
+  "categories": [
+    "video-i-streaming"
+  ],
+  "tagline": "Vídeo finançat amb publicitat i recomanació algorítmica intensiva",
+  "summary": "YouTube funciona amb el compte de Google i el seu sistema de recomanació és un dels més estudiats del món. L’historial de visualització i de cerca dins de la plataforma mostra amb molta precisió els interessos, les creences i l’estat d’ànim, i alimenta directament la publicitat. Es pot mirar sense compte, però la personalització i part de les funcions requereixen iniciar sessió.",
+  "platforms": [
+    "web",
+    "ios",
+    "android",
+    "other"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Irlanda, per a persones usuàries de l’Espai Econòmic Europeu",
+  "userBase": "Més de 2.500 milions de persones usuàries mensuals",
+  "links": {
+    "website": "https://www.youtube.com/",
+    "privacyPolicy": "https://policies.google.com/privacy",
+    "privacyCenter": "https://myaccount.google.com/data-and-privacy"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "google-privacy-policy"
+    ],
+    "detail": "Es pot veure contingut sense compte, amb restriccions d’edat i sense historial ni subscripcions.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "google-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "YouTube registra què es mira, quant de temps, en quin moment s’abandona un vídeo, què es cerca i què es comenta. Aquesta informació és especialment sensible perquè el consum audiovisual revela conviccions polítiques, religioses i estats de salut sense que calgui declarar-los.",
+  "dataCollection": [
+    {
+      "type": "historial-de-visualitzacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "publicitat-personalitzada",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "google-my-activity"
+      ],
+      "note": "Esborrat automàtic configurable a 3 o 36 mesos."
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "google-my-activity"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "recomanacions-algoritmiques",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "google-privacy-policy"
+      ]
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "moderacio-de-continguts"
+      ],
+      "sources": [
+        "google-privacy-policy"
+      ]
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "google-ad-center"
+      ]
+    },
+    {
+      "type": "conviccions-i-opinions",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "google-privacy-policy"
+      ],
+      "note": "No es declaren, però són inferibles amb molta precisió a partir de l’historial de visualització."
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "cnil-cookies-2021"
+      ]
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "google-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "google-privacy-policy"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "google-privacy-policy"
+      ]
+    },
+    {
+      "type": "informacio-del-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "google-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "google-privacy-policy"
+      ],
+      "note": "Només amb YouTube Premium o compres al canal."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-privacy-policy"
+      ],
+      "detail": "El reproductor incrustat de YouTube és present a molts llocs web i permet la recollida de dades fora de la plataforma. El mode de privadesa millorada existeix però no és el predeterminat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "google-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-ad-center"
+      ],
+      "detail": "Es pot desactivar la personalització; la subscripció Premium elimina la publicitat però no la recollida de dades.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://myadcenter.google.com/"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-privacy-policy"
+      ],
+      "detail": "El sistema de recomanació funciona perfilant el comportament.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "google-privacy-policy"
+      ],
+      "detail": "Google ha reconegut públicament l’ús de contingut de YouTube per entrenar models generatius, sense un mecanisme d’oposició per a les persones usuàries.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "google-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "google-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "mechanism": "adequacy"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-transparency-report"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://transparencyreport.google.com/"
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-my-activity"
+      ],
+      "detail": "L’historial de YouTube té esborrat automàtic configurable a 3 o 36 mesos.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "google-delete-account"
+      ],
+      "detail": "Els comentaris i els vídeos publicats desapareixen amb el canal, però les còpies fetes per tercers no.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "historial-de-visualitzacio",
+        "period": "36 mesos per defecte als comptes nous, configurable a 3 mesos",
+        "sources": [
+          "google-my-activity"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-delete-account"
+      ],
+      "detail": "Es pot eliminar el canal de YouTube sense eliminar el compte de Google.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-delete-account"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://myaccount.google.com/deleteservices",
+    "difficulty": "easy",
+    "waitingPeriodDays": 0,
+    "requiresSupportContact": false,
+    "steps": [
+      "Entra a myaccount.google.com i obre la secció Dades i privadesa.",
+      "Baixa fins a «Més opcions» i tria «Suprimeix el teu compte de Google» o el servei concret.",
+      "Descarrega les dades amb Takeout si les vols conservar.",
+      "Revisa la llista de serveis afectats i confirma amb la contrasenya."
+    ],
+    "obstacles": "L’eliminació del canal és irreversible i pot trigar un temps a fer efecte a la cerca.",
+    "dataRetained": "Les còpies i les citacions del contingut fetes per altres persones són fora de l’abast de l’eliminació.",
+    "sources": [
+      "google-delete-account"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-takeout-help"
+      ],
+      "detail": "Google Takeout permet exportar cada servei per separat en formats oberts i estàndard. És una de les exportacions més completes del directori.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://takeout.google.com/"
+    },
+    "exportFormatQuality": "open",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://support.google.com/policies/troubleshooter/9009584",
+      "responseTimeDays": 30
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-ad-center"
+      ],
+      "verifiedAt": "2026-09-22",
+      "url": "https://myadcenter.google.com/"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "google-my-activity"
+      ],
+      "detail": "Es pot pausar l’historial de visualització i de cerca, cosa que degrada les recomanacions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-my-activity"
+      ],
+      "detail": "Historial pausable, esborrable i amb caducitat automàtica; es poden amagar canals concrets de les recomanacions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "regulator",
+      "sources": [
+        "cnil-cookies-2021"
+      ],
+      "detail": "L’avís de galetes va ser sancionat per la CNIL. La reproducció automàtica i les recomanacions infinites són decisions de disseny orientades a maximitzar el temps de permanència.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "preselected",
+        "severity": "medium",
+        "description": "La reproducció automàtica del vídeo següent ve activada per defecte.",
+        "sources": [
+          "google-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El contingut de YouTube és públic o semipúblic per naturalesa; no hi ha comunicació privada a protegir.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-safety-center"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-safety-center"
+      ],
+      "detail": "Xifratge en repòs amb claus gestionades per Google.",
+      "verifiedAt": "2026-09-22"
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-safety-center"
+      ],
+      "detail": "Verificació en dos passos amb claus d’accés, claus de seguretat físiques, aplicació d’autenticació, notificació i SMS.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "passkey",
+        "hardware-key",
+        "totp",
+        "app-push",
+        "sms"
+      ]
+    },
+    "independentAudits": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-safety-center"
+      ],
+      "detail": "Certificacions ISO 27001, ISO 27701 i informes SOC, auditats per tercers.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://safety.google/"
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-safety-center"
+      ],
+      "detail": "Programa de recompenses de llarga trajectòria i amb imports elevats.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://bughunters.google.com/"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "google-safety-center"
+      ],
+      "detail": "L’equip Project Zero publica una política de divulgació de 90 dies aplicada també als productes propis.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "L’historial de visualització és la dada més sensible d’aquesta fitxa i no encaixa en cap categoria de l’article 9 del RGPD, tot i que permet inferir-ne diverses. La sensibilitat que atribuïm a un tipus de dada no sempre coincideix amb la seva qualificació jurídica."
+  },
+  "appStoreBundleId": "com.google.ios.youtube"
+}

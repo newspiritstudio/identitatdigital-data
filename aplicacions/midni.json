@@ -1,0 +1,431 @@
+{
+  "slug": "midni",
+  "name": "MiDNI",
+  "company": "direccion-general-de-la-policia",
+  "categories": [
+    "administracio-publica",
+    "autenticacio-i-seguretat"
+  ],
+  "tagline": "El DNI al mòbil, amb tractament en servidors propis de la policia i només diagnòstics a l’etiqueta",
+  "summary": "MiDNI permet portar el document nacional d’identitat al mòbil amb la mateixa validesa que la targeta física i mostrar només els atributs que calgui en cada cas. El registre previ exigeix un DNI electrònic amb certificats vigents i un lector, o bé anar a un punt d’actualització; el telèfon es verifica amb un SMS. La Direcció General de la Policia diu que tot el tractament es fa en servidors propis, sense tercers, amb mesures de nivell alt de l’Esquema Nacional de Seguretat.",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "businessModel": "public-service",
+  "jurisdiction": "Espanya",
+  "links": {
+    "website": "https://www.midni.gob.es/",
+    "privacyPolicy": "https://www.dnielectronico.es/PortalDNIe/PRF1_Cons02.action?pag=REF_2151",
+    "appStore": "https://apps.apple.com/es/app/id6477598076"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "midni-dnie-info"
+    ],
+    "detail": "Cal registrar-se prèviament amb el DNI electrònic i un lector, o presencialment en un punt d’actualització, i verificar el telèfon amb un SMS.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": [],
+    "detail": "No hem trobat el codi publicat."
+  },
+  "publicService": {
+    "isPublicService": true,
+    "administrationLevel": "state",
+    "legalBasis": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "midni-dnie-info"
+      ],
+      "detail": "La política invoca l’article 6.1, lletres b) i e), del RGPD i diu que el tractament és necessari per a l’exercici de poders públics «en el ámbito de la Ley Orgánica 4/2015, de 30 de marzo, de protección de la seguridad ciudadana», sense concretar-ne cap article.",
+      "verifiedAt": "2026-09-22",
+      "norm": "Llei orgànica 4/2015, sense article concret; RGPD, article 6.1.b) i e)"
+    },
+    "processingRegistry": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política de MiDNI no remet a cap fitxa del registre d’activitats de tractament, i l’inventari del Ministeri de l’Interior no es pot consultar de manera automatitzada."
+    },
+    "dpia": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat publicada cap avaluació d’impacte relativa a la protecció de dades de l’aplicació."
+    },
+    "ensConformity": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "midni-dnie-info"
+      ],
+      "detail": "La Direcció General de la Policia declara que ha aplicat les mesures de seguretat de nivell alt de l’Esquema Nacional de Seguretat, però no publica cap declaració ni certificació de conformitat referida al servei.",
+      "verifiedAt": "2026-09-22",
+      "category": "high"
+    },
+    "dpo": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "midni-dnie-info"
+      ],
+      "detail": "Delegat de protecció de dades de la Direcció General de la Policia, amb adreça postal (C/ Rafael Calvo, 33, 28010 Madrid) i correu publicat.",
+      "verifiedAt": "2026-09-22",
+      "contact": "policianacional.dpd@policia.es"
+    },
+    "offlineAlternative": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "midni-dnie-info"
+      ],
+      "detail": "La política diu que l’ús de l’aplicació «es totalmente voluntaria» i que «en ningún caso se le puede exigir su uso»: la targeta física del DNI continua identificant amb la mateixa validesa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "accessibilityStatement": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "midni-dnie-accessibilitat"
+      ],
+      "detail": "La declaració d’accessibilitat de la Divisió de Documentació és de setembre de 2020 i s’aplica al lloc www.dnielectronico.es; no cobreix l’aplicació ni el portal midni.gob.es, tot i que el Reial decret 1112/2018 també abasta les aplicacions mòbils del sector públic.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.dnielectronico.es/PortalDNIe/PRF1_Cons02.action?pag=REF_700&id_menu=0"
+    },
+    "mandatoryRetention": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "midni-dnie-info"
+      ],
+      "detail": "Les dades del registre de l’aplicació es conserven «mientras aquel continúe haciendo uso de la APP»: cap norma no obliga a mantenir-lo, perquè el servei és un afegit voluntari al DNI físic.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataSummary": "L’aplicació conté la identitat legal completa. El risc principal és la usurpació: qui controli l’aplicació pot acreditar-se com una altra persona davant de tercers.",
+  "dataCollection": [
+    {
+      "type": "document-identificatiu-oficial",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "compliment-legal"
+      ],
+      "sources": [
+        "midni-dnie-info"
+      ],
+      "note": "Les dades provenen del registre del DNI i es consulten als servidors de la Direcció General de la Policia."
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "midni-dnie-info"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "purposes": [
+        "seguretat-i-prevencio-del-frau",
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "midni-dnie-info"
+      ],
+      "note": "Es verifica amb un SMS amb un codi de validesa temporal limitada."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "midni-app-store"
+      ],
+      "note": "Errors, rendiment i «otros datos de diagnóstico», declarats per a «otros fines» sense concretar."
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "no",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "none",
+      "level": "official",
+      "sources": [
+        "midni-dnie-info"
+      ],
+      "note": "La pàgina oficial diu que les galetes són de vigència limitada i que no recullen dades personals, ni geolocalització, ni fan seguiment."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "midni-app-store"
+      ],
+      "detail": "L’etiqueta no declara cap dada usada per rastrejar-te.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "midni-app-store"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "midni-dnie-info"
+      ],
+      "detail": "La pàgina oficial afirma que tots els tractaments s’executen en servidors propis, sense tercers externs.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "midni-app-store",
+        "midni-dnie-info"
+      ],
+      "detail": "Servei públic sense publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "midni-dnie-info"
+      ],
+      "detail": "No es cedeixen dades a tercers llevat d’obligació legal.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "Organisme públic sense grup empresarial.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "midni-dnie-info"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La informació oficial no ho esmenta; diu que el tractament es fa en servidors propis."
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència de la Direcció General de la Policia sobre aquest servei."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "midni-dnie-info"
+      ],
+      "detail": "Diu que les dades es conserven mentre es fa servir l’aplicació, conforme a la normativa de protecció de dades, sense terminis concrets.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta què es conserva si es deixa de fer servir l’aplicació."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La informació oficial no descriu cap procediment de baixa del registre de MiDNI."
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "difficulty": "unknown",
+    "obstacles": "L’ús és voluntari i no es pot exigir, però no hi ha cap camí documentat per revocar el registre més enllà de desinstal·lar l’aplicació.",
+    "sources": [
+      "midni-dnie-info"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "midni-dnie-info"
+      ],
+      "detail": "Accés, rectificació, limitació, supressió i oposició davant del delegat de protecció de dades de la Direcció General de la Policia.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no mostra publicitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "L’etiqueta declara diagnòstics, però no hem trobat cap manera de desactivar-los."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "midni-dnie-info"
+      ],
+      "detail": "Es pot decidir quins atributs d’identitat es mostren a cada tercer.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "protective",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No és un servei de comunicacions entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La pàgina oficial parla de confidencialitat i integritat, sense detallar el xifratge."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "mfa": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "midni-dnie-info"
+      ],
+      "detail": "El registre exigeix el DNI electrònic o la identificació presencial, i l’activació verifica el telèfon amb un SMS.",
+      "verifiedAt": "2026-09-22",
+      "methods": [
+        "sms"
+      ]
+    },
+    "independentAudits": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "midni-dnie-info"
+      ],
+      "detail": "Declara mesures de nivell alt de l’Esquema Nacional de Seguretat; no és una auditoria independent publicada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": []
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha security.txt a policia.es ni a dnielectronico.es."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "clave",
+      "comparability": "complementary",
+      "rationale": "Cl@ve identifica davant de les administracions amb una política de privadesa pròpia i publicada; MiDNI, a més, acredita atributs del DNI davant de tercers privats.",
+      "tradeOffs": "Cl@ve no substitueix el document d’identitat."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "El portal midni.gob.es és una aplicació web que no serveix text sense JavaScript, de manera que la font principal és la fitxa oficial del portal del DNI electrònic. Cap filtració associada a policia.es o dnielectronico.es a Have I Been Pwned.",
+    "openQuestions": [
+      "Com es dona de baixa el registre de MiDNI i què se’n conserva?",
+      "Quines són les «otras finalidades» a què destina les dades de diagnòstic?"
+    ]
+  },
+  "appStoreBundleId": "es.gob.interior.policia.midni"
+}

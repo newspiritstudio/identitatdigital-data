@@ -1,0 +1,577 @@
+{
+  "slug": "playtomic",
+  "name": "Playtomic",
+  "company": "playtomic",
+  "categories": [
+    "esports-i-resultats"
+  ],
+  "tagline": "Deu anys de conservació des de l’últim accés, agenda de contactes opcional i baixa en quatre tocs",
+  "summary": "Playtomic reserva pistes de pàdel i organitza partides obertes. La política, redactada com una taula d’activitats de tractament, fixa un termini concret i llarg: deu anys des de l’últim accés per a la major part de les dades del compte. L’aplicació pot sincronitzar la llista de contactes del telèfon per trobar-hi amistats, i el nom, els cognoms i les estadístiques queden visibles per a la resta de participants a les partides públiques. L’eliminació del compte és autoservei, en quatre tocs, i és irreversible.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Espanya",
+  "userBase": "Present a una vintena de països, amb milions de reserves anuals",
+  "links": {
+    "website": "https://playtomic.io/",
+    "privacyPolicy": "https://playtomic.io/privacy-policy",
+    "appStore": "https://apps.apple.com/es/app/id1242321076"
+  },
+  "accountRequired": {
+    "status": "yes",
+    "level": "official",
+    "sources": [
+      "playtomic-privacy-policy"
+    ],
+    "detail": "Cal compte per reservar pista, apuntar-se a partides i accedir al xat; es pot crear amb correu, Google o Facebook.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "no",
+    "level": "editorial",
+    "sources": [],
+    "detail": "Servei comercial tancat.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Les reserves mostren amb qui jugues, a quina hora i en quin club cada setmana, i per tant els teus hàbits i les teves relacions. L’avaluació de la condició física i el nivell de joc són dades properes a la salut, i la sincronització de l’agenda hi afegeix persones que no hi han donat cap consentiment.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "playtomic-privacy-policy",
+        "playtomic-app-store"
+      ],
+      "note": "A les partides públiques, el nom, els cognoms i les estadístiques són visibles per a la resta de participants."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "playtomic-privacy-policy",
+        "playtomic-app-store"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "playtomic-privacy-policy",
+        "playtomic-app-store"
+      ],
+      "note": "A les activitats públiques, el telèfon de qui organitza es comparteix amb les persones inscrites."
+    },
+    {
+      "type": "llista-de-contactes",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "playtomic-privacy-policy",
+        "playtomic-app-store"
+      ],
+      "note": "Playtomic «recull, transmet, sincronitza i emmagatzema» correus, telèfons i identificadors de l’agenda; el permís es pot revocar des del sistema operatiu."
+    },
+    {
+      "type": "genere",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "playtomic-privacy-policy"
+      ]
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "playtomic-privacy-policy",
+        "playtomic-app-store"
+      ],
+      "note": "Imatge de perfil i continguts compartits a la part social de l’aplicació."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "playtomic-privacy-policy",
+        "playtomic-app-store"
+      ],
+      "note": "La taula de tractaments inclou explícitament «Credit Card information»."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "playtomic-app-store"
+      ],
+      "note": "L’etiqueta la declara vinculada a la persona per a analítica, personalització i funcionalitat."
+    },
+    {
+      "type": "dades-de-salut",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "playtomic-privacy-policy"
+      ],
+      "note": "La taula inclou una «fitness evaluation» i el nivell de joc; no es tracta d’una dada clínica, però descriu la condició física de la persona."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "playtomic-privacy-policy"
+      ],
+      "note": "Xat de grup de cada partida i xat privat entre jugadors; els gestors del club hi poden accedir «per motius organitzatius»."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "playtomic-app-store",
+        "playtomic-privacy-policy"
+      ],
+      "note": "Les dades de publicitat consten a l’etiqueta com a utilitzades per rastrejar, encara que no vinculades a la persona."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "playtomic-app-store"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "playtomic-privacy-policy"
+      ]
+    },
+    {
+      "type": "publicacions-i-comentaris",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "playtomic-privacy-policy"
+      ],
+      "note": "Comentaris, «m’agrada» i etiquetes de la plataforma social, conservats fins que la persona demana la supressió del compte."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "playtomic-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "playtomic-app-store"
+      ],
+      "detail": "L’etiqueta declara dades de publicitat utilitzades per rastrejar; és l’únic apartat de rastreig i no és vinculat a la persona.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "playtomic-app-store",
+        "playtomic-privacy-policy"
+      ],
+      "detail": "L’etiqueta declara dades de publicitat; la política parla de transferència de dades a xarxes socials per enviar comunicacions comercials en nom de Playtomic.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "playtomic-privacy-policy"
+      ],
+      "detail": "La política identifica Facebook i Instagram, i reconeix la corresponsabilitat amb Facebook Ireland per a les estadístiques de la pàgina.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "playtomic-privacy-policy"
+      ],
+      "detail": "Transferència de nom, correu i dades de comportament a xarxes socials per enviar comunicacions comercials o publicitàries en nom de Playtomic, amb base de consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "playtomic-privacy-policy"
+      ],
+      "detail": "S’hi declara l’anàlisi del comportament dels usuaris amb consentiment, i la política afirma que no hi ha decisions automatitzades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta l’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "playtomic-privacy-policy"
+      ],
+      "detail": "Gestors dels clubs on es reserva, proveïdors d’allotjament i de programari, i xarxes socials.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "playtomic-privacy-policy"
+      ],
+      "detail": "Amb filials i empreses afiliades, com ara PrenotaUnCampo.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta la venda de dades."
+    },
+    "internationalTransfers": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "playtomic-privacy-policy"
+      ],
+      "detail": "La política adverteix que alguns encarregats poden transferir dades a servidors fora de la UE i que, «en donar el consentiment al tractament, també consents la transferència». No identifica els països ni el mecanisme de garantia.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "playtomic-privacy-policy"
+      ],
+      "detail": "La taula fixa terminis explícits: deu anys des de l’últim accés per a la major part del compte, fins a la retirada del consentiment per a les finalitats que s’hi basen.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no detalla què es conserva després d’eliminar el compte."
+    },
+    "periods": [
+      {
+        "period": "10 anys des de l’últim accés (compte, reserves, partides i pagaments)",
+        "sources": [
+          "playtomic-privacy-policy"
+        ]
+      },
+      {
+        "period": "Fins a la retirada del consentiment (rànquing, agenda, màrqueting)",
+        "sources": [
+          "playtomic-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "playtomic-delete-guide",
+        "playtomic-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "playtomic-delete-guide"
+      ],
+      "detail": "Opció «Borrar mi cuenta y mis datos» dins dels ajustos de l’aplicació, sense passar per atenció al client.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://playerhelp.playtomic.com/hc/es/articles/19832128764305",
+    "difficulty": "easy",
+    "steps": [
+      "Obre l’aplicació de Playtomic i ves a la pàgina del teu perfil.",
+      "Toca les tres barres horitzontals de l’angle superior dret.",
+      "Tria «Ajustes» al menú que apareix.",
+      "Prem «Borrar mi cuenta y mis datos» i confirma amb «Continuar»."
+    ],
+    "obstacles": "L’acció és irreversible: s’esborren el compte, les dades personals, els resultats i el nivell de joc acumulat, que és el que costa més de reconstruir.",
+    "sources": [
+      "playtomic-delete-guide",
+      "playtomic-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "playtomic-privacy-policy"
+      ],
+      "detail": "El dret de portabilitat es reconeix i el dret d’accés preveu lliurar una còpia en format electrònic d’ús comú, però no hi ha eina d’autoservei.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "playtomic-privacy-policy"
+      ],
+      "detail": "Adreça de privadesa i delegat de protecció de dades designat.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dpo@playtomic.io"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "playtomic-privacy-policy"
+      ],
+      "detail": "Les finalitats de màrqueting es basen en consentiment revocable, però la política no descriu cap panell dins de l’aplicació per gestionar-les.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "playtomic-privacy-policy"
+      ],
+      "detail": "El manteniment i la seguretat dels serveis informàtics es basen en interès legítim i obligació legal, sense opció de desactivació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "playtomic-privacy-policy",
+        "playtomic-delete-guide"
+      ],
+      "detail": "Es poden revocar permisos del sistema operatiu (agenda), modificar les dades personals des del perfil i donar-se de baixa de les comunicacions.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [
+        "playtomic-privacy-policy"
+      ],
+      "detail": "En acceptar la sincronització de l’agenda, la persona «confirma tenir l’autorització dels seus amics per compartir-ne les dades». La responsabilitat recau en l’usuari i els contactes no hi intervenen.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "unbalanced-consent",
+        "severity": "medium",
+        "description": "La sincronització de l’agenda es legitima amb una declaració de l’usuari segons la qual té permís dels seus contactes, tot i que aquests no participen en cap moment de la decisió.",
+        "sources": [
+          "playtomic-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap xifratge d’extrem a extrem per als xats de partida ni per als xats privats entre jugadors."
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "editorial",
+      "sources": [],
+      "detail": "El web i l’API es publiquen sobre HTTPS; comprovat el setembre del 2026.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha informació pública sobre el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta cap segon factor per al compte."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap política pública de divulgació de vulnerabilitats."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "sporttia",
+      "comparability": "partial",
+      "rationale": "Cobreix la reserva d’instal·lacions esportives, sovint municipals, sense la capa social ni la sincronització de l’agenda.",
+      "tradeOffs": "No té la xarxa de clubs privats de pàdel ni el sistema de partides obertes i de nivell."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La política de Playtomic dona terminis numèrics per a cada tractament. La baixa és senzilla (quatre tocs, sense escriure a suport), però les dades de qui no la fa es conserven deu anys des de l’últim accés.",
+    "openQuestions": [
+      "A quins països es transfereixen les dades i amb quines garanties? La política no ho concreta.",
+      "Quant temps queden accessibles per als gestors dels clubs els xats de les partides ja jugades?"
+    ]
+  },
+  "appStoreBundleId": "com.playtomic"
+}

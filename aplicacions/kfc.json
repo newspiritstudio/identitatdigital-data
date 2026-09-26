@@ -1,0 +1,556 @@
+{
+  "slug": "kfc",
+  "name": "KFC España",
+  "company": "kfc-spain",
+  "categories": [
+    "alimentacio-i-restauracio"
+  ],
+  "tagline": "L’etiqueta de l’App Store no declara cap dada vinculada, però la política de Yum! combina dades entre marques i les fa servir per entrenar IA",
+  "summary": "L’etiqueta de l’App Store només declara dades d’ús i diagnòstic no vinculades, mentre que la política recull nom, adreça, data de naixement, pagaments i ubicació GPS. La política és la global de Yum! Brands: preveu compartir i «vendre» dades entre les marques del grup, cedir-les a franquiciats i socis publicitaris i entrenar sistemes d’IA amb xats i comandes de veu. L’AEPD va sancionar KFC España el 2022 per no tenir delegat de protecció de dades i per una política incompleta.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "commerce",
+  "jurisdiction": "Espanya (KFC Restaurants Spain, S.L., grup Yum! Brands)",
+  "links": {
+    "website": "https://www.kfc.es/",
+    "privacyPolicy": "https://privacy.kfc.es/policies",
+    "privacyCenter": "https://privacy.kfc.es/",
+    "terms": "https://www.kfc.es/nota-legal",
+    "appStore": "https://apps.apple.com/es/app/id1475071354"
+  },
+  "accountRequired": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": [],
+    "detail": "La política distingueix fer una comanda de registrar-se, però no hem pogut verificar si l’aplicació permet demanar sense compte."
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "kfc-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Les comandes mostren hàbits alimentaris, horaris i adreces de lliurament. Yum! les combina amb el que recull als restaurants, amb dades de tercers i amb les de les altres marques del grup, i hi afegeix gravacions de veu de comandes i converses amb el xatbot.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "atencio-a-lusuari"
+      ],
+      "sources": [
+        "kfc-europe-notice"
+      ],
+      "note": "La taula europea l’inclou a la informació de perfil. L’etiqueta de l’App Store no declara cap dada de contacte."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "kfc-europe-notice"
+      ]
+    },
+    {
+      "type": "numero-de-telefon",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "kfc-europe-notice"
+      ]
+    },
+    {
+      "type": "adreca-postal",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "kfc-europe-notice"
+      ],
+      "note": "Per als lliuraments; els franquiciats i les plataformes de repartiment també la reben."
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "kfc-europe-notice"
+      ]
+    },
+    {
+      "type": "genere",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "kfc-europe-notice"
+      ]
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "kfc-europe-notice"
+      ],
+      "note": "Foto de perfil."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "kfc-europe-notice"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "elaboracio-de-perfils",
+        "compartir-dins-del-grup"
+      ],
+      "sources": [
+        "kfc-privacy-policy",
+        "kfc-europe-notice"
+      ],
+      "note": "Yum! agrega les dades de totes les seves marques per entendre patrons de compra."
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "kfc-europe-notice"
+      ],
+      "note": "GPS per mostrar els restaurants més propers."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "kfc-europe-notice"
+      ]
+    },
+    {
+      "type": "veu-i-audio",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari",
+        "entrenament-de-models-dia"
+      ],
+      "sources": [
+        "kfc-privacy-policy"
+      ],
+      "note": "Trucades i comandes de veu, transcrites i usades per entrenar IA. La política diu que no en crea empremtes de veu."
+    },
+    {
+      "type": "contingut-de-missatges",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "atencio-a-lusuari",
+        "entrenament-de-models-dia"
+      ],
+      "sources": [
+        "kfc-privacy-policy"
+      ],
+      "note": "Converses amb el xatbot del web."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "kfc-app-store",
+        "kfc-europe-notice"
+      ],
+      "note": "L’etiqueta les declara no vinculades però usades per rastrejar."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "kfc-europe-notice"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "kfc-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "kfc-app-store"
+      ],
+      "detail": "L’etiqueta declara les dades d’ús com a dades usades per rastrejar en aplicacions i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política parla d’identificadors únics del dispositiu, però no concreta l’ús de l’identificador publicitari a l’aplicació."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "kfc-privacy-policy"
+      ],
+      "detail": "La política permet que socis publicitaris recullin informació directament als seus llocs i aplicacions.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "kfc-privacy-policy",
+        "kfc-europe-notice"
+      ],
+      "detail": "Comparteix informació amb socis de publicitat en línia; les galetes no essencials depenen del consentiment.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "kfc-privacy-policy"
+      ],
+      "detail": "Yum! combina dades de línia i de restaurant, de tercers i de totes les seves marques per entendre patrons de compra i preferències.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "kfc-privacy-policy"
+      ],
+      "detail": "Fa servir les converses amb el xatbot, les comandes de veu i les trucades per entrenar IA; la política diu que ho fa amb consentiment quan la llei ho exigeix.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "kfc-privacy-policy"
+      ],
+      "detail": "Franquiciats (responsables independents), plataformes de repartiment, socis promocionals, socis comercials de màrqueting, socis publicitaris i proveïdors.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "kfc-privacy-policy",
+        "kfc-europe-notice"
+      ],
+      "detail": "La política diu que les marques i filials de Yum! «divulgaran, vendran o compartiran» informació personal entre elles.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política preveu la «venda» de dades dins del grup i la cessió a socis de màrqueting, però no parla d’intermediaris de dades."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "kfc-europe-notice"
+      ],
+      "detail": "Les dades es tracten sobretot a l’EEE; fora, amb decisions d’adequació, el Marc de privadesa UE-EUA o clàusules contractuals tipus.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència de Yum! Brands ni de KFC España."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "kfc-privacy-policy"
+      ],
+      "detail": "Només fixa criteris generals («el temps raonablement necessari»), sense terminis concrets.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "kfc-privacy-policy"
+      ],
+      "detail": "Esborra o anonimitza les dades quan ja no calen, però les còpies de seguretat es conserven aïllades fins que es puguin eliminar, i les dades anonimitzades s’usen indefinidament.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "kfc-privacy-policy"
+      ],
+      "detail": "La política reconeix el dret de supressió i avisa que eliminar el compte fa perdre les recompenses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "editorial",
+      "sources": [
+        "kfc-privacy-policy"
+      ],
+      "detail": "Comprovació pròpia: el client web de kfc.es inclou l’opció «Borrar cuenta» a l’àrea de compte (/my-account/delete). No hem pogut verificar els passos dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://www.kfc.es/my-account/delete",
+    "difficulty": "medium",
+    "steps": [
+      "Inicia la sessió a kfc.es amb el mateix compte de l’aplicació.",
+      "Entra a l’àrea del compte i tria «Borrar cuenta».",
+      "Com a alternativa, exerceix el dret de supressió al Centre de privadesa (privacy.kfc.es) o escrivint a globalprivacy@yum.com."
+    ],
+    "obstacles": "La ruta no està documentada en cap pàgina d’ajuda i la política remet al correu global de Yum! i al Centre de privadesa. Els franquiciats conserven pel seu compte les dades que hagin rebut.",
+    "dataRetained": "Dades que calgui conservar per obligació legal o comptable, còpies de seguretat fins que es puguin esborrar i dades anonimitzades.",
+    "sources": [
+      "kfc-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "kfc-europe-notice"
+      ],
+      "detail": "Reconeix el dret de portabilitat; es demana al Centre de privadesa o per correu, sense eina de descàrrega autoservei.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://privacy.kfc.es/"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "kfc-europe-notice"
+      ],
+      "detail": "Centre de privadesa de KFC España i correu globalprivacy@yum.com, que també és el contacte del delegat de protecció de dades.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:globalprivacy@yum.com"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "kfc-privacy-policy",
+        "kfc-europe-notice"
+      ],
+      "detail": "Les galetes publicitàries depenen del consentiment i hi ha una secció «Sus opciones de publicidad» al Centre de privadesa; no consta un control dins de l’aplicació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap opció per desactivar l’analítica a l’aplicació."
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "kfc-privacy-policy"
+      ],
+      "detail": "Permet ajustar el perfil i les preferències de comunicació i donar-se de baixa del correu comercial; les comunicacions de servei no es poden desactivar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem analitzat els fluxos de consentiment de l’aplicació actual. La reclamació que va originar la sanció de l’AEPD denunciava que el registre obligava a acceptar ofertes comercials, però l’Agència va arxivar aquesta part."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El servei no ofereix comunicacions privades entre persones usuàries.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "yes",
+      "level": "editorial",
+      "sources": [],
+      "detail": "Comprovació pròpia: kfc.es, l’API i el Centre de privadesa funcionen amb HTTPS.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política parla de mesures de seguretat tecnològiques sense concretar si les dades es xifren en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat informació sobre verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories de seguretat publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses de Yum! Brands ni de KFC España."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Ni kfc.es ni yum.com publiquen un fitxer security.txt, i no hem trobat cap altre canal de notificació de vulnerabilitats."
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "La contradicció entre l’etiqueta de l’App Store (cap dada vinculada) i la política (perfil complet, pagaments i ubicació) és la troballa principal. El Centre de privadesa de KFC funciona amb JavaScript i s’ha llegit amb un navegador real.",
+    "openQuestions": [
+      "L’etiqueta de l’App Store reflecteix l’aplicació actual o està desactualitzada?",
+      "Es pot demanar a l’aplicació sense compte, i com s’esborra el compte des de l’aplicació?",
+      "La sanció de l’AEPD es va recórrer davant l’Audiencia Nacional?"
+    ]
+  },
+  "appStoreBundleId": "com.kfc.es.mobileapp"
+}

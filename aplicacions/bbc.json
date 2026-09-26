@@ -1,0 +1,582 @@
+{
+  "slug": "bbc",
+  "name": "BBC: World News & Stories",
+  "company": "bbc-studios",
+  "categories": [
+    "noticies-i-mitjans"
+  ],
+  "tagline": "Fora del Regne Unit, l’aplicació de la BBC es regeix per la política comercial de BBC Studios, amb subhastes publicitàries en temps real i dades comprades a intermediaris",
+  "summary": "La BBC té dues polítiques de privadesa: una per a qui és al Regne Unit i una altra, la de la seva filial comercial BBC Studios, per a la resta. A Espanya s’aplica la segona, que descriu publicitat personalitzada, subhastes programàtiques en temps real i l’ús de dades de segmentació comprades a intermediaris com Experian. L’etiqueta de l’App Store ho confirma: declara rastreig amb ubicació, historial de navegació i identificadors.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "advertising",
+  "jurisdiction": "Regne Unit; autoritat de control: Information Commissioner’s Office",
+  "userBase": "Servei internacional de notícies amb audiència de centenars de milions de persones",
+  "links": {
+    "website": "https://www.bbc.com/news",
+    "privacyPolicy": "https://www.bbc.com/pages/privacy-policy",
+    "appStore": "https://apps.apple.com/es/app/id364147881"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "bbc-studios-privacy-policy"
+    ],
+    "detail": "Es pot llegir sense compte, però la política diu que llavors s’assigna un identificador únic al dispositiu. Cal compte per a butlletins i subscripcions de pagament.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "partial",
+    "level": "official",
+    "sources": [
+      "bbc-security-disclosure"
+    ],
+    "detail": "La BBC manté repositoris públics a GitHub, però l’aplicació de notícies no és de codi obert.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Quines notícies llegeixes, quanta estona t’hi estàs i amb quina freqüència tornes permet a un mitjà deduir-ne la ideologia. La política ho anomena «informació inferida» i l’afegeix a un perfil publicitari que combina dades pròpies, correu electrònic xifrat amb funció resum per creuar plataformes i segments comprats a intermediaris de dades.",
+  "dataCollection": [
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bbc-studios-privacy-policy"
+      ],
+      "note": "Només amb compte BBC."
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "bbc-studios-privacy-policy"
+      ],
+      "note": "La política descriu l’ús del correu xifrat amb funció resum per identificar la mateixa persona en plataformes de tercers."
+    },
+    {
+      "type": "data-de-naixement",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "elaboracio-de-perfils"
+      ],
+      "sources": [
+        "bbc-studios-privacy-policy"
+      ],
+      "note": "L’edat serveix per construir cohorts publicitàries."
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "bbc-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-navegacio",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "bbc-app-store",
+        "bbc-studios-privacy-policy"
+      ],
+      "note": "Què llegeixes, quanta estona i amb quina freqüència: la política ho anomena «informació inferida»."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "bbc-app-store",
+        "bbc-studios-privacy-policy"
+      ],
+      "note": "L’identificador publicitari mòbil s’envia a les subhastes programàtiques en temps real."
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "seguretat-i-prevencio-del-frau"
+      ],
+      "sources": [
+        "bbc-app-store",
+        "bbc-studios-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "bbc-studios-privacy-policy"
+      ],
+      "note": "La política llista l’adreça IP entre les dades que es comparteixen a la subhasta."
+    },
+    {
+      "type": "galetes-i-identificadors-web",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "bbc-studios-privacy-policy"
+      ],
+      "note": "Al Regne Unit i a l’EEE, amb consentiment."
+    },
+    {
+      "type": "interessos-inferits",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "elaboracio-de-perfils",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "bbc-studios-privacy-policy"
+      ],
+      "note": "El perfil publicitari combina dades pròpies amb segments comprats a intermediaris de dades, com les dades Mosaic d’Experian."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "recomanacions-algoritmiques"
+      ],
+      "sources": [
+        "bbc-app-store",
+        "bbc-studios-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "bbc-app-store"
+      ],
+      "note": "L’etiqueta el declara com a dada no vinculada amb la identitat."
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "group",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "bbc-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "bbc-studios-privacy-policy"
+      ],
+      "note": "Subscripcions de pagament de BBC.com; Stripe hi actua com a responsable independent."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bbc-app-store",
+        "bbc-studios-privacy-policy"
+      ],
+      "detail": "L’etiqueta declara ubicació, historial de navegació, identificadors i dades d’ús com a dades utilitzades per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bbc-studios-privacy-policy"
+      ],
+      "detail": "L’identificador publicitari mòbil es comparteix a les subhastes en temps real.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bbc-studios-privacy-policy"
+      ],
+      "detail": "Els socis de la subhasta actuen sovint com a responsables independents del tractament, segons la mateixa política.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bbc-studios-privacy-policy"
+      ],
+      "detail": "Publicitat premium amb dades pròpies, subhastes programàtiques en temps real i publicitat en serveis de tercers.",
+      "verifiedAt": "2026-09-22",
+      "optOutUrl": "https://www.bbc.com/account"
+    },
+    "profiling": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bbc-studios-privacy-policy"
+      ],
+      "detail": "La política descriu un perfil d’anunci amb demografia i interessos, ampliat amb segments comprats a intermediaris de dades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bbc-studios-privacy-policy"
+      ],
+      "detail": "Les dades d’ús entrenen els models agregats de recomanació, i la política diu que fa servir aprenentatge automàtic i grans models de llenguatge sobre les seves dades. No consta cap cessió a tercers per entrenar models generalistes.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bbc-studios-privacy-policy"
+      ],
+      "detail": "Socis publicitaris de la subhasta, proveïdors, Stripe per als pagaments, contingut incrustat de xarxes socials i autoritats quan la llei ho exigeix.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bbc-studios-privacy-policy"
+      ],
+      "detail": "Amb el servei públic de la BBC, UKTV i BritBox International, per a recerca, anàlisi, màrqueting i servei d’anuncis.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bbc-studios-privacy-policy"
+      ],
+      "detail": "No consta que vengui dades, però sí que en compra: la política cita expressament intermediaris de dades com Experian per a la segmentació.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bbc-studios-privacy-policy"
+      ],
+      "detail": "Proveïdors i plataformes publicitàries fora del Regne Unit i de l’EEE, principalment als Estats Units.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "high",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència de la BBC sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bbc-studios-privacy-policy"
+      ],
+      "detail": "El termini més clar és el del compte: s’elimina després de 18 mesos d’inactivitat, amb avisos previs, si no hi ha subscripció activa.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bbc-account-delete"
+      ],
+      "detail": "La informació del compte s’esborra immediatament, però es conserva un registre d’ús desvinculat i tot allò que s’hagi publicat o comentat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "identificador-de-compte",
+        "period": "18 mesos d’inactivitat",
+        "sources": [
+          "bbc-studios-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bbc-account-delete"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bbc-account-delete"
+      ],
+      "detail": "Des dels ajustos del compte BBC, reintroduint la contrasenya. És irreversible.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://account.bbc.com/account",
+    "difficulty": "easy",
+    "steps": [
+      "Inicia la sessió amb el teu compte BBC.",
+      "Obre «Your account» des de la barra de navegació de qualsevol web de la BBC.",
+      "Entra a «Settings».",
+      "A l’apartat «Delete your account», tria «I want to delete my account» i torna a escriure la contrasenya.",
+      "Confirma amb «Delete account»."
+    ],
+    "obstacles": "L’eliminació és definitiva i no es pot desfer. Els comptes de menors de 13 anys que han perdut la contrasenya no es poden eliminar ni recuperar.",
+    "dataRetained": "Un registre d’ús que la BBC diu que ja no es pot vincular amb la persona, i el contingut publicat o comentat.",
+    "sources": [
+      "bbc-account-delete",
+      "bbc-studios-privacy-policy"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bbc-data-request"
+      ],
+      "detail": "Amb compte BBC es pot demanar la informació des dels ajustos, però la pàgina adverteix que no inclou tot; per a serveis de BBC Studios cal anar pel canal de protecció de dades.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.bbc.co.uk/usingthebbc/privacy/what-info-do-you-have-about-me/"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bbc-studios-privacy-policy"
+      ],
+      "detail": "Delegat de protecció de dades de BBC Studios, amb un compromís de resposta de cinc dies hàbils i un procediment intern de recurs.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dataprotection@bbc.com",
+      "responseTimeDays": 5
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bbc-studios-privacy-policy"
+      ],
+      "detail": "Es pot desactivar l’ús del correu xifrat per a publicitat personalitzada des del compte BBC i gestionar les galetes, però la publicitat programàtica depèn de l’identificador del sistema operatiu.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.bbc.com/account"
+    },
+    "telemetryOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "bbc-studios-privacy-policy"
+      ],
+      "detail": "Hi ha configuració de galetes i de privadesa, i es respecta el senyal Global Privacy Control a escala de navegador o dispositiu, però no s’aplica necessàriament a les dades associades al compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bbc-studios-privacy-policy"
+      ],
+      "detail": "Configuració de galetes, de personalització i de comunicacions dins del compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "editorial",
+      "sources": [
+        "bbc-studios-privacy-policy"
+      ],
+      "detail": "La política admet que no respon al senyal «Do Not Track» i que el Global Privacy Control no arriba al perfil del compte: són dos controls en què la persona pot confiar i que només la protegeixen en part.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "confusing-language",
+        "severity": "medium",
+        "description": "Una persona a Espanya que busca «la política de privadesa de la BBC» troba primer la del servei públic britànic, que no li aplica; la que la regeix és la de la filial comercial, amb publicitat programàtica.",
+        "sources": [
+          "bbc-privacy-policy-uk",
+          "bbc-studios-privacy-policy"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació distribueix continguts públics i no transporta comunicacions privades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació tècnica específica; la política només parla de salvaguardes organitzatives i tecnològiques adequades."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública específica."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap pàgina d’ajuda de la BBC que documenti l’autenticació en dos passos del compte."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten certificacions ni auditories de seguretat publicades."
+    },
+    "bugBounty": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bbc-security-disclosure"
+      ],
+      "detail": "Programa de recompenses amb àmbit definit: dominis amb security.txt a l’arrel i repositoris de github.com/bbc amb fitxer SECURITY.md.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.bbc.com/backstage/security-disclosure-policy/"
+    },
+    "vulnerabilityDisclosure": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "bbc-security-disclosure"
+      ],
+      "detail": "Política publicada i fitxer security.txt vàlid a bbc.com i bbc.co.uk, amb contacte a security@bbc.co.uk.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "alternatives": [
+    {
+      "app": "bbc-world-service",
+      "comparability": "partial",
+      "rationale": "L’aplicació del World Service ofereix el mateix periodisme de la BBC en castellà amb una etiqueta de privadesa molt menys invasiva: cap ubicació ni historial de navegació vinculats amb la identitat.",
+      "tradeOffs": "Té menys contingut en anglès i menys funcions de personalització, i la publicitat dels llocs del World Service també la gestiona BBC Studios."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "El desdoblament de polítiques segons on ets és el punt central: la versió britànica, de servei públic, no és la que s’aplica a Espanya. La política de BBC Studios té el mèrit de descriure obertament la compra de segments a intermediaris de dades, cosa que poques polítiques fan; el que és objectable és el tractament que descriu. Els dos incidents documentats del grup afecten dades d’empleats i de pensionistes, no de persones usuàries de l’aplicació.",
+    "openQuestions": [
+      "La BBC té representant a la Unió Europea segons l’article 27 del RGPD? Cap de les dues polítiques en nomena cap.",
+      "El compte BBC admet verificació en dos passos?"
+    ]
+  },
+  "appStoreBundleId": "uk.co.bbc.news"
+}

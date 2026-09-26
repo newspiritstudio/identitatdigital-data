@@ -1,0 +1,332 @@
+{
+  "slug": "demus",
+  "name": "Demus",
+  "company": "simon-zvara",
+  "categories": [
+    "musica-i-audio"
+  ],
+  "tagline": "Un reproductor de desenvolupador individual amb rastreig declarat i una política que no esmenta el RGPD",
+  "summary": "Demus és un reproductor de música publicat per un desenvolupador individual, amb llistes, sincronització entre dispositius i estadístiques anuals. L’etiqueta de l’App Store declara que els diagnòstics s’utilitzen per rastrejar-te en aplicacions i webs d’altres empreses i que els identificadors i els diagnòstics queden vinculats a la identitat per a publicitat de tercers i analítica. La política enllaçada des de la fitxa és una plantilla que no identifica clarament el responsable, no cita cap proveïdor i no esmenta ni el RGPD ni la Unió Europea.",
+  "platforms": [
+    "ios"
+  ],
+  "businessModel": "subscription",
+  "jurisdiction": "No declarada",
+  "userBase": "No n’hem verificat cap xifra oficial.",
+  "links": {
+    "website": "https://demusapp.com/",
+    "privacyPolicy": "https://demusapp.com/privacy.html",
+    "appStore": "https://apps.apple.com/es/app/id6474685600"
+  },
+  "accountRequired": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": [],
+    "detail": "La descripció esmenta sincronització entre dispositius, cosa que suggereix un compte, però no ho hem pogut verificar amb cap font oficial."
+  },
+  "openSource": {
+    "status": "no",
+    "level": "editorial",
+    "sources": [],
+    "detail": "No hi ha cap repositori públic.",
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Un reproductor registra què escoltes, quan i quantes vegades. Segons l’etiqueta, el que surt de Demus és sobretot publicitari: un identificador vinculat a la identitat i cedit a xarxes de tercers, sense cap document que expliqui a qui ni per quant temps.",
+  "dataCollection": [
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "demus-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "demus-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "demus-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-visualitzacio",
+      "status": "unknown",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "unknown",
+      "note": "L’aplicació ofereix estadístiques anuals d’escolta, però cap font declara com es tracta aquest historial."
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "demus-app-store"
+      ],
+      "note": "Compres dins de l’aplicació gestionades per l’App Store."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "demus-app-store"
+      ],
+      "detail": "Els diagnòstics figuren com a dades utilitzades per rastrejar en aplicacions i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "demus-app-store"
+      ],
+      "detail": "L’etiqueta declara identificadors vinculats a la identitat per a publicitat de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "demus-app-store"
+      ],
+      "detail": "La categoria «publicitat de tercers» implica SDK publicitaris, tot i que la política no en cita cap.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "demus-app-store"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Cap font descriu l’elaboració de perfils."
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Cap font esmenta l’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "demus-app-store"
+      ],
+      "detail": "La categoria de publicitat de tercers de l’etiqueta implica compartició, però la política no identifica els destinataris.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "No consta cap grup empresarial: el desenvolupador és una persona física.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Cap font ho esmenta."
+    },
+    "internationalTransfers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu on es tracten les dades."
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "demus-privacy-policy"
+      ],
+      "detail": "La política no fixa cap termini.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu cap procediment de supressió."
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap pàgina ni cap secció de la política que descrigui com eliminar el compte."
+    },
+    "selfService": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública."
+    },
+    "difficulty": "unknown",
+    "obstacles": "La política enllaçada des de l’App Store no preveu cap canal de drets ni cap adreça de contacte de protecció de dades."
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Cap font descriu l’exportació de dades."
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "demus-privacy-policy"
+      ],
+      "detail": "La política no esmenta el RGPD, no designa cap representant a la Unió Europea i no ofereix cap canal específic de drets.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Cap font descriu controls de publicitat."
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Cap font descriu controls d’analítica."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "Cap font descriu un panell de privadesa."
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem pogut examinar el flux de consentiment de l’aplicació."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "L’aplicació no transporta comunicacions privades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació tècnica pública."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació pública."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha cap canal públic de comunicació de vulnerabilitats."
+    }
+  },
+  "review": {
+    "researchStatus": "initial",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "L’única font sòlida és l’etiqueta de l’App Store. La política del producte és confusa i no aporta informació verificable sobre responsable, destinataris ni terminis, de manera que la majoria d’apartats queden com a desconeguts.",
+    "openQuestions": [
+      "Qui és el responsable del tractament i en quin país està establert?",
+      "D’on surt la música que reprodueix l’aplicació i quines dades s’envien a aquesta font?",
+      "Quins SDK publicitaris incorpora? L’etiqueta declara publicitat de tercers però la política no cita cap proveïdor."
+    ]
+  },
+  "appStoreBundleId": "com.demusapp.app"
+}

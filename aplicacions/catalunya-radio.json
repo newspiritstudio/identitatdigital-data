@@ -1,0 +1,589 @@
+{
+  "slug": "catalunya-radio",
+  "name": "Catalunya Ràdio",
+  "company": "ccma",
+  "categories": [
+    "musica-i-audio",
+    "noticies-i-mitjans"
+  ],
+  "tagline": "Escoltar la ràdio pública no exigeix compte, però l’aplicació declara ubicació, identificadors i dades d’ús per rastrejar",
+  "summary": "L’aplicació dona els directes de Catalunya Ràdio, Catalunya Música, iCat i 3CatInfo, i els podcasts. Funciona sense registre i conviu amb l’aplicació 3Cat, que ofereix els mateixos directes. L’etiqueta de l’App Store és idèntica a la de 3Cat: dades per rastrejar i per a publicitat de tercers. La pàgina d’SDK arxivada el novembre del 2024 anomenava comScore, Adobe Analytics, Smart AdServer, Google DBM, Firebase Crashlytics, Airship i Didomi.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "public-service",
+  "jurisdiction": "Catalunya; servei públic de comunicació audiovisual de la Generalitat",
+  "serviceStatus": "active",
+  "links": {
+    "website": "https://www.3cat.cat/app-catalunya-radio/mobils-i-tauletes/",
+    "privacyPolicy": "https://www.3cat.cat/avis-legal/privacitat/registre/",
+    "terms": "https://www.3cat.cat/avis-legal/condicions-utilitzacio-del-portal/",
+    "appStore": "https://apps.apple.com/es/app/id318047072",
+    "adSettings": "https://www.3cat.cat/avis-legal/cookies/"
+  },
+  "accountRequired": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "3cat-privacitat-registre",
+      "3cat-ajuda-catalunya-radio"
+    ],
+    "detail": "La política només exigeix registre a les aplicacions de 3Cat; la resta d’aplicacions del grup s’obren sense compte.",
+    "verifiedAt": "2026-09-22"
+  },
+  "openSource": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": [],
+    "detail": "No hem trobat publicat el codi de l’aplicació."
+  },
+  "publicService": {
+    "isPublicService": true,
+    "administrationLevel": "regional",
+    "legalBasis": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "3cat-privacitat-registre",
+        "ccma-llei-11-2007"
+      ],
+      "detail": "La política del registre 3Cat assigna una base a cada finalitat: execució de la relació contractual per al compte, consentiment per als butlletins, interès legítim per a la personalització, l’analítica i les proves A/B, i obligació legal per al bloqueig geogràfic dels continguts sense drets. Per a l’analítica invoca la Llei 11/2007 de la CCMA i el contracte programa. No cita cap article del RGPD ni la missió de servei públic de l’article 6.1.e), i una empresa pública que presta un servei encomanat per llei s’empara en l’interès legítim.",
+      "verifiedAt": "2026-09-22",
+      "norm": "Llei 11/2007, d’11 d’octubre, de la Corporació Catalana de Mitjans Audiovisuals (invocada per a l’analítica); la política no cita articles del RGPD"
+    },
+    "processingRegistry": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "3cat-transparencia-normativa",
+        "3cat-politica-privacitat"
+      ],
+      "detail": "El portal de transparència enllaça un «Inventari d’activitats de tractament de dades personals», però l’enllaç porta a la política de privadesa: una vintena de fitxes informatives per tractament, amb responsable, finalitats, base, destinataris i conservació. No hi ha un registre amb el contingut de l’article 30 del RGPD, com ara les mesures de seguretat o les categories d’interessats.",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.3cat.cat/avis-legal/privacitat/dades/"
+    },
+    "dpia": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat publicada cap avaluació d’impacte relativa a la protecció de dades, ni a la política de privadesa ni al portal de transparència de la CCMA."
+    },
+    "ensConformity": {
+      "status": "no",
+      "level": "regulator",
+      "sources": [
+        "ccma-sindicatura-informe-2-2025"
+      ],
+      "detail": "L’informe 2/2025 de la Sindicatura de Comptes (exercicis 2021 i 2022, publicat el març del 2025) constata que la CCMA no disposa de l’auditoria de compliment de l’Esquema Nacional de Seguretat que exigeix l’article 31 del Reial decret 311/2022, ni de l’auditoria biennal de les mesures de seguretat del tractament de dades personals. No hem trobat cap declaració de conformitat posterior.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dpo": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "3cat-dpd",
+        "3cat-privacitat-registre"
+      ],
+      "detail": "La CCMA publica el nom del delegat de protecció de dades, l’adreça postal, el telèfon i el correu. La política el designa com a canal per exercir els drets.",
+      "verifiedAt": "2026-09-22",
+      "contact": "dpd@3cat.cat"
+    },
+    "offlineAlternative": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "3cat-com-veure-fm"
+      ],
+      "detail": "Totes les emissores s’escolten per FM i per TDT sense cap registre.",
+      "verifiedAt": "2026-09-22"
+    },
+    "accessibilityStatement": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "3cat-declaracio-accessibilitat"
+      ],
+      "detail": "La declaració d’accessibilitat de la CCMA no inclou l’aplicació de Catalunya Ràdio; només el web 3cat.cat/catradio, que declara «no conforme».",
+      "verifiedAt": "2026-09-22",
+      "url": "https://www.3cat.cat/atencio/accessibilitat/"
+    },
+    "mandatoryRetention": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "3cat-privacitat-registre"
+      ],
+      "detail": "No hi ha cap obligació legal de conservar les dades de l’aplicació ni del compte opcional.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataSummary": "Un receptor de ràdio no envia cap dada. Escoltar la ràdio amb aquesta aplicació genera identificadors, ubicació aproximada i dades d’ús que l’etiqueta declara per rastrejar i per a publicitat de tercers.",
+  "dataCollection": [
+    {
+      "type": "historial-de-visualitzacio",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "3cat-cookies-app-catalunya-radio"
+      ],
+      "note": "Emissores i podcasts escoltats. La pàgina d’SDK arxivada diu que les dades serveixen per recomanar continguts i mostrar publicitat segons els interessos."
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "publicitat-personalitzada",
+        "mesura-publicitaria",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "3cat-catalunya-radio-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "3cat-catalunya-radio-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "3cat-catalunya-radio-app-store"
+      ],
+      "note": "L’etiqueta declara «ID de usuario»; el compte 3Cat és opcional."
+    },
+    {
+      "type": "identificador-publicitari",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "3cat-cookies-app-catalunya-radio"
+      ],
+      "note": "Depèn del permís de rastreig d’iOS."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "3cat-cookies-app-catalunya-radio"
+      ]
+    },
+    {
+      "type": "ubicacio-aproximada",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "publicitat-personalitzada",
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "3cat-catalunya-radio-app-store"
+      ]
+    },
+    {
+      "type": "ubicacio-precisa",
+      "status": "optional",
+      "linked": "no",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "3cat-catalunya-radio-app-store"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "yes",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "millora-del-producte"
+      ],
+      "sources": [
+        "3cat-catalunya-radio-app-store",
+        "3cat-cookies-app-catalunya-radio"
+      ]
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "sources": [
+        "3cat-catalunya-radio-app-store",
+        "3cat-cookies-app-catalunya-radio"
+      ],
+      "note": "Declarades sota «Otros fines»; l’aplicació demana accés a fotos, multimèdia i fitxers."
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "3cat-catalunya-radio-app-store"
+      ],
+      "detail": "L’etiqueta de l’App Store declara ubicació, identificadors, dades d’ús i diagnòstics com a dades utilitzades per rastrejar en aplicacions i webs d’altres empreses.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "3cat-cookies-app-324",
+        "3cat-cookies-app-catalunya-radio",
+        "3cat-cookies-app-icat"
+      ],
+      "detail": "Les pàgines d’SDK de les aplicacions de la CCMA avisaven que, des d’iOS 14.5, l’aplicació demana permís per rastrejar, i que l’antic SDK de notificacions (Accengage) recollia l’identificador de publicitat. La publicitat la gestionen Smart AdServer i Google DBM.",
+      "verifiedAt": "2026-09-22"
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "3cat-cookies-app-catalunya-radio"
+      ],
+      "detail": "comScore, Adobe Analytics, Smart AdServer, Google DBM, Firebase Crashlytics, Airship i Didomi, segons la pàgina d’SDK arxivada el novembre del 2024.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "3cat-catalunya-radio-app-store",
+        "3cat-cookies-app-catalunya-radio"
+      ],
+      "detail": "La fitxa avisa de publicitat i l’etiqueta declara dades per a publicitat de tercers.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "3cat-cookies-app-catalunya-radio"
+      ],
+      "detail": "Recomanacions de programes segons el consum i publicitat segons els interessos.",
+      "verifiedAt": "2026-09-22"
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu res sobre l’entrenament de models amb les dades d’audiència."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "3cat-catalunya-radio-app-store",
+        "3cat-cookies-app-catalunya-radio"
+      ],
+      "detail": "Dades per a publicitat de tercers declarades a l’etiqueta; empreses de publicitat i de mesura anomenades a la pàgina d’SDK.",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "3cat-privacitat-registre"
+      ],
+      "detail": "El compte opcional és el registre 3Cat comú a tot el grup.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataBrokerSales": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no esmenta la venda de dades, però tampoc no la descarta de manera expressa; només diu que no es comuniquen dades a tercers fora dels encarregats i dels requeriments legals."
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "3cat-privacitat-registre",
+        "3cat-privacitat-publicitat"
+      ],
+      "detail": "La política preveu proveïdors fora de l’Espai Econòmic Europeu amb clàusules contractuals tipus quan no hi ha decisió d’adequació. Els butlletins s’envien amb Mailchimp, en servidors de fora de la Unió Europea.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "sccs"
+    }
+  },
+  "transparency": {
+    "policyClarity": "medium",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe sobre peticions d’autoritats."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "3cat-privacitat-registre",
+        "3cat-condicions-us"
+      ],
+      "detail": "Les dades del compte es conserven mentre la persona sigui usuària registrada; un compte sense cap accés durant dos anys es cancel·la automàticament. Després, les dades es bloquegen fins a la prescripció de les responsabilitats. No hi ha terminis per a les dades que recullen els SDK sense compte.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "3cat-privacitat-registre"
+      ],
+      "detail": "En esborrar el compte, les dades es bloquegen fins a la prescripció de les responsabilitats legals i se’n conserva un historial anonimitzat amb finalitats estadístiques. La política no diu durant quant de temps queden bloquejades.",
+      "verifiedAt": "2026-09-22"
+    },
+    "periods": [
+      {
+        "dataType": "identificador-de-compte",
+        "period": "Mentre es mantingui el compte; cancel·lació automàtica després de dos anys sense cap accés",
+        "sources": [
+          "3cat-privacitat-registre",
+          "3cat-condicions-us"
+        ]
+      }
+    ]
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "3cat-privacitat-registre",
+        "3cat-espai-usuari"
+      ],
+      "detail": "No cal compte. Si se n’ha creat un de 3Cat, es pot esborrar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "3cat-privacitat-registre",
+        "3cat-espai-usuari"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://www.3cat.cat/usuaris/registre/",
+    "difficulty": "easy",
+    "requiresSupportContact": false,
+    "steps": [
+      "Refusa els socis publicitaris a Configuració > Condicions legals > Gestió de cookies i desactiva el permís de rastreig d’iOS.",
+      "Si tens compte 3Cat, esborra’l des de Gestiona el teu compte > «Dona’t de baixa» a 3cat.cat.",
+      "Per demanar la supressió de les dades associades al dispositiu, escriu a dpd@3cat.cat."
+    ],
+    "dataRetained": "Dades bloquejades fins a la prescripció de les responsabilitats i un historial anonimitzat.",
+    "sources": [
+      "3cat-privacitat-registre",
+      "3cat-espai-usuari"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "3cat-privacitat-registre"
+      ],
+      "detail": "La política reconeix el dret de portabilitat, però no hi ha cap eina de descàrrega: s’ha de demanar per correu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "3cat-privacitat-registre",
+        "3cat-dpd"
+      ],
+      "detail": "Accés, rectificació, supressió, oposició, limitació i portabilitat per correu al delegat de protecció de dades o per correu postal a Sant Joan Despí. L’autoritat de control indicada és l’Autoritat Catalana de Protecció de Dades.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:dpd@3cat.cat"
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "3cat-politica-cookies",
+        "3cat-cookies-app-324",
+        "3cat-cookies-app-catalunya-radio",
+        "3cat-cookies-app-icat"
+      ],
+      "detail": "Cada aplicació té un gestor de consentiments (Didomi) a Configuració > Condicions legals > Gestió de cookies, on es pot refusar la publicitat personalitzada per soci. La publicitat continua, però menys personalitzada.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "3cat-politica-cookies",
+        "3cat-cookies-app-324",
+        "3cat-cookies-app-catalunya-radio",
+        "3cat-cookies-app-icat"
+      ],
+      "detail": "La política de galetes declara l’analítica d’audiència (Adobe Analytics) «essencial i no refusable» perquè serveix per avaluar la missió de servei públic. Les notificacions d’Airship sí que es poden desactivar des del gestor de consentiments.",
+      "verifiedAt": "2026-09-22"
+    },
+    "granularControls": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "3cat-politica-cookies",
+        "3cat-cookies-app-324",
+        "3cat-cookies-app-catalunya-radio",
+        "3cat-cookies-app-icat"
+      ],
+      "detail": "El gestor de consentiments permet decidir soci per soci en publicitat i notificacions, però no en analítica.",
+      "verifiedAt": "2026-09-22"
+    },
+    "defaultPosture": "mixed",
+    "darkPatterns": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "3cat-politica-cookies"
+      ],
+      "detail": "El gestor de consentiments no permet refusar l’analítica, que la CCMA considera essencial. No hem analitzat la resta de la interfície.",
+      "verifiedAt": "2026-09-22"
+    },
+    "darkPatternList": [
+      {
+        "type": "other",
+        "severity": "medium",
+        "description": "L’analítica d’audiència es presenta com a «essencial i no refusable» al costat de les galetes tècniques, de manera que el gestor de consentiments no permet refusar-la. L’argument és que serveix per avaluar la missió de servei públic.",
+        "sources": [
+          "3cat-politica-cookies"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "És un servei de difusió de continguts; no hi ha comunicació privada entre persones.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu el xifratge de les comunicacions. A més, l’enllaç a la política de privadesa de la fitxa de l’App Store fa servir HTTP."
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu res sobre el xifratge de les dades en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap opció de verificació en dos passos al compte 3Cat."
+    },
+    "independentAudits": {
+      "status": "no",
+      "level": "regulator",
+      "sources": [
+        "ccma-sindicatura-informe-2-2025"
+      ],
+      "detail": "La Sindicatura de Comptes va constatar que la CCMA no tenia l’auditoria de l’Esquema Nacional de Seguretat ni l’auditoria biennal de seguretat del tractament de dades. L’únic document aportat era un esborrany sense signar de juny del 2022 limitat a recursos humans.",
+      "verifiedAt": "2026-09-22"
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "no",
+      "level": "editorial",
+      "sources": [],
+      "detail": "No hi ha fitxer security.txt a 3cat.cat ni a ccma.cat, que hi redirigeix, ni cap canal publicat per notificar vulnerabilitats. Comprovat el 22 de setembre de 2026.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "L’etiqueta de l’App Store és idèntica a la de 3Cat, 3CatInfo i Catalunya Ràdio: ubicació, identificadors, dades d’ús i diagnòstics per rastrejar. L’enllaç de la política de privadesa de la fitxa de l’App Store apunta per HTTP a l’avís legal general de ccma.cat. Cerca d’incidents feta a l’APDCAT, a la Sindicatura de Comptes i a la premsa. L’índex de l’APDCAT mostra un procediment sancionador PS 33/2017 contra la CCMA, SA, obert el 28 de juliol de 2017 per una presumpta infracció greu, però el document ja no és accessible des que l’Autoritat va canviar de web i no n’hem pogut verificar el contingut ni el resultat.",
+    "openQuestions": [
+      "Es mantindrà l’aplicació ara que 3Cat ofereix els mateixos directes? L’ajuda diu que continua funcionant.",
+      "Per què no hi ha declaració d’accessibilitat per a l’aplicació?"
+    ]
+  },
+  "appStoreBundleId": "com.catradio.CatRadio"
+}

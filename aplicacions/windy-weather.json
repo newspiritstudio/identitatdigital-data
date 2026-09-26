@@ -1,0 +1,489 @@
+{
+  "slug": "windy-weather",
+  "name": "Windy.app",
+  "company": "windy-weather-world",
+  "categories": [
+    "meteorologia"
+  ],
+  "tagline": "Previsions de vent que declaren la ubicació exacta com a dada per rastrejar i fan servir eines publicitàries de Meta i AppsFlyer",
+  "summary": "Windy.app, d’una empresa de Delaware sense entitat europea declarada, és una aplicació diferent de Windy.com malgrat el nom. L’etiqueta declara la ubicació exacta com a dada per rastrejar entre aplicacions, i la política cita Meta, AppsFlyer, Amplitude i eines que fan captures de la sessió. L’eliminació del compte es pot fer des de l’aplicació.",
+  "platforms": [
+    "ios",
+    "android",
+    "web"
+  ],
+  "businessModel": "freemium",
+  "jurisdiction": "Estats Units (Delaware)",
+  "links": {
+    "website": "https://windy.app/",
+    "privacyPolicy": "https://windyapp.co/CustomMenuItems/26/en",
+    "terms": "https://windyapp.co/CustomMenuItems/34/en",
+    "appStore": "https://apps.apple.com/es/app/id997079492"
+  },
+  "accountRequired": {
+    "status": "unknown",
+    "level": "unknown",
+    "sources": [],
+    "detail": "No hem pogut confirmar si les funcions bàsiques es poden fer servir sense compte."
+  },
+  "openSource": {
+    "status": "no",
+    "level": "official",
+    "sources": [
+      "windy-weather-privacy-policy"
+    ],
+    "verifiedAt": "2026-09-22",
+    "licence": "Privativa"
+  },
+  "dataSummary": "Els spots de vent, surf o pesca que es consulten i la ubicació exacta mostren on i quan es practica esport. Que la ubicació exacta es declari per rastrejar vol dir que pot creuar-se amb dades d’altres empreses.",
+  "dataCollection": [
+    {
+      "type": "ubicacio-precisa",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "yes",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "windy-weather-app-store",
+        "windy-weather-privacy-policy"
+      ],
+      "note": "Declarada com a dada per rastrejar entre aplicacions i llocs d’altres empreses."
+    },
+    {
+      "type": "fotografies-i-videos",
+      "status": "optional",
+      "linked": "yes",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "windy-weather-app-store"
+      ]
+    },
+    {
+      "type": "historial-de-compres",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "windy-weather-app-store",
+        "windy-weather-privacy-policy"
+      ]
+    },
+    {
+      "type": "historial-de-cerca",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "windy-weather-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-compte",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "windy-weather-app-store"
+      ]
+    },
+    {
+      "type": "identificador-de-dispositiu",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "mesura-publicitaria"
+      ],
+      "sources": [
+        "windy-weather-app-store",
+        "windy-weather-privacy-policy"
+      ]
+    },
+    {
+      "type": "interaccions-i-us",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus",
+        "personalitzacio-de-continguts"
+      ],
+      "sources": [
+        "windy-weather-app-store",
+        "windy-weather-privacy-policy"
+      ],
+      "note": "UserX i Microsoft Clarity fan captures anonimitzades durant l’ús de l’aplicació."
+    },
+    {
+      "type": "nom-i-cognoms",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "windy-weather-privacy-policy"
+      ]
+    },
+    {
+      "type": "adreca-electronica",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei",
+        "publicitat-personalitzada"
+      ],
+      "sources": [
+        "windy-weather-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-pagament",
+      "status": "optional",
+      "linked": "unknown",
+      "tracking": "no",
+      "shared": "third-parties",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "windy-weather-privacy-policy"
+      ],
+      "note": "Els pagaments web passen per Stripe."
+    },
+    {
+      "type": "adreca-ip",
+      "status": "yes",
+      "linked": "unknown",
+      "tracking": "unknown",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "mesura-i-analisi-dus"
+      ],
+      "sources": [
+        "windy-weather-privacy-policy"
+      ]
+    },
+    {
+      "type": "dades-de-diagnostic",
+      "status": "yes",
+      "linked": "no",
+      "tracking": "no",
+      "shared": "unknown",
+      "level": "official",
+      "purposes": [
+        "prestacio-del-servei"
+      ],
+      "sources": [
+        "windy-weather-app-store"
+      ]
+    }
+  ],
+  "tracking": {
+    "crossAppTracking": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "windy-weather-app-store"
+      ],
+      "detail": "L’etiqueta declara la ubicació exacta com a dada utilitzada per rastrejar.",
+      "verifiedAt": "2026-09-22"
+    },
+    "advertisingIdentifiers": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política parla de Meta Pixel i AppsFlyer, però no diu expressament si fa servir l’IDFA."
+    },
+    "thirdPartyTrackersPresent": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "windy-weather-privacy-policy"
+      ],
+      "detail": "Google Analytics, Amplitude, UserX, Microsoft Clarity, Meta i AppsFlyer.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "dataUses": {
+    "targetedAdvertising": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "windy-weather-privacy-policy"
+      ],
+      "detail": "La política preveu galetes publicitàries per fer els anuncis més rellevants segons els interessos i campanyes amb Meta.",
+      "verifiedAt": "2026-09-22"
+    },
+    "profiling": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no descriu l’elaboració de perfils més enllà de la publicitat."
+    },
+    "aiTraining": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "La política no diu res sobre l’entrenament de models."
+    }
+  },
+  "sharing": {
+    "thirdPartySharing": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "windy-weather-privacy-policy"
+      ],
+      "detail": "Proveïdors d’analítica, publicitat (Meta, AppsFlyer) i pagament (Stripe).",
+      "verifiedAt": "2026-09-22"
+    },
+    "intraGroupSharing": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consta informació sobre empreses del grup."
+    },
+    "dataBrokerSales": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "windy-weather-privacy-policy"
+      ],
+      "detail": "Declara que no ven informació personal, en l’apartat per a residents de Califòrnia i Virgínia.",
+      "verifiedAt": "2026-09-22"
+    },
+    "internationalTransfers": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "windy-weather-privacy-policy"
+      ],
+      "detail": "Les dades es guarden principalment als Estats Units i a Europa; la política no concreta el mecanisme de transferència.",
+      "verifiedAt": "2026-09-22",
+      "mechanism": "unknown"
+    }
+  },
+  "transparency": {
+    "policyClarity": "low",
+    "transparencyReport": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap informe de transparència."
+    }
+  },
+  "retention": {
+    "definedPeriods": {
+      "status": "no",
+      "level": "official",
+      "sources": [
+        "windy-weather-privacy-policy"
+      ],
+      "detail": "Només diu que conserva les dades el temps necessari per a la finalitat.",
+      "verifiedAt": "2026-09-22"
+    },
+    "dataAfterDeletion": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "windy-weather-delete"
+      ],
+      "detail": "L’eliminació esborra els preferits, la configuració, els missatges del xat i el contingut compartit; no concreta què es conserva per obligació legal.",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  "accountDeletion": {
+    "possible": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "windy-weather-delete",
+        "windy-weather-privacy-policy"
+      ],
+      "verifiedAt": "2026-09-22"
+    },
+    "selfService": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "windy-weather-delete"
+      ],
+      "detail": "Hi ha una opció «Delete Account» dins del perfil.",
+      "verifiedAt": "2026-09-22"
+    },
+    "directUrl": "https://windy.app/how-to-delete-account",
+    "difficulty": "easy",
+    "requiresSupportContact": false,
+    "steps": [
+      "A l’aplicació, toca la icona de perfil a la cantonada inferior dreta.",
+      "Toca el teu nom de perfil (o inicia la sessió).",
+      "A «Edit Profile», toca la icona de la cantonada superior dreta.",
+      "Tria «Delete Account». Com a alternativa, escriu al suport amb l’assumpte «Request Account Deletion»."
+    ],
+    "obstacles": "La subscripció s’ha de cancel·lar a part a l’App Store.",
+    "sources": [
+      "windy-weather-delete"
+    ]
+  },
+  "userRights": {
+    "dataExport": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "windy-weather-privacy-policy"
+      ],
+      "detail": "Reconeix el dret a rebre una còpia en format llegible per màquina, per correu.",
+      "verifiedAt": "2026-09-22"
+    },
+    "exportFormatQuality": "unknown",
+    "rightsExercise": {
+      "status": "yes",
+      "level": "official",
+      "sources": [
+        "windy-weather-privacy-policy"
+      ],
+      "detail": "Peticions a windy@windyapp.co; resposta en 15 dies hàbils.",
+      "verifiedAt": "2026-09-22",
+      "url": "mailto:windy@windyapp.co",
+      "responseTimeDays": 21
+    }
+  },
+  "controls": {
+    "adPersonalizationOptOut": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "windy-weather-privacy-policy"
+      ],
+      "detail": "Preferències de galetes al web; a l’iPhone depèn del permís de rastreig del sistema.",
+      "verifiedAt": "2026-09-22"
+    },
+    "telemetryOptOut": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap control per desactivar l’analítica dins de l’aplicació."
+    },
+    "granularControls": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació sobre controls dins de l’aplicació."
+    },
+    "defaultPosture": "unknown",
+    "darkPatterns": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap anàlisi de patrons foscos."
+    }
+  },
+  "security": {
+    "e2ee": {
+      "status": "na",
+      "level": "official",
+      "sources": [],
+      "detail": "El xat entre persones usuàries és una funció secundària d’un servei meteorològic; no hem trobat cap promesa de xifratge d’extrem a extrem.",
+      "verifiedAt": "2026-09-22"
+    },
+    "transportEncryption": {
+      "status": "partial",
+      "level": "official",
+      "sources": [
+        "windy-weather-privacy-policy"
+      ],
+      "detail": "Diu que xifra la informació sensible, sense concretar-ho.",
+      "verifiedAt": "2026-09-22"
+    },
+    "atRestEncryption": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hi ha informació concreta sobre el xifratge en repòs."
+    },
+    "mfa": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat documentació sobre la verificació en dos passos."
+    },
+    "independentAudits": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No consten auditories publicades."
+    },
+    "bugBounty": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap programa de recompenses."
+    },
+    "vulnerabilityDisclosure": {
+      "status": "unknown",
+      "level": "unknown",
+      "sources": [],
+      "detail": "No hem trobat cap canal de notificació de vulnerabilitats; windy.app no té security.txt."
+    }
+  },
+  "alternatives": [
+    {
+      "app": "windy-com",
+      "comparability": "partial",
+      "rationale": "Mapes de vent i onatge amb una etiqueta de l’App Store que no declara cap dada vinculada ni cap rastreig.",
+      "tradeOffs": "Menys orientada a spots d’esports concrets."
+    }
+  ],
+  "review": {
+    "researchStatus": "documented",
+    "lastReviewedAt": "2026-09-22",
+    "incidentsReviewed": true,
+    "editorialNotes": "L’etiqueta declara les dades d’analítica com a no vinculades, però la política cita eines com Meta i AppsFlyer que treballen amb identificadors. No hem pogut resoldre aquesta contradicció aparent.",
+    "openQuestions": [
+      "Quina entitat fa de representant a la Unió Europea, com exigeix l’article 27 del RGPD?"
+    ]
+  },
+  "appStoreBundleId": "co.windyapp.Windy"
+}
